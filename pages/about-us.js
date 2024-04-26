@@ -80,7 +80,7 @@ export default function AboutUs() {
                             {/* <p className="customText">As premier partners of Google, Facebook & Bing, our in-house team of passionate professionals boasts talent, creativity, technical know-how & dedication makes us the best PPC management company in India. Our team specialize in PPC management services and have expertise in generating leads using Google Ads, Meta Ads & YouTube advertisements  at affordable costs. We're laser-focused on generating the best ROI and driving tangible business growth and success through cutting-edge strategies and innovative technologies</p>
                         <p className="customText">At SIB Infotech, collaboration is key. We delve deep to understand your unique needs and goals, crafting tailored digital marketing plans that achieve your objectives. Our commitment to affordability makes our exceptional services accessible to all businesses, ensuring you never compromise on quality.</p>
                         <p className="customText">To learn more about our comprehensive services and how we can contribute to your business growth online, <Link href="/contact">
-                          <a>Book your NO-COST Consultation today!</a>
+                          <Link>Book your NO-COST Consultation today!</Link>
                         </Link></p> */}
                         </div>
                     </div>

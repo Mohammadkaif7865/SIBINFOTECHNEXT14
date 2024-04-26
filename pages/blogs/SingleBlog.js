@@ -1,14 +1,16 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Helmet } from 'react-helmet-async';
-import {Link, useNavigate, useParams} from 'react-router-dom';
+import { useParams} from 'react-router-dom';
+import { useRouter } from "next/router";
+import Link from "next/link";
 import { compareAsc, format } from 'date-fns'
 
 import axios from "axios";
-import * as CONSTANTS from "../../Constants.js";
+import * as CONSTANTS from "../../constants/constants";
 
 export default function SingleBlog() {
 
-  const navigate = useNavigate();
+  const navigate = useRouter();
   const { slug } = useParams();
 
   const [blog, setBlog] = useState();
@@ -102,7 +104,7 @@ export default function SingleBlog() {
 
                             {blogs && blogs.map((blog, index) => {
                             return <div key={index} className="inline_blog_card">
-                                <Link to={"/blogs/"+blog.slug}>
+                                <Link href={"/blogs/"+blog.slug}>
                                     <div className="img">
                                         <img src={`${CONSTANTS.BACKEND_URL+blog.image}`} alt={blog.image_alt} className="img-fluid"/>
                                     </div>

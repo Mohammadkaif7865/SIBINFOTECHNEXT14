@@ -384,7 +384,7 @@ export default function SearchEngineOptimizationServices() {
                         </div>
                         <div className="col-lg-4">
                             <div className="rightAction text-center">
-                                <a href="#bannerSection" className="btnAction">Speak with one of our SEO Experts in India today!</a>
+                                <Link href="#bannerSection" className="btnAction">Speak with one of our SEO Experts in India today!</Link>
                             </div>
                         </div>
                     </div>
@@ -511,7 +511,7 @@ export default function SearchEngineOptimizationServices() {
                         </div>
                         <div className="col-lg-3">
                             <div className="rightAction text-center">
-                                <a href="#bannerSection" className="btnAction mt-2">Contact Us</a>
+                                <Link href="#bannerSection" className="btnAction mt-2">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -743,7 +743,7 @@ export default function SearchEngineOptimizationServices() {
                         </div>
                         <div className="col-lg-3">
                             <div className="rightAction text-center">
-                                <a href="#bannerSection" className="btnAction w-100 mt-2">Get to know how</a>
+                                <Link href="#bannerSection" className="btnAction w-100 mt-2">Get to know how</Link>
                             </div>
                         </div>
                     </div>
@@ -984,7 +984,7 @@ export default function SearchEngineOptimizationServices() {
                                 <h4 className="sub_heading fontHeading fontWeight600">Ready to Grow your Business Online</h4>
                                 <h4 className="sub_heading fontHeading mt-3 fontWeight600">Hire SIB Infotech as your Next SEO agency in India</h4>
                                 <p className="title mt-4 fontWeight500">Click on the button below for <span className="fontWeight800">free SEO Audit</span></p>
-                                <a href="#bannerSection" className="btnTheme mt-4">Get your proposal today </a>
+                                <Link href="#bannerSection" className="btnTheme mt-4">Get your proposal today </Link>
                             </div>
                         </div>
                         <div className="col-lg-6 mt-lg-0 mt-4">

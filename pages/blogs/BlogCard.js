@@ -7,7 +7,9 @@ import { compareAsc, format } from 'date-fns'
 function BlogCard(props) {
 
     const {blog} = props;
-
+    if (!blog) {
+        return <div>Loading...</div>; // or return null if you prefer not to render anything
+    }
     return (
       <Link href={"/blogs/"+blog.slug}>
           <div className="blogItems">
