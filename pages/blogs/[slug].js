@@ -10,9 +10,9 @@ import * as CONSTANTS from "../../constants/constants";
 
 export default function SingleBlog() {
 
-  const navigate = useRouter();
-  const { slug } = useParams();
-
+  const router = useRouter();
+  const { slug } = router.query;
+  console.log("SDFSDFGSDFGSDGSDg", slug);
   const [blog, setBlog] = useState();
   const [blogs, setBlogs] = useState();
 
@@ -44,7 +44,7 @@ export default function SingleBlog() {
   useEffect(() => {
     getBlog();
     getBlogs();
-  }, [navigate, slug]);
+  }, [router, slug]);
 
   const createMarkup = () => {
     return { __html: blog[0].description };
