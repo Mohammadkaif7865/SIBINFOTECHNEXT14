@@ -61,12 +61,12 @@ export default function SingleBlog() {
             <meta property="og:title" content={blog[0].meta_keywords} />
             <meta property="og:description" content={blog[0].meta_description} />
             <meta property="og:image" content={`${CONSTANTS.BACKEND_URL+blog[0].image}`}/>
-            <meta property="og:url" content={`https://www.sibinfotech.com/blogs/${blog[0].slug}`} />
+            <meta property="og:url" content={`http://157.245.98.188/blogs/${blog[0].slug}`} />
             <meta name="twitter:title" content={blog[0].meta_keywords} />
             <meta name="twitter:description" content={blog[0].meta_description}/>
             <meta name="twitter:image" content={`${CONSTANTS.BACKEND_URL+blog[0].image}`}/>
-            <meta name="twitter:url" content={`https://www.sibinfotech.com/blogs/${blog[0].slug}`} />
-            <link rel="canonical" href={`https://www.sibinfotech.com/blogs/${blog[0].slug}`}/>
+            <meta name="twitter:url" content={`http://157.245.98.188/blogs/${blog[0].slug}`} />
+            <link rel="canonical" href={`http://157.245.98.188/blogs/${blog[0].slug}`}/>
         </Helmet>
         <section id="single_blog" className="bgGrey">
             <div className="containerFull">

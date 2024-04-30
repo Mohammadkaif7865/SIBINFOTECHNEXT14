@@ -11,7 +11,7 @@ export default function MobileWebsiteDesigningServices() {
             <title>Mobile Website Designing Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/mobile-website-designing-services"/>
+            <link rel="canonical" href="http://157.245.98.188/mobile-website-designing-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -11,7 +11,7 @@ export default function FacebookAdsManagementServices() {
             <title>Facebook Ads Management Services Company,  Facebook Ad PPC Agency Mumbai India</title>
             <meta name="keywords" content="facebook advertising agency, facebook ads management services,  facebook ads company, , facebook ads management company , facebook ads management agency"/>
             <meta name="description" content="Our Facebook Specialists manage Facebook PPC Campaigns making your facebook ads reach millions and help you to Grow Online Sales. We are the Best Facebook Advertising Agency focused to generate highest ROI and Performance for your Brand"/>
-            <link rel="canonical" href="https://www.sibinfotech.com/facebook-ads-management-services"/>
+            <link rel="canonical" href="http://157.245.98.188/facebook-ads-management-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

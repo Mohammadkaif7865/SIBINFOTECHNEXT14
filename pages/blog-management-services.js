@@ -11,7 +11,7 @@ export default function BlogManagementServices() {
             <title>Blog Management Services, Blog Promotion and Marketing Company India</title>
             <meta name="keywords" content="Blog management, blog management consulting, multiple blog management, wordpress blog management, blogs management services, blog services, blog promotion, manage blog, business blog"/>
             <meta name="description" content="We offer  360 Degree Blog Management Service that would bring traffic to your blog & increase your brand awarness, sales & leads. We help you in Blog Creation, writing blog content and publishing post and blogcommenting on your blog."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/blog-management-services"/>
+            <link rel="canonical" href="http://157.245.98.188/blog-management-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

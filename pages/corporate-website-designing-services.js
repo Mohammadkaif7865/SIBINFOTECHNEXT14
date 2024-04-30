@@ -9,7 +9,7 @@ export default function CorporateWebsiteDesigningServices() {
     <div>
         <Helmet>
             <title>Corporate Website Designing Servicess</title>
-            <link rel="canonical" href="https://www.sibinfotech.com/corporate-website-designing-services"/>
+            <link rel="canonical" href="http://157.245.98.188/corporate-website-designing-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

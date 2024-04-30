@@ -12,7 +12,7 @@ export default function MagentoDevelopment() {
             <title>Magento Development Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/magento-development-services-mumbai-india"/>
+            <link rel="canonical" href="http://157.245.98.188/magento-development-services-mumbai-india"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

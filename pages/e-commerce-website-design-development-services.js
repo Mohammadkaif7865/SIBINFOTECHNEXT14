@@ -9,7 +9,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
     <div>
          <Helmet>
             <title>E-Commerce Website Designing Company in Mumbai Ecommerce India</title>
-            <link rel="canonical" href="https://www.sibinfotech.com/e-commerce-website-design-development-services"/>
+            <link rel="canonical" href="http://157.245.98.188/e-commerce-website-design-development-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

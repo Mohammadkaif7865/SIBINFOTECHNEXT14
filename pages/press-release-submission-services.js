@@ -11,7 +11,7 @@ export default function PressReleaseSubmissionServices() {
             <title>Press Release Submission Services Companies Mumbai London India SIB Infotech</title>
             <meta name="keywords" content=""/>
             <meta name="description" content="SIB Infotech's Press release service will post the press releases for you regarding your business and then allocate them to the various media channels. We offer Press Release Writing And Distribution service for High traffic an High Search Engine Visibillity."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/press-release-submission-services"/>
+            <link rel="canonical" href="http://157.245.98.188/press-release-submission-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

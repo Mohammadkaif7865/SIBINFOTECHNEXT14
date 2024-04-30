@@ -11,7 +11,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
             <title>CRM & ERP Solutions Services Provider Companies Mumbai India</title>
             <meta name="keywords" content="crm solutions,crm solutions india,crm solution provider,crm solution provider india,crm solution provider delhi,crm solution provider mumbai,crm solution provider dehi,crm solutions india,crm solutions mumbai,crm solutions delhi,crm solutions pune,crm sol"/>
             <meta name="description" content="SIB Infotech solutions provides flexible customer relationship management (CRM) solutions for the financial services, home building, legal services and manufacturing industries. The SIB Infotech CRM software suite includes CRM tools for marketing automation and lead management, sales force automation (SFA), and customer service, as well as customer feedback management and partner management"/>
-            <link rel="canonical" href="https://www.sibinfotech.com/erp-crm-software-development-solutions"/>
+            <link rel="canonical" href="http://157.245.98.188/erp-crm-software-development-solutions"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">
