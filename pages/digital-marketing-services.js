@@ -360,7 +360,7 @@ export default function DigitalMarketingServices() {
                         </div>
                         <div className="col-lg-4">
                             <div className="rightAction text-center">
-                                <span href="#bannerSection" className="btnAction">Speak with one of our Experts in India today!</span>
+                                <Link href="#bannerSection" className="btnAction">Speak with one of our Experts in India today!</Link>
                             </div>
                         </div>
                     </div>
@@ -552,7 +552,7 @@ export default function DigitalMarketingServices() {
                         </div>
                         <div className="col-lg-3">
                             <div className="rightAction text-center">
-                                <span href="#bannerSection" className="btnAction mt-2">Contact Us</span>
+                                <Link href="#bannerSection" className="btnAction mt-2">Contact Us</Link>
                             </div>
                         </div>
                     </div>
