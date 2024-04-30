@@ -6,7 +6,7 @@ const nextConfig = {
   assetPrefix: 'https://www.sibinfotech.com',
   
   // If you want to serve the Next.js app from a sub-directory
-  basePath: '', // e.g., '/sub-directory'
+  // basePath: '', // e.g., '/sub-directory'
 
   // If you have a custom webpack configuration
   // webpack: (config, { isServer }) => {
