@@ -18,7 +18,6 @@ export default function Blog() {
   }
 
   const getBlogs = async () => {
-    console.log("DFFDSFSDFSDFSDFSDFSDFsdf", headers, CONSTANTS.API_TOKEN);
     const res = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
         headers: headers
       }).catch((err) => console.log(err));

@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Layout from '../comps/Layout';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import '../public/assets/css/style.css';
@@ -73,6 +75,7 @@ function MyApp({ Component, pageProps }) {
           {/* <link rel="manifest" href="/manifest.json" /> */}
 
         </Head>
+        <ToastContainer />
         <Component {...pageProps} />
       </Layout>
     </HelmetProvider>

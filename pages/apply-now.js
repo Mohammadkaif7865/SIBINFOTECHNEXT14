@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import axios from "axios";
 
 import * as CONSTANTS from "../constants/constants";
@@ -166,10 +166,10 @@ export default function ApplyNow() {
         addCareer()
           .then((data) => {
             if(!data.error) {
-              // toast.success(data.message);
+              toast.success(data.message);
               router.push('/');
             } else {
-              // toast.error(data.message);
+              toast.error(data.message);
             }
           });
         } else {

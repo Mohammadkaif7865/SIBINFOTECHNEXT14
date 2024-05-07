@@ -1,12 +1,9 @@
-"use client"
-
-
-
 import React, { useContext, useEffect, useState } from "react";
-import Link from 'next/link'
+import { Helmet } from 'react-helmet-async';
+import {Link} from 'react-router-dom';
 import axios from "axios";
 
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
 
@@ -64,8 +61,10 @@ export default function BannerForm() {
     if(code == inputs.cpatchaText) {
       submitEnquiry()
         .then((data) => {
+          console.log("SDGGFSDFSDFSDFSFDSf", data);
           if(!data.error) {
-            // toast.success(data.message);
+            console.log("SDGGFSDFSDFSDFSFDSf2", data);
+            toast.success(data.message);
             setInputs({
               name: "",
               cname: "",
@@ -77,7 +76,7 @@ export default function BannerForm() {
               cpatchaText: ""
             });
           } else {
-            // toast.error(data.message);
+            toast.error(data.message);
           }
         })
     } else {

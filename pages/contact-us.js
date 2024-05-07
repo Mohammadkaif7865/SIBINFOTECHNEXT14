@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import axios from "axios";
 
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
@@ -58,7 +58,7 @@ export default function Contact() {
       submitEnquiry()
         .then((data) => {
           if (!data.error) {
-            // toast.success(data.message);
+            toast.success(data.message);
             setInputs({
               name: "",
               cname: "",
@@ -68,7 +68,7 @@ export default function Contact() {
               cpatchaText: ""
             });
           } else {
-            // toast.error(data.message);
+            toast.error(data.message);
           }
         })
     } else {
