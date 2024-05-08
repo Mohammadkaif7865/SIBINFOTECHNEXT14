@@ -2,7 +2,7 @@
 // next.config.mjs
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: 'http://157.245.98.188',
+  assetPrefix: 'https://www.sibinfotech.com',
 };
 
 export default nextConfig;

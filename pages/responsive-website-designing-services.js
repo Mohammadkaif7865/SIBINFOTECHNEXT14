@@ -11,7 +11,7 @@ export default function ResponsiveWebsiteDesigningServices() {
     <div>
         <Helmet>
             <title>Responsive Website Designing Services</title>
-            <link rel="canonical" href="http://157.245.98.188/responsive-website-designing-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com//responsive-website-designing-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

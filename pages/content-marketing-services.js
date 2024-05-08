@@ -11,7 +11,7 @@ export default function ContentMarketingServices() {
             <title>Best Content Marketing Services Agency in India, SEO Content Creation Company</title>
             <meta name="keywords" content="Content Marketing Services, Content Marketing Agency, Content Marketing, Digital Content Marketing, Content Marketing Company, SEO Content Marketing, SEO Content Creation"/>
             <meta name="description" content="Rated best content marketing agency in India telling brand stories better via its quality content marketing services which creates specific content to drive awareness & building the brand. Our expert content strategy involves content creation, content publishing to content distribution and promotion "/>
-            <link rel="canonical" href="http://157.245.98.188/content-marketing-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com//content-marketing-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

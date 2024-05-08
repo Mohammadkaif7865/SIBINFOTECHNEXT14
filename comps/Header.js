@@ -42,8 +42,8 @@ export default function Header() {
                         <div className="leftLogo">
                             <Link href="/">
                                 <picture>
-                                    <source media="(max-width:650px)" srcSet="http://157.245.98.188//assets/images/m-logo.webp"></source>
-                                    <img src="http://157.245.98.188/assets/images/logo.webp" alt="Best Digital Marketing Company in India"/>
+                                    <source media="(max-width:650px)" srcSet="https://www.sibinfotech.com///assets/images/m-logo.webp"></source>
+                                    <img src="https://www.sibinfotech.com//assets/images/logo.webp" alt="Best Digital Marketing Company in India"/>
                                 </picture>
                             </Link>
                         </div>

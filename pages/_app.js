@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
           <meta name="abstract" content="Website Designing And Digital Marketing Services Company India" />
           <meta name="Classification" content="Business" />
           <meta name="Classification" content="SIB Infotech is a leading website designing and development and digital marketing company in Mumbai, Delhi, India offers complete end to end web solutions for designing development and digital marketing services that will help to improve user experience." />
-          <meta name="dc.source" content="http://157.245.98.188" />
+          <meta name="dc.source" content="https://www.sibinfotech.com/" />
           <meta name="dc.title" content="Website Designing And Digital Marketing Services Company India" />
           <meta name="dc.keywords" content="Best Web Design Agency Mumbai, Web designing agency, Website Designing Company In Mumbai,website design services in india, web design services india, Website development agency, Web development company, Best Web Development Company Mumbai, Web development company in India." />
           <meta name="dc.subject" content="SIB Infotech" />

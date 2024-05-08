@@ -17,7 +17,7 @@ export default function Resource() {
     					<div className="innerBannerTitle venter">
     						<h1 className="heading fontWeight700 text-center text-white">Resource</h1>
                             <div className="mt-5 text-center">
-                                <Link href="http://157.245.98.188/#requestQuote">
+                                <Link href="https://www.sibinfotech.com//#requestQuote">
                                   <span className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</span>
                                 </Link>
                                 <Link href="contact-us">

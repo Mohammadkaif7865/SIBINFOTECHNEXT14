@@ -18,7 +18,7 @@ export default function CookiesPolicy() {
     					<div className="innerBannerTitle venter">
     						<h1 className="heading fontWeight700 text-center text-white">Cookies Policy</h1>
                             <div class="mt-5 text-center">
-                                <Link href="http://157.245.98.188/#requestQuote" class="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+                                <Link href="https://www.sibinfotech.com//#requestQuote" class="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
                                 <Link href="contact.php" class="btnThemewhiteBorder"><i class="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
     					</div>

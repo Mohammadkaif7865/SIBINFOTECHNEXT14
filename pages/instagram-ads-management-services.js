@@ -11,7 +11,7 @@ export default function InstagramAdsManagementServices() {
             <title>Instagram Ads Management Company India , Instagram Advertising Agency Mumbai</title>
             <meta name="keywords" content="Instagram advertising agency, Instagram advertising services, Instagram ads manager, Instagram advertising company, promote products on Instagram"/>
             <meta name="description" content="Best Instagram ad management company in Mumbai, India.  Grow your Instagram account with real followers, likes and more with our effective Instagram advertising (ads) management services."/>
-            <link rel="canonical" href="http://157.245.98.188/instagram-ads-management-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com//instagram-ads-management-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

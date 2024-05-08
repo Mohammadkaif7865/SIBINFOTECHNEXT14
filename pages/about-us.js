@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div>
             <Head>
                 <title>Top Indian SEO Company in Mumbai, SEO Services India</title>
-                <link rel="canonical" href="http://157.245.98.188/about-us" />
+                <link rel="canonical" href="https://www.sibinfotech.com//about-us" />
             </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">

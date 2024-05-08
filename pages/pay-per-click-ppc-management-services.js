@@ -18,7 +18,7 @@ export default function PpcManagementServices() {
                             <h1 className="heading fontWeight700 text-white">Pay Per Click Management Services</h1>
                             <h2 className="small_heading fw-bold mt-lg-3 mt-2 text-white">Top Rated PPC Management Company in India</h2>
                             <div className="mt-4">
-                              <Link href="http://157.245.98.188/#requestQuote">
+                              <Link href="https://www.sibinfotech.com//#requestQuote">
                                 <span className="btnThemeRed me-3">
                                   <i className="fa-solid fa-comment-dots"></i> Get a Quote
                                 </span>

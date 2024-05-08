@@ -12,7 +12,7 @@ export default function WebDevelopmentServices() {
     <div>
       <Head>
         <title>Best Web Development Company India, Website Development Agency Services Mumbai</title>
-        <link rel="canonical" href="http://157.245.98.188/website-development-services" />
+        <link rel="canonical" href="https://www.sibinfotech.com//website-development-services" />
       </Head>
       <div className="innerWebDesign">
         <div className="container-fluid">
@@ -21,7 +21,7 @@ export default function WebDevelopmentServices() {
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white">Website Development Services</h1>
                 <div className="mt-4">
-                  <Link href="http://157.245.98.188/#requestQuote">
+                  <Link href="https://www.sibinfotech.com//#requestQuote">
                     <span className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</span>
                   </Link>
                   <Link href="#">
@@ -702,7 +702,7 @@ export default function WebDevelopmentServices() {
             </table>
           </div>
           <div className="text-center">
-            <Link href="http://157.245.98.188/website-design-development-services-packages">
+            <Link href="https://www.sibinfotech.com//website-design-development-services-packages">
               <span className="btnPlans">View Plans</span>
             </Link>
           </div>

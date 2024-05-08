@@ -10,7 +10,7 @@ export default function Career() {
                 <title>SIB Infotech | Career - Current Openings</title>
                 <meta name="keywords" content="Career" />
                 <meta name="description" content="Career" />
-                <link rel="canonical" href="http://157.245.98.188/career" />
+                <link rel="canonical" href="https://www.sibinfotech.com//career" />
             </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">
