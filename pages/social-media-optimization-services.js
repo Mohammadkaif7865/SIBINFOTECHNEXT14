@@ -8,7 +8,7 @@ export default function SocialMediaOptimizationServices() {
         <div>
             <Head>
                 <title>Social Media Marketing Services Companies Mumbai London India UK SIB Infotech</title>
-                <link rel="canonical" href="https://www.sibinfotech.com//social-media-optimization-services" />
+                <link rel="canonical" href="https://www.sibinfotech.com/social-media-optimization-services" />
             </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">

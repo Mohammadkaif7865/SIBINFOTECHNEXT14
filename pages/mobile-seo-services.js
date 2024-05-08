@@ -11,7 +11,7 @@ export default function MobileSeoServices() {
             <title>Best Mobile SEO Agency - Top Mobile SEO Services Company in India</title>
             <meta name="keywords" content="Mobile SEO Services, Mobile SEO Services in India, Mobile SEO"/>
             <meta name="description" content="Rated Best Mobile SEO company in India  our focus is in offering customized mobile search engine optimization solutions  and optimizing Mobile SEO for your website & hence our mobile SEO services are trusted best brands globally."/>
-            <link rel="canonical" href="https://www.sibinfotech.com//mobile-seo-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/mobile-seo-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

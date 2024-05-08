@@ -13,7 +13,7 @@ export default function WebsiteDesigningServices() {
 				<title>Best Website Designing Company In India, Web Design Services Agency Mumbai, Delhi & New York</title>
 				<meta name="description" content="Top Website Designing Company in India offering affordable web design and development services to help companies grow their online business. We offer WordPress Website Designing, eCommerce websites, Shopify Web Design, WooCommerce Websites, Landing Page Designing etc." />
 				<meta name="keywords" content="web designing India, website designing Mumbai,  website design, E-Commerce website design, professional web designer, custom website designing, web design company, website design mumbai, web design company mumbai, Mumbai website design company, shopify web design, website design services in india, website design in mumbai, website designing company in mumbai, website designers in mumbai, landing page designing " />
-				<link rel="canonical" href="https://www.sibinfotech.com//website-designing-services" />
+				<link rel="canonical" href="https://www.sibinfotech.com/website-designing-services" />
 			</Head>
 			<div className="innerWebDesign">
 				<div className="container-fluid">
@@ -23,7 +23,7 @@ export default function WebsiteDesigningServices() {
 								<h1 className="heading fontWeight700 text-white">Website Designing Services</h1>
 								<h2 className="small_heading fw-bold mt-lg-2 mt-1 text-white">A Web Design Agency in the heart of India</h2>
 								<div className="mt-4">
-									<Link href="https://www.sibinfotech.com//#requestQuote">
+									<Link href="https://www.sibinfotech.com/#requestQuote">
 										<span className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</span>
 									</Link>
 									<Link href="#">

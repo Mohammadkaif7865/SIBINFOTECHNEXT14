@@ -44,13 +44,13 @@ export default function Home({ blogs }) {
         <meta name="description" content="SIB is Google Partner Agency & Top Company in Mumbai for Digital Marketing, Website Designing, Mobile App Development, SEO, Google AdWords PPC Management, Web Development, Custom CRM & ERP, E-Commerce Design, Website Redesign services & a complete web solution firm in Navi Mumbai, Thane, Pune, Delhi NCR, Noida, Gurgaon, India"/>
         <meta property="og:title" content="Best Website Designing Development & Digital Marketing SEO Company in Mumbai, Delhi, India"/>
         <meta property="og:description" content="SIB Infotech is a leading website designing and development and digital marketing company in Mumbai, Delhi, India offers complete end to end web solutions for designing development and digital marketing services that will help to improve user experience."/>
-        <meta property="og:image" content="https://www.sibinfotech.com//assets/images/logo.webp"/>
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/images/logo.webp"/>
         <meta property="og:url" content="https://www.sibinfotech.com/"/>
         <meta name="twitter:title" content="Best Website Designing Development & Digital Marketing SEO Company in Mumbai, Delhi, India"/>
         <meta name="twitter:description" content="SIB Infotech is a leading website designing and development and digital marketing company in Mumbai, Delhi, India offers complete end to end web solutions for designing development and digital marketing services that will help to improve user experience."/>
-        <meta name="twitter:image" content="https://www.sibinfotech.com//assets/images/logo.webp"/>
+        <meta name="twitter:image" content="https://www.sibinfotech.com/assets/images/logo.webp"/>
         <meta name="twitter:url" content=" https://www.sibinfotech.com/" />
-        <link rel="canonical" href="https://www.sibinfotech.com//" />
+        <link rel="canonical" href="https://www.sibinfotech.com/" />
       </Head>
       <div className="bannerBlock">
         <video loop playsInline autoPlay muted>

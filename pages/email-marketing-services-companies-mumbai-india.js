@@ -11,7 +11,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
             <title>Email Marketing Services Companies Mumbai Delhi London India UK</title>
             <meta name="keywords" content="email marketing solutions,email marketing solution,email marketing experts,email marketing expert,email marketing seo services,email marketing firms,email marketing services,email marketing companies,email marketing india,email marketing delhi,email marke"/>
             <meta name="description" content="SIB Infotech provides affordable email marketing solutions India.We have a Web based email marketing software solution that helps you to create, send, manage, and track responses of your targeted email campaigns"/>
-            <link rel="canonical" href="https://www.sibinfotech.com//email-marketing-services-companies-mumbai-india"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -11,7 +11,7 @@ export default function WordPressCmsServices() {
             <title>Wordpress CMS Website Development Services Companies India SIB Infotech</title>
             <meta name="keywords" content="wordpress cms development services,wordpress cms development service,offshore wordpress cms development,wordpress cms development companies,wordpress cms development company,wordpress cms development india,wordpress cms development delhi,wordpress cms dev"/>
             <meta name="description" content="SIB Infotech provides Wordpress CMS development services.At SIB Infotech, we can do anything with wordpress whether it is website development, blogging platform, Multi-blogging platform, social network and anything web 2.0."/>
-            <link rel="canonical" href="https://www.sibinfotech.com//wordpress-cms-website-development-companies-mumbai-india"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/wordpress-cms-website-development-companies-mumbai-india"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

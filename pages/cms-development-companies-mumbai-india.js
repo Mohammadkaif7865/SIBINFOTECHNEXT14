@@ -11,7 +11,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
             <title>CMS Development Services Companies Mumbai Delhi India UK USA</title>
             <meta name="keywords" content="cms development services,cms development service,offshore cms development, cms development companies, cms development company,cms development india,cms development delhi,cms development mumbai,cms development chennai,cms development bangalore,cms developmen"/>
             <meta name="description" content="SIB Infotech offers most affordable and most user-friendly web based CMS Design or content management system design, which helps you to manage your website on a real-time basis.CMS developer india - SIB Infotech has several years of experience in custom content management system (CMS) development and customization"/>
-            <link rel="canonical" href="https://www.sibinfotech.com//cms-development-companies-mumbai-india" />
+            <link rel="canonical" href="https://www.sibinfotech.com/cms-development-companies-mumbai-india" />
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

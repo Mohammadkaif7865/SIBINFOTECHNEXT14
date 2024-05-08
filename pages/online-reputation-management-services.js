@@ -11,7 +11,7 @@ export default function OnlineReputationManagementServices() {
             <title>Online Reputation Management India, Online Reputation Expertsâ€Ž in Mumbai</title>
             <meta name="keywords" content="online reputation management, Online Reputation Expertsâ€Ž,  online reputation management, reputation management services, Reputation repair, remove negative comment, remove google content "/>
             <meta name="description" content="Rated best online reputation management services company in India helping companies & individuals  with removal of negative content from google, Reputation repair, brand building , review & rating improvements and delivering positive reputation."/>
-            <link rel="canonical" href="https://www.sibinfotech.com//online-reputation-management-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/online-reputation-management-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -10,7 +10,7 @@ export default function WebPortalCompanyMumbai() {
         <Helmet>
             <title>Portal Development Services Companies Mumbai India London UK SIB Infotech</title>
             <meta name="keywords" content="web portal development services,web portal development service,offshore web portal development,web portal development companies,web portal development company,web portal development india,web portal development delhi,web portal development mumbai,web port"/>
-            <meta name="description" content="SIB Infotech's portal development services range over portal designing, portal development, offshore portal development, portal maintenance. We design and develop multi-domain web portals which include B2B (Business to Business) portals, B2C (Business to Consumer) portals, e-commerce portals, SharePoint portals, Knowledge Management Portals, Job Portals, Service Portals and more"/><link rel="canonical" href="https://www.sibinfotech.com//webportal-development-companies-mumbai-india"/>
+            <meta name="description" content="SIB Infotech's portal development services range over portal designing, portal development, offshore portal development, portal maintenance. We design and develop multi-domain web portals which include B2B (Business to Business) portals, B2C (Business to Consumer) portals, e-commerce portals, SharePoint portals, Knowledge Management Portals, Job Portals, Service Portals and more"/><link rel="canonical" href="https://www.sibinfotech.com/webportal-development-companies-mumbai-india"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -11,7 +11,7 @@ export default function XhtmlConversionServices() {
             <title>XHTML Conversion</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com//xhtml-conversion-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/xhtml-conversion-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

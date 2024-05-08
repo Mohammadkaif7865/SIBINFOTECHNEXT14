@@ -19,7 +19,7 @@ export default function TermsOfUse() {
             <title>Terms & Conditions</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com//terms-and-conditions"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/terms-and-conditions"/>
         </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
@@ -28,7 +28,7 @@ export default function TermsOfUse() {
     					<div className="innerBannerTitle venter">
     						<h1 className="heading fontWeight700 text-center text-white">Terms & Conditions</h1>
                             <div className="mt-5 text-center">
-                                <Link href="https://www.sibinfotech.com//#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+                                <Link href="https://www.sibinfotech.com/#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
                                 <Link href="contact.php" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
     					</div>
@@ -42,7 +42,7 @@ export default function TermsOfUse() {
                     <div className="col-md-12">
                         <div className="custom-page-icon-box icon-with-title">
                             <p>
-                                The following terms and conditions will be deemed to have been accepted by the User on usage of the website <Link href="https://www.sibinfotech.com//">www.sibinfotech.com</Link>. You are requested to read them carefully before you use the services of this site. This Site is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein. By using the Site, you agree to follow and be bound by the following terms and conditions concerning your use of the Site. SIB Infotech may revise the Terms and Condition at any time without notice to you.</p>
+                                The following terms and conditions will be deemed to have been accepted by the User on usage of the website <Link href="https://www.sibinfotech.com/">www.sibinfotech.com</Link>. You are requested to read them carefully before you use the services of this site. This Site is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein. By using the Site, you agree to follow and be bound by the following terms and conditions concerning your use of the Site. SIB Infotech may revise the Terms and Condition at any time without notice to you.</p>
                             </div>
                         <div className="custom-page-icon-box icon-with-title">
                             <p className="small_heading">

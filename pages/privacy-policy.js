@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
             <title>Privacy Policy</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com//privacy-policy"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/privacy-policy"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

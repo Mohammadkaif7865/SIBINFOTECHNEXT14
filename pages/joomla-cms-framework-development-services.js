@@ -11,7 +11,7 @@ export default function JoomlaCmsDevelopmentServices() {
             <title>Joomla Development</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com//joomla-cms-framework-development-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/joomla-cms-framework-development-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

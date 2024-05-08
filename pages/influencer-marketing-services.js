@@ -11,7 +11,7 @@ export default function InfluencerMarketingServices() {
             <title>Influencer Marketing Services Agency, Social Media Influencer India</title>
             <meta name="keywords" content="Influence Marketing Services, Influencer Marketing Agency, Premium Influencer Marketing Services, Influencer Marketing campaigns, Perfect Influencer"/>
             <meta name="description" content="SIB Infotech is leading influencer marketing agency in India , representing top social media influencers on major social media platforms helping you find the right influencers for brands"/>
-            <link rel="canonical" href="https://www.sibinfotech.com//influencer-marketing-services"/>
+            <link rel="canonical" href="https://www.sibinfotech.com/influencer-marketing-services"/>
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">
