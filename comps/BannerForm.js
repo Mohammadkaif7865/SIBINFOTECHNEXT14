@@ -83,7 +83,7 @@ export default function BannerForm() {
               </tr>
               <tr>
                   <td style='padding:10px;' width='250'>Website Location</td>
-                  <td style='padding:10px;'>${window.location.pathname}</td>
+                  <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
               </tr>
           </table>`,
         })
