@@ -263,19 +263,6 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
-                                            <source srcSet='assets/images/team/imran-naiyer-siddique.webp' />
-                                            <img src='assets/images/team/imran-naiyer-siddique.jpg' alt="Imran Naiyer Siddique" />
-                                        </picture>
-                                    </div>
-                                    <div className="teamName">
-                                        <h3 className="small_heading fontWeight600">Imran Naiyer Siddique</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-6 px-lg-4">
-                                <div className="teamItem">
-                                    <div className="teamImg">
-                                        <picture>
                                             <source srcSet='assets/images/team/kanchan-sharma.webp' />
                                             <img src='assets/images/team/kanchan-sharma.webp' alt="Kanchan Sharma" />
                                         </picture>
@@ -341,38 +328,12 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
-                                            <source srcSet='assets/images/team/rahul.webp' />
-                                            <img src='assets/images/team/rahul.jpg' alt="Rahul Trehan" />
-                                        </picture>
-                                    </div>
-                                    <div className="teamName">
-                                        <h3 className="small_heading fontWeight600">Rahul Trehan</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-6 px-lg-4">
-                                <div className="teamItem">
-                                    <div className="teamImg">
-                                        <picture>
                                             <source srcSet='assets/images/team/santosh-kumar.webp' />
                                             <img src='assets/images/team/santosh-kumar.jpg' alt="Santosh Kumar" />
                                         </picture>
                                     </div>
                                     <div className="teamName">
                                         <h3 className="small_heading fontWeight600">Santosh Kumar</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-6 px-lg-4">
-                                <div className="teamItem">
-                                    <div className="teamImg">
-                                        <picture>
-                                            <source srcSet='assets/images/team/soni-kumari.webp' />
-                                            <img src='assets/images/team/soni-kumari.jpg' alt="Soni Kumari" />
-                                        </picture>
-                                    </div>
-                                    <div className="teamName">
-                                        <h3 className="small_heading fontWeight600">Soni Kumari</h3>
                                     </div>
                                 </div>
                             </div>
