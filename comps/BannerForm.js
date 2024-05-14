@@ -88,7 +88,6 @@ export default function BannerForm() {
           </table>`,
         })
     }
-    console.log("DFSDGFDGDFSGSFDGFDGDFG", inputs, data);
     return data;
   };
 
