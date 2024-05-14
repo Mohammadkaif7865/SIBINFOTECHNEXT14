@@ -98,9 +98,7 @@ export default function BannerForm() {
     if(code == inputs.cpatchaText) {
       submitEnquiry()
         .then((data) => {
-          console.log("SDGGFSDFSDFSDFSFDSf", data);
           if(!data.error) {
-            console.log("SDGGFSDFSDFSDFSFDSf2", data);
             toast.success(data.message);
             setInputs({
               name: "",
@@ -112,6 +110,7 @@ export default function BannerForm() {
               website: "",
               cpatchaText: ""
             });
+            window.location.href = 'https://sibinfotech.com/thanks';
           } else {
             toast.error(data.message);
           }
