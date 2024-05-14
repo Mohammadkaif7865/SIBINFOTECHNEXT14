@@ -48,6 +48,40 @@ export default function Contact() {
       })
       .catch((err) => console.log(err));
     const data = await res.data;
+    if (data && !data.error) {
+      axios.post('https://sibinfotech.com/services/services/send-email-any',{
+          html: `
+          <p>Dear Admin,</p>
+          <p>You have received an enquiry from:</p>
+          <table width='500' border='1' cellspacing='0'>
+              <tr>
+                  <td style='padding:10px;' width='250'>Full Name</td>
+                  <td style='padding:10px;'>${inputs.name}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Company Name</td>
+                  <td style='padding:10px;'>${inputs.cname}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;'>${inputs.email}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Phone Number</td>
+                  <td style='padding:10px;'>${inputs.phone}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Detailsr</td>
+                  <td style='padding:10px;'>${inputs.details}</td>
+              </tr>
+              
+              <tr>
+                  <td style='padding:10px;' width='250'>Website Location</td>
+                  <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
+              </tr>
+          </table>`,
+        })
+    }
     return data;
   };
 
