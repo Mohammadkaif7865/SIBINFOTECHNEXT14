@@ -45,13 +45,50 @@ export default function BannerForm() {
     formData.append('service', inputs.service);
     formData.append('website', inputs.website);
     formData.append('page_url', window.location.pathname);
-
     const res = await axios
-      .post(`${CONSTANTS.API_URL}home/submit_banner_enquiry`, formData, {
-          headers: headers
-        })
-      .catch((err) => console.log(err));
+    .post(`${CONSTANTS.API_URL}home/submit_banner_enquiry`, formData, {
+      headers: headers
+    })
+    .catch((err) => console.log(err));
     const data = await res.data;
+    if (data && !data.error) {
+      axios.post('https://sibinfotech.com/services/services/send-email-any',{
+          html: `
+          <p>Dear Admin,</p>
+          <p>You have received an enquiry from:</p>
+          <table width='500' border='1' cellspacing='0'>
+              <tr>
+                  <td style='padding:10px;' width='250'>Full Name</td>
+                  <td style='padding:10px;'>${inputs.name}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Company Name</td>
+                  <td style='padding:10px;'>${inputs.cname}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Website url</td>
+                  <td style='padding:10px;'>${inputs.website}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;'>${inputs.email}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Phone Number</td>
+                  <td style='padding:10px;'>${inputs.phone}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Service Name</td>
+                  <td style='padding:10px;'>${inputs.service}</td>
+              </tr>
+              <tr>
+                  <td style='padding:10px;' width='250'>Website Location</td>
+                  <td style='padding:10px;'>${window.location.pathname}</td>
+              </tr>
+          </table>`,
+        })
+    }
+    console.log("DFSDGFDGDFSGSFDGFDGDFG", inputs, data);
     return data;
   };
 
