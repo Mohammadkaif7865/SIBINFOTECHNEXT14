@@ -22,7 +22,7 @@ export default function BannerForm() {
     email: "",
     phone: "",
     details: "",
-    service: "",
+    service: "Website Design",
     website: "",
     cpatchaText: ""
   });
@@ -94,7 +94,7 @@ export default function BannerForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if(code == inputs.cpatchaText) {
+    // if(code == inputs.cpatchaText) {
       submitEnquiry()
         .then((data) => {
           if(!data.error) {
@@ -114,10 +114,10 @@ export default function BannerForm() {
             toast.error(data.message);
           }
         })
-    } else {
-      alert("Invalid Captcha. try Again");
-      createCaptcha();
-    }
+    // } else {
+    //   alert("Invalid Captcha. try Again");
+    //   // createCaptcha();
+    // }
 
   };
 
@@ -127,7 +127,7 @@ export default function BannerForm() {
   };
 
   useEffect(() => {
-    createCaptcha();
+    // createCaptcha();
   }, []);
 
   return (
@@ -181,7 +181,7 @@ export default function BannerForm() {
                 </div>
             </div>
         </div>
-        <div className="bannerFormItem mt-0 d-lg-block d-none">
+        {/* <div className="bannerFormItem mt-0 d-lg-block d-none">
             <div className="row align-items-center">
                 <div className="col-3">
                     <div className="captcha" id="captcha"></div>
@@ -193,7 +193,7 @@ export default function BannerForm() {
                     <input type="text" className="capIn" placeholder="Type the text" name="cpatchaText" id="cpatchaTextBox" onChange={handleInputChange} value={inputs.cpatchaText} required/>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div className="bannerFormItem mt-2">
             <button name="submit" type="submit" className="btnTheme w-100 fontWeight700 rounded">Get in Touch</button>
         </div>
