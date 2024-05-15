@@ -52,7 +52,7 @@ export default function BannerForm() {
     .catch((err) => console.log(err));
     const data = await res.data;
     if (data && !data.error) {
-      axios.post('https://sibinfotech.com/services/services/send-email-any',{
+      axios.post(`${CONSTANTS.API_URL}send-email-any`,{
           html: `
           <p>Dear Admin,</p>
           <p>You have received an enquiry from:</p>
