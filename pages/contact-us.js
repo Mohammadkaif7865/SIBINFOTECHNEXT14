@@ -101,6 +101,7 @@ export default function Contact() {
               details: "",
               cpatchaText: ""
             });
+            window.location.href = 'https://sibinfotech.com/thanks';
           } else {
             toast.error(data.message);
           }
