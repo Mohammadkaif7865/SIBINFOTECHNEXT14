@@ -5,20 +5,12 @@ import Link from "next/link";
 import { compareAsc, format } from "date-fns";
 
 function BlogCard(props) {
-  function sanitizeSlug(slug) {
-    return slug
-      .replace(/[^a-zA-Z0-9 -]/g, "") // Remove special characters
-      .replace(/\s+/g, "-") // Replace spaces with hyphens
-      .toLowerCase(); // Convert to lowercase
-  }
   const { blog } = props;
-  console.log("This is the slugs", sanitizeSlug(blog.slug));
-
   if (!blog) {
     return <div>Loading...</div>; // or return null if you prefer not to render anything
   }
   return (
-    <Link href={"/blogs/" +sanitizeSlug(blog.slug)}>
+    <Link href={"/blogs/" +blog.slug}>
       <div className="blogItems">
         <div className="blogImg">
           <img
