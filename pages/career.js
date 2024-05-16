@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import BannerForm from '../comps/BannerForm';
+// import BannerForm from '../comps/BannerForm';
 
 export default function Career() {
     return (
@@ -15,8 +15,8 @@ export default function Career() {
             <div className="innerWebDesign">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-7 ps-lg-5">
-                            <div className="innerBannerTitle venter">
+                        <div className="col-lg-12">
+                            <div className="innerBannerTitle text-center venter">
                                 <h3 className="heading fontWeight700 text-white">We’re hiring</h3>
                                 <p className="small_heading mt-3 text-white">We’re a team of lifelong learners. We’re equal parts left and right brained. Join Us!</p>
                                 <p className="title mt-2 text-white">Connect with our HR Department </p>
@@ -31,21 +31,21 @@ export default function Career() {
                             </div>
                         </div>
                         <div className="col-lg-5 d-none d-lg-block pe-lg-5">
-                            <div className="bannerForm">
+                            {/* <div className="bannerForm">
                                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
                                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Digital Marketing</span> Company in India</strong></p>
                                 <BannerForm />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
             </div>
             <div className="col-lg-5 d-block d-lg-none pe-lg-5">
-                <div className="bannerForm">
+                {/* <div className="bannerForm">
                     <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
                     <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Digital Marketing</span> Company in India</strong></p>
                     <BannerForm />
-                </div>
+                </div> */}
             </div>
             <section id="openings">
                 <div className="container">
