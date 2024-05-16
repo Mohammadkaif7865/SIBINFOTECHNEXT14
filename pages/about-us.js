@@ -237,6 +237,32 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
+                                            <source srcSet='assets/images/team/aishwarya-rao.webp' />
+                                            <img src='assets/images/team/aishwarya-rao.jpg' alt="Aishwarya Rao" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Aishwarya Rao</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/anup-kumar.webp' />
+                                            <img src='assets/images/team/anup-kumar.jpg' alt="Anup Kumar" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Anup Kumar</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
                                             <source srcSet='assets/images/team/ashutosh-kumar-singh.webp' />
                                             <img src='assets/images/team/ashutosh-kumar-singh.jpg' alt="Aditya Kumar Jha" />
                                         </picture>
@@ -250,12 +276,38 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
+                                            <source srcSet='assets/images/team/disha.webp' />
+                                            <img src='assets/images/team/disha.jpg' alt="disha" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Disha</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
                                             <source srcSet='assets/images/team/geordy-mathew.webp' />
                                             <img src='assets/images/team/geordy-mathew.jpg' alt="Geordy Mathew" />
                                         </picture>
                                     </div>
                                     <div className="teamName">
                                         <h3 className="small_heading fontWeight600">Geordy Mathew</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/hemang-sharma.webp' />
+                                            <img src='assets/images/team/hemang-sharma.jpg' alt="Hemang Sharma" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Hemang Sharma</h3>
                                     </div>
                                 </div>
                             </div>
@@ -289,12 +341,64 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
+                                            <source srcSet='assets/images/team/malini-guria.webp' />
+                                            <img src='assets/images/team/malini-guria.jpg' alt="Malini Guria" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Malini Guria</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/mohammad-kaif.webp' />
+                                            <img src='assets/images/team/mohammad-kaif.jpg' alt="Mohammad Kaif" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Mohammad Kaif</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
                                             <source srcSet='assets/images/team/mumtaz-alam.webp' />
                                             <img src='assets/images/team/mumtaz-alam.jpg' alt="Mahadev Prasad Uniyal" />
                                         </picture>
                                     </div>
                                     <div className="teamName">
                                         <h3 className="small_heading fontWeight600">Mumtaz Alam</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/nikita-awle.webp' />
+                                            <img src='assets/images/team/nikita-awle.jpg' alt="Nikita Awle" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Nikita Awle</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/niti-chopra.webp' />
+                                            <img src='assets/images/team/niti-chopra.jpg' alt="Niti Chopra" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Niti Chopra</h3>
                                     </div>
                                 </div>
                             </div>
@@ -328,6 +432,97 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
+                                            <source srcSet='assets/images/team/rakesh-durkar.webp' />
+                                            <img src='assets/images/team/rakesh-durkar.jpg' alt="Rakesh Durkar" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Rakesh Durkar</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/rashi.webp' />
+                                            <img src='assets/images/team/rashi.jpg' alt="Rashi" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Rashi</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/reema-bhange.webp' />
+                                            <img src='assets/images/team/reema-bhange.jpg' alt="Reema Bhange" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Reema Bhange</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/rekha-singh.webp' />
+                                            <img src='assets/images/team/rekha-singh.jpg' alt="Rekha Singh" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Rekha Singh</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/sachin.webp' />
+                                            <img src='assets/images/team/sachin.jpg' alt="Sachin" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Sachin</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/sagar.webp' />
+                                            <img src='assets/images/team/sagar.jpg' alt="Sagar" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Sagar</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/sandra-vattoly.webp' />
+                                            <img src='assets/images/team/sandra-vattoly.jpg' alt="Sandra Vattoly" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Sandra Vattoly</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
                                             <source srcSet='assets/images/team/santosh-kumar.webp' />
                                             <img src='assets/images/team/santosh-kumar.jpg' alt="Santosh Kumar" />
                                         </picture>
@@ -347,6 +542,32 @@ export default function AboutUs() {
                                     </div>
                                     <div className="teamName">
                                         <h3 className="small_heading fontWeight600">Tushar Lad</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/vishakha.webp' />
+                                            <img src='assets/images/team/vishakha.jpg' alt="Vishakha" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Vishakha</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
+                                            <source srcSet='assets/images/team/vishal-maurya.webp' />
+                                            <img src='assets/images/team/vishal-maurya.jpg' alt="Vishal Maurya" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Vishal Maurya</h3>
                                     </div>
                                 </div>
                             </div>
