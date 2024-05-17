@@ -75,7 +75,7 @@ export default function Contact() {
                   <td style='padding:10px;'>${inputs.phone}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Detailsr</td>
+                  <td style='padding:10px;' width='250'>Details</td>
                   <td style='padding:10px;'>${inputs.details}</td>
               </tr>
               
@@ -183,7 +183,7 @@ export default function Contact() {
             </div>
             <div className="col-md-3">
               <div className="contactItem">
-                <h4>Career</h4>
+                <h4>HR/Job</h4>
                 <p>
                   <i className="fa fa-envelope text_primary"></i>{" "}
                   <Link href="#">

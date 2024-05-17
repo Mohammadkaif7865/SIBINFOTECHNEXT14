@@ -67,7 +67,7 @@ const nextConfig = {
       },
     ];
   },
-  assetPrefix: 'https://www.sibinfotech.com',
+  // assetPrefix: 'https://www.sibinfotech.com',
 };
 
 export default nextConfig;

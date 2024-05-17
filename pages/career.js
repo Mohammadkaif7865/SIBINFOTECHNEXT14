@@ -24,7 +24,7 @@ export default function Career() {
                                     <Link href="#requestQuote">
                                         <span className="btnThemeRed me-3"><i className="fa fa-phone"></i>  +91-9873477401</span>
                                     </Link>
-                                    <Link href="#">
+                                    <Link href="/apply-now">
                                         <span className="btnThemewhiteBorder"><i className="fa-solid fa-paper-plane"></i>  Apply Now</span>
                                     </Link>
                                 </div>
