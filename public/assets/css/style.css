@@ -4826,15 +4826,6 @@ section{
 .contactItem p i.fa-envelope{
   color:var(--red-color);
 }
-#contact_form_section {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 15px;
-}
-#contact_form_section .contact_form_box {
-  width: 50%;
-  padding: 30px;
-}
 .redText {
   color: var(--red-color)!important;
   font-weight: 700;
@@ -4898,6 +4889,10 @@ section{
 }
 .mapRight {
   width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 .mapItemContact {
   padding-left: 15px;

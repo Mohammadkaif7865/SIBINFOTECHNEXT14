@@ -52,6 +52,10 @@ export default function Footer() {
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
               <tr>
+                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;'>${inputs.message}</td>
+              </tr>
+              <tr>
                   <td style='padding:10px;' width='250'>Website Location</td>
                   <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
               </tr>
