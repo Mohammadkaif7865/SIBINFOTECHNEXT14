@@ -305,31 +305,31 @@ export default function ApplyNow() {
              </td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>Company - 0</td>
+             <td style='padding:10px;' width='250'>Company</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_name_exp}</td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>Level - 0</td>
+             <td style='padding:10px;' width='250'>Level</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_level_exp}</td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>Industry - 0</td>
+             <td style='padding:10px;' width='250'>Industry</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_ind_exp}</td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>Job Title - 0	</td>
+             <td style='padding:10px;' width='250'>Job Title	</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_jtitle_exp}</td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>From - 0	</td>
+             <td style='padding:10px;' width='250'>From	</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_fyear_exp} year ${experienceFields[0].acomp_fmonth_exp} month</td>
          </tr>
          <tr>
-             <td style='padding:10px;' width='250'>To - 0	0</td>
+             <td style='padding:10px;' width='250'>To</td>
              <td style='padding:10px;'>${experienceFields[0].acomp_tyear_exp} year ${experienceFields[0].acomp_tmonth_exp} month</td>
          </tr>
          <tr>
-         <td style='padding:10px;' width='250'>Job Description - 0	</td>
+         <td style='padding:10px;' width='250'>Job Description	</td>
          <td style='padding:10px;'>${experienceFields[0].acomp_jdesc_exp}</td>
          </tr>
          <tr>
@@ -338,7 +338,8 @@ export default function ApplyNow() {
          </tr>
              </table>`,
         fromWhere: "Career Page",
-        resumePath: data.resumePath
+        resumePath: data.resumePath,
+        resumeName: data.resumeName
       });
     }
     return data;
