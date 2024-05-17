@@ -6228,6 +6228,11 @@ table tbody tr td:nth-child(3) {
   width: calc(100% - 85px);
   letter-spacing: .4px;
 }
+.make-inline-and-centre{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .blog_sidebar .title::after{
   content: '';
   display: block;

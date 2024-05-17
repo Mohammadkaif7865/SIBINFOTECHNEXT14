@@ -306,9 +306,36 @@ export default function ApplyNow() {
          </tr>
          <tr>
              <td style='padding:10px;' width='250'>Company - 0</td>
-             <td style='padding:10px;'></td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_name_exp}</td>
          </tr>
-         
+         <tr>
+             <td style='padding:10px;' width='250'>Level - 0</td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_level_exp}</td>
+         </tr>
+         <tr>
+             <td style='padding:10px;' width='250'>Industry - 0</td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_ind_exp}</td>
+         </tr>
+         <tr>
+             <td style='padding:10px;' width='250'>Job Title - 0	</td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_jtitle_exp}</td>
+         </tr>
+         <tr>
+             <td style='padding:10px;' width='250'>From - 0	</td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_fyear_exp} year ${experienceFields[0].acomp_fmonth_exp} month</td>
+         </tr>
+         <tr>
+             <td style='padding:10px;' width='250'>To - 0	0</td>
+             <td style='padding:10px;'>${experienceFields[0].acomp_tyear_exp} year ${experienceFields[0].acomp_tmonth_exp} month</td>
+         </tr>
+         <tr>
+         <td style='padding:10px;' width='250'>Job Description - 0	</td>
+         <td style='padding:10px;'>${experienceFields[0].acomp_jdesc_exp}</td>
+         </tr>
+         <tr>
+         <td style='padding:10px;' width='250'>How Did You Hear About this Job Position?	</td>
+         <td style='padding:10px;'>${inputs.from_source}</td>
+         </tr>
              </table>`,
         fromWhere: "Career Page",
         resumePath: data.resumePath
@@ -343,7 +370,6 @@ export default function ApplyNow() {
   useEffect(() => {
     createCaptcha();
   }, []);
-
   // newt code ends
 
   const [divElements, setDivElements] = useState([]);
@@ -1501,7 +1527,7 @@ export default function ApplyNow() {
 
                             <div className="apply_form_box expdiv">
                               <p className="title">
-                                Current/Previous Experience
+                                Current Experience
                               </p>
                               {experienceFields.map((input, index) => {
                                 return (
@@ -1681,7 +1707,9 @@ export default function ApplyNow() {
                                       </div>
 
                                       {index == 0 ? (
-                                        <div className="col-md-12">
+                                        <div className="col-md-12 mt-4 make-inline-and-centre">
+                                           <p className="title">
+                                           Previous Experience                              </p>
                                           <span
                                             className="addMore web_btn btnAdd"
                                             onClick={addExperienceField}
@@ -1691,7 +1719,7 @@ export default function ApplyNow() {
                                           </span>
                                         </div>
                                       ) : (
-                                        <div className="col-md-12">
+                                        <div className="col-md-12 mb-4">
                                           <span
                                             className="web_btn removeBtn"
                                             onClick={() =>
