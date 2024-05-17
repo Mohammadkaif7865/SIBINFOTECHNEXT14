@@ -56,16 +56,12 @@ export default function Contact() {
                   <td style='padding:10px;' width='250'>Full Name</td>
                   <td style='padding:10px;'>${inputs.name}</td>
               </tr>
-            ${
-              inputs.cname
-                ? `  <tr>
+              <tr>
                   <td style="padding:10px;" width="250">
                     Company Name
                   </td>
                   <td style="padding:10px;">${inputs.cname}</td>
-                </tr>`
-                : ""
-            }
+              </tr>
               <tr>
                   <td style='padding:10px;' width='250'>Email</td>
                   <td style='padding:10px;'>${inputs.email}</td>
