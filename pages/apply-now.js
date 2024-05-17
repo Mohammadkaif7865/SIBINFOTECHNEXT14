@@ -155,6 +155,49 @@ export default function ApplyNow() {
           })
         .catch((err) => console.log(err));
       const data = await res.data;
+      if (data && !data.error) {
+         axios.post(`${CONSTANTS.API_URL}send-email-application`, {
+           html: `
+             <p>Dear Admin,</p>
+             <p>You have received a job application:</p>
+             <table width='500' border='1' cellspacing='0'>
+                 <tr>
+                     <td style='padding:10px;' width='250'>Full Name</td>
+                     <td style='padding:10px;'>${inputs.name}</td>
+                 </tr>
+               ${
+                 inputs.cname
+                   ? `  <tr>
+                     <td style="padding:10px;" width="250">
+                       Company Name
+                     </td>
+                     <td style="padding:10px;">${inputs.cname}</td>
+                   </tr>`
+                   : ""
+               }
+                 <tr>
+                     <td style='padding:10px;' width='250'>Email</td>
+                     <td style='padding:10px;'>${inputs.email}</td>
+                 </tr>
+                 <tr>
+                     <td style='padding:10px;' width='250'>Phone Number</td>
+                     <td style='padding:10px;'>${inputs.phone}</td>
+                 </tr>
+                 <tr>
+                     <td style='padding:10px;' width='250'>Detailsr</td>
+                     <td style='padding:10px;'>${inputs.details}</td>
+                 </tr>
+                 
+                 <tr>
+                     <td style='padding:10px;' width='250'>Website Location</td>
+                     <td style='padding:10px;'>${
+                       "https://sibinfotech.com" + window.location.pathname
+                     }</td>
+                 </tr>
+             </table>`,
+           fromWhere: "Career Page",
+         });
+       }
       return data;
     };
 

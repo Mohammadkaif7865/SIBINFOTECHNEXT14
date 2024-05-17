@@ -302,6 +302,19 @@ export default function AboutUs() {
                                 <div className="teamItem">
                                     <div className="teamImg">
                                         <picture>
+                                            <source srcSet='assets/images/team/harshal-shetty.webp' />
+                                            <img src='assets/images/team/harshal-shetty.jpg' alt="Harshal Shetty" />
+                                        </picture>
+                                    </div>
+                                    <div className="teamName">
+                                        <h3 className="small_heading fontWeight600">Harshal Shetty</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-6 px-lg-4">
+                                <div className="teamItem">
+                                    <div className="teamImg">
+                                        <picture>
                                             <source srcSet='assets/images/team/hemang-sharma.webp' />
                                             <img src='assets/images/team/hemang-sharma.jpg' alt="Hemang Sharma" />
                                         </picture>

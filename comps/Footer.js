@@ -56,6 +56,7 @@ export default function Footer() {
                   <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
               </tr>
           </table>`,
+          fromWhere:"Get a Quote - Footer"
         })
     }
     return data;

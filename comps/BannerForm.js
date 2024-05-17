@@ -86,6 +86,7 @@ export default function BannerForm() {
                   <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
               </tr>
           </table>`,
+          fromWhere: 'Banner'
         })
     }
     return data;

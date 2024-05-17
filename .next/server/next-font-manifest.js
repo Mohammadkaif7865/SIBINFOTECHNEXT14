@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{"/_app":[],"/website-designing-services":[],"/":[]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}';
