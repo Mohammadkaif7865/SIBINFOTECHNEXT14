@@ -25,7 +25,6 @@ function MyApp({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no" />
           <meta name="HandheldFriendly" content="true" />
           <meta name="YahooSeeker" content="Index,Follow" />
-          <meta name="robots" content="ALL" />
           <meta name="document-distribution" content="Global" />
           <meta name="language" content="English" />
           <meta property="og:locale" content="en_IN" />
