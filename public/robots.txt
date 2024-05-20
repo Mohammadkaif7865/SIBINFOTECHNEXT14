@@ -25,8 +25,8 @@ Disallow: /*.jsp$
 Disallow: /.jsp$
 Disallow: /cgi-bin/*
 Disallow: /cdn-cgi/*
-Disallow: /blogs/tag/*
-Disallow: /blogs/?*
+Disallow: /blog/tag/*
+Disallow: /blog/?*
 Disallow: /index?*
 Disallow: /?*
 

@@ -61,12 +61,12 @@ export default function SingleBlog() {
             <meta property="og:title" content={blog[0].meta_keywords} />
             <meta property="og:description" content={blog[0].meta_description} />
             <meta property="og:image" content={`${CONSTANTS.BACKEND_URL+blog[0].image}`}/>
-            <meta property="og:url" content={`https://www.sibinfotech.com/blogs/${blog[0].slug}`} />
+            <meta property="og:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
             <meta name="twitter:title" content={blog[0].meta_keywords} />
             <meta name="twitter:description" content={blog[0].meta_description}/>
             <meta name="twitter:image" content={`${CONSTANTS.BACKEND_URL+blog[0].image}`}/>
-            <meta name="twitter:url" content={`https://www.sibinfotech.com/blogs/${blog[0].slug}`} />
-            <link rel="canonical" href={`https://www.sibinfotech.com/blogs/${blog[0].slug}`}/>
+            <meta name="twitter:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
+            <link rel="canonical" href={`https://www.sibinfotech.com/blog/${blog[0].slug}`}/>
         </Helmet>
         <section id="single_blog" className="bgGrey">
             <div className="containerFull">
@@ -104,7 +104,7 @@ export default function SingleBlog() {
 
                             {blogs && blogs.map((blog, index) => {
                             return <div key={index} className="inline_blog_card">
-                                <Link href={"/blogs/"+blog.slug}>
+                                <Link href={"/blog/"+blog.slug}>
                                     <div className="img">
                                         <img src={`${CONSTANTS.BACKEND_URL+blog.image}`} alt={blog.image_alt} className="img-fluid"/>
                                     </div>

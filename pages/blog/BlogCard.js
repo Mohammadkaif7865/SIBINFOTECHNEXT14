@@ -10,7 +10,7 @@ function BlogCard(props) {
     return <div>Loading...</div>; // or return null if you prefer not to render anything
   }
   return (
-    <Link href={"/blogs/" +blog.slug}>
+    <Link href={"/blog/" +blog.slug}>
       <div className="blogItems">
         <div className="blogImg">
           <img

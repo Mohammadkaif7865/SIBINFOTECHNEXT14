@@ -6,7 +6,7 @@ import { format } from 'date-fns';
 function BlogCard(props) {
     const {blog} = props;
     return (
-      <Link href={"/blogs/"+blog.slug}>
+      <Link href={"/blog/"+blog.slug}>
           <div className="blogItems">
             <div className="blogImg">
                 <img src={`${CONSTANTS.BACKEND_URL+blog.image}`} className="img-fluid" alt={blog.image_alt}/>

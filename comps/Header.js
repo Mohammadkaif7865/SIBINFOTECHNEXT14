@@ -424,7 +424,7 @@ export default function Header() {
                         </div>
                         <li data-bs-dismiss="offcanvas"><Link href="/about-us">About Us</Link></li>
                         <li data-bs-dismiss="offcanvas"><Link href="/portfolio">Our Portfolio</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/blogs">Latest Blogs</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link href="/blog">Latest Blogs</Link></li>
                         <li data-bs-dismiss="offcanvas"><Link href="/career">Careers</Link></li>
                         <li data-bs-dismiss="offcanvas"><Link href="#">Our Clients</Link></li>
                         <li data-bs-dismiss="offcanvas"><Link href="#">SEO Tools</Link></li>
