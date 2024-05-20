@@ -85,15 +85,10 @@ export default function Footer() {
     });
   };
   useEffect(() => {
-    console.log(
-      "This is the current location ",
-      window.location.pathname,
-      typeof window.location.pathname,
-      window.location.pathname === "/career"
-    );
     if (
       window.location.pathname === "/career" ||
-      window.location.pathname === "/apply-now"
+      window.location.pathname === "/apply-now"||
+      window.location.pathname === "/contact-us"
     ) {
       console.log("This is ihere");
       setShowForm(false);
