@@ -1594,7 +1594,7 @@ section{
   font-size: 12px;
 }
 .rightFooterBottom ul li a:hover{
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: var(--light-blue-color);
 }
 .itemFooterLogo img{
@@ -1722,7 +1722,7 @@ section{
   color: #fff;
 }
 .officeAddress a:hover{
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .leftImgMap:hover .officeAddress{
   background: rgba(0, 0, 0, 0.6);
