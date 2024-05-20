@@ -1,8 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useRouter } from 'next/router';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
 export default function Thanks() {
+	const router = useRouter()
+
+	useEffect(() => {
+		const BackRouting = setTimeout(() => {
+		  router.replace('/') // Use router.replace() to redirect to homepage
+		}, 3000)
+	
+		return () => clearTimeout(BackRouting)
+	
+	  }, [])
   return (
     <div>
         <Helmet>

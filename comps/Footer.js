@@ -8,16 +8,17 @@ import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
 import axios from "axios";
 export default function Footer() {
-    const headers = {
-        'Content-Type': 'multipart/form-data',
-        'Authorization': CONSTANTS.API_TOKEN
-      }
-    
+  const headers = {
+    "Content-Type": "multipart/form-data",
+    Authorization: CONSTANTS.API_TOKEN,
+  };
+
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
     message: "",
   });
+  const [showForm, setShowForm] = useState(true);
 
   const handleInputChange = (e) => {
     setInputs((prevState) => ({
@@ -38,8 +39,8 @@ export default function Footer() {
       .catch((err) => console.log(err));
     const data = await res.data;
     if (data && !data.error) {
-      axios.post(`${CONSTANTS.API_URL}send-email-any`,{
-          html: `
+      axios.post(`${CONSTANTS.API_URL}send-email-any`, {
+        html: `
           <p>Dear Admin,</p>
           <p>You have received an enquiry from:</p>
           <table width='500' border='1' cellspacing='0'>
@@ -52,16 +53,18 @@ export default function Footer() {
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;' width='250'>Message</td>
                   <td style='padding:10px;'>${inputs.message}</td>
               </tr>
               <tr>
                   <td style='padding:10px;' width='250'>Website Location</td>
-                  <td style='padding:10px;'>${"https://sibinfotech.com"+window.location.pathname}</td>
+                  <td style='padding:10px;'>${
+                    "https://sibinfotech.com" + window.location.pathname
+                  }</td>
               </tr>
           </table>`,
-          fromWhere:"Get a Quote - Footer"
-        })
+        fromWhere: "Get a Quote - Footer",
+      });
     }
     return data;
   };
@@ -75,16 +78,32 @@ export default function Footer() {
           email: "",
           message: "",
         });
-        window.location.href = 'https://sibinfotech.com/thanks';
+        window.location.href = "https://sibinfotech.com/thanks";
       } else {
         toast.error(data.message);
       }
     });
   };
-
+  useEffect(() => {
+    console.log(
+      "This is the current location ",
+      window.location.pathname,
+      typeof window.location.pathname,
+      window.location.pathname === "/career"
+    );
+    if (
+      window.location.pathname === "/career" ||
+      window.location.pathname === "/apply-now"
+    ) {
+      console.log("This is ihere");
+      setShowForm(false);
+    } else {
+      setShowForm(true);
+    }
+  });
   return (
     <div>
-      <section className="footerForm" id="requestQuote">
+      <section className="footerForm" id="requestQuote"b style={{display: showForm? "block": 'none'}}>
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-2">
@@ -99,16 +118,18 @@ export default function Footer() {
                     type="text"
                     name="name"
                     placeholder="Name"
-                    onChange={handleInputChange} 
-                    value={inputs.name} pattern="^[( )a-zA-Z]+$" 
+                    onChange={handleInputChange}
+                    value={inputs.name}
+                    pattern="^[( )a-zA-Z]+$"
                     required
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="E-mail"
-                    onChange={handleInputChange} 
-                    value={inputs.email} pattern="^[( )a-zA-Z]+$" 
+                    onChange={handleInputChange}
+                    value={inputs.email}
+                    pattern="^[( )a-zA-Z]+$"
                     required
                   />
                   <div className="form_fax" style={{ display: "none" }}>
@@ -124,8 +145,9 @@ export default function Footer() {
                     required=""
                     name="message"
                     placeholder="Message"
-                    onChange={handleInputChange} 
-                    value={inputs.message} pattern="^[( )a-zA-Z]+$" 
+                    onChange={handleInputChange}
+                    value={inputs.message}
+                    pattern="^[( )a-zA-Z]+$"
                   ></textarea>
                   <button type="submit" name="submit" className="btnThemeRed">
                     Submit
