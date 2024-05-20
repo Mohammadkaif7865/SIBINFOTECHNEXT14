@@ -6,6 +6,7 @@ import Link from 'next/link';
 // import { useRouter } from 'next/router';
 
 export default function Header() {
+    
 
 //   const router = useRouter();
 //   const { pathname } = router;
@@ -370,7 +371,11 @@ export default function Header() {
                 </div>
             </div>
         </header>
-        <div className=" offcanvas headerOffcanvas offcanvas-end " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div className=" offcanvas headerOffcanvas offcanvas-end  " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
+        style={{
+            zIndex:"9999",
+        }}
+        >
             <div className="offcanvas-header">
                 <h5 id="offcanvasRightLabel">&nbsp;</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
