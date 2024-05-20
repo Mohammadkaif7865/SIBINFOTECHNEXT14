@@ -374,7 +374,7 @@ export default function ApplyNow() {
   // newt code ends
 
   const [divElements, setDivElements] = useState([]);
-
+// test
   const handleButtonClick = () => {
     const newDivElement = (
       <div key={divElements.length}>
