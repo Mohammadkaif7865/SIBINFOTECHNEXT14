@@ -36,7 +36,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className="mainHeader">
+            <div className="mainHeader ">
                 <div className="container-fluid">
                     <div className="inlineHeader">
                         <div className="leftLogo">
@@ -370,7 +370,7 @@ export default function Header() {
                 </div>
             </div>
         </header>
-        <div className="offcanvas headerOffcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div className=" offcanvas headerOffcanvas offcanvas-end " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div className="offcanvas-header">
                 <h5 id="offcanvasRightLabel">&nbsp;</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>

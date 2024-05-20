@@ -14,8 +14,8 @@ export default function WorkWebdesign() {
     slidesToScroll: 1
   };
   return (
-    <div>
-      <div className="circleIcon">
+    <div className=' '>
+      <div className="circleIcon ">
         <img src="assets/images/icons/circle.svg" alt="Circle Icon"/>
       </div>
       <div className="containerFull">
