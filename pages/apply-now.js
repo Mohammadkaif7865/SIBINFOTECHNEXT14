@@ -595,9 +595,6 @@ export default function ApplyNow() {
                                     required
                                   >
                                     <option defaultValue="">Select</option>
-                                    <option value="Wordpress Developer - Senior">
-                                      Wordpress Developer - Senior
-                                    </option>
                                     <option value="Accounts Cum Admin Executive">
                                       Accounts Cum Admin Executive
                                     </option>
@@ -617,9 +614,9 @@ export default function ApplyNow() {
                                     <option value="Content Writer">
                                       Content Writer
                                     </option>
-                                    <option value="Data Entry operator">
+                                    {/* <option value="Data Entry operator">
                                       Data Entry operator
-                                    </option>
+                                    </option> */}
                                     <option value="Digital Marketing Executive">
                                       Digital Marketing Executive
                                     </option>
@@ -781,6 +778,9 @@ export default function ApplyNow() {
                                     </option>
                                     <option value="Word Press Developer -Junior">
                                       Word Press Developer -Junior
+                                    </option>
+                                    <option value="Wordpress Developer - Senior">
+                                      Wordpress Developer - Senior
                                     </option>
                                     <option value="Wordpress Developer">
                                       Wordpress Developer

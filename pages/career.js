@@ -372,7 +372,7 @@ export default function Career() {
                         </div>
 
 
-                        <div className="opening_box">
+                        {/* <div className="opening_box">
                             <div className="row">
                                 <div className="col-md-6">
                                     <p className="title">Data Entry operator</p>
@@ -387,7 +387,7 @@ export default function Career() {
                                 </div>
 
                             </div>
-                        </div>
+                        </div> */}
 
 
                         <div className="opening_box">
@@ -468,7 +468,7 @@ export default function Career() {
                                     <p className="title">Manager Operations</p>
                                 </div>
                                 <div className="col-md-3">
-                                    <p className="location">Delhi</p>
+                                    <p className="location">Mumbai</p>
                                 </div>
                                 <div className="col-md-3">
                                     <Link href="/apply-now">
