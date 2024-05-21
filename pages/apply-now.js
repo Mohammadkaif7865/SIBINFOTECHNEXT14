@@ -39,7 +39,7 @@ export default function ApplyNow() {
   const [basicSkillsSelected, basicSkillsSetSelected] = useState([]);
   const [jobSkillsSelected, jobSkillsSetSelected] = useState([]);
   const [otherSkillsSelected, otherSkillsSetSelected] = useState([]);
-  const [selectedFile, setSelectedFile] = useState();
+  const [selectedFile, setSelectedFile] = useState(null);
 
   const [experienceFields, setExperienceFields] = useState([
     {
@@ -136,7 +136,20 @@ export default function ApplyNow() {
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
   };
-
+  function renderPreview() {
+    if (selectedFile) {
+        const fileType = selectedFile.type;
+        if (fileType.includes('image')) {
+            return <img src={URL.createObjectURL(selectedFile)} alt="Preview" style={{ maxWidth: '200px', maxHeight: '200px' }} />;
+        } else if (fileType.includes('pdf')) {
+            return <embed src={URL.createObjectURL(selectedFile)} type="application/pdf" width="200px" height="200px" />;
+        } else {
+            return <p>No preview available for this file type.</p>;
+        }
+    } else {
+        return null; // Return null when no file selected
+    }
+}
   const addCareer = async () => {
     const formData = new FormData();
 
@@ -339,7 +352,7 @@ export default function ApplyNow() {
              </table>`,
         fromWhere: "Career Page",
         resumePath: data.resumePath,
-        resumeName: data.resumeName
+        resumeName: data.resumeName,
       });
     }
     return data;
@@ -374,7 +387,7 @@ export default function ApplyNow() {
   // newt code ends
 
   const [divElements, setDivElements] = useState([]);
-// test
+  // test
   const handleButtonClick = () => {
     const newDivElement = (
       <div key={divElements.length}>
@@ -1527,9 +1540,7 @@ export default function ApplyNow() {
                             </div>
 
                             <div className="apply_form_box expdiv">
-                              <p className="title">
-                                Current Experience
-                              </p>
+                              <p className="title">Current Experience</p>
                               {experienceFields.map((input, index) => {
                                 return (
                                   <div key={index}>
@@ -1709,8 +1720,9 @@ export default function ApplyNow() {
 
                                       {index == 0 ? (
                                         <div className="col-md-12 mt-4 make-inline-and-centre">
-                                           <p className="title">
-                                           Previous Experience                              </p>
+                                          <p className="title">
+                                            Previous Experience{" "}
+                                          </p>
                                           <span
                                             className="addMore web_btn btnAdd"
                                             onClick={addExperienceField}
@@ -3460,11 +3472,13 @@ export default function ApplyNow() {
                                   <label for="">Upload CV*</label>
                                   <input
                                     type="file"
+                                    id="resume"
                                     name="resume"
-                                    value=""
                                     accept=".doc,.docx,application/pdf,.jpg,.jpeg,.png,.gif"
                                     onChange={handleFileChange}
                                   />
+                                  <br />
+                                  {/* {renderPreview()} */}
                                 </div>
                               </div>
                             </div>
