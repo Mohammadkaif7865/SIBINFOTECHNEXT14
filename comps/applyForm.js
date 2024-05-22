@@ -374,6 +374,34 @@ export default function ApplyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!inputs.jobtype) {
+      return toast.error("Please select the job type !");
+    }
+    if (!inputs.postapplied) {
+      return toast.error("Please select the post applied for!");
+    }
+    if (!inputs.job_location) {
+      return toast.error("Please select the job location!");
+    }
+    if (!inputs.fname) {
+      return toast.error("Please enter your first name!");
+    }
+    if (!inputs.lname) {
+      return toast.error("Please enter your last name!");
+    }
+    if (!inputs.email) {
+      return toast.error("Please enter your email!");
+    }
+    if (!inputs.pre_city) {
+      return toast.error("Please enter your present city!");
+    }
+    if (!inputs.pre_state) {
+      return toast.error("Please enter your present state!");
+    }
+    if (!selectedFile) {
+      return toast.error("Please upload your resume!");
+    }
+
     if (code == inputs.cpatchaText) {
       addCareer().then((data) => {
         if (!data.error) {
@@ -563,7 +591,7 @@ export default function ApplyForm() {
                       <div className="inner-column">
                         <div className="contact-form">
                           <form
-                            onSubmit={handleSubmit}
+                            // onSubmit={handleSubmit}
                             method="POST"
                             action=""
                             id="contact-form"
@@ -3522,7 +3550,8 @@ export default function ApplyForm() {
                             <div className="row">
                               <div className="form-group col-md-12 col-sm-12 col-xs-12 text-center">
                                 <button
-                                  type="submit"
+                                  onClick={handleSubmit}
+                                  // type="submit"
                                   id="careersubmit"
                                   name="submit"
                                   className="theme-btn btn-style-one"
