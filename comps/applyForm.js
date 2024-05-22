@@ -55,6 +55,18 @@ export default function ApplyForm() {
     },
   ]);
 
+  const [errors, setErrors] = useState({
+    jobtype: "",
+    postapplied: "",
+    job_location: "",
+    fname: "",
+    lname: "",
+    email: "",
+    pre_city: "",
+    pre_state: "",
+    resume: "",
+  });
+
   const handleExperienceChange = (index, event) => {
     let data = [...experienceFields];
     data[index][event.target.name] = event.target.value;
@@ -375,31 +387,67 @@ export default function ApplyForm() {
     e.preventDefault();
 
     if (!inputs.jobtype) {
-      return toast.error("Please select the job type !");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        jobtype: "Please select the job type!",
+      }));
     }
     if (!inputs.postapplied) {
-      return toast.error("Please select the post applied for!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        postapplied: "Please select the post applied for!",
+      }));
+      //  toast.error("Please select the post applied for!");
     }
     if (!inputs.job_location) {
-      return toast.error("Please select the job location!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        job_location: "Please select the job location!",
+      }));
+
+      // toast.error("Please select the job location!");
     }
     if (!inputs.fname) {
-      return toast.error("Please enter your first name!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        fname: "Please enter your first name!",
+      }));
+      // return toast.error("Please enter your first name!");
     }
     if (!inputs.lname) {
-      return toast.error("Please enter your last name!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        lname: "Please enter your last name!",
+      }));
+      // return toast.error("Please enter your last name!");
     }
     if (!inputs.email) {
-      return toast.error("Please enter your email!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: "Please enter your email!",
+      }));
+      // return toast.error("Please enter your email!");
     }
     if (!inputs.pre_city) {
-      return toast.error("Please enter your present city!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        pre_city: "Please enter your present city!",
+      }));
+      // return toast.error("Please enter your present city!");
     }
     if (!inputs.pre_state) {
-      return toast.error("Please enter your present state!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        pre_state: "Please enter your present state!",
+      }));
+      // return toast.error("Please enter your present state!");
     }
     if (!selectedFile) {
-      return toast.error("Please upload your resume!");
+      return setErrors((prevErrors) => ({
+        ...prevErrors,
+        resume: "Please upload your resume!",
+      }));
+      // return toast.error("Please upload your resume!");
     }
 
     if (code == inputs.cpatchaText) {
@@ -620,6 +668,12 @@ export default function ApplyForm() {
                                     </option>
                                     <option value="Intern">Intern</option>
                                   </select>
+
+                                  {errors.jobtype && (
+                                    <p className="text-danger">
+                                      {errors.jobtype}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Post applied for*</label>
@@ -831,6 +885,11 @@ export default function ApplyForm() {
                                       Wordpress Developer- Manager
                                     </option>
                                   </select>
+                                  {errors.postapplied && (
+                                    <p className="text-danger">
+                                      {errors.postapplied}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Job location*</label>
@@ -851,6 +910,11 @@ export default function ApplyForm() {
                                       Work from Home
                                     </option>
                                   </select>
+                                  {errors.job_location && (
+                                    <p className="text-danger">
+                                      {errors.job_location}
+                                    </p>
+                                  )}
                                 </div>
                               </div>
                             </div>
@@ -871,6 +935,11 @@ export default function ApplyForm() {
                                     title="Please enter alphabets"
                                     required
                                   />
+                                  {errors.fname && (
+                                    <p className="text-danger">
+                                      {errors.fname}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Last Name*</label>
@@ -883,6 +952,11 @@ export default function ApplyForm() {
                                     title="Please enter alphabets"
                                     required
                                   />
+                                  {errors.lname && (
+                                    <p className="text-danger">
+                                      {errors.lname}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Gender</label>
@@ -955,6 +1029,11 @@ export default function ApplyForm() {
                                     value={inputs.email}
                                     required
                                   />
+                                  {errors.email && (
+                                    <p className="text-danger">
+                                      {errors.email}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Phone</label>
@@ -1007,6 +1086,11 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.city}
                                   />
+                                  {errors.pre_city && (
+                                    <p className="text-danger">
+                                      {errors.pre_city}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">State*</label>
@@ -1016,6 +1100,11 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.state}
                                   />
+                                  {errors.pre_state && (
+                                    <p className="text-danger">
+                                      {errors.pre_state}
+                                    </p>
+                                  )}
                                 </div>
                               </div>
                               <div className="row" style={{ display: "none" }}>
@@ -3513,6 +3602,11 @@ export default function ApplyForm() {
                                     accept=".doc,.docx,application/pdf,.jpg,.jpeg,.png,.gif"
                                     onChange={handleFileChange}
                                   />
+                                  {errors.resume && (
+                                    <p className="text-danger">
+                                      {errors.resume}
+                                    </p>
+                                  )}
                                   <br />
                                   {/* {renderPreview()} */}
                                 </div>
