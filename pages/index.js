@@ -27,7 +27,7 @@ export const getServerSideProps = async () => {
     const res = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1&limit=6`, {
       headers: headers
     }).catch((err) => console.log(err));
-    const data = await res.data;
+    const data = await res?.data;
 
     return {
       props: { blogs: data.blogs }
