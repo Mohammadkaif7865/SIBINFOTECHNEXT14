@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import * as CONSTANTS from "../constants/constants";
 import { format } from 'date-fns';
+import Image from 'next/image';
 // import { compareAsc, format } from 'date-fns'
 
 function BlogCard(props) {
@@ -9,7 +10,7 @@ function BlogCard(props) {
       <Link href={"/blog/"+blog.slug}>
           <div className="blogItems">
             <div className="blogImg">
-                <img src={`${CONSTANTS.BACKEND_URL+blog.image}`} className="img-fluid" alt={blog.image_alt}/>
+                <Image width={100} height={100} className="w-100 h-auto img-fluid"  src={`${CONSTANTS.BACKEND_URL+blog.image}`}  alt={blog.image_alt}/>
             </div>
             <div className="dividerBlog"></div>
             <div className="blogTitle">

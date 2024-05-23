@@ -75,7 +75,7 @@ const Blog = () => {
 
     fetchData();
   }, []);
-  console.log(blogs);
+  // console.log(blogs);
 
   return (
     <section>
