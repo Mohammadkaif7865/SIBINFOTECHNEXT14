@@ -61,9 +61,11 @@ export default function ApplyForm() {
     job_location: "",
     fname: "",
     lname: "",
+    dob: "",
     email: "",
     pre_city: "",
     pre_state: "",
+    join_date: "",
     resume: "",
   });
 
@@ -419,9 +421,23 @@ export default function ApplyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // let newErrors = {};
+    // // Validate each field
+    // Object.keys(inputs).forEach((key) => {
+    //   if (!inputs[key]) {
+    //     newErrors[key] = "This field is required";
+    //   }
+    // });
+    // if (!selectedFile) {
+    //   newErrors.resume = "CV is required";
+    // }
+
+    // setErrors(newErrors);
+    // console.log(newErrors);
+
     let newErrors = {};
     // Validate each field
-    Object.keys(inputs).forEach((key) => {
+    Object.keys(errors).forEach((key) => {
       if (!inputs[key]) {
         newErrors[key] = "This field is required";
       }
@@ -431,6 +447,13 @@ export default function ApplyForm() {
     }
 
     setErrors(newErrors);
+    console.log(newErrors);
+
+    if (Object.keys(newErrors).length !== 0) {
+      return toast.error("Please fill in all required fields");
+    }
+    
+
     // setErrors(newErrors);
 
     // if (!inputs.jobtype) {
@@ -1069,6 +1092,11 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.dob}
                                   />
+                                  {errors.dob && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.dob}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Category</label>
@@ -1745,6 +1773,11 @@ export default function ApplyForm() {
                                     value={inputs.join_date}
                                     type="date"
                                   />
+                                  {errors.join_date && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.join_date}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Current Job Status</label>
