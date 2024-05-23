@@ -168,21 +168,14 @@ export default function ApplyForm() {
   // };
 
   const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
     const file = event.target.files[0];
-
-    if (!file) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        resume: "This field is required",
-      }));
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        resume: "",
-      }));
-    }
+    setSelectedFile(file);
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      resume: file ? "" : "This field is required",
+    }));
   };
+  
   function renderPreview() {
     if (selectedFile) {
       const fileType = selectedFile.type;
@@ -442,8 +435,9 @@ export default function ApplyForm() {
         newErrors[key] = "This field is required";
       }
     });
-    if (!selectedFile) {
-      newErrors.resume = "CV is required";
+    console.log(selectedFile);
+    if (selectedFile) {
+      delete newErrors.resume;
     }
 
     setErrors(newErrors);
@@ -452,7 +446,6 @@ export default function ApplyForm() {
     if (Object.keys(newErrors).length !== 0) {
       return toast.error("Please fill in all required fields");
     }
-    
 
     // setErrors(newErrors);
 
