@@ -167,6 +167,19 @@ export default function ApplyForm() {
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
+    const file = event.target.files[0];
+
+    if (!file) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        resume: "This field is required",
+      }));
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        resume: "",
+      }));
+    }
   };
   function renderPreview() {
     if (selectedFile) {
@@ -406,115 +419,129 @@ export default function ApplyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!inputs.jobtype) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        jobtype: "This field is required",
-      }));
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        jobtype: "",
-      }));
-    }
-
-    if (!inputs.postapplied) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        postapplied: "This field is required",
-      }));
-      //  toast.error("Please select the post applied for!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        postapplied: "",
-      }));
-    }
-    if (!inputs.job_location) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        job_location: "This field is required",
-      }));
-
-      // toast.error("Please select the job location!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        job_location: "",
-      }));
-    }
-    if (!inputs.fname) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        fname: "This field is required",
-      }));
-      // return toast.error("Please enter your first name!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        fname: "",
-      }));
-    }
-    if (!inputs.lname) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        lname: "This field is required",
-      }));
-      // return toast.error("Please enter your last name!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        lname: "",
-      }));
-    }
-    if (!inputs.email) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        email: "This field is required",
-      }));
-      // return toast.error("Please enter your email!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        email: "",
-      }));
-    }
-    if (!inputs.pre_city) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        pre_city: "This field is required",
-      }));
-      // return toast.error("Please enter your present city!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        pre_city: "",
-      }));
-    }
-    if (!inputs.pre_state) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        pre_state: "This field is required",
-      }));
-      // return toast.error("Please enter your present state!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        pre_state: "",
-      }));
-    }
+    let newErrors = {};
+    // Validate each field
+    Object.keys(inputs).forEach((key) => {
+      if (!inputs[key]) {
+        newErrors[key] = "This field is required";
+      }
+    });
     if (!selectedFile) {
-      return setErrors((prevErrors) => ({
-        ...prevErrors,
-        resume: "This field is required",
-      }));
-      // return toast.error("Please upload your resume!");
-    } else {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        resume: "",
-      }));
+      newErrors.resume = "CV is required";
     }
+
+    setErrors(newErrors);
+    // setErrors(newErrors);
+
+    // if (!inputs.jobtype) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     jobtype: "This field is required",
+    //   }));
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     jobtype: "",
+    //   }));
+    // }
+
+    // if (!inputs.postapplied) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     postapplied: "This field is required",
+    //   }));
+    //   //  toast.error("Please select the post applied for!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     postapplied: "",
+    //   }));
+    // }
+    // if (!inputs.job_location) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     job_location: "This field is required",
+    //   }));
+
+    //   // toast.error("Please select the job location!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     job_location: "",
+    //   }));
+    // }
+    // if (!inputs.fname) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     fname: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your first name!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     fname: "",
+    //   }));
+    // }
+    // if (!inputs.lname) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     lname: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your last name!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     lname: "",
+    //   }));
+    // }
+    // if (!inputs.email) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     email: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your email!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     email: "",
+    //   }));
+    // }
+    // if (!inputs.pre_city) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_city: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your present city!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_city: "",
+    //   }));
+    // }
+    // if (!inputs.pre_state) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_state: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your present state!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_state: "",
+    //   }));
+    // }
+    // if (!selectedFile) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     resume: "This field is required",
+    //   }));
+    //   // return toast.error("Please upload your resume!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     resume: "",
+    //   }));
+    // }
 
     if (code == inputs.cpatchaText) {
       addCareer().then((data) => {
@@ -705,7 +732,7 @@ export default function ApplyForm() {
                       <div className="inner-column">
                         <div className="contact-form">
                           <form
-                            // onSubmit={handleSubmit}
+                            onSubmit={handleSubmit}
                             method="POST"
                             action=""
                             id="contact-form"
@@ -723,7 +750,6 @@ export default function ApplyForm() {
                                     id=""
                                     onChange={handleInputChange}
                                     value={inputs.jobtype}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Full Time">Full Time</option>
@@ -736,7 +762,7 @@ export default function ApplyForm() {
                                   </select>
 
                                   {errors.jobtype && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.jobtype}
                                     </p>
                                   )}
@@ -748,7 +774,6 @@ export default function ApplyForm() {
                                     id="postapplied"
                                     onChange={handleInputChange}
                                     value={inputs.postapplied}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Wordpress Developer - Senior">
@@ -952,7 +977,7 @@ export default function ApplyForm() {
                                     </option>
                                   </select>
                                   {errors.postapplied && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.postapplied}
                                     </p>
                                   )}
@@ -964,7 +989,6 @@ export default function ApplyForm() {
                                     id="job_location"
                                     onChange={handleInputChange}
                                     value={inputs.job_location}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Delhi">Delhi</option>
@@ -977,7 +1001,7 @@ export default function ApplyForm() {
                                     </option>
                                   </select>
                                   {errors.job_location && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.job_location}
                                     </p>
                                   )}
@@ -999,10 +1023,9 @@ export default function ApplyForm() {
                                     value={inputs.fname}
                                     pattern="^[( )a-zA-Z]+$"
                                     title="Please enter alphabets"
-                                    required
                                   />
                                   {errors.fname && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.fname}
                                     </p>
                                   )}
@@ -1016,10 +1039,9 @@ export default function ApplyForm() {
                                     value={inputs.lname}
                                     pattern="^[( )a-zA-Z]+$"
                                     title="Please enter alphabets"
-                                    required
                                   />
                                   {errors.lname && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.lname}
                                     </p>
                                   )}
@@ -1093,10 +1115,9 @@ export default function ApplyForm() {
                                     name="email"
                                     onChange={handleInputChange}
                                     value={inputs.email}
-                                    required
                                   />
                                   {errors.email && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.email}
                                     </p>
                                   )}
@@ -1194,10 +1215,9 @@ export default function ApplyForm() {
                                         id="pre_city"
                                         onChange={handleInputChange}
                                         value={inputs.pre_city}
-                                        required
                                       />
                                       {errors.pre_city && (
-                                        <p className="text-danger">
+                                        <p className="text-danger font-sm ">
                                           {errors.pre_city}
                                         </p>
                                       )}
@@ -1284,7 +1304,7 @@ export default function ApplyForm() {
                                         </option>
                                       </select>
                                       {errors.pre_state && (
-                                        <p className="text-danger">
+                                        <p className="text-danger font-sm ">
                                           {errors.pre_state}
                                         </p>
                                       )}
@@ -1970,7 +1990,6 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.from_source}
                                     id="from_source"
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Google Search">
@@ -3687,7 +3706,7 @@ export default function ApplyForm() {
                                     onChange={handleFileChange}
                                   />
                                   {errors.resume && (
-                                    <p className="text-danger">
+                                    <p className="text-danger font-sm ">
                                       {errors.resume}
                                     </p>
                                   )}
@@ -3719,7 +3738,6 @@ export default function ApplyForm() {
                                       id="cpatchaTextBox"
                                       onChange={handleInputChange}
                                       value={inputs.cpatchaText}
-                                      required
                                     />
                                   </div>
                                 </div>
@@ -3728,8 +3746,8 @@ export default function ApplyForm() {
                             <div className="row">
                               <div className="form-group col-md-12 col-sm-12 col-xs-12 text-center">
                                 <button
-                                  onClick={handleSubmit}
-                                  // type="submit"
+                                  // onClick={handleSubmit}
+                                  type="submit"
                                   id="careersubmit"
                                   name="submit"
                                   className="theme-btn btn-style-one"
