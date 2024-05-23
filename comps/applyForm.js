@@ -134,6 +134,19 @@ export default function ApplyForm() {
   });
 
   const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    if (value.trim() === "") {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        [name]: "This field is required",
+      }));
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        [name]: "",
+      }));
+    }
+
     setInputs((prevState) => ({
       ...prevState,
       [e.target.name]:
@@ -144,6 +157,13 @@ export default function ApplyForm() {
           : e.target.value,
     }));
   };
+  // const handleError = (e) => {
+  //   const { name, value } = e.target;
+  //   setErrors((prevErrors) => ({
+  //     ...prevErrors,
+  //     [name]: value,
+  //   }));
+  // };
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
@@ -389,65 +409,111 @@ export default function ApplyForm() {
     if (!inputs.jobtype) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        jobtype: "Please select the job type!",
+        jobtype: "This field is required",
+      }));
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        jobtype: "",
       }));
     }
+
     if (!inputs.postapplied) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        postapplied: "Please select the post applied for!",
+        postapplied: "This field is required",
       }));
       //  toast.error("Please select the post applied for!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        postapplied: "",
+      }));
     }
     if (!inputs.job_location) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        job_location: "Please select the job location!",
+        job_location: "This field is required",
       }));
 
       // toast.error("Please select the job location!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        job_location: "",
+      }));
     }
     if (!inputs.fname) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        fname: "Please enter your first name!",
+        fname: "This field is required",
       }));
       // return toast.error("Please enter your first name!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        fname: "",
+      }));
     }
     if (!inputs.lname) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        lname: "Please enter your last name!",
+        lname: "This field is required",
       }));
       // return toast.error("Please enter your last name!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        lname: "",
+      }));
     }
     if (!inputs.email) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        email: "Please enter your email!",
+        email: "This field is required",
       }));
       // return toast.error("Please enter your email!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: "",
+      }));
     }
     if (!inputs.pre_city) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        pre_city: "Please enter your present city!",
+        pre_city: "This field is required",
       }));
       // return toast.error("Please enter your present city!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        pre_city: "",
+      }));
     }
     if (!inputs.pre_state) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        pre_state: "Please enter your present state!",
+        pre_state: "This field is required",
       }));
       // return toast.error("Please enter your present state!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        pre_state: "",
+      }));
     }
     if (!selectedFile) {
       return setErrors((prevErrors) => ({
         ...prevErrors,
-        resume: "Please upload your resume!",
+        resume: "This field is required",
       }));
       // return toast.error("Please upload your resume!");
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        resume: "",
+      }));
     }
 
     if (code == inputs.cpatchaText) {
@@ -1086,11 +1152,6 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.city}
                                   />
-                                  {errors.pre_city && (
-                                    <p className="text-danger">
-                                      {errors.pre_city}
-                                    </p>
-                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">State*</label>
@@ -1100,11 +1161,6 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.state}
                                   />
-                                  {errors.pre_state && (
-                                    <p className="text-danger">
-                                      {errors.pre_state}
-                                    </p>
-                                  )}
                                 </div>
                               </div>
                               <div className="row" style={{ display: "none" }}>
@@ -1140,6 +1196,11 @@ export default function ApplyForm() {
                                         value={inputs.pre_city}
                                         required
                                       />
+                                      {errors.pre_city && (
+                                        <p className="text-danger">
+                                          {errors.pre_city}
+                                        </p>
+                                      )}
                                     </div>
                                     <div className="form-group col-md-6  col-xs-12">
                                       <label for="">State*</label>
@@ -1222,6 +1283,11 @@ export default function ApplyForm() {
                                           West Bengal
                                         </option>
                                       </select>
+                                      {errors.pre_state && (
+                                        <p className="text-danger">
+                                          {errors.pre_state}
+                                        </p>
+                                      )}
                                     </div>
                                     <div className="form-group col-md-6  col-xs-12">
                                       <label for="">Pincode</label>
@@ -1238,8 +1304,8 @@ export default function ApplyForm() {
                                 <div className="col-md-6">
                                   <div className="row">
                                     <div className="form-group col-md-12  col-xs-12">
-                                      <div className="d-flex justify-content-between align-items-center">
-                                        <label for="">Permanent Address</label>
+                                      {/* <div className="d-flex justify-content-between align-items-center my-0 py-0 b">
+                                        <label className="mt-0 mb-0 b" for="">Permanent Address</label>
                                         <div className="form-group perm_add  text-right positionAb">
                                           <label for="same_address">
                                             <input
@@ -1250,6 +1316,24 @@ export default function ApplyForm() {
                                               onChange={handleInputChange}
                                               value="Yes"
                                             />
+                                            Same as Present Address
+                                          </label>
+                                        </div>
+                                      </div> */}
+                                      <div className="d-flex justify-content-between align-items-center my-0 py-0 ">
+                                        <label className="" for="">
+                                          Permanent Address
+                                        </label>
+                                        <div className="d-flex justify-content-between align-items-center gap-1 ">
+                                          <input
+                                            type="checkbox"
+                                            name="same_address"
+                                            className="pe-lg-2"
+                                            id="same_address"
+                                            onChange={handleInputChange}
+                                            value="Yes"
+                                          />
+                                          <label className="" for="">
                                             Same as Present Address
                                           </label>
                                         </div>
