@@ -10,7 +10,7 @@ function BlogCard(props) {
       <Link href={"/blog/"+blog.slug}>
           <div className="blogItems">
             <div className="blogImg">
-                <Image width={100} height={100} className="w-100 h-auto img-fluid"  src={`${CONSTANTS.BACKEND_URL+blog.image}`}  alt={blog.image_alt}/>
+                <Image width={500} height={500} quality={100} className="w-100 h-30 img-fluid"  src={`${CONSTANTS.BACKEND_URL+blog.image}`}  alt={blog.image_alt}/>
             </div>
             <div className="dividerBlog"></div>
             <div className="blogTitle">
