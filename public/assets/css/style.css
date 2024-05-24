@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @font-face {
   font-family: "Graphik";
@@ -7969,4 +7969,11 @@ table tbody tr td:nth-child(2) {
 
 .WebsiteDesignServices:nth-child(odd) {
   margin-top: 30px;
+}
+
+/* digital marketing page */
+.we_offer {
+  @media (max-width: 991px) {
+    display: none !important;
+  }
 }
