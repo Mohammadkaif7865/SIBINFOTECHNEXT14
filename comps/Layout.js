@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
       ></script>
       {/* <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> */}
-      <script defer src="/assets/js/bundle.js"></script>
+      {/* <script defer src="/assets/js/bundle.js"></script> */}
       <script defer src="/assets/js/custom.js"></script>
     </>
   );
