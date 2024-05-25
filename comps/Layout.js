@@ -3,7 +3,8 @@ import Footer from "../comps/Footer";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 // import "./custom"
-import { useEffect, useState } from "react";
+
+import Script from "next/script";
 
 const Layout = ({ children }) => {
   // const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -44,13 +45,26 @@ const Layout = ({ children }) => {
         {children}
         <Footer />
       </div>
-      <script
+      {/* <Script
         defer
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      ></script>
+      ></Script> */}
       {/* <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> */}
       {/* <script defer src="/assets/js/bundle.js"></script> */}
-      <script defer src="/assets/js/custom.js"></script>
+      <Script
+      defer
+        strategy="beforeInteractive"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      />
+      {/* Load Bootstrap */}
+      {/* <Script
+        strategy="beforeInteractive"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"
+      /> */}
+      <Script
+      defer
+      
+        strategy="beforeInteractive"  src="/assets/js/custom.js"></Script>
     </>
   );
 };
