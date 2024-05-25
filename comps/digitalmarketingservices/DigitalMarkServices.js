@@ -12,6 +12,7 @@ import OurSteps from "./OurSteps";
 import SpecializedServices from "./SpecializedServices";
 import Why from "./Why";
 import MarketingTools from "./MarketingTools";
+import Faqs from "./Faqs";
 
 const DigitalMarkServices = () => {
   useEffect(() => {
@@ -571,7 +572,7 @@ const DigitalMarkServices = () => {
         </div>
       </section> */}
       <MarketingTools />
-      <section className="faqsBg">
+      {/* <section className="faqsBg">
         <div className="containerFull">
           <h3 className="sub_heading fontWeight500 text-white fontHeading">
             Do you have questions about working with Digital Marketing Agency in
@@ -961,7 +962,8 @@ const DigitalMarkServices = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <Faqs />
     </>
   );
 };

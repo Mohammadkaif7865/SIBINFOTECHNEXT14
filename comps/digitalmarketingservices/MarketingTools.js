@@ -179,7 +179,7 @@ const MarketingTools = () => {
             <div key={index} className="col-lg-2 col-6 col-sm-3 position-relative">
               <div className="toolsLogo">
             
-                <Image className=" h-auto b w-164 h-48" src={tool.src} alt={tool.alt} quality={100} width={180} height={48} />
+                <Image className=" h-auto w-100 h-50" src={tool.src} alt={tool.alt} quality={100} width={180} height={48} />
               </div>
             </div>
           ))}
