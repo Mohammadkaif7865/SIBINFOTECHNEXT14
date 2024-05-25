@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useContext, useEffect, useState } from "react";
-
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
 import axios from "axios";
+import Image from "next/image";
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -87,7 +87,7 @@ export default function Footer() {
   useEffect(() => {
     if (
       window.location.pathname === "/career" ||
-      window.location.pathname === "/apply-now"||
+      window.location.pathname === "/apply-now" ||
       window.location.pathname === "/contact-us"
     ) {
       console.log("This is ihere");
@@ -98,7 +98,12 @@ export default function Footer() {
   });
   return (
     <div>
-      <section className="footerForm" id="requestQuote"b style={{display: showForm? "block": 'none'}}>
+      <section
+        className="footerForm"
+        id="requestQuote"
+        b
+        style={{ display: showForm ? "block" : "none" }}
+      >
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-2">
@@ -406,9 +411,9 @@ export default function Footer() {
           <div className="containerFull">
             <div className="row">
               <div className="col-lg-6">
-                <div className="mapItem">
-                  <div className="leftImgMap">
-                    <picture>
+                <div className="mapItem ">
+                  <div className="leftImgMap ">
+                    {/* <picture>
                       <source
                         srcSet="assets/images/mumbai-office.webp"
                         type="image/webp"
@@ -418,7 +423,8 @@ export default function Footer() {
                         className="img-fluid"
                         alt="Mumbai Office"
                       />
-                    </picture>
+                    </picture> */}
+                    <Image width={500} height={500} className="w-100 h-99 " src={`/assets/images/mumbai-office.webp`} alt="" />
                     <div className="officeAddress">
                       <h4 className="small_heading fontWeight600">
                         Mumbai Office
@@ -432,7 +438,7 @@ export default function Footer() {
                       </Link>
                     </div>
                   </div>
-                  <div className="rightMapItem">
+                  <div className="rightMapItem ">
                     <iframe
                       className="img-taken"
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
@@ -447,7 +453,7 @@ export default function Footer() {
               <div className="col-lg-6">
                 <div className="mapItem">
                   <div className="leftImgMap">
-                    <picture>
+                    {/* <picture>
                       <source
                         srcSet="assets/images/delhi-office.webp"
                         type="image/webp"
@@ -457,7 +463,8 @@ export default function Footer() {
                         className="img-fluid"
                         alt="Delhi Office"
                       />
-                    </picture>
+                    </picture> */}
+                     <Image width={500} height={500} className="w-100 h-99 " src={`/assets/images/delhi-office.webp`} alt="" />
                     <div className="officeAddress">
                       <h4 className="small_heading fontWeight600">
                         Delhi Office
@@ -504,44 +511,44 @@ export default function Footer() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <img
+                  <Image className="w-100 h-auto" width={100} height={100} quality={100}
                     src="https://www.gstatic.com/partners/badge/images/2024/PremierBadgeClickable.svg"
                     alt="Google Partner"
                   />
                 </Link>
               </div>
               <div className="itemFooterLogo">
-                <img
+                <Image className="w-100 h-auto" width={100} height={100} quality={100}
                   alt="Meta Partner Company"
-                  src="assets/images/meta-partner.jpg"
+                  src="/assets/images/meta-partner.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <img
+                <Image className="w-100 h-auto" width={100} height={100} quality={100}
                   alt="clutch Partner Company"
-                  src="assets/images/clutch.png"
+                  src="/assets/images/clutch.png"
                 />
               </div>
               <div className="itemFooterLogo">
-                <img
+                <Image className="w-100 h-auto" width={100} height={100} quality={100}
                   alt="Shopify Partner Company"
-                  src="assets/images/shopify-partner.png"
+                  src="/assets/images/shopify-partner.png"
                 />
               </div>
               <div className="itemFooterLogo">
-                <img
+                <Image className="w-100 h-auto" width={100} height={100} quality={100}
                   alt="Trustpilot Partner Company"
-                  src="assets/images/trustpilot.jpg"
+                  src="/assets/images/trustpilot.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <img
+                <Image className="w-100 h-auto" width={100} height={100} quality={100}
                   alt="Google Analytics Partner Company"
-                  src="assets/images/google-analytics.jpg"
+                  src="/assets/images/google-analytics.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <img alt="Bing Partner Company" src="assets/images/bing.png" />
+                <Image className="w-100 h-auto" width={100} height={100} quality={100} alt="Bing Partner Company" src="/assets/images/bing.png" />
               </div>
             </div>
             <div className="text-center mt-2 countryCenter">
