@@ -7971,3 +7971,18 @@ table tbody tr td:nth-child(2) {
 .WebsiteDesignServices:nth-child(odd) {
   margin-top: 30px;
 }
+
+.IntroImage{
+  min-height: 400px;
+  @media (max-width:991px) {
+    min-height:200px ;
+    
+  }
+}
+.AdsMgtImage{
+  min-height: 400px;
+  @media (max-width:991px) {
+    min-height:200px ;
+    
+  }
+}
