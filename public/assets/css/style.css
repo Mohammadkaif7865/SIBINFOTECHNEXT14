@@ -3713,7 +3713,7 @@ h1 {
   border-radius: 0;
 }
 .imgFulll {
-  width: 100%;
+  width: 100% ;
 }
 .corporateRight img {
   animation: bounceLeft 2s ease-in-out infinite;
@@ -3982,12 +3982,15 @@ h1 {
 }
 .google-ads-row {
   display: flex;
+  align-items: end;
 }
 .google-ads-box {
   width: 200px;
 }
 .google-ads-box img {
-  width: 50px;
+  width: 100px;
+  /* height: 50px; */
+  object-fit: fill;
   margin-bottom: 20px;
 }
 .google-ads-box h5 {
@@ -7970,4 +7973,11 @@ table tbody tr td:nth-child(2) {
 
 .WebsiteDesignServices:nth-child(odd) {
   margin-top: 30px;
+}
+
+.contactTitle{
+  @media (max-width:921px) {
+    text-align: center;
+    
+  }
 }
