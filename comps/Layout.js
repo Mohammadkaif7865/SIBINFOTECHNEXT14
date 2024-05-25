@@ -1,6 +1,6 @@
 import Header from "../comps/Header";
 import Footer from "../comps/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 // import "./custom"
 import { useEffect, useState } from "react";
@@ -38,11 +38,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="wrapper">
-     
-        <div
-          className="cursor "
-      
-        ></div>
+        <div className="cursor "></div>
         <div className="cursor"></div>
         <Header />
         {children}
@@ -50,6 +46,8 @@ const Layout = ({ children }) => {
       </div>
 
       <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    
+
       <script
         defer
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
