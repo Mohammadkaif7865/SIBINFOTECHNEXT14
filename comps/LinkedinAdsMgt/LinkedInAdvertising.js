@@ -37,7 +37,7 @@ const LinkedInAdvertising = () => {
               LinkedIn advertising is a tool that can lead your conversions to
               the top graphs and boost sales in no time. All brand needs are a
               top-rated LinkedIn marketing company that can help your brand to
-              reach the heights with its experience and expertise.
+              reach the heights with its experience and expertise. 
             </p>
             <p className="customText">
               SIB Infotech is among the best LinkedIn marketing company in
