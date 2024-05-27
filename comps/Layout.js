@@ -63,8 +63,7 @@ const Layout = ({ children }) => {
       /> */}
       <Script
       defer
-      
-        strategy="beforeInteractive"  src="/assets/js/custom.js"></Script>
+      strategy="beforeInteractive"  src="/assets/js/custom.js"></Script>
     </>
   );
 };

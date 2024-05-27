@@ -5,7 +5,7 @@ import BannerForm from "../BannerForm";
 const HeroDigitalMarketing = () => {
   return (
     <>
-      {/* <div id="bannerSection" className="innerWebDesign">
+      <div id="bannerSection" className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
@@ -21,7 +21,7 @@ const HeroDigitalMarketing = () => {
                 </p>
                 <p className="text-white mt-2 title bulletPoint fw-bold">
                   Converting clicks to customers
-                </p> */}
+                </p>
                 {/* <h2 className="small_heading fw-bold mt-2 text-white">We Can Help You:</h2>
                       <ul className="bannerIcon">
                           <li>
@@ -49,7 +49,7 @@ const HeroDigitalMarketing = () => {
                               <div>Decreases Advertising Cost</div>
                           </li>
                       </ul> */}
-                {/* <div className="mt-4">
+                <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -96,8 +96,7 @@ const HeroDigitalMarketing = () => {
           </p>
           <BannerForm />
         </div>
-      </div> */}
-      <p>test</p>
+      </div>
     </>
   );
 };
