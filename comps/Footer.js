@@ -486,8 +486,11 @@ export default function Footer() {
           </div> */}
           <div className="containerFull  row ">
             <div className=" col-lg-6 tex ">
+              <h4 className="small_heading2 fontWeight700 text-white">
+                Mumbai Office
+              </h4>
               <iframe
-                className=" w-100 rounded "
+                className=" w-100 rounded mt-1"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
                 allowFullScreen=""
                 height="350"
@@ -497,8 +500,11 @@ export default function Footer() {
               ></iframe>
             </div>
             <div className="col-lg-6 mt-3 mt-lg-0">
+              <h4 className="small_heading2 fontWeight700 text-white">
+                New Delhi Office
+              </h4>
               <iframe
-              className="w-100 rounded"
+                className="w-100 rounded mt-1"
                 title="Delhi Office Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9866641582603!2d77.0791146745727!3d28.630161784190033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1709614692297!5m2!1sen!2sin"
                 // width="600"
