@@ -408,23 +408,18 @@ export default function Footer() {
           </div>
         </div>
         <section className="mapBlock py-5">
-          <div className="containerFull">
+          {/* <div className="containerFull">
             <div className="row">
               <div className="col-lg-6">
                 <div className="mapItem ">
                   <div className="leftImgMap ">
-                    {/* <picture>
-                      <source
-                        srcSet="assets/images/mumbai-office.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        src="assets/images/mumbai-office.jpg"
-                        className="img-fluid"
-                        alt="Mumbai Office"
-                      />
-                    </picture> */}
-                    <Image width={500} height={500} className="w-100 h-99 " src={`/assets/images/mumbai-office.webp`} alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      className="w-100 h-99 "
+                      src={`/assets/images/mumbai-office.webp`}
+                      alt=""
+                    />
                     <div className="officeAddress">
                       <h4 className="small_heading fontWeight600">
                         Mumbai Office
@@ -453,18 +448,13 @@ export default function Footer() {
               <div className="col-lg-6">
                 <div className="mapItem">
                   <div className="leftImgMap">
-                    {/* <picture>
-                      <source
-                        srcSet="assets/images/delhi-office.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        src="assets/images/delhi-office.jpg"
-                        className="img-fluid"
-                        alt="Delhi Office"
-                      />
-                    </picture> */}
-                     <Image width={500} height={500} className="w-100 h-99 " src={`/assets/images/delhi-office.webp`} alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      className="w-100 h-99 "
+                      src={`/assets/images/delhi-office.webp`}
+                      alt=""
+                    />
                     <div className="officeAddress">
                       <h4 className="small_heading fontWeight600">
                         Delhi Office
@@ -479,13 +469,6 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="rightMapItem">
-                    {/* <iframe className="img-taken"
-                                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14007.962243140857!2d77.081604!3d28.630045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696653308!5m2!1sen!2sin"
-                                          allowFullScreen=""
-                                          loading="lazy"
-                                          title="Delhi Office Map"
-                                          referrerPolicy="no-referrer-when-downgrade">
-                                      </iframe> */}
                     <iframe
                       title="Delhi Office Map"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9866641582603!2d77.0791146745727!3d28.630161784190033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1709614692297!5m2!1sen!2sin"
@@ -500,6 +483,32 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+          </div> */}
+          <div className="containerFull  row ">
+            <div className=" col-lg-6 tex ">
+              <iframe
+                className=" w-100 rounded "
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
+                allowFullScreen=""
+                height="350"
+                loading="lazy"
+                title="Mumbai Office Map"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="col-lg-6 mt-3 mt-lg-0">
+              <iframe
+              className="w-100 rounded"
+                title="Delhi Office Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9866641582603!2d77.0791146745727!3d28.630161784190033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1709614692297!5m2!1sen!2sin"
+                // width="600"
+                height="350"
+                style={{ border: "0" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </section>
         <div className="footerBottom">
@@ -511,44 +520,75 @@ export default function Footer() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                  <Image
+                    className="w-100 h-auto"
+                    width={100}
+                    height={100}
+                    quality={100}
                     src="https://www.gstatic.com/partners/badge/images/2024/PremierBadgeClickable.svg"
                     alt="Google Partner"
                   />
                 </Link>
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
                   alt="Meta Partner Company"
                   src="/assets/images/meta-partner.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
                   alt="clutch Partner Company"
                   src="/assets/images/clutch.png"
                 />
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
                   alt="Shopify Partner Company"
                   src="/assets/images/shopify-partner.png"
                 />
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
                   alt="Trustpilot Partner Company"
                   src="/assets/images/trustpilot.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100}
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
                   alt="Google Analytics Partner Company"
                   src="/assets/images/google-analytics.jpg"
                 />
               </div>
               <div className="itemFooterLogo">
-                <Image className="w-100 h-auto" width={100} height={100} quality={100} alt="Bing Partner Company" src="/assets/images/bing.png" />
+                <Image
+                  className="w-100 h-auto"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  alt="Bing Partner Company"
+                  src="/assets/images/bing.png"
+                />
               </div>
             </div>
             <div className="text-center mt-2 countryCenter">
