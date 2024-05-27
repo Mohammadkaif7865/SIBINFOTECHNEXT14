@@ -83,7 +83,7 @@ const nextConfig = {
     ];
   },
   assetPrefix:
-    "https://sibinfotechnext-14-git-instag-0c3b82-mohammadkaif7865s-projects.vercel.",
+    "https://sibinfotechnext-14-git-instag-0c3b82-mohammadkaif7865s-projects.vercel",
 };
 
 export default nextConfig;
