@@ -7969,7 +7969,14 @@ table tbody tr td:nth-child(2) {
 /* WebsiteDesignServices */
 
 .WebsiteDesignServices:nth-child(odd) {
-  margin-top: 30px;
+  @media (min-width: 1024px) {
+    margin-top: 30px;
+  }
+}
+.WebsiteDesignServices {
+  border: 2px solide red;
+  gap: 20px !important;
+  /* background-color: var(--red-color); */
 }
 
 /* digital marketing page */
@@ -7978,3 +7985,9 @@ table tbody tr td:nth-child(2) {
     display: none !important;
   }
 }
+
+.font-sm{
+  font-size: 12px;
+}
+
+
