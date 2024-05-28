@@ -1,6 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import BannerForm from "../BannerForm";
+import dynamic from 'next/dynamic';
+
+const BannerForm = dynamic(() => import("../BannerForm"));
+const BannerTextSlider = dynamic(() => import("../BannerTextSlider"));
+
 
 const Banner = () => {
   return (
@@ -17,13 +21,13 @@ const Banner = () => {
                   Top Rated PPC Management Company in India
                 </h2>
                 <div className="mt-4">
-                  <Link href="https://www.sibinfotech.com/#requestQuote">
+                <Link prefetch={false} href="https://www.sibinfotech.com/#requestQuote">
                     <span className="btnThemeRed me-3">
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
                     </span>
                   </Link>
 
-                  <Link href="#">
+                  <Link prefetch={false} href="#">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question

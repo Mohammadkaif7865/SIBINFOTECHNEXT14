@@ -1,5 +1,3 @@
-import Link from "next/link";
-import React from "react";
 import BannerForm from "../BannerForm";
 import Banner from "./Banner";
 import WhyNeed from "./WhyNeed";

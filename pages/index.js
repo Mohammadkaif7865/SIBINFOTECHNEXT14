@@ -1,7 +1,9 @@
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import HomePage from "@/comps/Home/HomePage";
+// import HomePage from "@/comps/Home/HomePage";
+const HomePage = dynamic(() => import("@/comps/Home/HomePage"));
 
 export default function Home() {
   return (

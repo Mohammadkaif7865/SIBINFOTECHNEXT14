@@ -37,7 +37,7 @@
 //               Millions of websites use Google PPC because it being a powerful
 //               and cost-effective way to increase brand awareness and drive
 //               traffic, overall boosting sales. SIB Infotech provides{" "}
-//               <Link href="/pay-per-click-ppc-management-services">
+//             <Link prefetch={false} href="/pay-per-click-ppc-management-services">
 //                 PPC management services
 //               </Link>{" "}
 //               that helps your business to get more than desired from its
@@ -174,7 +174,7 @@ const AdWords = () => {
               Millions of websites use Google PPC because it being a powerful
               and cost-effective way to increase brand awareness and drive
               traffic, overall boosting sales. SIB Infotech provides{" "}
-              <Link href="/pay-per-click-ppc-management-services">
+            <Link prefetch={false} href="/pay-per-click-ppc-management-services">
                 PPC management services
               </Link>{" "}
               that helps your business to get more than desired from its

@@ -10,7 +10,7 @@ const Contact = () => {
             your business is on track by meeting all the Social Media Marketing
             goals efficiently.
           </h3>
-          <Link href="/contact-us">
+          <Link prefetch={false} href="/contact-us">
             Speak to our linkedin marketing experts
           </Link>
         </div>

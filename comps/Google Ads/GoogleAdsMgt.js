@@ -1,14 +1,16 @@
 import Link from "next/link";
 import React from "react";
-import BannerForm from "../BannerForm";
-import HeroGoogleAds from "./HeroGoogleAds";
-import AdsCompany from "./AdsCompany";
-import WhyChoose from "./WhyChoose";
-import AdWords from "./AdWords";
-import Contact from "./Contact";
-import AdCampaigns from "./AdCampaigns";
-import EffectiveAds from "./EffectiveAds";
-import HighlyEfficient from "./HighlyEfficient";
+import dynamic from "next/dynamic";
+
+const BannerForm = dynamic(() => import("../BannerForm"));
+const HeroGoogleAds = dynamic(() => import("./HeroGoogleAds"));
+const AdsCompany = dynamic(() => import("./AdsCompany"));
+const WhyChoose = dynamic(() => import("./WhyChoose"));
+const AdWords = dynamic(() => import("./AdWords"));
+const Contact = dynamic(() => import("./Contact"));
+const AdCampaigns = dynamic(() => import("./AdCampaigns"));
+const EffectiveAds = dynamic(() => import("./EffectiveAds"));
+const HighlyEfficient = dynamic(() => import("./HighlyEfficient"));
 
 const GoogleAdsMgt = () => {
   return (
@@ -549,7 +551,7 @@ const GoogleAdsMgt = () => {
           </div>
         </div>
       </section> */}
-      <HighlyEfficient/>
+      <HighlyEfficient />
       <section className="blueBg2">
         <div className="containerFull">
           <div className="callAction">

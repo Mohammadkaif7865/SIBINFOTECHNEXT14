@@ -11,7 +11,7 @@ const LanchAds = () => {
             best Instagram advertising agency in India with offices in Mumbai
             and Delhi?
           </h4>
-          <Link href="/contact-us">Speak to our content marketing experts</Link>
+          <Link prefetch={false} href="/contact-us">Speak to our content marketing experts</Link>
         </div>
         <svg
           id="pattner"

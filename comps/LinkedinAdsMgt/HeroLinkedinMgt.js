@@ -1,6 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import BannerForm from "../BannerForm";
+import dynamic from 'next/dynamic';
+
+const BannerForm = dynamic(() => import("../BannerForm"));
+const BannerTextSlider = dynamic(() => import("../BannerTextSlider"));
+
 
 const HeroLinkedinMgt = () => {
   return (

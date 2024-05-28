@@ -257,7 +257,7 @@ const PpcCampaign = () => {
                 <span className="text_red">We&#39;re one of them.</span>
               </h5>
               <div className="goolePartner">
-                <Link href="https://www.google.com/partners/agency?id=4328223643">
+              <Link prefetch={false} href="https://www.google.com/partners/agency?id=4328223643">
                   <span target="_blank">
                     <Image
                       width={150}

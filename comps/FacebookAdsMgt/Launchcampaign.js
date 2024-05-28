@@ -13,7 +13,7 @@ const Launchcampaign = () => {
             with the best Facebook advertising company in India with offices in
             Mumbai and Delhi?
           </p>
-          <Link href="#">Speak to our influencer marketing experts</Link>
+          <Link prefetch={false} href="#">Speak to our influencer marketing experts</Link>
         </div>
         <svg
           id="pattner"

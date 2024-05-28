@@ -62,7 +62,7 @@ const HighlyEfficient = () => {
           <p className="customText">
             You will find many Google AdWords marketing services provider
             and{" "}
-            <Link href="/search-engine-optimization-seo-services">
+            <Link prefetch={false} href="/search-engine-optimization-seo-services">
               SEO Company in India
             </Link>{" "}
             but delivering the desired results matters which make SIB

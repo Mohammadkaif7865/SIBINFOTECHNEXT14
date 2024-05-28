@@ -1,6 +1,7 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import React from "react";
-import BannerForm from "../BannerForm";
+const BannerForm = dynamic(() => import("../BannerForm"));
 
 
 const Banner = () => {

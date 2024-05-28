@@ -66,7 +66,7 @@ const Benefits = () => {
             </div>
             <div className="col-lg-4">
               <div className="rightAction text-center">
-                <Link href="#bannerSection" className="btnAction">
+                <Link prefetch={false} href="#bannerSection" className="btnAction">
                   Speak with one of our Experts in India today!
                 </Link>
               </div>

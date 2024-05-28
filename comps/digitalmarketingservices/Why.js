@@ -71,7 +71,11 @@ const Why = () => {
             </div>
             <div className="col-lg-3">
               <div className="rightAction text-center">
-                <Link href="#bannerSection" className="btnAction mt-2">
+                <Link
+                  prefetch={false}
+                  href="#bannerSection"
+                  className="btnAction mt-2"
+                >
                   Contact Us
                 </Link>
               </div>

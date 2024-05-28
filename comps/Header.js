@@ -29,17 +29,17 @@ export default function Header() {
               <div className="topHeaderLeft">
                 <ul>
                   <li>
-                    <Link href="tel:+91-9222260000">
+                    <Link prefetch={false} href="tel:+91-9222260000">
                       <i className="fa fa-phone"></i> +91-9222260000
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:contact@sibinfotech.com">
+                    <Link prefetch={false} href="mailto:contact@sibinfotech.com">
                       <i className="fa fa-envelope"></i> contact@sibinfotech.com
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link prefetch={false} href="#">
                       <i className="fa fa-map-marker-alt"></i> Mumbai, New Delhi
                     </Link>
                   </li>
@@ -48,10 +48,10 @@ export default function Header() {
               <div className="topHeaderRight">
                 <ul>
                   <li>
-                    <Link href="/career">We're Hiring Now</Link>
+                    <Link prefetch={false} href="/career">We're Hiring Now</Link>
                   </li>
                   <li>
-                    <Link href="/contact-us">Request a Quote</Link>
+                    <Link prefetch={false} href="/contact-us">Request a Quote</Link>
                   </li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@ export default function Header() {
           <div className="container-fluid">
             <div className="inlineHeader">
               <div className="leftLogo">
-                <Link href="/">
+                <Link prefetch={false} href="/">
                   <picture>
                     <source
                       media="(max-width:650px)"
@@ -78,18 +78,18 @@ export default function Header() {
               <div className="rightMenu d-md-block d-none">
                 <ul>
                   <li>
-                    <Link href="/digital-marketing-services">
+                    <Link prefetch={false} href="/digital-marketing-services">
                       Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pay-per-click-ppc-management-services">
+                    <Link prefetch={false} href="/pay-per-click-ppc-management-services">
                       PPC
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/google-ads-management-services">
+                          <Link prefetch={false} href="/google-ads-management-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -108,7 +108,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/linkedin-ads-management-services">
+                          <Link prefetch={false} href="/linkedin-ads-management-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -126,7 +126,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/facebook-ads-management-services">
+                          <Link prefetch={false} href="/facebook-ads-management-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -145,7 +145,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/instagram-ads-management-services">
+                          <Link prefetch={false} href="/instagram-ads-management-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -167,13 +167,13 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/search-engine-optimization-seo-services">
+                    <Link prefetch={false} href="/search-engine-optimization-seo-services">
                       SEO
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/on-page-seo-services">
+                          <Link prefetch={false} href="/on-page-seo-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -191,7 +191,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/off-page-seo-services">
+                          <Link prefetch={false} href="/off-page-seo-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -209,7 +209,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/e-commerce-seo-services">
+                          <Link prefetch={false} href="/e-commerce-seo-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -227,7 +227,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/mobile-seo-services">
+                          <Link prefetch={false} href="/mobile-seo-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -245,7 +245,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/search-engine-optimization-outsourcing-seo-services">
+                          <Link prefetch={false} href="/search-engine-optimization-outsourcing-seo-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -264,7 +264,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/local-seo-services">
+                          <Link prefetch={false} href="/local-seo-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -285,11 +285,11 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/social-media-optimization-services">SMO</Link>
+                    <Link prefetch={false} href="/social-media-optimization-services">SMO</Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/social-media-optimization-services">
+                          <Link prefetch={false} href="/social-media-optimization-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -308,7 +308,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/content-marketing-services">
+                          <Link prefetch={false} href="/content-marketing-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -327,7 +327,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/digital-marketing-services">
+                          <Link prefetch={false} href="/digital-marketing-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -346,7 +346,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/online-reputation-management-services">
+                          <Link prefetch={false} href="/online-reputation-management-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -364,7 +364,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/blog-management-services">
+                          <Link prefetch={false} href="/blog-management-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -383,7 +383,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/influencer-marketing-services">
+                          <Link prefetch={false} href="/influencer-marketing-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -404,18 +404,18 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/graphic-designing-services">
+                    <Link prefetch={false} href="/graphic-designing-services">
                       Graphic Design
                     </Link>
                   </li>
                   <li>
-                    <Link href="/website-designing-services">
+                    <Link prefetch={false} href="/website-designing-services">
                       Website Designing
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/corporate-website-designing-services">
+                          <Link prefetch={false} href="/corporate-website-designing-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -434,7 +434,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/responsive-website-designing-services">
+                          <Link prefetch={false} href="/responsive-website-designing-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -452,7 +452,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/e-commerce-website-design-development-services">
+                          <Link prefetch={false} href="/e-commerce-website-design-development-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -471,7 +471,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/cms-website-design-development-services">
+                          <Link prefetch={false} href="/cms-website-design-development-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -490,7 +490,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/wordpress-website-design-development-services">
+                          <Link prefetch={false} href="/wordpress-website-design-development-services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -509,7 +509,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/custom-website-designing-services">
+                          <Link prefetch={false} href="/custom-website-designing-services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -531,12 +531,12 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/website-development-services">
+                    <Link prefetch={false} href="/website-development-services">
                       Web Development
                     </Link>
                   </li>
                   <li>
-                    <Link href="/software-development-services">
+                    <Link prefetch={false} href="/software-development-services">
                       Software Development
                     </Link>
                   </li>
@@ -565,57 +565,57 @@ export default function Header() {
                 <div className="extraMenuItems" id="mobileSub">
                     <ul>
                         <div className="d-block d-md-none">
-                            <li data-bs-dismiss="offcanvas"><Link href="/digital-marketing-services">Digital Marketing</Link></li>
-                            <li className="itemSub"><Link href="/pay-per-click-ppc-management-services" data-bs-dismiss="offcanvas">PPC Management</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#ppcManagement" aria-expanded="true" aria-controls="ppcManagement"><i className="fa fa-chevron-down"></i></button>
+                            <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/digital-marketing-services">Digital Marketing</Link></li>
+                            <li className="itemSub"><Link prefetch={false} href="/pay-per-click-ppc-management-services" data-bs-dismiss="offcanvas">PPC Management</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#ppcManagement" aria-expanded="true" aria-controls="ppcManagement"><i className="fa fa-chevron-down"></i></button>
                                 <ul id="ppcManagement" className="collapse" data-bs-parent="#mobileSub">
-                                  <li data-bs-dismiss="offcanvas"><Link href="/google-ads-management-services">Google Ads Management</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/linkedin-ads-management-services">LinkedIn Ads Management</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/facebook-ads-management-services">Facebook Ads Marketing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/instagram-ads-management-services">Instagram Ads Management</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/google-ads-management-services">Google Ads Management</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/linkedin-ads-management-services">LinkedIn Ads Management</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/facebook-ads-management-services">Facebook Ads Marketing</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/instagram-ads-management-services">Instagram Ads Management</Link></li>
                                 </ul>
                             </li>
-                            <li className="itemSub"><Link href="/search-engine-optimization-seo-services" data-bs-dismiss="offcanvas">SEO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#seoMenu" aria-expanded="true" aria-controls="seoMenu"><i className="fa fa-chevron-down"></i></button>
+                            <li className="itemSub"><Link prefetch={false} href="/search-engine-optimization-seo-services" data-bs-dismiss="offcanvas">SEO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#seoMenu" aria-expanded="true" aria-controls="seoMenu"><i className="fa fa-chevron-down"></i></button>
                                 <ul id="seoMenu" className="collapse" data-bs-parent="#mobileSub">
-                                <li data-bs-dismiss="offcanvas"><Link href="/on-page-seo-services">ON-Page SEO Services</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/off-page-seo-services">OFF-Page SEO Services</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/e-commerce-seo-services">E-Commerce SEO</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/mobile-seo-services">Mobile SEO</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/search-engine-optimization-outsourcing-seo-services">SEO Outsourcing</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/local-seo-services">Local SEO</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/on-page-seo-services">ON-Page SEO Services</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/off-page-seo-services">OFF-Page SEO Services</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/e-commerce-seo-services">E-Commerce SEO</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/mobile-seo-services">Mobile SEO</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/search-engine-optimization-outsourcing-seo-services">SEO Outsourcing</Link></li>
+                                <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/local-seo-services">Local SEO</Link></li>
                                 </ul>
                             </li>
-                            <li className="itemSub"><Link href="/social-media-optimization-services" data-bs-dismiss="offcanvas">SMO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#smoMenu" aria-expanded="true" aria-controls="smoMenu"><i className="fa fa-chevron-down"></i></button>
+                            <li className="itemSub"><Link prefetch={false} href="/social-media-optimization-services" data-bs-dismiss="offcanvas">SMO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#smoMenu" aria-expanded="true" aria-controls="smoMenu"><i className="fa fa-chevron-down"></i></button>
                                 <ul id="smoMenu" className="collapse" data-bs-parent="#mobileSub">
-                                    <li data-bs-dismiss="offcanvas"><Link href="/social-media-optimization-services">Social Media Optimization</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/content-marketing-services">Content Marketing</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/digital-marketing-services">Digital Marketing</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/online-reputation-management-services">Online Reputation Management Services</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/blog-management-services">Blog Management Service</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/influencer-marketing-services">Influencer Marketing</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/social-media-optimization-services">Social Media Optimization</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/content-marketing-services">Content Marketing</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/digital-marketing-services">Digital Marketing</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/online-reputation-management-services">Online Reputation Management Services</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/blog-management-services">Blog Management Service</Link></li>
+                                    <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/influencer-marketing-services">Influencer Marketing</Link></li>
                                 </ul>
                             </li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/graphic-designing-services">Graphic Design</Link></li>
-                            <li className="itemSub"><Link href="/website-designing-services" data-bs-dismiss="offcanvas">Website Designing Services</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#websiteDesign" aria-expanded="true" aria-controls="websiteDesign"><i className="fa fa-chevron-down"></i></button>
+                            <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/graphic-designing-services">Graphic Design</Link></li>
+                            <li className="itemSub"><Link prefetch={false} href="/website-designing-services" data-bs-dismiss="offcanvas">Website Designing Services</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#websiteDesign" aria-expanded="true" aria-controls="websiteDesign"><i className="fa fa-chevron-down"></i></button>
                                 <ul id="websiteDesign" className="collapse"  data-bs-parent="#mobileSub">
-                                  <li data-bs-dismiss="offcanvas"><Link href="/corporate-website-designing-services">Corporate Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/responsive-website-designing-services">Responsive Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/e-commerce-website-design-development-services">E-commerce Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/cms-website-design-development-services">Content Management Systems</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/wordpress-website-design-development-services">WordPress Website Design & Development</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/custom-website-designing-services">Custom Website Designing</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/corporate-website-designing-services">Corporate Website Designing</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/responsive-website-designing-services">Responsive Website Designing</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/e-commerce-website-design-development-services">E-commerce Website Designing</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/cms-website-design-development-services">Content Management Systems</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/wordpress-website-design-development-services">WordPress Website Design & Development</Link></li>
+                                  <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/custom-website-designing-services">Custom Website Designing</Link></li>
                                 </ul>
                             </li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/website-development-services">Web Development</Link></li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/software-development-services">Software Development</Link></li>
+                            <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/website-development-services">Web Development</Link></li>
+                            <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/software-development-services">Software Development</Link></li>
                         </div>
-                        <li data-bs-dismiss="offcanvas"><Link href="/about-us">About Us</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/portfolio">Our Portfolio</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/blog">Latest Blogs</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/career">Careers</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="#">Our Clients</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="#">SEO Tools</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/resource">Resources</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/contact-us">Contact Us</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/about-us">About Us</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/portfolio">Our Portfolio</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/blog">Latest Blogs</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/career">Careers</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="#">Our Clients</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="#">SEO Tools</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/resource">Resources</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link prefetch={false} href="/contact-us">Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
@@ -629,13 +629,13 @@ export default function Header() {
             <ul>
               <div className="d-block d-md-none">
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/digital-marketing-services">
+                  <Link prefetch={false} href="/digital-marketing-services">
                     Digital Marketing
                   </Link>
                 </li>
 
                 <li className="itemSub">
-                  <Link
+                  <Link prefetch={false}
                     href="/pay-per-click-ppc-management-services"
                     data-bs-dismiss="offcanvas"
                   >
@@ -659,29 +659,29 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/google-ads-management-services">
+                      <Link prefetch={false} href="/google-ads-management-services">
                         Google Ads Management
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/linkedin-ads-management-services">
+                      <Link prefetch={false} href="/linkedin-ads-management-services">
                         LinkedIn Ads Management
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/facebook-ads-management-services">
+                      <Link prefetch={false} href="/facebook-ads-management-services">
                         Facebook Ads Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/instagram-ads-management-services">
+                      <Link prefetch={false} href="/instagram-ads-management-services">
                         Instagram Ads Management
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="itemSub">
-                  <Link
+                  <Link prefetch={false}
                     href="/search-engine-optimization-seo-services"
                     data-bs-dismiss="offcanvas"
                   >
@@ -705,35 +705,35 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/on-page-seo-services">
+                      <Link prefetch={false} href="/on-page-seo-services">
                         ON-Page SEO Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/off-page-seo-services">
+                      <Link prefetch={false} href="/off-page-seo-services">
                         OFF-Page SEO Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/e-commerce-seo-services">
+                      <Link prefetch={false} href="/e-commerce-seo-services">
                         E-Commerce SEO
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/mobile-seo-services">Mobile SEO</Link>
+                      <Link prefetch={false} href="/mobile-seo-services">Mobile SEO</Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/search-engine-optimization-outsourcing-seo-services">
+                      <Link prefetch={false} href="/search-engine-optimization-outsourcing-seo-services">
                         SEO Outsourcing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/local-seo-services">Local SEO</Link>
+                      <Link prefetch={false} href="/local-seo-services">Local SEO</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="itemSub">
-                  <Link
+                  <Link prefetch={false}
                     href="/social-media-optimization-services"
                     data-bs-dismiss="offcanvas"
                   >
@@ -757,42 +757,42 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/social-media-optimization-services">
+                      <Link prefetch={false} href="/social-media-optimization-services">
                         Social Media Optimization
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/content-marketing-services">
+                      <Link prefetch={false} href="/content-marketing-services">
                         Content Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/digital-marketing-services">
+                      <Link prefetch={false} href="/digital-marketing-services">
                         Digital Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/online-reputation-management-services">
+                      <Link prefetch={false} href="/online-reputation-management-services">
                         Online Reputation Management Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/blog-management-services">
+                      <Link prefetch={false} href="/blog-management-services">
                         Blog Management Service
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/influencer-marketing-services">
+                      <Link prefetch={false} href="/influencer-marketing-services">
                         Influencer Marketing
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/graphic-designing-services">Graphic Design</Link>
+                  <Link prefetch={false} href="/graphic-designing-services">Graphic Design</Link>
                 </li>
                 <li className="itemSub">
-                  <Link
+                  <Link prefetch={false}
                     href="/website-designing-services"
                     data-bs-dismiss="offcanvas"
                   >
@@ -816,71 +816,71 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/corporate-website-designing-services">
+                      <Link prefetch={false} href="/corporate-website-designing-services">
                         Corporate Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/responsive-website-designing-services">
+                      <Link prefetch={false} href="/responsive-website-designing-services">
                         Responsive Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/e-commerce-website-design-development-services">
+                      <Link prefetch={false} href="/e-commerce-website-design-development-services">
                         E-commerce Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/cms-website-design-development-services">
+                      <Link prefetch={false} href="/cms-website-design-development-services">
                         Content Management Systems
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/wordpress-website-design-development-services">
+                      <Link prefetch={false} href="/wordpress-website-design-development-services">
                         WordPress Website Design & Development
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/custom-website-designing-services">
+                      <Link prefetch={false} href="/custom-website-designing-services">
                         Custom Website Designing
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/website-development-services">
+                  <Link prefetch={false} href="/website-development-services">
                     Web Development
                   </Link>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/software-development-services">
+                  <Link prefetch={false} href="/software-development-services">
                     Software Development
                   </Link>
                 </li>
               </div>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/about-us">About Us</Link>
+                <Link prefetch={false} href="/about-us">About Us</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/portfolio">Our Portfolio</Link>
+                <Link prefetch={false} href="/portfolio">Our Portfolio</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/blog">Latest Blogs</Link>
+                <Link prefetch={false} href="/blog">Latest Blogs</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/career">Careers</Link>
+                <Link prefetch={false} href="/career">Careers</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="#">Our Clients</Link>
+                <Link prefetch={false} href="#">Our Clients</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="#">SEO Tools</Link>
+                <Link prefetch={false} href="#">SEO Tools</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/resource">Resources</Link>
+                <Link prefetch={false} href="/resource">Resources</Link>
               </li>
               <li data-bs-dismiss="offcanvas">
-                <Link href="/contact-us">Contact Us</Link>
+                <Link prefetch={false} href="/contact-us">Contact Us</Link>
               </li>
             </ul>
           </div>

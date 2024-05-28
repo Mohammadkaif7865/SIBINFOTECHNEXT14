@@ -1,5 +1,8 @@
 import React from "react";
-import SliderTestimonials from "../SliderTestimonials";
+import dynamic from 'next/dynamic';
+
+const SliderTestimonials = dynamic(() => import("../SliderTestimonials"));
+
 
 const Testimonials = () => {
   return (

@@ -1,5 +1,8 @@
 import React from "react";
-import WorkWebdesign from "../WorkWebdesign";
+import dynamic from 'next/dynamic';
+
+const WorkWebdesign = dynamic(() => import("../WorkWebdesign"));
+
 
 const Madeby = () => {
   return (

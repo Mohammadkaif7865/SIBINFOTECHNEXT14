@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import dynamic from "next/dynamic";
 import Head from "next/head";
-import Link from "next/link";
-import BannerForm from "../BannerForm";
-import HeroDigitalMarketing from "./HeroDigitalMarketing";
-import BestCompany from "./BestCompany";
-import WeOffer from "./WeOffer";
-import Benefits from "./Benefits";
-import OurSteps from "./OurSteps";
-import SpecializedServices from "./SpecializedServices";
-import Why from "./Why";
-import MarketingTools from "./MarketingTools";
-import Faqs from "./Faqs";
+import { useEffect } from "react";
+
+const BannerForm = dynamic(() => import("../BannerForm"));
+const HeroDigitalMarketing = dynamic(() => import("./HeroDigitalMarketing"));
+const BestCompany = dynamic(() => import("./BestCompany"));
+const WeOffer = dynamic(() => import("./WeOffer"));
+const Benefits = dynamic(() => import("./Benefits"));
+const OurSteps = dynamic(() => import("./OurSteps"));
+const SpecializedServices = dynamic(() => import("./SpecializedServices"));
+const Why = dynamic(() => import("./Why"));
+const MarketingTools = dynamic(() => import("./MarketingTools"));
+const Faqs = dynamic(() => import("./Faqs"));
 
 const DigitalMarkServices = () => {
   useEffect(() => {

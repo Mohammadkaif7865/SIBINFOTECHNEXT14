@@ -395,7 +395,7 @@ const Expertise = () => {
                 <div className="serviceText">
                   <p>{service.description}</p>
                 </div>
-                <Link href={service.link} className="linkService">
+                <Link prefetch={false} href={service.link} className="linkService">
                   Read More
                 </Link>
               </div>

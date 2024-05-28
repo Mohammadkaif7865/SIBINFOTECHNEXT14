@@ -17,7 +17,7 @@ const WhySib = () => {
                 solutions, as we are the best social media marketing agency in
                 India
               </p>
-              <Link className="insta-btn" href="/contact-us">
+              <Link prefetch={false} className="insta-btn" href="/contact-us">
                 Speak To Our Experts
               </Link>
             </div>

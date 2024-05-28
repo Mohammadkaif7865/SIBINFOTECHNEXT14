@@ -1,9 +1,10 @@
-import Link from "next/link";
-import AdsMgt from "./AdsMgt";
-import HeroLinkedinMgt from "./HeroLinkedinMgt";
-import Intro from "./Intro";
-import Strategies from "./Strategies ";
-import LinkedInAdvertising from "./LinkedInAdvertising";
+import dynamic from 'next/dynamic';
+const AdsMgt = dynamic(() => import("./AdsMgt"));
+const HeroLinkedinMgt = dynamic(() => import("./HeroLinkedinMgt"));
+const Intro = dynamic(() => import("./Intro"));
+const Strategies = dynamic(() => import("./Strategies "));
+const LinkedInAdvertising = dynamic(() => import("./LinkedInAdvertising"));
+
 
 const LinkedinAdsPage = () => {
   return (

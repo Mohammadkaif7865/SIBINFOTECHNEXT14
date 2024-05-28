@@ -25,7 +25,7 @@ const Contact = ({
           </div>
           <div className="col-lg-4">
             <div className="section-4-right">
-              <Link className="customBtn" href={buttonLink}>
+            <Link prefetch={false} className="customBtn" href={buttonLink}>
                  {buttonText}
               </Link>
             </div>

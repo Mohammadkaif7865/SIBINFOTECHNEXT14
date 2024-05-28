@@ -198,7 +198,7 @@ const Counter = () => {
                   console.log(links);
                   return (
                     <li key={index}>
-                      <Link href={link.href}>{link.label}</Link>
+                  <Link prefetch={false} href={link.href}>{link.label}</Link>
                     </li>
                   );
                 })}

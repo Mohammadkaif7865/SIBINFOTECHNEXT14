@@ -260,7 +260,7 @@ export default function ContactForm() {
                     <h4>Call Today</h4>
                     <p>
                       <i className="fa fa-phone"></i>{" "}
-                      <Link href="tel:+91-9222260000">
+                      <Link prefetch={false} href="tel:+91-9222260000">
                         <span>+91-92222-60000</span>
                       </Link>
                     </p>
@@ -271,7 +271,7 @@ export default function ContactForm() {
                     <h4>Enquiry/Support</h4>
                     <p>
                       <i className="fa fa-envelope"></i>{" "}
-                      <Link href="mailto:contact@sibinfotech.com">
+                      <Link prefetch={false} href="mailto:contact@sibinfotech.com">
                         <span>contact@sibinfotech.com</span>
                       </Link>
                     </p>
@@ -282,7 +282,7 @@ export default function ContactForm() {
                     <h4>HR/Job</h4>
                     <p>
                       <i className="fa fa-envelope text_primary"></i>{" "}
-                      <Link href="#">
+                      <Link prefetch={false} href="#">
                         <span>career@sibinfotech.com</span>
                       </Link>
                     </p>

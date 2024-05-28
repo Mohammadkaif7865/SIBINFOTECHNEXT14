@@ -9,7 +9,7 @@
 //           <div className="col-lg-8">
 //             <div className="row">
 //               <div className="col-lg-6 translate50">
-//                 <Link href="#">
+//              <Link prefetch={false} href="#">
 //                   <div className="webDesignItem">
 //                     <div className="iconWe">
 //                       <img
@@ -31,7 +31,7 @@
 //                 </Link>
 //               </div>
 //               <div className="col-lg-6">
-//                 <Link href="#">
+//              <Link prefetch={false} href="#">
 //                   <div className="webDesignItem">
 //                     <div className="iconWe">
 //                       <img
@@ -53,7 +53,7 @@
 //                 </Link>
 //               </div>
 //               <div className="col-lg-6 translate50">
-//                 <Link href="#">
+//              <Link prefetch={false} href="#">
 //                   <div className="webDesignItem">
 //                     <div className="iconWe">
 //                       <img
@@ -75,7 +75,7 @@
 //                 </Link>
 //               </div>
 //               <div className="col-lg-6">
-//                 <Link href="#">
+//              <Link prefetch={false} href="#">
 //                   <div className="webDesignItem">
 //                     <div className="iconWe">
 //                       <img
@@ -174,7 +174,7 @@ const WebsiteDesignServices = () => {
               {/* Mapping over the serviceItems array */}
               {serviceItems.map((item, index) => (
                 <div className="col-lg-6 WebsiteDesignServices" key={index}>
-                  <Link href="#">
+                  <Link prefetch={false} href="#">
                     <div className="webDesignItem">
                       <div className="iconWe">
                         <Image
@@ -198,9 +198,9 @@ const WebsiteDesignServices = () => {
               ))}
             </div>
           </div>
-          <div className="col-lg-4 ps-lg-4">
+          <div className="col-lg-4 ps-lg-4 ">
             <div className="rightServicesWeb">
-              <picture>
+              {/* <picture>
                 <source
                   srcSet="/assets/images/programming-amico.webp"
                   type="image/webp"
@@ -210,7 +210,14 @@ const WebsiteDesignServices = () => {
                   className="img-fluid"
                   alt="Writing Programme"
                 />
-              </picture>
+              </picture> */}
+              <Image
+                width={400}
+                height={400}
+                className="w-100 h-auto"
+                src={"/assets/images/programming-amico.webp"}
+                alt="Writing Programme"
+              />
               <h5 className="small_head text_red mt-4">We're offering</h5>
               <h4 className="regular_heading fontWeight700 mt-2">
                 Website Design Services

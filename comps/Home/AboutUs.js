@@ -79,15 +79,22 @@ const AboutUs = () => {
               ))}
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
             <div className="aboutHomeRight">
-              <picture>
+              {/* <picture>
                 <source srcSet="assets/images/about2.webp" type="image/webp" />
                 <img
                   src="assets/images/about2.png"
                   alt="SIB Infotech about us"
                 />
-              </picture>
+              </picture> */}
+              <Image
+                className=" w-100 h-auto"
+                width={500}
+                height={550}
+                src={"/assets/images/about2.webp"}
+                alt="SIB Infotech about us"
+              />
             </div>
           </div>
         </div>

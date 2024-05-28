@@ -72,7 +72,7 @@ export default function DigitalMarketingTab() {
                       <h4 className="sub_heading2 fontWeight700">{tabDats.title}</h4>
                       <p className="small_heading fontWeight500 mt-2"  dangerouslySetInnerHTML={{__html: tabDats.title2}}></p>
                       <div  dangerouslySetInnerHTML={{__html: tabDats.content}}></div>
-                      <Link href={tabDats.url} className="btnLink">Learn More <i className="bi bi-arrow-right"></i></Link>
+                      <Link prefetch={false} href={tabDats.url} className="btnLink">Learn More <i className="bi bi-arrow-right"></i></Link>
                     </div>
                   </div>
                 </div>

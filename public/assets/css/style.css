@@ -3713,7 +3713,7 @@ h1 {
   border-radius: 0;
 }
 .imgFulll {
-  width: 100% ;
+  width: 100%;
 }
 .corporateRight img {
   animation: bounceLeft 2s ease-in-out infinite;
@@ -7978,26 +7978,20 @@ table tbody tr td:nth-child(2) {
 }
 .WebsiteDesignServices {
   gap: 20px !important;
-  
-} 
-
-
-.IntroImage{
-  min-height: 400px;
-  @media (max-width:991px) {
-    min-height:200px ;
-    
-  }
-}
-.AdsMgtImage{
-  min-height: 400px;
-  @media (max-width:991px) {
-    min-height:200px ;
-    
-  }
 }
 
-
+.IntroImage {
+  min-height: 400px;
+  @media (max-width: 991px) {
+    min-height: 200px;
+  }
+}
+.AdsMgtImage {
+  min-height: 400px;
+  @media (max-width: 991px) {
+    min-height: 200px;
+  }
+}
 
 /* digital marketing page */
 .we_offer {
@@ -8006,9 +8000,6 @@ table tbody tr td:nth-child(2) {
   }
 }
 
-.font-sm{
+.font-sm {
   font-size: 12px;
 }
-
-
-

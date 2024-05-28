@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import DigitalMarketingTab from "../DigitalMarketingTab";
+import dynamic from 'next/dynamic';
+
+const DigitalMarketingTab = dynamic(() => import("../DigitalMarketingTab"));
+
 
 const DigitalMarketingServices = () => {
   return (

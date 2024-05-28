@@ -1,11 +1,10 @@
-import React from "react";
-import BannerForm from "../BannerForm";
-import Link from "next/link";
-import Banner from "./Banner";
-import Introduction from "./Introduction";
-import PpcPlatform from "./PpcPlatform";
-import PpcCampaign from "./PpcCampaign";
-import BenefitsPPC from "./BenefitsPPC";
+import dynamic from 'next/dynamic';
+
+const Banner = dynamic(() => import("./Banner"));
+const BenefitsPPC = dynamic(() => import("./BenefitsPPC"));
+const Introduction = dynamic(() => import("./Introduction"));
+const PpcCampaign = dynamic(() => import("./PpcCampaign"));
+const PpcPlatform = dynamic(() => import("./PpcPlatform"));
 
 const Ppc = () => {
   return (

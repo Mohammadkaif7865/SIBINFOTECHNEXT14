@@ -13,7 +13,7 @@ const Faq = () => {
               <br />
               speak to our expert strategists now.
             </h4>
-            <Link href="tel: +91-9222260000" className="btnAction">
+           <Link prefetch={false}  href="tel: +91-9222260000" className="btnAction">
               Let's Talk Growth <i className="bi bi-arrow-right"></i>
             </Link>
           </div>
@@ -41,7 +41,7 @@ const Faq = () => {
                   We're ready to help you
                 </h4>
                 <div>
-                  <Link href="tel: +91-9222260000" className="btnTheme mt-4">
+                 <Link prefetch={false} href="tel: +91-9222260000" className="btnTheme mt-4">
                     <i className="fa fa-phone"></i> +91-9222260000
                   </Link>
                 </div>
@@ -51,7 +51,7 @@ const Faq = () => {
               <div className="faqRight ps-lg-4">
                 <Faqs />
                 <div className="text-end">
-                  <Link href="#" className="link mt-2">
+                 <Link prefetch={false} href="#" className="link mt-2">
                     See All <i className="fa fa-caret-right"></i>
                   </Link>
                 </div>

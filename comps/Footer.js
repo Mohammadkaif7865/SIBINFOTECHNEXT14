@@ -166,7 +166,7 @@ export default function Footer() {
                 <h4 className="sub_heading text_white">
                   <i className="fa fa-mobile-alt pe-3 text_red"></i> Let's Talk
                 </h4>
-                <Link
+                <Link prefetch={false}
                   href="tel:+91-92222-60000"
                   className="sub_heading2 text-white my-3 d-inline-block"
                 >
@@ -178,7 +178,7 @@ export default function Footer() {
                   <br /> We deliver.
                 </h4>
                 <div>
-                  <Link href="/contact-us" className="footerLeft">
+                  <Link prefetch={false} href="/contact-us" className="footerLeft">
                     Get Started
                   </Link>
                 </div>
@@ -194,42 +194,42 @@ export default function Footer() {
                           <h4>Internet Marketing</h4>
                           <ul>
                             <li>
-                              <Link href="/social-media-optimization-services">
+                              <Link prefetch={false} href="/social-media-optimization-services">
                                 Social Media Optimization
                               </Link>
                             </li>
                             <li>
-                              <Link href="/pay-per-click-ppc-management-services">
+                              <Link prefetch={false} href="/pay-per-click-ppc-management-services">
                                 PPC Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/search-engine-marketing-companies-mumbai-india">
+                              <Link prefetch={false} href="/search-engine-marketing-companies-mumbai-india">
                                 Search Engine Marketing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/online-reputation-management-services">
+                              <Link prefetch={false} href="/online-reputation-management-services">
                                 Reputation Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/paid-inclusion-services-mumbai-india">
+                              <Link prefetch={false} href="/paid-inclusion-services-mumbai-india">
                                 Paid Search Engine Inclusion
                               </Link>
                             </li>
                             <li>
-                              <Link href="/email-marketing-services-companies-mumbai-india">
+                              <Link prefetch={false} href="/email-marketing-services-companies-mumbai-india">
                                 Email Marketing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/press-release-submission-services">
+                              <Link prefetch={false} href="/press-release-submission-services">
                                 PR Submission
                               </Link>
                             </li>
                             <li>
-                              <Link href="/regional-local-seo-services">
+                              <Link prefetch={false} href="/regional-local-seo-services">
                                 Google Local Listing
                               </Link>
                             </li>
@@ -241,47 +241,47 @@ export default function Footer() {
                           <h4>Website Development</h4>
                           <ul>
                             <li>
-                              <Link href="/erp-crm-software-development-solutions">
+                              <Link prefetch={false} href="/erp-crm-software-development-solutions">
                                 ERP & CRM Solutions
                               </Link>
                             </li>
                             <li>
-                              <Link href="/custom-website-development-companies-mumbai-india">
+                              <Link prefetch={false} href="/custom-website-development-companies-mumbai-india">
                                 Custom Web Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/cms-development-companies-mumbai-india">
+                              <Link prefetch={false} href="/cms-development-companies-mumbai-india">
                                 CMS Development Services
                               </Link>
                             </li>
                             <li>
-                              <Link href="/magento-development-services-mumbai-india">
+                              <Link prefetch={false} href="/magento-development-services-mumbai-india">
                                 Magento Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/drupal-cms-framework-development-services">
+                              <Link prefetch={false} href="/drupal-cms-framework-development-services">
                                 Drupal Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/wordpress-cms-website-development-companies-mumbai-india">
+                              <Link prefetch={false} href="/wordpress-cms-website-development-companies-mumbai-india">
                                 WordPress Experts
                               </Link>
                             </li>
                             <li>
-                              <Link href="/joomla-cms-framework-development-services">
+                              <Link prefetch={false} href="/joomla-cms-framework-development-services">
                                 Joomla Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/webportal-development-companies-mumbai-india">
+                              <Link prefetch={false} href="/webportal-development-companies-mumbai-india">
                                 Web Portal Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/ecommerce-solutions-company-mumbai-india">
+                              <Link prefetch={false} href="/ecommerce-solutions-company-mumbai-india">
                                 E-Commerce Solutions
                               </Link>
                             </li>
@@ -293,42 +293,42 @@ export default function Footer() {
                           <h4>Website Designing</h4>
                           <ul>
                             <li>
-                              <Link href="/cms-website-design-development-services">
+                              <Link prefetch={false} href="/cms-website-design-development-services">
                                 CMS Based Website
                               </Link>
                             </li>
                             <li>
-                              <Link href="/dynamic-website-designing-services">
+                              <Link prefetch={false} href="/dynamic-website-designing-services">
                                 Dynamic Website Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-maintenance-services">
+                              <Link prefetch={false} href="/website-maintenance-services">
                                 Website Maintenance
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-redesigning-services">
+                              <Link prefetch={false} href="/website-redesigning-services">
                                 Website Redesigning
                               </Link>
                             </li>
                             <li>
-                              <Link href="/mobile-website-designing-services">
+                              <Link prefetch={false} href="/mobile-website-designing-services">
                                 Mobile Website Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/corporate-website-designing-services">
+                              <Link prefetch={false} href="/corporate-website-designing-services">
                                 Corporate Web Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-audit-services-mumbai-india">
+                              <Link prefetch={false} href="/website-audit-services-mumbai-india">
                                 Website Audit Report
                               </Link>
                             </li>
                             <li>
-                              <Link href="/xhtml-conversion-services">
+                              <Link prefetch={false} href="/xhtml-conversion-services">
                                 XHTML Conversion
                               </Link>
                             </li>
@@ -340,22 +340,22 @@ export default function Footer() {
                           <h4>PPC Management</h4>
                           <ul>
                             <li>
-                              <Link href="/google-ads-management-services">
+                              <Link prefetch={false} href="/google-ads-management-services">
                                 Google Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/linkedin-ads-management-services">
+                              <Link prefetch={false} href="/linkedin-ads-management-services">
                                 Linkedin Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/instagram-ads-management-services">
+                              <Link prefetch={false} href="/instagram-ads-management-services">
                                 Instagram Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/facebook-ads-management-services">
+                              <Link prefetch={false} href="/facebook-ads-management-services">
                                 Facebook Ads Management
                               </Link>
                             </li>
@@ -369,7 +369,7 @@ export default function Footer() {
                   <div className="socialColumn">
                     <ul>
                       <li>
-                        <Link
+                        <Link prefetch={false}
                           href="https://www.facebook.com/sibinfotech/"
                           target="_blank"
                         >
@@ -377,7 +377,7 @@ export default function Footer() {
                         </Link>
                       </li>
                       <li>
-                        <Link
+                        <Link prefetch={false}
                           href="https://www.twitter.com/sibinfotech"
                           target="_blank"
                         >
@@ -385,7 +385,7 @@ export default function Footer() {
                         </Link>
                       </li>
                       <li>
-                        <Link
+                        <Link prefetch={false}
                           href="https://www.linkedin.com/company/sib-infotech/"
                           target="_blank"
                         >
@@ -393,7 +393,7 @@ export default function Footer() {
                         </Link>
                       </li>
                       <li>
-                        <Link
+                        <Link prefetch={false}
                           href="https://www.youtube.com/user/sibinfotech"
                           target="_blank"
                         >
@@ -428,7 +428,7 @@ export default function Footer() {
                         107, Orbit Premises, Mindspace Near Inorbit Mall, Malad
                         West, Mumbai, Maharashtra 400064
                       </p>
-                      <Link href="tel:+91-92222-60000">
+                      <Link prefetch={false} href="tel:+91-92222-60000">
                         <i className="fa fa-phone"></i>&nbsp; +91-92222-60000
                       </Link>
                     </div>
@@ -463,7 +463,7 @@ export default function Footer() {
                         2nd Floor, Office No 205, DDA-2 Building, Janakpuri
                         District Center, Janakpuri, New Delhi, Delhi 110058
                       </p>
-                      <Link href="tel:+91-92222-60000">
+                      <Link prefetch={false} href="tel:+91-92222-60000">
                         <i className="fa fa-phone"></i>&nbsp; +91-92222-60000
                       </Link>
                     </div>
@@ -523,7 +523,7 @@ export default function Footer() {
           <div className="containerFull">
             <div className="footerLogos">
               <div className="itemFooterLogo">
-                <Link
+                <Link prefetch={false}
                   href="https://www.google.com/partners/agency?id=4328223643"
                   rel="noreferrer"
                   target="_blank"
@@ -610,34 +610,34 @@ export default function Footer() {
               <div className="rightFooterBottom">
                 <ul>
                   <li>
-                    <Link href="#">Clients</Link>
+                    <Link prefetch={false} href="#">Clients</Link>
                   </li>
                   <li>
-                    <Link href="/career">Career</Link>
+                    <Link prefetch={false} href="/career">Career</Link>
                   </li>
                   <li>
-                    <Link href="/blog">Blog</Link>
+                    <Link prefetch={false} href="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link prefetch={false} href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/sitemap.xml">Sitemap</Link>
+                    <Link prefetch={false} href="/sitemap.xml">Sitemap</Link>
                   </li>
                   <li>
-                    <Link href="/terms-and-conditions">Terms of Use</Link>
+                    <Link prefetch={false} href="/terms-and-conditions">Terms of Use</Link>
                   </li>
                   <li>
-                    <Link href="/cookie-policy">Cookies Policy</Link>
+                    <Link prefetch={false} href="/cookie-policy">Cookies Policy</Link>
                   </li>
                   <li>
-                    <Link href="#">SEO Tools</Link>
+                    <Link prefetch={false} href="#">SEO Tools</Link>
                   </li>
                   <li>
-                    <Link href="/resource">Resources</Link>
+                    <Link prefetch={false} href="/resource">Resources</Link>
                   </li>
                   <li>
-                    <Link href="/contact-us">Contact Us</Link>
+                    <Link prefetch={false} href="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </div>

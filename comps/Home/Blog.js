@@ -51,7 +51,9 @@
 import React, { useEffect, useState } from "react";
 import * as CONSTANTS from "../../constants/constants";
 import axios from "axios";
-import BlogCard from "../BlogCard";
+import dynamic from 'next/dynamic';
+
+const BlogCard = dynamic(() => import("../BlogCard"));
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
