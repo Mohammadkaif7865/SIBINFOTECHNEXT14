@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Helmet } from 'react-helmet-async';
-import { useParams} from 'react-router-dom';
+// import { useParams} from 'react-router-dom';
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { compareAsc, format } from 'date-fns'
