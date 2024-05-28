@@ -104,7 +104,7 @@ function MyApp({ Component, pageProps }) {
             as="style"
             onload="this.onload=null;this.rel='stylesheet'"
           /> */}
-          <link
+          {/* <link
             rel="preload"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
             as="style"
@@ -121,13 +121,32 @@ function MyApp({ Component, pageProps }) {
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             as="style"
             onload="this.onload=null;this.rel='stylesheet'"
+          /> */}
+           <link
+            rel="preload"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            as="style"
+            onLoad="this.onload=null;this.rel='stylesheet'"
           />
-          <noscript>
+          <link
+            rel="preload"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+            as="style"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+          <link
+            rel="preload"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            as="style"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+
+          {/* <noscript>
             <link
               href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
               rel="stylesheet"
             />
-          </noscript>
+          </noscript> */}
           <noscript>
             <link
               rel="stylesheet"

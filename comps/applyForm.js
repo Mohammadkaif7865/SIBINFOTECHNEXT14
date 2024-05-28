@@ -55,6 +55,20 @@ export default function ApplyForm() {
     },
   ]);
 
+  const [errors, setErrors] = useState({
+    jobtype: "",
+    postapplied: "",
+    job_location: "",
+    fname: "",
+    lname: "",
+    dob: "",
+    email: "",
+    pre_city: "",
+    pre_state: "",
+    join_date: "",
+    resume: "",
+  });
+
   const handleExperienceChange = (index, event) => {
     let data = [...experienceFields];
     data[index][event.target.name] = event.target.value;
@@ -122,6 +136,19 @@ export default function ApplyForm() {
   });
 
   const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    if (value.trim() === "") {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        [name]: "This field is required",
+      }));
+    } else {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        [name]: "",
+      }));
+    }
+
     setInputs((prevState) => ({
       ...prevState,
       [e.target.name]:
@@ -132,10 +159,23 @@ export default function ApplyForm() {
           : e.target.value,
     }));
   };
+  // const handleError = (e) => {
+  //   const { name, value } = e.target;
+  //   setErrors((prevErrors) => ({
+  //     ...prevErrors,
+  //     [name]: value,
+  //   }));
+  // };
 
   const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
+    const file = event.target.files[0];
+    setSelectedFile(file);
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      resume: file ? "" : "This field is required",
+    }));
   };
+  
   function renderPreview() {
     if (selectedFile) {
       const fileType = selectedFile.type;
@@ -374,6 +414,151 @@ export default function ApplyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // let newErrors = {};
+    // // Validate each field
+    // Object.keys(inputs).forEach((key) => {
+    //   if (!inputs[key]) {
+    //     newErrors[key] = "This field is required";
+    //   }
+    // });
+    // if (!selectedFile) {
+    //   newErrors.resume = "CV is required";
+    // }
+
+    // setErrors(newErrors);
+    // console.log(newErrors);
+
+    let newErrors = {};
+    // Validate each field
+    Object.keys(errors).forEach((key) => {
+      if (!inputs[key]) {
+        newErrors[key] = "This field is required";
+      }
+    });
+    console.log(selectedFile);
+    if (selectedFile) {
+      delete newErrors.resume;
+    }
+
+    setErrors(newErrors);
+    console.log(newErrors);
+
+    if (Object.keys(newErrors).length !== 0) {
+      return toast.error("Please fill in all required fields");
+    }
+
+    // setErrors(newErrors);
+
+    // if (!inputs.jobtype) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     jobtype: "This field is required",
+    //   }));
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     jobtype: "",
+    //   }));
+    // }
+
+    // if (!inputs.postapplied) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     postapplied: "This field is required",
+    //   }));
+    //   //  toast.error("Please select the post applied for!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     postapplied: "",
+    //   }));
+    // }
+    // if (!inputs.job_location) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     job_location: "This field is required",
+    //   }));
+
+    //   // toast.error("Please select the job location!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     job_location: "",
+    //   }));
+    // }
+    // if (!inputs.fname) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     fname: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your first name!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     fname: "",
+    //   }));
+    // }
+    // if (!inputs.lname) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     lname: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your last name!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     lname: "",
+    //   }));
+    // }
+    // if (!inputs.email) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     email: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your email!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     email: "",
+    //   }));
+    // }
+    // if (!inputs.pre_city) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_city: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your present city!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_city: "",
+    //   }));
+    // }
+    // if (!inputs.pre_state) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_state: "This field is required",
+    //   }));
+    //   // return toast.error("Please enter your present state!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     pre_state: "",
+    //   }));
+    // }
+    // if (!selectedFile) {
+    //   return setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     resume: "This field is required",
+    //   }));
+    //   // return toast.error("Please upload your resume!");
+    // } else {
+    //   setErrors((prevErrors) => ({
+    //     ...prevErrors,
+    //     resume: "",
+    //   }));
+    // }
+
     if (code == inputs.cpatchaText) {
       addCareer().then((data) => {
         if (!data.error) {
@@ -581,7 +766,6 @@ export default function ApplyForm() {
                                     id=""
                                     onChange={handleInputChange}
                                     value={inputs.jobtype}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Full Time">Full Time</option>
@@ -592,6 +776,12 @@ export default function ApplyForm() {
                                     </option>
                                     <option value="Intern">Intern</option>
                                   </select>
+
+                                  {errors.jobtype && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.jobtype}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Post applied for*</label>
@@ -600,7 +790,6 @@ export default function ApplyForm() {
                                     id="postapplied"
                                     onChange={handleInputChange}
                                     value={inputs.postapplied}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Wordpress Developer - Senior">
@@ -803,6 +992,11 @@ export default function ApplyForm() {
                                       Wordpress Developer- Manager
                                     </option>
                                   </select>
+                                  {errors.postapplied && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.postapplied}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Job location*</label>
@@ -811,7 +1005,6 @@ export default function ApplyForm() {
                                     id="job_location"
                                     onChange={handleInputChange}
                                     value={inputs.job_location}
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Delhi">Delhi</option>
@@ -823,6 +1016,11 @@ export default function ApplyForm() {
                                       Work from Home
                                     </option>
                                   </select>
+                                  {errors.job_location && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.job_location}
+                                    </p>
+                                  )}
                                 </div>
                               </div>
                             </div>
@@ -841,8 +1039,12 @@ export default function ApplyForm() {
                                     value={inputs.fname}
                                     pattern="^[( )a-zA-Z]+$"
                                     title="Please enter alphabets"
-                                    required
                                   />
+                                  {errors.fname && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.fname}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Last Name*</label>
@@ -853,8 +1055,12 @@ export default function ApplyForm() {
                                     value={inputs.lname}
                                     pattern="^[( )a-zA-Z]+$"
                                     title="Please enter alphabets"
-                                    required
                                   />
+                                  {errors.lname && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.lname}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Gender</label>
@@ -879,6 +1085,11 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.dob}
                                   />
+                                  {errors.dob && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.dob}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Category</label>
@@ -925,8 +1136,12 @@ export default function ApplyForm() {
                                     name="email"
                                     onChange={handleInputChange}
                                     value={inputs.email}
-                                    required
                                   />
+                                  {errors.email && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.email}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Phone</label>
@@ -1021,8 +1236,12 @@ export default function ApplyForm() {
                                         id="pre_city"
                                         onChange={handleInputChange}
                                         value={inputs.pre_city}
-                                        required
                                       />
+                                      {errors.pre_city && (
+                                        <p className="text-danger font-sm ">
+                                          {errors.pre_city}
+                                        </p>
+                                      )}
                                     </div>
                                     <div className="form-group col-md-6  col-xs-12">
                                       <label for="">State*</label>
@@ -1105,6 +1324,11 @@ export default function ApplyForm() {
                                           West Bengal
                                         </option>
                                       </select>
+                                      {errors.pre_state && (
+                                        <p className="text-danger font-sm ">
+                                          {errors.pre_state}
+                                        </p>
+                                      )}
                                     </div>
                                     <div className="form-group col-md-6  col-xs-12">
                                       <label for="">Pincode</label>
@@ -1121,8 +1345,8 @@ export default function ApplyForm() {
                                 <div className="col-md-6">
                                   <div className="row">
                                     <div className="form-group col-md-12  col-xs-12">
-                                      <div className="d-flex justify-content-between align-items-center">
-                                        <label for="">Permanent Address</label>
+                                      {/* <div className="d-flex justify-content-between align-items-center my-0 py-0 b">
+                                        <label className="mt-0 mb-0 b" for="">Permanent Address</label>
                                         <div className="form-group perm_add  text-right positionAb">
                                           <label for="same_address">
                                             <input
@@ -1133,6 +1357,24 @@ export default function ApplyForm() {
                                               onChange={handleInputChange}
                                               value="Yes"
                                             />
+                                            Same as Present Address
+                                          </label>
+                                        </div>
+                                      </div> */}
+                                      <div className="d-flex justify-content-between align-items-center my-0 py-0 ">
+                                        <label className="" for="">
+                                          Permanent Address
+                                        </label>
+                                        <div className="d-flex justify-content-between align-items-center gap-1 ">
+                                          <input
+                                            type="checkbox"
+                                            name="same_address"
+                                            className="pe-lg-2"
+                                            id="same_address"
+                                            onChange={handleInputChange}
+                                            value="Yes"
+                                          />
+                                          <label className="" for="">
                                             Same as Present Address
                                           </label>
                                         </div>
@@ -1524,6 +1766,11 @@ export default function ApplyForm() {
                                     value={inputs.join_date}
                                     type="date"
                                   />
+                                  {errors.join_date && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.join_date}
+                                    </p>
+                                  )}
                                 </div>
                                 <div className="form-group col-md-4  col-xs-12">
                                   <label for="">Current Job Status</label>
@@ -1769,7 +2016,6 @@ export default function ApplyForm() {
                                     onChange={handleInputChange}
                                     value={inputs.from_source}
                                     id="from_source"
-                                    required
                                   >
                                     <option defaultValue="">Select</option>
                                     <option value="Google Search">
@@ -3485,6 +3731,11 @@ export default function ApplyForm() {
                                     accept=".doc,.docx,application/pdf,.jpg,.jpeg,.png,.gif"
                                     onChange={handleFileChange}
                                   />
+                                  {errors.resume && (
+                                    <p className="text-danger font-sm ">
+                                      {errors.resume}
+                                    </p>
+                                  )}
                                   <br />
                                   {/* {renderPreview()} */}
                                 </div>
@@ -3513,7 +3764,6 @@ export default function ApplyForm() {
                                       id="cpatchaTextBox"
                                       onChange={handleInputChange}
                                       value={inputs.cpatchaText}
-                                      required
                                     />
                                   </div>
                                 </div>
@@ -3522,6 +3772,7 @@ export default function ApplyForm() {
                             <div className="row">
                               <div className="form-group col-md-12 col-sm-12 col-xs-12 text-center">
                                 <button
+                                  // onClick={handleSubmit}
                                   type="submit"
                                   id="careersubmit"
                                   name="submit"
