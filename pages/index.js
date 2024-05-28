@@ -1,13 +1,7 @@
 import Head from "next/head";
-
-import * as CONSTANTS from "../constants/constants";
-
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-// import CountUp from "react-countup";
-
 import HomePage from "@/comps/Home/HomePage";
-import axios from "axios";
 
 export default function Home() {
   return (
