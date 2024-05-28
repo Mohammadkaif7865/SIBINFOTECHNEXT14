@@ -1,7 +1,5 @@
 // pages/_document.js
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { GoogleTagManager } from "@next/third-parties/google";
-import Script from "next/script";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
