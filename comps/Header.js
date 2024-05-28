@@ -4,14 +4,17 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-
 export default function Header() {
-
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const pathname = usePathname();
+
+  const handleCollapse = (id) => {
+    console.log(id)
+    document.querySelector(`#${id}`).classList.toggle("collapse");
+  };
 
   useEffect(() => {
     setShow(false);
@@ -630,6 +633,7 @@ export default function Header() {
                     Digital Marketing
                   </Link>
                 </li>
+
                 <li className="itemSub">
                   <Link
                     href="/pay-per-click-ppc-management-services"
@@ -643,6 +647,9 @@ export default function Header() {
                     data-bs-target="#ppcManagement"
                     aria-expanded="true"
                     aria-controls="ppcManagement"
+                    onClick={() => {
+                      handleCollapse("ppcManagement");
+                    }}
                   >
                     <i className="fa fa-chevron-down"></i>
                   </button>
@@ -686,6 +693,9 @@ export default function Header() {
                     data-bs-target="#seoMenu"
                     aria-expanded="true"
                     aria-controls="seoMenu"
+                    onClick={() => {
+                      handleCollapse("seoMenu");
+                    }}
                   >
                     <i className="fa fa-chevron-down"></i>
                   </button>
@@ -735,6 +745,9 @@ export default function Header() {
                     data-bs-target="#smoMenu"
                     aria-expanded="true"
                     aria-controls="smoMenu"
+                    onClick={() => {
+                      handleCollapse("smoMenu");
+                    }}
                   >
                     <i className="fa fa-chevron-down"></i>
                   </button>
@@ -791,6 +804,9 @@ export default function Header() {
                     data-bs-target="#websiteDesign"
                     aria-expanded="true"
                     aria-controls="websiteDesign"
+                    onClick={() => {
+                      handleCollapse("websiteDesign");
+                    }}
                   >
                     <i className="fa fa-chevron-down"></i>
                   </button>
