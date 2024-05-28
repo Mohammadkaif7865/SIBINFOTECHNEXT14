@@ -214,7 +214,7 @@ const Ppc = () => {
         </div>
       </section> */}
       <PpcPlatform />
-      <section className="bgGrey">
+      {/* <section className="bgGrey">
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-7">
@@ -365,7 +365,7 @@ const Ppc = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <PpcCampaign />
       {/* <section>
         <div className="containerFull">
