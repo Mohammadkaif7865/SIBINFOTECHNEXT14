@@ -7971,16 +7971,33 @@ table tbody tr td:nth-child(2) {
 
 /* WebsiteDesignServices */
 
-.WebsiteDesignServices:nth-child(odd) {
+/* .WebsiteDesignServices:nth-child(odd) {
   @media (min-width: 1024px) {
     margin-top: 30px;
   }
+} */
+
+
+.IntroImage{
+  min-height: 400px;
+  @media (max-width:991px) {
+    min-height:200px ;
+    
+  }
 }
+.AdsMgtImage{
+  min-height: 400px;
+  @media (max-width:991px) {
+    min-height:200px ;
+    
+  }
+}
+
 .WebsiteDesignServices {
   border: 2px solide red;
   gap: 20px !important;
   /* background-color: var(--red-color); */
-}
+} 
 
 /* digital marketing page */
 .we_offer {
@@ -7992,5 +8009,6 @@ table tbody tr td:nth-child(2) {
 .font-sm{
   font-size: 12px;
 }
+
 
 

@@ -82,10 +82,9 @@ const nextConfig = {
       },
     ];
   },
-// <<<<<<< google-ads-management-services
-//   assetPrefix: 'https://sibinfotechnext-14-git-google-1d9a06-mohammadkaif7865s-projects.vercel.app/',
-// =======
+
   assetPrefix: "https://sibinfotechnext-14-git-ppc-ma-e53efb-mohammadkaif7865s-projects.vercel.app",
+
 
 };
 
