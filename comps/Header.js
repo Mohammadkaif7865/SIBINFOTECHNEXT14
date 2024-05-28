@@ -1,20 +1,21 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
-// import { useRouter } from 'next/router';
+
 
 export default function Header() {
-  //   const router = useRouter();
-  //   const { pathname } = router;
 
-  //   useEffect(() => {
-  //     window.scrollTo(0, 0);
-  //   }, [pathname]);
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setShow(false);
+  }, [pathname]);
 
   return (
     <div>
