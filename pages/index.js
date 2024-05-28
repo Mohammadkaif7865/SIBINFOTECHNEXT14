@@ -1,41 +1,27 @@
 import Head from "next/head";
-import Link from "next/link";
-import React from "react";
 
-import BannerForm from "../comps/BannerForm";
-import BannerTextSlider from "../comps/BannerTextSlider";
-import BlogCard from "../comps/BlogCard";
-import DigitalMarketingTab from "../comps/DigitalMarketingTab";
-import Faqs from "../comps/Faqs";
-import SliderTestimonials from "../comps/SliderTestimonials";
-import WorkWebdesign from "../comps/WorkWebdesign";
-
-import * as CONSTANTS from "../constants/constants";
-
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 // import CountUp from "react-countup";
 
-import axios from "axios";
 import HomePage from "@/comps/Home/HomePage";
-const headers = {
-  "Content-Type": "multipart/form-data",
-  Authorization: CONSTANTS.API_TOKEN,
-};
+// const headers = {
+//   "Content-Type": "multipart/form-data",
+//   Authorization: CONSTANTS.API_TOKEN,
+// };
 
-export const getServerSideProps = async () => {
-  const res = await axios
-    .get(`${CONSTANTS.API_URL}blog/all?publish=1&limit=6`, {
-      headers: headers,
-    })
-    .catch((err) => console.log(err));
-  const data = await res.data;
+// export const getServerSideProps = async () => {
+//   const res = await axios
+//     .get(`${CONSTANTS.API_URL}blog/all?publish=1&limit=6`, {
+//       headers: headers,
+//     })
+//     .catch((err) => console.log(err));
+//   const data = res?.data;
 
-  return {
-    props: { blogs: data.blogs },
-  };
-};
-
+//   return {
+//     props: { blogs: data.blogs },
+//   };
+// };
 
 export default function Home({ blogs }) {
   return (
