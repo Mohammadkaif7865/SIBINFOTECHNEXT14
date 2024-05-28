@@ -82,7 +82,9 @@ const nextConfig = {
       },
     ];
   },
-  assetPrefix: 'https://sibinfotechnext-14-git-facebo-948341-mohammadkaif7865s-projects.vercel.app/',
+
+  assetPrefix: "https://sibinfotechnext-14-git-ppc-ma-e53efb-mohammadkaif7865s-projects.vercel.app",
+
 };
 
 export default nextConfig;
