@@ -6,6 +6,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -122,7 +123,7 @@ function MyApp({ Component, pageProps }) {
             as="style"
             onload="this.onload=null;this.rel='stylesheet'"
           /> */}
-           <link
+          <link
             rel="preload"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
             as="style"
@@ -170,6 +171,8 @@ function MyApp({ Component, pageProps }) {
           {/* <link rel="manifest" href="/manifest.json" /> */}
         </Head>
         <ToastContainer />
+        <GoogleTagManager gtmId="GTM-WSSFNZR" />
+
         <Component {...pageProps} />
       </Layout>
     </HelmetProvider>

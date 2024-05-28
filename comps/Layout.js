@@ -1,5 +1,5 @@
-import Header from "../comps/Header";
 import Footer from "../comps/Footer";
+import Header from "../comps/Header";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 // import "./custom"
@@ -64,6 +64,7 @@ const Layout = ({ children }) => {
       <Script
       defer
       strategy="beforeInteractive"  src="/assets/js/custom.js"></Script>
+   
     </>
   );
 };
