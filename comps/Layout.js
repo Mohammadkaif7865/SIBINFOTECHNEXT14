@@ -1,6 +1,7 @@
 import Footer from "../comps/Footer";
 import Header from "../comps/Header";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 // import "./custom"
 
