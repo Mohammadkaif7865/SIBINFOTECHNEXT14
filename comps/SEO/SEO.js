@@ -3,7 +3,19 @@ import React, { useEffect, useState } from "react";
 import BannerForm from "../BannerForm";
 import AOS from "aos";
 import Image from "next/image";
-
+import Banner from "./Banner";
+import Introduction from "./Introduction";
+import SeoServices from "./SeoServices";
+import SeoTools from "./SeoTools";
+import TalkWithExpert from "./TalkWithExpert";
+import Benifits from "./Benifits";
+import SeoProcess from "./SeoProcess";
+import Help from "./Help";
+import WhyChoose from "./WhyChoose";
+import SpecialisedServices from "./SpecialisedServices";
+import NewsWebsites from "./NewsWebsites";
+import Faqs from "./Faqs";
+import SeoAudit from "./SeoAudit";
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -15,10 +27,6 @@ export function SearchEngineOptimizationServices() {
 }
 
 const SEO = () => {
-  const [activeTab, setActiveTab] = useState("section1");
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
   const tools = [
     {
       src: "/assets/images/google-search-console.webp",
@@ -72,160 +80,9 @@ const SEO = () => {
 
   return (
     <>
-      <div id="bannerSection" className="innerWebDesign">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-7 ps-lg-5">
-              <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white">
-                  Best SEO Company in India to increase your Organic Traffic
-                </h1>
-                <h2 className="small_heading fw-bold mt-2 text-white">
-                  We Can Help You:
-                </h2>
-                <ul className="bannerIcon">
-                  <li>
-                    <img src="assets/images/icons/visitor.png" alt="Customer" />
-                    <div>Bring more customers to your Website</div>
-                  </li>
-                  <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
-                    <div>Rank #1 on Google & Bing</div>
-                  </li>
-                  <li>
-                    <img
-                      src="assets/images/icons/computer-icon.png"
-                      alt="Customer"
-                    />
-                    <div>Establishing a strong online presence</div>
-                  </li>
-                  <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
-                    <div>Rank #1 on Google Maps</div>
-                  </li>
-                  <li>
-                    <img
-                      src="assets/images/icons/privacy-policy.png"
-                      alt="Customer"
-                    />
-                    <div>Build trust & creditability with your audience</div>
-                  </li>
-                  <li>
-                    <img
-                      src="assets/images/icons/low-price-seo.png"
-                      alt="Customer"
-                    />
-                    <div>Decreases Advertising Cost</div>
-                  </li>
-                </ul>
-                <div className="mt-4">
-                  <Link href="/contact-us">
-                    <span className="btnThemeRed me-3">
-                      <i className="fa-solid fa-comment-dots"></i> Get a Quote
-                    </span>
-                  </Link>
-                  <Link href="/contact-us">
-                    <span className="btnThemewhiteBorder">
-                      <i className="fa-solid fa-circle-question"></i> Ask a
-                      Question
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 d-none d-lg-block pe-lg-5">
-              <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">
-                  Accelerate Your Business Growth
-                </h4>
-                <p>
-                  with{" "}
-                  <strong className="fontWeight600 text_red">
-                    Best <span className="textChange">SEO</span> Company in
-                    India
-                  </strong>
-                </p>
-                <BannerForm />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-5 d-block d-lg-none pe-lg-5">
-        <div className="bannerForm">
-          <h4 className="small_heading  fontWeight700">
-            Accelerate Your Business Growth
-          </h4>
-          <p>
-            with{" "}
-            <strong className="fontWeight600 text_red">
-              Best <span className="textChange">SEO</span> Company in India
-            </strong>
-          </p>
-          <BannerForm />
-        </div>
-      </div>
-      <section>
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-7">
-              <div className="rightPPC">
-                <h2 className="sub_heading fontHeading fontWeight600">
-                  SIB Infotech{" "}
-                  <span className="text_red">SEO Services In India</span> -
-                  Trusted By Over 1000+ Companies
-                </h2>
-                <p className="customText mt-3">
-                  <strong>Since 2005</strong>, SIB Infotech has been providing
-                  excellent SEO services in India. We're known as the top SEO
-                  company, not just for delivering great results but also for
-                  boosting your online visibility and Return On Investment
-                  (ROI). Everyone knows that the first page of Google gets the
-                  most visitors, but did you know there's a big difference in
-                  how many people click on the top results compared to the
-                  bottom ones? Recent studies show the following click through
-                  rates on Google:
-                </p>
-                <p className="cutomText mt-2">
-                  Remember, there's no such thing as second place. You're either
-                  first or nothing. With our years of experience as a leading
-                  SEO company in India, we know how important Search Engine
-                  Optimization (SEO) is for businesses.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <div className="rightSeoImgInner">
-                <div className="itemInfographic shadow" data-aos="zoom-in">
-                  <h3 className="heading fontWeight600">7000</h3>
-                  <p className="mt-2">
-                    Keywords ranked on 1st Page in Last 1 Year
-                  </p>
-                </div>
-                <div className="itemInfographic shadow" data-aos="zoom-in">
-                  <h3 className="heading fontWeight600">
-                    50 <sub>%</sub>
-                  </h3>
-                  <p className="mt-2">Keywords Ranked in the Top 5 Positions</p>
-                </div>
-                <div className="itemInfographic shadow" data-aos="zoom-in">
-                  <h3 className="heading fontWeight600">
-                    200 <sub>%</sub>
-                  </h3>
-                  <p className="mt-2">Traffic Growth in Last Year</p>
-                </div>
-                <div className="itemInfographic shadow" data-aos="zoom-in">
-                  <h3 className="heading fontWeight600">
-                    97 <sub>%</sub>
-                  </h3>
-                  <p className="mt-2">Project Retention Rate in SEO</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bgSeo">
+      <Banner />
+      <Introduction />
+      {/* <section className="bgSeo">
         <div className="containerFull">
           <div className="servicesBlock">
             <div className="d-flex justify-content-between align-items-center flex-wrap">
@@ -519,101 +376,11 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="">
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-12">
-              <h3 className="sub_heading fontWeight500 fontHeading">
-                Some of the Best SEO Tools for Auditing & Monitoring Effective
-                SEO used by us.
-              </h3>
-            </div>
-          </div>
-          {/* <div className="row mt-lg-3 b">
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/google-search-console.webp" alt="Google Search Console Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/moz.webp" alt="Moz Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/searchmetrics.webp" alt="Searchmetrics Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/semrush.webp" alt="Semrush Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/ahrefs.webp" alt="ahrefs Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/screamingfrog.webp" alt="Screaming Frog Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/similarweb.webp" alt="Similar Web Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/rankwatch.webp" alt="Rankwatch Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/ubersuggest.webp" alt="Ubersuggest Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/kwfinder.webp" alt="KW finder Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/spy-fu.webp" alt="Spy Fu Logo" />
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-6 col-sm-3">
-                            <div className="toolsLogo">
-                                <img src="assets/images/quilbot.webp" alt="Quilbot Logo" />
-                            </div>
-                        </div>
-                    </div> */}
-          <div className="row mt-lg-3">
-            {tools.map((tool, index) => (
-              <div
-                key={index}
-                className="col-lg-2 col-6 col-sm-3 position-relative"
-              >
-                <div className="toolsLogo">
-                  <Image
-                    className=" h-auto w-100 h-50"
-                    src={tool.src}
-                    alt={tool.alt}
-                    quality={100}
-                    width={180}
-                    height={48}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="seoCallAction ">
+      </section> */}
+      <SeoServices />
+
+      <SeoTools />
+      {/* <section className="seoCallAction b">
         <div className="containerFull">
           <div className="row align-items-center">
             <div className="col-lg-8">
@@ -633,59 +400,15 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="leftBenefits">
-                <h4 className="sub_heading fontHeading fontWeight700">
-                  Benefits of getting the SEO Services from the Best SEO Company
-                  in India
-                </h4>
-                <p className="mt-3">
-                  SIB Infotech, a leading SEO company in India, offers a
-                  comprehensive suite of services designed to optimize your
-                  online presence. Through proprietary methods, meticulous
-                  keyword research, and insightful competitor analysis, we
-                  guarantee success by implementing effective SEO techniques.
-                  With a wealth of expertise and experience, SIB Infotech
-                  propels your brand to new heights, securing top rankings on
-                  major search engines and connecting you with a broader
-                  audience. Our commitment lies in making crucial website
-                  improvements that resonate with your target market, ensuring
-                  sustained visibility and attracting a steady stream of new
-                  customers.
-                </p>
-                <p className="mt-2">
-                  At SIB Infotech, we understand the dynamics of the digital
-                  landscape, and our tailored approach to SEO is geared towards
-                  delivering tangible results. Renowned for our dedication to
-                  excellence, we employ self-developed strategies that go beyond
-                  conventional methods, ensuring your brand not only stands out
-                  but thrives in the competitive online marketplace.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="rightBenefit">
-                <ul>
-                  <li>Increase Organic Traffic FREE</li>
-                  <li>Increase Leads</li>
-                  <li>Increase Sales</li>
-                  <li>Increase Conversions</li>
-                  <li>Increase User Engagements</li>
-                  <li>Increase Online Visibility</li>
-                  <li>Increase Search Engine Ranking</li>
-                  <li>Increase Domain Authority</li>
-                  <li>Increase Online Reputation</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bgGrey">
+      </section> */}
+      <TalkWithExpert
+        heading="Are you ready to Expand Your Business online with our SEO Services?"
+        linkTitle="Speak with one of our SEO Experts in India today!"
+        linkDestination="#bannerSection"
+      />
+
+      <Benifits />
+      {/* <section className="bgGrey">
         <div className="containerFull">
           <div className="text-center">
             <h3 className="small_heading fontHeading">
@@ -781,74 +504,16 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="bgAction2">
-        <div className="containerFull">
-          <div className="row align-items-center">
-            <div className="col-lg-9">
-              <div className="leftAction">
-                <h4 className="sub_heading text-white fontHeading fontWeight500">
-                  How can we help you to Stop Loosing Leads to Your Competitors?{" "}
-                </h4>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="rightAction text-center">
-                <Link href="#bannerSection" className="btnAction mt-2">
-                  Contact Us
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="leftSeoCompany">
-                <img src="assets/images/seo-company.jpg" alt="SEO Company" />
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="rightSeoCompany">
-                <h4 className="sub_heading fontHeading">
-                  We are more than just a SEO Company
-                </h4>
-                <p className="mt-3">
-                  As a leading SEO agency in India, we pride ourselves on a
-                  remarkable track record, successfully managing over{" "}
-                  <strong>1350+ projects</strong> within distinct niches. Our
-                  dedicated teams specialize in various sectors, ensuring
-                  businesses achieve top rankings. Whether its real estate SEO,
-                  healthcare SEO, education SEO, or technology-based SEO, each
-                  niche benefits from a specialized team with the requisite
-                  skills and extensive industry experience. This targeted
-                  approach allows us to comprehend specific business
-                  requirements, leading to outstanding results.
-                </p>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <ul>
-                      <li>Professional SEO Experts</li>
-                      <li>Customizable Strategies</li>
-                      <li>Transparent Reporting</li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6">
-                    <ul>
-                      <li>24/7 Support & Care</li>
-                      <li>Affordable SEO Packages</li>
-                      <li>Guaranteed 100% Client Satisfaction</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bgSpecialized">
+      </section> */}
+      <SeoProcess />
+      <Help
+        heading="How can we help you to Stop Loosing Leads to Your Competitors?"
+        linkTitle="Contact Us"
+        linkDestination="#bannerSection"
+      />
+
+      <WhyChoose />
+      {/* <section className="bgSpecialized">
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-10">
@@ -959,8 +624,10 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+      <SpecialisedServices />
+      <NewsWebsites />
+      {/* <section>
         <div className="containerFull">
           <h3 className="sub_heading fontWeight500 fontHeading">
             We can Get Featured you on Top News Websites
@@ -1064,8 +731,14 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="bgAction2">
+      </section> */}
+      <Help
+        heading="80% of Customers will never look past the first search engine
+        results page."
+        linkTitle="Get to know how"
+        linkDestination="#bannerSection"
+      />
+      {/* <section className="bgAction2">
         <div className="containerFull">
           <div className="row align-items-center">
             <div className="col-lg-9">
@@ -1085,8 +758,8 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="faqsBg">
+      </section> */}
+      {/* <section className="faqsBg ">
         <div className="containerFull">
           <h3 className="sub_heading fontWeight500 text-white fontHeading">
             Do You have Questions about Working with SEO Agency in India?{" "}
@@ -1588,8 +1261,9 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="dots curve1 bgEffect">
+      </section> */}
+      <Faqs />
+      {/* <section className="dots curve1 bgEffect">
         <div className="containerFull">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -1695,7 +1369,8 @@ const SEO = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <SeoAudit />
     </>
   );
 };
