@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -12,7 +13,7 @@ export default function Header() {
   const pathname = usePathname();
 
   const handleCollapse = (id) => {
-    console.log(id)
+    console.log(id);
     document.querySelector(`#${id}`).classList.toggle("collapse");
   };
 
@@ -62,17 +63,27 @@ export default function Header() {
           <div className="container-fluid">
             <div className="inlineHeader">
               <div className="leftLogo">
-                <Link href="/">
-                  <picture>
+                <Link className="position-relative" href="/">
+                  {/* <picture>
                     <source
                       media="(max-width:650px)"
-                      srcSet="https://www.sibinfotech.com//assets/images/m-logo.webp"
+                      srcSet="https://www.sibinfotech.com/assets/images/m-logo.webp"
                     ></source>
                     <img
                       src="https://www.sibinfotech.com/assets/images/logo.webp"
                       alt="Best Digital Marketing Company in India"
                     />
-                  </picture>
+                  </picture> */}
+                  <Image
+                    src={"https://www.sibinfotech.com/assets/images/logo.webp"}
+                    className=" object-fit-contain"
+                    quality={100}
+                    width={210}
+                    height={60}
+                    // fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt="Best Digital Marketing Company in India"
+                  />
                 </Link>
               </div>
               <div className="rightMenu d-md-block d-none">

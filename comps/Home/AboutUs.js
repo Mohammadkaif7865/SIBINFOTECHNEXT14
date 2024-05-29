@@ -80,7 +80,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="aboutHomeRight">
+            {/* <div className="aboutHomeRight b">
               <picture>
                 <source srcSet="assets/images/about2.webp" type="image/webp" />
                 <img
@@ -88,7 +88,15 @@ const AboutUs = () => {
                   alt="SIB Infotech about us"
                 />
               </picture>
-            </div>
+            </div> */}
+            <Image
+              width={450}
+              height={450}
+              className="w-100 h-auto"
+              quality={100}
+              src={"/assets/images/about2.webp"}
+              alt=""
+            />
           </div>
         </div>
       </div>

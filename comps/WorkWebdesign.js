@@ -138,38 +138,39 @@
 import React from "react";
 import WorkSlider from "react-slick";
 import LogoSlider from "./LogoSlider";
+import Image from "next/image";
 
 const slides = [
   {
-    imgSrc: "assets/images/works/omee.png",
+    imgSrc: "/assets/images/works/omee.png",
     alt: "OMEE - Alkem Generic",
     heading: "OMEE - Alkem Generic",
     text: "Omee is India’s favourite antacid and an iconic brand by Alkem Generic. The unique formulation of Omee dissolves quickly and neutralizes stomach acid to provide effective relief from acidity and gas.",
   },
   {
-    imgSrc: "assets/images/works/roswalt.png",
-    webpSrc: "assets/images/works/roswalt.webp",
+    imgSrc: "/assets/images/works/roswalt.png",
+    webpSrc: "/assets/images/works/roswalt.webp",
     alt: "Roswalt - Roswalt Realty: Residential commercial Projects Mumbai",
     heading: "Roswalt Realty",
     text: "Roswalt realty believes in creating spaces that are an extension of one’s self and this philosophy is infused in every project undertaken by us. The company boasts of a proud lineage and finds its roots in the prestigious red brick group known for providing...",
   },
   {
-    imgSrc: "assets/images/works/netsys.png",
-    webpSrc: "assets/images/works/netsys.webp",
+    imgSrc: "/assets/images/works/netsys.png",
+    webpSrc: "/assets/images/works/netsys.webp",
     alt: "Online Netsys",
     heading: "Online Netsys",
     text: "OnLine Netsys is inspired by the objective of empowering enterprises with leading global IT Infrastructure, Networking and AV Technology.",
   },
   {
-    imgSrc: "assets/images/works/shaurya.png",
-    webpSrc: "assets/images/works/shaurya.webp",
+    imgSrc: "/assets/images/works/shaurya.png",
+    webpSrc: "/assets/images/works/shaurya.webp",
     alt: "Shaurya Dedhia",
     heading: "Shaurya Dedhia",
     text: "Shaurya Dedhia - The studio practices architecture, interior and product designing, specializing in bespoke, end-to-end design solutions.",
   },
   {
-    imgSrc: "assets/images/works/alarm-avenue.png",
-    webpSrc: "assets/images/works/alarm-avenue.webp",
+    imgSrc: "/assets/images/works/alarm-avenue.png",
+    webpSrc: "/assets/images/works/alarm-avenue.webp",
     alt: "Alarm Avenue",
     heading: "Alarm Avenue",
     text: "Alarm Avenue is a team of highly trained Technicians and Installers. We are specialized in Commercial & Home Security. We are fully licensed, insured, and covered by WorkSafe BC.",
@@ -189,7 +190,7 @@ export default function WorkWebdesign() {
   };
 
   return (
-    <div className=" ">
+    <div className="">
       <div className="circleIcon ">
         <img src="assets/images/icons/circle.svg" alt="Circle Icon" />
       </div>
@@ -211,11 +212,19 @@ export default function WorkWebdesign() {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="imgWork">
-                      <picture>
+                      {/* <picture>
                         <source srcSet={slide?.webpSrc} type="image/webp" />
 
                         <img className="w-100" src={slide?.imgSrc} alt={slide?.alt} />
-                      </picture>
+                      </picture> */}
+                      <Image
+                        width={500}
+                        height={500}
+                        quality={100}
+                        className="w-100 h-auto"
+                        src={slide?.imgSrc}
+                        alt={slide?.alt}
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
