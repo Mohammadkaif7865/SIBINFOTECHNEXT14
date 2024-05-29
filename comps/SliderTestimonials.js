@@ -136,6 +136,7 @@ export default function SliderTestimonials() {
   // Array of testimonial objects
   const testimonials = [
     {
+      userImg: "/assets/images/icons/user.png",
       heading: "Platform Development for Ed-Tech Marketplace",
       content:
         "The platform has just launched. but some of the company's old clients have already expressed their positive feedback on the new website. The company appreciates how the SIB Infotech team showed they cared for the project through their open and honest communication especially when suggesting ideas.",
@@ -145,14 +146,25 @@ export default function SliderTestimonials() {
       reviewSourceLogo: "/assets/images/clutch-logo.png",
     },
     {
+      userImg: "/assets/images/rupesh-maniar.jpg",
       heading: "Website Development Agency Services Mumbai",
       content:
-        "SIB Infotech is well managed company who treats each employee very politely. Its great being part of it. Never makes anybody feel burdened and provides friendly atmosphere. Highly professional company to work in. It is one of the best website development company. It is pleasure to work and write content for them.",
-      userName: "Chetna Goel",
+        "SIB Infotech has designed website for our company. We are very happy with outcome. They are not only professional but also putting their heart into work. We would have suggested changes many times added many products all they have done with smiling face. We will always refer them for quality work and perfect price.",
+      userName: "Rupesh Maniar",
+      userTitle: "Real Value Finloan Services Pvt. Ltd.",
       reviewSource: "Google Logo",
       reviewSourceLogo: "/assets/images/google-logo.png",
     },
+    // {
+    //   heading: "Website Development Agency Services Mumbai",
+    //   content:
+    //     "SIB Infotech is well managed company who treats each employee very politely. Its great being part of it. Never makes anybody feel burdened and provides friendly atmosphere. Highly professional company to work in. It is one of the best website development company. It is pleasure to work and write content for them.",
+    //   userName: "Chetna Goel",
+    //   reviewSource: "Google Logo",
+    //   reviewSourceLogo: "/assets/images/google-logo.png",
+    // },
     {
+      userImg: "/assets/images/tima-elhajj.jpeg",
       heading: "Website Development for Media & Consulting Company",
       content:
         "The client loved the platform that the SIB Infotech team developed for them, especially the calculator function that was included. The company appreciated the team's high level of professionalism, communication, and care on the project. They are happy and willing to work with the team again.",
@@ -217,15 +229,37 @@ export default function SliderTestimonials() {
               <div className="testimonialFooter">
                 <div className="d-flex flex-wrap justify-content-between">
                   <div className="usertestimonial d-flex justify-content-between align-items-center">
-                    <div className="userIcon me-3">
-                      <Image
-                        width={100}
-                        height={100}
-                        quality={100}
-                        className="w-100 h-auto"
-                        src="/assets/images/icons/user.png"
-                        alt="User Icon"
-                      />
+                    <div
+                      className="rounded-circle   overflow-hidden position-relative     me-3"
+                      style={{
+                        width: "70px",
+                        height: "70px",
+                        background: "#c3d6fc",
+                        border: "1px solid #c3d6fc",
+                      }}
+                    >
+                      {testimonial?.userImg ? (
+                        <Image
+                          fill
+                          // width={100}
+                          // height={100}
+                          quality={100}
+                          className=" object-fit-cover"
+                          src={testimonial?.userImg}
+                          alt="User Icon"
+                        />
+                      ) : (
+                        <Image
+                          width={10}
+                          height={10}
+                          quality={100}
+                          className="b  p-3 object-fit-contain   "
+                          src={"/assets/images/icons/user.png"}
+                          alt="User Icon"
+                        />
+                      
+                      
+                      )}
                     </div>
                     <div className="nameUser">
                       <h4 className="title fontWeight500">
@@ -250,7 +284,7 @@ export default function SliderTestimonials() {
                 </div>
               </div>
               <div className="qouteIcon">
-                <img
+                <Image
                   width={100}
                   height={100}
                   quality={100}

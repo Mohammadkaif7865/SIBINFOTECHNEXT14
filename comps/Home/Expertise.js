@@ -315,42 +315,42 @@ const Expertise = () => {
   const services = [
     {
       title: "Website Designing",
-      imageUrl: "assets/images/bg/web-design.jpg",
+      imageUrl: "/assets/images/bg/web-design.jpg",
       description:
         "Your website is your home on the internet (web). The Website Design is the first and the foremost area which must be concentrated as it is the virtual face of a company.",
       link: "/website-designing-services",
     },
     {
       title: "Search Engine Optimization",
-      imageUrl: "assets/images/bg/seo.jpg",
+      imageUrl: "/assets/images/bg/seo.jpg",
       description:
         "Search Engine Optimization is the most efficient and effective method to increase your search engine visibility and drive traffic to your website. With our SEO services in India.",
       link: "/search-engine-optimization-seo-services",
     },
     {
       title: "Offshore Outsourcing",
-      imageUrl: "assets/images/bg/offshore.jpg",
+      imageUrl: "/assets/images/bg/offshore.jpg",
       description:
         "Sit back and relax! Hire top-notch thinkers, web developers, web designers, and search engineers and quickly scale your delivery capacity. We are a global offshore outsourcing...",
       link: "/search-engine-optimization-outsourcing-seo-services",
     },
     {
       title: "Website Development",
-      imageUrl: "assets/images/bg/web-development.jpg",
+      imageUrl: "/assets/images/bg/web-development.jpg",
       description:
         "We offer customized web development services using the latest frameworks and platforms to build bespoke web applications for websites or Mobile Apps, E-commerce Portals, API links, and much more.",
       link: "/website-development-services",
     },
     {
       title: "Mobile App Development",
-      imageUrl: "assets/images/bg/mobile-app.jpg",
+      imageUrl: "/assets/images/bg/mobile-app.jpg",
       description:
         "In a quest for staying ahead of the technology, it is a necessity for any business looking to leverage the power of smartphones to develop mobile apps. Being experienced...",
       link: "/mobile-application-development-services",
     },
     {
       title: "Software Development",
-      imageUrl: "assets/images/bg/software-development.jpg",
+      imageUrl: "/assets/images/bg/software-development.jpg",
       description:
         "We build custom software solutions that will help your business optimize operations, unlock a new level of efficiency and transform your ideas into an innovative service or an engaging...",
       link: "/software-development-services",
