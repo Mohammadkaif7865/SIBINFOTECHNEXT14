@@ -136,7 +136,7 @@ export default function SliderTestimonials() {
   // Array of testimonial objects
   const testimonials = [
     {
-      userImg: "/assets/images/icons/user.png",
+      userImg: "/assets/images/timothy-scafaria.jpeg",
       heading: "Platform Development for Ed-Tech Marketplace",
       content:
         "The platform has just launched. but some of the company's old clients have already expressed their positive feedback on the new website. The company appreciates how the SIB Infotech team showed they cared for the project through their open and honest communication especially when suggesting ideas.",
@@ -257,8 +257,6 @@ export default function SliderTestimonials() {
                           src={"/assets/images/icons/user.png"}
                           alt="User Icon"
                         />
-                      
-                      
                       )}
                     </div>
                     <div className="nameUser">
