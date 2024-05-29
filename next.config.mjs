@@ -82,7 +82,8 @@ const nextConfig = {
       },
     ];
   },
-  assetPrefix: "https://www.sibinfotech.com",
+  assetPrefix:
+    "https://sibinfotechnext-14-git-search-deb02b-mohammadkaif7865s-projects.vercel.app/",
 };
 
 export default nextConfig;
