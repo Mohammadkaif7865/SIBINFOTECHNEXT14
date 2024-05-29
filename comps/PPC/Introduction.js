@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Introduction = () => {
@@ -32,7 +33,15 @@ const Introduction = () => {
             </div>
           </div>
           <div className="col-md-5">
-            <div className="seoAuditForm shadow">
+            <Image
+              width={500}
+              height={450}
+              quality={100}
+              className="w-100 h-auto rounded"
+              src={"/assets/images/ppc.webp"}
+              alt="PPC management company"
+            />
+            {/* <div className="seoAuditForm shadow">
               <h4 className="customHeading">Free Website PPC Audit</h4>
               <form action="seo-email" method="POST">
                 <div className="inputAudit">
@@ -68,7 +77,8 @@ const Introduction = () => {
                   </button>
                 </div>
               </form>
-            </div>
+            
+            </div> */}
           </div>
         </div>
       </div>
