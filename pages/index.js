@@ -1,29 +1,9 @@
 import Head from "next/head";
-
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-// import CountUp from "react-countup";
-
 import HomePage from "@/comps/Home/HomePage";
-// const headers = {
-//   "Content-Type": "multipart/form-data",
-//   Authorization: CONSTANTS.API_TOKEN,
-// };
 
-// export const getServerSideProps = async () => {
-//   const res = await axios
-//     .get(`${CONSTANTS.API_URL}blog/all?publish=1&limit=6`, {
-//       headers: headers,
-//     })
-//     .catch((err) => console.log(err));
-//   const data = res?.data;
-
-//   return {
-//     props: { blogs: data.blogs },
-//   };
-// };
-
-export default function Home({ blogs }) {
+export default function Home() {
   return (
     <div>
       <Head>
