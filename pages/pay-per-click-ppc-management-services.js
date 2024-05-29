@@ -1,16 +1,21 @@
-import React from 'react';
-import Link from 'next/link';
-import Head from 'next/head';
-import BannerForm from '../comps/BannerForm';
+import Ppc from "@/comps/PPC/Ppc";
+import Head from "next/head";
 
 export default function PpcManagementServices() {
   return (
     <div>
-        <Head>
-            <title>PPC Management Companies India Pay per click Services Mumbai SIB Infotech</title>
-            <link rel="canonical" href="https://sibinfotech.com/pay-per-click-ppc-management-services"/>
-        </Head>
-        <div className="innerWebDesign">
+      <Head>
+        <title>
+          PPC Management Companies India Pay per click Services Mumbai SIB
+          Infotech
+        </title>
+        <link
+          rel="canonical"
+          href="https://sibinfotech.com/pay-per-click-ppc-management-services"
+        />
+      </Head>
+      <Ppc />
+      {/* <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-7 ps-lg-5">
@@ -298,7 +303,7 @@ export default function PpcManagementServices() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
     </div>
-  )
+  );
 }
