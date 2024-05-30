@@ -8032,6 +8032,22 @@ table tbody tr td:nth-child(2) {
   /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 .WhyOffPageGrid_box {
-  flex:   1 0 auto;
+  flex: 1 0 auto;
   width: 22%;
+}
+.whatWeDo_main .whatWeDo {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.ECIndustry {
+  background: var(--light-blue-color);
+  padding: 30px 20px;
+  border-radius: 10px;
+  @media (max-width: 992px) {
+    padding: 25px 20px;
+  }
 }
