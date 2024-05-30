@@ -195,7 +195,7 @@ const Counter = () => {
 
               <ul className="">
                 {links.map((link, index) => {
-                  console.log(links);
+            
                   return (
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
