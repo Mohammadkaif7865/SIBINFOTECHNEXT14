@@ -3713,7 +3713,7 @@ h1 {
   border-radius: 0;
 }
 .imgFulll {
-  width: 100% ;
+  width: 100%;
 }
 .corporateRight img {
   animation: bounceLeft 2s ease-in-out infinite;
@@ -4462,11 +4462,30 @@ h1 {
 .optmize-box h4 {
   font-size: 21px;
 }
+.servicesgridBox2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+.servicesgridBox3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
 .off-page-seo-box {
-  height: 400px;
+  /* height: 400px; */
   padding: 20px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin: 20px 0;
+  /* margin: 20px 0; */
   background-color: #fff;
   transition: all 0.5s;
 }
@@ -4508,7 +4527,7 @@ h1 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin: 10px 10px;
+  /* margin: 10px 10px; */
 }
 .off-page-seo-important-box img {
   width: 60px;
@@ -7978,26 +7997,20 @@ table tbody tr td:nth-child(2) {
 }
 .WebsiteDesignServices {
   gap: 20px !important;
-  
-} 
-
-
-.IntroImage{
-  min-height: 400px;
-  @media (max-width:991px) {
-    min-height:200px ;
-    
-  }
-}
-.AdsMgtImage{
-  min-height: 400px;
-  @media (max-width:991px) {
-    min-height:200px ;
-    
-  }
 }
 
-
+.IntroImage {
+  min-height: 400px;
+  @media (max-width: 991px) {
+    min-height: 200px;
+  }
+}
+.AdsMgtImage {
+  min-height: 400px;
+  @media (max-width: 991px) {
+    min-height: 200px;
+  }
+}
 
 /* digital marketing page */
 .we_offer {
@@ -8006,9 +8019,19 @@ table tbody tr td:nth-child(2) {
   }
 }
 
-.font-sm{
+.font-sm {
   font-size: 12px;
 }
 
+.WhyOffPageGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 
-
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+}
+.WhyOffPageGrid_box {
+  flex:   1 0 auto;
+  width: 22%;
+}
