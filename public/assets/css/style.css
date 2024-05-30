@@ -8051,3 +8051,22 @@ table tbody tr td:nth-child(2) {
     padding: 25px 20px;
   }
 }
+
+.Mobilewhyimportantbox {
+  /* border: 2px solid red; */
+  flex: 0 0 22%;
+  @media (max-width: 992px) {
+    flex: 0 0 40%;
+  }
+}
+.MobileSEO_Stratgy {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+.MBStrategy2 .off-page-seo-box:first-child {
+  margin-top: 0px !important;
+  /* border: 2px solid red; */
+}
