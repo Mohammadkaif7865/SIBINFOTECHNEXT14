@@ -85,7 +85,7 @@ const nextConfig = {
   images: {
     domains: ['www.sibinfotech.com'],
   },
-  assetPrefix: "https://www.sibinfotech.com",
+  // assetPrefix: "https://www.sibinfotech.com",
 };
 
 export default nextConfig;
