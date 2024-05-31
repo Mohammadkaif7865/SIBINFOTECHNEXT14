@@ -530,7 +530,7 @@ export default function SoftwareDevelopementServices() {
                             </ul>
                         </div>
                         <div className="col-lg-5">
-                            <img className="image-full" src="assets/images/icons/strategy-3.svg" alt="Top Custom Software Development Company in Mumbai" /></div>
+                            <img className="image-full" src="/assets/images/strategy-3.svg" alt="Top Custom Software Development Company in Mumbai" /></div>
                     </div>
                 </div>
             </section>

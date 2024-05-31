@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -7,6 +6,7 @@ import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
 import axios from "axios";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -96,6 +96,10 @@ export default function Footer() {
       setShowForm(true);
     }
   });
+
+  const pathname = usePathname();
+  console.log(pathname, "pathname");
+
   return (
     <div>
       <section
@@ -407,7 +411,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <section className="mapBlock py-5">
+        <section
+          className={`mapBlock py-5   ${
+            pathname == "/contact-us" ? "d-none" : ""
+          }
+            `}
+        >
           {/* <div className="containerFull">
             <div className="row">
               <div className="col-lg-6">
@@ -484,7 +493,7 @@ export default function Footer() {
               </div>
             </div>
           </div> */}
-          <div className="containerFull   ">
+          <div className={`containerFull   `}>
             <div className="row">
               <div className=" col-lg-6  ">
                 <h4 className="small_heading2 fontWeight700 text-white">
