@@ -83,9 +83,10 @@ const nextConfig = {
     ];
   },
   images: {
-    domains: ['www.sibinfotech.com'],
+    domains: ["www.sibinfotech.com"],
   },
-  assetPrefix: "https://www.sibinfotech.com",
+  assetPrefix:
+    "https://sibinfotechnext-14-git-websit-be5369-mohammadkaif7865s-projects.vercel.app/",
 };
 
 export default nextConfig;
