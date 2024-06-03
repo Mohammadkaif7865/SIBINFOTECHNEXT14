@@ -11,16 +11,7 @@ const Layout = ({ children }) => {
         <Header />
         {children}
         <Footer />
-        <Script
-          defer
-          strategy="beforeInteractive"
-          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        />
-        <Script
-          defer
-          strategy="beforeInteractive"
-          src="/assets/js/custom.js"
-        ></Script>
+       
       </div>
     </>
   );

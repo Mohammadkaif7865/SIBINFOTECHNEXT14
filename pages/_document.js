@@ -1,5 +1,6 @@
 // pages/_document.js
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 class MyDocument extends Document {
   render() {
@@ -32,6 +33,16 @@ class MyDocument extends Document {
           {/* End Google Tag Manager (noscript) */}
           <Main />
           <NextScript />
+          <Script
+            defer
+            strategy="beforeInteractive"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+          />
+          <Script
+            defer
+            strategy="beforeInteractive"
+            src="/assets/js/custom.js"
+          ></Script>
         </body>
       </Html>
     );
