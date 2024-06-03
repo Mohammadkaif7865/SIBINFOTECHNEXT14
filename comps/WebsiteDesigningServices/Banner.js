@@ -1,5 +1,6 @@
 import React from "react";
 import BannerForm from "../BannerForm";
+import Link from "next/link";
 
 const Banner = () => {
   return (

@@ -98,7 +98,7 @@ export default function Footer() {
   });
 
   const pathname = usePathname();
-  console.log(pathname, "pathname");
+
 
   return (
     <div>

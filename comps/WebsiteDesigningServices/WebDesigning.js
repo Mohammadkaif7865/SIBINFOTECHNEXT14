@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../SEO/Banner";
+
 import Introduction from "./Introduction";
 import WorkWebdesign from "../WorkWebdesign";
 import Link from "next/link";
@@ -10,6 +10,7 @@ import DesigningProcess from "./DesigningProcess";
 import Engagement from "./Engagement";
 import Industries from "./Industries";
 import Faqs from "./Faqs";
+import Banner from "./Banner";
 
 const WebDesigning = () => {
   return (
