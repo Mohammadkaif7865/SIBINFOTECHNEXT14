@@ -91,11 +91,13 @@ function MyApp({ Component, pageProps }) {
             href="/assets/images/banner/banner-video.mp4"
             as="video/mp4"
           />
+
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
             crossorigin="anonymous"
+            referrerpolicy="no-referrer"
           />
 
           {/* <link
@@ -122,7 +124,7 @@ function MyApp({ Component, pageProps }) {
             as="style"
             onload="this.onload=null;this.rel='stylesheet'"
           /> */}
-           <link
+          <link
             rel="preload"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
             as="style"
