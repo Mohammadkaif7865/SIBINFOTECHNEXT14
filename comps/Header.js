@@ -75,13 +75,13 @@ export default function Header() {
                     />
                   </picture> */}
                   <Image
-                    src={"https://www.sibinfotech.com/assets/images/logo.webp"}
-                    className=" object-fit-contain"
+                    src={"/assets/images/logo (1).webp"}
+                    className=" object-fit-contain "
                     quality={100}
                     width={210}
                     height={60}
                     // fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
                     alt="Best Digital Marketing Company in India"
                   />
                 </Link>
