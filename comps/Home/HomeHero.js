@@ -8,7 +8,7 @@ const HomeHero = () => {
       <div className="bannerBlock ">
         <video loop playsInline autoPlay muted>
           <source
-            src="assets/images/banner/banner-video1.mp4"
+            src="assets/images/banner/banner-video2.mp4"
             type="video/mp4"
           />
         </video>
