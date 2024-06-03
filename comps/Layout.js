@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Footer from "../comps/Footer";
 import Header from "../comps/Header";
 
@@ -10,6 +11,16 @@ const Layout = ({ children }) => {
         <Header />
         {children}
         <Footer />
+        <Script
+          defer
+          strategy="beforeInteractive"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        />
+        <Script
+          defer
+          strategy="beforeInteractive"
+          src="/assets/js/custom.js"
+        ></Script>
       </div>
     </>
   );
