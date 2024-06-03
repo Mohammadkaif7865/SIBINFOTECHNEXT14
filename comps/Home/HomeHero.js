@@ -6,12 +6,12 @@ const HomeHero = () => {
   return (
     <div>
       <div className="bannerBlock ">
-        {/* <video loop playsInline autoPlay muted>
+        <video loop playsInline autoPlay muted>
           <source
             src="assets/images/banner/banner-video.mp4"
             type="video/mp4"
           />
-        </video> */}
+        </video>
         <div className="videoText">
           <div className="containerFull">
             <div className="row">
