@@ -105,7 +105,7 @@ export default function Footer() {
       <section
         className="footerForm"
         id="requestQuote"
-        b
+        
         style={{ display: showForm ? "block" : "none" }}
       >
         <div className="containerFull">

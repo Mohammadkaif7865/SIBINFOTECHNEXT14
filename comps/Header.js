@@ -13,7 +13,7 @@ export default function Header() {
   const pathname = usePathname();
 
   const handleCollapse = (id) => {
-    console.log(id);
+    // console.log(id);
     document.querySelector(`#${id}`).classList.toggle("collapse");
   };
 
