@@ -36,14 +36,14 @@ class MyDocument extends Document {
 
           <Script
             defer
-            // strategy="beforeInteractive"
-            strategy="lazyOnload"
+            strategy="beforeInteractive"
+            // strategy="lazyOnload"
             src="/assets/js/custom.js"
           ></Script>
           <Script
             defer
-            // strategy="beforeInteractive"
-            strategy="lazyOnload"
+            strategy="beforeInteractive"
+            // strategy="lazyOnload"
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
           />
         </body>
