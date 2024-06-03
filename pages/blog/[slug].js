@@ -12,7 +12,7 @@ export default function SingleBlog() {
 
   const router = useRouter();
   const { slug } = router.query;
-  console.log("SDFSDFGSDFGSDGSDg", slug);
+//   console.log("SDFSDFGSDFGSDGSDg", slug);
   const [blog, setBlog] = useState();
   const [blogs, setBlogs] = useState();
 
