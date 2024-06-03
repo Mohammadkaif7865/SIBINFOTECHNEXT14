@@ -655,7 +655,7 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <div className="footer_social_main">
+            {/* <div className="footer_social_main">
               <ul className="footer_social">
                 <li>
                   <Link
@@ -690,7 +690,7 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
