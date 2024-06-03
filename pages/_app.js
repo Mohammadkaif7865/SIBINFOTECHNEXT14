@@ -86,13 +86,12 @@ function MyApp({ Component, pageProps }) {
           <meta name="distribution" content="global" />
           <meta name="Rating" content="General" />
           <meta name="expires" content="never" />
-       
 
-          <link
+          {/* <link
             rel="preload"
             href="/assets/images/banner/banner-video.mp4"
             as="video/mp4"
-          />
+          /> */}
 
           <link
             rel="stylesheet"
