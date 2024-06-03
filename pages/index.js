@@ -6,7 +6,7 @@ import HomePage from "@/comps/Home/HomePage";
 export default function Home() {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>
           Website Designing, Development & Digital Marketing SEO Company Agency
           in Mumbai India
@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta name="twitter:url" content=" https://www.sibinfotech.com/" />
         <link rel="canonical" href="https://www.sibinfotech.com/" />
-      </Head>
+      </Head> */}
       <HomePage />
       {/* <div className="bannerBlock b">
         <video loop playsInline autoPlay muted>
