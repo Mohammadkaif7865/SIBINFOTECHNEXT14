@@ -4,7 +4,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* Google Tag Manager */}
           <script
@@ -17,8 +17,6 @@ class MyDocument extends Document {
             }}
           />
           {/* End Google Tag Manager */}
-
-         
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
