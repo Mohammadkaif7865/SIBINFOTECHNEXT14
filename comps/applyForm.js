@@ -175,7 +175,7 @@ export default function ApplyForm() {
       resume: file ? "" : "This field is required",
     }));
   };
-  
+
   function renderPreview() {
     if (selectedFile) {
       const fileType = selectedFile.type;
@@ -403,7 +403,7 @@ export default function ApplyForm() {
          <td style='padding:10px;'>${inputs.from_source}</td>
          </tr>
              </table>`,
-        fromWhere: "Career Page",
+        fromWhere: "Application Form",
         resumePath: data.resumePath,
         resumeName: data.resumeName,
       });

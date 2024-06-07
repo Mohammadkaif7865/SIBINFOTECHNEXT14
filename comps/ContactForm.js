@@ -51,7 +51,7 @@ export default function ContactForm() {
         html: `
           <p>Dear Admin,</p>
           <p>You have received an enquiry from:</p>
-          <table width='500' border='1' cellspacing='0'>
+            <table style='width: 100%;' border='1' cellspacing='0'>
               <tr>
                   <td style='padding:10px;' width='250'>Full Name</td>
                   <td style='padding:10px;'>${inputs.name}</td>
@@ -71,8 +71,12 @@ export default function ContactForm() {
                   <td style='padding:10px;'>${inputs.phone}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Details</td>
-                  <td style='padding:10px;'>${inputs.details}</td>
+                    <td colspan="2">
+                        <p style='padding:10px; font-weight: 700;' >Details</p>
+                        <p style='padding:10px; margin-top: 8px'>${
+                          inputs.details
+                        }</p>
+                    </td>
               </tr>
               
               <tr>
@@ -82,7 +86,7 @@ export default function ContactForm() {
                   }</td>
               </tr>
           </table>`,
-        fromWhere: "Contact Us",
+        fromWhere: " Enquiry - Contact Us",
       });
     }
     return data;

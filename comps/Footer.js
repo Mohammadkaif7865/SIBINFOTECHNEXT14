@@ -43,27 +43,32 @@ export default function Footer() {
         html: `
           <p>Dear Admin,</p>
           <p>You have received an enquiry from:</p>
-          <table width='500' border='1' cellspacing='0'>
+             <table style='width: 100%;' border='1' cellspacing='0'>
               <tr>
-                  <td style='padding:10px;' width='250'>Full Name</td>
+                  <td style='padding:10px;'>Full Name</td>
                   <td style='padding:10px;'>${inputs.name}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;'>Email</td>
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
+             
+               <tr>
+                    <td colspan="2">
+                        <p style='padding:10px; font-weight: 700;' >Message</p>
+                        <p style='padding:10px; margin-top: 8px'>${
+                          inputs.message
+                        }</p>
+                    </td>
+                  </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Message</td>
-                  <td style='padding:10px;'>${inputs.message}</td>
-              </tr>
-              <tr>
-                  <td style='padding:10px;' width='250'>Website Location</td>
+                  <td style='padding:10px;'>Website Location</td>
                   <td style='padding:10px;'>${
                     "https://sibinfotech.com" + window.location.pathname
                   }</td>
               </tr>
           </table>`,
-        fromWhere: "Get a Quote - Footer",
+        fromWhere: "Enquiry - Footer",
       });
     }
     return data;
