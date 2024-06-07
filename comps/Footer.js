@@ -52,6 +52,12 @@ export default function Footer() {
                   <td style='padding:10px;'>Email</td>
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
+               <tr>
+                  <td style='padding:10px;'>Website Location</td>
+                  <td style='padding:10px;'>${
+                    "https://sibinfotech.com" + window.location.pathname
+                  }</td>
+              </tr>
              
                <tr>
                     <td colspan="2">
@@ -61,12 +67,7 @@ export default function Footer() {
                         }</p>
                     </td>
                   </tr>
-              <tr>
-                  <td style='padding:10px;'>Website Location</td>
-                  <td style='padding:10px;'>${
-                    "https://sibinfotech.com" + window.location.pathname
-                  }</td>
-              </tr>
+             
           </table>`,
         fromWhere: "Enquiry - Footer",
       });

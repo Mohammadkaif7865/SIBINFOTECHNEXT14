@@ -71,19 +71,18 @@ export default function ContactForm() {
                   <td style='padding:10px;'>${inputs.phone}</td>
               </tr>
               <tr>
+                  <td style='padding:10px;' width='250'>Website Location</td>
+                  <td style='padding:10px;'>${
+                    "https://sibinfotech.com" + window.location.pathname
+                  }</td>
+              </tr>
+               <tr>
                     <td colspan="2">
                         <p style='padding:10px; font-weight: 700;' >Details</p>
                         <p style='padding:10px; margin-top: 8px'>${
                           inputs.details
                         }</p>
                     </td>
-              </tr>
-              
-              <tr>
-                  <td style='padding:10px;' width='250'>Website Location</td>
-                  <td style='padding:10px;'>${
-                    "https://sibinfotech.com" + window.location.pathname
-                  }</td>
               </tr>
           </table>`,
         fromWhere: " Enquiry - Contact Us",
