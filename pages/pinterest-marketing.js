@@ -11,7 +11,7 @@ export default function PinterestMarketing() {
             <title>Pinterest Marketing</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/pinterest-marketing"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/pinterest-marketing"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

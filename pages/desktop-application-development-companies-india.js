@@ -11,7 +11,7 @@ export default function DesktopApplicationDevelopmentServices() {
             <title>Desktop Application Development Services Companies India UK</title>
             <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli"/>
             <meta name="description" content="Offshore Desktop Application Development outsourcing: SIB Infotech Desktop Application Developers design and build Desktop Software Application, Outsource Desktop Solutions Services, Rich Internet Desktop Applications, Desktop Windows Applications Development, Desktop Application Development services."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/desktop-application-development-companies-india" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/desktop-application-development-companies-india" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

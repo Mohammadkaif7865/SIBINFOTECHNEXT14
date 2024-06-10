@@ -21,10 +21,10 @@ export default function OnPageSeoServices() {
           name="description"
           content="SIB Infotech is the Top SEO Company in India offers On-Page SEO & On-Site Optimization Services which  enables Google to read and rank your website ensure you #1 position on organic results"
         />
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/on-page-seo-services"
-        />
+        /> */}
       </Helmet>
       <OnPageSeo />
     </div>

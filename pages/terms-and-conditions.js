@@ -19,7 +19,7 @@ export default function TermsOfUse() {
             <title>Terms & Conditions</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/terms-and-conditions"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/terms-and-conditions"/> */}
         </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">

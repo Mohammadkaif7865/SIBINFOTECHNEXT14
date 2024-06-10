@@ -21,10 +21,10 @@ export default function LinkedinAdsManagementServices() {
           name="description"
           content="We are a professional Linkedin ad management and advertising agency in India that helps to setup Linkedin advertising campaigns for B2B & B2C businesses to generate leads & drive conversions with LinkedIn ads."
         />
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/linkedin-ads-management-services"
-        />
+        /> */}
       </Helmet>
       <LinkedinAdsPage />
     </div>

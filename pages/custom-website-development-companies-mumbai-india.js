@@ -11,7 +11,7 @@ export default function CustomWebDevelopmentCompany() {
             <title>Custom Web Development Services Companies Mumbai India UK</title>
             <meta name="keywords" content="custom web development services,custom web development service,offshore custom web development,custom web development companies,custom web development company,custom web development india,custom web development delhi,custom web development mumbai,custom w"/>
             <meta name="description" content="Professional web development company providing custom web application development and ecommerce web site development services.You can hire dedicated team of .Net Developers, from us according to your needs, on a monthly contract hire basis."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

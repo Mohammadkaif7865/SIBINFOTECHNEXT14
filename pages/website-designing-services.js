@@ -19,10 +19,7 @@ export default function WebsiteDesigningServices() {
           name="keywords"
           content="web designing India, website designing Mumbai,  website design, E-Commerce website design, professional web designer, custom website designing, web design company, website design mumbai, web design company mumbai, Mumbai website design company, shopify web design, website design services in india, website design in mumbai, website designing company in mumbai, website designers in mumbai, landing page designing "
         />
-        <link
-          rel="canonical"
-          href="https://www.sibinfotech.com/website-designing-services"
-        />
+      
       </Head>
       <WebDesigning />
     </div>

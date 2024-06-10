@@ -11,7 +11,7 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
             <title>Adobe AIR Development Services Companies India London UK</title>
             <meta name="keywords" content="adobe air development services india,adobe air development services bangalore,adobe air development services mumbai,adobe air development services delhi,adobe air development services ,chennai,adobe air development services pune,adobe air development serv"/>
             <meta name="description" content="SIB Infotech is a leading IT solutions company, engaged in providing a wide range of Flash based solutions including Adobe AIR Development."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

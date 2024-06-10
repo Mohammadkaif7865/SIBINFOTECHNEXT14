@@ -11,7 +11,7 @@ export default function RemoteMysqlDbaSupportServices() {
             <title>Remote MySQL DBA Services and Support</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/remote-mysql-dba-services-support"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/remote-mysql-dba-services-support"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -13,7 +13,7 @@ export default function WebsiteRedevelopmentServices() {
             <meta name="description" content="SIB Infotech being a professional web designing company, offering you a bunch of talented designers to turn your dreams into reality. Good and affordable website design services are the dual keys of success in online business. We offer professional web designing services at affordable rates."/>
             <meta property="og:title" content="Best Website Designing Development & Digital Marketing SEO Company in Mumbai, India" />
             <meta property="og:description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience." />
-            <link rel="canonical" href="https://www.sibinfotech.com/website-designing-methodology-mumbai-india"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/website-designing-methodology-mumbai-india"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

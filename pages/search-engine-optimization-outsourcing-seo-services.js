@@ -12,7 +12,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
             <title>Best SEO Outsourcing Company in India , Outsource White Label SEO Services</title>
             <meta name="keywords" content="SEO Outsourcing Company, SEO Outsourcing India, SEO Outsourcing Company India, SEO Outsourcing Services, SEO Outsourcing Services India, SEO Reseller Program, Private Label SEO Reseller Programs,  SEO Projects Outsourcing Company India, Outsourcing SEO Pr"/>
             <meta name="description" content="Outsource SEO service to India with SIB Infotech a 100% White Label SEO outsourcing company in India offering affordable SEO Reseller packages you can offer your clients. Our SEO outsourcing services ensures increase in your clients website  trafiic & ranking."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

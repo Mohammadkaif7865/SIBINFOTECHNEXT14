@@ -11,7 +11,7 @@ export default function ZendFramworkDevelopmentServices() {
         <   title>Zend Framework Development Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/zend-framework-development-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/zend-framework-development-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

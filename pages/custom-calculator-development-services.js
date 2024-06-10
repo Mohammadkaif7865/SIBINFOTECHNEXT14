@@ -11,7 +11,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <title>Custom Calculator Development Service |Web Calculator For Your Website</title>
 		    <meta name="keywords" content="Custom Calculator, Mortgage Calculator, Automotive calculators, Real estate calculators, Restaurant calculators, ROI calculators, Loan & debt calculators, Cost calculators, Savings calculators, Online store calculators, Finance calculators, Health and med"/>
             <meta name="description" content="Need a Custom Calculator for Your Website? Our skilled developers can build any kind of virtual calculator, online estimators, or quote generators for your website to boost your marketing with highly converting interactive calculators"/>
-            <link rel="canonical" href="https://www.sibinfotech.com/custom-calculator-development-services" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/custom-calculator-development-services" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -21,10 +21,10 @@ export default function FacebookAdsManagementServices() {
           name="description"
           content="Our Facebook Specialists manage Facebook PPC Campaigns making your facebook ads reach millions and help you to Grow Online Sales. We are the Best Facebook Advertising Agency focused to generate highest ROI and Performance for your Brand"
         />
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/facebook-ads-management-services"
-        />
+        /> */}
       </Helmet>
       <FacebookAdsMgt />
     </div>

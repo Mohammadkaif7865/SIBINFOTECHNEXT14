@@ -9,7 +9,7 @@ export default function AmazonWebServicesAws() {
     <div>
         <Helmet>
             <title>Amazon Web Services (AWS)</title>
-            <link rel="canonical" href="https://www.sibinfotech.com/amazon-web-services-aws"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/amazon-web-services-aws"/> */}
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
         </Helmet>
