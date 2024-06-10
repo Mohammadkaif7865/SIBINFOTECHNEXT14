@@ -12,7 +12,7 @@ export default function CustomWebsiteDesigningServices() {
             <title>Custom Web Designing</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/custom-website-designing-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/custom-website-designing-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

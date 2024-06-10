@@ -11,7 +11,7 @@ export default function YahooStoreDevelopmentServices() {
             <title>Yahoo Store Development Services Companies Mumbai India UK SIB Infotech</title>
             <meta name="keywords" content="yahoo store development services,yahoo store development service,offshore yahoo store development,yahoo store development companies,yahoo store development company,yahoo store development india,yahoo store development delhi,yahoo store development mumbai,"/>
             <meta name="description" content="SIB Infotech is a professional design and development firm, providing premium Yahoo Store design and development services.The various yahoo store development services we offer are Yahoo Store Design,Redesign Yahoo Store,Yahoo Store Enhancement,Yahoo Store Marketing,RTML Programing,Yahoo Store Guide"/>
-            <link rel="canonical" href="https://www.sibinfotech.com/yahoo-store-development-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/yahoo-store-development-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -11,7 +11,7 @@ export default function WebsiteDesignMathodologyMumbai() {
             <title>Website Design Methodology India Web Page Designing Mumbai SIB Infotech</title>
             <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website"/>
             <meta name="description" content="SIB Infotech being a professional web designing company, offering you a bunch of talented designers to turn your dreams into reality. Good and affordable website design services are the dual keys of success in online business. We offer professional web designing services at affordable rates."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/website-designing-methodology-mumbai-india"/>
+           
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

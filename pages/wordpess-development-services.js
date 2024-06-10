@@ -11,7 +11,7 @@ export default function WordpressDevelopmentServices() {
             <title>Wordpress Development Services</title>
             <meta name="description" content=""/>
             <meta name="keywords" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/wordpess-development-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/wordpess-development-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -21,10 +21,10 @@ export default function InstagramAdsManagementServices() {
           name="description"
           content="Best Instagram ad management company in Mumbai, India.  Grow your Instagram account with real followers, likes and more with our effective Instagram advertising (ads) management services."
         />
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/instagram-ads-management-services"
-        />
+        /> */}
       </Helmet>
 
       <InstagramAdsMgt />

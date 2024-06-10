@@ -9,10 +9,10 @@ export default function PpcManagementServices() {
           PPC Management Companies India Pay per click Services Mumbai SIB
           Infotech
         </title>
-        <link
+        {/* <link
           rel="canonical"
           href="https://sibinfotech.com/pay-per-click-ppc-management-services"
-        />
+        /> */}
       </Head>
       <Ppc />
       {/* <div className="innerWebDesign">

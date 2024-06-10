@@ -11,7 +11,7 @@ export default function Dba2DbaServicesAdministration() {
             <title>DB2 DBA Services and Administration</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/db2-dba-services-administration" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/db2-dba-services-administration" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

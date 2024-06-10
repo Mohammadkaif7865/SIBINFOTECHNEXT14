@@ -11,7 +11,7 @@ export default function FlashWebsiteDesigningServices() {
             <title>Flash Website Designing Company India Flash Presentations Mumbai</title>
             <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash "/>
             <meta name="description" content="Flash Web Design Company India SIB Infotech Offers Flash Websites Design India, Flash Design Development, Flash Web Design India, Flash Development Offshore, Flash Programmers India, Affordable Flash Web Design, Flash Web Site Development Company India, Flash Programmers India."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/flash-website-designing-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/flash-website-designing-services"/> */}
         </Helmet>
           <div className="innerWebDesign">
             <div className="container-fluid">

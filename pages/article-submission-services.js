@@ -11,7 +11,7 @@ export default function ArticleSubmissionServices() {
             <title>Article Submission Services Companies Mumbai London India UK</title>
             <meta name="keywords" content="article submission service,article submission services,manual article submission,seo article submission,manual article submission service,article submission india,article submission delhi,article submission mumbai,article submission chennai,article submis"/>
             <meta name="description" content="SIB Infotech specializes in Manual Article Submission and Writing work for High Search Engine Ranking and Traffic."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/article-submission-services" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/article-submission-services" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

@@ -11,7 +11,7 @@ export default function WhatsappMarketing() {
             <title>Whatsapp Marketing</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/whatsapp-marketing"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/whatsapp-marketing"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

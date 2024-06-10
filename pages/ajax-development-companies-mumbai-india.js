@@ -11,7 +11,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
             <title>AJAX Development Services Companies India London USA UK Asia</title>
             <meta name="keywords" content="ajax development services,ajax development service,offshore ajax development,ajax development companies,ajax development company,ajax development india,ajax development delhi,ajax development mumbai,ajax development chennai,ajax development bangalore,ajax"/>
             <meta name="description" content="SIB Infotech excels in AJAX web development. Our expert team of AJAX programmers has built up and delivered ecommerce shopping applications in open source (oscommerce) with AJAX web programming to turn the application flexible and faster."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

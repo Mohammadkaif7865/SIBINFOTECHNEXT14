@@ -10,7 +10,7 @@ export default function CorporateBrandingServicesMumbai() {
          <Helmet>
             <title>Corporate Branding Services</title>
     		   <meta name="description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience."/>
-             <link rel="canonical" href="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" />
+             {/* <link rel="canonical" href="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

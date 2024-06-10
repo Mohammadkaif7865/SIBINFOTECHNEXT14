@@ -11,7 +11,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
             <title>ASP.NET Development Services | Hire .NET Developers</title>
             <meta name="keywords" content="asp.net development services,asp.net development service,offshore asp.net development,asp.net development companies,asp.net development company,asp.net development india,asp.net development delhi,asp.net development mumbai,asp.net development chennai,asp."/>
             <meta name="description" content="SIB Infotech has a vast competency in ASP.NET Development and ASP.Net Application Development and offers ASP.NET web based application development, ASP.NET programming, ASP.NET ecommerce/shopping cart development solutions and many more."/>
-            <link rel="canonical" href="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

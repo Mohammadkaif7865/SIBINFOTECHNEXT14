@@ -11,7 +11,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
             <title>Blackberry Application Development Services Companies India</title>
             <meta name="keywords" content="blackberry application development services,blackberry application development service,offshore blackberry application development,blackberry application development companies,blackberry application development company,blackberry application development i"/>
             <meta name="description" content="SIB Infotech also offers you hire blackberry developer and hire mobile application development team which will reduce your cost for better blackberry application development"/>
-            <link rel="canonical" href="https://www.sibinfotech.com/blackberry-mobile-application-development-services" />
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/blackberry-mobile-application-development-services" /> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

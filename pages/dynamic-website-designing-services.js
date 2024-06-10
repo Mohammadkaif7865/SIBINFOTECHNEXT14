@@ -11,7 +11,7 @@ export default function DynamicWebsiteDesigningServices() {
             <title>Dynamic Website Designing Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/dynamic-website-designing-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/dynamic-website-designing-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

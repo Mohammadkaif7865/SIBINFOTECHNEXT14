@@ -11,7 +11,7 @@ export default function SocialMediaOptimization() {
             <title>Social Media Optimization</title>
             <meta name="keywords" content="Social Media Marketing Package "/>
             <meta name="description" content="Social Media Marketing Package "/>
-            <link rel="canonical" href="https://www.sibinfotech.com/social-media-optimization-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/social-media-optimization-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

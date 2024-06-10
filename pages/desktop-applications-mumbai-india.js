@@ -10,7 +10,7 @@ export default function DesktopApplicationMumbaiIndia() {
         <Helmet>
             <title>Desktop Application Development Services Companies India UK</title>
             <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli"/>
-            <meta name="description" content="Offshore Desktop Application Development outsourcing: SIB Infotech Desktop Application Developers design and build Desktop Software Application, Outsource Desktop Solutions Services, Rich Internet Desktop Applications, Desktop Windows Applications Development, Desktop Application Development services."/>
+            {/* <meta name="description" content="Offshore Desktop Application Development outsourcing: SIB Infotech Desktop Application Developers design and build Desktop Software Application, Outsource Desktop Solutions Services, Rich Internet Desktop Applications, Desktop Windows Applications Development, Desktop Application Development services."/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

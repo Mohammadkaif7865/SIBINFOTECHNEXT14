@@ -53,7 +53,7 @@ export default function ContactForm() {
           <p>You have received an enquiry from:</p>
             <table style='width: 100%;' border='1' cellspacing='0'>
               <tr>
-                  <td style='padding:10px;' width='250'>Full Name</td>
+                  <td style='padding:10px;' >Full Name</td>
                   <td style='padding:10px;'>${inputs.name}</td>
               </tr>
               <tr>
@@ -63,15 +63,15 @@ export default function ContactForm() {
                   <td style="padding:10px;">${inputs.cname}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Email</td>
+                  <td style='padding:10px;' >Email</td>
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Phone Number</td>
+                  <td style='padding:10px;' >Phone Number</td>
                   <td style='padding:10px;'>${inputs.phone}</td>
               </tr>
               <tr>
-                  <td style='padding:10px;' width='250'>Website Location</td>
+                  <td style='padding:10px;' >Website Location</td>
                   <td style='padding:10px;'>${
                     "https://sibinfotech.com" + window.location.pathname
                   }</td>

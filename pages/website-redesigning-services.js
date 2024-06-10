@@ -11,7 +11,7 @@ export default function WebsiteRedesigningServices() {
             <title></title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-            <link rel="canonical" href="https://www.sibinfotech.com/website-redesigning-services"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/website-redesigning-services"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">

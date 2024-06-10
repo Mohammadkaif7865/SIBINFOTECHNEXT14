@@ -9,7 +9,7 @@ export default function CmsDevelopementServices() {
     <div>
          <Helmet>
             <title>Content Management System - CMS Based Website Development Services</title>
-            <link rel="canonical" href="https://www.sibinfotech.com/cms-development-companies-mumbai-india"/>
+            {/* <link rel="canonical" href="https://www.sibinfotech.com/cms-development-companies-mumbai-india"/> */}
         </Helmet>
         <div className="innerWebDesign">
             <div className="container-fluid">
