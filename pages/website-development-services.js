@@ -103,10 +103,10 @@ export default function WebDevelopmentServices() {
           Best Web Development Company India, Website Development Agency
           Services Mumbai
         </title>
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/website-development-services"
-        />
+        /> */}
       </Head>
       <div className="innerWebDesign">
         <div className="container-fluid">

@@ -8,7 +8,7 @@ export default function SoftwareDevelopementServices() {
         <div>
             <Head>
                 <title>Top Custom Software Development Company India, Software Development Services Mumbai</title>
-                <link rel="canonical" href="https://www.sibinfotech.com/software-development-services" />
+                {/* <link rel="canonical" href="https://www.sibinfotech.com/software-development-services" /> */}
             </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">
