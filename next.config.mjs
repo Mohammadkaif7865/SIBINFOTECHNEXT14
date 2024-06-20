@@ -76,11 +76,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/custom-website-designing-companies-mumbai-india",
-        destination: "/custom-website-designing-services",
-        permanent: true,
-      },
-      {
         source: "/website-designing-companies-mumbai-india",
         destination: "/website-designing-services",
         permanent: true,
