@@ -6982,10 +6982,14 @@ table tbody tr td:nth-child(2) {
 }
 .blogDescriptions ul {
   margin-bottom: 10px;
+  list-style-type: disc;
+  margin-left: 27px;
+
 }
 .blogDescriptions ul li {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
+ padding: 5px;
 }
 .blogDescriptions p {
   text-align: justify;
