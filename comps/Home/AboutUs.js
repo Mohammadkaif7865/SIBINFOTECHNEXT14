@@ -39,7 +39,7 @@ const AboutUs = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="aboutLeftHome">
-              <h3 className="sub_heading fontWeight600 text_light_blue">
+              <h3 className="sub_heading fontHeading fontWeight600 text_light_blue">
                 What We Do Is
               </h3>
               <p className="mt-3">
@@ -70,7 +70,7 @@ const AboutUs = () => {
                     />
                   </div>
                   <div className="iconRightAbout">
-                    <h3 className="small_heading fontWeight600">
+                    <h3 className="small_heading  fontHeading fontWeight600">
                       {service.title}
                     </h3>
                     <p className="mt-2">{service.description}</p>

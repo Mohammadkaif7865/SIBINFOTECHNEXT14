@@ -200,7 +200,7 @@ export default function WorkWebdesign() {
         </h3>
         <div className="space"></div>
         <div className="portfolioHome">
-          <h3 className="sub_heading fontWeight600">Our Portfolio</h3>
+          <h3 className="sub_heading fontWeight600 fontHeading ">Our Portfolio</h3>
           <p className="title mt-2">
             Website Design you'll want to tell all your friends about
           </p>
@@ -229,7 +229,7 @@ export default function WorkWebdesign() {
                   </div>
                   <div className="col-lg-6">
                     <div className="workHomeRight">
-                      <h3 className="text_dark_blue fontWeight700">
+                      <h3 className="text_dark_blue fontWeight700 fontHeading fontWeight400">
                         {slide?.heading}
                       </h3>
                       <p className="mt-3">{slide?.text}</p>
@@ -241,9 +241,9 @@ export default function WorkWebdesign() {
           ))}
         </WorkSlider>
         <div className="bottomTextSlider">
-          <h4 className="small_heading fontWeight600">
+          <h4 className="small_heading fontHeading fontWeight600">
             Some of the{" "}
-            <span className="text_red">Best Companies in India</span> &
+            <span className="text_red fontHeading fontWeight600 ">Best Companies in India</span> &
             Worldover, We’re working with
           </h4>
         </div>

@@ -1,11 +1,8 @@
-import Head from "next/head";
-import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
-import React, { useState, useEffect } from "react";
+import SEO from "@/comps/SEO2/SEO";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
-import SEO from "@/comps/SEO/SEO";
+import Head from "next/head";
+import { useEffect, useState } from "react";
 
 export default function SearchEngineOptimizationServices() {
   useEffect(() => {

@@ -16,6 +16,9 @@ import SpecialisedServices from "./SpecialisedServices";
 import NewsWebsites from "./NewsWebsites";
 import Faqs from "./Faqs";
 import SeoAudit from "./SeoAudit";
+import ServicesLogo from "./ServicesLogo";
+import BookConsultation from "./BookConsultation";
+import OutsourcingServices from "./OutsourcingServices";
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -81,6 +84,7 @@ const SEO = () => {
   return (
     <>
       <Banner />
+      <ServicesLogo />
       <Introduction />
 
       <SeoServices />
@@ -92,10 +96,9 @@ const SEO = () => {
         linkTitle="Speak with one of our SEO Experts in India today!"
         linkDestination="#bannerSection"
       />
-
       <Benifits />
 
-      <SeoProcess />
+      <SpecialisedServices />
       <Help
         heading="How can we help you to Stop Loosing Leads to Your Competitors?"
         linkTitle="Contact Us"
@@ -103,9 +106,12 @@ const SEO = () => {
       />
 
       <WhyChoose />
+      <SeoProcess />
+      <BookConsultation />
 
-      <SpecialisedServices />
       <NewsWebsites />
+
+      <OutsourcingServices/>
 
       <Help
         heading="80% of Customers will never look past the first search engine

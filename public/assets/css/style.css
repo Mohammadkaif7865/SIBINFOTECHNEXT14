@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-@font-face {
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @font-face {
   font-family: "Graphik";
   src: url("../fonts/GraphikBlack.otf") format("opentype");
   font-weight: 900;
@@ -34,11 +36,12 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */
 body {
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
-  font-family: "Graphik";
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   overflow-x: hidden;
 }
 .b {
@@ -122,7 +125,7 @@ section {
   border: 1px solid #000;
 }
 .large_heading {
-  font-size: 60px;
+  font-size: 39px;
 }
 .heading {
   font-size: 45px;
@@ -163,6 +166,10 @@ section {
 .fontWeight900 {
   font-weight: 900;
 }
+.fontHeading {
+  font-family: "Lora", serif;
+}
+
 .topHeader {
   background: #000;
 }
@@ -175,6 +182,7 @@ section {
   display: flex;
   align-items: center;
 }
+
 .topHeaderLeft ul li a {
   font-size: 14px;
   display: inline-block;
@@ -200,11 +208,12 @@ section {
   text-transform: uppercase;
   padding: 8px 15px;
 }
-.topHeaderRight ul li:first-child {
+.topHeaderLeft ul li:first-child {
   background: var(--light-blue-color);
   margin-right: 5px;
+  border-radius: 2px;
 }
-.topHeaderRight ul li:first-child a {
+.topHeaderLeft ul li:first-child a {
   animation: blink 1s infinite linear;
 }
 @keyframes blink {
@@ -215,7 +224,7 @@ section {
     opacity: 0;
   }
 }
-.topHeaderRight ul li:last-child {
+.topHeaderRight ul li:first-child {
   background: var(--red-color);
 }
 .mainHeader {
@@ -230,7 +239,9 @@ section {
   display: inline-block;
   font-size: 16px;
   padding: 17px 15px;
-  font-weight: 500;
+  font-weight: 700;
+  /* font-family: ; */
+  font-family: "Lora", serif;
 }
 .extraMenu {
   width: 40px;
@@ -358,6 +369,9 @@ section {
 }
 .text_red {
   color: var(--red-color) !important;
+}
+.text_blue_light {
+  color: var(--light-blue-color);
 }
 .bannerFormItem {
   margin-top: 10px;
@@ -837,7 +851,7 @@ section {
 .fontNumber {
   font-size: 30px;
   font-weight: 800;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
 }
 .drivenLeft ul {
   display: flex;
@@ -950,6 +964,7 @@ section {
   width: 100%;
 }
 .marketingTabs ul li {
+  font-family: "Lora", serif;
   padding: 8px 10px;
   cursor: pointer;
   position: relative;
@@ -6984,12 +6999,11 @@ table tbody tr td:nth-child(2) {
   margin-bottom: 10px;
   list-style-type: disc;
   margin-left: 27px;
-
 }
 .blogDescriptions ul li {
   font-weight: 500;
   font-size: 15px;
- padding: 5px;
+  padding: 5px;
 }
 .blogDescriptions p {
   text-align: justify;
@@ -8056,4 +8070,250 @@ table tbody tr td:nth-child(2) {
       }
     }
   }
+}
+
+.banner-services-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+
+.dot_points {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  & span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px dashed #fff;
+    animation: rotate 2s ease-in-out infinite;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--red-color);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+.bannerLogo {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+
+  .bannerLogo-item {
+    /* border: 1px solid red; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+    aspect-ratio: 4/2;
+    img {
+      margin: 0 auto;
+      display: block;
+      max-height: 50px;
+    }
+  }
+}
+
+.servicesLogomain {
+  padding: 20px 0;
+  background-color: #eee;
+  .servicesLogomain_inner {
+    display: flex;
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
+    .servicesLogo {
+      width: 50%;
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+    .servicesLogo-content {
+      width: 50%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+}
+.servicesLogo {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 30px;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    filter: invert(40%);
+  }
+}
+
+.introduction_seo_list {
+  gap: 20px;
+  padding-left: 50px;
+
+  @media (max-width: 1024px) {
+    padding-left: 0px;
+  }
+  .left {
+  }
+  .content {
+    width: 100%;
+    /* border: 1px solid red; */
+
+    h4 {
+      font-family: "Lora", serif;
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
+}
+.seo_result,
+.seo_result_left_inner {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  @media (max-width: 1024px) {
+  gap: 0;
+  }
+}
+
+.seo_result {
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.seo_result_left_inner{
+  @media (max-width: 640px) {
+    width: 100%;
+    flex-direction: column !important;
+  }
+}
+
+
+.seo_result_left {
+  width: 60%;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+ 
+  .items1 {
+
+    padding: 20px;
+    width: 60%;
+    border: 2px solid #d6d6d6;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    gap: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    img{
+      @media (max-width: 640px) {
+        width: 100px !important;
+      }
+
+    }
+    @media (max-width: 640px) {
+      width: 100%;
+    }
+    .content {
+      width: fit-content;
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+  .items2 {
+    padding: 20px 0;
+
+    width: 30%;
+    @media (max-width: 640px) {
+    
+      width: 100%;
+    }
+  }
+}
+.seo_result_right {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  @media (max-width:1024px) { 
+    width: 100%;
+    gap: 10px;
+   }
+}
+
+.border-rounded {
+  border: 2px solid #d6d6d6;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background: #fff;
+}
+
+.book-consultation {
+  padding: 150px 0;
+  background-image: url(../images/bg/bg-lock.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  @media (max-width: 1024px) {
+    padding: 70px 0;
+  }
+  .BookConsultation_lockImg {
+    width: 100%;
+    height: auto;
+    @media (max-width: 1024px) {
+      width: 100px;
+      height: auto;
+      margin: 0 auto 15px auto;
+      display: block;
+    }
+  }
+  .BookConsultation_mainheading {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}
+.OutsourcingServices {
+  background-image: url(../images/bg/outsourcing-services-bg.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
