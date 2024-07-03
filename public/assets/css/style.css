@@ -8207,7 +8207,7 @@ table tbody tr td:nth-child(2) {
   gap: 30px;
   width: 100%;
   @media (max-width: 1024px) {
-  gap: 0;
+    gap: 0;
   }
 }
 
@@ -8217,36 +8217,34 @@ table tbody tr td:nth-child(2) {
     width: 100%;
   }
 }
-.seo_result_left_inner{
+.seo_result_left_inner {
   @media (max-width: 640px) {
     width: 100%;
     flex-direction: column !important;
   }
 }
 
-
 .seo_result_left {
   width: 60%;
   @media (max-width: 1024px) {
     width: 100%;
   }
- 
-  .items1 {
 
-    padding: 20px;
-    width: 60%;
+  .items1 {
+    /* padding: 20px; */
+    overflow: hidden;
+    width: 70%;
     border: 2px solid #d6d6d6;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 13px;
+    border-radius: 13px;
+
     gap: 20px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    img{
+    img {
       @media (max-width: 640px) {
         width: 100px !important;
       }
-
     }
     @media (max-width: 640px) {
       width: 100%;
@@ -8258,14 +8256,9 @@ table tbody tr td:nth-child(2) {
       }
     }
   }
-  .items2 {
-    padding: 20px 0;
-
+  .items2_main {
     width: 30%;
-    @media (max-width: 640px) {
-    
-      width: 100%;
-    }
+    padding: 20px 0;
   }
 }
 .seo_result_right {
@@ -8273,10 +8266,18 @@ table tbody tr td:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
-  @media (max-width:1024px) { 
+  @media (max-width: 1024px) {
     width: 100%;
     gap: 10px;
-   }
+  }
+}
+
+.bmc {
+  height: 200px;
+  object-position: top;
+}
+.bmc img {
+  object-position: top;
 }
 
 .border-rounded {
@@ -8318,34 +8319,30 @@ table tbody tr td:nth-child(2) {
   background-repeat: no-repeat;
 }
 
-.strategy{
+.strategy {
   background-color: #f6f6f6;
 }
 
-.strategy .items_icon{
-  min-width:90px;
-  height:90px;
-  background-color:#ffc570;
+.strategy .items_icon {
+  min-width: 90px;
+  height: 90px;
+  background-color: #ffc570;
   display: flex;
   border-radius: 15px;
-
 }
-.strategy .items_icon img{
+.strategy .items_icon img {
   display: block;
   margin: auto;
 }
 
-
-.strategy_grid{
+.strategy_grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(2 , minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.strategy_grid .items.odd .item_content{
+.strategy_grid .items.odd .item_content {
   text-align: right;
 }
-.strategy_grid .items.odd{
+.strategy_grid .items.odd {
   flex-direction: row-reverse;
-} 
-
-
+}

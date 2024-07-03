@@ -99,117 +99,135 @@ const SeoTools = () => {
         <div className="seo_result mt-5">
           <div className="seo_result_left ">
             {/* 1 */}
-            <div className="seo_result_left_inner">
+            <div className="seo_result_left_inner ">
               <div className="items1">
                 <Image
-                  className="object-fit-contain"
-                  width={150}
-                  height={100}
-                  src={"/assets/images/icons/seo-result/rnb.png"}
+                  className="object-fit-contain w-100 h-100 "
+                  width={400}
+                  height={500}
+                  quality={100}
+                  src={
+                    "/assets/images/rnb-global-university-kota-city-kota-rajasthan-colleges.webp"
+                  }
                   alt="rnb"
                 />
-                <div className="content">
-                  <p>300+  Impresion</p>
-                  <p>270%  Clicks</p>
-                </div>
               </div>
-              <div className="items2 ">
-                <h4 className=" fontWeight700 d-flex align-items-center justify-content-center  gap-2">
-                  +200%{" "}
-                  <Image
-                    className="h-auto"
-                    width={40}
-                    height={40}
-                    src={"/assets/images/icons/seo-result/rise.png"}
-                    alt="rnb"
-                  />
-                </h4>
-                <p className="fontWeight600 text-center small_heading ">
-                  Organic Growth
-                </p>
+              <div className=" items2_main">
+                <div className="">
+                  <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                    +200%{" "}
+                    <Image
+                      className="h-auto"
+                      width={40}
+                      height={40}
+                      src={"/assets/images/icons/seo-result/rise.png"}
+                      alt="rnb"
+                    />
+                  </h4>
+                  <p className="fontWeight600  small_heading ">
+                    Organic Growth
+                  </p>
+                </div>
+                <div className="content fontWeight500 w-100 mt-3">
+                  <p>300+ Impresion</p>
+                  <p>270% Clicks</p>
+                </div>
               </div>
             </div>
             {/* 2 */}
             <div className="seo_result_left_inner mt-lg-3 flex-row-reverse ">
               <div className="items1 ">
                 <Image
-                  className=" object-fit-contain"
-                  width={150}
-                  height={100}
+                  className="object-fit-contain w-100 h-100 "
+                  width={400}
+                  height={500}
+                  quality={100}
                   src={"/assets/images/veeraco.webp"}
-                  alt="rnb"
+                  alt="veeraco"
                 />
-                <div className="content">
-                <p>300+  Impresion</p>
-                  <p>270%  Clicks</p>
+              </div>
+
+              <div className=" items2_main">
+                <div className="">
+                  <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                    +200%{" "}
+                    <Image
+                      className="h-auto"
+                      width={40}
+                      height={40}
+                      src={"/assets/images/icons/seo-result/rise.png"}
+                      alt="rnb"
+                    />
+                  </h4>
+                  <p className="fontWeight600  small_heading ">
+                    Organic Growth
+                  </p>
+                </div>
+                <div className="content fontWeight500 w-100 mt-3">
+                  <p>300+ Impresion</p>
+                  <p>270% Clicks</p>
                 </div>
               </div>
-              <div className="items2 ">
-                <h4 className=" fontWeight700 d-flex align-items-center justify-content-center  gap-2">
-                  +130%{" "}
-                  <Image
-                    className="h-auto"
-                    width={40}
-                    height={40}
-                    src={"/assets/images/icons/seo-result/rise.png"}
-                    alt="rnb"
-                  />
-                </h4>
-                <p className="fontWeight600 text-center small_heading ">
-                  Organic Growth
-                </p>
-              </div>
+           
             </div>
             {/* 3 */}
             <div className="seo_result_left_inner mt-lg-3">
-              <div className="items1">
+              <div className="items1 bmc" >
                 <Image
-                  className="object-fit-contain"
-                  width={150}
-                  height={100}
-                  src={"/assets/images/BMC.png"}
-                  alt="rnb"
+                  className="object-fit-cover w-100 h-100 "
+                  width={400}
+                  height={150}
+                  quality={100}
+                  src={"/assets/images/BMC.jpg"}
+                  alt="BMC Election"
                 />
-                <div className="content">
-                <p>300+  Impresion</p>
-                <p>270%  Clicks</p>
-                </div>
               </div>
-              <div className="items2 ">
-                <h4 className=" fontWeight700 d-flex align-items-center justify-content-center  gap-2">
-                  +150%{" "}
-                  <Image
-                    className="h-auto"
-                    width={40}
-                    height={40}
-                    src={"/assets/images/icons/seo-result/rise.png"}
-                    alt="rnb"
-                  />
-                </h4>
-                <p className="fontWeight600 text-center small_heading ">
-                  Organic Growth
-                </p>
+              <div className=" items2_main">
+                <div className="">
+                  <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                    +200%{" "}
+                    <Image
+                      className="h-auto"
+                      width={40}
+                      height={40}
+                      src={"/assets/images/icons/seo-result/rise.png"}
+                      alt="rnb"
+                    />
+                  </h4>
+                  <p className="fontWeight600  small_heading ">
+                    Organic Growth
+                  </p>
+                </div>
+                <div className="content fontWeight500 w-100 mt-3">
+                  <p>300+ Impresion</p>
+                  <p>270% Clicks</p>
+                </div>
               </div>
             </div>
           </div>
           <div className=" seo_result_right mt-4 mt-lg-0 ">
             {tools2.map((value, i) => {
               return (
-                <div className="items p-3 shadow rounded-3 border">
-                  <Image
-                    className="mx-auto d-block "
-                    width={50}
-                    height={50}
-                    src={value.src}
-                    alt="loading"
-                  />
-                  <p className=" text-center my-2" style={{ fontSize: "12px" }}>
-                    {value.title}
-                  </p>
+                <div className="items d-flex align-items-center justify-content-center px-3  shadow rounded-3 border ">
+                  <div>
+                    <Image
+                      className="mx-auto d-block "
+                      width={50}
+                      height={50}
+                      src={value.src}
+                      alt="loading"
+                    />
+                    <p
+                      className=" text-center my-2"
+                      style={{ fontSize: "12px" }}
+                    >
+                      {value.title}
+                    </p>
 
-                  <h4 className="text-center  fontWeight500">
-                    {value.ranking}
-                  </h4>
+                    <h4 className="text-center  fontWeight500">
+                      {value.ranking}
+                    </h4>
+                  </div>
                 </div>
               );
             })}
