@@ -9,8 +9,8 @@ const Introduction = () => {
           <div className="col-lg-6">
             <div className="rightPPC">
               <h2 className="sub_heading fontHeading fontWeight600">
-                SIB Infotech{" "}
-                <span className="text_red">SEO Services In India</span> -
+              Your Next{" "}
+                <span className="text_red">SEO Agency In India</span> -
                 Trusted By Over 1000+ Companies
               </h2>
               <p className="customText mt-3">

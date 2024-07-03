@@ -32,7 +32,7 @@ const SeoServices = () => {
                         01
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        ON Page SEO Service
+                        ON Page SEO 
                       </h3>
                     </div>
                   </li>
@@ -45,7 +45,7 @@ const SeoServices = () => {
                         02
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        OFF Page SEO Service
+                        OFF Page SEO 
                       </h3>
                     </div>
                   </li>
@@ -58,7 +58,7 @@ const SeoServices = () => {
                         03
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        Local SEO Service
+                        Local SEO 
                       </h3>
                     </div>
                   </li>
@@ -71,7 +71,7 @@ const SeoServices = () => {
                         04
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        Technical SEO Service
+                        Technical SEO 
                       </h3>
                     </div>
                   </li>
@@ -84,7 +84,7 @@ const SeoServices = () => {
                         05
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        E-Commerce SEO Service
+                        E-Commerce SEO 
                       </h3>
                     </div>
                   </li>
@@ -97,7 +97,7 @@ const SeoServices = () => {
                         06
                       </h4>
                       <h3 className="small_heading fontHeading fontWeight600">
-                        Mobile SEO Service
+                        Mobile SEO 
                       </h3>
                     </div>
                   </li>

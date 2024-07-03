@@ -10,7 +10,7 @@ const Strategy = () => {
         </h1>
         <div className="mt-4 ">
           <div className=" strategy_grid ">
-            <div className="items odd d-flex flex-row-reverse gap-2">
+            <div className="items odd d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -45,7 +45,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items odd   d-flex flex-row-reverse gap-2">
+            <div className="items odd   d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -81,7 +81,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex flex-row-reverse gap-2">
+            <div className="items  odd d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -99,7 +99,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex gap-2">
+            <div className="items d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -118,7 +118,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex flex-row-reverse gap-2">
+            <div className="items  odd d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -153,7 +153,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex flex-row-reverse gap-2">
+            <div className="items  odd d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -178,7 +178,9 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/high-quality-backlinks.png"}
+                  src={
+                    "/assets/images/icons/strategy/high-quality-backlinks.png"
+                  }
                   alt="bars.png"
                 />
               </div>

@@ -8335,11 +8335,17 @@ table tbody tr td:nth-child(2) {
   margin: auto;
 }
 
-.strategy .item_content{
-  text-align: right;
-}
+
 .strategy_grid{
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2 , minmax(0,1fr));
 }
+.strategy_grid .items.odd .item_content{
+  text-align: right;
+}
+.strategy_grid .items.odd{
+  flex-direction: row-reverse;
+} 
+
+
