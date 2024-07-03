@@ -4,40 +4,40 @@ import React from "react";
 const SeoTools = () => {
   const tools2 = [
     {
-      title: "Organic Sessions +",
-      ranking: "2 Billion",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      title: "Organic Sessions ",
+      ranking: "2 Billion+",
+      src: "/assets/images/icons/services/laptop.png",
+      alt: "Organic Sessions ",
     },
     {
       title: "#1 Ranking Keywords",
       ranking: "50000+",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      src: "/assets/images/icons/services/rankings.png",
+      alt: "rankings",
     },
     {
       title: "Clicks",
-      ranking: "1.8 Billion +",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      ranking: "1.8 Billion+",
+      src: "/assets/images/icons/services/click.png",
+      alt: "click",
     },
     {
       title: "Users",
-      ranking: "900 Million +",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      ranking: "900 Million+",
+      src: "/assets/images/icons/services/user.png",
+      alt: "users",
     },
     {
       title: "Awards & Recognition",
-      ranking: "40 +",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      ranking: "40+",
+      src: "/assets/images/icons/services/medals.png",
+      alt: "Awards & Recognition",
     },
     {
       title: "Leads",
       ranking: "1.5 Million +",
-      src: "/assets/images/icons/seo-result/Areas of improvement .png",
-      alt: "Google Search Console Logo",
+      src: "/assets/images/icons/services/lead-generation.png",
+      alt: "lead-generatio",
     },
   ];
   const tools = [

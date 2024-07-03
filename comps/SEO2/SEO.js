@@ -1,24 +1,22 @@
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import BannerForm from "../BannerForm";
 import AOS from "aos";
-import Image from "next/image";
+import { useEffect } from "react";
 import Banner from "./Banner";
+import Benifits from "./Benifits";
+import BookConsultation from "./BookConsultation";
+import Faqs from "./Faqs";
+import Help from "./Help";
 import Introduction from "./Introduction";
+import NewsWebsites from "./NewsWebsites";
+import OutsourcingServices from "./OutsourcingServices";
+import SeoAudit from "./SeoAudit";
+import SeoProcess from "./SeoProcess";
 import SeoServices from "./SeoServices";
 import SeoTools from "./SeoTools";
-import TalkWithExpert from "./TalkWithExpert";
-import Benifits from "./Benifits";
-import SeoProcess from "./SeoProcess";
-import Help from "./Help";
-import WhyChoose from "./WhyChoose";
-import SpecialisedServices from "./SpecialisedServices";
-import NewsWebsites from "./NewsWebsites";
-import Faqs from "./Faqs";
-import SeoAudit from "./SeoAudit";
 import ServicesLogo from "./ServicesLogo";
-import BookConsultation from "./BookConsultation";
-import OutsourcingServices from "./OutsourcingServices";
+import SpecialisedServices from "./SpecialisedServices";
+import Strategy from "./Strategy";
+import TalkWithExpert from "./TalkWithExpert";
+import WhyChoose from "./WhyChoose";
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -86,17 +84,15 @@ const SEO = () => {
       <Banner />
       <ServicesLogo />
       <Introduction />
-
       <SeoServices />
-
       <SeoTools />
-
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in India today!"
         linkDestination="#bannerSection"
       />
       <Benifits />
+      <Strategy />
 
       <SpecialisedServices />
       <Help
@@ -111,7 +107,7 @@ const SEO = () => {
 
       <NewsWebsites />
 
-      <OutsourcingServices/>
+      <OutsourcingServices />
 
       <Help
         heading="80% of Customers will never look past the first search engine

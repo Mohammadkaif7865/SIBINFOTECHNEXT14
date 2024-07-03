@@ -8177,7 +8177,7 @@ table tbody tr td:nth-child(2) {
   img {
     display: block;
     margin: 0 auto;
-    filter: invert(40%);
+    /* filter: invert(40%); */
   }
 }
 
@@ -8316,4 +8316,30 @@ table tbody tr td:nth-child(2) {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
+}
+
+.strategy{
+  background-color: #f6f6f6;
+}
+
+.strategy .items_icon{
+  min-width:90px;
+  height:90px;
+  background-color:#ffc570;
+  display: flex;
+  border-radius: 15px;
+
+}
+.strategy .items_icon img{
+  display: block;
+  margin: auto;
+}
+
+.strategy .item_content{
+  text-align: right;
+}
+.strategy_grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2 , minmax(0,1fr));
 }

@@ -11,7 +11,7 @@ const ServicesLogo = () => {
               <Image
                 width={40}
                 height={40}
-                src={"/assets/images/icons/services/website.png"}
+                src={"/assets/images/icons/services/web.png"}
                 alt="website"
               />
               <p className="text-center">Website</p>
@@ -20,7 +20,7 @@ const ServicesLogo = () => {
               <Image
                 width={40}
                 height={40}
-                src={"/assets/images/icons/services/dashboard.png"}
+                src={"/assets/images/icons/services/Analysis.png"}
                 alt="website"
               />
               <p className="text-center">Analysis</p>
@@ -29,7 +29,7 @@ const ServicesLogo = () => {
               <Image
                 width={40}
                 height={40}
-                src={"/assets/images/icons/services/writer.png"}
+                src={"/assets/images/icons/services/Content.png"}
                 alt="website"
               />
               <p className="text-center">Content</p>
@@ -38,7 +38,7 @@ const ServicesLogo = () => {
               <Image
                 width={40}
                 height={40}
-                src={"/assets/images/icons/services/website (1).png"}
+                src={"/assets/images/icons/services/Traffic.png"}
                 alt="website"
               />
               <p className="text-center">Traffic</p>
@@ -47,7 +47,7 @@ const ServicesLogo = () => {
               <Image
                 width={40}
                 height={40}
-                src={"/assets/images/icons/services/backlink.png"}
+                src={"/assets/images/icons/services/Backlinks.png"}
                 alt="website"
               />
               <p className="text-center">Backlink</p>
