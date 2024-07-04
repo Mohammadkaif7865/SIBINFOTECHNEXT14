@@ -37,7 +37,7 @@ const Strategy = () => {
                 />
               </div>
               <div>
-                <h5 className="fontHeading fontWeight700">Mobile Friendly</h5>
+                <h5 className="fontHeading fontWeight700">Mobile Friendly/Responsive</h5>
                 <p className="mt-2">
                   Your website's users can use your website through mobile
                   device with ease and barring any significant changes from the

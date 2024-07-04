@@ -6,7 +6,7 @@ const Introduction = () => {
     <section>
       <div className="containerFull">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="rightPPC">
               <h2 className="sub_heading fontHeading fontWeight600">
               Your Local 
@@ -30,7 +30,7 @@ const Introduction = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6 mt-4 mt-lg-0 ">
+          <div className="col-lg-7  mt-4 mt-lg-0 ">
             <div className="">
               <div className=" d-flex introduction_seo_list ">
                 <div className="left">
@@ -54,7 +54,7 @@ const Introduction = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/services/metrics.png"}
+                    src={"/assets/images/icons/services/click.png"}
                     alt="loading"
                   />
                 </div>

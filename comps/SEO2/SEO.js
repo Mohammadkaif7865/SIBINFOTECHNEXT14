@@ -104,7 +104,7 @@ const SEO = () => {
 
       <WhyChoose />
       <SeoProcess />
-      <BookConsultation />
+      {/* <BookConsultation /> */}
 
       <NewsWebsites />
 
