@@ -4,53 +4,62 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import Counter from "./Counter";
 const SeoTools2 = () => {
   const tools2 = [
     {
       title: "Organic Sessions ",
-      ranking: "2 Billion+",
+      ranking: "Billion+",
+      targetValue:2,
       src: "/assets/images/icons/services/laptop.png",
       alt: "Organic Sessions ",
     },
     {
       title: "#1 Ranking Keywords",
-      ranking: "50000+",
+      ranking: "+",
+      targetValue:50000,
       src: "/assets/images/icons/services/rankings.png",
       alt: "rankings",
     },
     {
       title: "Clicks",
-      ranking: "1.8 Billion+",
+      ranking: "Billion+",
+      targetValue:1.8,
       src: "/assets/images/icons/services/click.png",
       alt: "click",
     },
     {
-      title: "Users",
-      ranking: "900 Million+",
+      title: "Total Users",
+      ranking: "Million+",
+      targetValue:900,
       src: "/assets/images/icons/services/user.png",
       alt: "users",
     },
     {
-      title: "Awards & Recognition",
-      ranking: "40+",
+      title: "Website Audits",
+      ranking: "+",
+      targetValue:40,
       src: "/assets/images/icons/services/medals.png",
       alt: "Awards & Recognition",
     },
     {
       title: "Leads",
-      ranking: "1.5 Million +",
+      ranking: "Million+",
+      targetValue:1.5,
       src: "/assets/images/icons/services/lead-generation.png",
       alt: "lead-generatio",
     },
     {
-      title: "Leads",
-      ranking: "1.5 Million +",
+      title: "Client Inquires",
+      ranking: "Million+",
+      targetValue:1.5,
       src: "/assets/images/icons/services/lead-generation.png",
       alt: "lead-generatio",
     },
     {
-      title: "Leads",
-      ranking: "1.5 Million +",
+      title: "Happy Customer",
+      ranking: "Million+",
+      targetValue:1.5,
       src: "/assets/images/icons/services/lead-generation.png",
       alt: "lead-generatio",
     },
@@ -282,9 +291,9 @@ const SeoTools2 = () => {
                       {value.title}
                     </p>
 
-                    <h4 className="text-center  fontWeight500">
-                      {value.ranking}
-                    </h4>
+                    <div className="text-center d-flex gap-1 h4  fontWeight500">
+                    <Counter targetValue={value.targetValue} /> {value.ranking}
+                    </div>
                   </div>
                 </div>
               );

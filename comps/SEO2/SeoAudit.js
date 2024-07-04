@@ -105,7 +105,7 @@ const SeoAudit = () => {
                     </p>
                   </Link> */}
 
-                  <Link href={""} className=" btnThemeRed d-flex align-items-center gap-1 b px-2 py-2">
+                  <Link href={"/contact-us"} className=" btnThemeRed d-flex align-items-center gap-1 b px-2 py-2">
                   <Image
                       width={40}
                       height={40}
@@ -119,7 +119,7 @@ const SeoAudit = () => {
                     </p>
                   
                   </Link>
-                  <Link href={""} className=" bg_sky  d-flex align-items-center gap-1  px-2 py-1">
+                  <Link href={"/contact-us"} className=" bg_sky  d-flex align-items-center gap-1  px-2 py-1">
                   <Image
                       width={40}
                       height={40}

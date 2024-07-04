@@ -18,6 +18,7 @@ import Strategy from "./Strategy";
 import TalkWithExpert from "./TalkWithExpert";
 import WhyChoose from "./WhyChoose";
 import SeoTools2 from "./SeoTool2";
+import Counter from "./Counter";
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -86,6 +87,7 @@ const SEO = () => {
       <ServicesLogo />
       <Introduction />
       <SeoServices />
+ 
       <SeoTools2 />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
