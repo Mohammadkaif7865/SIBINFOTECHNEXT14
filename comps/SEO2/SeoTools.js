@@ -150,7 +150,7 @@ const SeoTools = () => {
               <div className=" items2_main">
                 <div className="">
                   <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                    +200%{" "}
+                    +1089%{" "}
                     <Image
                       className="h-auto"
                       width={40}
@@ -163,10 +163,10 @@ const SeoTools = () => {
                     Organic Growth
                   </p>
                 </div>
-                <div className="content fontWeight500 w-100 mt-3">
+                {/* <div className="content fontWeight500 w-100 mt-3">
                   <p>300+ Impresion</p>
                   <p>270% Clicks</p>
-                </div>
+                </div> */}
               </div>
            
             </div>

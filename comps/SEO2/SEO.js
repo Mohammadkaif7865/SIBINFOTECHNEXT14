@@ -17,6 +17,7 @@ import SpecialisedServices from "./SpecialisedServices";
 import Strategy from "./Strategy";
 import TalkWithExpert from "./TalkWithExpert";
 import WhyChoose from "./WhyChoose";
+import SeoTools2 from "./SeoTool2";
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -85,7 +86,7 @@ const SEO = () => {
       <ServicesLogo />
       <Introduction />
       <SeoServices />
-      <SeoTools />
+      <SeoTools2 />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in India today!"

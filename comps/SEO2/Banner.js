@@ -52,7 +52,7 @@ const Banner = () => {
                     <div>Decreases Advertising Cost</div>
                   </li>
                 </ul>
-                <div className="mt-4">
+                {/* <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -64,7 +64,7 @@ const Banner = () => {
                       Question
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">

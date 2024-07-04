@@ -11,10 +11,13 @@ const SeoServices = () => {
       <div className="containerFull">
         <div className="servicesBlock">
           <div className="d-flex justify-content-between align-items-center flex-wrap">
-            <div className="leftSer">
+            <div className="leftSer d-flex justify-content-between w-100 ">
               <h4 className="sub_heading text-white fontWeight700 fontHeading">
                 We Offer Best SEO Services in India
               </h4>
+              <button>
+                call to action
+              </button>
             </div>
           </div>
         </div>
@@ -109,7 +112,7 @@ const SeoServices = () => {
                 {activeTab === "section1" && (
                   <div className="itemSidebar scroll" id="section1">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      ON Page SEO Service
+                      ON Page SEO Services
                     </h4>
                     <p className="mt-3">
                       On-page SEO is the foundation of any successful SEO
@@ -146,7 +149,7 @@ const SeoServices = () => {
                 {activeTab === "section2" && (
                   <div className="itemSidebar scroll" id="section2">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      OFF Page SEO Service
+                      OFF Page SEO Services
                     </h4>
                     <p className="mt-3">
                       Off-page SEO is activities that are performed after the
@@ -178,7 +181,7 @@ const SeoServices = () => {
                 {activeTab === "section3" && (
                   <div className="itemSidebar scroll" id="section3">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      Local SEO Service
+                      Local SEO Services
                     </h4>
                     <p className="mt-3">
                       Put your business on the local map with our tailored{" "}
@@ -207,7 +210,7 @@ const SeoServices = () => {
                 {activeTab === "section4" && (
                   <div className="itemSidebar scroll" id="section4">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      Technical SEO Service
+                      Technical SEO Services
                     </h4>
                     <p className="mt-3">
                       <Link href="/on-page-seo-services">
@@ -237,7 +240,7 @@ const SeoServices = () => {
                 {activeTab === "section5" && (
                   <div className="itemSidebar scroll" id="section5">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      E-Commerce SEO Service
+                      E-Commerce SEO Services
                     </h4>
                     <p className="mt-3">
                       Fuel your online store's success with our{" "}
@@ -267,7 +270,7 @@ const SeoServices = () => {
                 {activeTab === "section6" && (
                   <div className="itemSidebar scroll" id="section6">
                     <h4 className="sub_heading fontWeight700 fontHeading">
-                      Mobile SEO Service
+                      Mobile SEO Services
                     </h4>
                     <p className="mt-3">
                       Mobile SEO is based on its name, which is meant for mobile

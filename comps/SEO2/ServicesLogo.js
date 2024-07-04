@@ -64,12 +64,11 @@ const ServicesLogo = () => {
           </div>
           <div className="servicesLogo-content">
             {" "}
-            <h4 class="small_heading fontHeading text-center    fontWeight500">
-              An Award Winning{" "}
-              <span class="text_red">
-                Best Website Design &amp; Digital Growth Agency
-              </span>{" "}
-              in India that Designs, Develops &amp; Delivers
+            <h4 class="small_heading fontHeading text-center  fontWeight900  fontWeight500">
+            Your Next  <span class="text_red">
+            SEO Agency In India   
+              </span> - Trusted By Over 1000+ Companies
+             
             </h4>{" "}
           </div>
         </div>
