@@ -8365,7 +8365,8 @@ gap: 20px !important;
 }
 .strategy_grid .items.odd .item_content {
   @media (min-width:767px) {
-  text-align: right;}
+  text-align: right !important;
+}
 }
 .strategy_grid .items.odd {
   @media (min-width:767px) {
