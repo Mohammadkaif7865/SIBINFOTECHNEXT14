@@ -49,7 +49,7 @@ const Benifits = () => {
                 <li>Increase Online Reputation</li>
               </ul>
             </div> */}
-          <Image className="w-100 h-auto " quality={100} width={500} height={400} src={"/assets/images/seo-infographic-1.jpg"} alt="infographics" />
+          <Image className="w-100 h-auto " quality={100} width={500} height={400} src={"/assets/images/seo-infographic.png"} alt="infographics" />
           </div>
         </div>
       </div>

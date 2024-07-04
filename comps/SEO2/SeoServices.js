@@ -15,9 +15,9 @@ const SeoServices = () => {
               <h4 className="sub_heading text-white fontWeight700 fontHeading">
                 We Offer Best SEO Services in India
               </h4>
-              <button>
-                call to action
-              </button>
+              <a className="btnAction d-none d-lg-block" href="">
+                Connect With Expert
+              </a>
             </div>
           </div>
         </div>

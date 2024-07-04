@@ -8,8 +8,8 @@ const ServicesLogo = () => {
         <div className="servicesLogomain_inner">
           <div className="servicesLogo">
             <div className="items">
-              <Image
-                width={40}
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/web.png"}
                 alt="website"
@@ -17,8 +17,8 @@ const ServicesLogo = () => {
               <p className="text-center">Website</p>
             </div>
             <div className="items">
-              <Image
-                width={40}
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/Analysis.png"}
                 alt="website"
@@ -26,8 +26,8 @@ const ServicesLogo = () => {
               <p className="text-center">Analysis</p>
             </div>
             <div className="items">
-              <Image
-                width={40}
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/Content.png"}
                 alt="website"
@@ -35,8 +35,8 @@ const ServicesLogo = () => {
               <p className="text-center">Content</p>
             </div>
             <div className="items">
-              <Image
-                width={40}
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/Traffic.png"}
                 alt="website"
@@ -44,8 +44,8 @@ const ServicesLogo = () => {
               <p className="text-center">Traffic</p>
             </div>
             <div className="items">
-              <Image
-                width={40}
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/Backlinks.png"}
                 alt="website"
@@ -53,8 +53,9 @@ const ServicesLogo = () => {
               <p className="text-center">Backlink</p>
             </div>
             <div className="items">
-              <Image
-                width={40}
+              
+              <Image className=""
+                width={60}
                 height={40}
                 src={"/assets/images/icons/services/ranking.png"}
                 alt="website"

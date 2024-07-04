@@ -125,6 +125,22 @@ const SeoTools2 = () => {
               loop={true}
               navigation={false}
               modules={[Autoplay, Pagination, Navigation]}
+              breakpoints={{
+                300:{
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+              },
+  
+              768: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+              },
+  
+              1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 50,
+              }
+              }}
               className="mySwiper"
             >
               <SwiperSlide>
