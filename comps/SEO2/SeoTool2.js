@@ -39,7 +39,7 @@ const SeoTools2 = () => {
       title: "Website Audits",
       ranking: "+",
       targetValue:40,
-      src: "/assets/images/icons/services/medals.png",
+      src: "/assets/images/icons/services/website4.png",
       alt: "Awards & Recognition",
     },
     {
@@ -53,14 +53,14 @@ const SeoTools2 = () => {
       title: "Client Inquires",
       ranking: "Million+",
       targetValue:1.5,
-      src: "/assets/images/icons/services/lead-generation.png",
+      src: "/assets/images/icons/services/questions.png",
       alt: "lead-generatio",
     },
     {
       title: "Happy Customer",
       ranking: "Million+",
       targetValue:1.5,
-      src: "/assets/images/icons/services/lead-generation.png",
+      src: "/assets/images/icons/services/good-review.png",
       alt: "lead-generatio",
     },
   ];
@@ -291,7 +291,7 @@ const SeoTools2 = () => {
                       {value.title}
                     </p>
 
-                    <div className="text-center d-flex gap-1 h4  fontWeight500">
+                    <div className="text-center d-flex justify-content-center align-items-center gap-1 h4  fontWeight500">
                     <Counter targetValue={value.targetValue} /> {value.ranking}
                     </div>
                   </div>
