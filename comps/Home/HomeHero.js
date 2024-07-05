@@ -85,10 +85,10 @@ const HomeHero = () => {
               </div>
               <div className="col-lg-5 d-none d-md-block">
                 <div className="bannerForm">
-                  <h4 className="small_heading  fontWeight700">
+                  <h4 className="small_heading fontHeading  fontWeight700">
                     Accelerate Your Business Growth
                   </h4>
-                  <p>
+                  <p className="fontHeading">
                     with{" "}
                     <strong className="fontWeight600 text_red">
                       Best <span className="textChange">Digital Marketing</span>{" "}

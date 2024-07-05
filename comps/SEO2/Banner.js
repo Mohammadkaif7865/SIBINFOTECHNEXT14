@@ -69,12 +69,14 @@ const Banner = () => {
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">
+                <h4 className="small_heading fontHeading  fontWeight700">
                   Accelerate Your Business Growth
                 </h4>
-                <p>
+                <p className="fontHeading ">
                   with{" "}
-                  <strong className="fontWeight600 text_red">
+                  <strong className="fontWeight600 text_red" style={{
+                    fontStyle:"italic",
+                  }}>
                     Best <span className="textChange">SEO</span> Company in
                     India
                   </strong>
@@ -87,10 +89,10 @@ const Banner = () => {
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
-          <h4 className="small_heading  fontWeight700">
+          <h4 className="small_heading fontHeading  fontWeight700">
             Accelerate Your Business Growth
           </h4>
-          <p>
+          <p className="fontHeading">
             with{" "}
             <strong className="fontWeight600 text_red">
               Best <span className="textChange">SEO</span> Company in India
