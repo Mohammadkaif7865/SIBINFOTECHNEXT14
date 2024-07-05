@@ -114,7 +114,7 @@ const SeoAudit = () => {
                       alt=""
                     />
                     {/* <i class="fa-regular fa-user sub_heading"></i> */}
-                    <p className=" text-center text-white ">
+                    <p className=" text-center text-white text-uppercase ">
                       Contact a SEO Specialist
                     </p>
                   
@@ -127,7 +127,7 @@ const SeoAudit = () => {
                       src={"/assets/images/icons/phone.png"}
                       alt=""
                     />
-                    <p className=" text-center text-white ">
+                    <p className=" text-center text-white text-uppercase ">
                     Schedule a Call With Us
                     </p>
                   
