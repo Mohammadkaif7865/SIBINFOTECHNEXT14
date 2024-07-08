@@ -43,7 +43,7 @@ const SeoTools2 = () => {
       alt: "Awards & Recognition",
     },
     {
-      title: "Leads",
+      title: "Leads Inquires",
       ranking: "Million+",
       targetValue: 1.5,
       src: "/assets/images/icons/services/lead-generation.png",
