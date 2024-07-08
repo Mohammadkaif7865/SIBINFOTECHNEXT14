@@ -9,7 +9,7 @@ const SeoAudit = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 ">
             <div>
-              <h5 className="fontHeading    text_blue_light fontWeight700">
+              <h5 className="fontHeading sub_heading   text_blue_light fontWeight800">
                 NO LOCK IN CONTRACTS
               </h5>
               <h4 className="sub_heading fontHeading fontWeight600 mt-3">
