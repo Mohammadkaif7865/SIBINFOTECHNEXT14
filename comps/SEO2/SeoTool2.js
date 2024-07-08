@@ -10,56 +10,56 @@ const SeoTools2 = () => {
     {
       title: "Organic Sessions ",
       ranking: "Billion+",
-      targetValue:2,
+      targetValue: 2,
       src: "/assets/images/icons/services/laptop.png",
       alt: "Organic Sessions ",
     },
     {
       title: "#1 Ranking Keywords",
       ranking: "+",
-      targetValue:50000,
+      targetValue: 50000,
       src: "/assets/images/icons/services/rankings.png",
       alt: "rankings",
     },
     {
       title: "Clicks",
       ranking: "Billion+",
-      targetValue:1.8,
+      targetValue: 1.8,
       src: "/assets/images/icons/services/click.png",
       alt: "click",
     },
     {
       title: "Total Users",
       ranking: "Million+",
-      targetValue:900,
+      targetValue: 900,
       src: "/assets/images/icons/services/user.png",
       alt: "users",
     },
     {
       title: "Website Audits",
       ranking: "+",
-      targetValue:40,
+      targetValue: 40,
       src: "/assets/images/icons/services/website4.png",
       alt: "Awards & Recognition",
     },
     {
       title: "Leads",
       ranking: "Million+",
-      targetValue:1.5,
+      targetValue: 1.5,
       src: "/assets/images/icons/services/lead-generation.png",
       alt: "lead-generatio",
     },
     {
       title: "Client Inquires",
       ranking: "Million+",
-      targetValue:1.5,
+      targetValue: 1.5,
       src: "/assets/images/icons/services/questions.png",
       alt: "lead-generatio",
     },
     {
       title: "Happy Customer",
       ranking: "Million+",
-      targetValue:1.5,
+      targetValue: 1.5,
       src: "/assets/images/icons/services/good-review.png",
       alt: "lead-generatio",
     },
@@ -135,20 +135,20 @@ const SeoTools2 = () => {
               navigation={false}
               modules={[Autoplay, Pagination, Navigation]}
               breakpoints={{
-                300:{
+                300: {
                   slidesPerView: 1,
                   spaceBetween: 20,
-              },
-  
-              768: {
+                },
+
+                768: {
                   slidesPerView: 2,
                   spaceBetween: 40,
-              },
-  
-              1024: {
+                },
+
+                1024: {
                   slidesPerView: 2,
                   spaceBetween: 50,
-              }
+                },
               }}
               className="mySwiper"
             >
@@ -160,9 +160,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={
-                        "/assets/images/seo-result/rnb-uni.png"
-                      }
+                      src={"/assets/images/seo-result/rnb-uni.png"}
                       alt="rnb-global-university-kota-city-kota-rajasthan-colleges"
                     />
                   </div>
@@ -183,9 +181,7 @@ const SeoTools2 = () => {
                       </p>
                     </div>
                     <div>
-                      <p>
-                        300+ Impression
-                      </p>
+                      <p>300+ Impression</p>
                       <p>270% Clicks</p>
                     </div>
                   </div>
@@ -199,9 +195,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={
-                        "/assets/images/seo-result/veeraco.png"
-                      }
+                      src={"/assets/images/seo-result/veeraco.png"}
                       alt="Veeraco Colourants Private Limited"
                     />
                   </div>
@@ -222,9 +216,7 @@ const SeoTools2 = () => {
                       </p>
                     </div>
                     <div>
-                      <p>
-                        300+ Impression
-                      </p>
+                      <p>300+ Impression</p>
                       <p>270% Clicks</p>
                     </div>
                   </div>
@@ -238,9 +230,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={
-                        "/assets/images/seo-result/bmc.png"
-                      }
+                      src={"/assets/images/seo-result/bmc.png"}
                       alt="https://www.bmcelections.com/"
                     />
                   </div>
@@ -261,39 +251,36 @@ const SeoTools2 = () => {
                       </p>
                     </div>
                     <div>
-                      <p>
-                        300+ Impression
-                      </p>
+                      <p>300+ Impression</p>
                       <p>270% Clicks</p>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
-           
             </Swiper>
           </div>
           <div className=" seo_result_right2 mt-4 mt-lg-0 ">
             {tools2.map((value, i) => {
               return (
-                <div className="items d-flex align-items-center justify-content-center px-3  shadow rounded-3 border ">
-                  <div>
-                    <Image
+                <div className=" items d-flex align-items-center justify-content-center px-3  shadow rounded-3 border ">
+                  <div className="">
+                    {/* <Image
                       className="mx-auto d-block "
                       width={50}
                       height={50}
                       src={value.src}
                       alt="loading"
-                    />
+                    /> */}
+                    <div className="text-center fontWeight600 h3 d-flex justify-content-center align-items-center gap-1   fontWeight500">
+                      <Counter targetValue={value.targetValue} />{" "}
+                      {value.ranking}
+                    </div>
                     <p
-                      className=" text-center my-2"
-                      style={{ fontSize: "12px" }}
+                      className=" text-center mt-2"
+                      style={{ fontSize: "15px" }}
                     >
                       {value.title}
                     </p>
-
-                    <div className="text-center d-flex justify-content-center align-items-center gap-1 h4  fontWeight500">
-                    <Counter targetValue={value.targetValue} /> {value.ranking}
-                    </div>
                   </div>
                 </div>
               );

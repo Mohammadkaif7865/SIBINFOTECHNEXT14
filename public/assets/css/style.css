@@ -8410,6 +8410,36 @@ gap: 20px !important;
 .nolock-img{
   filter:brightness(0) invert(1)
 }
+.audit_contact{
+  @media (max-width:767px) {
+    flex-direction: column;
+
+    a{
+      width: 100%;
+    }
+    
+  }
+} 
 .audit_contact p{
   font-size: 14px;
+}
+
+.audits_btn:hover{
+background-color: #000 !important;
+}
+
+.blink-animation{
+  animation: hideShow 1s infinite ease-in-out;
+}
+
+@keyframes hideShow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

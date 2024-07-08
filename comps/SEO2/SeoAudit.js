@@ -7,21 +7,20 @@ const SeoAudit = () => {
     <section className="dots curve1 bgEffect">
       <div className="containerFull">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
             <div>
-              <h4 className="sub_heading fontHeading fontWeight600">
+              <h5 className="fontHeading    text_blue_light fontWeight700">
+                NO LOCK IN CONTRACTS
+              </h5>
+              <h4 className="sub_heading fontHeading fontWeight600 mt-3">
                 BOOK A FREE SEO Discovery Call
               </h4>
               <h4 className="sub_heading fontHeading mt-3 fontWeight600">
                 What do you get?
               </h4>
-
-              {/* <Link href="#bannerSection" className="btnTheme mt-4">
-                Get your proposal today{" "}
-              </Link> */}
             </div>
-            <div className="row mt-4  ">
-              <div className="col-2 ">
+            <div className="row mt-4 mx-auto  ">
+              <div className="col-2 d-none d-md-block">
                 <Image
                   className="w-100 h-100 object-fit-contain"
                   width={100}
@@ -53,63 +52,38 @@ const SeoAudit = () => {
                   Analyzing Channel-Specific SEO Needs
                 </p>
               </div>
+              <div className="col-4 d-md-none d-block">
+                <Image
+                  className="w-100 h-100 object-fit-contain"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  src={"/assets/images/icons/lock.png"}
+                  alt=""
+                />
+              </div>
             </div>
 
             {/* **************************** */}
 
-            <div className=" mt-4   ">
-              <div className="rounded-4 border p-4 shadow bgGrey">
-                <h3 className="fontHeading   sub_heading text_blue_light fontWeight600">
-                  NO LOCK IN CONTRACTS
-                </h3>
-                <h4 className="fontHeading  title mb-4  fontWeight600">
+            <div className=" mt-4    ">
+              <div className="rounded-4  p-4  ">
+                <h4 className="blink-animation fontHeading text-center title mb-4  fontWeight600">
                   Free SEO Audit & Strategy session
                 </h4>
-                {/* <a
-                className="text-center   w-100 d-block mt-4 text-black fontHeading fontWeight600 regular_heading"
-                target="_blank"
-                href="tel:+91-92222-60000"
-              >
-                {" "}
-                +91-92222-60000
-              </a> */}
-                <div className=" audit_contact d-flex gap-2 align-items-center justify-content-center  ">
-                  {/* <Link
-                    href="/contact-us"
-                    className=" p-3  d-block text-black shadow border-rounded  "
-                  >
-                    <Image
-                      width={65}
-                      height={51}
-                      className="mx-auto d-block h-auto"
-                      src={"/assets/images/icons/software-developer-icon-2.png"}
-                      alt=""
-                    />
-                    <p className="mt-2 text-center ">
-                      Contact a SEO Specialist
-                    </p>
-                  </Link>
-                  <Link
-                    href="/contact-us"
-                    className="p-3 d-block text-black  shadow border-rounded "
-                  >
-                    <Image
-                      width={50}
-                      height={50}
-                      className=" mx-auto d-block h-auto"
-                      src={"/assets/images/icons/phone.png"}
-                      alt=""
-                    />
-                    <p className="mt-2 text-center fs-6">
-                      Schedule a Call With Us
-                    </p>
-                  </Link> */}
 
-                  <Link href={"/contact-us"} className=" btnThemeRed d-flex align-items-center gap-1 b px-2 py-2">
-                  <Image
+                <div className=" audit_contact d-flex gap-2 align-items-center justify-content-center  ">
+                  <Link
+                    href={"/contact-us"}
+                    className="audits_btn btnThemeRed d-flex align-items-center justify-content-center gap-1  rounded-2"
+                    style={{
+                      padding:"10px 10px"
+                    }}
+                  >
+                    <Image
                       width={40}
                       height={40}
-                      className="mx-auto d-block h-auto  nolock-img"
+                      className=" d-block h-auto  nolock-img"
                       src={"/assets/images/icons/software-developer-icon-2.png"}
                       alt=""
                     />
@@ -117,20 +91,21 @@ const SeoAudit = () => {
                     <p className=" text-center text-white text-uppercase ">
                       Contact a SEO Specialist
                     </p>
-                  
                   </Link>
-                  <Link href={"/contact-us"} className=" bg_sky  d-flex align-items-center gap-1  px-2 py-1">
-                  <Image
+                  <Link
+                    href={"/contact-us"}
+                    className="audits_btn bg_sky  d-flex align-items-center justify-content-center gap-1  px-2 py-1 rounded-2"
+                  >
+                    <Image
                       width={40}
                       height={40}
-                      className="mx-auto d-block h-auto nolock-img"
+                      className=" d-block h-auto nolock-img"
                       src={"/assets/images/icons/phone.png"}
                       alt=""
                     />
                     <p className=" text-center text-white text-uppercase ">
-                    Schedule a Call With Us
+                      Schedule a Call With Us
                     </p>
-                  
                   </Link>
                 </div>
               </div>

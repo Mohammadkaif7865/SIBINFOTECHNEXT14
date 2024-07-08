@@ -15,7 +15,7 @@ const OutsourcingServices = () => {
               </span>
               For SEO Resellers
             </h3>
-            <p className="title mt-lg-3">
+            <p className="title mt-2 mt-lg-3">
               Get customized and detailed SEO services from our White Label SEO.
               Join us to cater intricacies of your agency or client's
               satisfaction with a tailored strategy, transparency of work,
