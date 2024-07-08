@@ -8,7 +8,7 @@ const WhySib = () => {
         <div className="row">
           <div className="col-lg-5">
             <div className="insta-keyword-section">
-              <h3 className="customHeading text-white customLineHeight2">
+              <h3 className="fontHeading customHeading text-white customLineHeight2">
                 Our services assure that your brand gets the best possible
                 publicity
               </h3>
@@ -24,7 +24,7 @@ const WhySib = () => {
           </div>
           <div className="col-lg-7">
             <div className="instaKeywordRight">
-              <h3 className="customHeading mt-lg-0 mt-3">
+              <h3 className="customHeading mt-lg-0 mt-3 fontHeading">
                 Why SIB <span className="text_red">Instagram Advertising</span>{" "}
                 Services for your company
               </h3>

@@ -16,7 +16,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">E-commerce Website Designing Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">E-commerce Website Designing Services</h3>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -25,7 +25,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">E-commerce Website Designing</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -35,7 +35,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">E-commerce Website Designing</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -49,7 +49,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                         <div className="bgGrey spaceBg">
                             <p className="customText">
                                 Are you struggling to sell your product in a traditional shop?</p>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 Are you waiting for your customer who didn't turned up since ages?</h4>
                         </div>
                     </div>

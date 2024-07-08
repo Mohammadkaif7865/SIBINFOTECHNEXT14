@@ -160,7 +160,7 @@ const WhyBest = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="leftWhy">
-              <h4 className="heading fw-bold text-center">
+              <h4 className="heading fw-bold text-center fontHeading">
                 Why SIB Infotech is the Best{" "}
                 <span className="titleHighlight d-inline-block text-center">
                   Website Design Agency?
@@ -189,7 +189,7 @@ const WhyBest = () => {
                         />
                       </div>
                       <div className="titleWhy">
-                        <h5 className="small_heading">{icon.title}</h5>
+                        <h5 className="small_heading fontHeading">{icon.title}</h5>
                       </div>
                     </div>
                   </div>

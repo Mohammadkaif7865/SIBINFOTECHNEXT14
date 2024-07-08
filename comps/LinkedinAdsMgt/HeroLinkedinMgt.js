@@ -10,7 +10,7 @@ const HeroLinkedinMgt = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h3 className="heading fontWeight700 text-white fontHeading">
                   Linkedin Ads Management
                 </h3>
                 <div className="mt-4">
@@ -26,7 +26,7 @@ const HeroLinkedinMgt = () => {
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">
+                <h4 className="small_heading  fontWeight700 fontHeading">
                   Accelerate Your Business Growth
                 </h4>
                 <p>
@@ -45,7 +45,7 @@ const HeroLinkedinMgt = () => {
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
-          <h4 className="small_heading  fontWeight700">
+          <h4 className="small_heading  fontWeight700 fontHeading">
             Accelerate Your Business Growth
           </h4>
           <p>

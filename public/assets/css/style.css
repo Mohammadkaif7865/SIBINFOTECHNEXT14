@@ -2269,6 +2269,7 @@ section {
   border: none;
 }
 .customHeading {
+  font-family: "Lora", serif;
   font-size: 26px;
   line-height: 30px;
   margin-bottom: 20px;
@@ -3947,6 +3948,7 @@ h1 {
   color: var(--dark-blue-color);
 }
 .customLineHeight2 {
+
   line-height: 40px;
 }
 .wordpresItem {
@@ -8442,4 +8444,8 @@ background-color: #000 !important;
   100% {
     opacity: 1;
   }
+}
+
+.content-marketing-box2-content-box h4,.graphic-services-box h4,.adv-resp-box h4,.responsive-box-2 h4,.itemInduster h5 ,.itemDigital h5 ,.wordpresItem h4,.web-devlp-box h4,.front-end-box h4,.web-devlp-box-2 h4,.devlp-inner-box h4,.sd-benefit-box h5,.help-inner-box H4{
+  font-family: "Lora", serif;
 }

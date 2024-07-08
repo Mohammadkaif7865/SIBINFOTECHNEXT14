@@ -7,10 +7,10 @@ const GrowBusiness = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="leftTopRated">
-              <h5 className="small_heading text_red">
+              <h5 className="small_heading text_red fontHeading">
                 Grow Your Business Online With Our
               </h5>
-              <h4 className="regular_heading fw-bold mt-3">
+              <h4 className="regular_heading fw-bold mt-3 fontHeading">
                 Top Rated Website Designing Services in India
               </h4>
               <p>

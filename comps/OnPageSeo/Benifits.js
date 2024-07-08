@@ -161,7 +161,7 @@ const FeatureBox = ({ iconSrc, altText, title }) => {
   return (
     <div className="">
       <Image className="" width={50} height={50} src={iconSrc} alt={altText} />
-      <h4>{title}</h4>
+      <h4 className="fontHeading">{title}</h4>
     </div>
   );
 };

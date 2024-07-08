@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="blueBg2">
       <div className="containerFull">
         <div className="callAction">
-          <h3 className="customLineHeight2">
+          <h3 className="customLineHeight2 fontHeading">
             Are you ready to optimize your seo plan start using #1 On-page SEO
             strategy to optimize your
             <br />

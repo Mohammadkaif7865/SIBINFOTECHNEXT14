@@ -8,11 +8,11 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="leftCall">
-              <h4 className="small_heading text-white">
+              <h4 className="small_heading text-white fontHeading ">
                 A Creative Web Design Agency India Offering Professional Website
                 Design Services
               </h4>
-              <h5 className="heading fw-bold mt-4 text-white">
+              <h5 className="heading fw-bold mt-4 text-white fontHeading">
                 Making Your Dream Website A Reality.
               </h5>
               <div className="mt-lg-5 mt-3">

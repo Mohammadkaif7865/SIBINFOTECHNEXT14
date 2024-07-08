@@ -154,7 +154,7 @@ const DesigningProcess = () => {
   return (
     <section>
       <div className="containerFull">
-        <h4 className="heading fw-bold text-center">
+        <h4 className="heading fw-bold text-center fontHeading fontHeading">
           Our <span className="titleHighlight">Website Designing</span> Process
         </h4>
         <div className="space"></div>
@@ -172,9 +172,9 @@ const DesigningProcess = () => {
                     alt={item.title}
                   />
                 </div>
-                <h4 className="sub_heading Textnumber">{item.number}</h4>
+                <h4 className="sub_heading Textnumber ">{item.number}</h4>
               </div>
-              <h5 className="sub_heading">{item.title}</h5>
+              <h5 className="sub_heading fontHeading">{item.title}</h5>
               <p className="mt-2">{item.description}</p>
             </div>
           ))}

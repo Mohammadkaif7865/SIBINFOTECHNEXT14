@@ -18,7 +18,7 @@ export default function BlogManagementServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">Blog Management Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">Blog Management Services</h3>
     						<div className="mt-4">
     							<Link href="#" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -27,7 +27,7 @@ export default function BlogManagementServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Blog Management</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -37,7 +37,7 @@ export default function BlogManagementServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Blog Management</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -65,7 +65,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-5">
                         <div className="leftDigiSer exPadding">
                             <div className="heading-section">
-                                <h3 className="customHeading text-white customLineHeight">
+                                <h3 className="customHeading text-white customLineHeight fontHeading">
                                     Blog management is considered to be a great investment asset for any business</h3>
                                 <p className="customText text-off-white">
                                     Our blog management services assure the best results.</p>
@@ -76,12 +76,12 @@ export default function BlogManagementServices() {
                         <div className="middle-row">
                             <div className="middle-box">
                                 <img src="assets/images/icons/blog-management-website-traffic.svg"  alt="blog-management-agency-in-mumbai"/>
-                                <h4>
+                                <h4 className='fontHeading'>
                                     Increased website traffic</h4>
                             </div>
                             <div className="middle-box">
                                 <img src="assets/images/icons/blog-managemnet-lead-generation.svg" alt="best-blog-management-company"/>
-                                <h4>
+                                <h4 className='fontHeading'>
                                     Lead generation</h4>
                             </div>
                             <div className="middle-box">
@@ -125,7 +125,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-4">
                         <div className="blog-box">
                             <img src="assets/images/icons/blog-managemnet-quality-keyword-search.svg"  alt="blog-managemnet-quality-keyword-search"/>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 Top-quality topic &amp; keyword research</h4>
                             <p className="customText">
                                 We perform industry research every month for analyzing the user needs and market trends. We always make sure that we provide your website the blogs which are trending, relative and in-demand according to your company’s target audience.</p>
@@ -161,7 +161,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-4">
                         <div className="blog-box">
                             <img src="assets/images/icons/blog-managemnet-high-quality-images.svg" alt="blog-managemnet-high-quality-images"/>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 High-quality graphics &amp; Stock images</h4>
                             <p className="customText">
                                 Our team creates SEO optimized content for your blog which includes vibrant keywords and phrases. We embed the blog content with high quality and relatable graphics and pictures that attracts masses to your business.</p>
@@ -170,7 +170,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-4">
                         <div className="blog-box">
                             <img src="assets/images/icons/blog-managemnet-reposrting-ans-statics.svg" alt="blog-managemnet-reposrting-ans-statics"/>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 Reports &amp; statistics</h4>
                             <p className="customText">
                                 We send you reports of your blog. The reports include statics related to user engagement, shares, reach and lead generation. We always keep a check that your blog is the best that can't be ignored by the audience.</p>
@@ -185,7 +185,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-4">
                         <div className="blog-box">
                             <img src="assets/images/icons/blog-managemnet-optimized-blog.svg" alt="blog-managemnet-optimized-blog"/>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 SEO optimized blogs</h4>
                             <p className="customText">
                                 After the creation of the blog content, our SEO experts analyses it carefully and optimizes the blog to its full potential that leads the search engine's top results.</p>
@@ -194,7 +194,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-4">
                         <div className="blog-box">
                             <img src="assets/images/icons/blog-management-improve-blog-reach.svg" alt="blog-management-improve-blog-reach"/>
-                            <h4>
+                            <h4 className='fontHeading'>
                                 Improved blog reach</h4>
                             <p className="customText">
                                 We not only publish articles and blogs on your website, rather we make sure that we share them on your social medial platforms to ensure its maximum reach.</p>
@@ -212,7 +212,7 @@ export default function BlogManagementServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h3 className="customLineHeight2">
+                    <h3 className="customLineHeight2 fontHeading">
                         Are you ready to partner #1 blog management company in India for ultimate blogging solutions?</h3>
                     <p className="customText text-off-white">
                         #1 Agency for Social media marketing services in India with offices in Mumbai and Delhi.</p>

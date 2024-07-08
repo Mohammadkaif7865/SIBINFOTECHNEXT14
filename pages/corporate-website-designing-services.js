@@ -16,7 +16,7 @@ export default function CorporateWebsiteDesigningServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h1 className="heading fontWeight700 text-white">Corporate Website Designing Services</h1>
+    						<h1 className="heading fontWeight700 text-white fontHeading">Corporate Website Designing Services</h1>
     						<h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">Best Website Designing Company in India</h2>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
@@ -26,7 +26,7 @@ export default function CorporateWebsiteDesigningServices() {
         			</div>
                     <div className="col-lg-5 pe-lg-5 d-none dmd-block">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Corporate Website Designing</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -36,7 +36,7 @@ export default function CorporateWebsiteDesigningServices() {
         </div>
         <div className="col-lg-5 pe-lg-5 d-block d-md-none">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Website Designing</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -109,7 +109,7 @@ export default function CorporateWebsiteDesigningServices() {
                             </div>
                         </div>
                         <div className="clearfix"></div>
-                        <h4 className="customSubHeading customLineHeight mt-2">Found something missing in your website? Don't have a corporate website?</h4>
+                        <h4 className="customSubHeading customLineHeight mt-2 fontHeading">Found something missing in your website? Don't have a corporate website?</h4>
                         <p className="customText"><strong>Don't worry</strong> We are here to do what is required. <strong>SIB Infotech is one of the best corporate website designing agencies in India.</strong> Also, we have the finest designers in the business with sharp understanding and developing skills. We aim to design tailor made designs that construct robust and positive business identities globally.</p>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ export default function CorporateWebsiteDesigningServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="customLineHeight2">#1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
+                            <h4 className="customLineHeight2 fontHeading">#1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
                             <Link href="#">Speak to our experts </Link>
                         </div>
                     </div>

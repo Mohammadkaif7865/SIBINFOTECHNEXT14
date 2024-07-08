@@ -181,7 +181,7 @@ const Optimization = () => {
                 <div className="col-lg-4" key={index}>
                   <div className="optmize-box">
                     <Image quality={100}  width={100} height={100} src={box.imgSrc} alt={box.altText} />
-                    <h4>{box.title}</h4>
+                    <h4 className="fontHeading">{box.title}</h4>
                   </div>
                 </div>
               ))}

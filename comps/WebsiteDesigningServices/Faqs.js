@@ -408,7 +408,7 @@ const Faqs = () => {
   return (
     <section className="bgDarkGrey">
       <div className="containerFull">
-        <h4 className="heading fw-bold text-center">
+        <h4 className="heading fw-bold text-center fontHeading">
           Website Designing <span className="titleHighlight">FAQ?</span>
         </h4>
         <div className="space d-none d-lg-block"></div>
@@ -421,7 +421,7 @@ const Faqs = () => {
                 {faqsDataLeft.map((items, i) => {
                   return (
                     <Accordion.Item className="rounded overflow-hidden" key={i} eventKey={i}>
-                      <Accordion.Header>{items.question}</Accordion.Header>
+                      <Accordion.Header className="fontHeading">{items.question}</Accordion.Header>
                       <Accordion.Body
                         className=""
                         dangerouslySetInnerHTML={{ __html: items.answer }}
@@ -436,7 +436,7 @@ const Faqs = () => {
                 {faqsDataRight.map((items, i) => {
                   return (
                     <Accordion.Item className="rounded overflow-hidden" key={i} eventKey={i}>
-                      <Accordion.Header>{items.question}</Accordion.Header>
+                      <Accordion.Header className="fontHeading">{items.question}</Accordion.Header>
                       <Accordion.Body
                         className=""
                         dangerouslySetInnerHTML={{ __html: items.answer }}

@@ -150,7 +150,7 @@ const AdWords = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h2 className="customHeading customLineHeight">
+            <h2 className="customHeading fontHeading customLineHeight">
               Get The Leads With Certified{" "}
               <span className="text_red">
                 Google AdWords Service Provider India

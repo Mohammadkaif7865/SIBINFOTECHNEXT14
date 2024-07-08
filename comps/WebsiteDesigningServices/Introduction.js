@@ -8,7 +8,7 @@ const Introduction = () => {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="leftDesign">
-                <h4 className="heading fw-bold text-center">
+                <h4 className="heading fw-bold text-center fontHeading">
                   Award Winning{" "}
                   <span className="titleHighlight">Website Designing</span>{" "}
                   Company in India
@@ -36,7 +36,7 @@ const Introduction = () => {
             </div>
             <div className="col-lg-7">
               <div className="awardWinning">
-                <h4 className="regular_heading fontWeight600 mt-3 mb-3 montserrat">
+                <h4 className="regular_heading fontWeight600 mt-3 mb-3  fontHeading">
                   A Web Design Agency in the heart of India
                 </h4>
                 <p>
