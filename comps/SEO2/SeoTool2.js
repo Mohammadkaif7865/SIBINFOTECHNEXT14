@@ -57,7 +57,7 @@ const SeoTools2 = () => {
       alt: "Client Inquires",
     },
     {
-      title: "Happy Customer",
+      title: "Unique Users",
       ranking: "Million+",
       targetValue: 1.5,
       src: "/assets/images/icons/services/good-review.png",
@@ -167,7 +167,7 @@ const SeoTools2 = () => {
                   <div className="slide_card_content">
                     <div>
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +200%{" "}
+                        +600%{" "}
                         <Image
                           className="h-auto"
                           width={40}
@@ -181,7 +181,7 @@ const SeoTools2 = () => {
                       </p>
                     </div>
                     <div>
-                      <p>300+ Impression</p>
+                      <p>400+ Applications</p>
                       <p>270% Clicks</p>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ const SeoTools2 = () => {
                   <div className="slide_card_content">
                     <div>
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +200%{" "}
+                        +400%{" "}
                         <Image
                           className="h-auto"
                           width={40}
@@ -216,8 +216,8 @@ const SeoTools2 = () => {
                       </p>
                     </div>
                     <div>
-                      <p>300+ Impression</p>
-                      <p>270% Clicks</p>
+                      <p>345+ Impression</p>
+                      <p>280% Clicks</p>
                     </div>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ const SeoTools2 = () => {
                   <div className="slide_card_content">
                     <div>
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +200%{" "}
+                        +230%{" "}
                         <Image
                           className="h-auto"
                           width={40}

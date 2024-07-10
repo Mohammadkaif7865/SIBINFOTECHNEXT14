@@ -69,7 +69,7 @@ const SeoAudit = () => {
             <div className=" mt-4    ">
               <div className="rounded-4  p-4  ">
                 <h4 className="blink-animation fontHeading text-center title mb-4  fontWeight600">
-                  Free SEO Audit & Strategy session
+                  Free SEO Audit & Strategy Session
                 </h4>
 
                 <div className=" audit_contact d-flex gap-2 align-items-center justify-content-center  ">

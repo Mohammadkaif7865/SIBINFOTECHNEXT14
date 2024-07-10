@@ -16,7 +16,7 @@ const SeoServices = () => {
                 We Offer Best SEO Services in India
               </h4>
               <Link className="btnAction d-none d-lg-block" href="/contact-us">
-                Connect With Expert
+                Connect With SEO Expert
               </Link>
             </div>
           </div>

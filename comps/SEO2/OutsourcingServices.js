@@ -7,11 +7,11 @@ const OutsourcingServices = () => {
       <div className="containerFull ">
         <div className="row  ">
           <div className="col-lg-6">
-            <h3 className="fontHeading accordion  sub_heading fontWeight600">
+            <h3 className="fontHeading  h3 fontWeight600">
               100% White Label
               <span className="text_blue_light ">
                 {" "}
-                SEO Outsourcing Services
+                SEO Outsourcing Services{" "}
               </span>
               For SEO Resellers
             </h3>

@@ -59,7 +59,7 @@ const Introduction = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>Average 244% Increase in Clickthrough Rate(CTR)</h4>
+                  <h4>Average 244% Increase in CTR</h4>
                   <p>
                     Gain the attation from those  who are truely reday to take action with your brand.
                   </p>
