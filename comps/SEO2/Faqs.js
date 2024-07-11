@@ -338,7 +338,7 @@ const Faqs = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
+                        {open2 == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
                       </span>
                     </h4>
 
