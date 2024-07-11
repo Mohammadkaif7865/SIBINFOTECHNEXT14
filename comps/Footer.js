@@ -171,7 +171,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 px-0 px-lg-2">
               <div className="firstColumn position-relative text-center">
-                <h4 className="sub_heading text_white">
+                <h4 className="sub_heading text_white fontHeading">
                   <i className="fa fa-mobile-alt pe-3 text_red"></i> Let's Talk
                 </h4>
                 <Link
@@ -180,13 +180,13 @@ export default function Footer() {
                 >
                   +91-92222-60000
                 </Link>
-                <h4 className="sub_heading fontWeight300 text_white_light">
+                <h4 className="sub_heading fontWeight300 text_white_light fontHeading">
                   Need some
                   <br /> great marketing?
                   <br /> We deliver.
                 </h4>
                 <div>
-                  <Link href="/contact-us" className="footerLeft">
+                  <Link href="/contact-us" className="footerLeft ">
                     Get Started
                   </Link>
                 </div>
@@ -199,7 +199,7 @@ export default function Footer() {
                     <div className="row">
                       <div className="col-lg-3">
                         <div className="footerColumn">
-                          <h4>Internet Marketing</h4>
+                          <h4 className="fontHeading">Internet Marketing</h4>
                           <ul>
                             <li>
                               <Link href="/social-media-optimization-services">
@@ -246,7 +246,7 @@ export default function Footer() {
                       </div>
                       <div className="col-lg-3">
                         <div className="footerColumn">
-                          <h4>Website Development</h4>
+                          <h4 className="fontHeading">Website Development</h4>
                           <ul>
                             <li>
                               <Link href="/erp-crm-software-development-solutions">
@@ -298,7 +298,7 @@ export default function Footer() {
                       </div>
                       <div className="col-lg-3">
                         <div className="footerColumn">
-                          <h4>Website Designing</h4>
+                          <h4 className="fontHeading">Website Designing</h4>
                           <ul>
                             <li>
                               <Link href="/cms-website-design-development-services">
@@ -345,7 +345,7 @@ export default function Footer() {
                       </div>
                       <div className="col-lg-3">
                         <div className="footerColumn">
-                          <h4>PPC Management</h4>
+                          <h4 className="fontHeading">PPC Management</h4>
                           <ul>
                             <li>
                               <Link href="/google-ads-management-services">
@@ -500,7 +500,7 @@ export default function Footer() {
           <div className={`containerFull   `}>
             <div className="row">
               <div className=" col-lg-6  ">
-                <h4 className="small_heading2 fontWeight700 text-white">
+                <h4 className="small_heading2 fontWeight700 text-white fontHeading">
                   Mumbai Office
                 </h4>
                 <iframe
@@ -514,7 +514,7 @@ export default function Footer() {
                 ></iframe>
               </div>
               <div className="col-lg-6 mt-3 mt-lg-0">
-                <h4 className="small_heading2 fontWeight700 text-white">
+                <h4 className="small_heading2 fontWeight700 text-white fontHeading">
                   New Delhi Office
                 </h4>
                 <iframe
