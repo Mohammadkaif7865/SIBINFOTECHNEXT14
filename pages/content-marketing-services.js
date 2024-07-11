@@ -18,7 +18,7 @@ export default function ContentMarketingServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">Content Marketing Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">Content Marketing Services</h3>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -27,7 +27,7 @@ export default function ContentMarketingServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Content Marketing</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -37,7 +37,7 @@ export default function ContentMarketingServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Content Marketing</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -46,7 +46,7 @@ export default function ContentMarketingServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-md-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading ">
                             Tell your <span className="text_red">Brand Story</span> Better, <span className="text_red">Engage better</span> with your Audience</h3>
                         <p className="customText">
                             Content is King it is the most important contributing factor in engaging and attracting audience. Content marketing is a strategic marketing tool that focuses on creating and distributing valuable, appropriate and reliable content to attract and preserve the target audience to ensure profitable consumer actions and hence it is termed as one of the most power digital marketing strategy. Quality content is marked by right amount of targeted words and with specific content to tell your brand stories better which could bring in more customer engagement.</p>
@@ -86,51 +86,51 @@ export default function ContentMarketingServices() {
                         <div className="middle-row">
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/content-marketing-firm.svg" alt="content-marketing-firm"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Faster sales</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/content-marketing-firm-in-india.svg" alt="content-marketing-firm-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Boosted lead generation</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/blog-management-website-traffic.svg" alt="content-marketing-firms-delhi"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Increased traffic</h4>
                             </div>
                         </div>
                         <div className="middle-row">
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/local-seo-company-in-delhi.svg" alt="content-marketing-firm-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Condensed marketing and sales overhead</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/local-seo-company-in-india.svg" alt="content-marketing-company-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Measurable results</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/local-seo-company-in-mumbai.svg" alt="content-marketing-company-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Higher SEO rankings</h4>
                             </div>
                         </div>
                         <div className="middle-row">
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/local-seo-companies-in-delhi.svg" alt="content-marketing-company-in-delhi"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Reputation building</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons//influencer-marketing-targeted-audience.svg" alt="content-marketing-agencies-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Brand awareness</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons/content-marketing-firm-in-mumbai.svg" alt="content-marketing-agency-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Expense-saver</h4>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ export default function ContentMarketingServices() {
                     <div className="col-lg-3">
                         <div className="content-marketing-box">
                             <img src="assets/images/icons/content-marketing-product-consideration.svg" alt="content-marketing-product-consideration"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Brand awareness</h4>
                             <ul>
                                 <li className="customText">
@@ -161,7 +161,7 @@ export default function ContentMarketingServices() {
                     <div className="col-lg-3">
                         <div className="content-marketing-box">
                             <img src="assets/images/icons/content-marketing-user-interest.svg" alt="content-marketing-user-interest"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 User interest</h4>
                             <ul>
                                 <li className="customText">
@@ -178,7 +178,7 @@ export default function ContentMarketingServices() {
                     <div className="col-lg-3">
                         <div className="content-marketing-box">
                             <img src="assets/images/icons/content-marketing-brand-awareness.svg" alt="content-marketing-brand-awareness"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Product consideration</h4>
                             <ul>
                                 <li className="customText">
@@ -195,7 +195,7 @@ export default function ContentMarketingServices() {
                     <div className="col-lg-3">
                         <div className="content-marketing-box">
                             <img src="assets/images/icons/content-marketing-sales.svg" alt="content-marketing-sales"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Sales</h4>
                             <ul>
                                 <li className="customText">
@@ -233,9 +233,9 @@ export default function ContentMarketingServices() {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h4 className="text-white margin-bottom">
+                            <h4 className="text-white margin-bottom fontHeading">
                                 Our experienced team is</h4>
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontHeading" >
                                 Ready to provide you content marketing services</h3>
                             <p className="customText text-white">
                                 with a FREE Consultation to get it started</p>
@@ -462,7 +462,7 @@ export default function ContentMarketingServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h4 className="customLineHeight">
+                    <h4 className="customLineHeight fontHeading">
                         Are you Ready to reach out to your prospects through our unique<br/>
                         content marketing services today?</h4>
                     <p className="customText text-white">

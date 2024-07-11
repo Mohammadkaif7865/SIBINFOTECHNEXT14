@@ -18,7 +18,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">Wordpress Website Design & Development Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">Wordpress Website Design & Development Services</h3>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -27,7 +27,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Wordpress Design & Development </span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -37,7 +37,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Wordpress Design & Development </span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -57,7 +57,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                     </div>
                 </div>
                     <div className="Margin_2">
-                    <h3 className="customSubHeading">
+                    <h3 className="customSubHeading fontHeading">
                         WordPress is an open source online website creation tool written in PHP and is the most powerful Content Management System. It is used to create, edit, manage and publish content on the website without any special knowledge in programming.</h3>
                     <p className="customText">
                         Our Website Designing and developing experts are taught to work carefully by understanding the goals/target of the business. Our team of experts uses a wide range of industry-tested tools, resources and techniques for an accurate design that would lead the organization to achieve their goals and make the user interface easy to navigate and use.</p>
@@ -165,7 +165,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="customLineHeight2">
+                            <h4 className="customLineHeight2 fontHeading ">
                                 #1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
                             <Link href="/contact-us">Speak to our experts </Link></div>
                     </div>

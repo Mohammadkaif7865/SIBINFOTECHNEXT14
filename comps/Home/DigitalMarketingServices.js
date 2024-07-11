@@ -9,7 +9,7 @@ const DigitalMarketingServices = () => {
         <div className="row align-items-center">
           <div className="col-lg-9">
             <div className="titleLeft">
-              <h5 className="heading fontWeight700">
+              <h5 className="heading fontHeading fontWeight700">
                 <span className="titleHighlight">Digital Marketing</span>{" "}
                 Services
               </h5>

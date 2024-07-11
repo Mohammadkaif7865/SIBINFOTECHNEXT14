@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-lg-2 mt-1 text-white">
@@ -33,7 +33,7 @@ const Banner = () => {
             </div>
             <div className="col-lg-5 pe-lg-5 d-none d-md-block">
               <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">
+                <h4 className="small_heading  fontWeight700 fontHeading">
                   Accelerate Your Business Growth
                 </h4>
                 <p>
@@ -51,7 +51,7 @@ const Banner = () => {
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-md-none">
         <div className="bannerForm">
-          <h4 className="small_heading  fontWeight700">
+          <h4 className="small_heading  fontWeight700 fontHeading">
             Accelerate Your Business Growth
           </h4>
           <p>

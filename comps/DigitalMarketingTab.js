@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 export default function DigitalMarketingTab() {
-    const [tabDats, setTabData] = useState(
+    const [tabData, setTabData] = useState(
       {
         title: "Search Engine Optimization",
         title2: "SIB Infotech <span className='text_red'>SEO Services In India</span> - Trusted By Over 1000+ Companies",
@@ -53,7 +53,7 @@ export default function DigitalMarketingTab() {
                 <ul>
                   {tabsData.map((val, id) => {
                     return(
-                        <li onClick={() => {setTabData({ title: val.title, title2: val.title2, image: val.image, content: val.content, url: val.url});}}> {val.title}</li>
+                        <li  onClick={() => {setTabData({ title: val.title, title2: val.title2, image: val.image, content: val.content, url: val.url});}}> {val.title}</li>
                     )
                   })}
                 </ul>
@@ -65,14 +65,14 @@ export default function DigitalMarketingTab() {
                   <div className="row">
                     <div className="col-lg-5">
                       <div className="tabImg">
-                        <img src={tabDats.image} alt="SEO"/>
+                        <img src={tabData.image} alt="SEO"/>
                       </div>
                     </div>
                     <div className="col-lg-7 ps-lg-4">
-                      <h4 className="sub_heading2 fontWeight700">{tabDats.title}</h4>
-                      <p className="small_heading fontWeight500 mt-2"  dangerouslySetInnerHTML={{__html: tabDats.title2}}></p>
-                      <div  dangerouslySetInnerHTML={{__html: tabDats.content}}></div>
-                      <Link href={tabDats.url} className="btnLink">Learn More <i className="bi bi-arrow-right"></i></Link>
+                      <h4 className="sub_heading2 fontHeading fontWeight700">{tabData.title}</h4>
+                      <p className="text fontWeight600 my-2"  dangerouslySetInnerHTML={{__html: tabData.title2}}></p>
+                      <div  dangerouslySetInnerHTML={{__html: tabData.content}}></div>
+                      <Link href={tabData.url} className="btnLink">Learn More <i className="bi bi-arrow-right"></i></Link>
                     </div>
                   </div>
                 </div>

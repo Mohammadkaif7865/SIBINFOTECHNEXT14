@@ -35,10 +35,10 @@ export default function SearchEngineOptimizationServices() {
           name="keywords"
           content="SEO Company in India, SEO Company in Mumbai, SEO Agency India, SEO Agency in India, SEO Agency in Mumbai, seo services, seo services in India, seo services in Mumbai, seo optimization service, India seo company, seo providers in India, search engine optimization companies in India, seo firms India, search engine optimization agencies"
         />
-        <link
+        {/* <link
           rel="canonical"
           href="https://www.sibinfotech.com/search-engine-optimization-seo-services"
-        />
+        /> */}
       </Head>
       <SEO />
     </div>

@@ -6,10 +6,10 @@ const Testimonials = () => {
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-          <h4 className="small_heading text-center text_red fontWeight700">
+          <h4 className="small_heading text-center text_red fontWeight600">
             DIGITAL MARKETING TESTIMONIALS
           </h4>
-          <h3 className="heading text-center mt-2 fontWeight700">
+          <h3 className="heading text-center fontHeading mt-2 fontWeight600">
             Clients say about our SEO Services
           </h3>
         </div>

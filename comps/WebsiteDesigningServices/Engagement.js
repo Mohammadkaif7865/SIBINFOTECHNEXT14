@@ -33,7 +33,7 @@ const Engagement = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <h4 className="heading fw-bold text-center">
+            <h4 className="heading fw-bold text-center fontHeading">
               Our Engagement Models
             </h4>
             <p className="small_heading textGrey text-center mt-3">
@@ -57,7 +57,7 @@ const Engagement = () => {
                     </div>
                   </div>
                   <div className="backEngage">
-                    <h4 className="sub_heading2 fw-bold text-white">
+                    <h4 className="sub_heading2 fontHeading fw-bold text-white">
                       {model.title}
                     </h4>
                     <p className="mt-3 text-white">{model.description}</p>

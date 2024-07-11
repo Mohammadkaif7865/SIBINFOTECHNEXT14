@@ -113,7 +113,7 @@ export default function WebDevelopmentServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Website Development Services
                 </h1>
                 <div className="mt-4">
@@ -133,7 +133,7 @@ export default function WebDevelopmentServices() {
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">
+                <h4 className="small_heading  fontWeight700 fontHeading">
                   Accelerate Your Business Growth
                 </h4>
                 <p>
@@ -151,7 +151,7 @@ export default function WebDevelopmentServices() {
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
-          <h4 className="small_heading  fontWeight700">
+          <h4 className="small_heading  fontWeight700 fontHeading">
             Accelerate Your Business Growth
           </h4>
           <p>
@@ -166,7 +166,7 @@ export default function WebDevelopmentServices() {
       </div>
       <section>
         <div className="containerFull">
-          <h2 className="customHeading text-center">
+          <h2 className="customHeading text-center fontHeading">
             Most Trusted <span>Web development Company In India</span>
           </h2>
           <p className="customText">
@@ -919,7 +919,7 @@ export default function WebDevelopmentServices() {
                       alt="Custom Web Application Development Company in Delhi"
                     />
                   </div>
-                  <h4>MySQL</h4>
+                  <h4 className="fontHeading">MySQL</h4>
                 </div>
                 <p className="customText mt-lg-0 mt-2">
                   Meet the monstrous flood of cutting edge highlights like
@@ -936,7 +936,7 @@ export default function WebDevelopmentServices() {
                       alt="Custom Web Application Development Company in Mumbai"
                     />
                   </div>
-                  <h4>Mongo DB</h4>
+                  <h4 className="fontHeading">Mongo DB</h4>
                 </div>
                 <p className="customText mt-lg-0 mt-2">
                   Address new information challenges, store huge volumes of
@@ -986,7 +986,7 @@ export default function WebDevelopmentServices() {
       <section className="blueBg2 position-relative">
         <div className="containerFull">
           <div className="callAction">
-            <h4 className="customLineHeight2">
+            <h4 className="customLineHeight2 fontHeading">
               A Best Website Development Company In India
             </h4>
             <p className="customText text-center  mb-0 text-off-white">
@@ -1015,7 +1015,7 @@ export default function WebDevelopmentServices() {
       </section>
       <section className="bgDarkGrey">
         <div className="containerFull">
-          <h4 className="heading fw-bold text-center">
+          <h4 className="heading fw-bold text-center fontHeading">
             Website Development <span className="titleHighlight">FAQ?</span>
           </h4>
           <div className="space d-none d-lg-block"></div>
@@ -1180,7 +1180,7 @@ export default function WebDevelopmentServices() {
                       key={i}
                       eventKey={i}
                     >
-                      <Accordion.Header>{items.question}</Accordion.Header>
+                      <Accordion.Header className="fontHeading">{items.question}</Accordion.Header>
                       <Accordion.Body
                         className=""
                         dangerouslySetInnerHTML={{ __html: items.answer }}
@@ -1195,7 +1195,7 @@ export default function WebDevelopmentServices() {
                 {faqsDataRight.map((items, i) => {
                   return (
                     <Accordion.Item
-                      className="rounded overflow-hidden"
+                      className="rounded overflow-hidden fontHeading"
                       key={i}
                       eventKey={i}
                     >

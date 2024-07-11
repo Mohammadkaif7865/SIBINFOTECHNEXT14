@@ -132,7 +132,7 @@ const WhyChoose = () => {
               <span className="text_red">Google AdWords </span> PPC Campaign
               Management Agency
             </h3>
-            <h3 className="margin-bottom text-blue">
+            <h3 className="margin-bottom text-blue fontHeading">
               Do you Need a google AdWords Agency?
             </h3>
             <p className="customText">

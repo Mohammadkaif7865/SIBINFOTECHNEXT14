@@ -15,7 +15,7 @@ export default function SoftwareDevelopementServices() {
                     <div className="row">
                         <div className="col-lg-7 ps-lg-5">
                             <div className="innerBannerTitle venter">
-                                <h1 className="heading fontWeight700 text-white">Software Development Services</h1>
+                                <h1 className="heading fontWeight700 text-white fontHeading">Software Development Services</h1>
                                 <h2 className="small_heading fw-bold mt-3 text-white">Top Rated SEO Company in India</h2>
                                 <div className="mt-4">
                                     <Link href="#requestQuote">
@@ -29,7 +29,7 @@ export default function SoftwareDevelopementServices() {
                         </div>
                         <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                             <div className="bannerForm">
-                                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Software Development</span> Company in India</strong></p>
                                 <BannerForm />
                             </div>
@@ -39,7 +39,7 @@ export default function SoftwareDevelopementServices() {
             </div>
             <div className="col-lg-5 d-block d-lg-none pe-lg-5">
                 <div className="bannerForm">
-                    <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                    <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                     <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Software Development</span> Company in India</strong></p>
                     <BannerForm />
                 </div>
@@ -628,7 +628,7 @@ export default function SoftwareDevelopementServices() {
             <section className="blueBg2">
                 <div className="containerFull">
                     <div className="callAction">
-                        <h4 className="customLineHeight">
+                        <h4 className="customLineHeight fontHeading">
                             Are you ready to partner #1 software development company in India for ultimate software solutions?</h4>
                         <p className="customText text-white">
                             Our team of experienced software developers are ready to provide you with a FREE Consultation to get it started</p>

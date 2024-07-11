@@ -26,14 +26,13 @@ export default function Header() {
       <header className="header stricky">
         <div className="topHeader d-none d-md-block">
           <div className="containerFull">
-            <div className="inlineHeader">
+            <div className="inlineHeader ">
               <div className="topHeaderLeft">
                 <ul>
                   <li>
-                    <Link href="tel:+91-9222260000">
-                      <i className="fa fa-phone"></i> +91-9222260000
-                    </Link>
+                    <Link href="/career">We're Hiring Now</Link>
                   </li>
+
                   <li>
                     <Link href="mailto:contact@sibinfotech.com">
                       <i className="fa fa-envelope"></i> contact@sibinfotech.com
@@ -49,10 +48,14 @@ export default function Header() {
               <div className="topHeaderRight">
                 <ul>
                   <li>
-                    <Link href="/career">We're Hiring Now</Link>
+                    <Link href="/contact-us">Request a Quote</Link>
                   </li>
                   <li>
-                    <Link href="/contact-us">Request a Quote</Link>
+                    <Link href="tel:+91-9222260000">
+                    <i class="fa-solid fa-phone-volume " style={{
+                      transform: "rotate(321deg)",
+                    }} ></i> +91-9222260000
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -112,6 +115,7 @@ export default function Header() {
                                   kinds...
                                 </p>
                               </div>
+
                               <div className="iconRight">
                                 <i className="bi bi-arrow-right"></i>
                               </div>

@@ -16,7 +16,7 @@ export default function CmsDevelopementServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">Content Management System - CMS Based Website Development Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">Content Management System - CMS Based Website Development Services</h3>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -25,7 +25,7 @@ export default function CmsDevelopementServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">CMS Based Web Development</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -35,7 +35,7 @@ export default function CmsDevelopementServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">CMS Based Web Development</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -63,7 +63,7 @@ export default function CmsDevelopementServices() {
                 <div className="callAction px-0 px-lg-1">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="text-center">
+                            <h4 className="text-center fontHeading">
                                 Web applications served by our developers using CMS</h4>
                         </div>
                     </div>
@@ -231,7 +231,7 @@ export default function CmsDevelopementServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h3 className="customLineHeight2">
+                            <h3 className="customLineHeight2 fontHeading">
                                 We are An Award Winning Digital Marketing Agency in India creating cutting edge innovative digital campaigns and providing exceptional digital marketing services</h3>
                             <Link href="/contact-us">Speak to our Experts </Link></div>
                     </div>

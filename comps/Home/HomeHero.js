@@ -17,10 +17,10 @@ const HomeHero = () => {
             <div className="row">
               <div className="col-lg-7">
                 <div className="videoLeft">
-                  <h1 className="large_heading fontWeight800 text-white">
+                  <h1 className="large_heading fontHeading  fontWeight800 text-white">
                     TOP RATED
                   </h1>
-                  <h2 className="heading fontWeight700 my-2">
+                  <h2 className="heading fontWeight700 my-2 fontHeading">
                     WEB DESIGN AND <span>DIGITAL MARKETING AGENCY</span>
                   </h2>
                   <h3 className="sub_heading text-white">We Help you get</h3>
@@ -31,13 +31,13 @@ const HomeHero = () => {
               </div>
               <div className="col-lg-5 d-none d-md-block">
                 <div className="bannerForm">
-                  <h4 className="small_heading  fontWeight700">
+                  <h4 className="small_heading fontHeading  fontWeight700">
                     Accelerate Your Business Growth
                   </h4>
-                  <p>
+                  <p className="">
                     with{" "}
                     <strong className="fontWeight600 text_red">
-                      Best <span className="textChange">Digital Marketing</span>{" "}
+                      Best <span className=" textChange">Digital Marketing</span>{" "}
                       Company in India
                     </strong>
                   </p>

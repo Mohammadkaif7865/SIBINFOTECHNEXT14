@@ -20,7 +20,7 @@ const Determination = () => {
           </div>
           <div className="col-lg-6">
             <div className="insta-services-content-section">
-              <h3 className="margin-bottom mt-lg-0 mt-3">
+              <h3 className="margin-bottom mt-lg-0 mt-3 fontHeading">
                 Determination of your audience
               </h3>
               <p className="customText">
@@ -44,7 +44,7 @@ const Determination = () => {
                 </ul>
               </div>
               <span className="divider2">&nbsp; </span>
-              <h3 className="margin-bottom">
+              <h3 className="margin-bottom fontHeading">
                 Create a powerful content strategy
               </h3>
               <p className="customText">

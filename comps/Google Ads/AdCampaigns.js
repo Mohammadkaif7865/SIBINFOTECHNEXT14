@@ -7,13 +7,13 @@ const AdCampaigns = () => {
     <div className="containerFull">
       <div className="row mt-4">
         <div className="col-lg-7">
-          <h3 className="customHeading">
+          <h3 className="customHeading fontHeading">
             <span className="text_red">Google AdWords</span> Campaigns
           </h3>
           <div className="adwords-box">
             <div className="adwords-inner-box">
               <span>1</span>
-              <h4>Google Search Network (GSN) Campaign</h4>
+              <h4 className='fontHeading'>Google Search Network (GSN) Campaign</h4>
               <p className="customText">
                 The Search Network campaign is the only platform that allows
                 your business to display text ads on the SERPs (Search
@@ -38,7 +38,7 @@ const AdCampaigns = () => {
           <div className="adwords-box">
             <div className="adwords-inner-box">
               <span>2</span>
-              <h4>Google Display Network (GDN) Campaign</h4>
+              <h4 className='fontHeading'>Google Display Network (GDN) Campaign</h4>
               <p className="customText">
                 The image ads are displayed on the Google Display Network
                 (GDN), which consists of millions of websites to show your
@@ -79,7 +79,7 @@ const AdCampaigns = () => {
           <div className="adwords-box">
             <div className="adwords-inner-box">
               <span>3</span>
-              <h4>Google Shopping Campaign</h4>
+              <h4 className='fontHeading'>Google Shopping Campaign</h4>
               <p className="customText">
                 The first step for a Google shopping campaign is to set up
                 Google Merchant Centre. This ad campaign id is useful to
@@ -130,7 +130,7 @@ const AdCampaigns = () => {
           <div className="adwords-box">
             <div className="adwords-inner-box">
               <span>4</span>
-              <h4>Video YouTube Ad Campaign</h4>
+              <h4 className='fontHeading'> Video YouTube Ad Campaign</h4>
               <p className="customText">
                 There are several ad formats available for video ad
                 campaigns on Google AdWords. The options range from letting
@@ -154,7 +154,7 @@ const AdCampaigns = () => {
           <div className="adwords-box">
             <div className="adwords-inner-box">
               <span>5</span>
-              <h4>Universal App Campaign</h4>
+              <h4 className='fontHeading'>Universal App Campaign</h4>
               <p className="customText">
                 The universal app campaign advertises your application on
                 all the Google Advertising platforms such as search,

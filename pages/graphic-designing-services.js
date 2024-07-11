@@ -15,7 +15,7 @@ export default function GraphicDesigningServices() {
                     <div className="row">
                         <div className="col-lg-7 ps-lg-5">
                             <div className="innerBannerTitle venter">
-                                <h1 className="heading fontWeight700 text-white">Graphic Designing Services</h1>
+                                <h1 className="heading fontWeight700 text-white fontHeading">Graphic Designing Services</h1>
                                 <div className="mt-4">
                                     <Link href="#requestQuote">
                                         <span className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</span>
@@ -28,7 +28,7 @@ export default function GraphicDesigningServices() {
                         </div>
                         <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                             <div className="bannerForm">
-                                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                                <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Graphic Designing</span> Company in India</strong></p>
                                 <BannerForm />
                             </div>
@@ -38,7 +38,7 @@ export default function GraphicDesigningServices() {
             </div>
             <div className="col-lg-5 d-block d-lg-none pe-lg-5">
                 <div className="bannerForm">
-                    <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                    <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                     <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Graphic Designing</span> Company in India</strong></p>
                     <BannerForm />
                 </div>
@@ -47,7 +47,7 @@ export default function GraphicDesigningServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h3 className="customHeading">
+                            <h3 className="customHeading fontHeading">
                                 Best <span className="text_red">Graphic Designing</span> Company</h3>
                             <p className="customText">
                                 The best graphic designs that leaves an impact on the customer's mind, is what we have been producing. SIB Infotech which is also one of the best leading graphic designing company that believes a solidly built brand can become a company’s greatest asset. we can work the best with start-ups or well-established enterprises to achieve their goals.</p>
@@ -70,12 +70,12 @@ export default function GraphicDesigningServices() {
                         </div>
                         <div className="col-lg-7">
                             <div className="row">
-                                <h3 className="customHeading ml-10 tb_mt_30">
+                                <h3 className="customHeading ml-10 tb_mt_30 fontHeading ">
                                     Custom <span className="text_red">graphic design</span> services we offer</h3>
                                 <div className="col-lg-6">
                                     <div className="graphic-services-box">
                                         <img src="assets/images/icons/graphic-img.svg" alt="Graphic Designing Company in Delhi" />
-                                        <h4>
+                                        <h4 >
                                             Brochure Designs</h4>
                                         <p className="customText">
                                             We provide graphic design for designing brochures that are best to captivate the attention of your customers and at the same time make them inquisitive.</p>
@@ -222,19 +222,19 @@ export default function GraphicDesigningServices() {
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-10.svg" alt="Graphic Designing Service Companies in Mumbai" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Website Designs</h5>
                                 </div>
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-11.svg" alt="Graphic Designing Service Agency in India" /></div>
-                                    <h5>
+                                    <h5  className='fontHeading'>
                                         Animated Logos</h5>
                                 </div>
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-12.svg" alt="Graphic Designing Service Agency in Delhi" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Letter Head Designs</h5>
                                 </div>
                             </div>
@@ -242,19 +242,19 @@ export default function GraphicDesigningServices() {
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-13.svg" alt="Graphic Designing Service Agency in Mumbai" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Advertising Designs</h5>
                                 </div>
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-14.svg" alt="Graphic Designing Service Firm in India" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Layout &amp; Formatting</h5>
                                 </div>
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-15.svg" alt="Graphic Designing Service Firm in Delhi" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Full Vehicle Wraps</h5>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@ export default function GraphicDesigningServices() {
                                 <div className="graphic-other-services-box">
                                     <div className="graphic-other-services-circle">
                                         <img src="assets/images/icons/graphic-img-16.svg" alt="Graphic Designing Service Firm in Mumbai" /></div>
-                                    <h5>
+                                    <h5 className='fontHeading'>
                                         Print &amp; Stationery design</h5>
                                 </div>
                             </div>
@@ -290,7 +290,7 @@ export default function GraphicDesigningServices() {
                             </ul>
                         </div>
                         <div className="col-lg-4">
-                            <div className="graphic-help-right">
+                            <div className="graphic-help-right fontHeading">
                                 <h3 className="sub_heading">
                                     How can a</h3>
                                 <h4 className="regular_heading my-2">
@@ -306,8 +306,8 @@ export default function GraphicDesigningServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-lg-4">
-                            <div className="graphic-why-us-left">
-                                <h3>
+                            <div className="graphic-why-us-left fontHeading">
+                                <h3 >
                                     Want to get your</h3>
                                 <h1>
                                     <span className="text_red">brand noticed?</span></h1>

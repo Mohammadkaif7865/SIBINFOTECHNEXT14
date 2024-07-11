@@ -14,7 +14,7 @@ const ServiceBox = ({ iconSrc, altText, title, description, yellowBg }) => {
         />
       </div>
       <div className="content">
-        <h4>{title}</h4>
+        <h4 className="fontHeading ">{title}</h4>
         <p className="customText">{description}</p>
       </div>
     </div>
@@ -27,7 +27,7 @@ const OnPageSeoServices = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-12">
-            <h3 className="customHeading text-center">
+            <h3 className="customHeading text-center fontHeading">
               On page <span className="text_red">SEO services</span>
             </h3>
             <div className="box-row-1 mt-4">

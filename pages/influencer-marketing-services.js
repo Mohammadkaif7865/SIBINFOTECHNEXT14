@@ -18,7 +18,7 @@ export default function InfluencerMarketingServices() {
                  <div className="row">
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
-    						<h3 className="heading fontWeight700 text-white">Influencer Marketing Services</h3>
+    						<h3 className="heading fontWeight700 text-white fontHeading">Influencer Marketing Services</h3>
     						<div className="mt-4">
     							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
@@ -27,7 +27,7 @@ export default function InfluencerMarketingServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700  fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Influencer Marketing</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -37,7 +37,7 @@ export default function InfluencerMarketingServices() {
         </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
-                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                <h4 className="small_heading  fontWeight700  fontHeading">Accelerate Your Business Growth</h4>
                 <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Influencer Marketing</span> Company in India</strong></p>
                 <BannerForm/>
             </div>
@@ -130,56 +130,56 @@ export default function InfluencerMarketingServices() {
                         </div>
                     </div>
                     <div className="col-lg-7">
-                        <p className="customSubHeading text-center">
+                        <p className="customSubHeading text-center fontHeading">
                             <b>Our influencer advertising strategy includes:</b></p>
                         <div className="middle-row">
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-kpi.svg" alt="influencer-marketing-agency-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Identification of the main objectives and KPIs</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-targeted-audience.svg" alt="best-inluencer-marketting-company"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Identify target Audience</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-research.svg" alt="best-influencer-marketing-company-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Influencer research</h4>
                             </div>
                         </div>
                         <div className="middle-row">
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/blog-managemnet-build-brand-reputation.svg" alt="best-influencer-marketing-company-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Influencer mapping</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-build-strong-relationship.svg" alt="best-influencer-marketing-companies"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Building strong relations with the influencers</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-strategy.svg" alt="best-influencer-marketing-companies-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Launching highly engaging influencer marketing strategy</h4>
                             </div>
                         </div>
                         <div className="middle-row">
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-cordination.svg" alt="best-influencer-marketing-company-in-mumbai"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Influencer Co-ordination</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-results.svg" alt="best-influencer-marketing-companies" />
-                                <h4>
+                                <h4 className="fontHeading">
                                     Measuring results</h4>
                             </div>
                             <div className="middle-box middle-box-lg-width">
                                 <img src="assets/images/icons/influencer-marketing-report-and-statatics.svg" alt="best-influencer-marketing-companies-in-india"/>
-                                <h4>
+                                <h4 className="fontHeading">
                                     Transparent progress reports and statistics</h4>
                             </div>
                         </div>
@@ -243,28 +243,28 @@ export default function InfluencerMarketingServices() {
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-facebook.svg" alt="inluencer-marketing-firm"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Facebook</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-twitter.svg" alt="inluencer-marketing-firm-in-mumbai"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Twitter</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-instagram.svg" alt="inluencer-marketing-firm-in-delhi"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Instagram</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-youtube.svg" alt="inluencer-marketing-firm-in-india"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 YouTube</h4>
                         </div>
                     </div>
@@ -273,28 +273,28 @@ export default function InfluencerMarketingServices() {
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-vine.svg" alt="inluencer-marketing-agency"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Vine</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-snapchat.svg" alt="inluencer-marketing-agency-in-india"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 Snapchat</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/influencer-marketing-tiktok.svg" alt="inluencer-marketing-agency-in-delhi"/>
-                            <h4>
+                            <h4 className="fontHeading">
                                 TikTok</h4>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="infl-marketing-box">
                             <img src="assets/images/icons/linkedin_icon.svg" alt="inluencer-marketing-agency-in-delhi"/>
-                            <h4>
+                            <h4  className="fontHeading">
                                 LinkedIn</h4>
                         </div>
                     </div>
@@ -304,7 +304,7 @@ export default function InfluencerMarketingServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h3 className="customLineHeight2">
+                    <h3 className="customLineHeight2 fontHeading">
                         Are you ready to launch the best Influencer marketing campaign</h3>
                     <h3 className="customText text-off-white">
                         with the #1 Influencer Marketing Agency in India?</h3>
@@ -315,14 +315,14 @@ export default function InfluencerMarketingServices() {
         <section className="accordtab">
             <div className="containerFull">
                 <div className="webProces">
-                    <h3 className="text-center">Influencer Marketing <span className="text_red">FAQ?</span></h3>
+                    <h3 className="text-center  fontHeading">Influencer Marketing <span className="text_red">FAQ?</span></h3>
                 </div>
                 <div className="row mt-4">
                     <div className="col-lg-6">
                         <div className="faqRight">
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingOne">
+                                <h2 className="accordion-header fontHeading " id="headingOne">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     What is influencer marketing and how does it work?
                                     </button>
@@ -334,7 +334,7 @@ export default function InfluencerMarketingServices() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingTwo">
+                                <h2 className="accordion-header fontHeading" id="headingTwo">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">what are the benefits of influencer marketing services?
                                     </button>
                                 </h2>
@@ -362,7 +362,7 @@ export default function InfluencerMarketingServices() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
+                                <h2 className="accordion-header fontHeading" id="headingThree">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">how can the product business benefit from influencer marketing?
                                     </button>
                                 </h2>
@@ -379,7 +379,7 @@ export default function InfluencerMarketingServices() {
                         <div className="faqRight">
                         <div className="accordion" id="accordionExample2">
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingTen1">
+                                <h2 className="accordion-header fontHeading" id="headingTen1">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen1" aria-expanded="false" aria-controls="collapseTen">how can service business benefit from influencer marketing?
                                     </button>
                                 </h2>
@@ -390,7 +390,7 @@ export default function InfluencerMarketingServices() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingEleven">
+                                <h2 className="accordion-header fontHeading" id="headingEleven">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">is influencer marketing service beneficial for all types of businesses?
                                     </button>
                                 </h2>
@@ -401,7 +401,7 @@ export default function InfluencerMarketingServices() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThirteen">
+                                <h2 className="accordion-header fontHeading" id="headingThirteen">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">how brands/businesses can contact top influencers?
                                     </button>
                                 </h2>

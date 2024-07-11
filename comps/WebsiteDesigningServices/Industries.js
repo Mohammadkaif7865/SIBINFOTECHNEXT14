@@ -149,7 +149,7 @@ const Industries = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <h4 className="heading fw-bold text-center text-white">
+            <h4 className="heading fw-bold text-center text-white fontHeading">
               Industries we serve
             </h4>
           </div>
@@ -169,7 +169,7 @@ const Industries = () => {
                     alt={industry.title}
                   />
                 </div>
-                <h4 className="small_heading">{industry.title}</h4>
+                <h4 className="small_heading fontHeading">{industry.title}</h4>
               </div>
             </div>
           ))}
