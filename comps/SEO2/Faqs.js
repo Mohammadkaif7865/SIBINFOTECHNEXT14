@@ -277,7 +277,7 @@ const Faqs = () => {
     // </section>
     <section>
       <div className="containerFull ">
-        <h4 className="heading fontHeading mb-4"><span className="text_red">Frequently</span> Asked Questions</h4>
+        <h4 className="heading fontHeading mb-4 fontWeight600"><span className="text_red">Frequently</span> Asked Search Engine Optimization Questions</h4>
         {/* faq */}
 
         <div className=" row  ">
