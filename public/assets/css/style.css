@@ -2220,7 +2220,7 @@ section {
 .listFlexItem {
   margin-top: 15px;
 }
-.accordion-body ul li {
+.accordion-body ul li { 
   font-size: 15px;
   color: #333;
   padding: 5px 20px;
@@ -8448,4 +8448,60 @@ background-color: #000 !important;
 
 .content-marketing-box2-content-box h4,.graphic-services-box h4,.adv-resp-box h4,.responsive-box-2 h4,.itemInduster h5 ,.itemDigital h5 ,.wordpresItem h4,.web-devlp-box h4,.front-end-box h4,.web-devlp-box-2 h4,.devlp-inner-box h4,.sd-benefit-box h5,.help-inner-box H4{
   font-family: "Lora", serif;
+}
+
+.mainFaq{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.customFaq{
+  padding: 30px 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.customFaq h4{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+font-size: 24px;
+cursor: pointer;
+color: #777;
+font-weight: 600;
+}
+.customFaq h4 span{
+
+ font-size: 34px;
+}
+.answer-row-0{ 
+  grid-template-rows:0fr ;
+}
+.answer-row-1{
+  grid-template-rows:1fr ;
+}
+
+.customFaq_answer_main{
+  display: grid;
+  transition: all .3s ease-in-out;
+  color: #777;
+}
+
+.customFaq_answer_main ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.customFaq_answer_main ul li{
+  padding: 5px 20px;
+position: relative;
+}
+.customFaq_answer_main ul li:after {
+  content: "\f101";
+  position: absolute;
+  left: 4px;
+  top: 7px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  font-size: 13px;
 }
