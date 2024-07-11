@@ -299,7 +299,7 @@ const Faqs = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open == i ? <TbCircleMinus /> : <TbCirclePlus />}
+                        {open == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
                       </span>
                     </h4>
 
@@ -338,7 +338,7 @@ const Faqs = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open2 == i ? <TbCircleMinus /> : <TbCirclePlus />}
+                        {open == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
                       </span>
                     </h4>
 
