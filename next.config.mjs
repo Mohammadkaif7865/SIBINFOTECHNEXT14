@@ -11,6 +11,11 @@ const nextConfig = {
         permanent: true, // This is a 301 redirect
       },
       {
+        source: "/index.php",
+        destination: "/",
+        permanent: true, // This is a 301 redirect
+      },
+      {
         source: "/mobile-seo-services-mumbai-india",
         destination: "/mobile-seo-services",
         permanent: true,
@@ -280,12 +285,17 @@ const nextConfig = {
         destination: "/recruitment-website-development-services",
         permanent: true,
       },
+      {
+        source: "/pay-per-click-ppc-management-service",
+        destination: "/pay-per-click-ppc-management-services",
+        permanent: true,
+      },
     ];
   },
   images: {
     domains: ["www.sibinfotech.com"],
   },
-  // assetPrefix: "https://www.sibinfotech.com",
+  assetPrefix: "https://www.sibinfotech.com",
 };
 
 export default nextConfig;
