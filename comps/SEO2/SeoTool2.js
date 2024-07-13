@@ -165,24 +165,27 @@ const SeoTools2 = () => {
                     />
                   </div>
                   <div className="slide_card_content">
-                    <div>
+                    <div className="slide_card_content_inner">
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +600%{" "}
-                        <Image
+                        
+                        {/* <Image
                           className="h-auto"
                           width={40}
                           height={40}
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
-                        />
+                        /> */}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
+
+                        600%{" "}
                       </h4>
-                      <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                      <p className=" ">
+                        Organic <br/> Growth
                       </p>
                     </div>
-                    <div>
-                      <p>400+ Applications</p>
-                      <p>270% Clicks</p>
+                    <div className="increments">
+                      <p><span className="text_red">400+ </span> Applications</p>
+                      <p><span className="text_red">270% </span> Clicks</p>
                     </div>
                   </div>
                 </div>
@@ -200,24 +203,27 @@ const SeoTools2 = () => {
                     />
                   </div>
                   <div className="slide_card_content">
-                    <div>
+                    <div className="slide_card_content_inner">
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +400%{" "}
-                        <Image
+                        
+                        {/* <Image
                           className="h-auto"
                           width={40}
                           height={40}
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
-                        />
+                        /> */}
+                         <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
+
+                         400%
                       </h4>
-                      <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                      <p className="">
+                      Organic <br/> Growth
                       </p>
                     </div>
-                    <div>
-                      <p>345+ Impression</p>
-                      <p>280% Clicks</p>
+                    <div className="increments">
+                      <p><span className="text_red">345+ </span> Impression</p>
+                      <p><span className="text_red">280% </span> Clicks</p>
                     </div>
                   </div>
                 </div>
@@ -235,24 +241,27 @@ const SeoTools2 = () => {
                     />
                   </div>
                   <div className="slide_card_content">
-                    <div>
+                    <div className="slide_card_content_inner">
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        +230%{" "}
-                        <Image
+                       
+                        {/* <Image
                           className="h-auto"
                           width={40}
                           height={40}
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
-                        />
+                        /> */}
+                         <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
+
+                         230%
                       </h4>
-                      <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                      <p className="">
+                      Organic <br/> Growth
                       </p>
                     </div>
-                    <div>
-                      <p>300+ Impression</p>
-                      <p>270% Clicks</p>
+                    <div className="increments">
+                      <p><span className="text_red">300+</span> Impression</p>
+                      <p> <span className="text_red">270%</span> Clicks</p>
                     </div>
                   </div>
                 </div>
