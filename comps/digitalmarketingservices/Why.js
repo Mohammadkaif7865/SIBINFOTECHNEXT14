@@ -22,7 +22,7 @@ const Why = () => {
             </div>
             <div className="col-lg-7">
               <div className="rightSeoCompany">
-                <h4 className="sub_heading fontHeading">
+                <h4 className="sub_heading fontHeading fontWeight800">
                   We're more than just a Digital Marketing Company
                 </h4>
                 <p className="mt-3">
@@ -64,7 +64,7 @@ const Why = () => {
           <div className="row align-items-center">
             <div className="col-lg-9">
               <div className="leftAction">
-                <h4 className="sub_heading text-white fontHeading fontWeight500">
+                <h4 className="sub_heading text-white fontHeading fontWeight800">
                   We are an award winning Digital Marketing Agency in India
                 </h4>
               </div>

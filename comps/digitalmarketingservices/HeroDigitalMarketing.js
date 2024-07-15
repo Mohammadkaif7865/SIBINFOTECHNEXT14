@@ -10,7 +10,7 @@ const HeroDigitalMarketing = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white fontHeading">
+                <h1 className="heading fontWeight800 text-white fontHeading">
                   Best Digital Marketing Company in India{" "}
                 </h1>
                 <p className="text-white mt-2 title bulletPoint fw-bold">

@@ -64,7 +64,7 @@ export default function SoftwareDevelopementServices() {
             </section>
             <section className="bgGrey">
                 <div className="containerFull">
-                    <h3 className="customHeading text-center">
+                    <h3 className="customHeading text-center fontWeight700">
                         <span className="text_red">Software development</span> - Divided into three subcategories, namely</h3>
                     <div className="row">
                         <div className="col-lg-4">
@@ -104,7 +104,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-lg-4">
-                            <h3 className="customHeading ml-10 color-white">
+                            <h3 className="customHeading ml-10 color-white fontWeight700">
                                 How to Software Development can benefit your company?</h3>
                             <p className="customText ml-10 color-white">
                                 Software development can lead your business to new heights. It makes your brand accessible from anywhere using mobile phones and computers. If a business uses a well-built platform for providing the services to its users it can lead to huge profit and user satisfaction.</p>
@@ -164,7 +164,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3 className="customHeading ml-10">
+                            <h3 className="customHeading ml-10 fontWeight700">
                                 How <span className="text_red"> Software Development</span> Services From SIB Would Help You?</h3>
                             <p className="customText ml-10 text-justify">
                                 SIB Infotech's Software Development Service is the solution to all your constantly evolving software developmental challenges. We provide new technologies and tools for your business aiming to achieve success. We employ industry best practices to deliver software that can take your business to new heights. Our services are innovative and aimed at providing new trends in the field of software designing and development. This is done following the software development standards to produce compatible software solutions.</p>
@@ -360,7 +360,7 @@ export default function SoftwareDevelopementServices() {
             </section>
             <section className="domain-expert bgGrey">
                 <div className="containerFull">
-                    <h3 className="customHeading text-center">
+                    <h3 className="customHeading text-center fontWeight700">
                         Some of our <span className="text_red">software development</span> domain where we experts</h3>
                     <ul className="mt-4">
                         <li>
@@ -508,7 +508,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-lg-7">
-                            <h3 className="customHeading">
+                            <h3 className="customHeading fontWeight700">
                                 Our <span className="text_red">Software Development</span> Strategy</h3>
                             <ul>
                                 <li className="customText">
@@ -536,7 +536,7 @@ export default function SoftwareDevelopementServices() {
             </section>
             <section className="section-360">
                 <div className="containerFull">
-                    <h3 className="text-center customHeading">
+                    <h3 className="text-center customHeading fontWeight700">
                         Our 360-degree <span className="text_red">software development</span> strategy is<br />
                         generally a mixture of several tools</h3>
                     <div className="row">
@@ -628,7 +628,7 @@ export default function SoftwareDevelopementServices() {
             <section className="blueBg2">
                 <div className="containerFull">
                     <div className="callAction">
-                        <h4 className="customLineHeight fontHeading">
+                        <h4 className="customLineHeight fontHeading fontWeight700">
                             Are you ready to partner #1 software development company in India for ultimate software solutions?</h4>
                         <p className="customText text-white">
                             Our team of experienced software developers are ready to provide you with a FREE Consultation to get it started</p>

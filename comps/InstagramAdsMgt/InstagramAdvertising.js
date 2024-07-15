@@ -7,7 +7,7 @@ const InstagramAdvertising = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h3 className="customHeading fontHeading">
+            <h3 className="customHeading fontHeading fontWeight800">
               How <span>Instagram advertising </span>can help your company ?
             </h3>
             <p className="customText">

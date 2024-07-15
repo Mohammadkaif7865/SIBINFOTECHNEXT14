@@ -29,7 +29,7 @@ const LinkedInAdvertising = () => {
             </ul>
           </div>
           <div className="col-lg-6">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               How <span className="text_red">LinkedIn advertising </span>helps
               your business?
             </h3>

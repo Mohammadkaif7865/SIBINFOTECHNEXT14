@@ -6,7 +6,7 @@ const LanchAds = () => {
     <section className="blueBg2">
       <div className="containerFull">
         <div className="callAction">
-          <h4 className="customLineHeight2 fontHeading">
+          <h4 className="customLineHeight2 fontHeading fontWeight800 ">
             Are you ready to launch your Instagram Advertising campaign with the
             best Instagram advertising agency in India with offices in Mumbai
             and Delhi?

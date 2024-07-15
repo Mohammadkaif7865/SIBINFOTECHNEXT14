@@ -48,7 +48,7 @@ const BannerLogos = () => {
           </div>
           <div className="col-lg-7">
             <div className="tagLine">
-              <h4 className="small_heading  fontWeight500">
+              <h4 className="small_heading  fontWeight700">
                 An Award Winning{" "}
                 <span className="text_red">
                   Best Website Design &amp; Digital Growth Agency

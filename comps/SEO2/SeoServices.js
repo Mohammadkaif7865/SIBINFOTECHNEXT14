@@ -12,7 +12,7 @@ const SeoServices = () => {
         <div className="servicesBlock">
           <div className="d-flex justify-content-between align-items-center flex-wrap">
             <div className="leftSer d-flex justify-content-between w-100 ">
-              <h4 className="sub_heading text-white fontWeight700 fontHeading">
+              <h4 className="sub_heading text-white fontWeight800 fontHeading">
                 We Offer Best SEO Services in India
               </h4>
               <Link className="btnAction d-none d-lg-block" href="/contact-us">
@@ -31,10 +31,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section1")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         01
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         ON Page SEO 
                       </h3>
                     </div>
@@ -44,10 +44,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section2")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         02
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         OFF Page SEO 
                       </h3>
                     </div>
@@ -57,10 +57,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section3")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         03
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         Local SEO 
                       </h3>
                     </div>
@@ -70,10 +70,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section4")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         04
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         Technical SEO 
                       </h3>
                     </div>
@@ -83,10 +83,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section5")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         05
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         E-Commerce SEO 
                       </h3>
                     </div>
@@ -96,10 +96,10 @@ const SeoServices = () => {
                     onClick={() => handleTabClick("section6")}
                   >
                     <div className="d-flex align-items-center">
-                      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                      <h4 className="sub_heading me-3 fontHeading fontWeight700">
                         06
                       </h4>
-                      <h3 className="small_heading fontHeading fontWeight600">
+                      <h3 className="small_heading fontHeading fontWeight700">
                         Mobile SEO 
                       </h3>
                     </div>
@@ -416,10 +416,10 @@ export default SeoServices;
 //                       onClick={() => handleTabClick(tab.id)}
 //                     >
 //                       <div className="d-flex align-items-center">
-//                         <h4 className="sub_heading me-3 fontHeading fontWeight600">
+//                         <h4 className="sub_heading me-3 fontHeading fontWeight700">
 //                           {tab.id.replace("section", "")}
 //                         </h4>
-//                         <h3 className="small_heading fontHeading fontWeight600">
+//                         <h3 className="small_heading fontHeading fontWeight700">
 //                           {tab.title}
 //                         </h3>
 //                       </div>

@@ -104,7 +104,7 @@ const KeyPoints = () => {
               <div className="col-lg-6">
                 <div className="content-marketing-box2">
                   <div className="content-marketing-box2-content-box">
-                    <h4 className="fontHeading">{point.title}</h4>
+                    <h4 className="fontHeading fontWeight800">{point.title}</h4>
                     <p className="customText">{point.description}</p>
                   </div>
                   <div className="content-marketing-box2-img-box">
@@ -128,7 +128,7 @@ const KeyPoints = () => {
                     />
                   </div>
                   <div className="content-marketing-box2-content-box">
-                    <h4 className="fontHeading">{point.title2}</h4>
+                    <h4 className="fontHeading fontWeight800">{point.title2}</h4>
                     <p className="customText">{point.description2}</p>
                   </div>
                 </div>

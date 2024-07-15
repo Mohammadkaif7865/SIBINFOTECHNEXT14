@@ -161,7 +161,7 @@ const FeatureBox = ({ iconSrc, altText, title }) => {
   return (
     <div className="">
       <Image className="" width={50} height={50} src={iconSrc} alt={altText} />
-      <h4 className="fontHeading">{title}</h4>
+      <h4 className="fontHeading fontWeight800">{title}</h4>
     </div>
   );
 };
@@ -238,7 +238,7 @@ const Benifits = () => {
         <div className="row align-items-center">
           <div className="col-lg-4 leftDigiSer">
             <div className="heading-section">
-              <h3 className="customHeading text-white">
+              <h3 className="customHeading fontWeight800 text-white">
                 How can on-Page optimization Service Help your website?
               </h3>
               <p className="customText text-off-white">

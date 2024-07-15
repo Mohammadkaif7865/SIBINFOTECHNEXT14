@@ -46,7 +46,7 @@ export default function ContentMarketingServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-md-6">
-                        <h3 className="customHeading ">
+                        <h3 className="customHeading fontWeight700 ">
                             Tell your <span className="text_red">Brand Story</span> Better, <span className="text_red">Engage better</span> with your Audience</h3>
                         <p className="customText">
                             Content is King it is the most important contributing factor in engaging and attracting audience. Content marketing is a strategic marketing tool that focuses on creating and distributing valuable, appropriate and reliable content to attract and preserve the target audience to ensure profitable consumer actions and hence it is termed as one of the most power digital marketing strategy. Quality content is marked by right amount of targeted words and with specific content to tell your brand stories better which could bring in more customer engagement.</p>
@@ -125,7 +125,7 @@ export default function ContentMarketingServices() {
                             </div>
                             <div className="middle-box middle-box-ex-width">
                                 <img src="assets/images/icons//influencer-marketing-targeted-audience.svg" alt="content-marketing-agencies-in-india"/>
-                                <h4 className="fontHeading">
+                                <h4 className="fontHeading ">
                                     Brand awareness</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
@@ -139,7 +139,7 @@ export default function ContentMarketingServices() {
             </div>
         </section>
         <section>
-            <div className="containerFull">
+            <div className="containerFull ">
                 <div className="row">
                     <div className="col-lg-3">
                         <div className="content-marketing-box">
@@ -233,9 +233,9 @@ export default function ContentMarketingServices() {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h4 className="text-white margin-bottom fontHeading">
+                            <h4 className="text-white margin-bottom fontHeading fontWeight700">
                                 Our experienced team is</h4>
-                            <h3 className="customHeading text-white fontHeading" >
+                            <h3 className="customHeading text-white fontHeading fontWeight700" >
                                 Ready to provide you content marketing services</h3>
                             <p className="customText text-white">
                                 with a FREE Consultation to get it started</p>
@@ -254,7 +254,7 @@ export default function ContentMarketingServices() {
                     <div className="col-lg-6">
                         <img className="image-full imgAnimation" src="assets/images/content-writting-firm-in-india.svg" alt="content-marketing-company-in-india"/></div>
                     <div className="col-lg-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight700">
                             Our Unique <span>Content Marketing</span> Service</h3>
                         <p className="customText">
                             Content is created by everyone and is created in abundance making it difficult for a great content to be lost on the web. Therefore, it is very important to create unique, Compelling and specific content. Content marketing is the heart of the SEO and Link Building strategy as it play a vital role in search engine ranking, attracting quality traffic and creating a buzz for social sharing. We guarantee to take your brand to great heights with our reliable strategies which are based upon your brand’s requirements and goals. Quality content always takes time and patience to be ready, it requires a lot of thought process and research to bring in a unique content. Its not only content creation which is important marketing the content correctly also plays an important role to gain visibility.</p>
@@ -462,7 +462,7 @@ export default function ContentMarketingServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h4 className="customLineHeight fontHeading">
+                    <h4 className="customLineHeight fontHeading fontWeight700">
                         Are you Ready to reach out to your prospects through our unique<br/>
                         content marketing services today?</h4>
                     <p className="customText text-white">

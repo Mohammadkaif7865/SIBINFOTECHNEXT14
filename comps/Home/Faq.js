@@ -8,7 +8,7 @@ const Faq = () => {
       <section className="bgAction">
         <div className="containerFull">
           <div className="d-flex align-items-center justify-content-between home_cta">
-            <h4 className="sub_heading letterSpacing1 text-white fontWeight700">
+            <h4 className="sub_heading letterSpacing1 text-white fontWeight700 fotHeading">
               Want to know how you can grow your business,
               <br />
               speak to our expert strategists now.

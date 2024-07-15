@@ -32,7 +32,7 @@ const EngagingAds = () => {
   return (
     <section>
       <div className="containerFull">
-        <h3 className="customHeading text-center">
+        <h3 className="customHeading text-center fontWeight800">
           <span className="text_red">Building engaging</span> ad content
         </h3>
         <p className="customText text-center">
@@ -45,7 +45,7 @@ const EngagingAds = () => {
             <div className="col-lg-4" key={index}>
               <div className="ad-content-box">
                 <Image width={100} height={100} quality={100} src={item.imgSrc} alt={item.alt} />
-                <h4>{item.title}</h4>
+                <h4 className="fontWeight800">{item.title}</h4>
                 <p className="customText">{item.description}</p>
               </div>
             </div>

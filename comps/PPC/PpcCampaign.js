@@ -224,7 +224,7 @@ const PpcCampaign = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-7">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               Factor for successful{" "}
               <span className="text_red">PPC campaign</span>
             </h3>
@@ -241,7 +241,7 @@ const PpcCampaign = () => {
                         alt={factor.title}
                       />
                     </div>
-                    <h4>{factor.title}</h4>
+                    <h4 className="fontWeight600">{factor.title}</h4>
                     <p>{factor.description}</p>
                   </div>
                 </div>
@@ -250,10 +250,10 @@ const PpcCampaign = () => {
           </div>
           <div className="col-lg-5">
             <div className="rightPayPer">
-              <h4 className="customHeading">
+              <h4 className="customHeading fontWeight800">
                 There Aren&#39;t Many Google Partners
               </h4>
-              <h5 className="customHeading">
+              <h5 className="customHeading fontWeight700">
                 <span className="text_red">We&#39;re one of them.</span>
               </h5>
               <div className="goolePartner">
@@ -269,7 +269,7 @@ const PpcCampaign = () => {
                 </Link>
               </div>
               <div className="specialize">
-                <h5>Specialized in:</h5>
+                <h5 className="fontWeight700">Specialized in:</h5>
                 <div className="row">
                   {/* Mapping over specialized ads array to render each type */}
                   {specializedAds.map((adType, index) => (

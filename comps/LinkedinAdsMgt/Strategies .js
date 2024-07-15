@@ -8,7 +8,7 @@ const Strategies = () => {
         <div class="row align-items-center">
           <div class="col-lg-4 leftDigiSer">
             <div class="heading-section">
-              <h3 class="customHeading text-white">
+              <h3 class="customHeading text-white fontWeight700">
                 SIB's strategy is the best you can get for your business
               </h3>
               <ul class="linkedin-list">
@@ -28,7 +28,7 @@ const Strategies = () => {
             </div>
           </div>
           <div class="col-lg-8">
-            <h3 class="customHeading mt-lg-0 mt-3">
+            <h3 class="customHeading fontWeight800 mt-lg-0 mt-3">
               Our <span className="text_red">Strategies </span>help in
             </h3>
             <div class="row">

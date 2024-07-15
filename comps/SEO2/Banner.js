@@ -11,7 +11,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="large_heading fontWeight600 fontHeading text-white">
+                <h1 className="large_heading fontWeight800 fontHeading text-white">
                   Best SEO Company in India to increase your Organic Traffic
                 </h1>
                 <h2 className="small_heading fontWeight500 mt-2 text-white">

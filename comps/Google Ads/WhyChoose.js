@@ -117,7 +117,7 @@ const WhyChoose = () => {
         <div className="row align-items-center">
           <div className="col-lg-4 leftDigiSer">
             <div className="heading-section">
-              <h3 className="customHeading text-white">
+              <h3 className="customHeading text-white fontWeight700">
                 We Are Not Just Another Google AdWords India Marketing Agency
               </h3>
               <p className="customText text-off-white">
@@ -127,7 +127,7 @@ const WhyChoose = () => {
             </div>
           </div>
           <div className="col-lg-8 text-center">
-            <h3 className="customHeading customLineHeight2 mt-lg-0 mt-4">
+            <h3 className="customHeading customLineHeight2 fontWeight600 mt-lg-0 mt-4">
               Why Choose SIB Infotech As Your{' '}
               <span className="text_red">Google AdWords </span> PPC Campaign
               Management Agency

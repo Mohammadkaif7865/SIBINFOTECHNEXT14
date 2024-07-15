@@ -67,7 +67,7 @@ export default function EcommerceSeoServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight800">
                             <span className="text_red">E-Commerce SEO </span>is crucial for your website</h3>
                         <p className="customText">
                             The digital world growing at a very fast rate leading to rapid growth in the e-Commerce existence of the businesses. Today, the competition is at its peak and every company wants to establish a lost lasting domain in the online retail market. The ultimate goal of our e-Commerce SEO service is to ensure enough organic footing of your business so that it yields high revenue along with long-lasting existence on the online marketplace.</p>
@@ -224,7 +224,7 @@ export default function EcommerceSeoServices() {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight800">
                                 Launch your E-Commerce SEO strategy</h3>
                             <p className="customText text-white">
                                 with the Top E-commerce SEO company in India with offices in Mumbai and Delhi</p>
@@ -243,7 +243,7 @@ export default function EcommerceSeoServices() {
                     <div className="col-lg-6">
                         <img className="image-full" src="assets/images/ecommerce-seo-strategy.svg" alt="ecommerce-seo-strategy"/></div>
                     <div className="col-lg-6">
-                        <h3 className="customHeading mt-4">
+                        <h3 className="customHeading mt-4 fontWeight800">
                             <span className="text_red">E-Commerce optimization</span> strategy at SIB Infotech</h3>
                         <p className="customText">
                             We have been helping e-Commerce websites for more than 15 years, to grow with the help of SEO to reach the first page of Google results. We embed proven techniques to yield results as per your business needs.</p>
@@ -345,7 +345,7 @@ export default function EcommerceSeoServices() {
             <div className="containerFull">
                 <div className="row align-items-center">
                     <div className="col-lg-8 blueBg graphic-why-us-right">
-                        <h3 className="customHeading text-white customLineHeight">
+                        <h3 className="customHeading text-white customLineHeight fontWeight800">
                             Pro-active experience with a diverse range of e-Commerce platforms</h3>
                         <p className="customText text-off-white">
                             Our SEO experts and developers have paralleled with a variety of e-Commerce platforms, be it open-source or hosted. Such experience enables us to provide your company platform-specific SEO consultations even on short notices.</p>
@@ -360,10 +360,10 @@ export default function EcommerceSeoServices() {
                     </div>
                     <div className="col-lg-4">
                         <div className="graphic-why-us-left mt-lg-0 mt-3">
-                            <h3>
+                            <h3 className='fontWeight600'>
                                 Are you ready to lead the</h3>
-                            <h1>
-                                <span className="text_red">e-Commerce</span> marketing industry?</h1>
+                            <h4 className='fontWeight800 small_heading'>
+                                <span className="text_red">e-Commerce</span> marketing industry?</h4>
                             <Link className="graphic-btn" href="/contact-us">Speak to Our Experts</Link></div>
                     </div>
                 </div>
@@ -373,9 +373,9 @@ export default function EcommerceSeoServices() {
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3 class="customHeading text-center">
+                        <h3 class="customHeading text-center fontWeight800">
                             We have worked on numerous platforms to deliver top-quality services to our clients</h3>
-                        <h4 class="text-center">
+                        <h4 class="text-center fontWeight800">
                             Few of many are listed :</h4>
                         <div class="row mt-4">
                             <div class="col-lg-2 col-6">
@@ -473,7 +473,7 @@ export default function EcommerceSeoServices() {
             <div className="containerFull">
                 <div className="row align-items-center">
                     <div className="col-lg-6 order-2 order-lg-1 mt-2 mt-lg-0">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading  fontWeight800">
                             Why do I need an <span className="text_red">e-Commerce SEO </span>expert?</h3>
                         <p className="customText">
                             Your e-Commerce website is much different than a typical website. You have a web of content from informational pages to products and categories. Optimizing each of these sections and connecting them together in a logical way (i.e., one that "pleases" search engine algorithms) is extremely important for the success of any E-commerce SEO campaign. With hundreds of E-commerce search marketing clients, we have the ability to look at what has worked for them and apply the same strategies to your website. Don't fall for an SEO company who will be learning how to optimize your online store "on the fly" while on the job.</p>
@@ -489,7 +489,7 @@ export default function EcommerceSeoServices() {
                     <div className="col-lg-6">
                         <img className="image-full" src="assets/images/ecommerce-seo-product-pages.svg" alt="ecommerce-seo-company-in-mumbai"/></div>
                     <div className="col-lg-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight800">
                             How do you do <span>e-Commerce SEO</span> for product pages?</h3>
                         <p className="customText">
                             Your e-Commerce website is much different than a typical website. You have a web of content from informational pages to products and categories. Optimizing each of these sections and connecting them together in a logical way (i.e., one that "pleases" search engine algorithms) is extremely important for the success of any E-commerce SEO campaign. With hundreds of E-commerce search marketing clients, we have the ability to look at what has worked for them and apply the same strategies to your website. Don't fall for an SEO company who will be learning how to optimize your online store "on the fly" while on the job.</p>

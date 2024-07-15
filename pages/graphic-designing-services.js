@@ -47,7 +47,7 @@ export default function GraphicDesigningServices() {
                 <div className="containerFull">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h3 className="customHeading fontHeading">
+                            <h3 className="customHeading fontHeading fontWeight700">
                                 Best <span className="text_red">Graphic Designing</span> Company</h3>
                             <p className="customText">
                                 The best graphic designs that leaves an impact on the customer's mind, is what we have been producing. SIB Infotech which is also one of the best leading graphic designing company that believes a solidly built brand can become a company’s greatest asset. we can work the best with start-ups or well-established enterprises to achieve their goals.</p>
@@ -70,7 +70,7 @@ export default function GraphicDesigningServices() {
                         </div>
                         <div className="col-lg-7">
                             <div className="row">
-                                <h3 className="customHeading ml-10 tb_mt_30 fontHeading ">
+                                <h3 className="customHeading ml-10 tb_mt_30 fontHeading fontWeight700 ">
                                     Custom <span className="text_red">graphic design</span> services we offer</h3>
                                 <div className="col-lg-6">
                                     <div className="graphic-services-box">
@@ -210,7 +210,7 @@ export default function GraphicDesigningServices() {
                         <div className="col-lg-4">
                             <div className="leftDigiSer">
                                 <div className="graphic-other-services-left">
-                                    <h3 className="customHeading text-white">
+                                    <h3 className="customHeading text-white fontWeight700">
                                         Other Graphic Design Services</h3>
                                     <p className="customText text-off-white">
                                         Other graphic design outsourcing companies don't match what we offer in terms of quality or pricing because we generate special designs for various other purposes by understanding your purpose. We also offer graphic designs for -</p>
@@ -291,11 +291,11 @@ export default function GraphicDesigningServices() {
                         </div>
                         <div className="col-lg-4">
                             <div className="graphic-help-right fontHeading">
-                                <h3 className="sub_heading">
+                                <h3 className="sub_heading fontWeight700">
                                     How can a</h3>
-                                <h4 className="regular_heading my-2">
+                                <h4 className="regular_heading my-2 fontWeight700">
                                     Best <span className="text_red">Graphic Design</span></h4>
-                                <h2 className="sub_heading">
+                                <h2 className="sub_heading fontWeight700">
                                     help your Company?</h2>
                             </div>
                         </div>
@@ -307,7 +307,7 @@ export default function GraphicDesigningServices() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="graphic-why-us-left fontHeading">
-                                <h3 >
+                                <h3 className='fontWeight700' >
                                     Want to get your</h3>
                                 <h1>
                                     <span className="text_red">brand noticed?</span></h1>
@@ -317,7 +317,7 @@ export default function GraphicDesigningServices() {
                         </div>
                         <div className="col-lg-8">
                             <div className="blueBg mt-lg-0 mt-4">
-                                <h3 className="customHeading text-white">
+                                <h3 className="customHeading text-white fontWeight700">
                                     Why us for Graphic Design?</h3>
                                 <p className="customText text-off-white">
                                     A team that supports you in every sense as per requirements would obviously be your favourite!</p>

@@ -8,7 +8,7 @@ const Benifits = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="leftBenefits">
-              <h4 className="sub_heading fontHeading fontWeight700">
+              <h4 className="sub_heading fontHeading fontWeight800">
                 Benefits of getting the SEO Services from the Best SEO Company
                 in India
               </h4>

@@ -88,7 +88,7 @@ const AdsType = () => {
   return (
     <section className="bgGrey ">
       <div className="containerFull">
-        <h3 className="customHeading text-center">
+        <h3 className="customHeading text-center fontWeight800">
           Different type of<span className="text_red"> facebook ads</span>
         </h3>
         <div className="row">
@@ -96,7 +96,7 @@ const AdsType = () => {
             <div className="col-lg-3" key={index}>
               <div className="fb-ads-management-box">
                 <Image width={100} height={100} src={ad.imgSrc} alt={ad.alt} />
-                <h4>{ad.title}</h4>
+                <h4 className="fontWeight800">{ad.title}</h4>
                 <p className="customText">{ad.description}</p>
               </div>
             </div>

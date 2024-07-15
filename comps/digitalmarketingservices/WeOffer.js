@@ -3,10 +3,10 @@ import React, { useState } from "react";
 const SidebarItem = ({ active, onClick, index, title, content }) => (
   <li className={active ? "active" : ""} onClick={() => onClick(index)}>
     <div className="d-flex align-items-center">
-      <h4 className="sub_heading me-3 fontHeading fontWeight600">
+      <h4 className="sub_heading me-3 fontHeading fontWeight800">
         {index < 9 ? `0${index + 1}` : index + 1}
       </h4>
-      <h3 className="small_heading fontHeading fontWeight600">{title}</h3>
+      <h3 className="small_heading fontHeading fontWeight800">{title}</h3>
     </div>
     {active && (
       <div
@@ -28,7 +28,7 @@ const SidebarItem = ({ active, onClick, index, title, content }) => (
 const TabContent = ({ id, title, content }) => (
   <div className="itemSidebar scroll" id={id}>
     <h4
-      className="sub_heading fontWeight700 fontHeading"
+      className="sub_heading fontWeight800 fontHeading"
       style={{
         color: "#212529",
       }}
@@ -98,7 +98,7 @@ const WeOffer = () => {
               <h5 className="small_heading fontWeight700 fontHeading text_red">
                 Everything in Digital Marketing served under one roof
               </h5>
-              <h4 className="sub_heading text-white fontWeight700  mt-3 fontHeading">
+              <h4 className="sub_heading text-white fontWeight800  mt-3 fontHeading">
                 We offer Best Digital Marketing Services in India
               </h4>
             </div>

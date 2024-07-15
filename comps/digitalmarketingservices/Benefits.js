@@ -21,7 +21,7 @@ const Benefits = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="leftBenefits">
-                <h4 className="sub_heading fontHeading fontWeight700">
+                <h4 className="sub_heading fontHeading fontWeight800">
                   Benefits of getting the Digital Marketing Services from the
                   Best Digital Marketing Company in India
                 </h4>
@@ -59,7 +59,7 @@ const Benefits = () => {
           <div className="row align-items-center">
             <div className="col-lg-8">
               <div className="leftAction">
-                <h4 className="sub_heading text-white fontHeading fontWeight500">
+                <h4 className="sub_heading text-white fontHeading fontWeight700">
                   Do you Want More Traffic, More Leads, More Sales?
                 </h4>
               </div>

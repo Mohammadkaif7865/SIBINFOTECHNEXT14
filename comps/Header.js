@@ -92,7 +92,7 @@ export default function Header() {
                         <i class="bi bi-telephone"></i>
     
                           <div className="menu_contact_inner">
-                            <a href="tel:+91-9222260000" className="p-0 number_phone">+91-9222260000</a>
+                            <a href="tel:+91-9222260000" className="p-0 number_phone">92222-60000</a>
                             <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email">contact@sibinfotech.com</a>
                           </div>
                         </div>

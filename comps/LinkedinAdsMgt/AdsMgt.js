@@ -18,7 +18,7 @@ const AdsMgt = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               How SIB <span className="text_red">LinkedIn Ads Management</span>{" "}
               Services can help your company?
             </h3>

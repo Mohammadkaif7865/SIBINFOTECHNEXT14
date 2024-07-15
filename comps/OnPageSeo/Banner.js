@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white fontHeading">
+                <h3 className="heading fontWeight800 text-white fontHeading">
                   On Page SEO Services
                 </h3>
                 <div className="mt-4">

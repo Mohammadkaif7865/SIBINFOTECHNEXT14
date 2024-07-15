@@ -65,7 +65,7 @@ export default function BlogManagementServices() {
                     <div className="col-lg-5">
                         <div className="leftDigiSer exPadding">
                             <div className="heading-section">
-                                <h3 className="customHeading text-white customLineHeight fontHeading">
+                                <h3 className="customHeading text-white customLineHeight fontHeading fontWeight700">
                                     Blog management is considered to be a great investment asset for any business</h3>
                                 <p className="customText text-off-white">
                                     Our blog management services assure the best results.</p>
@@ -113,7 +113,7 @@ export default function BlogManagementServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight700">
                     How SIB <span className="text_red">Blog Management</span> &amp; <span>Marketing</span> Services will help your company?</h3>
                 <p className="customText text-center">
                     We help clients manage their blogs and implement technical methods to guarantee maximum social media impact. Our blog management strategy is a complete game-changer for your website. We offer -</p>
@@ -142,7 +142,7 @@ export default function BlogManagementServices() {
                     </div>
                     <div className="col-lg-4">
                         <div className="keyword-section ">
-                            <h3 className="customHeading custom-line-height">
+                            <h3 className="customHeading custom-line-height  fontWeight700">
                                 We create content that is interesting, compulsive, grabs <span className="text_red">attention</span> and <span className="text_red">highly</span> engaging</h3>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ export default function BlogManagementServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-4">
                         <div className="keyword-section ">
-                            <h3 className="customHeading text-right custom-line-height">
+                            <h3 className="customHeading text-right custom-line-height fontWeight700">
                                 We guarantee to take your brand to great heights with our <span className="text_red">reliable strategies</span> which are based upon your brand's requirements and goals</h3>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ export default function BlogManagementServices() {
                     </div>
                     <div className="col-lg-4">
                         <div className="keyword-section ">
-                            <h3 className="customHeading custom-line-height">
+                            <h3 className="customHeading custom-line-height fontWeight700">
                                 We always make certain that your company <span className="text_red">gets the exposure </span>it needs</h3>
                         </div>
                     </div>
@@ -212,7 +212,7 @@ export default function BlogManagementServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h3 className="customLineHeight2 fontHeading">
+                    <h3 className="customLineHeight2 fontHeading fontWeight700">
                         Are you ready to partner #1 blog management company in India for ultimate blogging solutions?</h3>
                     <p className="customText text-off-white">
                         #1 Agency for Social media marketing services in India with offices in Mumbai and Delhi.</p>

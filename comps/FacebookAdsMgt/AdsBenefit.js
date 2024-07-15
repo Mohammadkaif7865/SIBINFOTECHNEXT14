@@ -6,7 +6,7 @@ const AdsBenefit = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-6">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               Can My Business Benefit from{" "}
               <span className="text_red">Facebook Ads?</span>
             </h3>

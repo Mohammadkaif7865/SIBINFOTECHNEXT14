@@ -6,7 +6,7 @@ const DigitalMarketingAgency = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
-            <h4 className="heading fontHeading text-center fontWeight600">
+            <h4 className="heading fontHeading text-center fontWeight800">
               #1 Affordable{" "}
               <span className="text_light_blue fontWeight900">
                 Digital Marketing Agency in India

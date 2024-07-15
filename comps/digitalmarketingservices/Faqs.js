@@ -653,7 +653,7 @@ const Faqs = () => {
   return (
     <section className="faqsBg">
       <div className="containerFull">
-        <h3 className="sub_heading fontWeight500 text-white fontHeading">
+        <h3 className="sub_heading fontWeight700 text-white fontHeading">
           Do you have questions about working with Digital Marketing Agency in
           India? <br className="d-none d-lg-block" /> We’ve got your answers.
         </h3>

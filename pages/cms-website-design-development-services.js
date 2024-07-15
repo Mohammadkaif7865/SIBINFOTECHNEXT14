@@ -63,7 +63,7 @@ export default function CmsDevelopementServices() {
                 <div className="callAction px-0 px-lg-1">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="text-center fontHeading">
+                            <h4 className="text-center fontHeading fontWeight700">
                                 Web applications served by our developers using CMS</h4>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export default function CmsDevelopementServices() {
         <section>
             <div className="containerFull">
                 <div className="row justify-content-center">
-                    <h4 className="customHeading customLineHeight2 text-center">
+                    <h4 className="customHeading customLineHeight2 text-center fontWeight700">
                         8 reasons why business should choose <span>Content Management System?</span></h4>
                     <div className="row">
                         <div className="col-lg-3">
@@ -231,7 +231,7 @@ export default function CmsDevelopementServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h3 className="customLineHeight2 fontHeading">
+                            <h3 className="customLineHeight2 fontHeading fontWeight700   ">
                                 We are An Award Winning Digital Marketing Agency in India creating cutting edge innovative digital campaigns and providing exceptional digital marketing services</h3>
                             <Link href="/contact-us">Speak to our Experts </Link></div>
                     </div>

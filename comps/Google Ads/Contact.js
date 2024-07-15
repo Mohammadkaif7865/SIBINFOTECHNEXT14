@@ -50,7 +50,7 @@ const Contact = ({
               {isPBeforeH3 && (
                 <p className="customText text-white">{subheading}</p>
               )}
-              <h3 className="customHeading fontHeading contactTitle text-white">{heading}</h3>
+              <h3 className="customHeading fontHeading fontWeight700 contactTitle text-white">{heading}</h3>
               {!isPBeforeH3 && (
                 <p className="customText text-white">{subheading}</p>
               )}

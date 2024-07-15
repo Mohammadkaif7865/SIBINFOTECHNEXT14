@@ -50,7 +50,7 @@ export default function CustomWebsiteDesigningServices() {
                         &nbsp;</div>
                     <div className="col-md-10">
                         <div className="service-sub-title">
-                            <p className='fontHeading'>
+                            <p className='fontHeading fontWeight700'>
                                 SIB Infotech offers you an inexpensive custom website design solutions that are sharply purposeful on your trade goals and customized to fit your budget.</p>
                         </div>
                     </div>

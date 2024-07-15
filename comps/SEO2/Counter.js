@@ -60,7 +60,7 @@ const Counter = ({ targetValue }) => {
 
   return (
     <div ref={ref}>
-      {isVisible && <h2 id='stats-number' className='fontWeight600'>{Number.isInteger(targetValue) ? Math.round(count) : count.toFixed(1)}</h2>}
+      {isVisible && <h2 id='stats-number' className='fontWeight800'>{Number.isInteger(targetValue) ? Math.round(count) : count.toFixed(1)}</h2>}
     </div>
   );
 };

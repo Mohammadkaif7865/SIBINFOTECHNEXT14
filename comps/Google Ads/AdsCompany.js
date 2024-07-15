@@ -7,7 +7,7 @@ const AdsCompany = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-7">
-            <h2 className="customHeading  fontHeading">
+            <h2 className="customHeading  fontHeading fontWeight800">
               SIB Infotech - Top Rated{" "}
               <span class="text_red">Google Ads Company In India</span>
             </h2>

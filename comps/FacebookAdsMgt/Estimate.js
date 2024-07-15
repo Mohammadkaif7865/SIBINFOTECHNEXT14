@@ -33,7 +33,7 @@ const Estimate = () => {
           {[0, 1, 2].map((index) => (
             <div className="col-lg-4" key={index}>
               {index == 0 && (
-                <h3 className="customHeading text-white">
+                <h3 className="customHeading text-white fontWeight800">
                   Estimate requirements and set goals
                 </h3>
               )}

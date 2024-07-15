@@ -133,7 +133,7 @@ const Invest = () => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
-        <h3 className="customHeading mt-4 text-center">
+        <h3 className="customHeading mt-4 text-center fontWeight800">
           Invest in <span className="text_red">on-page SEO </span>services from
           SIB Infotech
         </h3>

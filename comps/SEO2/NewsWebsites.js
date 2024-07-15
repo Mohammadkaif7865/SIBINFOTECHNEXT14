@@ -127,7 +127,7 @@ const NewsWebsites = () => {
   return (
     <section>
       <div className="containerFull">
-        <h3 className="sub_heading fontWeight500 fontHeading">
+        <h3 className="sub_heading fontWeight800 fontHeading">
           We can Get Featured you on Top News Websites
         </h3>
         <div className="mt-3 row row-cols-2 row-cols-lg-5">

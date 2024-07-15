@@ -128,7 +128,7 @@ const BestCompany = () => {
           </div>
           <div className="col-lg-7 mt-lg-0 mt-4">
             <div className="ps-lg-4">
-              <h2 className="sub_heading fontHeading fontWeight600">
+              <h2 className="sub_heading fontHeading fontWeight800">
                 Best{" "}
                 <span className="text_red">
                   Digital Marketing Company in India

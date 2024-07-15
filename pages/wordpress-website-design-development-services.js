@@ -122,7 +122,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                             <img className="imgAnimation" src="assets/images/wordpress-development-company-in-delhi.svg" alt="Wordpress website design and development company"/></div>
                     </div>
                     <div className="col-lg-7 mt-lg-0 mt-3">
-                        <h4 className="customHeading customLineHeight">
+                        <h4 className="customHeading customLineHeight fontWeight700">
                             SIB <span className="text_red">WordPress Designing</span> Services</h4>
                         <ul className="bulletList">
                             <li>
@@ -165,7 +165,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="customLineHeight2 fontHeading ">
+                            <h4 className="customLineHeight2 fontHeading fontWeight700">
                                 #1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
                             <Link href="/contact-us">Speak to our experts </Link></div>
                     </div>

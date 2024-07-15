@@ -32,7 +32,7 @@ const TargetAudience = () => {
           {benefitItems.map((item, index) => (
             <div className="col-lg-6" key={index}>
               <div className="facebook-ads-benefit-box">
-                <h3 className="customHeading">{item.title}</h3>
+                <h3 className="customHeading fontWeight800">{item.title}</h3>
                 <p className="customText">{item.content}</p>
                 <ul className="facebook-ads-benefit-list">
                   {item.points.map((point, idx) => (

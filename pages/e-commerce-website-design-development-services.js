@@ -49,7 +49,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                         <div className="bgGrey spaceBg">
                             <p className="customText">
                                 Are you struggling to sell your product in a traditional shop?</p>
-                            <h4 className='fontHeading'>
+                            <h4 className='fontHeading fontWeight700'>
                                 Are you waiting for your customer who didn't turned up since ages?</h4>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                     <div className="col-lg-5 text-center">
                         <img className="imgFulll2 dropShadow imgAnimation" src="assets/images/ecommerce-website-company-in-delhi.svg" alt="E-Commerce Website Designing Company in India"/></div>
                     <div className="col-lg-6 offset-lg-1 pl-0">
-                        <h4 className="customHeading ml-10 customLineHeight">
+                        <h4 className="customHeading ml-10 customLineHeight fontWeight700">
                             Why <span className="text_red">Ecommerce website</span> is important for your brand?</h4>
                         <ul className="bulletList">
                             <li>
@@ -112,7 +112,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-lg-7">
-                        <h3 className="customHeading customLineHeight">
+                        <h3 className="customHeading customLineHeight fontWeight700">
                             What is <span className="text_red">E-commerce website?</span></h3>
                         <p className="customText">
                             E-commerce has changed the way businesses are runningglobally. Due to the increase in mobile and smartphones users, the global e-commerce market is expected to growexponentially. <strong>Electronic Commerce (E-Commerce)</strong> is a paperless exchange of business information via <strong>Electronic Data Interchange (EDI)</strong> and Internet related technologies.</p>

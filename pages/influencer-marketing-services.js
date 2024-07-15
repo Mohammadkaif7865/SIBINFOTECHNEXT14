@@ -27,7 +27,7 @@ export default function InfluencerMarketingServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700  fontHeading">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight700  fontHeading ">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Influencer Marketing</span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -46,7 +46,7 @@ export default function InfluencerMarketingServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h2 className="customHeading">
+                        <h2 className="customHeading fontWeight700">
                             SIB Infotech – A Full Service <span>Influencer Marketing Agency</span> In India</h2>
                         <p className="customText">
                             Influencers are considered to be the most reliable assets to create awareness and grow your brand on online or social media platforms via their social media handles, blogs or channels. The influencers have a huge mass of audience followers that can be leveraged by influencer marketing to create potential future customers for your business. To great a buzz for your brand you would need top influencers to make a noise which could be heard loud by your target audience.</p>
@@ -65,7 +65,7 @@ export default function InfluencerMarketingServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white  fontWeight700">
                                 We believe your success is our success</h3>
                             <p className="customText text-white">
                                 We believe in delivering top influencer marketing services with utmost perfection that has resulted in worldwide 750+ happy and satisfied clients.</p>
@@ -102,7 +102,7 @@ export default function InfluencerMarketingServices() {
                         </ul>
                     </div>
                     <div className="col-lg-8">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight700">
                             Why you need SIB Infotech <span className="text_red">Influencer Marketing Services?</span></h3>
                         <p className="customText">
                             Influencer marketing is the future in this digital world as it's the most authentic and consumer focused marketing that performs far better than paid ads because it build credibility for a brand via most followed people on the social media. Influencer marketing is an elite role-player in the social media marketing of your company/ brand to engage fresh onlookers and generate new leads. The benefits from influencer marketing are numerous to any business that wants to implement if for soaring its success to the sky.</p>
@@ -120,7 +120,7 @@ export default function InfluencerMarketingServices() {
                     <div className="col-lg-5">
                         <div className="leftDigiSer exPadding">
                             <div className="heading-section">
-                                <h2 className="customHeading text-white">
+                                <h2 className="customHeading text-white fontWeight700">
                                     Influencer Marketing Agency In India</h2>
                                 <p className="customText text-off-white">
                                     SIB Infotech is leading influencer marketing agency in India, representing top social media influencers on major social media platforms like Facebook, Instagram, Twitter, Vine, YouTube, and Snapchat, helping you find the right influencers for brands and reach millions of consumers.</p>
@@ -208,7 +208,7 @@ export default function InfluencerMarketingServices() {
                     </div>
                     <div className="col-lg-6">
                         <div className="keyword-section border-left">
-                            <h3 className="customHeading custom-line-height">
+                            <h3 className="customHeading custom-line-height fontWeight700">
                                 We make sure that all the <span className="text_red">Influencer Marketing</span> goals of your business are met with our <span className="text_red">Influencer Marketing advertising</span> strategies.</h3>
                             <p className="customText">
                                 Our experts build a detailed map of potential influencers that can help your business or brand to reach to the top steps of the market's success ladder.</p>
@@ -222,7 +222,7 @@ export default function InfluencerMarketingServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight700">
                                 Our team is available 24*7 for your help and support</h3>
                             <p className="customText text-white">
                                 We embed the best influencers to advertise for your company and make sure that you get 100% satisfaction in a short time. Our influencer marketing team provides you with consistent and crystal-clear performance reports so that you know that you are getting worthy yields from investing in us. Our team is available 24*7 for your help and support.</p>
@@ -237,7 +237,7 @@ export default function InfluencerMarketingServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight700">
                     Grow Your Business On Best <span className="text_red">Influencer Marketing </span>Platforms In India</h3>
                 <div className="row">
                     <div className="col-lg-3">
@@ -304,7 +304,7 @@ export default function InfluencerMarketingServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h3 className="customLineHeight2 fontHeading">
+                    <h3 className="customLineHeight2 fontHeading fontWeight700">
                         Are you ready to launch the best Influencer marketing campaign</h3>
                     <h3 className="customText text-off-white">
                         with the #1 Influencer Marketing Agency in India?</h3>
@@ -315,7 +315,7 @@ export default function InfluencerMarketingServices() {
         <section className="accordtab">
             <div className="containerFull">
                 <div className="webProces">
-                    <h3 className="text-center  fontHeading">Influencer Marketing <span className="text_red">FAQ?</span></h3>
+                    <h3 className="text-center  fontHeading fontWeight700">Influencer Marketing <span className="text_red">FAQ?</span></h3>
                 </div>
                 <div className="row mt-4">
                     <div className="col-lg-6">

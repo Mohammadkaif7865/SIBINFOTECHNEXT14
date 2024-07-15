@@ -5,12 +5,12 @@ const Strategy = () => {
   return (
     <section className="strategy">
       <div className="containerFull ">
-        <h1 className="text-center mb-5 sub_heading fontHeading fontWeight700">
+        <h1 className="text-center mb-5 sub_heading fontHeading fontWeight800">
           Most Effective SEO Practices & Strategy in 2024
         </h1>
         <div className="mt-4 ">
           <div className=" strategy_grid  ">
-            <div className="items odd d-flex gap-2 ">
+            <div className="items  d-flex gap-2 ">
               <div className="items_icon bg_sky">
                 <Image
                   width={50}
@@ -45,7 +45,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items odd   d-flex gap-2">
+            <div className="items    d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -81,7 +81,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex gap-2">
+            <div className="items   d-flex gap-2">
               <div className="items_icon bg_sky">
                 <Image
                   width={50}
@@ -118,7 +118,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex gap-2">
+            <div className="items d-flex gap-2">
               <div className="items_icon">
                 <Image
                   width={50}
@@ -153,7 +153,7 @@ const Strategy = () => {
                 </p>
               </div>
             </div>
-            <div className="items  odd d-flex gap-2">
+            <div className="items d-flex gap-2">
               <div className="items_icon bg_sky">
                 <Image
                   width={50}

@@ -117,7 +117,7 @@ const SeoTools2 = () => {
   return (
     <section className="">
       <div className="containerFull  ">
-        <h3 className="large_heading text-center fontHeading fontWeight600 fontHeading">
+        <h3 className="large_heading text-center  fontWeight800 fontHeading">
           Our White Label SEO Results
         </h3>
         <div className=" mt-5">
@@ -166,8 +166,7 @@ const SeoTools2 = () => {
                   </div>
                   <div className="slide_card_content">
                     <div className="slide_card_content_inner">
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        
+                      <h4 className=" fontWeight800 d-flex align-items-center   gap-2">
                         {/* <Image
                           className="h-auto"
                           width={40}
@@ -175,17 +174,45 @@ const SeoTools2 = () => {
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
                         /> */}
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
-
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="35.124"
+                          height="41.796"
+                          viewBox="0 0 35.124 41.796"
+                        >
+                          <g
+                            id="curve-down-arrow"
+                            transform="translate(31.971 46.796) rotate(180)"
+                            opacity="0.997"
+                          >
+                            <g
+                              id="Group_4930"
+                              data-name="Group 4930"
+                              transform="translate(-3.153 5)"
+                            >
+                              <path
+                                id="Path_14041"
+                                data-name="Path 14041"
+                                d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z"
+                                transform="translate(-4.847)"
+                                fill="#3979f8"
+                              ></path>
+                            </g>
+                          </g>
+                        </svg>
                         600%{" "}
                       </h4>
-                      <p className=" ">
-                        Organic <br/> Growth
+                      <p className="fontHeading ">
+                        Organic <br /> Growth
                       </p>
                     </div>
                     <div className="increments">
-                      <p><span className="text_red">400+ </span> Applications</p>
-                      <p><span className="text_red">270% </span> Clicks</p>
+                      <p className="fontHeading">
+                        <span className="text_red fontWeight700 ">400+ </span> Applications
+                      </p>
+                      <p className="fontHeading">
+                        <span className="text_red fontWeight700 ">270% </span> Clicks
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -204,8 +231,7 @@ const SeoTools2 = () => {
                   </div>
                   <div className="slide_card_content">
                     <div className="slide_card_content_inner">
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                        
+                      <h4 className=" fontWeight800 d-flex align-items-center   gap-2">
                         {/* <Image
                           className="h-auto"
                           width={40}
@@ -213,17 +239,45 @@ const SeoTools2 = () => {
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
                         /> */}
-                         <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
-
-                         400%
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="35.124"
+                          height="41.796"
+                          viewBox="0 0 35.124 41.796"
+                        >
+                          <g
+                            id="curve-down-arrow"
+                            transform="translate(31.971 46.796) rotate(180)"
+                            opacity="0.997"
+                          >
+                            <g
+                              id="Group_4930"
+                              data-name="Group 4930"
+                              transform="translate(-3.153 5)"
+                            >
+                              <path
+                                id="Path_14041"
+                                data-name="Path 14041"
+                                d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z"
+                                transform="translate(-4.847)"
+                                fill="#3979f8"
+                              ></path>
+                            </g>
+                          </g>
+                        </svg>
+                        400%
                       </h4>
-                      <p className="">
-                      Organic <br/> Growth
+                      <p className="fontHeading fontWeight700">
+                        Organic <br /> Growth
                       </p>
                     </div>
                     <div className="increments">
-                      <p><span className="text_red">345+ </span> Impression</p>
-                      <p><span className="text_red">280% </span> Clicks</p>
+                      <p className="fontHeading  ">
+                        <span className="text_red  fontWeight700">345+ </span> Impression
+                      </p>
+                      <p className="fontHeading ">
+                        <span className="text_red fontWeight700 ">280% </span> Clicks
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -242,8 +296,7 @@ const SeoTools2 = () => {
                   </div>
                   <div className="slide_card_content">
                     <div className="slide_card_content_inner">
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
-                       
+                      <h4 className=" fontWeight800 d-flex align-items-center   gap-2">
                         {/* <Image
                           className="h-auto"
                           width={40}
@@ -251,17 +304,46 @@ const SeoTools2 = () => {
                           src={"/assets/images/icons/seo-result/rise.png"}
                           alt="rnb"
                         /> */}
-                         <svg xmlns="http://www.w3.org/2000/svg" width="35.124" height="41.796" viewBox="0 0 35.124 41.796"><g id="curve-down-arrow" transform="translate(31.971 46.796) rotate(180)" opacity="0.997"><g id="Group_4930" data-name="Group 4930" transform="translate(-3.153 5)"><path id="Path_14041" data-name="Path 14041" d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z" transform="translate(-4.847)" fill="#3979f8"></path></g></g></svg>
-
-                         230%
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="35.124"
+                          height="41.796"
+                          viewBox="0 0 35.124 41.796"
+                        >
+                          <g
+                            id="curve-down-arrow"
+                            transform="translate(31.971 46.796) rotate(180)"
+                            opacity="0.997"
+                          >
+                            <g
+                              id="Group_4930"
+                              data-name="Group 4930"
+                              transform="translate(-3.153 5)"
+                            >
+                              <path
+                                id="Path_14041"
+                                data-name="Path 14041"
+                                d="M12.439,29.56H4.847L17.085,41.8,29.32,29.56h-7.68c1.085-14.419,8.6-26.067,18.332-28.9A16.429,16.429,0,0,0,35.373,0C23.478,0,13.688,12.938,12.439,29.56Z"
+                                transform="translate(-4.847)"
+                                fill="#3979f8"
+                              ></path>
+                            </g>
+                          </g>
+                        </svg>
+                        230%
                       </h4>
-                      <p className="">
-                      Organic <br/> Growth
+                      <p className="fontWeight700 fontHeading">
+                        Organic <br /> Growth
                       </p>
                     </div>
                     <div className="increments">
-                      <p><span className="text_red">300+</span> Impression</p>
-                      <p> <span className="text_red">270%</span> Clicks</p>
+                      <p className="fontHeading ">
+                        <span className="text_red fontWeight700 ">300+</span> Impression
+                      </p>
+                      <p className="fontHeading ">
+                        {" "}
+                        <span className="text_red fontWeight700 ">270%</span> Clicks
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -280,12 +362,12 @@ const SeoTools2 = () => {
                       src={value.src}
                       alt="loading"
                     /> */}
-                    <div className="text-center fontWeight600 h3 d-flex justify-content-center align-items-center gap-1   fontWeight500">
+                    <div className="text-center fontWeight700 h3 d-flex justify-content-center align-items-center gap-1   fontWeight500">
                       <Counter targetValue={value.targetValue} />{" "}
                       {value.ranking}
                     </div>
                     <p
-                      className=" text-center mt-2"
+                      className=" text-center mt-2 fontWeight600"
                       style={{ fontSize: "15px" }}
                     >
                       {value.title}
@@ -303,7 +385,7 @@ const SeoTools2 = () => {
       <div className="containerFull">
         <div className="row mt-5">
           <div className="col-lg-12">
-            <h3 className="sub_heading fontWeight500 fontHeading mt-4">
+            <h3 className="sub_heading fontWeight800 fontHeading mt-4">
               Some of the Best SEO Tools for Auditing & Monitoring Effective SEO
               used by us.
             </h3>

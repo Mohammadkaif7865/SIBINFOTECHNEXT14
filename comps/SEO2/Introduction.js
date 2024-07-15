@@ -8,7 +8,7 @@ const Introduction = () => {
         <div className="row">
           <div className="col-lg-5">
             <div className="rightPPC">
-              <h2 className="sub_heading fontHeading fontWeight600">
+              <h2 className="sub_heading fontHeading fontWeight800 ">
               Your Local 
                 <span className="text_red"> SEO Company In India</span> 
               </h2>
@@ -42,7 +42,7 @@ const Introduction = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>Average 217% Increase in Oraganic Traffic</h4>
+                  <h4 className="fontWeight800 fontHeading">Average 217% Increase in Oraganic Traffic</h4>
                   <p>
                     Watch your analytics soar as you collect more clicks than
                     ever before.
@@ -59,7 +59,7 @@ const Introduction = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>Average 244% Increase in CTR</h4>
+                  <h4 className="fontWeight800 fontHeading">Average 244% Increase in CTR</h4>
                   <p>
                     Gain the attation from those  who are truely reday to take action with your brand.
                   </p>
@@ -75,7 +75,7 @@ const Introduction = () => {
                   />
                 </div>
                 <div className="content">
-                  <h4>Average 315% Increase in New User</h4>
+                  <h4 className="fontWeight800 fontHeading">Average 315% Increase in New User</h4>
                   <p>
                     Get more bang for your buck with Campaigns that eleminate budget wastage 
                   </p>

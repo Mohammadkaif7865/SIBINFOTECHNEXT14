@@ -52,7 +52,7 @@ const WebsiteDesignServices = () => {
                           alt={item.title}
                         />
                       </div>
-                      <h4 className="fontHeading small_heading fontWeight600">
+                      <h4 className="fontHeading small_heading fontWeight800">
                         {item.title}
                       </h4>
                       <p>{item.description}</p>
@@ -78,7 +78,7 @@ const WebsiteDesignServices = () => {
                 alt="Writing Programme"
               />
               <h5 className="small_head  text_red mt-4">We're offering</h5>
-              <h4 className="regular_heading fontWeight700 mt-2 fontHeading">
+              <h4 className="regular_heading fontWeight800 mt-2 fontHeading">
                 Website Design Services
               </h4>
               <p className="mt-3">

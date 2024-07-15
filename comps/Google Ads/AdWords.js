@@ -150,7 +150,7 @@ const AdWords = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h2 className="customHeading fontHeading customLineHeight">
+            <h2 className="customHeading fontHeading customLineHeight fontWeight800">
               Get The Leads With Certified{" "}
               <span className="text_red">
                 Google AdWords Service Provider India
@@ -189,7 +189,7 @@ const AdWords = () => {
             <div className="col-lg-3" key={columnIndex}>
               <ul className="instagram-list">
                 {column.map((item, itemIndex) => (
-                  <li className="customText" key={itemIndex}>
+                  <li className="customText fontWeight600" key={itemIndex}>
                     {item}
                   </li>
                 ))}

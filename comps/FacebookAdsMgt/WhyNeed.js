@@ -8,7 +8,7 @@ const WhyNeed = () => {
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-6">
-              <h3 className="customHeading">
+              <h3 className="customHeading fontWeight800">
                 What is a <span>Facebook Advertising</span> Agency &amp; Why Do
                 You Need One?
               </h3>

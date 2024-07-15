@@ -8,7 +8,7 @@ const Help = ({ heading, linkTitle, linkDestination }) => {
         <div className="row align-items-center">
           <div className="col-lg-9">
             <div className="leftAction">
-              <h4 className="sub_heading text-white fontHeading fontWeight500">
+              <h4 className="sub_heading text-white fontHeading fontWeight800">
                 {heading}
               </h4>
             </div>

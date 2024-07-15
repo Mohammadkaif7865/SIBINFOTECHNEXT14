@@ -21,7 +21,7 @@ const HowWorks = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               How Does SIB Infotech{" "}
               <span className="text_red">Facebook Ads Management</span> Works?
             </h3>

@@ -27,7 +27,7 @@ export default function OffPageSeoServices() {
         			</div>
                     <div className="col-lg-5 d-none d-lg-block pe-lg-5">
                         <div className="bannerForm">
-                            <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
+                            <h4 className="small_heading  fontWeight800">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">OFF Page SEO  </span> Company in India</strong></p>
                             <BannerForm/>
                         </div>
@@ -60,7 +60,7 @@ export default function OffPageSeoServices() {
         </section>
         <section className="customPadding bgGrey">
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight800">
                     <span className="text_red">Off page SEO </span>services</h3>
                 <p className="customText text-center">
                     The off-page SEO factors are a great trust builder to the search engines. Without off-page optimization, your page cannot attain the top ranks of the search engines and make it worthwhile for the audience.</p>
@@ -70,7 +70,7 @@ export default function OffPageSeoServices() {
                             <div className="off-page-seo-box-heading">
                                 <div className="img-circle">
                                     <img src="assets/images/icons/off-page-seo-link-building.svg" alt="off-page-seo-link-building"/></div>
-                                <h4>
+                                <h4 >
                                     Link building</h4>
                             </div>
                             <p className="customText">
@@ -136,7 +136,7 @@ export default function OffPageSeoServices() {
                     <div className="col-lg-7">
                         <h5 className="text-off-white text-center margin-bottom">
                             Our strategy</h5>
-                        <h3 className="customHeading text-center text-white">
+                        <h3 className="customHeading text-center text-white fontWeight800">
                             off-page SEO strategy</h3>
                         <p className="customText text-center text-off-white">
                             takes your brand to the top shelves of the digital world. With our expertise, experience, and excellence, we can help your brand reach the heights of the market in no time.</p>
@@ -153,8 +153,8 @@ export default function OffPageSeoServices() {
             <div className="containerFull">
                 <div className="row align-items-center">
                     <div className="col-lg-5">
-                        <h3 className="customHeading">
-                            Why is <span classNameName="text_red">Off-Page SEO</span> important?</h3>
+                        <h3 className="customHeading fontWeight800">
+                            Why is <span classNameName="text_red ">Off-Page SEO</span> important?</h3>
                         <p className="customText text-justify">
                             Off-page SEO services are action performed outside your website after it goes live which would impact your rankings within the search results. Off-page SEO deals with the external links that direct traffic to your website organically, also known as 'backlinks' and this plays a very important role in link building. Off-page optimization deals with regulating the backlinks on other publisher's pages including blogs, which leads to building a reliable spot on the search engine and the website rankings are set to the sky.</p>
                         <p className="customText text-justify">
@@ -228,7 +228,7 @@ export default function OffPageSeoServices() {
         <section className="customPadding blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h3 className="text-white">
+                    <h3 className="text-white fontWeight600">
                         We believe in delivering service with the perfection that leads to worldwide 750+ happy clients</h3>
                     <p className="customText text-off-white">
                         We ensure that your brand gets the desired exposure it needs.</p>
@@ -290,7 +290,7 @@ export default function OffPageSeoServices() {
                         </div>
                     </div>
                     <div className="col-lg-7">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight800">
                             Increase Ranking from SIB <span className="text_red"> Off-Page SEO</span> services</h3>
                         <p className="customText">
                             We offer the best services that you can get for off-page optimization of your website. Building links if the ultimate key in off- page optimization and we build 100% spam free quality backlinks to website which have high quality relevant content.</p>
@@ -311,7 +311,7 @@ export default function OffPageSeoServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h3>
+                            <h3 className='fontWeight800'>
                                 Are you ready to launch the #1 Off-page SEO strategy with the #1 SEO agency in INDIA?</h3>
                             <Link href="/contact-us">Speak to our Experts</Link></div>
                     </div>

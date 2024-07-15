@@ -87,7 +87,7 @@ const PpcPlatform = () => {
   return (
     <section className="blueBg">
       <div className="containerFull">
-        <h4 className="customHeading text-center text-white">
+        <h4 className="customHeading fontWeight700 text-center text-white">
           At SIB Infotech we can help you reach your target audience via Major
           Pay Per Click Platform
         </h4>

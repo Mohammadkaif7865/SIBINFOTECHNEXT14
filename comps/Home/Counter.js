@@ -38,7 +38,7 @@ const Counter = () => {
               <h5 className="title">
                 DIGITAL MARKETING & WEB AGENCY MUMBAI, DELHI
               </h5>
-              <h4 className="sub_heading fontHeading fontWeight700 mt-3">
+              <h4 className="sub_heading fontHeading fontWeight800 mt-3">
                 We are as <span className="titleHighlight">STRONG</span> as YOU{" "}
                 <br />
                 Make us
@@ -79,7 +79,7 @@ const Counter = () => {
           </div>
           <div className="col-lg-5">
             <div className="rightServices">
-              <h4 className="sub_heading text-center fontHeading fontWeight700">
+              <h4 className="sub_heading text-center fontHeading fontWeight800">
                 Website design and development getting real results
               </h4>
               <p className="title mt-4 text-center">

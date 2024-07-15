@@ -6,7 +6,7 @@ const Launchcampaign = () => {
     <section className="blueBg2">
       <div className="containerFull">
         <div className="callAction">
-          <h4 className="customLineHeight2">
+          <h4 className="customLineHeight2 fontWeight800">
             Are you ready to launch your Facebook Advertising campaign
           </h4>
           <p className="customText text-off-white">

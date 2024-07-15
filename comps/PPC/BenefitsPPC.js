@@ -5,7 +5,7 @@ const BenefitsPPC = () => {
   return (
     <section>
       <div className="containerFull">
-        <h3 className="customHeading text-center">
+        <h3 className="customHeading text-center fontWeight800">
           Benefits of <span className="text_red">PPC Ads</span>
         </h3>
         <div className="row marginTop2">

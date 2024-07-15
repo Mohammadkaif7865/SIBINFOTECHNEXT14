@@ -20,7 +20,7 @@ const WhyChoose = () => {
           </div>
           <div className="col-lg-7">
             <div className="rightSeoCompany">
-              <h4 className="sub_heading fontHeading">
+              <h4 className="sub_heading fontHeading fontWeight800">
                 We are more than just a SEO Company
               </h4>
               <p className="mt-3">

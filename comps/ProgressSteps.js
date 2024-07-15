@@ -31,11 +31,11 @@ export default function ProgressSteps() {
             <div className="taBpro">
                 <div className={activeStep === "discovery" ? "discovery active" : "discovery"}>
                     <div className="section-content">
-                        <h3 className="customHeading text-center">
+                        <h3 className="customHeading text-center fontWeight800">
                             <span className="text_red">Analysis</span></h3>
                         <div className="row mt-4">
                             <div className="col-lg-6">
-                                <h4 className="text-center">
+                                <h4 className="text-center fontWeight700">
                                     On-Page Analysis</h4>
                                 <ul>
                                     <li className="customText">
@@ -53,7 +53,7 @@ export default function ProgressSteps() {
                                 </ul>
                             </div>
                             <div className="col-lg-6">
-                                <h4  className="text-center">
+                                <h4  className="text-center fontWeight700">
                                     Off-Page Analysis</h4>
                                 <ul>
                                     <li className="customText">
@@ -69,7 +69,7 @@ export default function ProgressSteps() {
                 </div>
                 <div className={activeStep === "strategy" ? "strategy active" : "strategy"}>
                     <div className="section-content">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight700">
                             <span className="text_red">Planning</span> and <span className="text_red">Developing</span> the strategy</h3>
                         <div className="row mt-4">
                             <div className="col-lg-12">
@@ -91,7 +91,7 @@ export default function ProgressSteps() {
                 </div>
                 <div className={activeStep === "creative" ? "creative active" : "creative"}>
                     <div className="section-content">
-                        <h3 className="customHeading"><span className="text_red">Implementation</span></h3>
+                        <h3 className="customHeading fontWeight700"><span className="text_red">Implementation</span></h3>
                         <div className="row mt-4">
                             <div className="col-lg-12">
                                 <ul>
@@ -104,7 +104,7 @@ export default function ProgressSteps() {
                 </div>
                 <div className={activeStep === "production" ? "production active" : "production"}>
                     <div className="section-content">
-                        <h3 className="customHeading"><span className="text_red">Management</span></h3>
+                        <h3 className="customHeading fontWeight700"><span className="text_red">Management</span></h3>
                         <div className="row mt-4">
                             <div className="col-lg-12">
                                 <ul>

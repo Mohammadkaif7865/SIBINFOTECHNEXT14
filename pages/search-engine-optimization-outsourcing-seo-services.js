@@ -118,7 +118,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-4 leftDigiSer">
                         <div className="heading-section">
-                            <h3 className="customHeading text-white customLineHeight f-col">
+                            <h3 className="customHeading text-white customLineHeight f-col fontWeight700">
                                 Benefits of choosing SIB as Outsourcing SEO Services company in India</h3>
                         </div>
                     </div>
@@ -195,7 +195,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
         </section>
         <section className="customPadding bgGrey">
             <div className="containerFull">
-                <h3 className="customHeading mt-4 text-center">
+                <h3 className="customHeading mt-4 text-center fontWeight700">
                     Our White Label <span className="text_red">SEO Reseller Program</span> Highlights</h3>
                 <p className="customText text-center">
                     Our White label SEO Outsourcing program assures 100% privacy as we are not the direct medium of your client. Our services just not bring traffic to the website, but we bring the right traffic to the website via our white-hat SEO techniques. We always make sure that we follow the NDA guidelines.</p>
@@ -254,7 +254,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-7">
                         <div className="section-4-left text-center">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight700">
                                 We believe in delivering service with the perfection</h3>
                             <p className="customText text-white">
                                 that leads to worldwide 750+ happy clients</p>
@@ -269,7 +269,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h3 class="customHeading text-center">SIB <span className="text_red">White Label SEO</span> Campaign Process</h3>
+                <h3 class="customHeading text-center fontWeight700">SIB <span className="text_red">White Label SEO</span> Campaign Process</h3>
                 <ProgressSteps/>
             </div>
         </section>
@@ -278,7 +278,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-7">
                         <div className="section-4-left">
-                            <h3 className="customHeading text-center text-white">
+                            <h3 className="customHeading text-center text-white fontWeight800">
                                 We offer highly effective white-hat SEO Reseller Programs</h3>
                             <p className="customText text-center text-white">
                                 We offer highly effective white-hat SEO Reseller Programs</p>

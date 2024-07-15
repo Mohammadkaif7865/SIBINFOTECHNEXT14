@@ -553,10 +553,10 @@ const GoogleAdsMgt = () => {
       <section className="blueBg2">
         <div className="containerFull">
           <div className="callAction">
-            <h4 className="customLineHeight2 fontHeading">
+            <h4 className="customLineHeight2 fontHeading fontWeight700">
               Are you ready to partner with #1 Google AdWords &amp;
             </h4>
-            <h3 className="customLineHeight">
+            <h3 className="customLineHeight fontWeight700">
               PPC Management Company in India for ultimate Google advertising
               services and solutions?
             </h3>

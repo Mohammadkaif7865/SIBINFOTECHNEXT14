@@ -114,7 +114,7 @@ const SpecializedServices = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-10">
-            <h3 className="sub_heading text-white fontWeight500 fontHeading">
+            <h3 className="sub_heading text-white fontWeight800 fontHeading">
               Our Specialized Digital Marketing Services:
             </h3>
           </div>

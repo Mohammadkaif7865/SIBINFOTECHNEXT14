@@ -166,7 +166,7 @@ export default function WebDevelopmentServices() {
       </div>
       <section>
         <div className="containerFull">
-          <h2 className="customHeading text-center fontHeading">
+          <h2 className="customHeading text-center fontHeading fontWeight700">
             Most Trusted <span>Web development Company In India</span>
           </h2>
           <p className="customText">
@@ -228,7 +228,7 @@ export default function WebDevelopmentServices() {
           )}
           <div className="text-center">
             <button
-              className="moreless-button text-center text_red"
+              className="moreless-button text-center text_red fontWeight700"
               onClick={toggleReadMoreLess}
             >
               {isShowMore ? "Read Less" : "Read More"}
@@ -240,7 +240,7 @@ export default function WebDevelopmentServices() {
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-3">
-              <h3 className="customHeading">
+              <h3 className="customHeading fontWeight700">
                 Invigorate Your Business DNA With Our{" "}
                 <span className="text_red">
                   Website Development &amp; UX Designs
@@ -372,7 +372,7 @@ export default function WebDevelopmentServices() {
           <div className="row">
             <div className="col-lg-8">
               <div className="section-4-left">
-                <h3 className="customHeading text-center text-white">
+                <h3 className="customHeading text-center text-white fontWeight700">
                   Want a design that works for your business?
                 </h3>
               </div>
@@ -394,7 +394,7 @@ export default function WebDevelopmentServices() {
           <div className="row">
             <div className="col-lg-4">
               <div className="leftDigiSer f-col">
-                <h3 className="customHeading text-white customLineHeight">
+                <h3 className="customHeading text-white customLineHeight fontWeight700">
                   Responsive And Highly Interactive Front End Web Development
                   Services
                 </h3>
@@ -529,7 +529,7 @@ export default function WebDevelopmentServices() {
       </section>
       <section className="bgGrey text-center">
         <div className="containerFull">
-          <h3 className="customHeading text-center">
+          <h3 className="customHeading text-center fontWeight700">
             <span>
               Our Expert Back End <span>Web Development Services</span> With
               Enhanced Stability
@@ -699,7 +699,7 @@ export default function WebDevelopmentServices() {
           <div className="row">
             <div className="col-lg-8">
               <div className="section-4-left text-center">
-                <h3 className="customHeading text-white">
+                <h3 className="customHeading text-white fontWeight700">
                   Multi-Tier API Web Development Services
                 </h3>
                 <p className="customText text-white">
@@ -724,7 +724,7 @@ export default function WebDevelopmentServices() {
           <div className="row">
             <div className="col-lg-5">
               <div className="stickyItem">
-                <h3 className="customHeading margin-left">
+                <h3 className="customHeading margin-left fontWeight700">
                   Affordable{" "}
                   <span className="text_red">QA Testing Services </span>In India
                 </h3>
@@ -902,7 +902,7 @@ export default function WebDevelopmentServices() {
               />
             </div>
             <div className="col-lg-6">
-              <h3 className="customHeading">
+              <h3 className="customHeading fontWeight700">
                 <span className="text_red">Highly Reliable, Secured</span> And{" "}
                 <span className="text_red">Scalable Database Development</span>
               </h3>
@@ -950,7 +950,7 @@ export default function WebDevelopmentServices() {
       </section>
       <section className="bgGrey">
         <div className="containerFull">
-          <h3 className="customHeading text-center">
+          <h3 className="customHeading text-center fontWeight700">
             Our <span className="text_red">Website Development Packages</span>,
             Plans And Pricing
           </h3>
@@ -986,7 +986,7 @@ export default function WebDevelopmentServices() {
       <section className="blueBg2 position-relative">
         <div className="containerFull">
           <div className="callAction">
-            <h4 className="customLineHeight2 fontHeading">
+            <h4 className="customLineHeight2 fontHeading fontWeight700">
               A Best Website Development Company In India
             </h4>
             <p className="customText text-center  mb-0 text-off-white">

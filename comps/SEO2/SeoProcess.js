@@ -9,7 +9,7 @@ const ProcessStep = ({ number, color, title, items }) => (
       <div className="numberRight">
         <div className="processHeader">
           <h4
-            className={`small_heading text_${color} fontHeading fontWeight600`}
+            className={`small_heading text_${color} fontHeading fontWeight800`}
           >
             {title}
           </h4>
@@ -80,7 +80,7 @@ const SeoProcess = () => {
             How to Create an Effective Winning SEO Strategy in{" "}
             {new Date().getFullYear()}
           </h3>
-          <h4 className="sub_heading fontHeading fontWeight600">
+          <h4 className="sub_heading fontHeading fontWeight800">
             Our 4 Step SEO Process Key to SEO Success.
           </h4>
         </div>

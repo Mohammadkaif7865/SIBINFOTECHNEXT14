@@ -168,7 +168,7 @@ const MarketingTools = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-12">
-            <h3 className="sub_heading fontWeight500 fontHeading">
+            <h3 className="sub_heading fontWeight800 fontHeading">
               Some of the Best Digital Marketing Tools
             </h3>
           </div>

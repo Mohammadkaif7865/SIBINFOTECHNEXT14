@@ -116,7 +116,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-2">
               <div className="leftFooterForm">
-                <h4 className="small_heading">Get a Free Quote</h4>
+                <h4 className="small_heading fontHeading fontWeight700">Get a Free Quote</h4>
               </div>
             </div>
             <div className="col-lg-10">
@@ -171,8 +171,8 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 px-0 px-lg-2">
               <div className="firstColumn position-relative text-center">
-                <h4 className="sub_heading text_white fontHeading">
-                  <i className="fa fa-mobile-alt pe-3 text_red"></i> Let's Talk
+                <h4 className="sub_heading text_white fontHeading fontWeight800">
+                  <i className="fa fa-mobile-alt pe-3 text_red "></i> Let's Talk
                 </h4>
                 <Link
                   href="tel:+91-92222-60000"
@@ -199,7 +199,7 @@ export default function Footer() {
                     <div className="row">
                       <div className="col-lg-3">
                         <div className="footerColumn">
-                          <h4 className="fontHeading">Internet Marketing</h4>
+                          <h4 className="fontHeading ">Internet Marketing</h4>
                           <ul>
                             <li>
                               <Link href="/social-media-optimization-services">

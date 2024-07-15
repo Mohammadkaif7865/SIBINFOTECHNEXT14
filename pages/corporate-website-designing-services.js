@@ -14,7 +14,7 @@ export default function CorporateWebsiteDesigningServices() {
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
-			        <div className="col-lg-7 ps-lg-5">
+			        <div className="col-lg-7 ps-lg-5 ">
     					<div className="innerBannerTitle venter">
     						<h1 className="heading fontWeight700 text-white fontHeading">Corporate Website Designing Services</h1>
     						<h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">Best Website Designing Company in India</h2>
@@ -24,7 +24,7 @@ export default function CorporateWebsiteDesigningServices() {
     						</div>
     					</div>
         			</div>
-                    <div className="col-lg-5 pe-lg-5 d-none dmd-block">
+                    <div className="col-lg-5 pe-lg-5 d-none d-zmd-block">
                         <div className="bannerForm">
                             <h4 className="small_heading  fontWeight700 fontHeading">Accelerate Your Business Growth</h4>
                             <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Corporate Website Designing</span> Company in India</strong></p>
@@ -65,7 +65,7 @@ export default function CorporateWebsiteDesigningServices() {
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 pl-0">
-                        <h4 className="customHeading mt-lg-0 mt-4 customLineHeight">How to check whether <span className="text_red">your business website</span> is up to the mark or not?</h4>
+                        <h4 className="customHeading mt-lg-0 mt-4 customLineHeight fontWeight700">How to check whether <span className="text_red">your business website</span> is up to the mark or not?</h4>
                         <div className="businessListing">
                             <div className="itemBusinesList">
                                 <div className="iconBusines">
@@ -117,7 +117,7 @@ export default function CorporateWebsiteDesigningServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h4 className="customHeading text-center">Why Choose <span className="text_red">SIB Infotech</span></h4>
+                <h4 className="customHeading text-center fontWeight700">Why Choose <span className="text_red">SIB Infotech</span></h4>
                 <div className="customRow font">
                     <div className="columnRow whyItemHeight">
                         <div className="iconDigiServ">
@@ -172,7 +172,7 @@ export default function CorporateWebsiteDesigningServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="customLineHeight2 fontHeading">#1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
+                            <h4 className="customLineHeight2 fontHeading fontWeight700">#1 Agency for Corporate Website Designing and Development in India with office in Mumbai and Delhi.</h4>
                             <Link href="#">Speak to our experts </Link>
                         </div>
                     </div>

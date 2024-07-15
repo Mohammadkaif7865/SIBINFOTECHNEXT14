@@ -48,7 +48,7 @@ export default function ResponsiveWebsiteDesigningServices() {
                     <div className="col-md-5">
                         <img className="image-full imgAnimation" src="assets/images/responsive-website-designing.svg" alt="Responsive website designing services"/></div>
                     <div className="col-md-7 mt-4 mt-lg-0">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading  fontWeight700">
                             Make sure you have a <span className="text_red">Responsive Web Design!</span></h3>
                         <p className="customText">
                             A responsive website design means massive increase in the number of visitors on the website. Moreover, it would lead to higher amount of customers and leads for follows ups and conversions.In fact, a huge amount of web users have moved to mobile devices like smartphones, tablets as it is more convenient to access the internet and it saves a lot of time and efforts of an individual. In this situation, a website, failing to be responsive on such devices; could be disastrous to the business firm. So it has become mandatory for all website to be responsive on all devices be it desktop, mobile or tablet so as user engagement is not an issue.</p>
@@ -58,7 +58,7 @@ export default function ResponsiveWebsiteDesigningServices() {
         </section>
         <section className="bgGrey">
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight700">
                     Advantages of <span className="text_red">responsive website design</span></h3>
                 <div className="row">
                     <div className="col-lg-3">
@@ -140,7 +140,7 @@ export default function ResponsiveWebsiteDesigningServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-md-7">
-                        <h3 className="customHeading text-white">
+                        <h3 className="customHeading text-white fontWeight700">
                             We are here for you...</h3>
                         <p className="customText text-off-white">
                             Website design is not just simply creating pretty layouts for the website but it also involves great skills to enable a website work efficiently. SIB Infotech is leading website designing and development companyin India, providing responsive web designs and developing websites using latest technologies to make itcompatible withall devices like mobiles, smartphones, tablets, laptops and computers. We developweb designs that are compatible with different screen resolutions and provide user-friendlyexperience. With a group of experienced graphic &amp; web designers we handle and create new web development projects carefully that haveuser friendlyand responsive layout in all devices creating a great user experience.</p>
@@ -152,7 +152,7 @@ export default function ResponsiveWebsiteDesigningServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight700">
                     Our <span className="text_red">Website Designing</span> Services Include</h3>
                 <p className="customText text-center">
                     Our company designs and develops latest responsive websites in India Keeping in mind the following parameters which are very important for every website.</p>
@@ -203,7 +203,7 @@ export default function ResponsiveWebsiteDesigningServices() {
         <section className="blueBg2">
             <div className="containerFull">
                 <div className="callAction">
-                    <h4 className="customLineHeight fontHeading">
+                    <h4 className="customLineHeight fontHeading fontWeight700">
                         Are you ready to partner #1 responsive website designing company in India?</h4>
                     <p className="customText text-white">
                         Our team of experienced website designers are ready to provide you with a FREE Consultation to get it started</p>

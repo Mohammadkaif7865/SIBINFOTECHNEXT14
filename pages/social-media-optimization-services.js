@@ -15,7 +15,7 @@ export default function SocialMediaOptimizationServices() {
                     <div className="row">
                         <div className="col-lg-7 ps-lg-5">
                             <div className="innerBannerTitle venter">
-                                <h1 className="heading fontWeight700 text-white fontHeading ">Social Media Optimization Services</h1>
+                                <h1 className="heading fontWeight700 text-white fontHeading  ">Social Media Optimization Services</h1>
                                 <h2 className="small_heading fw-bold mt-3 text-white">Top Rated SEO Company in India</h2>
                                 <div className="mt-4">
                                     <Link href="#">
@@ -81,7 +81,7 @@ export default function SocialMediaOptimizationServices() {
                         <div className="row">
                             <div className="col-md-8 order-lg-1 order-2 mt-3 mt-lg-0">
                                 <div className="rightDiff">
-                                    <h5 className="redText fontHeading">We focus on the following aspects of Social Media Optimization</h5>
+                                    <h5 className="redText fontHeading fontWeight700">We focus on the following aspects of Social Media Optimization</h5>
                                     <ul className="fullList">
                                         <li className="redBullet">Increasing your linkability through fresh,informative and eye catching content</li>
                                         <li className="blueBullet">Making tagging and bookmarking easy through implementation of Social Bookmarking buttons on your blogs and important pages</li>

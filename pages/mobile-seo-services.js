@@ -77,7 +77,7 @@ export default function MobileSeoServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-4 leftDigiSer">
                         <div className="heading-section">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight800">
                                 Why Mobile SEO is important?</h3>
                             <p className="customText text-off-white">
                                 Mobile SEO tools are game-changers in the online world, it can take you to the leading shelves of the industry when executed and maintained efficiently.</p>
@@ -137,7 +137,7 @@ export default function MobileSeoServices() {
         </section>
         <section className="customPadding">
             <div className="containerFull">
-                <h3 className="customHeading text-center">
+                <h3 className="customHeading text-center fontWeight800">
                     How to make an Impact with a successful <span className="text_red">Mobile SEO</span> Strategy?</h3>
                 <p className="customText text-center">
                     The efficiency and working of your website on mobile phones are affected by various Mobile SEO elements. These elements or factors are responsible for search engine rankings, search visibility, and optimal user experience. SEO experts at SIB make sure that your page is well-optimized and no affecting key factor is left unattended. We follow some Best Practices for Mobile SEO which are listed below.</p>
@@ -263,7 +263,7 @@ export default function MobileSeoServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight800">
                             Go Mobile-ready with our <span className="text_red">Mobile SEO</span> services</h3>
                         <p className="customText">
                             Experts at SIB have deep knowledge about mobile websites and applications, they optimize your content and site experience to engage huge traffic and yield desirable SEO results. Our mobile SEO service ensures that all the key contributing factors of your website are efficiently maintained to acquire 100% positive results.</p>
@@ -271,7 +271,7 @@ export default function MobileSeoServices() {
                     </div>
                     <div className="col-lg-6">
                         <div className="row">
-                            <h4 className="customSubHeading">
+                            <h4 className="customSubHeading fontWeight800">
                                 Our Mobile SEO Services include:</h4>
                             <div className="col-lg-6 mobile-seo-servives-list">
                                 <ul>
@@ -323,7 +323,7 @@ export default function MobileSeoServices() {
                 <div className="callAction">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
-                            <h4 className="text-white">
+                            <h4 className="text-white fontWeight700">
                                 Are you ready to lead the SERPs with your Mobile website?</h4>
                             <p className="customText text-off-white">
                                 Hire us to get your website on the first page of Google's mobile search results.</p>

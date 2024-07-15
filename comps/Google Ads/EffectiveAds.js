@@ -90,7 +90,7 @@ const EffectiveAds = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight700">
               Let our <span className="text_red">Google Ads </span>specialist
               make your paid marketing campaigns successful
             </h3>
@@ -126,7 +126,7 @@ const EffectiveAds = () => {
               <p className="customText text-white">
                 <b>We make sure that your business has an</b>
               </p>
-              <h3 className="customHeading text-white customLineHeight">
+              <h3 className="customHeading text-white customLineHeight fontWeight700">
                 Effective &amp; Efficient
                 <br />
                 Google marketing campaign

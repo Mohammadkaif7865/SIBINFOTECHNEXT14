@@ -9,7 +9,7 @@ const Testimonials = () => {
           <h4 className="small_heading text-center text_red fontWeight600">
             DIGITAL MARKETING TESTIMONIALS
           </h4>
-          <h3 className="heading text-center fontHeading mt-2 fontWeight600">
+          <h3 className="heading text-center fontHeading mt-2 fontWeight800">
             Clients say about our SEO Services
           </h3>
         </div>

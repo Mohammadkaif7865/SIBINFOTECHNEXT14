@@ -53,7 +53,7 @@ const Expertise = () => {
       <div className="containerFull ">
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
-            <h4 className="heading text-center fontHeading fontWeight600">
+            <h4 className="heading text-center fontHeading fontWeight800">
               Areas of Expertise
             </h4>
             <h5 className="small_heading mt-3 text-center fontWeight500">

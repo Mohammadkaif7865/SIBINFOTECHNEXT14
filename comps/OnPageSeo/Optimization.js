@@ -171,7 +171,7 @@ const Optimization = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h3 className="customHeading">
+            <h3 className="customHeading fontWeight800">
               <span className="text_red">On page SEO</span> optimizations
               Service for:
             </h3>
@@ -181,7 +181,7 @@ const Optimization = () => {
                 <div className="col-lg-4" key={index}>
                   <div className="optmize-box">
                     <Image quality={100}  width={100} height={100} src={box.imgSrc} alt={box.altText} />
-                    <h4 className="fontHeading">{box.title}</h4>
+                    <h4 className="fontHeading fontWeight600">{box.title}</h4>
                   </div>
                 </div>
               ))}
@@ -189,7 +189,7 @@ const Optimization = () => {
           </div>
           <div className="col-lg-5 graphic-why-us-right">
             <div className="background-blue">
-              <h3 className="customHeading text-white customLineHeight">
+              <h3 className="customHeading text-white customLineHeight fontWeight800">
                 We help you give your business the attention it deserves
               </h3>
               <p className="customText text-off-white">

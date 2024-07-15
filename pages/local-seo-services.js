@@ -46,7 +46,7 @@ export default function LocalSeoServices() {
             <div className="containerFull">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h3 className="customHeading">
+                        <h3 className="customHeading fontWeight700">
                             Get your company Listed on first page listings of Google Maps in your <span className="text_red">Local City!</span></h3>
                         <p className="customText">
                             Majority of the internet users these days use location-based search when they are looking for the required products and services or find a local business on Google Maps.</p>
@@ -117,7 +117,7 @@ export default function LocalSeoServices() {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="section-4-left text-center">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight700">
                                 Be the Leader of Your Local Market</h3>
                             <p className="customText text-white">
                                 through Local SEO Services in India</p>
@@ -208,7 +208,7 @@ export default function LocalSeoServices() {
                 <div className="row align-items-center">
                     <div className="col-lg-4 leftDigiSer">
                         <div className="heading-section">
-                            <h3 className="customHeading text-white">
+                            <h3 className="customHeading text-white fontWeight700">
                                 Why Hire a Local SEO Company?</h3>
                             <p className="customText text-off-white">
                                 Customers mostly search companies by city name or local area name for the required products and services in a particular area. So when they search Google provides with top local company names and location which matches best to the search terms on their google map display results. 50% of the people that do local search avail the services via the physical stores within a day or two.</p>
@@ -217,7 +217,7 @@ export default function LocalSeoServices() {
                         </div>
                     </div>
                     <div className="col-lg-8">
-                        <h3 className="text-center mt-lg-0 mt-4 customSubHeading">
+                        <h3 className="text-center mt-lg-0 mt-4 customSubHeading fontWeight700">
                             There are numerous benefits a local business can extract from SEO :</h3>
                         <div className="middle-row">
                             <div className="middle-box">
@@ -369,7 +369,7 @@ export default function LocalSeoServices() {
                             We guarantee expertise, experienced team and excellent services which assure growth and success of your business that makes and non-washable imprint on the customer’s mind.</p>
                     </div>
                     <div className="col-lg-5">
-                        <h3 className="customHeading mt-4">
+                        <h3 className="customHeading mt-4 fontWeight700">
                             SIB <span className="text_red">Local SEO</span> Services</h3>
                         <p className="customText">
                             A business should always invest in the best. Our optimization strategies assure long-lasting and profitable results that can take your business to the top most levels of the local business hierarchy.</p>

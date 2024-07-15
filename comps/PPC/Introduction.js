@@ -87,7 +87,7 @@ const Introduction = () => {
         <div className="row">
           <div className="col-md-7">
             <div className="rightPPC">
-              <h2 className="customHeading">PPC Management Services</h2>
+              <h2 className="customHeading fontWeight800">PPC Management Services</h2>
               <p className="customText">
                 SIB Infotech is an innovative{" "}
                 <strong>

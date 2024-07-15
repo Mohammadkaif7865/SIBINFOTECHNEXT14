@@ -13,7 +13,7 @@ const HighlyEfficient = () => {
               Along with extensive benefits our Google Advertising
               management services are loaded with
             </p>
-            <h3 className="customHeading text-white customLineHeight2">
+            <h3 className="customHeading text-white customLineHeight2 fontweigh800 ">
               360-Degree
               <br />
               Highly Efficient Strategy
