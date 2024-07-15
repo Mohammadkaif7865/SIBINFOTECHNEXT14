@@ -89,7 +89,7 @@ export default function Header() {
                       </li>
                       <li>
                         <div className="menu_contact p-0 " href="tel:+91-9222260000">
-                        <i class="bi bi-telephone"></i>
+                        <i className="bi bi-telephone"></i>
     
                           <div className="menu_contact_inner">
                             <a href="tel:+91-9222260000" className="p-0 number_phone">92222-60000</a>

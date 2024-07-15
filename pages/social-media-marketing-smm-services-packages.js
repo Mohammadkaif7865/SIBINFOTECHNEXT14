@@ -50,7 +50,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                <div className="row">
                   <div className="col-lg-3">
                      <div className="tag-line">
-                        <img className="image-full" src="assets/images/seo-packages-3.png"/>
+                        <img className="image-full" src="assets/images/seo-packages-3.png" alt=""/>
                         <h4>
                            CHOOSE YOUR PLAN
                         </h4>
@@ -165,13 +165,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Identify Business Goals
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -179,13 +179,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Analyse Audience
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -193,13 +193,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Create Content Startegy
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -207,13 +207,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Identify #Hashtag
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -221,13 +221,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Social Trending
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -235,13 +235,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Competitor Analysis
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -249,13 +249,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Create Social Media Calendar
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -316,13 +316,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Profile Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -344,13 +344,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Cover Image
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -358,13 +358,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Sharing
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -372,13 +372,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Call To Action Button
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -386,13 +386,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Targeted Page Likes
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -400,13 +400,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Poll Creation
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -414,13 +414,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Insight Monitoring
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -428,13 +428,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Sponsored Ads (Additional Charges)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -495,13 +495,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Profile Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -523,13 +523,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Targeted Twitter Followers Increase
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -537,13 +537,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Cover Image
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -551,13 +551,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Sharing (Provided by Client)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -565,13 +565,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Retweets
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -579,13 +579,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        #Hashtag Trend Research
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -593,13 +593,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Twitter Analytics Monitoring
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -607,13 +607,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Sponsored Tweets (Additonal Charges)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -674,13 +674,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Profile Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -702,13 +702,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Targeted Instagram Followers Increase
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -716,13 +716,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        #Hashtag Trend Research
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -730,13 +730,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Sharing (Provided by Client)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -744,13 +744,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Comments &amp; Like Management
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -758,13 +758,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Instagram Analytics Monitoring
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -772,13 +772,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Paid Promotion (Additional Charges)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -839,13 +839,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Profile Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -867,13 +867,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Targeted LinkedIn Connection
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -895,13 +895,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Company Page Follower Increase
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -909,13 +909,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Company page Banner
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -923,13 +923,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        LinkedIn Performance Review
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -937,13 +937,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Paid Promotion (Additional Charges)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1004,13 +1004,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Channel Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1046,13 +1046,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Title &amp; Description Optimization
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1060,13 +1060,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Thumbnail Creation
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1074,13 +1074,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Channel Subscribers
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1088,13 +1088,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Likes
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1102,13 +1102,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Video Views
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1116,13 +1116,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Comment Moderation
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1130,13 +1130,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Paid Promotion (Additional Charges)
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1197,13 +1197,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Profile Optimization
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1239,13 +1239,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Followers
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1253,13 +1253,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Website Verification
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/crossed.svg"/>
+                                       <img src="assets/images/crossed.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1267,13 +1267,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Business Account
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1334,13 +1334,13 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Monthly Report
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Grow">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1393,19 +1393,19 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Email
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1413,19 +1413,19 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Chat / Skype
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1433,19 +1433,19 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Phone
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
@@ -1453,19 +1453,19 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                                        Phone Call for Review Meetings
                                     </td>
                                     <td data-label="Self Employed">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Start Up">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Enterepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Wantrepreneur">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                     <td data-label="Custom">
-                                       <img src="assets/images/tick.svg"/>
+                                       <img src="assets/images/tick.svg" alt=''/>
                                     </td>
                                  </tr>
                                  <tr>
