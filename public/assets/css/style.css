@@ -8695,7 +8695,7 @@ background-size: cover;
   right: 1rem;
   position: absolute;
   border-radius: 10px;
-  transform: rotate(-5deg);
+  transform: rotate(-3deg);
 }
 .clicks_impression h5 {
   font-weight: 600;
@@ -8849,7 +8849,12 @@ font-size: 35px;
   height: 100%;
 }
 .innerItem_targeting {
-  padding: 20px;
+  padding: 10px;
+}
+.innerItem_targeting img{
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
 }
 .fontHeading2 {
   font-family: "Laila", serif;
@@ -8951,6 +8956,9 @@ font-size: 35px;
   margin-top: 10px;
   font-family: "Laila", serif;
   font-weight: 700;
+}
+.tilt{
+  transition: all 0.1s ease-in;
 }
 
 

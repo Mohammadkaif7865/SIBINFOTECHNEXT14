@@ -9,7 +9,7 @@ const Reviews = () => {
         <div class="row">
             <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2">
                 <div class="text-center mx-xl-7 ">
-                    <h2 class="mb-5 fontHeading2 heading fontWeight600">Read The  <span className='text_red'>Real-Life Success Stories</span> of
+                    <h2 class="mb-5 fontHeading2 heading fontWeight700">Read The  <span className='text_red'>Real-Life Success Stories</span> of
                         The Companies and Industries.</h2>
                     
                 </div>

@@ -279,7 +279,7 @@ const Faqs = () => {
     // </section>
     <section>
       <div className="containerFull ">
-        <h4  data-aos="flip-up" className="heading fontHeading2 mb-4 fontWeight600">Frequently Asked <span className="text_red"> Whatsapp Marketing</span> Questions</h4>
+        <h4  data-aos="flip-up" className="heading fontHeading2 mb-4 fontWeight700">Frequently Asked <span className="text_red"> Whatsapp Marketing</span> Questions</h4>
         {/* faq */}
 
         <div className=" row  ">

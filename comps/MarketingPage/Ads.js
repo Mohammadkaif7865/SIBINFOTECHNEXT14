@@ -49,7 +49,7 @@ const Ads = () => {
           </div>
           <div data-aos="fade-left" className="col-lg-6 ps-lg-4 ">
             <h4 className="fontHeading2 heading fontWeight700">
-              Run Ads With SIB Infotech And  <span className="text_red">Achieve 5X Leads.</span>
+              Run ads with SIB Infotech and achieve <span className="text_red"> 5X Leads.</span>
             </h4>
             <p className="fontWeight600 mt-3 title fontWeight600 mt-3 fontHeading2 text-primary">
               Businesses drive 25-60% Revenues with SIB Infotech

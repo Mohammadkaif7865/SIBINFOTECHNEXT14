@@ -3,6 +3,49 @@ import React, { useState } from "react";
 
 const SmartTargeting = () => {
   const [show, setShow] = useState(1);
+  const [transform, setTransform] = useState({
+    xRotation: 0,
+    yRotation: 0,
+    scale: 1.1,
+  });
+
+  const handleMouseMove = (e) => {
+    const el = e.target;
+    const { clientWidth: width, clientHeight: height } = el;
+    const xVal = e.nativeEvent.offsetX;
+    const yVal = e.nativeEvent.offsetY;
+
+    const yRotation = 20 * ((xVal - width / 2) / width);
+    const xRotation = -20 * ((yVal - height / 2) / height);
+
+    setTransform({
+      ...transform,
+      xRotation,
+      yRotation,
+    });
+  };
+
+  const resetTransform = () => {
+    setTransform({
+      xRotation: 0,
+      yRotation: 0,
+      scale: 1,
+    });
+  };
+
+  const handleMouseDown = () => {
+    setTransform({
+      ...transform,
+      scale: 0.9,
+    });
+  };
+
+  const handleMouseUp = () => {
+    setTransform({
+      ...transform,
+      scale: 1.1,
+    });
+  };
   return (
     <section data-aos="fade-up" className="bgsection_m2">
       <div className="containerFull ">
@@ -65,7 +108,16 @@ const SmartTargeting = () => {
            
           </div>
 
-          <div className="col-lg-5  targetting_tabs_right">
+          <div className="col-lg-5  targetting_tabs_right tilt"
+           
+             onMouseMove={handleMouseMove}
+             onMouseOut={resetTransform}
+             onMouseDown={handleMouseDown}
+             onMouseUp={handleMouseUp}
+             style={{
+               transform: `perspective(500px) scale(${transform.scale}) rotateX(${transform.xRotation}deg) rotateY(${transform.yRotation}deg)`
+             }}
+          >
             <Image
               className="w-100 h-100 object-fit-cover rounded-3"
               width={400}
@@ -103,7 +155,15 @@ const SmartTargeting = () => {
            
           </div>
 
-          <div className="col-lg-5 targetting_tabs_right">
+          <div className="col-lg-5  targetting_tabs_right tilt"
+           
+           onMouseMove={handleMouseMove}
+           onMouseOut={resetTransform}
+           onMouseDown={handleMouseDown}
+           onMouseUp={handleMouseUp}
+           style={{
+             transform: `perspective(500px) scale(${transform.scale}) rotateX(${transform.xRotation}deg) rotateY(${transform.yRotation}deg)`
+           }}>
             <Image
                  className="w-100 h-100 object-fit-cover rounded-3"
               width={400}
@@ -140,7 +200,15 @@ const SmartTargeting = () => {
             
           </div>
 
-          <div className="col-lg-5 targetting_tabs_right">
+          <div className="col-lg-5  targetting_tabs_right tilt"
+           
+           onMouseMove={handleMouseMove}
+           onMouseOut={resetTransform}
+           onMouseDown={handleMouseDown}
+           onMouseUp={handleMouseUp}
+           style={{
+             transform: `perspective(500px) scale(${transform.scale}) rotateX(${transform.xRotation}deg) rotateY(${transform.yRotation}deg)`
+           }}>
             <Image
                  className="w-100 h-100 object-fit-cover rounded-3"
               width={400}

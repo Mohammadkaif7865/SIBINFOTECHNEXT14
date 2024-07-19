@@ -6,7 +6,7 @@ const WhyChoose = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6 m_whychoose_left text-white ">
-            <h4 className="fontHeading heading fontWeight700 ">
+            <h4 className="fontHeading2 heading fontWeight700 ">
               Why Choose WhatsApp?
             </h4>
             <p className="mt-2">
