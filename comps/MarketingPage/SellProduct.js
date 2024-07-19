@@ -50,7 +50,7 @@ const SellProduct = () => {
       <div className="containerFull">
         <div>
           <h5 data-aos="flip-up" className="fontHeading2 heading fontWeight700">
-            <span className="text_red">Sell Your Products</span> On WhatsApp
+   Sell Your Products On <span className="text_red">WhatsApp</span>
           </h5>
           <p className="mt-2 fontWeight500 fontWeight600 mt-3 fontHeading2 text-primary">
             WhatsApp Catalog, Cart & Payments in One Place!
