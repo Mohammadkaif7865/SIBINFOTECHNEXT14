@@ -16,6 +16,16 @@ const nextConfig = {
         permanent: true, // This is a 301 redirect
       },
       {
+        source: "/index",
+        destination: "/",
+        permanent: true, // This is a 301 redirect
+      },
+      {
+        source: "/php-development-services",
+        destination: "/php-website-development-services ",
+        permanent: true, // This is a 301 redirect
+      },
+      {
         source: "/mobile-seo-services-mumbai-india",
         destination: "/mobile-seo-services",
         permanent: true,
