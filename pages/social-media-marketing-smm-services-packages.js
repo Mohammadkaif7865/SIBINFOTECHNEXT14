@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
-import BannerForm from '../comps/BannerForm';
+import BannerForm from '@/comps/BannerForm';
+
 
 export default function SocialMediaMarketingSMMServicesPackages() {
+   const [open,setOpen]= useState(1)
+
+   const handleOpen =(e)=>{
+      setOpen(e)
+   }
+
   return (
     <div>
         <Helmet>
@@ -42,7 +49,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
             </div>
          </div>
         <section>
-          <div className="containerFull">
+          <div className="containerFull ">
             <h2 className="customHeading text-center">
                <span>Social Media Marketing Packages</span>, Pricing &amp; Plans
             </h2>
@@ -60,48 +67,48 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                         </p>
                         <Link className="green-btn" href="tel:+91-9222260000">CALL US NOW</Link>
                      </div>
-                     <div className="tab-header">
-                        <div className="tab active">
+                     <div className="tab-header ">
+                        <div className={`tab  ${open ==1? "active":""}`} onClick={()=>handleOpen(1)}>
                            <h5>
                               Initial Research &amp; Analysis
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==2 ? "active":""}`} onClick={()=>handleOpen(2)}>
                            <h5>
                               Facebook
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==3 ? "active":""}`} onClick={()=>handleOpen(3)}>
                            <h5>
                               Twitter
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==4 ? "active":""}`} onClick={()=>handleOpen(4)}>
                            <h5>
                               Instagram
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==5 ? "active":""}`} onClick={()=>handleOpen(5)}>
                            <h5>
                               LinkedIn
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==6 ? "active":""}`} onClick={()=>handleOpen(6)}>
                            <h5>
                               YouTube
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==7 ? "active":""}`} onClick={()=>handleOpen(7)}>
                            <h5>
                               Pinterest
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==8 ? "active":""}`} onClick={()=>handleOpen(8)}>
                            <h5>
                               Reporting
                            </h5>
                         </div>
-                        <div className="tab">
+                        <div  className={`tab  ${open ==9 ? "active":""}`} onClick={()=>handleOpen(9)}>
                            <h5>
                               Customer Support
                            </h5>
@@ -110,7 +117,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                   </div>
                   <div className="col-lg-9">
                      <div className="tab-content">
-                        <div className="active">
+                        <div className={`${open ==1? "active":""}`}>
                            <h4>
                               Initial Research &amp; Analysis
                            </h4>
@@ -275,7 +282,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==2? "active":""}`}>
                            <h4>
                               Facebook
                            </h4>
@@ -454,7 +461,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==3? "active":""}`}>
                            <h4>
                               Twitter
                            </h4>
@@ -633,7 +640,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==4? "active":""}`}>
                            <h4>
                               Instagram
                            </h4>
@@ -798,7 +805,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==5? "active":""}`}>
                            <h4>
                               LinkedIn
                            </h4>
@@ -963,7 +970,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==6? "active":""}`}>
                            <h4>
                               YouTube
                            </h4>
@@ -1156,7 +1163,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==7? "active":""}`}>
                            <h4>
                               Pinterest
                            </h4>
@@ -1293,7 +1300,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==8? "active":""}`}>
                            <h4>
                               Reporting
                            </h4>
@@ -1360,7 +1367,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                               </tbody>
                            </table>
                         </div>
-                        <div>
+                        <div className={`${open ==9? "active":""}`}>
                            <h4>
                               Customer Support
                            </h4>

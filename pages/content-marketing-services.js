@@ -124,7 +124,7 @@ export default function ContentMarketingServices() {
                                     Reputation building</h4>
                             </div>
                             <div className="middle-box middle-box-ex-width">
-                                <img src="assets/images/icons//influencer-marketing-targeted-audience.svg" alt="content-marketing-agencies-in-india"/>
+                                <img src="assets/images/icons/influencer-marketing-targeted-audience.svg" alt="content-marketing-agencies-in-india"/>
                                 <h4 className="fontHeading">
                                     Brand awareness</h4>
                             </div>

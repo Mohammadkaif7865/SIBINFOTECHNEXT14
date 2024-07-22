@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
-import BannerForm from '../comps/BannerForm';
+import BannerForm from '@/comps/BannerForm';
 
-export default function CustomWebDevelopmentCompany() {
+
+export default function CustomWebDevelopment() {
   return (
     <div>
         <Helmet>
@@ -180,7 +180,7 @@ export default function CustomWebDevelopmentCompany() {
                     </div>
                     <div className="col-lg-2">
                         <div className="cutomWeb-box">
-                            <img src="assets/images/icons/custom-web-development-classNameifield.svg" alt="Best-Custom-Web-Development-Company-In-India"/>
+                            <img src="assets/images/icons/custom-web-development-classifield.svg" alt="Best-Custom-Web-Development-Company-In-India"/>
                             <p className="customText">
                                 classNameifieds</p>
                         </div>

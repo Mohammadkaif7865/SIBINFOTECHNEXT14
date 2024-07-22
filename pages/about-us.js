@@ -792,12 +792,12 @@ export default function AboutUs() {
                 <div className="teamItem">
                   <div className="teamImg">
                     <picture>
-                      <source srcSet="assets/images/team/sachin.webp" />
+                      <source srcSet="assets/images/team/sachin.jpg" />
                       <img src="assets/images/team/sachin.jpg" alt="Sachin" />
                     </picture>
                   </div>
                   <div className="teamName">
-                    <h3 className="small_heading fontWeight600">Sachin</h3>
+                    <h3 className="small_heading fontWeight600">Sachin Kumar  </h3>
                   </div>
                 </div>
               </div>
