@@ -68,7 +68,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
                                 <h3 className="customHeading text-white customLineHeight2">
                                     If you are still wondering why our Ecommerce Web Design services are a notch above the rest, here are a few things that will make the picture clear</h3>
                             </div>
-                            <img className="bgImageEffect" src="assets/images/img-pattern-white.png" alt="ecommerce-solutions-company-in-delhi"/>
+                            {/* <img className="bgImageEffect" src="assets/images/img-pattern-white.png" alt="ecommerce-solutions-company-in-delhi"/> */}
                         </div>
                     </div>
                     <div className="col-lg-8">
