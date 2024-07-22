@@ -300,12 +300,17 @@ const nextConfig = {
         destination: "/pay-per-click-ppc-management-services",
         permanent: true,
       },
+      {
+        source: "/custom-api-integration-services",
+        destination: "/api-integration-services",
+        permanent: true,
+      },
     ];
   },
   images: {
     domains: ["www.sibinfotech.com"],
   },
-  assetPrefix: "https://www.sibinfotech.com",
+  // assetPrefix: "https://www.sibinfotech.com",
 };
 
 export default nextConfig;
