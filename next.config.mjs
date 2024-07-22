@@ -301,8 +301,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/custom-api-integration-services",
-        destination: "/api-integration-services",
+        source: "/api-integration-services",
+        destination: "/custom-api-integration-services",
         permanent: true,
       },
     ];
