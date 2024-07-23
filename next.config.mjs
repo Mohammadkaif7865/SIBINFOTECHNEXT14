@@ -300,11 +300,6 @@ const nextConfig = {
         destination: "/pay-per-click-ppc-management-services",
         permanent: true,
       },
-      {
-        source: "/api-integration-services",
-        destination: "/custom-api-integration-services",
-        permanent: true,
-      },
     ];
   },
   images: {
