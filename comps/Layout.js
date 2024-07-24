@@ -7,8 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="wrapper">
-        <div className="cursor "></div>
-        <div className="cursor"></div>
+       
         <Header />
         {children}
         <Footer />
