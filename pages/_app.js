@@ -3,6 +3,7 @@ import Layout from "../comps/Layout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
@@ -28,36 +29,11 @@ function MyApp({ Component, pageProps }) {
             href="/assets/images/banner/banner-video.mp4"
             as="video/mp4"
           />
-          <link
+          {/* <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
-          />
-
-          {/* <link
-            rel="preload"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-          /> */}
-          {/* <link
-            rel="preload"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-          />
-          <link
-            rel="preload"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-          />
-          <link
-            rel="preload"
-            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
           /> */}
           <link
             rel="preload"
@@ -65,25 +41,20 @@ function MyApp({ Component, pageProps }) {
             as="style"
             onLoad="this.onload=null;this.rel='stylesheet'"
           />
-          <link
+          {/* <link
             rel="preload"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
             as="style"
             onLoad="this.onload=null;this.rel='stylesheet'"
-          />
-          <link
+          /> */}
+          {/* <link
             rel="preload"
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             as="style"
             onLoad="this.onload=null;this.rel='stylesheet'"
-          />
+          /> */}
 
-          {/* <noscript>
-            <link
-              href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-              rel="stylesheet"
-            />
-          </noscript> */}
+          
           <noscript>
             <link
               rel="stylesheet"
@@ -102,9 +73,7 @@ function MyApp({ Component, pageProps }) {
               rel="stylesheet"
             />
           </noscript>
-          {/* dd */}
-          {/* <link rel="apple-touch-icon" href="/logo192.png" /> */}
-          {/* <link rel="manifest" href="/manifest.json" /> */}
+        
         </Head>
         <ToastContainer />
         <Component {...pageProps} />

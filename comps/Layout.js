@@ -6,18 +6,16 @@ import Script from "next/script";
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="wrapper">
-       
+      <div className="wrapper">  
         <Header />
         {children}
         <Footer />
       </div>
-
-      <Script
+      {/* <Script
         defer
         strategy="beforeInteractive"
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      />
+      /> */}
 
       <Script
         defer
