@@ -17,12 +17,12 @@ const HomeHero = () => {
             <div className="row">
               <div className="col-lg-7">
                 <div className="videoLeft">
-                  <h1 className="large_heading fontHeading  fontWeight800 text-white">
+                  {/* <h1 className="large_heading fontHeading  fontWeight800 text-white">
                     TOP RATED
                   </h1>
                   <h2 className="heading fontWeight700 my-2 fontHeading">
                     WEB DESIGN AND <span>DIGITAL MARKETING AGENCY</span>
-                  </h2>
+                  </h2> */}
                   <h3 className="sub_heading text-white">We Help you get</h3>
                   <div className="centerVideo">
                     <BannerTextSlider />
