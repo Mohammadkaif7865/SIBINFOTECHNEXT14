@@ -8456,7 +8456,7 @@ background-color: #000 !important;
 }
 
 .customFaq{
-  padding: 30px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #d6d6d6;
 }
 
@@ -8465,7 +8465,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 gap: 20px;
-font-size: 24px;
+font-size: 20px;
 cursor: pointer;
 color: #333;
 font-weight: 600;
