@@ -8,15 +8,15 @@ import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 import { usePathname } from "next/navigation";
 
+
 function MyApp({ Component, pageProps }) {
   const path = usePathname();
+  
+
   return (
     <HelmetProvider>
       <Layout>
         <Head>
-          
-          
-
           {/* new added */}
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Sib Infotech" />
@@ -78,12 +78,12 @@ function MyApp({ Component, pageProps }) {
             onLoad="this.onload=null;this.rel='stylesheet'"
           />
 
-          {/* <noscript>
+          <noscript>
             <link
               href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
               rel="stylesheet"
             />
-          </noscript> */}
+          </noscript>
           <noscript>
             <link
               rel="stylesheet"
