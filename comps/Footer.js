@@ -622,9 +622,9 @@ export default function Footer() {
             <div className="footer_copyright d-flex mb-2 align-items-center justify-content-between">
               <div className="rightFooterBottom">
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link href="#">Clients</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/career">Career</Link>
                   </li>
@@ -643,9 +643,9 @@ export default function Footer() {
                   <li>
                     <Link href="/cookie-policy">Cookies Policy</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">SEO Tools</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/resource">Resources</Link>
                   </li>

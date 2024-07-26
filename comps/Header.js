@@ -885,12 +885,12 @@ export default function Header() {
               <li data-bs-dismiss="offcanvas">
                 <Link href="/career">Careers</Link>
               </li>
-              <li data-bs-dismiss="offcanvas">
+              {/* <li data-bs-dismiss="offcanvas">
                 <Link href="#">Our Clients</Link>
-              </li>
-              <li data-bs-dismiss="offcanvas">
+              </li> */}
+              {/* <li data-bs-dismiss="offcanvas">
                 <Link href="#">SEO Tools</Link>
-              </li>
+              </li> */}
               <li data-bs-dismiss="offcanvas">
                 <Link href="/resource">Resources</Link>
               </li>
