@@ -305,10 +305,11 @@ const nextConfig = {
   images: {
     domains: ["www.sibinfotech.com"],
   },
-  eslint: {
+  
+  // eslint: {
 
-    ignoreDuringBuilds: true,
-  },
+  //   ignoreDuringBuilds: true,
+  // },
   // assetPrefix: "https://www.sibinfotech.com",
 };
 
