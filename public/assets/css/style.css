@@ -8398,13 +8398,26 @@ gap: 20px !important;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  @media (max-width:768px) {
+    padding:10px 0;
+    
+  }
 }
 .slide_card .slide_card_content h4 {
   font-size: 30px;
+  @media (max-width:768px) {
+    font-size: 23px;
+    align-items: center;
+    
+  }
 }
 .slide_card .slide_card_content p {
  font-size: 14px;
  text-align: center;
+ @media (max-width:768px) {
+  font-size: 12px;
+  
+}
 }
 
 .bg_red {
