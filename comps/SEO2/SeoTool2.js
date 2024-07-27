@@ -50,18 +50,18 @@ const SeoTools2 = () => {
       alt: "lead-generation",
     },
     {
-      title: "Client Inquires",
-      ranking: "Million+",
-      targetValue: 1.5,
+      title: "YOY increase in Conversion",
+      ranking: "%",
+      targetValue: 480,
       src: "/assets/images/icons/services/questions.png",
-      alt: "Client Inquires",
+      alt: "YOY increase in Conversion",
     },
     {
-      title: "Unique Users",
-      ranking: "Million+",
-      targetValue: 1.5,
+      title: "Growth in Paid Search Revenue",
+      ranking: "%",
+      targetValue:630,
       src: "/assets/images/icons/services/good-review.png",
-      alt: "Happy Customer",
+      alt: "Growth in Paid Search Revenue",
     },
   ];
   const tools = [
@@ -126,12 +126,12 @@ const SeoTools2 = () => {
               spaceBetween={30}
               slidesPerView={2}
               //   centeredSlides={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               pagination={false}
-              loop={true}
+              // loop={true}
               navigation={false}
               modules={[Autoplay, Pagination, Navigation]}
               breakpoints={{
@@ -164,26 +164,56 @@ const SeoTools2 = () => {
                       alt="rnb-global-university-kota-city-kota-rajasthan-colleges"
                     />
                   </div>
-                  <div className="slide_card_content">
+                  <div className="slide_card_content ">
                     <div>
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
                         +600%{" "}
                         <Image
                           className="h-auto"
-                          width={40}
-                          height={40}
-                          src={"/assets/images/icons/seo-result/rise.png"}
+                          width={30}
+                          height={30}
+                          src={"/assets/images/icons/seo-result/data-analytics-arrow.png"}
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600   ">
+                        Organic  Growth
+                      </p>
+                    </div>
+                    <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                        400+{" "}
+                        <Image
+                          className="h-auto"
+                          width={30}
+                          height={30}
+                          src={"/assets/images/icons/seo-result/data-analytics-arrow.png"}
                           alt="rnb"
                         />
                       </h4>
                       <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                        Impression
                       </p>
                     </div>
                     <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                        +270{" "}
+                        <Image
+                          className="h-auto"
+                          width={30}
+                          height={30}
+                          src={"/assets/images/icons/seo-result/data-analytics-arrow.png"}
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600  small_heading ">
+                       Clicks
+                      </p>
+                    </div>
+                    {/* <div>
                       <p>400+ Applications</p>
                       <p>270% Clicks</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -199,7 +229,7 @@ const SeoTools2 = () => {
                       alt="Veeraco Colourants Private Limited"
                     />
                   </div>
-                  <div className="slide_card_content">
+                  <div className="slide_card_content b">
                     <div>
                       <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
                         +400%{" "}
