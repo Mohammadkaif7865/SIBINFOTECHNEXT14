@@ -306,10 +306,7 @@ const nextConfig = {
     domains: ["www.sibinfotech.com"],
   },
   
-  // eslint: {
 
-  //   ignoreDuringBuilds: true,
-  // },
   // assetPrefix: "https://www.sibinfotech.com",
 };
 
