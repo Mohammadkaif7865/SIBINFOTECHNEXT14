@@ -50,18 +50,18 @@ const SeoTools2 = () => {
       alt: "lead-generation",
     },
     {
-      title: "Client Inquires",
-      ranking: "Million+",
-      targetValue: 1.5,
+      title: "YOY increase in Conversion",
+      ranking: "%",
+      targetValue: 480,
       src: "/assets/images/icons/services/questions.png",
-      alt: "Client Inquires",
+      alt: "YOY increase in Conversion",
     },
     {
-      title: "Unique Users",
-      ranking: "Million+",
-      targetValue: 1.5,
+      title: "Growth in Paid Search Revenue",
+      ranking: "%",
+      targetValue: 630,
       src: "/assets/images/icons/services/good-review.png",
-      alt: "Happy Customer",
+      alt: "Growth in Paid Search Revenue",
     },
   ];
   const tools = [
@@ -125,11 +125,11 @@ const SeoTools2 = () => {
             <Swiper
               spaceBetween={30}
               slidesPerView={2}
-              //   centeredSlides={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // centeredSlides={true}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               pagination={false}
               loop={true}
               navigation={false}
@@ -164,26 +164,58 @@ const SeoTools2 = () => {
                       alt="rnb-global-university-kota-city-kota-rajasthan-colleges"
                     />
                   </div>
-                  <div className="slide_card_content">
+                  <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
                         +600%{" "}
                         <Image
                           className="h-auto"
-                          width={40}
-                          height={40}
-                          src={"/assets/images/icons/seo-result/rise.png"}
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600   ">Organic Growth</p>
+                    </div>
+                    <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        400+{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
                           alt="rnb"
                         />
                       </h4>
                       <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                        Impression
                       </p>
                     </div>
                     <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        +270%{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600  small_heading ">Clicks</p>
+                    </div>
+                    {/* <div>
                       <p>400+ Applications</p>
                       <p>270% Clicks</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -199,26 +231,58 @@ const SeoTools2 = () => {
                       alt="Veeraco Colourants Private Limited"
                     />
                   </div>
-                  <div className="slide_card_content">
+                  <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
                         +400%{" "}
                         <Image
                           className="h-auto"
-                          width={40}
-                          height={40}
-                          src={"/assets/images/icons/seo-result/rise.png"}
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600   ">Organic Growth</p>
+                    </div>
+                    <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        345+{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
                           alt="rnb"
                         />
                       </h4>
                       <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                        Impression
                       </p>
                     </div>
                     <div>
-                      <p>345+ Impression</p>
-                      <p>280% Clicks</p>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        +280%{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600  small_heading ">Clicks</p>
                     </div>
+                    {/* <div>
+                      <p>400+ Applications</p>
+                      <p>270% Clicks</p>
+                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -234,26 +298,59 @@ const SeoTools2 = () => {
                       alt="https://www.bmcelections.com/"
                     />
                   </div>
-                  <div className="slide_card_content">
+
+                  <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   gap-2">
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
                         +230%{" "}
                         <Image
                           className="h-auto"
-                          width={40}
-                          height={40}
-                          src={"/assets/images/icons/seo-result/rise.png"}
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600   ">Organic Growth</p>
+                    </div>
+                    <div>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        300+{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
                           alt="rnb"
                         />
                       </h4>
                       <p className="fontWeight600  small_heading ">
-                        Organic Growth
+                        Impression
                       </p>
                     </div>
                     <div>
-                      <p>300+ Impression</p>
-                      <p>270% Clicks</p>
+                      <h4 className=" fontWeight700 d-flex align-items-center   ">
+                        +270%{" "}
+                        <Image
+                          className="h-auto"
+                          width={45}
+                          height={45}
+                          src={
+                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
+                          }
+                          alt="rnb"
+                        />
+                      </h4>
+                      <p className="fontWeight600  small_heading ">Clicks</p>
                     </div>
+                    {/* <div>
+                      <p>400+ Applications</p>
+                      <p>270% Clicks</p>
+                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
