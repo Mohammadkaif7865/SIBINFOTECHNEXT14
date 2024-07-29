@@ -8406,7 +8406,7 @@ gap: 20px !important;
 .slide_card .slide_card_content h4 {
   font-size: 30px;
   @media (max-width:768px) {
-    font-size: 23px;
+    font-size: 18px;
     align-items: center;
     
   }
@@ -8415,9 +8415,14 @@ gap: 20px !important;
  font-size: 14px;
  text-align: center;
  @media (max-width:768px) {
-  font-size: 12px;
-  
+  font-size: 12px;  
 }
+}
+.slide_card_content img{
+  @media (max-width:768px) {
+   width: 30px; 
+   height: 30px; 
+  }
 }
 
 .bg_red {
