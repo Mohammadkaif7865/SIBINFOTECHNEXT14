@@ -52,9 +52,13 @@ export default function Header() {
                   </li>
                   <li>
                     <Link href="tel:+91-9222260000">
-                    <i class="fa-solid fa-phone-volume " style={{
-                      transform: "rotate(321deg)",
-                    }} ></i> +91-9222260000
+                      <i
+                        class="fa-solid fa-phone-volume "
+                        style={{
+                          transform: "rotate(321deg)",
+                        }}
+                      ></i>{" "}
+                      +91-9222260000
                     </Link>
                   </li>
                 </ul>
@@ -637,8 +641,21 @@ export default function Header() {
         </div> */}
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title></Offcanvas.Title>
+          <Offcanvas.Title>
+            <Link className="position-relative" href="/">
+              <Image
+                src={"/assets/images/logo (1).webp"}
+                className=" object-fit-contain "
+                quality={100}
+                width={210}
+                height={60}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
+                alt="Best Digital Marketing Company in India"
+              />
+            </Link>
+          </Offcanvas.Title>
         </Offcanvas.Header>
+        <hr className="mx-3" />
         <Offcanvas.Body>
           <div className="extraMenuItems" id="mobileSub">
             <ul>
@@ -898,6 +915,42 @@ export default function Header() {
                 <Link href="/contact-us">Contact Us</Link>
               </li>
             </ul>
+          </div>
+          <hr className=" my-4" />
+          <div>
+            <div class="social-link ">
+              <ul className="d-flex">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/sibinfotech/"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.twitter.com/sibinfotech">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/sib-infotech/"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/user/sibinfotech"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </Offcanvas.Body>
       </Offcanvas>
