@@ -7,6 +7,7 @@ import axios from "axios";
 import * as CONSTANTS from "../../constants/constants";
 
 import BlogCard from "./BlogCard";
+import Head from 'next/head';
 
 export default function Blog() {
 
@@ -34,11 +35,12 @@ export default function Blog() {
 
   return (
     <div>
-        <Helmet>
+        <Head>
+
             <title>Best Web Designing & SEO Company in Mumbai India</title>
             <meta name="keywords" content="contact"/>
             <meta name="description" content="contact"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
