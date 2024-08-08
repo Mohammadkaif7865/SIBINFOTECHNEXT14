@@ -53,7 +53,7 @@ export default function DigitalMarketingTab() {
                 <ul>
                   {tabsData.map((val, id) => {
                     return(
-                        <li  onClick={() => {setTabData({ title: val.title, title2: val.title2, image: val.image, content: val.content, url: val.url});}}> {val.title}</li>
+                        <li key={id}  onClick={() => {setTabData({ title: val.title, title2: val.title2, image: val.image, content: val.content, url: val.url});}}> {val.title}</li>
                     )
                   })}
                 </ul>

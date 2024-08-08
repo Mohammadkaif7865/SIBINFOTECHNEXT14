@@ -20,7 +20,7 @@ export default function HireDedicatedSeoExperts() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">Hire Dedicated Seo</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -43,24 +43,24 @@ export default function HireDedicatedSeoExperts() {
             </div>
          </div>
         <section id="sib-custom-page">
-          <div class="containerFull">
-            <div class="row">
-               <div class="col-md-1">
+          <div className="containerFull">
+            <div className="row">
+               <div className="col-md-1">
                    
                </div>
-               <div class="col-md-10">
-                  <div class="service-sub-title">
+               <div className="col-md-10">
+                  <div className="service-sub-title">
                      <p>
                         Are you searching a Dedicated SEO to brighten the visibility and popularity of your website? Then SIB Infotech has the optimistic solution of your query. Our side we have a dedicated experts who have vast knowledge in white SEO method which will bring you all the results you have been hoping for and a lot more.
                      </p>
                   </div>
                </div>
-               <div class="col-md-1">
+               <div className="col-md-1">
                    
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-6 order-lg-1 order-2 mt-3">
+            <div className="row">
+               <div className="col-md-6 order-lg-1 order-2 mt-3">
                   <p>
                      SIB Infotech offers a committed SEO engineer or a group of engineers for any of the campaigns who will conscientiously work on your projects.
                   </p>
@@ -71,21 +71,21 @@ export default function HireDedicatedSeoExperts() {
                      We, at SIB Infotech, begin "hire SEO experts" service to improve and determine all your internet marketing queries. We have a expert that efficiently generate campaigns that work on rising traffic invasion by providing high ROI at the same time.
                   </p>
                </div>
-               <div class="col-md-6 order-lg-2 order-1">
-                  <div class="custom-page-img">
+               <div className="col-md-6 order-lg-2 order-1">
+                  <div className="custom-page-img">
                      <img alt="Hire Dedicated SEO Specialist Services Company in Mumbai" src="assets/images/article-submission.png"/>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="custom-page-img">
+            <div className="row">
+               <div className="col-md-6">
+                  <div className="custom-page-img">
                      <img alt="Hire Dedicated SEO Specialist Services Company in India" src="assets/images/article-submission.png"/>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <div class="custom-content-title">
-                     <h2 class="mainCustom">
+               <div className="col-md-6">
+                  <div className="custom-content-title">
+                     <h2 className="mainCustom">
                         Why Hire a Dedicated SEO Team
                      </h2>
                   </div>

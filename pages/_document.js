@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          
           {/* Google Tag Manager */}
           <script
             dangerouslySetInnerHTML={{

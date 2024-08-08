@@ -33,22 +33,22 @@ const SeoAudit = () => {
               <div className=" col-8  ">
                 <p>
                   {" "}
-                  <i class="fa-solid fa-square-check me-2 text_red"></i>
+                  <i className="fa-solid fa-square-check me-2 text_red"></i>
                   Complete SEO Audit and Analysis
                 </p>
                 <p>
                   {" "}
-                  <i class="fa-solid fa-square-check me-2 text_red"></i>
+                  <i className="fa-solid fa-square-check me-2 text_red"></i>
                   Competitor Analysis
                 </p>
                 <p>
                   {" "}
-                  <i class="fa-solid fa-square-check me-2 text_red"></i>SEO
+                  <i className="fa-solid fa-square-check me-2 text_red"></i>SEO
                   Performance and Gap Analysis
                 </p>
                 <p>
                   {" "}
-                  <i class="fa-solid fa-square-check me-2 text_red"></i>
+                  <i className="fa-solid fa-square-check me-2 text_red"></i>
                   Analyzing Channel-Specific SEO Needs
                 </p>
               </div>
@@ -87,7 +87,7 @@ const SeoAudit = () => {
                       src={"/assets/images/icons/software-developer-icon-2.png"}
                       alt=""
                     />
-                    {/* <i class="fa-regular fa-user sub_heading"></i> */}
+                    {/* <i className="fa-regular fa-user sub_heading"></i> */}
                     <p className=" text-center text-white text-uppercase ">
                       Contact a SEO Specialist
                     </p>

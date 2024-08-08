@@ -21,7 +21,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">SEO OUTSOURCING SERVICES</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -269,7 +269,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
         </section>
         <section>
             <div className="containerFull">
-                <h3 class="customHeading text-center">SIB <span className="text_red">White Label SEO</span> Campaign Process</h3>
+                <h3 className="customHeading text-center">SIB <span className="text_red">White Label SEO</span> Campaign Process</h3>
                 <ProgressSteps/>
             </div>
         </section>

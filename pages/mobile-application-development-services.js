@@ -21,7 +21,7 @@ export default function MobileApp() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">Mobile Application Development Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -378,7 +378,7 @@ export default function MobileApp() {
 			</div>
 		</section>
         <section>
-            <div class="containerFull">
+            <div className="containerFull">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="why-need-right">

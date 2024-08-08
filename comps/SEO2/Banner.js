@@ -77,7 +77,7 @@ const Banner = () => {
                   <strong className="fontWeight600 text_red" style={{
                     fontStyle:"italic",
                   }}>
-                    Best <span className="textChange">SEO</span> Company in
+                    Top <span className="textChange">SEO Marketing</span> Company in
                     India
                   </strong>
                 </p>
@@ -95,7 +95,8 @@ const Banner = () => {
           <p className="fontHeading">
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">SEO</span> Company in India
+            Top <span className="textChange">SEO Marketing</span> Company in
+            India
             </strong>
           </p>
           <BannerForm />

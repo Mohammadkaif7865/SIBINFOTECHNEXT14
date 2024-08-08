@@ -284,7 +284,7 @@ const Faqs = () => {
           <div className=" col-lg-6 pe-lg-4  ">
             {faqsDataLeft.map((item, i) => {
               return (
-                <div className="">
+                <div key={i} className="">
                   <div className="customFaq">
                     <h4
                       className=" fontHeading"
@@ -299,7 +299,7 @@ const Faqs = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
+                        {open == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
                       </span>
                     </h4>
 
@@ -323,7 +323,7 @@ const Faqs = () => {
             {" "}
             {faqsDataRight.map((item, i) => {
               return (
-                <div className="">
+                <div key={i} className="">
                   <div className="customFaq">
                     <h4
                       className=" fontHeading"
@@ -338,7 +338,7 @@ const Faqs = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open2 == i ? <i class="bi bi-dash-circle"></i>: <i class="bi bi-plus-circle"></i>}
+                        {open2 == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
                       </span>
                     </h4>
 

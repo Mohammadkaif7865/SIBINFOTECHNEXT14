@@ -48,7 +48,7 @@ export default function Blog() {
                   <div className="innerBannerTitle venter">
                     <h3 className="heading fontWeight700 text-center text-white">All Posts</h3>
                     <div className="mt-4 text-center">
-                      <Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i>  Get a Quote</Link>
+                      <Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i>  Get a Quote</Link>
                       <Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i>  Ask a question</Link>
                     </div>
                   </div>

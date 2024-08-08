@@ -20,7 +20,7 @@ export default function Dba2DbaServicesAdministration() {
                         <div className="innerBannerTitle venter">
                             <h3 className="heading fontWeight700 text-white">DB2 DBA Services and Administration</h3>
                             <div className="mt-4">
-                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
                                 <Link href="/contact-us" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
                         </div>
@@ -43,25 +43,25 @@ export default function Dba2DbaServicesAdministration() {
             </div>
         </div>
         <section id="sib-custom-page">
-            <div class="containerFull">
-               <div class="row">
-                  <div class="col-md-6">
+            <div className="containerFull">
+               <div className="row">
+                  <div className="col-md-6">
                       <p>For good business performance optimization of DB2 software, applications and databases is critically important.SIB Infotech has the experience, diagnostic tools, proven processes, project plans and expert resources to address the challenges your resident DBA may face at any time regardless of when they arise. Our acuity with DB2 performance, administration and recovery services enables you to free up your in-house resources to work on other necessary projects.</p>
                   </div>
-                  <div class="col-md-6">
-                      <div class="custom-page-img">
-                          <img src="assets/images/article-submission.png" alt="DB2 DBA Services and Administration" class="img-fluid"/>
+                  <div className="col-md-6">
+                      <div className="custom-page-img">
+                          <img src="assets/images/article-submission.png" alt="DB2 DBA Services and Administration" className="img-fluid"/>
                       </div>
                   </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                    <div class="custom-content-title">
+              <div className="row">
+                <div className="col-md-12">
+                    <div className="custom-content-title">
                         <p>Our DB2 database administrators are experienced with</p>
                     </div>
 
-                    <div class="row m-zero">
-                        <div class="col-md-6">
+                    <div className="row m-zero">
+                        <div className="col-md-6">
                             <ul>
                                 <li><p>Monitoring and calibrating both static and dynamic SQL</p></li>
                                 <li><p>Managing and tuning DB2 specific software</p></li>
@@ -71,7 +71,7 @@ export default function Dba2DbaServicesAdministration() {
                                 <li><p>Maintaining data sharing and high availability features of DB2</p></li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div className="col-md-6">
                             <ul>
                                 <li><p>Manage and support DB2 Replication â€“ both SQL and Queue Replication</p></li>
                                 <li><p>Setup and support for DR exercises</p></li>

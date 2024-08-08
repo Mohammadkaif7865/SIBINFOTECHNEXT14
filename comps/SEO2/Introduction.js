@@ -6,11 +6,13 @@ const Introduction = () => {
     <section>
       <div className="containerFull">
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-lg-6">
             <div className="rightPPC">
-              <h2 className="sub_heading fontHeading fontWeight600">
-              Your Local 
-                <span className="text_red"> SEO Company In India</span> 
+              <h2 className="intro-heading fontHeading fontWeight600"
+              
+              >
+              Your 
+                <span className="text_red"> Local SEO </span>Services Company In India
               </h2>
               <p className="customText mt-3">
                 <strong>Since 2005</strong>, SIB Infotech has been providing
@@ -24,13 +26,13 @@ const Introduction = () => {
               </p>
               <p className="cutomText mt-2">
                 Remember, there's no such thing as second place. You're either
-                first or nothing. With our years of experience as a leading SEO
+                first or nothing. With our years of experience as a leading SEO Services
                 company in India, we know how important Search Engine
                 Optimization (SEO) is for businesses.
               </p>
             </div>
           </div>
-          <div className="col-lg-7  mt-4 mt-lg-0 ">
+          <div className="col-lg-6  mt-4 mt-lg-0 ">
             <div className="">
               <div className=" d-flex introduction_seo_list ">
                 <div className="left">

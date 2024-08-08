@@ -65,8 +65,8 @@ const ServicesLogo = () => {
           </div>
           <div className="servicesLogo-content">
             {" "}
-            <h4 class="small_heading fontHeading text-center  fontWeight900  fontWeight500">
-            Your Next  <span class="text_red">
+            <h4 className="small_heading fontHeading text-center  fontWeight900  fontWeight500">
+            Your Next  <span className="text_red">
             SEO Agency In India   
               </span> - Trusted By Over 1000+ Companies
              

@@ -298,7 +298,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                 </h3>
                 <div className="mt-5 d-flex justify-content-center">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
-                    <i class="fa-solid fa-comment-dots"></i> Get a Quote
+                    <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
                   <Link href="#" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
@@ -461,11 +461,11 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                         })}
                           <tr>
                           <td>Pricing</td>
-                          <td><button class="package-btn">ENQUIRE</button></td>
-                          <td><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
+                          <td><button className="package-btn">ENQUIRE</button></td>
+                          <td><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
                         </tr>
                       </tbody>
                     </table>
@@ -579,11 +579,11 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                         })}
                           <tr>
                           <td>Pricing</td>
-                          <td><button class="package-btn">ENQUIRE</button></td>
-                          <td><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button class="package-btn">ENQUIRE</button></td>
+                          <td><button className="package-btn">ENQUIRE</button></td>
+                          <td><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
+                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
                         </tr>
                       </tbody>
                     </table>

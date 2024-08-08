@@ -405,7 +405,7 @@ const Faqs = () => {
                 through electronic devices, including phones, computers
                 and tablets.
               </p>
-              <p class="mt-2">
+              <p className="mt-2">
                 Digital marketing and traditional marketing, such as
                 print ads and direct mail, share the same ultimate goal:
                 generating product awareness and influencing purchasing
@@ -414,7 +414,7 @@ const Faqs = () => {
                 marketing uses internet-connected technologies to
                 communicate and engage with targeted audiences.
               </p>
-              <p class="mt-2">
+              <p className="mt-2">
                 The launch of the World Wide Web in 1989 set the stage
                 for the emergence of digital marketing. The
                 proliferation of business websites, advancements in
@@ -495,13 +495,13 @@ const Faqs = () => {
       innovative strategies to market your products and
       services online.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       A full-service digital marketing agency (like SIB
       INFOTECH) can manage your social media accounts,
       redesign your website, optimize your web pages and
       content for search engines, and more.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       Meanwhile, boutique agencies specialize in one or two
       digital marketing strategies. They may also specialize
       in specific industries, like food and beverage
@@ -518,7 +518,7 @@ const Faqs = () => {
                               marketing campaign may use social media, blog posts, and
                               email to promote a business and its offerings.
                             </p>
-                            <p class="mt-2">
+                            <p className="mt-2">
                               In recent years, the line between “traditional
                               marketing” and “digital marketing” has begun to blur as
                               even traditional channels like billboards, TV ads, and
@@ -537,12 +537,12 @@ const Faqs = () => {
       to provide a one-size-fits-all price tag for digital
       marketing.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       Instead, it is helpful to examine the digital marketing
       spend for different levels of business, as small
       companies will spend less than larger ones. For example:
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       <strong>Basic Digital Marketing —</strong> Startups and
       small businesses do not generally have a large budget
       available for digital marketing. These businesses focus
@@ -551,7 +551,7 @@ const Faqs = () => {
       point. The cost for basic digital marketing can be
       several hundred dollars per month.{" "}
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       <strong>Intermediate Digital Marketing — </strong>{" "}
       Medium-sized businesses tend to have established revenue
       streams and the capability to spend more on digital
@@ -560,7 +560,7 @@ const Faqs = () => {
       intermediate digital marketing can be several thousand
       dollars per month.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       <strong>Advanced Digital Marketing — </strong> Large or
       enterprise businesses will use digital marketing in a
       comprehensive and often global manner. These businesses
@@ -571,7 +571,7 @@ const Faqs = () => {
       advanced digital marketing can be tens of thousands of
       dollars per month.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       As demonstrated above, the cost of digital marketing
       varies greatly based on business size, revenue and
       goals. Smaller companies will often start with a basic
@@ -589,11 +589,11 @@ const Faqs = () => {
       might wonder how your business can take advantage of
       digital marketing’s many benefits.
     </p>
-    <p class="mt-2">
+    <p className="mt-2">
       If you’re curious about how your company can use digital
       marketing, here are some examples:
     </p>
-    <ul class="listFlexItem">
+    <ul className="listFlexItem">
       <li>
         Build brand awareness with a social media ad campaign
         on Facebook
@@ -635,7 +635,7 @@ const Faqs = () => {
       </li>
       <li>These are just 10 digital marketing ideas.</li>
     </ul>
-    <p class="mt-2">
+    <p className="mt-2">
       Whether you’re in the business-to-business (B2B) or
       business-to-consumer (B2C) market, you can find creative
       ways to reach your audience through online channels. The

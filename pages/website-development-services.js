@@ -12,26 +12,26 @@ export default function WebDevelopmentServices() {
   const faqsData = [
     {
       question: "What are Web Development services?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Known for ensuring the online presence of company Web Development services involve developing the website for the Internet (World Wide Web) or an intranet (a private network). Among professionals, Web Development usually refers to the main design aspects of building websites i.e. markup and coding.</p>
                 </div>`,
     },
     {
       question: "What does a Web Development company do?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Web Development is all about maintaining the online presence of a company so that its services can reach out to its potential customers. Web Development services include various engaging activities such as ideating and freezing the framework, architecture and navigation.</p>
                   <p>There are several languages such as JavaScript, ASP, HTML, PHP etc. for coding and programming the backend.</p>
                 </div>`,
     },
     {
       question: "What does Web development include?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Web Development involves creating websites and apps for brands to reach customers. It includes aspects like web design, web publishing, web programming, and database management. A Web Developer designs websites and also writes the script in languages such as PHP and ASP.</p>
                 </div>`,
     },
     {
       question: "How much does Web Development cost?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>The cost for Web Development depends on many factors such as:</p>
                   <ul>
                     <li>Variation in requirements.</li>
@@ -42,26 +42,26 @@ export default function WebDevelopmentServices() {
     },
     {
       question: "What to look for in a Professional Web Development Company?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Understanding what you look for in a web development company can be hard and at the same time can also have a major impact on the online presence of your business. We suggest choosing a website that has years of experience with an extensive portfolio of websites. Opt for checking reviews online to gauge how satisfied clients have been with the company's work.</p>
                 </div>`,
     },
     {
       question: "Why SIB Infotech is the Best Web Development Agency in India?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>In a country like India, you will find thousands of Web Designing Companies running single-handedly or with multiple hands but what makes SIB Infotech unique is its years of experience and team of experts skilled in different areas. Feel free to check our portfolio for more information about the projects we have successfully delivered. We offer a free no-obligation consultation session so you can evaluate our capabilities and see if we are a good fit for your project. Contact us today to book an appointment.</p>
                 </div>`,
     },
     {
       question: "How much does Website Development Costs in India?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Web Development in a country like India is usually priced on the lower side of the scale. The total costing depends on the time utilization, resources on a particular project along with the custom requirements of clients.</p>
                 </div>`,
     },
     {
       question:
         "What Web Development Platforms do you use for Developing a Website?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
                   <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
                   <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
@@ -70,7 +70,7 @@ export default function WebDevelopmentServices() {
     },
     {
       question: "What is Website Development?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
                   <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
                   <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
@@ -80,7 +80,7 @@ export default function WebDevelopmentServices() {
     {
       question:
         "How do I choose a Website Development Company for my Business?",
-      answer: `<div class="">
+      answer: `<div className="">
                   <p>Here are a few tips to consider when appointing a web development company and the obstacles that may appear by overlooking vital points:</p>
                   <ul>
                     <li>Before opting for website development services you need to answer a few questions. What are the elements you need in a website? How many webpages do you need on your website? What should be its key features?</li>

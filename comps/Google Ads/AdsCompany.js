@@ -9,7 +9,7 @@ const AdsCompany = () => {
           <div className="col-lg-7">
             <h2 className="customHeading  fontHeading">
               SIB Infotech - Top Rated{" "}
-              <span class="text_red">Google Ads Company In India</span>
+              <span className="text_red">Google Ads Company In India</span>
             </h2>
             <p className="customText">
               Google is one of the most used search engines by the vast majority

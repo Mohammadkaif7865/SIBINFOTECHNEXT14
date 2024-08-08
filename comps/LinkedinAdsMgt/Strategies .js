@@ -4,36 +4,36 @@ import React from "react";
 const Strategies = () => {
   return (
     <section>
-      <div class="containerFull">
-        <div class="row align-items-center">
-          <div class="col-lg-4 leftDigiSer">
-            <div class="heading-section">
-              <h3 class="customHeading text-white">
+      <div className="containerFull">
+        <div className="row align-items-center">
+          <div className="col-lg-4 leftDigiSer">
+            <div className="heading-section">
+              <h3 className="customHeading text-white">
                 SIB's strategy is the best you can get for your business
               </h3>
-              <ul class="linkedin-list">
-                <li class="customText text-off-white">
+              <ul className="linkedin-list">
+                <li className="customText text-off-white">
                   Target audience identification
                 </li>
-                <li class="customText text-off-white">
+                <li className="customText text-off-white">
                   Market and user analytics
                 </li>
-                <li class="customText text-off-white">
+                <li className="customText text-off-white">
                   Strategic content creation
                 </li>
-                <li class="customText text-off-white">Appealing ad designs</li>
-                <li class="customText text-off-white">Ad monitoring</li>
-                <li class="customText text-off-white">Reporting</li>
+                <li className="customText text-off-white">Appealing ad designs</li>
+                <li className="customText text-off-white">Ad monitoring</li>
+                <li className="customText text-off-white">Reporting</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-8">
-            <h3 class="customHeading mt-lg-0 mt-3">
+          <div className="col-lg-8">
+            <h3 className="customHeading mt-lg-0 mt-3">
               Our <span className="text_red">Strategies </span>help in
             </h3>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}
@@ -43,8 +43,8 @@ const Strategies = () => {
                   <h4>Building brand awareness</h4>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}
@@ -54,8 +54,8 @@ const Strategies = () => {
                   <h4>Lead generation</h4>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}
@@ -66,9 +66,9 @@ const Strategies = () => {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}
@@ -78,8 +78,8 @@ const Strategies = () => {
                   <h4>Brand visibility increment</h4>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}
@@ -89,8 +89,8 @@ const Strategies = () => {
                   <h4>Toughen brand reputation</h4>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="linkedin-box">
+              <div className="col-lg-4">
+                <div className="linkedin-box">
                   <Image
                     width={50}
                     height={50}

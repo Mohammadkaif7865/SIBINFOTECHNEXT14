@@ -53,7 +53,7 @@ export default function Header() {
                   <li>
                     <Link href="tel:+91-9222260000">
                       <i
-                        class="fa-solid fa-phone-volume "
+                        className="fa-solid fa-phone-volume "
                         style={{
                           transform: "rotate(321deg)",
                         }}
@@ -574,71 +574,7 @@ export default function Header() {
           </div>
         </div>
       </header>
-      {/* <div className=" offcanvas headerOffcanvas offcanvas-end  " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
-        style={{zIndex: "9999"}}>
-            <div className="offcanvas-header">
-                <h5 id="offcanvasRightLabel">&nbsp;</h5>
-                <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div className="offcanvas-body">
-                <div className="extraMenuItems" id="mobileSub">
-                    <ul>
-                        <div className="d-block d-md-none">
-                            <li data-bs-dismiss="offcanvas"><Link href="/digital-marketing-services">Digital Marketing</Link></li>
-                            <li className="itemSub"><Link href="/pay-per-click-ppc-management-services" data-bs-dismiss="offcanvas">PPC Management</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#ppcManagement" aria-expanded="true" aria-controls="ppcManagement"><i className="fa fa-chevron-down"></i></button>
-                                <ul id="ppcManagement" className="collapse" data-bs-parent="#mobileSub">
-                                  <li data-bs-dismiss="offcanvas"><Link href="/google-ads-management-services">Google Ads Management</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/linkedin-ads-management-services">LinkedIn Ads Management</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/facebook-ads-management-services">Facebook Ads Marketing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/instagram-ads-management-services">Instagram Ads Management</Link></li>
-                                </ul>
-                            </li>
-                            <li className="itemSub"><Link href="/search-engine-optimization-seo-services" data-bs-dismiss="offcanvas">SEO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#seoMenu" aria-expanded="true" aria-controls="seoMenu"><i className="fa fa-chevron-down"></i></button>
-                                <ul id="seoMenu" className="collapse" data-bs-parent="#mobileSub">
-                                <li data-bs-dismiss="offcanvas"><Link href="/on-page-seo-services">ON-Page SEO Services</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/off-page-seo-services">OFF-Page SEO Services</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/e-commerce-seo-services">E-Commerce SEO</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/mobile-seo-services">Mobile SEO</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/search-engine-optimization-outsourcing-seo-services">SEO Outsourcing</Link></li>
-                                <li data-bs-dismiss="offcanvas"><Link href="/local-seo-services">Local SEO</Link></li>
-                                </ul>
-                            </li>
-                            <li className="itemSub"><Link href="/social-media-optimization-services" data-bs-dismiss="offcanvas">SMO</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#smoMenu" aria-expanded="true" aria-controls="smoMenu"><i className="fa fa-chevron-down"></i></button>
-                                <ul id="smoMenu" className="collapse" data-bs-parent="#mobileSub">
-                                    <li data-bs-dismiss="offcanvas"><Link href="/social-media-optimization-services">Social Media Optimization</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/content-marketing-services">Content Marketing</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/digital-marketing-services">Digital Marketing</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/online-reputation-management-services">Online Reputation Management Services</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/blog-management-services">Blog Management Service</Link></li>
-                                    <li data-bs-dismiss="offcanvas"><Link href="/influencer-marketing-services">Influencer Marketing</Link></li>
-                                </ul>
-                            </li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/graphic-designing-services">Graphic Design</Link></li>
-                            <li className="itemSub"><Link href="/website-designing-services" data-bs-dismiss="offcanvas">Website Designing Services</Link> <button className="subBtn" data-bs-toggle="collapse" data-bs-target="#websiteDesign" aria-expanded="true" aria-controls="websiteDesign"><i className="fa fa-chevron-down"></i></button>
-                                <ul id="websiteDesign" className="collapse"  data-bs-parent="#mobileSub">
-                                  <li data-bs-dismiss="offcanvas"><Link href="/corporate-website-designing-services">Corporate Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/responsive-website-designing-services">Responsive Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/e-commerce-website-design-development-services">E-commerce Website Designing</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/cms-website-design-development-services">Content Management Systems</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/wordpress-website-design-development-services">WordPress Website Design & Development</Link></li>
-                                  <li data-bs-dismiss="offcanvas"><Link href="/custom-website-designing-services">Custom Website Designing</Link></li>
-                                </ul>
-                            </li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/website-development-services">Web Development</Link></li>
-                            <li data-bs-dismiss="offcanvas"><Link href="/software-development-services">Software Development</Link></li>
-                        </div>
-                        <li data-bs-dismiss="offcanvas"><Link href="/about-us">About Us</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/portfolio">Our Portfolio</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/blog">Latest Blogs</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/career">Careers</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="#">Our Clients</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="#">SEO Tools</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/resource">Resources</Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link href="/contact-us">Contact Us</Link></li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
+      
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
@@ -918,19 +854,19 @@ export default function Header() {
           </div>
           <hr className=" my-4" />
           <div>
-            <div class="social-link ">
+            <div className="social-link ">
               <ul className="d-flex">
                 <li>
                   <a
                     target="_blank"
                     href="https://www.facebook.com/sibinfotech/"
                   >
-                    <i class="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
                   <a target="_blank" href="https://www.twitter.com/sibinfotech">
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li>
@@ -938,7 +874,7 @@ export default function Header() {
                     target="_blank"
                     href="https://www.linkedin.com/company/sib-infotech/"
                   >
-                    <i class="fab fa-linkedin-in"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
                 <li>
@@ -946,7 +882,7 @@ export default function Header() {
                     target="_blank"
                     href="https://www.youtube.com/user/sibinfotech"
                   >
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </li>
               </ul>
