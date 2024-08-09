@@ -20,7 +20,7 @@ export default function LocalSeoServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">Local SEO Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -377,12 +377,12 @@ export default function LocalSeoServices() {
                 </div>
             </div>
         </section>
-        <section class="customPadding zIndex position-relative blueBg">
-            <div class="containerFull">
-                <div class="callAction">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <h2 class="text-white mb-4">
+        <section className="customPadding zIndex position-relative blueBg">
+            <div className="containerFull">
+                <div className="callAction">
+                    <div className="row">
+                        <div className="col-lg-8 offset-lg-2">
+                            <h2 className="text-white mb-4">
                                 Are you ready to lead the online local business top rankings?</h2>
                             <Link href="/contact-us">Speak to our Experts</Link></div>
                     </div>

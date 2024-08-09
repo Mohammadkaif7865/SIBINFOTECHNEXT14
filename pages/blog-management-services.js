@@ -20,7 +20,7 @@ export default function BlogManagementServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white fontHeading">Blog Management Services</h3>
     						<div className="mt-4">
-    							<Link href="#" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>

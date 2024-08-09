@@ -18,7 +18,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white fontHeading">E-commerce Website Designing Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -216,14 +216,14 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                 </div>
             </div>
         </section>
-        <section class="customPadding bgGrey">
-            <div class="containerFull">
-                <div class="row">
-                    <div class="col-lg-10 offset-lg-1">
-                        <h4 class="customHeading text-blue text-center customLineHeight2">
+        <section className="customPadding bgGrey">
+            <div className="containerFull">
+                <div className="row">
+                    <div className="col-lg-10 offset-lg-1">
+                        <h4 className="customHeading text-blue text-center customLineHeight2">
                             #1 Agency for <span className="text_red">E-commerce Website Designing and Development</span> in India with offices in Mumbai and Delhi.</h4>
-                        <div class="text-center">
-                            <Link class="btnDiscuss" href="#">Speak to our experts</Link></div>
+                        <div className="text-center">
+                            <Link className="btnDiscuss" href="#">Speak to our experts</Link></div>
                     </div>
                 </div>
             </div>

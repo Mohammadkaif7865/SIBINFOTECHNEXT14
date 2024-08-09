@@ -19,7 +19,7 @@ export default function SocialMediaMarketingServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">Social Media Marketing Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -265,10 +265,10 @@ export default function SocialMediaMarketingServices() {
             </div>
         </section>
         <section>
-            <div class="containerFull">
-                <h3 class="customHeading text-center">
+            <div className="containerFull">
+                <h3 className="customHeading text-center">
                     Social Media Strategy at <span>SIB</span></h3>
-                <p class="customText text-center">
+                <p className="customText text-center">
                     A social media strategy is the roadmap for building awareness and engagement of your brand via social media platforms. The strategy is a composition of auditing existing social media platforms, objetives, target audience, approach and implementation of recommendations. At SIB we offer comprehensive SMM strategies for your business in India and abroad. A 360-degree social media marketing management strategy is generally a mixture of several tools.</p>
                 </div>
         </section>
@@ -418,10 +418,10 @@ export default function SocialMediaMarketingServices() {
                 </div>
             </div>
         </section>
-        <section class="blueBg2">
-            <div class="containerFull">
-                <div class="callAction">
-                    <h3 class="customLineHeight2">
+        <section className="blueBg2">
+            <div className="containerFull">
+                <div className="callAction">
+                    <h3 className="customLineHeight2">
                         Lounch your Social Media Marketing Campaign with<br/>
                         #1 Agency for Social media marketing services in India with offices in Mumbai and Delhi.</h3>
                     <Link href="/contact-us">Speak to Our Social Media Marketing Experts</Link></div>

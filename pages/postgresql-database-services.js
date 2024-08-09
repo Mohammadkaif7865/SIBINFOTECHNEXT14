@@ -18,7 +18,7 @@ export default function PostGreSqlDatabaseServices() {
                         <div className="innerBannerTitle venter">
                             <h3 className="heading fontWeight700 text-white">Postgresql Database Services</h3>
                             <div className="mt-4">
-                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
                                 <Link href="/contact-us" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
                         </div>
@@ -41,20 +41,20 @@ export default function PostGreSqlDatabaseServices() {
             </div>
         </div>
         <section id="sib-custom-page">
-            <div class="containerFull">
-               <div class="row">
-                 <div class="col-md-6">
-                    <div class="custom-page-img">
-                        <img src="assets/images/article-submission.png" alt="Postgresql Database Services in India" class="img-fluid"/>
+            <div className="containerFull">
+               <div className="row">
+                 <div className="col-md-6">
+                    <div className="custom-page-img">
+                        <img src="assets/images/article-submission.png" alt="Postgresql Database Services in India" className="img-fluid"/>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
 
                     <p>
                         Expert SIB Infotech DBAs Deliver Optimal Performance and Reliability without Sacrificing Security.PostgreSQL database support helps your organization increase performance and stability. At SIB Infotech we offer a proprietary monitoring tool, SIB Infotech DeltaÂ© unique delivery structure that complies with ITIL and industry best practices.PostgreSQL DBA is appointed to a client to ensure that our services are most effectively implemented.
 
                     </p>
-                    <div class="custom-content-title">
+                    <div className="custom-content-title">
                         <p>What is PostgreSQL Database ?</p>
                     </div>
                     <p>
@@ -64,16 +64,16 @@ export default function PostGreSqlDatabaseServices() {
                 </div>
                
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                  <div class="custom-content-title">
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="custom-content-title">
                       <p>
                           SIB Infotech's experienced PostgreSQL DBA support services include</p>
                   </div>
 
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                   <ul>
                       <li>
                           <p>Cost effective 24x7 DBA coverage</p>
@@ -99,7 +99,7 @@ export default function PostGreSqlDatabaseServices() {
 
                   </ul>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                   <ul>
                       <li>
                           <p>Database performance tuning</p>
@@ -121,9 +121,9 @@ export default function PostGreSqlDatabaseServices() {
                       </li>
                   </ul>
               </div>
-              <div class="col-md-4">
-                  <div class="custom-page-img">
-                      <img src="assets/images/article-submission.png" alt="Postgresql Database Services" class="img-fluid"/>
+              <div className="col-md-4">
+                  <div className="custom-page-img">
+                      <img src="assets/images/article-submission.png" alt="Postgresql Database Services" className="img-fluid"/>
                   </div>
               </div>
 

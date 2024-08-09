@@ -19,7 +19,7 @@ export default function PsdHtmlConversionServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">PSD to HTML Conversion Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -404,10 +404,10 @@ export default function PsdHtmlConversionServices() {
                 </div>
             </div>
         </section>
-        <section class="blueBg2">
-            <div class="containerFull">
-                <div class="callAction">
-                    <h4 class="customLineHeight">
+        <section className="blueBg2">
+            <div className="containerFull">
+                <div className="callAction">
+                    <h4 className="customLineHeight">
                     Contact us today to get your Sketch/ PSD to HTML conversion at</h4>
                     <h3>
                     highly affordable rates!</h3>

@@ -19,7 +19,7 @@ export default function CorporateWebsiteDesigningServices() {
     						<h1 className="heading fontWeight700 text-white fontHeading">Corporate Website Designing Services</h1>
     						<h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">Best Website Designing Company in India</h2>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>

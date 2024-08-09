@@ -15,7 +15,7 @@ const HeroGoogleAds = () => {
               </h3>
               <div className="mt-4">
                 <Link href="#requestQuote" className="btnThemeRed me-3">
-                  <i class="fa-solid fa-comment-dots"></i> Get a Quote
+                  <i className="fa-solid fa-comment-dots"></i> Get a Quote
                 </Link>
                 <Link href="#" className="btnThemewhiteBorder">
                   <i className="fa-solid fa-circle-question"></i> Ask a Question

@@ -27,22 +27,22 @@ const BookConsultation = () => {
                 <div className="mt-3">
                   <p>
                     {" "}
-                    <i class="fa-solid fa-square-check me-2 text_red"></i>
+                    <i className="fa-solid fa-square-check me-2 text_red"></i>
                     Complete SEO Audit and Analysis
                   </p>
                   <p>
                     {" "}
-                    <i class="fa-solid fa-square-check me-2 text_red"></i>
+                    <i className="fa-solid fa-square-check me-2 text_red"></i>
                     Competitor Analysis
                   </p>
                   <p>
                     {" "}
-                    <i class="fa-solid fa-square-check me-2 text_red"></i>SEO
+                    <i className="fa-solid fa-square-check me-2 text_red"></i>SEO
                     Performance and Gap Analysis
                   </p>
                   <p>
                     {" "}
-                    <i class="fa-solid fa-square-check me-2 text_red"></i>
+                    <i className="fa-solid fa-square-check me-2 text_red"></i>
                     Analyzing Channel-Specific SEO Needs
                   </p>
                 </div>

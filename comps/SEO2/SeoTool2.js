@@ -153,7 +153,7 @@ const SeoTools2 = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <div className="slide_card">
+                <div className="slide_card ">
                   <div className="slide_card_img">
                     <Image
                       className="w-100 h-100"
@@ -166,49 +166,22 @@ const SeoTools2 = () => {
                   </div>
                   <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +600%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +600% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600   ">Organic Growth</p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        400+{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        400+ <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">
                         Impression
                       </p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +270%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +270% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">Clicks</p>
                     </div>
@@ -233,49 +206,22 @@ const SeoTools2 = () => {
                   </div>
                   <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +400%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +400% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600   ">Organic Growth</p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        345+{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        345+ <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">
                         Impression
                       </p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +280%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +280% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">Clicks</p>
                     </div>
@@ -301,49 +247,22 @@ const SeoTools2 = () => {
 
                   <div className="slide_card_content ">
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +230%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +230% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600   ">Organic Growth</p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        300+{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        300+ <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">
                         Impression
                       </p>
                     </div>
                     <div>
-                      <h4 className=" fontWeight700 d-flex align-items-center   ">
-                        +270%{" "}
-                        <Image
-                          className="h-auto"
-                          width={45}
-                          height={45}
-                          src={
-                            "/assets/images/icons/seo-result/data-analytics-arrow.svg"
-                          }
-                          alt="rnb"
-                        />
+                      <h4 className=" fontWeight600 d-flex align-items-center   ">
+                        +270% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">Clicks</p>
                     </div>
@@ -359,7 +278,7 @@ const SeoTools2 = () => {
           <div className=" seo_result_right2 mt-4 mt-lg-0 ">
             {tools2.map((value, i) => {
               return (
-                <div className=" items d-flex align-items-center justify-content-center px-3  shadow rounded-3 border ">
+                <div key={i} className=" items d-flex align-items-center justify-content-center px-3  shadow rounded-3 border ">
                   <div className="">
                     {/* <Image
                       className="mx-auto d-block "

@@ -303,10 +303,17 @@ const nextConfig = {
     ];
   },
   images: {
-    domains: ["www.sibinfotech.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.sibinfotech.com',
+      },
+    ],
+   
   },
 
-  assetPrefix: "https://www.sibinfotech.com",
+
+  // assetPrefix: "https://www.sibinfotech.com",
 };
 
 export default nextConfig;

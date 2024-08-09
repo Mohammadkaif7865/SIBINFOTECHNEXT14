@@ -18,9 +18,9 @@ export default function EcommerceSeoServicesPackages() {
 			        <div className="col-lg-7 ps-lg-5">
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">E-commerce Seo Packages</h3>
-                            <h2 class="small_heading fw-bold mt-3 text-white">Increase Online Business Traffic With Our Affordable E-Commerce SEO Packages</h2>
+                            <h2 className="small_heading fw-bold mt-3 text-white">Increase Online Business Traffic With Our Affordable E-Commerce SEO Packages</h2>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>

@@ -18,7 +18,7 @@ export default function FlashGameDevelopmentCompanies() {
                         <div className="innerBannerTitle venter">
                             <h3 className="heading fontWeight700 text-white">Flash Game Development</h3>
                             <div className="mt-4">
-                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+                                <Link href="/#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
                                 <Link href="/contact-us" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
                         </div>

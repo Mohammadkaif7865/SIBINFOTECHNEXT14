@@ -20,7 +20,7 @@ export default function EcommerceSeoServices() {
     					<div className="innerBannerTitle venter">
     						<h3 className="heading fontWeight700 text-white">E-Commerce SEO Services</h3>
     						<div className="mt-4">
-    							<Link href="#requestQuote" className="btnThemeRed me-3"><i class="fa-solid fa-comment-dots"></i> Get a Quote</Link>
+    							<Link href="#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
     							<Link href="#" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
     						</div>
     					</div>
@@ -369,96 +369,96 @@ export default function EcommerceSeoServices() {
                 </div>
             </div>
         </section>
-        <section class=" bgGrey">
-            <div class="containerFull">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="customHeading text-center">
+        <section className=" bgGrey">
+            <div className="containerFull">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <h3 className="customHeading text-center">
                             We have worked on numerous platforms to deliver top-quality services to our clients</h3>
-                        <h4 class="text-center">
+                        <h4 className="text-center">
                             Few of many are listed :</h4>
-                        <div class="row mt-4">
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                        <div className="row mt-4">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/drupal.png" alt="DrupalCommerce-websites"/>
                                     <h4>
                                         Drupal Commerce</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-cs-cart.svg" alt="CS-cart-websites"/>
                                     <h4>
                                         CS Cart</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/on-page-seo-woo-commerce.png" alt="woo-commerce-websites"/>
                                     <h4>
                                         Woo Commerce</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-opencart.svg" alt="opencart-websites"/>
                                     <h4>
                                         Opencart</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-presta-shop.png" alt="Presta-shop-websites"/>
                                     <h4>
                                         PrestaShop</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-zencart.svg" alt="Zencart-websites"/>
                                     <h4>
                                         Zencart</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                        <div className="row">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-os-commerce.svg" alt="os-commerce-websites"/>
                                     <h4>
                                         Os Commerce</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/on-page-seo-big-commerce-website.png" alt="Big-commerce-websites" />
                                     <h4>
                                         Big Commerce Websites</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/on-page-seo-magento-website.png" alt="Magento-websites"/>
                                     <h4>
                                         Magento</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-volusion.svg" alt="Volusion-websites"/>
                                     <h4>
                                         Volusia</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/on-page-seo-shopify-website.svg" alt="Shopify-websites"/>
                                     <h4>
                                         Shopify</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
-                                <div class="optmize-box">
+                            <div className="col-lg-2 col-6">
+                                <div className="optmize-box">
                                     <img src="assets/images/icons/ecommerce-seo-suit-commerce.svg" alt="Suit-commerce-websites"/>
                                     <h4>
                                         Suit Commerce</h4>

@@ -9,11 +9,11 @@ const Benifits = () => {
           <div className="col-lg-7">
             <div className="leftBenefits">
               <h4 className="sub_heading fontHeading fontWeight700">
-                Benefits of getting the SEO Services from the Best SEO Company
+                Benefits of getting the SEO Services from the best SEO Agency
                 in India
               </h4>
               <p className="mt-3">
-                SIB Infotech, a leading SEO company in India, offers a
+                SIB Infotech, a leading SEO agency in India, offers a
                 comprehensive suite of services designed to optimize your online
                 presence. Through proprietary methods, meticulous keyword
                 research, and insightful competitor analysis, we guarantee
