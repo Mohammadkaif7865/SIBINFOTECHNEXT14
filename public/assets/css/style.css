@@ -288,7 +288,7 @@ section {
   /* border: 1px solid red; */
 }
 .header_email {
-  font-size: 14px !important;
+  font-size: 14zpx !important;
   text-transform: lowercase !important;
   padding-left: 20px;
   font-weight: 300 !important;
@@ -9785,6 +9785,23 @@ font-family: "Font Awesome 5 Free";
 font-size: 20px;
 
 } */
+
+/* .page-item.active{
+  background-color: #000 !important;
+} */
+.page-item.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: #fff;
+  background-color: var(--light-blue-color);
+  border-color: var(--light-blue-color);
+}
+.page-item>.page-link{
+color: #000;
+}
+
+.breadcrum-text{
+  color:gray;
+}
 
 
 
