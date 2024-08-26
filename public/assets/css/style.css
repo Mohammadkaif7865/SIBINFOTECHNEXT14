@@ -9693,4 +9693,36 @@ table tbody tr td:nth-child(2) {
 
 .intro-heading {
   font-size: 28px;
-} /*# sourceMappingURL=style1.css.map */
+} 
+.bottom-bar1{
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat( 3 , minmax(auto,1fr));
+  z-index: 2;
+}
+
+.bottom-bar1 a{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  color: #fff;
+  /* font-size: 20px; */
+}
+.bottom-bar1 a:nth-child(1){
+ background-color: var(--light-blue-color);
+ font-size: 16px;
+}
+.bottom-bar1 a:nth-child(2){
+ background-color: var(--red-color);
+ font-size: 20px;
+}
+.bottom-bar1 a:nth-child(3){
+ background-color:#34a853;
+ font-size: 20px;
+}
+
+
+
