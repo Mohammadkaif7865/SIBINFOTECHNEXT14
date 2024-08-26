@@ -4,14 +4,13 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
+
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 import { usePathname } from "next/navigation";
 
-
 function MyApp({ Component, pageProps }) {
   const path = usePathname();
-  
 
   return (
     <HelmetProvider>
@@ -35,7 +34,6 @@ function MyApp({ Component, pageProps }) {
             crossorigin="anonymous"
           />
 
-          
           <link
             rel="preload"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -79,10 +77,10 @@ function MyApp({ Component, pageProps }) {
               rel="stylesheet"
             />
           </noscript>
-         
         </Head>
         <ToastContainer />
         <Component {...pageProps} />
+        
       </Layout>
     </HelmetProvider>
   );

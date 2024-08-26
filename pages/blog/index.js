@@ -25,6 +25,7 @@ export default function Blog() {
      if (res) {
       const data = res.data;
       if(data.blogs) {
+        console.log(data.blogs)
         setBlogs(data.blogs);
       }
      }
