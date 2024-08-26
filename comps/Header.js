@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { RiMenu3Fill, RiMenu4Line } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
@@ -23,8 +24,8 @@ export default function Header() {
 
   return (
     <div>
-      <header className="header stricky">
-        <div className="topHeader d-none d-md-block">
+      <header className="header stricky ">
+        {/* <div className="topHeader d-none d-md-block">
           <div className="containerFull">
             <div className="inlineHeader ">
               <div className="topHeaderLeft">
@@ -52,48 +53,63 @@ export default function Header() {
                   </li>
                   <li>
                     <Link href="tel:+91-9222260000">
-                      <i
-                        className="fa-solid fa-phone-volume "
-                        style={{
-                          transform: "rotate(321deg)",
-                        }}
-                      ></i>{" "}
-                      +91-9222260000
+                    <i class="fa-solid fa-phone-volume " style={{
+                      transform: "rotate(321deg)",
+                    }} ></i> +91-9222260000
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mainHeader ">
-          <div className="container-fluid">
+          <div className="px-1 px-lg-2 ">
             <div className="inlineHeader">
               <div className="leftLogo">
                 <Link className="position-relative" href="/">
-                  {/* <picture>
-                    <source
-                      media="(max-width:650px)"
-                      srcSet="https://www.sibinfotech.com/assets/images/m-logo.webp"
-                    ></source>
-                    <img
-                      src="https://www.sibinfotech.com/assets/images/logo.webp"
-                      alt="Best Digital Marketing Company in India"
-                    />
-                  </picture> */}
                   <Image
                     src={"/assets/images/logo (1).webp"}
                     className=" object-fit-contain "
                     quality={100}
-                    width={210}
-                    height={60}
-                    // fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
+                    width={250}
+                    height={80}
+                    
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                     alt="Best Digital Marketing Company in India"
                   />
                 </Link>
               </div>
-              <div className="rightMenu d-md-block d-none">
+              <div className="rightMenu d-lg-block d-none  ">
+                <div className=" topHeaderRightMain d-flex justify-content-end align-items-center">
+                  <div className="topHeaderRight ">
+                    <ul>
+                      <li>
+                        <Link className="text-white " href="/contact-us ">Request a Quote</Link>
+                      </li>
+                      <li>
+                        <div className="menu_contact p-0 " href="tel:+91-9222260000">
+                        <i className="bi bi-telephone"></i>
+    
+                          <div className="menu_contact_inner">
+                            <a href="tel:+91-9222260000" className="p-0 number_phone">92222-60000</a>
+                            <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email">contact@sibinfotech.com</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    className="menubtn"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    onClick={handleShow}
+                  >
+                    {/* <i className="fa fa-bars"></i> */}
+                    <RiMenu4Line />
+                  </button>
+                </div>
                 <ul>
                   <li>
                     <Link href="/digital-marketing-services">
@@ -562,13 +578,14 @@ export default function Header() {
                 </ul>
               </div>
               <button
-                className="extraMenu"
+                className="extraMenu  d-lg-none"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight"
                 onClick={handleShow}
               >
                 <i className="fa fa-bars"></i>
+                {/* <RiMenu4Line /> */}
               </button>
             </div>
           </div>
