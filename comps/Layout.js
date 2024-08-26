@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
          <a target="_blank" href="mailto:contact@sibinfotech.com">
            <IoIosMail />
          </a>
-         <a target="_blank" href="">
+         <a target="_blank" href="https://api.whatsapp.com/send?phone=+919222260000&text=Hi">
            <FaWhatsapp />
          </a>
       
