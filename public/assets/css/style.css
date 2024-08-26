@@ -288,7 +288,7 @@ section {
   /* border: 1px solid red; */
 }
 .header_email {
-  font-size: 14zpx !important;
+  font-size: 14px !important;
   text-transform: lowercase !important;
   padding-left: 20px;
   font-weight: 300 !important;
