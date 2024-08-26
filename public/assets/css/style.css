@@ -9801,6 +9801,12 @@ color: #000;
 
 .breadcrum-text{
   color:gray;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrum-text  i{
+  font-size: 13px;
 }
 
 

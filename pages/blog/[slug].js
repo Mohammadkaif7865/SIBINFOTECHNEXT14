@@ -129,7 +129,7 @@ function SingleBlog({ blog, blogs }) {
           <section className="pt-2">
             <div className="containerFull ">
               <p className="breadcrum-text">
-                Home  <i class="fa-solid fa-angle-right"></i> Blog <i class="fa-solid fa-angle-right"></i> {blog[0]?.name}
+                Home  <i class="fa-solid fa-angle-right"></i> Blog <i class="fa-solid fa-angle-right"></i> <span className="text_primary">{blog[0]?.name}</span>
               </p>
             </div>
             <div className="containerFull mt-5">
