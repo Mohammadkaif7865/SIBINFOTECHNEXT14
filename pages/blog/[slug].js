@@ -25,8 +25,10 @@ export async function getServerSideProps(context) {
     });
 
     const blog = resBlog.data.blog;
+    // const blog = "";
     const blogs = resBlogs.data.blogs;
-   
+
+    // console.log(resBlogs.data.blogs)
 
     return {
       props: {
@@ -47,9 +49,12 @@ function SingleBlog({ blog, blogs }) {
     return { __html: blog[0].description };
   };
 
+  const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
+
   return (
     <div>
-        {console.log(blog)}
+      {console.log(blogs)}
+   
       {blog && (
         <>
           <Head>
@@ -121,8 +126,13 @@ function SingleBlog({ blog, blogs }) {
               </div>
             </div>
           </section>
-          <section>
-            <div className="containerFull">
+          <section className="pt-2">
+            <div className="containerFull ">
+              <p className="breadcrum-text">
+                Home  <i class="fa-solid fa-angle-right"></i> Blog <i class="fa-solid fa-angle-right"></i> <span className="text_primary">{blog[0]?.name}</span>
+              </p>
+            </div>
+            <div className="containerFull mt-5">
               <div className="row">
                 <div className="col-lg-8">
                   <div
@@ -134,24 +144,29 @@ function SingleBlog({ blog, blogs }) {
                   <div className="blog_sidebar">
                     <p className="title">Recent posts</p>
                     {blogs &&
-                      blogs.map((blogItem, index) => (
-                        <div key={index} className="inline_blog_card">
-                          <Link href={"/blog/" + blogItem.slug}>
-                            <div className="img">
-                              <img
-                                src={`${
-                                  CONSTANTS.BACKEND_URL + blogItem.image
-                                }`}
-                                alt={blogItem.image_alt}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <div className="content">
-                              <p className="title">{blogItem.name}</p>
-                            </div>
-                          </Link>
-                        </div>
-                      ))}
+                      blogs
+                        .filter(
+                          (blog) => blog.category_id === selectedcategory
+                        ).slice(0,10)
+                        .map((blogItem, index) => (
+                          <div key={index} className="inline_blog_card">
+                            {console.log(blogItem)}
+                            <Link href={"/blog/" + blogItem.slug}>
+                              <div className="img">
+                                <img
+                                  src={`${
+                                    CONSTANTS.BACKEND_URL + blogItem.image
+                                  }`}
+                                  alt={blogItem.image_alt}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <div className="content">
+                                <p className="title">{blogItem.name}</p>
+                              </div>
+                            </Link>
+                          </div>
+                        ))}
                   </div>
                 </div>
               </div>

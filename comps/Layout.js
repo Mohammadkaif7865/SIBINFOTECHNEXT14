@@ -18,13 +18,13 @@ const Layout = ({ children }) => {
       <div className="bottom-bar1 d-lg-none">
          
          <a target="_blank" href="tel:+91-92222-60000">
-           <FaPhone />
+         <i class="fa-solid fa-phone"></i>
          </a>
          <a target="_blank" href="mailto:contact@sibinfotech.com">
-           <IoIosMail />
+         <i class="fa-solid fa-envelope"></i>
          </a>
          <a target="_blank" href="https://api.whatsapp.com/send?phone=+919222260000&text=Hi">
-           <FaWhatsapp />
+         <i class="fa-brands fa-whatsapp"></i>
          </a>
       
      </div>
