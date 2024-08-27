@@ -305,15 +305,13 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'www.sibinfotech.com',
+        protocol: "https",
+        hostname: "www.sibinfotech.com",
       },
     ],
-   
   },
 
-
-  // assetPrefix: "https://www.sibinfotech.com",
+  assetPrefix: "https://www.sibinfotech.com",
 };
 
 export default nextConfig;
