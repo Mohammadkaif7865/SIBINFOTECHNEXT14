@@ -1,15 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlexDevelopmentCompaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flex Development Services Companies Mumbai India UK London</title>
             <meta name="keywords" content="flex development services india,flex development services bangalore,flex development services mumbai,flex development services delhi,flex development services ,chennai,flex development services pune,flex development services hyderabad,flex development ind"/>
             <meta name="description" content="SIB Infotech is a professional Flex development company and provides all forms of Flex development and Rich Internet Application (RIA) development services. We are providing various services flex programming, flex development, offshore flex development, flex development India."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

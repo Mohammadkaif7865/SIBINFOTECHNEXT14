@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
+
 
 export default function PinterestMarketing() {
   return (
