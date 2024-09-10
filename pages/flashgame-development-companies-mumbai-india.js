@@ -1,16 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 export default function FlashGameDevelopmentCompanies() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Game Development Services Companies India USA UK Asia</title>
             <meta name="keywords" content="flash game development services india,flash game development services bangalore,flash game development services mumbai,flash game development services delhi,flash game development services ,chennai,flash game development services pune,flash game developme"/>
             <meta name="description" content="SIB Infotech takes pride in introducing itself as one of the leading providers of Flash game development to prominent clients both in India and overseas. We have a team of expert Flash game developers who are well versed and experienced to revamp your website by incorporating Flash based hi-end solutions, especially gaming."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

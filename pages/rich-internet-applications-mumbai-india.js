@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function RichInternetApplicationServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Rich Internet Applications Development Services companies India SIB Infotech</title>
             <meta name="keywords" content="rich internet applications development services india,rich internet applications development services bangalore,rich internet applications development services mumbai,rich internet applications development services delhi,rich internet applications develop"/>
             <meta name="description" content="We at SIB Infotech use Rich Internet Applications in some extraordinary ways to offer global outstanding web applications to organizations worldwide. We Provide Rich Internet Application Development Services Using Ajax, Ruby on Rails and Flex"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

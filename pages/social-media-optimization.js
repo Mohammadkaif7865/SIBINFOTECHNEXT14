@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SocialMediaOptimization() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Social Media Optimization</title>
             <meta name="keywords" content="Social Media Marketing Package "/>
             <meta name="description" content="Social Media Marketing Package "/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/social-media-optimization-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function PsdHtmlConversionServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>PSD to Responsive HTML Conversion Services | Pixel Perfect PSD To HTML5</title>
             <meta name="keywords" content="Keywords psd to html conversion, psd to html service, psd to html conversion service, psd to html/css conversion, convert psd to html, psd to html responsive, psd to html, psd to html services, convert psd to html css, psd to wordpress, psd to magento, ps"/>
             <meta name="description" content="SIB Infotech is the Best PSD, Sketch to HTML/HTML5 conversion service provider in India, We deliver pixel perfect website from your Sketch or Photoshop designs and convert then to responsive HTML, WordPress, Magento, Drupal, Joomla, Web Design"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

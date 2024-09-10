@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function LocalSeoServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Best Local SEO Company India,  Local SEO Services Agency Mumbai</title>
             <meta name="keywords" content="Local SEO services in India, Local SEO Services in India, Local Marketing Services India, Best Local SEO Agency"/>
             <meta name="description" content="SIB Infotech is rated as Top Local SEO Company In India, we offer local SEO services ot make you company rank on top on local search results. Our affordable google local SEO service packages ensures getting you listed on the first page listing of Google Maps for your local city"/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/local-seo-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

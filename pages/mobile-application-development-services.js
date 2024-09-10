@@ -1,19 +1,17 @@
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-
-
 
 export default function MobileApp() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Mobile Application Development Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/mobile-application-development-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -3,16 +3,17 @@ import { Helmet } from 'react-helmet-async';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function AffiliateMarketingServicesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Affiliate Marketing Services Companies Mumbai London India UK</title>
             <meta name="keywords" content="local internet marketing services,local internet marketing,internet marketing consultancy,Internet Marketing Consultant, search engine optimizer, Search Engine Optimization India, Outsource SEO, Internet Marketing Company India, Search Engine Optimization"/>
             <meta name="description" content="SIB Infotech is an India based affiliate marketing company offering internet marketing, SEO, PPC, Email marketing and Web analytics solution from India."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/affiliate-marketing-services-mumbai-india" /> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

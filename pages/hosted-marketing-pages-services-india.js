@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function HostedMarketingPagesServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Hosted Marketing Pages Services Companies Delhi London India UK SIB Infotech</title>
             <meta name="keywords" content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy"/>
             <meta name="description" content="SIB Infotech provides quality Forum posting services at very cheap prices. We post your links at online forums and at signatures to grow your business. We offer forum link building services and quality forum posting services to better enhance your website on the internet for search engines."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

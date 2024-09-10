@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 
 
 export default function SocialMediaMarketingSMMServicesPackages() {
@@ -14,11 +13,11 @@ export default function SocialMediaMarketingSMMServicesPackages() {
 
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Social Media Marketing Package </title>
             <meta name="keywords" content="Social Media Marketing Package "/>
             <meta name="description" content="Social Media Marketing Package "/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

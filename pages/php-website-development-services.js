@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 
 
 export default function PhpWebsiteDevelopmentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>PHP Web Development Services Companies Mumbai Delhi India SIB Infotech</title>
             <meta name="keywords" content="php web development services,php web development service,offshore php web development,php web development companies,php web development company,php web development india,php web development delhi,php web development mumbai,php web development chennai,php "/>
             <meta name="description" content="SIB Infotech has a vast experience in providing web solutions based on PHP web development services. We have a team of highly skilled and experienced PHP web developers and web programmers who can assist our client in the area of website development using PHP programming."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function OnlineReputationManagementServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Online Reputation Management India, Online Reputation Expertsâ€Ž in Mumbai</title>
             <meta name="keywords" content="online reputation management, Online Reputation Expertsâ€Ž,  online reputation management, reputation management services, Reputation repair, remove negative comment, remove google content "/>
             <meta name="description" content="Rated best online reputation management services company in India helping companies & individuals  with removal of negative content from google, Reputation repair, brand building , review & rating improvements and delivering positive reputation."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/online-reputation-management-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

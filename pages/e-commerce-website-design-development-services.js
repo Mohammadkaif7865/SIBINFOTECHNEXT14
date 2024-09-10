@@ -1,16 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import BannerForm from '../comps/BannerForm';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function EcommerceWebsiteDesignDevelopmentServices() {
   return (
     <div>
-         <Helmet>
+         <Head>
             <title>E-Commerce Website Designing Company in Mumbai Ecommerce India</title>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/e-commerce-website-design-development-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

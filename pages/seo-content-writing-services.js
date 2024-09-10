@@ -1,17 +1,16 @@
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-
 
 export default function SeoContentWritingServices() {
   return (
         <div>
-            <Helmet>
+            <Head>
                 <title>SEO Content Writing Services Companies England London India UK SIB Infotech</title>
                 <meta name="keywords" content="seo content writing service,seo content writing services,manual seo content writing,manual seo content writing service,seo content writing india,seo content writing delhi,seo content writing mumbai,seo content writing chennai,seo content writing bangalore"/>
                 <meta name="description" content="SIB Infotech provides an attractive and ornamented range of content writing services which are nourished out by our skilled team of content writers who rule over exceptional command on the global language of communication. SIB Infotech has a good bunch of talented and amazing web content writers and are show the way as the best SEO service providers in India."/>
-            </Helmet>
+            </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">
                     <div className="row">

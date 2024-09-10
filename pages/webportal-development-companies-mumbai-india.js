@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WebPortalCompanyMumbai() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Portal Development Services Companies Mumbai India London UK SIB Infotech</title>
             <meta name="keywords" content="web portal development services,web portal development service,offshore web portal development,web portal development companies,web portal development company,web portal development india,web portal development delhi,web portal development mumbai,web port"/>
             <meta name="description" content="SIB Infotech's portal development services range over portal designing, portal development, offshore portal development, portal maintenance. We design and develop multi-domain web portals which include B2B (Business to Business) portals, B2C (Business to Consumer) portals, e-commerce portals, SharePoint portals, Knowledge Management Portals, Job Portals, Service Portals and more"/><link rel="canonical" href="https://www.sibinfotech.com/webportal-development-companies-mumbai-india"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function DatabaseDevelopementMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Database Development Services Companies India London UK USA</title>
             <meta name="keywords" content="database development services,database development service,offshore database development,database development companies,database development company,database development india,database development delhi,database development mumbai,database development che"/>
             <meta name="description" content="SIB Infotech is a leading provide of database development solutions.We have thorough experience in the following databases: MySQL, MSSQL, Oracle, DB2, PostgreSQL and MS Access.We have extensive experience in database programming and are always prepared to take on new challenges."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/database-development-mumbai-india" /> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

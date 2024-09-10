@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function TikTokAdsMangamentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>TikTok Advertising Agency in India | TikTok Ads Management for Business</title>
             <meta name="keywords" content="TikTok Advertising Agency, TikTok Advertising Agency in India, TikTok Ads for Business, TikTok Ads management company,  best TikTok Ads management company in India, TikTok Marketing Service"/>
             <meta name="description" content="SIB Infotech is among the best TikTok Ads management company in India. We help companies using TikTok advertising to promote their business and connect with their target audience"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

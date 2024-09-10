@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WordPressCmsServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Wordpress CMS Website Development Services Companies India SIB Infotech</title>
             <meta name="keywords" content="wordpress cms development services,wordpress cms development service,offshore wordpress cms development,wordpress cms development companies,wordpress cms development company,wordpress cms development india,wordpress cms development delhi,wordpress cms dev"/>
             <meta name="description" content="SIB Infotech provides Wordpress CMS development services.At SIB Infotech, we can do anything with wordpress whether it is website development, blogging platform, Multi-blogging platform, social network and anything web 2.0."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/wordpress-cms-website-development-companies-mumbai-india"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

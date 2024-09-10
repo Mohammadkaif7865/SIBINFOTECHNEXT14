@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function GuaranteedTopSearchEngineRankingCompany() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Guaranteed Top 10 Ranking in Search Engines Mumbai London India UK SIB Infotech</title>
             <meta name="keywords" content="seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,seo india,seo company,best seo services india,seo tips,outsourcing seo services,seo package"/>
             <meta name="description" content="SIB Infotech is world's leading SEO Company offering guaranteed Google top 10 ranking and Top 10 Ranking on Yahoo and Bing Search Engines with money back offer. We are professional seo consultant company, provide guaranteed top10 ranking seo services, we offer lowest seo price and payment only after proven result."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -3,15 +3,16 @@ import { Helmet } from 'react-helmet-async';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SeoMethologyMumbaiIndia() {
   return (
         <div>
-            <Helmet>
+            <Head>
                 <title>SEO Methodology Services Companies Mumbai Delhi London India UK SIB Infotech</title>
                 <meta name="keywords" content="seo methodology,methodology for conducting seo,seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,affordable seo services,seo services provide"/>
                 <meta name="description" content="SIB Infotech is a trusted Professional Search Engine Optimization, SEO Services Company offers quality Site Analysis, On-site Optimization.SEO Services company offers professional SEO services for yahoo ,google,msn search engines for search engine optimization & search engine ranking."/>
-            </Helmet>
+            </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">
                     <div className="row">

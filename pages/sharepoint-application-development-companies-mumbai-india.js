@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SharepointsDevelopmentCompanyMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Sharepoint Application Development Services Companies Usa Sib Infotech</title>
             <meta name="keywords" content="sharepoint application development services,sharepoint application development service,offshore sharepoint application development,sharepoint application development companies,sharepoint application development company,sharepoint application development i"/>
             <meta name="description" content="SIB Infotech team uses SharePoint platform services for optimizing collaboration processes and regulating business workflow, so that you can grab tangible business benefits. Our developersâ€™ team has in-depth expertise in the latest RIA (Rich Internet Application) technologies to develop custom SharePoint Applications as per your needs"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

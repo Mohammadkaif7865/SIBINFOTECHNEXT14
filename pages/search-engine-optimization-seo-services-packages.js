@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SearchEngineOptimizationSeoServicesPackages() {
     return (
         <div>
-            <Helmet>
+            <Head>
                 <title>SEO Package</title>
                 <meta name="keywords" content="SEO Package"/>
                 <meta name="description" content="SEO Package"/>
-            </Helmet>
+            </Head>
             <div className="innerWebDesign">
                 <div className="container-fluid">
                     <div className="row">

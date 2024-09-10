@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function MobileOptimizationTechniques() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Mobile Website Optimization Techniques Mumbai Delhi Pune India SIB Infotech</title>
             <meta name="keywords" content="website design delhi,website design and development,website design companies,web design service,website design in delhi,website design company in delhi,flash website design,Web Design Company, Website Development, E-Commerce Solution, Web Development Outs"/>
             <meta name="description" content="Mobile Website designing services India, SIB Infotech offers, mobile phones based website development services, mobile websites developed for WAP, XHTML browsers for mobile phones, PDA and smartphones, coded in WML and XHTML MP (Mobile profiles)"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

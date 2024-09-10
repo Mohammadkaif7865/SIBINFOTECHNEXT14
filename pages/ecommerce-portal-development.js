@@ -1,17 +1,18 @@
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+
 
 export default function EcommercePortalDevelopment() {
   return (
     <>
-        <Helmet>
+        <Head>
             <title>Ecommerce Portal Development</title>
             <meta name="description" content=""/>
             <meta name="keywords" content=""/>
         
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

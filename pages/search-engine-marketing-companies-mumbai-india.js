@@ -1,17 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 
 export default function SearchEngineMarketingCompaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Search Engine Marketing Services Companies Mumbai London India SIB Infotech</title>
             <meta name="keywords" content=""/>
             <meta name="description" content="SIB Infotech's search engine marketing services, offer you the ideal way to increase search engine visibility via white hat organic SEM Services and PPC Campaign management as well as Paid Search Engine Inclusion"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlashBannerDesigningServicesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Banner Designing Services Companies Mumbai Delhi India</title>
             <meta name="keywords" content="flash banner designing services india,flash banner designing services bangalore,flash banner designing services mumbai,flash banner designing services delhi,flash banner designing services ,chennai,flash banner designing services pune,flash banner designi"/>
             <meta name="description" content="SIB Infotech offers banner designing services, Mumbai, India. Design attractive and effective web banners, flash banners or animated banners from us.Our team has worked on a variety of banner design projects such as Animated GIF Banner, Flash Banner, Interactive Flash Banner, Sky-scrappers etc."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

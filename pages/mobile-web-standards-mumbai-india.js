@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function MobileWebStandards() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Mobile Web Standards India | Mobile Website Standards Mumbai SIB Infotech</title>
             <meta name="keywords" content="web design company, web design company india, website design India, web development India, seo company india, website development company, seo services, web designing company, web design companies in india, seo companies in india, IT outsourcing company, "/>
             <meta name="description" content="SIB Infotech provides the technology to the various companies and entrepreneurs who are looking to create mobile websites and make use of the benefits by adopting this exciting new technology before their competitors."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
