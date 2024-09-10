@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function LexicalAnalysisBasedIsiSeoServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>LSI Based SEO | LSI Based Search Engine Optimization London UK SIB Infotech</title>
             <meta name="keywords" content="lsi based seo service,lsi based seo services,lsi based seo india,lsi based seo delhi,lsi based seo mumbai,lsi based seo chennai,lsi based seo bangalore,lsi based seo pune,lsi based seo hyderabad,lsi based seo services india,lsi based seo services mumbai,l"/>
             <meta name="description" content="SIB Infotech provides LSI based Search Engine Optimization Services. We have world class SEO & Lexical Analysis Team who have core knowledge of Compiler functions and they know better how compiler parses any keyword into tokens and how search engine parses any key phrases."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

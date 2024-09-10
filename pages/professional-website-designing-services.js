@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function ProfessionalWebsiteDesigningServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Professional Website Designing Services Companies Mumbai India SIB Infotech</title>
             <meta name="keywords" content="professional web designing,professional website designing,professional web designing services,professional website designing services,professional web designing companies,professional website designing companies,professional web designing india,profession"/>
             <meta name="description" content="Quality Web site Designing India, Professional web designers company Mumbai, Affordable web site, Superb designs with amazing concepts and rich graphics."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

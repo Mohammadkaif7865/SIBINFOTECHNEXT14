@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function RecruitmentWebsiteDevelopmentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Recruitment Website Development Services Companies Mumbai SIB Infotech</title>
             <meta name="keywords" content="recruitment website developer india,recruitment website developer mumbai,recruitment website developer delhi,recruitment website developer pune,recruitment website developer hyderabad,recruitment website developer bangalore,recruitment website developer c"/>
             <meta name="description" content="SIB Infotech is a recruitment website design company that you can trust. We are proud to serve an international client base with custom recruitment website design and marketing solutions that set the industry standard. We are proud to offer professional recruitment website designing solutions which offer incredible styles, features, and community options."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

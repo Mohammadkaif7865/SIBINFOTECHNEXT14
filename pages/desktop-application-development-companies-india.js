@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function DesktopApplicationDevelopmentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Desktop Application Development Services Companies India UK</title>
             <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli"/>
             <meta name="description" content="Offshore Desktop Application Development outsourcing: SIB Infotech Desktop Application Developers design and build Desktop Software Application, Outsource Desktop Solutions Services, Rich Internet Desktop Applications, Desktop Windows Applications Development, Desktop Application Development services."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/desktop-application-development-companies-india" /> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

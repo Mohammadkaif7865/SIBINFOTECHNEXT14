@@ -1,16 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 export default function SocialBookmarkingServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Social Bookmarking Services Companies Mumbai London India UK SIB Infotech</title>
             <meta name="keywords" content="social bookmarking service,social bookmarking services,seo social bookmarking,social bookmarking india,social bookmarking delhi,social bookmarking mumbai,social bookmarking chennai,social bookmarking bangalore,social bookmarking pune,social bookmarking hy"/>
             <meta name="description" content="SIB Infotech makes social bookmarking of websites an easier process. We are a Professional Social Bookmarking Service and We manually bookmark your site with hundreds of high quality social media sites."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

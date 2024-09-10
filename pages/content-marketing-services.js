@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function ContentMarketingServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Best Content Marketing Services Agency in India, SEO Content Creation Company</title>
             <meta name="keywords" content="Content Marketing Services, Content Marketing Agency, Content Marketing, Digital Content Marketing, Content Marketing Company, SEO Content Marketing, SEO Content Creation"/>
             <meta name="description" content="Rated best content marketing agency in India telling brand stories better via its quality content marketing services which creates specific content to drive awareness & building the brand. Our expert content strategy involves content creation, content publishing to content distribution and promotion "/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/content-marketing-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

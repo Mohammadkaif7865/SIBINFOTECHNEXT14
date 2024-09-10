@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function DrupalCmsDevelopmentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Drupal CMS Development Services Companies Mumbai India UK</title>
             <meta name="keywords" content="drupal cms development services,drupal cms development service,offshore drupal cms development,drupal cms development companies,drupal cms development company,drupal cms development india,drupal cms development delhi,drupal cms development mumbai,drupal c"/>
             <meta name="description" content="SIB Infotech has earned its experience in Drupal web development services that includes Ecommerce websites, corporate websites, magazine websites etc. We are expert in Drupal Core and Module Customization. We are here to offer with the best customized web development services to our clients available in Drupal Module Community."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

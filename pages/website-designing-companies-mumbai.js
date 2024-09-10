@@ -1,19 +1,18 @@
 import BannerForm from '@/comps/BannerForm';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-
 
 
 export default function WebsiteDesigningCompanies() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Website Designing Companies Mumbai</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
           
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

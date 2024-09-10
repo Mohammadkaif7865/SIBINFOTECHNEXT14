@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlashCommunicationServicesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Communication Server Services Company Mumbai India UK</title>
             <meta name="keywords" content="flash communication server services india,flash communication server services bangalore,flash communication server services mumbai,flash communication server services delhi,flash communication server services ,chennai,flash communication server services p"/>
             <meta name="description" content="SIB Infotech India is a flash application development ; web site designing company from India offers flash web site design and interactive flash web applications by using flash communication server, macromedia flash communication server and flash communication server video from India"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

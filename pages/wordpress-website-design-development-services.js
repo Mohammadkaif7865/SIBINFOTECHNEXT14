@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WordpressWebsiteDesignDevelopmentServices() {
   return (
     <div>
-         <Helmet>
+         <Head>
             <title>WordPress Website Design & Development Services</title>
             <meta name="keywords" content="e-commerce web designing,e-commercewebsite designing,e-commerce web designing services,e-commerce website designing services,e-commerce web designing companies,e-commerce website designing companies,e-commerce web designing india,e-commerce web designing "/>
             <meta name="description" content="SIB Infotech is an eCommerce web design company in India offering professional ecommerce website development and web promotion services in Mumbai. It is the top ecommerce development company in London, UK & USA"/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/wordpress-website-design-development-services"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

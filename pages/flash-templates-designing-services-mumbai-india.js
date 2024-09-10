@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlashWebsiteDesigningServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Website Designing Company India Flash Presentations Mumbai</title>
             <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash "/>
             <meta name="description" content="Flash Web Design Company India SIB Infotech Offers Flash Websites Design India, Flash Design Development, Flash Web Design India, Flash Development Offshore, Flash Programmers India, Affordable Flash Web Design, Flash Web Site Development Company India, Flash Programmers India."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/flash-website-designing-services"/> */}
-        </Helmet>
+        </Head>
           <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function RegionalLocalSeoServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Regional SEO Services Companies Mumbai London India SIB Infotech</title>
             <meta name="keywords" content=""/>
             <meta name="description" content="SIB Infotech's Press release service will post the press releases for you regarding your business and then allocate them to the various media channels. We offer Press Release Writing And Distribution service for High traffic an High Search Engine Visibillity."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

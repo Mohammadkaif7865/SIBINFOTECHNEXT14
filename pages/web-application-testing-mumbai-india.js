@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WebApplicationTestingMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Web Application Testing Services Company India USA UK London SIB Infotech</title>
             <meta name="keywords" content="web application testing services,web application testing service,offshore web application testing,web application testing companies,web application testing company,web application testing india,web application testing delhi,web application testing mumbai,"/>
             <meta name="description" content="Some times we offer Offshore Software testing to our client base. It is about the verification and validation carried out on software product that makes it sure about high end product quality. The test development activities involve test planning and test case scenarios, automation testing and real time manual testing activities."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

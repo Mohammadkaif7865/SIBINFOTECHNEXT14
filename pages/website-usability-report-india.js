@@ -1,19 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 export default function WebsiteUsabilityReportIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Web Usability Report</title>
             <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website"/>
             <meta name="description" content="SIB Infotech being a professional web designing company, offering you a bunch of talented designers to turn your dreams into reality. Good and affordable website design services are the dual keys of success in online business. We offer professional web designing services at affordable rates."/>
             <meta property="og:title" content="Best Website Designing Development & Digital Marketing SEO Company in Mumbai, India" />
             <meta property="og:description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience." />
             {/* <link rel="canonical" href="https://www.sibinfotech.com/website-designing-methodology-mumbai-india"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

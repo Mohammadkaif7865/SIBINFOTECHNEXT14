@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function HrSolutionMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>HR Solutions Services Provider Company Mumbai Delhi India USA SIB Infotech</title>
             <meta name="keywords" content="web development India, IT outsourcing company, website development company, web development companies in india, indian web development company, Web Development Companies India, web site development professional, php website, custom ecommerce, affordable w"/>
             <meta name="description" content="SIB Infotech provides leading-edge Human Capital Management solutions that help companies better develop, manage, reward and retain their most important asset - their people.Designed to be deployed in-house or on-demand, our solutions are the most flexible, powerful and complete way to address the challenges faced by todayâ€™s HR professionals."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

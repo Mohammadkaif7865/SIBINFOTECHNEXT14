@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WindosMobileApplicationDevelopementServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Windows Mobile Application Development Services India USA UK SIB Infotech</title>
             <meta name="keywords" content="windows mobile application development services,windows mobile application development service,offshore windows mobile application development,windows mobile application development companies,windows mobile application development company,windows mobile a"/>
             <meta name="description" content="We are providing a wide range of windows mobile applications development, programming for windows mobile software by windows mobile programmer at affordable cost.We provide application development on broad Windows OS platforms such as Windows Mobile 5.0, Windows Mobile 6.0, Windows Mobile 6.1, Windows Mobile 6.5"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function RemoteMysqlDbaSupportServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Remote MySQL DBA Services and Support</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/remote-mysql-dba-services-support"/> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

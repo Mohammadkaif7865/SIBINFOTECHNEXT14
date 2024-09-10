@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WebsiteDesignTechnologyProvideMumbai() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Web Designing Technology India Website Technology Mumbai Delhi SIB Infotech</title>
             <meta name="keywords" content="web design company, website development company, web site design, web development, web site development professional, affordable web pages designing, custom ecommerce, flash, internet corportate small business, php website, seo solutions, seo company indi"/>
             <meta name="description" content="SIB Infotech provides custom effective, professional, high-impact Web Design, dynamic database enabled website development. SIB Infotech is one of the leading Indian web design company from most popular web design companies in India."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

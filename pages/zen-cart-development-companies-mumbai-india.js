@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Zen Cart Development Services Companies Mumbai India USA UK SIB Infotech</title>
             <meta name="keywords" content="zen cart development services,zen cart development service,offshore zen cart development,zen cart development companies,zen cart development company,zen cart development india,zen cart development delhi,zen cart development mumbai,zen cart development che"/>
             <meta name="description" content="SIB Infotech ensures to deliver the best of Zen Cart Ecommerce Development services to its customerâ€™s worldwide. With a team of talented and expert zencart web developers it becomes quite easy on our part to deliver goods as per our clientâ€™s requirement."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

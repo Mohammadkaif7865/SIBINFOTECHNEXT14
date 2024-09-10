@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 
 export default function HireDedicatedSeoExperts() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Hire Dedicated SEO Specialist Services Company Delhi India London SIB Infotech</title>
             <meta name="keywords" content="hire dedicated seo,hire dedicated seo expert,hire dedicated seo professional,hire dedicated seo professionals,hire seo expert,hire seo professional,hire seo experts,seo link building,seo company delhi,seo company mumbai,seo company chennai,seo company hyd"/>
             <meta name="description" content="SIB Infotech has in their collection specialist of different SEO specific areas like SEO Expert,Link Building Specialists,PPC Management Expert,SEO Content Writers etc."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

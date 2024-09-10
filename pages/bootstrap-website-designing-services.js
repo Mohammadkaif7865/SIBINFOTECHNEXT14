@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function BootstrapDesigningServices() {
   return (
     <div>
-         <Helmet>
+         <Head>
             <title>Bootstrap Designing Services</title>
     		<meta name="description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience."/>
           {/* <link rel="canonical" href="https://www.sibinfotech.com/bootstrap-website-designing-services" /> */}
 
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                <div className="row">

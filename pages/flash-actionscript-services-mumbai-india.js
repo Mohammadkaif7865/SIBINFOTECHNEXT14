@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Actionscript Services Companies Mumbai India London UK</title>
             <meta name="keywords" content="flash action script development services india,flash action script development services bangalore,flash action script development services mumbai,flash action script development services delhi,flash action script development services ,chennai,flash action"/>
             <meta name="description" content="At SIB Infotech, our team of flash programmers has the expertise to design and develop flash web sites and flash intros for businesses and flash based applications using flash scripting language ActionScript 1.0 and ActionScript 2.0. Flash animations and intros that we develop can be easily integrated into a web site to make it highly interactive."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function WebsiteAnalysisServicesMumbai() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Website Analysis Services Companies Mumbai London India UK SIB Infotech</title>
             <meta name="keywords" content="website analysis services,website analysis service,website analysis company,website analysis companies,professional seo company india,professional seo company delhi,professional seo company mumbai,professional seo company chennai,professional seo company "/>
             <meta name="description" content="Search Engine Optimization firm SIB Infotech provides a range of affordable Website Analysis Services wherein you get Web Tracking Reports i.e. Web Traffic Reports as well as Search Engine Ranking Reports."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

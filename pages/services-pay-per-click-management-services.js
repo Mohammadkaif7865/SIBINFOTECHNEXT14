@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function ServicesPayPerClickManagement() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Pay per Click Management Services</title>
             <meta name="keywords" content=""/>
             <meta name="description" content=""/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 
 export default function LinkBuildingServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Link Building Services Companies Delhi England London India UK SIB Infotech</title>
             <meta name="keywords" content="link building service,link building services,manual link building,seo link building,manual link building service,link building india,link building delhi,link building mumbai,link building chennai,link building bangalore,link building pune,link building hy"/>
             <meta name="description" content="SIB Infotech offers Professional link building services and link popularity building solutions. We offer reciprocal and non-reciprocal (one way) link building services, delivering high (PR) pagerank and relevant links. Outsource your link building campaigns to our link building team."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

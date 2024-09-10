@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function EcommerceSolutionCompaniesMumbai() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>E-Commerce Solutions Services Provider Companies Mumbai India</title>
             <meta name="keywords" content="offshore e-commerce solutions,e-commerce solutions companies,e-commerce solutions company,e-commerce solutions india,e-commerce solutions delhi,e-commerce solutions mumbai,e-commerce solutions chennai,e-commerce solutions bangalore,e-commerce solutions pu"/>
             <meta name="description" content="A professional web development company handling ecommerce web site design and ecommerce development like SIB Infotech can not only offer you a ecommerce website design that promotes your products or services, but also help you to drive sales.SIB Infotech provides you with an array of Ecommerce Web Design and and Ecommerce Development Solutions."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

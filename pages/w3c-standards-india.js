@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function W3cStandardsIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>W3C Standards in India Web Designing Standards in Mumbai Pune SIB Infotech</title>
             <meta name="keywords" content="web design company india,web designers india,indian web designers,web development india,web design services,seo company india,seo services india,web designing services india,seo india,website design company,website designers india,website design services "/>
             <meta name="description" content="SIB Infotech is an offshore Web Design Company India, Professional Web Design Company and Best web Development Company to outsource your Web Design requirements"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

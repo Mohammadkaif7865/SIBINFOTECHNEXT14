@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>2D Animation Services Companies Mumbai London India UK USA</title>
             <meta name="keywords" content="2d animation services india,2d animation services bangalore,2d animation services mumbai,2d animation services delhi,2d animation services ,chennai,2d animation services pune,2d animation services hyderabad,2d animation india,2d animation bangalore,2d ani"/>
             <meta name="description" content="SIB Infotech India provides an range of 2D animation services. Our 2D animation services enable you to leverage cost benefits without compromising on quality."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

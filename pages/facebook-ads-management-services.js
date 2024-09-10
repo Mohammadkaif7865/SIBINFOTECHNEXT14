@@ -1,14 +1,13 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
-// import {Link} from 'react-router-dom';
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import FacebookAdsMgt from "@/comps/FacebookAdsMgt/FacebookAdsMgt";
+import Head from "next/head";
 
 export default function FacebookAdsManagementServices() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Facebook Ads Management Services Company, Facebook Ad PPC Agency
           Mumbai India
@@ -25,7 +24,7 @@ export default function FacebookAdsManagementServices() {
           rel="canonical"
           href="https://www.sibinfotech.com/facebook-ads-management-services"
         /> */}
-      </Helmet>
+      </Head>
       <FacebookAdsMgt />
     </div>
   );

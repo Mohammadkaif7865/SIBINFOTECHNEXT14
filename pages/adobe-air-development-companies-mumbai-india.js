@@ -1,18 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 // import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Adobe AIR Development Services Companies India London UK</title>
             <meta name="keywords" content="adobe air development services india,adobe air development services bangalore,adobe air development services mumbai,adobe air development services delhi,adobe air development services ,chennai,adobe air development services pune,adobe air development serv"/>
             <meta name="description" content="SIB Infotech is a leading IT solutions company, engaged in providing a wide range of Flash based solutions including Adobe AIR Development."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" /> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

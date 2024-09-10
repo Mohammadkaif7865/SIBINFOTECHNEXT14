@@ -1,14 +1,13 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
-// import {Link} from 'react-router-dom';
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import InstagramAdsMgt from "@/comps/InstagramAdsMgt/InstagramAdsMgt";
+import Head from "next/head";
 
 export default function InstagramAdsManagementServices() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Instagram Ads Management Company India , Instagram Advertising Agency
           Mumbai
@@ -25,7 +24,7 @@ export default function InstagramAdsManagementServices() {
           rel="canonical"
           href="https://www.sibinfotech.com/instagram-ads-management-services"
         /> */}
-      </Helmet>
+      </Head>
 
       <InstagramAdsMgt />
       {/* <div className="innerWebDesign">

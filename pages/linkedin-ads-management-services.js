@@ -1,14 +1,13 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
-// import {Link} from 'react-router-dom';
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import LinkedinAdsPage from "@/comps/LinkedinAdsMgt/LinkedinAdsPage";
+import Head from "next/head";
 
 export default function LinkedinAdsManagementServices() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Best LinkedIn Advertising Agency in India ,LinkedIn Ads Management
           Services
@@ -25,7 +24,7 @@ export default function LinkedinAdsManagementServices() {
           rel="canonical"
           href="https://www.sibinfotech.com/linkedin-ads-management-services"
         /> */}
-      </Helmet>
+      </Head>
       <LinkedinAdsPage />
     </div>
   );

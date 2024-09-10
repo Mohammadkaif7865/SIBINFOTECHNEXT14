@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function ThreeDAnimationServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>3D Animation Services Companies Mumbai London India UK USA</title>
             <meta name="keywords" content="3d animation services india,3d animation services bangalore,3d animation services mumbai,3d animation services delhi,3d animation services chennai,3d animation services pune,3d animation services hyderabad,3d animation india,3d animation bangalore,3d anim"/>
             <meta name="description" content="At SIB Infotech, we have an expert team of 3d animators having expertise in 3D modeling, Rendering, 3D character, cartoon animation, walkthroughs and other animation designs."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

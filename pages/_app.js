@@ -2,9 +2,6 @@ import Head from "next/head";
 import Layout from "../comps/Layout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-
-
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 import { usePathname } from "next/navigation";
@@ -13,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   const path = usePathname();
 
   return (
-    <HelmetProvider>
+
       <Layout>
         <Head>
           {/* new added */}
@@ -82,7 +79,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         
       </Layout>
-    </HelmetProvider>
+   
   );
 }
 

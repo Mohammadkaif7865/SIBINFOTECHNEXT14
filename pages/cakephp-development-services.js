@@ -1,18 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function CakephpDevelopmentServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Cake PHP Development Services India Companies Mumbai India</title>
             <meta name="keywords" content="cake php development services,cake php development service,offshore cake php development,cake php development companies,cake php development company,cake php development india,cake php development delhi,cake php development mumbai,cake php development che"/>
             <meta name="description" content="CakePHP based web applications development services from SIB Infotech. Provide Customized CakePHP development and Cakephp Programming services to diverse industries like automobiles, retailing, airlines, hotels & travel etc.Our CakePHP developers have several years of experience in PHP and CakePHP development who are also experienced in other PHP frameworks."/>
             {/* <link rel="canonical" href="https://www.sibinfotech.com/cakephp-development-services" /> */}
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

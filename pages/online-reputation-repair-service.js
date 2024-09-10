@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function OnlineReputationRepairServices() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Online Reputation Repair Services Agency India| Remove Negative Comments</title>
             <meta name="keywords" content="Online Reputation Management Services India, ORM Services,  Online Reputation Management Company, best online reputation management company, delete negative links from internet, delete negative links, remove negative links from google search, delete bad l"/>
             <meta name="description" content="SIB Infotech is rated among best online reputation repair services company in India. Get rid off negative search results/comments,  Defamatory Videos, Media News, Bad Reviews and improve reviews"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">

@@ -1,6 +1,6 @@
 // pages/[slug].js
 import React from "react";
-import { Helmet } from "react-helmet-async";
+
 import Link from "next/link";
 import { format } from "date-fns";
 import axios from "axios";

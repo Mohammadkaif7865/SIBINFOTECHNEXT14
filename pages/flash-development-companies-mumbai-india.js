@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function FlashDevelopmentCopaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Flash Website Designing & Development Companies Mumbai India</title>
             <meta name="keywords" content="Professional Web Design, Ecommerce, Online Marketing, Flash Web Design, Flash Design, Flash development companies, Flash website company India, India Flash website company, Flash website desgining companies in Mumbai, Mumbai Flash website. Flash Presentat"/>
             <meta name="description" content="Professional Flash Development Company in Mumbai, India providing Application Development in Flash Website Designing, Flash Application Developer for 2D, 3D Animation, flash web design solution"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

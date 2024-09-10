@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SmsMarketingServciesCompaniesMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>SMS Marketing Services Companies Mumbai Delhi Pune Nashik India SIB Infotech</title>
             <meta name="keywords" content="sms marketing solutions,sms marketing solution,sms marketing experts,sms marketing expert,sms marketing seo services,sms marketing firms,sms marketing services,sms marketing companies,sms marketing india,sms marketing delhi,sms marketing mumbai,sms market"/>
             <meta name="description" content="SIB Infotech is a leading provider of premium SMS and Mobile Marketing Solutions.We provide specialized services in SMS marketing that combine the power of this new technology with our relationship marketing expertise to help you craft new campaigns and services."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

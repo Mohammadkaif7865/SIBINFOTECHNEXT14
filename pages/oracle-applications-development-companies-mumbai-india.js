@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function OracleApplicationDevelopmentCompanies() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Oracle Application Development Services Companies India USA SIB Infotech</title>
             <meta name="keywords" content="oracle application development services,oracle application development service,offshore oracle application development,oracle application development companies,oracle application development company,oracle application development india,oracle application "/>
             <meta name="description" content="We have the capabilities to develop Oracle Applications and we provide solutions like ERP and CRM. At SIB Infotech we are well versed with the implementation processes for the Oracle Application products. Our professionals are trained and experienced in Oracle Applications with the relevant skills such as Functional, Technical, Business Analysis and Project Management. And the main focus is exclusively on Oracle Applications."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

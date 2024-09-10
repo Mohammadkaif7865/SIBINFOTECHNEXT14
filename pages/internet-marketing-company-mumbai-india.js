@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function InternetMarketingCompanyMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Internet Marketing Services Company Ecommerce Companies India</title>
             <meta name="keywords" content="internet marketing services,internet marketing india,internet marketing companies,internet marketing agency,seo internet marketing,internet marketing promotion,internet marketing strategies,internet marketing seo,internet marketing firm,online internet ma"/>
             <meta name="description" content="SIB Infotech is a leading Internet Marketing Company providing Search Engine Marketing, Affiliate Marketing, Email Marketing, Link Building, increase web traffic, Article Marketing & Customized Internet Marketing Solution affordable prices in Mumbai,New Delhi,India"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

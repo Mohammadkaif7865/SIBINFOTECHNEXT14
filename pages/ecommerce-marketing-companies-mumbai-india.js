@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
+
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function EcommerceMarketingCompanyMumbai() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>E-Commerce Marketing Services Companies Mumbai London India UK</title>
             <meta name="keywords" content="internet marketing solutions,internet marketing solution,internet marketing experts,internet marketing expert,internet marketing seo services,internet marketing firms,ecommerce marketing services,ecommerce marketing companies,ecommerce marketing india,eco"/>
             <meta name="description" content="At SIB Infotech, we offer our ecommerce website marketing service, as we know the full potential of the online marketing and sales that matters to our customers. We offer a various proven e-commerce marketing techniques to help our clients increase the market shares"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                <div className="row">

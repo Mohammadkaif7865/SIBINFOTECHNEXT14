@@ -1,17 +1,17 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function SearchEngineOptimizationResearchMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
+
             <title>SEO Research Solution Service Provider Companies London India UK</title>
             <meta name="keywords" content="seo research services,seo research services company,regional seo,seo india,seo service india,local search engine optimization,local seo,affordable seo services india,search engine optimization companies,professional seo services,professional seo service,l"/>
             <meta name="description" content="SIB Infotech is SEO Research SEO Analysis Company India offer in depth SEO Research services of website competitors for search engine ranking on top search engines via Google,Yahoo,MSN."/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">

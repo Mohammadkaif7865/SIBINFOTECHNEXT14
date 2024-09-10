@@ -1,16 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-// import {Link} from 'react-router-dom';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import Head from 'next/head';
 
 export default function KeywordResearchMumbaiIndia() {
   return (
     <div>
-        <Helmet>
+        <Head>
             <title>Conduct Keyword Research & Analysis Services London India UK SIB Infotech</title>
             <meta name="keywords" content="keyword research service,keyword research services,seo keyword research,keyword research india,keyword research delhi,keyword research mumbai,keyword research chennai,keyword research bangalore,keyword research pune,keyword research hyderabad,keyword rese"/>
-        </Helmet>
+        </Head>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
