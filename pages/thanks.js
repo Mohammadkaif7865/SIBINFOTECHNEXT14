@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 
 import Link from 'next/link';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 export default function Thanks() {
 	const router = useRouter()
 
