@@ -54,43 +54,24 @@ function SingleBlog({ blog, blogs }) {
   return (
     <div>
       {console.log(blogs)}
-   
+
       {blog && (
         <>
           <Head>
             <title>{blog[0].meta_title}</title>
             <meta name="keywords" content={blog[0].meta_keywords} />
             <meta name="description" content={blog[0].meta_description} />
-            <meta property="og:title" content={blog[0].meta_keywords} />
-            <meta
-              property="og:description"
-              content={blog[0].meta_description}
-            />
-            <meta
-              property="og:image"
-              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-            />
-            <meta
-              property="og:url"
-              content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
-            />
-            <meta name="twitter:title" content={blog[0].meta_keywords} />
-            <meta
-              name="twitter:description"
-              content={blog[0].meta_description}
-            />
-            <meta
-              name="twitter:image"
-              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-            />
-            <meta
-              name="twitter:url"
-              content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
-            />
-            {/* <link
-              rel="canonical"
-              href={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
-            /> */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
+            <meta property="og:title" content={blog[0].meta_title} />
+            <meta property="og:description" content={blog[0].meta_description} />
+            <meta property="og:image" content={`${CONSTANTS.BACKEND_URL + blog[0].image}`} />
+
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
+            <meta property="twitter:title" content={blog[0].meta_title}/>
+            <meta property="twitter:description" content={blog[0].meta_description}/>
+            <meta property="twitter:image" content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}/>
           </Head>
           <section id="single_blog" className="bgGrey">
             <div className="containerFull">
@@ -129,7 +110,9 @@ function SingleBlog({ blog, blogs }) {
           <section className="pt-2">
             <div className="containerFull ">
               <p className="breadcrum-text">
-                Home  <i class="fa-solid fa-angle-right"></i> Blog <i class="fa-solid fa-angle-right"></i> <span className="text_primary">{blog[0]?.name}</span>
+                Home <i class="fa-solid fa-angle-right"></i> Blog{" "}
+                <i class="fa-solid fa-angle-right"></i>{" "}
+                <span className="text_primary">{blog[0]?.name}</span>
               </p>
             </div>
             <div className="containerFull mt-5">
@@ -145,9 +128,8 @@ function SingleBlog({ blog, blogs }) {
                     <p className="title">Recent posts</p>
                     {blogs &&
                       blogs
-                        .filter(
-                          (blog) => blog.category_id === selectedcategory
-                        ).slice(0,10)
+                        .filter((blog) => blog.category_id === selectedcategory)
+                        .slice(0, 10)
                         .map((blogItem, index) => (
                           <div key={index} className="inline_blog_card">
                             {console.log(blogItem)}

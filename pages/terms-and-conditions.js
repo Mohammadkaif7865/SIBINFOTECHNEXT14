@@ -29,7 +29,7 @@ export default function TermsOfUse() {
     						<h1 className="heading fontWeight700 text-center text-white">Terms & Conditions</h1>
                             <div className="mt-5 text-center">
                                 <Link href="https://www.sibinfotech.com/#requestQuote" className="btnThemeRed me-3"><i className="fa-solid fa-comment-dots"></i> Get a Quote</Link>
-                                <Link href="contact.php" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
+                                <Link href="/contact-us" className="btnThemewhiteBorder"><i className="fa-solid fa-circle-question"></i> Ask a Question</Link>
                             </div>
     					</div>
         			</div>

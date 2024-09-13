@@ -204,7 +204,7 @@ const GoogleAdsMgt = () => {
         heading="Talk To The Best Google Ads Consultant For Google AdWords Marketing Services"
         subheading="To Reach Your Best Prospects And Maximum ROI"
         buttonText="Speak to Our Experts"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={false}
       />
       {/* <section className="bgGrey">
@@ -388,7 +388,7 @@ const GoogleAdsMgt = () => {
         subheading="Our team of Google Ads specialists and PPC experts are ready
         to provide you with a"
         buttonText="Speak to our Consultant"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={true}
       />
       {/* <section className="section-4">
@@ -560,7 +560,7 @@ const GoogleAdsMgt = () => {
               PPC Management Company in India for ultimate Google advertising
               services and solutions?
             </h3>
-            <Link href="/contact">Speak to our Google Ads experts</Link>
+            <Link href="/contact-us">Speak to our Google Ads experts</Link>
           </div>
           <svg
             id="pattner"

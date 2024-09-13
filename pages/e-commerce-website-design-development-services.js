@@ -67,7 +67,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                         <h4 className="customHeading text-blue text-center customLineHeight2">
                             With the help of <span className="text_red">E-Commerce website</span> you get an opportunity to have your products and services available to your customers <span className="text_red">24x7, 365 Days</span>.</h4>
                         <div className="text-center">
-                            <Link className="btnDiscuss" href="/request-a-quote">let's Discuss</Link></div>
+                            <Link className="btnDiscuss" href="https://www.sibinfotech.com/contact-us">let's Discuss</Link></div>
                     </div>
                 </div>
             </div>

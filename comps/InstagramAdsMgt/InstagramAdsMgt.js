@@ -237,7 +237,7 @@ const InstagramAdsMgt = () => {
         limelight of a major proportion of the audience. We always
         make certain that your company gets the exposure it needs."
         buttonText=" Speak to our Instagram advertising experts"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={false}
       />
       {/* <section className="section-4">

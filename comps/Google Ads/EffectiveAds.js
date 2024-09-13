@@ -134,7 +134,7 @@ const EffectiveAds = () => {
               <p className="customText text-white">
                 <b>that suits best for your industry</b>
               </p>
-              <Link className="insta-btn" href="/contact">
+              <Link className="insta-btn" href="/contact-us">
                 Speak To Our Experts
               </Link>
             </div>
