@@ -72,7 +72,7 @@ export default function InfluencerMarketingServices() {
                     </div>
                     <div className="col-lg-5">
                         <div className="section-4-right">
-                            <Link className="customBtn" href="/contact">Speak to Our Experts</Link></div>
+                            <Link className="customBtn" href="/contact-us">Speak to Our Experts</Link></div>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ export default function InfluencerMarketingServices() {
                     </div>
                     <div className="col-lg-5">
                         <div className="section-4-right">
-                            <Link className="customBtn" href="/contact">Speak to Our Experts</Link></div>
+                            <Link className="customBtn" href="/contact-us">Speak to Our Experts</Link></div>
                     </div>
                 </div>
             </div>
@@ -406,7 +406,7 @@ export default function InfluencerMarketingServices() {
                                 </h2>
                                 <div id="collapseThirteen" className="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample2" >
                                     <div className="accordion-body">
-                                    <p>                        Being in the field for 10 years, we have tie-ups with Top Social Media Influencers from India as well as from abroad across all major Social Media Platforms. Hence, Brands can <Link href="contact.php">contact us</Link> to execute their Influencer Marketing Campaign and promote their products/services.</p>
+                                    <p>                        Being in the field for 10 years, we have tie-ups with Top Social Media Influencers from India as well as from abroad across all major Social Media Platforms. Hence, Brands can <Link href="/contact-us">contact us</Link> to execute their Influencer Marketing Campaign and promote their products/services.</p>
                                     </div>
                                 </div>
                             </div>

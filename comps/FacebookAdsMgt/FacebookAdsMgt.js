@@ -148,7 +148,7 @@ const FacebookAdsMgt = () => {
         heading="Our experts make sure that your brand gets the limelight."
         subheading="of a major proportion of the audience."
         buttonText="Speak to Our Experts"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={false}
       />
       {/* <section className="section-4">
@@ -221,7 +221,7 @@ const FacebookAdsMgt = () => {
         subheading=" We always make certain that your company gets the exposure it
         needs."
         buttonText="Speak to Our Experts"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={false}
       />
       {/* <section className="section-4">
@@ -339,7 +339,7 @@ const FacebookAdsMgt = () => {
         subheading=" We always make certain that your company gets the exposure it
         needs."
         buttonText="Speak to Our Experts"
-        buttonLink="/contact"
+        buttonLink="/contact-us"
         isPBeforeH3={false}
       />
       {/* <section className="section-4">
