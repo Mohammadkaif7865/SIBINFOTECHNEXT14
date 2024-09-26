@@ -302,6 +302,20 @@ const nextConfig = {
       },
     ];
   },
+  async headers() {
+    return [
+      {
+        // Apply HSTS to all routes
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=31536000; includeSubDomains; preload",
+          },
+        ],
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
