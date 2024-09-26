@@ -1,17 +1,32 @@
 import BannerForm from '@/comps/BannerForm';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 
 export default function MobileApp() {
-  return (
-    <div>
-        <Head>
-            <title>Mobile Application Development Services</title>
-            <meta name="keywords" content=""/>
-            <meta name="description" content=""/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/mobile-application-development-services"/> */}
-        </Head>
+    const metaTags = (
+        <>
+          <title>Title</title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+         
+    
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="/" />
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+    
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="/" />
+          <meta property="twitter:title" content="" />
+          <meta property="twitter:description" content="" />
+          <meta property="twitter:image" content="" />
+        </>
+      );
+      return (
+        <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -659,6 +674,6 @@ export default function MobileApp() {
                 <svg id="pattner" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"> <path d="M0,192L60,192C120,192,240,192,360,202.7C480,213,600,235,720,229.3C840,224,960,192,1080,176C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" fill="#4784FF" fill-opacity="1"></path> </svg>
             </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

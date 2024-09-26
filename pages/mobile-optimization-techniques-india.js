@@ -2,15 +2,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function MobileOptimizationTechniques() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Mobile Website Optimization Techniques Mumbai Delhi Pune India SIB Infotech</title>
-            <meta name="keywords" content="website design delhi,website design and development,website design companies,web design service,website design in delhi,website design company in delhi,flash website design,Web Design Company, Website Development, E-Commerce Solution, Web Development Outs"/>
-            <meta name="description" content="Mobile Website designing services India, SIB Infotech offers, mobile phones based website development services, mobile websites developed for WAP, XHTML browsers for mobile phones, PDA and smartphones, coded in WML and XHTML MP (Mobile profiles)"/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -136,6 +152,6 @@ export default function MobileOptimizationTechniques() {
                 </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

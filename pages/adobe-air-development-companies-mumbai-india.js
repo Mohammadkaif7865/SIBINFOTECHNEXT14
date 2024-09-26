@@ -3,16 +3,32 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Adobe AIR Development Services Companies India London UK</title>
-            <meta name="keywords" content="adobe air development services india,adobe air development services bangalore,adobe air development services mumbai,adobe air development services delhi,adobe air development services ,chennai,adobe air development services pune,adobe air development serv"/>
-            <meta name="description" content="SIB Infotech is a leading IT solutions company, engaged in providing a wide range of Flash based solutions including Adobe AIR Development."/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" /> */}
-        </Head>
+    <CustomLayout meta={metaTags}>
+      
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -69,6 +85,6 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

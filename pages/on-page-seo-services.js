@@ -3,29 +3,32 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import OnPageSeo from "@/comps/OnPageSeo/OnPageSeo";
 import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function OnPageSeoServices() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>
-          On-Page SEO & On-Site Optimization Services, SEO Analysis Company
-          India
-        </title>
-        <meta
-          name="keywords"
-          content="On Page SEO, On-Site Optimization Services, On Page Optimization, On Page SEO Optimization, On Page SEO Analysis."
-        />
-        <meta
-          name="description"
-          content="SIB Infotech is the Top SEO Company in India offers On-Page SEO & On-Site Optimization Services which  enables Google to read and rank your website ensure you #1 position on organic results"
-        />
-        {/* <link
-          rel="canonical"
-          href="https://www.sibinfotech.com/on-page-seo-services"
-        /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
       <OnPageSeo />
-    </div>
+    </CustomLayout>
   );
 }

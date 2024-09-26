@@ -4,13 +4,29 @@ import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
 
 export default function FlashBannerDesigningServicesMumbaiIndia() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Flash Banner Designing Services Companies Mumbai Delhi India</title>
-            <meta name="keywords" content="flash banner designing services india,flash banner designing services bangalore,flash banner designing services mumbai,flash banner designing services delhi,flash banner designing services ,chennai,flash banner designing services pune,flash banner designi"/>
-            <meta name="description" content="SIB Infotech offers banner designing services, Mumbai, India. Design attractive and effective web banners, flash banners or animated banners from us.Our team has worked on a variety of banner design projects such as Animated GIF Banner, Flash Banner, Interactive Flash Banner, Sky-scrappers etc."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
+
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -75,6 +91,6 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
             </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

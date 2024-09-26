@@ -3,16 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function DesktopApplicationDevelopmentServices() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Desktop Application Development Services Companies India UK</title>
-            <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli"/>
-            <meta name="description" content="Offshore Desktop Application Development outsourcing: SIB Infotech Desktop Application Developers design and build Desktop Software Application, Outsource Desktop Solutions Services, Rich Internet Desktop Applications, Desktop Windows Applications Development, Desktop Application Development services."/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/desktop-application-development-companies-india" /> */}
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -134,6 +149,6 @@ export default function DesktopApplicationDevelopmentServices() {
             </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

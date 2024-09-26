@@ -3,16 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function BlackberryMobileApplicationDevelopmentServices() {
-  return (
-    <div>
-        <Head>
-            <title>Blackberry Application Development Services Companies India</title>
-            <meta name="keywords" content="blackberry application development services,blackberry application development service,offshore blackberry application development,blackberry application development companies,blackberry application development company,blackberry application development i"/>
-            <meta name="description" content="SIB Infotech also offers you hire blackberry developer and hire mobile application development team which will reduce your cost for better blackberry application development"/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/blackberry-mobile-application-development-services" /> */}
-        </Head>
+    const metaTags = (
+        <>
+          <title>Title</title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+         
+    
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="/" />
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+    
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="/" />
+          <meta property="twitter:title" content="" />
+          <meta property="twitter:description" content="" />
+          <meta property="twitter:image" content="" />
+        </>
+      );
+      return (
+        <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -141,6 +156,6 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                 </div>
             </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

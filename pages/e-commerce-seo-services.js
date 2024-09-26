@@ -3,16 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function EcommerceSeoServices() {
-  return (
-    <div>
-        <Head>
-            <title>SEO Service for Ecommerce Websites, eCommerce SEO Company in Mumbai, India</title>
-            <meta name="keywords" content="Search Engine Optimization, SEO, Ecommerce SEO, Ecommerce SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce"/>
-            <meta name="description" content="SIB Infotech specialize in eCommerce SEO Services and have been rated Top Ecommerce SEO company in India having the best e-commerce SEO website marketing experts to increase your web store's Google search traffic, increase conversion and get more sales"/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/e-commerce-seo-services"/> */}
-        </Head>
+    const metaTags = (
+        <>
+          <title>Title</title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+         
+    
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="/" />
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+    
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="/" />
+          <meta property="twitter:title" content="" />
+          <meta property="twitter:description" content="" />
+          <meta property="twitter:image" content="" />
+        </>
+      );
+      return (
+        <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -497,6 +512,6 @@ export default function EcommerceSeoServices() {
                 </div>
             </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

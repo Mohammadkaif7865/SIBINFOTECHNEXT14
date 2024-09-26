@@ -2,15 +2,32 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function ThreeDAnimationServices() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>3D Animation Services Companies Mumbai London India UK USA</title>
-            <meta name="keywords" content="3d animation services india,3d animation services bangalore,3d animation services mumbai,3d animation services delhi,3d animation services chennai,3d animation services pune,3d animation services hyderabad,3d animation india,3d animation bangalore,3d anim"/>
-            <meta name="description" content="At SIB Infotech, we have an expert team of 3d animators having expertise in 3D modeling, Rendering, 3D character, cartoon animation, walkthroughs and other animation designs."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
+        
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -67,6 +84,6 @@ export default function ThreeDAnimationServices() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

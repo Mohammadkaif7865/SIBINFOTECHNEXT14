@@ -13,12 +13,6 @@ function MyApp({ Component, pageProps }) {
 
       <Layout>
         <Head>
-          {/* new added */}
-          <meta name="robots" content="index, follow" />
-          <meta name="author" content="Sib Infotech" />
-          <meta name="publisher" content="Sib Infotech" />
-          <link rel="canonical" href={`https://www.sibinfotech.com${path}`} />
-
           <link
             rel="preload"
             href="/assets/images/banner/banner-video.mp4"

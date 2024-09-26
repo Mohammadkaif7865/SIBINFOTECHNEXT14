@@ -2,15 +2,30 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function SeoConsultancyServicesMumbaiIndia() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>SEO Consultancy</title>
-            <meta name="keywords" content="seo consultancy service,seo consultancy services,seo consultancy india,seo consultancy delhi,seo consultancy mumbai,seo consultancy chennai,seo consultancy bangalore,seo consultancy pune,seo consultancy hyderabad,seo consultancy services india,seo consult"/>
-            <meta name="description" content="SIB Infotech is a responsible firm having expertise in providing excellent SEO consulting services. We offer specialized consultancy in Search Engine Optimization (SEO), Link Building, SEO Content Writing, SEO Web Design, Web Development, Content Management Systems (CMS) and E-Commerce Solutions."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
+     
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -171,6 +186,6 @@ export default function SeoConsultancyServicesMumbaiIndia() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

@@ -1,17 +1,30 @@
-
-import GoogleAdsMgt from '@/comps/Google Ads/GoogleAdsMgt';
-import Head from 'next/head';
+import { CustomLayout } from "@/comps/CustomLayout";
+import GoogleAdsMgt from "@/comps/Google Ads/GoogleAdsMgt";
+import Head from "next/head";
 
 export default function GoogleAdsManagementServices() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Google Adwords Management Company PPC Ads Management Services Mumbai, India</title>
-            <meta name="keywords" content="PPC Management, Pay Per Click Management, PPC Account Management, AdWords Management, Google AdWords Management Services, Google Ads Management, Google Ads Company, Google Ads Service, Ads Management Company, best ppc management company"/>
-            <meta name="description" content="SIB Infotech is a Certified partner for Google AdWords management company offering all kinds Google Ads management services for Fast & Effective PPC Management to Help Reduce Your Workload & Improve Results"/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/google-ads-management-services"/> */}
-        </Head>
-       <GoogleAdsMgt/>
-    </div>
-  )
+    <CustomLayout meta={metaTags}>
+      <GoogleAdsMgt />
+    </CustomLayout>
+  );
 }

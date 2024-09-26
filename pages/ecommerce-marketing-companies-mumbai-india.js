@@ -3,15 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function EcommerceMarketingCompanyMumbai() {
-  return (
-    <div>
-        <Head>
-            <title>E-Commerce Marketing Services Companies Mumbai London India UK</title>
-            <meta name="keywords" content="internet marketing solutions,internet marketing solution,internet marketing experts,internet marketing expert,internet marketing seo services,internet marketing firms,ecommerce marketing services,ecommerce marketing companies,ecommerce marketing india,eco"/>
-            <meta name="description" content="At SIB Infotech, we offer our ecommerce website marketing service, as we know the full potential of the online marketing and sales that matters to our customers. We offer a various proven e-commerce marketing techniques to help our clients increase the market shares"/>
-        </Head>
+   const metaTags = (
+      <>
+        <title>Title</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+       
+  
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="/" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+  
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="/" />
+        <meta property="twitter:title" content="" />
+        <meta property="twitter:description" content="" />
+        <meta property="twitter:image" content="" />
+      </>
+    );
+    return (
+      <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                <div className="row">
@@ -156,6 +172,6 @@ export default function EcommerceMarketingCompanyMumbai() {
            </div>
          </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

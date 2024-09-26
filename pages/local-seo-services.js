@@ -2,16 +2,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function LocalSeoServices() {
-  return (
-    <div>
-        <Head>
-            <title>Best Local SEO Company India,  Local SEO Services Agency Mumbai</title>
-            <meta name="keywords" content="Local SEO services in India, Local SEO Services in India, Local Marketing Services India, Best Local SEO Agency"/>
-            <meta name="description" content="SIB Infotech is rated as Top Local SEO Company In India, we offer local SEO services ot make you company rank on top on local search results. Our affordable google local SEO service packages ensures getting you listed on the first page listing of Google Maps for your local city"/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/local-seo-services"/> */}
-        </Head>
+    const metaTags = (
+        <>
+          <title>Title</title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+         
+    
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="/" />
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+    
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="/" />
+          <meta property="twitter:title" content="" />
+          <meta property="twitter:description" content="" />
+          <meta property="twitter:image" content="" />
+        </>
+      );
+      return (
+        <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -389,6 +404,6 @@ export default function LocalSeoServices() {
                 <svg id="pattner" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"> <path d="M0,128L48,138.7C96,149,192,171,288,170.7C384,171,480,149,576,133.3C672,117,768,107,864,117.3C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" fill="#2d6deb" fill-opacity="1"></path> </svg>
                 </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

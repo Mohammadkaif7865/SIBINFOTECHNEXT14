@@ -3,15 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function OracleApplicationDevelopmentCompanies() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Oracle Application Development Services Companies India USA SIB Infotech</title>
-            <meta name="keywords" content="oracle application development services,oracle application development service,offshore oracle application development,oracle application development companies,oracle application development company,oracle application development india,oracle application "/>
-            <meta name="description" content="We have the capabilities to develop Oracle Applications and we provide solutions like ERP and CRM. At SIB Infotech we are well versed with the implementation processes for the Oracle Application products. Our professionals are trained and experienced in Oracle Applications with the relevant skills such as Functional, Technical, Business Analysis and Project Management. And the main focus is exclusively on Oracle Applications."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -80,6 +96,6 @@ export default function OracleApplicationDevelopmentCompanies() {
             </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

@@ -3,15 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function CorporateBrandingServicesMumbai() {
-  return (
-    <div>
-         <Head>
-            <title>Corporate Branding Services</title>
-    		   <meta name="description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience."/>
-             {/* <link rel="canonical" href="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" /> */}
-        </Head>
+   const metaTags = (
+      <>
+        <title>Title</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+       
+  
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="/" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+  
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="/" />
+        <meta property="twitter:title" content="" />
+        <meta property="twitter:description" content="" />
+        <meta property="twitter:image" content="" />
+      </>
+    );
+    return (
+      <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                <div className="row">
@@ -182,6 +198,6 @@ export default function CorporateBrandingServicesMumbai() {
                </div>
            </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

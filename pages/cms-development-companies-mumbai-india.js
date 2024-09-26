@@ -2,16 +2,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function CmsDevelopmentCompaniesMumbai() {
-  return (
-    <div>
-        <Head>
-            <title>CMS Development Services Companies Mumbai Delhi India UK USA</title>
-            <meta name="keywords" content="cms development services,cms development service,offshore cms development, cms development companies, cms development company,cms development india,cms development delhi,cms development mumbai,cms development chennai,cms development bangalore,cms developmen"/>
-            <meta name="description" content="SIB Infotech offers most affordable and most user-friendly web based CMS Design or content management system design, which helps you to manage your website on a real-time basis.CMS developer india - SIB Infotech has several years of experience in custom content management system (CMS) development and customization"/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/cms-development-companies-mumbai-india" /> */}
-        </Head>
+    const metaTags = (
+        <>
+          <title>Title</title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+         
+    
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="/" />
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+    
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="/" />
+          <meta property="twitter:title" content="" />
+          <meta property="twitter:description" content="" />
+          <meta property="twitter:image" content="" />
+        </>
+      );
+      return (
+        <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -144,6 +159,6 @@ export default function CmsDevelopmentCompaniesMumbai() {
                 </div>
             </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

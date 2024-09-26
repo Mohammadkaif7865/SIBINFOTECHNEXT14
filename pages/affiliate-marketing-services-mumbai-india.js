@@ -3,16 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function AffiliateMarketingServicesMumbaiIndia() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Affiliate Marketing Services Companies Mumbai London India UK</title>
-            <meta name="keywords" content="local internet marketing services,local internet marketing,internet marketing consultancy,Internet Marketing Consultant, search engine optimizer, Search Engine Optimization India, Outsource SEO, Internet Marketing Company India, Search Engine Optimization"/>
-            <meta name="description" content="SIB Infotech is an India based affiliate marketing company offering internet marketing, SEO, PPC, Email marketing and Web analytics solution from India."/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/affiliate-marketing-services-mumbai-india" /> */}
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -94,6 +109,6 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

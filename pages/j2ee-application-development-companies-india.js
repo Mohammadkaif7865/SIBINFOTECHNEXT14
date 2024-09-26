@@ -2,15 +2,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function J2eeApplicationDevelopement() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>J2ee Application Development</title>
-            <meta name="keywords" content="j2ee application development services,j2ee application development service,offshore j2ee application development,j2ee application development companies,j2ee application development company,j2ee application development india,j2ee application development de"/>
-            <meta name="description" content="SIB Infotech provides high quality J2ee application development. It also provides j2ee design and development, j2ee application architecture, j2ee web applications etc."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -165,6 +181,6 @@ export default function J2eeApplicationDevelopement() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

@@ -2,16 +2,32 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 
 export default function LinkBuildingServices() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Link Building Services Companies Delhi England London India UK SIB Infotech</title>
-            <meta name="keywords" content="link building service,link building services,manual link building,seo link building,manual link building service,link building india,link building delhi,link building mumbai,link building chennai,link building bangalore,link building pune,link building hy"/>
-            <meta name="description" content="SIB Infotech offers Professional link building services and link popularity building solutions. We offer reciprocal and non-reciprocal (one way) link building services, delivering high (PR) pagerank and relevant links. Outsource your link building campaigns to our link building team."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -103,6 +119,6 @@ export default function LinkBuildingServices() {
             </div>
           </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

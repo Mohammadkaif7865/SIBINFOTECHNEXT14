@@ -3,15 +3,31 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function MobileWebStandards() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Mobile Web Standards India | Mobile Website Standards Mumbai SIB Infotech</title>
-            <meta name="keywords" content="web design company, web design company india, website design India, web development India, seo company india, website development company, seo services, web designing company, web design companies in india, seo companies in india, IT outsourcing company, "/>
-            <meta name="description" content="SIB Infotech provides the technology to the various companies and entrepreneurs who are looking to create mobile websites and make use of the benefits by adopting this exciting new technology before their competitors."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -88,6 +104,6 @@ export default function MobileWebStandards() {
                 </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

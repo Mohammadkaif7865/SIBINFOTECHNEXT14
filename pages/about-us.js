@@ -2,14 +2,32 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function AboutUs() {
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>Top Indian SEO Company in Mumbai, SEO Services India</title>
-        {/* <link rel="canonical" href="https://www.sibinfotech.com/about-us" /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
+
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -161,11 +179,7 @@ export default function AboutUs() {
                 design skills, we craft digital experiences that resonate deeply
                 with people's interests and captivate their hearts.
               </p>
-              {/* <p className="customText">As premier partners of Google, Facebook & Bing, our in-house team of passionate professionals boasts talent, creativity, technical know-how & dedication makes us the best PPC management company in India. Our team specialize in PPC management services and have expertise in generating leads using Google Ads, Meta Ads & YouTube advertisements  at affordable costs. We're laser-focused on generating the best ROI and driving tangible business growth and success through cutting-edge strategies and innovative technologies</p>
-                        <p className="customText">At SIB Infotech, collaboration is key. We delve deep to understand your unique needs and goals, crafting tailored digital marketing plans that achieve your objectives. Our commitment to affordability makes our exceptional services accessible to all businesses, ensuring you never compromise on quality.</p>
-                        <p className="customText">To learn more about our comprehensive services and how we can contribute to your business growth online, <Link href="/contact">
-                          <Link>Book your NO-COST Consultation today!</Link>
-                        </Link></p> */}
+         
             </div>
           </div>
           <div className="row mt-3 mt-lg-5">
@@ -1093,6 +1107,6 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }
