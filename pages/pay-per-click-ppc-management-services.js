@@ -1,3 +1,4 @@
+import { CustomLayout } from "@/comps/CustomLayout";
 import Ppc from "@/comps/PPC/Ppc";
 import Head from "next/head";
 

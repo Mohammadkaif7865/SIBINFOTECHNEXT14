@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function ContentMarketingServices() {
   const metaTags = (
