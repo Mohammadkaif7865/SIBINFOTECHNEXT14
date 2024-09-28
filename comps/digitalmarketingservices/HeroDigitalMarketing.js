@@ -22,33 +22,7 @@ const HeroDigitalMarketing = () => {
                 <p className="text-white mt-2 title bulletPoint fw-bold">
                   Converting clicks to customers
                 </p>
-                {/* <h2 className="small_heading fw-bold mt-2 text-white">We Can Help You:</h2>
-                      <ul className="bannerIcon">
-                          <li>
-                              <img src="assets/images/icons/visitor.png" alt="Customer"/>
-                              <div>Bring more customers to your Website</div>
-                          </li>
-                          <li>
-                              <img src="assets/images/icons/quality.png" alt="Customer"/>
-                              <div>Rank #1 on Google & Bing</div>
-                          </li>
-                          <li>
-                              <img src="assets/images/icons/computer-icon.png" alt="Customer"/>
-                              <div>Establishing a strong online presence</div>
-                          </li>
-                          <li>
-                              <img src="assets/images/icons/quality.png" alt="Customer"/>
-                              <div>Rank #1 on Google Maps</div>
-                          </li>
-                          <li>
-                              <img src="assets/images/icons/privacy-policy.png" alt="Customer"/>
-                              <div>Build trust & creditability with your audience</div>
-                          </li>
-                          <li>
-                              <img src="assets/images/icons/low-price-seo.png" alt="Customer"/>
-                              <div>Decreases Advertising Cost</div>
-                          </li>
-                      </ul> */}
+           
                 <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
