@@ -1,4 +1,4 @@
-// pages/[slug].js
+
 import React from "react";
 
 import Link from "next/link";
@@ -6,6 +6,7 @@ import { format } from "date-fns";
 import axios from "axios";
 import * as CONSTANTS from "../../constants/constants";
 import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export async function getServerSideProps(context) {
   const { slug } = context.query;
@@ -23,12 +24,9 @@ export async function getServerSideProps(context) {
     const resBlogs = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
       headers,
     });
-
     const blog = resBlog.data.blog;
-    // const blog = "";
     const blogs = resBlogs.data.blogs;
 
-    // console.log(resBlogs.data.blogs)
 
     return {
       props: {
@@ -51,12 +49,12 @@ function SingleBlog({ blog, blogs }) {
 
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
 
+  
+
   return (
     <div>
-      {console.log(blogs)}
-
       {blog && (
-        <>
+        <CustomLayout >
           <Head>
             <title>{blog[0].meta_title}</title>
             <meta name="keywords" content={blog[0].meta_keywords} />
@@ -154,7 +152,7 @@ function SingleBlog({ blog, blogs }) {
               </div>
             </div>
           </section>
-        </>
+        </CustomLayout>
       )}
     </div>
   );

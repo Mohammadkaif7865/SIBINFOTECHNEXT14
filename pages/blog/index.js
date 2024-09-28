@@ -6,6 +6,7 @@ import BlogCard from "./BlogCard";
 import Link from "next/link";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { PaginationControl } from "react-bootstrap-pagination-control";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -42,14 +43,28 @@ export default function Blog() {
   
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
+  const metaTags = (
+    <>
+      <title>Title</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+   
 
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="/" />
+      <meta property="og:title" content="" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="/" />
+      <meta property="twitter:title" content="" />
+      <meta property="twitter:description" content="" />
+      <meta property="twitter:image" content="" />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>Best Web Designing & SEO Company in Mumbai India</title>
-        <meta name="keywords" content="contact" />
-        <meta name="description" content="contact" />
-      </Head>
+    <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -95,6 +110,6 @@ export default function Blog() {
          </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }
