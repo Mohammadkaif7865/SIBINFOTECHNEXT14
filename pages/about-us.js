@@ -7,9 +7,15 @@ export default function AboutUs() {
   const teamMembers = [
     {
       name: "Ankit Verma",
-      imgSrcSet: "https://placehold.co/550x550",
-      imgSrc: "https://placehold.co/550x550",
+      imgSrcSet: "assets/images/team/Ankit.webp",
+      imgSrc: "assets/images/team/Ankit.jpg",
       alt: "Ankit Verma",
+    },
+    {
+      name: "Anurag Singh",
+      imgSrcSet: "assets/images/team/Anurag.webp",
+      imgSrc: "assets/images/team/Anurag.jpg",
+      alt: "Anurag Singh",
     },
     {
       name: "Ashutosh Kumar Singh",
@@ -19,14 +25,20 @@ export default function AboutUs() {
     },
     {
       name: "Badal Dev",
-      imgSrcSet: "https://placehold.co/550x550",
-      imgSrc: "https://placehold.co/550x550",
+      imgSrcSet: "assets/images/team/Badal.webp",
+      imgSrc: "assets/images/team/Badal.jpg",
       alt: "Badal Dev",
     },
     {
+      name: "Bhavnish Chaubey",
+      imgSrcSet: "assets/images/team/Bhavnish.webp",
+      imgSrc: "assets/images/team/Bhavnish.jpg",
+      alt: "Bhavnish Chaubey",
+    },
+    {
       name: "Gaurav Kumar",
-      imgSrcSet: "https://placehold.co/550x550",
-      imgSrc: "https://placehold.co/550x550",
+      imgSrcSet: "assets/images/team/Gaurav.webp",
+      imgSrc: "assets/images/team/Gaurav.jpg",
       alt: "Gaurav Kumar",
     },
     {
@@ -44,8 +56,8 @@ export default function AboutUs() {
     },
     {
       name: "Mahadev Prasad Uniyal",
-      imgSrcSet: "assets/images/team/mahadev-prasad-uniyal.webp",
-      imgSrc: "assets/images/team/mahadev-prasad-uniyal.jpg",
+      imgSrcSet: "assets/images/team/Mahadev.webp",
+      imgSrc: "assets/images/team/Mahadev.jpg",
       alt: "Mahadev Prasad Uniyal",
     },
     {
@@ -98,9 +110,15 @@ export default function AboutUs() {
       alt: "Rekha Singh",
     },
     {
+      name: "Reet Handay",
+      imgSrcSet: "assets/images/team/Reet.webp",
+      imgSrc: "assets/images/team/Reet.jpg",
+      alt: "Reet Handay",
+    },
+    {
       name: "Rishabh Kumar",
-      imgSrcSet: "https://placehold.co/550x550",
-      imgSrc: "https://placehold.co/550x550",
+      imgSrcSet: "assets/images/team/Rishabh.webp",
+      imgSrc: "assets/images/team/Rishabh.jpg",
       alt: "Rishabh Kumar",
     },
     {
@@ -136,9 +154,15 @@ export default function AboutUs() {
     },
     {
       name: "Vithaldas Nayak",
-      imgSrcSet: "https://placehold.co/550x550",
-      imgSrc: "https://placehold.co/550x550",
+      imgSrcSet: "assets/images/team/Vithaldas.webp",
+      imgSrc: "assets/images/team/Vithaldas.jpg",
       alt: "Vithaldas Nayak",
+    },
+    {
+      name: "Zaid Shaikh",
+      imgSrcSet: "assets/images/team/Zaid-Shaikh.webp",
+      imgSrc: "assets/images/team/Zaid-Shaikh.jpg",
+      alt: "Zaid-Shaikh",
     },
     {
       name: "Zaroon Junaid",
@@ -146,6 +170,7 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/zaroon-junaid.jpg",
       alt: "Zaroon Junaid",
     },
+  
   ];
   return (
     <div>
