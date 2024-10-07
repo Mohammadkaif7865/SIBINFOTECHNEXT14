@@ -7,22 +7,21 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MCommerceSolution() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
-         
-    
+          <title>M-Commerce Solutions for Mobile Apps | SIB Infotech</title>
+          <meta name="description" content="Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions." />
+          <meta name="keywords" content="M-Commerce Solution" />
+
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/m-commerce-solution" />
+          <meta property="og:title" content="M-Commerce Solutions for Mobile Apps | SIB Infotech" />
+          <meta property="og:description" content="Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/m-commerce-solution" />
+          <meta property="twitter:title" content="M-Commerce Solutions for Mobile Apps | SIB Infotech" />
+          <meta property="twitter:description" content="Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

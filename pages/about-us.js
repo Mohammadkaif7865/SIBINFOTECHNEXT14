@@ -1,10 +1,195 @@
-import React from "react";
-import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function AboutUs() {
+  const metaTags = (
+    <>
+      <title>About SIB Infotech | Top Digital Marketing Agency in India</title>
+      <meta name="description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
+      <meta name="keywords" content="Top Digital Marketing Agency in India" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/about-us" />
+      <meta property="og:title" content="About SIB Infotech | Top Digital Marketing Agency in India" />
+      <meta property="og:description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/about-us" />
+      <meta property="twitter:title" content="About SIB Infotech | Top Digital Marketing Agency in India" />
+      <meta property="twitter:description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+    </>
+  );
+  const teamMembers = [
+    {
+      name: "Ankit Verma",
+      imgSrcSet: "assets/images/team/Ankit.webp",
+      imgSrc: "assets/images/team/Ankit.jpg",
+      alt: "Ankit Verma",
+    },
+    {
+      name: "Anurag Singh",
+      imgSrcSet: "assets/images/team/Anurag.webp",
+      imgSrc: "assets/images/team/Anurag.jpg",
+      alt: "Anurag Singh",
+    },
+    {
+      name: "Ashutosh Kumar Singh",
+      imgSrcSet: "assets/images/team/ashutosh-kumar-singh.webp",
+      imgSrc: "assets/images/team/ashutosh-kumar-singh.jpg",
+      alt: "Ashutosh Kumar Singh",
+    },
+    {
+      name: "Badal Dev",
+      imgSrcSet: "assets/images/team/Badal.webp",
+      imgSrc: "assets/images/team/Badal.jpg",
+      alt: "Badal Dev",
+    },
+    {
+      name: "Bhavnish Chaubey",
+      imgSrcSet: "assets/images/team/Bhavnish.webp",
+      imgSrc: "assets/images/team/Bhavnish.jpg",
+      alt: "Bhavnish Chaubey",
+    },
+    {
+      name: "Gaurav Kumar",
+      imgSrcSet: "assets/images/team/Gaurav.webp",
+      imgSrc: "assets/images/team/Gaurav.jpg",
+      alt: "Gaurav Kumar",
+    },
+    {
+      name: "Geordy Mathew",
+      imgSrcSet: "assets/images/team/geordy-mathew.webp",
+      imgSrc: "assets/images/team/geordy-mathew.jpg",
+      alt: "Geordy Mathew",
+    },
+    {
+      name: "Kanchan Sharma",
+      imgSrcSet: "assets/images/team/kanchan-sharma.webp",
+      imgSrc: "assets/images/team/kanchan-sharma.webp",
+      alt: "Kanchan Sharma",
+    },
+    {
+      name: "Mahadev Prasad Uniyal",
+      imgSrcSet: "assets/images/team/Mahadev.webp",
+      imgSrc: "assets/images/team/Mahadev.jpg",
+      alt: "Mahadev Prasad Uniyal",
+    },
+    {
+      name: "Malini Guria",
+      imgSrcSet: "assets/images/team/malini-guria.webp",
+      imgSrc: "assets/images/team/malini-guria.jpg",
+      alt: "Malini Guria",
+    },
+    {
+      name: "Mohammad Kaif",
+      imgSrcSet: "assets/images/team/mohammad-kaif.webp",
+      imgSrc: "assets/images/team/mohammad-kaif.jpg",
+      alt: "Mohammad Kaif",
+    },
+    {
+      name: "Mumtaz Alam",
+      imgSrcSet: "assets/images/team/mumtaz-alam.webp",
+      imgSrc: "assets/images/team/mumtaz-alam.jpg",
+      alt: "Mumtaz Alam",
+    },
+    {
+      name: "Pooja Sharma",
+      imgSrcSet: "assets/images/team/pooja-sharma.webp",
+      imgSrc: "assets/images/team/pooja-sharma.jpg",
+      alt: "Pooja Sharma",
+    },
+    {
+      name: "Raghunath Samal",
+      imgSrcSet: "assets/images/team/raghunath-samal.webp",
+      imgSrc: "assets/images/team/raghunath-samal.jpg",
+      alt: "Raghunath Samal",
+    },
+    {
+      name: "Rakesh Durkar",
+      imgSrcSet: "assets/images/team/rakesh-durkar.webp",
+      imgSrc: "assets/images/team/rakesh-durkar.jpg",
+      alt: "Rakesh Durkar",
+    },
+    {
+      name: "Rashi",
+      imgSrcSet: "assets/images/team/rashi.webp",
+      imgSrc: "assets/images/team/rashi.jpg",
+      alt: "Rashi",
+    },
+
+    {
+      name: "Rekha Singh",
+      imgSrcSet: "assets/images/team/rekha-singh.webp",
+      imgSrc: "assets/images/team/rekha-singh.jpg",
+      alt: "Rekha Singh",
+    },
+    {
+      name: "Reet Handay",
+      imgSrcSet: "assets/images/team/Reet.webp",
+      imgSrc: "assets/images/team/Reet.jpg",
+      alt: "Reet Handay",
+    },
+    {
+      name: "Rishabh Kumar",
+      imgSrcSet: "assets/images/team/Rishabh.webp",
+      imgSrc: "assets/images/team/Rishabh.jpg",
+      alt: "Rishabh Kumar",
+    },
+    {
+      name: "Sachin Kumar",
+      imgSrcSet: "assets/images/team/sachin.jpg",
+      imgSrc: "assets/images/team/sachin.jpg",
+      alt: "Sachin Kumar",
+    },
+    {
+      name: "Santosh Kumar",
+      imgSrcSet: "assets/images/team/santosh-kumar.webp",
+      imgSrc: "assets/images/team/santosh-kumar.jpg",
+      alt: "Santosh Kumar",
+    },
+    {
+      name: "Tushar Lad",
+      imgSrcSet: "assets/images/team/tushar.jpg",
+      imgSrc: "assets/images/team/tushar.jpg",
+      alt: "Tushar Lad",
+    },
+
+    {
+      name: "Vishakha",
+      imgSrcSet: "assets/images/team/vishakha.webp",
+      imgSrc: "assets/images/team/vishakha.jpg",
+      alt: "Vishakha",
+    },
+    {
+      name: "Vishal Maurya",
+      imgSrcSet: "assets/images/team/vishal-maurya.webp",
+      imgSrc: "assets/images/team/vishal-maurya.jpg",
+      alt: "Vishal Maurya",
+    },
+    {
+      name: "Vithaldas Nayak",
+      imgSrcSet: "assets/images/team/Vithaldas.webp",
+      imgSrc: "assets/images/team/Vithaldas.jpg",
+      alt: "Vithaldas Nayak",
+    },
+    {
+      name: "Zaid Shaikh",
+      imgSrcSet: "assets/images/team/Zaid-Shaikh.webp",
+      imgSrc: "assets/images/team/Zaid-Shaikh.jpg",
+      alt: "Zaid-Shaikh",
+    },
+    {
+      name: "Zaroon Junaid",
+      imgSrcSet: "assets/images/team/zaroon-junaid.webp",
+      imgSrc: "assets/images/team/zaroon-junaid.jpg",
+      alt: "Zaroon Junaid",
+    },
+  
+  ];
   return (
     <CustomLayout meta={metaTags}>
 

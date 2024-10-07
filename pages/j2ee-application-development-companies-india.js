@@ -7,22 +7,21 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function J2eeApplicationDevelopement() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>J2EE Application Development in India | SIB Infotech</title>
+      <meta name="description" content="SIB Infotech offers robust J2EE application development services in India. Build scalable, secure enterprise applications tailored to your business needs." />
+      <meta name="keywords" content="j2ee application development services,j2ee application development service,offshore j2ee application development,j2ee application development companies,j2ee application development company,j2ee application development india,j2ee application development de" />
      
-
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/j2ee-application-development-companies-india" />
+      <meta property="og:title" content="J2EE Application Development in India | SIB Infotech" />
+      <meta property="og:description" content="SIB Infotech offers robust J2EE application development services in India. Build scalable, secure enterprise applications tailored to your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/j2ee-application-development-companies-india" />
+      <meta property="twitter:title" content="J2EE Application Development in India | SIB Infotech" />
+      <meta property="twitter:description" content="SIB Infotech offers robust J2EE application development services in India. Build scalable, secure enterprise applications tailored to your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

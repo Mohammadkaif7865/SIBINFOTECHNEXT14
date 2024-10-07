@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function OnlineLedGenerationServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Online Lead Generation Services Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Boost your business with online lead generation services in Mumbai by SIB Infotech. Attract quality leads and increase conversions with our expert strategies." />
+          <meta name="keywords" content="Lead Generation Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/online-lead-generation-services" />
+          <meta property="og:title" content="Online Lead Generation Services Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Boost your business with online lead generation services in Mumbai by SIB Infotech. Attract quality leads and increase conversions with our expert strategies." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/online-lead-generation-services" />
+          <meta property="twitter:title" content="Online Lead Generation Services Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Boost your business with online lead generation services in Mumbai by SIB Infotech. Attract quality leads and increase conversions with our expert strategies." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

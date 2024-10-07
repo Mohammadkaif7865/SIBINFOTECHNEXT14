@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function CorporateBrandingServicesMumbai() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Corporate Branding Services in Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Elevate your business with corporate branding services in Mumbai from SIB Infotech. Build a strong identity and connect with your audience. Get in touch today!" />
+        <meta name="keywords" content="Corporate Branding Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" />
+        <meta property="og:title" content="Corporate Branding Services in Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Elevate your business with corporate branding services in Mumbai from SIB Infotech. Build a strong identity and connect with your audience. Get in touch today!" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" />
+        <meta property="twitter:title" content="Corporate Branding Services in Mumbai, India | SIB Infotech" />
+        <meta property="twitter:description" content="Elevate your business with corporate branding services in Mumbai from SIB Infotech. Build a strong identity and connect with your audience. Get in touch today!" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

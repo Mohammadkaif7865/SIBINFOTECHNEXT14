@@ -1,28 +1,26 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function DesktopApplicationMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Custom Desktop Application Development in Mumbai, India</title>
+      <meta name="descriGet custom desktop application development in Mumbai from SIB Infotech. Boost efficiency and productivity with our expert solutions for your business needs." />
+      <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/desktop-applications-mumbai-india" />
+      <meta property="og:title" content="Custom Desktop Application Development in Mumbai, India" />
+      <meta property="og:descriGet custom desktop application development in Mumbai from SIB Infotech. Boost efficiency and productivity with our expert solutions for your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/desktop-applications-mumbai-india" />
+      <meta property="twitter:title" content="Custom Desktop Application Development in Mumbai, India" />
+      <meta property="twitter:descriGet custom desktop application development in Mumbai from SIB Infotech. Boost efficiency and productivity with our expert solutions for your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

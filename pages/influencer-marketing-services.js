@@ -7,21 +7,23 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function InfluencerMarketingServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Influencer Marketing Services Agency India | SIB Infotech</title>
+      <meta name="description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta name="keywords" content="Influence Marketing Services, Influencer Marketing Agency, Premium Influencer Marketing Services, Influencer Marketing campaigns, Perfect Influencer" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/influencer-marketing-services
+" />
+      <meta property="og:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
+      <meta property="og:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services
+" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/influencer-marketing-services" />
+      <meta property="twitter:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
+      <meta property="twitter:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services" />
     </>
   );
   return (

@@ -5,21 +5,22 @@ import Head from "next/head";
 export default function GoogleAdsManagementServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Top Google Ads Management Services Company in Mumbai, India</title>
+      <meta name="description" content="Optimize your Google Ads campaigns with SIB Infotech, India's certified Google AdWords service provider in Mumbai. Get the top-rated Google Ads solutions today!" />
+      <meta name="keywords" content="PPC Management, Pay Per Click Management, PPC Account Management, AdWords Management, Google AdWords Management Services, Google Ads Management, Google Ads Company, Google Ads Service, Ads Management Company, best ppc management company" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/google-ads-management-services
+" />
+      <meta property="og:title" content="Top Google Ads Management Services Company in Mumbai, India" />
+      <meta property="og:description" content="Optimize your Google Ads campaigns with SIB Infotech, India's certified Google AdWords service provider in Mumbai. Get the top-rated Google Ads solutions today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/google-ads-management-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/google-ads-management-services" />
+      <meta property="twitter:title" content="Top Google Ads Management Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Optimize your Google Ads campaigns with SIB Infotech, India's certified Google AdWords service provider in Mumbai. Get the top-rated Google Ads solutions today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/google-ads-management-services.jpg" />
     </>
   );
   return (

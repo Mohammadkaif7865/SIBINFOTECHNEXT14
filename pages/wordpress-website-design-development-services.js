@@ -5,22 +5,23 @@ import BannerForm from '../comps/BannerForm';
 export default function WordpressWebsiteDesignDevelopmentServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>WordPress Website Design & Development Services India</title>
+          <meta name="description" content="Create a stunning WordPress website with custom design and development in India by SIB Infotech. Contact for professional WordPress web design and development!" />
+          <meta name="keywords" content="e-commerce web designing,e-commerce website designing,e-commerce web designing services,e-commerce website designing services,e-commerce web designing companies,e-commerce website designing companies,e-commerce web designing india,e-commerce web designing" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/wordpress-website-design-development-services" />
+          <meta property="og:title" content="WordPress Website Design & Development Services India" />
+          <meta property="og:description" content="Create a stunning WordPress website with custom design and development in India by SIB Infotech. Contact for professional WordPress web design and development!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/wordpress-website-design-development-services" />
+          <meta property="twitter:title" content="WordPress Website Design & Development Services India" />
+          <meta property="twitter:description" content="Create a stunning WordPress website with custom design and development in India by SIB Infotech. Contact for professional WordPress web design and development!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services
+" />
         </>
       );
       return (

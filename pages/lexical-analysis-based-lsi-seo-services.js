@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function LexicalAnalysisBasedIsiSeoServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>LSI & Lexical Analysis SEO Services | Boost Relevant Traffic</title>
+      <meta name="description" content="Optimize your content with LSI-based SEO and lexical analysis services. Improve keyword relevance, ranking, and traffic. Drive better results with SIB Infotech." />
+      <meta name="keywords" content="lsi based seo service,lsi based seo services,lsi based seo india,lsi based seo delhi,lsi based seo mumbai,lsi based seo chennai,lsi based seo bangalore,lsi based seo pune,lsi based seo hyderabad,lsi based seo services india,lsi based seo services mumbai,l" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/lexical-analysis-based-lsi-seo-services" />
+      <meta property="og:title" content="LSI & Lexical Analysis SEO Services | Boost Relevant Traffic" />
+      <meta property="og:description" content="Optimize your content with LSI-based SEO and lexical analysis services. Improve keyword relevance, ranking, and traffic. Drive better results with SIB Infotech." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/lexical-analysis-based-lsi-seo-services" />
+      <meta property="twitter:title" content="LSI & Lexical Analysis SEO Services | Boost Relevant Traffic" />
+      <meta property="twitter:description" content="Optimize your content with LSI-based SEO and lexical analysis services. Improve keyword relevance, ranking, and traffic. Drive better results with SIB Infotech." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

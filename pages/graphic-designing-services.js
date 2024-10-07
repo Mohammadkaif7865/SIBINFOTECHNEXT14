@@ -1,27 +1,26 @@
-import React from "react";
-import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function GraphicDesigningServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Best Graphic Designing Services Company in Mumbai, India</title>
+      <meta name="description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
+      <meta name="keywords" content="Graphic Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/graphic-designing-services" />
+      <meta property="og:title" content="Best Graphic Designing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/graphic-designing-services" />
+      <meta property="twitter:title" content="Best Graphic Designing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services
+" />
     </>
   );
   return (

@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MobileOptimizationTechniques() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Mobile Website Optimization Techniques in Mumbai, India</title>
+      <meta name="description" content="Enhance user experience with top mobile website optimization techniques in Mumbai, India. Improve speed and usability to drive more traffic with SIB Infotech." />
+      <meta name="keywords" content="website design delhi,website design and development,website design companies,web design service,website design in delhi,website design company in delhi,flash website design,Web Design Company, Website Development, E-Commerce Solution, Web Development Outs" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/mobile-optimization-techniques-india" />
+      <meta property="og:title" content="Mobile Website Optimization Techniques in Mumbai, India" />
+      <meta property="og:description" content="Enhance user experience with top mobile website optimization techniques in Mumbai, India. Improve speed and usability to drive more traffic with SIB Infotech." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-optimization-techniques-india" />
+      <meta property="twitter:title" content="Mobile Website Optimization Techniques in Mumbai, India" />
+      <meta property="twitter:description" content="Enhance user experience with top mobile website optimization techniques in Mumbai, India. Improve speed and usability to drive more traffic with SIB Infotech." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

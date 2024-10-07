@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function InternetMarketingCompanyMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Leading Internet Marketing Company in Mumbai, India</title>
+      <meta name="description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
+      <meta name="keywords" content="internet marketing services,internet marketing india,internet marketing companies,internet marketing agency,seo internet marketing,internet marketing promotion,internet marketing strategies,internet marketing seo,internet marketing firm,online internet ma" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
+      <meta property="og:title" content="Leading Internet Marketing Company in Mumbai, India" />
+      <meta property="og:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
+      <meta property="twitter:title" content="Leading Internet Marketing Company in Mumbai, India" />
+      <meta property="twitter:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

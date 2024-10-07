@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MobileWebsiteDesigningServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Mobile Website Designing Services in India | SIB Infotech</title>
+          <meta name="description" content="Get responsive mobile website designing services in Mumbai, India with SIB Infotech. Boost user experience and engagement with mobile-friendly web designs." />
+          <meta name="keywords" content="Mobile Website Designing Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/mobile-website-designing-services" />
+          <meta property="og:title" content="Mobile Website Designing Services in India | SIB Infotech" />
+          <meta property="og:description" content="Get responsive mobile website designing services in Mumbai, India with SIB Infotech. Boost user experience and engagement with mobile-friendly web designs." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-website-designing-services" />
+          <meta property="twitter:title" content="Mobile Website Designing Services in India | SIB Infotech" />
+          <meta property="twitter:description" content="Get responsive mobile website designing services in Mumbai, India with SIB Infotech. Boost user experience and engagement with mobile-friendly web designs." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

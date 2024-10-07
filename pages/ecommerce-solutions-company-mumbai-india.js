@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function EcommerceSolutionCompaniesMumbai() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Top E-commerce Solutions Provider Company in Mumbai, India</title>
+      <meta name="description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
+      <meta name="keywords" content="offshore e-commerce solutions,e-commerce solutions companies,e-commerce solutions company,e-commerce solutions india,e-commerce solutions delhi,e-commerce solutions mumbai,e-commerce solutions chennai,e-commerce solutions bangalore,e-commerce solutions pu" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
+      <meta property="og:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
+      <meta property="og:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
+      <meta property="twitter:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
+      <meta property="twitter:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

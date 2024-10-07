@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PaymentGatewayIntegrationServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Payment Gateway Integration Services India | SIB Infotech</title>
+        <meta name="description" content="Streamline the transactions with secure payment gateway integration services from SIB Infotech. Enhance your business with reliable payment solutions today!" />
+        <meta name="keywords" content="Payment Gateway Integration Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/payment-gateway-integration-services" />
+        <meta property="og:title" content="Payment Gateway Integration Services India | SIB Infotech" />
+        <meta property="og:description" content="Streamline the transactions with secure payment gateway integration services from SIB Infotech. Enhance your business with reliable payment solutions today!" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/payment-gateway-integration-services" />
+        <meta property="twitter:title" content="Payment Gateway Integration Services India | SIB Infotech" />
+        <meta property="twitter:description" content="Streamline the transactions with secure payment gateway integration services from SIB Infotech. Enhance your business with reliable payment solutions today!" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

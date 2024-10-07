@@ -12,22 +12,21 @@ export default function Portfolio() {
     };
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>SIB Infotech Portfolio | Our Successful Projects</title>
+          <meta name="description" content="Explore the portfolio of SIB Infotech to see our diverse range of successful projects. Discover how we deliver and drive success across various industries." />
+          <meta name="keywords" content="Portfolio" />
          
-    
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/portfolio" />
+          <meta property="og:title" content="SIB Infotech Portfolio | Our Successful Projects" />
+          <meta property="og:description" content="Explore the portfolio of SIB Infotech to see our diverse range of successful projects. Discover how we deliver and drive success across various industries." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/portfolio" />
+          <meta property="twitter:title" content="SIB Infotech Portfolio | Our Successful Projects" />
+          <meta property="twitter:description" content="Explore the portfolio of SIB Infotech to see our diverse range of successful projects. Discover how we deliver and drive success across various industries." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

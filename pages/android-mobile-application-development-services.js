@@ -1,29 +1,27 @@
-import React from 'react';
 
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function AndroidMobileApplicationDevelopmentServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Top Android Application Development Services Company India</title>
+          <meta name="description" content="SIB Infotech specializes in Android mobile application development. Get tailored, user-friendly apps that enhance engagement and drive growth for your business." />
+          <meta name="keywords" content="android application development services,android application development service,offshore android application development,android application development companies,android application development company,android application development india,android application" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/android-mobile-application-development-services" />
+          <meta property="og:title" content="Top Android Application Development Services Company India" />
+          <meta property="og:description" content="SIB Infotech specializes in Android mobile application development. Get tailored, user-friendly apps that enhance engagement and drive growth for your business." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/android-mobile-application-development-services" />
+          <meta property="twitter:title" content="Top Android Application Development Services Company India" />
+          <meta property="twitter:description" content="SIB Infotech specializes in Android mobile application development. Get tailored, user-friendly apps that enhance engagement and drive growth for your business." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

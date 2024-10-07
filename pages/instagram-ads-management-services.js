@@ -8,21 +8,23 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function InstagramAdsManagementServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Instagram Ads Management Services Company in Mumbai, India</title>
+      <meta name="description" content="Unlock the power of Instagram advertising with SIB Infotech—a professional Instagram Ads management agency in India. Contact us to grow your business today!" />
+      <meta name="keywords" content="Instagram advertising agency, Instagram advertising services, Instagram ads manager, Instagram advertising company, promote products on Instagram" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/instagram-ads-management-services
+" />
+      <meta property="og:title" content="Instagram Ads Management Services Company in Mumbai, India" />
+      <meta property="og:description" content="Unlock the power of Instagram advertising with SIB Infotech—a professional Instagram Ads management agency in India. Contact us to grow your business today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/instagram-ads-management-services
+" />
+      <meta property="twitter:title" content="Instagram Ads Management Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Unlock the power of Instagram advertising with SIB Infotech—a professional Instagram Ads management agency in India. Contact us to grow your business today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.jpg" />
     </>
   );
   return (

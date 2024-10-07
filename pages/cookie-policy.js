@@ -1,27 +1,25 @@
-import React from "react";
 
-import Link from "next/link";
-import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import Link from "next/link";
 
 export default function CookiesPolicy() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Cookie Policy | Data Usage and Privacy | SIB Infotech</title>
+      <meta name="description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
+      <meta name="keywords" content="Cookies Policy" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/cookie-policy" />
+      <meta property="og:title" content="Cookie Policy | Data Usage and Privacy | SIB Infotech" />
+      <meta property="og:description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/cookie-policy" />
+      <meta property="twitter:title" content="Cookie Policy | Data Usage and Privacy | SIB Infotech" />
+      <meta property="twitter:description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

@@ -7,22 +7,23 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function OnlineReputationManagementServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Top Online Reputation Management Services in Mumbai, India</title>
+          <meta name="description" content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech." />
+          <meta name="keywords" content="online reputation management, Online Reputation Experts, online reputation management, reputation management services, Reputation repair, remove negative comment, remove google content" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/online-reputation-management-services
+" />
+          <meta property="og:title" content="Top Online Reputation Management Services in Mumbai, India" />
+          <meta property="og:description" content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/online-reputation-management-services" />
+          <meta property="twitter:title" content="Top Online Reputation Management Services in Mumbai, India" />
+          <meta property="twitter:description" content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services" />
         </>
       );
       return (

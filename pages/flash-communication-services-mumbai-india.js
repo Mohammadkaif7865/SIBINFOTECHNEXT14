@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlashCommunicationServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash Communication Server Services in Mumbai, India</title>
+      <meta name="description" content="Discover top-notch flash communication server services in Mumbai by SIB Infotech. Enhance your connectivity and boost your business with our expert solutions." />
+      <meta name="keywords" content="flash communication server services india,flash communication server services bangalore,flash communication server services mumbai,flash communication server services delhi,flash communication server services ,chennai,flash communication server services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-communication-services-mumbai-india" />
+      <meta property="og:title" content="Flash Communication Server Services in Mumbai, India" />
+      <meta property="og:description" content="Discover top-notch flash communication server services in Mumbai by SIB Infotech. Enhance your connectivity and boost your business with our expert solutions." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-communication-services-mumbai-india" />
+      <meta property="twitter:title" content="Flash Communication Server Services in Mumbai, India" />
+      <meta property="twitter:description" content="Discover top-notch flash communication server services in Mumbai by SIB Infotech. Enhance your connectivity and boost your business with our expert solutions." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

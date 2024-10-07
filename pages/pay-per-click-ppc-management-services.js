@@ -5,22 +5,22 @@ import Head from "next/head";
 export default function PpcManagementServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>PPC Management Company India | Pay Per-Click Services Mumbai</title>
+          <meta name="description" content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance." />
+          <meta name="keywords" content="Pay Per Click Management Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/pay-per-click-ppc-management-services" />
+          <meta property="og:title" content="PPC Management Company India | Pay Per-Click Services Mumbai" />
+          <meta property="og:description" content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/pay-per-click-ppc-management-services" />
+          <meta property="twitter:title" content="PPC Management Company India | Pay Per-Click Services Mumbai" />
+          <meta property="twitter:description" content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.jpg" />
         </>
       );
       return (

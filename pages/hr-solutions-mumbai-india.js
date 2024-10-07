@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function HrSolutionMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>HR Solutions Services Provider in Mumbai, Delhi, India</title>
+      <meta name="description" content="SIB Infotech provides leading-edge HR solutions in Mumbai, India that help companies better develop, manage, reward, and retain their most important assets." />
+      <meta name="keywords" content="web development India, IT outsourcing company, website development company, web development companies in india, indian web development company, Web Development Companies India, web site development professional, php website, custom ecommerce, affordable w" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/hr-solutions-mumbai-india" />
+      <meta property="og:title" content="HR Solutions Services Provider in Mumbai, Delhi, India" />
+      <meta property="og:description" content="SIB Infotech provides leading-edge HR solutions in Mumbai, India that help companies better develop, manage, reward, and retain their most important assets." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/hr-solutions-mumbai-india" />
+      <meta property="twitter:title" content="HR Solutions Services Provider in Mumbai, Delhi, India" />
+      <meta property="twitter:description" content="SIB Infotech provides leading-edge HR solutions in Mumbai, India that help companies better develop, manage, reward, and retain their most important assets." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

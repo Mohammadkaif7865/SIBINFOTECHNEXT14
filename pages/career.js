@@ -1,27 +1,25 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
 import { CustomLayout } from '@/comps/CustomLayout';
+import Link from 'next/link';
 
 export default function Career() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Careers at SIB Infotech | Current Jobs Openings</title>
+          <meta name="description" content="Join SIB Infotech and grow your career in digital marketing. Explore exciting job opportunities, competitive benefits, and a dynamic work environment." />
+          <meta name="keywords" content="Career" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/career" />
+          <meta property="og:title" content="Careers at SIB Infotech | Current Jobs Openings" />
+          <meta property="og:description" content="Join SIB Infotech and grow your career in digital marketing. Explore exciting job opportunities, competitive benefits, and a dynamic work environment." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/career" />
+          <meta property="twitter:title" content="Careers at SIB Infotech | Current Jobs Openings" />
+          <meta property="twitter:description" content="Join SIB Infotech and grow your career in digital marketing. Explore exciting job opportunities, competitive benefits, and a dynamic work environment." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

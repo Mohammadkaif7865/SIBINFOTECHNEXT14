@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlashWebsiteDesigningServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash Template Designing Services Company in Mumbai, India</title>
+      <meta name="description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
+      <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
+      <meta property="og:title" content="Flash Template Designing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
+      <meta property="twitter:title" content="Flash Template Designing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

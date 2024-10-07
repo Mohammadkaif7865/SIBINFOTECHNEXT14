@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function AmazonWebServicesAws() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Best Amazon Web Services (AWS) Solutions | SIB Infotech</title>
+        <meta name="description" content="Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure." />
+        <meta name="keywords" content="Amazon Web Services (Aws)" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/amazon-web-services-aws" />
+        <meta property="og:title" content="Best Amazon Web Services (AWS) Solutions | SIB Infotech" />
+        <meta property="og:description" content="Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/amazon-web-services-aws" />
+        <meta property="twitter:title" content="Best Amazon Web Services (AWS) Solutions | SIB Infotech" />
+        <meta property="twitter:description" content="Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

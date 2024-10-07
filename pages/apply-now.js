@@ -1,27 +1,25 @@
 import ApplyForm from "@/comps/applyForm";
 import { CustomLayout } from "@/comps/CustomLayout";
-import Head from "next/head";
-import React from "react";
 
 const ApplyNow = () => {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Apply Now at SIB Infotech | Job Application</title>
+      <meta name="description" content="Submit your application at SIB Infotech and kickstart your career in the digital marketing industry. Connect with our HR Department. Apply now!" />
+      <meta name="keywords" content="Job Application" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/apply-now" />
+      <meta property="og:title" content="Apply Now at SIB Infotech | Job Application" />
+      <meta property="og:description" content="Submit your application at SIB Infotech and kickstart your career in the digital marketing industry. Connect with our HR Department. Apply now!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/apply-now" />
+      <meta property="twitter:title" content="Apply Now at SIB Infotech | Job Application" />
+      <meta property="twitter:description" content="Submit your application at SIB Infotech and kickstart your career in the digital marketing industry. Connect with our HR Department. Apply now!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

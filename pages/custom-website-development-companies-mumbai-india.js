@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function CustomWebDevelopment() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Custom Website Development Development Company in Mumbai, India</title>
+      <meta name="description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
+      <meta name="keywords" content="custom web development services,custom web development service,offshore custom web development,custom web development companies,custom web development company,custom web development india,custom web development delhi,custom web development mumbai,custom w" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
+      <meta property="og:title" content="Custom Website Development Development Company in Mumbai, India" />
+      <meta property="og:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="Custom Website Development Development Company in Mumbai, India" />
+      <meta property="twitter:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

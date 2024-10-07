@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MicrosoftDevelopmentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Microsoft Application Development Services | SIB Infotech</title>
+        <meta name="description" content="Transform your business with Microsoft application development services by SIB Infotech. Custom solutions tailored to enhance productivity and efficiency." />
+        <meta name="keywords" content="Microsoft Application & Development Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/microsoft-application-development-services" />
+        <meta property="og:title" content="Microsoft Application Development Services | SIB Infotech" />
+        <meta property="og:description" content="Transform your business with Microsoft application development services by SIB Infotech. Custom solutions tailored to enhance productivity and efficiency." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/microsoft-application-development-services" />
+        <meta property="twitter:title" content="Microsoft Application Development Services | SIB Infotech" />
+        <meta property="twitter:description" content="Transform your business with Microsoft application development services by SIB Infotech. Custom solutions tailored to enhance productivity and efficiency." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

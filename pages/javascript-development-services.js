@@ -8,22 +8,21 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function JavascriptDevelopmentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>JavaScript Development Services | Custom Web Solutions</title>
+        <meta name="description" content="Get expert JavaScript development services in Mumbai for dynamic and responsive websites. SIB Infotech provides custom solutions to enhance user experience." />
+        <meta name="keywords" content="Javascript Development Services" />
        
-  
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/javascript-development-services" />
+        <meta property="og:title" content="JavaScript Development Services | Custom Web Solutions  " />
+        <meta property="og:description" content="Get expert JavaScript development services in Mumbai for dynamic and responsive websites. SIB Infotech provides custom solutions to enhance user experience." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/javascript-development-services" />
+        <meta property="twitter:title" content="JavaScript Development Services | Custom Web Solutions   " />
+        <meta property="twitter:description" content="Get expert JavaScript development services in Mumbai for dynamic and responsive websites. SIB Infotech provides custom solutions to enhance user experience." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

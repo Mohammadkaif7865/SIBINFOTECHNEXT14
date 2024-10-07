@@ -1,27 +1,26 @@
-import React from "react";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function CmsDevelopementServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>CMS Website Design & Development Services | SIB Infotech</title>
+      <meta name="description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
+      <meta name="keywords" content="Content Management System - CMS Based Website Development Services " />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
+      <meta property="og:title" content="CMS Website Design & Development Services | SIB Infotech" />
+      <meta property="og:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
+      <meta property="twitter:title" content="CMS Website Design & Development Services | SIB Infotech" />
+      <meta property="twitter:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services
+" />
     </>
   );
   return (

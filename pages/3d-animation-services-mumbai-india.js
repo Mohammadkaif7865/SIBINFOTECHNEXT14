@@ -1,28 +1,25 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function ThreeDAnimationServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>3D Animation Services Company Mumbai, India | Sib Infotech</title>
+      <meta name="description" content="Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!" />
+      <meta name="keywords" content="3d animation services india,3d animation services bangalore,3d animation services mumbai,3d animation services delhi,3d animation services chennai,3d animation services pune,3d animation services hyderabad,3d animation india,3d animation bangalore,3d anim" />
      
-
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/3d-animation-services-mumbai-india" />
+      <meta property="og:title" content="3D Animation Services Company Mumbai, India | Sib Infotech" />
+      <meta property="og:description" content="Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/3d-animation-services-mumbai-india" />
+      <meta property="twitter:title" content="3D Animation Services Company Mumbai, India | Sib Infotech" />
+      <meta property="twitter:description" content="Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

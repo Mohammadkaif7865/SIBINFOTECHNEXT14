@@ -1,29 +1,26 @@
-import React from 'react';
 // import {Link} from 'react-router-dom';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Adobe AIR Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web." />
+      <meta name="keywords" content="adobe air development services india,adobe air development services bangalore,adobe air development services mumbai,adobe air development services delhi,adobe air development services ,chennai,adobe air development services pune,adobe air development serv" />
      
-
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" />
+      <meta property="og:title" content="Adobe AIR Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="Adobe AIR Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

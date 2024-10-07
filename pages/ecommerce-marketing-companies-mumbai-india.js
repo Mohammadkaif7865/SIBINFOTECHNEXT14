@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function EcommerceMarketingCompanyMumbai() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>eCommerce Marketing Companies in Mumbai | SIB Infotech</title>
+        <meta name="description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
+        <meta name="keywords" content="internet marketing solutions,internet marketing solution,internet marketing experts,internet marketing expert,internet marketing seo services,internet marketing firms,ecommerce marketing services,ecommerce marketing companies,ecommerce marketing india,eco" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india" />
+        <meta property="og:title" content="eCommerce Marketing Companies in Mumbai | SIB Infotech" />
+        <meta property="og:description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india" />
+        <meta property="twitter:title" content="eCommerce Marketing Companies in Mumbai | SIB Infotech" />
+        <meta property="twitter:description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

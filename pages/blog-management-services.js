@@ -1,28 +1,28 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function BlogManagementServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Professional Blog Management Services Company Mumbai, India</title>
+          <meta name="description" content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales." />
+          <meta name="keywords" content="Blog management, blog management consulting, multiple blog management, wordpress blog management, blogs management services, blog services, blog promotion, manage blog, business blog" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/blog-management-services
+" />
+          <meta property="og:title" content="Professional Blog Management Services Company Mumbai, India" />
+          <meta property="og:description" content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/blog-management-services" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/blog-management-services" />
+          <meta property="twitter:title" content="Professional Blog Management Services Company Mumbai, India" />
+          <meta property="twitter:description" content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/blog-management-services
+" />
         </>
       );
       return (

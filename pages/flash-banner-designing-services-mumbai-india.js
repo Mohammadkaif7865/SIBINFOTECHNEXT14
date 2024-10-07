@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function FlashBannerDesigningServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash Banner Designing Services Company in Mumbai, India</title>
+      <meta name="description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta name="keywords" content="flash banner designing services india,flash banner designing services bangalore,flash banner designing services mumbai,flash banner designing services delhi,flash banner designing services ,chennai,flash banner designing services pune,flash banner designi" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
+      <meta property="og:title" content="Flash Banner Designing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
+      <meta property="twitter:title" content="Flash Banner Designing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

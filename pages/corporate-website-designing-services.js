@@ -1,28 +1,27 @@
-import React from "react";
 
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function CorporateWebsiteDesigningServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Corporate Website Designing Services India | SIB Infotech</title>
+      <meta name="description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
+      <meta name="keywords" content="Corporate Website Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
+      <meta property="og:title" content="Corporate Website Designing Services India | SIB Infotech" />
+      <meta property="og:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
+      <meta property="twitter:title" content="Corporate Website Designing Services India | SIB Infotech" />
+      <meta property="twitter:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services
+" />
     </>
   );
   return (
@@ -49,7 +48,7 @@ export default function CorporateWebsiteDesigningServices() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 pe-lg-5 d-none dmd-block">
+            <div className="col-lg-5 pe-lg-5 d-none d-md-block">
               <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700 fontHeading">
                   Accelerate Your Business Growth

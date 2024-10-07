@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlexDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flex Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Transform your web applications with Flex development services in Mumbai by SIB Infotech. Enjoy rich internet applications and enhanced user experiences." />
+      <meta name="keywords" content="flex development services india,flex development services bangalore,flex development services mumbai,flex development services delhi,flex development services ,chennai,flex development services pune,flex development services hyderabad,flex development ind" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flex-development-companies-mumbai-india" />
+      <meta property="og:title" content="Flex Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Transform your web applications with Flex development services in Mumbai by SIB Infotech. Enjoy rich internet applications and enhanced user experiences." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flex-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="Flex Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Transform your web applications with Flex development services in Mumbai by SIB Infotech. Enjoy rich internet applications and enhanced user experiences." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

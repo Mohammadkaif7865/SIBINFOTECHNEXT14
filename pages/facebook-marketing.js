@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FacebookMarketing() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Facebook Marketing Services in Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
+      <meta name="keywords" content="Facebook Marketing" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/facebook-marketing" />
+      <meta property="og:title" content="Facebook Marketing Services in Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/facebook-marketing" />
+      <meta property="twitter:title" content="Facebook Marketing Services in Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

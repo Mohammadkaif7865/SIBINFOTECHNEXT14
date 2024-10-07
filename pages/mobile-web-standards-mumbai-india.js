@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MobileWebStandards() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Mobile Web Standards Services Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Ensure your website meets mobile web standards with expert services in Mumbai from SIB Infotech. Improve user experience and performance. Contact today!" />
+      <meta name="keywords" content="web design company, web design company india, website design India, web development India, seo company india, website development company, seo services, web designing company, web design companies in india, seo companies in india, IT outsourcing company," />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/mobile-web-standards-mumbai-india" />
+      <meta property="og:title" content="Mobile Web Standards Services Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Ensure your website meets mobile web standards with expert services in Mumbai from SIB Infotech. Improve user experience and performance. Contact today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-web-standards-mumbai-india" />
+      <meta property="twitter:title" content="Mobile Web Standards Services Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Ensure your website meets mobile web standards with expert services in Mumbai from SIB Infotech. Improve user experience and performance. Contact today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

@@ -7,22 +7,21 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function JavaDevelopmentServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Java Development Services in Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Unlock the power of Java with expert development services in Mumbai from SIB Infotech. Get scalable, high-performance applications for your business needs!" />
+          <meta name="keywords" content="Java Development Services" />
          
-    
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/java-development-services" />
+          <meta property="og:title" content="Java Development Services in Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Unlock the power of Java with expert development services in Mumbai from SIB Infotech. Get scalable, high-performance applications for your business needs!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/java-development-services" />
+          <meta property="twitter:title" content="Java Development Services in Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Unlock the power of Java with expert development services in Mumbai from SIB Infotech. Get scalable, high-performance applications for your business needs!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

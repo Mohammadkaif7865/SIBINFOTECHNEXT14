@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function GuaranteedTopSearchEngineRankingCompany() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech</title>
+      <meta name="description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
+      <meta name="keywords" content="seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,seo india,seo company,best seo services india,seo tips,outsourcing seo services,seo package" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
+      <meta property="og:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
+      <meta property="og:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
+      <meta property="twitter:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
+      <meta property="twitter:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

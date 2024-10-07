@@ -8,22 +8,25 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function EcommerceSeoServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Top eCommerce SEO Services Company in Mumbai, India</title>
+          <meta name="description" content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!" />
+          <meta name="keywords" content="Search Engine Optimization, SEO, Ecommerce SEO, Ecommerce SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/e-commerce-seo-services
+" />
+          <meta property="og:title" content="Top eCommerce SEO Services Company in Mumbai, India" />
+          <meta property="og:description" content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services
+" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-seo-services" />
+          <meta property="twitter:title" content="Top eCommerce SEO Services Company in Mumbai, India" />
+          <meta property="twitter:description" content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services
+" />
         </>
       );
       return (

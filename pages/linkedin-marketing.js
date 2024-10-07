@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function LinkedinMarketing() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>LinkedIn Marketing Services in Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Boost your brand presence with LinkedIn marketing services in India by SIB Infotech. Engage professionals and drive leads through our tailored strategies." />
+          <meta name="keywords" content="Linked Marketing" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/linkedin-marketing" />
+          <meta property="og:title" content="LinkedIn Marketing Services in Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Boost your brand presence with LinkedIn marketing services in India by SIB Infotech. Engage professionals and drive leads through our tailored strategies." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/linkedin-marketing" />
+          <meta property="twitter:title" content="LinkedIn Marketing Services in Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Boost your brand presence with LinkedIn marketing services in India by SIB Infotech. Engage professionals and drive leads through our tailored strategies." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

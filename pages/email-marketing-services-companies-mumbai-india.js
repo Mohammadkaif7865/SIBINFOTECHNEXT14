@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function EmailMarketingServicesCompaniesMumbai() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Top Email Marketing Services Company in Mumbai, India</title>
+      <meta name="description" content="Enhance your email campaigns with SIB Infotech, an effective email marketing company in Mumbai, India. Contact us for customized email marketing strategies!" />
+      <meta name="keywords" content="email marketing solutions,email marketing solution,email marketing experts,email marketing expert,email marketing seo services,email marketing firms,email marketing services,email marketing companies,email marketing india,email marketing delhi,email marke" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india" />
+      <meta property="og:title" content="Top Email Marketing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Enhance your email campaigns with SIB Infotech, an effective email marketing company in Mumbai, India. Contact us for customized email marketing strategies!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india" />
+      <meta property="twitter:title" content="Top Email Marketing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Enhance your email campaigns with SIB Infotech, an effective email marketing company in Mumbai, India. Contact us for customized email marketing strategies!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

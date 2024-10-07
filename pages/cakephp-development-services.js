@@ -1,28 +1,26 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function CakephpDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>CakePHP Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Unlock the power of CakePHP with development services in Mumbai by SIB Infotech. Build robust applications to your needs. Get in touch for a consultation!" />
+      <meta name="keywords" content="
+cake php development services,cake php development service,offshore cake php development,cake php development companies,cake php development company,cake php development india,cake php development delhi,cake php development mumbai,cake php development che" />
      
-
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/cakephp-development-services" />
+      <meta property="og:title" content="CakePHP Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Unlock the power of CakePHP with development services in Mumbai by SIB Infotech. Build robust applications to your needs. Get in touch for a consultation!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/cakephp-development-services" />
+      <meta property="twitter:title" content="CakePHP Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Unlock the power of CakePHP with development services in Mumbai by SIB Infotech. Build robust applications to your needs. Get in touch for a consultation!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

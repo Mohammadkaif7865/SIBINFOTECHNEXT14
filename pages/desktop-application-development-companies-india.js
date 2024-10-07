@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function DesktopApplicationDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Desktop Application Development Company India | SIB Infotech</title>
+      <meta name="description" content="Get custom desktop applications for your business needs. SIB Infotech offers robust, scalable solutions for seamless performance across platforms in India." />
+      <meta name="keywords" content="desktop application development services,desktop application development service,offshore desktop application development,desktop application development companies,desktop application development company,desktop application development india,desktop appli" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/desktop-application-development-companies-india" />
+      <meta property="og:title" content="Desktop Application Development Company India | SIB Infotech" />
+      <meta property="og:description" content="Get custom desktop applications for your business needs. SIB Infotech offers robust, scalable solutions for seamless performance across platforms in India." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/desktop-application-development-companies-india" />
+      <meta property="twitter:title" content="Desktop Application Development Company India | SIB Infotech" />
+      <meta property="twitter:description" content="Get custom desktop applications for your business needs. SIB Infotech offers robust, scalable solutions for seamless performance across platforms in India." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

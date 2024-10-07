@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function DrupalCmsDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Drupal CMS Development Services Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
+      <meta name="keywords" content="drupal cms development services,drupal cms development service,offshore drupal cms development,drupal cms development companies,drupal cms development company,drupal cms development india,drupal cms development delhi,drupal cms development mumbai,drupal c" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
+      <meta property="og:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
+      <meta property="twitter:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

@@ -1,27 +1,26 @@
-import React from "react";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function ArticleSubmissionServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Article Submission Services Company in Mumbai, India</title>
+      <meta name="description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
+      <meta name="keywords" content="
+article submission service,article submission services,manual article submission,seo article submission,manual article submission service,article submission india,article submission delhi,article submission mumbai,article submission chennai,article submis" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/article-submission-services" />
+      <meta property="og:title" content="Article Submission Services Company in Mumbai, India" />
+      <meta property="og:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/article-submission-services" />
+      <meta property="twitter:title" content="Article Submission Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

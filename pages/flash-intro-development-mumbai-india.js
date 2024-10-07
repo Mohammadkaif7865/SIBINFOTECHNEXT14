@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlashIntroDevelopmentMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash Intro Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
+      <meta name="keywords" content="Flash Intro Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
+      <meta property="og:title" content="Flash Intro Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
+      <meta property="twitter:title" content="Flash Intro Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

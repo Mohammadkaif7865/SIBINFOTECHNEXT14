@@ -9,22 +9,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MagentoDevelopment() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Magento Development Services Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Boost your e-commerce business with expert Magento development services by SIB Infotech in Mumbai, India—customized solutions for seamless online stores." />
+          <meta name="keywords" content="Magento Development Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/magento-development-services-mumbai-india" />
+          <meta property="og:title" content="Magento Development Services Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Boost your e-commerce business with expert Magento development services by SIB Infotech in Mumbai, India—customized solutions for seamless online stores." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/magento-development-services-mumbai-india" />
+          <meta property="twitter:title" content="Magento Development Services Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Boost your e-commerce business with expert Magento development services by SIB Infotech in Mumbai, India—customized solutions for seamless online stores." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

@@ -1,27 +1,25 @@
-import React from "react";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function AspnetDevelopmentCompanyMumbai() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>ASP.NET Development Services Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Get robust, scalable ASP.NET development services from SIB Infotech. We specialize in building dynamic and secure websites tailored to your business needs." />
+      <meta name="keywords" content="asp.net development services,asp.net development service,offshore asp.net development,asp.net development companies,asp.net development company,asp.net development india,asp.net development delhi,asp.net development mumbai,asp.net development chennai,asp." />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" />
+      <meta property="og:title" content="ASP.NET Development Services Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Get robust, scalable ASP.NET development services from SIB Infotech. We specialize in building dynamic and secure websites tailored to your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="ASP.NET Development Services Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Get robust, scalable ASP.NET development services from SIB Infotech. We specialize in building dynamic and secure websites tailored to your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

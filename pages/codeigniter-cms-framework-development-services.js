@@ -1,27 +1,25 @@
-import React from "react";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function CodeigniterFrameworkDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>CodeIgniter CMS Development Services | SIB Infotech</title>
+      <meta name="description" content="Boost your website with custom CodeIgniter CMS development. SIB Infotech offers robust solutions for faster, secure, and scalable web applications." />
+      <meta name="keywords" content="Codeigniter Development" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/codeigniter-cms-framework-development-services" />
+      <meta property="og:title" content="CodeIgniter CMS Development Services | SIB Infotech" />
+      <meta property="og:description" content="Boost your website with custom CodeIgniter CMS development. SIB Infotech offers robust solutions for faster, secure, and scalable web applications." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/codeigniter-cms-framework-development-services" />
+      <meta property="twitter:title" content="CodeIgniter CMS Development Services | SIB Infotech" />
+      <meta property="twitter:description" content="Boost your website with custom CodeIgniter CMS development. SIB Infotech offers robust solutions for faster, secure, and scalable web applications." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

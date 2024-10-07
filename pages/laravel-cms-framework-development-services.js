@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function LaravelCmsDevelopmentCompany() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Laravel CMS Framework Development Services | SIB Infotech</title>
+          <meta name="description" content="Leverage Laravel CMS development services by SIB Infotech for robust, scalable web solutions. Enhance your online presence with customized frameworks today!" />
+          <meta name="keywords" content="Laravel" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/laravel-cms-framework-development-services" />
+          <meta property="og:title" content="Laravel CMS Framework Development Services | SIB Infotech" />
+          <meta property="og:description" content="Leverage Laravel CMS development services by SIB Infotech for robust, scalable web solutions. Enhance your online presence with customized frameworks today!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/laravel-cms-framework-development-services" />
+          <meta property="twitter:title" content="Laravel CMS Framework Development Services | SIB Infotech" />
+          <meta property="twitter:description" content="Leverage Laravel CMS development services by SIB Infotech for robust, scalable web solutions. Enhance your online presence with customized frameworks today!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

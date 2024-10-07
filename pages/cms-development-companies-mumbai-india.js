@@ -1,28 +1,26 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function CmsDevelopmentCompaniesMumbai() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>CMS Development Companies in Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance." />
+          <meta name="keywords" content="cms development services,cms development service,offshore cms development, cms development companies, cms development company,cms development india,cms development delhi,cms development mumbai,cms development chennai,cms development bangalore,cms developmen" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/cms-development-companies-mumbai-india" />
+          <meta property="og:title" content="CMS Development Companies in Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/cms-development-companies-mumbai-india" />
+          <meta property="twitter:title" content="CMS Development Companies in Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

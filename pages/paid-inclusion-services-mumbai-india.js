@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PaidInclusionServicesMumbaiIndia() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Paid Inclusion Services in Mumbai | Boost Online Visibility</title>
+          <meta name="description" content="Maximize online visibility with Paid Inclusion services in Mumbai by SIB Infotech. Get faster search engine indexing and targeted traffic for your business." />
+          <meta name="keywords" content="Paid Search Engine Inclusion Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/paid-inclusion-services-mumbai-india" />
+          <meta property="og:title" content="Paid Inclusion Services in Mumbai | Boost Online Visibility" />
+          <meta property="og:description" content="Maximize online visibility with Paid Inclusion services in Mumbai by SIB Infotech. Get faster search engine indexing and targeted traffic for your business." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/paid-inclusion-services-mumbai-india" />
+          <meta property="twitter:title" content="Paid Inclusion Services in Mumbai | Boost Online Visibility" />
+          <meta property="twitter:description" content="Maximize online visibility with Paid Inclusion services in Mumbai by SIB Infotech. Get faster search engine indexing and targeted traffic for your business." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

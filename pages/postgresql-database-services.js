@@ -6,22 +6,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PostGreSqlDatabaseServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>PostgreSQL Database Support Services in Mumbai, India</title>
+          <meta name="description" content="Optimize your data management with PostgreSQL database services by SIB Infotech. Get expert support for performance, security, and scalability to your needs." />
+          <meta name="keywords" content="Postgresql Database Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/postgresql-database-services" />
+          <meta property="og:title" content="PostgreSQL Database Support Services in Mumbai, India" />
+          <meta property="og:description" content="Optimize your data management with PostgreSQL database services by SIB Infotech. Get expert support for performance, security, and scalability to your needs." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/postgresql-database-services" />
+          <meta property="twitter:title" content="PostgreSQL Database Support Services in Mumbai, India" />
+          <meta property="twitter:description" content="Optimize your data management with PostgreSQL database services by SIB Infotech. Get expert support for performance, security, and scalability to your needs." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

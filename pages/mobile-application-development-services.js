@@ -7,22 +7,22 @@ import React from 'react';
 export default function MobileApp() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Mobile Application Development Services India | Custom Apps</title>
+          <meta name="description" content="Transform your ideas into reality with SIB Infotech, the best mobile application development company in India. Contact us for both iOS and Android mobile apps!" />
+          <meta name="keywords" content="Mobile Application Development Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/mobile-application-development-services" />
+          <meta property="og:title" content="Mobile Application Development Services India | Custom Apps" />
+          <meta property="og:description" content="Transform your ideas into reality with SIB Infotech, the best mobile application development company in India. Contact us for both iOS and Android mobile apps!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-application-development-services" />
+          <meta property="twitter:title" content="Mobile Application Development Services India | Custom Apps" />
+          <meta property="twitter:description" content="Transform your ideas into reality with SIB Infotech, the best mobile application development company in India. Contact us for both iOS and Android mobile apps!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

@@ -1,28 +1,27 @@
-import React from "react";
 
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function ContentMarketingServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Content Marketing Services Agency in India | SIB Infotech</title>
+      <meta name="description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
+      <meta name="keywords" content="Content Marketing Services, Content Marketing Agency, Content Marketing, Digital Content Marketing, Content Marketing Company, SEO Content Marketing, SEO Content Creation" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/content-marketing-services" />
+      <meta property="og:title" content="Content Marketing Services Agency in India | SIB Infotech" />
+      <meta property="og:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/content-marketing-services" />
+      <meta property="twitter:title" content="Content Marketing Services Agency in India | SIB Infotech" />
+      <meta property="twitter:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services
+" />
     </>
   );
   return (

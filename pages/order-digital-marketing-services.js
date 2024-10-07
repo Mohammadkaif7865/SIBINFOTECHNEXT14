@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function OrderDigitalMarketing() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Order Professional Digital Marketing Services | SIB Infotech</title>
+        <meta name="description" content="Order professional digital marketing services to enhance your online presence with SIB Infotech. Top strategies that drive results and boost your business!" />
+        <meta name="keywords" content="Order Digital Marketing Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/order-digital-marketing-services" />
+        <meta property="og:title" content="Order Professional Digital Marketing Services | SIB Infotech" />
+        <meta property="og:description" content="Order professional digital marketing services to enhance your online presence with SIB Infotech. Top strategies that drive results and boost your business!" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/order-digital-marketing-services" />
+        <meta property="twitter:title" content="Order Professional Digital Marketing Services | SIB Infotech" />
+        <meta property="twitter:description" content="Order professional digital marketing services to enhance your online presence with SIB Infotech. Top strategies that drive results and boost your business!" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

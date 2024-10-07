@@ -1,29 +1,26 @@
-import React from 'react';
 // import {Link} from 'react-router-dom';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function BootstrapDesigningServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Bootstrap Website Designing Services in Mumbai, India</title>
+        <meta name="description" content="Create responsive, mobile-friendly websites with Bootstrap designing services by  SIB Infotech. Enhance user experience and attract more visitors effortlessly." />
+        <meta name="keywords" content="Bootstrap Website Designing Services " />
        
-  
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/bootstrap-website-designing-services" />
+        <meta property="og:title" content="Bootstrap Website Designing Services in Mumbai, India" />
+        <meta property="og:description" content="Create responsive, mobile-friendly websites with Bootstrap designing services by  SIB Infotech. Enhance user experience and attract more visitors effortlessly." />
         <meta property="og:image" content="" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/bootstrap-website-designing-services" />
+        <meta property="twitter:title" content="Bootstrap Website Designing Services in Mumbai, India" />
+        <meta property="twitter:description" content="Create responsive, mobile-friendly websites with Bootstrap designing services by  SIB Infotech. Enhance user experience and attract more visitors effortlessly." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

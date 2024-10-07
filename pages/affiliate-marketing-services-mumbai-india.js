@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function AffiliateMarketingServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Affiliate Marketing Services Company in Mumbai, India</title>
+      <meta name="description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
+      <meta name="keywords" content="local internet marketing services,local internet marketing,internet marketing consultancy,Internet Marketing Consultant, search engine optimizer, Search Engine Optimization India, Outsource SEO, Internet Marketing Company India, Search Engine Optimization" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/affiliate-marketing-services-mumbai-india" />
+      <meta property="og:title" content="Affiliate Marketing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.comaffiliate-marketing-services-mumbai-india" />
+      <meta property="twitter:title" content="Affiliate Marketing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

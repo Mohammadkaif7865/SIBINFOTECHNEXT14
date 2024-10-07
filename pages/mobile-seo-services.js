@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function MobileSeoServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Top Mobile SEO Services Company in Mumbai, India</title>
+      <meta name="description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta name="keywords" content="Mobile SEO Services, Mobile SEO Services in India, Mobile SEO" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/mobile-seo-services" />
+      <meta property="og:title" content="Top Mobile SEO Services Company in Mumbai, India" />
+      <meta property="og:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-seo-services" />
+      <meta property="twitter:title" content="Top Mobile SEO Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

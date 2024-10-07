@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MultilingualSeoServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Multilingual SEO Services | Boost Your Global Visibility</title>
+          <meta name="description" content="Expand global reach with the best Multilingual SEO services from SIB Infotech. Enhance rankings, and traffic to improve conversions across multiple languages." />
+          <meta name="keywords" content="Multilingual Seo Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/multilingual-seo-services" />
+          <meta property="og:title" content="Multilingual SEO Services | Boost Your Global Visibility" />
+          <meta property="og:description" content="Expand global reach with the best Multilingual SEO services from SIB Infotech. Enhance rankings, and traffic to improve conversions across multiple languages." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/multilingual-seo-services" />
+          <meta property="twitter:title" content="Multilingual SEO Services | Boost Your Global Visibility" />
+          <meta property="twitter:description" content="Expand global reach with the best Multilingual SEO services from SIB Infotech. Enhance rankings, and traffic to improve conversions across multiple languages." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

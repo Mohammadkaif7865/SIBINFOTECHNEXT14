@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash ActionScript Services in Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
+      <meta name="keywords" content="flash action script development services india,flash action script development services bangalore,flash action script development services mumbai,flash action script development services delhi,flash action script development services ,chennai,flash action" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india" />
+      <meta property="og:title" content="Flash ActionScript Services in Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india" />
+      <meta property="twitter:title" content="Flash ActionScript Services in Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

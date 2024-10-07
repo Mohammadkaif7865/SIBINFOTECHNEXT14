@@ -1,28 +1,26 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function AjaxDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>AJAX Development Services in Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Boost your website speed with AJAX. SIB Infotech offers expert AJAX development services in Mumbai for dynamic, responsive, and user-friendly web applications." />
+      <meta name="keywords" content="ajax development services,ajax development service,offshore ajax development,ajax development companies,ajax development company,ajax development india,ajax development delhi,ajax development mumbai,ajax development chennai,ajax development bangalore,ajax" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" />
+      <meta property="og:title" content="AJAX Development Services in Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Boost your website speed with AJAX. SIB Infotech offers expert AJAX development services in Mumbai for dynamic, responsive, and user-friendly web applications." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="AJAX Development Services in Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Boost your website speed with AJAX. SIB Infotech offers expert AJAX development services in Mumbai for dynamic, responsive, and user-friendly web applications." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

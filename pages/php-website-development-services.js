@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PhpWebsiteDevelopmentServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>PHP Website Development Services Company in Mumbai, India</title>
+          <meta name="description" content="Transform your online presence with top PHP web development services in Mumbai by SIB Infotech. We build dynamic, scalable, and secure websites for your needs." />
+          <meta name="keywords" content="php web development services,php web development service,offshore php web development,php web development companies,php web development company,php web development india,php web development delhi,php web development mumbai,php web development chennai,php" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/php-website-development-services" />
+          <meta property="og:title" content="PHP Website Development Services Company in Mumbai, India" />
+          <meta property="og:description" content="Transform your online presence with top PHP web development services in Mumbai by SIB Infotech. We build dynamic, scalable, and secure websites for your needs." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/php-website-development-services" />
+          <meta property="twitter:title" content="PHP Website Development Services Company in Mumbai, India" />
+          <meta property="twitter:description" content="Transform your online presence with top PHP web development services in Mumbai by SIB Infotech. We build dynamic, scalable, and secure websites for your needs." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

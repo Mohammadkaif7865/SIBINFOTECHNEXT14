@@ -1,28 +1,27 @@
-import React from "react";
 
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function CustomWebsiteDesigningServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Custom Website Design Services India | Tailored Web Design</title>
+      <meta name="description" content="Stand out online with SIB Infotech, a custom website designing agency in India. We create bespoke, visually appealing websites tailored to your business needs." />
+      <meta name="keywords" content="Custom Web Designing" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/custom-website-designing-services" />
+      <meta property="og:title" content="Custom Website Design Services India | Tailored Web Design" />
+      <meta property="og:description" content="Stand out online with SIB Infotech, a custom website designing agency in India. We create bespoke, visually appealing websites tailored to your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/custom-website-designing-services" />
+      <meta property="twitter:title" content="Custom Website Design Services India | Tailored Web Design" />
+      <meta property="twitter:description" content="Stand out online with SIB Infotech, a custom website designing agency in India. We create bespoke, visually appealing websites tailored to your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services
+" />
     </>
   );
   return (

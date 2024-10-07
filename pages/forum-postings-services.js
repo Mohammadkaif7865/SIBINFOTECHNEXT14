@@ -7,21 +7,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function ForumPostingServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Forum Posting Services | Boost Engagement & Traffic</title>
+      <meta name="description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
+      <meta name="keywords" content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/forum-postings-services" />
+      <meta property="og:title" content="Forum Posting Services | Boost Engagement & Traffic" />
+      <meta property="og:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/forum-postings-services" />
+      <meta property="twitter:title" content="Forum Posting Services | Boost Engagement & Traffic" />
+      <meta property="twitter:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
+      <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

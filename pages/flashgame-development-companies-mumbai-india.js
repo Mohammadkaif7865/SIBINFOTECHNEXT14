@@ -6,21 +6,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function FlashGameDevelopmentCompanies() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Flash Game Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
+      <meta name="keywords" content="flash game development services india,flash game development services bangalore,flash game development services mumbai,flash game development services delhi,flash game development services ,chennai,flash game development services pune,flash game developme" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
+      <meta property="og:title" content="Flash Game Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="Flash Game Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

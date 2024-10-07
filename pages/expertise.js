@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function Expertise() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Expert Digital Solutions & Web Services | SIB Infotech</title>
+      <meta name="description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
+      <meta name="keywords" content="Our Expertise" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/expertise" />
+      <meta property="og:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
+      <meta property="og:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/expertise" />
+      <meta property="twitter:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
+      <meta property="twitter:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

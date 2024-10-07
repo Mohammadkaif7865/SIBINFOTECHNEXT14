@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function Dba2DbaServicesAdministration() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>DB2 DBA Services & Administration in India | SIB Infotech</title>
+      <meta name="description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
+      <meta name="keywords" content="DB2 DBA Services and Administration" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/db2-dba-services-administration" />
+      <meta property="og:title" content="DB2 DBA Services & Administration in India | SIB Infotech" />
+      <meta property="og:description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/db2-dba-services-administration" />
+      <meta property="twitter:title" content="DB2 DBA Services & Administration in India | SIB Infotech" />
+      <meta property="twitter:description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

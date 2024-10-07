@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function LinkBuildingServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Link Building Services Company Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta name="keywords" content="link building service,link building services,manual link building,seo link building,manual link building service,link building india,link building delhi,link building mumbai,link building chennai,link building bangalore,link building pune,link building hy" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/link-building-services" />
+      <meta property="og:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/link-building-services" />
+      <meta property="twitter:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

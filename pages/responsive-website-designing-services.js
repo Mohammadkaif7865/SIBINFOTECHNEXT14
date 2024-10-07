@@ -1,29 +1,28 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 
 export default function ResponsiveWebsiteDesigningServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Responsive Website Designing Services in Mumbai, India</title>
+          <meta name="description" content="Get mobile-friendly, responsive website designs from SIB Infotech. Enhance user experience with seamless, scalable websites across all devices and platforms." />
+          <meta name="keywords" content="Responsive Website Designing Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/responsive-website-designing-services" />
+          <meta property="og:title" content="Responsive Website Designing Services in Mumbai, India" />
+          <meta property="og:description" content="Get mobile-friendly, responsive website designs from SIB Infotech. Enhance user experience with seamless, scalable websites across all devices and platforms." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/responsive-website-designing-services" />
+          <meta property="twitter:title" content="Responsive Website Designing Services in Mumbai, India" />
+          <meta property="twitter:description" content="Get mobile-friendly, responsive website designs from SIB Infotech. Enhance user experience with seamless, scalable websites across all devices and platforms." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services
+" />
         </>
       );
       return (

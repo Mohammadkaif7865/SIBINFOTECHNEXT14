@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function OnlineReputationRepairServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Online Reputation Repair Services Agency in Mumbai, India</title>
+      <meta name="description" content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs." />
+      <meta name="keywords" content="Online Reputation Management Services India, ORM Services, Online Reputation Management Company, best online reputation management company, delete negative links from internet, delete negative links, remove negative links from google search, delete bad l" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/online-reputation-repair-service" />
+      <meta property="og:title" content="Online Reputation Repair Services Agency in Mumbai, India" />
+      <meta property="og:description" content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/online-reputation-repair-service" />
+      <meta property="twitter:title" content="Online Reputation Repair Services Agency in Mumbai, India" />
+      <meta property="twitter:description" content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

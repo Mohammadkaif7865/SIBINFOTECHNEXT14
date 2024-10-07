@@ -5,22 +5,23 @@ import BannerForm from '../comps/BannerForm';
 export default function SocialMediaOptimizationServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Social Media Optimization Services Company in Mumbai, India</title>
+          <meta name="description" content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!" />
+          <meta name="keywords" content="Social Media Optimization Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/social-media-optimization-services" />
+          <meta property="og:title" content="Social Media Optimization Services Company in Mumbai, India" />
+          <meta property="og:description" content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/social-media-optimization-services" />
+          <meta property="twitter:title" content="Social Media Optimization Services Company in Mumbai, India" />
+          <meta property="twitter:description" content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services
+" />
         </>
       );
       return (

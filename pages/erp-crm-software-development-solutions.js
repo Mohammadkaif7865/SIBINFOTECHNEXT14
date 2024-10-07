@@ -8,21 +8,21 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function ErpCrmSoftwareDevelopmentSolution() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Best ERP & CRM Software Development Solutions Services India</title>
+      <meta name="description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
+      <meta name="keywords" content="crm solutions,crm solutions india,crm solution provider,crm solution provider india,crm solution provider delhi,crm solution provider mumbai,crm solution provider dehi,crm solutions india,crm solutions mumbai,crm solutions delhi,crm solutions pune,crm sol" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
+      <meta property="og:title" content="Best ERP & CRM Software Development Solutions Services India" />
+      <meta property="og:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
+      <meta property="twitter:title" content="Best ERP & CRM Software Development Solutions Services India" />
+      <meta property="twitter:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

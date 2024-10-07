@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PinterestMarketing() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Pinterest Marketing Services Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Enhance your brand visibility with creative Pinterest marketing services in Mumbai by SIB Infotech. Drive follower engagements through strategic campaigns." />
+        <meta name="keywords" content="Pinterest Marketing" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/pinterest-marketing" />
+        <meta property="og:title" content="Pinterest Marketing Services Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Enhance your brand visibility with creative Pinterest marketing services in Mumbai by SIB Infotech. Drive follower engagements through strategic campaigns." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/pinterest-marketing" />
+        <meta property="twitter:title" content="Pinterest Marketing Services Mumbai, India | SIB Infotech" />
+        <meta property="twitter:description" content="Enhance your brand visibility with creative Pinterest marketing services in Mumbai by SIB Infotech. Drive follower engagements through strategic campaigns." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

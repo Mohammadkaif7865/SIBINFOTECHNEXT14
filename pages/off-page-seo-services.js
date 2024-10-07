@@ -7,22 +7,24 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function OffPageSeoServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Best Local SEO Company India | Local SEO Services in Mumbai</title>
+          <meta name="description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
+          <meta name="keywords" content="Off Page SEO, Off-Site Optimization Services, Off Page Optimization, Off Page SEO Optimization, Off Page SEO Analysis, spam free back links, quality backlinks, build backlinks" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/off-page-seo-services" />
+          <meta property="og:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
+          <meta property="og:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services
+" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/off-page-seo-services" />
+          <meta property="twitter:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
+          <meta property="twitter:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services
+" />
         </>
       );
       return (

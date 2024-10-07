@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function MangoDbDatabaseSupportAdministration() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>MongoDB Database Support & Administration | SIB Infotech</title>
+        <meta name="description" content="Ensure optimal performance with MongoDB support and administration services by SIB Infotech. Get expert solutions for database management and maintenance." />
+        <meta name="keywords" content="Mongodb Database Support & Administration" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/mongodb-database-support-administration" />
+        <meta property="og:title" content="MongoDB Database Support & Administration | SIB Infotech" />
+        <meta property="og:description" content="Ensure optimal performance with MongoDB support and administration services by SIB Infotech. Get expert solutions for database management and maintenance." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/mongodb-database-support-administration" />
+        <meta property="twitter:title" content="MongoDB Database Support & Administration | SIB Infotech" />
+        <meta property="twitter:description" content="Ensure optimal performance with MongoDB support and administration services by SIB Infotech. Get expert solutions for database management and maintenance." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (
