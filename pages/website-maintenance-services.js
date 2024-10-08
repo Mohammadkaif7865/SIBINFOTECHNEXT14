@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WebsiteMaintenanceServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Website Maintenance Services in Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Ensure your website runs smoothly with expert website maintenance services in Mumbai from SIB Infotech. Regular updates, security, and performance optimization." />
+          <meta name="keywords" content="Website Maintenance Services" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/website-maintenance-services" />
+          <meta property="og:title" content="Website Maintenance Services in Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Ensure your website runs smoothly with expert website maintenance services in Mumbai from SIB Infotech. Regular updates, security, and performance optimization." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/website-maintenance-services" />
+          <meta property="twitter:title" content="Website Maintenance Services in Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Ensure your website runs smoothly with expert website maintenance services in Mumbai from SIB Infotech. Regular updates, security, and performance optimization." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SocialNetworkingDevelopmentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Social Networking Website Development Services Mumbai, India</title>
+        <meta name="description" content="SIB Infotech offers engaging, user-friendly, and scalable social networking website development services in Mumbai, India to connect communities effectively." />
+        <meta name="keywords" content="social networking website developer india,social networking website developer mumbai,social networking website developer delhi,social networking website developer pune,social networking website developer hyderabad,social networking website developer banga" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/social-networking-website-development-services" />
+        <meta property="og:title" content="Social Networking Website Development Services Mumbai, India" />
+        <meta property="og:description" content="SIB Infotech offers engaging, user-friendly, and scalable social networking website development services in Mumbai, India to connect communities effectively." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/social-networking-website-development-services" />
+        <meta property="twitter:title" content="Social Networking Website Development Services Mumbai, India" />
+        <meta property="twitter:description" content="SIB Infotech offers engaging, user-friendly, and scalable social networking website development services in Mumbai, India to connect communities effectively." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

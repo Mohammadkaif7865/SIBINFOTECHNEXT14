@@ -8,22 +8,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function ProfessionalWebsiteDesigningServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Professional Website Designing Services in Mumbai, India</title>
+          <meta name="description" content="Get custom, responsive, and SEO-friendly websites from SIB Infotech. Boost your online presence with a professional website design company in Mumbai, India." />
+          <meta name="keywords" content="professional web designing,professional website designing,professional web designing services,professional website designing services,professional web designing companies,professional website designing companies,professional web designing india,profession" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/professional-website-designing-services" />
+          <meta property="og:title" content="Professional Website Designing Services in Mumbai, India" />
+          <meta property="og:description" content="Get custom, responsive, and SEO-friendly websites from SIB Infotech. Boost your online presence with a professional website design company in Mumbai, India." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/professional-website-designing-services" />
+          <meta property="twitter:title" content="Professional Website Designing Services in Mumbai, India" />
+          <meta property="twitter:description" content="Get custom, responsive, and SEO-friendly websites from SIB Infotech. Boost your online presence with a professional website design company in Mumbai, India." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

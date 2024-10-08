@@ -5,22 +5,23 @@ import BannerForm from '../comps/BannerForm';
 export default function WebPortalCompanyMumbai() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Web Portal Development Company Mumbai, India | SIB Infotech</title>
+          <meta name="description" content="Build custom web portals in Mumbai with SIB Infotech. Professional portal development services for B2B, B2C, and enterprise solutions tailored to your needs." />
+          <meta name="keywords" content="
+web portal development services,web portal development service,offshore web portal development,web portal development companies,web portal development company,web portal development india,web portal development delhi,web portal development mumbai,web port" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/webportal-development-companies-mumbai-india" />
+          <meta property="og:title" content="Web Portal Development Company Mumbai, India | SIB Infotech" />
+          <meta property="og:description" content="Build custom web portals in Mumbai with SIB Infotech. Professional portal development services for B2B, B2C, and enterprise solutions tailored to your needs." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/webportal-development-companies-mumbai-india" />
+          <meta property="twitter:title" content="Web Portal Development Company Mumbai, India | SIB Infotech" />
+          <meta property="twitter:description" content="Build custom web portals in Mumbai with SIB Infotech. Professional portal development services for B2B, B2C, and enterprise solutions tailored to your needs." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

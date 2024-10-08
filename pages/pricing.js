@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function Pricing() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Affordable SEO Marketing Pricing Packages | SIB Infotech</title>
+          <meta name="description" content="Explore competitive pricing for SEO marketing services in Mumbai, India. SIB Infotech offers affordable pricing packages to fit your business needs." />
+          <meta name="keywords" content="Digital Marketing Pricing Packages" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/pricing" />
+          <meta property="og:title" content="Affordable SEO Marketing Pricing Packages | SIB Infotech" />
+          <meta property="og:description" content="Explore competitive pricing for SEO marketing services in Mumbai, India. SIB Infotech offers affordable pricing packages to fit your business needs." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/pricing" />
+          <meta property="twitter:title" content="Affordable SEO Marketing Pricing Packages | SIB Infotech" />
+          <meta property="twitter:description" content="Explore competitive pricing for SEO marketing services in Mumbai, India. SIB Infotech offers affordable pricing packages to fit your business needs." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

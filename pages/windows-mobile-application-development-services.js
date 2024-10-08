@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WindosMobileApplicationDevelopementServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Windows Mobile Application Development Services Mumbai, India</title>
+      <meta name="description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
+      <meta name="keywords" content="windows mobile application development services,windows mobile application development service,offshore windows mobile application development,windows mobile application development companies,windows mobile application development company,windows mobile a" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/windows-mobile-application-development-services" />
+      <meta property="og:title" content="Windows Mobile Application Development Services Mumbai, India" />
+      <meta property="og:description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/windows-mobile-application-development-services" />
+      <meta property="twitter:title" content="Windows Mobile Application Development Services Mumbai, India" />
+      <meta property="twitter:description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

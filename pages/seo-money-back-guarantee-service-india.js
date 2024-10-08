@@ -6,22 +6,22 @@ import Link from 'next/link';
 export default function SeoMoneyBackGuranteerServicesIndia() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>SEO Services with Money Back Guarantee | Results Guaranteed</title>
+          <meta name="description" content="Get risk-free SEO services with a money-back guarantee. Boost your website’s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
+          <meta name="keywords" content="hire dedicated seo,hire dedicated seo expert,hire dedicated seo professional,hire dedicated seo professionals,hire seo expert,hire seo professional,hire seo experts,seo link building,seo company delhi,seo company mumbai,seo company chennai,seo company hyd" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/seo-money-back-guarantee-service-india" />
+          <meta property="og:title" content="SEO Services with Money Back Guarantee | Results Guaranteed" />
+          <meta property="og:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website’s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/seo-money-back-guarantee-service-india" />
+          <meta property="twitter:title" content="SEO Services with Money Back Guarantee | Results Guaranteed" />
+          <meta property="twitter:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website’s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

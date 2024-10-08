@@ -4,22 +4,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SocialBookmarkingServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Social Bookmarking Services | Boost Online Visibility</title>
+        <meta name="description" content="Enhance your online presence with social bookmarking services by SIB Infotech. Drive traffic and improve SEO through strategic bookmarking on top platforms." />
+        <meta name="keywords" content="social bookmarking service,social bookmarking services,seo social bookmarking,social bookmarking india,social bookmarking delhi,social bookmarking mumbai,social bookmarking chennai,social bookmarking bangalore,social bookmarking pune,social bookmarking hy" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/social-bookmarking-services" />
+        <meta property="og:title" content="Social Bookmarking Services | Boost Online Visibility" />
+        <meta property="og:description" content="Enhance your online presence with social bookmarking services by SIB Infotech. Drive traffic and improve SEO through strategic bookmarking on top platforms." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/social-bookmarking-services" />
+        <meta property="twitter:title" content="Social Bookmarking Services | Boost Online Visibility" />
+        <meta property="twitter:description" content="Enhance your online presence with social bookmarking services by SIB Infotech. Drive traffic and improve SEO through strategic bookmarking on top platforms." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

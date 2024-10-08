@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WebsiteRedevelopmentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Website Redevelopment Services | Modern SEO-Friendly Sites</title>
+        <meta name="description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
+        <meta property="og:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
+        <meta property="og:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
+        <meta property="twitter:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
+        <meta property="twitter:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

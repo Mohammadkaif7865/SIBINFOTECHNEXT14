@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function RichInternetApplicationServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Rich Internet Applications Development in Mumbai,  India</title>
+          <meta name="description" content="Discover innovative rich internet application development services in Mumbai, India by SIB Infotech. Enhance user engagement with our cutting-edge solutions!" />
+          <meta name="keywords" content="rich internet applications development services india,rich internet applications development services bangalore,rich internet applications development services mumbai,rich internet applications development services delhi,rich internet applications develop" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/rich-internet-applications-mumbai-india" />
+          <meta property="og:title" content="Rich Internet Applications Development in Mumbai,  India" />
+          <meta property="og:description" content="Discover innovative rich internet application development services in Mumbai, India by SIB Infotech. Enhance user engagement with our cutting-edge solutions!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/rich-internet-applications-mumbai-india" />
+          <meta property="twitter:title" content="Rich Internet Applications Development in Mumbai,  India" />
+          <meta property="twitter:description" content="Discover innovative rich internet application development services in Mumbai, India by SIB Infotech. Enhance user engagement with our cutting-edge solutions!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

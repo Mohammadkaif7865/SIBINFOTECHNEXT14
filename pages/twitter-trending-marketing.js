@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function TwitterTrendingMarketing() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Twitter Trending Marketing Services Company Mumbai, India</title>
+        <meta name="description" content="Elevate your brand with Twitter trending marketing services from SIB Infotech. Engage your audience and boost visibility with expert strategies for success." />
+        <meta name="keywords" content="Twitter Trending Marketing" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/twitter-trending-marketing" />
+        <meta property="og:title" content="Twitter Trending Marketing Services Company Mumbai, India" />
+        <meta property="og:description" content="Elevate your brand with Twitter trending marketing services from SIB Infotech. Engage your audience and boost visibility with expert strategies for success." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/twitter-trending-marketing" />
+        <meta property="twitter:title" content="Twitter Trending Marketing Services Company Mumbai, India" />
+        <meta property="twitter:description" content="Elevate your brand with Twitter trending marketing services from SIB Infotech. Engage your audience and boost visibility with expert strategies for success." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

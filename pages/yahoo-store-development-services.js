@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function YahooStoreDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Yahoo Store Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Boost your eCommerce business with custom Yahoo Store development services in India by SIB Infotech. Create a user-friendly, secure, and scalable Yahoo store." />
+      <meta name="keywords" content="yahoo store development services,yahoo store development service,offshore yahoo store development,yahoo store development companies,yahoo store development company,yahoo store development india,yahoo store development delhi,yahoo store development mumbai," />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/yahoo-store-development-services" />
+      <meta property="og:title" content="Yahoo Store Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Boost your eCommerce business with custom Yahoo Store development services in India by SIB Infotech. Create a user-friendly, secure, and scalable Yahoo store." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/yahoo-store-development-services" />
+      <meta property="twitter:title" content="Yahoo Store Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Boost your eCommerce business with custom Yahoo Store development services in India by SIB Infotech. Create a user-friendly, secure, and scalable Yahoo store." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

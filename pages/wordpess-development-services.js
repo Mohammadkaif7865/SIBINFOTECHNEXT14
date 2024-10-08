@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WordpressDevelopmentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>WordPress Development Services | Custom Website Solutions</title>
+        <meta name="description" content="Expert WordPress development services to build custom, responsive websites. SIB Infotech delivers tailored solutions for businesses of all sizes. Contact today!" />
+        <meta name="keywords" content="Wordpress Development Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/wordpess-development-services" />
+        <meta property="og:title" content="WordPress Development Services | Custom Website Solutions" />
+        <meta property="og:description" content="Expert WordPress development services to build custom, responsive websites. SIB Infotech delivers tailored solutions for businesses of all sizes. Contact today!" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/wordpess-development-services" />
+        <meta property="twitter:title" content="WordPress Development Services | Custom Website Solutions" />
+        <meta property="twitter:description" content="Expert WordPress development services to build custom, responsive websites. SIB Infotech delivers tailored solutions for businesses of all sizes. Contact today!" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

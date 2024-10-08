@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function RealEstateWebsiteDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Real Estate Website Development Services in Mumbai, India</title>
+      <meta name="description" content="Build a stunning real estate website with expert development services in Mumbai by SIB Infotech. Attract more buyers and showcase your properties effectively." />
+      <meta name="keywords" content="real estate website developer india,real estate website developer mumbai,real estate website developer delhi,real estate website developer pune,real estate website developer hyderabad,real estate website developer bangalore,real estate website developer c" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/real-estate-website-development-services" />
+      <meta property="og:title" content="Real Estate Website Development Services in Mumbai, India" />
+      <meta property="og:description" content="Build a stunning real estate website with expert development services in Mumbai by SIB Infotech. Attract more buyers and showcase your properties effectively." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/real-estate-website-development-services" />
+      <meta property="twitter:title" content="Real Estate Website Development Services in Mumbai, India" />
+      <meta property="twitter:description" content="Build a stunning real estate website with expert development services in Mumbai by SIB Infotech. Attract more buyers and showcase your properties effectively." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

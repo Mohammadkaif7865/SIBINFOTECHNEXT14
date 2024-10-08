@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PpcManagementServicesPackages() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Result-Driven PPC Management Services Packages | SIB Infotech</title>
+        <meta name="description" content="Maximize ROI with top PPC management services by SIB Infotech. Explore customized, result-driven PPC packages to boost traffic and grow your business online." />
+        <meta name="keywords" content="PPC Package" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/ppc-management-services-packages" />
+        <meta property="og:title" content="Result-Driven PPC Management Services Packages | SIB Infotech" />
+        <meta property="og:description" content="Maximize ROI with top PPC management services by SIB Infotech. Explore customized, result-driven PPC packages to boost traffic and grow your business online." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/ppc-management-services-packages" />
+        <meta property="twitter:title" content="Result-Driven PPC Management Services Packages | SIB Infotech" />
+        <meta property="twitter:description" content="Maximize ROI with top PPC management services by SIB Infotech. Explore customized, result-driven PPC packages to boost traffic and grow your business online." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

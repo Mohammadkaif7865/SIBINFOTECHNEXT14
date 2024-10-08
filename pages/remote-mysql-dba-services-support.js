@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function RemoteMysqlDbaSupportServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Remote MySQL DBA Services & Support | SIB Infotech</title>
+          <meta name="description" content="Ensure optimal performance with remote MySQL DBA services in India by SIB Infotech. Expert support for database management, security, and performance tuning." />
+          <meta name="keywords" content="Remote MYSQL DBA Services and Support" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/remote-mysql-dba-services-support" />
+          <meta property="og:title" content="Remote MySQL DBA Services & Support | SIB Infotech" />
+          <meta property="og:description" content="Ensure optimal performance with remote MySQL DBA services in India by SIB Infotech. Expert support for database management, security, and performance tuning." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/remote-mysql-dba-services-support" />
+          <meta property="twitter:title" content="Remote MySQL DBA Services & Support | SIB Infotech" />
+          <meta property="twitter:description" content="Ensure optimal performance with remote MySQL DBA services in India by SIB Infotech. Expert support for database management, security, and performance tuning." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

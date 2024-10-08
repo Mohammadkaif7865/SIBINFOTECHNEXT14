@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function TravelApiIntegrationServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Seamless Travel API Integration Services for Your Business</title>
+        <meta name="description" content="Boost your travel business with fast, reliable Travel API Integration services in India by SIB Infotech. Enhance bookings and customer experience effortlessly." />
+        <meta name="keywords" content="Travel API Integration Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/travel-api-integration-services" />
+        <meta property="og:title" content="Seamless Travel API Integration Services for Your Business" />
+        <meta property="og:description" content="Boost your travel business with fast, reliable Travel API Integration services in India by SIB Infotech. Enhance bookings and customer experience effortlessly." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/travel-api-integration-services" />
+        <meta property="twitter:title" content="Seamless Travel API Integration Services for Your Business" />
+        <meta property="twitter:description" content="Boost your travel business with fast, reliable Travel API Integration services in India by SIB Infotech. Enhance bookings and customer experience effortlessly." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

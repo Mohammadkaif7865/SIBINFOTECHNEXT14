@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function ShopifyDevelopementServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Shopify Development Services in Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Launch your online store with expert Shopify development in Mumbai. SIB Infotech offers custom solutions to enhance user experience and drive sales effectively." />
+        <meta name="keywords" content="Shopify Development" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/shopify-development-services" />
+        <meta property="og:title" content="Shopify Development Services in Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Launch your online store with expert Shopify development in Mumbai. SIB Infotech offers custom solutions to enhance user experience and drive sales effectively." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/shopify-development-services" />
+        <meta property="twitter:title" content="Shopify Development Services in Mumbai, India | SIB Infotech" />
+        <meta property="twitter:description" content="Launch your online store with expert Shopify development in Mumbai. SIB Infotech offers custom solutions to enhance user experience and drive sales effectively." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

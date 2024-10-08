@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WhatsappMarketing() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>WhatsApp Marketing Services in Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns." />
+        <meta name="keywords" content="Whatsapp Marketing" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
+        <meta property="og:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
+        <meta property="twitter:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
+        <meta property="twitter:descriptioElevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns.n" content="" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

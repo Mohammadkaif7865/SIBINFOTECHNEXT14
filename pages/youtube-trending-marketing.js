@@ -5,22 +5,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function YoutubeTrendingMarketing() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>YouTube Trending Marketing Services | Boost Video Visibility</title>
+          <meta name="description" content="Leverage YouTube trending marketing services to increase video views and engagement. SIB Infotech helps your content go viral. Boost your brand visibility now!" />
+          <meta name="keywords" content="Youtube Trending Marketing" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/youtube-trending-marketing" />
+          <meta property="og:title" content="YouTube Trending Marketing Services | Boost Video Visibility" />
+          <meta property="og:description" content="Leverage YouTube trending marketing services to increase video views and engagement. SIB Infotech helps your content go viral. Boost your brand visibility now!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/youtube-trending-marketing" />
+          <meta property="twitter:title" content="YouTube Trending Marketing Services | Boost Video Visibility" />
+          <meta property="twitter:description" content="Leverage YouTube trending marketing services to increase video views and engagement. SIB Infotech helps your content go viral. Boost your brand visibility now!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

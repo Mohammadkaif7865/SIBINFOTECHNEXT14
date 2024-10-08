@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SmsMarketingServciesCompaniesMumbaiIndia() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>SMS Marketing Services Company Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Reach your audience instantly with SMS marketing services in Mumbai by SIB Infotech. Increase engagement and conversions with targeted SMS campaigns in India." />
+        <meta name="keywords" content="sms marketing solutions,sms marketing solution,sms marketing experts,sms marketing expert,sms marketing seo services,sms marketing firms,sms marketing services,sms marketing companies,sms marketing india,sms marketing delhi,sms marketing mumbai,sms market" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/sms-marketing-services-companies-mumbai-india" />
+        <meta property="og:title" content="SMS Marketing Services Company Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Reach your audience instantly with SMS marketing services in Mumbai by SIB Infotech. Increase engagement and conversions with targeted SMS campaigns in India." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/sms-marketing-services-companies-mumbai-india" />
+        <meta property="twitter:title" content="SMS Marketing Services Company Mumbai, India | SIB Infotech" />
+        <meta property="twitter:description" content="Reach your audience instantly with SMS marketing services in Mumbai by SIB Infotech. Increase engagement and conversions with targeted SMS campaigns in India." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

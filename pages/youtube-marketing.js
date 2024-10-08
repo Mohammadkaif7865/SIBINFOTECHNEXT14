@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function YoutubeMarketing() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>YouTube Marketing Services Company Mumbai | SIB Infotech</title>
+        <meta name="description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
+        <meta name="keywords" content="Youtube Marketing" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/youtube-marketing" />
+        <meta property="og:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
+        <meta property="og:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/youtube-marketing" />
+        <meta property="twitter:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
+        <meta property="twitter:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

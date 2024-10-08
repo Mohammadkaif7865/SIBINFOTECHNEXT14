@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SeoMethologyMumbaiIndia() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Proven SEO Methodology in Mumbai | Effective SEO Solutions</title>
+          <meta name="description" content="Discover the proven SEO methodology in Mumbai. Improve ranking, drive organic traffic, and grow your online presence with expert SEO strategies by SIB Infotech." />
+          <meta name="keywords" content="seo methodology,methodology for conducting seo,seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,affordable seo services,seo services provide" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/seo-methodology-mumbai-india" />
+          <meta property="og:title" content="Proven SEO Methodology in Mumbai | Effective SEO Solutions" />
+          <meta property="og:description" content="Discover the proven SEO methodology in Mumbai. Improve ranking, drive organic traffic, and grow your online presence with expert SEO strategies by SIB Infotech." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/seo-methodology-mumbai-india" />
+          <meta property="twitter:title" content="Proven SEO Methodology in Mumbai | Effective SEO Solutions" />
+          <meta property="twitter:description" content="Discover the proven SEO methodology in Mumbai. Improve ranking, drive organic traffic, and grow your online presence with expert SEO strategies by SIB Infotech." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

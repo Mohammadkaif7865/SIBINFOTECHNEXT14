@@ -1,28 +1,26 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
-import { CustomLayout } from '@/comps/CustomLayout';
 
 export default function PrivacyPolicy() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Privacy Policy | User Data Protection | SIB Infotech</title>
+          <meta name="description" content="Read the Privacy Policy of SIB Infotech. Learn how we protect your data, ensure your data security, and maintain transparency in our digital services." />
+          <meta name="keywords" content="Privacy Policy" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/privacy-policy" />
+          <meta property="og:title" content="Privacy Policy | User Data Protection | SIB Infotech" />
+          <meta property="og:description" content="Read the Privacy Policy of SIB Infotech. Learn how we protect your data, ensure your data security, and maintain transparency in our digital services." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/privacy-policy" />
+          <meta property="twitter:title" content="Privacy Policy | User Data Protection | SIB Infotech" />
+          <meta property="twitter:description" content="Read the Privacy Policy of SIB Infotech. Learn how we protect your data, ensure your data security, and maintain transparency in our digital services." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

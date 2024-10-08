@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function PsdHtmlConversionServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>PSD to HTML Conversion Services | Responsive Pixel-Perfect</title>
+          <meta name="description" content="Convert your PSD designs to responsive HTML with SIB Infotech. Get pixel-perfect, SEO-friendly code that ensures optimal performance across all devices." />
+          <meta name="keywords" content="Keywords psd to html conversion, psd to html service, psd to html conversion service, psd to html/css conversion, convert psd to html, psd to html responsive, psd to html, psd to html services, convert psd to html css, psd to wordpress, psd to magento, ps" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/psd-to-html-conversion-services" />
+          <meta property="og:title" content="PSD to HTML Conversion Services | Responsive Pixel-Perfect" />
+          <meta property="og:description" content="Convert your PSD designs to responsive HTML with SIB Infotech. Get pixel-perfect, SEO-friendly code that ensures optimal performance across all devices." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/psd-to-html-conversion-services" />
+          <meta property="twitter:title" content="PSD to HTML Conversion Services | Responsive Pixel-Perfect" />
+          <meta property="twitter:description" content="Convert your PSD designs to responsive HTML with SIB Infotech. Get pixel-perfect, SEO-friendly code that ensures optimal performance across all devices." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

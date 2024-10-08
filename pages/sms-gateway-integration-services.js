@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SmsGatewayIntigrationServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Effortless SMS Gateway Integration Services | SIB Infotech</title>
+        <meta name="description" content="Get fast, reliable SMS gateway integration services in Mumbai to enhance communication with your audience. SIB Infotech ensures seamless API integration." />
+        <meta name="keywords" content="SMS Gateway Integration Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/sms-gateway-integration-services" />
+        <meta property="og:title" content="Effortless SMS Gateway Integration Services | SIB Infotech" />
+        <meta property="og:description" content="Get fast, reliable SMS gateway integration services in Mumbai to enhance communication with your audience. SIB Infotech ensures seamless API integration." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/sms-gateway-integration-services" />
+        <meta property="twitter:title" content="Effortless SMS Gateway Integration Services | SIB Infotech" />
+        <meta property="twitter:description" content="Get fast, reliable SMS gateway integration services in Mumbai to enhance communication with your audience. SIB Infotech ensures seamless API integration." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

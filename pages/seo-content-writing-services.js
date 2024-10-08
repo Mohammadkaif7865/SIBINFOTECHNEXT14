@@ -5,22 +5,22 @@ import Link from 'next/link';
 export default function SeoContentWritingServices() {
     const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>SEO Content Writing Services India | Boost Website Traffic</title>
+          <meta name="description" content="Enhance online visibility with expert SEO content writing services in India. Improve search rankings, engage readers, and drive more traffic to your website." />
+          <meta name="keywords" content="seo content writing service,seo content writing services,manual seo content writing,manual seo content writing service,seo content writing india,seo content writing delhi,seo content writing mumbai,seo content writing chennai,seo content writing bangalore" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/seo-content-writing-services" />
+          <meta property="og:title" content="SEO Content Writing Services India | Boost Website Traffic" />
+          <meta property="og:description" content="Enhance online visibility with expert SEO content writing services in India. Improve search rankings, engage readers, and drive more traffic to your website." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/seo-content-writing-services" />
+          <meta property="twitter:title" content="SEO Content Writing Services India | Boost Website Traffic" />
+          <meta property="twitter:description" content="Enhance online visibility with expert SEO content writing services in India. Improve search rankings, engage readers, and drive more traffic to your website." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
         </>
       );
       return (

@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function W3cStandardsIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>W3C Standards Web Designing Services in Mumbai, India</title>
+      <meta name="description" content="Ensure your website meets W3C standards with expert web designing services in India by SIB Infotech. Boost accessibility and performance. Get started today!" />
+      <meta name="keywords" content="web design company india,web designers india,indian web designers,web development india,web design services,seo company india,seo services india,web designing services india,seo india,website design company,website designers india,website design services" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/w3c-standards-india" />
+      <meta property="og:title" content="W3C Standards Web Designing Services in Mumbai, India" />
+      <meta property="og:description" content="Ensure your website meets W3C standards with expert web designing services in India by SIB Infotech. Boost accessibility and performance. Get started today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/w3c-standards-india" />
+      <meta property="twitter:title" content="W3C Standards Web Designing Services in Mumbai, India" />
+      <meta property="twitter:description" content="Ensure your website meets W3C standards with expert web designing services in India by SIB Infotech. Boost accessibility and performance. Get started today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

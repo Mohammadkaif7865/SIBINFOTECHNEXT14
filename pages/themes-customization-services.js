@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function ThemeCustomizationServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Themes Customization Services | Tailored Website Designs</title>
+        <meta name="description" content="Get professional theme customization services in Mumbai to enhance your website design. SIB Infotech delivers unique, responsive, and user-friendly solutions." />
+        <meta name="keywords" content="Themes Customization" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/themes-customization-services" />
+        <meta property="og:title" content="Themes Customization Services | Tailored Website Designs" />
+        <meta property="og:description" content="Get professional theme customization services in Mumbai to enhance your website design. SIB Infotech delivers unique, responsive, and user-friendly solutions." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/themes-customization-services" />
+        <meta property="twitter:title" content="Themes Customization Services | Tailored Website Designs" />
+        <meta property="twitter:description" content="Get professional theme customization services in Mumbai to enhance your website design. SIB Infotech delivers unique, responsive, and user-friendly solutions." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

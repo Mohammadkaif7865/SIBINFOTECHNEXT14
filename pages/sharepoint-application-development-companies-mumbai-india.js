@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SharepointsDevelopmentCompanyMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>SharePoint Application Development Services Mumbai, India</title>
+      <meta name="description" content="Transform your business with SharePoint application development services in Mumbai by SIB Infotech. Custom solutions to enhance collaboration and efficiency." />
+      <meta name="keywords" content="sharepoint application development services,sharepoint application development service,offshore sharepoint application development,sharepoint application development companies,sharepoint application development company,sharepoint application development i" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/sharepoint-application-development-companies-mumbai-india" />
+      <meta property="og:title" content="SharePoint Application Development Services Mumbai, India" />
+      <meta property="og:description" content="Transform your business with SharePoint application development services in Mumbai by SIB Infotech. Custom solutions to enhance collaboration and efficiency." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/sharepoint-application-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="SharePoint Application Development Services Mumbai, India" />
+      <meta property="twitter:description" content="Transform your business with SharePoint application development services in Mumbai by SIB Infotech. Custom solutions to enhance collaboration and efficiency." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

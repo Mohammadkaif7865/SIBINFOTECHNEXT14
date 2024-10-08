@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WebsiteDesignTechnologyProvideMumbai() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Website Design Technology Providers in Mumbai, Delhi, India</title>
+      <meta name="description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta name="keywords" content="web design company, website development company, web site design, web development, web site development professional, affordable web pages designing, custom ecommerce, flash, internet corportate small business, php website, seo solutions, seo company indi" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
+      <meta property="og:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
+      <meta property="og:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
+      <meta property="twitter:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
+      <meta property="twitter:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

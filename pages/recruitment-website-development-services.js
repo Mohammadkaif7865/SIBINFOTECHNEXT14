@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function RecruitmentWebsiteDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Recruitment Website Development Services | SIB Infotech</title>
+      <meta name="description" content="Get custom recruitment websites with advanced features. SIB Infotech designs responsive, SEO-friendly platforms to streamline hiring and job postings." />
+      <meta name="keywords" content="recruitment website developer india,recruitment website developer mumbai,recruitment website developer delhi,recruitment website developer pune,recruitment website developer hyderabad,recruitment website developer bangalore,recruitment website developer c" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/recruitment-website-development-services" />
+      <meta property="og:title" content="Recruitment Website Development Services | SIB Infotech" />
+      <meta property="og:description" content="Get custom recruitment websites with advanced features. SIB Infotech designs responsive, SEO-friendly platforms to streamline hiring and job postings." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/recruitment-website-development-services" />
+      <meta property="twitter:title" content="Recruitment Website Development Services | SIB Infotech" />
+      <meta property="twitter:description" content="Get custom recruitment websites with advanced features. SIB Infotech designs responsive, SEO-friendly platforms to streamline hiring and job postings." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Zen Cart Development Services Company in Mumbai, India</title>
+        <meta name="description" content="Get custom Zen Cart solutions for your eCommerce needs. SIB Infotech provides secure, scalable, and feature-rich Zen Cart development services in Mumbai, India." />
+        <meta name="keywords" content="zen cart development services,zen cart development service,offshore zen cart development,zen cart development companies,zen cart development company,zen cart development india,zen cart development delhi,zen cart development mumbai,zen cart development che" />
        
   
         <meta property="og:type" content="website" />
         <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:title" content="Zen Cart Development Services Company in Mumbai, India" />
+        <meta property="og:description" content="Get custom Zen Cart solutions for your eCommerce needs. SIB Infotech provides secure, scalable, and feature-rich Zen Cart development services in Mumbai, India." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:title" content="Zen Cart Development Services Company in Mumbai, India" />
+        <meta property="twitter:description" content="Get custom Zen Cart solutions for your eCommerce needs. SIB Infotech provides secure, scalable, and feature-rich Zen Cart development services in Mumbai, India." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

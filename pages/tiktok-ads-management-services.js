@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function TikTokAdsMangamentServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>TikTok Ads Management & Advertising Services Agency India</title>
+        <meta name="description" content="Drive brand visibility and engagement with TikTok Ads services in India by SIB Infotech. Leverage creative strategies to reach millions on the TikTok platform." />
+        <meta name="keywords" content="TikTok Advertising Agency, TikTok Advertising Agency in India, TikTok Ads for Business, TikTok Ads management company, best TikTok Ads management company in India, TikTok Marketing Service" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/tiktok-ads-management-services" />
+        <meta property="og:title" content="TikTok Ads Management & Advertising Services Agency India" />
+        <meta property="og:description" content="Drive brand visibility and engagement with TikTok Ads services in India by SIB Infotech. Leverage creative strategies to reach millions on the TikTok platform." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/tiktok-ads-management-services" />
+        <meta property="twitter:title" content="TikTok Ads Management & Advertising Services Agency India" />
+        <meta property="twitter:description" content="Drive brand visibility and engagement with TikTok Ads services in India by SIB Infotech. Leverage creative strategies to reach millions on the TikTok platform." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (

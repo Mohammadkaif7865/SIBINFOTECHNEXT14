@@ -5,22 +5,22 @@ import BannerForm from '../comps/BannerForm';
 export default function XCartDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>X-Cart Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta name="keywords" content="x-cart development services,x-cart development service,offshore x-cart development,x-cart development companies,x-cart development company,x-cart development india,x-cart development delhi,x-cart development mumbai,x-cart development chennai,x-cart develo" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
+      <meta property="og:title" content="X-Cart Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="X-Cart Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

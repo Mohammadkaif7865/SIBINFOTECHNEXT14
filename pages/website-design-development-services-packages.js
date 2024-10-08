@@ -281,22 +281,22 @@ export default function SocialMediaMarketingSMMServicesPackages() {
 
 const metaTags = (
   <>
-    <title>Title</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>Best Website Design & Development Packages for All Businesses</title>
+    <meta name="description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta name="keywords" content="Website Design Development Services Packages" />
    
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="/" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
+    <meta property="og:title" content="Best Website Design & Development Packages for All Businesses" />
+    <meta property="og:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="/" />
-    <meta property="twitter:title" content="" />
-    <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="" />
+    <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
+    <meta property="twitter:title" content="Best Website Design & Development Packages for All Businesses" />
+    <meta property="twitter:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   </>
 );
 return (

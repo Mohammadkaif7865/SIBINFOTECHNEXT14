@@ -7,22 +7,22 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function SearchEngineOptimizationResearchMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Search Engine Optimization Research in Mumbai | SIB Infotech</title>
+      <meta name="description" content="Boost your website's rankings with expert SEO research from SIB Infotech. We provide tailored SEO strategies to drive organic traffic and improve visibility." />
+      <meta name="keywords" content="seo research services,seo research services company,regional seo,seo india,seo service india,local search engine optimization,local seo,affordable seo services india,search engine optimization companies,professional seo services,professional seo service,l" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/search-engine-optimization-research-mumbai-india" />
+      <meta property="og:title" content="Search Engine Optimization Research in Mumbai | SIB Infotech" />
+      <meta property="og:description" content="Boost your website's rankings with expert SEO research from SIB Infotech. We provide tailored SEO strategies to drive organic traffic and improve visibility." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/search-engine-optimization-research-mumbai-india" />
+      <meta property="twitter:title" content="Search Engine Optimization Research in Mumbai | SIB Infotech" />
+      <meta property="twitter:description" content="Boost your website's rankings with expert SEO research from SIB Infotech. We provide tailored SEO strategies to drive organic traffic and improve visibility." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

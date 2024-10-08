@@ -11,22 +11,22 @@ export default function TermsOfUse() {
 
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Terms and Conditions | SIB Infotech</title>
+      <meta name="description" content="Review the terms & conditions for using the website and services of SIB Infotech. Stay informed of our guidelines, user responsibilities, and privacy policies." />
+      <meta name="keywords" content="Terms & Conditions" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/terms-and-conditions" />
+      <meta property="og:title" content="Terms and Conditions | SIB Infotech" />
+      <meta property="og:description" content="Review the terms & conditions for using the website and services of SIB Infotech. Stay informed of our guidelines, user responsibilities, and privacy policies." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/terms-and-conditions" />
+      <meta property="twitter:title" content="Terms and Conditions | SIB Infotech" />
+      <meta property="twitter:description" content="Review the terms & conditions for using the website and services of SIB Infotech. Stay informed of our guidelines, user responsibilities, and privacy policies." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

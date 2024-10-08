@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function WebsiteDesignMathodologyMumbai() {
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>Website Designing Methodology Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Discover the effective website designing methodology in Mumbai, India. Create user-friendly and visually appealing websites with SIB Infotech. Contact today!" />
+      <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website" />
      
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-designing-methodology-mumbai-india" />
+      <meta property="og:title" content="Website Designing Methodology Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Discover the effective website designing methodology in Mumbai, India. Create user-friendly and visually appealing websites with SIB Infotech. Contact today!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-designing-methodology-mumbai-india" />
+      <meta property="twitter:title" content="Website Designing Methodology Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Discover the effective website designing methodology in Mumbai, India. Create user-friendly and visually appealing websites with SIB Infotech. Contact today!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

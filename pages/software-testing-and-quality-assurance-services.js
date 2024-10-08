@@ -6,22 +6,22 @@ import BannerForm from '../comps/BannerForm';
 export default function SoftwareTestingQualityAssuranceServices() {
    const metaTags = (
       <>
-        <title>Title</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Software Testing & QA Services in Mumbai, India</title>
+        <meta name="description" content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications." />
+        <meta name="keywords" content="QA Testing Services" />
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.sibinfotech.com/software-testing-and-quality-assurance-services" />
+        <meta property="og:title" content="Software Testing & QA Services in Mumbai, India" />
+        <meta property="og:description" content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
-        <meta property="twitter:title" content="" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/software-testing-and-quality-assurance-services" />
+        <meta property="twitter:title" content="Software Testing & QA Services in Mumbai, India" />
+        <meta property="twitter:description" content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
       </>
     );
     return (
