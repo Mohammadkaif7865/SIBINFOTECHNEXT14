@@ -15,13 +15,13 @@ export default function WebsiteDesignMathodologyMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-designing-methodology-mumbai-india" />
       <meta property="og:title" content="Website Designing Methodology Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Discover the effective website designing methodology in Mumbai, India. Create user-friendly and visually appealing websites with SIB Infotech. Contact today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-designing-methodology-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-designing-methodology-mumbai-india" />
       <meta property="twitter:title" content="Website Designing Methodology Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Discover the effective website designing methodology in Mumbai, India. Create user-friendly and visually appealing websites with SIB Infotech. Contact today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-designing-methodology-mumbai-india.jpg" />
     </>
   );
   return (

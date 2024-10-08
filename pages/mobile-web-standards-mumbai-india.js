@@ -17,13 +17,13 @@ export default function MobileWebStandards() {
       <meta property="og:url" content="https://www.sibinfotech.com/mobile-web-standards-mumbai-india" />
       <meta property="og:title" content="Mobile Web Standards Services Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Ensure your website meets mobile web standards with expert services in Mumbai from SIB Infotech. Improve user experience and performance. Contact today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-web-standards-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-web-standards-mumbai-india" />
       <meta property="twitter:title" content="Mobile Web Standards Services Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Ensure your website meets mobile web standards with expert services in Mumbai from SIB Infotech. Improve user experience and performance. Contact today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-web-standards-mumbai-india.jpg" />
     </>
   );
   return (

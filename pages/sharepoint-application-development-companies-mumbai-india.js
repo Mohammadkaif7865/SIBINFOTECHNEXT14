@@ -15,13 +15,13 @@ export default function SharepointsDevelopmentCompanyMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/sharepoint-application-development-companies-mumbai-india" />
       <meta property="og:title" content="SharePoint Application Development Services Mumbai, India" />
       <meta property="og:description" content="Transform your business with SharePoint application development services in Mumbai by SIB Infotech. Custom solutions to enhance collaboration and efficiency." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/sharepoint-application-development-companies-mumbai-india" />
       <meta property="twitter:title" content="SharePoint Application Development Services Mumbai, India" />
       <meta property="twitter:description" content="Transform your business with SharePoint application development services in Mumbai by SIB Infotech. Custom solutions to enhance collaboration and efficiency." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

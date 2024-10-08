@@ -16,13 +16,13 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
       <meta property="og:title" content="Flash Banner Designing Services Company in Mumbai, India" />
       <meta property="og:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-banner-designing-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
       <meta property="twitter:title" content="Flash Banner Designing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-banner-designing-services-mumbai-india.jpg" />
     </>
   );
   return (

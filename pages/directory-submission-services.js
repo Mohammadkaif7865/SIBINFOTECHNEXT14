@@ -18,13 +18,13 @@ export default function DirectorySubmissionServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/directory-submission-services" />
         <meta property="og:title" content="Directory Submission Services | Improve Online Visibility" />
         <meta property="og:description" content="Enhance your online presence with directory submission services by SIB Infotech. Drive traffic and boost SEO through effective directory listing submissions." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/directory-submission-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/directory-submission-services" />
         <meta property="twitter:title" content="Directory Submission Services | Improve Online Visibility" />
         <meta property="twitter:description" content="Enhance your online presence with directory submission services by SIB Infotech. Drive traffic and boost SEO through effective directory listing submissions." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/directory-submission-services.jpg" />
       </>
     );
     return (

@@ -16,13 +16,13 @@ export default function MultilingualSeoServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/multilingual-seo-services" />
           <meta property="og:title" content="Multilingual SEO Services | Boost Your Global Visibility" />
           <meta property="og:description" content="Expand global reach with the best Multilingual SEO services from SIB Infotech. Enhance rankings, and traffic to improve conversions across multiple languages." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/multilingual-seo-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/multilingual-seo-services" />
           <meta property="twitter:title" content="Multilingual SEO Services | Boost Your Global Visibility" />
           <meta property="twitter:description" content="Expand global reach with the best Multilingual SEO services from SIB Infotech. Enhance rankings, and traffic to improve conversions across multiple languages." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/multilingual-seo-services.jpg" />
         </>
       );
       return (

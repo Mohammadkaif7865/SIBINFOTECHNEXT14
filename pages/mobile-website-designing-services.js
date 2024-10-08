@@ -17,13 +17,13 @@ export default function MobileWebsiteDesigningServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/mobile-website-designing-services" />
           <meta property="og:title" content="Mobile Website Designing Services in India | SIB Infotech" />
           <meta property="og:description" content="Get responsive mobile website designing services in Mumbai, India with SIB Infotech. Boost user experience and engagement with mobile-friendly web designs." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-website-designing-services" />
           <meta property="twitter:title" content="Mobile Website Designing Services in India | SIB Infotech" />
           <meta property="twitter:description" content="Get responsive mobile website designing services in Mumbai, India with SIB Infotech. Boost user experience and engagement with mobile-friendly web designs." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.jpg" />
         </>
       );
       return (

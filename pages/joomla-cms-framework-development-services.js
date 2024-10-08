@@ -15,13 +15,13 @@ export default function JoomlaCmsDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/joomla-cms-framework-development-services" />
           <meta property="og:title" content="Joomla CMS Development Services Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Boost your website with Joomla CMS development services in Mumbai from SIB Infotech. Expert solutions for custom, scalable websites in Mumbai and across India." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/joomla-cms-framework-development-services" />
           <meta property="twitter:title" content="Joomla CMS Development Services Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Boost your website with Joomla CMS development services in Mumbai from SIB Infotech. Expert solutions for custom, scalable websites in Mumbai and across India." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.jpg" />
         </>
       );
       return (

@@ -14,13 +14,13 @@ export default function CustomWebsiteDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/custom-website-designing-services" />
       <meta property="og:title" content="Custom Website Design Services India | Tailored Web Design" />
       <meta property="og:description" content="Stand out online with SIB Infotech, a custom website designing agency in India. We create bespoke, visually appealing websites tailored to your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/custom-website-designing-services" />
       <meta property="twitter:title" content="Custom Website Design Services India | Tailored Web Design" />
       <meta property="twitter:description" content="Stand out online with SIB Infotech, a custom website designing agency in India. We create bespoke, visually appealing websites tailored to your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.jpg
 " />
     </>
   );

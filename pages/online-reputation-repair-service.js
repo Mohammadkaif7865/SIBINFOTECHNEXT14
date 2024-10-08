@@ -16,13 +16,13 @@ export default function OnlineReputationRepairServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/online-reputation-repair-service" />
       <meta property="og:title" content="Online Reputation Repair Services Agency in Mumbai, India" />
       <meta property="og:description" content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/online-reputation-repair-service" />
       <meta property="twitter:title" content="Online Reputation Repair Services Agency in Mumbai, India" />
       <meta property="twitter:description" content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.jpg" />
     </>
   );
   return (

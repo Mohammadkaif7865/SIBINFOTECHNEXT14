@@ -14,13 +14,13 @@ export default function DynamicWebsiteDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
       <meta property="og:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
       <meta property="og:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
       <meta property="twitter:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
       <meta property="twitter:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
     </>
   );
   return (

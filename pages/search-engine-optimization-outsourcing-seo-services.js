@@ -17,13 +17,13 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services" />
           <meta property="og:title" content="Best SEO Outsourcing Services India | Expert SEO Solutions" />
           <meta property="og:description" content="Outsource your SEO to SIB Infotech and benefit from our proven strategies to increase organic traffic, improve search rankings, and grow your online presence." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services" />
           <meta property="twitter:title" content="Best SEO Outsourcing Services India | Expert SEO Solutions" />
           <meta property="twitter:description" content="Outsource your SEO to SIB Infotech and benefit from our proven strategies to increase organic traffic, improve search rankings, and grow your online presence." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.jpg
 " />
         </>
       );

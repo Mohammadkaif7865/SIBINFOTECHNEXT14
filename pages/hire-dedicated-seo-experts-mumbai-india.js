@@ -15,13 +15,13 @@ export default function HireDedicatedSeoExperts() {
       <meta property="og:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
       <meta property="og:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
       <meta property="og:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
       <meta property="twitter:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
       <meta property="twitter:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
     </>
   );
   return (

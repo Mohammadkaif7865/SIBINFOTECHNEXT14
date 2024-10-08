@@ -15,13 +15,13 @@ export default function DrupalCmsDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
       <meta property="og:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
       <meta property="twitter:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg" />
     </>
   );
   return (

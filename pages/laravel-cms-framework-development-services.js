@@ -16,13 +16,13 @@ export default function LaravelCmsDevelopmentCompany() {
           <meta property="og:url" content="https://www.sibinfotech.com/laravel-cms-framework-development-services" />
           <meta property="og:title" content="Laravel CMS Framework Development Services | SIB Infotech" />
           <meta property="og:description" content="Leverage Laravel CMS development services by SIB Infotech for robust, scalable web solutions. Enhance your online presence with customized frameworks today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/laravel-cms-framework-development-services" />
           <meta property="twitter:title" content="Laravel CMS Framework Development Services | SIB Infotech" />
           <meta property="twitter:description" content="Leverage Laravel CMS development services by SIB Infotech for robust, scalable web solutions. Enhance your online presence with customized frameworks today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.jpg" />
         </>
       );
       return (

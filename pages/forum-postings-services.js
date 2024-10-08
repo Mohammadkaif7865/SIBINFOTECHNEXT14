@@ -15,13 +15,13 @@ export default function ForumPostingServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/forum-postings-services" />
       <meta property="og:title" content="Forum Posting Services | Boost Engagement & Traffic" />
       <meta property="og:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/forum-postings-services" />
       <meta property="twitter:title" content="Forum Posting Services | Boost Engagement & Traffic" />
       <meta property="twitter:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
     </>
   );
   return (

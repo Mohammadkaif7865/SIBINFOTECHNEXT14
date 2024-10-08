@@ -18,14 +18,14 @@ export default function EcommerceSeoServices() {
 " />
           <meta property="og:title" content="Top eCommerce SEO Services Company in Mumbai, India" />
           <meta property="og:description" content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.jpg
 " />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-seo-services" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/.jpg" />
           <meta property="twitter:title" content="Top eCommerce SEO Services Company in Mumbai, India" />
           <meta property="twitter:description" content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.jpg
 " />
         </>
       );

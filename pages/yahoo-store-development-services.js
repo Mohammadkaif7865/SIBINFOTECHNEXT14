@@ -14,13 +14,13 @@ export default function YahooStoreDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/yahoo-store-development-services" />
       <meta property="og:title" content="Yahoo Store Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Boost your eCommerce business with custom Yahoo Store development services in India by SIB Infotech. Create a user-friendly, secure, and scalable Yahoo store." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/yahoo-store-development-services" />
       <meta property="twitter:title" content="Yahoo Store Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Boost your eCommerce business with custom Yahoo Store development services in India by SIB Infotech. Create a user-friendly, secure, and scalable Yahoo store." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.jpg" />
     </>
   );
   return (

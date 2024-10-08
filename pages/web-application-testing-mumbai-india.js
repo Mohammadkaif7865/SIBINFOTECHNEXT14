@@ -14,13 +14,13 @@ export default function WebApplicationTestingMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/web-application-testing-mumbai-india" />
       <meta property="og:title" content="Web Application Testing Services Company in Mumbai, India" />
       <meta property="og:description" content="Ensure your applications run smoothly with expert web application testing services in Mumbai by SIB Infotech. Improve the performance and user experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/web-application-testing-mumbai-india" />
       <meta property="twitter:title" content="Web Application Testing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Ensure your applications run smoothly with expert web application testing services in Mumbai by SIB Infotech. Improve the performance and user experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.jpg" />
     </>
   );
   return (

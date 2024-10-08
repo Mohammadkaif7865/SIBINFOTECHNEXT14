@@ -15,13 +15,13 @@ export default function ResponsiveWebsiteDesigningServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/responsive-website-designing-services" />
           <meta property="og:title" content="Responsive Website Designing Services in Mumbai, India" />
           <meta property="og:description" content="Get mobile-friendly, responsive website designs from SIB Infotech. Enhance user experience with seamless, scalable websites across all devices and platforms." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/responsive-website-designing-services" />
           <meta property="twitter:title" content="Responsive Website Designing Services in Mumbai, India" />
           <meta property="twitter:description" content="Get mobile-friendly, responsive website designs from SIB Infotech. Enhance user experience with seamless, scalable websites across all devices and platforms." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/responsive-website-designing-services.jpg
 " />
         </>
       );

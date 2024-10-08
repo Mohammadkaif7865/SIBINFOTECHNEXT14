@@ -14,13 +14,13 @@ export default function SocialMediaOptimization() {
           <meta property="og:url" content="https://www.sibinfotech.com/social-media-optimization" />
           <meta property="og:title" content="Social Media Optimization | Enhance Your Brand" />
           <meta property="og:description" content="Accelerate your business growth with the right social media strategy by SIB Infotech. Engage your audience and drive growth through effective strategies." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/social-media-optimization" />
           <meta property="twitter:title" content="Social Media Optimization | Enhance Your Brand" />
           <meta property="twitter:description" content="Accelerate your business growth with the right social media strategy by SIB Infotech. Engage your audience and drive growth through effective strategies." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization.jpg" />
         </>
       );
       return (

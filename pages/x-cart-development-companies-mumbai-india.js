@@ -14,13 +14,13 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
       <meta property="og:title" content="X-Cart Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
       <meta property="twitter:title" content="X-Cart Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

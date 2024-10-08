@@ -17,13 +17,13 @@ export default function CorporateBrandingServicesMumbai() {
         <meta property="og:url" content="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" />
         <meta property="og:title" content="Corporate Branding Services in Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Elevate your business with corporate branding services in Mumbai from SIB Infotech. Build a strong identity and connect with your audience. Get in touch today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/corporate-branding-service-mumbai-india" />
         <meta property="twitter:title" content="Corporate Branding Services in Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Elevate your business with corporate branding services in Mumbai from SIB Infotech. Build a strong identity and connect with your audience. Get in touch today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.jpg" />
       </>
     );
     return (

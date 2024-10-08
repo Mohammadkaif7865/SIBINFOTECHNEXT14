@@ -14,13 +14,13 @@ export default function CorporateWebsiteDesigningServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/website-audit-services-mumbai-india" />
           <meta property="og:title" content="Best Website Audit Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Enhance your website&amp;#39;s performance with professional audit services in Mumbai from SIB Infotech. Get detailed insights to improve security and user experience." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/website-audit-services-mumbai-india" />
           <meta property="twitter:title" content="Best Website Audit Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Enhance your website&amp;#39;s performance with professional audit services in Mumbai from SIB Infotech. Get detailed insights to improve security and user experience." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.jpg" />
         </>
       );
       return (

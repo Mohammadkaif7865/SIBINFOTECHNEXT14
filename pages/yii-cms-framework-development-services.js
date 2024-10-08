@@ -14,13 +14,13 @@ export default function YiiCmsFrameworkDevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/yii-cms-framework-development-services" />
         <meta property="og:title" content="Yii CMS Framework Development Services India | SIB Infotech" />
         <meta property="og:description" content="Unlock powerful web solutions with top Yii CMS framework development services by SIB Infotech. Customized, scalable, and efficient solutions for your business." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/yii-cms-framework-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/yii-cms-framework-development-services" />
         <meta property="twitter:title" content="Yii CMS Framework Development Services India | SIB Infotech" />
         <meta property="twitter:description" content="Unlock powerful web solutions with top Yii CMS framework development services by SIB Infotech. Customized, scalable, and efficient solutions for your business." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/yii-cms-framework-development-services.jpg" />
       </>
     );
     return (

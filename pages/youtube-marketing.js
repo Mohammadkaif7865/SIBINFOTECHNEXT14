@@ -14,13 +14,13 @@ export default function YoutubeMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/youtube-marketing" />
         <meta property="og:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
         <meta property="og:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/youtube-marketing" />
         <meta property="twitter:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
         <meta property="twitter:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.jpg" />
       </>
     );
     return (

@@ -16,7 +16,7 @@ export default function MicrosoftDevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/microsoft-application-development-services" />
         <meta property="og:title" content="Microsoft Application Development Services | SIB Infotech" />
         <meta property="og:description" content="Transform your business with Microsoft application development services by SIB Infotech. Custom solutions tailored to enhance productivity and efficiency." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/microsoft-application-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/microsoft-application-development-services" />

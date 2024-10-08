@@ -14,13 +14,13 @@ export default function SnapchatMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/snapchat-marketing" />
         <meta property="og:title" content="Snapchat Marketing Services Company in Mumbai, India" />
         <meta property="og:description" content="Discover the innovative Snapchat marketing services in Mumbai by SIB Infotech to elevate your brand presence and engage with your audience effectively." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/snapchat-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/snapchat-marketing" />
         <meta property="twitter:title" content="Snapchat Marketing Services Company in Mumbai, India" />
         <meta property="twitter:description" content="Discover the innovative Snapchat marketing services in Mumbai by SIB Infotech to elevate your brand presence and engage with your audience effectively." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/snapchat-marketing.jpg" />
       </>
     );
     return (

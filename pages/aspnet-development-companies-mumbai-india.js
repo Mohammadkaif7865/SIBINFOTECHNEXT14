@@ -13,13 +13,13 @@ export default function AspnetDevelopmentCompanyMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" />
       <meta property="og:title" content="ASP.NET Development Services Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Get robust, scalable ASP.NET development services from SIB Infotech. We specialize in building dynamic and secure websites tailored to your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/aspnet-development-companies-mumbai-india" />
       <meta property="twitter:title" content="ASP.NET Development Services Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Get robust, scalable ASP.NET development services from SIB Infotech. We specialize in building dynamic and secure websites tailored to your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

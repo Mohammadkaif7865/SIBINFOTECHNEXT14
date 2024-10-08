@@ -13,13 +13,13 @@ export default function GraphicDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/graphic-designing-services" />
       <meta property="og:title" content="Best Graphic Designing Services Company in Mumbai, India" />
       <meta property="og:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/graphic-designing-services" />
       <meta property="twitter:title" content="Best Graphic Designing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
 " />
     </>
   );

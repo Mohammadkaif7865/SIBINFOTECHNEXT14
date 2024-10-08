@@ -16,13 +16,13 @@ export default function FlashWebsiteDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
       <meta property="og:title" content="Flash Template Designing Services Company in Mumbai, India" />
       <meta property="og:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
       <meta property="twitter:title" content="Flash Template Designing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
     </>
   );
   return (

@@ -14,13 +14,13 @@ export default function WebsiteRedevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
         <meta property="og:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
         <meta property="og:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
         <meta property="twitter:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
         <meta property="twitter:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg" />
       </>
     );
     return (

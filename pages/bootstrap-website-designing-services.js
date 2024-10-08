@@ -14,13 +14,13 @@ export default function BootstrapDesigningServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/bootstrap-website-designing-services" />
         <meta property="og:title" content="Bootstrap Website Designing Services in Mumbai, India" />
         <meta property="og:description" content="Create responsive, mobile-friendly websites with Bootstrap designing services by  SIB Infotech. Enhance user experience and attract more visitors effortlessly." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/bootstrap-website-designing-services" />
         <meta property="twitter:title" content="Bootstrap Website Designing Services in Mumbai, India" />
         <meta property="twitter:description" content="Create responsive, mobile-friendly websites with Bootstrap designing services by  SIB Infotech. Enhance user experience and attract more visitors effortlessly." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.jpg" />
       </>
     );
     return (

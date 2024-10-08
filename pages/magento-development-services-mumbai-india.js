@@ -18,13 +18,13 @@ export default function MagentoDevelopment() {
           <meta property="og:url" content="https://www.sibinfotech.com/magento-development-services-mumbai-india" />
           <meta property="og:title" content="Magento Development Services Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Boost your e-commerce business with expert Magento development services by SIB Infotech in Mumbai, India—customized solutions for seamless online stores." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/magento-development-services-mumbai-india" />
           <meta property="twitter:title" content="Magento Development Services Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Boost your e-commerce business with expert Magento development services by SIB Infotech in Mumbai, India—customized solutions for seamless online stores." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.jpg" />
         </>
       );
       return (

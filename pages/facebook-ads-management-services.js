@@ -17,14 +17,14 @@ export default function FacebookAdsManagementServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/facebook-ads-management-services" />
       <meta property="og:title" content="Top Facebook Ads Management Services Company Mumbai, India" />
       <meta property="og:description" content="Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services.jpg
 .jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/facebook-ads-management-services" />
       <meta property="twitter:title" content="Top Facebook Ads Management Services Company Mumbai, India" />
       <meta property="twitter:description" content="Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services.jpg
 .jpg" />
     </>
   );

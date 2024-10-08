@@ -16,13 +16,13 @@ export default function JqueryDevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/jquery-development-services" />
         <meta property="og:title" content="jQuery Development Services in Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Boost your web applications with expert jQuery development services by SIB Infotech. Custom solutions for seamless interactivity and enhanced user experience." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/jquery-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/jquery-development-services" />
         <meta property="twitter:title" content="jQuery Development Services in Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Boost your web applications with expert jQuery development services by SIB Infotech. Custom solutions for seamless interactivity and enhanced user experience." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/jquery-development-services.jpg" />
       </>
     );
     return (

@@ -14,13 +14,13 @@ export default function ThemeCustomizationServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/themes-customization-services" />
         <meta property="og:title" content="Themes Customization Services | Tailored Website Designs" />
         <meta property="og:description" content="Get professional theme customization services in Mumbai to enhance your website design. SIB Infotech delivers unique, responsive, and user-friendly solutions." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/themes-customization-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/themes-customization-services" />
         <meta property="twitter:title" content="Themes Customization Services | Tailored Website Designs" />
         <meta property="twitter:description" content="Get professional theme customization services in Mumbai to enhance your website design. SIB Infotech delivers unique, responsive, and user-friendly solutions." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/themes-customization-services.jpg" />
       </>
     );
     return (

@@ -14,13 +14,13 @@ export default function XhtmlConversionServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/xhtml-conversion-services" />
           <meta property="og:title" content="XHTML Conversion Services | Transform Your Web Content" />
           <meta property="og:description" content="SIB Infotech offers expert XHTML conversion services for enhanced web content compatibility. Upgrade your websites with clean, structured XHTML today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/xhtml-conversion-services" />
           <meta property="twitter:title" content="XHTML Conversion Services | Transform Your Web Content" />
           <meta property="twitter:description" content="SIB Infotech offers expert XHTML conversion services for enhanced web content compatibility. Upgrade your websites with clean, structured XHTML today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.jpg" />
         </>
       );
       return (

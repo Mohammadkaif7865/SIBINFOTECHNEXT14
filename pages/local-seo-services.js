@@ -17,14 +17,14 @@ export default function LocalSeoServices() {
 " />
           <meta property="og:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/local-seo-services
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg
 " />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/local-seo-services" />
           <meta property="twitter:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/local-seo-services" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg" />
         </>
       );
       return (

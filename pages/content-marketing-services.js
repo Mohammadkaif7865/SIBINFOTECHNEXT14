@@ -14,13 +14,13 @@ export default function ContentMarketingServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/content-marketing-services" />
       <meta property="og:title" content="Content Marketing Services Agency in India | SIB Infotech" />
       <meta property="og:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/content-marketing-services" />
       <meta property="twitter:title" content="Content Marketing Services Agency in India | SIB Infotech" />
       <meta property="twitter:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg
 " />
     </>
   );

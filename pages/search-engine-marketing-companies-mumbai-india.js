@@ -16,13 +16,13 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
         <meta property="og:url" content="https://www.sibinfotech.com/search-engine-marketing-companies-mumbai-india" />
         <meta property="og:title" content="Top Search Engine Marketing (SEM) Company in Mumbai, India" />
         <meta property="og:description" content="Boost your online presence with SIB Infotech, a leading search engine marketing services company in Mumbai, India. Contact us for expert SEM solutions today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/search-engine-marketing-companies-mumbai-india" />
         <meta property="twitter:title" content="Top Search Engine Marketing (SEM) Company in Mumbai, India" />
         <meta property="twitter:description" content="Boost your online presence with SIB Infotech, a leading search engine marketing services company in Mumbai, India. Contact us for expert SEM solutions today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.jpg" />
       </>
     );
     return (

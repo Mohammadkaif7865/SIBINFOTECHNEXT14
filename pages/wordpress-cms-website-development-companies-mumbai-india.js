@@ -14,13 +14,13 @@ export default function WordPressCmsServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/wordpress-cms-website-development-companies-mumbai-india" />
           <meta property="og:title" content="Top WordPress CMS Website Development Company Mumbai, India" />
           <meta property="og:description" content="Looking for a reliable WordPress CMS development company in Mumbai? SIB Infotech offers custom website solutions in India to enhance your online presence." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/wordpress-cms-website-development-companies-mumbai-india" />
           <meta property="twitter:title" content="Top WordPress CMS Website Development Company Mumbai, India" />
           <meta property="twitter:description" content="Looking for a reliable WordPress CMS development company in Mumbai? SIB Infotech offers custom website solutions in India to enhance your online presence." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.jpg" />
         </>
       );
       return (

@@ -16,13 +16,13 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
       <meta property="og:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
       <meta property="og:title" content="Best ERP & CRM Software Development Solutions Services India" />
       <meta property="og:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
       <meta property="twitter:title" content="Best ERP & CRM Software Development Solutions Services India" />
       <meta property="twitter:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
     </>
   );
   return (

@@ -14,13 +14,13 @@ export default function CmsDevelopmentCompaniesMumbai() {
           <meta property="og:url" content="https://www.sibinfotech.com/cms-development-companies-mumbai-india" />
           <meta property="og:title" content="CMS Development Companies in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/cms-development-companies-mumbai-india" />
           <meta property="twitter:title" content="CMS Development Companies in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.jpg" />
         </>
       );
       return (

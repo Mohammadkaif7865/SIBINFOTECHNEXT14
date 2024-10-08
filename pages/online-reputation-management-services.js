@@ -17,13 +17,13 @@ export default function OnlineReputationManagementServices() {
 " />
           <meta property="og:title" content="Top Online Reputation Management Services in Mumbai, India" />
           <meta property="og:description" content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/online-reputation-management-services" />
           <meta property="twitter:title" content="Top Online Reputation Management Services in Mumbai, India" />
           <meta property="twitter:description" content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.jpg" />
         </>
       );
       return (

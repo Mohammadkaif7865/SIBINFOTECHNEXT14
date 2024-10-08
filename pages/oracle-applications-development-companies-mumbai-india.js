@@ -17,13 +17,13 @@ export default function OracleApplicationDevelopmentCompanies() {
       <meta property="og:url" content="https://www.sibinfotech.com/oracle-applications-development-companies-mumbai-india" />
       <meta property="og:title" content="Top Oracle Applications Development Company in Mumbai, India" />
       <meta property="og:description" content="Partner with SIB Infotech, a leading Oracle applications development company in Mumbai. Optimize your business processes with expert solutions. Contact today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/oracle-applications-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Top Oracle Applications Development Company in Mumbai, India" />
       <meta property="twitter:description" content="Partner with SIB Infotech, a leading Oracle applications development company in Mumbai. Optimize your business processes with expert solutions. Contact today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

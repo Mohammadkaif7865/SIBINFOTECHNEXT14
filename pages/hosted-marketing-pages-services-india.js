@@ -16,13 +16,13 @@ export default function HostedMarketingPagesServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/hosted-marketing-pages-services-india" />
       <meta property="og:title" content="Hosted Marketing Pages Services in Mumbai, Delhi, India" />
       <meta property="og:description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/hosted-marketing-pages-services-india" />
       <meta property="twitter:title" content="Hosted Marketing Pages Services in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg" />
     </>
   );
   return (

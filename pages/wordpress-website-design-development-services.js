@@ -14,13 +14,13 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/wordpress-website-design-development-services" />
           <meta property="og:title" content="WordPress Website Design & Development Services India" />
           <meta property="og:description" content="Create a stunning WordPress website with custom design and development in India by SIB Infotech. Contact for professional WordPress web design and development!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/wordpress-website-design-development-services" />
           <meta property="twitter:title" content="WordPress Website Design & Development Services India" />
           <meta property="twitter:description" content="Create a stunning WordPress website with custom design and development in India by SIB Infotech. Contact for professional WordPress web design and development!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/wordpress-website-design-development-services.jpg
 " />
         </>
       );

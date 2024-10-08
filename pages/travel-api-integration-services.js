@@ -14,13 +14,13 @@ export default function TravelApiIntegrationServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/travel-api-integration-services" />
         <meta property="og:title" content="Seamless Travel API Integration Services for Your Business" />
         <meta property="og:description" content="Boost your travel business with fast, reliable Travel API Integration services in India by SIB Infotech. Enhance bookings and customer experience effortlessly." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/travel-api-integration-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/travel-api-integration-services" />
         <meta property="twitter:title" content="Seamless Travel API Integration Services for Your Business" />
         <meta property="twitter:description" content="Boost your travel business with fast, reliable Travel API Integration services in India by SIB Infotech. Enhance bookings and customer experience effortlessly." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/travel-api-integration-services.jpg" />
       </>
     );
     return (

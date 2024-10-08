@@ -16,13 +16,13 @@ export default function MangoDbDatabaseSupportAdministration() {
         <meta property="og:url" content="https://www.sibinfotech.com/mongodb-database-support-administration" />
         <meta property="og:title" content="MongoDB Database Support & Administration | SIB Infotech" />
         <meta property="og:description" content="Ensure optimal performance with MongoDB support and administration services by SIB Infotech. Get expert solutions for database management and maintenance." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/mongodb-database-support-administration" />
         <meta property="twitter:title" content="MongoDB Database Support & Administration | SIB Infotech" />
         <meta property="twitter:description" content="Ensure optimal performance with MongoDB support and administration services by SIB Infotech. Get expert solutions for database management and maintenance." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.jpg" />
       </>
     );
     return (

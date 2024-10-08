@@ -15,13 +15,13 @@ export default function SeoMethologyMumbaiIndia() {
           <meta property="og:url" content="https://www.sibinfotech.com/seo-methodology-mumbai-india" />
           <meta property="og:title" content="Proven SEO Methodology in Mumbai | Effective SEO Solutions" />
           <meta property="og:description" content="Discover the proven SEO methodology in Mumbai. Improve ranking, drive organic traffic, and grow your online presence with expert SEO strategies by SIB Infotech." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/seo-methodology-mumbai-india" />
           <meta property="twitter:title" content="Proven SEO Methodology in Mumbai | Effective SEO Solutions" />
           <meta property="twitter:description" content="Discover the proven SEO methodology in Mumbai. Improve ranking, drive organic traffic, and grow your online presence with expert SEO strategies by SIB Infotech." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.jpg" />
         </>
       );
       return (

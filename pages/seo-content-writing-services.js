@@ -14,13 +14,13 @@ export default function SeoContentWritingServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/seo-content-writing-services" />
           <meta property="og:title" content="SEO Content Writing Services India | Boost Website Traffic" />
           <meta property="og:description" content="Enhance online visibility with expert SEO content writing services in India. Improve search rankings, engage readers, and drive more traffic to your website." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/seo-content-writing-services" />
           <meta property="twitter:title" content="SEO Content Writing Services India | Boost Website Traffic" />
           <meta property="twitter:description" content="Enhance online visibility with expert SEO content writing services in India. Improve search rankings, engage readers, and drive more traffic to your website." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.jpg" />
         </>
       );
       return (

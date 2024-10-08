@@ -13,13 +13,13 @@ export default function CodeigniterFrameworkDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/codeigniter-cms-framework-development-services" />
       <meta property="og:title" content="CodeIgniter CMS Development Services | SIB Infotech" />
       <meta property="og:description" content="Boost your website with custom CodeIgniter CMS development. SIB Infotech offers robust solutions for faster, secure, and scalable web applications." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/codeigniter-cms-framework-development-services" />
       <meta property="twitter:title" content="CodeIgniter CMS Development Services | SIB Infotech" />
       <meta property="twitter:description" content="Boost your website with custom CodeIgniter CMS development. SIB Infotech offers robust solutions for faster, secure, and scalable web applications." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.jpg" />
     </>
   );
   return (

@@ -16,13 +16,13 @@ export default function PaymentGatewayIntegrationServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/payment-gateway-integration-services" />
         <meta property="og:title" content="Payment Gateway Integration Services India | SIB Infotech" />
         <meta property="og:description" content="Streamline the transactions with secure payment gateway integration services from SIB Infotech. Enhance your business with reliable payment solutions today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/payment-gateway-integration-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/payment-gateway-integration-services" />
         <meta property="twitter:title" content="Payment Gateway Integration Services India | SIB Infotech" />
         <meta property="twitter:description" content="Streamline the transactions with secure payment gateway integration services from SIB Infotech. Enhance your business with reliable payment solutions today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/payment-gateway-integration-services.jpg" />
       </>
     );
     return (

@@ -14,13 +14,13 @@ export default function WebsiteAnalysisServicesMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-analysis-services-mumbai-india" />
       <meta property="og:title" content="Website Analysis Services in Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-analysis-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-analysis-services-mumbai-india" />
       <meta property="twitter:title" content="Website Analysis Services in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-analysis-services-mumbai-india.jpg" />
     </>
   );
   return (

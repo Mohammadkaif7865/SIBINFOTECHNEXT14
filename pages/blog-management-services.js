@@ -15,13 +15,13 @@ export default function BlogManagementServices() {
 " />
           <meta property="og:title" content="Professional Blog Management Services Company Mumbai, India" />
           <meta property="og:description" content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/blog-management-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/blog-management-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/blog-management-services" />
           <meta property="twitter:title" content="Professional Blog Management Services Company Mumbai, India" />
           <meta property="twitter:description" content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/blog-management-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/blog-management-services.jpg
 " />
         </>
       );

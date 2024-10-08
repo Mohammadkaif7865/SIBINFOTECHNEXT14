@@ -17,13 +17,13 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/affiliate-marketing-services-mumbai-india" />
       <meta property="og:title" content="Affiliate Marketing Services Company in Mumbai, India" />
       <meta property="og:description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.comaffiliate-marketing-services-mumbai-india" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/affiliate-marketing-services-mumbai-india" />
       <meta property="twitter:title" content="Affiliate Marketing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.jpg" />
     </>
   );
   return (

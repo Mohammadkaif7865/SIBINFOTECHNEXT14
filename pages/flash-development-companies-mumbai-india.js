@@ -15,13 +15,13 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/flash-development-companies-mumbai-india" />
       <meta property="og:title" content="Flash Development Companies in Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flash-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Flash Development Companies in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

@@ -17,13 +17,13 @@ export default function DesktopApplicationDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/desktop-application-development-companies-india" />
       <meta property="og:title" content="Desktop Application Development Company India | SIB Infotech" />
       <meta property="og:description" content="Get custom desktop applications for your business needs. SIB Infotech offers robust, scalable solutions for seamless performance across platforms in India." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/desktop-application-development-companies-india" />
       <meta property="twitter:title" content="Desktop Application Development Company India | SIB Infotech" />
       <meta property="twitter:description" content="Get custom desktop applications for your business needs. SIB Infotech offers robust, scalable solutions for seamless performance across platforms in India." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.jpg" />
     </>
   );
   return (

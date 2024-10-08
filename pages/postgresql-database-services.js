@@ -15,13 +15,13 @@ export default function PostGreSqlDatabaseServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/postgresql-database-services" />
           <meta property="og:title" content="PostgreSQL Database Support Services in Mumbai, India" />
           <meta property="og:description" content="Optimize your data management with PostgreSQL database services by SIB Infotech. Get expert support for performance, security, and scalability to your needs." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/postgresql-database-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/postgresql-database-services" />
           <meta property="twitter:title" content="PostgreSQL Database Support Services in Mumbai, India" />
           <meta property="twitter:description" content="Optimize your data management with PostgreSQL database services by SIB Infotech. Get expert support for performance, security, and scalability to your needs." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/postgresql-database-services.jpg" />
         </>
       );
       return (

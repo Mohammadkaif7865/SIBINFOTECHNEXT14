@@ -15,13 +15,13 @@ export default function J2eeApplicationDevelopement() {
       <meta property="og:url" content="https://www.sibinfotech.com/j2ee-application-development-companies-india" />
       <meta property="og:title" content="J2EE Application Development in India | SIB Infotech" />
       <meta property="og:description" content="SIB Infotech offers robust J2EE application development services in India. Build scalable, secure enterprise applications tailored to your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/j2ee-application-development-companies-india" />
       <meta property="twitter:title" content="J2EE Application Development in India | SIB Infotech" />
       <meta property="twitter:description" content="SIB Infotech offers robust J2EE application development services in India. Build scalable, secure enterprise applications tailored to your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.jpg" />
     </>
   );
   return (

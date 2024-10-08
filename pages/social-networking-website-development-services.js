@@ -14,13 +14,13 @@ export default function SocialNetworkingDevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/social-networking-website-development-services" />
         <meta property="og:title" content="Social Networking Website Development Services Mumbai, India" />
         <meta property="og:description" content="SIB Infotech offers engaging, user-friendly, and scalable social networking website development services in Mumbai, India to connect communities effectively." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/social-networking-website-development-services" />
         <meta property="twitter:title" content="Social Networking Website Development Services Mumbai, India" />
         <meta property="twitter:description" content="SIB Infotech offers engaging, user-friendly, and scalable social networking website development services in Mumbai, India to connect communities effectively." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.jpg" />
       </>
     );
     return (

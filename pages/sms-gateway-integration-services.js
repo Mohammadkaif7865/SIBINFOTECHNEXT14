@@ -14,13 +14,13 @@ export default function SmsGatewayIntigrationServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/sms-gateway-integration-services" />
         <meta property="og:title" content="Effortless SMS Gateway Integration Services | SIB Infotech" />
         <meta property="og:description" content="Get fast, reliable SMS gateway integration services in Mumbai to enhance communication with your audience. SIB Infotech ensures seamless API integration." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/sms-gateway-integration-services" />
         <meta property="twitter:title" content="Effortless SMS Gateway Integration Services | SIB Infotech" />
         <meta property="twitter:description" content="Get fast, reliable SMS gateway integration services in Mumbai to enhance communication with your audience. SIB Infotech ensures seamless API integration." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.jpg" />
       </>
     );
     return (

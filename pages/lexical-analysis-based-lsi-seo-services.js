@@ -16,13 +16,13 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/lexical-analysis-based-lsi-seo-services" />
       <meta property="og:title" content="LSI & Lexical Analysis SEO Services | Boost Relevant Traffic" />
       <meta property="og:description" content="Optimize your content with LSI-based SEO and lexical analysis services. Improve keyword relevance, ranking, and traffic. Drive better results with SIB Infotech." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/lexical-analysis-based-lsi-seo-services" />
       <meta property="twitter:title" content="LSI & Lexical Analysis SEO Services | Boost Relevant Traffic" />
       <meta property="twitter:description" content="Optimize your content with LSI-based SEO and lexical analysis services. Improve keyword relevance, ranking, and traffic. Drive better results with SIB Infotech." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.jpg" />
     </>
   );
   return (

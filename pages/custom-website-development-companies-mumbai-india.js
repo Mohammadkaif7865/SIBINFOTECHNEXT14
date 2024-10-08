@@ -16,13 +16,13 @@ export default function CustomWebDevelopment() {
       <meta property="og:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
       <meta property="og:title" content="Custom Website Development Development Company in Mumbai, India" />
       <meta property="og:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Custom Website Development Development Company in Mumbai, India" />
       <meta property="twitter:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

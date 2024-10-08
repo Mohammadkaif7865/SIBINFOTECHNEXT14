@@ -16,13 +16,13 @@ export default function PsdHtmlConversionServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/psd-to-html-conversion-services" />
           <meta property="og:title" content="PSD to HTML Conversion Services | Responsive Pixel-Perfect" />
           <meta property="og:description" content="Convert your PSD designs to responsive HTML with SIB Infotech. Get pixel-perfect, SEO-friendly code that ensures optimal performance across all devices." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/psd-to-html-conversion-services" />
           <meta property="twitter:title" content="PSD to HTML Conversion Services | Responsive Pixel-Perfect" />
           <meta property="twitter:description" content="Convert your PSD designs to responsive HTML with SIB Infotech. Get pixel-perfect, SEO-friendly code that ensures optimal performance across all devices." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.jpg" />
         </>
       );
       return (

@@ -14,13 +14,13 @@ export default function EcommerceSeoServicesPackages() {
       <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-seo-services-packages" />
       <meta property="og:title" content="E-commerce SEO Packages | Boost Online Sales" />
       <meta property="og:description" content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-seo-services-packages" />
       <meta property="twitter:title" content="E-commerce SEO Packages | Boost Online Sales" />
       <meta property="twitter:description" content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg" />
     </>
   );
   return (

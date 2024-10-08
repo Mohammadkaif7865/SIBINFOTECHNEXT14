@@ -13,13 +13,13 @@ export default function SocialBookmarkingServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/social-bookmarking-services" />
         <meta property="og:title" content="Social Bookmarking Services | Boost Online Visibility" />
         <meta property="og:description" content="Enhance your online presence with social bookmarking services by SIB Infotech. Drive traffic and improve SEO through strategic bookmarking on top platforms." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/social-bookmarking-services" />
         <meta property="twitter:title" content="Social Bookmarking Services | Boost Online Visibility" />
         <meta property="twitter:description" content="Enhance your online presence with social bookmarking services by SIB Infotech. Drive traffic and improve SEO through strategic bookmarking on top platforms." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.jpg" />
       </>
     );
     return (

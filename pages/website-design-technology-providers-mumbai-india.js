@@ -14,13 +14,13 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
       <meta property="og:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
       <meta property="og:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
       <meta property="twitter:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
     </>
   );
   return (

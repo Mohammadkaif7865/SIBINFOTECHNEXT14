@@ -14,13 +14,13 @@ export default function WebsiteMaintenanceServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/website-maintenance-services" />
           <meta property="og:title" content="Website Maintenance Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Ensure your website runs smoothly with expert website maintenance services in Mumbai from SIB Infotech. Regular updates, security, and performance optimization." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-maintenance-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/website-maintenance-services" />
           <meta property="twitter:title" content="Website Maintenance Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Ensure your website runs smoothly with expert website maintenance services in Mumbai from SIB Infotech. Regular updates, security, and performance optimization." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-maintenance-services.jpg" />
         </>
       );
       return (

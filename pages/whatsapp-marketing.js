@@ -14,13 +14,13 @@ export default function WhatsappMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
         <meta property="og:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
         <meta property="twitter:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
         <meta property="twitter:descriptioElevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns.n" content="" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg" />
       </>
     );
     return (

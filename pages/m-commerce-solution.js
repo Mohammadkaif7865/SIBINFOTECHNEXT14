@@ -15,13 +15,13 @@ export default function MCommerceSolution() {
           <meta property="og:url" content="https://www.sibinfotech.com/m-commerce-solution" />
           <meta property="og:title" content="M-Commerce Solutions for Mobile Apps | SIB Infotech" />
           <meta property="og:description" content="Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/m-commerce-solution.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/m-commerce-solution" />
           <meta property="twitter:title" content="M-Commerce Solutions for Mobile Apps | SIB Infotech" />
           <meta property="twitter:description" content="Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/m-commerce-solution.jpg" />
         </>
       );
       return (

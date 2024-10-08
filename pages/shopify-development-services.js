@@ -15,13 +15,13 @@ export default function ShopifyDevelopementServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/shopify-development-services" />
         <meta property="og:title" content="Shopify Development Services in Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Launch your online store with expert Shopify development in Mumbai. SIB Infotech offers custom solutions to enhance user experience and drive sales effectively." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/shopify-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/shopify-development-services" />
         <meta property="twitter:title" content="Shopify Development Services in Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Launch your online store with expert Shopify development in Mumbai. SIB Infotech offers custom solutions to enhance user experience and drive sales effectively." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/shopify-development-services.jpg" />
       </>
     );
     return (

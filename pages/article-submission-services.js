@@ -14,13 +14,13 @@ article submission service,article submission services,manual article submission
       <meta property="og:url" content="https://www.sibinfotech.com/article-submission-services" />
       <meta property="og:title" content="Article Submission Services Company in Mumbai, India" />
       <meta property="og:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/article-submission-services" />
       <meta property="twitter:title" content="Article Submission Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg" />
     </>
   );
   return (

@@ -15,13 +15,13 @@ export default function JavaDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/java-development-services" />
           <meta property="og:title" content="Java Development Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Unlock the power of Java with expert development services in Mumbai from SIB Infotech. Get scalable, high-performance applications for your business needs!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/java-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/java-development-services" />
           <meta property="twitter:title" content="Java Development Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Unlock the power of Java with expert development services in Mumbai from SIB Infotech. Get scalable, high-performance applications for your business needs!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/java-development-services.jpg" />
         </>
       );
       return (

@@ -16,13 +16,13 @@ export default function FlashRemotingServicesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/flash-remoting-services-mumbai-india" />
       <meta property="og:title" content="Flash Remoting Services in Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Unlock advanced Flash remoting services in Mumbai to enhance your web applications. SIB Infotech offers expert solutions. Contact us for professional support!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-remoting-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flash-remoting-services-mumbai-india" />
       <meta property="twitter:title" content="Flash Remoting Services in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Unlock advanced Flash remoting services in Mumbai to enhance your web applications. SIB Infotech offers expert solutions. Contact us for professional support!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-remoting-services-mumbai-india.jpg" />
     </>
   );
   return (

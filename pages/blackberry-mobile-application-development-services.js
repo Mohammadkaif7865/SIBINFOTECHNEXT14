@@ -15,13 +15,13 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/blackberry-mobile-application-development-services" />
           <meta property="og:title" content="Blackberry Mobile Application Development Services India" />
           <meta property="og:description" content="SIB Infotech offers Blackberry mobile application development services in Mumbai, India. Get custom solutions to enhance user experience and drive engagement." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/blackberry-mobile-application-development-services" />
           <meta property="twitter:title" content="Blackberry Mobile Application Development Services India" />
           <meta property="twitter:description" content="SIB Infotech offers Blackberry mobile application development services in Mumbai, India. Get custom solutions to enhance user experience and drive engagement." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.jpg" />
         </>
       );
       return (

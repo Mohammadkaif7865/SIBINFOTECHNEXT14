@@ -14,13 +14,13 @@ export default function SmsMarketingServciesCompaniesMumbaiIndia() {
         <meta property="og:url" content="https://www.sibinfotech.com/sms-marketing-services-companies-mumbai-india" />
         <meta property="og:title" content="SMS Marketing Services Company Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Reach your audience instantly with SMS marketing services in Mumbai by SIB Infotech. Increase engagement and conversions with targeted SMS campaigns in India." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/sms-marketing-services-companies-mumbai-india" />
         <meta property="twitter:title" content="SMS Marketing Services Company Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Reach your audience instantly with SMS marketing services in Mumbai by SIB Infotech. Increase engagement and conversions with targeted SMS campaigns in India." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.jpg" />
       </>
     );
     return (

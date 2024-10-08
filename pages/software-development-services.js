@@ -13,13 +13,13 @@ export default function SoftwareDevelopementServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/software-development-services" />
           <meta property="og:title" content="Top Software Development Services Company in Mumbai, India" />
           <meta property="og:description" content="SIB Infotech offers comprehensive software development services in Mumbai, India. We specialize in custom-built, scalable, and secure software solutions." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/software-development-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/software-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/software-development-services" />
           <meta property="twitter:title" content="Top Software Development Services Company in Mumbai, India" />
           <meta property="twitter:description" content="SIB Infotech offers comprehensive software development services in Mumbai, India. We specialize in custom-built, scalable, and secure software solutions." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/software-development-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/software-development-services.jpg
 " />
         </>
       );

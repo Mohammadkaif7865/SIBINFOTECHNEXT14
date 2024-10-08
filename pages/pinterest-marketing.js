@@ -17,13 +17,13 @@ export default function PinterestMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/pinterest-marketing" />
         <meta property="og:title" content="Pinterest Marketing Services Mumbai, India | SIB Infotech" />
         <meta property="og:description" content="Enhance your brand visibility with creative Pinterest marketing services in Mumbai by SIB Infotech. Drive follower engagements through strategic campaigns." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/pinterest-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/pinterest-marketing" />
         <meta property="twitter:title" content="Pinterest Marketing Services Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Enhance your brand visibility with creative Pinterest marketing services in Mumbai by SIB Infotech. Drive follower engagements through strategic campaigns." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/pinterest-marketing.jpg" />
       </>
     );
     return (

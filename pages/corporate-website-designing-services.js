@@ -14,13 +14,13 @@ export default function CorporateWebsiteDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
       <meta property="og:title" content="Corporate Website Designing Services India | SIB Infotech" />
       <meta property="og:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
       <meta property="twitter:title" content="Corporate Website Designing Services India | SIB Infotech" />
       <meta property="twitter:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg
 " />
     </>
   );

@@ -8,19 +8,19 @@ export default function SeoConsultancyServicesMumbaiIndia() {
   const metaTags = (
     <>
       <title>Expert SEO Consultancy Services in Mumbai | Boost Rankings</title>
-      <meta name="description" content="Get expert SEO consultancy services in Mumbai to enhance your website’s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
+      <meta name="description" content="Get expert SEO consultancy services in Mumbai to enhance your website&amp;#39;s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
       <meta name="keywords" content="seo consultancy service,seo consultancy services,seo consultancy india,seo consultancy delhi,seo consultancy mumbai,seo consultancy chennai,seo consultancy bangalore,seo consultancy pune,seo consultancy hyderabad,seo consultancy services india,seo consult" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/seo-consultancy-services-mumbai-india" />
       <meta property="og:title" content="Expert SEO Consultancy Services in Mumbai | Boost Rankings" />
-      <meta property="og:description" content="Get expert SEO consultancy services in Mumbai to enhance your website’s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:description" content="Get expert SEO consultancy services in Mumbai to enhance your website&amp;#39;s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/seo-consultancy-services-mumbai-india" />
       <meta property="twitter:title" content="Expert SEO Consultancy Services in Mumbai | Boost Rankings" />
-      <meta property="twitter:description" content="Get expert SEO consultancy services in Mumbai to enhance your website’s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:description" content="Get expert SEO consultancy services in Mumbai to enhance your website&amp;#39;s search rankings, traffic, and visibility. Achieve online success with proven strategies." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.jpg" />
     </>
   );
   return (

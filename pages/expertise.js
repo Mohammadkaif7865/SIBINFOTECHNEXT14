@@ -16,13 +16,13 @@ export default function Expertise() {
       <meta property="og:url" content="https://www.sibinfotech.com/expertise" />
       <meta property="og:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
       <meta property="og:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/expertise.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/expertise" />
       <meta property="twitter:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
       <meta property="twitter:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/expertise.jpg" />
     </>
   );
   return (

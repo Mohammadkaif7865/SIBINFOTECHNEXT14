@@ -16,13 +16,13 @@ export default function RecruitmentWebsiteDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/recruitment-website-development-services" />
       <meta property="og:title" content="Recruitment Website Development Services | SIB Infotech" />
       <meta property="og:description" content="Get custom recruitment websites with advanced features. SIB Infotech designs responsive, SEO-friendly platforms to streamline hiring and job postings." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/recruitment-website-development-services" />
       <meta property="twitter:title" content="Recruitment Website Development Services | SIB Infotech" />
       <meta property="twitter:description" content="Get custom recruitment websites with advanced features. SIB Infotech designs responsive, SEO-friendly platforms to streamline hiring and job postings." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.jpg" />
     </>
   );
   return (

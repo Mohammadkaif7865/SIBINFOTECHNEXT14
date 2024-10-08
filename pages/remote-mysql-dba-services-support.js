@@ -16,13 +16,13 @@ export default function RemoteMysqlDbaSupportServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/remote-mysql-dba-services-support" />
           <meta property="og:title" content="Remote MySQL DBA Services & Support | SIB Infotech" />
           <meta property="og:description" content="Ensure optimal performance with remote MySQL DBA services in India by SIB Infotech. Expert support for database management, security, and performance tuning." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/remote-mysql-dba-services-support" />
           <meta property="twitter:title" content="Remote MySQL DBA Services & Support | SIB Infotech" />
           <meta property="twitter:description" content="Ensure optimal performance with remote MySQL DBA services in India by SIB Infotech. Expert support for database management, security, and performance tuning." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.jpg" />
         </>
       );
       return (

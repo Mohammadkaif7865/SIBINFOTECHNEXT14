@@ -17,13 +17,13 @@ export default function PhpWebsiteDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/php-website-development-services" />
           <meta property="og:title" content="PHP Website Development Services Company in Mumbai, India" />
           <meta property="og:description" content="Transform your online presence with top PHP web development services in Mumbai by SIB Infotech. We build dynamic, scalable, and secure websites for your needs." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/php-website-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/php-website-development-services" />
           <meta property="twitter:title" content="PHP Website Development Services Company in Mumbai, India" />
           <meta property="twitter:description" content="Transform your online presence with top PHP web development services in Mumbai by SIB Infotech. We build dynamic, scalable, and secure websites for your needs." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/php-website-development-services.jpg" />
         </>
       );
       return (

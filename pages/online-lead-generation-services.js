@@ -16,13 +16,13 @@ export default function OnlineLedGenerationServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/online-lead-generation-services" />
           <meta property="og:title" content="Online Lead Generation Services Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Boost your business with online lead generation services in Mumbai by SIB Infotech. Attract quality leads and increase conversions with our expert strategies." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/online-lead-generation-services" />
           <meta property="twitter:title" content="Online Lead Generation Services Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Boost your business with online lead generation services in Mumbai by SIB Infotech. Attract quality leads and increase conversions with our expert strategies." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.jpg" />
         </>
       );
       return (

@@ -16,13 +16,13 @@ export default function JavascriptDevelopmentServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/javascript-development-services" />
         <meta property="og:title" content="JavaScript Development Services | Custom Web Solutions  " />
         <meta property="og:description" content="Get expert JavaScript development services in Mumbai for dynamic and responsive websites. SIB Infotech provides custom solutions to enhance user experience." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/javascript-development-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/javascript-development-services" />
         <meta property="twitter:title" content="JavaScript Development Services | Custom Web Solutions   " />
         <meta property="twitter:description" content="Get expert JavaScript development services in Mumbai for dynamic and responsive websites. SIB Infotech provides custom solutions to enhance user experience." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/javascript-development-services.jpg" />
       </>
     );
     return (

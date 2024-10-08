@@ -13,13 +13,13 @@ export default function WebsiteUsabilityReportIndia() {
         <meta property="og:url" content="https://www.sibinfotech.com/website-usability-report-india" />
         <meta property="og:title" content="Comprehensive Website Usability Reports in Mumbai, India" />
         <meta property="og:description" content="Improve your website performance with detailed usability reports from SIB Infotech. Enhance user experience and drive engagement. Get your report today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-usability-report-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/website-usability-report-india" />
         <meta property="twitter:title" content="Comprehensive Website Usability Reports in Mumbai, India" />
         <meta property="twitter:description" content="Improve your website performance with detailed usability reports from SIB Infotech. Enhance user experience and drive engagement. Get your report today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-usability-report-india.jpg" />
       </>
     );
     return (

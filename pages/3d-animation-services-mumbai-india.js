@@ -13,13 +13,13 @@ export default function ThreeDAnimationServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/3d-animation-services-mumbai-india" />
       <meta property="og:title" content="3D Animation Services Company Mumbai, India | Sib Infotech" />
       <meta property="og:description" content="Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/3d-animation-services-mumbai-india" />
       <meta property="twitter:title" content="3D Animation Services Company Mumbai, India | Sib Infotech" />
       <meta property="twitter:description" content="Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg" />
     </>
   );
   return (

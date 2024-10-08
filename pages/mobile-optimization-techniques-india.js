@@ -16,13 +16,13 @@ export default function MobileOptimizationTechniques() {
       <meta property="og:url" content="https://www.sibinfotech.com/mobile-optimization-techniques-india" />
       <meta property="og:title" content="Mobile Website Optimization Techniques in Mumbai, India" />
       <meta property="og:description" content="Enhance user experience with top mobile website optimization techniques in Mumbai, India. Improve speed and usability to drive more traffic with SIB Infotech." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-optimization-techniques-india" />
       <meta property="twitter:title" content="Mobile Website Optimization Techniques in Mumbai, India" />
       <meta property="twitter:description" content="Enhance user experience with top mobile website optimization techniques in Mumbai, India. Improve speed and usability to drive more traffic with SIB Infotech." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.jpg" />
     </>
   );
   return (

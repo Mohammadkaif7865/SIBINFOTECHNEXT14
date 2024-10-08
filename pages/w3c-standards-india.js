@@ -14,13 +14,13 @@ export default function W3cStandardsIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/w3c-standards-india" />
       <meta property="og:title" content="W3C Standards Web Designing Services in Mumbai, India" />
       <meta property="og:description" content="Ensure your website meets W3C standards with expert web designing services in India by SIB Infotech. Boost accessibility and performance. Get started today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/w3c-standards-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/w3c-standards-india" />
       <meta property="twitter:title" content="W3C Standards Web Designing Services in Mumbai, India" />
       <meta property="twitter:description" content="Ensure your website meets W3C standards with expert web designing services in India by SIB Infotech. Boost accessibility and performance. Get started today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/w3c-standards-india.jpg" />
     </>
   );
   return (

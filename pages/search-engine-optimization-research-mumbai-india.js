@@ -16,13 +16,13 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/search-engine-optimization-research-mumbai-india" />
       <meta property="og:title" content="Search Engine Optimization Research in Mumbai | SIB Infotech" />
       <meta property="og:description" content="Boost your website's rankings with expert SEO research from SIB Infotech. We provide tailored SEO strategies to drive organic traffic and improve visibility." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/search-engine-optimization-research-mumbai-india" />
       <meta property="twitter:title" content="Search Engine Optimization Research in Mumbai | SIB Infotech" />
       <meta property="twitter:description" content="Boost your website's rankings with expert SEO research from SIB Infotech. We provide tailored SEO strategies to drive organic traffic and improve visibility." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.jpg" />
     </>
   );
   return (

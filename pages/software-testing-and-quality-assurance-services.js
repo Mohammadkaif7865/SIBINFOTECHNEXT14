@@ -15,13 +15,13 @@ export default function SoftwareTestingQualityAssuranceServices() {
         <meta property="og:url" content="https://www.sibinfotech.com/software-testing-and-quality-assurance-services" />
         <meta property="og:title" content="Software Testing & QA Services in Mumbai, India" />
         <meta property="og:description" content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/software-testing-and-quality-assurance-services" />
         <meta property="twitter:title" content="Software Testing & QA Services in Mumbai, India" />
         <meta property="twitter:description" content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.jpg" />
       </>
     );
     return (

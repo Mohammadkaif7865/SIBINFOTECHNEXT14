@@ -16,13 +16,13 @@ export default function RubyOnRailsCmsFrameworkDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/ruby-on-rails-cms-framework-development-services" />
           <meta property="og:title" content="Ruby on Rails CMS Framework Development Services in India" />
           <meta property="og:description" content="Enhance your web projects with Ruby on Rails CMS development from SIB Infotech. Custom CMS framework solutions tailored to your needs. Get started today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ruby-on-rails-cms-framework-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/ruby-on-rails-cms-framework-development-services" />
           <meta property="twitter:title" content="Ruby on Rails CMS Framework Development Services in India" />
           <meta property="twitter:description" content="Enhance your web projects with Ruby on Rails CMS development from SIB Infotech. Custom CMS framework solutions tailored to your needs. Get started today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ruby-on-rails-cms-framework-development-services.jpg" />
         </>
       );
       return (

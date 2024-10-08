@@ -17,13 +17,13 @@ export default function ProfessionalWebsiteDesigningServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/professional-website-designing-services" />
           <meta property="og:title" content="Professional Website Designing Services in Mumbai, India" />
           <meta property="og:description" content="Get custom, responsive, and SEO-friendly websites from SIB Infotech. Boost your online presence with a professional website design company in Mumbai, India." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/professional-website-designing-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/professional-website-designing-services" />
           <meta property="twitter:title" content="Professional Website Designing Services in Mumbai, India" />
           <meta property="twitter:description" content="Get custom, responsive, and SEO-friendly websites from SIB Infotech. Boost your online presence with a professional website design company in Mumbai, India." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/professional-website-designing-services.jpg" />
         </>
       );
       return (

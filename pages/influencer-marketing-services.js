@@ -16,14 +16,14 @@ export default function InfluencerMarketingServices() {
 " />
       <meta property="og:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
       <meta property="og:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg
 " />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/influencer-marketing-services" />
       <meta property="twitter:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
       <meta property="twitter:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg" />
     </>
   );
   return (

@@ -17,13 +17,13 @@ export default function LawWebsiteDevelopmentMumbai() {
           <meta property="og:url" content="https://www.sibinfotech.com/law-website-development-mumbai-india" />
           <meta property="og:title" content="Law Website Development in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Get specialized law website development services in Mumbai, India. SIB Infotech creates professional, user-friendly, top law sites tailored for legal firms." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/law-website-development-mumbai-india" />
           <meta property="twitter:title" content="Law Website Development in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Get specialized law website development services in Mumbai, India. SIB Infotech creates professional, user-friendly, top law sites tailored for legal firms." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg" />
         </>
       );
       return (

@@ -107,13 +107,13 @@ export default function WebDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-development-services" />
       <meta property="og:title" content="Top Web Development Company India | Website Development Mumbai" />
       <meta property="og:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-development-services" />
       <meta property="twitter:title" content="Top Web Development Company India | Website Development Mumbai" />
       <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
 " />
     </>
   );

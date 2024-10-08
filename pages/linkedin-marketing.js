@@ -17,13 +17,13 @@ export default function LinkedinMarketing() {
           <meta property="og:url" content="https://www.sibinfotech.com/linkedin-marketing" />
           <meta property="og:title" content="LinkedIn Marketing Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Boost your brand presence with LinkedIn marketing services in India by SIB Infotech. Engage professionals and drive leads through our tailored strategies." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/linkedin-marketing.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/linkedin-marketing" />
           <meta property="twitter:title" content="LinkedIn Marketing Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Boost your brand presence with LinkedIn marketing services in India by SIB Infotech. Engage professionals and drive leads through our tailored strategies." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/linkedin-marketing.jpg" />
         </>
       );
       return (

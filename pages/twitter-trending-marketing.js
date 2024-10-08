@@ -15,13 +15,13 @@ export default function TwitterTrendingMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/twitter-trending-marketing" />
         <meta property="og:title" content="Twitter Trending Marketing Services Company Mumbai, India" />
         <meta property="og:description" content="Elevate your brand with Twitter trending marketing services from SIB Infotech. Engage your audience and boost visibility with expert strategies for success." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/twitter-trending-marketing" />
         <meta property="twitter:title" content="Twitter Trending Marketing Services Company Mumbai, India" />
         <meta property="twitter:description" content="Elevate your brand with Twitter trending marketing services from SIB Infotech. Engage your audience and boost visibility with expert strategies for success." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.jpg" />
       </>
     );
     return (

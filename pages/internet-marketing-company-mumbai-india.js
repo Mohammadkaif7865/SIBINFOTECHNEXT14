@@ -15,13 +15,13 @@ export default function InternetMarketingCompanyMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
       <meta property="og:title" content="Leading Internet Marketing Company in Mumbai, India" />
       <meta property="og:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
       <meta property="twitter:title" content="Leading Internet Marketing Company in Mumbai, India" />
       <meta property="twitter:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg" />
     </>
   );
   return (

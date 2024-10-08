@@ -16,13 +16,13 @@ export default function PressReleaseSubmissionServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/press-release-submission-services" />
           <meta property="og:title" content="Press Release Submission Services in India | SIB Infotech" />
           <meta property="og:description" content="Boost brand visibility with press release submission services by SIB Infotech. Reach a wider audience and improve online presence with expert PR distribution." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/press-release-submission-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/press-release-submission-services" />
           <meta property="twitter:title" content="Press Release Submission Services in India | SIB Infotech" />
           <meta property="twitter:description" content="Boost brand visibility with press release submission services by SIB Infotech. Reach a wider audience and improve online presence with expert PR distribution." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/press-release-submission-services.jpg" />
         </>
       );
       return (

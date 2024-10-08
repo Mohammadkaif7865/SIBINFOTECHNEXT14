@@ -16,13 +16,13 @@ export default function RichInternetApplicationServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/rich-internet-applications-mumbai-india" />
           <meta property="og:title" content="Rich Internet Applications Development in Mumbai,  India" />
           <meta property="og:description" content="Discover innovative rich internet application development services in Mumbai, India by SIB Infotech. Enhance user engagement with our cutting-edge solutions!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/rich-internet-applications-mumbai-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/rich-internet-applications-mumbai-india" />
           <meta property="twitter:title" content="Rich Internet Applications Development in Mumbai,  India" />
           <meta property="twitter:description" content="Discover innovative rich internet application development services in Mumbai, India by SIB Infotech. Enhance user engagement with our cutting-edge solutions!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/rich-internet-applications-mumbai-india.jpg" />
         </>
       );
       return (

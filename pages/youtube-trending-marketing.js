@@ -14,13 +14,13 @@ export default function YoutubeTrendingMarketing() {
           <meta property="og:url" content="https://www.sibinfotech.com/youtube-trending-marketing" />
           <meta property="og:title" content="YouTube Trending Marketing Services | Boost Video Visibility" />
           <meta property="og:description" content="Leverage YouTube trending marketing services to increase video views and engagement. SIB Infotech helps your content go viral. Boost your brand visibility now!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/youtube-trending-marketing.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/youtube-trending-marketing" />
           <meta property="twitter:title" content="YouTube Trending Marketing Services | Boost Video Visibility" />
           <meta property="twitter:description" content="Leverage YouTube trending marketing services to increase video views and engagement. SIB Infotech helps your content go viral. Boost your brand visibility now!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/youtube-trending-marketing.jpg" />
         </>
       );
       return (

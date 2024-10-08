@@ -14,13 +14,13 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" />
       <meta property="og:title" content="Adobe AIR Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Adobe AIR Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

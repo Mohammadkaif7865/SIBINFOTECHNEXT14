@@ -15,13 +15,13 @@ export default function EcommerceSolutionCompaniesMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
       <meta property="og:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
       <meta property="og:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
       <meta property="twitter:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
       <meta property="twitter:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
     </>
   );
   return (

@@ -12,16 +12,16 @@ export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
        
   
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://www.sibinfotech.com/zen-cart-development-companies-mumbai-india" />
         <meta property="og:title" content="Zen Cart Development Services Company in Mumbai, India" />
         <meta property="og:description" content="Get custom Zen Cart solutions for your eCommerce needs. SIB Infotech provides secure, scalable, and feature-rich Zen Cart development services in Mumbai, India." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="/" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/zen-cart-development-companies-mumbai-india" />
         <meta property="twitter:title" content="Zen Cart Development Services Company in Mumbai, India" />
         <meta property="twitter:description" content="Get custom Zen Cart solutions for your eCommerce needs. SIB Infotech provides secure, scalable, and feature-rich Zen Cart development services in Mumbai, India." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.jpg" />
       </>
     );
     return (

@@ -14,14 +14,14 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.sibinfotech.com/seo-money-back-guarantee-service-india" />
           <meta property="og:title" content="SEO Services with Money Back Guarantee | Results Guaranteed" />
-          <meta property="og:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website’s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website&amp;#39;s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/seo-money-back-guarantee-service-india" />
           <meta property="twitter:title" content="SEO Services with Money Back Guarantee | Results Guaranteed" />
-          <meta property="twitter:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website’s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:description" content="Get risk-free SEO services with a money-back guarantee. Boost your website&amp;#39;s ranking and traffic with SIB Infotech. Results guaranteed or get your money back!" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.jpg" />
         </>
       );
       return (

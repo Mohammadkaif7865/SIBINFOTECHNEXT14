@@ -16,13 +16,13 @@ export default function DotNetDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/net-development-services" />
           <meta property="og:title" content="DotNET Development Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Unlock the power of DotNET with development services by SIB Infotech. Get scalable, secure, and high-performance applications tailored to your business needs." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/net-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/net-development-services" />
           <meta property="twitter:title" content="DotNET Development Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Unlock the power of DotNET with development services by SIB Infotech. Get scalable, secure, and high-performance applications tailored to your business needs." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/net-development-services.jpg" />
         </>
       );
       return (

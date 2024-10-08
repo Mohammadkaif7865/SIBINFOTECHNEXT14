@@ -14,13 +14,13 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" />
       <meta property="og:title" content="AJAX Development Services in Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Boost your website speed with AJAX. SIB Infotech offers expert AJAX development services in Mumbai for dynamic, responsive, and user-friendly web applications." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/ajax-development-companies-mumbai-india" />
       <meta property="twitter:title" content="AJAX Development Services in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Boost your website speed with AJAX. SIB Infotech offers expert AJAX development services in Mumbai for dynamic, responsive, and user-friendly web applications." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

@@ -14,13 +14,13 @@ export default function ZendFramworkDevelopmentServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/zend-framework-development-services" />
           <meta property="og:title" content="Zend Framework Development Services India | SIB Infotech" />
           <meta property="og:description" content="Leverage Zend framework development services in India by SIB Infotech for robust and scalable web applications. Custom solutions to meet your business needs." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/zend-framework-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/zend-framework-development-services" />
           <meta property="twitter:title" content="Zend Framework Development Services India | SIB Infotech" />
           <meta property="twitter:description" content="Leverage Zend framework development services in India by SIB Infotech for robust and scalable web applications. Custom solutions to meet your business needs." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/zend-framework-development-services.jpg" />
         </>
       );
       return (

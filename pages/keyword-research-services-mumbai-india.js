@@ -16,13 +16,13 @@ export default function KeywordResearchMumbaiIndia() {
         <meta property="og:url" content="https://www.sibinfotech.com/keyword-research-services-mumbai-india" />
         <meta property="og:title" content="Keyword Research & Analysis Services in India | SIB Infotech" />
         <meta property="og:description" content="Unlock your SEO potential with keyword research and analysis services in Mumbai by SIB Infotech. Drive targeted traffic and boost your online visibility today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/keyword-research-services-mumbai-india" />
         <meta property="twitter:title" content="Keyword Research & Analysis Services in India | SIB Infotech" />
         <meta property="twitter:description" content="Unlock your SEO potential with keyword research and analysis services in Mumbai by SIB Infotech. Drive targeted traffic and boost your online visibility today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.jpg" />
       </>
     );
     return (

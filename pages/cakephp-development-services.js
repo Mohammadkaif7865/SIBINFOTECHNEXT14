@@ -14,13 +14,13 @@ cake php development services,cake php development service,offshore cake php dev
       <meta property="og:url" content="https://www.sibinfotech.com/cakephp-development-services" />
       <meta property="og:title" content="CakePHP Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Unlock the power of CakePHP with development services in Mumbai by SIB Infotech. Build robust applications to your needs. Get in touch for a consultation!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cakephp-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/cakephp-development-services" />
       <meta property="twitter:title" content="CakePHP Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Unlock the power of CakePHP with development services in Mumbai by SIB Infotech. Build robust applications to your needs. Get in touch for a consultation!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cakephp-development-services.jpg" />
     </>
   );
   return (

@@ -13,13 +13,13 @@ export default function CmsDevelopementServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
       <meta property="og:title" content="CMS Website Design & Development Services | SIB Infotech" />
       <meta property="og:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
       <meta property="twitter:title" content="CMS Website Design & Development Services | SIB Infotech" />
       <meta property="twitter:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg
 " />
     </>
   );

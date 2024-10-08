@@ -16,13 +16,13 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
       <meta property="og:title" content="Flash Intro Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
       <meta property="twitter:title" content="Flash Intro Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg" />
     </>
   );
   return (

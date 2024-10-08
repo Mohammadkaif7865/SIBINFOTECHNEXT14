@@ -14,13 +14,13 @@ export default function FlashGameDevelopmentCompanies() {
       <meta property="og:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
       <meta property="og:title" content="Flash Game Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Flash Game Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg" />
     </>
   );
   return (

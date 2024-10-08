@@ -16,13 +16,13 @@ export default function RegionalLocalSeoServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/regional-local-seo-services" />
           <meta property="og:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
           <meta property="og:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/regional-local-seo-services" />
           <meta property="twitter:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
           <meta property="twitter:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.jpg" />
         </>
       );
       return (

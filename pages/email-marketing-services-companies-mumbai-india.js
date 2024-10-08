@@ -16,13 +16,13 @@ export default function EmailMarketingServicesCompaniesMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india" />
       <meta property="og:title" content="Top Email Marketing Services Company in Mumbai, India" />
       <meta property="og:description" content="Enhance your email campaigns with SIB Infotech, an effective email marketing company in Mumbai, India. Contact us for customized email marketing strategies!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india" />
       <meta property="twitter:title" content="Top Email Marketing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Enhance your email campaigns with SIB Infotech, an effective email marketing company in Mumbai, India. Contact us for customized email marketing strategies!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
     </>
   );
   return (

@@ -14,13 +14,13 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
       <meta property="og:title" content="E-commerce Website Design & Development Company in Mumbai" />
       <meta property="og:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
       <meta property="twitter:title" content="E-commerce Website Design & Development Company in Mumbai" />
       <meta property="twitter:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
 " />
     </>
   );

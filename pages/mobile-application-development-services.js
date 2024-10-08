@@ -16,13 +16,13 @@ export default function MobileApp() {
           <meta property="og:url" content="https://www.sibinfotech.com/mobile-application-development-services" />
           <meta property="og:title" content="Mobile Application Development Services India | Custom Apps" />
           <meta property="og:description" content="Transform your ideas into reality with SIB Infotech, the best mobile application development company in India. Contact us for both iOS and Android mobile apps!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-application-development-services" />
           <meta property="twitter:title" content="Mobile Application Development Services India | Custom Apps" />
           <meta property="twitter:description" content="Transform your ideas into reality with SIB Infotech, the best mobile application development company in India. Contact us for both iOS and Android mobile apps!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.jpg" />
         </>
       );
       return (

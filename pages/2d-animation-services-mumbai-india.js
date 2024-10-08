@@ -15,13 +15,13 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/2d-animation-services-mumbai-india" />
       <meta property="og:title" content="2D Animation Services Company Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/2d-animation-services-mumbai-india" />
       <meta property="twitter:title" content="2D Animation Services Company Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg" />
     </>
   );
   return (

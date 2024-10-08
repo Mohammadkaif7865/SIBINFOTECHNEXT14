@@ -14,13 +14,13 @@ export default function SocialMediaOptimizationServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/social-media-optimization-services" />
           <meta property="og:title" content="Social Media Optimization Services Company in Mumbai, India" />
           <meta property="og:description" content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/social-media-optimization-services" />
           <meta property="twitter:title" content="Social Media Optimization Services Company in Mumbai, India" />
           <meta property="twitter:description" content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.jpg
 " />
         </>
       );

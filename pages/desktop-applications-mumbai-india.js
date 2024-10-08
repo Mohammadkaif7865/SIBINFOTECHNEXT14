@@ -14,13 +14,13 @@ export default function DesktopApplicationMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/desktop-applications-mumbai-india" />
       <meta property="og:title" content="Custom Desktop Application Development in Mumbai, India" />
       <meta property="og:descriGet custom desktop application development in Mumbai from SIB Infotech. Boost efficiency and productivity with our expert solutions for your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/desktop-applications-mumbai-india" />
       <meta property="twitter:title" content="Custom Desktop Application Development in Mumbai, India" />
       <meta property="twitter:descriGet custom desktop application development in Mumbai from SIB Infotech. Boost efficiency and productivity with our expert solutions for your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.jpg" />
     </>
   );
   return (

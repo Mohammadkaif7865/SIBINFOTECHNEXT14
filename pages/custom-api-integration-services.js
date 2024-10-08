@@ -15,13 +15,13 @@ export default function ApiIntegrationServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/custom-api-integration-services" />
       <meta property="og:title" content="Custom API Integration Services Company in Mumbai, India" />
       <meta property="og:description" content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/custom-api-integration-services" />
       <meta property="twitter:title" content="Custom API Integration Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg" />
     </>
   );
   return (

@@ -14,13 +14,13 @@ export default function TwitterMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/twitter-marketing" />
         <meta property="og:title" content="Twitter Marketing Services | Boost Your Brand Presence" />
         <meta property="og:description" content="Maximize your brand reach with expert Twitter marketing services. SIB Infotech helps drive engagement and followers. Grow your business on social media today!" />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/twitter-marketing.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/twitter-marketing" />
         <meta property="twitter:title" content="Twitter Marketing Services | Boost Your Brand Presence" />
         <meta property="twitter:description" content="Maximize your brand reach with expert Twitter marketing services. SIB Infotech helps drive engagement and followers. Grow your business on social media today!" />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/twitter-marketing.jpg" />
       </>
     );
     return (

@@ -16,13 +16,13 @@ export default function RealEstateWebsiteDevelopmentServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/real-estate-website-development-services" />
       <meta property="og:title" content="Real Estate Website Development Services in Mumbai, India" />
       <meta property="og:description" content="Build a stunning real estate website with expert development services in Mumbai by SIB Infotech. Attract more buyers and showcase your properties effectively." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/real-estate-website-development-services" />
       <meta property="twitter:title" content="Real Estate Website Development Services in Mumbai, India" />
       <meta property="twitter:description" content="Build a stunning real estate website with expert development services in Mumbai by SIB Infotech. Attract more buyers and showcase your properties effectively." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.jpg" />
     </>
   );
   return (

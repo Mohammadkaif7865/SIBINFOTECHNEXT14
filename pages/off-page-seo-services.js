@@ -16,14 +16,14 @@ export default function OffPageSeoServices() {
           <meta property="og:url" content="https://www.sibinfotech.com/off-page-seo-services" />
           <meta property="og:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
           <meta property="og:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services.jpg
 " />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/off-page-seo-services" />
           <meta property="twitter:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
           <meta property="twitter:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/off-page-seo-services.jpg
 " />
         </>
       );

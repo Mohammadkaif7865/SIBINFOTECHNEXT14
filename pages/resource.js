@@ -15,13 +15,13 @@ export default function Resource() {
           <meta property="og:url" content="https://www.sibinfotech.com/resource" />
           <meta property="og:title" content="Expert Digital Resources | SIB Infotech" />
           <meta property="og:description" content="Explore extensive resources on IT solutions, digital marketing, web development, SEO, and more. Stay informed with SIB Infotech and empower your growth today!" />
-          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/og/resource.jpg" />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/resource" />
           <meta property="twitter:title" content="Expert Digital Resources | SIB Infotech" />
           <meta property="twitter:description" content="Explore extensive resources on IT solutions, digital marketing, web development, SEO, and more. Stay informed with SIB Infotech and empower your growth today!" />
-          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/resource.jpg" />
         </>
       );
       return (

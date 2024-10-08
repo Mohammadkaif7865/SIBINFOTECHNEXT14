@@ -17,13 +17,13 @@ export default function AmazonWebServicesAws() {
         <meta property="og:url" content="https://www.sibinfotech.com/amazon-web-services-aws" />
         <meta property="og:title" content="Best Amazon Web Services (AWS) Solutions | SIB Infotech" />
         <meta property="og:description" content="Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/amazon-web-services-aws" />
         <meta property="twitter:title" content="Best Amazon Web Services (AWS) Solutions | SIB Infotech" />
         <meta property="twitter:description" content="Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg" />
       </>
     );
     return (
