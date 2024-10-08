@@ -45,22 +45,22 @@ export default function Blog() {
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
   const metaTags = (
     <>
-      <title>Title</title>
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
+      <title>SIB Infotech Blog | Latest SEO Insights and Marketing Trends</title>
+      <meta name="description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta name="keywords" content="All Posts" />
    
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="/" />
-      <meta property="og:title" content="" />
-      <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://www.sibinfotech.com/blog" />
+      <meta property="og:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
+      <meta property="og:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="/" />
-      <meta property="twitter:title" content="" />
-      <meta property="twitter:description" content="" />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/blog" />
+      <meta property="twitter:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
+      <meta property="twitter:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

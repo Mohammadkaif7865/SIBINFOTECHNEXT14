@@ -85,15 +85,15 @@ export default function Header() {
                   <div className="topHeaderRight ">
                     <ul>
                       <li>
-                        <Link className="text-white " href="/contact-us ">Request a Quote</Link>
+                        <Link className="text-white " href="/contact-us " >Request a Quote</Link>
                       </li>
                       <li>
                         <div className="menu_contact p-0 " href="tel:+91-9222260000">
                         <i className="bi bi-telephone"></i>
     
                           <div className="menu_contact_inner">
-                            <a href="tel:+91-9222260000" className="p-0 number_phone">92222-60000</a>
-                            <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email">contact@sibinfotech.com</a>
+                            <a href="tel:+91-9222260000" className="p-0 number_phone" >92222-60000</a>
+                            <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email" title="">contact@sibinfotech.com</a>
                           </div>
                         </div>
                       </li>
@@ -112,18 +112,18 @@ export default function Header() {
                 </div>
                 <ul>
                   <li>
-                    <Link href="/digital-marketing-services">
+                    <Link href="/digital-marketing-services"title="Digital Marketing">
                       Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pay-per-click-ppc-management-services">
+                    <Link href="/pay-per-click-ppc-management-services" title="PPC">
                       PPC
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/google-ads-management-services">
+                          <Link href="/google-ads-management-services" title="Google Ads Management">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -143,7 +143,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/linkedin-ads-management-services">
+                          <Link href="/linkedin-ads-management-services" title="LinkedIn Ads Management">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -161,7 +161,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/facebook-ads-management-services">
+                          <Link href="/facebook-ads-management-services" title=" Facebook Ads Marketing">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -180,7 +180,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/instagram-ads-management-services">
+                          <Link href="/instagram-ads-management-services" title=" Instagram Ads Management">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -202,13 +202,13 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/search-engine-optimization-seo-services">
+                    <Link href="/search-engine-optimization-seo-services" title="SEO">
                       SEO
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/on-page-seo-services">
+                          <Link href="/on-page-seo-services" title="ON-Page SEO Services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -226,7 +226,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/off-page-seo-services">
+                          <Link href="/off-page-seo-services" title="OFF-Page SEO Services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -244,7 +244,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/e-commerce-seo-services">
+                          <Link href="/e-commerce-seo-services" title=" E-Commerce SEO">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -262,7 +262,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/mobile-seo-services">
+                          <Link href="/mobile-seo-services" title="Mobile SEO">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -280,7 +280,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/search-engine-optimization-outsourcing-seo-services">
+                          <Link href="/search-engine-optimization-outsourcing-seo-services" title="SEO Outsourcing">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -299,7 +299,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/local-seo-services">
+                          <Link href="/local-seo-services"  title="Local SEO">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -320,11 +320,11 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/social-media-optimization-services">SMO</Link>
+                    <Link href="/social-media-optimization-services" title="SMO">SMO</Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/social-media-optimization-services">
+                          <Link href="/social-media-optimization-services" title="Social Media Optimization">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -343,7 +343,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/content-marketing-services">
+                          <Link href="/content-marketing-services" title="Content Marketing">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -362,7 +362,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/digital-marketing-services">
+                          <Link href="/digital-marketing-services" title="Digital Marketing">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -381,7 +381,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/online-reputation-management-services">
+                          <Link href="/online-reputation-management-services" title=" Online Reputation Management Services">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -399,11 +399,11 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/blog-management-services">
+                          <Link href="/blog-management-services" title="Blog Management Services">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
-                                  Blog Management Service
+                                  Blog Management Services
                                 </h4>
                                 <p>
                                   We offer 360<sup>.</sup> Blog Management
@@ -418,7 +418,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/influencer-marketing-services">
+                          <Link href="/influencer-marketing-services" title="Influencer Marketing">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -439,18 +439,18 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/graphic-designing-services">
+                    <Link href="/graphic-designing-services" title=" Graphic Design"> 
                       Graphic Design
                     </Link>
                   </li>
                   <li>
-                    <Link href="/website-designing-services">
+                    <Link href="/website-designing-services" title="Website Designing">
                       Website Designing
                     </Link>
                     <div className="megaMenus shadow">
                       <div className="row">
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/corporate-website-designing-services">
+                          <Link href="/corporate-website-designing-services" title="Corporate Website Designing">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -469,7 +469,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/responsive-website-designing-services">
+                          <Link href="/responsive-website-designing-services" title="Responsive Website Designing">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -487,7 +487,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2">
-                          <Link href="/e-commerce-website-design-development-services">
+                          <Link href="/e-commerce-website-design-development-services" title="E-commerce Website Designing">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -506,7 +506,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/cms-website-design-development-services">
+                          <Link href="/cms-website-design-development-services" title="Content Management Systems">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -525,7 +525,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/wordpress-website-design-development-services">
+                          <Link href="/wordpress-website-design-development-services" title="WordPress Website Design &amp; Development">
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -544,7 +544,7 @@ export default function Header() {
                           </Link>
                         </div>
                         <div className="col-lg-4 px-lg-2 mt-3">
-                          <Link href="/custom-website-designing-services">
+                          <Link href="/custom-website-designing-services" title="Custom Website Designing">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
                                 <h4 className="title fontWeight700">
@@ -566,12 +566,12 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <Link href="/website-development-services">
+                    <Link href="/website-development-services" title="Web Development">
                       Web Development
                     </Link>
                   </li>
                   <li>
-                    <Link href="/software-development-services">
+                    <Link href="/software-development-services" title="Software Development">
                       Software Development
                     </Link>
                   </li>
@@ -614,7 +614,7 @@ export default function Header() {
             <ul>
               <div className="d-block d-md-none">
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/digital-marketing-services">
+                  <Link href="/digital-marketing-services" title="Digital Marketing">
                     Digital Marketing
                   </Link>
                 </li>
@@ -623,6 +623,7 @@ export default function Header() {
                   <Link
                     href="/pay-per-click-ppc-management-services"
                     data-bs-dismiss="offcanvas"
+                    title="PPC Management"
                   >
                     PPC Management
                   </Link>{" "}
@@ -644,22 +645,22 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/google-ads-management-services">
+                      <Link href="/google-ads-management-services" title="Google Ads Management">
                         Google Ads Management
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/linkedin-ads-management-services">
+                      <Link href="/linkedin-ads-management-services" title="LinkedIn Ads Management">
                         LinkedIn Ads Management
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/facebook-ads-management-services">
+                      <Link href="/facebook-ads-management-services" title="Facebook Ads Marketing">
                         Facebook Ads Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/instagram-ads-management-services">
+                      <Link href="/instagram-ads-management-services" title="Instagram Ads Management">
                         Instagram Ads Management
                       </Link>
                     </li>
@@ -669,6 +670,7 @@ export default function Header() {
                   <Link
                     href="/search-engine-optimization-seo-services"
                     data-bs-dismiss="offcanvas"
+                    title="SEO"
                   >
                     SEO
                   </Link>{" "}
@@ -690,30 +692,30 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/on-page-seo-services">
+                      <Link href="/on-page-seo-services" title="ON-Page SEO Services" >
                         ON-Page SEO Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/off-page-seo-services">
+                      <Link href="/off-page-seo-services" title="OFF-Page SEO Services">
                         OFF-Page SEO Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/e-commerce-seo-services">
+                      <Link href="/e-commerce-seo-services" title="E-Commerce SEO">
                         E-Commerce SEO
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/mobile-seo-services">Mobile SEO</Link>
+                      <Link href="/mobile-seo-services" title="Mobile SEO">Mobile SEO</Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/search-engine-optimization-outsourcing-seo-services">
+                      <Link href="/search-engine-optimization-outsourcing-seo-services" title="SEO Outsourcing">
                         SEO Outsourcing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/local-seo-services">Local SEO</Link>
+                      <Link href="/local-seo-services" title="Local SEO">Local SEO</Link>
                     </li>
                   </ul>
                 </li>
@@ -721,6 +723,7 @@ export default function Header() {
                   <Link
                     href="/social-media-optimization-services"
                     data-bs-dismiss="offcanvas"
+                    title="SMO"
                   >
                     SMO
                   </Link>{" "}
@@ -742,44 +745,45 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/social-media-optimization-services">
+                      <Link href="/social-media-optimization-services" title="Social Media Optimization">
                         Social Media Optimization
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/content-marketing-services">
+                      <Link href="/content-marketing-services" title="Content Marketing">
                         Content Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/digital-marketing-services">
+                      <Link href="/digital-marketing-services" title="Digital Marketing">
                         Digital Marketing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/online-reputation-management-services">
+                      <Link href="/online-reputation-management-services" title="Online Reputation Management Services">
                         Online Reputation Management Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/blog-management-services">
-                        Blog Management Service
+                      <Link href="/blog-management-services" title="Blog Management Services">
+                        Blog Management Services
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/influencer-marketing-services">
+                      <Link href="/influencer-marketing-services" title="Influencer Marketing">
                         Influencer Marketing
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/graphic-designing-services">Graphic Design</Link>
+                  <Link href="/graphic-designing-services" title="Graphic Design">Graphic Design</Link>
                 </li>
                 <li className="itemSub">
                   <Link
                     href="/website-designing-services"
                     data-bs-dismiss="offcanvas"
+                    title="Website Designing Services"
                   >
                     Website Designing Services
                   </Link>{" "}
@@ -801,44 +805,44 @@ export default function Header() {
                     data-bs-parent="#mobileSub"
                   >
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/corporate-website-designing-services">
+                      <Link href="/corporate-website-designing-services" title="Corporate Website Designing">
                         Corporate Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/responsive-website-designing-services">
+                      <Link href="/responsive-website-designing-services" title="Responsive Website Designing">
                         Responsive Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/e-commerce-website-design-development-services">
+                      <Link href="/e-commerce-website-design-development-services" title="E-commerce Website Designing">
                         E-commerce Website Designing
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/cms-website-design-development-services">
+                      <Link href="/cms-website-design-development-services" title="Content Management Systems">
                         Content Management Systems
                       </Link>
                     </li>
                     <li data-bs-dismiss="offcanvas">
-                      <Link href="/wordpress-website-design-development-services">
+                      <Link href="/wordpress-website-design-development-services" title="WordPress Website Design & Development">
                         WordPress Website Design & Development
                       </Link>
                     </li>
-                    <li data-bs-dismiss="offcanvas">
-                      <Link href="/custom-website-designing-services">
+                    <li data-bs-dismiss="offcanvas " >
+                      <Link href="/custom-website-designing-services" title="Custom Website Designing">
                         Custom Website Designing
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/website-development-services">
+                  <Link href="/website-development-services" title="Web Development">
                     Web Development
                   </Link>
                 </li>
                 <li data-bs-dismiss="offcanvas">
-                  <Link href="/software-development-services">
+                  <Link href="/software-development-services" title="Software Development">
                     Software Development
                   </Link>
                 </li>

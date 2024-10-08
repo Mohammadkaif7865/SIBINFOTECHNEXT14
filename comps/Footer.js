@@ -202,42 +202,66 @@ export default function Footer() {
                           <h4 className="fontHeading">Internet Marketing</h4>
                           <ul>
                             <li>
-                              <Link href="/social-media-optimization-services">
+                              <Link
+                                href="/social-media-optimization-services"
+                                title="Social Media Optimization"
+                              >
                                 Social Media Optimization
                               </Link>
                             </li>
                             <li>
-                              <Link href="/pay-per-click-ppc-management-services">
+                              <Link
+                                href="/pay-per-click-ppc-management-services"
+                                title="PPC Management"
+                              >
                                 PPC Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/search-engine-marketing-companies-mumbai-india">
+                              <Link
+                                href="/search-engine-marketing-companies-mumbai-india"
+                                title="Search Engine Marketing"
+                              >
                                 Search Engine Marketing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/online-reputation-management-services">
+                              <Link
+                                href="/online-reputation-management-services"
+                                title="Reputation Management"
+                              >
                                 Reputation Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/paid-inclusion-services-mumbai-india">
+                              <Link
+                                href="/paid-inclusion-services-mumbai-india"
+                                title="Paid Search Engine Inclusion"
+                              >
                                 Paid Search Engine Inclusion
                               </Link>
                             </li>
                             <li>
-                              <Link href="/email-marketing-services-companies-mumbai-india">
+                              <Link
+                                href="/email-marketing-services-companies-mumbai-india"
+                                title="Email Marketing"
+                              >
                                 Email Marketing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/press-release-submission-services">
+                              <Link
+                                href="/press-release-submission-services"
+                                title="PR Submission"
+                              >
                                 PR Submission
                               </Link>
                             </li>
                             <li>
-                              <Link href="/regional-local-seo-services">
+                              <Link
+                                href="/regional-local-seo-services"
+                                title="Google Local Listing"
+                              >
                                 Google Local Listing
                               </Link>
                             </li>
@@ -249,47 +273,74 @@ export default function Footer() {
                           <h4 className="fontHeading">Website Development</h4>
                           <ul>
                             <li>
-                              <Link href="/erp-crm-software-development-solutions">
+                              <Link
+                                href="/erp-crm-software-development-solutions"
+                                title="ERP & CRM Solutions"
+                              >
                                 ERP & CRM Solutions
                               </Link>
                             </li>
                             <li>
-                              <Link href="/custom-website-development-companies-mumbai-india">
+                              <Link
+                                href="/custom-website-development-companies-mumbai-india"
+                                title="Custom Web Development"
+                              >
                                 Custom Web Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/cms-development-companies-mumbai-india">
+                              <Link
+                                href="/cms-development-companies-mumbai-india"
+                                title="CMS Development Services"
+                              >
                                 CMS Development Services
                               </Link>
                             </li>
                             <li>
-                              <Link href="/magento-development-services-mumbai-india">
+                              <Link
+                                href="/magento-development-services-mumbai-india"
+                                title="Magento Development"
+                              >
                                 Magento Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/drupal-cms-framework-development-services">
+                              <Link
+                                href="/drupal-cms-framework-development-services"
+                                title="Drupal Development"
+                              >
                                 Drupal Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/wordpress-cms-website-development-companies-mumbai-india">
+                              <Link
+                                href="/wordpress-cms-website-development-companies-mumbai-india"
+                                title="WordPress Experts"
+                              >
                                 WordPress Experts
                               </Link>
                             </li>
                             <li>
-                              <Link href="/joomla-cms-framework-development-services">
+                              <Link
+                                href="/joomla-cms-framework-development-services"
+                                title="Joomla Development"
+                              >
                                 Joomla Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/webportal-development-companies-mumbai-india">
+                              <Link
+                                href="/webportal-development-companies-mumbai-india"
+                                title="Web Portal Development"
+                              >
                                 Web Portal Development
                               </Link>
                             </li>
                             <li>
-                              <Link href="/ecommerce-solutions-company-mumbai-india">
+                              <Link
+                                href="/ecommerce-solutions-company-mumbai-india"
+                                title="E-Commerce Solutions"
+                              >
                                 E-Commerce Solutions
                               </Link>
                             </li>
@@ -301,42 +352,66 @@ export default function Footer() {
                           <h4 className="fontHeading">Website Designing</h4>
                           <ul>
                             <li>
-                              <Link href="/cms-website-design-development-services">
+                              <Link
+                                href="/cms-website-design-development-services"
+                                title="CMS Based Website"
+                              >
                                 CMS Based Website
                               </Link>
                             </li>
                             <li>
-                              <Link href="/dynamic-website-designing-services">
+                              <Link
+                                href="/dynamic-website-designing-services"
+                                title="Dynamic Website Designing"
+                              >
                                 Dynamic Website Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-maintenance-services">
+                              <Link
+                                href="/website-maintenance-services"
+                                title="Website Maintenance"
+                              >
                                 Website Maintenance
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-redesigning-services">
+                              <Link
+                                href="/website-redesigning-services"
+                                title="Website Redesigning"
+                              >
                                 Website Redesigning
                               </Link>
                             </li>
                             <li>
-                              <Link href="/mobile-website-designing-services">
+                              <Link
+                                href="/mobile-website-designing-services"
+                                title="Mobile Website Designing"
+                              >
                                 Mobile Website Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/corporate-website-designing-services">
+                              <Link
+                                href="/corporate-website-designing-services"
+                                title="Corporate Web Designing"
+                              >
                                 Corporate Web Designing
                               </Link>
                             </li>
                             <li>
-                              <Link href="/website-audit-services-mumbai-india">
+                              <Link
+                                href="/website-audit-services-mumbai-india"
+                                title="Website Audit Report"
+                              >
                                 Website Audit Report
                               </Link>
                             </li>
                             <li>
-                              <Link href="/xhtml-conversion-services">
+                              <Link
+                                href="/xhtml-conversion-services"
+                                title="XHTML Conversion"
+                              >
                                 XHTML Conversion
                               </Link>
                             </li>
@@ -348,22 +423,34 @@ export default function Footer() {
                           <h4 className="fontHeading">PPC Management</h4>
                           <ul>
                             <li>
-                              <Link href="/google-ads-management-services">
+                              <Link
+                                href="/google-ads-management-services"
+                                title="Google Ads Management"
+                              >
                                 Google Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/linkedin-ads-management-services">
+                              <Link
+                                href="/linkedin-ads-management-services"
+                                title="Linkedin Ads Management"
+                              >
                                 Linkedin Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/instagram-ads-management-services">
+                              <Link
+                                href="/instagram-ads-management-services"
+                                title="Instagram Ads Management"
+                              >
                                 Instagram Ads Management
                               </Link>
                             </li>
                             <li>
-                              <Link href="/facebook-ads-management-services">
+                              <Link
+                                href="/facebook-ads-management-services"
+                                title="Facebook Ads Management"
+                              >
                                 Facebook Ads Management
                               </Link>
                             </li>
