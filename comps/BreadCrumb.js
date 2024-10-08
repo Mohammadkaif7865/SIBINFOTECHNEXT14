@@ -19,7 +19,7 @@ const Breadcrumb = () => {
           return (
             <li
               key={index}
-              className="breadcrumb-item py-2 d-flex text_truncate align-items-center fontHeading"
+              className="breadcrumb-item py-2 fontWeight600 d-flex text_truncate align-items-center fontHeading"
             >
               {/* <IoMdHome className="fs-4" /> */}
               Home
