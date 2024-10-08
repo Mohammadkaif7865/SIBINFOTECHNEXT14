@@ -9809,6 +9809,13 @@ color: #000;
   font-size: 13px;
 }
 
+/* pages breadcrumb */
+.text_truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 
 
 

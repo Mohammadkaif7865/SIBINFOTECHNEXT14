@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import { CustomLayout } from "@/comps/CustomLayout";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
@@ -45,6 +46,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">
@@ -64,6 +66,9 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +83,9 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

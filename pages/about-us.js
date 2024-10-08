@@ -1,26 +1,50 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function AboutUs() {
   const metaTags = (
     <>
       <title>About SIB Infotech | Top Digital Marketing Agency in India</title>
-      <meta name="description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
+      <meta
+        name="description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
       <meta name="keywords" content="Top Digital Marketing Agency in India" />
-     
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/about-us" />
-      <meta property="og:title" content="About SIB Infotech | Top Digital Marketing Agency in India" />
-      <meta property="og:description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta
+        property="og:title"
+        content="About SIB Infotech | Top Digital Marketing Agency in India"
+      />
+      <meta
+        property="og:description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/about-us" />
-      <meta property="twitter:title" content="About SIB Infotech | Top Digital Marketing Agency in India" />
-      <meta property="twitter:description" content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/about-us"
+      />
+      <meta
+        property="twitter:title"
+        content="About SIB Infotech | Top Digital Marketing Agency in India"
+      />
+      <meta
+        property="twitter:description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
     </>
   );
   const teamMembers = [
@@ -188,11 +212,9 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/zaroon-junaid.jpg",
       alt: "Zaroon Junaid",
     },
-  
   ];
   return (
     <CustomLayout meta={metaTags}>
-
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -237,6 +259,9 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -252,6 +277,10 @@ export default function AboutUs() {
           <BannerForm />
         </div>
       </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb />
+      </div>
+
       <section>
         <div className="containerFull">
           <h3 className="customHeading customLineHeight2 text-center">
@@ -344,7 +373,6 @@ export default function AboutUs() {
                 design skills, we craft digital experiences that resonate deeply
                 with people's interests and captivate their hearts.
               </p>
-         
             </div>
           </div>
           <div className="row mt-3 mt-lg-5">
