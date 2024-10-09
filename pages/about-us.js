@@ -2,8 +2,6 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Breadcrumb from "@/comps/BreadCrumb";
-import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-
 
 export default function AboutUs() {
   const metaTags = (
@@ -47,11 +45,32 @@ export default function AboutUs() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
       />
-      <BreadcrumbSchema
-          url="https://www.sibinfotech.com/about-us"
-         
-          breadcrumbTitle="About SIB Infotech "
-        />
+
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@id": "https://www.sibinfotech.com/",
+                name: "Home",
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@id": "https://www.sibinfotech.com/about-us",
+                name: "About SIB Infotech",
+              },
+            },
+            
+          ],
+        })}
+      </script>
     </>
   );
   const teamMembers = [
