@@ -1,8 +1,5 @@
 import Footer from "../comps/Footer";
 import Header from "../comps/Header";
-import { FaPhone } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
 
 import Script from "next/script";
 
