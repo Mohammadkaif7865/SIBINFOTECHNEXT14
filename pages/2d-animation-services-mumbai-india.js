@@ -3,6 +3,7 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import { CustomLayout } from "@/comps/CustomLayout";
 import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
@@ -23,6 +24,10 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <meta property="twitter:title" content="2D Animation Services Company Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+          url="https://www.sibinfotech.com/2d-animation-services-mumbai-india"
+          breadcrumbTitle="2D Animation Services Company Mumbai, India | SIB Infotech "
+        />
     </>
   );
   return (
@@ -67,7 +72,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb />
+        <Breadcrumb  Pagetitle={'2D Animation Services Company Mumbai, India | SIB Infotech'}/>
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -85,7 +90,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb />
+        <Breadcrumb  Pagetitle={'2D Animation Services Company Mumbai, India | SIB Infotech'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
