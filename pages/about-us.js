@@ -50,6 +50,9 @@ export default function AboutUs() {
       <BreadcrumbSchema
           url="https://www.sibinfotech.com/about-us"
           breadcrumbTitle="About SIB Infotech | Top Digital Marketing Agency in India "
+          // PageRatingSchema
+          // description
+          // reviewCount
         />
     </>
   );

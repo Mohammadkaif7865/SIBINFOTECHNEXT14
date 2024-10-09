@@ -24,6 +24,10 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
       <meta property="twitter:title" content="Affiliate Marketing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Maximize your revenue with an expert affiliate marketing services company in Mumbai. Drive traffic and boost sales with SIB Infotech. Get started today!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india"
+        breadcrumbTitle="Adobe AIR Development Services Company in Mumbai, India "
+      />
     </>
   );
   return (

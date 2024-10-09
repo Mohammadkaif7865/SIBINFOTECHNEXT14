@@ -35,8 +35,8 @@ export const CustomLayout = ({ children, meta }) => {
         <meta name="copyright" content="SIB Infotech" />
         <meta name="owner" content="SIB Infotech" />
 
-        {meta}
         <link rel="canonical" href={`https://www.sibinfotech.com${path}`} />
+        {meta}
       </Head>
 
       {children}

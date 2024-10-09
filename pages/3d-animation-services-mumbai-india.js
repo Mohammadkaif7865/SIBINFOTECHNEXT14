@@ -51,6 +51,11 @@ export default function ThreeDAnimationServices() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg"
       />
+       <BreadcrumbSchema
+          url="https://www.sibinfotech.com/3d-animation-services-mumbai-india"
+          breadcrumbTitle="3D Animation Services Company Mumbai, India | Sib Infotech"
+        />
+
     </>
   );
   return (
@@ -93,7 +98,7 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb />
+        <Breadcrumb Pagetitle={'3D Animation Services Company Mumbai, India | Sib Infotech'} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -111,7 +116,7 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb />
+        <Breadcrumb  Pagetitle={'3D Animation Services Company Mumbai, India | Sib Infotech'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
