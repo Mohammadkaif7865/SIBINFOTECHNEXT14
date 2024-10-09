@@ -3,25 +3,63 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ApiIntegrationServices() {
   const metaTags = (
     <>
       <title>Custom API Integration Services Company in Mumbai, India</title>
-      <meta name="description" content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!" />
+      <meta
+        name="description"
+        content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!"
+      />
       <meta name="keywords" content="API Integration Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/custom-api-integration-services" />
-      <meta property="og:title" content="Custom API Integration Services Company in Mumbai, India" />
-      <meta property="og:description" content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/custom-api-integration-services"
+      />
+      <meta
+        property="og:title"
+        content="Custom API Integration Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/custom-api-integration-services" />
-      <meta property="twitter:title" content="Custom API Integration Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/custom-api-integration-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Custom API Integration Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/custom-api-integration-services"
+        breadcrumbTitle="Custom API Integration Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Enhance your applications with custom API integration services in Mumbai, India by SIB Infotech. Streamline operations and improve connectivity. Contact now!"
+        }
+        reviewCount={"5174"}
+      />
     </>
   );
   return (
@@ -64,6 +102,11 @@ export default function ApiIntegrationServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={"Custom API Integration Services Company in Mumbai, India"}
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +121,11 @@ export default function ApiIntegrationServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={"Custom API Integration Services Company in Mumbai, India"}
+        />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

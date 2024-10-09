@@ -1,4 +1,3 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
@@ -7,21 +6,58 @@ export default function CorporateWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Corporate Website Designing Services India | SIB Infotech</title>
-      <meta name="description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
+      <meta
+        name="description"
+        content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image."
+      />
       <meta name="keywords" content="Corporate Website Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
-      <meta property="og:title" content="Corporate Website Designing Services India | SIB Infotech" />
-      <meta property="og:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/corporate-website-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Corporate Website Designing Services India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/corporate-website-designing-services" />
-      <meta property="twitter:title" content="Corporate Website Designing Services India | SIB Infotech" />
-      <meta property="twitter:description" content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg
-" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/corporate-website-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Corporate Website Designing Services India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg
+"
+      />
+
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/corporate-website-designing-services"
+        breadcrumbTitle="Corporate Website Designing Services India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Elevate your brand with corporate website designing services in India by SIB Infotech. Get a professional, user-friendly website to enhance your business image."
+        }
+        reviewCount={"5173"}
+      />
     </>
   );
   return (
@@ -69,6 +105,13 @@ export default function CorporateWebsiteDesigningServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={
+            'Corporate Website Designing Services India | SIB Infotech"'
+          }
+        />
+      </div>
       <div className="col-lg-5 pe-lg-5 d-block d-md-none">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -83,6 +126,13 @@ export default function CorporateWebsiteDesigningServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={
+            'Corporate Website Designing Services India | SIB Infotech"'
+          }
+        />
       </div>
       <section>
         <div className="containerFull">

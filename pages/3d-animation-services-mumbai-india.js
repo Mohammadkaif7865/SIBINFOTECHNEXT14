@@ -1,7 +1,7 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Breadcrumb from "@/comps/BreadCrumb";
+import Breadcrumb from "@/comps/Breadcrumb";
 
 export default function ThreeDAnimationServices() {
   const metaTags = (
@@ -51,11 +51,15 @@ export default function ThreeDAnimationServices() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg"
       />
-       <BreadcrumbSchema
-          url="https://www.sibinfotech.com/3d-animation-services-mumbai-india"
-          breadcrumbTitle="3D Animation Services Company Mumbai, India | Sib Infotech"
-        />
-
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/3d-animation-services-mumbai-india"
+        breadcrumbTitle="3D Animation Services Company Mumbai, India | Sib Infotech"
+        PageRatingSchema
+        description={
+          "Bring your ideas to life with professional 3D animation services in Mumbai from SIB Infotech. Engage audiences and enhance your projects. Get a quote today!"
+        }
+        reviewCount={"5156"}
+      />
     </>
   );
   return (
@@ -98,7 +102,11 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'3D Animation Services Company Mumbai, India | Sib Infotech'} />
+        <Breadcrumb
+          Pagetitle={
+            "3D Animation Services Company Mumbai, India | Sib Infotech"
+          }
+        />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -116,7 +124,11 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetitle={'3D Animation Services Company Mumbai, India | Sib Infotech'} />
+        <Breadcrumb
+          Pagetitle={
+            "3D Animation Services Company Mumbai, India | Sib Infotech"
+          }
+        />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

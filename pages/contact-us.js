@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import ContactForm from "@/comps/ContactForm";
 import { CustomLayout } from "@/comps/CustomLayout";
 
@@ -19,6 +20,11 @@ const Contact = () => {
       <meta property="twitter:title" content="Contact SIB Infotech | Expert Digital Marketing Solutions" />
       <meta property="twitter:description" content="Get in touch with SIB Infotech for top-notch digital marketing solutions. Our dedicated marketing team is here to help with your SEO needs. Contact us today!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/contact-us"
+        breadcrumbTitle="Contact SIB Infotech | Expert Digital Marketing Solutions"
+       
+      />
     </>
   );
   return (

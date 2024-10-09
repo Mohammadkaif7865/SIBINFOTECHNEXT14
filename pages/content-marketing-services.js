@@ -1,27 +1,67 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ContentMarketingServices() {
   const metaTags = (
     <>
       <title>Content Marketing Services Agency in India | SIB Infotech</title>
-      <meta name="description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
-      <meta name="keywords" content="Content Marketing Services, Content Marketing Agency, Content Marketing, Digital Content Marketing, Content Marketing Company, SEO Content Marketing, SEO Content Creation" />
+      <meta
+        name="description"
+        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+      />
+      <meta
+        name="keywords"
+        content="Content Marketing Services, Content Marketing Agency, Content Marketing, Digital Content Marketing, Content Marketing Company, SEO Content Marketing, SEO Content Creation"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/content-marketing-services" />
-      <meta property="og:title" content="Content Marketing Services Agency in India | SIB Infotech" />
-      <meta property="og:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/content-marketing-services"
+      />
+      <meta
+        property="og:title"
+        content="Content Marketing Services Agency in India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/content-marketing-services" />
-      <meta property="twitter:title" content="Content Marketing Services Agency in India | SIB Infotech" />
-      <meta property="twitter:description" content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg
-" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/content-marketing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Content Marketing Services Agency in India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg
+"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/content-marketing-services"
+        breadcrumbTitle="Content Marketing Services Agency in India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+        }
+        reviewCount={"5171"}
+      />
     </>
   );
   return (
@@ -63,6 +103,13 @@ export default function ContentMarketingServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={
+            "Content Marketing Services Agency in India | SIB Infotech"
+          }
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -77,6 +124,13 @@ export default function ContentMarketingServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={
+            "Content Marketing Services Agency in India | SIB Infotech"
+          }
+        />
       </div>
       <section>
         <div className="containerFull">

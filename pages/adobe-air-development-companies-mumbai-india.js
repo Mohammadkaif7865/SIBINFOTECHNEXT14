@@ -2,7 +2,7 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Breadcrumb from "@/comps/BreadCrumb";
+import Breadcrumb from "@/comps/Breadcrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
@@ -56,6 +56,9 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india"
         breadcrumbTitle="Adobe AIR Development Services Company in Mumbai, India "
+         PageRatingSchema
+          description={'Leverage cross-platform apps with Adobe AIR development services in India by SIB Infotech. Build dynamic, high-performance apps for desktop, mobile, and web.'}
+          reviewCount={'5157'}
       />
     </>
   );

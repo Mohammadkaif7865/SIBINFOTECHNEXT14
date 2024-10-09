@@ -4,25 +4,68 @@ import Link from "next/link";
 import BannerForm from "@/comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function CustomWebDevelopment() {
   const metaTags = (
     <>
-      <title>Custom Website Development Development Company in Mumbai, India</title>
-      <meta name="description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
-      <meta name="keywords" content="custom web development services,custom web development service,offshore custom web development,custom web development companies,custom web development company,custom web development india,custom web development delhi,custom web development mumbai,custom w" />
+      <title>
+        Custom Website Development Development Company in Mumbai, India
+      </title>
+      <meta
+        name="description"
+        content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!"
+      />
+      <meta
+        name="keywords"
+        content="custom web development services,custom web development service,offshore custom web development,custom web development companies,custom web development company,custom web development india,custom web development delhi,custom web development mumbai,custom w"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
-      <meta property="og:title" content="Custom Website Development Development Company in Mumbai, India" />
-      <meta property="og:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Custom Website Development Development Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india" />
-      <meta property="twitter:title" content="Custom Website Development Development Company in Mumbai, India" />
-      <meta property="twitter:description" content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Custom Website Development Development Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"
+        breadcrumbTitle="Custom Website Development Development Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Partner with SIB Infotech for custom website development in Mumbai, India. We specialize in creating bespoke websites for your business needs. Contact today!"
+        }
+        reviewCount={"5177"}
+      />
     </>
   );
   return (
@@ -65,6 +108,13 @@ export default function CustomWebDevelopment() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={
+            "Custom Website Development Development Company in Mumbai, India"
+          }
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -79,6 +129,13 @@ export default function CustomWebDevelopment() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={
+            "Custom Website Development Development Company in Mumbai, India"
+          }
+        />
       </div>
       <section className="mobile-none">
         <div className="containerFull">

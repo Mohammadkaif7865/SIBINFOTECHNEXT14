@@ -4,25 +4,65 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function CustomCalculatorDevelopmentServices() {
   const metaTags = (
     <>
       <title>Custom Calculator Development Services in Mumbai, India</title>
-      <meta name="description" content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech." />
-      <meta name="keywords" content="Custom Calculator, Mortgage Calculator, Automotive calculators, Real estate calculators, Restaurant calculators, ROI calculators, Loan & debt calculators, Cost calculators, Savings calculators, Online store calculators, Finance calculators, Health and med" />
+      <meta
+        name="description"
+        content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech."
+      />
+      <meta
+        name="keywords"
+        content="Custom Calculator, Mortgage Calculator, Automotive calculators, Real estate calculators, Restaurant calculators, ROI calculators, Loan & debt calculators, Cost calculators, Savings calculators, Online store calculators, Finance calculators, Health and med"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/custom-calculator-development-services" />
-      <meta property="og:title" content="Custom Calculator Development Services in Mumbai, India" />
-      <meta property="og:description" content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/custom-calculator-development-services"
+      />
+      <meta
+        property="og:title"
+        content="Custom Calculator Development Services in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/custom-calculator-development-services" />
-      <meta property="twitter:title" content="Custom Calculator Development Services in Mumbai, India" />
-      <meta property="twitter:description" content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/custom-calculator-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Custom Calculator Development Services in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/corporate-branding-service-mumbai-india"
+        breadcrumbTitle="Custom Calculator Development Services in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech."
+        }
+        reviewCount={"5175"}
+      />
     </>
   );
   return (
@@ -67,6 +107,9 @@ export default function CustomCalculatorDevelopmentServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'Custom Calculator Development Services in Mumbai, India'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -82,6 +125,11 @@ export default function CustomCalculatorDevelopmentServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={"Custom Calculator Development Services in Mumbai, India"}
+        />
       </div>
       <section>
         <div className="containerFull">

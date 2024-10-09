@@ -1,26 +1,67 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/Breadcrumb";
 
 export default function ArticleSubmissionServices() {
   const metaTags = (
     <>
       <title>Article Submission Services Company in Mumbai, India</title>
-      <meta name="description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
-      <meta name="keywords" content="
-article submission service,article submission services,manual article submission,seo article submission,manual article submission service,article submission india,article submission delhi,article submission mumbai,article submission chennai,article submis" />
+      <meta
+        name="description"
+        content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution."
+      />
+      <meta
+        name="keywords"
+        content="
+article submission service,article submission services,manual article submission,seo article submission,manual article submission service,article submission india,article submission delhi,article submission mumbai,article submission chennai,article submis"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/article-submission-services" />
-      <meta property="og:title" content="Article Submission Services Company in Mumbai, India" />
-      <meta property="og:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/article-submission-services"
+      />
+      <meta
+        property="og:title"
+        content="Article Submission Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/article-submission-services" />
-      <meta property="twitter:title" content="Article Submission Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/article-submission-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Article Submission Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/article-submission-services"
+        breadcrumbTitle="Article Submission Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution."
+        }
+        reviewCount={"5162"}
+      />
     </>
   );
   return (
@@ -62,6 +103,11 @@ article submission service,article submission services,manual article submission
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={"Article Submission Services Company in Mumbai, India"}
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -76,6 +122,11 @@ article submission service,article submission services,manual article submission
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={"Article Submission Services Company in Mumbai, India"}
+        />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

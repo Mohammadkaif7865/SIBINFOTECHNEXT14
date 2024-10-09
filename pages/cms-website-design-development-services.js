@@ -1,26 +1,67 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CmsDevelopementServices() {
   const metaTags = (
     <>
       <title>CMS Website Design & Development Services | SIB Infotech</title>
-      <meta name="description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
-      <meta name="keywords" content="Content Management System - CMS Based Website Development Services " />
+      <meta
+        name="description"
+        content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs."
+      />
+      <meta
+        name="keywords"
+        content="Content Management System - CMS Based Website Development Services "
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
-      <meta property="og:title" content="CMS Website Design & Development Services | SIB Infotech" />
-      <meta property="og:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/cms-website-design-development-services"
+      />
+      <meta
+        property="og:title"
+        content="CMS Website Design & Development Services | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/cms-website-design-development-services" />
-      <meta property="twitter:title" content="CMS Website Design & Development Services | SIB Infotech" />
-      <meta property="twitter:description" content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg
-" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/cms-website-design-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="CMS Website Design & Development Services | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/cms-website-design-development-services"
+        breadcrumbTitle="CMS Website Design & Development Services | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Get professional CMS website design and development services in India. SIB Infotech creates dynamic, user-friendly websites tailored to your business needs."
+        }
+        reviewCount={"5169"}
+      />
     </>
   );
   return (
@@ -66,6 +107,9 @@ export default function CmsDevelopementServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'CMS Website Design & Development Services | SIB Infotech'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -80,6 +124,9 @@ export default function CmsDevelopementServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'CMS Website Design & Development Services | SIB Infotech'} />
       </div>
       <section>
         <div className="containerFull">

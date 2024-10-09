@@ -1,4 +1,5 @@
-
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 
@@ -6,20 +7,52 @@ export default function CookiesPolicy() {
   const metaTags = (
     <>
       <title>Cookie Policy | Data Usage and Privacy | SIB Infotech</title>
-      <meta name="description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
+      <meta
+        name="description"
+        content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us."
+      />
       <meta name="keywords" content="Cookies Policy" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/cookie-policy" />
-      <meta property="og:title" content="Cookie Policy | Data Usage and Privacy | SIB Infotech" />
-      <meta property="og:description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/cookie-policy"
+      />
+      <meta
+        property="og:title"
+        content="Cookie Policy | Data Usage and Privacy | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/cookie-policy" />
-      <meta property="twitter:title" content="Cookie Policy | Data Usage and Privacy | SIB Infotech" />
-      <meta property="twitter:description" content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/cookie-policy"
+      />
+      <meta
+        property="twitter:title"
+        content="Cookie Policy | Data Usage and Privacy | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Read the Cookie Policy of SIB Infotech to understand how we use cookies to enhance your experience and protect your data. Your privacy matters to us."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/cookie-policy"
+        breadcrumbTitle="Cookie Policy | Data Usage and Privacy | SIB Infotech"
+ 
+      />
     </>
   );
   return (
@@ -49,6 +82,11 @@ export default function CookiesPolicy() {
           </div>
         </div>
       </div>
+
+      <Breadcrumb
+        Pagetitle={"Cookie Policy | Data Usage and Privacy | SIB Infotech"}
+      />
+
       <section id="sib-custom-page" className="PrivacyPolicy">
         <div className="containerFull">
           <div className="custom-page-icon-box icon-with-title">
