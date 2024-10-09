@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Breadcrumb from "@/comps/BreadCrumb";
-import BreadcrumbSchema from "@/comps/BreadCrumbSchema";
+import BreadcrumbSchema from "../comps/BreadCrumbSchema";
 
 export default function AboutUs() {
   const metaTags = (
