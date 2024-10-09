@@ -45,6 +45,32 @@ export default function AboutUs() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
       />
+
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@id": "https://www.sibinfotech.com/",
+                name: "Home",
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@id": "https://www.sibinfotech.com/about-us",
+                name: "About SIB Infotech",
+              },
+            },
+            
+          ],
+        })}
+      </script>
     </>
   );
   const teamMembers = [
@@ -260,7 +286,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb />
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -278,7 +304,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb />
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
       </div>
 
       <section>
