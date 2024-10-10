@@ -4,7 +4,7 @@ import Link from "next/link";
 import BannerForm from "@/comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
-import Breadcrumb from "@/comps/BreadCrumb";
+import Breadcrumb from "@/comps/BreadCrumb"
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function CustomWebDevelopment() {

@@ -5,7 +5,7 @@ import BannerForm from "../comps/BannerForm";
 
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/Breadcrumb";
+import Breadcrumb from "@/comps/BreadCrumb"
 
 export default function AmazonWebServicesAws() {
   const metaTags = (

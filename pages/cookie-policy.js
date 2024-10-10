@@ -1,4 +1,4 @@
-import Breadcrumb from "@/comps/BreadCrumb";
+import Breadcrumb from "@/comps/BreadCrumb"
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";

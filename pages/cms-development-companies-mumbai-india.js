@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb";
+import Breadcrumb from "@/comps/BreadCrumb"
 
 export default function CmsDevelopmentCompaniesMumbai() {
   const metaTags = (
