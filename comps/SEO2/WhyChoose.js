@@ -24,7 +24,7 @@ const WhyChoose = () => {
                 We are more than just a SEO Company
               </h4>
               <p className="mt-3">
-                As a leading SEO marketing agency in India, we pride ourselves on a
+                As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a
                 remarkable track record, successfully managing over{" "}
                 <strong>1350+ projects</strong> within distinct niches. Our
                 dedicated teams specialize in various sectors, ensuring
