@@ -1,4 +1,6 @@
 import BannerForm from "@/comps/BannerForm";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import Head from "next/head";
 import Link from "next/link";
@@ -22,6 +24,16 @@ export default function EcommercePortalDevelopment() {
       <meta property="twitter:title" content="eCommerce Portal Development Services India | SIB Infotech" />
       <meta property="twitter:description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg" />
+   
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/ecommerce-portal-development"
+        breadcrumbTitle="eCommerce Portal Development Services India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales."
+        }
+        reviewCount={"5189"}
+      />
     </>
   );
   return (
@@ -66,6 +78,9 @@ export default function EcommercePortalDevelopment() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'eCommerce Portal Development'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -81,6 +96,9 @@ export default function EcommercePortalDevelopment() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'eCommerce Portal Development'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

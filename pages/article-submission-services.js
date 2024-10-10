@@ -105,7 +105,7 @@ article submission service,article submission services,manual article submission
       </div>
       <div className=" d-lg-none">
         <Breadcrumb
-          Pagetitle={"Article Submission Services Company in Mumbai, India"}
+          Pagetitle={"Article Submission Services"}
         />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
@@ -125,7 +125,7 @@ article submission service,article submission services,manual article submission
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagetitle={"Article Submission Services Company in Mumbai, India"}
+          Pagetitle={"Article Submission Services"}
         />
       </div>
       <section id="sib-custom-page">

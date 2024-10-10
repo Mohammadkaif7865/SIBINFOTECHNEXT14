@@ -108,7 +108,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
       <div className=" d-lg-none">
         <Breadcrumb
           Pagetitle={
-            "AJAX Development Services in Mumbai, India | SIB Infotech"
+            "AJAX Development Services"
           }
         />
       </div>
@@ -132,7 +132,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
       <div className="d-none d-lg-block">
         <Breadcrumb
           Pagetitle={
-            "AJAX Development Services in Mumbai, India | SIB Infotech"
+            "AJAX Development Services"
           }
         />
       </div>

@@ -104,7 +104,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className=" d-lg-none">
-      <Breadcrumb Pagetitle={'Best Amazon Web Services (AWS) Solutions | SIB Infotech'} />
+      <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
@@ -122,7 +122,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Best Amazon Web Services (AWS) Solutions | SIB Infotech'} />
+        <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

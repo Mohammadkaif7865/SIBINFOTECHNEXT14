@@ -109,7 +109,7 @@ export default function BlogManagementServices() {
       <div className=" d-lg-none">
         <Breadcrumb
           Pagetitle={
-            "Professional Blog Management Services Company Mumbai, India"
+            "Professional Blog Management"
           }
         />
       </div>
@@ -131,7 +131,7 @@ export default function BlogManagementServices() {
       <div className="d-none d-lg-block">
         <Breadcrumb
           Pagetitle={
-            "Professional Blog Management Services Company Mumbai, India"
+            "Professional Blog Management"
           }
         />
       </div>

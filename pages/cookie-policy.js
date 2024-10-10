@@ -84,7 +84,7 @@ export default function CookiesPolicy() {
       </div>
 
       <Breadcrumb
-        Pagetitle={"Cookie Policy | Data Usage and Privacy | SIB Infotech"}
+        Pagetitle={"Cookie Policy "}
       />
 
       <section id="sib-custom-page" className="PrivacyPolicy">

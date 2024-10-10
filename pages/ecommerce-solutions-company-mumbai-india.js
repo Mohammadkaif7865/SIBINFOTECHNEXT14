@@ -3,25 +3,66 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function EcommerceSolutionCompaniesMumbai() {
   const metaTags = (
     <>
       <title>Top E-commerce Solutions Provider Company in Mumbai, India</title>
-      <meta name="description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
-      <meta name="keywords" content="offshore e-commerce solutions,e-commerce solutions companies,e-commerce solutions company,e-commerce solutions india,e-commerce solutions delhi,e-commerce solutions mumbai,e-commerce solutions chennai,e-commerce solutions bangalore,e-commerce solutions pu" />
+      <meta
+        name="description"
+        content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more."
+      />
+      <meta
+        name="keywords"
+        content="offshore e-commerce solutions,e-commerce solutions companies,e-commerce solutions company,e-commerce solutions india,e-commerce solutions delhi,e-commerce solutions mumbai,e-commerce solutions chennai,e-commerce solutions bangalore,e-commerce solutions pu"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
-      <meta property="og:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
-      <meta property="og:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Top E-commerce Solutions Provider Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india" />
-      <meta property="twitter:title" content="Top E-commerce Solutions Provider Company in Mumbai, India" />
-      <meta property="twitter:description" content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Top E-commerce Solutions Provider Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india"
+        breadcrumbTitle="Top E-commerce Solutions Provider Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "SIB Infotech provides innovative e-commerce web design and e-commerce development Solutions. Get expert web development, payment gateway integration, and more."
+        }
+        reviewCount={"5191"}
+      />
     </>
   );
   return (
@@ -64,6 +105,13 @@ export default function EcommerceSolutionCompaniesMumbai() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={
+            "E-commerce Solutions Provider"
+          }
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +126,13 @@ export default function EcommerceSolutionCompaniesMumbai() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={
+            "E-commerce Solutions Provider"
+          }
+        />
       </div>
       <section>
         <div className="containerFull">

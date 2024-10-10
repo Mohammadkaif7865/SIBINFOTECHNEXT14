@@ -109,7 +109,7 @@ export default function CustomCalculatorDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'Custom Calculator Development Services in Mumbai, India'} />
+        <Breadcrumb Pagetitle={'Custom Calculator Development'} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -129,7 +129,7 @@ export default function CustomCalculatorDevelopmentServices() {
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagetitle={"Custom Calculator Development Services in Mumbai, India"}
+          Pagetitle={"Custom Calculator Development"}
         />
       </div>
       <section>

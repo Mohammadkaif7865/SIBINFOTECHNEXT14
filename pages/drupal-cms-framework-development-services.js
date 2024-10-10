@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function DrupalCmsDevelopmentServices() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function DrupalCmsDevelopmentServices() {
       <meta property="twitter:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/drupal-cms-framework-development-services"
+        breadcrumbTitle="Drupal CMS Development Services Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!"
+        }
+        reviewCount={"5184"}
+      />
     </>
   );
   return (
@@ -66,6 +77,9 @@ export default function DrupalCmsDevelopmentServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb  Pagetitle={'Drupal CMS Development'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -81,6 +95,9 @@ export default function DrupalCmsDevelopmentServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb  Pagetitle="Drupal CMS Development" />
       </div>
       <section>
         <div className="containerFull">

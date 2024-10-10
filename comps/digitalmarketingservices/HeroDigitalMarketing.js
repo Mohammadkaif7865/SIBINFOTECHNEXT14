@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import BannerForm from "../BannerForm";
+import Breadcrumb from "../BreadCrumb";
 
 const HeroDigitalMarketing = () => {
   return (
@@ -22,7 +23,7 @@ const HeroDigitalMarketing = () => {
                 <p className="text-white mt-2 title bulletPoint fw-bold">
                   Converting clicks to customers
                 </p>
-           
+
                 <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
@@ -56,6 +57,13 @@ const HeroDigitalMarketing = () => {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={
+            "Digital Marketing Services"
+          }
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -70,6 +78,13 @@ const HeroDigitalMarketing = () => {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={
+            "Digital Marketing Services"
+          }
+        />
       </div>
     </>
   );

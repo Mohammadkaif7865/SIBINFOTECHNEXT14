@@ -2,6 +2,8 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function EcommerceWebsiteDesignDevelopmentServices() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
       <meta property="twitter:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
 " />
+     <BreadcrumbSchema
+        url="https://www.sibinfotech.com/e-commerce-website-design-development-services"
+        breadcrumbTitle="E-commerce Website Design & Development Company in Mumbai"
+        PageRatingSchema
+        description={
+          "Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+        }
+        reviewCount={"5187"}
+      />
     </>
   );
   return (
@@ -66,6 +77,9 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'}/>
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -79,8 +93,11 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               Company in India
             </strong>
           </p>
-          <BannerForm />
+          <BannerForm  />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'} />
       </div>
       <section className="customPadding">
         <div className="containerFull">

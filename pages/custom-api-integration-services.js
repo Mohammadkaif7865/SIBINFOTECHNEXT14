@@ -104,7 +104,7 @@ export default function ApiIntegrationServices() {
       </div>
       <div className=" d-lg-none">
         <Breadcrumb
-          Pagetitle={"Custom API Integration Services Company in Mumbai, India"}
+          Pagetitle={"Custom API Integration"}
         />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
@@ -124,7 +124,7 @@ export default function ApiIntegrationServices() {
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagetitle={"Custom API Integration Services Company in Mumbai, India"}
+          Pagetitle={"Custom API Integration"}
         />
       </div>
       <section id="sib-custom-page">

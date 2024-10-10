@@ -269,7 +269,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={"About SIB Infotech | Top Digital Marketing Agency in India"} />
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -287,7 +287,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={"About SIB Infotech | Top Digital Marketing Agency in India"} />
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
       </div>
 
       <section>

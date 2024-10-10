@@ -4,6 +4,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function Dba2DbaServicesAdministration() {
   const metaTags = (
@@ -23,6 +25,15 @@ export default function Dba2DbaServicesAdministration() {
       <meta property="twitter:title" content="DB2 DBA Services & Administration in India | SIB Infotech" />
       <meta property="twitter:description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/db2-dba-services-administration.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/db2-dba-services-administration"
+        breadcrumbTitle="DB2 DBA Services & Administration in India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs."
+        }
+        reviewCount={"5179"}
+      />
     </>
   );
   return (
@@ -67,6 +78,9 @@ export default function Dba2DbaServicesAdministration() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'DB2 DBA Services & Administration'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -84,6 +98,9 @@ export default function Dba2DbaServicesAdministration() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'DB2 DBA Services & Administration'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

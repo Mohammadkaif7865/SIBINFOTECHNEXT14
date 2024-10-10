@@ -1,4 +1,5 @@
-  import { CustomLayout } from "@/comps/CustomLayout";
+  import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import { CustomLayout } from "@/comps/CustomLayout";
 import DigitalMarkServices from "@/comps/digitalmarketingservices/DigitalMarkServices";
 import "aos/dist/aos.css";
 
@@ -21,6 +22,15 @@ export default function DigitalMarketingServices() {
       <meta property="twitter:title" content="Top Digital Marketing Services Agency Mumbai, Delhi, India" />
       <meta property="twitter:description" content="SIB Infotech is a leading digital marketing company in Mumbai, India. Get tailored strategies to boost your online visibility, traffic, leads, and conversions." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/digital-marketing-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/digital-marketing-services"
+        breadcrumbTitle="Top Digital Marketing Services Agency Mumbai, Delhi, India"
+        PageRatingSchema
+        description={
+          "SIB Infotech is a leading digital marketing company in Mumbai, India. Get tailored strategies to boost your online visibility, traffic, leads, and conversions."
+        }
+        reviewCount={"5182"}
+      />
     </>
   );
 

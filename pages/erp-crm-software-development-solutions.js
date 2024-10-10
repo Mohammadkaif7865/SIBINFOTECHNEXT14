@@ -4,6 +4,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ErpCrmSoftwareDevelopmentSolution() {
   const metaTags = (
@@ -23,6 +25,15 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
       <meta property="twitter:title" content="Best ERP & CRM Software Development Solutions Services India" />
       <meta property="twitter:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/erp-crm-software-development-solutions"
+        breadcrumbTitle="Best ERP & CRM Software Development Solutions Services India"
+        PageRatingSchema
+        description={
+          "Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+        }
+        reviewCount={"5193"}
+      />
     </>
   );
   return (
@@ -67,6 +78,9 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'ERP & CRM Software Development'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -81,6 +95,9 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'ERP & CRM Software Development'} />
       </div>
       <section>
         <div className="containerFull">

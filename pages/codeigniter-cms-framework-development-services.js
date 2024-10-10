@@ -102,7 +102,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
       </div>
       <div className=" d-lg-none">
         <Breadcrumb
-          Pagetitle={"CodeIgniter CMS Development Services | SIB Infotech"}
+          Pagetitle={"CodeIgniter CMS Development"}
         />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
@@ -122,7 +122,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagetitle={"CodeIgniter CMS Development Services | SIB Infotech"}
+          Pagetitle={"CodeIgniter CMS Development"}
         />
       </div>
       <section>

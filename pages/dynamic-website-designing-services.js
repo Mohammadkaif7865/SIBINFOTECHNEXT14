@@ -2,6 +2,8 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function DynamicWebsiteDesigningServices() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function DynamicWebsiteDesigningServices() {
       <meta property="twitter:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
       <meta property="twitter:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/dynamic-website-designing-services"
+        breadcrumbTitle="Dynamic Website Designing Services in India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!"
+        }
+        reviewCount={"5185"}
+      />
     </>
   );
   return (
@@ -65,6 +76,9 @@ export default function DynamicWebsiteDesigningServices() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={'Dynamic Website Designing'} />
+      </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -79,6 +93,9 @@ export default function DynamicWebsiteDesigningServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'Dynamic Website Designing'} />
       </div>
       <section>
         <div className="containerFull">

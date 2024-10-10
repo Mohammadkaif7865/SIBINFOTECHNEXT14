@@ -100,7 +100,7 @@ export default function Career() {
                 </div> */}
       </div>
 
-      <Breadcrumb  Pagetitle={'Careers at SIB Infotech | Current Jobs Openings'} />
+      <Breadcrumb  Pagetitle={'Careers at SIB Infotech'} />
       <section id="openings">
         <div className="container">
           <div className="opening_wrap">

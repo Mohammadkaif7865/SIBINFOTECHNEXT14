@@ -108,7 +108,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <div className=" d-lg-none">
         <Breadcrumb
           Pagetitle={
-            "2D Animation Services Company Mumbai, India | SIB Infotech"
+            "2D Animation Services"
           }
         />
       </div>
@@ -130,7 +130,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <div className="d-none d-lg-block">
         <Breadcrumb
           Pagetitle={
-            "2D Animation Services Company Mumbai, India | SIB Infotech"
+            "2D Animation Services "
           }
         />
       </div>

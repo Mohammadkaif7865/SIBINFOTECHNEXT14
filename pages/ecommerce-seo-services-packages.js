@@ -1,26 +1,63 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function EcommerceSeoServicesPackages() {
   const metaTags = (
     <>
       <title>E-commerce SEO Packages | Boost Online Sales</title>
-      <meta name="description" content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions." />
+      <meta
+        name="description"
+        content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions."
+      />
       <meta name="keywords" content="E-commerce Package" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-seo-services-packages" />
-      <meta property="og:title" content="E-commerce SEO Packages | Boost Online Sales" />
-      <meta property="og:description" content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/ecommerce-seo-services-packages"
+      />
+      <meta
+        property="og:title"
+        content="E-commerce SEO Packages | Boost Online Sales"
+      />
+      <meta
+        property="og:description"
+        content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-seo-services-packages" />
-      <meta property="twitter:title" content="E-commerce SEO Packages | Boost Online Sales" />
-      <meta property="twitter:description" content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/ecommerce-seo-services-packages"
+      />
+      <meta
+        property="twitter:title"
+        content="E-commerce SEO Packages | Boost Online Sales"
+      />
+      <meta
+        property="twitter:description"
+        content="Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/ecommerce-portal-development"
+        breadcrumbTitle="E-commerce SEO Packages | Boost Online Sales"
+        PageRatingSchema
+        description={
+          "Drive more traffic and increase sales with tailored e-commerce SEO packages by SIB Infotech. Optimize your online store for better visibility and conversions."
+        }
+        reviewCount={"5190"}
+      />
     </>
   );
   return (
@@ -67,6 +104,11 @@ export default function EcommerceSeoServicesPackages() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+          Pagetitle={"E-commerce SEO Packages"}
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -81,6 +123,11 @@ export default function EcommerceSeoServicesPackages() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb
+          Pagetitle={"E-commerce SEO Packages"}
+        />
       </div>
       <section className="customPadding">
         <div className="containerFull">

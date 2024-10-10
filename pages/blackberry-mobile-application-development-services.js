@@ -110,7 +110,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
         <div className=" d-lg-none">
           <Breadcrumb
             Pagetitle={
-              "Blackberry Mobile Application Development Services India"
+              "Blackberry Mobile Application "
             }
           />
         </div>
@@ -135,7 +135,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagetitle={"Blackberry Mobile Application Development Services India"}
+          Pagetitle={"Blackberry Mobile Application "}
         />
       </div>
       <section id="sib-custom-page">

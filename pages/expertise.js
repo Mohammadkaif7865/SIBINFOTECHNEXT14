@@ -9,20 +9,54 @@ export default function Expertise() {
   const metaTags = (
     <>
       <title>Expert Digital Solutions & Web Services | SIB Infotech</title>
-      <meta name="description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
+      <meta
+        name="description"
+        content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth."
+      />
       <meta name="keywords" content="Our Expertise" />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/expertise" />
-      <meta property="og:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
-      <meta property="og:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/expertise.jpg" />
+      <meta
+        property="og:title"
+        content="Expert Digital Solutions & Web Services | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/expertise.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/expertise" />
-      <meta property="twitter:title" content="Expert Digital Solutions & Web Services | SIB Infotech" />
-      <meta property="twitter:description" content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/expertise.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/expertise"
+      />
+      <meta
+        property="twitter:title"
+        content="Expert Digital Solutions & Web Services | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/expertise.jpg"
+      />
+
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/erp-crm-software-development-solutions"
+        breadcrumbTitle="Best ERP & CRM Software Development Solutions Services India"
+        PageRatingSchema
+        description={
+          "Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+        }
+        reviewCount={"5193"}
+      />
     </>
   );
   return (
@@ -64,6 +98,9 @@ export default function Expertise() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={"Our Expertise"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +115,9 @@ export default function Expertise() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Our Expertise"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
 import { CustomLayout } from '@/comps/CustomLayout';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function EcommerceMarketingCompanyMumbai() {
    const metaTags = (
@@ -24,6 +26,15 @@ export default function EcommerceMarketingCompanyMumbai() {
         <meta property="twitter:title" content="eCommerce Marketing Companies in Mumbai | SIB Infotech" />
         <meta property="twitter:description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
         <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-marketing-companies-mumbai-india.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india"
+        breadcrumbTitle="eCommerce Marketing Companies in Mumbai | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales."
+        }
+        reviewCount={"5188"}
+      />
       </>
     );
     return (
@@ -50,6 +61,9 @@ export default function EcommerceMarketingCompanyMumbai() {
                </div>
             </div>
         </div>
+        <div className=" d-lg-none">
+        <Breadcrumb  Pagetitle={'E-Commerce Marketing Companies'}/>
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                   <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -57,6 +71,9 @@ export default function EcommerceMarketingCompanyMumbai() {
                   <BannerForm/>
             </div>
          </div>
+         <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'E-Commerce Marketing Companies'} />
+      </div>
         <section>
           <div className="containerFull">
            <h2 className="customHeading customLineHeight text-center">
