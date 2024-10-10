@@ -4,6 +4,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function Expertise() {
   const metaTags = (
@@ -49,13 +51,13 @@ export default function Expertise() {
       />
 
       <BreadcrumbSchema
-        url="https://www.sibinfotech.com/erp-crm-software-development-solutions"
-        breadcrumbTitle="Best ERP & CRM Software Development Solutions Services India"
+        url="https://www.sibinfotech.com/expertise"
+        breadcrumbTitle="Expert Digital Solutions & Web Services | SIB Infotech"
         PageRatingSchema
         description={
-          "Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+          "SIB Infotech has expertise in web development, SEO, and digital marketing. Get tailored solutions with cutting-edge technology for your business growth."
         }
-        reviewCount={"5193"}
+        reviewCount={"5194"}
       />
     </>
   );
