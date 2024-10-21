@@ -7,23 +7,23 @@ import { CustomLayout } from '@/comps/CustomLayout';
 export default function LocalSeoServices() {
     const metaTags = (
         <>
-          <title>Regional SEO Services in Mumbai, India | SIB Infotech</title>
-          <meta name="description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
+          <title>Best Local SEO Company India | Local SEO Services in Mumbai</title>
+          <meta name="description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
           <meta name="keywords" content="Local SEO services in India, Local SEO Services in India, Local Marketing Services India, Best Local SEO Agency" />
          
     
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.sibinfotech.com/local-seo-services
 " />
-          <meta property="og:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
-          <meta property="og:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
+          <meta property="og:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
+          <meta property="og:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
           <meta property="og:image" content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg
 " />
     
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.sibinfotech.com/local-seo-services" />
-          <meta property="twitter:title" content="Regional SEO Services in Mumbai, India | SIB Infotech" />
-          <meta property="twitter:description" content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!" />
+          <meta property="twitter:title" content="Best Local SEO Company India | Local SEO Services in Mumbai" />
+          <meta property="twitter:description" content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings." />
           <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg" />
         </>
       );

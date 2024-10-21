@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function HireDedicatedSeoExperts() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function HireDedicatedSeoExperts() {
       <meta property="twitter:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
       <meta property="twitter:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india"
+        breadcrumbTitle="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings"
+        PageRatingSchema
+        description={
+          "Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success."
+        }
+        reviewCount={"5211"}
+      />
     </>
   );
   return (
@@ -63,6 +74,9 @@ export default function HireDedicatedSeoExperts() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -77,6 +91,9 @@ export default function HireDedicatedSeoExperts() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function GuaranteedTopSearchEngineRankingCompany() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
       <meta property="twitter:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
       <meta property="twitter:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india"
+        breadcrumbTitle="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business."
+        }
+        reviewCount={"5210"}
+      />
     </>
   );
   return (
@@ -66,6 +77,9 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none">
+        <Breadcrumb Pagetitle={'Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -81,6 +95,9 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech'} />
       </div>
       <section>
         <div className="containerFull">

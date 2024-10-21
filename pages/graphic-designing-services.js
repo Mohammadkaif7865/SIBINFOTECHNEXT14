@@ -1,6 +1,8 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function GraphicDesigningServices() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function GraphicDesigningServices() {
       <meta property="twitter:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
 " />
+ <BreadcrumbSchema
+        url="https://www.sibinfotech.com/graphic-designing-services"
+        breadcrumbTitle="Best Graphic Designing Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+        }
+        reviewCount={"5209"}
+      />
     </>
   );
   return (
@@ -66,6 +77,9 @@ export default function GraphicDesigningServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none">
+        <Breadcrumb Pagetitle={'Best Graphic Designing Services Company in Mumbai, India'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -80,6 +94,9 @@ export default function GraphicDesigningServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'Best Graphic Designing Services Company in Mumbai, India'} />
       </div>
       <section>
         <div className="containerFull">

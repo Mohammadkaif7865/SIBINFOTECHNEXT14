@@ -3,25 +3,66 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function FlashDevelopmentCopaniesMumbaiIndia() {
   const metaTags = (
     <>
       <title>Flash Development Companies in Mumbai, India | SIB Infotech</title>
-      <meta name="description" content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement." />
-      <meta name="keywords" content="Professional Web Design, Ecommerce, Online Marketing, Flash Web Design, Flash Design, Flash development companies, Flash website company India, India Flash website company, Flash website desgining companies in Mumbai, Mumbai Flash website. Flash Presentat" />
+      <meta
+        name="description"
+        content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement."
+      />
+      <meta
+        name="keywords"
+        content="Professional Web Design, Ecommerce, Online Marketing, Flash Web Design, Flash Design, Flash development companies, Flash website company India, India Flash website company, Flash website desgining companies in Mumbai, Mumbai Flash website. Flash Presentat"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-development-companies-mumbai-india" />
-      <meta property="og:title" content="Flash Development Companies in Mumbai, India | SIB Infotech" />
-      <meta property="og:description" content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-development-companies-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash Development Companies in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-development-companies-mumbai-india" />
-      <meta property="twitter:title" content="Flash Development Companies in Mumbai, India | SIB Infotech" />
-      <meta property="twitter:description" content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-development-companies-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Development Companies in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flash-development-companies-mumbai-india"
+        breadcrumbTitle="Flash Development Companies in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Explore leading Flash development companies in Mumbai. SIB Infotech offers innovative Flash solutions to enhance your multimedia projects and user engagement."
+        }
+        reviewCount={"5200"}
+      />
     </>
   );
   return (
@@ -63,6 +104,9 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={"Flash Development"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -77,6 +121,9 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Flash Development"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

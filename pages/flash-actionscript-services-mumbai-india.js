@@ -3,25 +3,66 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
     <>
       <title>Flash ActionScript Services in Mumbai, India | SIB Infotech</title>
-      <meta name="description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
-      <meta name="keywords" content="flash action script development services india,flash action script development services bangalore,flash action script development services mumbai,flash action script development services delhi,flash action script development services ,chennai,flash action" />
+      <meta
+        name="description"
+        content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs."
+      />
+      <meta
+        name="keywords"
+        content="flash action script development services india,flash action script development services bangalore,flash action script development services mumbai,flash action script development services delhi,flash action script development services ,chennai,flash action"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india" />
-      <meta property="og:title" content="Flash ActionScript Services in Mumbai, India | SIB Infotech" />
-      <meta property="og:description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash ActionScript Services in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india" />
-      <meta property="twitter:title" content="Flash ActionScript Services in Mumbai, India | SIB Infotech" />
-      <meta property="twitter:description" content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash ActionScript Services in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india"
+        breadcrumbTitle="Flash ActionScript Services in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Unlock the full potential of Flash with ActionScript in Mumbai from SIB Infotech. Our experts deliver dynamic, interactive solutions tailored to your needs."
+        }
+        reviewCount={"5197"}
+      />
     </>
   );
   return (
@@ -63,6 +104,9 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={" Flash Actionscript"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -77,6 +121,9 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={" Flash Actionscript"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

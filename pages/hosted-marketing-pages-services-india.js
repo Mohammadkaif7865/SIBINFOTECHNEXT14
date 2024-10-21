@@ -4,6 +4,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function HostedMarketingPagesServices() {
   const metaTags = (
@@ -23,6 +25,15 @@ export default function HostedMarketingPagesServices() {
       <meta property="twitter:title" content="Hosted Marketing Pages Services in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/hosted-marketing-pages-services-india"
+        breadcrumbTitle="Hosted Marketing Pages Services in Mumbai, Delhi, India"
+        PageRatingSchema
+        description={
+          "Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!"
+        }
+        reviewCount={"5212"}
+      />
     </>
   );
   return (
@@ -64,6 +75,9 @@ export default function HostedMarketingPagesServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb  Pagetite={'Hosted Marketing Pages Services in Mumbai, Delhi, India'} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +92,9 @@ export default function HostedMarketingPagesServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb  Pagetite={'Hosted Marketing Pages Services in Mumbai, Delhi, India'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

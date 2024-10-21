@@ -3,6 +3,8 @@ import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
 import { CustomLayout } from '@/comps/CustomLayout';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function FlashBannerDesigningServicesMumbaiIndia() {
   const metaTags = (
@@ -23,7 +25,17 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
       <meta property="twitter:title" content="Flash Banner Designing Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-banner-designing-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india"
+        breadcrumbTitle="Flash Banner Designing Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand."
+        }
+        reviewCount={"5198"}
+      />
     </>
+
   );
   return (
     <CustomLayout meta={metaTags}>
@@ -50,6 +62,9 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
                 </div>
             </div>
         </div>
+        <div className=" d-lg-none">
+        <Breadcrumb      Pagetitle={'Flash Banner Designing'} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -57,6 +72,11 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb
+        Pagetitle={'Flash Banner Designing'}
+        />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
               <div className="row">

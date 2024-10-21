@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ForumPostingServices() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function ForumPostingServices() {
       <meta property="twitter:title" content="Forum Posting Services | Boost Engagement & Traffic" />
       <meta property="twitter:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
       <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
+        breadcrumbTitle="Forum Posting Services | Boost Engagement & Traffic"
+        PageRatingSchema
+        description={
+          "Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links."
+        }
+        reviewCount={"5207"}
+      />
     </>
   );
   return (
@@ -64,6 +75,10 @@ export default function ForumPostingServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Forum Postings Services"} />
+      </div>
+
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -78,6 +93,9 @@ export default function ForumPostingServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Forum Postings Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

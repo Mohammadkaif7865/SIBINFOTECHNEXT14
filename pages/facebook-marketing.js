@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function FacebookMarketing() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function FacebookMarketing() {
       <meta property="twitter:title" content="Facebook Marketing Services in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/facebook-marketing"
+        breadcrumbTitle="Facebook Marketing Services in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions."
+        }
+        reviewCount={"5196"}
+      />
     </>
   );
   return (
@@ -63,6 +74,11 @@ export default function FacebookMarketing() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb
+        Pagetitle={" Facebook Marketing"}
+        />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -77,6 +93,9 @@ export default function FacebookMarketing() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={' Facebook Marketing'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

@@ -4,6 +4,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function FlashIntroDevelopmentMumbaiIndia() {
   const metaTags = (
@@ -23,6 +25,15 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
       <meta property="twitter:title" content="Flash Intro Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flash-intro-development-mumbai-india"
+        breadcrumbTitle="Flash Intro Development Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience."
+        }
+        reviewCount={"5201"}
+      />
     </>
   );
   return (
@@ -65,6 +76,9 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={"Flash Intro Services"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -79,6 +93,9 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={'Flash Intro Services'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

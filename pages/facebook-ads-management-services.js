@@ -4,6 +4,7 @@ import BannerForm from "../comps/BannerForm";
 import FacebookAdsMgt from "@/comps/FacebookAdsMgt/FacebookAdsMgt";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function FacebookAdsManagementServices() {
   const metaTags = (
@@ -26,6 +27,16 @@ export default function FacebookAdsManagementServices() {
       <meta property="twitter:description" content="Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services.jpg
 .jpg" />
+
+<BreadcrumbSchema
+        url="https://www.sibinfotech.com/facebook-ads-management-services"
+        breadcrumbTitle="Top Facebook Ads Management Services Company Mumbai, India"
+        PageRatingSchema
+        description={
+          "Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!"
+        }
+        reviewCount={"5195"}
+      />
     </>
   );
   return (
