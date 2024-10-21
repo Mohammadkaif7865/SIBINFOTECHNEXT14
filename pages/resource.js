@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function Resource() {
   const metaTags = (
