@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import OnPageSeo from "@/comps/OnPageSeo/OnPageSeo";
 
@@ -20,6 +21,15 @@ export default function OnPageSeoServices() {
       <meta property="twitter:title" content="Best On-Page SEO Optimization Services in India" />
       <meta property="twitter:description" content="Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!" />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.jpg" />
+      <BreadcrumbSchema
+        url="https:/www.sibinfotech.com/on-page-seo-services"
+        breadcrumbTitle="Best On-Page SEO Optimization Services in India"
+        PageRatingSchema
+        description={
+          "Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!"
+        }
+        reviewCount={"5243"}
+      />
     </>
   );
   return (

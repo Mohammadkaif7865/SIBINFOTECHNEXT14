@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import SEO from "@/comps/SEO2/SEO";
 import "aos/dist/aos.css";
@@ -23,6 +24,15 @@ export default function SearchEngineOptimizationServices() {
       <meta property="twitter:title" content="Top SEO Company in India | Best SEO Services Agency Mumbai" />
       <meta property="twitter:description" content="Enhance your online visibility and organic traffic with SIB Infotech, the best SEO company in India. Achieve lasting results with expert SEO services in Mumbai." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/search-engine-optimization-seo-services"
+        breadcrumbTitle="Top SEO Company in India | Best SEO Services Agency Mumbai"
+        PageRatingSchema
+        description={
+        "Enhance your online visibility and organic traffic with SIB Infotech, the best SEO company in India. Achieve lasting results with expert SEO services in Mumba"
+        }
+        reviewCount={"5274"}
+      />
     </>
   );
   return (
