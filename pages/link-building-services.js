@@ -3,6 +3,8 @@ import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
 import { CustomLayout } from '@/comps/CustomLayout';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 
 export default function LinkBuildingServices() {
@@ -24,6 +26,17 @@ export default function LinkBuildingServices() {
       <meta property="twitter:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/link-building-services.jpg" />
+   
+   
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/link-building-services"
+        breadcrumbTitle="Link Building Services Company Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks."
+        }
+        reviewCount={"5227"}
+      />
     </>
   );
   return (
@@ -50,12 +63,18 @@ export default function LinkBuildingServices() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Link Building Services "} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
               <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Link Building</span> Company in India</strong></p>
               <BannerForm/>
           </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Link Building Services "} />
       </div>
         <section id="sib-custom-page">
           <div className="containerFull">

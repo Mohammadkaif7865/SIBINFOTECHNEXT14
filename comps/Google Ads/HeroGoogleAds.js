@@ -45,7 +45,7 @@ const HeroGoogleAds = () => {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={"Google Ads Management Services"} />
+        <Breadcrumb Pagetitle={"Google Ads Management "} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
@@ -63,7 +63,7 @@ const HeroGoogleAds = () => {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={"Google Ads Management Services"} />
+        <Breadcrumb Pagetitle={"Google Ads Management "} />
       </div>
     </>
   );

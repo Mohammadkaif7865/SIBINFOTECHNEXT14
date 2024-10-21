@@ -75,7 +75,7 @@ export default function HireDedicatedSeoExperts() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings'} />
+        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts '} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -93,7 +93,7 @@ export default function HireDedicatedSeoExperts() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings'} />
+        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts '} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

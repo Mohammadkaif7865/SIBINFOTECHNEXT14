@@ -76,7 +76,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb  Pagetite={'Hosted Marketing Pages Services in Mumbai, Delhi, India'} />
+        <Breadcrumb  Pagetite={'Hosted Marketing Pages '} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -94,7 +94,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetite={'Hosted Marketing Pages Services in Mumbai, Delhi, India'} />
+        <Breadcrumb  Pagetite={'Hosted Marketing Pages'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

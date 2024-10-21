@@ -3,25 +3,66 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function InternetMarketingCompanyMumbaiIndia() {
   const metaTags = (
     <>
       <title>Leading Internet Marketing Company in Mumbai, India</title>
-      <meta name="description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
-      <meta name="keywords" content="internet marketing services,internet marketing india,internet marketing companies,internet marketing agency,seo internet marketing,internet marketing promotion,internet marketing strategies,internet marketing seo,internet marketing firm,online internet ma" />
+      <meta
+        name="description"
+        content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!"
+      />
+      <meta
+        name="keywords"
+        content="internet marketing services,internet marketing india,internet marketing companies,internet marketing agency,seo internet marketing,internet marketing promotion,internet marketing strategies,internet marketing seo,internet marketing firm,online internet ma"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
-      <meta property="og:title" content="Leading Internet Marketing Company in Mumbai, India" />
-      <meta property="og:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Leading Internet Marketing Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india" />
-      <meta property="twitter:title" content="Leading Internet Marketing Company in Mumbai, India" />
-      <meta property="twitter:description" content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/internet-marketing-company-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Leading Internet Marketing Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg"
+      />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/internet-marketing-company-mumbai-india"
+        breadcrumbTitle="Leading Internet Marketing Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Boost your online presence with expert internet marketing services in Mumbai by SIB Infotech. Drive traffic and increase sales. Contact us for a consultation!"
+        }
+        reviewCount={"5216"}
+      />
     </>
   );
   return (
@@ -44,6 +85,9 @@ export default function InternetMarketingCompanyMumbaiIndia() {
                   </Link>
                 </div>
               </div>
+            </div>
+            <div className="d-lg-none ">
+              <Breadcrumb Pagetitle={"Leading Internet Marketing"} />
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
@@ -77,6 +121,9 @@ export default function InternetMarketingCompanyMumbaiIndia() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Leading Internet Marketing"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import BannerForm from "../BannerForm";
+import Breadcrumb from "../BreadCrumb";
 
 const HeroLinkedinMgt = () => {
   return (
@@ -43,6 +44,9 @@ const HeroLinkedinMgt = () => {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"LinkedIn Ads Management "} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -57,6 +61,9 @@ const HeroLinkedinMgt = () => {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"LinkedIn Ads Management "} />
       </div>
       
     </>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function InfluencerMarketingServices() {
   const metaTags = (
@@ -24,6 +26,15 @@ export default function InfluencerMarketingServices() {
       <meta property="twitter:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
       <meta property="twitter:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/influencer-marketing-services"
+        breadcrumbTitle="Influencer Marketing Services Agency India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers."
+        }
+        reviewCount={"5214"}
+      />
     </>
   );
   return (
@@ -66,6 +77,9 @@ export default function InfluencerMarketingServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb  Pagetitle={'Influencer Marketing Services '} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700  fontHeading">
@@ -80,6 +94,9 @@ export default function InfluencerMarketingServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb  Pagetitle={'Influencer Marketing Services '} />
       </div>
       <section>
         <div className="containerFull">

@@ -3,6 +3,8 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function MobileSeoServices() {
   const metaTags = (
@@ -22,6 +24,15 @@ export default function MobileSeoServices() {
       <meta property="twitter:title" content="Top Mobile SEO Services Company in Mumbai, India" />
       <meta property="twitter:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/mobile-seo-services"
+        breadcrumbTitle="Top Mobile SEO Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience."
+        }
+        reviewCount={"5236"}
+      />
     </>
   );
   return (
@@ -63,6 +74,9 @@ export default function MobileSeoServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"Mobile SEO Services"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -77,6 +91,9 @@ export default function MobileSeoServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Mobile SEO Services"} />
       </div>
       <section className="customPadding">
         <div className="containerFull">
