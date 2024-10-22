@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function YoutubeMarketing() {
    const metaTags = (
@@ -21,6 +23,15 @@ export default function YoutubeMarketing() {
         <meta property="twitter:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
         <meta property="twitter:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
         <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/youtube-marketing"
+        breadcrumbTitle="YouTube Marketing Services Company Mumbai | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies"
+        }
+        reviewCount={"5323"}
+      />
       </>
     );
     return (
@@ -47,6 +58,9 @@ export default function YoutubeMarketing() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"YouTube Marketing"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function YoutubeMarketing() {
                <BannerForm/>
             </div>
          </div>
+         <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"YouTube Marketing"} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">

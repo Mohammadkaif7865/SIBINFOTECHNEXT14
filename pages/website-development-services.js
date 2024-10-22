@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function WebDevelopmentServices() {
   const [isShowMore, setIsShowMore] = useState(false);
@@ -115,6 +116,15 @@ export default function WebDevelopmentServices() {
       <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
 " />
+     <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-development-services"
+        breadcrumbTitle="Top Web Development Company India | Website Development Mumbai"
+        PageRatingSchema
+        description={
+          "Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+        }
+        reviewCount={"5309"}
+      />
     </>
   );
   return (
@@ -174,6 +184,9 @@ export default function WebDevelopmentServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={" Website Designing Company "} />
       </div>
       <section>
         <div className="containerFull">

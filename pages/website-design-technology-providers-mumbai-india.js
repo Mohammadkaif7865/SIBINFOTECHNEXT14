@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteDesignTechnologyProvideMumbai() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
       <meta property="twitter:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india"
+        breadcrumbTitle="Website Design Technology Providers in Mumbai, Delhi, India"
+        PageRatingSchema
+        description={
+          "Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience."
+        }
+        reviewCount={"5305"}
+      />
     </>
   );
   return (
@@ -47,6 +58,9 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"Web Design Technology Providers"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Web Design Technology Providers"} />
+      </div>
         <section id="sib-custom-page">
           <div className="containerFull">
             <div className="row">

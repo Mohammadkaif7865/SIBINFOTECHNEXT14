@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteRedevelopmentServices() {
    const metaTags = (
@@ -21,6 +23,15 @@ export default function WebsiteRedevelopmentServices() {
         <meta property="twitter:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
         <meta property="twitter:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
         <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-redevelopment-services"
+        breadcrumbTitle="Website Redevelopment Services | Modern SEO-Friendly Sites"
+        PageRatingSchema
+        description={
+          "Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility."
+        }
+        reviewCount={"5312"}
+      />
       </>
     );
     return (
@@ -47,6 +58,9 @@ export default function WebsiteRedevelopmentServices() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Website Redevelopment  "} />
+      </div>
         <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function WebsiteRedevelopmentServices() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Website Redevelopment  "} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">

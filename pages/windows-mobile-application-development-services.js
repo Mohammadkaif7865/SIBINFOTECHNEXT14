@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WindosMobileApplicationDevelopementServices() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function WindosMobileApplicationDevelopementServices() {
       <meta property="twitter:title" content="Windows Mobile Application Development Services Mumbai, India" />
       <meta property="twitter:description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/windows-mobile-application-development-services.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/windows-mobile-application-development-services"
+        breadcrumbTitle="Windows Mobile Application Development Services Mumbai, India"
+        PageRatingSchema
+        description={
+          "SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps."
+        }
+        reviewCount={"5315"}
+      />
     </>
   );
   return (
@@ -47,6 +58,9 @@ export default function WindosMobileApplicationDevelopementServices() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"Windows Mobile Application"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function WindosMobileApplicationDevelopementServices() {
               <BannerForm/>
           </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Windows Mobile Application"} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">

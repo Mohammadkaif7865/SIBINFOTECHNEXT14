@@ -1,3 +1,5 @@
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import { useState } from "react";
@@ -297,6 +299,15 @@ const metaTags = (
     <meta property="twitter:title" content="Best Website Design & Development Packages for All Businesses" />
     <meta property="twitter:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
     <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
+    <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-design-development-services-packages"
+        breadcrumbTitle="Best Website Design & Development Packages for All Businesses"
+        PageRatingSchema
+        description={
+          "ransform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!"
+        }
+        reviewCount={"5304"}
+      />
   </>
 );
 return (
@@ -322,6 +333,9 @@ return (
             </div>
           </div>
         </div>
+      </div>
+      <div className="">
+        <Breadcrumb Pagetitle={"Website Design & Development "} />
       </div>
 
       <section>

@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function TwitterMarketing() {
    const metaTags = (
@@ -21,6 +23,15 @@ export default function TwitterMarketing() {
         <meta property="twitter:title" content="Twitter Marketing Services | Boost Your Brand Presence" />
         <meta property="twitter:description" content="Maximize your brand reach with expert Twitter marketing services. SIB Infotech helps drive engagement and followers. Grow your business on social media today!" />
         <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/twitter-marketing.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/twitter-marketing"
+        breadcrumbTitle="Twitter Marketing Services | Boost Your Brand Presence"
+        PageRatingSchema
+        description={
+          "Maximize your brand reach with expert Twitter marketing services. SIB Infotech helps drive engagement and followers. Grow your business on social media today!"
+        }
+        reviewCount={"5297"}
+      />
       </>
     );
     return (
@@ -47,6 +58,9 @@ export default function TwitterMarketing() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"Twitter Marketing Services"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                   <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function TwitterMarketing() {
                   <BannerForm/>
             </div>
          </div>
+         <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Twitter Marketing Services"} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">

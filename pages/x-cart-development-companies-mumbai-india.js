@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function XCartDevelopmentCompaniesMumbaiIndia() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
       <meta property="twitter:title" content="X-Cart Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india"
+        breadcrumbTitle="X-Cart Development Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience."
+        }
+        reviewCount={"5319"}
+      />
     </>
   );
   return (
@@ -47,12 +58,18 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"X-Cart Development "} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
               <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">X-cart Development </span> Company in India</strong></p>
               <BannerForm/>
           </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"X-Cart Development "} />
       </div>
         <section id="sib-custom-page">
             <div className="containerFull">

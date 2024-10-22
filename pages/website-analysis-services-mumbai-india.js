@@ -1,6 +1,8 @@
 import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteAnalysisServicesMumbai() {
   const metaTags = (
@@ -21,6 +23,15 @@ export default function WebsiteAnalysisServicesMumbai() {
       <meta property="twitter:title" content="Website Analysis Services in Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-analysis-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-analysis-services-mumbai-india"
+        breadcrumbTitle="Website Analysis Services in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions"
+        }
+        reviewCount={"5302"}
+      />
     </>
   );
   return (
@@ -47,6 +58,9 @@ export default function WebsiteAnalysisServicesMumbai() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={" Website Analysis Services"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -54,6 +68,9 @@ export default function WebsiteAnalysisServicesMumbai() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={" Website Analysis Services"} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
               <div className="row align-items-center">
