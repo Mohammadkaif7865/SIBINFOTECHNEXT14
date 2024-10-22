@@ -91,8 +91,8 @@ const SEO = () => {
       <SeoTools2 />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
-        linkTitle="Speak with one of our SEO Experts in India today!"
-        linkDestination="#bannerSection"
+        linkTitle="Speak with one of our SEO Experts in Mumbai today!"
+        linkDestination="/contact-us"
       />
       <Benifits />
       <Strategy />
@@ -101,7 +101,7 @@ const SEO = () => {
       <Help
         heading="How can we help you to Stop Loosing Leads to Your Competitors?"
         linkTitle="Contact Us"
-        linkDestination="#bannerSection"
+        linkDestination="/contact-us"
       />
 
       <WhyChoose />
@@ -116,7 +116,7 @@ const SEO = () => {
         heading="80% of Customers will never look past the first search engine
         results page."
         linkTitle="Get to know how"
-        linkDestination="#bannerSection"
+        linkDestination="/contact-us"
       />
       <Faqs />
 

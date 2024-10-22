@@ -13,7 +13,7 @@ const SeoServices = () => {
           <div className="d-flex justify-content-between align-items-center flex-wrap">
             <div className="leftSer d-flex justify-content-between w-100 ">
               <h4 className="sub_heading text-white fontWeight700 fontHeading">
-                We Offer Best SEO Services in India
+                We Offer Best SEO Services in Mumbai, India
               </h4>
               <Link className="btnAction d-none d-lg-block" href="/contact-us">
                 Connect With SEO Expert

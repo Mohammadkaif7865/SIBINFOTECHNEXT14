@@ -89,8 +89,8 @@ export default function AboutUs() {
     },
     {
       name: "Gaurav Kumar",
-      imgSrcSet: "assets/images/team/Gaurav.webp",
-      imgSrc: "assets/images/team/Gaurav.jpg",
+      imgSrcSet: "assets/images/team/gaurav-kumar.webp",
+      imgSrc: "assets/images/team/gaurav-kumar.jpg",
       alt: "Gaurav Kumar",
     },
     {
