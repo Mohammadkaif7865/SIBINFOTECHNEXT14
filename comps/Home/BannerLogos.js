@@ -22,7 +22,8 @@ const BannerLogos = () => {
       alt: "Search engine optimization firm in delhi",
     },
     {
-      src: "/assets/images/top-advertising-and-marketing-company.png",
+      // src: "/assets/images/top-advertising-and-marketing-company.png",
+      src: "/assets/images/clutch-new.png",
       alt: "Top adverstising and marketing company",
     },
   ];

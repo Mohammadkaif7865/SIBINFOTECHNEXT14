@@ -545,18 +545,22 @@ section {
 
 .inlineClutch {
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
 }
 
 .itemReviews {
   width: 20%;
+  height: 100px;
   margin: 0 5px;
   padding: 5px 5px;
 }
 
 .itemReviews img {
-  max-width: 100%;
+width: 100%;
+height: 100%;
+  object-fit: contain;
 }
 
 .tagLine {
