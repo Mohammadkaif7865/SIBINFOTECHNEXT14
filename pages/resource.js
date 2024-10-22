@@ -86,7 +86,7 @@ export default function Resource() {
           </div>
         </div>
       </div>
-      <div className="d-none d-lg-block">
+      <div className="">
         <Breadcrumb Pagetitle={"Expert Digital Resources"} />
       </div>
       <section id="sib-custom-page" className="privacyPolicy">
