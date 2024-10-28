@@ -1,10 +1,8 @@
-import React from "react";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
-import { CustomLayout } from "@/comps/CustomLayout";
-import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function InfluencerMarketingServices() {
   const metaTags = (
@@ -44,9 +42,12 @@ export default function InfluencerMarketingServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white fontHeading">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Influencer Marketing Services
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated  Influencer Marketing Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote

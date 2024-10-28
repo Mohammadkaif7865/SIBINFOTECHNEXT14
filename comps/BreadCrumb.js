@@ -4,7 +4,7 @@ import { FaAnglesRight, FaChevronRight } from "react-icons/fa6";
 const Breadcrumb = ({ Pagetitle }) => {
   return (
     <nav
-      className="bgGrey d-flex justify-content-center"
+      className="bgGrey "
       aria-label="breadcrumb "
     >
       <ol className="breadcrumb containerFull ">

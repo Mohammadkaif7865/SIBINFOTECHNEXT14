@@ -11,9 +11,12 @@ const HeroLinkedinMgt = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white fontHeading">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Linkedin Ads Management
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-4 text-white">
+                  Top Rated Linkedin Ads Management Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -35,7 +38,7 @@ const HeroLinkedinMgt = () => {
                   <strong className="fontWeight600 text_red">
                     Best{" "}
                     <span className="textChange">LinkedIn Ads Management </span>{" "}
-                    Company in India
+                    Servises in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -56,7 +59,7 @@ const HeroLinkedinMgt = () => {
             with{" "}
             <strong className="fontWeight600 text_red">
               Best <span className="textChange">LinkedIn Ads Management </span>{" "}
-              Company in India
+              Services in India
             </strong>
           </p>
           <BannerForm />

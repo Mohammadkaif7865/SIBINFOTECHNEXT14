@@ -138,6 +138,9 @@ export default function WebDevelopmentServices() {
                 <h1 className="heading fontWeight700 text-white fontHeading">
                   Website Development Services
                 </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated Web Development  Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
                     <span className="btnThemeRed me-3">

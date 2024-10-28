@@ -73,7 +73,7 @@ export default function CorporateWebsiteDesigningServices() {
                   Corporate Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">
-                  Best Website Designing Company in India
+                  Best Corporate  Website Designing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -98,7 +98,7 @@ export default function CorporateWebsiteDesigningServices() {
                     <span className="textChange">
                       Corporate Website Designing
                     </span>{" "}
-                    Company in India
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -122,7 +122,7 @@ export default function CorporateWebsiteDesigningServices() {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">Website Designing</span> Company
+              Best <span className="textChange">Website Designing</span> Services
               in India
             </strong>
           </p>

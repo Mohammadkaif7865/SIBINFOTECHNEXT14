@@ -1,7 +1,7 @@
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import GoogleAdsMgt from "@/comps/Google Ads/GoogleAdsMgt";
-import Head from "next/head";
+
 
 export default function GoogleAdsManagementServices() {
   const metaTags = (

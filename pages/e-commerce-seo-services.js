@@ -74,9 +74,12 @@ export default function EcommerceSeoServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   E-Commerce SEO Services
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated  E-Commerce SEO Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -97,7 +100,7 @@ export default function EcommerceSeoServices() {
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best <span className="textChange">E-Commerce SEO </span>{" "}
-                    Company in India
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -119,7 +122,7 @@ export default function EcommerceSeoServices() {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">E-Commerce SEO </span> Company
+              Best <span className="textChange">E-Commerce SEO </span> Services
               in India
             </strong>
           </p>
@@ -128,7 +131,7 @@ export default function EcommerceSeoServices() {
       </div>
       <div className="d-none d-lg-block">
         <Breadcrumb
-          Pagrtitle={"E-Commerce SEO Services"}
+          Pagetitle={"E-Commerce SEO Services"}
         />
       </div>
       <section>

@@ -48,7 +48,7 @@ const HeroDigitalMarketing = () => {
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best <span className="textChange">Digital Marketing</span>{" "}
-                    Company in India
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -72,7 +72,7 @@ const HeroDigitalMarketing = () => {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">Digital Marketing</span> Company
+              Best <span className="textChange">Digital Marketing</span> Services
               in India
             </strong>
           </p>

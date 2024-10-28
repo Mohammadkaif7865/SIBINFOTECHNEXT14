@@ -44,6 +44,9 @@ export default function GraphicDesigningServices() {
                 <h1 className="heading fontWeight700 text-white fontHeading">
                   Graphic Designing Services
                 </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated  Graphic Designing Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote">
                     <span className="btnThemeRed me-3">
@@ -78,7 +81,7 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'Best Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -96,7 +99,7 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Best Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
       </div>
       <section>
         <div className="containerFull">

@@ -71,10 +71,13 @@ export default function CmsDevelopementServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white fontHeading">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Content Management System - CMS Based Website Development
                   Services
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated CMS Development Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote

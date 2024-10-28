@@ -51,7 +51,7 @@ const BestCompany = () => {
               <h2 className="sub_heading fontHeading fontWeight600">
                 Best{" "}
                 <span className="text_red">
-                  Digital Marketing Company in India
+                  Digital Marketing Agency in India
                 </span>
               </h2>
               <p className="customText text-justify mt-3">
