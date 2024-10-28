@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import BannerForm from "../BannerForm";
+import Breadcrumb from "../BreadCrumb";
 
 const Banner = () => {
   return (
@@ -31,6 +32,9 @@ const Banner = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+            <div className="d-lg-none">
+              <Breadcrumb Pagetitle={"PPC Management Company"} />
             </div>
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
@@ -64,6 +68,9 @@ const Banner = () => {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"PPC Management Company"} />
       </div>
     </div>
   );

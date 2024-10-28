@@ -1,6 +1,7 @@
 import React from "react";
 import BannerForm from "../BannerForm";
 import Link from "next/link";
+import Breadcrumb from "../BreadCrumb";
 
 
 const Banner = () => {
@@ -85,6 +86,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={" Top SEO Company"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -98,6 +102,9 @@ const Banner = () => {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={" Top SEO Company"} />
       </div>
     </>
   );

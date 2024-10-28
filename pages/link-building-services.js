@@ -2,16 +2,45 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 
 export default function LinkBuildingServices() {
+  const metaTags = (
+    <>
+      <title>Link Building Services Company Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta name="keywords" content="link building service,link building services,manual link building,seo link building,manual link building service,link building india,link building delhi,link building mumbai,link building chennai,link building bangalore,link building pune,link building hy" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/link-building-services" />
+      <meta property="og:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/link-building-services.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/link-building-services" />
+      <meta property="twitter:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/link-building-services.jpg" />
+   
+   
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/link-building-services"
+        breadcrumbTitle="Link Building Services Company Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks."
+        }
+        reviewCount={"5227"}
+      />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Link Building Services Companies Delhi England London India UK SIB Infotech</title>
-            <meta name="keywords" content="link building service,link building services,manual link building,seo link building,manual link building service,link building india,link building delhi,link building mumbai,link building chennai,link building bangalore,link building pune,link building hy"/>
-            <meta name="description" content="SIB Infotech offers Professional link building services and link popularity building solutions. We offer reciprocal and non-reciprocal (one way) link building services, delivering high (PR) pagerank and relevant links. Outsource your link building campaigns to our link building team."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -34,12 +63,18 @@ export default function LinkBuildingServices() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Link Building Services "} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
               <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">Link Building</span> Company in India</strong></p>
               <BannerForm/>
           </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Link Building Services "} />
       </div>
         <section id="sib-custom-page">
           <div className="containerFull">
@@ -103,6 +138,6 @@ export default function LinkBuildingServices() {
             </div>
           </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

@@ -1,31 +1,40 @@
-import React from "react";
-import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import { CustomLayout } from "@/comps/CustomLayout";
 import OnPageSeo from "@/comps/OnPageSeo/OnPageSeo";
-import Head from "next/head";
 
 export default function OnPageSeoServices() {
+  const metaTags = (
+    <>
+      <title>Best On-Page SEO Optimization Services in India</title>
+      <meta name="description" content="Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!" />
+      <meta name="keywords" content="On Page SEO, On-Site Optimization Services, On Page Optimization, On Page SEO Optimization, On Page SEO Analysis." />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/on-page-seo-services" />
+      <meta property="og:title" content="Best On-Page SEO Optimization Services in India" />
+      <meta property="og:description" content="Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/on-page-seo-services" />
+      <meta property="twitter:title" content="Best On-Page SEO Optimization Services in India" />
+      <meta property="twitter:description" content="Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.jpg" />
+      <BreadcrumbSchema
+        url="https:/www.sibinfotech.com/on-page-seo-services"
+        breadcrumbTitle="Best On-Page SEO Optimization Services in India"
+        PageRatingSchema
+        description={
+          "Optimize your website on-page SEO with SIB Infotech. We focus on improving content, structure, and technical elements. Contact for broad on-page SEO solutions!"
+        }
+        reviewCount={"5243"}
+      />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>
-          On-Page SEO & On-Site Optimization Services, SEO Analysis Company
-          India
-        </title>
-        <meta
-          name="keywords"
-          content="On Page SEO, On-Site Optimization Services, On Page Optimization, On Page SEO Optimization, On Page SEO Analysis."
-        />
-        <meta
-          name="description"
-          content="SIB Infotech is the Top SEO Company in India offers On-Page SEO & On-Site Optimization Services which  enables Google to read and rank your website ensure you #1 position on organic results"
-        />
-        {/* <link
-          rel="canonical"
-          href="https://www.sibinfotech.com/on-page-seo-services"
-        /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
       <OnPageSeo />
-    </div>
+    </CustomLayout>
   );
 }

@@ -6,51 +6,20 @@ import { CustomLayout } from "@/comps/CustomLayout";
 export default function Home() {
   const metaTags = (
     <>
-      <title>
-        Website Designing, Development & Digital Marketing SEO Company Agency in
-        Mumbai India
-      </title>
-      <meta
-        name="keywords"
-        content="best website designing company in Mumbai, website designing in Mumbai, web designing company in Mumbai, re-website designing agency in Mumbai, web design Mumbai, website designing company in Mumbai, website designing services in Mumbai, Website Designing "
-      />
-      <meta
-        name="description"
-        content="SIB is Google Partner Agency & Top Company in Mumbai for Digital Marketing, Website Designing, Mobile App Development, SEO, Google AdWords PPC Management, Web Development, Custom CRM & ERP, E-Commerce Design, Website Redesign services & a complete web solution firm in Navi Mumbai, Thane, Pune, Delhi NCR, Noida, Gurgaon, India"
-      />
+      <title>#1 Web Design, Digital Marketing & SEO Agency Mumbai, India</title>
+      <meta name="description" content="SIB Infotech is your premier partner for top-rated digital marketing, SEO, and web development in Mumbai, India. Get to elevate your business and drive success." />
+      <meta name="keywords" content="best website designing company in Mumbai, website designing in Mumbai, web designing company in Mumbai, re-website designing agency in Mumbai, web design Mumbai, website designing company in Mumbai, website designing services in Mumbai, Website Designing" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/" />
-      <meta
-        property="og:title"
-        content="Digital Marketing Company, Website Designing & Developemnt Agency in Mumbai, India"
-      />
-      <meta
-        property="og:description"
-        content="SIB Infotech is a professionally managed full service web design &amp; development company in Mumbai, India, India. Since 2005 we have been helping businesses in India, USA, UK, Canada, Australia and world over to adapt and grow in an ever changing online world by offering fully functional mobile friendly responsive, cheap Website Designing, Web Development, Digital Marketing, Search Engine Optimization (SEO), Pay Per Click (PPC), Online Reputation Management (ORM), Social Media Optimization (SMO), Internet Marketing Services, Search Engine Marketing (SEM), Conversion Rate Optimization (CRO). Custom Website Design, E-commerce Websites, UI/UX Designing, Multimedia &amp; Graphics, Mobile Application Development, and Website Maintenance to organizations of all sizes from start-ups, MNC &#x27;s to Fortune 500 companies. We are a young creative web development and digital marketing agency for any business - anywhere to promote their business online and engage users with brands and convert them to customers and experience an overall improvement in client base.In comparison to other SEO companies in India, we are not only an affordable SEO Agency, we are a results-focused and driven company, So if you are looking for a great looking website and a team that can follow through by delivering top rankings you have found the right company."
-      />
-      <meta property="og:image:type" content="webp" />
-      <meta
-        property="og:image"
-        content="https://www.sibinfotech.com/assets/images/logo.webp"
-      />
-      <meta property="og:image:alt" content="SIB Infotech Logo" />
+      <meta property="og:title" content="#1 Web Design, Digital Marketing & SEO Agency Mumbai, India" />
+      <meta property="og:description" content="SIB Infotech is your premier partner for top-rated digital marketing, SEO, and web development in Mumbai, India. Get to elevate your business and drive success." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@sibinfotech" />
-      <meta property="twitter:creator" content="@sibinfotech" />
-      <meta name="twitter:url" content=" https://www.sibinfotech.com/" />
-      <meta
-        name="twitter:title"
-        content="Digital Marketing Company, Website Designing & Developemnt Agency in Mumbai, India"
-      />
-      <meta
-        name="twitter:description"
-        content="SIB Infotech is a professionally managed full service web design &amp; development company in Mumbai, India, India. Since 2005 we have been helping businesses in India, USA, UK, Canada, Australia and world over to adapt and grow in an ever changing online world by offering fully functional mobile friendly responsive, cheap Website Designing, Web Development, Digital Marketing, Search Engine Optimization (SEO), Pay Per Click (PPC), Online Reputation Management (ORM), Social Media Optimization (SMO), Internet Marketing Services, Search Engine Marketing (SEM), Conversion Rate Optimization (CRO). Custom Website Design, E-commerce Websites, UI/UX Designing, Multimedia &amp; Graphics, Mobile Application Development, and Website Maintenance to organizations of all sizes from start-ups, MNC &#x27;s to Fortune 500 companies. We are a young creative web development and digital marketing agency for any business - anywhere to promote their business online and engage users with brands and convert them to customers and experience an overall improvement in client base.In comparison to other SEO companies in India, we are not only an affordable SEO Agency, we are a results-focused and driven company, So if you are looking for a great looking website and a team that can follow through by delivering top rankings you have found the right company."
-      />
-      <meta
-        name="twitter:image"
-        content="https://www.sibinfotech.com/assets/images/logo.webp"
-      />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/" />
+      <meta property="twitter:title" content="#1 Web Design, Digital Marketing & SEO Agency Mumbai, India" />
+      <meta property="twitter:description" content="SIB Infotech is your premier partner for top-rated digital marketing, SEO, and web development in Mumbai, India. Get to elevate your business and drive success." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
     </>
   );
   return (

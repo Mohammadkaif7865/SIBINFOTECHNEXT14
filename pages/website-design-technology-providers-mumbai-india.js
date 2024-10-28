@@ -1,16 +1,41 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteDesignTechnologyProvideMumbai() {
+  const metaTags = (
+    <>
+      <title>Website Design Technology Providers in Mumbai, Delhi, India</title>
+      <meta name="description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta name="keywords" content="web design company, website development company, web site design, web development, web site development professional, affordable web pages designing, custom ecommerce, flash, internet corportate small business, php website, seo solutions, seo company indi" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
+      <meta property="og:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
+      <meta property="og:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
+      <meta property="twitter:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
+      <meta property="twitter:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india"
+        breadcrumbTitle="Website Design Technology Providers in Mumbai, Delhi, India"
+        PageRatingSchema
+        description={
+          "Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience."
+        }
+        reviewCount={"5305"}
+      />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Web Designing Technology India Website Technology Mumbai Delhi SIB Infotech</title>
-            <meta name="keywords" content="web design company, website development company, web site design, web development, web site development professional, affordable web pages designing, custom ecommerce, flash, internet corportate small business, php website, seo solutions, seo company indi"/>
-            <meta name="description" content="SIB Infotech provides custom effective, professional, high-impact Web Design, dynamic database enabled website development. SIB Infotech is one of the leading Indian web design company from most popular web design companies in India."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -33,6 +58,9 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={"Web Design Technology Providers"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -40,6 +68,9 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Web Design Technology Providers"} />
+      </div>
         <section id="sib-custom-page">
           <div className="containerFull">
             <div className="row">
@@ -132,6 +163,6 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
             </div>
           </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

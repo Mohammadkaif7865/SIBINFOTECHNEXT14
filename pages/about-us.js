@@ -1,9 +1,61 @@
-import React from "react";
-import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
+import Breadcrumb from "@/comps/BreadCrumb"
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+
 
 export default function AboutUs() {
+  const metaTags = (
+    <>
+      <title>About SIB Infotech | Top Digital Marketing Agency in India</title>
+      <meta
+        name="description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
+      <meta name="keywords" content="Top Digital Marketing Agency in India" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/about-us" />
+      <meta
+        property="og:title"
+        content="About SIB Infotech | Top Digital Marketing Agency in India"
+      />
+      <meta
+        property="og:description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/about-us"
+      />
+      <meta
+        property="twitter:title"
+        content="About SIB Infotech | Top Digital Marketing Agency in India"
+      />
+      <meta
+        property="twitter:description"
+        content="Discover the journey and expertise of SIB Infotech. Learn how our team delivers innovative and exceptional digital marketing services to drive your success."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+      />
+      <BreadcrumbSchema
+          url="https://www.sibinfotech.com/about-us"
+          breadcrumbTitle="About SIB Infotech | Top Digital Marketing Agency in India "
+          // PageRatingSchema
+          // description
+          // reviewCount
+        />
+    </>
+  );
   const teamMembers = [
     {
       name: "Ankit Verma",
@@ -47,7 +99,6 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/geordy-mathew.jpg",
       alt: "Geordy Mathew",
     },
-
     {
       name: "Kanchan Sharma",
       imgSrcSet: "assets/images/team/kanchan-sharma.webp",
@@ -170,20 +221,15 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/zaroon-junaid.jpg",
       alt: "Zaroon Junaid",
     },
-  
   ];
   return (
-    <div>
-      <Head>
-        <title>Top Indian SEO Company in Mumbai, SEO Services India</title>
-        {/* <link rel="canonical" href="https://www.sibinfotech.com/about-us" /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   About SIB Infotech
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
@@ -222,6 +268,9 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700">
@@ -237,6 +286,10 @@ export default function AboutUs() {
           <BannerForm />
         </div>
       </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"About SIB Infotech"} />
+      </div>
+
       <section>
         <div className="containerFull">
           <h3 className="customHeading customLineHeight2 text-center">
@@ -329,11 +382,6 @@ export default function AboutUs() {
                 design skills, we craft digital experiences that resonate deeply
                 with people's interests and captivate their hearts.
               </p>
-              {/* <p className="customText">As premier partners of Google, Facebook & Bing, our in-house team of passionate professionals boasts talent, creativity, technical know-how & dedication makes us the best PPC management company in India. Our team specialize in PPC management services and have expertise in generating leads using Google Ads, Meta Ads & YouTube advertisements  at affordable costs. We're laser-focused on generating the best ROI and driving tangible business growth and success through cutting-edge strategies and innovative technologies</p>
-                        <p className="customText">At SIB Infotech, collaboration is key. We delve deep to understand your unique needs and goals, crafting tailored digital marketing plans that achieve your objectives. Our commitment to affordability makes our exceptional services accessible to all businesses, ensuring you never compromise on quality.</p>
-                        <p className="customText">To learn more about our comprehensive services and how we can contribute to your business growth online, <Link href="/contact">
-                          <Link>Book your NO-COST Consultation today!</Link>
-                        </Link></p> */}
             </div>
           </div>
           <div className="row mt-3 mt-lg-5">
@@ -602,6 +650,6 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }

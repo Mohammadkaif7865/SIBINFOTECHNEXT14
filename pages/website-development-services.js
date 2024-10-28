@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import Head from "next/head";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
+import { useState } from "react";
 import { Accordion } from "react-bootstrap";
+import BannerForm from "../comps/BannerForm";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function WebDevelopmentServices() {
   const [isShowMore, setIsShowMore] = useState(false);
@@ -96,18 +98,38 @@ export default function WebDevelopmentServices() {
   const faqsDataLeft = faqsData.slice(0, Math.ceil(faqsData.length / 2));
   const faqsDataRight = faqsData.slice(Math.ceil(faqsData.length / 2));
 
+  const metaTags = (
+    <>
+      <title>Top Web Development Company India | Website Development Mumbai</title>
+      <meta name="description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <meta name="keywords" content="Website Development Services" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-development-services" />
+      <meta property="og:title" content="Top Web Development Company India | Website Development Mumbai" />
+      <meta property="og:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-development-services" />
+      <meta property="twitter:title" content="Top Web Development Company India | Website Development Mumbai" />
+      <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
+" />
+     <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-development-services"
+        breadcrumbTitle="Top Web Development Company India | Website Development Mumbai"
+        PageRatingSchema
+        description={
+          "Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+        }
+        reviewCount={"5309"}
+      />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>
-          Best Web Development Company India, Website Development Agency
-          Services Mumbai
-        </title>
-        {/* <link
-          rel="canonical"
-          href="https://www.sibinfotech.com/website-development-services"
-        /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -116,6 +138,9 @@ export default function WebDevelopmentServices() {
                 <h1 className="heading fontWeight700 text-white fontHeading">
                   Website Development Services
                 </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated Web Development  Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
                     <span className="btnThemeRed me-3">
@@ -149,6 +174,9 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </div>
+      <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Web Development Company "} />
+      </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">
@@ -163,6 +191,9 @@ export default function WebDevelopmentServices() {
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Web Development Company "} />
       </div>
       <section>
         <div className="containerFull">
@@ -1212,6 +1243,6 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }

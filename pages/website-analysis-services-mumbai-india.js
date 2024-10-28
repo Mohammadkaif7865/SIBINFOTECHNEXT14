@@ -1,16 +1,41 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteAnalysisServicesMumbai() {
+  const metaTags = (
+    <>
+      <title>Website Analysis Services in Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
+      <meta name="keywords" content="website analysis services,website analysis service,website analysis company,website analysis companies,professional seo company india,professional seo company delhi,professional seo company mumbai,professional seo company chennai,professional seo company" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-analysis-services-mumbai-india" />
+      <meta property="og:title" content="Website Analysis Services in Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-analysis-services-mumbai-india.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-analysis-services-mumbai-india" />
+      <meta property="twitter:title" content="Website Analysis Services in Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-analysis-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-analysis-services-mumbai-india"
+        breadcrumbTitle="Website Analysis Services in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Enhance your online performance with website analysis services in Mumbai by SIB Infotech. Get actionable insights to optimize your website & boost conversions"
+        }
+        reviewCount={"5302"}
+      />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Website Analysis Services Companies Mumbai London India UK SIB Infotech</title>
-            <meta name="keywords" content="website analysis services,website analysis service,website analysis company,website analysis companies,professional seo company india,professional seo company delhi,professional seo company mumbai,professional seo company chennai,professional seo company "/>
-            <meta name="description" content="Search Engine Optimization firm SIB Infotech provides a range of affordable Website Analysis Services wherein you get Web Tracking Reports i.e. Web Traffic Reports as well as Search Engine Ranking Reports."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -33,6 +58,9 @@ export default function WebsiteAnalysisServicesMumbai() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none">
+        <Breadcrumb Pagetitle={" Website Analysis Services"} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -40,6 +68,9 @@ export default function WebsiteAnalysisServicesMumbai() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={" Website Analysis Services"} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
               <div className="row align-items-center">
@@ -112,6 +143,6 @@ export default function WebsiteAnalysisServicesMumbai() {
             </div>
           </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

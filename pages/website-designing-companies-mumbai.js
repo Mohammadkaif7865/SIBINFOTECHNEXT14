@@ -1,18 +1,42 @@
 import BannerForm from '@/comps/BannerForm';
-import Head from 'next/head';
+import Breadcrumb from '@/comps/BreadCrumb';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
-import React from 'react';
 
 
 export default function WebsiteDesigningCompanies() {
+  const metaTags = (
+    <>
+      <title>Website Designing Companies in Mumbai | SIB Infotech</title>
+      <meta name="description" content="Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth." />
+      <meta name="keywords" content="Website Designing Companies" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/website-designing-companies-mumbai" />
+      <meta property="og:title" content="Website Designing Companies in Mumbai | SIB Infotech" />
+      <meta property="og:description" content="Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/website-designing-companies-mumbai" />
+      <meta property="twitter:title" content="Website Designing Companies in Mumbai | SIB Infotech" />
+      <meta property="twitter:description" content="Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-designing-companies-mumbai"
+        breadcrumbTitle="Website Designing Companies in Mumbai | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth."
+        }
+        reviewCount={"5306"}
+      />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>Website Designing Companies Mumbai</title>
-            <meta name="keywords" content=""/>
-            <meta name="description" content=""/>
-          
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -35,6 +59,9 @@ export default function WebsiteDesigningCompanies() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Website Designing "} />
+      </div>
         <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -42,6 +69,9 @@ export default function WebsiteDesigningCompanies() {
               <BannerForm/>
           </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Website Designing "} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">
@@ -210,6 +240,6 @@ export default function WebsiteDesigningCompanies() {
               </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

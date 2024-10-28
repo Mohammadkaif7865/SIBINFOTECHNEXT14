@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import BannerForm from "../BannerForm";
+import Breadcrumb from "../BreadCrumb";
+
 
 
 const Banner = () => {
@@ -11,9 +13,12 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white fontHeading">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Facebook Ads Management Services
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Top Rated Facebook Ads Management Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -35,7 +40,7 @@ const Banner = () => {
                   <strong className="fontWeight600 text_red">
                     Best{" "}
                     <span className="textChange">Facebook Ads Management </span>{" "}
-                    Company in India
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -43,6 +48,9 @@ const Banner = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className=" d-lg-none">
+        <Breadcrumb Pagetitle={"Facebook Ads Management"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -53,11 +61,14 @@ const Banner = () => {
             with{" "}
             <strong className="fontWeight600 text_red">
               Best <span className="textChange">Facebook Ads Management </span>{" "}
-              Company in India
+              Services in India
             </strong>
           </p>
           <BannerForm />
         </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Facebook Ads Management"} />
       </div>
     </>
   );

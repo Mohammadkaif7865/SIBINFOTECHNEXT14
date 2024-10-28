@@ -6,6 +6,7 @@ import BlogCard from "./BlogCard";
 import Link from "next/link";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { PaginationControl } from "react-bootstrap-pagination-control";
+import { CustomLayout } from "@/comps/CustomLayout";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -42,14 +43,28 @@ export default function Blog() {
   
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
+  const metaTags = (
+    <>
+      <title>SIB Infotech Blog | Latest SEO Insights and Marketing Trends</title>
+      <meta name="description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta name="keywords" content="All Posts" />
+   
 
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/blog" />
+      <meta property="og:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
+      <meta property="og:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/blog" />
+      <meta property="twitter:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
+      <meta property="twitter:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>Best Web Designing & SEO Company in Mumbai India</title>
-        <meta name="keywords" content="contact" />
-        <meta name="description" content="contact" />
-      </Head>
+    <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -95,6 +110,6 @@ export default function Blog() {
          </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }

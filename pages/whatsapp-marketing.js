@@ -1,17 +1,41 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WhatsappMarketing() {
-  return (
-    <div>
-        <Head>
-            <title>Whatsapp Marketing</title>
-            <meta name="keywords" content=""/>
-            <meta name="description" content=""/>
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/whatsapp-marketing"/> */}
-        </Head>
+   const metaTags = (
+      <>
+        <title>WhatsApp Marketing Services in Mumbai, India | SIB Infotech</title>
+        <meta name="description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns." />
+        <meta name="keywords" content="Whatsapp Marketing" />
+       
+  
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
+        <meta property="og:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
+        <meta property="og:description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg" />
+  
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/whatsapp-marketing" />
+        <meta property="twitter:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
+        <meta property="twitter:description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/whatsapp-marketing"
+        breadcrumbTitle="WhatsApp Marketing Services in Mumbai, India | SIB Infotech"
+        PageRatingSchema
+        description={
+          "Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns"
+        }
+        reviewCount={"5314"}
+      />
+      </>
+    );
+    return (
+      <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -34,6 +58,9 @@ export default function WhatsappMarketing() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"WhatsApp Marketing "} />
+      </div>
         <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
             <div className="bannerForm">
                   <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -41,6 +68,9 @@ export default function WhatsappMarketing() {
                   <BannerForm/>
             </div>
          </div>
+         <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"WhatsApp Marketing "} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">
@@ -114,6 +144,6 @@ export default function WhatsappMarketing() {
                </div>
             </div>
         </section>
-    </div>
+    </CustomLayout>
   )
 }

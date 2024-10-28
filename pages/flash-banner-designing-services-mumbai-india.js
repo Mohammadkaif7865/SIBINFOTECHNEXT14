@@ -2,15 +2,44 @@ import React from 'react';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
 import Head from 'next/head';
+import { CustomLayout } from '@/comps/CustomLayout';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function FlashBannerDesigningServicesMumbaiIndia() {
+  const metaTags = (
+    <>
+      <title>Flash Banner Designing Services Company in Mumbai, India</title>
+      <meta name="description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta name="keywords" content="flash banner designing services india,flash banner designing services bangalore,flash banner designing services mumbai,flash banner designing services delhi,flash banner designing services ,chennai,flash banner designing services pune,flash banner designi" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
+      <meta property="og:title" content="Flash Banner Designing Services Company in Mumbai, India" />
+      <meta property="og:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-banner-designing-services-mumbai-india.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india" />
+      <meta property="twitter:title" content="Flash Banner Designing Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-banner-designing-services-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/flash-banner-designing-services-mumbai-india"
+        breadcrumbTitle="Flash Banner Designing Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Captivate your audience with stunning Flash banners from SIB Infotech. Our expert design services in Mumbai create dynamic and engaging visuals for your brand."
+        }
+        reviewCount={"5198"}
+      />
+    </>
+
+  );
   return (
-    <div>
-        <Head>
-            <title>Flash Banner Designing Services Companies Mumbai Delhi India</title>
-            <meta name="keywords" content="flash banner designing services india,flash banner designing services bangalore,flash banner designing services mumbai,flash banner designing services delhi,flash banner designing services ,chennai,flash banner designing services pune,flash banner designi"/>
-            <meta name="description" content="SIB Infotech offers banner designing services, Mumbai, India. Design attractive and effective web banners, flash banners or animated banners from us.Our team has worked on a variety of banner design projects such as Animated GIF Banner, Flash Banner, Interactive Flash Banner, Sky-scrappers etc."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
+
         <div className="innerWebDesign">
             <div className="container-fluid">
                 <div className="row">
@@ -33,6 +62,9 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
                 </div>
             </div>
         </div>
+        <div className=" d-lg-none">
+        <Breadcrumb      Pagetitle={'Flash Banner Designing'} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -40,6 +72,11 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb
+        Pagetitle={'Flash Banner Designing'}
+        />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
               <div className="row">
@@ -75,6 +112,6 @@ export default function FlashBannerDesigningServicesMumbaiIndia() {
             </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

@@ -458,7 +458,7 @@ section {
   color: #fff;
 }
 
-.videoLeft h2 span {
+.text_ocenblue {
   color: #58e1fa;
 }
 
@@ -545,18 +545,22 @@ section {
 
 .inlineClutch {
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
 }
 
 .itemReviews {
   width: 20%;
+  height: 100px;
   margin: 0 5px;
   padding: 5px 5px;
 }
 
 .itemReviews img {
-  max-width: 100%;
+width: 100%;
+height: 100%;
+  object-fit: contain;
 }
 
 .tagLine {
@@ -9807,6 +9811,13 @@ color: #000;
 }
 .breadcrum-text  i{
   font-size: 13px;
+}
+
+/* pages breadcrumb */
+.text_truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 

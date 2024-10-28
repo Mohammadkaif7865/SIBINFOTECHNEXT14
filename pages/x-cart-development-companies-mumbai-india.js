@@ -1,16 +1,41 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function XCartDevelopmentCompaniesMumbaiIndia() {
+  const metaTags = (
+    <>
+      <title>X-Cart Development Services Company in Mumbai, India</title>
+      <meta name="description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta name="keywords" content="x-cart development services,x-cart development service,offshore x-cart development,x-cart development companies,x-cart development company,x-cart development india,x-cart development delhi,x-cart development mumbai,x-cart development chennai,x-cart develo" />
+     
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
+      <meta property="og:title" content="X-Cart Development Services Company in Mumbai, India" />
+      <meta property="og:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
+      <meta property="twitter:title" content="X-Cart Development Services Company in Mumbai, India" />
+      <meta property="twitter:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
+      <BreadcrumbSchema
+        url="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india"
+        breadcrumbTitle="X-Cart Development Services Company in Mumbai, India"
+        PageRatingSchema
+        description={
+          "Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience."
+        }
+        reviewCount={"5319"}
+      />
+    </>
+  );
   return (
-    <div>
-        <Head>
-            <title>X-Cart Development Services Companies Mumbai India USA UK SIB Infotech</title>
-            <meta name="keywords" content="x-cart development services,x-cart development service,offshore x-cart development,x-cart development companies,x-cart development company,x-cart development india,x-cart development delhi,x-cart development mumbai,x-cart development chennai,x-cart develo"/>
-            <meta name="description" content="SIB Infotech specializes in X-Cart development and design, X-Cart integration, module development and customization.We have developed an array of X-Cart solutions for its clients. Often these accommodate within the 'LAMP' platform - PHP, MySQL, Apache and Linux."/>
-        </Head>
+    <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -33,12 +58,18 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"X-Cart Development "} />
+      </div>
         <div className="col-lg-5 d-block d-lg-none pe-lg-5">
           <div className="bannerForm">
               <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
               <p>with <strong className="fontWeight600 text_red">Best <span className="textChange">X-cart Development </span> Company in India</strong></p>
               <BannerForm/>
           </div>
+      </div>
+      <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"X-Cart Development "} />
       </div>
         <section id="sib-custom-page">
             <div className="containerFull">
@@ -209,6 +240,6 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
                 </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

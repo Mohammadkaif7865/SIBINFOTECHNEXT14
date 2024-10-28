@@ -1,19 +1,41 @@
-import React from 'react';
+import { CustomLayout } from '@/comps/CustomLayout';
 import Link from 'next/link';
 import BannerForm from '../comps/BannerForm';
-import Head from 'next/head';
+import BreadcrumbSchema from '@/comps/BreadcrumbSchema';
+import Breadcrumb from '@/comps/BreadCrumb';
 
 export default function WebsiteRedevelopmentServices() {
-  return (
-    <div>
-        <Head>
-            <title>Website Redevelopment Services</title>
-            <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website"/>
-            <meta name="description" content="SIB Infotech being a professional web designing company, offering you a bunch of talented designers to turn your dreams into reality. Good and affordable website design services are the dual keys of success in online business. We offer professional web designing services at affordable rates."/>
-            <meta property="og:title" content="Best Website Designing Development & Digital Marketing SEO Company in Mumbai, India" />
-            <meta property="og:description" content="SIB Infotech is a leading designing and development company in Mumbai, India offers complete end to end web solutions for designing development services that will help to improve user experience." />
-            {/* <link rel="canonical" href="https://www.sibinfotech.com/website-designing-methodology-mumbai-india"/> */}
-        </Head>
+   const metaTags = (
+      <>
+        <title>Website Redevelopment Services | Modern SEO-Friendly Sites</title>
+        <meta name="description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta name="keywords" content="Web Design India, Software Development Companies, Web Development Companies India, Website Design India, Custom Web Design India, Web Design Delhi,indian web design company, india seo company,corporate website design,custom website design services,website" />
+       
+  
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
+        <meta property="og:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
+        <meta property="og:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg" />
+  
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.sibinfotech.com/website-redevelopment-services" />
+        <meta property="twitter:title" content="Website Redevelopment Services | Modern SEO-Friendly Sites" />
+        <meta property="twitter:description" content="Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility." />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg" />
+        <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-redevelopment-services"
+        breadcrumbTitle="Website Redevelopment Services | Modern SEO-Friendly Sites"
+        PageRatingSchema
+        description={
+          "Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility."
+        }
+        reviewCount={"5312"}
+      />
+      </>
+    );
+    return (
+      <CustomLayout meta={metaTags}>
         <div className="innerWebDesign">
             <div className="container-fluid">
                  <div className="row">
@@ -36,6 +58,9 @@ export default function WebsiteRedevelopmentServices() {
                 </div>
             </div>
         </div>
+        <div className="d-lg-none ">
+        <Breadcrumb Pagetitle={"Website Redevelopment  "} />
+      </div>
         <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
             <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">Accelerate Your Business Growth</h4>
@@ -43,6 +68,9 @@ export default function WebsiteRedevelopmentServices() {
                 <BannerForm/>
             </div>
         </div>
+        <div className="d-none d-lg-block">
+        <Breadcrumb Pagetitle={"Website Redevelopment  "} />
+      </div>
         <section id="sib-custom-page">
             <div className="containerFull">
                <div className="row">
@@ -109,6 +137,6 @@ export default function WebsiteRedevelopmentServices() {
                </div>
             </div>
          </section>
-    </div>
+    </CustomLayout>
   )
 }

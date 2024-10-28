@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import Breadcrumb from "@/comps/BreadCrumb";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
+import { useState } from "react";
 
 export default function SocialMediaMarketingSMMServicesPackages() {
   const [open, setOpen] = useState(1);
@@ -280,13 +281,37 @@ export default function SocialMediaMarketingSMMServicesPackages() {
 ];
 
 
-  return (
-    <div>
-      <Head>
-        <title>Website Design Development Services Packages</title>
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-      </Head>
+const metaTags = (
+  <>
+    <title>Best Website Design & Development Packages for All Businesses</title>
+    <meta name="description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta name="keywords" content="Website Design Development Services Packages" />
+   
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
+    <meta property="og:title" content="Best Website Design & Development Packages for All Businesses" />
+    <meta property="og:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
+    <meta property="twitter:title" content="Best Website Design & Development Packages for All Businesses" />
+    <meta property="twitter:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
+    <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
+    <BreadcrumbSchema
+        url="https://www.sibinfotech.com/website-design-development-services-packages"
+        breadcrumbTitle="Best Website Design & Development Packages for All Businesses"
+        PageRatingSchema
+        description={
+          "ransform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!"
+        }
+        reviewCount={"5304"}
+      />
+  </>
+);
+return (
+  <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -308,6 +333,9 @@ export default function SocialMediaMarketingSMMServicesPackages() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="">
+        <Breadcrumb Pagetitle={"Website Design & Development "} />
       </div>
 
       <section>
@@ -595,6 +623,6 @@ export default function SocialMediaMarketingSMMServicesPackages() {
           </div>
         </div>
       </section>
-    </div>
+    </CustomLayout>
   );
 }

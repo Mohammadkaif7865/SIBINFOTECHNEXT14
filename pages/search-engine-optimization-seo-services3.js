@@ -1,46 +1,36 @@
-import Head from "next/head";
-import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
-import React, { useState, useEffect } from "react";
+import { CustomLayout } from "@/comps/CustomLayout";
+import SEO from "@/comps/SEO/SEO";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
-import SEO from "@/comps/SEO/SEO";
+import { useEffect, useState } from "react";
 
 export default function SearchEngineOptimizationServices() {
-  useEffect(() => {
-    AOS.init();
-    return () => {
-      AOS.refreshHard();
-    };
-  }, []);
+ 
+  const metaTags = (
+    <>
+      <title>Top SEO Company in India | Best SEO Services Agency Mumbai</title>
+      <meta name="description" content="Enhance your online visibility and organic traffic with SIB Infotech, the best SEO company in India. Achieve lasting results with expert SEO services in Mumbai." />
+      <meta name="keywords" content="SEO Company in India, SEO Company in Mumbai, SEO Agency India, SEO Agency in India, SEO Agency in Mumbai, seo services, seo services in India, seo services in Mumbai, seo optimization service, India seo company, seo providers in India, search engine optimization companies in India, seo firms India, search engine optimization agencies" />
+     
 
-  const [activeTab, setActiveTab] = useState("section1");
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.sibinfotech.com/search-engine-optimization-seo-services
+" />
+      <meta property="og:title" content="Top SEO Company in India | Best SEO Services Agency Mumbai" />
+      <meta property="og:description" content="Enhance your online visibility and organic traffic with SIB Infotech, the best SEO company in India. Achieve lasting results with expert SEO services in Mumbai." />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.jpg" />
 
-
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/search-engine-optimization-seo-services
+" />
+      <meta property="twitter:title" content="Top SEO Company in India | Best SEO Services Agency Mumbai" />
+      <meta property="twitter:description" content="Enhance your online visibility and organic traffic with SIB Infotech, the best SEO company in India. Achieve lasting results with expert SEO services in Mumbai." />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.jpg" />
+    </>
+  );
   return (
-    <div>
-      <Head>
-        <title>
-          Best SEO Company In India, SEO Services Mumbai, SEO Agency India
-        </title>
-        <meta
-          name="description"
-          content="Are you looking for the best SEO Company in India? SIB Infotech is the best SEO Company in India providing white-label SEO Services in India. With a comprehensive list of seo services."
-        />
-        <meta
-          name="keywords"
-          content="SEO Company in India, SEO Company in Mumbai, SEO Agency India, SEO Agency in India, SEO Agency in Mumbai, seo services, seo services in India, seo services in Mumbai, seo optimization service, India seo company, seo providers in India, search engine optimization companies in India, seo firms India, search engine optimization agencies"
-        />
-        {/* <link
-          rel="canonical"
-          href="https://www.sibinfotech.com/search-engine-optimization-seo-services"
-        /> */}
-      </Head>
+    <CustomLayout meta={metaTags}>
       <SEO />
-    </div>
+    </CustomLayout>
   );
 }

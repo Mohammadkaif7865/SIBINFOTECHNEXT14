@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+	.itemReviews {
+		width: 30%;	
+	  }
+	  .inlineClutch {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	  }
     p, .customText, .seoItem p, .rightDiff ul li{
         font-size:14px;
 		line-height: auto;
@@ -1117,6 +1126,7 @@
 		align-items: center;
 		justify-content: center;
 	}
+
 }
 @media (min-width: 1280px){
 	.containerFull{
