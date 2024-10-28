@@ -17,12 +17,15 @@ const HomeHero = () => {
             <div className="row">
               <div className="col-lg-7">
                 <div className="videoLeft">
-                  <h1 className="large_heading fontHeading  fontWeight800 text-white">
-                    TOP RATED
+                  <h1>
+                    <span className=" d-block large_heading fontHeading  fontWeight800 text-white">
+                      TOP RATED
+                    </span>
+                    <span className="text-white d-block heading fontWeight700 my-2 fontHeading">
+                      WEB DESIGN AND <span className="text_ocenblue">DIGITAL MARKETING AGENCY</span>
+                    </span>
                   </h1>
-                  <h2 className="heading fontWeight700 my-2 fontHeading">
-                    WEB DESIGN AND <span>DIGITAL MARKETING AGENCY</span>
-                  </h2>
+
                   <h3 className="sub_heading text-white">We Help you get</h3>
                   <div className="centerVideo">
                     <BannerTextSlider />
@@ -37,7 +40,8 @@ const HomeHero = () => {
                   <p className="">
                     with{" "}
                     <strong className="fontWeight600 text_red">
-                      Best <span className=" textChange">Digital Marketing</span>{" "}
+                      Best{" "}
+                      <span className=" textChange">Digital Marketing</span>{" "}
                       Company in India
                     </strong>
                   </p>
