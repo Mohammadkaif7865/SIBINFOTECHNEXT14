@@ -19,7 +19,9 @@ const HomeHero = () => {
                 <div className="videoLeft">
                   <h1>
                     <span className=" d-block large_heading fontHeading  fontWeight800 text-white">
-                      TOP RATED
+                      TOP RATED <span>
+                        
+                      </span>
                     </span>
                     <span className="text-white d-block heading fontWeight700 my-2 fontHeading">
                       WEB DESIGN AND <span className="text_ocenblue">DIGITAL MARKETING AGENCY</span>
