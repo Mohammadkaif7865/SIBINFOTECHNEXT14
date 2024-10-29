@@ -105,7 +105,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           </div>
         </div>
       </div>
-      <div className=" d-lg-none">
+      <div className="d-lg-none">
         <Breadcrumb
           Pagetitle={
             "2D Animation Services"
