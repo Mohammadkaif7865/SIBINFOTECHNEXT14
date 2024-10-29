@@ -105,7 +105,7 @@ export default function WebsiteDesignMathodologyMumbai() {
           </div>
         </div>
       </div>
-      <div className="d-none d-lg-block">
+      <div className="d-lg-none">
         <Breadcrumb Pagetitle={"Website Design Methodology "} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
