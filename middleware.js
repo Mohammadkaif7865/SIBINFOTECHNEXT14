@@ -3,11 +3,17 @@ import { NextResponse } from "next/server";
 
 export function middleware(req) {
   const { nextUrl } = req;
-  const url = req.nextUrl.clone();
 
-  // Redirect HTTP and non-www to HTTPS and www in a single step
-  if (nextUrl.protocol === "http:" || nextUrl.hostname === "sibinfotech.com") {
+  // Check if the request is using HTTP and redirect to HTTPS
+  if (nextUrl.protocol === "http:") {
+    const url = req.nextUrl.clone();
     url.protocol = "https:";
+    return NextResponse.redirect(url);
+  }
+
+  // Redirect from sibinfotech.com to www.sibinfotech.com
+  if (nextUrl.hostname === "sibinfotech.com") {
+    const url = req.nextUrl.clone();
     url.hostname = "www.sibinfotech.com";
     return NextResponse.redirect(url);
   }
