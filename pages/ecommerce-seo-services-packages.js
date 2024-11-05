@@ -67,9 +67,9 @@ export default function EcommerceSeoServicesPackages() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   E-commerce Seo Packages
-                </h3>
+                </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Increase Online Business Traffic With Our Affordable
                   E-Commerce SEO Packages
