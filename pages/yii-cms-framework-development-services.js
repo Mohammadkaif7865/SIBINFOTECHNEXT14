@@ -68,7 +68,7 @@ export default function YiiCmsFrameworkDevelopmentServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h3 className="heading fontHeaading fontWeight700 text-white">
                   YII Development
                 </h3>
                 <div className="mt-4">
