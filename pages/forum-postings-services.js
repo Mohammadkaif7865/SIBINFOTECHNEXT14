@@ -42,9 +42,12 @@ export default function ForumPostingServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   Forum Postings Services
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-lg-3 mt-2 text-white">
+                  Top Rated Forum Posting Company in India
+                </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote

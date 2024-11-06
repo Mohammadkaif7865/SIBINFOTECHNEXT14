@@ -26,10 +26,9 @@ const DigitalMarketingWebAgency = () => {
     <section className="marBlock overflowHidden ">
       <div className="marqBlock">
         <h2 className="large_heading  maqrquee fontHeading fw-bold text-uppercase">
-          <span className="stroke">DIGITAL MARKETING</span> & WEB AGENCY
-        </h2>
+          <span className="stroke">DIGITAL MARKETING</span> & WEB DESIGNING  </h2>
         <h2 className="large_heading mt-4  fontHeading maqrqueeReverse fw-bold text-uppercase">
-          DIGITAL MARKETING & <span className="stroke">WEB AGENCY</span>
+          WEBSITE DEVELOPMENT & <span className="stroke">SEO AGENCY</span>
         </h2>
       </div>
       <div className="containerFull">

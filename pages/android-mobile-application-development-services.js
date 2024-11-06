@@ -70,9 +70,9 @@ export default function AndroidMobileApplicationDevelopmentServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontWeight700 text-white fontHeading">
                   Android Application Development
-                </h3>
+                </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Mobile application development is the process of developing
                   mobile apps for mobile devices which are further used for

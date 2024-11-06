@@ -43,9 +43,12 @@ export default function HostedMarketingPagesServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   Hosted Marketing Pages
-                </h3>
+                </h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Boost Your Online Presence with Our Hosted Marketing Pages
+                </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -76,7 +79,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb  Pagetite={'Hosted Marketing Pages '} />
+        <Breadcrumb  Pagetitle={'Hosted Marketing Pages '} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -94,7 +97,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetite={'Hosted Marketing Pages'} />
+        <Breadcrumb  Pagetitle={'Hosted Marketing Pages'} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

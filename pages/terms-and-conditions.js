@@ -71,6 +71,7 @@ export default function TermsOfUse() {
                 <h1 className="heading fontWeight700 text-center text-white">
                   Terms & Conditions
                 </h1>
+            
                 <div className="mt-5 text-center">
                   <Link
                     href="https://www.sibinfotech.com/#requestQuote"

@@ -75,9 +75,9 @@ export default function LocalSeoServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontHeading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   Local SEO Services
-                </h3>
+                </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated Local SEO Company in India
                 </h2>

@@ -78,7 +78,7 @@ export default function BlogManagementServices() {
                   Blog Management Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Blog Management Company in India
+                  Top Rated Blog Management Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#" className="btnThemeRed me-3">

@@ -87,7 +87,7 @@ const Expertise = () => {
                   <p>{service.description}</p>
                 </div>
                 <Link href={service.link} className="linkService">
-                  Read More
+                  Learn More
                 </Link>
               </div>
             ))}

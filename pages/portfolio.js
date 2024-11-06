@@ -71,7 +71,10 @@ export default function Portfolio() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">Portfolio</h3>
+                <h1 className="heading fontHeading fontWeight700 text-white">Portfolio</h1>
+                <h2 className="small_heading fw-bold mt-3 text-white">
+                  Our Successful Projects
+                </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote">
                     <span className="btnThemeRed me-3">
