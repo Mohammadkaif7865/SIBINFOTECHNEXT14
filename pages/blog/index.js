@@ -75,11 +75,12 @@ export default function Blog() {
                 </h1>
                 <div className="mt-4 text-center">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
-                    <i className="fa-solid fa-comment-dots"></i> Get a Quote
+                    <i className="fa-solid fa-comment-dots"></i> Get a Quote <h2 className="d-none">Get a Quote</h2>
                   </Link>
                   <Link href="#" className="btnThemewhiteBorder">
-                    <i className="fa-solid fa-circle-question"></i> Ask a
-                    question
+                    <i className="fa-solid fa-circle-question"></i>  Ask a
+                    question <h3 className="d-none"> Ask a
+                    question</h3>
                   </Link>
                 </div>
               </div>
