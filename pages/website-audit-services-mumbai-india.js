@@ -68,10 +68,10 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                  Corporate Website Designing Services
+                Website Audit Services for Optimal Performance
                 </h1>
                 <h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">
-                  Best Website Designing Company in India
+                Expert Audit Services in Mumbai, India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">

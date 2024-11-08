@@ -41,7 +41,7 @@ export default function TwitterMarketing() {
                 <div className="row">
                     <div className="col-lg-7 ps-lg-5">
                         <div className="innerBannerTitle venter">
-                            <h3 className="heading fontWeight700 fontHeading text-white">Twitter Trending Marketing</h3>
+                            <h1 className="heading fontWeight700 fontHeading text-white">Twitter Trending Marketing</h1>
                             <h2 className="small_heading fw-bold mt-3 text-white">Boost Your Brand Presence with Expert Twitter Marketing Services</h2>
 
                             <div className="mt-4">
