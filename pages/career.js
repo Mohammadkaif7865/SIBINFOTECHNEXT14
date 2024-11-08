@@ -58,16 +58,16 @@ export default function Career() {
           <div className="row">
             <div className="col-lg-12">
               <div className="innerBannerTitle text-center venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontWeight700 text-white">
                   We’re hiring
-                </h3>
-                <p className="small_heading mt-3 text-white">
+                </h1>
+                <h2 className="small_heading mt-3 text-white">
                   We’re a team of lifelong learners. We’re equal parts left and
                   right brained. Join Us!
-                </p>
-                <p className="title mt-2 text-white">
+                </h2>
+                <h3 className="title mt-2 text-white">
                   Connect with our HR Department{" "}
-                </p>
+                </h3>
                 <div className="mt-4">
                   <Link href="#requestQuote">
                     <span className="btnThemeRed me-3">

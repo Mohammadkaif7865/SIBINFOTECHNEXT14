@@ -134,9 +134,12 @@ export default function ContactForm() {
           <div className="row">
             <div className="col-lg-12">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-center text-white">
+                <h1 className="heading fontWeight700 text-center text-white">
                   Get in Touch
-                </h3>
+                </h1>
+                <h5 className=" text-center text-white">
+                Drop Us A Line
+                </h5>
               </div>
             </div>
           </div>
