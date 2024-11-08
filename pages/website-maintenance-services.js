@@ -73,7 +73,7 @@ export default function WebsiteMaintenanceServices() {
                   Website Maintenance Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rsted Web Site Maintenance Company India
+                Top Rated Website Maintenance Company in India
 
                 </h2>
                 <div className="mt-4">
