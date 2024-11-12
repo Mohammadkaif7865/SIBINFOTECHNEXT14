@@ -71,7 +71,7 @@ export default function PpcManagementServicesPackages() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   PPC Packages
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">

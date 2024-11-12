@@ -172,12 +172,12 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/Rishabh.jpg",
       alt: "Rishabh Kumar",
     },
-    {
-      name: "Sachin Kumar",
-      imgSrcSet: "assets/images/team/sachin.jpg",
-      imgSrc: "assets/images/team/sachin.jpg",
-      alt: "Sachin Kumar",
-    },
+    // {
+    //   name: "Sachin Kumar",
+    //   imgSrcSet: "assets/images/team/sachin.jpg",
+    //   imgSrc: "assets/images/team/sachin.jpg",
+    //   alt: "Sachin Kumar",
+    // },
     {
       name: "Santosh Kumar",
       imgSrcSet: "assets/images/team/santosh-kumar.webp",
@@ -199,8 +199,8 @@ export default function AboutUs() {
     },
     {
       name: "Vishal Maurya",
-      imgSrcSet: "assets/images/team/vishal-maurya.webp",
-      imgSrc: "assets/images/team/vishal-maurya.jpg",
+      imgSrcSet: "assets/images/team/vishal.webp",
+      imgSrc: "assets/images/team/vishal.png",
       alt: "Vishal Maurya",
     },
     {
@@ -209,12 +209,12 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/Vithaldas.jpg",
       alt: "Vithaldas Nayak",
     },
-    {
-      name: "Zaid Shaikh",
-      imgSrcSet: "assets/images/team/Zaid-Shaikh.webp",
-      imgSrc: "assets/images/team/Zaid-Shaikh.jpg",
-      alt: "Zaid-Shaikh",
-    },
+    // {
+    //   name: "Zaid Shaikh",
+    //   imgSrcSet: "assets/images/team/Zaid-Shaikh.webp",
+    //   imgSrc: "assets/images/team/Zaid-Shaikh.jpg",
+    //   alt: "Zaid-Shaikh",
+    // },
     {
       name: "Zaroon Junaid",
       imgSrcSet: "assets/images/team/zaroon-junaid.webp",

@@ -69,9 +69,14 @@ export default function DotNetDevelopmentServices() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-white">
+                <h1 className="heading fontHeading fontWeight700 text-white">
                   .NET Development Services
-                </h3>
+                </h1>
+                <h2>
+                  Top Rated.NET Development Company in Mumbai, India
+                </h2>
+
+
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote

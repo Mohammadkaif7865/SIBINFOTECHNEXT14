@@ -65,9 +65,13 @@ export default function Resource() {
           <div className="row">
             <div className="col-lg-12">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-center text-white">
+                <h1 className="headingfontHeading  fontWeight700 text-center text-white">
                   Resource
                 </h1>
+                <h2 className="small_heading fw-bold mt-lg-3 text-white text-center">
+                Expert Digital Resources
+                </h2>
+              
                 <div className="mt-5 text-center">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
                     <span className="btnThemeRed me-3">

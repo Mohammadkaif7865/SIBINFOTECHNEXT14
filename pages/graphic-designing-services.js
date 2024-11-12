@@ -511,9 +511,9 @@ export default function GraphicDesigningServices() {
             <div className="col-lg-4">
               <div className="graphic-why-us-left fontHeading">
                 <h3>Want to get your</h3>
-                <h1>
+                <h3>
                   <span className="text_red">brand noticed?</span>
-                </h1>
+                </h3>
                 <Link href="/contact-us">
                   <span className="graphic-btn">Speak to our experts</span>
                 </Link>

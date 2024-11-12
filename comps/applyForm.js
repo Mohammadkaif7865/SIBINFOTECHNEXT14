@@ -710,9 +710,9 @@ export default function ApplyForm() {
           <div className="row">
             <div className="col-lg-12">
               <div className="innerBannerTitle venter">
-                <h3 className="heading fontWeight700 text-center text-white">
+                <h1 className="heading fontWeight700 text-center text-white">
                   Job Application
-                </h3>
+                </h1>
                 <p className="small_heading mt-3 text-center text-white">
                   We’re a team of lifelong learners. We’re equal parts left and
                   right brained. Join Us!
