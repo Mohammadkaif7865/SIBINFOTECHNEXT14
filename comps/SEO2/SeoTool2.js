@@ -221,9 +221,9 @@ const SeoTools2 = () => {
                     </div>
                     <div>
                       <h4 className=" fontWeight600 d-flex align-items-center   ">
-                        +95% <i className="fa-solid fa-arrow-up-long"></i>
+                        +97% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
-                      <p className="fontWeight600  small_heading ">Ranking Improves</p>
+                      <p className="fontWeight600  small_heading ">1<sup>st</sup>{" "} Page Ranking</p>
                     </div>
                     {/* <div>
                       <p>400+ Applications</p>
