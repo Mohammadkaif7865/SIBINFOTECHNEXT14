@@ -137,9 +137,9 @@ export default function ContactForm() {
                 <h1 className="heading fontWeight700 text-center text-white">
                   Get in Touch
                 </h1>
-                <h5 className=" text-center text-white">
+                <h2 className="title text-center text-white">
                 Drop Us A Line
-                </h5>
+                </h2>
               </div>
             </div>
           </div>
