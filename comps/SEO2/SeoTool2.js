@@ -173,10 +173,10 @@ const SeoTools2 = () => {
                     </div>
                     <div>
                       <h4 className=" fontWeight600 d-flex align-items-center   ">
-                        400+ <i className="fa-solid fa-arrow-up-long"></i>
+                        10x <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
                       <p className="fontWeight600  small_heading ">
-                        Impression
+                        Brand Searches
                       </p>
                     </div>
                     <div>
@@ -221,9 +221,9 @@ const SeoTools2 = () => {
                     </div>
                     <div>
                       <h4 className=" fontWeight600 d-flex align-items-center   ">
-                        +280% <i className="fa-solid fa-arrow-up-long"></i>
+                        +95% <i className="fa-solid fa-arrow-up-long"></i>
                       </h4>
-                      <p className="fontWeight600  small_heading ">Clicks</p>
+                      <p className="fontWeight600  small_heading ">Ranking Improves</p>
                     </div>
                     {/* <div>
                       <p>400+ Applications</p>
