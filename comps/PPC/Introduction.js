@@ -9,7 +9,7 @@ const Introduction = () => {
         <div className="row">
           <div className="col-md-7">
             <div className="rightPPC">
-              <h2 className="customHeading">PPC Management Services India</h2>
+              <h2 className="customHeading">Why Choose SIB Infotech for Expert PPC Services in India</h2>
               <p className="customText">
                 SIB Infotech is an innovative{" "}
                 <strong>
