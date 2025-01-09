@@ -12,10 +12,10 @@ const Banner = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Pay Per Click Management Services
+                 PPC  Management Services India
                 </h1>
                 <h2 className="small_heading fw-bold mt-lg-3 mt-2 text-white">
-                  Top Rated PPC Management Company in India
+                  Top Rated PPC Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
@@ -45,7 +45,7 @@ const Banner = () => {
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best <span className="textChange">PPC Management</span>{" "}
-                    Company in India
+                    Agency in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -62,7 +62,7 @@ const Banner = () => {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">PPC Management</span> Company in
+              Best <span className="textChange">PPC Management</span> Agency in
               India
             </strong>
           </p>

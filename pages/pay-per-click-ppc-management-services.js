@@ -7,13 +7,13 @@ export default function PpcManagementServices() {
   const metaTags = (
     <>
       <title>
-        PPC Management Company India | Pay Per-Click Services Mumbai
+        Best PPC Company in India | Top PPC Services Agency 2025
       </title>
       <meta
         name="description"
-        content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance."
+        content="Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
       />
-      <meta name="keywords" content="Pay Per Click Management Services" />
+      <meta name="keywords" content="best ppc company in india, top ppc company in india, ppc company in india, ppc management services in india, best ppc company in mumbai, top ppc company in mumbai, ppc company in mumbai, ppc management services in mumbai" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -22,11 +22,11 @@ export default function PpcManagementServices() {
       />
       <meta
         property="og:title"
-        content="PPC Management Company India | Pay Per-Click Services Mumbai"
+        content="Best PPC Company in India | Top PPC Services Agency 2025"
       />
       <meta
         property="og:description"
-        content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance."
+        content="Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
       />
       <meta
         property="og:image"
@@ -40,11 +40,11 @@ export default function PpcManagementServices() {
       />
       <meta
         property="twitter:title"
-        content="PPC Management Company India | Pay Per-Click Services Mumbai"
+        content="Best PPC Company in India | Top PPC Services Agency 2025"
       />
       <meta
         property="twitter:description"
-        content="Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance."
+        content="Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
       />
       <meta
         property="twitter:image"
@@ -52,10 +52,10 @@ export default function PpcManagementServices() {
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/pay-per-click-ppc-management-services"
-        breadcrumbTitle="PPC Management Company India | Pay Per-Click Services Mumbai"
+        breadcrumbTitle="Best PPC Company in India | Top PPC Services Agency 2025"
         PageRatingSchema
         description={
-          "Drive traffic and boost ROI with SIB Infotech, an expert PPC management company in India. Our Pay-Per-Click services in Mumbai ensure optimal ad performance."
+          "Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
         }
         reviewCount={"5250"}
       />
