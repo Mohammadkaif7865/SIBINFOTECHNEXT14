@@ -5,12 +5,11 @@ import BannerTextSlider from "../BannerTextSlider";
 const HomeHero = () => {
   return (
     <div>
-      test
-      {/* <div className="bannerBlock ">
-        <video loop playsInline autoPlay muted  poster="assets/images/website-redesigning-company-in-india.png">
-          <source
-            src=""
-            // src="assets/images/banner/banner-video2.mp4"
+   
+      <div className="bannerBlock ">
+        <video loop playsInline autoPlay muted  >
+          <source  
+            src="assets/images/banner/banner-video2.mp4"
             type="video/mp4"
           />
         </video>
@@ -70,7 +69,7 @@ const HomeHero = () => {
           </p>
           <BannerForm />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
