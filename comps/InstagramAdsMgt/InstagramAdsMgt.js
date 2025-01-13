@@ -1,13 +1,15 @@
-import Analysis from "./Analysis";
-import Banner from "./Banner";
-import Contact from "./Contact";
-import Determination from "./Determination";
-import InstagramAdvertising from "./InstagramAdvertising";
-import Introduction from "./Introduction";
-import KeyPoints from "./KeyPoints";
-import LanchAds from "./LanchAds";
-import Objective from "./Objective";
-import WhySib from "./WhySib";
+import dynamic from "next/dynamic"; // For dynamic imports
+import Banner from "./Banner"; // Static import for Banner
+
+const Analysis = dynamic(() => import("./Analysis"));
+const Contact = dynamic(() => import("./Contact"));
+const Determination = dynamic(() => import("./Determination"));
+const InstagramAdvertising = dynamic(() => import("./InstagramAdvertising"));
+const Introduction = dynamic(() => import("./Introduction"));
+const KeyPoints = dynamic(() => import("./KeyPoints"));
+const LanchAds = dynamic(() => import("./LanchAds"));
+const Objective = dynamic(() => import("./Objective"));
+const WhySib = dynamic(() => import("./WhySib"));
 
 const InstagramAdsMgt = () => {
   return (

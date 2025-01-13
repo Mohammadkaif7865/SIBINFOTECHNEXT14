@@ -1,21 +1,22 @@
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import BannerForm from "../BannerForm";
-import AOS from "aos";
-import Image from "next/image";
-import Banner from "./Banner";
-import Introduction from "./Introduction";
-import SeoServices from "./SeoServices";
-import SeoTools from "./SeoTools";
-import TalkWithExpert from "./TalkWithExpert";
-import Benifits from "./Benifits";
-import SeoProcess from "./SeoProcess";
-import Help from "./Help";
-import WhyChoose from "./WhyChoose";
-import SpecialisedServices from "./SpecialisedServices";
-import NewsWebsites from "./NewsWebsites";
-import Faqs from "./Faqs";
-import SeoAudit from "./SeoAudit";
+import AOS from "aos"; 
+import dynamic from "next/dynamic"; 
+import { useEffect } from "react"; 
+import Banner from "./Banner"; 
+
+// Dynamic imports for the rest of the components
+const BannerForm = dynamic(() => import("../BannerForm"));
+const Introduction = dynamic(() => import("./Introduction"));
+const SeoServices = dynamic(() => import("./SeoServices"));
+const SeoTools = dynamic(() => import("./SeoTools"));
+const TalkWithExpert = dynamic(() => import("./TalkWithExpert"));
+const Benifits = dynamic(() => import("./Benifits"));
+const SeoProcess = dynamic(() => import("./SeoProcess"));
+const Help = dynamic(() => import("./Help"));
+const WhyChoose = dynamic(() => import("./WhyChoose"));
+const SpecialisedServices = dynamic(() => import("./SpecialisedServices"));
+const NewsWebsites = dynamic(() => import("./NewsWebsites"));
+const Faqs = dynamic(() => import("./Faqs"));
+const SeoAudit = dynamic(() => import("./SeoAudit"));
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {

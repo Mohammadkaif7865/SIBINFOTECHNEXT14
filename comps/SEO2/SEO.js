@@ -1,24 +1,23 @@
-import AOS from "aos";
+import AOS from "aos"; 
+import dynamic from "next/dynamic"; 
 import { useEffect } from "react";
-import Banner from "./Banner";
-import Benifits from "./Benifits";
-import BookConsultation from "./BookConsultation";
-import Faqs from "./Faqs";
-import Help from "./Help";
-import Introduction from "./Introduction";
-import NewsWebsites from "./NewsWebsites";
-import OutsourcingServices from "./OutsourcingServices";
-import SeoAudit from "./SeoAudit";
-import SeoProcess from "./SeoProcess";
-import SeoServices from "./SeoServices";
-import SeoTools from "./SeoTools";
-import ServicesLogo from "./ServicesLogo";
-import SpecialisedServices from "./SpecialisedServices";
-import Strategy from "./Strategy";
-import TalkWithExpert from "./TalkWithExpert";
-import WhyChoose from "./WhyChoose";
-import SeoTools2 from "./SeoTool2";
-import Counter from "./Counter";
+import Banner from "./Banner"; 
+
+const Benifits = dynamic(() => import("./Benifits"));
+const Faqs = dynamic(() => import("./Faqs"));
+const Help = dynamic(() => import("./Help"));
+const Introduction = dynamic(() => import("./Introduction"));
+const NewsWebsites = dynamic(() => import("./NewsWebsites"));
+const OutsourcingServices = dynamic(() => import("./OutsourcingServices"));
+const SeoAudit = dynamic(() => import("./SeoAudit"));
+const SeoProcess = dynamic(() => import("./SeoProcess"));
+const SeoServices = dynamic(() => import("./SeoServices"));
+const SeoTools2 = dynamic(() => import("./SeoTool2"));
+const ServicesLogo = dynamic(() => import("./ServicesLogo"));
+const SpecialisedServices = dynamic(() => import("./SpecialisedServices"));
+const Strategy = dynamic(() => import("./Strategy"));
+const TalkWithExpert = dynamic(() => import("./TalkWithExpert"));
+const WhyChoose = dynamic(() => import("./WhyChoose"));
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {
@@ -87,7 +86,7 @@ const SEO = () => {
       <ServicesLogo />
       <Introduction />
       <SeoServices />
- 
+
       <SeoTools2 />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"

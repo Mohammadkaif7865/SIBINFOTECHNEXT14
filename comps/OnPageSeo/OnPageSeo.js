@@ -1,13 +1,13 @@
-import Link from "next/link";
-import React from "react";
-import BannerForm from "../BannerForm";
-import Banner from "./Banner";
-import Introduction from "./Introduction";
-import OnPageSeoServices from "./OnPageSeoServices";
-import Benifits from "./Benifits";
-import Invest from "./Invest";
-import Optimization from "./Optimization";
-import Contact from "./Contact";
+import dynamic from "next/dynamic"; // For dynamic imports
+import Banner from "./Banner"; // Static import for Banner
+
+const BannerForm = dynamic(() => import("../BannerForm"));
+const Introduction = dynamic(() => import("./Introduction"));
+const OnPageSeoServices = dynamic(() => import("./OnPageSeoServices"));
+const Benifits = dynamic(() => import("./Benifits"));
+const Invest = dynamic(() => import("./Invest"));
+const Optimization = dynamic(() => import("./Optimization"));
+const Contact = dynamic(() => import("./Contact"));
 
 const OnPageSeo = () => {
   return (

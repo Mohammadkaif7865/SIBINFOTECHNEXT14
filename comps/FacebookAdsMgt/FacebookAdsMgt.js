@@ -1,16 +1,15 @@
-import Link from "next/link";
-import React from "react";
-import BannerForm from "../BannerForm";
 import Banner from "./Banner";
-import WhyNeed from "./WhyNeed";
-import Contact from "./Contact";
-import HowWorks from "./HowWorks";
-import AdsBenefit from "./AdsBenefit";
-import TargetAudience from "./TargetAudience";
-import EngagingAds from "./EngagingAds";
-import Estimate from "./Estimate";
-import AdsType from "./AdsType";
-import Launchcampaign from "./Launchcampaign";
+import dynamic from "next/dynamic"; 
+const AdsBenefit = dynamic(() => import("./AdsBenefit"), { ssr: false });
+const AdsType = dynamic(() => import("./AdsType"), { ssr: false });
+const Contact = dynamic(() => import("./Contact"), { ssr: false });
+const EngagingAds = dynamic(() => import("./EngagingAds"), { ssr: false });
+const Estimate = dynamic(() => import("./Estimate"), { ssr: false });
+const HowWorks = dynamic(() => import("./HowWorks"), { ssr: false });
+const Launchcampaign = dynamic(() => import("./Launchcampaign"), { ssr: false });
+const TargetAudience = dynamic(() => import("./TargetAudience"), { ssr: false });
+const WhyNeed = dynamic(() => import("./WhyNeed"), { ssr: false });
+
 
 const FacebookAdsMgt = () => {
   return (

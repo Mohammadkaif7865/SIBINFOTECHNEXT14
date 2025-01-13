@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 // next.config.mjs
 
+import withBundleAnalyzer from '@next/bundle-analyzer';
+
 const nextConfig = {
   reactStrictMode: true,
   async redirects() {
@@ -328,4 +330,8 @@ const nextConfig = {
   // assetPrefix: "https://www.sibinfotech.com",
 };
 
-export default nextConfig;
+export default withBundleAnalyzer({
+  enabled: false, // Always enable the bundle analyzer
+})(nextConfig);
+
+// export default nextConfig;

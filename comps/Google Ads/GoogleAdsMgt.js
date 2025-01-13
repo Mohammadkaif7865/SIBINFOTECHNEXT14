@@ -1,14 +1,14 @@
 import Link from "next/link";
-import React from "react";
-import BannerForm from "../BannerForm";
-import HeroGoogleAds from "./HeroGoogleAds";
-import AdsCompany from "./AdsCompany";
-import WhyChoose from "./WhyChoose";
-import AdWords from "./AdWords";
-import Contact from "./Contact";
-import AdCampaigns from "./AdCampaigns";
-import EffectiveAds from "./EffectiveAds";
-import HighlyEfficient from "./HighlyEfficient";
+import HeroGoogleAds from "./HeroGoogleAds"; 
+import dynamic from "next/dynamic"; 
+
+const AdCampaigns = dynamic(() => import("./AdCampaigns"));
+const AdsCompany = dynamic(() => import("./AdsCompany"));
+const AdWords = dynamic(() => import("./AdWords"));
+const Contact = dynamic(() => import("./Contact"));
+const EffectiveAds = dynamic(() => import("./EffectiveAds"));
+const HighlyEfficient = dynamic(() => import("./HighlyEfficient"));
+const WhyChoose = dynamic(() => import("./WhyChoose"));
 
 const GoogleAdsMgt = () => {
   return (

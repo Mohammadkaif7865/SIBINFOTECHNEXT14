@@ -1,16 +1,16 @@
-import React from "react";
+import dynamic from "next/dynamic"; 
+import Banner from "./Banner"; 
 
-import Introduction from "./Introduction";
-import WorkWebdesign from "../WorkWebdesign";
-import Link from "next/link";
-import WhyBest from "./WhyBest";
-import GrowBusiness from "./GrowBusiness";
-import Contact from "./Contact";
-import DesigningProcess from "./DesigningProcess";
-import Engagement from "./Engagement";
-import Industries from "./Industries";
-import Faqs from "./Faqs";
-import Banner from "./Banner";
+// Dynamic imports for all other components
+const Introduction = dynamic(() => import("./Introduction"));
+const WorkWebdesign = dynamic(() => import("../WorkWebdesign"));
+const WhyBest = dynamic(() => import("./WhyBest"));
+const GrowBusiness = dynamic(() => import("./GrowBusiness"));
+const Contact = dynamic(() => import("./Contact"));
+const DesigningProcess = dynamic(() => import("./DesigningProcess"));
+const Engagement = dynamic(() => import("./Engagement"));
+const Industries = dynamic(() => import("./Industries"));
+const Faqs = dynamic(() => import("./Faqs"));
 
 const WebDesigning = () => {
   return (
