@@ -6,9 +6,10 @@ const HomeHero = () => {
   return (
     <div>
       <div className="bannerBlock ">
-        <video loop playsInline autoPlay muted>
+        <video loop playsInline autoPlay muted  poster="assets/images/website-redesigning-company-in-india.png">
           <source
-            src="assets/images/banner/banner-video2.mp4"
+            src=""
+            // src="assets/images/banner/banner-video2.mp4"
             type="video/mp4"
           />
         </video>
