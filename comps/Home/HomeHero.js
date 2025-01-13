@@ -5,7 +5,8 @@ import BannerTextSlider from "../BannerTextSlider";
 const HomeHero = () => {
   return (
     <div>
-      <div className="bannerBlock ">
+      test
+      {/* <div className="bannerBlock ">
         <video loop playsInline autoPlay muted  poster="assets/images/website-redesigning-company-in-india.png">
           <source
             src=""
@@ -69,7 +70,7 @@ const HomeHero = () => {
           </p>
           <BannerForm />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
