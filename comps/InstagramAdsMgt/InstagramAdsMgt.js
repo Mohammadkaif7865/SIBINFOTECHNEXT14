@@ -1,15 +1,16 @@
 import dynamic from "next/dynamic"; // For dynamic imports
 import Banner from "./Banner"; // Static import for Banner
 
-const Analysis = dynamic(() => import("./Analysis"));
-const Contact = dynamic(() => import("./Contact"));
-const Determination = dynamic(() => import("./Determination"));
-const InstagramAdvertising = dynamic(() => import("./InstagramAdvertising"));
-const Introduction = dynamic(() => import("./Introduction"));
-const KeyPoints = dynamic(() => import("./KeyPoints"));
-const LanchAds = dynamic(() => import("./LanchAds"));
-const Objective = dynamic(() => import("./Objective"));
-const WhySib = dynamic(() => import("./WhySib"));
+const Analysis = dynamic(() => import("./Analysis"), { ssr: false });
+const Contact = dynamic(() => import("./Contact"), { ssr: false });
+const Determination = dynamic(() => import("./Determination"), { ssr: false });
+const InstagramAdvertising = dynamic(() => import("./InstagramAdvertising"), { ssr: false });
+const Introduction = dynamic(() => import("./Introduction"), { ssr: false });
+const KeyPoints = dynamic(() => import("./KeyPoints"), { ssr: false });
+const LanchAds = dynamic(() => import("./LanchAds"), { ssr: false });
+const Objective = dynamic(() => import("./Objective"), { ssr: false });
+const WhySib = dynamic(() => import("./WhySib"), { ssr: false });
+
 
 const InstagramAdsMgt = () => {
   return (

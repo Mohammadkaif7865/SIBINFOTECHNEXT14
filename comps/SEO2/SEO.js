@@ -3,21 +3,22 @@ import dynamic from "next/dynamic";
 import { useEffect } from "react";
 import Banner from "./Banner"; 
 
-const Benifits = dynamic(() => import("./Benifits"));
-const Faqs = dynamic(() => import("./Faqs"));
-const Help = dynamic(() => import("./Help"));
-const Introduction = dynamic(() => import("./Introduction"));
-const NewsWebsites = dynamic(() => import("./NewsWebsites"));
-const OutsourcingServices = dynamic(() => import("./OutsourcingServices"));
-const SeoAudit = dynamic(() => import("./SeoAudit"));
-const SeoProcess = dynamic(() => import("./SeoProcess"));
-const SeoServices = dynamic(() => import("./SeoServices"));
-const SeoTools2 = dynamic(() => import("./SeoTool2"));
-const ServicesLogo = dynamic(() => import("./ServicesLogo"));
-const SpecialisedServices = dynamic(() => import("./SpecialisedServices"));
-const Strategy = dynamic(() => import("./Strategy"));
-const TalkWithExpert = dynamic(() => import("./TalkWithExpert"));
-const WhyChoose = dynamic(() => import("./WhyChoose"));
+const Benifits = dynamic(() => import("./Benifits"), { ssr: false });
+const Faqs = dynamic(() => import("./Faqs"), { ssr: false });
+const Help = dynamic(() => import("./Help"), { ssr: false });
+const Introduction = dynamic(() => import("./Introduction"), { ssr: false });
+const NewsWebsites = dynamic(() => import("./NewsWebsites"), { ssr: false });
+const OutsourcingServices = dynamic(() => import("./OutsourcingServices"), { ssr: false });
+const SeoAudit = dynamic(() => import("./SeoAudit"), { ssr: false });
+const SeoProcess = dynamic(() => import("./SeoProcess"), { ssr: false });
+const SeoServices = dynamic(() => import("./SeoServices"), { ssr: false });
+const SeoTools2 = dynamic(() => import("./SeoTool2"), { ssr: false });
+const ServicesLogo = dynamic(() => import("./ServicesLogo"), { ssr: false });
+const SpecialisedServices = dynamic(() => import("./SpecialisedServices"), { ssr: false });
+const Strategy = dynamic(() => import("./Strategy"), { ssr: false });
+const TalkWithExpert = dynamic(() => import("./TalkWithExpert"), { ssr: false });
+const WhyChoose = dynamic(() => import("./WhyChoose"), { ssr: false });
+
 
 export function SearchEngineOptimizationServices() {
   useEffect(() => {

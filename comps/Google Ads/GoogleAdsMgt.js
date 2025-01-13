@@ -2,13 +2,14 @@ import Link from "next/link";
 import HeroGoogleAds from "./HeroGoogleAds"; 
 import dynamic from "next/dynamic"; 
 
-const AdCampaigns = dynamic(() => import("./AdCampaigns"));
-const AdsCompany = dynamic(() => import("./AdsCompany"));
-const AdWords = dynamic(() => import("./AdWords"));
-const Contact = dynamic(() => import("./Contact"));
-const EffectiveAds = dynamic(() => import("./EffectiveAds"));
-const HighlyEfficient = dynamic(() => import("./HighlyEfficient"));
-const WhyChoose = dynamic(() => import("./WhyChoose"));
+const AdCampaigns = dynamic(() => import("./AdCampaigns"), { ssr: false });
+const AdsCompany = dynamic(() => import("./AdsCompany"), { ssr: false });
+const AdWords = dynamic(() => import("./AdWords"), { ssr: false });
+const Contact = dynamic(() => import("./Contact"), { ssr: false });
+const EffectiveAds = dynamic(() => import("./EffectiveAds"), { ssr: false });
+const HighlyEfficient = dynamic(() => import("./HighlyEfficient"), { ssr: false });
+const WhyChoose = dynamic(() => import("./WhyChoose"), { ssr: false });
+
 
 const GoogleAdsMgt = () => {
   return (
