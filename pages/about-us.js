@@ -57,12 +57,12 @@ export default function AboutUs() {
     </>
   );
   const teamMembers = [
-    {
-      name: "Ankit Verma",
-      imgSrcSet: "assets/images/team/Ankit.webp",
-      imgSrc: "assets/images/team/Ankit.jpg",
-      alt: "Ankit Verma",
-    },
+    // {
+    //   name: "Ankit Verma",
+    //   imgSrcSet: "assets/images/team/Ankit.webp",
+    //   imgSrc: "assets/images/team/Ankit.jpg",
+    //   alt: "Ankit Verma",
+    // },
     {
       name: "Anurag Singh",
       imgSrcSet: "assets/images/team/Anurag.webp",
@@ -87,24 +87,24 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/Bhavnish.jpg",
       alt: "Bhavnish Chaubey",
     },
-    {
-      name: "Gaurav Kumar",
-      imgSrcSet: "assets/images/team/gaurav-kumar.webp",
-      imgSrc: "assets/images/team/gaurav-kumar.jpg",
-      alt: "Gaurav Kumar",
-    },
+    // {
+    //   name: "Gaurav Kumar",
+    //   imgSrcSet: "assets/images/team/gaurav-kumar.webp",
+    //   imgSrc: "assets/images/team/gaurav-kumar.jpg",
+    //   alt: "Gaurav Kumar",
+    // },
     {
       name: "Geordy Mathew",
       imgSrcSet: "assets/images/team/geordy-mathew.webp",
       imgSrc: "assets/images/team/geordy-mathew.jpg",
       alt: "Geordy Mathew",
     },
-    {
-      name: "Kanchan Sharma",
-      imgSrcSet: "assets/images/team/kanchan-sharma.webp",
-      imgSrc: "assets/images/team/kanchan-sharma.webp",
-      alt: "Kanchan Sharma",
-    },
+    // {
+    //   name: "Kanchan Sharma",
+    //   imgSrcSet: "assets/images/team/kanchan-sharma.webp",
+    //   imgSrc: "assets/images/team/kanchan-sharma.webp",
+    //   alt: "Kanchan Sharma",
+    // },
     {
       name: "Mahadev Prasad Uniyal",
       imgSrcSet: "assets/images/team/Mahadev.webp",
