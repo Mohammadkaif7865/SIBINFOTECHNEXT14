@@ -96,7 +96,7 @@ export default function Footer() {
       window.location.pathname === "/apply-now" ||
       window.location.pathname === "/contact-us"
     ) {
-      console.log("This is ihere");
+      // console.log("This is ihere");
       setShowForm(false);
     } else {
       setShowForm(true);

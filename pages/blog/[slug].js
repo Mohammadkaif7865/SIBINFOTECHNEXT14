@@ -130,7 +130,7 @@ function SingleBlog({ blog, blogs }) {
                         .slice(0, 10)
                         .map((blogItem, index) => (
                           <div key={index} className="inline_blog_card">
-                            {console.log(blogItem)}
+                            {/* {console.log(blogItem)} */}
                             <Link href={"/blog/" + blogItem.slug}>
                               <div className="img">
                                 <img
