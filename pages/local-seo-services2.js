@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Head from "next/head";
+
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
@@ -15,7 +15,7 @@ import Process from "@/comps/local-seo/Process";
 import Cta2 from "@/comps/local-seo/Cta2";
 import Cta3 from "@/comps/local-seo/Cta3";
 import Faqs from "@/comps/local-seo/Faqs";
-import Old from "@/comps/local-seo/old";
+import Old from "@/comps/local-seo/Old";
 
 export default function LocalSeoServices() {
   const metaTags = (
