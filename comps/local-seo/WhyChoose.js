@@ -6,7 +6,7 @@ const WhyChoose = () => {
     <section className="bg_light_gray">
       <div className="containerFull">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-5 mt-lg-0 px-4 px-lg-0 order-2 order-lg-1">
             <div className="w-100 h-100 img_benifits ">
               <Image
                 className="w-100 h-100 object-fit-cover"
@@ -17,7 +17,7 @@ const WhyChoose = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 order-1 order-lg-2">
             <div className="ps-lg-5">
               <h4 className="sub_heading fontHeading fontWeight700">
                 Why Choose <br />

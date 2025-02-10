@@ -37,8 +37,8 @@ const Benefits = () => {
         </ul>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="w-100 h-100 img_benifits ">
+          <div className="col-lg-6 mt-5 mt-lg-0 px-4 px-lg-0">
+            <div className="w-100 h-100 img_benifits  ">
                 <Image className="w-100 h-100 object-fit-cover" src="/assets/images/local-seo/top-view-tools-marketing.jpg" alt="" width="1050" height="600"  />
 
             </div>
