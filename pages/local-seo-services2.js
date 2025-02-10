@@ -15,6 +15,7 @@ import Process from "@/comps/local-seo/Process";
 import Cta2 from "@/comps/local-seo/Cta2";
 import Cta3 from "@/comps/local-seo/Cta3";
 import Faqs from "@/comps/local-seo/Faqs";
+import Old from "@/comps/local-seo/old";
 
 export default function LocalSeoServices() {
   const metaTags = (
@@ -216,7 +217,7 @@ export default function LocalSeoServices() {
             </div>
             <div className="col-lg-5">
               <h2 className="sub_heading fontHeading text-center  fontWeight700 ">
-                Your Trusted <span className="text_red">Local SEO Experts</span>{" "}
+              Your Trusted <span className="text_red">Local SEO Optimization Experts </span>{" "}
                 Since 2005!
               </h2>
             </div>
@@ -230,6 +231,7 @@ export default function LocalSeoServices() {
       <WhyChoose />
       <Process />
       <Cta3/>
+      <Old/>
       <Faqs/>
       <Cta2 />
     </CustomLayout>

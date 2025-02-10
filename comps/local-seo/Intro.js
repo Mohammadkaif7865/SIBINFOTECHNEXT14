@@ -11,20 +11,23 @@ const Intro = () => {
               What is <span className="text_red">Local SEO </span> ?
             </h3>
             <p className="mt-4">
-              Majority of the internet users these days rely on location-based
-              searches when seeking products, services, or local businesses
+              Local SEO is the latest search engine optimization technique used
+              to optimize your website, Google My Business profile, and overall
+              online presence to rank higher in local search results on Google
+              and other search engines within a specific geographic location,
+              helping your business be found by potential customers nearby.
             </p>
             <p className="mt-3">
-              Local SEO refers to optimising your online presence to rank higher
-              on search engine results when users search for products or
-              services in a specific geographic location. It is one of the
-              important services for a company which has majority of their
-              clients in a specified location or their business is local
-              business and limited to a specific area. The major benefit of
-              local SEO is it would bring in location-based traffic for your
-              local business.
+              Today, the majority of internet users rely on location-based
+              searches when looking for products, services, or local businesses.
+              Our Local SEO services focus on improving your search engine
+              rankings for these location-specific queries by optimizing for
+              Google Maps, local keywords, and local citations. This drives
+              targeted traffic from a specific area, city, or neighborhood to
+              your local business, increasing in-store traffic, phone calls, and
+              online inquiries from nearby local customers.
             </p>
-            <p className="mt-3">
+            {/* <p className="mt-3">
               Generally, local SEO is a combination of several factors that need
               to be maintained and organized by SEO experts to ensure the
               success of your business as well as the website.
@@ -33,7 +36,7 @@ const Intro = () => {
               Local Search Engine Optimisation is a sub-branch of SEO that
               focuses on the growth of the local businesses that are found on
               the local search result
-            </p>
+            </p> */}
           </div>
           <div className="col-lg-6  mt-4 mt-lg-0 ps-lg-5 ">
             <div className="list_intro_lseo">
@@ -48,8 +51,8 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <p className="fontHeading small_heading fontWeight600">
-                   <span className="text_red">46%</span>  of all Google searches are local searches Like “near me”
-                    or “open near me”
+                    <span className="text_red">46%</span> of all Google searches
+                    are local searches Like “near me” or “open near me”
                   </p>
                 </div>
               </div>
@@ -64,8 +67,8 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <p className="fontHeading small_heading fontWeight600">
-                  <span className="text_red"> 76% </span> of smartphone searchers visit a store within a day
-                    (Smartphone Icon)
+                    <span className="text_red"> 76% </span> of smartphone
+                    searchers visit a store within a day (Smartphone Icon)
                   </p>
                 </div>
               </div>
@@ -80,7 +83,8 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <p className="fontHeading small_heading fontWeight600">
-                  <span className="text_red">  78%  </span> of local mobile searches result in an in-store purchase
+                    <span className="text_red"> 78% </span> of local mobile
+                    searches result in an in-store purchase
                   </p>
                 </div>
               </div>
