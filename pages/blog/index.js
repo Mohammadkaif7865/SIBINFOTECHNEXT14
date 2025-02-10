@@ -25,7 +25,7 @@ export default function Blog() {
       });
       if (res.data.blogs) {
         setBlogs(res.data.blogs);
-        console.log(res.data.blogs)
+        // console.log(res.data.blogs)
       }
     } catch (err) {
       console.log(err);

@@ -435,13 +435,13 @@ export default function ApplyForm() {
         newErrors[key] = "This field is required";
       }
     });
-    console.log(selectedFile);
+    // console.log(selectedFile);
     if (selectedFile) {
       delete newErrors.resume;
     }
 
     setErrors(newErrors);
-    console.log(newErrors);
+    // console.log(newErrors);
 
     if (Object.keys(newErrors).length !== 0) {
       return toast.error("Please fill in all required fields");

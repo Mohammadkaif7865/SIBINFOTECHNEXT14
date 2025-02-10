@@ -26,7 +26,7 @@ const Blog = () => {
 
     fetchData();
   }, []);
-  console.log(blogs);
+  // console.log(blogs);
 
   return (
     <section>
@@ -35,7 +35,7 @@ const Blog = () => {
           From Our Blogs
         </h4>
         <div className="row mt-lg-3">
-          {blogs.map((blog, index) => {
+          {blogs?.map((blog, index) => {
             return (
               <div key={blog.id} className="col-lg-4">
                 <BlogCard blog={blog} />
