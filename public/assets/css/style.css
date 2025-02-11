@@ -2131,6 +2131,12 @@ height: 100%;
   align-items: center;
   z-index: 1;
 }
+.innerWebDesign.lseo {
+  background-position: center;
+  background: url(../images/local-seo/local-seo-services.jpg) no-repeat;
+  background-size:cover;
+
+}
 
 .innerBannerTitle:before {
   content: "";
