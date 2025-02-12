@@ -4,7 +4,7 @@ import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
 import Intro from "@/comps/gd-services/Intro";
-import Cta from "@/comps/gd-services/cta";
+import Cta from "@/comps/gd-services/Cta";
 import Services from "@/comps/gd-services/Services";
 import Process from "@/comps/gd-services/Process";
 import Benefits from "@/comps/gd-services/Benefits";
