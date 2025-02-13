@@ -2,16 +2,11 @@ import Footer from "../comps/Footer";
 import Header from "../comps/Header";
 
 import Script from "next/script";
-import { Lora ,Poppins} from "next/font/google";
-
-const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],display: 'swap' });
-const lora = Lora({ subsets: ["latin"], weight: ["400", "500", "600", "700"] ,display: 'swap'});
-
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div className={`${poppins.className} ${lora.className}`}>
+      <div className="wrapper">
     
 
         <Header />
