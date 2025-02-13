@@ -37,43 +37,43 @@ const WhyChoose = () => {
               image that your target audience can identify with.
             </p>
 
-            <ul className="list_benifits_lseo mt-3">
+            <ul className="list_benifits_lseo mt-3 fontWeight700 ">
               <li>
-                <span className="fontWeight700 title" >First Impressions </span > <br/> <span className="text-dark">First Impression Matters:
+                <span className="text-dark" >First Impressions </span > - <span className="text_primary">First Impression Matters:
                 Grab Attention Right Away.</span>
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Brand Awareness </span > <br/> <span className="text-dark">Build Brand Recognition through Consistency.</span> 
+                <span className="text-dark" >
+                  Brand Awareness </span > - <span className="text_primary">Build Brand Recognition through Consistency.</span> 
                 
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Efficient Communication </span > <br/> <span className="text-dark">Simplify Complex Messages with
+                <span className="text-dark" >
+                  Efficient Communication </span > - <span className="text_primary">Simplify Complex Messages with
                   Visual Storytelling.</span> 
                 
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Trust and Credibility </span > <br/>  <span className="text-dark">Establish reliability with polished
+                <span className="text-dark" >
+                  Trust and Credibility </span > -  <span className="text_primary">Establish reliability with polished
                   and cohesive designs.</span>
                 
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Professional Image </span > <br/> <span className="text-dark">Enhance brand perception with
+                <span className="text-dark" >
+                  Professional Image </span > - <span className="text_primary">Enhance brand perception with
                   high-quality visuals.</span>
                 
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Higher Conversion Rate </span > <br/> <span className="text-dark">Influence decisions with persuasive
+                <span className="text-dark" >
+                  Higher Conversion Rate </span > - <span className="text_primary">Influence decisions with persuasive
                   and engaging graphics.</span>
                 
               </li>
               <li>
-                <span className="fontWeight700 title" >
-                  Creativity Kills Competition </span > <br/> <span className="text-dark">Stand out with unique and
+                <span className="text-dark" >
+                  Creativity Kills Competition </span > - <span className="text_primary">Stand out with unique and
                   innovative designs.</span>
                 
               </li>

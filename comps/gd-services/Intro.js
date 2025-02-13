@@ -41,7 +41,7 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <h5 className="fontHeading small_heading fontWeight600">
-                    98% Satisfaction Rate
+                    <span className="text_red">98%</span> Satisfaction Rate
                   </h5>
                   <p className=" mt-2">Trusted by businesses worldwide.</p>
                 </div>
@@ -57,7 +57,7 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <h5 className="fontHeading small_heading fontWeight600">
-                    50% Less Cost
+                  <span className="text_red"> 50%</span> Less Cost
                   </h5>
                   <p className=" mt-2">
                     High-quality designs at unbeatable prices.{" "}
@@ -75,7 +75,7 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <h5 className="fontHeading small_heading fontWeight600">
-                    10,000+ Designs Delivered Monthly
+                  <span className="text_red"> 10,000+</span> Designs Delivered Monthly
                   </h5>
                   <p className=" mt-2">Creativity at scale.</p>
                 </div>
@@ -91,7 +91,7 @@ const Intro = () => {
                 </div>
                 <div className="content">
                   <h5 className="fontHeading small_heading fontWeight600">
-                  99% On-Time Delivery  
+                  <span className="text_red">99%</span> On-Time Delivery  
                   </h5>
                   <p className=" mt-2">Meeting deadlines with perfection.</p>
                 </div>

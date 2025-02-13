@@ -1,7 +1,13 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
 const Services = () => {
+  const [activeTab, setActiveTab] = useState(0);
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
+
   const gd_services = [
     {
       category: "Brand & Identity Design",
@@ -73,28 +79,65 @@ const Services = () => {
       ],
     },
   ];
+
   return (
-    <section>
+    <section className="bgSeo">
       <div className="containerFull">
-        <h4 className="sub_heading fontHeading fontWeight700 mb-3 text-center">Discover the Extra in <span class="text_red">Our Graphic Design Services</span> </h4>
-        <div className="mt-5 row position-relative">
-          <div className="col-lg-7">
-            {gd_services.map((service, index) => (
-              <div className="p-4 b gd_services mb-4 shadow" key={index}>
-                <h4 className="fontHeading small_heading fontWeight600 mb-3">{service.category}</h4>
-                <ul className="list_gd row row-cols-2">
-                  {service.items.map((item, idx) => (
-                    <li key={idx}>{item}</li>
+        <div className="servicesBlock">
+          <div className="d-flex justify-content-between align-items-center flex-wrap">
+            <div className="leftSer d-flex justify-content-between w-100">
+              <h4 className="sub_heading text-white fontWeight700 fontHeading">
+                Discover the Extra in Our Graphic Design Services
+              </h4>
+              <Link className="btnAction d-none d-lg-block" href="/contact-us">
+                Connect With Graphics Expert
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="seoMana">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="sidebarService stickyRow">
+                <ul>
+                  {gd_services.map((service, index) => (
+                    <li
+                      key={index}
+                      className={activeTab === index ? "active" : ""}
+                      onClick={() => handleTabClick(index)}
+                    >
+                      <div className="d-flex align-items-center">
+                        <h4 className="sub_heading me-3 fontHeading fontWeight600">
+                          {index + 1 < 10 ? `0${index + 1}` : index + 1}
+                        </h4>
+                        <h3 className="small_heading fontHeading fontWeight600">
+                          {service.category}
+                        </h3>
+                      </div>
+                    </li>
                   ))}
                 </ul>
               </div>
-            ))}
-          </div>
-          <div className="col-lg-5 position-relative">
-            <div className="img_gd_services">
-              <Image width={600} height={700} src={'/assets/images/gd-services/graphic-design.jpg'} alt="" />
             </div>
-           
+            <div className="col-lg-8">
+              <div className="rightMain stickyRight">
+                {gd_services.map(
+                  (service, index) =>
+                    activeTab === index && (
+                      <div key={index} className="itemSidebar scroll">
+                        <h4 className="sub_heading fontWeight700 fontHeading">
+                          {service.category}
+                        </h4>
+                        <ul className="mt-3 list_gd row row-cols-2">
+                          {service.items.map((item, idx) => (
+                            <li key={idx}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>

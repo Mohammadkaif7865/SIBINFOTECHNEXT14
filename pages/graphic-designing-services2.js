@@ -148,8 +148,8 @@ export default function GraphicDesigningServices() {
         <Breadcrumb Pagetitle={"Graphic Designing Services"} />
       </div>
       <Intro />
-      <Cta />
       <Services />
+      <Cta />
       <Benefits />
       <Process />
       <Portfolio/>
