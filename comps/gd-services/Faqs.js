@@ -95,7 +95,7 @@ const Faqs = () => {
   const [open2, setOpen2] = useState(null);
 
   return (
-    <section>
+    <section className="bgGrey"> 
       <div className="containerFull ">
         <h4 className="heading fontHeading text-center mb-4 fontWeight600">
           FREQUENTLY ASKED QUESTIONS
