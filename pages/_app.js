@@ -6,8 +6,11 @@ import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 import { usePathname } from "next/navigation";
 
+
 function MyApp({ Component, pageProps }) {
   const path = usePathname();
+ 
+
 
   return (
 

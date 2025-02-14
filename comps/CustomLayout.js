@@ -5,7 +5,7 @@ import React from "react";
 export const CustomLayout = ({ children, meta }) => {
   const path = usePathname();
   return (
-    <>
+    < >
       <Head>
         <meta name="geography" content="INDIA" />
         <meta name="geo.region" content="IN-MH" />
@@ -37,6 +37,8 @@ export const CustomLayout = ({ children, meta }) => {
 
         <link rel="canonical" href={`https://www.sibinfotech.com${path}`} />
         {meta}
+
+ 
       </Head>
 
       {children}

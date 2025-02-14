@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
@@ -81,7 +80,7 @@ export default function LocalSeoServices() {
   );
   return (
     <CustomLayout meta={metaTags}>
-      <div className="innerWebDesign">
+      <div className="innerWebDesign lseo">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
@@ -90,9 +89,6 @@ export default function LocalSeoServices() {
                   Boost Your Business Visibility with the Best Local SEO
                   Services in India!
                 </h1>
-                {/* <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Local SEO Company in India
-                </h2> */}
                 <ul className="list_local_seo title fontWeight600 col-lg-10 ps-lg-3">
                   <li>Dominate Local Search Results</li>
                   <li>Attract Nearby Customers</li>
@@ -215,7 +211,7 @@ export default function LocalSeoServices() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 mt-4 mt-lg-0">
               <h2 className="sub_heading fontHeading text-center  fontWeight700 ">
               Your Trusted <span className="text_red">Local SEO Optimization Experts </span>{" "}
                 Since 2005!
