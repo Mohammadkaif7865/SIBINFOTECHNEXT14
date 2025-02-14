@@ -3,27 +3,64 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
+import Intro from "@/comps/gd-services/Intro";
+import Cta from "@/comps/gd-services/Cta";
+import Services from "@/comps/gd-services/Services";
+import Process from "@/comps/gd-services/Process";
+import Benefits from "@/comps/gd-services/Benefits";
+import WhyChoose from "@/comps/gd-services/WhyChoose";
+import Portfolio from "@/comps/gd-services/Portfolio";
+import Cta2 from "@/comps/gd-services/Cta2";
+import Technologies from "@/comps/gd-services/Technologies";
+import Faqs from "@/comps/gd-services/Faqs";
 
 export default function GraphicDesigningServices() {
   const metaTags = (
     <>
       <title>Best Graphic Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
+      <meta
+        name="description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
       <meta name="keywords" content="Graphic Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/graphic-designing-services" />
-      <meta property="og:title" content="Best Graphic Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/graphic-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Best Graphic Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/graphic-designing-services" />
-      <meta property="twitter:title" content="Best Graphic Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
-" />
- <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/graphic-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Best Graphic Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/graphic-designing-services"
         breadcrumbTitle="Best Graphic Designing Services Company in Mumbai, India"
         PageRatingSchema
@@ -42,11 +79,20 @@ export default function GraphicDesigningServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Graphic Designing Services
+                  Transform Your Ideas with the Best Graphic Design Agency in
+                  INDIA
                 </h1>
-                <h2 className="small_heading fw-bold mt-3 text-white">
+                {/* <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated  Graphic Designing Company in India
-                </h2>
+                </h2> */}
+                <ul className="list_local_seo title fontWeight600 col-lg-10 ps-lg-3">
+                  <li>Custom Designs for Every Need</li>
+                  <li>Lightning-Fast Turnaround</li>
+                  <li>Pixel-Perfect Quality</li>
+                  <li>Creative & Unique Concepts</li>
+                  <li>Brand-Focused Designs</li>
+                  <li>Affordable & Transparent Pricing</li>
+                </ul>
                 <div className="mt-4">
                   <Link href="#requestQuote">
                     <span className="btnThemeRed me-3">
@@ -81,7 +127,7 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={"Graphic Designing Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -99,9 +145,113 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={"Graphic Designing Services"} />
       </div>
+      <Intro />
+      <Services />
+      <Cta />
+      <Benefits />
+      <Process />
+      <Portfolio />
+      <Cta2 />
+      <WhyChoose />
+      <Technologies />
+
+      <section class="bgGrey">
+        <div class="containerFull">
+          <div class="row">
+            <div class="col-lg-8 graphic-help-left">
+              <ul>
+                <li>
+                  <p class="customText">
+                    A good and best graphic design connects different audiences
+                    and relate them to business in a specialway.
+                  </p>
+                </li>
+                <li>
+                  <p class="customText">
+                    It is important for people to know how much professional
+                    your business is, whether it is a business card or a
+                    website, your professionalism shows through graphics.
+                  </p>
+                </li>
+                <li>
+                  <p class="customText">
+                    A well created graphic design separates your business from
+                    cluster of businesses and makes you unique. And a
+                    distinctive design is a way to elaborate your products and
+                    services in a different way to your customer.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="graphic-help-right fontHeading">
+                <h3 class="sub_heading">How can a</h3>
+                <h4 class="regular_heading my-2">
+                  Best <span class="text_red">Graphic Design</span>
+                </h4>
+                <h2 class="sub_heading">help your Company?</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
+        <div class="containerFull">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="graphic-why-us-left fontHeading">
+                <h3>Want to get your</h3>
+                <h3>
+                  <span class="text_red">brand noticed?</span>
+                </h3>
+                <a href="/contact-us">
+                  <span class="graphic-btn">Speak to our experts</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="blueBg mt-lg-0 mt-4">
+                <h3 class="customHeading text-white">
+                  Why us for Graphic Design?
+                </h3>
+                <p class="customText text-off-white">
+                  A team that supports you in every sense as per requirements
+                  would obviously be your favourite!
+                </p>
+                <ul>
+                  <li>
+                    <p class="customText text-white">
+                      Cost efficient and best leading graphic designer.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="customText text-white">
+                      We create powerful brand identities by offering
+                      high-quality logo design services.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="customText text-white">
+                      To Get logos done at attractive quality and rates
+                    </p>
+                  </li>
+                  <li>
+                    <p class="customText text-white">
+                      Our logo design experts have years of experience to use
+                      creativity in a flexible way to fashion a logo the
+                      reflects your brand message.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Faqs />
+      {/* <section>
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-6">
@@ -557,7 +707,7 @@ export default function GraphicDesigningServices() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </CustomLayout>
   );
 }
