@@ -206,9 +206,9 @@ export default function GraphicDesigningServices() {
                 <h3>
                   <span class="text_red">brand noticed?</span>
                 </h3>
-                <a href="/contact-us">
+                <Link href="/contact-us">
                   <span class="graphic-btn">Speak to our experts</span>
-                </a>
+                </Link>
               </div>
             </div>
             <div class="col-lg-8">
