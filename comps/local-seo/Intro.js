@@ -68,7 +68,7 @@ const Intro = () => {
                 <div className="content">
                   <p className="fontHeading small_heading fontWeight600">
                     <span className="text_red"> 76% </span> of smartphone
-                    searchers visit a store within a day (Smartphone Icon)
+                    searchers visit a store within a day!
                   </p>
                 </div>
               </div>
