@@ -111,13 +111,13 @@ export default function LocalSeoServices() {
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">
-                  Accelerate Your Business Growth
+                  Accelerate Your Local Business 
                 </h4>
                 <p>
-                  with{" "}
+                  with the 
                   <strong className="fontWeight600 text_red">
-                    Best <span className="textChange">Local SEO Services</span>{" "}
-                    Company in India
+                    <span className="textChange"> Best Local SEO Company in India</span>{" "}
+                    
                   </strong>
                 </p>
                 <BannerForm />

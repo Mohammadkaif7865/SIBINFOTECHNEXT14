@@ -9,23 +9,23 @@ const Intro = () => {
           <div className="col-lg-6">
             <h3 className="fontWeight700 sub_heading fontHeading">
               Creative <span className="text_red"> Graphic Design </span>{" "}
-              Company
+              Company in India
             </h3>
             <p className="customText mt-3">
               Want your brand to stand out with visuals that wow? At SIB
-              Infotech, we believe that great graphic design is the secret sauce
+              Infotech, we believe that <b>great graphic design</b> is the secret sauce
               to making a memorable first impression. Whether it's a bold logo,
               stunning banners, or scroll-stopping social media graphics, our
-              creative team knows how to grab attention and keep it. As a
-              Premier Google Partner, we are certainly not about "pretty"
+              creative team knows how to grab attention and keep it. As a 
+              <b> Premier Google Partner</b>, we are certainly not about "pretty"
               pictures. It's creativity combined with the purpose of planning
-              that delivers actual results. More than 98% of our users and more
-              than 10,000+ designs every month confirm this. Above all, all of
+              that delivers actual results. <b>More than 98%</b> of our users and <b>more
+              than 10,000+ designs</b> every month confirm this. Above all, all of
               this comes at a discount of 50% compared to market standards for
               these high-end services. Every brand has its uniqueness, and we
               customise each and every design to reflect your identity and
-              connect with your customers. SIB Infotech brings your customers
-              closer with designs!
+              connect with your customers.<b> SIB Infotech brings your customers
+              closer with designs!</b>
             </p>
           </div>
           <div className="col-lg-6 ps-lg-5">

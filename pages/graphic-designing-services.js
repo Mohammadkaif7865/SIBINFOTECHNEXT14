@@ -214,7 +214,7 @@ export default function GraphicDesigningServices() {
             <div class="col-lg-8">
               <div class="blueBg mt-lg-0 mt-4">
                 <h3 class="customHeading text-white">
-                  Why us for Graphic Design?
+                  Why Choose <span className="text_red">SIB Infotech </span> for Graphic Design?
                 </h3>
                 <p class="customText text-off-white">
                   A team that supports you in every sense as per requirements

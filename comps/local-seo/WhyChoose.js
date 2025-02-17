@@ -22,7 +22,7 @@ const WhyChoose = () => {
               <h4 className="sub_heading fontHeading fontWeight700">
                 Why Choose <br />
                 <span className="text_red">
-                  SIB Infotech for Local SEO
+                  SIB Infotech for Local SEO Services
                 </span>{" "}
               </h4>
               <p className="mt-3">

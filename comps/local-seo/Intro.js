@@ -8,24 +8,24 @@ const Intro = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <h3 class="sub_heading fontHeading fontWeight700">
-              What is <span className="text_red">Local SEO </span> ?
+              What is <span className="text_red">Local SEO </span>and How to Do It
             </h3>
             <p className="mt-4">
-              Local SEO is the latest search engine optimization technique used
-              to optimize your website, Google My Business profile, and overall
+              <b>Local SEO</b> is the latest search engine optimization technique used
+              to optimize your website, <b>Google My Business profile </b>, and overall
               online presence to rank higher in local search results on Google
-              and other search engines within a specific geographic location,
+              and other search engines within <b>a specific geographic location</b>,
               helping your business be found by potential customers nearby.
             </p>
             <p className="mt-3">
               Today, the majority of internet users rely on location-based
               searches when looking for products, services, or local businesses.
-              Our Local SEO services focus on improving your search engine
+              Our <b>Local SEO services</b> focus on improving your search engine
               rankings for these location-specific queries by optimizing for
-              Google Maps, local keywords, and local citations. This drives
+              <b> Google Maps, local keywords</b>, and <b>local citations</b>. This drives
               targeted traffic from a specific area, city, or neighborhood to
               your local business, increasing in-store traffic, phone calls, and
-              online inquiries from nearby local customers.
+              online inquiries from <b>nearby local customers</b>.
             </p>
             {/* <p className="mt-3">
               Generally, local SEO is a combination of several factors that need

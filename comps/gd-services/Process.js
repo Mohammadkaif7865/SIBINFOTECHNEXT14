@@ -73,7 +73,7 @@ const Process = () => {
       <div className="containerFull">
         <div className="text-center">
           <h4 className="sub_heading fontHeading fontWeight600">
-            Our Seamless <span className="text_red">Design Process </span>
+            Our Seamless <span className="text_red">Graphic Designing Process </span>
           </h4>
           {/* <h3 className="small_heading fontHeading mt-2">
             How to optimize your website for local search results
