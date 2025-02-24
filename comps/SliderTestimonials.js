@@ -221,7 +221,7 @@ export default function SliderTestimonials() {
           <div className="itemTestimonial" key={index}>
             <div className="inneritemTestimonial positive-relative shadow">
               <div className="testimonialItemHeader">
-                <h3 className="meduim_heading fontWeight700">
+                <h3 className="meduim_heading fontWeight700 fontHeading">
                   {testimonial.heading}
                 </h3>
               </div>
@@ -260,7 +260,7 @@ export default function SliderTestimonials() {
                       )}
                     </div>
                     <div className="nameUser">
-                      <h4 className="title fontWeight500">
+                      <h4 className="title   fontWeight500">
                         {testimonial.userName}
                       </h4>
                       {testimonial.userTitle && <p>{testimonial.userTitle}</p>}

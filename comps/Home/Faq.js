@@ -8,7 +8,7 @@ const Faq = () => {
       <section className="bgAction">
         <div className="containerFull">
           <div className="d-flex align-items-center justify-content-between home_cta">
-            <h4 className="sub_heading letterSpacing1 text-white fontWeight700">
+            <h4 className="sub_heading letterSpacing1 text-white fontHeading fontWeight700">
               Want to know how you can grow your business,
               <br />
               speak to our expert strategists now.
@@ -24,7 +24,7 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="leftFAQ">
-                <h4 className="heading fontWeight700">
+                <h4 className="heading fontWeight700 fontHeading">
                   Frequently Asked <span className="text_red">Questions</span>
                 </h4>
                 <p className="mt-2 fontWeight700">
