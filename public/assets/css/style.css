@@ -10000,3 +10000,26 @@ font-size: 20px;
   justify-content: center;
   align-items: center;
 }
+
+.l_benifits_grid{
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap:2px;
+ 
+}
+.l_benifits_grid .item p{
+font-size: 14px;
+font-weight: 600;
+/* color: var(--light-blue-color); */
+}
+.l_why_grid{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap:2px;
+ 
+}
+.l_why_grid .item p{
+font-size: 14px;
+font-weight: 600;
+/* color: var(--light-blue-color); */
+}

@@ -227,7 +227,7 @@ export default function LocalSeoServices() {
       <WhyChoose />
       <Process />
       <Cta3/>
-      <Old/>
+      {/* <Old/> */}
       <Faqs/>
       <Cta2 />
     </CustomLayout>
