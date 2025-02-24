@@ -10023,3 +10023,23 @@ font-size: 14px;
 font-weight: 600;
 /* color: var(--light-blue-color); */
 }
+.gd_benifits_grid
+{
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap:2px;
+}
+
+.gd_benifits_grid .discription{
+  font-size: 14px;
+}
+
+.gd_benifits_grid .item{
+  background: #fff;
+}
+
+.gd_why_grid{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap:2px;
+}

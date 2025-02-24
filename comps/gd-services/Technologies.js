@@ -25,7 +25,7 @@ const Technologies = () => {
         </h4>
         <div className="row mt-5 ">
           {logos.map((logo, index) => (
-            <div key={index} className="col-lg-2 mb-4">
+            <div key={index} className="col-lg-2 col-6 col-md-2 mb-4">
               <div className="logo-item shadow bg-white">
                 <Image src={logo} width={80} height={80} alt={""} />
               </div>
