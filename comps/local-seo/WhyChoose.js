@@ -8,7 +8,10 @@ const WhyChoose = () => {
     { text: "Customized SEO Strategies for Local Businesses", icon: "seo.png" },
     { text: "Clear & Transparent Reporting", icon: "audit.png" },
     { text: "Proven Expertise in Local SEO", icon: "expertise.png" },
-    { text: "Affordable & Performance-Focused Approach", icon: "effective.png" },
+    {
+      text: "Affordable & Performance-Focused Approach",
+      icon: "effective.png",
+    },
   ];
   return (
     <section className="bg_light_gray">
@@ -28,10 +31,9 @@ const WhyChoose = () => {
           <div className="col-lg-9 order-1 order-lg-2">
             <div className="ps-lg-5">
               <h4 className="sub_heading fontHeading fontWeight700">
-                Why Choose <br />
-                <span className="text_red">
-                  SIB Infotech for Local SEO Services
-                </span>{" "}
+                Why Choose
+                <span className="text_red"> SIB Infotech</span> {" "}for <span className="text_red">Local SEO
+                Services</span>
               </h4>
               <p className="mt-3">
                 A business should always invest in the best. Our optimization
@@ -46,22 +48,22 @@ const WhyChoose = () => {
                 SEO and how to use it to grow your local business.
               </p>
 
-               <ul className="mt-4  l_why_grid  ">
-                              {benefitsList.map((benefit, index) => (
-                                <li key={index} className="p-3 item  bg-white">
-                                  <div className="d-flex justify-content-center">
-                                    <Image
-                                      src={`/assets/images/local-seo/${benefit.icon}`}
-                                      alt="Check Icon"
-                                      className="me-2 "
-                                      width={50}
-                                      height={50}
-                                    />
-                                  </div>
-                                  <p className="text-center mt-2">{benefit.text}</p>
-                                </li>
-                              ))}
-                            </ul>
+              <ul className="mt-4  l_why_grid  ">
+                {benefitsList.map((benefit, index) => (
+                  <li key={index} className="p-3 item  bg-white">
+                    <div className="d-flex justify-content-center">
+                      <Image
+                        src={`/assets/images/local-seo/${benefit.icon}`}
+                        alt="Check Icon"
+                        className="me-2 "
+                        width={50}
+                        height={50}
+                      />
+                    </div>
+                    <p className="text-center mt-2">{benefit.text}</p>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

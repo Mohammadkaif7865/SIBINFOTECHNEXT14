@@ -2123,6 +2123,7 @@ section {
 /* website designing page */
 .innerWebDesign {
   height: 69vh;
+  height: 75vh;
   background: url(../images/bg/website-designing-services.webp) no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -9835,6 +9836,20 @@ font-size: 20px;
   list-style-type: square !important;
   color: #fff;
 }
+.list_local_seo_icon{
+  display: flex;
+
+}
+
+.list_local_seo_icon img{
+  min-width: 40px;
+  object-fit: contain;
+
+}
+.list_local_seo_icon span{
+  display: inline-block;
+  width: calc(100% - 50px);
+}
 .bg_gray {
   background-color: #eee;
 }
@@ -10042,4 +10057,7 @@ font-weight: 600;
   display: grid;
   grid-template-columns: repeat(3,minmax(0,1fr));
   gap:2px;
+}
+.l_seo_cta_para{
+  text-align: justify;
 }

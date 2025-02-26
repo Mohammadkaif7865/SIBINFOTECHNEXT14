@@ -74,7 +74,7 @@ export default function LocalSeoServices() {
         description={
           "SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings."
         }
-        reviewCount={"5230"}
+        reviewCount={"5240"}
       />
     </>
   );
@@ -89,12 +89,52 @@ export default function LocalSeoServices() {
                   Boost Your Business Visibility with the Best Local SEO
                   Services in India!
                 </h1>
-                <ul className="list_local_seo title fontWeight600 col-lg-10 ps-lg-3">
-                  <li>Dominate Local Search Results</li>
-                  <li>Attract Nearby Customers</li>
-                  <li>Drive More Walk-Ins</li>
-                  <li>Increase Store Visits</li>
-                  <li>Increase Sales & Leads</li>
+                <ul className="list_local_seo_icon title fontWeight600 col-lg-10 ps-lg-3">
+                  <li>
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/assets/images/local-seo/seo (1).png"
+                      alt="Local SEO Icon"
+                    />
+                    <span>Dominate Local Search Results</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/assets/images/local-seo/people.png"
+                      alt="Attract Nearby Customers Icon"
+                    />
+                    <span>Attract Nearby Customers</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/assets/images/local-seo/customer-care.png"
+                      alt="Drive More Walk-Ins Icon"
+                    />
+                    <span>Drive More Walk-Ins</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/assets/images/local-seo/business1.png"
+                      alt="Increase Store Visits Icon"
+                    />
+                    <span>Increase Store Visits</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/assets/images/local-seo/increase.png"
+                      alt="Increase Sales & Leads Icon"
+                    />
+                    <span>Increase Sales & Leads</span>
+                  </li>
                 </ul>
 
                 <div className="mt-4">
@@ -111,13 +151,15 @@ export default function LocalSeoServices() {
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700">
-                  Accelerate Your Local Business 
+                  Accelerate Your Local Business
                 </h4>
                 <p>
-                  with the 
+                  with the
                   <strong className="fontWeight600 text_red">
-                    <span className="textChange"> Best Local SEO Company in India</span>{" "}
-                    
+                    <span className="textChange">
+                      {" "}
+                      Best Local SEO Company in India
+                    </span>{" "}
                   </strong>
                 </p>
                 <BannerForm />
@@ -213,7 +255,10 @@ export default function LocalSeoServices() {
             </div>
             <div className="col-lg-5 mt-4 mt-lg-0">
               <h2 className="sub_heading fontHeading text-center  fontWeight700 ">
-              Your Trusted <span className="text_red">Local SEO Optimization Experts </span>{" "}
+                Your Trusted{" "}
+                <span className="text_red">
+                  Local SEO Optimization Experts{" "}
+                </span>{" "}
                 Since 2005!
               </h2>
             </div>
@@ -226,9 +271,9 @@ export default function LocalSeoServices() {
       <Benefits />
       <WhyChoose />
       <Process />
-      <Cta3/>
+      <Cta3 />
       {/* <Old/> */}
-      <Faqs/>
+      <Faqs />
       <Cta2 />
     </CustomLayout>
   );
