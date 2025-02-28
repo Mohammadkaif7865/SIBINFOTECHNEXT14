@@ -13,6 +13,7 @@ import Portfolio from "@/comps/gd-services/Portfolio";
 import Cta2 from "@/comps/gd-services/Cta2";
 import Technologies from "@/comps/gd-services/Technologies";
 import Faqs from "@/comps/gd-services/Faqs";
+import Image from "next/image";
 
 export default function GraphicDesigningServices() {
   const metaTags = (
@@ -85,14 +86,63 @@ export default function GraphicDesigningServices() {
                 {/* <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated  Graphic Designing Company in India
                 </h2> */}
-                <ul className="list_local_seo title fontWeight600 col-lg-10 ps-lg-3">
-                  <li>Custom Designs for Every Need</li>
-                  <li>Lightning-Fast Turnaround</li>
-                  <li>Pixel-Perfect Quality</li>
-                  <li>Creative & Unique Concepts</li>
-                  <li>Brand-Focused Designs</li>
-                  <li>Affordable & Transparent Pricing</li>
+                <ul className="list_local_seo_icon title fontWeight600 col-lg-10 ps-lg-3">
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/web-design (2).png"
+                      alt="Custom Designs Icon"
+                    />
+                    <span>Custom Designs for Every Need</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/back-in-time.png"
+                      alt="Lightning-Fast Turnaround Icon"
+                    />
+                    <span>Lightning-Fast Turnaround</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/pixel.png"
+                      alt="Pixel-Perfect Quality Icon"
+                    />
+                    <span>Pixel-Perfect Quality</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/creativity (1).png"
+                      alt="Creative & Unique Concepts Icon"
+                    />
+                    <span>Creative & Unique Concepts</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/target.png"
+                      alt="Brand-Focused Designs Icon"
+                    />
+                    <span>Brand-Focused Designs</span>
+                  </li>
+                  <li>
+                    <Image
+                      width={50}
+                      height={50}
+                      src="/assets/images/gd-services/price.png"
+                      alt="Affordable & Transparent Pricing Icon"
+                    />
+                    <span>Affordable & Transparent Pricing</span>
+                  </li>
                 </ul>
+
                 <div className="mt-4">
                   <Link href="#requestQuote">
                     <span className="btnThemeRed me-3">
@@ -214,7 +264,8 @@ export default function GraphicDesigningServices() {
             <div class="col-lg-8">
               <div class="blueBg mt-lg-0 mt-4">
                 <h3 class="customHeading text-white">
-                  Why Choose <span className="text_red">SIB Infotech </span> for Graphic Design?
+                  Why Choose <span className="text_red">SIB Infotech </span> for
+                  Graphic Design?
                 </h3>
                 <p class="customText text-off-white">
                   A team that supports you in every sense as per requirements

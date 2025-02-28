@@ -31,10 +31,10 @@ const Blog = () => {
   return (
     <section>
       <div className="containerFull">
-        <h4 className="heading text-center mb-3 fontWeight700">
+        <h4 className="heading text-center mb-3 fontHeading fontWeight700">
           From Our Blogs
         </h4>
-        <div className="row mt-lg-3">
+        <div className="row mt-lg-5">
           {blogs?.map((blog, index) => {
             return (
               <div key={blog.id} className="col-lg-4">
