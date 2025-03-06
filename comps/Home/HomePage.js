@@ -12,12 +12,18 @@ import WebsiteDesignServices from "./WebsiteDesignServices";
 import Testimonials from "./Testimonials";
 import Faq from "./Faq";
 import Blog from "./Blog";
+import BannerSlider from "./BannerSlider";
+import TrustedSection from "./TrustedSection";
+import WhatWeDo from "./WhatWeDo";
 
 const HomePage = () => {
   return (
     <>
-      <HomeHero />
-      <BannerLogos />
+      {/* <HomeHero />
+      <BannerLogos /> */}
+      <BannerSlider/>
+      <TrustedSection/>
+      <WhatWeDo/>
       <Counter />
       <Madeby />
       <Expertise />
