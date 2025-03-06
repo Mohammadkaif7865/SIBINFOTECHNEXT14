@@ -22,7 +22,7 @@ const tabData = [
     title: "Google My Business Optimization",
     content: `
       <p>Local businesses should always claim and optimize their business on Google My Business (GMB) listing, as it can significantly improve their online visibility, attract potential customers, and bring in incredible results.</p>
-      <p class="mt-4">Think of Google My Business as your digital storefront. Optimizing GMB means making sure your business is easy to find with accurate details like opening hours, location, reviews, and regular updates to enhance credibility and drive more traffic. It's your first impression on Google and how locals find businesses like yours.</p>
+      <p className="mt-4">Think of Google My Business as your digital storefront. Optimizing GMB means making sure your business is easy to find with accurate details like opening hours, location, reviews, and regular updates to enhance credibility and drive more traffic. It's your first impression on Google and how locals find businesses like yours.</p>
     `,
   },
   {
@@ -30,11 +30,11 @@ const tabData = [
     number: "04",
     title: "Local Citations & Directory Listings",
     content:
-      `<p class="">Claiming your business on online directories is a game-changer move for enhancing online visibility and growing the business. Ensuring accurate and consistent business listings across all business directories is crucial, as incorrect or missing information can mislead potential customers and negatively impact your credibility. If your business is not listed correctly, search engines may display outdated or incorrect details, leading to missed opportunities and potential revenue loss.</p>
+      `<p className="">Claiming your business on online directories is a game-changer move for enhancing online visibility and growing the business. Ensuring accurate and consistent business listings across all business directories is crucial, as incorrect or missing information can mislead potential customers and negatively impact your credibility. If your business is not listed correctly, search engines may display outdated or incorrect details, leading to missed opportunities and potential revenue loss.</p>
 
-<p class="mt-3">We ensure that your contact information is accurate, up-to-date, and consistent across all business directories to maximize your online presence.</p>
+<p className="mt-3">We ensure that your contact information is accurate, up-to-date, and consistent across all business directories to maximize your online presence.</p>
 
-<p class="mt-3">Local citations are sort of digital word-of-mouth! We get your business listed across top directories—like Yelp, Yellow Pages, and local chambers of commerce—to improve your credibility and local ranking. More citations = more trust, and more trust means more customers knocking on your door
+<p className="mt-3">Local citations are sort of digital word-of-mouth! We get your business listed across top directories—like Yelp, Yellow Pages, and local chambers of commerce—to improve your credibility and local ranking. More citations = more trust, and more trust means more customers knocking on your door
       </p>`
   },
   {
@@ -55,7 +55,7 @@ const tabData = [
       Get your website to speak Google's language with local schema markup. It's the behind-the-scenes code that helps search engines understand your business better, from your address to your opening hours and even reviews. It's like sending Google a personalized roadmap that says, “Hey, I’m here, and I’m local!”
 
       </p>
-      <p class="mt-3">
+      <p className="mt-3">
 Local structured data markup is a crucial part of your website’s code. It provides search engines with important information about your business, including your products, services, and customer reviews, helping improve your online visibility and search rankings
       </p>
       `,
@@ -66,11 +66,11 @@ Local structured data markup is a crucial part of your website’s code. It prov
     title: "Local Content Creation",
     content:
       `
-      <p class="mt-3">We focus on crafting local content that directly connects with your community. Whether it's a blog post about a community event or a video featuring a neighborhood favorite, we make sure you have the right tools to connect and engage with your audience Local content isn't just used for SEO anymore; it relates to your target audience and forms a relationship within their daily routines The creation of
+      <p className="mt-3">We focus on crafting local content that directly connects with your community. Whether it's a blog post about a community event or a video featuring a neighborhood favorite, we make sure you have the right tools to connect and engage with your audience Local content isn't just used for SEO anymore; it relates to your target audience and forms a relationship within their daily routines The creation of
 
 locally optimized content for the website enhances your website’s online visibility on the search engines and is useful for increasing click-through rates (CTR). </p>
 
-<p class="mt-3">Optimizing URLs, title tags, and meta descriptions with location-specific keywords is essential for local SEO. These HTML elements define your webpage’s content and are the first things users see on search engine results pages (SERPs). A well-crafted title and description enhance your business's online presence and attract the right audience.</p>
+<p className="mt-3">Optimizing URLs, title tags, and meta descriptions with location-specific keywords is essential for local SEO. These HTML elements define your webpage’s content and are the first things users see on search engine results pages (SERPs). A well-crafted title and description enhance your business's online presence and attract the right audience.</p>
       `,
   },
   {
@@ -79,9 +79,9 @@ locally optimized content for the website enhances your website’s online visib
     title: "Online Review Management",
     content:
      `
-     <p class="">Your online reviews are more important than you think—they are the modern word of mouth! We help you monitor, respond to and manage reviews on platforms like Google, Yelp, and Facebook. ng a positive online reputation is crucial, and we ensure your brand’s credibility remains strong by addressing feedback effectively.</p>
+     <p className="">Your online reviews are more important than you think—they are the modern word of mouth! We help you monitor, respond to and manage reviews on platforms like Google, Yelp, and Facebook. ng a positive online reputation is crucial, and we ensure your brand’s credibility remains strong by addressing feedback effectively.</p>
 
-<p class="mt-3">84% of the potential customers buy your product based on the reviews, a business should always manage reviews about themselves. and optimize their online reputation to build trust and attract more customers.</p >
+<p className="mt-3">84% of the potential customers buy your product based on the reviews, a business should always manage reviews about themselves. and optimize their online reputation to build trust and attract more customers.</p >
      `,
   },
 ];

@@ -53,7 +53,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link href="tel:+91-9222260000">
-                    <i class="fa-solid fa-phone-volume " style={{
+                    <i className="fa-solid fa-phone-volume " style={{
                       transform: "rotate(321deg)",
                     }} ></i> +91-9222260000
                     </Link>
