@@ -4,17 +4,26 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
-import { usePathname } from "next/navigation";
+
+
+import { Inter } from "next/font/google";
+import "@/public/assets/css/style.css"; // Your global CSS
+
+const inter = Inter({
+  subsets: ["latin"], // Subset optimizations
+  weight: ["400", "700"], // Define font weights
+  display: "swap",
+});
 
 
 function MyApp({ Component, pageProps }) {
-  const path = usePathname();
+  
  
 
 
   return (
 
-      <Layout>
+      <Layout className={inter.className}>
         <Head>
           <link
             rel="preload"

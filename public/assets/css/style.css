@@ -10172,7 +10172,8 @@ font-size: 20px;
 
 .fontHeading2 {
   /* font-family: "Syne", Sans-serif; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 .banner_swiper_main {
   background-color: #000;
