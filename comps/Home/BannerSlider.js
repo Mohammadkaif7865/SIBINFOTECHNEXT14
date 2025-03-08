@@ -7,6 +7,7 @@ import "swiper/css/parallax";
 
 // import required modules
 import { Autoplay, Navigation, Pagination, Parallax } from "swiper/modules";
+import Image from "next/image";
 
 const BannerSlider = () => {
   return (
@@ -27,7 +28,7 @@ const BannerSlider = () => {
         modules={[Autoplay, Pagination, Navigation, Parallax]}
         className="banner_swiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="banner-slide slide-1" data-swiper-parallax="-100">
             <div className="containerFull">
               <div className="inner_slide">
@@ -56,18 +57,17 @@ const BannerSlider = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div className="banner-slide slide-2" data-swiper-parallax="-100">
             <div className="containerFull">
-              <div className="inner_slide">
-                <div className="row ">
-                  <div data-swiper-parallax="-200">
+              <div className="inner_slide w-100">
+                <div className="row  w-100">
+                  <div data-swiper-parallax="-200" className="col-lg-6">
                     <h1 className="fontHeading2 banner-heading">
-                      We Deliver
-                      <br />
-                      <span>Growth</span>
+                      Guaranteed <br />
+                      <span>Visibility</span>
                     </h1>
                     <p className="mt-4 banner_dis">
                       From SEO to Google Ads, We drive growth <br />
@@ -82,12 +82,26 @@ const BannerSlider = () => {
                       </a>
                     </div>
                   </div>
+                  <div className="col-lg-6">
+                    <h4 className="heading text-white fontHeading2">
+                      We Deliver Growth
+                    </h4>
+
+                    <ul className="banner_ul_growth  mt-4">
+                      <li><Image width="50" height="50" src="/assets/images/icons/banner/google-rank.png" alt=""/> Get Ranked on Google</li>
+                      <li > <Image width="50" height="50" src="/assets/images/icons/banner/grow.png" alt=""/> Drive Instant Growth</li>
+                      <li> <Image width="50" height="50" src="/assets/images/icons/banner/online-presence.png" alt=""/> Build a Strong Digital Presence</li>
+                      <li> <Image width="50" height="50" src="/assets/images/icons/banner/dependability.png" alt=""/> Build Trust & Credibility</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
       </Swiper>
+
+      
     </div>
   );
 };

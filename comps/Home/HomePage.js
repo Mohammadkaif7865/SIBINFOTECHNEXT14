@@ -15,15 +15,17 @@ import Blog from "./Blog";
 import BannerSlider from "./BannerSlider";
 import TrustedSection from "./TrustedSection";
 import WhatWeDo from "./WhatWeDo";
+import WeStrong from "./WeStrong";
 
 const HomePage = () => {
   return (
     <>
       {/* <HomeHero />
       <BannerLogos /> */}
-      <BannerSlider/>
-      <TrustedSection/>
-      <WhatWeDo/>
+      <BannerSlider />
+      <TrustedSection />
+      <WhatWeDo />
+      <WeStrong />
       <Counter />
       <Madeby />
       <Expertise />
