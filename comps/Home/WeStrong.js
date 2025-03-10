@@ -9,12 +9,12 @@ const WeStrong = () => {
             <h4 className="heading fontHeading2 fontWeight600 text-white">
               We are as STRONG <br /> as YOU Make us
             </h4>
-            <div class="mt-5">
-              <a class="fancy2" href="#">
-                <span class="top-key"></span>
-                <span class="text">Discover More</span>
-                <span class="bottom-key-1"></span>
-                <span class="bottom-key-2"></span>
+            <div className="mt-5">
+              <a className="fancy2" href="#">
+                <span className="top-key"></span>
+                <span className="text">Discover More</span>
+                <span className="bottom-key-1"></span>
+                <span className="bottom-key-2"></span>
               </a>
             </div>
           </div>

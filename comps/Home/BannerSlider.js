@@ -45,11 +45,11 @@ const BannerSlider = () => {
                     </p>
 
                     <div className="mt-5">
-                      <a class="fancy" href="#">
-                        <span class="top-key"></span>
-                        <span class="text">Discover More</span>
-                        <span class="bottom-key-1"></span>
-                        <span class="bottom-key-2"></span>
+                      <a className="fancy" href="#">
+                        <span className="top-key"></span>
+                        <span className="text">Discover More</span>
+                        <span className="bottom-key-1"></span>
+                        <span className="bottom-key-2"></span>
                       </a>
                     </div>
                   </div>
@@ -74,11 +74,11 @@ const BannerSlider = () => {
                       with data-driven strategies tailored to your business.
                     </p>
                     <div className="mt-5">
-                      <a class="fancy" href="#">
-                        <span class="top-key"></span>
-                        <span class="text">Discover More</span>
-                        <span class="bottom-key-1"></span>
-                        <span class="bottom-key-2"></span>
+                      <a className="fancy" href="#">
+                        <span className="top-key"></span>
+                        <span className="text">Discover More</span>
+                        <span className="bottom-key-1"></span>
+                        <span className="bottom-key-2"></span>
                       </a>
                     </div>
                   </div>

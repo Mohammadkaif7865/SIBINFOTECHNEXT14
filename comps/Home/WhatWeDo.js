@@ -46,7 +46,7 @@ const WhatWeDo = () => {
                     <ul className="services-list ps-5 mt-4">
                       {section.services.map((service, subIndex) => (
                         <li key={subIndex} className="service-item fontWeight500 title  mt-2">
-                        <i class="fa-solid fa-circle-check me-2 text_light_blue"></i>  {service}
+                        <i className="fa-solid fa-circle-check me-2 text_light_blue"></i>  {service}
                         </li>
                       ))}
                     </ul>
