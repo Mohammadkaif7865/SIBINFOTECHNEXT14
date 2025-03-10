@@ -203,6 +203,11 @@ section {
 .fontHeading {
   font-family: "Lora", serif;
 }
+.header{
+position: absolute;
+  z-index: 999;
+  width: 100%;
+}
 
 .topHeader {
   background: #000;
@@ -339,6 +344,12 @@ section {
 .header.stricky-fixed .leftLogo img {
   width: 200px !important;
   height: auto !important;
+}
+.header .bottom_header{
+  display: none;
+}
+.header.stricky-fixed .bottom_header{
+  display: flex;
 }
 .header.stricky-fixed .extraMenu {
   display: block !important;
@@ -10272,6 +10283,111 @@ font-size: 20px;
   right: 0;
   width: 0;
 }
+/* 3 */
+.fancy3 {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  /* float: right; */
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1.25em 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+}
+
+.fancy3::before {
+  content: " ";
+  width: 1.5625rem;
+  height: 2px;
+  background: #000;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy3 .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#000;
+}
+
+.fancy3 .top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background:#fff;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy3 .bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background: #fff;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy3 .bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background:#fff;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy3:hover {
+  color: white;
+  background: #fff;
+}
+
+.fancy3:hover::before {
+  width: 0.9375rem;
+  background: #000;
+}
+
+.fancy3:hover .text {
+  color: black;
+  padding-left: 1.5em;
+}
+
+.fancy3:hover .top-key {
+  left: -2px;
+  width: 0px;
+}
+
+.fancy3:hover .bottom-key-1,
+.fancy3:hover .bottom-key-2 {
+  right: 0;
+  width: 0;
+}
 /* banner button */
 
 .fontHeading2 {
@@ -10313,7 +10429,7 @@ font-size: 20px;
   background-size: cover;
 }
 .banner-slide .inner_slide {
-  height: 90vh;
+  height: 100vh;
 
   display: flex;
   align-items: center;
@@ -10433,4 +10549,68 @@ font-size: 20px;
 .home_counterGrid_item p{
   color: #fff;
   font-weight: 500;
+}
+
+
+.service-section .services-list{
+
+  transition: all 2s ease-in-out;
+  overflow: hidden;
+}
+.service-section .services-list.active{
+  height: 300px;
+}
+
+/* banner2 */
+.banner2{
+  position: relative;
+}
+.banner2::before{
+  position: absolute;
+  content: "";
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/globe2.png);
+  background-size: 500px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+left: 55%;
+  filter: invert();
+  opacity: .2;
+}
+.inner_banner2{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.item_banner2 h4{
+  font-size: 74px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+
+
+}
+.item_banner2{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+.item_banner2 p{
+ font-weight: 600;
+}
+.item_banner2 h4{
+ color: var(--red-color);
+}
+.inner_banner2 h1{
+  font-size: 55px;
+}
+.right_section2{
+  min-width: 60%;
+}
+.right_section2 .item_banner2:nth-child(2){
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+ 
 }

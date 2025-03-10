@@ -84,15 +84,15 @@ export default function Header() {
                 <div className=" topHeaderRightMain d-flex justify-content-end align-items-center">
                   <div className="topHeaderRight ">
                     <ul>
-                      <li>
+                      <li className="d-none ">
                         <Link className="text-white " href="/contact-us " >Request a Quote</Link>
                       </li>
                       <li>
                         <div className="menu_contact p-0 " href="tel:+91-9222260000">
-                        <i className="bi bi-telephone"></i>
+                        <i className="bi bi-telephone "></i>
     
                           <div className="menu_contact_inner">
-                            <a href="tel:+91-9222260000" className="p-0 number_phone" >92222-60000</a>
+                            <a href="tel:+91-9222260000" className="p-0 number_phone " >92222-60000</a>
                             <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email" title="">contact@sibinfotech.com</a>
                           </div>
                         </div>
@@ -100,7 +100,7 @@ export default function Header() {
                     </ul>
                   </div>
                   <button
-                    className="menubtn"
+                    className="menubtn text-dark"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight"
                     aria-controls="offcanvasRight"
@@ -110,7 +110,7 @@ export default function Header() {
                     <RiMenu4Line />
                   </button>
                 </div>
-                <ul>
+                <ul className="bottom_header">
                   <li>
                     <Link href="/digital-marketing-services"title="Digital Marketing">
                       Digital Marketing
@@ -578,7 +578,7 @@ export default function Header() {
                 </ul>
               </div>
               <button
-                className="extraMenu  d-lg-none"
+                className="extraMenu   d-lg-none"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight"

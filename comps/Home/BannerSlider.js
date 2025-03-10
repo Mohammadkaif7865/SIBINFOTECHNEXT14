@@ -62,8 +62,8 @@ const BannerSlider = () => {
         <SwiperSlide>
           <div className="banner-slide slide-2" data-swiper-parallax="-100">
             <div className="containerFull">
-              <div className="inner_slide w-100">
-                <div className="row  w-100">
+              <div className="inner_slide w-100 ">
+                <div className="row  w-100 pt-5">
                   <div data-swiper-parallax="-200" className="col-lg-6">
                     <h1 className="fontHeading2 banner-heading">
                       Guaranteed <br />
