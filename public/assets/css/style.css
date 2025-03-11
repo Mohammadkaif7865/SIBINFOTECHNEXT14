@@ -10500,6 +10500,7 @@ font-size: 20px;
 .services-title {
   position: relative;
   padding-left: 30px;
+  
 }
 .services-title::after {
   position: absolute;
@@ -10554,12 +10555,12 @@ font-size: 20px;
 
 .service-section .services-list{
 
-  transition: all 2s ease-in-out;
+  /* transition: all 2s ease-in-out; */
   overflow: hidden;
 }
-.service-section .services-list.active{
+/* .service-section .services-list.active{
   height: 300px;
-}
+} */
 
 /* banner2 */
 .banner2{
@@ -10598,7 +10599,7 @@ left: 55%;
   padding: 20px;
 }
 .item_banner2 p{
- font-weight: 600;
+ /* font-weight: 600; */
 }
 .item_banner2 h4{
  color: var(--red-color);
@@ -10614,3 +10615,28 @@ left: 55%;
   border-bottom: 2px solid #333;
  
 }
+
+.services_main .services-title{
+  font-size: 35px;
+}
+.services-list{
+  height: 0px;
+}
+.height300px {
+  height: 300px !important;
+  transition: height 0.2s ease-in-out;
+}
+
+
+/* .services-list.item0{
+  height: 300px;
+}
+.services-list.item1{
+  height: 300px;
+}
+.services-list.item2{
+  height: 300px;
+}
+.services-list.item3{
+  height: 300px;
+} */
