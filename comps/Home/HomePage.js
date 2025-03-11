@@ -17,6 +17,7 @@ import TrustedSection from "./TrustedSection";
 import WhatWeDo from "./WhatWeDo";
 import WeStrong from "./WeStrong";
 import BannerSlider2 from "./BannerSlider2";
+import WhatWeDo2 from "./WhatWeDo2";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,7 @@ const HomePage = () => {
       <BannerSlider2/>
       {/* <BannerSlider /> */}
       <TrustedSection />
+      {/* <WhatWeDo2 /> */}
       <WhatWeDo />
       <WeStrong />
       <Counter />
