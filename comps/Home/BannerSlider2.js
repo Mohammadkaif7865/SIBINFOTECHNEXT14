@@ -8,7 +8,12 @@ const BannerSlider2 = () => {
           <div className="row mt-5">
             <div className="col-lg-6">
               <h1 className="  fontHeading2 fontWeight700">
-                Best Digital Marketing Agency in India Delivering Growth
+                <span className="title d-block preHeading">SIB Infotech</span>
+            
+                <span className="mt-3 d-block">
+                  Best Digital Marketing Agency in India Delivering Growth since
+                  2005
+                </span>
                 {/* since
                 2005 */}
               </h1>
@@ -19,7 +24,7 @@ const BannerSlider2 = () => {
               </p>
 
               <div className="mt-5">
-                <a className="fancy3" href="#">
+                <a className="fancy4" href="#">
                   <span className="top-key"></span>
                   <span className="text">Discover More</span>
                   <span className="bottom-key-1"></span>
@@ -32,15 +37,23 @@ const BannerSlider2 = () => {
                 <div className="right_section2 ">
                   <div className="item_banner2">
                     <h4>617%</h4>
-                    <p>Increase in   <br/>Organic Traffic</p>
+                    <p>
+                      Increase in <br />
+                      Organic Traffic
+                    </p>
                   </div>
                   <div className="item_banner2 ">
                     <h4>344% </h4>
-                    <p className="">Increase in Sales <br/> Growth YOY </p>
+                    <p className="">
+                      Increase in Sales <br /> Growth YOY{" "}
+                    </p>
                   </div>
                   <div className="item_banner2 ">
                     <h4>315% </h4>
-                    <p> Increase in  <br/> Qualified Leads</p>
+                    <p>
+                      {" "}
+                      Increase in <br /> Qualified Leads
+                    </p>
                   </div>
                 </div>
               </div>

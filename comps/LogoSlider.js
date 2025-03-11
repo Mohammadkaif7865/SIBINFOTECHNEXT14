@@ -215,7 +215,7 @@ export default function LogoSlider() {
     <div>
       <LogoSliders className="logoSlider" {...sliderSettings}>
         {logos.map((logo, index) => (
-          <div className="itemSlider shadow" key={index}>
+          <div className="itemSlider" key={index}>
             <Image width={100} height={100} quality={100} src={logo.src} alt={logo.alt} />
           </div>
         ))}

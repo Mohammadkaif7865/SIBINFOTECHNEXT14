@@ -18,6 +18,12 @@ import WhatWeDo from "./WhatWeDo";
 import WeStrong from "./WeStrong";
 import BannerSlider2 from "./BannerSlider2";
 import WhatWeDo2 from "./WhatWeDo2";
+import About2 from "./About2";
+import GooglePremier from "./GooglePremier";
+import OurClients from "./OurClients";
+import PartnerBadges from "./PartnerBadges";
+import Cta from "./Cta";
+import BrandBuild from "./BrandBuild";
 
 const HomePage = () => {
   return (
@@ -25,20 +31,30 @@ const HomePage = () => {
       {/* <HomeHero />
       <BannerLogos /> */}
       <BannerSlider2/>
+      <About2/>
       {/* <BannerSlider /> */}
       <TrustedSection />
       {/* <WhatWeDo2 /> */}
+      
       <WhatWeDo />
-      <WeStrong />
-      <Counter />
+    
+      {/* <Counter /> */}
       <Madeby />
+      <WeStrong />
+      <GooglePremier/>
+      <OurClients/>
+      <PartnerBadges/>
+      <Testimonials />
+      <Cta/>
+      <BrandBuild/>
+
       <Expertise />
       <DigitalMarketingServices />
       <AboutUs />
       <DigitalMarketingWebAgency />
       <DigitalMarketingAgency />
       <WebsiteDesignServices />
-      <Testimonials />
+     
       <Faq />
       <Blog />
     </>

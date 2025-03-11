@@ -57,14 +57,14 @@ const WhatWeDo = () => {
   }, []);
 
   return (
-    <section className="what-we-do">
+    <section className="what-we-do ">
       <div className="containerFull">
         <div className="row">
           {/* Left Section - Services */}
           <div className="col-lg-6">
             <header>
-              <h4 className="large_heading2 fontHeading2 fontWeight700">What We Do</h4>
-              <p className="mt-3 title">Digital Marketing Services</p>
+              <h4 className="large_heading2 fontHeading2 fontWeight700 text_red">What We Do</h4>
+              <p className="mt-3 title">Our Revenue Driven Digital Marketing Services</p>
             </header>
 
             <div className="services_main mt-5">
@@ -89,7 +89,7 @@ const WhatWeDo = () => {
                           data-aos-delay={`${50 * subIndex}`}
                           data-aos-duration={`${1000 * subIndex}`}
                         >
-                          <i className="fa-solid fa-circle-check me-2 text_light_blue"></i>
+                          <i className="fa-solid fa-circle-check me-2 text_red"></i>
                           {service}
                         </li>
                       ))}

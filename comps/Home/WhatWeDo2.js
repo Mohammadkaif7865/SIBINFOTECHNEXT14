@@ -1,12 +1,7 @@
-"use client"; // Ensures this runs only on the client
+"use client";
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Observer } from "gsap/Observer";
-
-gsap.registerPlugin(ScrollTrigger, Observer);
 
 const services = [
   {
@@ -33,42 +28,46 @@ const services = [
 
 const WhatWeDo = () => {
   const [visibleImage, setVisibleImage] = useState(services[0].image);
-  const elementsRef = useRef([]);
+  const sectionRefs = useRef([]);
+  const listRefs = useRef([]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    let ctx = gsap.context(() => {
-      elementsRef.current.forEach(({ section, list, index }) => {
-        if (!section || !list) return;
+    import("gsap").then(({ default: gsap }) => {
+      import("gsap/ScrollTrigger").then(({ ScrollTrigger }) => {
+        gsap.registerPlugin(ScrollTrigger);
 
-        gsap.to(list, {
-          height: "+=300px", // Increase height dynamically
-          duration: 0.5,
-          paused: true,
+        let ctx = gsap.context(() => {
+          sectionRefs.current.forEach((section, index) => {
+            const title = section.querySelector(".services-title");
+            const list = listRefs.current[index];
+
+            if (!title || !list) return;
+
+            const tl = gsap.timeline({
+              scrollTrigger: {
+                trigger: section,
+                start: "top 200",
+                toggleActions: "play none none reverse",
+              },
+            });
+
+            // Title Animation
+            tl.from(title, { opacity: 0, y: 50, duration: 0.5, ease: "power2.out" });
+
+            // List Expand Animation
+            tl.fromTo(
+              list,
+              { height: 0, opacity: 0 },
+              { height: "300px", opacity: 1, duration: 0.5, ease: "power2.out" }
+            );
+          });
         });
 
-        Observer.create({
-          target: window,
-          type: "wheel,touch,scroll",
-          onChangeY: (self) => {
-            if (section.getBoundingClientRect().top <= 150) {
-              gsap.to(list, { height: "+=300px", duration: 0.5 });
-            } else {
-              gsap.to(list, { height: "auto", duration: 0.5 });
-            }
-          },
-        });
-
-        ScrollTrigger.create({
-          trigger: section,
-          start: "top center",
-          onEnter: () => setVisibleImage(services[index].image),
-        });
+        return () => ctx.revert(); // Cleanup
       });
     });
-
-    return () => ctx.revert();
   }, []);
 
   return (
@@ -87,21 +86,17 @@ const WhatWeDo = () => {
                 {services.map((section, index) => (
                   <div
                     key={index}
-                    ref={(el) => (elementsRef.current[index] = { ...(elementsRef.current[index] || {}), section: el, index })}
+                    ref={(el) => (sectionRefs.current[index] = el)}
                     className="service-section"
                   >
                     <h4 className="services-title fontHeading2 fontWeight600">{section.category}</h4>
                     <ul
-                      ref={(el) => (elementsRef.current[index] = { ...(elementsRef.current[index] || {}), list: el })}
+                      ref={(el) => (listRefs.current[index] = el)}
                       className={`services-list item${index} ps-5 mt-4`}
-                      style={{ overflow: "hidden", transition: "height 0.5s ease-in-out" }}
+                      style={{ height: "0px", overflow: "hidden" }}
                     >
                       {section.services.map((service, subIndex) => (
-                        <li
-                          key={subIndex}
-                          className="service-item fontWeight500 title mt-2"
-                          aria-label={service}
-                        >
+                        <li key={subIndex} className="service-item fontWeight500 title mt-2">
                           <i className="fa-solid fa-circle-check me-2 text_light_blue"></i>
                           {service}
                         </li>

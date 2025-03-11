@@ -5,7 +5,7 @@ import Link from "next/link";
 const Faq = () => {
   return (
     <>
-      <section className="bgAction">
+      {/* <section className="bgAction">
         <div className="containerFull">
           <div className="d-flex align-items-center justify-content-between home_cta">
             <h4 className="sub_heading letterSpacing1 text-white fontHeading fontWeight700">
@@ -18,7 +18,7 @@ const Faq = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="dots">
         <div className="containerFull">
           <div className="row">
