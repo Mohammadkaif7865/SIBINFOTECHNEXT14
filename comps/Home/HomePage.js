@@ -24,6 +24,11 @@ import OurClients from "./OurClients";
 import PartnerBadges from "./PartnerBadges";
 import Cta from "./Cta";
 import BrandBuild from "./BrandBuild";
+import Pricing from "./Pricing";
+import WhySIB from "./WhySIB";
+import SIBPower from "./SIBPower";
+import CaseStudy from "./CaseStudy";
+import DeliverGrowth from "./DeliverGrowth";
 
 const HomePage = () => {
   return (
@@ -39,6 +44,7 @@ const HomePage = () => {
       <WhatWeDo />
     
       {/* <Counter /> */}
+      <CaseStudy/>
       <Madeby />
       <WeStrong />
       <GooglePremier/>
@@ -47,13 +53,17 @@ const HomePage = () => {
       <Testimonials />
       <Cta/>
       <BrandBuild/>
+      <WhySIB/>
+      <SIBPower/>
+      <DeliverGrowth/>
+      <Pricing/>
 
-      <Expertise />
+      {/* <Expertise />
       <DigitalMarketingServices />
       <AboutUs />
       <DigitalMarketingWebAgency />
       <DigitalMarketingAgency />
-      <WebsiteDesignServices />
+      <WebsiteDesignServices /> */}
      
       <Faq />
       <Blog />
