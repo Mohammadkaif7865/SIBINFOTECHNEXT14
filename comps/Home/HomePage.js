@@ -29,6 +29,9 @@ import WhySIB from "./WhySIB";
 import SIBPower from "./SIBPower";
 import CaseStudy from "./CaseStudy";
 import DeliverGrowth from "./DeliverGrowth";
+import OurPeople from "./OurPeople";
+import Tools from "./Tools";
+import Industries from "./Industries";
 
 const HomePage = () => {
   return (
@@ -56,6 +59,9 @@ const HomePage = () => {
       <WhySIB/>
       <SIBPower/>
       <DeliverGrowth/>
+      <OurPeople/>
+      <Industries/>
+      <Tools/>
       <Pricing/>
 
       {/* <Expertise />

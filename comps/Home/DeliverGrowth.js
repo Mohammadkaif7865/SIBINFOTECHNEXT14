@@ -27,16 +27,16 @@ const DeliverGrowth = () => {
   return (
     <section className="deliverGrowth">
       <div className="containerFull">
-      <h4 className=" text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_red">
+      <h4 className=" text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_white">
       Deliver Growth
         </h4>
-        <div className="row mt-5">
+        <div className="row mt-5 deliver_growth_container">
           {marketingStats.map((value, index) => {
             return (
-              <div className="col-lg-3 pe-5">
-                <div className="pe-2 item_deliver_growth">
-                  <h4 className="heading fontHeading2 fontWeight600">{value.value}</h4>
-                  <p>{value.description}</p>
+              <div className="col-lg-3 item_deliver_growth_main " key={index}>
+                <div className="item_deliver_growth">
+                  <h4 className="heading fontHeading2 fontWeight600 text-white">{value.value}</h4>
+                  <p className="text-white-50 mt-2">{value.description}</p>
                 </div>
               </div>
             );
