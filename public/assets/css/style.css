@@ -11210,10 +11210,7 @@ font-size: 20px;
 .casebocs.active::before,
 .casebocs:hover::before {
   background: linear-gradient(
-    175deg,
-    rgba(255, 0, 24, 0),
-    rgba(220, 53, 69, 0.7098039216),
-    #f0414f
+  175deg, #e31a20, #f0414f
   );
 }
 
