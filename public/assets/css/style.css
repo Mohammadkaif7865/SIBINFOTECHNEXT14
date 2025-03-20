@@ -11086,11 +11086,12 @@ font-size: 20px;
 } */
 .item_why_title {
   display: flex;
+  justify-content: space-between;
 
   gap: 20px;
 }
 .item_why_title h5 {
-  font-size: 45px;
+  font-size: 30px;
   -webkit-text-stroke: 2px #33333355;
   color: white;
 }
@@ -11183,7 +11184,7 @@ font-size: 20px;
 }
 
 /* case bocs */
-.casescard{
+.casescard {
   display: flex;
   width: 100%;
 }
@@ -11209,9 +11210,7 @@ font-size: 20px;
 
 .casebocs.active::before,
 .casebocs:hover::before {
-  background: linear-gradient(
-  175deg, #e31a20, #f0414f
-  );
+  background: #e53036a1;
 }
 
 .casebocs.active .case-discription h3,
@@ -11221,7 +11220,7 @@ font-size: 20px;
 
 .casebocs:before {
   /* background: rgba(30, 82, 160, 0.8); */
-  background:#00000080;
+  background: #00000080;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11255,10 +11254,86 @@ font-size: 20px;
   font-size: 16px;
   color: #fff;
   margin-top: 30px;
+}
+
+.casebocs.active .case-discription p,
+.casebocs:hover .case-discription p {
+  display: block;
+  cursor: pointer;
+}
+
+/* succes story */
+.item-case-study-right-main{
+  background-color: var(--dark-blue-color);
+}
+ .item-case-study-right{
+  background-color:#fff;
+  padding:20px 20px 20px 0px;
+  margin-left: -2px;
+}
+
+
+
+.item_satates{
+  padding: 15px;
+  min-height: 185px;
+  background-size: cover;
+background-image: url(../images/success-story/Infographic-File.png);
+}
+.item_satates img{
+  width: 65px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 5px; */
+  display: block;
+}
+.item_satates h4{
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  color:#0969b7;
+ 
+}
+.item_satates p{
+  font-size: 13px;
  
 }
 
-.casebocs.active .case-discription p, .casebocs:hover .case-discription p{
+.item-case-study-left .middle-img img{
+  width: 90%;
+  margin: -20px auto;
   display: block;
-    cursor: pointer;
 }
+.item-case-study-left a{
+  background-color: var(--dark-blue-color);
+  color: #fff;
+  padding:4px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.item-case-study-left{
+  position: relative;
+  
+}
+.item-case-study-left::after{
+  position: absolute;
+  content: url(../images/success-story/Doted.svg);
+  top: -20px;
+  right: 10px;
+  width: 100px;
+  z-index: 2;
+
+}
+.item-case-study-left::before{
+  position: absolute;
+  content: url(../images/success-story/Doted.svg);
+  bottom: -20px;
+  right: 50px;
+  width: 100px;
+  z-index: 2;
+
+}
+
+

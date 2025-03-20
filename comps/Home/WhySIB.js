@@ -3,42 +3,42 @@ import React from "react";
 const WhySIB = () => {
   const keyAdvantages = [
     {
-      title: "Proven Track Record of Success",
+      title: "Proven Track Record ",
       description:
         "With 19+ years in the industry, we have delivered outstanding results for startups, SMEs, and enterprises across multiple industries, helping them achieve higher visibility, engagement, and conversions.",
     },
     {
-      title: "Google Premier Partner Agency",
+      title: "Google Premier Partner",
       description:
         "As a Google Premier Partner, we have access to exclusive tools, trends, and strategies that keep our clients ahead of the competition.",
     },
     {
-      title: "Tailored Strategies, No One-Size-Fits-All",
+      title: "Tailored Strategies",
       description:
         "Unlike many agencies that use generic templates, we craft custom digital marketing solutions based on your industry, target audience, and unique business goals.",
     },
     {
-      title: "Full-Suite Digital Marketing Services",
+      title: " Digital Marketing Services",
       description:
         "From SEO, PPC, and social media to branding, content marketing, and performance analytics—we offer comprehensive solutions under one roof.",
     },
     {
-      title: "Data-Driven & ROI-Focused Approach",
+      title: " ROI-Focused Approach",
       description:
         "Every decision we make is backed by data, ensuring maximum return on investment (ROI) through continuous monitoring, testing, and optimization.",
     },
     {
-      title: "Creative Meets Performance",
+      title: "Creative Performance",
       description:
         "We seamlessly blend high-impact creative storytelling with conversion-driven marketing strategies, ensuring your brand not only attracts attention but also drives real business results.",
     },
     {
-      title: "Transparent Reporting & Accountability",
+      title: "Transparent Reporting ",
       description:
         "We believe in 100% transparency, providing detailed insights, analytics, and reports so you know exactly where your budget is going and what’s working.",
     },
     {
-      title: "Dedicated Support & Scalability",
+      title: "Dedicated Support ",
       description:
         "Our team acts as an extension of your business, offering dedicated account managers and scalable solutions that grow with your evolving needs.",
     },
@@ -88,7 +88,7 @@ const WhySIB = () => {
                 return (
                   <div className="col-lg-6  position-relative" key={index}>
                     <div className=" item_why_sib hover h-100 ">
-                      <div className="item_why_title">
+                      <div className="item_why_title align-items-center">
                         <h4 className="small_heading fontHeading2 fontWeight600">
                           {value.title}
                         </h4>

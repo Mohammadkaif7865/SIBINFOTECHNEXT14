@@ -32,6 +32,9 @@ import DeliverGrowth from "./DeliverGrowth";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
 import Industries from "./Industries";
+import Featured from "./Featured";
+import Presence from "./Presence";
+import Map from "./Map";
 
 const HomePage = () => {
   return (
@@ -62,7 +65,10 @@ const HomePage = () => {
       <OurPeople/>
       <Industries/>
       <Tools/>
+      <Featured/>
       <Pricing/>
+      <Map/>
+      {/* <Presence/> */}
 
       {/* <Expertise />
       <DigitalMarketingServices />

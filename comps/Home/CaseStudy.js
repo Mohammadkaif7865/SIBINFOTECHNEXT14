@@ -6,29 +6,30 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 const CaseStudy = () => {
-    const caseStudies = [
-        "Archer-Chess-Case-Study.jpg",
-        "Case-Study-Final-Design.jpg",
-        "Crunky-Funky-Case-Study.jpg",
-        "Kiana-Skon-Case-Study.jpg"
-      ];
+  const caseStudies = [
+    "Archer-Chess-Case-Study.jpg",
+    "Case-Study-Final-Design.jpg",
+    "Crunky-Funky-Case-Study.jpg",
+    "Kiana-Skon-Case-Study.jpg",
+  ];
   return (
     <section>
       <div className="containerFull">
         <h4 className=" text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_red">
-        Success Story
+          Success Story
         </h4>
         <div className="mt-5">
           <Swiper
             spaceBetween={50}
             slidesPerView={1.5}
             centeredSlides={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: false,
+            // }}
             loop={true}
             pagination={false}
             navigation={{
@@ -38,15 +39,72 @@ const CaseStudy = () => {
             modules={[Autoplay, Pagination, Navigation]}
             className="case-study-swiper"
           >
-            {caseStudies.map((value,index)=>{
-                return(
+            {caseStudies.map((value, index) => {
+              return (
+                <SwiperSlide className=" ">
+                  <div className="item_case_study ">
+                    <div className="row">
+                      <div class="col-lg-6 item-case-study-left">
+                        <div>
+                          <img
+                            width={100}
+                            src="/assets/images/success-story/crunky-frunky.png"
+                            alt=""
+                          />
+                        </div>
+                        <div className="middle-img">
+                          <img className=""
+                         
+                            src="/assets/images/success-story/Crunky-Funky.png"
+                            alt=""
+                          />
+                        </div>
 
-            <SwiperSlide className=" ">
-                <div className="item_case_study">
-                    <Image className="w-100" width={780} height={450} src={`/assets/images/case-study/${value}`} alt="" />
-                </div>
-            </SwiperSlide>
-                )
+                        <Link className="" href={"#"} >
+                        Platform
+                        </Link>
+                      </div>
+                      <div class="col-lg-6 p-4 ps-0 pe-2 item-case-study-right-main">
+                        <div className="item-case-study-right ">
+                          <h5 className="fontHeading2 small_heading fontWeight700 text_dark_blue">
+                            Crunky Funky - Ecommerce
+                          </h5>
+                          <p className="mt-3">
+                            From SEO to Google Ads, we drive growth with
+                            data-driven strategies tailored to your business.
+                          </p>
+
+                          <div className="row  mt-3">
+                            <div className="col-lg-6 ">
+                              <div className="item_satates ">
+                                <img
+                                  className=""
+                                  src="/assets/images/success-story/ROAs.svg"
+                                  alt=""
+                                />
+                                <h4 className="fontHeading2">128K</h4>
+                                <p>Instagram Followers</p>
+                              </div>
+                            </div>
+                            <div className="col-lg-6 ">
+                              <div className="item_satates">
+                                <img
+                                  src="/assets/images/success-story/ROAs.svg"
+                                  alt=""
+                                />
+                                <h4>128K</h4>
+                                <p>Instagram Followers</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* <Image className="w-100" width={780} height={450} src={`/assets/images/case-study/${value}`} alt="" /> */}
+                  </div>
+                </SwiperSlide>
+              );
             })}
           </Swiper>
         </div>
