@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "../SEO2/Counter";
 
 const BannerSlider2 = () => {
   return (
@@ -9,11 +10,13 @@ const BannerSlider2 = () => {
             <div className="col-lg-6">
               <h1 className="  fontHeading2 fontWeight700">
                 <span className="title d-block preHeading">SIB Infotech</span>
-            
-                <span className="mt-3 d-block">
-                  Best Digital Marketing Agency in India Delivering Growth since
-                  2005
-                </span>
+
+                <div className="mt-3 d-block">
+                  Best{" "}
+                  <span className="text_red">Digital Marketing Agency</span> in
+                  India Delivering{" "}
+                  <span className="text_red">Growth since 2005</span>
+                </div>
                 {/* since
                 2005 */}
               </h1>
@@ -24,36 +27,47 @@ const BannerSlider2 = () => {
               </p>
 
               <div className="mt-5">
-                <a className="fancy4" href="#">
-                  <span className="top-key"></span>
-                  <span className="text">Discover More</span>
-                  <span className="bottom-key-1"></span>
-                  <span className="bottom-key-2"></span>
+                <a className="btnHeader2" href="#">
+                  <svg
+                    className="small_heading"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"></path>
+                  </svg>
+                  <span className="text ms-2">Discover More</span>
                 </a>
               </div>
             </div>
-            <div className="col-lg-6 ">
-              <div className=" d-flex justify-content-end">
-                <div className="right_section2 ">
+            <div className="col-lg-6 rightBannner2 ">
+              <div className=" d-flex justify-content-end ">
+                <div className="right_section2  b p-4">
                   <div className="item_banner2">
-                    <h4>617%</h4>
-                    <p>
-                      Increase in <br />
-                      Organic Traffic
-                    </p>
-                  </div>
-                  <div className="item_banner2 ">
-                    <h4>344% </h4>
-                    <p className="">
-                      Increase in Sales <br /> Growth YOY{" "}
-                    </p>
-                  </div>
-                  <div className="item_banner2 ">
-                    <h4>315% </h4>
-                    <p>
+                    <h4>
                       {" "}
-                      Increase in <br /> Qualified Leads
-                    </p>
+                      <Counter targetValue={617} />%
+                    </h4>
+                    <p>Increase in Organic Traffic</p>
+                  </div>
+                  <div className="item_banner2 ">
+                    <h4>
+                      {" "}
+                      <Counter targetValue={344} />%{" "}
+                    </h4>
+                    <p className="">Increase in Sales Growth YOY</p>
+                  </div>
+                  <div className="item_banner2 ">
+                    <h4>
+                   
+                      <Counter targetValue={315} />%{" "}
+                    </h4>
+                    <p>Increase in Qualified Leads</p>
                   </div>
                 </div>
               </div>

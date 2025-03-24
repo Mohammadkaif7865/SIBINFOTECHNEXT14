@@ -10686,35 +10686,36 @@ font-size: 20px;
 /* banner2 */
 .banner2 {
   position: relative;
+  background-color: #fef4f3;
 }
-/* .banner2::before{
+.banner2::after {
   position: absolute;
   content: "";
-  width: 500px;
-  height: 500px;
-  background-image: url(../images/globe2.png);
-  background-size: 500px;
-  top: 50%;
-  transform: translate(-50%,-50%);
-    left: 55%;
-  filter: invert();
-  opacity: .2;
-} */
-.banner2::before {
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: var(--red-color);
+  z-index: 0;
+}
+
+/* .banner2::before {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
-  background-image: url(../images/banner/banner1.jpg);
+
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   top: 0;
-  /* transform: translate(-50%,-50%); */
   left: 0;
-  /* filter: invert(); */
-  /* opacity: ; */
+
   z-index: -1;
+} */
+.rightBannner2{
+  position: relative;
+  z-index: 2;
 }
 .inner_banner2 {
   height: 100vh;
@@ -10728,25 +10729,65 @@ font-size: 20px;
   font-family: "Inter", sans-serif;
 }
 .item_banner2 {
-  display: flex;
-  gap: 30px;
-  padding: 20px;
+
+  padding: 10px; 
 }
 .item_banner2 p {
+  color: #fff;
+  text-align: center;
 }
 .item_banner2 h4 {
-  color: var(--red-color);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+.item_banner2 h4 h2 {
+  font-size: 74px;
+  text-align: center;
+
 }
 .inner_banner2 h1 {
   font-size: 45px;
 }
 .right_section2 {
   min-width: 60%;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  position: relative;
 }
-.right_section2 .item_banner2:nth-child(2) {
+.right_section2::after{
+  content:"";
+  position: absolute;
+  left: -15px;
+  width: 50px;
+  height: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../images/icons/banner-arrow.svg);
+  z-index: 9;
+  background-repeat: no-repeat;
+
+}
+.right_section2::before{
+  content:"";
+  position: absolute;
+  right: -40px;
+  width: 50px;
+  height: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../images/icons/banner-arrow2.svg);
+  z-index: 9;
+  background-repeat: no-repeat;
+
+
+}
+/* .right_section2 .item_banner2:nth-child(2) {
   border-top: 2px solid #333;
   border-bottom: 2px solid #333;
-}
+} */
 
 .services_main .services-title {
   font-size: 35px;
@@ -11336,4 +11377,11 @@ background-image: url(../images/success-story/Infographic-File.png);
 
 }
 
+
+.btnHeader2{
+  background-color: var(--red-color);
+  padding: 14px 30px;
+  color: #fff;
+  font-weight: 600;
+}
 

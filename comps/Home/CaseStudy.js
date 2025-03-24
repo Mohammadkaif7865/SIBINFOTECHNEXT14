@@ -53,15 +53,15 @@ const CaseStudy = () => {
                           />
                         </div>
                         <div className="middle-img">
-                          <img className=""
-                         
+                          <img
+                            className=""
                             src="/assets/images/success-story/Crunky-Funky.png"
                             alt=""
                           />
                         </div>
 
-                        <Link className="" href={"#"} >
-                        Platform
+                        <Link className="" href={"#"}>
+                          Platform
                         </Link>
                       </div>
                       <div class="col-lg-6 p-4 ps-0 pe-2 item-case-study-right-main">
