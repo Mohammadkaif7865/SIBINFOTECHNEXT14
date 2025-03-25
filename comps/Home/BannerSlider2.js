@@ -64,11 +64,12 @@ const BannerSlider2 = () => {
                   </div>
                   <div className="item_banner2 ">
                     <h4>
-                   
                       <Counter targetValue={315} />%{" "}
                     </h4>
                     <p>Increase in Qualified Leads</p>
                   </div>
+
+                  <img src="assets" alt="" />
                 </div>
               </div>
             </div>

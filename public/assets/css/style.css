@@ -10765,7 +10765,7 @@ font-size: 20px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../images/icons/banner-arrow.svg);
+  background-image: url(/assets/images/icons/banner-arrow.svg);
   z-index: 9;
   background-repeat: no-repeat;
 
@@ -10778,7 +10778,7 @@ font-size: 20px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../images/icons/banner-arrow2.svg);
+  background-image: url(/assets/images/icons/banner-arrow2.svg);
   z-index: 9;
   background-repeat: no-repeat;
 
