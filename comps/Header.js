@@ -89,18 +89,18 @@ export default function Header() {
                       </li>
                       <li>
                         <div className="menu_contact p-0 " href="tel:+91-9222260000">
-                        <i className="bi bi-telephone "></i>
+                        <i className="bi bi-telephone text-white "></i>
     
                           <div className="menu_contact_inner">
-                            <a href="tel:+91-9222260000" className="p-0 number_phone " >92222-60000</a>
-                            <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email" title="">contact@sibinfotech.com</a>
+                            <a href="tel:+91-9222260000" className="p-0 number_phone text-white " >92222-60000</a>
+                            <a href="mailto:contact@sibinfotech.com" className=" p-0 header_email text-white" title="">contact@sibinfotech.com</a>
                           </div>
                         </div>
                       </li>
                     </ul>
                   </div>
                   <button
-                    className="menubtn text-dark"
+                    className="menubtn text-white"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight"
                     aria-controls="offcanvasRight"
