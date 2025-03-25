@@ -10586,7 +10586,7 @@ font-size: 20px;
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(../images/abstract-gray-wave-background-textured-white-background-vector.jpg);
+  background-image: url(/assets/images/abstract-gray-wave-background-textured-white-background-vector.jpg);
   background-size: cover;
   z-index: -1;
   opacity: 0.5;
@@ -11319,7 +11319,7 @@ font-size: 20px;
   padding: 15px;
   min-height: 185px;
   background-size: cover;
-background-image: url(../images/success-story/Infographic-File.png);
+background-image: url(/assets/images/success-story/Infographic-File.png);
 }
 .item_satates img{
   width: 65px;
@@ -11360,7 +11360,7 @@ background-image: url(../images/success-story/Infographic-File.png);
 }
 .item-case-study-left::after{
   position: absolute;
-  content: url(../images/success-story/Doted.svg);
+  content: url(/assets/images/success-story/Doted.svg);
   top: -20px;
   right: 10px;
   width: 100px;
@@ -11369,7 +11369,7 @@ background-image: url(../images/success-story/Infographic-File.png);
 }
 .item-case-study-left::before{
   position: absolute;
-  content: url(../images/success-story/Doted.svg);
+  content: url(/assets/images/success-story/Doted.svg);
   bottom: -20px;
   right: 50px;
   width: 100px;
