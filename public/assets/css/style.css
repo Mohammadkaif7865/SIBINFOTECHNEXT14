@@ -10572,7 +10572,7 @@ font-size: 20px;
 /* trusted */
 .trusted {
   position: relative;
-  background: url(../images/bg/bg-seo-drive.webp) no-repeat;
+  background: url(/assets/images/bg/bg-seo-drive.webp) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 2;
@@ -10881,7 +10881,7 @@ font-size: 20px;
   top: 50%;
   width: 140px;
   height: 46px;
-  background:url(../images/icons/long-arrow.png) no-repeat;
+  background:url(/assets/images/icons/long-arrow.png) no-repeat;
   background-size: cover;
   transform: translateY(-50%);
 }
