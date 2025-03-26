@@ -58,7 +58,7 @@ const WeStrong = () => {
                 {stats.map((stat, index) => (
                   <SwiperSlide key={index}>
                     <div className="slide-content ">
-                      <h4 className="">{stat.value}</h4>
+                      <h4 className="fontHeading2">{stat.value}</h4>
                       <p>{stat.text}</p>
                     </div>
                   </SwiperSlide>

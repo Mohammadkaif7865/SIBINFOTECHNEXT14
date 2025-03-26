@@ -314,7 +314,6 @@ section {
 .menubtn {
   font-size: 30px;
   border: 0;
-  color: var(--light-blue-color);
   background-color: transparent !important;
 }
 .menubtn:hover {
@@ -10573,10 +10572,9 @@ font-size: 20px;
 /* trusted */
 .trusted {
   position: relative;
-  /* background-color: #33333315; */
-  /* background-image: url(../images/abstract-gray-wave-background-textured-white-background-vector.jpg); */
+  background: url(../images/bg/bg-seo-drive.webp) no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  /* border-bottom-right-radius: 150px; */
   z-index: 2;
 }
 .trusted::after {
@@ -10586,22 +10584,23 @@ font-size: 20px;
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(/assets/images/abstract-gray-wave-background-textured-white-background-vector.jpg);
-  background-size: cover;
+  background: rgba(0, 0, 0, .7);
+  backdrop-filter: blur(8px);
   z-index: -1;
-  opacity: 0.5;
 }
-
+.trusted p, .trusted h2{
+  color: #fff;
+}
 .exp_count {
   font-size: 105px;
-  color: transparent;
-  -webkit-text-stroke: 2px #33333380;
+  color: #ff0000;
+  -webkit-text-stroke: 2px #ff0000;
   transition: all 0.3s ease-in-out;
 }
 .exp_count:hover {
   font-size: 105px;
-  color: #333333;
-  -webkit-text-stroke: 2px #33333380;
+  color:#ff0000;
+  -webkit-text-stroke: 2px #ff0000;
 }
 .power_sib {
   color: #d5cfcf;
@@ -10684,9 +10683,11 @@ font-size: 20px;
 } */
 
 /* banner2 */
-.banner2 {
+.banner2, .banner3 {
   position: relative;
   background-color: #fef4f3;
+  z-index: 3;
+  overflow: hidden;
 }
 .banner2::after {
   position: absolute;
@@ -10698,7 +10699,35 @@ font-size: 20px;
   background-color: var(--red-color);
   z-index: 0;
 }
-
+.circleBg{
+  position: absolute;
+  bottom: -155px;
+  left: -100px;
+  width: 700px;
+  height: 700px;
+  background:rgb(255 255 255 / 81%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: 1;
+}
+.circleBg:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: 1;
+}
 /* .banner2::before {
   position: absolute;
   content: "";
@@ -10721,12 +10750,24 @@ font-size: 20px;
   height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
 .item_banner2 h4 {
   font-size: 74px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+}
+.item_banner2 div {
+  display: flex;
+  align-items: flex-end;
+}
+.item_banner2 div h2 span{
+  font-size: 35px;
+  transform: translateX(-12px);
+  display: inline-block;
+  font-weight: 800;
 }
 .item_banner2 {
 
@@ -10760,12 +10801,13 @@ font-size: 20px;
 .right_section2::after{
   content:"";
   position: absolute;
-  left: -15px;
+  left: -27px;
   width: 50px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/assets/images/icons/banner-arrow.svg);
+  background-image: url(/assets/images/icons/arrow-bottom.png);
+  background-size: cover;
   z-index: 9;
   background-repeat: no-repeat;
 
@@ -10773,12 +10815,13 @@ font-size: 20px;
 .right_section2::before{
   content:"";
   position: absolute;
-  right: -40px;
+  right: -25px;
   width: 50px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/assets/images/icons/banner-arrow2.svg);
+  background-image: url(/assets/images/icons/arrow-top.png);
+  background-size: cover;
   z-index: 9;
   background-repeat: no-repeat;
 
@@ -10828,7 +10871,7 @@ font-size: 20px;
   top: 50%;
   width: 140px;
   height: 2px;
-  background-color: var(--red-color);
+  background: var(--red-color);
   transform: translateY(-50%);
 }
 .title_about_2.right::after {
@@ -10837,8 +10880,9 @@ font-size: 20px;
   content: "";
   top: 50%;
   width: 140px;
-  height: 2px;
-  background-color: var(--red-color);
+  height: 46px;
+  background:url(../images/icons/long-arrow.png) no-repeat;
+  background-size: cover;
   transform: translateY(-50%);
 }
 
@@ -10846,18 +10890,18 @@ font-size: 20px;
   background-color: #333333;
 }
 
-.banner2 .preHeading {
+.banner2 .preHeading, .banner3 .preHeading {
   position: relative;
   width: 163px;
   color: #33333350;
 }
-.banner2 .preHeading::after {
+.banner2 .preHeading::after , .banner3 .preHeading::after {
   position: absolute;
   content: "";
   top: 50%;
-  right: 10px;
-  width: 40px;
-  height: 2px;
+  right:-15px;
+  width: 60px;
+  height: 1px;
   background-color: #33333350;
 }
 
@@ -11385,3 +11429,87 @@ background-image: url(/assets/images/success-story/Infographic-File.png);
   font-weight: 600;
 }
 
+
+/* bannerHero */
+.itemCounter3{
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: var(--red-color);
+}
+.counterNumber{
+  width: 270px;
+}
+.counterNumber h2{
+  font-size: 68px;
+  transform: translateX(8px);
+  -webkit-transform: translateX(8px);
+  -moz-transform: translateX(8px);
+  -ms-transform: translateX(8px);
+  -o-transform: translateX(8px);
+}
+.counterNumber h2 span{
+  display: inline-block;
+  font-size: 28px;
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+}
+.counterText p{
+  color: #fff;
+}
+.numberText{
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--red-color);
+}
+.trustSlider .slide-content{
+  padding: 0 15px;
+  text-align: center;
+}
+
+.trustSlider .swiper-pagination-bullet{
+  width: 10px !important;
+  height: 10px !important;
+  background: #fff !important;
+}
+.trustSlider .swiper-pagination-bullet-active{
+  background-color: var(--red-color) !important;
+ 
+}
+.trustSlider .slide-content p{
+  margin-top: 10px;
+}
+.cardAbout{
+  padding: 40px 30px;
+  border:1px solid #000;
+}
+.cardAbout .fa-star{
+  padding: 0 2px;
+  font-size: 20px;
+}
+.redDot{
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+/* .redDot:after{
+  content: '';
+  position: absolute;
+  bottom: -228px;
+  left: -271px;
+  width: 600px;
+  height: 600px;
+  background: url(../images/icons/red-dot.png) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: .7;
+} */

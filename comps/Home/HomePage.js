@@ -17,6 +17,7 @@ import TrustedSection from "./TrustedSection";
 import WhatWeDo from "./WhatWeDo";
 import WeStrong from "./WeStrong";
 import BannerSlider2 from "./BannerSlider2";
+import BannerSlider3 from "./BannerSlider3";
 import WhatWeDo2 from "./WhatWeDo2";
 import About2 from "./About2";
 import GooglePremier from "./GooglePremier";
@@ -41,33 +42,33 @@ const HomePage = () => {
     <>
       {/* <HomeHero />
       <BannerLogos /> */}
-      <BannerSlider2/>
-      <About2/>
+      <BannerSlider3 />
+      <About2 />
       {/* <BannerSlider /> */}
       <TrustedSection />
       {/* <WhatWeDo2 /> */}
-      
+
       <WhatWeDo />
-    
+
       {/* <Counter /> */}
-      <CaseStudy/>
+      <CaseStudy />
       <Madeby />
       <WeStrong />
-      <GooglePremier/>
-      <OurClients/>
-      <PartnerBadges/>
+      <GooglePremier />
+      <OurClients />
+      <PartnerBadges />
       <Testimonials />
-      <Cta/>
-      <BrandBuild/>
-      <WhySIB/>
-      <SIBPower/>
-      <DeliverGrowth/>
-      <OurPeople/>
-      <Industries/>
-      <Tools/>
-      <Featured/>
-      <Pricing/>
-      <Map/>
+      <Cta />
+      <BrandBuild />
+      <WhySIB />
+      <SIBPower />
+      <DeliverGrowth />
+      <OurPeople />
+      <Industries />
+      <Tools />
+      <Featured />
+      <Pricing />
+      <Map />
       {/* <Presence/> */}
 
       {/* <Expertise />
@@ -76,7 +77,7 @@ const HomePage = () => {
       <DigitalMarketingWebAgency />
       <DigitalMarketingAgency />
       <WebsiteDesignServices /> */}
-     
+
       <Faq />
       <Blog />
     </>

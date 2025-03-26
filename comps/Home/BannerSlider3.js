@@ -3,7 +3,7 @@ import Counter from "../SEO2/Counter";
 
 const BannerSlider2 = () => {
   return (
-    <div className="banner2">
+    <div className="banner3">
       <div className="circleBg"></div>
       <div className="containerFull">
         <div className="inner_banner2">
@@ -29,11 +29,6 @@ const BannerSlider2 = () => {
                 Your Online Presence with Data-Driven Digital Marketing 
                 <span>Since 2005.</span>
               </p>
-              <p className="mt-1">
-                From startups to enterprises, we craft strategies that deliver
-                real results. Let's turn clicks into customers and traffic into
-                revenue.
-              </p>
 
               <div className="mt-5">
                 <a className="btnHeader2" href="#">
@@ -54,37 +49,46 @@ const BannerSlider2 = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-6 rightBannner2 ">
-              <div className=" d-flex justify-content-end ">
-                <div className="right_section2  b p-4">
-                  <div className="item_banner2">
-                    <h4>
+            <div className="col-lg-4 offset-lg-2">
+              <div className="rightBanner3">
+                <div className="itemCounter3 shadow">
+                  <div className="counterNumber">
+                    <h4 className="text-white">
                       {" "}
                       <Counter targetValue={617} />
                     </h4>
+                  </div>
+                  <div className="counterText">
                     <p>
                       Increase in <strong>Organic Traffic</strong>
                     </p>
                   </div>
-                  <div className="item_banner2">
-                    <h4>
+                </div>
+                <div className="itemCounter3 my-lg-5 shadow">
+                  <div className="counterNumber">
+                    <h4 className="text-white">
                       {" "}
-                      <Counter targetValue={344} />{" "}
+                      <Counter targetValue={315} />
                     </h4>
-                    <p className="">
+                  </div>
+                  <div className="counterText">
+                    <p>
                       Increase in <strong>Sales Growth YOY</strong>
                     </p>
                   </div>
-                  <div className="item_banner2 ">
-                    <h4>
-                      <Counter targetValue={315} />{" "}
+                </div>
+                <div className="itemCounter3 shadow">
+                  <div className="counterNumber">
+                    <h4 className="text-white">
+                      {" "}
+                      <Counter targetValue={344} />
                     </h4>
+                  </div>
+                  <div className="counterText">
                     <p>
                       Increase in <strong>Qualified Leads</strong>
                     </p>
                   </div>
-
-                  <img src="assets" alt="" />
                 </div>
               </div>
             </div>
