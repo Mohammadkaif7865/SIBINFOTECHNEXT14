@@ -1,20 +1,24 @@
 import React from "react";
-import LogoSlider from "../LogoSlider";
+import LogoClients from "../LogoClients";
 
 const OurClients = () => {
   return (
-    <section className="home_our_client">
+    <section className="home_our_client trusted">
       <div className="containerFull">
-        <h4 className="large_heading2 fontHeading2 fontWeight600 text-center text_red">
-          Our Clients
+        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
+          Powerfulll <span className="fontWeight600">brand partners!</span>
         </h4>
-        <p className="text-center mt-4 ">
+        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
+          We <span className="fontWeight600">deliver growth</span> for these
+          brands
+        </h4>
+        <p className="text-center small_heading mt-4 ">
           Trusted by 1000+ Companies Worldwide <br />
           20 Years of Excellence Driving Growth for them
         </p>
 
         <div className="mt-5">
-          <LogoSlider />
+          <LogoClients />
         </div>
       </div>
     </section>

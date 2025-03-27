@@ -7,9 +7,12 @@ const PartnerBadges = () => {
     <section className="partner_badges">
       <div className="containerFull">
         <div className="">
-          <h4 className="large_heading2 fontHeading2 fontWeight600 text_red mt-4 ">Our Certifications & Partner Badges</h4>
-          <p  className="mt-3">
-            Proudly Recognized by industry leaders for our expertise and<br/>
+          <h4 className="large_heading2 fontHeading2 fontWeight600 text_red mt-4 ">
+            Our Certifications & Partner Badges
+          </h4>
+          <p className="mt-3">
+            Proudly Recognized by industry leaders for our expertise and
+            <br />
             excellence as trusted & certified digital marketing experts
           </p>
         </div>
@@ -94,9 +97,6 @@ const PartnerBadges = () => {
                   />
                 </div>
               </div>
-              
-           
-              
             </div>
           </div>
         </div>

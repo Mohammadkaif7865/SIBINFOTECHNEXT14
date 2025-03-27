@@ -43,18 +43,23 @@ const BrandBuild = () => {
   ];
 
   return (
-    <section  className="brand_build_main">
+    <section>
       <div className="containerFull">
         <div className="row align-items-center">
-          <div  className="col-lg-6">
-            <h4  className="large_heading2 fontWeight600  fontHeading2 text_red">Strategy. Creativity. Performance.</h4>
+          <div className="col-lg-6">
+            <h4 className="large_heading2 fontWeight600  fontHeading2 text_red">
+              Strategy. Creativity. Performance.
+            </h4>
           </div>
-          <div  className="col-lg-6  ps-3">
-            <p>
-            Success in the digital world isn’t just about being seen—it’s about making an impact. We blend strategy, creativity, and data-driven insights to craft campaigns that captivate audiences and drive real business growth. 
-
+          <div className="col-lg-6  ps-3">
+            <p className="title">
+              Success in the digital world isn’t just about being seen—it’s
+              about making an impact. We blend{" "}
+              <strong>strategy, creativity,</strong> and{" "}
+              <strong>data-driven insights</strong> to craft campaigns that
+              captivate audiences and drive
+              <strong>real business growth.</strong>
             </p>
-           
           </div>
         </div>
         <div className="row mt-5">

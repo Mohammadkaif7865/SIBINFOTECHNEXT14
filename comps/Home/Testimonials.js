@@ -7,11 +7,14 @@ const Testimonials = () => {
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-          <h4 className="heading fontHeading2 text-center text_red fontWeight600">
-            What our Clients Say about us
+          <h4 className="heading fontHeading2 text-center text_red fontWeight300">
+            What our <span className="fontWeight600">Clients Say</span> about us
           </h4>
-          <p className=" text-center  mt-3 ">
-            Digital Marketing and SEO Agency Reviews about SIB Infotech
+          <p className="small_heading fontWeight300 text-center  mt-3 ">
+            <span className="fontWeight600">
+              Digital Marketing and SEO Agency
+            </span>{" "}
+            Reviews about SIB Infotech
           </p>
         </div>
 
@@ -21,9 +24,9 @@ const Testimonials = () => {
               We are five star rated Digital Agency
             </h4>
             <div
-              className="sub_heading mt-4"
+              className="small_heading mt-4"
               style={{
-                color: "#FFE17D",
+                color: "var(--red-color)",
               }}
             >
               <i class="fa-solid fa-star"></i>
@@ -74,8 +77,6 @@ const Testimonials = () => {
                   src="/assets/images/trustpilot.jpg"
                 />
               </div>
-              
-              
             </div>
           </div>
           <div className="col-lg-8">

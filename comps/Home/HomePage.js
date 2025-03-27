@@ -14,15 +14,17 @@ import Faq from "./Faq";
 import Blog from "./Blog";
 import BannerSlider from "./BannerSlider";
 import TrustedSection from "./TrustedSection";
-import WhatWeDo from "./WhatWeDo";
+// import WhatWeDo from "./WhatWeDo";
 import WeStrong from "./WeStrong";
 import BannerSlider2 from "./BannerSlider2";
 import BannerSlider3 from "./BannerSlider3";
-import WhatWeDo2 from "./WhatWeDo2";
+// import WhatWeDo2 from "./WhatWeDo2";
+import WhatWeDo3 from "./WhatWeDo3";
 import About2 from "./About2";
 import GooglePremier from "./GooglePremier";
 import OurClients from "./OurClients";
-import PartnerBadges from "./PartnerBadges";
+// import PartnerBadges from "./PartnerBadges";
+import PartnerBadges2 from "./PartnerBadges2";
 import Cta from "./Cta";
 import BrandBuild from "./BrandBuild";
 import Pricing from "./Pricing";
@@ -48,22 +50,19 @@ const HomePage = () => {
       <TrustedSection />
       {/* <WhatWeDo2 /> */}
 
-      <WhatWeDo />
-
+      <WhatWeDo3 />
+      <PartnerBadges2 />
       {/* <Counter /> */}
       <CaseStudy />
       <Madeby />
-      <WeStrong />
-      <GooglePremier />
       <OurClients />
-      <PartnerBadges />
       <Testimonials />
       <Cta />
       <BrandBuild />
       <WhySIB />
-      <SIBPower />
       <DeliverGrowth />
       <OurPeople />
+      <SIBPower />
       <Industries />
       <Tools />
       <Featured />
