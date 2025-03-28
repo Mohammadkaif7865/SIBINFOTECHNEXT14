@@ -8635,29 +8635,26 @@ table tbody tr td:nth-child(2) {
 }
 
 .toolsLogo {
-  border: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
   padding: 15px;
   height: 80px;
-  border-radius: 5px;
 }
 
 .toolsLogo img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
   max-height: 100%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
 }
 
 .toolsLogo:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-color: var(--light-blue-color);
-}
-
-.toolsLogo:hover img {
-  filter: grayscale(100%);
 }
 
 .toolsLogo {
@@ -8899,11 +8896,10 @@ table tbody tr td:nth-child(2) {
   padding: 15px 10px;
   height: 65px;
   display: flex;
-  margin: 10px 0;
+  margin: 15px 0;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
-  border: 1px solid #e0e0e0;
 }
 
 .newsLogo img {
@@ -11029,19 +11025,27 @@ font-size: 20px;
 .pricing_item_main {
   padding-top: 23px;
 }
+.pricing_item_main img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .pricing_item {
   padding: 30px;
-  border: 2px solid #333333;
+  border: 1px solid #333333;
   position: relative;
   z-index: 22;
 }
 .pricing_item .Pricing_title {
   position: relative;
-  font-size: 25px;
-
+  font-size: 20px;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-color: var(--red-color);
   padding: 10px 25px;
   margin-top: -55px;
   width: 90%;
@@ -11057,7 +11061,7 @@ font-size: 20px;
   top: -0px;
   width: 30px;
   height: 25px;
-  background-color: #000;
+  background-color:#990106;
   clip-path: polygon(100% 0%, 100% 100%, 51% 100%);
 }
 .pricing_item .Pricing_title::before {
@@ -11067,7 +11071,7 @@ font-size: 20px;
   top: -0px;
   width: 30px;
   height: 25px;
-  background-color: #000;
+  background-color: #990106;
   clip-path: polygon(0% 0%, 51% 100%, 0% 100%);
 }
 .pricing_item .content {
@@ -11098,6 +11102,7 @@ font-size: 20px;
 }
 .item_price_titile {
   display: flex;
+  justify-content: space-between;
   gap: 50px;
 }
 .item_price_titile h5 {
@@ -11261,13 +11266,24 @@ font-size: 20px;
   border: none !important;
   color: #333 !important;
   z-index: 99;
-  font-size: 20px;
+  font-size: 18px;
+  background:#ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.power_prev:hover,
+.power_next:hover{
+  background: #000;
+  color: #fff !important;
 }
 .power_prev {
-  left: -50px;
+  left: -30px;
 }
 .power_next {
-  right: -50px;
+  right: -30px;
 }
 
 /* case study */
@@ -11666,16 +11682,18 @@ text-align: center;
 .badgeBox{
   width: 100%;
   height: 90px;
-  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 3px;
+  background: #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 .badgeBox img{
   max-width: 100%;

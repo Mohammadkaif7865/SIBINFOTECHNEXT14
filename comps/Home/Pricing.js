@@ -6,21 +6,23 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Pricing = () => {
   return (
-    <section className="pricing_home">
+    <section className="bgGrey">
       <div className="containerFull">
-        <h4 className=" text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_red">
-          360° Digital Marketing Solutions
+        <h4 className=" text-center large_heading2 fontHeading2 fontWeight300 text_red">
+          360° <span className="fontWeight600">Digital Marketing</span>{" "}
+          Solutions
         </h4>
-        <p className="mt-4 text-center">Packages starting from $175 only.</p>
+        <p className="mt-4 text-center title">
+          Packages starting from <strong>$175</strong> only.
+        </p>
         <div className=" pricing_row position-relative">
-        <button class="price_prev">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
+          <button class="price_prev">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
           <Swiper
             spaceBetween={30}
             slidesPerView={3}
@@ -40,13 +42,16 @@ const Pricing = () => {
             <SwiperSlide className="">
               <div className="pricing_item_main">
                 <div className="pricing_item">
-                  <h5 className="Pricing_title fontHeading2">SEO<br/> Packages</h5>
+                  <h5 className="Pricing_title fontHeading2">
+                    SEO
+                    <br /> Packages
+                  </h5>
 
                   <div className="mt-4">
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -60,7 +65,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 250</h5>
+                    <h5>Starts from: </h5> <h5>$ 250</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -77,13 +82,15 @@ const Pricing = () => {
             <SwiperSlide className="">
               <div className="pricing_item_main">
                 <div className="pricing_item">
-                  <h5 className="Pricing_title fontHeading2">PPC <br/> Packages</h5>
+                  <h5 className="Pricing_title fontHeading2">
+                    PPC <br /> Packages
+                  </h5>
 
                   <div className="mt-4">
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -97,7 +104,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 300/Month.</h5>
+                    <h5>Starts from: </h5> <h5>$ 300/Month.</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -114,13 +121,15 @@ const Pricing = () => {
             <SwiperSlide className="">
               <div className="pricing_item_main">
                 <div className="pricing_item">
-                  <h5 className="Pricing_title fontHeading2">Social Media <br/> Packages</h5>
+                  <h5 className="Pricing_title fontHeading2">
+                    Social Media <br /> Packages
+                  </h5>
 
                   <div className="mt-4">
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -134,7 +143,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 225/Month</h5>
+                    <h5>Starts from: </h5> <h5>$ 225/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -159,7 +168,7 @@ const Pricing = () => {
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -173,7 +182,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 250/Month</h5>
+                    <h5>Starts from: </h5> <h5>$ 250/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -198,7 +207,7 @@ const Pricing = () => {
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -210,7 +219,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 175 /Month</h5>
+                    <h5>Starts from: </h5> <h5>$ 175 /Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -228,14 +237,15 @@ const Pricing = () => {
               <div className="pricing_item_main">
                 <div className="pricing_item">
                   <h5 className="Pricing_title fontHeading2">
-                    Link Building Packages{" "}
+                    Link Building
+                    <br className="d-none d-lg-block" /> Packages{" "}
                   </h5>
 
                   <div className="mt-4">
                     <Image
                       className="w-100"
                       width={350}
-                      height={200}
+                      height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
                       alt=""
                     />
@@ -249,7 +259,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>USD 175/Month</h5>
+                    <h5>Starts from: </h5> <h5>$ 175/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -265,8 +275,8 @@ const Pricing = () => {
             </SwiperSlide>
           </Swiper>
           <button class="price_next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
         </div>
       </div>
     </section>

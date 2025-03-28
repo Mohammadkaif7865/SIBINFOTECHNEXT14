@@ -23,19 +23,30 @@ const Featured = () => {
   return (
     <section>
       <div className="containerFull">
-        <h3 className="sub_heading fontWeight500 fontHeading">
-          We can Get Featured you on Top News Websites
-        </h3>
-        <div className="mt-3 row row-cols-2 row-cols-lg-5">
-        
+        <div className="row align-items-center">
+          <div className="col-lg-7">
+            <h3 className="large_heading2 fontWeight300 text_red">
+              We can <span className="fontWeight600">Get Featured</span> you on{" "}
+              <span className="fontWeight600">Top News Websites</span>
+            </h3>
+          </div>
+          <div className="col-lg-5">
+            <p className="ps-lg-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat
+              tortor, cursus pretium odio nec, vestibulum congue lacus. Sed in
+              elit vulputate, pellentesque lacus quis, pulvinar ex.
+            </p>
+          </div>
+        </div>
+        <div className="mt-lg-5 mt-3 row row-cols-2 row-cols-lg-5">
           {newsWebsites.map((website, index) => (
             <div key={index} className="col px-2 px-lg-3">
               <div className="newsLogo">
-                <Image 
-                width={200}
-                height={100}
-                quality={100}
-                className=" h-auto object-fit-contain "
+                <Image
+                  width={200}
+                  height={100}
+                  quality={100}
+                  className=" h-auto object-fit-contain "
                   src={`/assets/images/news-logo/${website.logo}`}
                   alt={website.alt}
                 />

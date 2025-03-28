@@ -50,7 +50,7 @@ const PartnerBadges = () => {
                           width={100}
                           height={100}
                           quality={100}
-                          src="https://www.gstatic.com/partners/badge/images/2024/PremierBadgeClickable.svg"
+                          src="/assets/images/trans/artboard.png"
                           alt="Google Partner"
                         />
                       </Link>
@@ -66,7 +66,7 @@ const PartnerBadges = () => {
                         height={100}
                         quality={100}
                         alt="Meta Partner Company"
-                        src="/assets/images/meta-partner.jpg"
+                        src="/assets/images/trans/meta.png"
                       />
                     </div>
                   </div>
@@ -80,7 +80,7 @@ const PartnerBadges = () => {
                         height={100}
                         quality={100}
                         alt="clutch Partner Company"
-                        src="/assets/images/clutch.png"
+                        src="/assets/images/trans/clutch.png"
                       />
                     </div>
                   </div>
@@ -94,7 +94,7 @@ const PartnerBadges = () => {
                         height={100}
                         quality={100}
                         alt="Shopify Partner Company"
-                        src="/assets/images/shopify-partner.png"
+                        src="/assets/images/trans/shopify.png"
                       />
                     </div>
                   </div>
@@ -108,7 +108,7 @@ const PartnerBadges = () => {
                         height={100}
                         quality={100}
                         alt="Trustpilot Partner Company"
-                        src="/assets/images/trustpilot.jpg"
+                        src="/assets/images/trans/trust-pilot.png"
                       />
                     </div>
                   </div>
@@ -122,7 +122,7 @@ const PartnerBadges = () => {
                         height={100}
                         quality={100}
                         alt="Google Analytics Partner Company"
-                        src="/assets/images/google-analytics.jpg"
+                        src="/assets/images/trans/google-analytics.png"
                       />
                     </div>
                   </div>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-
 const Tools = () => {
   const tools = [
     {
@@ -54,12 +53,16 @@ const Tools = () => {
     },
   ];
   return (
-    <section className="">
+    <section className="trusted">
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-12">
-            <h3 className="sub_heading fontWeight500 fontHeading">
-              Some of the Best SEO Tools for Auditing & Monitoring Effective SEO
+            <h3 className="heading text-center text-white fontWeight300">
+              Some of the <span className="fontWeight600">Best SEO Tools</span>{" "}
+              for{" "}
+              <span className="fontWeight600">
+                Auditing & Monitoring Effective SEO{" "}
+              </span>
               used by us.
             </h3>
           </div>
