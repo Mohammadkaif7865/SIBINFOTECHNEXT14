@@ -322,6 +322,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "www.sibinfotech.com",
       },
+      {
+        protocol: "https",
+        hostname: "groupfractal.com",
+      },
     ],
   },
 
