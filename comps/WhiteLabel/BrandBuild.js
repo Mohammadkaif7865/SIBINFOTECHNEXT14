@@ -41,7 +41,7 @@ const BrandBuild = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h5>The Reasons</h5>
+            <h5 className="fontWeight600">The Reasons</h5>
             <h4 className="large_heading2 fontWeight600   text_red mt-3 fontWeight600">
               Why Choose Us
             </h4>

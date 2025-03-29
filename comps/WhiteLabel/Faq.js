@@ -238,7 +238,7 @@ const Faq = () => {
    
     <section className="">
       <div className="containerFull ">
-        <h4 className="heading fontHeading mb-4 fontWeight600 text-center">Frequently Asked Questions</h4>
+        <h4 className="heading  mb-4 fontWeight600 text-center">Frequently Asked Questions</h4>
         {/* faq */}
 
         <div className=" row  ">
@@ -248,7 +248,7 @@ const Faq = () => {
                 <div key={i} className="">
                   <div className="customFaq">
                     <h4
-                      className=" fontHeading"
+                      className=" "
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
@@ -287,7 +287,7 @@ const Faq = () => {
                 <div key={i} className="">
                   <div className="customFaq">
                     <h4
-                      className=" fontHeading"
+                      className=" "
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);
