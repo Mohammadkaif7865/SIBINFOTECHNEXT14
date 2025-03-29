@@ -10765,8 +10765,11 @@ tudy-right-main {
   justify-content: space-between;
   padding: 20px;
   background-color: #33333311;
+  /* background-image: url(/assets/images/white-lable/White-Label-Google-ads.jpg);
+  background-blend-mode: multiply; */
   box-shadow: 0 0 1px 1px #33333322;
   border-radius: 20px;
+  /* color: #fff; */
 }
 .partnership_box_content_2 {
   position: absolute;
