@@ -83,7 +83,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
               <div className="innerBannerTitle venter">
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
-                <h1 className="mt-3 heading fontWeight600 text-white ">
+                <h1 className="mt-3 heading fontWeight700 text-white ">
                   Your Trusted White Label Marketing Agency in India <br />{" "}
                   <span className="text_red">Grow Faster, Scale Smarter!</span>
                 </h1>
