@@ -105,7 +105,7 @@ const Solution = () => {
                   }}
                 >
                   <div className="service__number">
-                    <span className="">0 {index + 1}</span>
+                    <span className="">0{index + 1}</span>
                   </div>
                   <div className="service__title-wrapper">
                     <h3
