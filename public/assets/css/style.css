@@ -10146,7 +10146,7 @@ font-size: 20px;
 .service__link p:after {
   position: absolute;
   content: "\f061";
-  font-family: Font Awesome\6 Free;
+  font-family: Font Awesome\ 6 Free;
   font-weight: 900;
   left: 0px;
   bottom: 0px;
