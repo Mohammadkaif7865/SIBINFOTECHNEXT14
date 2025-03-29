@@ -1929,7 +1929,7 @@ section {
 }
 
 .footerForm {
-  background: url(../images/bg/contact-bg.webp) no-repeat;
+  background: url(/assets/images/bg/contact-bg.webp) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
