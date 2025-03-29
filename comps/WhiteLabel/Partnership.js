@@ -15,11 +15,13 @@ const Partnership = () => {
     },
     {
       title: `Branded Reporting <br/>& Actionable Insights`,
-      description: "Get in-depth performance reports featuring your agency’s branding. We provide clear metrics, campaign analysis, and insights to help you showcase tangible results to your clients.",
+      description:
+        "Get in-depth performance reports featuring your agency’s branding. We provide clear metrics, campaign analysis, and insights to help you showcase tangible results to your clients.",
     },
     {
       title: `Continuous Optimization <br/>& Dedicated Support `,
-      description: "Digital marketing is ever-evolving, and so are we. Our team constantly refines strategies, runs A/B tests, and adjusts campaigns to improve performance. We also offer ongoing support to ensure sustained success. ",
+      description:
+        "Digital marketing is ever-evolving, and so are we. Our team constantly refines strategies, runs A/B tests, and adjusts campaigns to improve performance. We also offer ongoing support to ensure sustained success. ",
     },
   ];
 
@@ -91,13 +93,21 @@ const Partnership = () => {
                 <div className="partnership_box position-relative">
                   <div className="partnership_box_content_1">
                     <h4 className="heading">0{index + 1}</h4>
-                    <h5
-                      className=" fontWeight700 mt-2"
-                      dangerouslySetInnerHTML={{ __html: value.title }}
-                    ></h5>
+
+                    <div>
+                      <h5
+                        className=" fontWeight700 mt-2"
+                        dangerouslySetInnerHTML={{ __html: value.title }}
+                      ></h5>
+
+                      <p className="mt-3">Know More <i class="fa-solid fa-arrow-right ms-3"></i></p>
+                    </div>
                   </div>
                   <div className="partnership_box_content_2">
-                    <h5 className="fontWeight600" dangerouslySetInnerHTML={{ __html: value.title }}></h5>
+                    <h5
+                      className="fontWeight600"
+                      dangerouslySetInnerHTML={{ __html: value.title }}
+                    ></h5>
                     <p className="mt-2">{value.description}</p>
                   </div>
                 </div>
