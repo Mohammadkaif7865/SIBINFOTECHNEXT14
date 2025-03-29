@@ -19,15 +19,20 @@ const About2 = () => {
           </div>
           <div className="col-lg-6">
             <p>
-              SIB Infotech is a leading digital marketing company in India,
-              offering white-label digital marketing solutions to agencies and
-              businesses worldwide. We help you scale your services by providing
-              Premium White Label SEO, PPC, and Social Media Marketing (SMO) at
-              50% lower costs—all under your brand name.
-              Premium White Label SEO, PPC, and Social Media Marketing (SMO) at
-              50% lower costs—all under your brand name.
-              Premium White Label SEO, PPC, and Social Media Marketing (SMO) at
-              50% lower costs—all under your brand name.
+              Scale your agency to the next level with our White Label Digital
+              Marketing Services—offering expert solutions in SEO, PPC, Social
+              Media, and Link Building, all delivered seamlessly under your
+              brand name. With a dedicated remote team, that works as an
+              extension of your business, ensuring high-quality results while
+              saving up to 50% on operational costs without the overhead costs.
+              
+            </p>
+            <p className="mt-2">
+            Whether you're looking to scale, expand your service offerings, or
+              streamline your workflow, we provide the expertise and execution
+              while you focus on client relationships and business growth. Let’s
+              build success together—your brand, our strategy
+              
             </p>
           </div>
         </div>

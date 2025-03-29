@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 export default function SliderTestimonials() {
-  // Array of testimonial objects
+
   const testimonials = [
     {
       userImg: "/assets/images/timothy-scafaria.jpeg",
@@ -99,15 +99,15 @@ export default function SliderTestimonials() {
                   {testimonial.heading}
                 </h3>
               </div>
-              <p>{testimonial.content}</p>
+              <p className="testimonial-content">{testimonial.content}</p>
               <div className="testimonialFooter">
                 <div className="d-flex flex-wrap justify-content-between">
                   <div className="usertestimonial d-flex justify-content-between align-items-center">
                     <div
-                      className="rounded-circle   overflow-hidden position-relative     me-3"
+                      className="rounded-circle   overflow-hidden position-relative      me-3"
                       style={{
-                        width: "70px",
-                        height: "70px",
+                        width: "50px",
+                        height: "50px",
                         background: "#c3d6fc",
                         border: "1px solid #c3d6fc",
                       }}
@@ -133,29 +133,29 @@ export default function SliderTestimonials() {
                         />
                       )}
                     </div>
-                    <div className="nameUser">
+                    <div className="nameUser ">
                       <h4 className="title   fontWeight500">
                         {testimonial.userName}
                       </h4>
                       {testimonial.userTitle && <p>{testimonial.userTitle}</p>}
                     </div>
                   </div>
-                  <div className="reviewSource mt-2">
-                    <p className="fontWeight500 text_red text-lg-end text-uppercase">
+                  <div className="reviewSource mt-3   w-100">
+                    <p className="fontWeight500 text_red  text-uppercase">
                       Reviewed From
                     </p>
                     <Image
                       width={100}
                       height={100}
                       quality={100}
-                      className="w-100 h-auto"
+                      className="  h-auto"
                       src={testimonial.reviewSourceLogo}
                       alt={testimonial.reviewSource}
                     />
                   </div>
                 </div>
               </div>
-              <div className="qouteIcon">
+              {/* <div className="qouteIcon">
                 <Image
                   width={100}
                   height={100}
@@ -164,7 +164,7 @@ export default function SliderTestimonials() {
                   src="/assets/images/icons/left-quote.png"
                   alt="Quote Icon"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

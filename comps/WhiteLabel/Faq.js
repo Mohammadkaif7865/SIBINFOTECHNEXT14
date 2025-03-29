@@ -6,226 +6,118 @@ const Faq = () => {
   const faqsData = [
     {
       id: "faq1",
-      question: "What is SEO?",
-      answer: ` <div className="accordion-body">
-      <p>
-        SEO or ‘search engine optimization is the process of
-        improving the quality and quantity of website traffic.
-        This is achieved by increasing its visibility on
-        search engines, improving rankings for unpaid results.
-        As a marketing strategy, SEO has long-term benefits
-        and provides a high return-on-investment.
-      </p>
-    </div>`,
+      question: "1. What is a White Label Digital Marketing Service?",
+      answer: `<p>A white-label digital marketing service allows agencies to outsource marketing solutions under their own brand. We handle the execution while you take full credit, ensuring seamless service delivery without revealing our involvement.</p>`,
     },
     {
       id: "faq2",
-      question: "What are your SEO plans?",
-      answer: `   <div className="accordion-body">
-      <p className="customText">
-        SEO is a results-oriented process that requires goal
-        strategies to bring good results. We continuously
-        strive to provide a complete package of SEO services
-        including:
-      </p>
-      <ul className="listFlexItem">
-        <li>Content analysis and optimization</li>
-        <li>Website Structure Analysis</li>
-        <li>Off-Page SEO and On-Page SEO</li>
-        <li>Website code optimization</li>
-        <li>Website structure optimization</li>
-        <li>Keyword Research</li>
-        <li>Local SEO Content Writing and Placement</li>
-      </ul>
-      <p className="customText">
-        <strong>
-          SEO Plans are based on customer requirements and
-          their objective. Our SEO Packages offered are
-          tailored made suitable for all kinds of budgets
-        </strong>
-      </p>
-    </div>`,
+      question: "2. Can I set my own pricing?",
+      answer: `<p>Yes! We provide competitive wholesale pricing, allowing you to set your own rates and maximize profitability while offering top-tier marketing services to your clients.</p>`,
     },
     {
       id: "faq3",
-      question: "How long does it take to see the result?",
-      answer: `<p>
-      SEO grows over time and the entire SEO process takes
-      about 3 to 6 months to see the expected results, with
-      a minimum of 2 to 3 months in link building, on-page
-      optimization, off-page optimization, content creation,
-      and marketing. Is complete. Another fact is that SEO
-      results are expected to increase over time, so results
-      in 6 months will be slightly lower than in 12 months
-    </p>`,
+      question: "3. How do I get started?",
+      answer: `<p>Getting started is simple! Contact us, and we’ll discuss your requirements, pricing, and onboarding process to ensure a smooth collaboration.</p>`,
     },
     {
       id: "faq4",
-      question: "What is the cost of SEO services?",
-      answer: `  <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per clients budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages.
-    </p>`,
+      question:
+        "4. What services do white-label digital marketing agencies typically offer?",
+      answer: `<p>Our services include SEO, PPC, Social Media Marketing, Content Creation, Email Marketing, and Web Design & Development—all fully rebranded under your agency’s name.</p>`,
     },
     {
       id: "faq5",
-      question: "Why do you need SEO service for your website?",
-      answer: ` <p>
-      SEO services offer visibility to your websites and
-      improve SEO ranking gradually over search engines like
-      Google, Yahoo, Bing, DuckDuckGo etc. A high ranking
-      website would bring more traffic to its website and
-      help lead generation for the business.
-    </p>`,
+      question: "5. How do we communicate with clients?",
+      answer: `<p>You manage client communication while we work behind the scenes. To make things easier, we provide white-label email templates and reports for seamless interactions.</p>`,
     },
     {
       id: "faq6",
-      question: "Ask for an initial SEO audit of your website?",
-      answer: ` <p>
-      We offer free SEO audit services as a part of the
-      entire SEO package. We have dedicated professionals to
-      provide SEO audit reports for your website, unlike
-      some SEO companies in India that entirely rely on
-      audit tools. We ensure that the audit report is
-      developed thoroughly with covering elements like
-      keyword research and competitor analysis.
-    </p>`,
+      question:
+        "6. What are the benefits of working with a white-label digital marketing agency?",
+      answer: `<p>Partnering with us helps you:
+            <ul>
+              <li>Expand your service offerings without hiring an in-house team</li>
+              <li>Save costs while maintaining high-quality service delivery</li>
+              <li>Scale effortlessly with expert execution and seamless branding</li>
+              <li>Focus on client relationships while we handle the technical work</li>
+            </ul>
+          </p>`,
     },
     {
       id: "faq7",
-      question: "How much does SEO Services cost per month?",
-      answer: ` <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per client's budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages. SEO packages
-      start from around USD 300 per month onwards.
-    </p>`,
+      question: "7. How does a white-label digital marketing agency work?",
+      answer: `<p>We strategize, execute, and optimize digital marketing campaigns under your brand name. You get high-quality services without the hassle of execution while maintaining full ownership of client relationships.</p>`,
     },
     {
       id: "faq8",
-      question: `Is SEO worth it in ${new Date().getFullYear()}?`,
-      answer: `<p>
-      With years crossing by, the emphasis on SEO is never
-      degrading instead it is turning more prominent than
-      ever. It is one of the most compelling digital
-      marketing strategies that stimulate long-term results.
-      In ${new Date().getFullYear()}, SEO continues to be
-      significant and savvy marketers should discover their
-      ways of managing content marketing alongside other
-      traffic channels such as social media management. By
-      targeting long-tailed keywords, SEO as inbound
-      marketing broadens your brand's reach.
-    </p>`,
+      question:
+        "8. How do I choose the right white-label digital marketing agency for my business?",
+      answer: `<p>Look for experience, service quality, transparency, and proven results. We bring years of expertise, a strong portfolio, and a commitment to your success.</p>`,
     },
     {
       id: "faq9",
-      question: `Why SEO services are so expensive?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        <strong>
-          There are several reasons for SEO being expensive:
-        </strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>It is a time taking process.</li>
-        <li>
-          Calls for several resources to build up and maintain
-          a campaign.
-        </li>
-        <li>
-          Relies on the expertise of the SEO specialist to
-          establish and advance your strategy.
-        </li>
-      </ul>
-    </div>`,
+      question:
+        "9. What is the cost of working with a white-label digital marketing agency?",
+      answer: `<p>Pricing varies based on the services required, project size, and complexity. We offer flexible pricing models, including fixed, hourly, and custom packages.</p>`,
     },
     {
       id: "faq10",
-      question: `How do you rank first on Google?`,
-      answer: `  <p>
-      There is no tried and tested method for ranking first
-      on Google. However, with the right keywords and SEO
-      campaigns, your chances of ranking high can be
-      increased. For that, you'll have to create tons of
-      optimized content and you're good to go! With the
-      right strategies, this will happen much sooner than
-      you think.
-    </p>`,
+      question: "10. Can I rebrand the services provided as my own?",
+      answer: `<p>Absolutely! Our white-label services are designed to be fully rebranded under your agency’s name, allowing you to offer premium digital marketing solutions as your own.</p>`,
     },
     {
       id: "faq11",
-      question: `How does Google rank SEO?`,
-      answer: `  <p>
-      Authority and relevancy are the two primary things
-      Google looks for when crawling a website. Google will
-      produce the results based on algorithms and
-      information gathered by the spiders. These web pages
-      are placed on the search results page in an order
-      reflecting their page.
-    </p>`,
+      question:
+        "11. How do I ensure the quality of work provided by my white-label partner?",
+      answer: `<p>We provide regular reports, performance analytics, and case studies. Additionally, our proven track record and client testimonials reflect our commitment to delivering exceptional results.</p>`,
     },
     {
       id: "faq12",
-      question: `How do I choose a company for SEO?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        For choosing a suitable SEO Company for your brand
-        follows these six steps:
-      </p>
-      <ul>
-        <li>
-          Ask for examples and case studies of successful SEO
-          campaigns.
-        </li>
-        <li>Think beyond SEO.</li>
-        <li>Visit the SEO Company in person.</li>
-        <li>
-          Understand the risks of low-cost SEO agencies.
-        </li>
-        <li>Avoid SEO guarantees.</li>
-        <li>
-          Familiarize yourself with SEO pricing models and
-          make an SEO budget.
-        </li>
-      </ul>
-    </div>`,
+      question: "12. How long does it take to see results?",
+      answer: `<p>Timelines vary based on the service. While PPC campaigns can show results in weeks, SEO and organic strategies take a few months for sustainable growth. We provide clear timelines and updates.</p>`,
     },
     {
       id: "faq13",
-      question: `What are SEO tools?`,
-      answer: ` <p>
-      SEO tools determine the potential of your webpage for
-      high rankings in search engine results. They provide
-      keywords and backlinks information as well as insights
-      into SEO competition on the Internet.
-    </p>`,
+      question: "13. Can a white-label agency handle multiple clients at once?",
+      answer: `<p>Yes! We have the capacity to manage multiple clients simultaneously, ensuring seamless execution and high-quality service for all your projects.</p>`,
     },
     {
       id: "faq14",
-      question: `Why Hire SEO Company in India?`,
-      answer: ` <p>
-      Hiring an SEO company in India is a strategic choice
-      fueled by a vast pool of skilled professionals focused
-      on digital marketing. The cost-effective nature of
-      Indian SEO services, coupled with competitive pricing,
-      ensures businesses receive optimal value. With a
-      proven track record and a diverse talent pool, these
-      companies bring innovation and expertise to enhance
-      online presence. The ability to navigate evolving
-      industry trends and leverage cultural diversity allows
-      for nuanced and targeted SEO strategies. Businesses
-      can trust in achieving improved search engine
-      rankings, driving organic traffic, and ultimately
-      experiencing sustained growth by tapping into the
-      comprehensive offerings of Indian SEO companies.
-    </p>`,
+      question:
+        "14. Why should I choose your agency as my White Label Services Partner?",
+      answer: `<p>We bring expertise, scalability, and reliability. With years of experience and a dedicated team, we help you grow your agency without additional overhead.</p>`,
+    },
+    {
+      id: "faq15",
+      question: "15. How can your white-label services help my business grow?",
+      answer: `<p>We take care of client project execution so you can focus on scaling your business, building client relationships, and expanding your service offerings.</p>`,
+    },
+    {
+      id: "faq16",
+      question:
+        "16. How is confidentiality maintained after the project is completed?",
+      answer: `<p>We follow strict data security protocols, IP-restricted access, and NDAs to ensure complete confidentiality and protection of shared information.</p>`,
+    },
+    {
+      id: "faq17",
+      question: "17. What communication channels do you use?",
+      answer: `<p>We communicate via email, Slack, Skype, Hangouts, or any platform of your choice. We also encourage video calls for better collaboration.</p>`,
+    },
+    {
+      id: "faq18",
+      question: "18. Do you sign NDAs?",
+      answer: `<p>Yes, we sign NDAs to protect your business and ensure complete confidentiality.</p>`,
+    },
+    {
+      id: "faq19",
+      question: "19. Do you provide local time-zone support?",
+      answer: `<p>Yes! We offer time-zone support for different regions. Additional charges may apply for dedicated teams working in specific time zones.</p>`,
+    },
+    {
+      id: "faq19",
+      question: "20. How do I get started?",
+      answer: `<p> 
+Getting started is simple! Contact us, and we’ll discuss your requirements, pricing, and onboarding process to ensure a smooth collaboration. </p>`,
     },
   ];
 
@@ -235,10 +127,11 @@ const Faq = () => {
   const [open2, setOpen2] = useState(null);
 
   return (
-   
     <section className="">
       <div className="containerFull ">
-        <h4 className="heading  mb-4 fontWeight600 text-center">Frequently Asked Questions</h4>
+        <h4 className="heading  mb-4 fontWeight600 text-center">
+          Frequently Asked Questions
+        </h4>
         {/* faq */}
 
         <div className=" row  ">
@@ -252,7 +145,7 @@ const Faq = () => {
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
-                        }else{
+                        } else {
                           setOpen(null);
                         }
                       }}
@@ -260,7 +153,11 @@ const Faq = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
+                        {open == i ? (
+                          <i className="bi bi-dash-circle"></i>
+                        ) : (
+                          <i className="bi bi-plus-circle"></i>
+                        )}
                       </span>
                     </h4>
 
@@ -270,7 +167,8 @@ const Faq = () => {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="mt-3"
+                        <div
+                          className="mt-3"
                           dangerouslySetInnerHTML={{ __html: item.answer }}
                         ></div>
                       </div>
@@ -291,7 +189,7 @@ const Faq = () => {
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);
-                        }else{
+                        } else {
                           setOpen2(null);
                         }
                       }}
@@ -299,7 +197,11 @@ const Faq = () => {
                       {item.question}{" "}
                       <span>
                         {" "}
-                        {open2 == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
+                        {open2 == i ? (
+                          <i className="bi bi-dash-circle"></i>
+                        ) : (
+                          <i className="bi bi-plus-circle"></i>
+                        )}
                       </span>
                     </h4>
 
@@ -309,7 +211,8 @@ const Faq = () => {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="m-3"
+                        <div
+                          className="m-3"
                           dangerouslySetInnerHTML={{ __html: item.answer }}
                         ></div>
                       </div>

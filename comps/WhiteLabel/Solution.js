@@ -5,45 +5,45 @@ const Solution = () => {
 
   const whiteLabelServices = [
     {
-      title: "White Label SEO Services",
+      title: "White Label <br/> SEO Services",
       description:
         "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
-      img: "/assets/images/solution2.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg", 
       
     },
     {
-      title: "White Label PPC Management",
+      title: "White Label <br/> PPC Management",
       description:
         "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
-      img: "/assets/images/solution.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg", 
       
     },
     {
-      title: "White Label SMO Marketing ",
+      title: "White Label <br/> SMO Marketing ",
       description:
         "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
-      img: "/assets/images/solution2.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg", 
       
     },
     {
-      title: "White Label Facebook ads",
+      title: "White Label <br/> Facebook ads",
       description:
         "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
-      img: "/assets/images/solution.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg", 
      
     },
     {
       title: `White Label <br/> Google ads`,
       description:
         "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
-      img: "/assets/images/solution2.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-Label-Google-ads.jpg", 
      
     },
     {
-      title: " White label link building",
+      title: " White label <br/> link building",
       description:
         "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
-      img: "/assets/images/solution.webp", // Replace with actual image URL
+      img: "/assets/images/white-lable/White-label-link-building.jpg", 
      
     },
   ];

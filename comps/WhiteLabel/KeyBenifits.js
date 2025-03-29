@@ -8,35 +8,36 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 
 const KeyBenifits = () => {
-  const power_data = [
+  const power_data  = [
     {
-      title: "Marketing Agencies",
-      description: "Expand your service offerings without additional overhead.",
+      category: "Marketing Agencies",
+      description: "Struggling to meet increasing client demands? Expand your service portfolio with expert-backed SEO, PPC, and social media solutions—without hiring additional staff. Scale your agency with seamless white-label execution and let us do the heavy lifting."
     },
     {
-      title: "Web Design & Development Agencies",
-      description: "Provide SEO & PPC services alongside website development.",
+      category: "Web Design & Development Agencies",
+      description: "Web design is just the beginning. Offer end-to-end digital solutions by adding SEO, PPC, and content marketing to your services. We work in the background while your brand takes the credit, helping you boost customer retention and increase revenue."
     },
     {
-      title: "Consultants & Freelancers",
-      description: "Offer full-fledged marketing solutions to your clients.",
+      category: "Consultants & Freelancers",
+      description: "Want to offer comprehensive digital marketing solutions but lack the time or resources? Our white-label services allow you to deliver expert-level SEO, PPC, and social media marketing under your own brand—without the need to build an in-house team."
     },
     {
-      title: "Enterprises & Businesses",
-      description: "Outsource digital marketing to focus on core operations.",
-    },
+      category: "Enterprises & Businesses",
+      description: "Focus on your core operations while we manage your digital marketing. Whether you're looking for lead generation, brand awareness, or online growth, our white-label solutions ensure expert strategy, execution, and optimization tailored to your business needs."
+    }
   ];
+ 
   return (
-    <section className="bgGrey ">
+    <section className="bg-black ">
       <div className="containerFull">
         <div className="row ">
           <div className="col-lg-4">
-            <h5 className="fontWeight600">Who Benefits from</h5>
+            <h5 className="fontWeight600 text-white">Who Can Leverage Our</h5>
 
             <h4 className="large_heading2 fontWeight300  text_red mt-4">
-              <span className="fontWeight600">White Label Services? </span>
+              <span className="fontWeight600"> White Label Services? </span>
             </h4>
-            <p className="mt-3 title">
+            <p className="mt-3 title text-white">
               Expand Your Agency’s Offerings Without Hiring an In-House Team.
               Outsource to India with our Premium White Label SEO, PPC & Social
               Media Services
@@ -51,15 +52,18 @@ const KeyBenifits = () => {
           <div className="col-lg-8 ps-5">
             {/* <h4 className=" heading fontWeight600">Who Can Digital Marketing?</h4> */}
 
-            <p>
-              Our white-label solutions are perfect for agencies, consultants,
-              and businesses looking to scale effortlessly. Whether you want to
-              expand your offerings, save costs, or focus on core operations,
-              we’ve got you covered!
+            <p className="text-white">
+              Looking to scale your business while reducing overhead costs? Our
+              White Label SEO, PPC, and Social Media services help agencies,
+              consultants, and businesses grow effortlessly. You get access to a
+              skilled team working under your brand—so you can focus on business
+              expansion, client relationships, and revenue generation.
+
+              {/* With our white-label services, you can scale faster, serve more clients, and maximize profits—without the hassle of recruitment, training, or execution!  */}
             </p>
             <div className=" mt-4 position-relative">
-              <button class="power_prev">
-                <i class="fa-solid fa-arrow-left-long"></i>
+              <button class="power_prev ">
+                <i class="fa-solid fa-arrow-left-long text-white"></i>
               </button>
               <Swiper
                 spaceBetween={15}
@@ -81,16 +85,16 @@ const KeyBenifits = () => {
                   return (
                     <SwiperSlide>
                       <div className="item_sib_power ">
-                        <div className="icon mb-lg-3">
+                        {/* <div className="icon mb-lg-3">
                           <Image
                             width={60}
                             height={60}
                             src={`/assets/images/light-bulb.webp`}
                             alt=""
                           />
-                        </div>
-                        <h5 className=" small_heading fontWeight600 mt-4">
-                          {value.title}
+                        </div> */}
+                        <h5 className=" fontWeight600">
+                          {value.category}
                         </h5>
                         <p className="mt-3">{value.description}</p>
                       </div>
@@ -99,7 +103,7 @@ const KeyBenifits = () => {
                 })}
               </Swiper>
               <button class="power_next">
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i class="fa-solid fa-arrow-right-long  text-white"></i>
               </button>
             </div>
           </div>

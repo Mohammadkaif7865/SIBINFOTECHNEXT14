@@ -14,6 +14,10 @@ import BrandBuild from "@/comps/WhiteLabel/BrandBuild";
 import Testimonials from "@/comps/Home/Testimonials";
 import Faq from "@/comps/WhiteLabel/Faq";
 import Cta2 from "@/comps/WhiteLabel/Cta2";
+import CaseStudy from "@/comps/WhiteLabel/CaseStudy";
+import DeliverGrowth from "@/comps/WhiteLabel/DeliverGrowth";
+import Industries from "@/comps/WhiteLabel/Industries";
+
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
@@ -151,12 +155,15 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <About2 />
 
       <Solution />
-      <Cta2 />
       <WhyChoose />
+      <Cta2 />
       <Partnership />
       <KeyBenifits />
       <BrandBuild />
       <Cta />
+      <CaseStudy />
+      <DeliverGrowth />
+      <Industries/>
       <div className="bg_light_gray">
         <Testimonials />
       </div>

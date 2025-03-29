@@ -51,21 +51,23 @@ const WhyChoose = () => {
           <div className="col-lg-4 mb-3  position-relative">
             <div className="why_left_item">
               <h4 className=" fontWeight300 text_red">
-                <span className="fontWeight600">We Power </span>
+                <span className="fontWeight600">Less stress,</span>
               </h4>
-              <h5 className=" mt-3 large_heading2  fontWeight600">
-                Your Success<span className="text_red">.</span>
+              <h5 className=" mt-3 heading  fontWeight600">
+                More Success!<span className="text_red"></span>
               </h5>
               <div className="why_left_card mt-4 text-center">
                 <h4 className=" text-white fontWeight600 ">
-                We treat your clients like our own – Guaranteed! 
+                  We treat your clients like our own – Guaranteed!
                 </h4>
                 <p className="mt-3 text-white">
-                Our white-label digital marketing solutions ensure expert execution, seamless delivery, and top-notch results—all under your brand name. You focus on growth while we handle the rest!
+                  Our white-label digital marketing solutions ensure expert
+                  execution, seamless delivery, and top-notch results—all under
+                  your brand name. You focus on growth while we handle the rest!
                 </p>
 
                 <button className="p-2 mt-4 w-100 btnPrimary text-white">
-                  Get a Free Analysis
+                  Book a Free Discovery Call
                 </button>
               </div>
             </div>
