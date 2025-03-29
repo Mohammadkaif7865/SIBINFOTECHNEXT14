@@ -3,9 +3,9 @@ import React from "react";
 
 const Map = () => {
   return (
-    <section>
-      <h4 className="mb-4 text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_red">
-        Across The Globe Presence
+    <section className="trusted">
+      <h4 className="mb-4 text-center large_heading2 fontHeading2 fontWeight300 text-white">
+        Across The <span className="fontWeight600">Globe Presence</span>
       </h4>
       <Image
         className="w-100 object-fit-contain"

@@ -65,7 +65,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 250</h5>
+                    <h5>Starts from: </h5> <h5 className="text_red">$ 250</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -104,7 +104,8 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 300/Month.</h5>
+                    <h5>Starts from: </h5>{" "}
+                    <h5 className="text_red">$ 300/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -143,7 +144,8 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 225/Month</h5>
+                    <h5>Starts from: </h5>{" "}
+                    <h5 className="text_red">$ 225/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -182,7 +184,8 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 250/Month</h5>
+                    <h5>Starts from: </h5>{" "}
+                    <h5 className="text_red">$ 250/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -219,7 +222,8 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 175 /Month</h5>
+                    <h5>Starts from: </h5>{" "}
+                    <h5 className="text_red">$ 175 /Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">
@@ -259,7 +263,8 @@ const Pricing = () => {
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">
-                    <h5>Starts from: </h5> <h5>$ 175/Month</h5>
+                    <h5>Starts from: </h5>{" "}
+                    <h5 className="text_red">$ 175/Month</h5>
                   </div>
                   <hr />
                   <div className="d-flex justify-content-center">

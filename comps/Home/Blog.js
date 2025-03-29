@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import * as CONSTANTS from "../../constants/constants";
 import axios from "axios";
@@ -29,10 +28,10 @@ const Blog = () => {
   // console.log(blogs);
 
   return (
-    <section>
+    <section className="bgGrey">
       <div className="containerFull">
-        <h4 className="heading text-center mb-3 fontHeading fontWeight700">
-          From Our Blogs
+        <h4 className="large_heading2 text-center mb-3 fontWeight300 text_red">
+          From <span className="fontWeight600">Our Blogs</span>
         </h4>
         <div className="row mt-lg-5">
           {blogs?.map((blog, index) => {

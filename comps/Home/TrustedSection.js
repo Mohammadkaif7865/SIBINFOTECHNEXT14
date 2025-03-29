@@ -61,15 +61,27 @@ const TrustedSection = () => {
           <div className="col-lg-5">
             <div className="rightAward">
               <p className="fontWeight300">
-                We are a young creative digital marketing agency & web
-                development company for any business - anywhere to promote their
-                business online and engage users with brands and convert them to
-                customers and experience an overall improvement in client base.
+                We are a young creative{" "}
+                <strong className="fontWeight600">
+                  digital marketing agency
+                </strong>{" "}
+                &{" "}
+                <strong className="fontWeight600">
+                  web development company
+                </strong>{" "}
+                for any business - anywhere to promote their business online and
+                engage users with brands and convert them to customers and
+                experience an{" "}
+                <strong className="fontWeight600">overall improvement</strong>{" "}
+                in client base.
               </p>
               <p className="mt-2 fontWeight300">
                 We understand that no two businesses can be the same and so is
-                there website usage and therefore they will need a different
-                digital marketing solution. We do Your business in your way.
+                there website usage and therefore they will need a different{" "}
+                <strong className="fontWeight600">
+                  digital marketing solution
+                </strong>
+                . We do Your business in your way.
               </p>
             </div>
           </div>

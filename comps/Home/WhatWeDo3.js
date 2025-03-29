@@ -57,7 +57,7 @@ export default function WhatWeDo3() {
         <div className="row mt-lg-5">
           <div className="col-lg-6">
             <div className="leftWhatMenu">
-              <ul>
+              <ul className="mt-0">
                 {contentData.map((item, index) => (
                   <li
                     key={index}

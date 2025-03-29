@@ -738,7 +738,7 @@ section {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  border: 1px solid var(--light-blue-color) !important;
+  border: 1px solid #000 !important;
   z-index: 2 !important;
 }
 
@@ -783,6 +783,7 @@ section {
   vertical-align: -0.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #000 !important;
 }
 
 .slick-arrow:hover:before {
@@ -801,6 +802,7 @@ section {
   vertical-align: -0.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #000 !important;
 }
 
 .slick-next {
@@ -810,10 +812,12 @@ section {
 .slick-next,
 .slick-prev {
   top: 40% !important;
+  color: #000 !important;
 }
 
 .slick-arrow:hover {
-  background: var(--light-blue-color) !important;
+  background: var(--red-color) !important;
+  border-color: transparent !important;
 }
 
 .slick-arrow:hover i {
@@ -1790,7 +1794,7 @@ section {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: #292b2b;
+  background: rgb(0 0 0 / 88%);
   transition: all 0.3s linear;
   z-index: -1;
 }
@@ -8048,6 +8052,7 @@ table tbody tr td:nth-child(2) {
 
 .blogTitle {
   padding: 15px 15px;
+  background:#fff;
 }
 
 .blogTitle h4 {
@@ -11076,18 +11081,20 @@ font-size: 20px;
 }
 .pricing_item .content {
   width: 100%;
+  min-height: 55px;
 }
 .pricing_item .content ul {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   row-gap: 10px;
-  column-gap: 20px;
 }
 .pricing_item .content ul li {
+  width: calc(100% / 2);
   font-weight: 500;
   position: relative;
-  padding-left: 20px;
+  padding-left: 15px;
+  font-size: 15px;
 }
 .pricing_item .content ul li::after {
   position: absolute;
@@ -11096,7 +11103,7 @@ font-size: 20px;
   width: 5px;
   height: 5px;
   background-color: #000;
-  left: 9px;
+  left: 5px;
   transform: translateY(-50%);
   border-radius: 100%;
 }
@@ -11113,6 +11120,9 @@ font-size: 20px;
   background-color: #000;
   color: #fff;
   /* text-transform: uppercase; */
+  padding:8px 25px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 .enquire_pricing_btn:hover {
   background-color: #fff;
@@ -11388,7 +11398,7 @@ font-size: 20px;
   text-align: center;
   color: #fff;
   z-index: 111;
-
+  font-size: 26px;
   position: relative;
 }
 
@@ -11588,7 +11598,10 @@ text-align: center;
   margin-top: 30px;
   counter-reset: item;
 }
- .leftWhatMenu ul li{
+.leftWhatMenu ul li:first-child{
+  margin-top: 0;
+}
+.leftWhatMenu ul li{
   margin: 25px 0;
   padding:25px;
   border-radius: 10px;
@@ -11750,4 +11763,12 @@ text-align: center;
 }
 .btnCase:hover{
   background: var(--red-color);
+}
+.customFaq p{
+  margin-top: 10px;
+  color:#444;
+}
+.customFaq ol{
+  margin-top: 10px;
+  color:#444;
 }
