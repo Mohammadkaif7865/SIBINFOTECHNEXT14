@@ -9,7 +9,7 @@ const Cta = () => {
         <div class="cta_solution">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <h4 className="fontHeading text-white large_heading2 fontWeight600 z-3 position-relative">
+              <h4 className=" text-white large_heading2 fontWeight600 z-3 position-relative">
                 SAVE 2X Cost
               </h4>
 

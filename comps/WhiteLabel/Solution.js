@@ -7,80 +7,44 @@ const Solution = () => {
     {
       title: "White Label SEO Services",
       description:
-        "Boost your clients' search rankings with technical, on-page, and off-page SEO.  with technical, on-page, and ",
+        "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
       img: "/assets/images/solution2.webp", // Replace with actual image URL
-      keypoints: [
-        "Keyword Research & Strategy",
-        "On-Page & Technical SEO Optimization",
-        "High-Quality Link Building",
-        "Local SEO for Business Growth",
-        "SEO Audits & Reporting",
-      ],
+      
     },
     {
       title: "White Label PPC Management",
       description:
-        "Get high-performing pay-per-click (PPC) campaigns managed by experts.",
+        "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
       img: "/assets/images/solution.webp", // Replace with actual image URL
-      keypoints: [
-        "Google Ads & Bing Ads Management",
-        "Facebook & Instagram Paid Advertising",
-        "Conversion Tracking & Landing Page Optimization",
-        "A/B Testing for Maximum ROI",
-        "Performance Reporting & Insights",
-      ],
+      
     },
     {
       title: "White Label SMO Marketing ",
       description:
-        "Enhance brand engagement and visibility with customized social media strategies.",
+        "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
       img: "/assets/images/solution2.webp", // Replace with actual image URL
-      keypoints: [
-        "Social Media Account Setup & Optimization",
-        "Content Creation & Scheduling",
-        "Paid Social Advertising",
-        "Influencer & Community Management",
-        "Social Media Analytics & Reporting",
-      ],
+      
     },
     {
       title: "White Label Facebook ads",
       description:
-        "Enhance brand engagement and visibility with customized social media strategies.",
+        "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
       img: "/assets/images/solution.webp", // Replace with actual image URL
-      keypoints: [
-        "Social Media Account Setup & Optimization",
-        "Content Creation & Scheduling",
-        "Paid Social Advertising",
-        "Influencer & Community Management",
-        "Social Media Analytics & Reporting",
-      ],
+     
     },
     {
       title: `White Label <br/> Google ads`,
       description:
-        "Enhance brand engagement and visibility with customized social media strategies.",
+        "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
       img: "/assets/images/solution2.webp", // Replace with actual image URL
-      keypoints: [
-        "Social Media Account Setup & Optimization",
-        "Content Creation & Scheduling",
-        "Paid Social Advertising",
-        "Influencer & Community Management",
-        "Social Media Analytics & Reporting",
-      ],
+     
     },
     {
       title: " White label link building",
       description:
-        "Enhance brand engagement and visibility with customized social media strategies.",
+        "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
       img: "/assets/images/solution.webp", // Replace with actual image URL
-      keypoints: [
-        "Social Media Account Setup & Optimization",
-        "Content Creation & Scheduling",
-        "Paid Social Advertising",
-        "Influencer & Community Management",
-        "Social Media Analytics & Reporting",
-      ],
+     
     },
   ];
 
@@ -92,18 +56,20 @@ const Solution = () => {
     <section className="bg-black position-relative">
       <div className="containerFull">
         <div className="row text-white align-items-center">
-          <div className="col-lg-9 ">
-            <h4 className="fontHeading large_heading2 fontWeight600">
-              Our White Label <br /> Digital Marketing Services
+          <div className="col-lg-10 ">
+            <h4 className=" large_heading fontWeight300">
+             <span className="fontWeight large_heading2 fontWeight600">Services We Offer As a</span> 
+              <br />
+              White Label Digital Marketing Agency
             </h4>
             <p className="mt-4">
               Powering Growth for Agencies, Resellers & Global Businesses with
               White-Label Expertise
             </p>
           </div>
-          <div className="col-lg-3  ">
+          <div className="col-lg-2  ">
             <div className="d-flex justify-content-end">
-              <a className="btnThemeRed px-5 fw-bold" href="#">
+              <a className="btnThemeRed  fw-bold" href="/contact">
                 Know More
               </a>
             </div>
@@ -139,11 +105,11 @@ const Solution = () => {
                   }}
                 >
                   <div className="service__number">
-                    <span className="fontHeading">0 {index + 1}</span>
+                    <span className="">0 {index + 1}</span>
                   </div>
                   <div className="service__title-wrapper">
                     <h3
-                      className="service__title fontHeading"
+                      className="service__title "
                       dangerouslySetInnerHTML={{ __html: value.title }}
                     ></h3>
                   </div>

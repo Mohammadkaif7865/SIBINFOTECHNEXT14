@@ -29,27 +29,33 @@ const KeyBenifits = () => {
   return (
     <section className="bgGrey ">
       <div className="containerFull">
-        <div className="row align-items-center">
+        <div className="row ">
           <div className="col-lg-4">
-            <h4 className="large_heading2 fontWeight300 fontHeading text_red">
-              Benefit from
-              <br /> <span className="fontWeight600"> White Label</span>
+            <h5 className="fontWeight600">Who Benefits from</h5>
+
+            <h4 className="large_heading2 fontWeight300  text_red mt-4">
+              <span className="fontWeight600">White Label Services? </span>
             </h4>
             <p className="mt-3 title">
-              When Trust, Transparency And Accountability Truly Matter To You,
-              We Are Your Partner. When Trust, Transparency And Accountability
-              Truly Matter To You, We Are Your Partner.
+              Expand Your Agency’s Offerings Without Hiring an In-House Team.
+              Outsource to India with our Premium White Label SEO, PPC & Social
+              Media Services
             </p>
+
+            <div className="mt-5">
+              <a className="btnThemeRed px-5 fw-bold" href="#">
+                Know More
+              </a>
+            </div>
           </div>
           <div className="col-lg-8 ps-5">
-            {/* <h4 className="fontHeading heading fontWeight600">Who Can Digital Marketing?</h4> */}
+            {/* <h4 className=" heading fontWeight600">Who Can Digital Marketing?</h4> */}
 
             <p>
-              When{" "}
-              <strong>growth, innovation, and measurable results matter</strong>
-              , we are the digital partner you can trust. At SIB Infotech, we go
-              beyond marketing—we <strong>build strategies</strong> that drive
-              success.
+              Our white-label solutions are perfect for agencies, consultants,
+              and businesses looking to scale effortlessly. Whether you want to
+              expand your offerings, save costs, or focus on core operations,
+              we’ve got you covered!
             </p>
             <div className=" mt-4 position-relative">
               <button class="power_prev">
@@ -83,7 +89,7 @@ const KeyBenifits = () => {
                             alt=""
                           />
                         </div>
-                        <h5 className="fontHeading small_heading fontWeight600 mt-4">
+                        <h5 className=" small_heading fontWeight600 mt-4">
                           {value.title}
                         </h5>
                         <p className="mt-3">{value.description}</p>

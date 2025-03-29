@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { TbCirclePlus, TbCircleMinus } from "react-icons/tb";
 
-const Faqs = () => {
+const Faq = () => {
   const faqsData = [
     {
       id: "faq1",
@@ -236,9 +236,9 @@ const Faqs = () => {
 
   return (
    
-    <section>
+    <section className="">
       <div className="containerFull ">
-        <h4 className="heading fontHeading mb-4 fontWeight600">Frequently Asked <span className="text_red"> Search Engine Optimization</span> Questions</h4>
+        <h4 className="heading fontHeading mb-4 fontWeight600 text-center">Frequently Asked Questions</h4>
         {/* faq */}
 
         <div className=" row  ">
@@ -325,4 +325,4 @@ const Faqs = () => {
   );
 };
 
-export default Faqs;
+export default Faq;

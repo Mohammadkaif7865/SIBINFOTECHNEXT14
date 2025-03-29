@@ -4,41 +4,46 @@ import Accordion from "react-bootstrap/Accordion";
 
 const BrandBuild = () => {
   const [activeKey, setActiveKey] = useState("0");
-  const faqData  = [
+  const faqData = [
     {
       question: "Expand Your Service Offerings",
-      answer: "Offer SEO, PPC, Social Media, and more without an in-house team."
+      answer:
+        "Offer SEO, PPC, Social Media, and more without an in-house team.",
     },
     {
       question: "Save Time & Resources",
-      answer: "Focus on scaling your business while we handle execution."
+      answer: "Focus on scaling your business while we handle execution.",
     },
     {
       question: "Deliver More, Earn More",
-      answer: "Increase your revenue potential without increasing operational costs."
+      answer:
+        "Increase your revenue potential without increasing operational costs.",
     },
     {
       question: "Maintain Full Control",
-      answer: "Your clients see only your brand, while we do the heavy lifting."
+      answer:
+        "Your clients see only your brand, while we do the heavy lifting.",
     },
     {
       question: "Access Industry Experts",
-      answer: "Gain access to a highly skilled team without recruitment hassles."
+      answer:
+        "Gain access to a highly skilled team without recruitment hassles.",
     },
     {
       question: "Achieve Faster Growth",
-      answer: "Scale quickly with ready-to-go marketing solutions tailored to your agency's needs."
-    }
+      answer:
+        "Scale quickly with ready-to-go marketing solutions tailored to your agency's needs.",
+    },
   ];
-  
 
   return (
     <section>
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 className="large_heading2 fontWeight600  fontHeading2 text_red">
-              Reasons Why Choose Us
+            <h5>The Reasons</h5>
+            <h4 className="large_heading2 fontWeight600   text_red mt-3 fontWeight600">
+              Why Choose Us
             </h4>
           </div>
           <div className="col-lg-6  ps-3">

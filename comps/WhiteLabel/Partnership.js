@@ -28,17 +28,14 @@ const Partnership = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 className="fontHeading large_heading2 fontWeight600">
+            <h4 className=" large_heading2 fontWeight600">
               How Our <span className="text_red"> White Label Partnership</span>{" "}
               Works
             </h4>
           </div>
           <div className="col-lg-6 ps-lg-5">
             <p>
-              We’ve delivered over 2500 projects – we know what it takes to
-              execute a seamless and optimized web-based software development
-              process. execute a seamless and optimized web-based software
-              development process.
+            We seamlessly integrate with your agency to deliver expert digital marketing services under your brand. From strategy to execution, we handle the heavy lifting while you focus on client relationships. With branded reports and continuous support, scaling your agency has never been easier! 
             </p>
           </div>
         </div>
@@ -58,7 +55,7 @@ const Partnership = () => {
                   <div className="row mt-5 align-items-end">
                     <div className={`d-flex gap-3 ${active == index ? "" : ""} `}>
                       <h5
-                        className="fontHeading fontWeight700 "
+                        className=" fontWeight700 "
                         dangerouslySetInnerHTML={{ __html: value.title }}
                       ></h5>
                       <div className={` peraBox ${active == index ? "" : " "} overflow-hidden`}>

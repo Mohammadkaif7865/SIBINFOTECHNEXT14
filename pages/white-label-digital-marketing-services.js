@@ -11,6 +11,9 @@ import WhyChoose from "@/comps/WhiteLabel/WhyChoose";
 import Partnership from "@/comps/WhiteLabel/Partnership";
 import KeyBenifits from "@/comps/WhiteLabel/KeyBenifits";
 import BrandBuild from "@/comps/WhiteLabel/BrandBuild";
+import Testimonials from "@/comps/Home/Testimonials";
+import Faq from "@/comps/WhiteLabel/Faq";
+import Cta2 from "@/comps/WhiteLabel/Cta2";
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
@@ -73,14 +76,14 @@ export default function TwoDAnimationServicesMumbaiIndia() {
   );
   return (
     <CustomLayout meta={metaTags}>
-      <div className="innerWebDesign">
+      <div className="innerWebDesign whiteLable">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
-                <h1 className="mt-3 heading fontWeight700 text-white fontHeading">
+                <h1 className="mt-3 heading fontWeight600 text-white ">
                   Your Trusted White Label Marketing Agency in India <br />{" "}
                   <span className="text_red">Grow Faster, Scale Smarter!</span>
                 </h1>
@@ -146,13 +149,18 @@ export default function TwoDAnimationServicesMumbaiIndia() {
         <Breadcrumb Pagetitle={"White Label Digital Marketing Services"} />
       </div>
       <About2 />
-      
+
       <Solution />
-      <Cta/>
-      <WhyChoose/>
-      <Partnership/>
-      <KeyBenifits/>
-      <BrandBuild/>
+      <Cta2 />
+      <WhyChoose />
+      <Partnership />
+      <KeyBenifits />
+      <BrandBuild />
+      <Cta />
+      <div className="bg_light_gray">
+        <Testimonials />
+      </div>
+      <Faq />
     </CustomLayout>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import SliderTestimonials from "../SliderTestimonials";
 
+
 const Testimonials = () => {
   return (
     <section className="bgTestimonial">

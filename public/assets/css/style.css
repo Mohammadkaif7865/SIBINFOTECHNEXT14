@@ -10423,7 +10423,6 @@ font-size: 20px;
   right: -50px;
 }
 
-
 /* brand build */
 .brand_build_main {
   background-color: #f6f6f6;
@@ -10463,3 +10462,37 @@ font-size: 20px;
   font-size: 50px;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.innerWebDesign.whiteLable {
+  background-image: url(/assets/images/banner-white-lable.jpg);
+  background-position: center;
+}
+.innerWebDesign.whiteLable h1 span {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+.cta2.whiteLable {
+  position: relative;
+  z-index: 3;
+  background-image: url("/assets/images/bg/computerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.cta2.whiteLable::after {
+  content: "";
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #e53036e6;
+  outline: 1px solid #fff;
+  outline-offset: -20px;
+}
