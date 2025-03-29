@@ -17,7 +17,8 @@ import Cta2 from "@/comps/WhiteLabel/Cta2";
 import CaseStudy from "@/comps/WhiteLabel/CaseStudy";
 import DeliverGrowth from "@/comps/WhiteLabel/DeliverGrowth";
 import Industries from "@/comps/WhiteLabel/Industries";
-
+import Tools from "@/comps/WhiteLabel/Tools";
+import Featured from "@/comps/WhiteLabel/Featured";
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
@@ -163,7 +164,9 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <Cta />
       <CaseStudy />
       <DeliverGrowth />
-      <Industries/>
+      <Industries />
+      <Tools />
+      <Featured />
       <div className="bg_light_gray">
         <Testimonials />
       </div>
