@@ -57,7 +57,7 @@ const Solution = () => {
       <div className="containerFull">
         <div className="row text-white align-items-center">
           <div className="col-lg-10 ">
-            <h4 className=" large_heading fontWeight300">
+            <h4 className=" large_heading fontWeight400">
              <span className="fontWeight large_heading2 fontWeight600">Services We Offer As a</span> 
               <br />
               White Label Digital Marketing Agency

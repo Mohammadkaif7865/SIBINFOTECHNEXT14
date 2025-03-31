@@ -53,7 +53,7 @@ const WhyChoose = () => {
               <h4 className=" fontWeight300 large_heading2 text_red">
                 <span className="fontWeight600">Less stress,</span>
               </h4>
-              <h5 className=" mt-2  heading fontWeight600">
+              <h5 className=" mt-2  heading fontWeight500">
                 More Success!<span className="text_red"></span>
               </h5>
               <div className="why_left_card mt-4 text-center">
