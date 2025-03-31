@@ -3,7 +3,7 @@ import React from "react";
 const Cta2 = () => {
   return (
     <section className="cta2 whiteLable">
-      <div className="containerFull py-5">
+      <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-8">
             <h4 className="large_heading2 position-relative z-3 fontWeight600 text-white ">
@@ -13,11 +13,27 @@ const Cta2 = () => {
               Helping you deliver top-notch service and manage your clients
               better!
             </p>
+
+            <p className="mt-4 text-white position-relative z-3 small_heading fontWeight600">
+              Your Brand Name, Our Services
+            </p>
+
+            <div className="position-relative z-3 mt-5">
+              <a
+                href="#contact"
+                className="p-2 px-4 w-100 btnPrimary text-white"
+              >
+                Schedule a Free Consultation
+              </a>
+            </div>
           </div>
           <div className="col-lg-4">
-            <div className="content w-100 z-3 position-relative">
-              <p>Your Brand Name</p>
-              <p className="mt-2"> Our Services</p>
+            <div className="content d-flex w-100 z-3 position-relative">
+              <img className="" src="/assets/images/success-arrow.svg" alt="" />
+              {/* <div>
+                <p>Your Brand Name</p>
+                <p className="mt-2"> Our Services</p>
+              </div> */}
             </div>
           </div>
         </div>
