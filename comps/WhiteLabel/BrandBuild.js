@@ -7,53 +7,56 @@ const BrandBuild = () => {
   const faqData = [
     {
       question: "Expand Your Service Offerings",
-      answer:
-        "Offer SEO, PPC, Social Media, and more without an in-house team.",
+      answer: "Offer a full suite of digital marketing services, including SEO, PPC, social media management, content marketing, and web design, without the need to hire an in-house team. This allows you to cater to a broader client base and remain competitive in the industry."
     },
     {
       question: "Save Time & Resources",
-      answer: "Focus on scaling your business while we handle execution.",
+      answer: "Instead of spending time managing multiple marketing campaigns, you can focus on business growth and client relationships while our expert team handles all the execution, ensuring timely and effective results."
     },
     {
       question: "Deliver More, Earn More",
-      answer:
-        "Increase your revenue potential without increasing operational costs.",
+      answer: "With white-label services, you can take on more clients and offer additional services without increasing operational costs, allowing you to scale profitably while maintaining high-quality service delivery."
     },
     {
       question: "Maintain Full Control",
-      answer:
-        "Your clients see only your brand, while we do the heavy lifting.",
+      answer: "Your brand remains at the forefront while we operate discreetly in the background. From strategy to execution, everything is done under your agency’s name, ensuring a seamless experience for your clients."
     },
     {
       question: "Access Industry Experts",
-      answer:
-        "Gain access to a highly skilled team without recruitment hassles.",
+      answer: "Gain instant access to a highly skilled team of digital marketing professionals without the hassle of recruitment, training, or overhead costs. Our specialists bring years of experience in various marketing disciplines, ensuring top-notch execution."
     },
     {
       question: "Achieve Faster Growth",
-      answer:
-        "Scale quickly with ready-to-go marketing solutions tailored to your agency's needs.",
-    },
+      answer: "Scale your agency faster with ready-to-go, results-driven marketing solutions. With a dedicated team working for you, you can expand your client base, enhance your service offerings, and drive long-term business success."
+    }
   ];
+  
+  
+  
 
   return (
     <section>
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h5 className="fontWeight600">The Reasons</h5>
             <h4 className="large_heading2 fontWeight600   text_red mt-3 fontWeight600">
-              Why Choose Us
+              Why Use
             </h4>
+            <h5 className="fontWeight600 mt-3 sub_heading">
+              A White Label Digital Marketing Agency in India
+            </h5>
           </div>
           <div className="col-lg-6  ps-3">
             <p className="title">
-              Success in the digital world isn’t just about being seen—it’s
-              about making an impact. We blend{" "}
-              <strong>strategy, creativity,</strong> and{" "}
-              <strong>data-driven insights</strong> to craft campaigns that
-              captivate audiences and drive
-              <strong>real business growth.</strong>
+              Growing your agency doesn’t have to mean hiring more staff or
+              taking on additional overhead. With our white-label digital
+              marketing services, you can expand your offerings, increase
+              revenue, and scale effortlessly—without the complexities of
+              in-house hiring.
+              
+               {/* We work behind the scenes while your brand takes
+              the spotlight, ensuring seamless execution and exceptional results
+              for your clients. */}
             </p>
           </div>
         </div>

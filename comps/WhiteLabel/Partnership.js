@@ -31,8 +31,11 @@ const Partnership = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <h4 className=" large_heading2 fontWeight600">
-              How Our <span className="text_red"> White Label Partnership</span>{" "}
-              Works
+              <span> Our Approach To </span>
+              <br />
+              <span className="text_red sub_heading">
+                White Label Digital Marketing
+              </span>{" "}
             </h4>
           </div>
           <div className="col-lg-6 ps-lg-5">
@@ -43,6 +46,7 @@ const Partnership = () => {
               relationships. With branded reports and continuous support,
               scaling your agency has never been easier!
             </p>
+            <p className="mt-2 fontWeight600 small_heading">Seamless, Scalable, and Results-Driven</p>
           </div>
         </div>
 
@@ -100,7 +104,9 @@ const Partnership = () => {
                         dangerouslySetInnerHTML={{ __html: value.title }}
                       ></h5>
 
-                      <p className="mt-3">Know More <i class="fa-solid fa-arrow-right ms-3"></i></p>
+                      <p className="mt-3">
+                        Know More <i class="fa-solid fa-arrow-right ms-3"></i>
+                      </p>
                     </div>
                   </div>
                   <div className="partnership_box_content_2">

@@ -21,8 +21,7 @@ const Faq = () => {
     },
     {
       id: "faq4",
-      question:
-        "4. What services do white-label digital marketing agencies typically offer?",
+      question: "4. What services do white-label agencies offer? ",
       answer: `<p>Our services include SEO, PPC, Social Media Marketing, Content Creation, Email Marketing, and Web Design & Development—all fully rebranded under your agency’s name.</p>`,
     },
     {
@@ -32,15 +31,14 @@ const Faq = () => {
     },
     {
       id: "faq6",
-      question:
-        "6. What are the benefits of working with a white-label digital marketing agency?",
-      answer: `<p>Partnering with us helps you:
-            <ul>
-              <li>Expand your service offerings without hiring an in-house team</li>
-              <li>Save costs while maintaining high-quality service delivery</li>
-              <li>Scale effortlessly with expert execution and seamless branding</li>
-              <li>Focus on client relationships while we handle the technical work</li>
-            </ul>
+      question: "6. Why Outsource Digital Marketing to a White Label Agency? ",
+      answer: `<p>
+
+      Outsourcing your digital marketing to a white-label agency allows you to expand your service offerings without the overhead of hiring an in-house team. You gain access to a team of experts on demand, ensuring high-quality execution while only paying for the services you need. 
+</p>
+     
+<p class="mt-3">
+With our white-label solutions, you can scale effortlessly, serve more clients, and enhance your portfolio—without being limited by staff or resources. While you focus on client relationships and business growth, we handle the technical work with expertise, efficiency, and seamless branding under your name. 
           </p>`,
     },
     {
@@ -50,14 +48,12 @@ const Faq = () => {
     },
     {
       id: "faq8",
-      question:
-        "8. How do I choose the right white-label digital marketing agency for my business?",
+      question: "8. How to choose the right white-label agency? ",
       answer: `<p>Look for experience, service quality, transparency, and proven results. We bring years of expertise, a strong portfolio, and a commitment to your success.</p>`,
     },
     {
       id: "faq9",
-      question:
-        "9. What is the cost of working with a white-label digital marketing agency?",
+      question: "9. What is the cost of white-label marketing? ",
       answer: `<p>Pricing varies based on the services required, project size, and complexity. We offer flexible pricing models, including fixed, hourly, and custom packages.</p>`,
     },
     {
@@ -67,8 +63,7 @@ const Faq = () => {
     },
     {
       id: "faq11",
-      question:
-        "11. How do I ensure the quality of work provided by my white-label partner?",
+      question: "11. How to ensure quality from a white-label partner? ",
       answer: `<p>We provide regular reports, performance analytics, and case studies. Additionally, our proven track record and client testimonials reflect our commitment to delivering exceptional results.</p>`,
     },
     {
@@ -83,19 +78,17 @@ const Faq = () => {
     },
     {
       id: "faq14",
-      question:
-        "14. Why should I choose your agency as my White Label Services Partner?",
+      question: "14. Why choose SIB Infotech as your white-label partner? ",
       answer: `<p>We bring expertise, scalability, and reliability. With years of experience and a dedicated team, we help you grow your agency without additional overhead.</p>`,
     },
     {
       id: "faq15",
-      question: "15. How can your white-label services help my business grow?",
+      question: "15. How do your white-label services boost growth? ",
       answer: `<p>We take care of client project execution so you can focus on scaling your business, building client relationships, and expanding your service offerings.</p>`,
     },
     {
       id: "faq16",
-      question:
-        "16. How is confidentiality maintained after the project is completed?",
+      question: "16. How is confidentiality ensured post-project? ",
       answer: `<p>We follow strict data security protocols, IP-restricted access, and NDAs to ensure complete confidentiality and protection of shared information.</p>`,
     },
     {

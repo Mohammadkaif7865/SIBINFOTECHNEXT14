@@ -29,7 +29,7 @@ const CaseStudy = () => {
           </div>
           <div className="col-lg-5">
             <div className="text-lg-end">
-              <Link href="#" className="btnCase">
+              <Link href="#contact" className="btnCase btnThemeRed fw-bold">
                 Case Studies{" "}
               </Link>
             </div>

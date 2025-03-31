@@ -23,20 +23,20 @@ const Featured = () => {
   return (
     <section className="featured">
       <div className="containerFull">
-        <div className="row align-items-center">
-          <div className="col-lg-7">
-            <h3 className="large_heading2 fontWeight300 text_red">
-              We can <span className="fontWeight600">Get Featured</span> you on{" "}
-              <span className="fontWeight600">Top News Websites</span>
-            </h3>
+        <div className="row align-items-center justify-content-center">
+          <div className="col-lg-8">
+              <h3 className="large_heading2 fontWeight300 text_red text-center">
+                We can <span className="fontWeight600">Get Featured</span> you on{" "}
+                <span className="fontWeight600">Top News Websites</span>
+              </h3>
           </div>
-          <div className="col-lg-5">
+          {/* <div className="col-lg-5">
             <p className="ps-lg-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat
               tortor, cursus pretium odio nec, vestibulum congue lacus. Sed in
               elit vulputate, pellentesque lacus quis, pulvinar ex.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="mt-lg-5 mt-3 row row-cols-2 row-cols-lg-5">
           {newsWebsites.map((website, index) => (

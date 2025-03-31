@@ -20,7 +20,7 @@ const Tools = () => {
       alt: "Semrush Logo",
     },
     {
-      src: "/assets/images/ahrefs.webp",
+      src: "/assets/images/similarweb.webp",
       alt: "ahrefs Logo",
     },
     {
@@ -58,12 +58,9 @@ const Tools = () => {
         <div className="row">
           <div className="col-lg-12">
             <h3 className="heading text-center text-white fontWeight300">
-              Some of the <span className="fontWeight600">Best SEO Tools</span>{" "}
-              for{" "}
-              <span className="fontWeight600">
-                Auditing & Monitoring Effective SEO{" "}
-              </span>
-              used by us.
+            Powerful Best <span className="fontWeight600">White-Label Marketing Tools</span>{" "}
+            used by us
+              
             </h3>
           </div>
         </div>

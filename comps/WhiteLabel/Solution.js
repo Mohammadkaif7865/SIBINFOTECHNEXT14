@@ -26,21 +26,21 @@ const Solution = () => {
       
     },
     {
-      title: "White Label <br/> Facebook ads",
+      title: "White Label <br/> Facebook Ads",
       description:
         "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
       img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg", 
      
     },
     {
-      title: `White Label <br/> Google ads`,
+      title: `White Label <br/> Google Ads`,
       description:
         "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
       img: "/assets/images/white-lable/White-Label-Google-ads.jpg", 
      
     },
     {
-      title: " White label <br/> link building",
+      title: " White label <br/> Link Building",
       description:
         "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
       img: "/assets/images/white-lable/White-label-link-building.jpg", 
@@ -69,7 +69,7 @@ const Solution = () => {
           </div>
           <div className="col-lg-2  ">
             <div className="d-flex justify-content-end">
-              <a className="btnThemeRed  fw-bold" href="/contact">
+              <a className="btnThemeRed  fw-bold" href="#contact">
                 Know More
               </a>
             </div>

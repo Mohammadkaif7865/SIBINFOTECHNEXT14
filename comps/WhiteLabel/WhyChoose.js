@@ -50,10 +50,10 @@ const WhyChoose = () => {
         <div className="row mt-5">
           <div className="col-lg-4 mb-3  position-relative">
             <div className="why_left_item">
-              <h4 className=" fontWeight300 text_red">
+              <h4 className=" fontWeight300 large_heading2 text_red">
                 <span className="fontWeight600">Less stress,</span>
               </h4>
-              <h5 className=" mt-3 heading  fontWeight600">
+              <h5 className=" mt-2  heading fontWeight600">
                 More Success!<span className="text_red"></span>
               </h5>
               <div className="why_left_card mt-4 text-center">
@@ -66,9 +66,14 @@ const WhyChoose = () => {
                   your brand name. You focus on growth while we handle the rest!
                 </p>
 
-                <button className="p-2 mt-4 w-100 btnPrimary text-white">
-                  Book a Free Discovery Call
-                </button>
+                <div className="mt-4 w-100 ">
+                  <a
+                    href="#contact"
+                    className="p-2 d-block w-100 btnPrimary text-white"
+                  >
+                    Book a Free Discovery Call
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -76,8 +81,8 @@ const WhyChoose = () => {
           <div className="col-lg-8">
             <div className="rightWhyBlock">
               <div className="headerRightWhy py-lg=3 bgGrey">
-                <h5 className="fontWeight500 text_red regular_heading ps-4">
-                  Why Choose Our White Label Services?
+                <h5 className="fontWeight600 text_red sub_heading ps-4">
+                Why Outsource our Digital Marketing Services 
                 </h5>
                 <p className="mt-3 ps-4">
                   Your brand, our expertise—seamless execution without the

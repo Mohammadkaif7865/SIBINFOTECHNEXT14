@@ -10416,10 +10416,9 @@ font-size: 20px;
 }
 .item_sib_power h5 {
   font-size: 20px;
-}
-.item_sib_power:hover h5 {
   color: var(--red-color);
 }
+
 .power_prev,
 .power_next {
   position: absolute;

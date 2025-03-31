@@ -81,7 +81,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
   );
   return (
     <CustomLayout meta={metaTags}>
-      <div className="innerWebDesign whiteLable">
+      <div className="innerWebDesign whiteLable"  id="contact">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
