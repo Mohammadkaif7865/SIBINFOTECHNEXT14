@@ -26,54 +26,54 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <title>White Label Digital Marketing Services | SIB Infotech</title>
       <meta
         name="description"
-        content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience."
+        content="White Label Digital Marketing Services"
       />
       <meta
         name="keywords"
-        content="2d animation services india,2d animation services bangalore,2d animation services mumbai,2d animation services delhi,2d animation services ,chennai,2d animation services pune,2d animation services hyderabad,2d animation india,2d animation bangalore,2d animation"
+        content="White Label Digital Marketing Services"
       />
 
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/2d-animation-services-mumbai-india"
+        content="https://www.sibinfotech.com/white-label-digital-marketing-services"
       />
       <meta
         property="og:title"
-        content="2D Animation Services Company Mumbai, India | SIB Infotech"
+        content="White Label Digital Marketing Services | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience."
+        content="White Label Digital Marketing Services"
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.jpg"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://www.sibinfotech.com/2d-animation-services-mumbai-india"
+        content="https://www.sibinfotech.com/white-label-digital-marketing-services"
       />
       <meta
         property="twitter:title"
-        content="2D Animation Services Company Mumbai, India | SIB Infotech"
+        content="White Label Digital Marketing Services | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience."
+        content="White Label Digital Marketing Services"
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.jpg"
       />
       <BreadcrumbSchema
-        url="https://www.sibinfotech.com/2d-animation-services-mumbai-india"
-        breadcrumbTitle="2D Animation Services Company Mumbai, India | SIB Infotech "
+        url="https://www.sibinfotech.com/white-label-digital-marketing-services"
+        breadcrumbTitle="White Label Digital Marketing Services | SIB Infotech "
         PageRatingSchema
         description={
-          "Bring your ideas to life with 2D animation services by SIB Infotech. We create captivating animations for videos, ads, and presentations to engage the audience."
+          "White Label Digital Marketing Services"
         }
         reviewCount={"5155"}
       />
