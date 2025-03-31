@@ -42,7 +42,7 @@ const BrandBuild = () => {
             <h4 className="large_heading2 fontWeight600   text_red mt-3 fontWeight600">
               Why Use
             </h4>
-            <h5 className="fontWeight600 mt-3 sub_heading">
+            <h5 className="fontWeight600 mt-3 small_heading">
               A White Label Digital Marketing Agency in India
             </h5>
           </div>
@@ -54,13 +54,13 @@ const BrandBuild = () => {
               revenue, and scale effortlessly—without the complexities of
               in-house hiring.
               
-               {/* We work behind the scenes while your brand takes
+               We work behind the scenes while your brand takes
               the spotlight, ensuring seamless execution and exceptional results
-              for your clients. */}
+              for your clients.
             </p>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-3">
           <div className="col-lg-6 pe-5">
             <div className="d-flex">
               <Image

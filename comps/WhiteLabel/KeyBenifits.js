@@ -39,7 +39,7 @@ const KeyBenifits = () => {
             <h4 className="large_heading2 fontWeight300  text_red ">
               <span className="fontWeight600"> Who Can use </span>
             </h4>
-            <h5 className="fontWeight600 sub_heading text-white mt-3">
+            <h5 className="fontWeight600 sub_heading text-white ">
               White Label Marketing Services?{" "}
             </h5>
             <p className="mt-3 title text-white">
