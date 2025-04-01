@@ -23,10 +23,10 @@ import Featured from "@/comps/WhiteLabel/Featured";
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>White Label Digital Marketing Services | SIB Infotech</title>
+      <title>White Label Digital Marketing Services in India - Scalable & Affordable Solutions</title>
       <meta
         name="description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         name="keywords"
@@ -40,11 +40,11 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="og:title"
-        content="White Label Digital Marketing Services | SIB Infotech"
+        content="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
       />
       <meta
         property="og:description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         property="og:image"
@@ -58,11 +58,11 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="twitter:title"
-        content="White Label Digital Marketing Services | SIB Infotech"
+        content="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
       />
       <meta
         property="twitter:description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         property="twitter:image"
@@ -70,7 +70,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/white-label-digital-marketing-services"
-        breadcrumbTitle="White Label Digital Marketing Services | SIB Infotech "
+        breadcrumbTitle="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
         PageRatingSchema
         description={
           "White Label Digital Marketing Services"

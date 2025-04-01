@@ -81,19 +81,19 @@ const CaseStudy = () => {
                             alt=""
                           />
                         </div>
-                        <div className="middle-img">
+                        <div className="middle-img mt-3">
                           <img
                             className=""
-                            src="/assets/images/success-story/Crunky-Funky.png"
+                            src="/assets/images/success-story/Crunky-Funky3.png"
                             alt=""
                           />
                         </div>
 
-                        <Link className="d-none d-lg-block" href={"#"}>
+                        <Link className="d-none mt-5  d-lg-inline-block" href={"#"}>
                           Platform
                         </Link>
                       </div>
-                      <div class="col-lg-6 p-lg-2 ps-lg-0 pe-lg-2 item-case-study-right-main">
+                      <div class="col-lg-6 p-lg-2 ps-lg-0 pe-lg-2 item-case-study-right-main mt-3 mt-lg-0">
                         <div className="item-case-study-right p-2 ms-0">
                           <h5 className="fontHeading2 small_heading fontWeight700">
                             Crunky Funky -{" "}
@@ -103,9 +103,9 @@ const CaseStudy = () => {
                             From SEO to Google Ads, we drive growth with
                             data-driven strategies tailored to your business.
                           </p>
-                          <div className="d-md-block d-none">
+                          <div className="d-lg-block d-none">
                               <div className="row  mt-3">
-                            <div className="col-lg-6 ">
+                            <div className="col-6 ">
                               <div className="item_satates ">
                                 <img
                                   className=""
@@ -116,7 +116,7 @@ const CaseStudy = () => {
                                 <p>Instagram Followers</p>
                               </div>
                             </div>
-                            <div className="col-lg-6 ">
+                            <div className="col-6 ">
                               <div className="item_satates">
                                 <img
                                   src="/assets/images/success-story/ROAs.svg"

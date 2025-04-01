@@ -13,7 +13,7 @@ const Cta = () => {
           </h4> */}
           <div className="row align-items-center">
             <div className="col-md-6">
-              <h4 className=" text-white large_heading2 fontWeight600 z-3 position-relative">
+              <h4 className=" text-white text-center text-md-start large_heading2 fontWeight600 z-3 position-relative">
                 SAVE 2X Cost
               </h4>
 

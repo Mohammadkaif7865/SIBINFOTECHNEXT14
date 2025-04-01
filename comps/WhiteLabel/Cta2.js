@@ -7,15 +7,15 @@ const Cta2 = () => {
         <div className="row align-items-center">
           <div className="col-lg-8">
             <div className=" px-2 px-md-5 py-3 p-lg-0">
-              <h4 className="large_heading2 position-relative z-3 fontWeight600 text-white ">
+              <h4 className="large_heading2 text-center text-md-start position-relative z-3 fontWeight600 text-white ">
                 Delegate the workload, <br /> elevate your success!
               </h4>
-              <p className=" text-light position-relative z-3 mt-4">
+              <p className=" text-light position-relative z-3 mt-4   text-center text-md-start">
                 Helping you deliver top-notch service and manage your clients
                 better!
               </p>
 
-              <p className="mt-4 text-white position-relative z-3 small_heading fontWeight600">
+              <p className="mt-4 text-white position-relative  text-center text-md-start z-3 small_heading fontWeight600">
                 Your Brand Name, Our Services
               </p>
 

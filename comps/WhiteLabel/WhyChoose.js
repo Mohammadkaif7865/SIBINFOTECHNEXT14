@@ -52,7 +52,7 @@ const WhyChoose = () => {
             <div className="why_left_item">
               <h4 className=" fontWeight300 large_heading2 text_red">
                 <span className="fontWeight600">Less stress,</span>
-                <br className="d-sm-none d-lg-block" />
+                <br className="d-none d-lg-block" />
                 <span className="  text-black heading fontWeight500"> More Success!</span>
               </h4>
 

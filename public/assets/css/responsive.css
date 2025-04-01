@@ -1233,15 +1233,17 @@
     outline-offset: -5px;
   }
 
-  .cta_solution h4 {
+  /* .cta_solution h4 {
     text-align: center;
-  }
+  } */
   .cta_solution .content {
     text-align: center;
   }
-  .item-case-study-right{
-    margin-top: -50px;
+  .partnership_box > .partnership_box_content_2 {
+    z-index: 3;
+    bottom: 0;
   }
+
 }
 @media (min-width: 1280px) {
   .containerFull {
