@@ -1,11 +1,57 @@
-  import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+import React from "react";
+import axios from "axios";
+import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import DigitalMarkServices from "@/comps/digitalmarketingservices/DigitalMarkServices";
+import * as CONSTANTS from "@/constants/constants";
 import "aos/dist/aos.css";
 
+export async function getServerSideProps(context) {
+  const { slug } = context.query;
 
-export default function DigitalMarketingServices() {
+  if (!slug) {
+    return {
+      notFound: true,
+    };
+  }
 
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: CONSTANTS.API_TOKEN,
+  };
+
+  try {
+    const res = await axios.get(
+      `${CONSTANTS.API_URL}service/single-service/${slug}`,
+      {
+        headers,
+      }
+    );
+
+    const service = res.data.service;
+
+    // If no service found or array is empty
+    if (!service || Object.keys(service).length === 0) {
+      return {
+        notFound: true,
+      };
+    }
+
+    return {
+      props: {
+        service,
+      },
+    };
+  } catch (err) {
+    console.error("Error fetching service data:", err.message);
+    return {
+      notFound: true,
+    };
+  }
+}
+
+export default function ServiceSlugPage({ service }) {
   const metaTags = (
     <>
       <title>Top Digital Marketing Services Agency Mumbai, Delhi, India</title>
@@ -35,10 +81,8 @@ export default function DigitalMarketingServices() {
   );
 
   return (
-    <>
-      <CustomLayout meta={metaTags}>
-        <DigitalMarkServices />
-      </CustomLayout>
-    </>
+    <CustomLayout meta={metaTags}>
+      <DigitalMarkServices service={service} />
+    </CustomLayout>
   );
 }
