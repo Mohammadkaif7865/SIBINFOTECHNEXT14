@@ -16,7 +16,7 @@ const ItemInfographic = ({ src, alt, text }) => (
   </div>
 );
 
-const BestCompany = ({service}) => {
+const BestCompany = ({ service }) => {
   const items = [
     {
       src: "/assets/images/icons/digital-marketing-copmany-in-mumbai.svg",
@@ -53,10 +53,8 @@ const BestCompany = ({service}) => {
           </div>
           <div
             className="col-lg-7 mt-lg-0 mt-4"
-            dangerouslySetInnerHTML={{ __html: service.section_1_description }}
-          >
-            
-          </div>
+            dangerouslySetInnerHTML={{ __html: service?.section_1_description }}
+          ></div>
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import React from "react";
 import BannerForm from "../BannerForm";
 import Breadcrumb from "../BreadCrumb";
 
-const HeroDigitalMarketing = ({service}) => {
+const HeroDigitalMarketing = ({ service }) => {
   return (
     <>
       <div id="bannerSection" className="innerWebDesign">
@@ -12,7 +12,7 @@ const HeroDigitalMarketing = ({service}) => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Best Digital Marketing Company in {service.region}{" "}
+                  Best Digital Marketing Company in {service?.region}{" "}
                 </h1>
                 <p className="text-white mt-2 title bulletPoint fw-bold">
                   Delivering growth
@@ -48,7 +48,7 @@ const HeroDigitalMarketing = ({service}) => {
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best <span className="textChange">Digital Marketing</span>{" "}
-                    Services in {service.region}
+                    Services in {service?.region}
                   </strong>
                 </p>
                 <BannerForm />
@@ -58,11 +58,7 @@ const HeroDigitalMarketing = ({service}) => {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Digital Marketing Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Digital Marketing Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -72,19 +68,15 @@ const HeroDigitalMarketing = ({service}) => {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">Digital Marketing</span> Services
-              in India
+              Best <span className="textChange">Digital Marketing</span>{" "}
+              Services in India
             </strong>
           </p>
           <BannerForm />
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Digital Marketing Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Digital Marketing Services"} />
       </div>
     </>
   );
