@@ -50,45 +50,7 @@ const Partnership = () => {
           </div>
         </div>
 
-        {/* <div className="workflow_item_container mt-5 pt-4 b">
-          {agencyWorkflow.map((value, index) => {
-            return (
-              <div
-                className={`workflow_item b  ${
-                  active == index ? "active" : ""
-                }`}
-                onMouseOver={() => {
-                  setActive(index);
-                }}
-              >
-                <div className="workflow_item_inner ">
-                  <div className="row align-items-center">
-                    <div
-                      className={`d-flex gap-3 align-items-center ${
-                        active == index ? "" : ""
-                      } `}
-                    >
-                      <div>
-                        <h4 className="heading">0{index + 1}</h4>
-                        <h5
-                          className=" fontWeight700 mt-2"
-                          dangerouslySetInnerHTML={{ __html: value.title }}
-                        ></h5>
-                      </div>
-                      <div
-                        className={` peraBox ${
-                          active == index ? "" : " "
-                        } overflow-hidden`}
-                      >
-                        <p className="overflow-hidden">{value?.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div> */}
+      
 
         <div className="partnership_box row mt-5 ">
           {agencyWorkflow.map((value, index) => {
