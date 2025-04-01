@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-const Benefits = () => {
+const Benefits = ({service}) => {
   const benefitsList = [
     "Budget-friendly",
     "Measurable Results",
@@ -23,10 +23,10 @@ const Benefits = () => {
               <div className="leftBenefits">
                 <h4 className="sub_heading fontHeading fontWeight700">
                   Benefits of getting the Digital Marketing Services from the
-                  Best Digital Marketing Company in India
+                  Best Digital Marketing Company in {service.region}
                 </h4>
                 <p className="mt-3">
-                  SIB Infotech, a leading Digital Marketing company in India,
+                  SIB Infotech, a leading Digital Marketing company in {service.region},
                   offers businesses an easy-to-scale and adaptable approach to
                   reaching their real customers. Not only is it more
                   cost-effective compared to traditional marketing methods, but

@@ -3,7 +3,7 @@ import React from "react";
 import BannerForm from "../BannerForm";
 import Breadcrumb from "../BreadCrumb";
 
-const HeroDigitalMarketing = () => {
+const HeroDigitalMarketing = ({service}) => {
   return (
     <>
       <div id="bannerSection" className="innerWebDesign">
@@ -12,7 +12,7 @@ const HeroDigitalMarketing = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Best Digital Marketing Company in India{" "}
+                  Best Digital Marketing Company in {service.region}{" "}
                 </h1>
                 <p className="text-white mt-2 title bulletPoint fw-bold">
                   Delivering growth
@@ -48,7 +48,7 @@ const HeroDigitalMarketing = () => {
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best <span className="textChange">Digital Marketing</span>{" "}
-                    Services in India
+                    Services in {service.region}
                   </strong>
                 </p>
                 <BannerForm />
