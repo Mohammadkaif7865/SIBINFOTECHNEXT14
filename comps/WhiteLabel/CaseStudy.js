@@ -89,12 +89,12 @@ const CaseStudy = () => {
                           />
                         </div>
 
-                        <Link className="" href={"#"}>
+                        <Link className="d-none d-lg-block" href={"#"}>
                           Platform
                         </Link>
                       </div>
-                      <div class="col-lg-6 p-2 ps-0 pe-2 item-case-study-right-main">
-                        <div className="item-case-study-right ">
+                      <div class="col-lg-6 p-lg-2 ps-lg-0 pe-lg-2 item-case-study-right-main">
+                        <div className="item-case-study-right p-2 ms-0">
                           <h5 className="fontHeading2 small_heading fontWeight700">
                             Crunky Funky -{" "}
                             <span className="text_red">Ecommerce</span>
@@ -103,8 +103,8 @@ const CaseStudy = () => {
                             From SEO to Google Ads, we drive growth with
                             data-driven strategies tailored to your business.
                           </p>
-
-                          <div className="row  mt-3">
+                          <div className="d-md-block d-none">
+                              <div className="row  mt-3">
                             <div className="col-lg-6 ">
                               <div className="item_satates ">
                                 <img
@@ -127,6 +127,9 @@ const CaseStudy = () => {
                               </div>
                             </div>
                           </div>
+                          </div>
+
+                        
                         </div>
                       </div>
                     </div>

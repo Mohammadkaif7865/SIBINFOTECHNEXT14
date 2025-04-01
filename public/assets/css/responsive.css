@@ -1216,31 +1216,32 @@
   .large_heading2 {
     font-size: 28px !important;
   }
-  .solution_white_label .large_heading{
+  .solution_white_label .large_heading {
     font-size: 17px;
-    
   }
   .featured .large_heading2 {
     font-size: 24px !important;
   }
   .service__item {
     grid-template-columns: 1fr;
-    gap:10px;
+    gap: 10px;
   }
- .solution_white_label .service__title{
-  font-size: 22px;
- }
- .cta2.whiteLable::after {
+  .solution_white_label .service__title {
+    font-size: 22px;
+  }
+  .cta2.whiteLable::after {
+    outline-offset: -5px;
+  }
 
-  outline-offset: -5px;
-}
-
-.cta_solution h4{
-text-align: center;
-}
-.cta_solution .content {
-text-align: center;
-}
+  .cta_solution h4 {
+    text-align: center;
+  }
+  .cta_solution .content {
+    text-align: center;
+  }
+  .item-case-study-right{
+    margin-top: -50px;
+  }
 }
 @media (min-width: 1280px) {
   .containerFull {
@@ -1299,6 +1300,9 @@ text-align: center;
 
 /* For devices with a max-width of 1024px */
 @media (max-width: 1024px) {
+  .case-study-swiper .swiper-slide {
+    padding: 0px;
+  }
   .img_grid_review {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     display: grid;
