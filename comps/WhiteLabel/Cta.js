@@ -40,8 +40,8 @@ const Cta = () => {
                 </p>
               </div>
 
-              <div className="z-3 position-relative mt-4 scaling-fade d-md-none">
-                <Link className="text-white small_heading" href="/contact">
+              <div className="z-3 position-relative mt-4 scaling-fade d-flex justify-content-center d-md-none">
+                <Link className="text-white small_heading text-center w-100 d-block" href="/contact">
                   Let’s Grow With US{" "}
                   <i class="fa-solid fa-arrow-right ms-2"></i>
                 </Link>
