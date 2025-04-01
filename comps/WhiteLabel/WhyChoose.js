@@ -52,10 +52,10 @@ const WhyChoose = () => {
             <div className="why_left_item">
               <h4 className=" fontWeight300 large_heading2 text_red">
                 <span className="fontWeight600">Less stress,</span>
+                <br className="d-sm-none d-lg-block" />
+                <span className="  text-black heading fontWeight500"> More Success!</span>
               </h4>
-              <h5 className=" mt-2  heading fontWeight500">
-                More Success!<span className="text_red"></span>
-              </h5>
+
               <div className="why_left_card mt-4 text-center">
                 <h4 className=" text-white fontWeight600 ">
                   We treat your clients like our own – Guaranteed!
@@ -78,10 +78,10 @@ const WhyChoose = () => {
             </div>
           </div>
 
-          <div className="col-lg-8">
+          <div className="col-lg-8 mt-5 mt-lg-0">
             <div className="rightWhyBlock">
               <div className="headerRightWhy py-lg=3 bgGrey">
-                <h5 className="fontWeight600 text_red sub_heading ps-4">
+                <h5 className="fontWeight600 text_red sub_heading  ps-4">
                   Why agencies choose digital marketing outsourcing?
                 </h5>
                 <p className="mt-3 ps-4">
@@ -96,7 +96,7 @@ const WhyChoose = () => {
                 {keyAdvantages.map((value, index) => {
                   return (
                     <div
-                      className="col-lg-6 mb-3 position-relative"
+                      className=" col-md-6 col-lg-6 mb-3 position-relative"
                       key={index}
                     >
                       <div className=" item_why_sib hover h-100 ">

@@ -32,13 +32,13 @@ const Partnership = () => {
           <div className="col-lg-6">
             <h4 className=" large_heading2 fontWeight600">
               <span> Our Approach To </span>
-              <br />
+              <br className="" />
               <span className="text_red sub_heading">
                 White Label Digital Marketing
               </span>{" "}
             </h4>
           </div>
-          <div className="col-lg-6 ps-lg-5">
+          <div className="col-lg-6 ps-lg-5 mt-3 mt-lg-0">
             <p>
               We seamlessly integrate with your agency to deliver expert digital
               marketing services under your brand. From strategy to execution,
@@ -93,7 +93,7 @@ const Partnership = () => {
         <div className="partnership_box row mt-5 ">
           {agencyWorkflow.map((value, index) => {
             return (
-              <div className="col-lg-3">
+              <div className="col-md-6 col-lg-3 mb-4">
                 <div className="partnership_box position-relative">
                   <div className="partnership_box_content_1">
                     <h4 className="heading">0{index + 1}</h4>

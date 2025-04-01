@@ -61,7 +61,7 @@ const BrandBuild = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="col-lg-6 pe-5">
+          <div className="col-lg-6 pe-5 order-lg-1 order-2 mt-lg-0 mt-5">
             <div className="d-flex">
               <Image
                 className="w-75 h-100 mx-auto"
@@ -72,7 +72,7 @@ const BrandBuild = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 order-lg-2 order-1 ">
             {/* <h4 className="brand_build_title fontWeight600  fontHeading2 text_red">
               Brand, Build, and Grow Your Business Today
             </h4> */}

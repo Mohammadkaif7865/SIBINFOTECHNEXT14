@@ -41,15 +41,29 @@ const CaseStudy = () => {
             spaceBetween={0}
             slidesPerView={1.5}
             centeredSlides={true}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
+        
             loop={true}
             pagination={false}
             navigation={{
               nextEl: ".casestudy_next",
               prevEl: ".casestudy_prev",
+            }}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                navigation: false,
+              },
+              600: {
+                slidesPerView: 1,
+                navigation: false,
+              },
+              768: {
+                slidesPerView: 1,
+                navigation: false,
+              },
+              992: {
+                slidesPerView: 1.5,
+              },
             }}
             modules={[Autoplay, Pagination, Navigation]}
             className="case-study-swiper"

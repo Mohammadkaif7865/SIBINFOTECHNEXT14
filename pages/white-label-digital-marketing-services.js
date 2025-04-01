@@ -80,7 +80,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
     </>
   );
   return (
-    <CustomLayout meta={metaTags}>
+    <CustomLayout meta={metaTags} className="b">
       <div className="innerWebDesign whiteLable"  id="contact">
         <div className="container-fluid">
           <div className="row">
@@ -150,7 +150,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           <BannerForm />
         </div>
       </div>
-      <div className="d-none d-lg-block ">
+      <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={"White Label Digital Marketing Services"} />
       </div>
       <About2 />
@@ -166,7 +166,12 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <DeliverGrowth />
       <Industries />
       <Tools />
-      <Featured />
+      <Featured /> 
+      {/* 
+      
+    
+      
+      <Featured /> */}
       <div className="bg_light_gray">
         <Testimonials />
       </div>
