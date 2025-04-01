@@ -32,7 +32,7 @@ const KeyBenifits = () => {
   ];
 
   return (
-    <section className="bg-black ">
+    <section className="bg-black overflow-hidden ">
       <div className="containerFull">
         <div className="row ">
           <div className="col-lg-4">
@@ -48,13 +48,13 @@ const KeyBenifits = () => {
               Media Services
             </p>
 
-            <div className="mt-5">
+            <div className="mt-5 d-lg-block d-none">
               <a className="btnThemeRed px-5 fw-bold" href="#contact">
                 Know More
               </a>
             </div>
           </div>
-          <div className="col-lg-8 ps-5">
+          <div className="col-lg-8 ps-lg-5">
             {/* <h4 className=" heading fontWeight600">Who Can Digital Marketing?</h4> */}
 
             <p className="text-white">
@@ -63,12 +63,18 @@ const KeyBenifits = () => {
               consultants, and businesses grow effortlessly. You get access to a
               skilled team working under your brand—so you can focus on business
               expansion, client relationships, and revenue generation.
-              {/* With our white-label services, you can scale faster, serve more clients, and maximize profits—without the hassle of recruitment, training, or execution!  */}
+              With our white-label services, you can scale faster, serve more clients, and maximize profits—without the hassle of recruitment, training, or execution! 
             </p>
+
+            <div className="mt-3  d-lg-none">
+              <a className="btnThemeRed px-5 fw-bold" href="#contact">
+                Know More
+              </a>
+            </div>
 
            
             <div className=" mt-4 position-relative">
-              <button class="power_prev ">
+              <button class="power_prev d-lg-block d-none">
                 <i class="fa-solid fa-arrow-left-long text-white"></i>
               </button>
               <Swiper
@@ -84,6 +90,23 @@ const KeyBenifits = () => {
                   nextEl: ".power_next",
                   prevEl: ".power_prev",
                 }}
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                    navigation: false,
+                  },
+                  600: {
+                    slidesPerView: 1.5,
+                    navigation: false,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    navigation: false,
+                  },
+                  992: {
+                    slidesPerView: 2.2,
+                  },
+                }}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
               >
@@ -91,14 +114,7 @@ const KeyBenifits = () => {
                   return (
                     <SwiperSlide>
                       <div className="item_sib_power ">
-                        {/* <div className="icon mb-lg-3">
-                          <Image
-                            width={60}
-                            height={60}
-                            src={`/assets/images/light-bulb.webp`}
-                            alt=""
-                          />
-                        </div> */}
+                     
                         <h5 className=" fontWeight600">{value.category}</h5>
                         <p className="mt-3">{value.description}</p>
                       </div>
@@ -106,7 +122,7 @@ const KeyBenifits = () => {
                   );
                 })}
               </Swiper>
-              <button class="power_next">
+              <button class="power_next  d-lg-block d-none">
                 <i class="fa-solid fa-arrow-right-long  text-white"></i>
               </button>
             </div>
