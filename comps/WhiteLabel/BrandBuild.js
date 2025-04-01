@@ -46,7 +46,7 @@ const BrandBuild = () => {
               A White Label Digital Marketing Agency in India
             </h5>
           </div>
-          <div className="col-lg-6  ps-3">
+          <div className="col-lg-6 mt-3 mt-lg-0  ps-3">
             <p className="title">
               Growing your agency doesn’t have to mean hiring more staff or
               taking on additional overhead. With our white-label digital

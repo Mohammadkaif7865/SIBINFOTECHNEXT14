@@ -167,11 +167,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <Industries />
       <Tools />
       <Featured /> 
-      {/* 
-      
-    
-      
-      <Featured /> */}
+ 
       <div className="bg_light_gray">
         <Testimonials />
       </div>
