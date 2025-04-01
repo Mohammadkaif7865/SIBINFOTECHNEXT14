@@ -44,7 +44,7 @@ const Industries = () => {
   ];
 
   return (
-    <section className="">
+    <section className="overflow-hidden">
       <div className="row ">
         <div className="col-md-12">
           <div className="casescard">

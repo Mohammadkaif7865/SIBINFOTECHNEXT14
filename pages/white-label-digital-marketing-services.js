@@ -23,10 +23,10 @@ import Featured from "@/comps/WhiteLabel/Featured";
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>White Label Digital Marketing Services | SIB Infotech</title>
+      <title>White Label Digital Marketing Services in India - Scalable & Affordable Solutions</title>
       <meta
         name="description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         name="keywords"
@@ -40,11 +40,11 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="og:title"
-        content="White Label Digital Marketing Services | SIB Infotech"
+        content="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
       />
       <meta
         property="og:description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         property="og:image"
@@ -58,11 +58,11 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="twitter:title"
-        content="White Label Digital Marketing Services | SIB Infotech"
+        content="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
       />
       <meta
         property="twitter:description"
-        content="White Label Digital Marketing Services"
+        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
       <meta
         property="twitter:image"
@@ -70,7 +70,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/white-label-digital-marketing-services"
-        breadcrumbTitle="White Label Digital Marketing Services | SIB Infotech "
+        breadcrumbTitle="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
         PageRatingSchema
         description={
           "White Label Digital Marketing Services"
@@ -80,7 +80,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
     </>
   );
   return (
-    <CustomLayout meta={metaTags}>
+    <CustomLayout meta={metaTags} >
       <div className="innerWebDesign whiteLable"  id="contact">
         <div className="container-fluid">
           <div className="row">
@@ -93,7 +93,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                   <span className="text_red">Grow Faster, Scale Smarter!</span>
                 </h1>
                 <p
-                  className="small_heading  mt-3 text-white"
+                  className="small_heading mt-2  mt-lg-3 text-white"
                   style={{
                     maxWidth: "80%",
                   }}
@@ -102,7 +102,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                   Social Media Services in India
                 </p>
                 <div className="mt-4">
-                  <Link href="/#requestQuote" className="btnThemeRed me-3">
+                  <Link href="/#contact" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
                   <Link href="/contact-us" className="btnThemewhiteBorder">
@@ -143,14 +143,14 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">2D Animation Services </span>{" "}
+              Best <span className="textChange">White Label Marketing </span>{" "}
               Company in India
             </strong>
           </p>
           <BannerForm />
         </div>
       </div>
-      <div className="d-none d-lg-block ">
+      <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={"White Label Digital Marketing Services"} />
       </div>
       <About2 />
@@ -166,7 +166,8 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <DeliverGrowth />
       <Industries />
       <Tools />
-      <Featured />
+      <Featured /> 
+ 
       <div className="bg_light_gray">
         <Testimonials />
       </div>

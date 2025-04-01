@@ -10166,7 +10166,7 @@ font-size: 20px;
 .service__link p:after {
   position: absolute;
   content: "\f061";
-  font-family: Font Awesome\6 Free;
+  font-family: Font Awesome\ 6 Free;
   font-weight: 900;
   left: 0px;
   bottom: 0px;
@@ -10494,10 +10494,14 @@ font-size: 20px;
   background-image: url(/assets/images/banner-white-lable.jpg);
   background-position: center;
 }
-.innerWebDesign.whiteLable h1 span {
+.innerBannerTitle::before {
+  background-color: #000000cc !important;
+
+}
+/* .innerWebDesign.whiteLable h1 span {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-}
+} */
 .cta2.whiteLable {
   position: relative;
   z-index: 3;

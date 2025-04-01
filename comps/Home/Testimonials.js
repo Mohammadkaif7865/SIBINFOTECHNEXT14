@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-          <h4 className="heading fontHeading2 text-center text_red fontWeight300">
+          <h4 className="heading  text-center text_red fontWeight300">
             What our <span className="fontWeight600">Clients Say</span> about us
           </h4>
           <p className="small_heading fontWeight300 text-center  mt-3 ">
@@ -20,11 +20,11 @@ const Testimonials = () => {
 
         <div className="row mt-4 align-items-center">
           <div className="col-lg-4">
-            <h4 className="sub_heading fontHeading2  fontWeight600">
+            <h4 className="sub_heading fontHeading2 text-center text-lg-start  fontWeight600">
               We are five star rated Digital Agency
             </h4>
             <div
-              className="small_heading mt-4"
+              className="small_heading mt-4 d-flex justify-content-center justify-content-lg-start"
               style={{
                 color: "var(--red-color)",
               }}

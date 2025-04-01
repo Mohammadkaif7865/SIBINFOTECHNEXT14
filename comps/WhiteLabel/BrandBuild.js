@@ -46,7 +46,7 @@ const BrandBuild = () => {
               A White Label Digital Marketing Agency in India
             </h5>
           </div>
-          <div className="col-lg-6  ps-3">
+          <div className="col-lg-6 mt-3 mt-lg-0  ps-3">
             <p className="title">
               Growing your agency doesn’t have to mean hiring more staff or
               taking on additional overhead. With our white-label digital
@@ -61,7 +61,7 @@ const BrandBuild = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="col-lg-6 pe-5">
+          <div className="col-lg-6 pe-5 order-lg-1 order-2 mt-lg-0 mt-5">
             <div className="d-flex">
               <Image
                 className="w-75 h-100 mx-auto"
@@ -72,7 +72,7 @@ const BrandBuild = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 order-lg-2 order-1 ">
             {/* <h4 className="brand_build_title fontWeight600  fontHeading2 text_red">
               Brand, Build, and Grow Your Business Today
             </h4> */}
