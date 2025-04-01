@@ -10494,10 +10494,14 @@ font-size: 20px;
   background-image: url(/assets/images/banner-white-lable.jpg);
   background-position: center;
 }
-.innerWebDesign.whiteLable h1 span {
+.innerBannerTitle::before {
+  background-color: #000000cc !important;
+
+}
+/* .innerWebDesign.whiteLable h1 span {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-}
+} */
 .cta2.whiteLable {
   position: relative;
   z-index: 3;

@@ -93,7 +93,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                   <span className="text_red">Grow Faster, Scale Smarter!</span>
                 </h1>
                 <p
-                  className="small_heading  mt-3 text-white"
+                  className="small_heading mt-2  mt-lg-3 text-white"
                   style={{
                     maxWidth: "80%",
                   }}
