@@ -80,7 +80,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
     </>
   );
   return (
-    <CustomLayout meta={metaTags} className="b">
+    <CustomLayout meta={metaTags} >
       <div className="innerWebDesign whiteLable"  id="contact">
         <div className="container-fluid">
           <div className="row">
@@ -143,7 +143,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">2D Animation Services </span>{" "}
+              Best <span className="textChange">White Label Marketing </span>{" "}
               Company in India
             </strong>
           </p>
