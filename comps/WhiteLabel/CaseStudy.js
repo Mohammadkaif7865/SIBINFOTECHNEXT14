@@ -48,6 +48,10 @@ const CaseStudy = () => {
               nextEl: ".casestudy_next",
               prevEl: ".casestudy_prev",
             }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             breakpoints={{
               0: {
                 slidesPerView: 1,
