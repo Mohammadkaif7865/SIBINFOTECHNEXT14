@@ -102,10 +102,10 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                   Social Media Services in India
                 </p>
                 <div className="mt-4">
-                  <Link href="/#contact" className="btnThemeRed me-3">
+                  <Link href="#contact" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="/contact-us" className="btnThemewhiteBorder">
+                  <Link href="#contact" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
