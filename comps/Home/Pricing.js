@@ -219,6 +219,7 @@ const Pricing = () => {
                     <ul>
                       <li>Logos</li>
                       <li>Stationery </li>
+                      <li>Motion Graphics </li>
                     </ul>
                   </div>
                   <div className="item_price_titile mt-3 fontHeading2">

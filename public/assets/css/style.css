@@ -516,7 +516,7 @@ section {
 .btnTheme {
   display: inline-block;
   padding: 12px 25px;
-  background: var(--light-blue-color);
+  background: var(--red-color);
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 1px;
@@ -524,6 +524,7 @@ section {
   position: relative;
   z-index: 1;
   border: none;
+  font-weight: 500;
 }
 
 .btnTheme:before {
@@ -1872,7 +1873,8 @@ section {
 }
 
 .socialColumn ul li a:hover {
-  color: #fff;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
 }
 
 .social-link ul li a {
@@ -2062,32 +2064,30 @@ section {
 }
 
 .mapBlock {
-  background: #555;
+  background: url(/assets/images/bg/footer-bg.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.mapBlock:after{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
 }
 
 .mapItem {
   display: flex;
   transition: all 0.5s ease-in-out;
 }
-
-.leftImgMap {
-  overflow: hidden !important;
-  width: 45%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  color: #fff;
-  position: relative;
-}
-
-.rightMapItem {
-  width: 55%;
-}
-
 .rightMapItem iframe {
   width: 100%;
-  height: 350px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  height: 270px;
 }
 
 .leftImgMap p {
@@ -11083,6 +11083,15 @@ font-size: 20px;
   width: 100%;
   min-height: 55px;
 }
+.pricing_item .content{
+  background: #e9e9e9;
+  padding:10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .pricing_item .content ul {
   display: flex;
   width: 100%;
@@ -11147,7 +11156,10 @@ font-size: 20px;
   color: #fff !important;
   z-index: 99;
 }
-
+.price_next:hover,
+.price_prev:hover{
+  background:var(--red-color) !important;
+} 
 .price_prev {
   left: -20px;
 }
@@ -11269,15 +11281,15 @@ font-size: 20px;
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   background-color: transparent;
-  width: 50px !important;
-  height: 50px !important;
+  width: 40px !important;
+  height: 40px !important;
   border-radius: 100%;
   transition: all 0.5s ease-in-out !important;
   border: none !important;
-  color: #333 !important;
+  color: #fff !important;
   z-index: 99;
-  font-size: 18px;
-  background:#ccc;
+  font-size: 16px;
+  background:#000;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -11286,7 +11298,7 @@ font-size: 20px;
 }
 .power_prev:hover,
 .power_next:hover{
-  background: #000;
+  background: var(--red-color);
   color: #fff !important;
 }
 .power_prev {
@@ -11771,4 +11783,22 @@ text-align: center;
 .customFaq ol{
   margin-top: 10px;
   color:#444;
+}
+.mapItemFooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 15px;
+}
+.leftMapAddess, .rightMapItem{
+  width: 50%;
+}
+.leftMapAddess h4{
+  color:var(--red-color)
 }

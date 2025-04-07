@@ -114,7 +114,7 @@ export default function Footer() {
       >
         <div className="containerFull">
           <div className="row">
-            <div className="col-lg-2">
+            <div className="col-lg-2 pe-lg-0">
               <div className="leftFooterForm">
                 <h4 className="small_heading">Get a Free Quote</h4>
               </div>
@@ -584,37 +584,83 @@ export default function Footer() {
               </div>
             </div>
           </div> */}
-          <div className={`containerFull   `}>
+          <div className={`containerFull`}>
             <div className="row">
-              <div className=" col-lg-6  ">
-                <h4 className="small_heading2 fontWeight700 text-white fontHeading">
-                  Mumbai Office
-                </h4>
-                <iframe
-                  className=" w-100 rounded mt-1"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
-                  allowFullScreen=""
-                  height="350"
-                  loading="lazy"
-                  title="Mumbai Office Map"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+              <div className=" col-lg-6 ">
+                <div className="mapItemFooter ">
+                  <div className="leftMapAddess">
+                    <h4 className="small_heading fontWeight600">
+                      Mumbai Office
+                    </h4>
+                    <p className="mt-3">
+                      107, Orbit Premises, Mindspace Near Inorbit Mall, Malad
+                      West, Mumbai, Maharashtra 400064
+                    </p>
+                    <p className="mt-2">
+                      Rating:{" "}
+                      <strong>
+                        4.8 <i className="fa fa-star text-warning"></i>
+                      </strong>{" "}
+                      (99 Reviews)
+                    </p>
+                    <Link
+                      className="btnTheme mt-4"
+                      href="https://www.google.com/maps?ll=19.177215,72.833803&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=10831579352190589026"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View on Map
+                    </Link>
+                  </div>
+                  <div className="rightMapItem">
+                    <iframe
+                      className="img-taken"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
+                      allowFullScreen=""
+                      loading="lazy"
+                      title="Mumbai Office Map"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
               </div>
-              <div className="col-lg-6 mt-3 mt-lg-0">
-                <h4 className="small_heading2 fontWeight700 text-white fontHeading">
-                  New Delhi Office
-                </h4>
-                <iframe
-                  className="w-100 rounded mt-1"
-                  title="Delhi Office Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9866641582603!2d77.0791146745727!3d28.630161784190033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1709614692297!5m2!1sen!2sin"
-                  // width="600"
-                  height="350"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+              <div className=" col-lg-6 ">
+                <div className="mapItemFooter ">
+                  <div className="leftMapAddess">
+                    <h4 className="small_heading fontWeight600">
+                      New Delhi Office
+                    </h4>
+                    <p className="mt-3">
+                      1st Floor, Front Side, Block, B-1/624, B1 Rd, opp. Metro
+                      Pillar Number 574, Janakpuri, New Delhi, Delhi, 110058
+                    </p>
+                    <p className="mt-2">
+                      Rating:{" "}
+                      <strong>
+                        4.7 <i className="fa fa-star text-warning"></i>
+                      </strong>{" "}
+                      (151 Reviews)
+                    </p>
+                    <Link
+                      className="btnTheme mt-4"
+                      href="https://www.google.com/maps?ll=28.631251,77.082649&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=9095562244807528693"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View on Map
+                    </Link>
+                  </div>
+                  <div className="rightMapItem">
+                    <iframe
+                      className="img-taken"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
+                      allowFullScreen=""
+                      loading="lazy"
+                      title="Mumbai Office Map"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

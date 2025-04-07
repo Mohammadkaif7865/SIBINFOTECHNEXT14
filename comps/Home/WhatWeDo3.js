@@ -52,7 +52,7 @@ export default function WhatWeDo3() {
           What We Do
         </h3>
         <p className="mt-3 title text-center">
-          Our Revenue Driven Digital Marketing Services
+          Our Revenue Driven <strong>Digital Marketing Services</strong>
         </p>
         <div className="row mt-lg-5">
           <div className="col-lg-6">

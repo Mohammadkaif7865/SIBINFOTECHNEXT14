@@ -80,7 +80,7 @@ const SIBPower = () => {
             </p>
             <div className=" mt-4 position-relative">
               <button class="power_prev">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <i class="fa fa-chevron-left"></i>
               </button>
               <Swiper
                 spaceBetween={15}
@@ -120,7 +120,7 @@ const SIBPower = () => {
                 })}
               </Swiper>
               <button class="power_next">
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i class="fa fa-chevron-right"></i>
               </button>
             </div>
           </div>
