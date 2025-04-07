@@ -6,7 +6,7 @@ const OurClients = () => {
     <section className="home_our_client trusted">
       <div className="containerFull">
         <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
-          Powerfulll <span className="fontWeight600">brand partners!</span>
+          Powerfull <span className="fontWeight600">brand partners!</span>
         </h4>
         <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
           We <span className="fontWeight600">deliver growth</span> for these

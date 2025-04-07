@@ -20,7 +20,7 @@ const Tools = () => {
       alt: "Semrush Logo",
     },
     {
-      src: "/assets/images/ahrefs.webp",
+      src: "/assets/images/ahrefs.png",
       alt: "ahrefs Logo",
     },
     {

@@ -10,8 +10,10 @@ export default function WhatWeDo3() {
     {
       title: "Get Ranked on Google",
       subList: ["Search Engine Optimization", "Local SEO", "Ecommerce SEO"],
+      subTitle:
+        "Boost Your Visibility. Drive Organic Traffic. Outrank Competitors.",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. Sed id vulputate urna. Proin ut sem posuere, sagittis leo a, fermentum metus. Phasellus sem nulla, condimentum et dui ut, porta pretium erat. Donec sapien urna, suscipit dapibus varius eget, tincidunt et felis.",
+        "At SIB Infotech, our SEO experts help your business climb to the top of Google search results with proven strategies tailored to your goals. Whether you're targeting local customers, scaling your eCommerce store, or building a national presence — we’ve got you covered. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. lorem",
       image: "/assets/images/get-ranked.png",
     },
     {
@@ -88,7 +90,7 @@ export default function WhatWeDo3() {
                       <Image
                         src="/assets/images/corporate-website-designing-company-in-mumbai.png"
                         width={500}
-                        height={400}
+                        height={300}
                         className="imgSize object-fit-contain"
                         alt="default image"
                       />
@@ -97,7 +99,11 @@ export default function WhatWeDo3() {
                 ) : (
                   // 👇 Show content when selected
                   <>
-                    <p className="title fontWeight300">
+                    <h4 className="fontWeight600 small_heading">
+                      {" "}
+                      {contentData[activeIndex].subTitle}
+                    </h4>
+                    <p className="title mt-3 fontWeight300">
                       {contentData[activeIndex].description}
                     </p>
                     <div className="text-center mt-lg-5 mt-4">

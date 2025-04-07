@@ -30,7 +30,7 @@ import BrandBuild from "./BrandBuild";
 import Pricing from "./Pricing";
 import WhySIB from "./WhySIB";
 import SIBPower from "./SIBPower";
-import CaseStudy from "./CaseStudy";
+import CaseStudy2 from "./CaseStudy2";
 import DeliverGrowth from "./DeliverGrowth";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
@@ -53,7 +53,7 @@ const HomePage = () => {
       <WhatWeDo3 />
       <PartnerBadges2 />
       {/* <Counter /> */}
-      <CaseStudy />
+      <CaseStudy2 />
       <Madeby />
       <OurClients />
       <Testimonials />
@@ -64,7 +64,9 @@ const HomePage = () => {
       <OurPeople />
       <SIBPower />
       <Industries />
-      <Tools />
+      <div className="toolsHome">
+        <Tools />
+      </div>
       <Featured />
       <Pricing />
       <Map />
