@@ -21,7 +21,7 @@ const CaseStudy = () => {
         <div className="row align-items-center">
           <div className="col-lg-7">
             <h4 className="large_heading2 fontHeading2 fontWeight300  fontHeading2 text_red">
-              Client <span className="fontWeight600">Success Stories </span>
+              Client <span className="fontWeight600">Winning Strategies & Tangible Results</span>
             </h4>
             <p className="title fontWeight600 mt-3">
               Our Results Speak for Themselves

@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <div>
-      <header className="header stricky ">
+  <header className={`header stricky  ${pathname !== "/" ? "position-relative" : ""} `}>
         {/* <div className="topHeader d-none d-md-block">
           <div className="containerFull">
             <div className="inlineHeader ">

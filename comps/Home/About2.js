@@ -24,27 +24,47 @@ const About2 = () => {
           </div>
           <div className="col-lg-6">
             <p>
-           <strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in  <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI. 
+              <strong> SIB Infotech</strong> is a{" "}
+              <strong>leading digital marketing agency in India</strong>, with
+              offices in Mumbai and New Delhi. As a Google Premier Partner, we
+              specialize in{" "}
+              <strong>
+                SEO services, PPC management, social media marketing, website
+                design, graphic design, and branding. Our expertise helps
+                businesses in India, the US, the UK, Canada, Australia{" "}
+              </strong>
+              , and beyond boost online visibility, engagement, and conversions
+              while delivering measurable ROI.
             </p>
             <p className="mt-2">
-            With 19+ years of experience, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition. 
+              With 19+ years of experience, we leverage AI-driven marketing
+              strategies, data analytics, and result-oriented campaigns to
+              maximize growth. Whether you're a startup or an enterprise, our
+              customized digital marketing solutions ensure higher rankings,
+              increased traffic, and improved lead generation to help you stay
+              ahead of the competition.
             </p>
           </div>
         </div>
         <div className="row mt-lg-5 align-items-center">
           <div class="col-lg-6">
             <p>
-              World-class <strong>Google Ads service</strong>, delivered by
-              local experts. Our award-winning Google Ads team has once again
-              earned <strong>Google Premier Partner</strong> status – which puts
-              us in the top 3% of Google Ads Agencies in Australia. What does
-              that mean for you? Exclusive access to product betas, dedicated
-              account support direct from Google, consumer insights and more.
-              See it for yourself, check out our 90+ 5 star reviews!
+              As a Google Premier Partner, SIB Infotech ranks among the top 3%
+              of Google Ads agencies, recognized for delivering exceptional
+              Google Ads performance. Our expert team leverages exclusive access
+              to Google’s latest tools, product betas, and consumer insights,
+              ensuring higher ROI, lower ad costs, and maximum conversions for
+              your business.
+            </p>
+            <p className="mt-2">
+              With dedicated support from Google, we craft data-driven,
+              high-performing campaigns tailored to your goals. Partner with
+              certified experts and experience data-driven, result-oriented
+              campaigns that fuel your business growth
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1">
-            <div className="cardAbout shadow bg-black rounded-4 d-flex justify-content-between">
+            <div className="cardAbout shadow bg-black rounded-4 d-flex align-items-center justify-content-between">
               <div>
                 <div className="text-warning">
                   <i className="fa fa-star"></i>
@@ -54,9 +74,12 @@ const About2 = () => {
                   <i className="fa fa-star"></i>
                 </div>
                 <h3 className="sub_heading text-white mt-2 fontWeight300">
-                  Top 3%{" "}
-                  <span className="fontWeight600">Google Premier Partner</span>{" "}
-                  Agency
+                  Top 3%
+                  <span className="fontWeight600">
+                    {" "}
+                    Google Premier Partner
+                  </span>{" "}
+                  Agency - Elite Google Ads Expertise
                 </h3>
               </div>
               <div>

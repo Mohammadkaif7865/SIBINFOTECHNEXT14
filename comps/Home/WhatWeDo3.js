@@ -4,23 +4,57 @@ import Image from "next/image";
 
 export default function WhatWeDo3() {
   const viewPortRef = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(null); // No default selected
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const contentData = [
     {
       title: "Get Ranked on Google",
       subList: ["Search Engine Optimization", "Local SEO", "Ecommerce SEO"],
-      subTitle:
-        "Boost Your Visibility. Drive Organic Traffic. Outrank Competitors.",
-      description:
-        "At SIB Infotech, our SEO experts help your business climb to the top of Google search results with proven strategies tailored to your goals. Whether you're targeting local customers, scaling your eCommerce store, or building a national presence — we’ve got you covered. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. lorem",
+      subTitle: "Smarter SEO for Higher Rankings & Real Results",
+      description: `
+          <p>Stay ahead of the competition with our data-driven SEO strategies designed to increase visibility, drive organic traffic, and grow your business. </p>
+          <h5 class="mt-3">
+          Search Engine Optimization 
+          </h5>
+          <p class="mt-2">
+          Full-spectrum SEO focused on rankings, relevance, and revenue. 
+          </p>
+         <h5 class="mt-3">
+          Local SEO 
+          </h5>
+          <p class="mt-2">
+          Rank higher in local search and maps to attract nearby customers. 
+          </p>
+          <h5 class="mt-3">
+           eCommerce SEO
+          </h5>
+           <p class="mt-2">Optimized product pages and technical SEO that boost online sales. </p>
+`,
       image: "/assets/images/get-ranked.png",
     },
     {
       title: "Drive Instant Growth",
       subList: ["Google Ads", "Meta & Instagram Ads", "LinkedIn Ads"],
-      description:
-        "Morbi cursus purus varius fringilla efficitur. Praesent ut erat sed lacus placerat posuere. In hac habitasse platea dictumst. Vivamus blandit in ante nec gravida. Pellentesque ac mollis justo. Fusce euismod eleifend purus, quis feugiat dui bibendum vitae. Aliquam sed vulputate nibh.",
+      subTitle: "High-Performance Ad Campaigns That Deliver Leads & Sales ",
+      description: `<p> Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.</p>
+        <h5 class="mt-3">Google Ads 
+        </h5>
+        <p class="mt-2">
+        Target the right audience with precision and maximize your ROI.
+        </p>
+        <h5 class="mt-3">
+        Meta & Instagram Ads 
+        
+        </h5>
+        <p class="mt-2">
+        Engaging creatives that drive clicks, conversions, and brand awareness. </p>        
+  
+          <h5 class="mt-3">LinkedIn Ads
+          </h5>
+
+          <p  class="mt-2">Connect with key decision-makers and grow your B2B pipeline 
+          </p>
+         `,
       image: "/assets/images/instant-growth.png",
     },
     {
@@ -30,8 +64,25 @@ export default function WhatWeDo3() {
         "Graphic Design",
         "Software Development",
       ],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a risus mauris. Sed id vulputate urna. Proin ut sem posuere, sagittis leo a, fermentum metus. Phasellus sem nulla, condimentum et dui ut, porta pretium erat. Donec sapien urna, suscipit dapibus varius eget, tincidunt et felis.",
+      subTitle: "Designs That Convert. Experiences That Matter",
+      description: `<p>
+        Create stunning digital assets that elevate your brand and drive user engagement across devices. 
+        
+        </p>
+        <h5 class="mt-3">Website Design & Development </h5>
+        <P>
+        Fast, mobile-first websites designed to rank and convert. 
+        
+        </P>
+        <h5 class="mt-3">Graphic Design </h5>
+
+        <p class="mt-2">
+         Creative visuals that leave a lasting impression. 
+        </P>
+        <h5 class="mt-3">Software Development </h5>
+        <p class="mt-2"> 
+       Custom solutions tailored to streamline your business operations. </p>
+        `,
       image: "/assets/images/digital-domainiation.png",
     },
     {
@@ -41,8 +92,29 @@ export default function WhatWeDo3() {
         "Content Marketing",
         "Influencer Marketing",
       ],
-      description:
-        "Morbi cursus purus varius fringilla efficitur. Praesent ut erat sed lacus placerat posuere. In hac habitasse platea dictumst. Vivamus blandit in ante nec gravida. Pellentesque ac mollis justo. Fusce euismod eleifend purus, quis feugiat dui bibendum vitae. Aliquam sed vulputate nibh.",
+      subTitle: "Human-Centered Marketing That Builds Lasting Connections ",
+      description: `
+             <p class="mt-2">Establish authority, boost engagement, and grow loyal communities around your brand. </p> 
+
+        <h5 class="mt-3">Social Media Marketing </h5>
+
+             <p class="mt-2">Authentic storytelling and strategy for consistent brand presence. </p>
+        <h5 class="mt-3">
+      Content Marketing 
+      </h5>
+             <p class="mt-2">
+
+      SEO-rich content that educates, engages, and converts. 
+      </p>
+        <h5 class="mt-3">
+      Influencer Marketing 
+      </h5>
+             <p class="mt-2">
+      Leverage trusted voices to expand reach and build brand trust. 
+      </p>
+
+       
+       `,
       image: "/assets/images/trust-credibility.png",
     },
   ];
@@ -103,9 +175,13 @@ export default function WhatWeDo3() {
                       {" "}
                       {contentData[activeIndex].subTitle}
                     </h4>
-                    <p className="title mt-3 fontWeight300">
-                      {contentData[activeIndex].description}
-                    </p>
+                    <div
+                      className="title mt-3 fontWeight300"
+                      dangerouslySetInnerHTML={{
+                        __html: contentData[activeIndex].description,
+                      }}
+                    ></div>
+
                     <div className="text-center mt-lg-5 mt-4">
                       <div className="imgBox">
                         <Image

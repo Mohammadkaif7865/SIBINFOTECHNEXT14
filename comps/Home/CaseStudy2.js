@@ -61,11 +61,11 @@ const CaseStudy2 = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h4 className="large_heading2 fontHeading2 fontWeight300  fontHeading2 text_red">
-              Client <span className="fontWeight600">Success Stories </span>
+            <h4 className="large_heading2 fontHeading2  fontWeight600  fontHeading2 text_red">
+           <span className="fontWeight300">Winning</span> Strategies & Tangible Results
             </h4>
             <p className="title fontWeight600 mt-3">
-              Our Results Speak for Themselves
+            See how we’ve helped brands grow. Our results speak for themselves! 
             </p>
           </div>
           <div className="col-lg-5">

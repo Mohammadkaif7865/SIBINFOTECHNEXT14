@@ -32,9 +32,7 @@ const Featured = () => {
           </div>
           <div className="col-lg-5">
             <p className="ps-lg-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat
-              tortor, cursus pretium odio nec, vestibulum congue lacus. Sed in
-              elit vulputate, pellentesque lacus quis, pulvinar ex.
+            Boost your brand’s credibility and visibility by getting published on leading news platforms. Our PR and outreach services help you earn high-authority backlinks, improve SEO rankings, and build instant trust with your audience 
             </p>
           </div>
         </div>

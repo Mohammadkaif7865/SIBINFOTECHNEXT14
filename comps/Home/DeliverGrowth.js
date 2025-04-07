@@ -28,8 +28,12 @@ const DeliverGrowth = () => {
     <section className="trusted">
       <div className="containerFull">
         <h4 className=" text-center large_heading2 fontHeading2 fontWeight600  fontHeading2 text_white">
-          Deliver Growth
+        Turning Clicks into Conversions.
         </h4>
+        <h5 className="mt-3 text-center text-white">
+        Optimized for Success. Engineered for Growth. 
+
+        </h5>
         <div className="row mt-5 deliver_growth_container">
           {marketingStats.map((value, index) => {
             return (
