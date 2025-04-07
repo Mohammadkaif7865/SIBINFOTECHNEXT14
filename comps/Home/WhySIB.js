@@ -50,11 +50,11 @@ const WhySIB = () => {
         <div className="row mt-5">
           <div className="col-lg-4 mb-3  position-relative">
             <div className="why_left_item">
-              <h4 className="fontHeading2 fontWeight300 text_red">
+              <h4 className="fontHeading2 heading fontWeight300 text_red">
                 Why <span className="fontWeight600">SIB Infotech</span>
               </h4>
-              <h5 className=" mt-3 large_heading2 fontHeading2 fontWeight600">
-                in a nutshell<span className="text_red">.</span>
+              <h5 className=" mt-3 sub_heading fontHeading2 fontWeight600">
+           Measurable Growth, Proven Results <span className="text_red">.</span>
               </h5>
               <div className="why_left_card mt-4 text-center">
                 <h4 className="fontHeading2 text-white fontWeight600 ">
@@ -76,7 +76,7 @@ const WhySIB = () => {
           <div className="col-lg-8">
             <div className="rightWhyBlock">
               <div className="headerRightWhy py-lg=3 bgGrey">
-                <h5 className="fontWeight500 text_red regular_heading ps-4">
+                <h5 className="fontWeight500 text_red small_heading ps-4">
                   What Sets Us Apart from Other Digital Agencies in India?
                 </h5>
                 <p className="mt-3 ps-4">
