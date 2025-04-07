@@ -24,21 +24,10 @@ const About2 = () => {
           </div>
           <div className="col-lg-6">
             <p>
-              SIB Infotech is an award-winning{" "}
-              <strong>top digital marketing company</strong>
-              based in Mumbai and New Delhi, India. Our expertise in{" "}
-              <strong>
-                Search Engine Optimization (SEO), PPC Management, Graphic
-                Design, Social Media Marketing, Website Design, and Branding
-              </strong>{" "}
-              helps businesses in India, the US, the UK, Canada, Australia, and
-              beyond enhance visibility, engagement, and conversions while
-              ensuring measurable results.
+           <strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in  <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI. 
             </p>
             <p className="mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              sapien sapien, imperdiet ac ultricies sit amet, faucibus in leo.
-              Praesent eget massa felis.
+            With 19+ years of experience, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition. 
             </p>
           </div>
         </div>
