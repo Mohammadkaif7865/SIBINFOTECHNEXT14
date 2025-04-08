@@ -11319,12 +11319,12 @@ font-size: 20px;
 }
 .case-study-swiper .swiper-slide {
   transition: all 0.5s ease-in-out;
-  padding: 20px;
+  padding: 15px;
 }
 
 .case-study-swiper .swiper-slide.swiper-slide-prev,
 .case-study-swiper .swiper-slide.swiper-slide-next {
-  scale: 0.8;
+  scale: 1;
 }
 .deliverGrowth {
   background-color: #000;
@@ -11848,6 +11848,17 @@ text-align: center;
   left: 173px;
   width: 168px;
 }
+.caseStudyBox{
+  border:1px solid #ccc;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
 .itemCaseStudyBox{
   background: url(/assets/images/box-design.svg) no-repeat;
   width: 100%;
@@ -11859,6 +11870,26 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;  
+}
+.caseStudyBox::before{
+  content: '';
+  position: absolute;
+  top: -110px;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border:70px solid #f1f1f1;
 }
 .dottedImg{
   width: 82px;
@@ -11895,8 +11926,8 @@ text-align: center;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
-  padding: 8px 30px;
-  font-size: 17px;
+  padding: 6px 30px;
+  font-size: 16px;
   font-weight: 600;
 }
 .caseStudyBottom p{
@@ -11919,4 +11950,7 @@ text-align: center;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+.fontSmall{
+  font-size: 15px;
 }

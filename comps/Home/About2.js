@@ -37,30 +37,34 @@ const About2 = () => {
               while delivering measurable ROI.
             </p>
             <p className="mt-2">
-              With 19+ years of experience, we leverage AI-driven marketing
-              strategies, data analytics, and result-oriented campaigns to
-              maximize growth. Whether you're a startup or an enterprise, our
-              customized digital marketing solutions ensure higher rankings,
-              increased traffic, and improved lead generation to help you stay
-              ahead of the competition.
+              With 19+ years of experience, we leverage{" "}
+              <strong>AI-driven marketing strategies, data analytics</strong>,
+              and result-oriented campaigns to maximize
+              {/* growth. Whether you're a
+              startup or an enterprise, our customized{" "}
+              <strong>digital marketing solutions</strong> ensure higher
+              rankings, increased traffic, and improved lead generation to help
+              you stay ahead of the competition. */}
             </p>
           </div>
         </div>
         <div className="row mt-lg-5 align-items-center">
           <div class="col-lg-6">
             <p>
-              As a Google Premier Partner, SIB Infotech ranks among the top 3%
-              of Google Ads agencies, recognized for delivering exceptional
-              Google Ads performance. Our expert team leverages exclusive access
-              to Google’s latest tools, product betas, and consumer insights,
-              ensuring higher ROI, lower ad costs, and maximum conversions for
-              your business.
+              As a <strong>Google Premier Partner</strong>, SIB Infotech ranks
+              among the top 3% of Google Ads agencies, recognized for delivering
+              exceptional <strong>Google Ads performance</strong>. Our expert
+              team leverages exclusive access to Google’s latest tools, product
+              betas, and consumer insights, ensuring higher ROI,{" "}
+              <strong>lower ad costs</strong>, and maximum conversions for your
+              business.
             </p>
             <p className="mt-2">
-              With dedicated support from Google, we craft data-driven,
-              high-performing campaigns tailored to your goals. Partner with
-              certified experts and experience data-driven, result-oriented
-              campaigns that fuel your business growth
+              With dedicated <strong>support from Google</strong>, we craft
+              data-driven, high-performing campaigns tailored to your goals.
+              {/* Partner with certified experts and experience{" "}
+              <strong>data-driven, result-oriented campaigns</strong> that fuel
+              your business growth */}
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1">
@@ -73,7 +77,7 @@ const About2 = () => {
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </div>
-                <h3 className="sub_heading text-white mt-2 fontWeight300">
+                <h3 className="meduim_heading text-white mt-2 fontWeight300">
                   Top 3%
                   <span className="fontWeight600">
                     {" "}

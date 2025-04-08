@@ -33,26 +33,48 @@ const CaseStudy2 = () => {
       image: "/assets/images/rnb-laptop.png",
     },
     {
-      title: "RNB Global University's",
-      highlight: "Organic Traffic Boost via SEO",
-      overview: `RNB Global University, a top institution offering diverse programs, aimed to enhance online visibility and attract more student inquiries. Our SEO strategy improved search ranking and organic traffic, positioning the university as a top choice for students. We also optimized content across key landing pages, boosting engagement and conversion rates.`,
+      title: "Crunky Funky’s E-commerce Success with",
+      highlight: "Social Media & Paid Ads",
+      overview: `Crunky Funky, a dynamic e-commerce brand, partnered with us to maximize revenue through social media marketing and paid advertising. Our strategic approach resulted in exceptional growth in both sales and audience engagement.`,
+      results: [
+        {
+          title: "261.99% ROAS",
+          desc: "Delivered 262% return on ad spend through optimized campaigns. ",
+          value: "128K",
+          note: "Instagram engaged followers",
+        },
+        {
+          title: "47% Lower Ad Costs",
+          desc: "Optimized campaigns for maximum ROI.",
+          value: "120K",
+          note: "Facebook engaged followers",
+        },
+      ],
+      services: "Social Media & Paid Ads",
+      logo: "/assets/images/crunky-funky-logo.png",
+      image: "/assets/images/crunky-funky.png",
+    },
+    {
+      title: "Archer Chess Academy’s Growth with",
+      highlight: "Facebook Ads",
+      overview: `Archer Chess Academy, a leading online chess training platform for kids, aimed to increase student enrollments while reducing advertising costs. Through a strategic Facebook Ads campaign, we successfully optimized lead generation and ad performance. `,
       results: [
         {
           title: "355% More Leads",
-          desc: "Tripled qualified leads with data driven strategies",
+          desc: "Tripled qualified leads with data-driven strategies.",
           value: "355%",
-          note: "Increase in quality Leads",
+          note: "Increase in Qualified Leads",
         },
         {
           title: "47% Lower Ad Costs",
           desc: "Optimized campaigns for maximum ROI.",
           value: "47%",
-          note: "Reduction in ad Leads",
+          note: "Reduction in Ad Costs",
         },
       ],
-      services: "Search Engine Optimization",
-      logo: "/assets/images/rnbgu-logo.svg",
-      image: "/assets/images/rnb-laptop.png",
+      services: "Facebook Ads",
+      logo: "/assets/images/crunky-funky-logo.png",
+      image: "/assets/images/crunky-funky.png",
     },
   ];
 
@@ -60,15 +82,13 @@ const CaseStudy2 = () => {
     <section>
       <div className="containerFull">
         <div className="row align-items-center">
-          <div className="col-lg-7">
+          <div className="col-lg-10">
             <h4 className="large_heading2 fontHeading2  fontWeight600  fontHeading2 text_red">
-           <span className="fontWeight300">Winning</span> Strategies & Tangible Results
+              <span className="fontWeight300">Winning</span> Strategies &
+              Tangible Results
             </h4>
-            <p className="title fontWeight600 mt-3">
-            See how we’ve helped brands grow. Our results speak for themselves! 
-            </p>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-2">
             <div className="text-lg-end">
               <Link href="#" className="btnCase">
                 Case Studies{" "}
@@ -76,8 +96,13 @@ const CaseStudy2 = () => {
             </div>
           </div>
         </div>
-
-        <div className="mt-5">
+        <p className="title fontWeight300 mt-2">
+          See how we’ve helped brands grow.{" "}
+          <span className="fontWeight600">
+            Our results speak for themselves!
+          </span>
+        </p>
+        <div className="mt-4">
           <Swiper
             spaceBetween={0}
             slidesPerView={1}
@@ -109,7 +134,7 @@ const CaseStudy2 = () => {
                         <h3 className="small_heading fontWeight600 mt-4">
                           Overview
                         </h3>
-                        <p className="mt-3 title">{study.overview}</p>
+                        <p className="mt-2 fontSmall">{study.overview}</p>
 
                         <div className="row mt-3 align-items-center">
                           <div className="col-lg-6 col-12">
@@ -119,10 +144,10 @@ const CaseStudy2 = () => {
 
                             {study.results.map((result, idx) => (
                               <div key={idx}>
-                                <h5 className="title mt-3 fontWeight600">
+                                <h5 className="title text_red mt-3 fontWeight600">
                                   {result.title}
                                 </h5>
-                                <p className="mt-2">{result.desc}</p>
+                                <p className="mt-2 fontSmall">{result.desc}</p>
                               </div>
                             ))}
                           </div>
