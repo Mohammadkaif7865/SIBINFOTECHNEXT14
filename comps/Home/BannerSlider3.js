@@ -30,7 +30,7 @@ const BannerSlider2 = () => {
                 <span>Since 2005.</span>
               </p>
 
-              <div className="mt-5">
+              <div className="mt-5  d-none d-lg-block">
                 <a className="btnHeader2" href="#">
                   <svg
                     className="small_heading"
@@ -49,7 +49,7 @@ const BannerSlider2 = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 offset-lg-2">
+            <div className="col-lg-4 offset-lg-2 mt-4 mt-lg-0">
               <div className="rightBanner3">
                 <div className="itemCounter3 shadow">
                   <div className="counterNumber">
@@ -64,7 +64,7 @@ const BannerSlider2 = () => {
                     </p>
                   </div>
                 </div>
-                <div className="itemCounter3 my-lg-5 shadow">
+                <div className="itemCounter3 my-2 my-lg-5 shadow">
                   <div className="counterNumber">
                     <h4 className="text-white">
                       {" "}

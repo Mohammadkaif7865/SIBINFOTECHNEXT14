@@ -123,7 +123,7 @@ const CaseStudy2 = () => {
               <SwiperSlide key={index}>
                 <div className="caseStudyBox shadow">
                   <div className="row">
-                    <div className="col-lg-8 col-12">
+                    <div className="col-lg-8 col-12  order-2 order-lg-1">
                       <div className="caseStudyLeft py-4 ps-4 pe-lg-5">
                         <h4 className="regular_heading fontWeight300">
                           {study.title}{" "}
@@ -187,11 +187,11 @@ const CaseStudy2 = () => {
                       </div>
                     </div>
 
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 col-12 order-1 order-lg-2">
                       <div className="caseStudyRight position-relative p-3 pt-0">
                         <div className="topRightCase d-flex justify-content-lg-between">
                           <div className="dottedImg"></div>
-                          <div className="caseStudyLogo mt-3">
+                          <div className="caseStudyLogo mt-3  me-0 ms-auto me-lg-auto">
                             <Image
                               width={150}
                               height={90}
@@ -201,11 +201,11 @@ const CaseStudy2 = () => {
                             />
                           </div>
                         </div>
-                        <div className="caseStudyBottom">
+                        <div className="caseStudyBottom mt-5">
                           <Link href="#">Services</Link>
                           <p className="fontWeight500">{study.services}</p>
                         </div>
-                        <div className="caseStudyImgWeb">
+                        <div className="caseStudyImgWeb ">
                           <Image
                             width={750}
                             height={300}

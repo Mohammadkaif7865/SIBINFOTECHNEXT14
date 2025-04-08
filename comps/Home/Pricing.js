@@ -30,6 +30,20 @@ const Pricing = () => {
               delay: 2500,
               disableOnInteraction: false,
             }}
+            breakpoints={{
+              576: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            }}
             loop={true}
             pagination={false}
             navigation={{

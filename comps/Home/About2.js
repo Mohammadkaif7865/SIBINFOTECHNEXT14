@@ -18,11 +18,11 @@ const About2 = () => {
               </span>
             </h4>
 
-            <h5 className="title_about_2 position-relative mt-5 right">
+            <h5 className="d-none d-lg-block title_about_2 position-relative mt-5 right">
               <a href="/contact-us">Let’s Grow Your Business?</a>
             </h5>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-4 ">
             <p>
               <strong> SIB Infotech</strong> is a{" "}
               <strong>leading digital marketing agency in India</strong>, with
@@ -47,8 +47,11 @@ const About2 = () => {
               you stay ahead of the competition. */}
             </p>
           </div>
+          <h5 className=" d-lg-none title_about_2 position-relative mt-4 right">
+              <a href="/contact-us">Let’s Grow Your Business?</a>
+            </h5>
         </div>
-        <div className="row mt-lg-5 align-items-center">
+        <div className="row mt-4 mt-lg-5 align-items-center">
           <div class="col-lg-6">
             <p>
               As a <strong>Google Premier Partner</strong>, SIB Infotech ranks
@@ -67,7 +70,7 @@ const About2 = () => {
               your business growth */}
             </p>
           </div>
-          <div className="col-lg-5 offset-lg-1">
+          <div className="col-lg-5 offset-lg-1  mt-4 mt-lg-0">
             <div className="cardAbout shadow bg-black rounded-4 d-flex align-items-center justify-content-between">
               <div>
                 <div className="text-warning">
