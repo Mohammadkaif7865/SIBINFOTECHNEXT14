@@ -66,8 +66,7 @@ const SIBPower = () => {
             </h4>
             <p className="mt-3 title">
               When Trust, Transparency And Accountability Truly Matter To You,
-              We Are Your Partner. When Trust, Transparency And Accountability
-              Truly Matter To You, We Are Your Partner.
+              We Are Your Partner.
             </p>
           </div>
           <div className="col-lg-8 ps-5">

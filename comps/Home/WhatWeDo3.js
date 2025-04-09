@@ -160,9 +160,9 @@ export default function WhatWeDo3() {
                   <div className="text-center mt-lg-5 mt-4">
                     <div className="imgBox">
                       <Image
-                        src="/assets/images/corporate-website-designing-company-in-mumbai.png"
-                        width={500}
-                        height={300}
+                        src="https://groupfractal.com/wp-content/uploads/2025/02/phone-seo-local-squares.png"
+                        width={600}
+                        height={400}
                         className="imgSize object-fit-contain"
                         alt="default image"
                       />

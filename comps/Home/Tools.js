@@ -58,10 +58,13 @@ const Tools = () => {
         <div className="row">
           <div className="col-lg-12">
             <h3 className="heading text-center text-white fontWeight300">
-              Some of the <span className="fontWeight600">Best SEO Tools</span>{" "}
+              Some of the{" "}
+              <span className="fontWeight600">
+                Best Digital Marketing Tools
+              </span>{" "}
               for{" "}
               <span className="fontWeight600">
-                Auditing & Monitoring Effective SEO{" "}
+                Auditing & Monitoring Effective Marketing{" "}
               </span>
               used by us.
             </h3>

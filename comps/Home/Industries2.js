@@ -11,37 +11,37 @@ const Industries = () => {
       title: "E-commerce &\n Retail ",
       img: "https://www.savit.in/assets/img/case-study/ecommerce.webp",
       description:
-        "Helping apparel brands enhance their online presence, increase customer engagement, and drive sales through customized digital marketing strategies.",
+        "As a leading e-commerce digital marketing agency, we help online stores boost visibility, increase conversions, and drive revenue through performance-driven SEO, PPC, and full-funnel strategies.",
     },
     {
       title: "Healthcare &\n Pharma ",
       img: "https://www.savit.in/assets/img/case-study/health-care.webp",
       description:
-        "Savit Interactive supports B2B companies in generating quality leads and increasing brand visibility with customized digital solutions that foster long-term business growth.",
+        "As a trusted healthcare digital marketing agency, we specialize in website design, SEO, and PPC campaigns tailored for hospitals, clinics, and medical professionals to build credibility and attract more patients. ",
     },
     {
       title: "Finance &\n Banking",
       img: "/assets/images/instagram-ads-business-objective.png",
       description:
-        "Revitalizing beauty brands by increasing customer loyalty, boosting social media engagement, and driving online sales through targeted digital campaigns.",
+        " As a finance digital marketing agency, we create secure and conversion-focused digital strategies to enhance online presence, generate qualified leads, and build trust for banks, NBFCs, and financial institutions.",
     },
     {
       title: "Education &\n E-learning",
       img: "https://www.savit.in/assets/img/case-study/education.webp",
       description:
-        "Supporting healthcare and pharmaceutical brands in improving online engagement, patient education, and increasing patient inquiries with effective digital marketing.",
+        " As an education digital marketing agency, we partner with schools, colleges, edtech platforms, and coaching institutes to increase student enrollment through smart SEO, paid campaigns, and engaging content.",
     },
     {
       title: "Beauty &\n Fashion",
       img: "https://www.savit.in/assets/img/case-study/fashion.webp",
       description:
-        "Savit Interactive helps educational institutions attract students and boost enrollment with SEO-driven strategies and impactful digital marketing that enhances visibility and engagement.",
+        " As a beauty and fashion digital marketing agency, we amplify your brand through compelling content, social media marketing, influencer collaborations, and e-commerce optimization to boost engagement and sales.",
     },
     {
       title: "Real Estate &\n Projects ",
       img: "https://www.savit.in/assets/img/case-study/b2b.webp",
       description:
-        "Optimizing eCommerce platforms by enhancing user experience, reducing cart abandonment, and driving sales with targeted SEO, PPC, and conversion-driven strategies.",
+        "As a real estate digital marketing agency, we generate high-quality leads for property developers, builders, and agents with hyper-targeted campaigns, local SEO, and landing pages that convert.",
     },
   ];
 

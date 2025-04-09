@@ -12173,4 +12173,5 @@ background: linear-gradient(135deg,  rgba(255,0,0,0.46) 0%,rgba(255,188,188,0.31
 .flip-box-back p{
   color: #fff;
   text-align: center;
+  font-size: 15px;
 }

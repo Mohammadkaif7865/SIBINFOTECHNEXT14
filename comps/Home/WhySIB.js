@@ -54,16 +54,16 @@ const WhySIB = () => {
                 Why <span className="fontWeight600">SIB Infotech</span>
               </h4>
               <h5 className=" mt-3 sub_heading fontHeading2 fontWeight600">
-           Measurable Growth, Proven Results <span className="text_red">.</span>
+                Measurable Growth, Proven Results{" "}
+                <span className="text_red">.</span>
               </h5>
               <div className="why_left_card mt-4 text-center">
                 <h4 className="fontHeading2 text-white fontWeight600 ">
-                  Seal the Sales Leak in Your Website Today!
+                  First Click to Final Conversion
                 </h4>
                 <p className="mt-3 text-white">
-                  We're your one-stop shop for innovative digital marketing
-                  strategies and creative web design-everything your business.
-                  needs to succeed.
+                  Powered by Social, Paid, Creative & Influencers — We Build
+                  Bold Brands, Drive Results, and Spark Meaningful Connections.
                 </p>
 
                 <button className="p-2 mt-4 w-100 btnPrimary text-white">

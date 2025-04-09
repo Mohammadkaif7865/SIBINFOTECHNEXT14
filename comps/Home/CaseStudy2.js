@@ -14,21 +14,20 @@ const CaseStudy2 = () => {
       title: "RNB Global University's",
       highlight: "Organic Traffic Boost via SEO",
       overview: `RNB Global University, a top institution offering diverse programs, aimed to enhance online visibility and attract more student inquiries. Our SEO strategy improved search ranking and organic traffic, positioning the university as a top choice for students. We also optimized content across key landing pages, boosting engagement and conversion rates.`,
+      resulDes: `Through consistent SEO efforts, we achieved a 64% increase in organic traffic and 138% growth in new users within 12 months.`,
       results: [
         {
-          title: "355% More Leads",
-          desc: "Tripled qualified leads with data driven strategies",
-          value: "355%",
-          note: "Increase in quality Leads",
+          title: "64% Increase in Organic Traffic ",
+          value: "64%",
+          note: "Increase in Organic Traffic",
         },
         {
-          title: "47% Lower Ad Costs",
-          desc: "Optimized campaigns for maximum ROI.",
-          value: "47%",
-          note: "Reduction in ad Leads",
+          title: "138% Increase in New Users ",
+          value: "138%",
+          note: "Increase in New Users",
         },
       ],
-      services: "Search Engine Optimization",
+      services: "Search Engine Optimization (SEO)",
       logo: "/assets/images/rnbgu-logo.svg",
       image: "/assets/images/rnb-laptop.png",
     },
@@ -36,21 +35,22 @@ const CaseStudy2 = () => {
       title: "Crunky Funky’s E-commerce Success with",
       highlight: "Social Media & Paid Ads",
       overview: `Crunky Funky, a dynamic e-commerce brand, partnered with us to maximize revenue through social media marketing and paid advertising. Our strategic approach resulted in exceptional growth in both sales and audience engagement.`,
+      resulDes: `Delivered 262 % return on ad spend through optimized campaigns in first six months.  Scaled Instagram following from scratch to 128K engaged users with strategic content and influencer collaborations in 12 months`,
       results: [
         {
-          title: "261.99% ROAS",
+          title: "262% ROAS",
           desc: "Delivered 262% return on ad spend through optimized campaigns. ",
           value: "128K",
           note: "Instagram engaged followers",
         },
         {
-          title: "47% Lower Ad Costs",
+          title: "128K Instagram engaged followers",
           desc: "Optimized campaigns for maximum ROI.",
-          value: "120K",
-          note: "Facebook engaged followers",
+          value: "262%",
+          note: "ROAS",
         },
       ],
-      services: "Social Media & Paid Ads",
+      services: "Google Ads & Instagram Marketing ",
       logo: "/assets/images/crunky-funky-logo.png",
       image: "/assets/images/crunky-funky.png",
     },
@@ -58,23 +58,43 @@ const CaseStudy2 = () => {
       title: "Archer Chess Academy’s Growth with",
       highlight: "Facebook Ads",
       overview: `Archer Chess Academy, a leading online chess training platform for kids, aimed to increase student enrollments while reducing advertising costs. Through a strategic Facebook Ads campaign, we successfully optimized lead generation and ad performance. `,
+      resulDes: `Achieved 3.5X more high-intent leads and reduced ad spend by nearly 50%, all while improving ROI—within just 6 months through precision-targeted, data-driven campaigns. `,
       results: [
         {
-          title: "355% More Leads",
-          desc: "Tripled qualified leads with data-driven strategies.",
+          title: "355% Increase in Qualified Leads ",
           value: "355%",
           note: "Increase in Qualified Leads",
         },
         {
-          title: "47% Lower Ad Costs",
-          desc: "Optimized campaigns for maximum ROI.",
+          title: "47% Reduction in Ad Costs ",
           value: "47%",
           note: "Reduction in Ad Costs",
         },
       ],
-      services: "Facebook Ads",
-      logo: "/assets/images/crunky-funky-logo.png",
+      services: "Facebook and Instagram Ads  ",
+      logo: "/assets/images/archer-logo.png",
       image: "/assets/images/crunky-funky.png",
+    },
+    {
+      title: "Kiana Skin Care’s Growth with",
+      highlight: "Facebook Marketing",
+      overview: `Kiana Skin Care, a premium skincare brand, partnered with us to expand its online presence and build a loyal community. Through a targeted Facebook marketing strategy, we successfully boosted brand awareness and engagement.`,
+      resulDes: `Built a thriving skincare community of 115K+ in just 12 months. Doubled content engagement over the past year.  `,
+      results: [
+        {
+          title: "115K+ Facebook Followers ",
+          value: "115K",
+          note: "Facebook Followers",
+        },
+        {
+          title: "2OO% Increase in Saved Posts & Shares  ",
+          value: "2OO%",
+          note: "Increase in Saved Posts & Shares ",
+        },
+      ],
+      services: "Facebook  Marketing ",
+      logo: "/assets/images/kiana-logo.png",
+      image: "/assets/images/case-study/kiana-skin-beaty.png",
     },
   ];
 
@@ -147,9 +167,10 @@ const CaseStudy2 = () => {
                                 <h5 className="title text_red mt-3 fontWeight600">
                                   {result.title}
                                 </h5>
-                                <p className="mt-2 fontSmall">{result.desc}</p>
+                                {/* <p className="mt-2 fontSmall">{result.desc}</p> */}
                               </div>
                             ))}
+                            <p className="mt-2 fontSmall">{study.resulDes}</p>
                           </div>
 
                           <div className="col-lg-6 col-12">

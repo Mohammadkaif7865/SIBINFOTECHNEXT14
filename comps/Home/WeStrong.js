@@ -96,7 +96,7 @@ const WeStrong = () => {
                     <Counter targetValue={20} />
                     <span className="sub_heading ps-2">+</span>
                   </h4>
-                  <p className="mt-1 text-white">Years of Experience</p>
+                  <p className="mt-1 text-white">Years of Expertise</p>
                 </div>
               </div>
               <div className="col-lg-6 mt-4">
