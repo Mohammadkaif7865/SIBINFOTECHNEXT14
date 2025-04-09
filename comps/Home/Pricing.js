@@ -40,7 +40,7 @@ const Pricing = () => {
                 spaceBetween: 30,
               },
               1024: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 40,
               },
             }}

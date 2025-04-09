@@ -34,7 +34,7 @@ import CaseStudy2 from "./CaseStudy2";
 import DeliverGrowth from "./DeliverGrowth";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
-import Industries from "./Industries";
+import Industries2 from "./Industries2";
 import Featured from "./Featured";
 import Presence from "./Presence";
 import Map from "./Map";
@@ -47,8 +47,8 @@ const HomePage = () => {
       <BannerSlider3 />
       <About2 />
       {/* <BannerSlider /> */}
-      <TrustedSection />
-      {/* <WhatWeDo2 /> */}
+      {/* <TrustedSection /> */}
+      <WeStrong />
 
       <WhatWeDo3 />
       <PartnerBadges2 />
@@ -63,7 +63,7 @@ const HomePage = () => {
       <DeliverGrowth />
       <OurPeople />
       <SIBPower />
-      <Industries />
+      <Industries2 />
       <div className="toolsHome">
         <Tools />
       </div>
