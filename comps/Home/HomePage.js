@@ -37,8 +37,7 @@ import OurPeople from "./OurPeople";
 import Tools from "./Tools";
 import Industries2 from "./Industries2";
 import Featured from "./Featured";
-import Presence from "./Presence";
-import Map from "./Map";
+
 
 const HomePage = () => {
   return (
