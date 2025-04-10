@@ -3,7 +3,7 @@ import WorkWebdesign from "../WorkWebdesign";
 
 const Madeby = () => {
   return (
-    <section className="bgGrey  overflowHidden position-relative">
+    <section className="overflowHidden bgGrey position-relative">
       <WorkWebdesign />
     </section>
   );

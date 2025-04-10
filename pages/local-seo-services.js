@@ -194,7 +194,7 @@ export default function LocalSeoServices() {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="icon_grid_lseo">
-                <div class="item">
+                <div className="item">
                   <div className="item_icon">
                     <Image
                       width={128}

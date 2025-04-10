@@ -1470,6 +1470,50 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 2px;
   }
+  .homeBannerText{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .btnHomeBanner2{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .strongBoxHome  {
+    display: flex;
+    flex-direction: column;
+    gap:20px
+    
+  }
+  .rightBoxStrong,.leftBoxStrong{
+    width: 100%;
+  }
+  .caseStudyImgWeb img {
+    max-width: 68%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.home_our_client .large_heading2{
+  font-size: 25px !important;
+}
+.itemClientLogo {
+  width: calc(100% / 3 - 20px);
+  margin: 0 10px;
+}
+.clientLogoBox {
+  margin: 5px 0;
+}
+.featured_home .large_heading2{
+  font-size: 25px !important;
+  text-align: center;
+}
+.mapItemFooter{
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.mapItemFooter .leftMapAddess{
+  width: 100%;
+  margin-bottom: 10px;
+}
 }
 
 /* For devices with a min-width of 767px */

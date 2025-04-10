@@ -235,7 +235,46 @@ const Faqs = () => {
   const [open2, setOpen2] = useState(null);
 
   return (
-   
+    // <section className="faqsBg">
+    //   <div className="containerFull">
+    //     <h3 className="sub_heading fontWeight500 text-white fontHeading">
+    //       Do You have Questions about Working with SEO Agency in India?{" "}
+    //       <br className="d-none d-lg-block" /> We’ve got your answers.
+    //     </h3>
+    //     <div className="row mt-4">
+    //       <div className="col-lg-6">
+    //         <Accordion defaultActiveKey="0">
+    //           {faqsDataLeft.map((items, i) => {
+    //             return (
+    //               <Accordion.Item className="rounded" key={i} eventKey={i}>
+    //                 <Accordion.Header>{items.question}</Accordion.Header>
+    //                 <Accordion.Body
+    //                   className="text-white"
+    //                   dangerouslySetInnerHTML={{ __html: items.answer }}
+    //                 ></Accordion.Body>
+    //               </Accordion.Item>
+    //             );
+    //           })}
+    //         </Accordion>
+    //       </div>
+    //       <div className="col-lg-6">
+    //         <Accordion defaultActiveKey="0">
+    //           {faqsDataRight.map((items, i) => {
+    //             return (
+    //               <Accordion.Item className="rounded" key={i} eventKey={i}>
+    //                 <Accordion.Header>{items.question}</Accordion.Header>
+    //                 <Accordion.Body
+    //                   className="text-white"
+    //                   dangerouslySetInnerHTML={{ __html: items.answer }}
+    //                 ></Accordion.Body>
+    //               </Accordion.Item>
+    //             );
+    //           })}
+    //         </Accordion>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
     <section>
       <div className="containerFull ">
         <h4 className="heading fontHeading mb-4 fontWeight600">Frequently Asked <span className="text_red"> Search Engine Optimization</span> Questions</h4>

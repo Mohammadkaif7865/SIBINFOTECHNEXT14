@@ -207,26 +207,26 @@ export default function GraphicDesigningServices() {
       <WhyChoose />
       <Technologies />
 
-      <section class="bgGrey">
-        <div class="containerFull">
-          <div class="row">
-            <div class="col-lg-8 graphic-help-left">
+      <section className="bgGrey">
+        <div className="containerFull">
+          <div className="row">
+            <div className="col-lg-8 graphic-help-left">
               <ul>
                 <li>
-                  <p class="customText">
+                  <p className="customText">
                     A good and best graphic design connects different audiences
                     and relate them to business in a specialway.
                   </p>
                 </li>
                 <li>
-                  <p class="customText">
+                  <p className="customText">
                     It is important for people to know how much professional
                     your business is, whether it is a business card or a
                     website, your professionalism shows through graphics.
                   </p>
                 </li>
                 <li>
-                  <p class="customText">
+                  <p className="customText">
                     A well created graphic design separates your business from
                     cluster of businesses and makes you unique. And a
                     distinctive design is a way to elaborate your products and
@@ -235,61 +235,61 @@ export default function GraphicDesigningServices() {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-4">
-              <div class="graphic-help-right fontHeading">
-                <h3 class="sub_heading">How can a</h3>
-                <h4 class="regular_heading my-2">
-                  Best <span class="text_red">Graphic Design</span>
+            <div className="col-lg-4">
+              <div className="graphic-help-right fontHeading">
+                <h3 className="sub_heading">How can a</h3>
+                <h4 className="regular_heading my-2">
+                  Best <span className="text_red">Graphic Design</span>
                 </h4>
-                <h2 class="sub_heading">help your Company?</h2>
+                <h2 className="sub_heading">help your Company?</h2>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <div class="containerFull">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="graphic-why-us-left fontHeading">
+        <div className="containerFull">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="graphic-why-us-left fontHeading">
                 <h3>Want to get your</h3>
                 <h3>
-                  <span class="text_red">brand noticed?</span>
+                  <span className="text_red">brand noticed?</span>
                 </h3>
                 <Link href="/contact-us">
-                  <span class="graphic-btn">Speak to our experts</span>
+                  <span className="graphic-btn">Speak to our experts</span>
                 </Link>
               </div>
             </div>
-            <div class="col-lg-8">
-              <div class="blueBg mt-lg-0 mt-4">
-                <h3 class="customHeading text-white">
+            <div className="col-lg-8">
+              <div className="blueBg mt-lg-0 mt-4">
+                <h3 className="customHeading text-white">
                   Why Choose <span className="text_red">SIB Infotech </span> for
                   Graphic Design?
                 </h3>
-                <p class="customText text-off-white">
+                <p className="customText text-off-white">
                   A team that supports you in every sense as per requirements
                   would obviously be your favourite!
                 </p>
                 <ul>
                   <li>
-                    <p class="customText text-white">
+                    <p className="customText text-white">
                       Cost efficient and best leading graphic designer.
                     </p>
                   </li>
                   <li>
-                    <p class="customText text-white">
+                    <p className="customText text-white">
                       We create powerful brand identities by offering
                       high-quality logo design services.
                     </p>
                   </li>
                   <li>
-                    <p class="customText text-white">
+                    <p className="customText text-white">
                       To Get logos done at attractive quality and rates
                     </p>
                   </li>
                   <li>
-                    <p class="customText text-white">
+                    <p className="customText text-white">
                       Our logo design experts have years of experience to use
                       creativity in a flexible way to fashion a logo the
                       reflects your brand message.

@@ -14,7 +14,7 @@ import Why from "./Why";
 import MarketingTools from "./MarketingTools";
 import Faqs from "./Faqs";
 
-const DigitalMarkServices = ({ service }) => {
+const DigitalMarkServices = () => {
   useEffect(() => {
     AOS.init();
     return () => {
@@ -24,16 +24,16 @@ const DigitalMarkServices = ({ service }) => {
 
   return (
     <>
-      <HeroDigitalMarketing service={service} />
-      <BestCompany service={service} />
-      <WeOffer service={service} />
-      <Benefits service={service} />
-      <OurSteps service={service} />
-      <SpecializedServices service={service} />
-      <Why service={service} />
-      <MarketingTools service={service} />
-
-      <Faqs service={service} />
+      <HeroDigitalMarketing />
+      <BestCompany />
+      <WeOffer />
+      <Benefits />
+      <OurSteps />
+      <SpecializedServices />
+      <Why />
+      <MarketingTools />
+    
+      <Faqs />
     </>
   );
 };

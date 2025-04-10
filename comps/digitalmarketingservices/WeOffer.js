@@ -39,7 +39,7 @@ const TabContent = ({ id, title, content }) => (
   </div>
 );
 
-const WeOffer = ({ service }) => {
+const WeOffer = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
@@ -99,7 +99,7 @@ const WeOffer = ({ service }) => {
                 Everything in Digital Marketing served under one roof
               </h5>
               <h4 className="sub_heading text-white fontWeight700  mt-3 fontHeading">
-                We offer Best Digital Marketing Services in {service?.region}
+                We offer Best Digital Marketing Services in India
               </h4>
             </div>
           </div>

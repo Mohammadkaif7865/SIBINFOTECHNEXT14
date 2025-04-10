@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-const Benefits = ({ service }) => {
+const Benefits = () => {
   const benefitsList = [
     "Budget-friendly",
     "Measurable Results",
@@ -23,23 +23,22 @@ const Benefits = ({ service }) => {
               <div className="leftBenefits">
                 <h4 className="sub_heading fontHeading fontWeight700">
                   Benefits of getting the Digital Marketing Services from the
-                  Best Digital Marketing Company in {service?.region}
+                  Best Digital Marketing Company in India
                 </h4>
                 <p className="mt-3">
-                  SIB Infotech, a leading Digital Marketing company in{" "}
-                  {service?.region}, offers businesses an easy-to-scale and
-                  adaptable approach to reaching their real customers. Not only
-                  is it more cost-effective compared to traditional marketing
-                  methods, but it also allows new businesses to quickly
-                  establish their brand reputation. With a higher engagement
-                  rate, huge return on investment, and wider reach, digital
-                  marketing provides unparalleled opportunities for growth. Its
-                  power lies in segmentation, automation, and personalization,
-                  enabling tailored messages to specific audiences at the right
-                  time. Moreover, digital marketing is highly measurable,
-                  allowing businesses to track and analyze their performance
-                  accurately, ensuring every marketing effort delivers tangible
-                  results.
+                  SIB Infotech, a leading Digital Marketing company in India,
+                  offers businesses an easy-to-scale and adaptable approach to
+                  reaching their real customers. Not only is it more
+                  cost-effective compared to traditional marketing methods, but
+                  it also allows new businesses to quickly establish their brand
+                  reputation. With a higher engagement rate, huge return on
+                  investment, and wider reach, digital marketing provides
+                  unparalleled opportunities for growth. Its power lies in
+                  segmentation, automation, and personalization, enabling
+                  tailored messages to specific audiences at the right time.
+                  Moreover, digital marketing is highly measurable, allowing
+                  businesses to track and analyze their performance accurately,
+                  ensuring every marketing effort delivers tangible results.
                 </p>
               </div>
             </div>

@@ -60,7 +60,7 @@ const WhyChoose = () => {
               />
             </div>
           </div> */}
-          <div class="col-lg-12  order-1 order-lg-2">
+          <div className="col-lg-12  order-1 order-lg-2">
             <h4 className="sub_heading fontHeading fontWeight700">
               Why
               <span className="text_red"> Graphic Design </span> is Important

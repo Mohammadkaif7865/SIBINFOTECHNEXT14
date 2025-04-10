@@ -328,7 +328,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.savit.in",
+        hostname: "savit.in",
       },
     ],
   },
