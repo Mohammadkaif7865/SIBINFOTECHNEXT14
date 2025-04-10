@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Testimonials from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function SliderTestimonials() {
   const testimonials = [

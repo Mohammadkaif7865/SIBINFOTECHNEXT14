@@ -19,7 +19,7 @@ const Cta2 = () => {
                 Your Brand Name, Our Services
               </p>
 
-              <div className="position-relative z-3 mt-5">
+              <div className="position-relative z-3 mt-5 d-flex justify-content-center justify-content-md-start">
                 <a
                   href="#contact"
                   className="p-2 px-4 w-100 btnPrimary text-white"
@@ -30,7 +30,7 @@ const Cta2 = () => {
             </div>
           </div>
           <div className="col-lg-4 d-none d-lg-block">
-            <div className="content d-flex w-100 z-3 position-relative">
+            <div className="content d-flex w-100 z-3 position-relative  ">
               <img className="" src="/assets/images/success-arrow.svg" alt="" />
               {/* <div>
                 <p>Your Brand Name</p>
