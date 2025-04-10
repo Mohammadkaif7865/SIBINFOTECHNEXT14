@@ -67,7 +67,7 @@ const BrandBuild = () => {
             <div className="d-flex">
               <Image
                 className="w-75 h-100 mx-auto"
-                src="https://groupfractal.com/wp-content/uploads/2025/02/phone-seo-local-squares.png"
+                src="/assets/images/phone-seo-local-squares.png"
                 width={500}
                 height={400}
                 alt=""

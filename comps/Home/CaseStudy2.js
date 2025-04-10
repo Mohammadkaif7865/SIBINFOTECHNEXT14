@@ -111,8 +111,8 @@ const CaseStudy2 = () => {
               Results
             </h4>
           </div>
-          <div className="col-lg-2">
-            <div className="text-lg-end">
+          <div className="col-lg-2 ">
+            <div className="text-lg-end d-none d-lg-block">
               <Link href="#" className="btnCase">
                 Case Studies{" "}
               </Link>
@@ -125,6 +125,11 @@ const CaseStudy2 = () => {
             Our results speak for themselves!
           </span>
         </p>
+        <div className="text-lg-end d-lg-none  mt-4">
+              <Link href="#" className="btnCase">
+                Case Studies{" "}
+              </Link>
+        </div>
         <div className="mt-4">
           <Swiper
             spaceBetween={0}

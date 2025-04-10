@@ -19,7 +19,7 @@ const WeStrong = () => {
               </strong>{" "}
               that Designs, Develops & Delivers.
             </p>
-            <div className="strongBoxHome mt-lg-5 mt-4">
+            <div className="strongBoxHome  mt-lg-5 mt-4">
               <div className="glossyBorder"></div>
               <div className="glossyBorder2"></div>
               <div className="glossyBorder3"></div>
@@ -54,7 +54,7 @@ const WeStrong = () => {
           </div>
           <div className="col-lg-5 ps-lg-5 mt-4">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-md-6 col-lg-6 mb-3">
                 <div className="boxStronItegHome position-relative">
                   <div className="glossyBorder"></div>
                   <div className="glossyBorder2"></div>
@@ -69,7 +69,7 @@ const WeStrong = () => {
                   <p className="mt-1 text-white">Satisfied Customers</p>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-md-6 col-lg-6 mb-3 ">
                 <div className="boxStronItegHome">
                   <div className="glossyBorder"></div>
                   <div className="glossyBorder2"></div>
@@ -84,7 +84,7 @@ const WeStrong = () => {
                   <p className="mt-1 text-white">Projects Delivered</p>
                 </div>
               </div>
-              <div className="col-lg-6 mt-4">
+              <div className="col-md-6 col-lg-6 mb-3">
                 <div className="boxStronItegHome">
                   <div className="glossyBorder"></div>
                   <div className="glossyBorder2"></div>
@@ -99,7 +99,7 @@ const WeStrong = () => {
                   <p className="mt-1 text-white">Years of Expertise</p>
                 </div>
               </div>
-              <div className="col-lg-6 mt-4">
+              <div className="col-md-6 col-lg-6 mb-3">
                 <div className="boxStronItegHome">
                   <div className="glossyBorder"></div>
                   <div className="glossyBorder2"></div>

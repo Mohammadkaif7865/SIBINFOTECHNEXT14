@@ -40,7 +40,7 @@ const PartnerBadges = () => {
               clients.
             </p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 mt-4 mt-lg-0">
             <div className="googleParterLogoBox">
               <Image
                 width={500}
@@ -63,7 +63,19 @@ const PartnerBadges = () => {
               navigation={false}
               pagination={false}
               autoplay={{ delay: 3000 }}
-              loop
+
+              loop={`true`}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 3,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
             >
               {partnerBadges.map((badge, index) => (
                 <SwiperSlide key={index}>

@@ -55,7 +55,7 @@ const Testimonials = () => {
             <SliderTestimonials />
           </div>
         </div>
-        <div className="row mt-lg-4  mt-4">
+        <div className="row mt-lg-4  mt-md-4">
           {testimonialLogos.map((logo, index) => (
             <div className="col-lg-2 col-6 mb-4" key={index}>
               <div className="logoTestimonial position-relative">

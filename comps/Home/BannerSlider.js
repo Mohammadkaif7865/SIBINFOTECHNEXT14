@@ -18,13 +18,13 @@ const BannerSlider = () => {
           for{" "}
           <span className="fontWeight700 text_red">Fast-Growing Brands</span>
         </h2>
-        <p className="title mt-3 text-center text-white">
+        <p className="title mt-3 text-center text-white  w-75 mx-auto w-lg-100">
           Your <strong>Growth Partner for SEO, PPC & Social Media</strong>{" "}
           Success – Boost Your <strong>Online Presence</strong>
           <br className="d-none d-lg-block" /> with Data-Driven Digital
           Marketing Since 2005.
         </p>
-        <div className="text-center mt-lg-5">
+        <div className="text-center mt-4 mt-lg-5">
           <Link href="/contact" className="btnHomeBanner">
             Start Growing Now
             <span>
@@ -40,7 +40,7 @@ const BannerSlider = () => {
         </div>
         <div className="counterHome text-center mt-lg-5 mt-4">
           <div className="row justify-content-center">
-            <div className="col-lg-3">
+            <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
                   <Counter targetValue={617} />
@@ -51,7 +51,7 @@ const BannerSlider = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className=" col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
                   <Counter targetValue={617} />
@@ -62,7 +62,7 @@ const BannerSlider = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className=" col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
                   <Counter targetValue={617} />

@@ -48,10 +48,8 @@ const HomePage = () => {
       {/* <BannerSlider /> */}
       {/* <TrustedSection /> */}
       <WeStrong />
-
       <WhatWeDo3 />
       <PartnerBadges2 />
-      {/* <Counter /> */}
       <CaseStudy2 />
       <Madeby />
       <OurClients />
@@ -60,6 +58,16 @@ const HomePage = () => {
       <BrandBuild />
       <WhySIB />
       <Conversions />
+
+      {/* <Counter /> */}
+      {/* 
+      
+      
+     
+  
+     
+    
+     
       <OurPeople />
       <SIBPower />
       <Industries2 />
@@ -68,7 +76,8 @@ const HomePage = () => {
       </div>
       <Featured />
       <Pricing />
-      <Map />
+      <Map /> */}
+
       {/* <Presence/> */}
 
       {/* <Expertise />

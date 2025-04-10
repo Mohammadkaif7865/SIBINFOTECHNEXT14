@@ -71,16 +71,16 @@ const About2 = () => {
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1  mt-4 mt-lg-0">
-            <div className="cardAbout shadow bg-black rounded-4 d-flex align-items-center justify-content-between">
+            <div className="cardAbout shadow bg-black rounded-4 d-flex flex-wrap gap-3 flex-md-nowrap align-items-center justify-content-center">
               <div>
-                <div className="text-warning">
+                <div className="text-warning text-center text-md-start">
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </div>
-                <h3 className="meduim_heading text-white mt-2 fontWeight300">
+                <h3 className="meduim_heading text-white mt-2 text-center text-md-start fontWeight300">
                   Top 3%
                   <span className="fontWeight600">
                     {" "}
