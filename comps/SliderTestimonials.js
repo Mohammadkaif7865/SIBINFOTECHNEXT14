@@ -1,10 +1,8 @@
-
 import Image from "next/image";
 import React from "react";
 import Testimonials from "react-slick";
 
 export default function SliderTestimonials() {
-
   const testimonials = [
     {
       userImg: "/assets/images/timothy-scafaria.jpeg",
@@ -90,7 +88,10 @@ export default function SliderTestimonials() {
         {/* Mapping over the testimonials array */}
         {testimonials.map((testimonial, index) => (
           <div className="itemTestimonial" key={index}>
-            <div className="inneritemTestimonial positive-relative shadow">
+            <div className="inneritemTestimonial position-relative shadow">
+              <div className="glossyBorder4"></div>
+              <div className="glossyBorder5"></div>
+              <div className="glossyBorder6"></div>
               <div className="testimonialItemHeader">
                 <h3 className="meduim_heading fontWeight700 fontHeading">
                   {testimonial.heading}

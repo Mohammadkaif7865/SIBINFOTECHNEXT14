@@ -1,108 +1,82 @@
-"use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/parallax";
-
-// import required modules
-import { Autoplay, Navigation, Pagination, Parallax } from "swiper/modules";
-import Image from "next/image";
+import React from "react";
+import Link from "next/link";
+import Counter from "../CounterHome";
 
 const BannerSlider = () => {
   return (
-    <div className="banner_swiper_main">
-      <Swiper
-        spaceBetween={0}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        speed={2300}
-        loop={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={false}
-        parallax={true}
-        modules={[Autoplay, Pagination, Navigation, Parallax]}
-        className="banner_swiper"
-      >
-        {/* <SwiperSlide>
-          <div className="banner-slide slide-1" data-swiper-parallax="-100">
-            <div className="containerFull">
-              <div className="inner_slide">
-                <div className="row ">
-                  <div data-swiper-parallax="-200">
-                    <h1 className="fontHeading2 banner-heading">
-                      Guaranteed <br />
-                      <span>Visibility</span>
-                    </h1>
-
-                    <p className="mt-4 banner_dis">
-                      From SEO to Google Ads, We drive growth <br />
-                      with data-driven strategies tailored to your business.
-                    </p>
-
-                    <div className="mt-5">
-                      <a className="fancy" href="#">
-                        <span className="top-key"></span>
-                        <span className="text">Discover More</span>
-                        <span className="bottom-key-1"></span>
-                        <span className="bottom-key-2"></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+    <section className="homeBanner">
+      <div className="containerFull">
+        <div className="text-center">
+          <span className="homeBannerText text-center">
+            India’s Premier <strong>Digital Marketing Agency</strong>
+          </span>
+        </div>
+        <h1 className="heading mb-3 mt-4 text-center fontWeight700 text-white">
+          Delivering Smart Digital Marketing Solutions
+        </h1>
+        <h2 className="sub_heading text-center text-white mt-1">
+          for{" "}
+          <span className="fontWeight700 text_red">Fast-Growing Brands</span>
+        </h2>
+        <p className="title mt-3 text-center text-white">
+          Your <strong>Growth Partner for SEO, PPC & Social Media</strong>{" "}
+          Success – Boost Your <strong>Online Presence</strong>
+          <br className="d-none d-lg-block" /> with Data-Driven Digital
+          Marketing Since 2005.
+        </p>
+        <div className="text-center mt-lg-5">
+          <Link href="/contact" className="btnHomeBanner">
+            Start Growing Now
+            <span>
+              <i className="fa fa-arrow-right"></i>
+            </span>
+          </Link>
+          <Link href="/contact" className="btnHomeBanner2">
+            Explore Services
+            <span>
+              <i className="fa fa-arrow-right"></i>
+            </span>
+          </Link>
+        </div>
+        <div className="counterHome text-center mt-lg-5 mt-4">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="counterBannerHome text-center">
+                <h4 className="large_heading2 mt-3 fontWeight700 text-white">
+                  <Counter targetValue={617} />
+                  <span className="sub_heading ps-2">%</span>
+                </h4>
+                <p className="mt-1 text-white fontSmall">
+                  Increase in <strong>Organic Traffic</strong>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="counterBannerHome text-center">
+                <h4 className="large_heading2 mt-3 fontWeight700 text-white">
+                  <Counter targetValue={617} />
+                  <span className="sub_heading ps-2">%</span>
+                </h4>
+                <p className="mt-1 text-white fontSmall">
+                  Increase in <strong>Organic Traffic</strong>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="counterBannerHome text-center">
+                <h4 className="large_heading2 mt-3 fontWeight700 text-white">
+                  <Counter targetValue={617} />
+                  <span className="sub_heading ps-2">%</span>
+                </h4>
+                <p className="mt-1 text-white fontSmall">
+                  Increase in <strong>Organic Traffic</strong>
+                </p>
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
-
-        <SwiperSlide>
-          <div className="banner-slide slide-2" data-swiper-parallax="-100">
-            <div className="containerFull">
-              <div className="inner_slide w-100 ">
-                <div className="row  w-100 pt-5">
-                  <div data-swiper-parallax="-200" className="col-lg-6">
-                    <h1 className="fontHeading2 banner-heading">
-                      Guaranteed <br />
-                      <span>Visibility</span>
-                    </h1>
-                    <p className="mt-4 banner_dis">
-                      From SEO to Google Ads, We drive growth <br />
-                      with data-driven strategies tailored to your business.
-                    </p>
-                    <div className="mt-5">
-                      <a className="fancy" href="#">
-                        <span className="top-key"></span>
-                        <span className="text">Discover More</span>
-                        <span className="bottom-key-1"></span>
-                        <span className="bottom-key-2"></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <h4 className="heading text-white fontHeading2">
-                      We Deliver Growth
-                    </h4>
-
-                    <ul className="banner_ul_growth  mt-4">
-                      <li><Image width="50" height="50" src="/assets/images/icons/banner/google-rank.png" alt=""/> Get Ranked on Google</li>
-                      <li > <Image width="50" height="50" src="/assets/images/icons/banner/grow.png" alt=""/> Drive Instant Growth</li>
-                      <li> <Image width="50" height="50" src="/assets/images/icons/banner/online-presence.png" alt=""/> Build a Strong Digital Presence</li>
-                      <li> <Image width="50" height="50" src="/assets/images/icons/banner/dependability.png" alt=""/> Build Trust & Credibility</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-
-      
-    </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
