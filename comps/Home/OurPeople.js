@@ -35,7 +35,7 @@ const OurPeople = () => {
               </Link>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-5 mt-lg-0">
             <div className="rightImgBox">
               <Image
                 width={500}

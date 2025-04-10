@@ -54,22 +54,22 @@ const BannerSlider = () => {
             <div className=" col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={617} />
+                  <Counter targetValue={315} />
                   <span className="sub_heading ps-2">%</span>
                 </h4>
                 <p className="mt-1 text-white fontSmall">
-                  Increase in <strong>Organic Traffic</strong>
+                  Increase in <strong>Qualified Leads</strong>
                 </p>
               </div>
             </div>
             <div className=" col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={617} />
+                  <Counter targetValue={344} />
                   <span className="sub_heading ps-2">%</span>
                 </h4>
                 <p className="mt-1 text-white fontSmall">
-                  Increase in <strong>Organic Traffic</strong>
+                  Increase in <strong>Sales Growth YOY</strong>
                 </p>
               </div>
             </div>

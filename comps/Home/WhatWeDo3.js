@@ -122,12 +122,12 @@ export default function WhatWeDo3() {
   return (
     <section id="viewPort" ref={viewPortRef}>
       <div className="containerFull">
-        <h3 className="large_heading2 fontHeading2 text-center fontWeight700 text_red">
+        <p className="title text-center">
           What We Do
-        </h3>
-        <p className="mt-3 title text-center">
-          Our Revenue Driven <strong>Digital Marketing Services</strong>
         </p>
+        <h4 className="mt-3  large_heading2 fontHeading2 text-center fontWeight600 text_red">
+          Our Revenue Driven <strong>Digital Marketing Services</strong>
+        </h4>
         <div className="row mt-lg-5">
           <div className="col-lg-6">
             <div className="leftWhatMenu">

@@ -21,7 +21,7 @@ const Featured = () => {
   ];
 
   return (
-    <section>
+    <section className="featured_home">
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
@@ -30,8 +30,8 @@ const Featured = () => {
               <span className="fontWeight600">Top News Websites</span>
             </h3>
           </div>
-          <div className="col-lg-5">
-            <p className="ps-lg-5">
+          <div className="col-lg-5 mt-3 mt-lg-0">
+            <p className="ps-lg-5 text-center text-lg-start">
             Boost your brand’s credibility and visibility by getting published on leading news platforms. Our PR and outreach services help you earn high-authority backlinks, improve SEO rankings, and build instant trust with your audience 
             </p>
           </div>

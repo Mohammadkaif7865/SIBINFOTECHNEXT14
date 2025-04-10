@@ -63,8 +63,12 @@ const Industries = () => {
             disableOnInteraction: false,
           }}
           breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
             576: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 20,
             },
             768: {

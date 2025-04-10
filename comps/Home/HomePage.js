@@ -58,6 +58,15 @@ const HomePage = () => {
       <BrandBuild />
       <WhySIB />
       <Conversions />
+      <OurPeople />
+      <SIBPower />
+      <Industries2 />
+      <div className="toolsHome">
+        <Tools />
+      </div>
+      <Featured />
+      <Pricing />
+      {/* <Map /> */}
 
       {/* <Counter /> */}
       {/* 
@@ -68,15 +77,13 @@ const HomePage = () => {
      
     
      
-      <OurPeople />
-      <SIBPower />
-      <Industries2 />
-      <div className="toolsHome">
-        <Tools />
-      </div>
-      <Featured />
-      <Pricing />
-      <Map /> */}
+  
+     
+      
+      
+    
+      
+    */}
 
       {/* <Presence/> */}
 

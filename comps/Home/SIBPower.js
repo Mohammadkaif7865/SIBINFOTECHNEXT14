@@ -61,7 +61,7 @@ const SIBPower = () => {
         <div className="row align-items-center">
           <div className="col-lg-4">
             <h4 className="large_heading2 fontWeight300 fontHeading2 text_red">
-              The Power of <br />{" "}
+              The Power of <br className="d-none d-lg-block" />{" "}
               <span className="fontWeight600">SIB Infotech</span>
             </h4>
             <p className="mt-3 title">
@@ -69,7 +69,7 @@ const SIBPower = () => {
               We Are Your Partner.
             </p>
           </div>
-          <div className="col-lg-8 ps-5">
+          <div className="col-lg-8 ps-lg-5">
             <p>
               When{" "}
               <strong>growth, innovation, and measurable results matter</strong>
@@ -78,7 +78,7 @@ const SIBPower = () => {
               success.
             </p>
             <div className=" mt-4 position-relative">
-              <button class="power_prev">
+              <button class="power_prev d-none d-lg-block">
                 <i class="fa fa-chevron-left"></i>
               </button>
               <Swiper
@@ -88,6 +88,18 @@ const SIBPower = () => {
                 autoplay={{
                   delay: 2500,
                   disableOnInteraction: false,
+                }}
+                breakpoints={{
+                  320: {
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    slidesPerView: 1,
+                  },
+                  992: {
+                    slidesPerView: 2,
+                  },
+                  
                 }}
                 pagination={false}
                 navigation={{
@@ -118,7 +130,7 @@ const SIBPower = () => {
                   );
                 })}
               </Swiper>
-              <button class="power_next">
+              <button class="power_next d-none d-lg-block">
                 <i class="fa fa-chevron-right"></i>
               </button>
             </div>

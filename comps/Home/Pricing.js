@@ -31,6 +31,10 @@ const Pricing = () => {
               disableOnInteraction: false,
             }}
             breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
               576: {
                 slidesPerView: 2,
                 spaceBetween: 20,
@@ -67,6 +71,7 @@ const Pricing = () => {
                       width={350}
                       height={150}
                       src="/assets/images/pricing/seo-packeges.jpg"
+
                       alt=""
                     />
                   </div>
@@ -105,7 +110,7 @@ const Pricing = () => {
                       className="w-100"
                       width={350}
                       height={150}
-                      src="/assets/images/pricing/seo-packeges.jpg"
+                      src="/assets/images/packeges/PPC-Package.jpg"
                       alt=""
                     />
                   </div>
@@ -145,7 +150,7 @@ const Pricing = () => {
                       className="w-100"
                       width={350}
                       height={150}
-                      src="/assets/images/pricing/seo-packeges.jpg"
+                      src="/assets/images/packeges/Social-media-package.jpg"
                       alt=""
                     />
                   </div>
@@ -185,7 +190,7 @@ const Pricing = () => {
                       className="w-100"
                       width={350}
                       height={150}
-                      src="/assets/images/pricing/seo-packeges.jpg"
+                      src="/assets/images/packeges/Website-designing-Package.jpg"
                       alt=""
                     />
                   </div>

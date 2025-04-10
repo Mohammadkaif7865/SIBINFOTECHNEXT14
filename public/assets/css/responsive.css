@@ -1502,6 +1502,18 @@
 .clientLogoBox {
   margin: 5px 0;
 }
+.featured_home .large_heading2{
+  font-size: 25px !important;
+  text-align: center;
+}
+.mapItemFooter{
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.mapItemFooter .leftMapAddess{
+  width: 100%;
+  margin-bottom: 10px;
+}
 }
 
 /* For devices with a min-width of 767px */
