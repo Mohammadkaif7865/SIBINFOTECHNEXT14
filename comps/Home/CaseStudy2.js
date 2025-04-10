@@ -103,9 +103,12 @@ const CaseStudy2 = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-10">
-            <h4 className="large_heading2 fontHeading2  fontWeight600  fontHeading2 text_red">
-              <span className="fontWeight300">Winning</span> Strategies &
-              Tangible Results
+            <h4 className="large_heading2 fontHeading2  fontWeight300">
+              Winning{" "}
+              <span className="fontWeight600 text_red">
+                Strategies & Tangible
+              </span>{" "}
+              Results
             </h4>
           </div>
           <div className="col-lg-2">
@@ -212,7 +215,7 @@ const CaseStudy2 = () => {
                       <div className="caseStudyRight position-relative p-3 pt-0">
                         <div className="topRightCase d-flex justify-content-lg-between">
                           <div className="dottedImg"></div>
-                          <div className="caseStudyLogo mt-3  me-0 ms-auto me-lg-auto">
+                          <div className="caseStudyLogo mt-3  me-0 ms-auto me-lg-0">
                             <Image
                               width={150}
                               height={90}

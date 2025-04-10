@@ -195,8 +195,8 @@ export default function WorkWebdesign() {
         <img src="assets/images/icons/circle.svg" alt="Circle Icon" />
       </div>
       <div className="containerFull">
-        <h3 className="text-center large_heading2 fontHeading2 fontWeight300 text_red">
-          Made by <span className="fontWeight600">SIB Infotech</span>
+        <h3 className="text-center large_heading2 fontHeading2 fontWeight300">
+          Made by <span className="fontWeight600 text_red">SIB Infotech</span>
         </h3>
         <div className="space"></div>
         <div className="portfolioHome">

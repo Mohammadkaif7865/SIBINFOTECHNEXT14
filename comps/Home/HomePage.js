@@ -29,9 +29,10 @@ import Cta from "./Cta";
 import BrandBuild from "./BrandBuild";
 import Pricing from "./Pricing";
 import WhySIB from "./WhySIB";
+import Conversions from "./Conversions";
 import SIBPower from "./SIBPower";
 import CaseStudy2 from "./CaseStudy2";
-import DeliverGrowth from "./DeliverGrowth";
+// import DeliverGrowth from "./DeliverGrowth";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
 import Industries2 from "./Industries2";
@@ -42,9 +43,7 @@ import Map from "./Map";
 const HomePage = () => {
   return (
     <>
-      {/* <HomeHero />
-      <BannerLogos /> */}
-      <BannerSlider3 />
+      <BannerSlider />
       <About2 />
       {/* <BannerSlider /> */}
       {/* <TrustedSection /> */}
@@ -60,7 +59,7 @@ const HomePage = () => {
       <Cta />
       <BrandBuild />
       <WhySIB />
-      <DeliverGrowth />
+      <Conversions />
       <OurPeople />
       <SIBPower />
       <Industries2 />

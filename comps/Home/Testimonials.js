@@ -1,87 +1,74 @@
 import React from "react";
 import SliderTestimonials from "../SliderTestimonials";
 import Image from "next/image";
+import Link from "next/link";
+
+const testimonialLogos = [
+  "/assets/images/logos/google.png",
+  "/assets/images/logos/clutch.png",
+  "/assets/images/logos/trust-pilot.png",
+  "/assets/images/logos/goodfirms.png",
+  "/assets/images/logos/facebook.png",
+  "/assets/images/logos/just-dial.png",
+];
 
 const Testimonials = () => {
   return (
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-          <h4 className="heading fontHeading2 text-center text_red fontWeight300">
-            What our <span className="fontWeight600">Clients Say</span> about us
+          <h4 className="heading fontHeading2 text-center fontWeight300">
+            What our <span className="fontWeight600 text_red">Clients Say</span>{" "}
+            about us
           </h4>
           <p className="small_heading fontWeight300 text-center  mt-3 ">
-            <span className="fontWeight600">
-              Digital Marketing and SEO Agency
-            </span>{" "}
-            Reviews about SIB Infotech
+            We are five star rated{" "}
+            <span className="fontWeight600">Digital Agency</span>
           </p>
         </div>
 
         <div className="row mt-4 align-items-center">
           <div className="col-lg-4">
-            <h4 className="sub_heading fontHeading2  fontWeight600">
-              We are five star rated Digital Agency
-            </h4>
-            <div
-              className="small_heading mt-4"
-              style={{
-                color: "var(--red-color)",
-              }}
-            >
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span className="text-black fontWeight600 ms-2"> 5.0</span>
-            </div>
-            <div className="img_grid_review mt-4">
-              <div className="">
+            <div className="testimonialLeftBox shadow-lg">
+              <h4 className="large_heading3 text-white fontWeight600 text-center">
+                5.0
+              </h4>
+              <div className="starIcontesti">
                 <Image
-                  className=""
-                  width={150}
-                  height={150}
-                  quality={100}
-                  alt="Meta Partner Company"
-                  src="/assets/images/meta-partner.jpg"
+                  width="300"
+                  height="300"
+                  src="/assets/images/icons/star.svg"
                 />
               </div>
-              <div className="">
-                <Image
-                  className=""
-                  width={150}
-                  height={150}
-                  quality={100}
-                  alt="clutch Partner Company"
-                  src="/assets/images/clutch.png"
-                />
-              </div>
-              <div className="">
-                <Image
-                  className=""
-                  width={150}
-                  height={150}
-                  quality={100}
-                  alt="Google Partner Company"
-                  src="/assets/images/google-logo.png"
-                />
-              </div>
-              <div className="">
-                <Image
-                  className=""
-                  width={100}
-                  height={100}
-                  quality={100}
-                  alt="Trustpilot Partner Company"
-                  src="/assets/images/trustpilot.jpg"
-                />
+              <p className="title fontWeight400 mt-2 text-center text-white">
+                Digital Marketing and SEO Agency Reviews about SIB Infotech
+              </p>
+              <div className="text-center">
+                <Link href="/contact">
+                  Contact Now <span className="fa fa-arrow-right"></span>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-8">
             <SliderTestimonials />
           </div>
+        </div>
+        <div className="row mt-4">
+          {testimonialLogos.map((logo, index) => (
+            <div className="col-lg-2" key={index}>
+              <div className="logoTestimonial position-relative">
+                <div className="glossyBorder7"></div>
+                <div className="glossyBorder8"></div>
+                <Image
+                  width={400}
+                  height={400}
+                  src={logo}
+                  alt={`Testimonial Logo ${index + 1}`}
+                />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

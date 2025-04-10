@@ -6,151 +6,81 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
-import Link from "next/link";
 
+const partnerBadges = [
+  {
+    src: "/assets/images/bing-add-microsoft.png",
+    alt: "Bing Add",
+  },
+  {
+    src: "/assets/images/meta-business-partner-logo.png",
+    alt: "Meta Business Partner",
+  },
+  {
+    src: "/assets/images/shopify-partner-logo.png",
+    alt: "Shopify Partner",
+  },
+];
 const PartnerBadges = () => {
   return (
-    <section className="trusted">
+    <section className="homeBanner">
       <div className="containerFull">
-        <div className="row align-items-center">
-          <div className="col-lg-5">
-            <h4 className="large_heading2 fontHeading2 fontWeight300 text-white">
-              Our{" "}
-              <span className="fontWeight600">
-                Certifications & Partner Badges
-              </span>
-            </h4>
-          </div>
-          <div className="col-lg-6 offset-lg-1">
-            <p>
-              <strong>Recognized by industry leaders, </strong>
-              our{" "}
-              <strong>
-                certifications reflect our commitment to excellence.
-              </strong>{" "}
-              We bring <strong>expertise, innovation, </strong> and a proven
-              track record of <strong>digital marketing success.</strong> As{" "}
-              <strong>certified digital marketing experts</strong>, we leverage{" "}
-              <strong>exclusive insights, cutting-edge tools</strong>, and
-              proven strategies to drive results for our clients.{" "}
+        <div className="row align-items-lg-end">
+          <div className="col-lg-9">
+            <h4 class="title fontWeight600 text-white">Our Certifications</h4>
+            <h3 class="heading mt-2 text-white fontWeight600">
+              Certified Digital Marketing Experts, Trusted by Industry Leaders
+            </h3>
+            <p className="mt-3 text-white title">
+              Recognized by industry leaders, our certifications reflect our
+              commitment to excellence. We bring expertise, innovation, and a
+              proven track record of digital marketing success. As certified
+              digital marketing experts, we leverage exclusive insights,
+              cutting-edge tools, and proven strategies to drive results for our
+              clients.
             </p>
           </div>
+          <div className="col-lg-3">
+            <div className="googleParterLogoBox">
+              <Image
+                width={500}
+                height={500}
+                src="/assets/images/top-google-premium-partner-agencies-in-india.png"
+                alt="Google Partner"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bottomLogoCertificate mt-lg-5 mt-4">
+        <div className="bottomLogoCertificate">
+          <div class="glossyBorder"></div>
+          <div class="glossyBorder2"></div>
+          <div class="glossyBorder3"></div>
           <div className="rightPartnerBadge">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={10}
-              slidesPerView={6}
+              slidesPerView={3}
               navigation={false}
               pagination={false}
               autoplay={{ delay: 3000 }}
-              loop={true}
+              loop
             >
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Link
-                      href="https://www.google.com/partners/agency?id=4328223643"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
+              {partnerBadges.map((badge, index) => (
+                <SwiperSlide key={index}>
+                  <div className="slideBox">
+                    <div className="badgeBox">
                       <Image
                         className="w-100"
-                        width={100}
-                        height={100}
+                        width={400}
+                        height={400}
                         quality={100}
-                        src="/assets/images/trans/artboard.png"
-                        alt="Google Partner"
+                        src={badge.src}
+                        alt={badge.alt}
                       />
-                    </Link>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="Meta Partner Company"
-                      src="/assets/images/trans/meta.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="clutch Partner Company"
-                      src="/assets/images/trans/clutch.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100 h-auto"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="Shopify Partner Company"
-                      src="/assets/images/trans/shopify.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100 h-auto"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="Trustpilot Partner Company"
-                      src="/assets/images/trans/trust-pilot.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100 h-auto"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="Google Analytics Partner Company"
-                      src="/assets/images/trans/google-analytics.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="slideBox">
-                  <div className="badgeBox">
-                    <Image
-                      className="w-100 h-auto"
-                      width={100}
-                      height={100}
-                      quality={100}
-                      alt="Bing Partner Company"
-                      src="/assets/images/bing.png"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>
