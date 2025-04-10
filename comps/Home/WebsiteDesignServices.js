@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const WebsiteDesignServices = () => {
-
   const serviceItems = [
     {
       iconSrc: "/assets/images/icons/web-design.png",
@@ -31,22 +30,20 @@ const WebsiteDesignServices = () => {
     },
   ];
 
- 
   return (
     <section className="bgGrey ">
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-8">
             <div className="row">
-         
               {serviceItems.map((item, index) => (
                 <div className="col-lg-6 WebsiteDesignServices" key={index}>
                   <Link href="#">
                     <div className="webDesignItem">
                       <div className="iconWe">
                         <Image
-                          width={100}
-                          height={100}
+                          width={0}
+                          height={0}
                           className="w-100 h-auto "
                           src={item.iconSrc}
                           alt={item.title}
@@ -67,13 +64,11 @@ const WebsiteDesignServices = () => {
           </div>
           <div className="col-lg-4 ps-lg-4">
             <div className="rightServicesWeb">
-        
               <Image
                 width={350}
                 height={350}
                 quality={100}
                 className=""
-
                 src={"/assets/images/programming-amico.png"}
                 alt="Writing Programme"
               />

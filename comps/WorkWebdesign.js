@@ -195,12 +195,14 @@ export default function WorkWebdesign() {
         <img src="assets/images/icons/circle.svg" alt="Circle Icon" />
       </div>
       <div className="containerFull">
-        <h3 className="text-center  centerTitle heading fontHeading fontWeight600">
-          Made by <span>SIB Infotech</span>
+        <h3 className="text-center large_heading2 fontHeading2 fontWeight300 text_red">
+          Made by <span className="fontWeight600">SIB Infotech</span>
         </h3>
         <div className="space"></div>
         <div className="portfolioHome">
-          <h3 className="sub_heading fontWeight600 fontHeading fontHeading ">Our Portfolio</h3>
+          <h3 className="sub_heading fontWeight600 fontHeading fontHeading ">
+            Our Portfolio
+          </h3>
           <p className="title mt-2">
             Website Design you'll want to tell all your friends about
           </p>
@@ -209,7 +211,7 @@ export default function WorkWebdesign() {
           {slides.map((slide, index) => (
             <div className="innerSlider" key={index}>
               <div className="itemSliderWork">
-                <div className="row">
+                <div className="row align-items-md-center ">
                   <div className="col-lg-6">
                     <div className="imgWork">
                       {/* <picture>
@@ -228,8 +230,8 @@ export default function WorkWebdesign() {
                     </div>
                   </div>
                   <div className="col-lg-6">
-                    <div className="workHomeRight">
-                      <h3 className="text_dark_blue fontWeight700 fontHeading fontWeight400">
+                    <div className="workHomeRight mt-4 ">
+                      <h3 className="text_red fontWeight700 fontHeading">
                         {slide?.heading}
                       </h3>
                       <p className="mt-3">{slide?.text}</p>
@@ -240,16 +242,18 @@ export default function WorkWebdesign() {
             </div>
           ))}
         </WorkSlider>
-        <div className="bottomTextSlider">
+        {/* <div className="bottomTextSlider">
           <h4 className="small_heading fontHeading fontWeight600">
             Some of the{" "}
-            <span className="text_red fontHeading fontWeight600 ">Best Companies in India</span> &
-            Worldover, We’re working with
+            <span className="text_red fontHeading fontWeight600 ">
+              Best Companies in India
+            </span>{" "}
+            & Worldover, We’re working with
           </h4>
         </div>
         <div className="logoMarqueeHome">
           <LogoSlider />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -7,9 +7,8 @@ const Intro = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h3 class="sub_heading fontHeading fontWeight700">
-              What is <span className="text_red">Local SEO </span>and How to Do
-              It
+            <h3 className="sub_heading fontHeading fontWeight700">
+              What is <span className="text_red">Local SEO </span>and How to Do It
             </h3>
             <p className="mt-4">
               <b>Local SEO</b> is the latest search engine optimization

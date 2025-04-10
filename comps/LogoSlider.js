@@ -174,7 +174,7 @@ const logos = [
 
 export default function LogoSlider() {
   var sliderSettings = {
-    slidesToShow: 6,
+    slidesToShow: 9,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
@@ -215,8 +215,14 @@ export default function LogoSlider() {
     <div>
       <LogoSliders className="logoSlider" {...sliderSettings}>
         {logos.map((logo, index) => (
-          <div className="itemSlider shadow" key={index}>
-            <Image width={100} height={100} quality={100} src={logo.src} alt={logo.alt} />
+          <div className="itemSlider" key={index}>
+            <Image
+              width={100}
+              height={80}
+              quality={100}
+              src={logo.src}
+              alt={logo.alt}
+            />
           </div>
         ))}
       </LogoSliders>

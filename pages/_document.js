@@ -1,10 +1,11 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="en" >
         <Head>
           {/* Google Tag Manager */}
           <script
@@ -17,7 +18,7 @@ class MyDocument extends Document {
             }}
           />
           {/* End Google Tag Manager */}
-          
+
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
