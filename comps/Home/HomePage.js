@@ -34,22 +34,27 @@ const HomePage = () => {
       {/* <TrustedSection /> */}
       <WeStrong />
       <WhatWeDo3 />
-      <PartnerBadges2 />
-      <CaseStudy2 />
+      
       <Madeby />
-      <OurClients />
-      <Testimonials />
+      
       <Cta />
       <BrandBuild />
       <WhySIB />
       <Conversions />
       <OurPeople />
       <SIBPower />
-      <Industries2 />
+  
+    
+ 
+      <PartnerBadges2 />
+      <CaseStudy2 />
+      <OurClients />
+      <Testimonials />
+      <Featured />
       <div className="toolsHome">
         <Tools />
       </div>
-      <Featured />
+      <Industries2 />
       <Pricing />
       {/* <Map /> */}
 
