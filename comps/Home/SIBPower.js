@@ -56,7 +56,7 @@ const SIBPower = () => {
     },
   ];
   return (
-    <section className="bgGrey ">
+    <section className="bg-black ">
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-4">
@@ -64,13 +64,13 @@ const SIBPower = () => {
               The Power of <br className="d-none d-lg-block" />{" "}
               <span className="fontWeight600">SIB Infotech</span>
             </h4>
-            <p className="mt-3 title">
+            <p className="mt-3 title  text-white">
               When Trust, Transparency And Accountability Truly Matter To You,
               We Are Your Partner.
             </p>
           </div>
           <div className="col-lg-8 ps-lg-5">
-            <p>
+            <p className="text-white">
               When{" "}
               <strong>growth, innovation, and measurable results matter</strong>
               , we are the digital partner you can trust. At SIB Infotech, we go
@@ -79,7 +79,7 @@ const SIBPower = () => {
             </p>
             <div className=" mt-4 position-relative">
               <button class="power_prev d-none d-lg-block">
-                <i class="fa fa-chevron-left"></i>
+                <i class="fa fa-chevron-left text-white"></i>
               </button>
               <Swiper
                 spaceBetween={15}
@@ -113,15 +113,7 @@ const SIBPower = () => {
                   return (
                     <SwiperSlide>
                       <div className="item_sib_power ">
-                        <div className="icon mb-lg-3">
-                          <Image
-                            width={60}
-                            height={60}
-                            src={`/assets/images/icons/home/light-bulb.png`}
-                            alt=""
-                          />
-                        </div>
-                        <h5 className="fontHeading2 small_heading fontWeight600 mt-4">
+                        <h5 className="fontHeading2 small_heading fontWeight600">
                           {value.title}
                         </h5>
                         <p className="mt-3">{value.description}</p>
@@ -131,7 +123,7 @@ const SIBPower = () => {
                 })}
               </Swiper>
               <button class="power_next d-none d-lg-block">
-                <i class="fa fa-chevron-right"></i>
+                <i class="fa fa-chevron-right text-white"></i>
               </button>
             </div>
           </div>

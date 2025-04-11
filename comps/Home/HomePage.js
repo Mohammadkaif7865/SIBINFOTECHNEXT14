@@ -35,14 +35,15 @@ const HomePage = () => {
       <WeStrong />
       <WhatWeDo3 />
       
-      <Madeby />
+     
       
       <Cta />
       <BrandBuild />
       <WhySIB />
-      <Conversions />
+      
       <OurPeople />
       <SIBPower />
+      <Madeby />
   
     
  
@@ -50,6 +51,7 @@ const HomePage = () => {
       <CaseStudy2 />
       <OurClients />
       <Testimonials />
+      <Conversions />
       <Featured />
       <div className="toolsHome">
         <Tools />
