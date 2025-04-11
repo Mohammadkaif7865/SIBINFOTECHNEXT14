@@ -75,10 +75,10 @@ const WhySIB = () => {
 
           <div className="col-lg-8">
             <div className="rightWhyBlock">
-              <div className="headerRightWhy py-lg=3 bgGrey">
-                <h5 className="fontWeight500 text_red small_heading ps-4">
+              <div className="headerRightWhy py-lg-3 bgGrey">
+                <h3 className="fontWeight600 text_red font ps-4 ">
                   What Sets Us Apart from Other Digital Agencies in India?
-                </h5>
+                </h3>
                 <p className="mt-3 ps-4">
                   With a sea of digital agencies in India, what makes SIB
                   Infotech the preferred choice for brands looking to scale? We

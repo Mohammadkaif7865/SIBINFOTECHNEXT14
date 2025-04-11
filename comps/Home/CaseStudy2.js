@@ -103,7 +103,8 @@ const CaseStudy2 = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-10">
-            <h4 className="large_heading2 fontHeading2  fontWeight300">
+          <h4 class="title fontWeight600 ">Case Studies</h4>
+            <h4 className="large_heading2 fontHeading2 mt-3  fontWeight300">
               Winning{" "}
               <span className="fontWeight600 text_red">
                 Strategies & Tangible
@@ -162,7 +163,7 @@ const CaseStudy2 = () => {
                         <h3 className="small_heading fontWeight600 mt-4">
                           Overview
                         </h3>
-                        <p className="mt-2 fontSmall">{study.overview}</p>
+                        <p className="mt-2 title">{study.overview}</p>
 
                         <div className="row mt-3 align-items-center">
                           <div className="col-lg-6 col-12">
@@ -178,7 +179,7 @@ const CaseStudy2 = () => {
                                 {/* <p className="mt-2 fontSmall">{result.desc}</p> */}
                               </div>
                             ))}
-                            <p className="mt-2 fontSmall">{study.resulDes}</p>
+                            <p className="mt-2 title">{study.resulDes}</p>
                           </div>
 
                           <div className="col-lg-6 col-12">

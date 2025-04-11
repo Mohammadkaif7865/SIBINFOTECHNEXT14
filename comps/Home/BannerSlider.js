@@ -7,23 +7,25 @@ const BannerSlider = () => {
     <section className="homeBanner">
       <div className="containerFull">
         <div className="text-center">
-          <span className="homeBannerText text-center">
+          <h1 className=" d-inline-block  homeBannerText title text-center">
             India’s Premier <strong>Digital Marketing Agency</strong>
-          </span>
+          </h1>
         </div>
-        <h1 className="heading mb-3 mt-4 text-center fontWeight700 text-white">
-          Delivering Smart Digital Marketing Solutions
-        </h1>
-        <h2 className="sub_heading text-center text-white mt-1">
-          for{" "}
-          <span className="fontWeight700 text_red">Fast-Growing Brands</span>
+        <h2 className="heading mb-3 mt-4 text-center fontWeight700 text-white">
+          Get More Traffic, Leads & Sales  
         </h2>
-        <p className="title mt-3 text-center text-white  w-75 mx-auto w-lg-100">
+        <h3 className="heading text-center text-white mt-1">
+          <span className="fontWeight600 text_red">with Strategic, AI-Powered </span>
+        </h3>
+
+        <h4 className="heading text-center mt-3 text-white fontWeight600 "><i>Digital Marketing Solutions</i></h4>
+
+        {/* <p className="title mt-3 text-center text-white  w-75 mx-auto w-lg-100">
           Your <strong>Growth Partner for SEO, PPC & Social Media</strong>{" "}
           Success – Boost Your <strong>Online Presence</strong>
           <br className="d-none d-lg-block" /> with Data-Driven Digital
           Marketing Since 2005.
-        </p>
+        </p> */}
         <div className="text-center mt-4 mt-lg-5">
           <Link href="/contact" className="btnHomeBanner">
             Start Growing Now

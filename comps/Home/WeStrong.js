@@ -34,7 +34,7 @@ const WeStrong = () => {
                 />
               </div>
               <div className="rightBoxStrong">
-                <p>
+                <p className="title">
                   We are a young creative{" "}
                   <strong>digital marketing agency</strong> &{" "}
                   <strong>web development company</strong> for any business -
@@ -43,7 +43,7 @@ const WeStrong = () => {
                   <strong>experience an overall improvement</strong> in client
                   base.
                 </p>
-                <p className="mt-2">
+                <p className="mt-2 title">
                   We understand that no two businesses can be the same and so is
                   there website usage and therefore they will need a different
                   <strong> digital marketing solution</strong>. We do Your

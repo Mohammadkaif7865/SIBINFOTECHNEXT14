@@ -5,7 +5,8 @@ const OurClients = () => {
   return (
     <section className="home_our_client trusted">
       <div className="containerFull">
-        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
+      <h4 class="title fontWeight600 text-center text-white ">Our Clients</h4>
+        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white">
           Powerfull <span className="fontWeight600">Brand Partnership!</span>
         </h4>
         <h4 className="large_heading2 fontHeading2 fontWeight300 text-center text-white">
