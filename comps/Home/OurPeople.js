@@ -8,7 +8,8 @@ const OurPeople = () => {
       <div className=" containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 className="large_heading2 fontHeading2 fontWeight300  text_red">
+          <h4 class="title fontWeight600">Our Team</h4>
+            <h4 className="large_heading2 fontHeading2 fontWeight300 mt-3  text_red">
               Our People{" "}
               <span className="fontWeight600">Make the Difference</span>
             </h4>

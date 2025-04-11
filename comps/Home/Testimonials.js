@@ -18,7 +18,8 @@ const Testimonials = () => {
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-          <h4 className="heading fontHeading2 text-center fontWeight300">
+        <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
+          <h4 className="heading fontHeading2 text-center mt-3 fontWeight300">
             What our <span className="fontWeight600 text_red">Clients Say</span>{" "}
             about us
           </h4>
