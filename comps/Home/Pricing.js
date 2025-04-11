@@ -10,14 +10,14 @@ import "swiper/css/navigation";
 const packages = [
   {
     title: "SEO  <br/> Packages",
-    image: "/assets/images/pricing/seo-packeges.jpg",
+    image: "/assets/images/packeges/Seo-package.jpg",
     alt: "SEO Packages",
     features: ["On Page", "Off Page", "Technical", "Local SEO"],
-    price: "$250",
+    price: "$250/Month",
   },
   {
     title: "PPC  <br/> Packages",
-    image: "/assets/images/packeges/PPC-Package.jpg",
+    image: "/assets/images/packeges/ppc-packge.jpg",
     alt: "PPC Packages",
     features: ["Google Ads", "Facebook Ads", "Instagram Ads", "LinkedIn Ads"],
     price: "$300/Month",
@@ -38,14 +38,14 @@ const packages = [
   },
   {
     title: "Graphic Designing  <br/> Packages",
-    image: "/assets/images/pricing/seo-packeges.jpg",
+    image: "/assets/images/packeges/Graphic-design.jpg",
     alt: "Graphic Designing",
     features: ["Logos", "Stationery", "Motion Graphics"],
     price: "$175/Month",
   },
   {
     title: "Link Building <br/> Packages",
-    image: "/assets/images/pricing/seo-packeges.jpg",
+    image: "/assets/images/packeges/Link-building.jpg",
     alt: "Link Building",
     features: [
       "Guest Posting",

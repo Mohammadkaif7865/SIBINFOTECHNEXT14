@@ -23,20 +23,19 @@ import Featured from "./Featured";
 import Industries2 from "./Industries2";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
+import Abbout3 from "./Abbout3";
 
 
 const HomePage = () => {
   return (
     <>
       <BannerSlider />
-      <About2 />
+      <Abbout3 />
+      {/* <About2 /> */}
       {/* <BannerSlider /> */}
       {/* <TrustedSection /> */}
       <WeStrong />
       <WhatWeDo3 />
-      
-     
-      
       <Cta />
       <BrandBuild />
       <WhySIB />
@@ -44,9 +43,6 @@ const HomePage = () => {
       <OurPeople />
       <SIBPower />
       <Madeby />
-  
-    
- 
       <PartnerBadges2 />
       <CaseStudy2 />
       <OurClients />
