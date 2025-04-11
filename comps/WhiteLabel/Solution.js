@@ -1,52 +1,9 @@
 import React, { useState } from "react";
 
-const Solution = () => {
+const Solution = ({data}) => {
   const [indexNo, setIndexNo] = useState("0");
 
-  const whiteLabelServices = [
-    {
-      title: `White Label <br class="d-none d-md-lg "/> SEO Services`,
-      description:
-        "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg", 
-      
-    },
-    {
-      title: `White Label <br class="d-none d-md-lg "/> PPC Management`,
-      description:
-        "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
-      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg", 
-      
-    },
-    {
-      title: `White Label <br class="d-none d-md-lg "/> SMO Marketing `,
-      description:
-        "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
-      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg", 
-      
-    },
-    {
-      title: `White Label <br class="d-none d-md-lg "/> Facebook Ads`,
-      description:
-        "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
-      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg", 
-     
-    },
-    {
-      title: `White Label <br class="d-none d-md-lg "/> Google Ads`,
-      description:
-        "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
-      img: "/assets/images/white-lable/White-Label-Google-ads.jpg", 
-     
-    },
-    {
-      title: ` White label <br class="d-none d-md-lg "/> Link Building`,
-      description:
-        "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
-      img: "/assets/images/white-lable/White-label-link-building.jpg", 
-     
-    },
-  ];
+  
 
   const handelIndex = (index) => {
     setIndexNo(index);
@@ -80,7 +37,7 @@ const Solution = () => {
           <div className="col-xxl-4 col-xl-4 col-lg-0 col-md-0 position-relative d-none d-lg-block">
             <div className=" img_solutions ">
               <div className="img_solutions_inner">
-                {whiteLabelServices.map((images, index) => {
+                {data.map((images, index) => {
                   return (
                     <img
                       className={`img-solution ${
@@ -95,7 +52,7 @@ const Solution = () => {
             </div>
           </div>
           <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
-            {whiteLabelServices.map((value, index) => {
+            {data.map((value, index) => {
               return (
                 <div
                   className="service__item "

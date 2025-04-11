@@ -79,6 +79,51 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
     </>
   );
+
+  const whiteLabelServices = [
+    {
+      title: `White Label <br class="d-none d-md-lg "/> SEO Services`,
+      description:
+        "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg", 
+      
+    },
+    {
+      title: `White Label <br class="d-none d-md-lg "/> PPC Management`,
+      description:
+        "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
+      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg", 
+      
+    },
+    {
+      title: `White Label <br class="d-none d-md-lg "/> SMO Marketing `,
+      description:
+        "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
+      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg", 
+      
+    },
+    {
+      title: `White Label <br class="d-none d-md-lg "/> Facebook Ads`,
+      description:
+        "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
+      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg", 
+     
+    },
+    {
+      title: `White Label <br class="d-none d-md-lg "/> Google Ads`,
+      description:
+        "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
+      img: "/assets/images/white-lable/White-Label-Google-ads.jpg", 
+     
+    },
+    {
+      title: ` White label <br class="d-none d-md-lg "/> Link Building`,
+      description:
+        "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
+      img: "/assets/images/white-lable/White-label-link-building.jpg", 
+     
+    },
+  ];
   return (
     <CustomLayout meta={metaTags} >
       <div className="innerWebDesign whiteLable"  id="contact">
@@ -155,7 +200,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       </div>
       <About2 />
 
-      <Solution />
+      <Solution data={whiteLabelServices} />
       <WhyChoose />
       <Cta2 />
       <Partnership />

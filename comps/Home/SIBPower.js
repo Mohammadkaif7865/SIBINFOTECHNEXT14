@@ -1,85 +1,30 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import Image from "next/image";
 
-const SIBPower = () => {
-  const power_data = [
-    {
-      title: "Generate High-Quality Leads & Sales",
-      description:
-        "Leverage data-driven strategies and advanced targeting to attract the right audience and convert prospects into loyal customers.",
-    },
-    {
-      title: "Accelerate E-commerce Growth",
-      description:
-        "Maximize revenue with optimized product listings, AI-driven ad strategies, and seamless customer journeys designed for higher conversions and repeat sales.",
-    },
-    {
-      title: "Enhance Website Performance & Visibility",
-      description:
-        "Optimize your website for speed, user experience, and SEO, ensuring higher search rankings and better customer engagement.",
-    },
-    {
-      title: "Maximize Audience Engagement & Retention",
-      description:
-        "Capture attention with powerful storytelling, interactive campaigns, and AI-powered personalization to keep your audience coming back.",
-    },
-    {
-      title: "Amplify Social Media Influence",
-      description:
-        "Build a thriving social media presence with data-backed content strategies, influencer collaborations, and targeted ads for greater reach and impact.",
-    },
-    {
-      title: "Increase Brand Awareness & Authority",
-      description:
-        "Elevate your brand’s reputation with cutting-edge digital PR, high-quality content marketing, and strategic positioning that sets you apart from competitors.",
-    },
-    {
-      title: "Leverage AI & Automation for Smarter Marketing",
-      description:
-        "Stay ahead with AI-powered chatbots, automated lead nurturing, and predictive analytics to optimize every touchpoint in the customer journey.",
-    },
-    {
-      title: "Boost Conversion Rates with Performance Marketing",
-      description:
-        "Drive measurable results with highly optimized landing pages, CRO techniques, and A/B testing to ensure every click counts.",
-    },
-    {
-      title: "Achieve Unmatched ROI with Data-Driven Decisions",
-      description:
-        "We track, analyze, and refine strategies in real time, ensuring your marketing budget delivers the highest possible returns.",
-    },
-  ];
+const SIBPower = ({ title, subtitle, description, data }) => {
   return (
-    <section className="bg-black ">
+    <section className="bg-black">
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-4">
             <h4 className="large_heading2 fontWeight300 fontHeading2 text_red">
-              The Power of <br className="d-none d-lg-block" />{" "}
-              <span className="fontWeight600">SIB Infotech</span>
+              {title} <br className="d-none d-lg-block" />
+              <span className="fontWeight600">{subtitle}</span>
             </h4>
-            <p className="mt-3 title  text-white">
-              When Trust, Transparency And Accountability Truly Matter To You,
-              We Are Your Partner.
-            </p>
+            <p className="mt-3 title text-white">{description}</p>
           </div>
           <div className="col-lg-8 ps-lg-5">
-            <p className="text-white">
-              When{" "}
-              <strong>growth, innovation, and measurable results matter</strong>
-              , we are the digital partner you can trust. At SIB Infotech, we go
-              beyond marketing—we <strong>build strategies</strong> that drive
-              success.
+            <p className="text-white" dengerounsly>
+
             </p>
-            <div className=" mt-4 position-relative">
-              <button class="power_prev d-none d-lg-block">
-                <i class="fa fa-chevron-left text-white"></i>
+            <div className="mt-4 position-relative">
+              <button className="power_prev d-none d-lg-block">
+                <i className="fa fa-chevron-left text-white"></i>
               </button>
               <Swiper
                 spaceBetween={15}
@@ -90,16 +35,9 @@ const SIBPower = () => {
                   disableOnInteraction: false,
                 }}
                 breakpoints={{
-                  320: {
-                    slidesPerView: 1,
-                  },
-                  768: {
-                    slidesPerView: 1,
-                  },
-                  992: {
-                    slidesPerView: 2,
-                  },
-                  
+                  320: { slidesPerView: 1 },
+                  768: { slidesPerView: 1 },
+                  992: { slidesPerView: 2 },
                 }}
                 pagination={false}
                 navigation={{
@@ -109,21 +47,19 @@ const SIBPower = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
               >
-                {power_data.map((value, index) => {
-                  return (
-                    <SwiperSlide>
-                      <div className="item_sib_power ">
-                        <h5 className="fontHeading2 small_heading fontWeight600">
-                          {value.title}
-                        </h5>
-                        <p className="mt-3">{value.description}</p>
-                      </div>
-                    </SwiperSlide>
-                  );
-                })}
+                {data.map((item, index) => (
+                  <SwiperSlide key={index}>
+                    <div className="item_sib_power">
+                      <h5 className="fontHeading2 small_heading fontWeight600">
+                        {item.title}
+                      </h5>
+                      <p className="mt-3">{item.description}</p>
+                    </div>
+                  </SwiperSlide>
+                ))}
               </Swiper>
-              <button class="power_next d-none d-lg-block">
-                <i class="fa fa-chevron-right text-white"></i>
+              <button className="power_next d-none d-lg-block">
+                <i className="fa fa-chevron-right text-white"></i>
               </button>
             </div>
           </div>
