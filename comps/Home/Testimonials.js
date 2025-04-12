@@ -13,19 +13,19 @@ const testimonialLogos = [
   "/assets/images/logos/just-dial.png",
 ];
 
-const Testimonials = () => {
+const Testimonials = ({title,description}) => {
   return (
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
         <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
-          <h4 className="heading fontHeading2 text-center mt-3 fontWeight300">
-            What our <span className="fontWeight600 text_red">Clients Say</span>{" "}
-            about us
+          <h4 className="heading fontHeading2 text-center mt-3 fontWeight600"    dangerouslySetInnerHTML={{ __html: title }}>
+
+            
           </h4>
-          <p className="small_heading fontWeight300 text-center  mt-3 ">
-            We are five star rated{" "}
-            <span className="fontWeight600">Digital Agency</span>
+          <p className="small_heading fontWeight300 text-center  mt-3 "  dangerouslySetInnerHTML={{ __html: description }}>
+            {/* We are five star rated{" "}
+            <span className="fontWeight600">Digital Agency</span> */}
           </p>
         </div>
 

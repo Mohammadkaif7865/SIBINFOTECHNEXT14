@@ -21,6 +21,7 @@ import SpecialisedServices from "../SEO2/SpecialisedServices";
 import OutsourcingServices from "../SEO2/OutsourcingServices";
 import SeoAudit from "../SEO2/SeoAudit";
 import Faqs from "../SEO2/Faqs";
+import OurAproach from "./OurAproach";
 
 const Seo = () => {
   const seoServices = [
@@ -111,7 +112,7 @@ const Seo = () => {
   const rightBoxContent = {
     heading: "Get top-notch SEO services from leading SEO Company in India ",
     description:
-      "Investing in SEO can transform your online presence and deliver long-term success. Here’s how: ",
+      "As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a remarkable track record, successfully managing over 1350+ projects within distinct niches. Our dedicated teams specialize in various sectors, ensuring businesses achieve top rankings. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, each niche benefits from a specialized team with the requisite skills and extensive industry experience. This targeted approach allows us to comprehend specific business requirements, leading to outstanding results.  ",
   };
   const leftBoxContent = {
     headingStart: "Benefits   ",
@@ -125,55 +126,108 @@ const Seo = () => {
 
   const brandContent = [
     {
-      title: `Most Effective Best SEO Practices & Strategy in ${new Date().getFullYear()}`,
+      title: `<span>Rank on Google's 1st Page  </span><br/>
+<span>Using Human-Led +   </span><br/>
+AI-Driven SEO Strategy `,
+      subtitle: `How to Create an Effective Winning SEO Strategy in 2025? `,
       description: `
         A successful SEO strategy is a mixed stew of on-page, off-page, and technical SEO techniques. Use the following stepwise approach to boost your search ranking: 
       `,
       faqData: [
         {
-          question: "1. Keyword Research & Strategy",
-          answer:
-            "Identify high-traffic, low-competition keywords suitable for your niche. Map long-tail keywords that match user intent. Utilize tools like Google Keyword Planner, Ahrefs, and SEMrush to gather data-driven insights.",
+          question: "1. What is Keyword Research & Strategy in SEO?",
+          answer: `
+            <p>Keyword research is a fundamental practice in SEO. It involves identifying high-traffic, low-competition keywords suitable for your niche and mapping long-tail keywords that match user intent.</p>
+            <p>Effective keyword research tools include <strong>Google Keyword Planner</strong>, <strong>Ahrefs</strong>, and <strong>SEMrush</strong> for data-driven insights.</p>
+          `,
         },
         {
-          question: "2. Competitor Analysis",
-          answer:
-            "Analyze competitors’ keyword usage, content strategies, and backlink profiles to enhance your own SEO efforts.",
+          question: "2. What does Competitor Analysis involve in SEO?",
+          answer: `
+            <p>Competitor analysis gathers insights into your competitors' keyword strategies, content approach, and backlink profiles. This data is then used to enhance your own SEO strategy by identifying gaps and opportunities.</p>
+          `,
         },
         {
-          question: "3. On-Page SEO Optimization",
-          answer:
-            "Tag titles, meta descriptions, and headings (H1, H2, H3). Use keywords naturally without stuffing. Internal linking improves site authority and navigation. Implement structured data (schema markup) for better visibility. Optimize images using alt text and by compressing their file sizes.",
+          question: "3. What is On-Page SEO Optimization?",
+          answer: `
+            <p>On-Page SEO involves optimizing individual web pages for search engines and users. Key elements include:</p>
+            <ul>
+              <li>Proper tagging of titles, meta descriptions, and heading tags (H1, H2, H3)</li>
+              <li>Strategic keyword usage (avoid keyword stuffing)</li>
+              <li>Internal linking for better site structure</li>
+              <li>Using schema markup for rich search results</li>
+              <li>Image optimization through alt text and compression</li>
+            </ul>
+          `,
         },
         {
-          question: "4. High-Quality Content Creation",
-          answer:
-            "Create engaging, informative, and credible content. Follow EEAT principles: Experience, Expertise, Authoritativeness, Trustworthiness. Regularly update existing blogs. Use silo structure for organizing content based on topical relevance.",
+          question: "4. What is High-Quality Content Creation & E-E-A-T?",
+          answer: `
+            <p>Create content that is unique, engaging, useful, specific, and verifiable. Follow the <strong>E-E-A-T</strong> principles: Experience, Expertise, Authoritativeness, and Trustworthiness.</p>
+            <p>Update older blogs regularly and structure content with siloing based on topical relevance.</p>
+          `,
         },
         {
-          question: "5. Optimize Content Design (UI & UX)",
-          answer:
-            "Ensure your content is designed to be accessible and appealing to the widest possible audience.",
+          question:
+            "5. Why is Content Design (UI & UX) Optimization important?",
+          answer: `
+            <p>Well-designed content helps maximize reach and engagement. Ensure your website is:</p>
+            <ul>
+              <li>Mobile-friendly and responsive</li>
+              <li>Consistent in layout across devices</li>
+              <li>Accessible and readable to diverse users</li>
+            </ul>
+          `,
         },
         {
-          question: "6. Technical SEO Enhancements",
-          answer:
-            "Improve site speed and optimize for Core Web Vitals. Ensure mobile-friendly design and responsiveness. Fix crawl errors via Google Search Console. Create and submit an XML sitemap to search engines. Ensure the website uses HTTPS for secure browsing.",
+          question: "6. What are Technical SEO Enhancements?",
+          answer: `
+            <p>Technical SEO ensures search engines can efficiently crawl and index your website. Key tasks include:</p>
+            <ul>
+              <li>Optimizing site speed and Core Web Vitals</li>
+              <li>Mobile-first design and responsive layout</li>
+              <li>Fixing crawl errors in Google Search Console</li>
+              <li>Creating and submitting an XML sitemap</li>
+              <li>Securing the website with HTTPS</li>
+            </ul>
+          `,
         },
         {
-          question: "7. Off-Page SEO & Link Building",
-          answer:
-            "Earn backlinks from authoritative sites. Use guest posts, PR outreach, and influencer collaborations for exposure. Leverage social media and brand mentions. Ensure accurate NAP (Name, Address, Phone) citations in major directories for local SEO.",
+          question: "7. What is Off-Page SEO & Link Building?",
+          answer: `
+            <p>Off-page SEO improves your site's authority through external signals. Methods include:</p>
+            <ul>
+              <li>Acquiring high-quality backlinks</li>
+              <li>Guest posting, PR outreach, influencer collaboration</li>
+              <li>Social media engagement and brand mentions</li>
+              <li>Consistent citations across local directories</li>
+            </ul>
+          `,
         },
         {
-          question: "8. Local SEO (For Businesses Targeting Local Audience)",
-          answer:
-            "Optimize your Google My Business (GMB) profile. Encourage and respond to customer reviews. Use location-based keywords in content. List your business on local directories like Yelp, Justdial, etc.",
+          question: "8. How does Local SEO help businesses?",
+          answer: `
+            <p>Local SEO boosts visibility in local search results. Important practices include:</p>
+            <ul>
+              <li>Optimizing your Google My Business profile</li>
+              <li>Encouraging and responding to customer reviews</li>
+              <li>Including location-specific keywords in content</li>
+              <li>Listing your business on platforms like Yelp and Justdial</li>
+            </ul>
+          `,
         },
         {
-          question: "10. Regular Performance Monitoring & Optimization",
-          answer:
-            "Track rankings using Google Analytics and Search Console. Conduct regular SEO audits to fix new issues. Monitor competitors to stay ahead. Perform A/B testing on meta titles, descriptions, and CTAs for better CTR.",
+          question:
+            "9. Why is Regular Performance Monitoring & Optimization necessary?",
+          answer: `
+            <p>Regular tracking ensures your SEO strategy remains effective. Key activities include:</p>
+            <ul>
+              <li>Monitoring rankings using Google Analytics and Search Console</li>
+              <li>Conducting scheduled SEO audits</li>
+              <li>Competitor benchmarking</li>
+              <li>A/B testing meta titles, descriptions, and CTAs for better CTR</li>
+            </ul>
+          `,
         },
       ],
     },
@@ -205,7 +259,12 @@ const Seo = () => {
       description: "Regular updates with performance tracking.",
     },
   ];
-
+  const testimonial_data = [
+    {
+      title: `Client Success Stories That Prove <br/> We’re a Top SEO Company in India `,
+      description: `We are a five star rated SEO Agency in Mumbai, Delhi & Across India `,
+    },
+  ];
   return (
     <div>
       <div className="innerWebDesign whiteLable" id="contact">
@@ -223,13 +282,22 @@ const Seo = () => {
                   </span>
                 </h1>
                 <p
-                  className="small_heading mt-2  mt-lg-3 text-white"
+                  className="small_heading fontWeight500 mt-2  mt-lg-3 text-white"
                   style={{
                     maxWidth: "80%",
                   }}
                 >
-                  Power Your Agency’s Growth with Premium White Label SEO, PPC &
-                  Social Media Services in India
+                  Rank Higher, Grow Faster
+                </p>
+                <p
+                  className="mt-2  mt-lg-3 text-white"
+                  style={{
+                    maxWidth: "80%",
+                  }}
+                >
+                  Boost Website Traffic, Improve Search Rankings & Maximize
+                  Conversions with our Advanced AI Driven SEO Strategies to Rank
+                  #1 on Google & Bing
                 </p>
                 <div className="mt-4">
                   <Link href="#contact" className="btnThemeRed me-3">
@@ -306,22 +374,24 @@ const Seo = () => {
       />
       <BrandBuild
         title={brandContent[0].title}
+        subtitle={brandContent[0].subtitle}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
       />
-        <TalkWithExpert
+      <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
-      <SeoProcess />
-      <SpecialisedServices/>
-      <OutsourcingServices/>
+      <OurAproach />
+      {/* <SeoProcess /> */}
+      <SpecialisedServices />
+      <OutsourcingServices />
 
       <PartnerBadges />
       <CaseStudy2 />
       <OurClients />
-      <Testimonials />
+      <Testimonials title={testimonial_data[0].title}  description={testimonial_data[0].description} />
       <Conversions />
       <Featured />
       <div className="toolsHome">
@@ -334,7 +404,7 @@ const Seo = () => {
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
-      <Faqs/>
+      <Faqs />
 
       <SeoAudit />
     </div>

@@ -13320,3 +13320,18 @@ font-size: 55px;
 font-size: 27px;
 font-weight: 600;
 }
+.ans_brand_build  p
+{
+margin-top: 0px !important;
+}
+.ans_brand_build ul
+{
+margin-top: 10px !important;
+}
+
+
+.item_approach h2 {
+  font-size: 100px;
+  -webkit-text-stroke: 2px #e31a20;
+  -webkit-text-fill-color: transparent;
+}
