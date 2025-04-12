@@ -86,6 +86,7 @@ const HomePage = () => {
   const brandContent = [
     {
       title: "Strategy. Creativity. Performance.",
+      subtitle: "How to Create an Effective Winning SEO Strategy in 2025?",
       description: `
         Success in the digital world isn’t just about being seen—it’s
         about making an impact. We blend <strong>strategy, creativity,</strong> and
@@ -179,6 +180,14 @@ const HomePage = () => {
     },
   ];
 
+
+  const testimonial_data = [
+    {
+      title: `Clients' Success Stories That Prove <br/> We're a Top Digital Marketing Company`,
+      description: `We are five star rated Digital Agency`
+    }
+  ];
+
   return (
     <>
       <BannerSlider />
@@ -191,6 +200,7 @@ const HomePage = () => {
       <Cta />
       <BrandBuild
         title={brandContent[0].title}
+       
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
       />
@@ -212,7 +222,7 @@ const HomePage = () => {
       <PartnerBadges2 />
       <CaseStudy2 />
       <OurClients />
-      <Testimonials />
+      <Testimonials title={testimonial_data[0].title} description={testimonial_data[0].description} />
       <Conversions />
       <Featured />
       <div className="toolsHome">

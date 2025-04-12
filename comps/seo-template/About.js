@@ -15,14 +15,23 @@ const About = () => {
               Dominate <span className="text_red">Google Rankings</span> <br />{" "}
               <span className="text_red">& Drive Organic Growth</span>{" "}
             </h4>
-          </div>
-          <div className="col-lg-5 ps-lg-5">
-            <p>
+            <p className="mt-4">
               Since 2005, SIB Infotech has been offering cutting-edge SEO
               services in India. We're known as the top SEO company, for
               delivering customized SEO strategies that drive organic traffic,
               improve search rankings, boosts your online visibility and
               maximize ROI.
+            </p>
+          </div>
+          <div className="col-lg-5 ps-lg-5">
+            <p>
+              Everyone knows that the first page of Google gets the most
+              visitors, but did you know there's a big difference in how many
+              people click on the top results compared to the bottom ones?
+              Remember, there's no such thing as second place. You're either
+              first or nothing. With our years of experience as a leading SEO
+              Services company in India, we know how important Search Engine
+              Optimization (SEO) is for businesses
             </p>
             <div className="mt-3">
               <Link className="btnHomeBanner about3" href={"/contact"}>
@@ -68,18 +77,22 @@ const About = () => {
               </div>
               <div className="item shadow ">
                 <div className="icon">
-                 <img className="m-2" width={35} src="/assets/images/google-map-icon.svg" alt=" " />
+                  <img
+                    className="m-2"
+                    width={35}
+                    src="/assets/images/google-map-icon.svg"
+                    alt=" "
+                  />
                 </div>
                 <div className="text_content">Rank #1 on Google Maps </div>
               </div>
               <div className="item shadow">
                 <div className="icon">
-                <FaArrowTrendDown className="text-success" />
+                  <FaArrowTrendDown className="text-success" />
                 </div>
-                <div className="text_content">Decreases Advertising Cost  </div>
+                <div className="text_content">Decreases Advertising Cost </div>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
