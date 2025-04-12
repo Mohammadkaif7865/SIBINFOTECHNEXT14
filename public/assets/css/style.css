@@ -13276,3 +13276,47 @@ mix-blend-mode: darken;
 .about3_text_box_main{
   padding-left: 100px;
 }
+
+
+
+/* seo */
+.seo_about_temp .img_grid{
+display: flex;
+align-items: flex-start;
+gap: 20px;
+}
+.seo_about_temp .img_grid .item_img{
+border-radius: 150px;
+overflow: hidden;
+width: 100%;
+}
+.seo_about_temp .img_grid .item_img:last-child{
+margin-top: 100px;
+
+}
+.seo_about_temp .img_grid .item_img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.list_about_ranked{
+  
+}
+.list_about_ranked .item{
+display: flex;
+align-items: center;
+gap: 15px;
+padding: 20px;
+border: 2px solid #33333333;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+.list_about_ranked .item .icon{ 
+font-size: 55px;
+}
+.list_about_ranked .item .text_content{ 
+font-size: 27px;
+font-weight: 600;
+}
