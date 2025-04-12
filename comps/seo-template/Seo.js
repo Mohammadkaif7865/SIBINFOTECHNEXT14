@@ -1,20 +1,26 @@
-import React from "react";
-import PartnerBadges from "../Home/PartnerBadges2";
-import CaseStudy2 from "../Home/CaseStudy2";
-import OurClients from "../Home/OurClients";
-import Testimonials from "../Home/Testimonials";
-import Conversions from "../Home/Conversions";
-import Featured from "../Home/Featured";
-import Tools from "../Home/Tools";
-import Industries from "../Home/Industries2";
-import Pricing from "../Home/Pricing";
 import Link from "next/link";
 import BannerForm from "../BannerForm";
 import Breadcrumb from "../BreadCrumb";
-import Solution from "../WhiteLabel/Solution";
-import WhySIB from "../Home/WhySIB";
 import BrandBuild from "../Home/BrandBuild";
+import CaseStudy2 from "../Home/CaseStudy2";
+import Conversions from "../Home/Conversions";
+import Featured from "../Home/Featured";
+import Industries from "../Home/Industries2";
+import OurClients from "../Home/OurClients";
+import PartnerBadges from "../Home/PartnerBadges2";
+import Pricing from "../Home/Pricing";
 import SIBPower from "../Home/SIBPower";
+import Testimonials from "../Home/Testimonials";
+import Tools from "../Home/Tools";
+import WhySIB from "../Home/WhySIB";
+import SeoProcess from "../SEO2/SeoProcess";
+import TalkWithExpert from "../SEO2/TalkWithExpert";
+import Solution from "../WhiteLabel/Solution";
+import About from "./About";
+import SpecialisedServices from "../SEO2/SpecialisedServices";
+import OutsourcingServices from "../SEO2/OutsourcingServices";
+import SeoAudit from "../SEO2/SeoAudit";
+import Faqs from "../SEO2/Faqs";
 
 const Seo = () => {
   const seoServices = [
@@ -175,49 +181,28 @@ const Seo = () => {
 
   const power_data = [
     {
-      title: "Generate High-Quality Leads & Sales",
-      description:
-        "Leverage data-driven strategies and advanced targeting to attract the right audience and convert prospects into loyal customers.",
+      title: "Proven Track Record",
+      description: "Thousands of successful campaigns across industries.",
     },
     {
-      title: "Accelerate E-commerce Growth",
-      description:
-        "Maximize revenue with optimized product listings, AI-driven ad strategies, and seamless customer journeys designed for higher conversions and repeat sales.",
+      title: "Latest SEO Techniques",
+      description: "We follow Google's evolving algorithms and best practices.",
     },
     {
-      title: "Enhance Website Performance & Visibility",
-      description:
-        "Optimize your website for speed, user experience, and SEO, ensuring higher search rankings and better customer engagement.",
+      title: "Data-Driven Strategies",
+      description: "AI-powered insights for better keyword targeting.",
     },
     {
-      title: "Maximize Audience Engagement & Retention",
-      description:
-        "Capture attention with powerful storytelling, interactive campaigns, and AI-powered personalization to keep your audience coming back.",
+      title: "Comprehensive SEO Solutions",
+      description: "On-page, off-page, technical, and local SEO services.",
     },
     {
-      title: "Amplify Social Media Influence",
-      description:
-        "Build a thriving social media presence with data-backed content strategies, influencer collaborations, and targeted ads for greater reach and impact.",
+      title: "Customized Approach",
+      description: "Tailored SEO plans to suit your business goals.",
     },
     {
-      title: "Increase Brand Awareness & Authority",
-      description:
-        "Elevate your brand’s reputation with cutting-edge digital PR, high-quality content marketing, and strategic positioning that sets you apart from competitors.",
-    },
-    {
-      title: "Leverage AI & Automation for Smarter Marketing",
-      description:
-        "Stay ahead with AI-powered chatbots, automated lead nurturing, and predictive analytics to optimize every touchpoint in the customer journey.",
-    },
-    {
-      title: "Boost Conversion Rates with Performance Marketing",
-      description:
-        "Drive measurable results with highly optimized landing pages, CRO techniques, and A/B testing to ensure every click counts.",
-    },
-    {
-      title: "Achieve Unmatched ROI with Data-Driven Decisions",
-      description:
-        "We track, analyze, and refine strategies in real time, ensuring your marketing budget delivers the highest possible returns.",
+      title: "Transparent Reporting",
+      description: "Regular updates with performance tracking.",
     },
   ];
 
@@ -298,23 +283,41 @@ const Seo = () => {
       <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={"Top SEO Company"} />
       </div>
-      <Solution data={seoServices} />
+      <About />
+      <Solution
+        heading={"More Visibility, More Leads, More Growth! "}
+        subHeading={"With Our Cutting-Edge SEO Services in India"}
+        discription={
+          "Powering Growth for Agencies, Resellers & Global Businesses with White-Label Expertise"
+        }
+        data={seoServices}
+      />
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
+      />
+      <SIBPower
+        title="Why Choose "
+        subtitle="SIB Infotech"
+        description="We are more than just a SEO Company Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
+        data={power_data}
       />
       <BrandBuild
         title={brandContent[0].title}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
       />
-      <SIBPower
-      title="Why Choose Us "
-      subtitle="We are more than just a SEO Company "
-      description="Since 2005, SIB Infotech has been at the forefront of SEO services in India, delivering exceptional results for businesses worldwide. We don’t just aim for better rankings—we focus on increasing visibility, boosting conversions, and maximizing your ROI. "
-      data={power_data}
-    />
+        <TalkWithExpert
+        heading="Are you ready to Expand Your Business online with our SEO Services?"
+        linkTitle="Speak with one of our SEO Experts in Mumbai today!"
+        linkDestination="/contact-us"
+      />
+      <SeoProcess />
+      <SpecialisedServices/>
+      <OutsourcingServices/>
+
       <PartnerBadges />
       <CaseStudy2 />
       <OurClients />
@@ -326,6 +329,14 @@ const Seo = () => {
       </div>
       <Industries />
       <Pricing />
+      <TalkWithExpert
+        heading="Are you ready to Expand Your Business online with our SEO Services?"
+        linkTitle="Speak with one of our SEO Experts in Mumbai today!"
+        linkDestination="/contact-us"
+      />
+      <Faqs/>
+
+      <SeoAudit />
     </div>
   );
 };

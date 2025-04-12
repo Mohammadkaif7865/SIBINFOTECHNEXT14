@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
-const Solution = ({data}) => {
+const Solution = ({data,heading,subHeading,discription}) => {
   const [indexNo, setIndexNo] = useState("0");
-
-  
-
   const handelIndex = (index) => {
     setIndexNo(index);
   };
@@ -15,13 +12,12 @@ const Solution = ({data}) => {
         <div className="row text-white align-items-center">
           <div className="col-lg-10 ">
             <h4 className=" large_heading fontWeight4 00">
-             <span className="fontWeight large_heading2 fontWeight600">Services We Offer As a</span> 
+             <span className="fontWeight large_heading2 fontWeight600">{heading}</span> 
               <br />
-              White Label Digital Marketing Agency
+              {subHeading}
             </h4>
             <p className="mt-4">
-              Powering Growth for Agencies, Resellers & Global Businesses with
-              White-Label Expertise
+             {discription}
             </p>
           </div>
           <div className="col-lg-2 mt-4 mt-lg-0  d-none d-lg-block">

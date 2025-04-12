@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const SIBPower = ({ title, subtitle, description, data }) => {
+const SIBPower = ({ title, subtitle, description,description_right, data }) => {
   return (
     <section className="bg-black">
       <div className="containerFull">
@@ -19,9 +19,12 @@ const SIBPower = ({ title, subtitle, description, data }) => {
             <p className="mt-3 title text-white">{description}</p>
           </div>
           <div className="col-lg-8 ps-lg-5">
-            <p className="text-white" dengerounsly>
-
-            </p>
+            <p
+              className="text-white"
+              dangerouslySetInnerHTML={{
+                __html:description_right ,
+              }}
+            ></p>
             <div className="mt-4 position-relative">
               <button className="power_prev d-none d-lg-block">
                 <i className="fa fa-chevron-left text-white"></i>

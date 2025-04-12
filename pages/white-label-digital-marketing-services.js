@@ -200,7 +200,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       </div>
       <About2 />
 
-      <Solution data={whiteLabelServices} />
+      <Solution heading={"Services We Offer As a"} subHeading={"White Label Digital Marketing Agency"} discription={"Powering Growth for Agencies, Resellers & Global Businesses with White-Label Expertise"} data={whiteLabelServices} />
       <WhyChoose />
       <Cta2 />
       <Partnership />

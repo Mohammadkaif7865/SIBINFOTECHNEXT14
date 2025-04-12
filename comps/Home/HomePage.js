@@ -132,52 +132,52 @@ const HomePage = () => {
     },
   ];
   const power_data = [
-      {
-        title: "Generate High-Quality Leads & Sales",
-        description:
-          "Leverage data-driven strategies and advanced targeting to attract the right audience and convert prospects into loyal customers.",
-      },
-      {
-        title: "Accelerate E-commerce Growth",
-        description:
-          "Maximize revenue with optimized product listings, AI-driven ad strategies, and seamless customer journeys designed for higher conversions and repeat sales.",
-      },
-      {
-        title: "Enhance Website Performance & Visibility",
-        description:
-          "Optimize your website for speed, user experience, and SEO, ensuring higher search rankings and better customer engagement.",
-      },
-      {
-        title: "Maximize Audience Engagement & Retention",
-        description:
-          "Capture attention with powerful storytelling, interactive campaigns, and AI-powered personalization to keep your audience coming back.",
-      },
-      {
-        title: "Amplify Social Media Influence",
-        description:
-          "Build a thriving social media presence with data-backed content strategies, influencer collaborations, and targeted ads for greater reach and impact.",
-      },
-      {
-        title: "Increase Brand Awareness & Authority",
-        description:
-          "Elevate your brand’s reputation with cutting-edge digital PR, high-quality content marketing, and strategic positioning that sets you apart from competitors.",
-      },
-      {
-        title: "Leverage AI & Automation for Smarter Marketing",
-        description:
-          "Stay ahead with AI-powered chatbots, automated lead nurturing, and predictive analytics to optimize every touchpoint in the customer journey.",
-      },
-      {
-        title: "Boost Conversion Rates with Performance Marketing",
-        description:
-          "Drive measurable results with highly optimized landing pages, CRO techniques, and A/B testing to ensure every click counts.",
-      },
-      {
-        title: "Achieve Unmatched ROI with Data-Driven Decisions",
-        description:
-          "We track, analyze, and refine strategies in real time, ensuring your marketing budget delivers the highest possible returns.",
-      },
-    ];
+    {
+      title: "Generate High-Quality Leads & Sales",
+      description:
+        "Leverage data-driven strategies and advanced targeting to attract the right audience and convert prospects into loyal customers.",
+    },
+    {
+      title: "Accelerate E-commerce Growth",
+      description:
+        "Maximize revenue with optimized product listings, AI-driven ad strategies, and seamless customer journeys designed for higher conversions and repeat sales.",
+    },
+    {
+      title: "Enhance Website Performance & Visibility",
+      description:
+        "Optimize your website for speed, user experience, and SEO, ensuring higher search rankings and better customer engagement.",
+    },
+    {
+      title: "Maximize Audience Engagement & Retention",
+      description:
+        "Capture attention with powerful storytelling, interactive campaigns, and AI-powered personalization to keep your audience coming back.",
+    },
+    {
+      title: "Amplify Social Media Influence",
+      description:
+        "Build a thriving social media presence with data-backed content strategies, influencer collaborations, and targeted ads for greater reach and impact.",
+    },
+    {
+      title: "Increase Brand Awareness & Authority",
+      description:
+        "Elevate your brand’s reputation with cutting-edge digital PR, high-quality content marketing, and strategic positioning that sets you apart from competitors.",
+    },
+    {
+      title: "Leverage AI & Automation for Smarter Marketing",
+      description:
+        "Stay ahead with AI-powered chatbots, automated lead nurturing, and predictive analytics to optimize every touchpoint in the customer journey.",
+    },
+    {
+      title: "Boost Conversion Rates with Performance Marketing",
+      description:
+        "Drive measurable results with highly optimized landing pages, CRO techniques, and A/B testing to ensure every click counts.",
+    },
+    {
+      title: "Achieve Unmatched ROI with Data-Driven Decisions",
+      description:
+        "We track, analyze, and refine strategies in real time, ensuring your marketing budget delivers the highest possible returns.",
+    },
+  ];
 
   return (
     <>
@@ -202,11 +202,12 @@ const HomePage = () => {
 
       <OurPeople />
       <SIBPower
-      title="The Power of"
-      subtitle="SIB Infotech"
-      description="When Trust, Transparency And Accountability Truly Matter To You, We Are Your Partner."
-      data={power_data}
-    />
+        title="The Power of"
+        subtitle="SIB Infotech"
+        description="When Trust, Transparency And Accountability Truly Matter To You, We Are Your Partner."
+        description_right="When growth, innovation, and measurable results matter, we are the digital partner you can trust. At SIB Infotech, we go beyond marketing—we build strategies that drive success."
+        data={power_data}
+      />
       <Madeby />
       <PartnerBadges2 />
       <CaseStudy2 />
