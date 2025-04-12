@@ -19,7 +19,7 @@ const Testimonials = ({title,description}) => {
       <div className="containerFull">
         <div className="testimonialHeader">
         <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
-          <h4 className="heading fontHeading2 text-center mt-3 fontWeight600"    dangerouslySetInnerHTML={{ __html: title }}>
+          <h4 className="heading fontHeading2 text-center mt-3 fontWeight600"   dangerouslySetInnerHTML={{ __html: title }}>
 
             
           </h4>

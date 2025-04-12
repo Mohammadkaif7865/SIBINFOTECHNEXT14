@@ -112,7 +112,7 @@ const Seo = () => {
   const rightBoxContent = {
     heading: "Get top-notch SEO services from leading SEO Company in India ",
     description:
-      "As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a remarkable track record, successfully managing over 1350+ projects within distinct niches. Our dedicated teams specialize in various sectors, ensuring businesses achieve top rankings. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, each niche benefits from a specialized team with the requisite skills and extensive industry experience. This targeted approach allows us to comprehend specific business requirements, leading to outstanding results.  ",
+      "Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. ",
   };
   const leftBoxContent = {
     headingStart: "Benefits   ",
@@ -135,101 +135,103 @@ AI-Driven SEO Strategy `,
       `,
       faqData: [
         {
-          question: "1. What is Keyword Research & Strategy in SEO?",
+          question: "1. Keyword Research & Strategy",
           answer: `
-            <p>Keyword research is a fundamental practice in SEO. It involves identifying high-traffic, low-competition keywords suitable for your niche and mapping long-tail keywords that match user intent.</p>
-            <p>Effective keyword research tools include <strong>Google Keyword Planner</strong>, <strong>Ahrefs</strong>, and <strong>SEMrush</strong> for data-driven insights.</p>
-          `,
-        },
-        {
-          question: "2. What does Competitor Analysis involve in SEO?",
-          answer: `
-            <p>Competitor analysis gathers insights into your competitors' keyword strategies, content approach, and backlink profiles. This data is then used to enhance your own SEO strategy by identifying gaps and opportunities.</p>
-          `,
-        },
-        {
-          question: "3. What is On-Page SEO Optimization?",
-          answer: `
-            <p>On-Page SEO involves optimizing individual web pages for search engines and users. Key elements include:</p>
+            <p>Keyword research is a fundamental practice in search engine optimization (SEO).</p>
             <ul>
-              <li>Proper tagging of titles, meta descriptions, and heading tags (H1, H2, H3)</li>
-              <li>Strategic keyword usage (avoid keyword stuffing)</li>
-              <li>Internal linking for better site structure</li>
-              <li>Using schema markup for rich search results</li>
-              <li>Image optimization through alt text and compression</li>
+              <li>Identify high-traffic, low-competition keywords that are suitable for your niche</li>
+              <li>Map long-tail keywords that match intent.</li>
+              <li>Keyword research would not be complete without using a set of engines such as Google Keyword Planner, Ahrefs, and SEMrush to draw data-based insights.</li>
             </ul>
-          `,
+          `
         },
         {
-          question: "4. What is High-Quality Content Creation & E-E-A-T?",
+          question: "2. Competitor Analysis",
           answer: `
-            <p>Create content that is unique, engaging, useful, specific, and verifiable. Follow the <strong>E-E-A-T</strong> principles: Experience, Expertise, Authoritativeness, and Trustworthiness.</p>
-            <p>Update older blogs regularly and structure content with siloing based on topical relevance.</p>
-          `,
+            <p>This process gathers competitors' insights about their keyword, content, and backlink strategy and uses those insights to improve your own SEO</p>
+          `
         },
         {
-          question:
-            "5. Why is Content Design (UI & UX) Optimization important?",
+          question: "3. On-Page SEO Optimization",
           answer: `
-            <p>Well-designed content helps maximize reach and engagement. Ensure your website is:</p>
             <ul>
-              <li>Mobile-friendly and responsive</li>
-              <li>Consistent in layout across devices</li>
-              <li>Accessible and readable to diverse users</li>
+              <li>Tagging title, description, and heads (H1, H2, and H3).</li>
+              <li>Keyword stuffing should not be applied in the context but make provisions for keyword use in the content.</li>
+              <li>Internally linking your site will help you to build an ever-better web of page authority across your site.</li>
+              <li>Structured data (schema markup) - A type of code that you can optimize on your website to help search engines provide more informative and relevant results to users.</li>
+              <li>Image optimization using alt text and compressing their file sizes.</li>
             </ul>
-          `,
+          `
         },
         {
-          question: "6. What are Technical SEO Enhancements?",
+          question: "4. High-Quality Content Creation (& E-E-A-T)",
           answer: `
-            <p>Technical SEO ensures search engines can efficiently crawl and index your website. Key tasks include:</p>
             <ul>
-              <li>Optimizing site speed and Core Web Vitals</li>
-              <li>Mobile-first design and responsive layout</li>
-              <li>Fixing crawl errors in Google Search Console</li>
-              <li>Creating and submitting an XML sitemap</li>
-              <li>Securing the website with HTTPS</li>
+              <li>Generate high quality unique, engaging, useful & specific, and verifiable content.</li>
+              <li>E-E-A-T (experience, expertise, authoritativeness, and trustworthiness) should be the guidelines.</li>
+              <li>Keep your old blogs up to date in some manner.</li>
+              <li>Siloing in the content structure should be encouraged based on topical relevance.</li>
             </ul>
-          `,
+          `
         },
         {
-          question: "7. What is Off-Page SEO & Link Building?",
+          question: "5. Optimize Content Design (UI & UX)",
           answer: `
-            <p>Off-page SEO improves your site's authority through external signals. Methods include:</p>
             <ul>
-              <li>Acquiring high-quality backlinks</li>
-              <li>Guest posting, PR outreach, influencer collaboration</li>
-              <li>Social media engagement and brand mentions</li>
-              <li>Consistent citations across local directories</li>
+              <li>The process of making sure content is written in a way that it can reach the largest possible target audience.</li>
+              <li>Mobile Friendly/Responsive: Your website's users can use your website through mobile device with ease and barring any significant changes from the desktop version of your website.</li>
             </ul>
-          `,
+          `
         },
         {
-          question: "8. How does Local SEO help businesses?",
+          question: "6. Technical SEO Enhancements",
           answer: `
-            <p>Local SEO boosts visibility in local search results. Important practices include:</p>
             <ul>
-              <li>Optimizing your Google My Business profile</li>
-              <li>Encouraging and responding to customer reviews</li>
-              <li>Including location-specific keywords in content</li>
-              <li>Listing your business on platforms like Yelp and Justdial</li>
+              <li>The site speed should be fastened and Core Web Vitals optimized.</li>
+              <li>Enforce mobile friendly design and responsiveness.</li>
+              <li>Fix the crawl errors known to Google Search Console.</li>
+              <li>Create an XML sitemap and submit it to the search engines for listing all pages.</li>
+              <li>Make sure the website is HTTPS secure.</li>
             </ul>
-          `,
+          `
         },
         {
-          question:
-            "9. Why is Regular Performance Monitoring & Optimization necessary?",
+          question: "7. Off-Page SEO & Link Building",
           answer: `
-            <p>Regular tracking ensures your SEO strategy remains effective. Key activities include:</p>
             <ul>
-              <li>Monitoring rankings using Google Analytics and Search Console</li>
-              <li>Conducting scheduled SEO audits</li>
-              <li>Competitor benchmarking</li>
-              <li>A/B testing meta titles, descriptions, and CTAs for better CTR</li>
+              <li>Attain high-quality backlinks from authoritative websites.</li>
+              <li>For exposure purposes, one could use guest postings, PR outreach, and influencer collaborations.</li>
+              <li>Social media and brand mentions could also work for exposure.</li>
+              <li>Ensure accurate citation and match in terms of cross-referencing with major directories for local SEO purposes.</li>
             </ul>
-          `,
+          `
         },
+        {
+          question: "8. Local SEO (For Businesses Targeting Local Audience)",
+          answer: `
+            <ul>
+              <li>Optimize your Google My Business (GMB) profile.</li>
+              <li>To the end, anyone could elicit reviews while responding to them.</li>
+              <li>Content should include keywords based upon the location. Localize your business entity in sites such as Yelp, Justdial, etc.</li>
+              <li>Local SEO is a strategy that focuses on improving your visibility in local search rankings.</li>
+            </ul>
+          `
+        },
+        {
+          question: "10. Regular Performance Monitoring & Optimization",
+          answer: `
+            <ul>
+              <li>Rank checking with Google Analytics and Search Console.</li>
+              <li>Schedule regularly SEO audits to fix emerging issues.</li>
+              <li>Always study what the competition is doing to keep on improving it.</li>
+              <li>Carry out A/B tests regarding Meta titles, descriptions, and CTAs for higher click-through rates. Conduct A/B testing on meta tags, descriptions, and CTAs.</li>
+            </ul>
+          `
+        }
       ],
+      
+      
+      
     },
   ];
 
@@ -261,7 +263,7 @@ AI-Driven SEO Strategy `,
   ];
   const testimonial_data = [
     {
-      title: `Client Success Stories That Prove <br/> We’re a Top SEO Company in India `,
+      title: `What Our <span class="text_red"> Client's Say</span> About Us `,
       description: `We are a five star rated SEO Agency in Mumbai, Delhi & Across India `,
     },
   ];
@@ -369,7 +371,8 @@ AI-Driven SEO Strategy `,
         title="Why Choose "
         subtitle="SIB Infotech"
         description="We are more than just a SEO Company Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-        description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
+        description_right="As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a remarkable track record, successfully managing over 1350+ projects within distinct niches. Our dedicated teams specialize in various sectors, ensuring businesses achieve top rankings. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, each niche benefits from a specialized team with the requisite skills and extensive industry experience. This targeted approach allows us to comprehend specific business requirements, leading to outstanding results. "
+        // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
       />
       <BrandBuild
@@ -389,9 +392,15 @@ AI-Driven SEO Strategy `,
       <OutsourcingServices />
 
       <PartnerBadges />
-      <CaseStudy2 />
+      <CaseStudy2
+        description={`Client Success Stories That Prove
+ We’re a Top SEO Company in India,our results speak for themselves`}
+      />
       <OurClients />
-      <Testimonials title={testimonial_data[0].title}  description={testimonial_data[0].description} />
+      <Testimonials
+        title={testimonial_data[0].title}
+        description={testimonial_data[0].description}
+      />
       <Conversions />
       <Featured />
       <div className="toolsHome">
