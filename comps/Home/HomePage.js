@@ -180,12 +180,11 @@ const HomePage = () => {
     },
   ];
 
-
   const testimonial_data = [
     {
-      title: `Clients' Success Stories That Prove <br/> We're a Top Digital Marketing Company`,
-      description: `We are five star rated Digital Agency`
-    }
+      title: `What Our <span class="text_red"> Client's Say</span> About Us `,
+      description: `We are five star rated Digital Agency`,
+    },
   ];
 
   return (
@@ -200,7 +199,6 @@ const HomePage = () => {
       <Cta />
       <BrandBuild
         title={brandContent[0].title}
-       
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
       />
@@ -220,9 +218,15 @@ const HomePage = () => {
       />
       <Madeby />
       <PartnerBadges2 />
-      <CaseStudy2 />
+      <CaseStudy2
+        description={`Client Success Stories That Prove
+We’re a Top Digital Marketing Company in India, our results speak for themselves `}
+      />
       <OurClients />
-      <Testimonials title={testimonial_data[0].title} description={testimonial_data[0].description} />
+      <Testimonials
+        title={testimonial_data[0].title}
+        description={testimonial_data[0].description}
+      />
       <Conversions />
       <Featured />
       <div className="toolsHome">

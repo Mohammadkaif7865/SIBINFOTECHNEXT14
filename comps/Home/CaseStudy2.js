@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 
-const CaseStudy2 = () => {
+const CaseStudy2 = ({description}) => {
   const caseStudies = [
     {
       title: "RNB Global University's",
@@ -121,10 +121,13 @@ const CaseStudy2 = () => {
           </div>
         </div>
         <p className="title fontWeight300 mt-2">
-          See how we’ve helped brands grow.{" "}
+          {description} 
+
+
+          {/* See how we’ve helped brands grow.{" "}
           <span className="fontWeight600">
-            Our results speak for themselves!
-          </span>
+            ! */}
+          {/* </span> */}
         </p>
         <div className="text-lg-end d-lg-none  mt-4">
               <Link href="#" className="btnCase">
