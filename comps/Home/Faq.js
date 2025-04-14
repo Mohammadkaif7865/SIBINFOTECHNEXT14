@@ -91,7 +91,7 @@ const Faq = () => {
     <section>
       <div className="containerFull ">
         <h4 className="large_heading2 fontHeading2 text-center text_red fontWeight300">
-          Frequently <span className="fontWeight600">Asked Questions</span>
+        Frequently Asked <span className="fontWeight600">Digital Marketing Questions</span>
         </h4>
         <p className="mt-4 text-center title">
           We as a full service leading <strong>digital marketing firm</strong>,

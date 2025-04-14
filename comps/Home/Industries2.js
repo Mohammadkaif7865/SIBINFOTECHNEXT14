@@ -49,11 +49,21 @@ const Industries = () => {
     <section className="">
       <div className="containerFull">
         <h4 class="large_heading2 fontWeight300 fontHeading2 text_red">
-          Industries <span class="fontWeight600">We Serve </span>
+          Digital Marketing{" "}
+          <span class="fontWeight600">for Every Industry</span>
         </h4>
         <p className="title mt-3">
-          We provide <strong>website design solutions</strong> for diverse
-          industries, including:{" "}
+          At SIB Infotech, we deliver custom digital marketing solutions
+          tailored to the unique needs of various industries. Whether you're in
+          eCommerce, healthcare, finance, real estate, education, or any other
+          domain, our expert team combines AI-driven strategies with proven
+          digital marketing techniques to help you reach the right audience and
+          drive real business results.
+        </p>
+        <p>
+          Whether you're a startup or an enterprise, we offer industry-focused
+          marketing campaigns that help you increase visibility, improve ROI,
+          and scale your business efficiently.
         </p>
         <Swiper
           spaceBetween={20}
