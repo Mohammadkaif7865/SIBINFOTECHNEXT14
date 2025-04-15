@@ -57,7 +57,10 @@ const Tools = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-12">
-            <h3 className="heading text-center text-white fontWeight300">
+            <h5 className="fontWeight600 text-center text-white">
+              Our Tools
+            </h5>
+            <h3 className="heading text-center text-white fontWeight300 mt-4">
               Some of the{" "}
               <span className="fontWeight600">
                 Best Digital Marketing Tools

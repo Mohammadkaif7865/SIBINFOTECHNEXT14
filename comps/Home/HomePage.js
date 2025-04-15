@@ -24,6 +24,7 @@ import Industries2 from "./Industries2";
 import OurPeople from "./OurPeople";
 import Tools from "./Tools";
 import Abbout3 from "./Abbout3";
+import Map from "./Map";
 
 const HomePage = () => {
   const keyAdvantages = [
@@ -82,7 +83,6 @@ const HomePage = () => {
       "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
     buttonText: "Get a Free Analysis",
   };
-
   const brandContent = [
     {
       title: "Strategy. Creativity. Performance.",
@@ -179,7 +179,6 @@ const HomePage = () => {
         "We track, analyze, and refine strategies in real time, ensuring your marketing budget delivers the highest possible returns.",
     },
   ];
-
   const testimonial_data = [
     {
       title: `What Our <span class="text_red"> Client's Say</span> About Us `,
@@ -198,6 +197,7 @@ const HomePage = () => {
       <WhatWeDo3 />
       <Cta />
       <BrandBuild
+        subtitle={"How to Create a Successful Digital Marketing Strategy? "}
         title={brandContent[0].title}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
@@ -207,20 +207,20 @@ const HomePage = () => {
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
-
       <OurPeople />
       <SIBPower
-        title="The Power of"
-        subtitle="SIB Infotech"
+        batchtitle="Authentic Growth"
+        title="Importance of"
+        subtitle=" Digital Marketing "
         description="When Trust, Transparency And Accountability Truly Matter To You, We Are Your Partner."
-        description_right="When growth, innovation, and measurable results matter, we are the digital partner you can trust. At SIB Infotech, we go beyond marketing—we build strategies that drive success."
+        title_right={"Why do your business need digital marketing? "}
+        description_right="In today’s fast-evolving digital landscape, businesses that don’t embrace digital marketing are at risk of falling behind. At SIB Infotech, we understand the power of a strong online presence, and we help brands harness that power to drive growth and success. Here’s why digital marketing is essential for your business: "
         data={power_data}
       />
       <Madeby />
       <PartnerBadges2 />
       <CaseStudy2
-        description={`Client Success Stories That Prove
-We’re a Top Digital Marketing Company in India, our results speak for themselves `}
+        description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
       />
       <OurClients />
       <Testimonials
@@ -234,27 +234,9 @@ We’re a Top Digital Marketing Company in India, our results speak for themselv
       </div>
       <Industries2 />
       <Pricing />
-      {/* <Map /> */}
-
+      <Map />
       {/* <Counter /> */}
-      {/* 
-      
-      
-     
-  
-     
-    
-     
-  
-     
-      
-      
-    
-      
-    */}
-
       {/* <Presence/> */}
-
       {/* <Expertise />
       <DigitalMarketingServices />
       <AboutUs />

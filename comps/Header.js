@@ -24,7 +24,11 @@ export default function Header() {
 
   return (
     <div>
-  <header className={`header stricky  ${pathname !== "/" ? "position-relative" : ""} `}>
+      <header
+        className={`header stricky  ${
+          pathname !== "/" ? "position-relative" : ""
+        } `}
+      >
         {/* <div className="topHeader d-none d-md-block">
           <div className="containerFull">
             <div className="inlineHeader ">
@@ -1098,6 +1102,12 @@ export default function Header() {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
+
+      <div class="whatsAppIcon">
+        <a href="https://wa.link/rd1lfo" target="_blank" class="shadow">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
     </div>
   );
 }

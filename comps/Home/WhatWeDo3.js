@@ -30,7 +30,7 @@ export default function WhatWeDo3() {
           </h5>
            <p class="mt-2">Optimized product pages and technical SEO that boost online sales. </p>
 `,
-      image: "/assets/images/get-ranked.png",
+      image: "/assets/images/get-ranked-on-google.jpg",
     },
     {
       title: "Drive Instant Growth",
@@ -55,7 +55,7 @@ export default function WhatWeDo3() {
           <p  class="mt-2">Connect with key decision-makers and grow your B2B pipeline 
           </p>
          `,
-      image: "/assets/images/instant-growth.png",
+      image: "/assets/images/drive-instant-growth.jpg",
     },
     {
       title: "Accelerate Digital Dominance",
@@ -122,7 +122,7 @@ export default function WhatWeDo3() {
   return (
     <section id="viewPort" ref={viewPortRef}>
       <div className="containerFull">
-        <p className="title text-center">
+        <p className="title text-center fontWeight700">
           What We Do
         </p>
         <h4 className="mt-3  large_heading2 fontHeading2 text-center fontWeight600 text_red">

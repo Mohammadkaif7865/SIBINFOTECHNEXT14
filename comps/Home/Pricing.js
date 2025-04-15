@@ -40,7 +40,7 @@ const packages = [
     title: "Graphic Designing  <br/> Packages",
     image: "/assets/images/packeges/Graphic-design.jpg",
     alt: "Graphic Designing",
-    features: ["Logos", "Stationery", "Motion Graphics"],
+    features: ["Logos", "Stationery", "Motion Graphics","Brochure Design"],
     price: "$175/Month",
   },
   {
@@ -49,7 +49,7 @@ const packages = [
     alt: "Link Building",
     features: [
       "Guest Posting",
-      "Article Submission",
+      "Blog Posting",
       "Local Listings",
       "Press Release",
     ],
@@ -61,14 +61,15 @@ const Pricing = () => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
-      
-        <h4 class="title fontWeight600  text-center">Pricing Packages</h4>
+        <h4 class="title fontWeight600  text-center">
+          Digital Marketing Pricing Plans{" "}
+        </h4>
         <h4 className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red">
           360° <span className="fontWeight600">Digital Marketing</span>{" "}
           Solutions
         </h4>
         <p className="mt-4 text-center title fontWeight500">
-          Packages starting from <strong>$175</strong> only.
+          Our Digital Marketing Packages starts from <strong>$175</strong> only.
         </p>
 
         <div className="pricing_row position-relative">
@@ -79,8 +80,9 @@ const Pricing = () => {
           <Swiper
             spaceBetween={30}
             loop={true}
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            autoplay={{ delay: 2500, pauseOnMouseEnter: true }}
             pagination={false}
+         
             navigation={{ nextEl: ".price_next", prevEl: ".price_prev" }}
             breakpoints={{
               0: { slidesPerView: 1, spaceBetween: 20 },

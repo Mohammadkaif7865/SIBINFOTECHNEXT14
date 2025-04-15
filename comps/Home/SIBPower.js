@@ -6,23 +6,42 @@ import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const SIBPower = ({ title, subtitle, description,description_right, data }) => {
+const SIBPower = ({
+  title,
+  subtitle,
+  description,
+  title_right,
+  description_right,
+  data,
+  batchtitle
+}) => {
   return (
     <section className="bg-black">
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-4">
-            <h4 className="large_heading2 fontWeight300 fontHeading2 text_red">
+            {batchtitle && (
+              <h5 className="text-white">
+                {batchtitle}
+              </h5>
+            )}
+            <h4 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
               {title} <br className="d-none d-lg-block" />
               <span className="fontWeight600">{subtitle}</span>
             </h4>
             <p className="mt-3 title text-white">{description}</p>
           </div>
           <div className="col-lg-8 ps-lg-5">
-            <p
-              className="text-white"
+            <h4
+              className="text-white sub_heading"
               dangerouslySetInnerHTML={{
-                __html:description_right ,
+                __html: title_right,
+              }}
+            ></h4>
+            <p
+              className="text-white mt-2"
+              dangerouslySetInnerHTML={{
+                __html: description_right,
               }}
             ></p>
             <div className="mt-4 position-relative">

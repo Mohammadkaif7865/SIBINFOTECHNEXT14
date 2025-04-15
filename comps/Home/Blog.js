@@ -14,7 +14,7 @@ const Blog = () => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          `${CONSTANTS.API_URL}blog/all?publish=1&limit=6`,
+          `${CONSTANTS.API_URL}blog/all?publish=1&limit=3`,
           { headers: headers }
         );
         setBlogs(res?.data?.blogs);
@@ -30,8 +30,9 @@ const Blog = () => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
-        <h4 className="large_heading2 text-center mb-3 fontWeight300 text_red">
-          From <span className="fontWeight600">Our Blogs</span>
+        <h5 className="text-center  fontWeight600">Our Blogs</h5>
+        <h4 className="large_heading2 mt-4 text-center mb-3 fontWeight300 text_red">
+           <span className="fontWeight600">Digital Marketing Learnings</span>
         </h4>
         <div className="row mt-lg-5">
           {blogs?.map((blog, index) => {
