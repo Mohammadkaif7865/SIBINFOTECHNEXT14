@@ -25,14 +25,18 @@ const Featured = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h3 className="large_heading2 fontWeight300 text_red">
+            <h5 className="fontWeight600">Media Coverage</h5>
+            <h3 className="large_heading2 fontWeight300 text_red mt-4">
               We can <span className="fontWeight600">Get Featured</span> you on{" "}
               <span className="fontWeight600">Top News Websites</span>
             </h3>
           </div>
           <div className="col-lg-5 mt-3 mt-lg-0">
             <p className="ps-lg-5 text-center text-lg-start">
-            Boost your brand’s credibility and visibility by getting published on leading news platforms. Our PR and outreach services help you earn high-authority backlinks, improve SEO rankings, and build instant trust with your audience 
+              Boost your brand’s credibility and visibility by getting published
+              on leading news platforms. Our PR and outreach services help you
+              earn high-authority backlinks, improve SEO rankings, and build
+              instant trust with your audience
             </p>
           </div>
         </div>

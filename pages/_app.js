@@ -55,9 +55,6 @@ function MyApp({ Component, pageProps }) {
             as="style"
             onLoad="this.onload=null;this.rel='stylesheet'"
           />
-       
-
-
           <noscript>
             <link
               href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"

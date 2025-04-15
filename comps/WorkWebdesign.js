@@ -195,12 +195,13 @@ export default function WorkWebdesign() {
         <img src="assets/images/icons/circle.svg" alt="Circle Icon" />
       </div>
       <div className="containerFull">
-        <h3 className="text-center large_heading2 fontHeading2 fontWeight300">
+        <h5 className="text-center fontWeight600">Our Portfolio</h5>
+        <h3 className="text-center large_heading2 mt-4 fontHeading2 fontWeight300">
           Made by <span className="fontWeight600 text_red">SIB Infotech</span>
         </h3>
         <div className="space"></div>
-        <div className="portfolioHome">
-          <h3 className="sub_heading fontWeight600 fontHeading fontHeading ">
+        <div className="portfolioHome mt-4">
+          <h3 className="sub_heading fontWeight600   ">
             Our Portfolio
           </h3>
           <p className="title mt-2">
@@ -231,7 +232,7 @@ export default function WorkWebdesign() {
                   </div>
                   <div className="col-lg-6">
                     <div className="workHomeRight mt-4 ">
-                      <h3 className="text_red fontWeight700 fontHeading">
+                      <h3 className="text_red fontWeight700 ">
                         {slide?.heading}
                       </h3>
                       <p className="mt-3">{slide?.text}</p>

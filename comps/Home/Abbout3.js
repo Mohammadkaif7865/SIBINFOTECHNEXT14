@@ -26,7 +26,8 @@ const Abbout3 = () => {
             </div>
           </div>
           <div className="col-lg-8    order-lg-2 order-1">
-            <h4 className="fontHeading2 large_heading2 fontWeight600">
+            <h5 className="fontWeight600">Welcome to SIB Infotech</h5>
+            <h4 className="mt-4  fontHeading2 large_heading2 fontWeight600">
               Guaranteed Visibility Through{" "}
               <span className="text_red"> Our Digital Marketing Services</span>
             </h4>
@@ -47,11 +48,12 @@ const Abbout3 = () => {
                   conversions while delivering measurable ROI.
                 </p>
                 <p className="mt-2">
-                  With 19+ years of experience, we leverage{" "}
-                  <strong>
-                    AI-driven marketing strategies, data analytics
-                  </strong>
-                  , and result-oriented campaigns to maximize
+                  <b> With 20+ years of experience</b>, we leverage AI-driven
+                  marketing strategies, data analytics, and result-oriented
+                  campaigns to maximize growth. Whether you're a startup or an
+                  enterprise, our customized digital marketing solutions ensure
+                  higher rankings, increased traffic, and improved lead
+                  generation to help you stay ahead of the competition.
                 </p>
               </div>
 

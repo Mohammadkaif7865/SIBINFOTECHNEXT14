@@ -48,7 +48,10 @@ const Industries = () => {
   return (
     <section className="">
       <div className="containerFull">
-        <h4 class="large_heading2 fontWeight300 fontHeading2 text_red">
+        <h5 className=" fontWeight600">
+          Industries We Serve
+        </h5>
+        <h4 class="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
           Digital Marketing{" "}
           <span class="fontWeight600">for Every Industry</span>
         </h4>
