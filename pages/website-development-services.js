@@ -5,6 +5,7 @@ import { Accordion } from "react-bootstrap";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
+import WebDevelopment from "@/comps/web-dev/WebDevelopment";
 
 export default function WebDevelopmentServices() {
   const [isShowMore, setIsShowMore] = useState(false);
@@ -195,6 +196,9 @@ export default function WebDevelopmentServices() {
       <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={"Web Development Company "} />
       </div>
+      <WebDevelopment/>
+
+
       <section>
         <div className="containerFull">
           <h2 className="customHeading text-center fontHeading">
