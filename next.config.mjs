@@ -314,16 +314,6 @@ const nextConfig = {
           },
         ],
       },
-      // 🔥 Cache static assets aggressively
-      {
-        source: "/assets/:all*(png|jpg|jpeg|gif|webp|mp4|svg|css|js|woff2?)",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
-          },
-        ],
-      },
     ];
   },
   images: {
