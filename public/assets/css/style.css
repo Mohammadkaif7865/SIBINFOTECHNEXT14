@@ -2071,7 +2071,7 @@ section {
 }
 
 .mapBlock {
-  background: url(/assets/images/bg/footer-bg.jpg) no-repeat;
+  background: url(/assets/images/bg/footer-bg-min.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
