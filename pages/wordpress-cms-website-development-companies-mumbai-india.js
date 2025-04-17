@@ -162,7 +162,7 @@ export default function WordPressCmsServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Wordpress Experts"
                 />
               </div>
@@ -212,7 +212,7 @@ export default function WordPressCmsServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Wordpress Experts Services"
                 />
               </div>

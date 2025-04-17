@@ -10,20 +10,50 @@ export default function MobileSeoServices() {
   const metaTags = (
     <>
       <title>Top Mobile SEO Services Company in Mumbai, India</title>
-      <meta name="description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
-      <meta name="keywords" content="Mobile SEO Services, Mobile SEO Services in India, Mobile SEO" />
+      <meta
+        name="description"
+        content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience."
+      />
+      <meta
+        name="keywords"
+        content="Mobile SEO Services, Mobile SEO Services in India, Mobile SEO"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/mobile-seo-services" />
-      <meta property="og:title" content="Top Mobile SEO Services Company in Mumbai, India" />
-      <meta property="og:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/mobile-seo-services"
+      />
+      <meta
+        property="og:title"
+        content="Top Mobile SEO Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-seo-services" />
-      <meta property="twitter:title" content="Top Mobile SEO Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/mobile-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Top Mobile SEO Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-seo-services"
         breadcrumbTitle="Top Mobile SEO Services Company in Mumbai, India"
@@ -46,7 +76,7 @@ export default function MobileSeoServices() {
                   Mobile SEO Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Mobile SEO  Company in India
+                  Top Rated Mobile SEO Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -67,8 +97,8 @@ export default function MobileSeoServices() {
                 <p>
                   with{" "}
                   <strong className="fontWeight600 text_red">
-                    Best <span className="textChange">Mobile SEO </span> Services
-                    in India
+                    Best <span className="textChange">Mobile SEO </span>{" "}
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -136,7 +166,7 @@ export default function MobileSeoServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/mobile-seo-company-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobile-seo-company-in-india.svg"
                 alt="mobile-seo-agency-in-delhi"
               />
             </div>
@@ -208,28 +238,28 @@ export default function MobileSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/on-page-seo-increase-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-increase-conversion.svg"
                     alt="mobile-seo-agency-in-mumbai"
                   />
                   <h4>Increased conversion rates</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-seo-boost-brand-awareness.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-seo-boost-brand-awareness.svg"
                     alt="best-mobile-seo-company"
                   />
                   <h4>Positive impact on the audience</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-companies-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-companies-in-delhi.svg"
                     alt="best-mobile-seo-company-in-india"
                   />
                   <h4>Extreme leads from come-back customers</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-company-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-company-in-delhi.svg"
                     alt="best-mobile-seo-company-in-delhi"
                   />
                   <h4>Boosted sales</h4>
@@ -238,21 +268,21 @@ export default function MobileSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-company-in-mumbai.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-company-in-mumbai.svg"
                     alt="best-mobile-seo-company-in-mumbai"
                   />
                   <h4>Higher SERP ranking</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-firm-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-firm-in-india.svg"
                     alt="best-mobile-seo-companies"
                   />
                   <h4>Long-lasting impact on the audience</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/mobile-seo-firm-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-firm-delhi.svg"
                     alt="best-mobile-seo-companies-in-india"
                   />
                   <h4>Increased audience engagement and website traffic</h4>
@@ -282,7 +312,7 @@ export default function MobileSeoServices() {
               <div className="p-sticky">
                 <img
                   className="image-full"
-                  src="assets/images/best-mobile-seo-company-in-delhi.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-mobile-seo-company-in-delhi.svg"
                   alt="best-mobile-seo-company-in-delhi"
                 />
               </div>
@@ -294,7 +324,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/mobile-seo-agency-in-india.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-agency-in-india.svg"
                           alt="mobile-seo-company"
                         />
                       </div>
@@ -315,7 +345,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/mobile-seo-agency-in-delhi.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-agency-in-delhi.svg"
                           alt="mobile-seo-company-in-india"
                         />
                       </div>
@@ -337,7 +367,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/mobile-seo-agency-in-mumbai.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-agency-in-mumbai.svg"
                           alt="mobile-seo-company-in-delhi"
                         />
                       </div>
@@ -359,7 +389,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/mobile-seo-companies-in-india.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-companies-in-india.svg"
                           alt="mobile-seo-company-in-mumbai"
                         />
                       </div>
@@ -384,7 +414,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/mobile-seo-companies-in-mumbai.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-seo-companies-in-mumbai.svg"
                           alt="mobile-seo-firm-in-india"
                         />
                       </div>
@@ -402,7 +432,7 @@ export default function MobileSeoServices() {
                     <div className="off-page-seo-box-heading">
                       <div className="img-circle">
                         <img
-                          src="assets/images/icons/best-mobile-seo-company.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/best-mobile-seo-company.svg"
                           alt="mobile-seo-firm-in-delhi"
                         />
                       </div>
@@ -421,7 +451,7 @@ export default function MobileSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/best-mobile-seo-company-in-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/best-mobile-seo-company-in-india.svg"
                       alt="mobile-seo-firm-in-mumbai"
                     />
                   </div>
@@ -447,7 +477,7 @@ export default function MobileSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/best-mobile-seo-company-in-mumbai.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/best-mobile-seo-company-in-mumbai.svg"
                       alt="mobile-seo-agency-in-india"
                     />
                   </div>
@@ -472,7 +502,7 @@ export default function MobileSeoServices() {
               <div className="p-sticky">
                 <img
                   className="image-full"
-                  src="assets/images/best-mobile-seo-firm.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-mobile-seo-firm.svg"
                   alt="best-mobile-seo-firm"
                 />
               </div>
@@ -498,7 +528,7 @@ export default function MobileSeoServices() {
               </p>
               <img
                 className="image-full"
-                src="assets/images/best-mobile-seo-firm-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-mobile-seo-firm-in-india.svg"
                 alt="best-mobile-seo-firm-in-india"
               />
             </div>

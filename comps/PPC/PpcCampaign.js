@@ -16,7 +16,7 @@
 //                 <div className="itemPayper">
 //                   <div className="payIcon">
 //                     <img
-//                       src="assets/images/icons/releavent-keyword.svg"
+//                       src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/releavent-keyword.svg"
 //                       alt="Relevant Keyword"
 //                     />
 //                   </div>
@@ -31,7 +31,7 @@
 //                 <div className="itemPayper">
 //                   <div className="payIcon">
 //                     <img
-//                       src="assets/images/icons/quality-score.svg"
+//                       src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/quality-score.svg"
 //                       alt="Quality Score"
 //                     />
 //                   </div>
@@ -46,7 +46,7 @@
 //                 <div className="itemPayper">
 //                   <div className="payIcon">
 //                     <img
-//                       src="assets/images/icons/creative.svg"
+//                       src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/creative.svg"
 //                       alt="Creative"
 //                     />
 //                   </div>
@@ -58,7 +58,7 @@
 //                 <div className="itemPayper">
 //                   <div className="payIcon">
 //                     <img
-//                       src="assets/images/icons/landing-page.svg"
+//                       src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/landing-page.svg"
 //                       alt="Landing Page"
 //                     />
 //                   </div>
@@ -97,7 +97,7 @@
 //                     <div className="itemSpecial">
 //                       <div className="imgSpecial">
 //                         <img
-//                           src="assets/images/icons/search-ad.png"
+//                           src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/search-ad.png"
 //                           alt="Search Ad"
 //                         />
 //                       </div>
@@ -108,7 +108,7 @@
 //                     <div className="itemSpecial">
 //                       <div className="imgSpecial">
 //                         <img
-//                           src="assets/images/icons/mobile-ad.png"
+//                           src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-ad.png"
 //                           alt="Mobile Ad"
 //                         />
 //                       </div>
@@ -119,7 +119,7 @@
 //                     <div className="itemSpecial">
 //                       <div className="imgSpecial">
 //                         <img
-//                           src="assets/images/icons/display-ad.svg"
+//                           src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/display-ad.svg"
 //                           alt="Display Ad"
 //                         />
 //                       </div>
@@ -130,7 +130,7 @@
 //                     <div className="itemSpecial">
 //                       <div className="imgSpecial">
 //                         <img
-//                           src="assets/images/icons/video-ads.svg"
+//                           src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/video-ads.svg"
 //                           alt="Video Ads"
 //                         />
 //                       </div>
@@ -141,7 +141,7 @@
 //                     <div className="itemSpecial">
 //                       <div className="imgSpecial">
 //                         <img
-//                           src="assets/images/icons/shopping-ads.svg"
+//                           src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/shopping-ads.svg"
 //                           alt="Shopping"
 //                         />
 //                       </div>

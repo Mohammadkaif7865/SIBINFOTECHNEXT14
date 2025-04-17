@@ -135,7 +135,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-md-5">
               <img
                 className="image-full"
-                src="assets/images/img-8.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/img-8.svg"
                 alt="Software Development Company in India"
               />
             </div>
@@ -179,7 +179,7 @@ export default function SoftwareDevelopementServices() {
               <div className="devlp-inner-box">
                 <div className="sd-circle">
                   <img
-                    src="assets/images/icons/system-software-developement.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/system-software-developement.svg"
                     alt="Software Development Company in Delhi"
                   />
                 </div>
@@ -195,7 +195,7 @@ export default function SoftwareDevelopementServices() {
               <div className="devlp-inner-box">
                 <div className="sd-circle">
                   <img
-                    src="assets/images/icons/smartphone.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/smartphone.svg"
                     alt="Software Development Company in Mumbai"
                   />
                 </div>
@@ -218,7 +218,7 @@ export default function SoftwareDevelopementServices() {
               <div className="devlp-inner-box">
                 <div className="sd-circle">
                   <img
-                    src="assets/images/icons/programing-software.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/programing-software.svg"
                     alt="Software Development Agency in India"
                   />
                 </div>
@@ -258,26 +258,29 @@ export default function SoftwareDevelopementServices() {
             <div className="col-lg-8">
               <div className="sd-benefit-row">
                 <div className="sd-benefit-box">
-                  <img src="assets/images/icons/improve.svg" alt="Improve" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/improve.svg"
+                    alt="Improve"
+                  />
                   <h5>Takes your business to new heights</h5>
                 </div>
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/fast-delivery.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/fast-delivery.svg"
                     alt="Fast Delivery"
                   />
                   <h5>Improves sales and service delivery</h5>
                 </div>
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/analytics.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/analytics.svg"
                     alt="Analytics"
                   />
                   <h5>Ensures conversions by analyzing incoming traffic</h5>
                 </div>
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/calculator.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/calculator.svg"
                     alt="Calculator"
                   />
                   <h5>
@@ -289,25 +292,28 @@ export default function SoftwareDevelopementServices() {
               <div className="sd-benefit-row">
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/direct-audience-communication.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/direct-audience-communication.svg"
                     alt="Direct audience communication"
                   />
                   <h5>Ensures direct communication with the audience</h5>
                 </div>
                 <div className="sd-benefit-box">
-                  <img src="assets/images/icons/padlock.svg" alt="Padlock" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/padlock.svg"
+                    alt="Padlock"
+                  />
                   <h5>Reliable and secure</h5>
                 </div>
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/measuring-tool.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/measuring-tool.svg"
                     alt="Measuring tool"
                   />
                   <h5>Elastic and scalable</h5>
                 </div>
                 <div className="sd-benefit-box">
                   <img
-                    src="assets/images/icons/improve.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/improve.svg"
                     alt="Improve Business"
                   />
                   <h5>Takes your business to new heights</h5>
@@ -340,7 +346,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-md-6">
               <img
                 className="image-size"
-                src="assets/images/img-7.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/img-7.svg"
                 alt="Top Software Development Companies in Delhi"
               />
             </div>
@@ -388,7 +394,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/human-resources.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/human-resources.svg"
                       alt="Top Software Development Companies in India"
                     />
                   </div>
@@ -401,21 +407,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/analysis.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/analysis.svg"
                       alt="Top Software Development Companies in Mumbai"
                     />
                     Technology Consultation
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/plan.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/plan.png"
                       alt="Top Software Development Companies in India"
                     />
                     Planning
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/test.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/test.png"
                       alt="Top Software Development Agency in Delhi"
                     />
                     Designing
@@ -428,7 +434,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/directory.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/directory.svg"
                       width="50px;"
                       alt="Top Software Development Agency in India"
                     />
@@ -442,21 +448,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/cloud.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/cloud.png"
                       alt="Top Software Development Agency in Mumbai"
                     />
                     Cloud Solutions
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/security.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/security.png"
                       alt="Top Software Development Firm in Mumbai"
                     />
                     Highly Secure
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/enterprise.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/enterprise.png"
                       alt="Top Software Development Firm in Delhi"
                     />
                     Enterprise Flexibility
@@ -469,7 +475,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/computer.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/computer.png"
                       alt="Top Software Development Firm in India"
                     />
                   </div>
@@ -482,21 +488,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/security.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/security.png"
                       alt="Best Software Development Companies in India"
                     />
                     Guaranteed Privacy
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/fast.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/fast.png"
                       alt="Best Software Development Companies in Delhi"
                     />
                     On-Time Delivery
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/system-1.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/system-1.png"
                       alt="Best Software Development Companies in Mumbai"
                     />
                     Dedicated Developers
@@ -511,7 +517,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/code.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/code.svg"
                       alt="Best Software Development Company in Delhi"
                     />
                   </div>
@@ -524,14 +530,14 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/saas.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/saas.png"
                       alt="Best Software Development Company in India"
                     />
                     SAAS Platform
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/img-9.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/img-9.png"
                       alt="Software Development Services Company in Delhi"
                     />
                     Reliable Software Architecture
@@ -544,7 +550,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/sketch-1.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/sketch-1.png"
                       alt="Software Development Services Company in Mumbai"
                     />
                   </div>
@@ -566,21 +572,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/mobile-app.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app.png"
                       alt="Software Development Services Company in Delhi"
                     />
                     Mobile Applications
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/design.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/design.png"
                       alt="Software Development Services Company in India"
                     />
                     Web Applications
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/webpage.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/webpage.png"
                       alt="Software Development Services Agency in India"
                     />
                     UI/UX
@@ -593,7 +599,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/technical-support.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/technical-support.png"
                       alt="Software Development Services Agency in Delhi"
                     />
                   </div>
@@ -606,21 +612,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/bug.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/bug.png"
                       alt="Software Development Services Agency in Mumbai"
                     />
                     Regular Bug Fixes
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/design.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/design.png"
                       alt="Bespoke Software Development Company in India"
                     />
                     DevOps
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/time-management.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/time-management.png"
                       alt="Bespoke Software Development Company in Mumbai"
                     />
                     Active Software Management
@@ -690,7 +696,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/online-shopping.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/online-shopping.svg"
                   alt="Bespoke Software Development Agency in Mumbai"
                 />
               </div>
@@ -699,7 +705,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/suitcases.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/suitcases.svg"
                   alt="Bespoke Software Development Agency in Delhi"
                 />
               </div>
@@ -708,7 +714,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/gift-voucher.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/gift-voucher.svg"
                   alt="Bespoke Software Development Agency in India"
                 />
               </div>
@@ -717,7 +723,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/food.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/food.svg"
                   alt="Bespoke Software Development Firm in Mumbai"
                 />
               </div>
@@ -726,7 +732,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/directory.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/directory.svg"
                   alt="Bespoke Software Development Firm in Delhi"
                 />
               </div>
@@ -735,7 +741,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/crm.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm.svg"
                   alt="Bespoke Software Development Firm in India"
                 />
               </div>
@@ -744,7 +750,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/human-resources.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/human-resources.svg"
                   alt="Custom Software Development"
                 />
               </div>
@@ -753,7 +759,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/salary.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/salary.svg"
                   alt="Custom Software Development Company in India"
                 />
               </div>
@@ -762,7 +768,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/lead.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/lead.svg"
                   alt="Custom Software Development Company in Delhi"
                 />
               </div>
@@ -771,7 +777,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/accounting.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/accounting.svg"
                   alt="Custom Software Development Company in Mumbai"
                 />
               </div>
@@ -780,7 +786,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/doctor.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/doctor.svg"
                   alt="Custom Software Development Firm in India"
                 />
               </div>
@@ -789,7 +795,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/hospital-management.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/hospital-management.svg"
                   alt="Custom Software Development Firm in Delhi"
                 />
               </div>
@@ -798,7 +804,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/inventory.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/inventory.svg"
                   alt="Custom Software Development Firm in Mumbai"
                 />
               </div>
@@ -807,7 +813,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/salon.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/salon.svg"
                   alt="Custom Software Development Agency in India"
                 />
               </div>
@@ -816,7 +822,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/human-resources.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/human-resources.svg"
                   alt="Custom Software Development Agency in Delhi"
                 />
               </div>
@@ -825,7 +831,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/code.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/code.svg"
                   alt="Custom Software Development Agency in Mumbai"
                 />
               </div>
@@ -834,7 +840,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/wedding-couple.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wedding-couple.svg"
                   alt="Custom Software Development Firm in Mumbai"
                 />
               </div>
@@ -843,7 +849,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/lawyer.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/lawyer.svg"
                   alt="Custom Software Development Firm in Delhi"
                 />
               </div>
@@ -852,7 +858,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/repair.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/repair.svg"
                   alt="Custom Software Development Firm in India"
                 />
               </div>
@@ -861,7 +867,7 @@ export default function SoftwareDevelopementServices() {
             <li>
               <div className="img-circle-domain">
                 <img
-                  src="assets/images/icons/party.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/party.svg"
                   alt="Custom Software Development Companies in Mumbai"
                 />
               </div>
@@ -876,7 +882,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/software.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/software.svg"
                 alt="Custom Software Development Companies in Delhi"
               />
             </div>
@@ -923,7 +929,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/perspective.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/perspective.svg"
                       alt="Custom Software Development Companies in India"
                     />
                   </div>
@@ -933,7 +939,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/wallet.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wallet.png"
                       alt="Top Custom Software Development Companies in Mumbai"
                     />
                   </div>
@@ -943,7 +949,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/application-strategist.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/application-strategist.png"
                       alt="Top Custom Software Development Companies in Delhi"
                     />
                   </div>
@@ -954,7 +960,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/software-development-strategy.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/software-development-strategy.png"
                       alt="Top Custom Software Development Companies in India"
                     />
                   </div>
@@ -985,7 +991,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/360-img.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/360-img.svg"
                 alt="Top Custom Software Development Company in Delhi"
               />
               <p className="customText mt-2">
@@ -1009,7 +1015,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/prototyping-analytics.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/prototyping-analytics.png"
                       alt="Top Custom Software Development Company in India"
                     />
                     <h5>Prototyping &amp; analyzing</h5>
@@ -1018,7 +1024,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/sketch.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/sketch.svg"
                       alt="Top Custom Software Development Agency in Mumbai"
                     />
                     <h5>
@@ -1031,7 +1037,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/web-programming.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-programming.png"
                       alt="Top Custom Software Development Company in Delhi"
                     />
                     <h5>Code generation</h5>
@@ -1042,7 +1048,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/winner.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/winner.png"
                       alt="Top Custom Software Development Agency in Mumbai"
                     />
                     <h5>Quality testing</h5>
@@ -1051,7 +1057,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/development-1.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/development-1.png"
                       alt="Top Custom Software Development Agency in Delhi"
                     />
                     <h5>Deployment &amp; training</h5>
@@ -1060,7 +1066,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/updated.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/updated.png"
                       alt="Top Custom Software Development Firm in Mumbai"
                     />
                     <h5>
@@ -1075,7 +1081,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/analytics-5.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/analytics-5.png"
                       alt="Top Custom Software Development Firm in India"
                     />
                     <h5>User engagement analysis</h5>
@@ -1084,7 +1090,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/analytics-6.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/analytics-6.png"
                       alt="Top Custom Software Development Firm in Delhi"
                     />
                     <h5>Reporting</h5>
@@ -1093,7 +1099,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/prototyping-analytics.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/prototyping-analytics.png"
                       alt="Custom Software Development Services Agency in Mumbai"
                     />
                     <h5>Prototyping &amp; analyzing</h5>

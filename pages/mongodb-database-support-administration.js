@@ -76,7 +76,7 @@ export default function MangoDbDatabaseSupportAdministration() {
                   Mongodb Database Support & Administration
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Mongodb  Administration Company in India
+                  Top Rated Mongodb Administration Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -196,7 +196,7 @@ export default function MangoDbDatabaseSupportAdministration() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="MangoDb Database Support"
                   className="img-fluid"
                 />

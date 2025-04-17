@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CmsDevelopementServices() {
   const metaTags = (
@@ -111,7 +111,7 @@ export default function CmsDevelopementServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'CMS Website Design & Development'} />
+        <Breadcrumb Pagetitle={"CMS Website Design & Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -129,7 +129,7 @@ export default function CmsDevelopementServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'CMS Website Design & Development'} />
+        <Breadcrumb Pagetitle={"CMS Website Design & Development"} />
       </div>
       <section>
         <div className="containerFull">
@@ -137,7 +137,7 @@ export default function CmsDevelopementServices() {
             <div className="col-lg-5">
               <img
                 className="imgFull img-fluid imgAnimation"
-                src="assets/images/cms-website-designing-company-in-india.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/cms-website-designing-company-in-india.png"
                 alt="CMS Website Development Company"
               />
             </div>
@@ -190,7 +190,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/ecommerce-website-company-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-website-company-india.svg"
                       alt="E-commerce website development"
                     />
                   </div>
@@ -201,7 +201,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/e-learning-website.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/e-learning-website.svg"
                       alt="E-learning website development"
                     />
                   </div>
@@ -212,7 +212,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/dating-website.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/dating-website.svg"
                       alt="Dating website development"
                     />
                   </div>
@@ -223,7 +223,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/real-estate-website-development.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/real-estate-website-development.svg"
                       alt="Real state website development"
                     />
                   </div>
@@ -234,7 +234,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/cms-based-website.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/cms-based-website.svg"
                       alt="CMS base website development"
                     />
                   </div>
@@ -245,7 +245,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/custom-application-development.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-application-development.svg"
                       alt="Custom application development"
                     />
                   </div>
@@ -256,7 +256,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/social-networking.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/social-networking.svg"
                       alt="Social networking development"
                     />
                   </div>
@@ -267,7 +267,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemDigital">
                   <div className="iconDigi">
                     <img
-                      src="assets/images/icons/membership-website.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/membership-website.svg"
                       alt="Membership based development"
                     />
                   </div>
@@ -290,7 +290,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/niche-audience.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/niche-audience.svg"
                       alt="Nicher audience"
                     />
                   </div>
@@ -305,7 +305,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/wider-reach.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wider-reach.svg"
                       alt="Wider reach"
                     />
                   </div>
@@ -320,7 +320,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/caters-to-mobile-customer.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/caters-to-mobile-customer.svg"
                       alt="Caters to mobile customers"
                     />
                   </div>
@@ -335,7 +335,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/time-saving.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/time-saving.svg"
                       alt="Times saving"
                     />
                   </div>
@@ -350,7 +350,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/direct-customer.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/direct-customer.svg"
                       alt="Direct engagment"
                     />
                   </div>
@@ -365,7 +365,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/provide-right-direction.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/provide-right-direction.svg"
                       alt="Provide right direction"
                     />
                   </div>
@@ -381,7 +381,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/increase-roi.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/increase-roi.svg"
                       alt="Increase ROI"
                     />
                   </div>
@@ -396,7 +396,7 @@ export default function CmsDevelopementServices() {
                 <div className="itemBenefitsNew2">
                   <div className="benefitIconImg">
                     <img
-                      src="assets/images/icons/money-saving.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/money-saving.svg"
                       alt="Money saving"
                     />
                   </div>

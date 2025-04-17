@@ -73,7 +73,7 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
                   Search Engine Marketing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Search Engine Marketing Company in Mumbai, India
+                  Top Rated Search Engine Marketing Company in Mumbai, India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -193,7 +193,7 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
                 <img
                   alt="Search-Engine-Marketing-Services-Company-In-Mumbai"
                   className="image-full"
-                  src="assets/images/seo-marketing-seo-services.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-marketing-seo-services.png"
                 />
               </div>
             </div>

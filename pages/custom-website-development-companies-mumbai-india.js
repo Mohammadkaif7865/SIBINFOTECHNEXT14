@@ -4,7 +4,7 @@ import Link from "next/link";
 import BannerForm from "@/comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function CustomWebDevelopment() {
@@ -113,11 +113,7 @@ export default function CustomWebDevelopment() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Custom Website Development"
-          }
-        />
+        <Breadcrumb Pagetitle={"Custom Website Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -135,11 +131,7 @@ export default function CustomWebDevelopment() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Custom Website Development"
-          }
-        />
+        <Breadcrumb Pagetitle={"Custom Website Development"} />
       </div>
       <section className="mobile-none">
         <div className="containerFull">
@@ -201,14 +193,14 @@ export default function CustomWebDevelopment() {
                   </p>
                   <img
                     className="image-full"
-                    src="assets/images/best-custom-web-development-agency.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-custom-web-development-agency.svg"
                     alt="Custom-Web-Development-Company-In-India"
                   />
                 </div>
                 <div className="col-lg-6">
                   <img
                     className="image-full margin-bottom"
-                    src="assets/images/calculator-development-firm.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/calculator-development-firm.svg"
                     alt="Custom-Web-Development-Company-In-Delhi"
                   />
                   <p className="customText">
@@ -282,14 +274,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-jobs-module.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-jobs-module.svg"
                   alt="Custom-Web-Development-Company-In-Mumbai"
                 />
                 <p className="customText">Jobs Module</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-corporate-content.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-corporate-content.svg"
                   alt="Custom-Web-Development-Firm-In-India"
                 />
                 <p className="customText">
@@ -300,14 +292,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-matrimonial.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-matrimonial.svg"
                   alt="Custom-Web-Development-Firm-In-Mumbai"
                 />
                 <p className="customText">Dating and Matrimonial</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-ecommerce.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-ecommerce.svg"
                   alt="Custom-Web-Development-Firm-In-Delhi"
                 />
                 <p className="customText">Ecommerce Website Design</p>
@@ -316,14 +308,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-weather-solution.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-weather-solution.svg"
                   alt="Custom-Web-Development-Firm-In-Mumbai"
                 />
                 <p className="customText">Weather Solutions</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/crm-solution-data-migration.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-data-migration.svg"
                   alt="Custom-Web-Development-Agency"
                 />
                 <p className="customText">Internet Solutions</p>
@@ -332,14 +324,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-chat-server.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-chat-server.svg"
                   alt="Custom-Web-Development-Agency-In-Delhi"
                 />
                 <p className="customText">Chat Server</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-website-development-affillate.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-website-development-affillate.svg"
                   alt="Custom-Web-Development-Agency-In-Mumbai"
                 />
                 <p className="customText">Affiliate Management System</p>
@@ -348,14 +340,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-ecards.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-ecards.svg"
                   alt="Best-Custom-Web-Development-Company-In-India"
                 />
                 <p className="customText">E-Cards</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-custom-programming.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-custom-programming.svg"
                   alt="Best-Custom-Web-Development-Company-In-Mumbai"
                 />
                 <p className="customText">Custom Programming</p>
@@ -364,14 +356,14 @@ export default function CustomWebDevelopment() {
             <div className="col-lg-2">
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-classifield.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-classifield.svg"
                   alt="Best-Custom-Web-Development-Company-In-India"
                 />
                 <p className="customText">classNameifieds</p>
               </div>
               <div className="cutomWeb-box">
                 <img
-                  src="assets/images/icons/custom-web-development-ecommerce-app.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/custom-web-development-ecommerce-app.svg"
                   alt="Best-Custom-Web-Development-Company-In-Mumbai"
                 />
                 <p className="customText">Ecommerce Application Development</p>

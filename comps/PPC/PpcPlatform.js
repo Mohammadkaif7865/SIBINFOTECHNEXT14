@@ -11,20 +11,20 @@
 //         <div className="customRow ppcRow mob_row">
 //           <div className="columnRow">
 //             <div className="iconAdd">
-//               <img src="assets/images/icons/google-ads.svg" alt="Google Ads" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/google-ads.svg" alt="Google Ads" />
 //             </div>
 //             <h3>Google Ads</h3>
 //           </div>
 //           <div className="columnRow">
 //             <div className="iconAdd">
-//               <img src="assets/images/icons/bings-ads.png" alt="Bings Ads" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/bings-ads.png" alt="Bings Ads" />
 //             </div>
 //             <h3>Bings Ads</h3>
 //           </div>
 //           <div className="columnRow">
 //             <div className="iconAdd">
 //               <img
-//                 src="assets/images/icons/twitter-ads.png"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/twitter-ads.png"
 //                 alt="Twitter Ads"
 //               />
 //             </div>
@@ -32,14 +32,14 @@
 //           </div>
 //           <div className="columnRow">
 //             <div className="iconAdd">
-//               <img src="assets/images/icons/amazon-ads.png" alt="Amazon Ads" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/amazon-ads.png" alt="Amazon Ads" />
 //             </div>
 //             <h3>Amazon Ads</h3>
 //           </div>
 //           <div className="columnRow">
 //             <div className="iconAdd">
 //               <img
-//                 src="assets/images/icons/linkedin-ads.png"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads.png"
 //                 alt="Linkedin Ads"
 //               />
 //             </div>
@@ -48,7 +48,7 @@
 //           <div className="columnRow">
 //             <div className="iconAdd">
 //               <img
-//                 src="assets/images/icons/instagram-ads.svg"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/instagram-ads.svg"
 //                 alt="Instagram Ads"
 //               />
 //             </div>
@@ -57,7 +57,7 @@
 //           <div className="columnRow">
 //             <div className="iconAdd">
 //               <img
-//                 src="assets/images/icons/facebook-ads.png"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/facebook-ads.png"
 //                 alt="Facebook Ads"
 //               />
 //             </div>

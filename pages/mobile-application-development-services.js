@@ -165,7 +165,7 @@ export default function MobileApp() {
             <div className="col-md-5">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/mobileapp-img-20.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobileapp-img-20.svg"
                 alt="Mobile Application Development Company in India"
               />
             </div>
@@ -178,7 +178,7 @@ export default function MobileApp() {
             <div className="col-lg-4">
               <img
                 className="image-full image-border"
-                src="assets/images/mobileapp-img-6.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobileapp-img-6.svg"
                 alt="Mobile Application Development Company in Delhi"
               />
             </div>
@@ -189,7 +189,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-1.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-1.svg"
                           alt="Mobile Application Development Company in Mumbai"
                         />
                       </div>
@@ -208,7 +208,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-2.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-2.svg"
                           alt="Mobile Application Development Agency in India"
                         />
                       </div>
@@ -229,7 +229,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-3.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-3.svg"
                           alt="Mobile Application Development Agency in Delhi"
                         />
                       </div>
@@ -249,7 +249,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-4.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-4.svg"
                           alt="Mobile Application Development Agency in Mumbai"
                         />
                       </div>
@@ -274,7 +274,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-5.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-5.svg"
                           alt="Mobile Application Development Firm in India"
                         />
                       </div>
@@ -295,7 +295,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-10.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-10.svg"
                           alt="Mobile Application Development Firm in India"
                         />
                       </div>
@@ -316,7 +316,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-7.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-7.svg"
                           alt="Mobile Application Development Firm in India"
                         />
                       </div>
@@ -335,7 +335,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-8.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-8.svg"
                           alt="Mobile Application Development Companies in India"
                         />
                       </div>
@@ -354,7 +354,7 @@ export default function MobileApp() {
               <div className="p-sticky">
                 <img
                   className="image-full image-border"
-                  src="assets/images/mobileapp-img-s-7.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobileapp-img-s-7.svg"
                   alt="Mobile Application Development Companies in Delhi"
                 />
               </div>
@@ -365,7 +365,7 @@ export default function MobileApp() {
               <div className="p-sticky">
                 <img
                   className="image-full image-border"
-                  src="assets/images/mobileapp-img-2.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobileapp-img-2.png"
                   alt="Mobile Application Development Companies in Mumbai"
                 />
               </div>
@@ -377,7 +377,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-9.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-9.svg"
                           alt="Mobile App Development Companies in India"
                         />
                       </div>
@@ -400,7 +400,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-10.png"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-10.png"
                           alt="Mobile App Development Companies in Delhi"
                         />
                       </div>
@@ -425,7 +425,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-11.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-11.svg"
                           alt="Mobile App Development Companies in Mumbai"
                         />
                       </div>
@@ -447,7 +447,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-12.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-12.svg"
                           alt="Mobile App Development Company in India"
                         />
                       </div>
@@ -470,7 +470,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-46.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-46.svg"
                           alt="Mobile App Development Company in Delhi"
                         />
                       </div>
@@ -496,7 +496,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-6.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-6.svg"
                           alt="Mobile App Development Company in Mumbai"
                         />
                       </div>
@@ -535,7 +535,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/walking.png" alt="Travel" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/walking.png"
+                    alt="Travel"
+                  />
                 </div>
                 <h4 className="small_heading">Travel</h4>
               </div>
@@ -543,7 +546,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/graduated.png" alt="Eduation" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graduated.png"
+                    alt="Eduation"
+                  />
                 </div>
                 <h4 className="small_heading">Education</h4>
               </div>
@@ -551,7 +557,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/crane.png" alt="Real Estate" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crane.png"
+                    alt="Real Estate"
+                  />
                 </div>
                 <h4 className="small_heading">Real Estate</h4>
               </div>
@@ -560,7 +569,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/wedding-rings.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wedding-rings.png"
                     alt="Matrimony"
                   />
                 </div>
@@ -571,7 +580,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/healthcare.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/healthcare.png"
                     alt="Healthcare"
                   />
                 </div>
@@ -581,7 +590,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/team.png" alt="Associations" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/team.png"
+                    alt="Associations"
+                  />
                 </div>
                 <h4 className="small_heading">Associations</h4>
               </div>
@@ -589,7 +601,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/test.png" alt="Chemical" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/test.png"
+                    alt="Chemical"
+                  />
                 </div>
                 <h4 className="small_heading">Chemical</h4>
               </div>
@@ -597,7 +612,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/fast-food.png" alt="Food" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/fast-food.png"
+                    alt="Food"
+                  />
                 </div>
                 <h4 className="small_heading">Food</h4>
               </div>
@@ -605,7 +623,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/antenna.png" alt="Telecom" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/antenna.png"
+                    alt="Telecom"
+                  />
                 </div>
                 <h4 className="small_heading">Telecom/Tech</h4>
               </div>
@@ -613,7 +634,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/connection.png" alt="B2B" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/connection.png"
+                    alt="B2B"
+                  />
                 </div>
                 <h4 className="small_heading">B2B</h4>
               </div>
@@ -621,7 +645,10 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/saving.png" alt="Financial" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/saving.png"
+                    alt="Financial"
+                  />
                 </div>
                 <h4 className="small_heading">Financial</h4>
               </div>
@@ -630,7 +657,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/low-price.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/low-price.png"
                     alt="Non Profit"
                   />
                 </div>
@@ -646,7 +673,7 @@ export default function MobileApp() {
             <div className="col-md-6">
               <div className="why-need-right">
                 <img
-                  src="assets/images/mobile-app-development-company-in-mumbai.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobile-app-development-company-in-mumbai.svg"
                   alt="Mobile App Development Services Firm in Mumbai"
                 />
               </div>
@@ -661,7 +688,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-22.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-22.png"
                         alt="Mobile App Development Services Agency in India"
                       />
                     </div>
@@ -671,7 +698,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/mobile-app-company-in-delhi-img-5.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app-company-in-delhi-img-5.png"
                         alt="Mobile App Development Services Agency in Delhi"
                       />
                     </div>
@@ -680,7 +707,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-24.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-24.png"
                         alt="Mobile App Development Services Agency in Mumbai"
                       />
                     </div>
@@ -689,7 +716,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-25.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-25.png"
                         alt="Mobile App Development Services Firm in Delhi"
                       />
                     </div>
@@ -698,7 +725,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-26.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-26.png"
                         alt="Mobile App Development Services Firm in Mumbai"
                       />
                     </div>
@@ -708,7 +735,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-27.png"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-27.png"
                         alt="Mobile App Development Services Firm in India"
                       />
                     </div>
@@ -729,7 +756,7 @@ export default function MobileApp() {
                   <div className="box-12">
                     <div className="box-12-heading">
                       <img
-                        src="assets/images/icons/mobile-app-faster.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app-faster.svg"
                         alt="Mobile app are faster"
                       />
                       <h4>Mobile apps are faster</h4>
@@ -748,7 +775,7 @@ export default function MobileApp() {
                   <div className="box-12">
                     <div className="box-12-heading">
                       <img
-                        src="assets/images/icons/mobile-app-quality-score.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app-quality-score.svg"
                         alt="Maintain a good quality score"
                       />
                       <h4>Maintain a good quality score</h4>
@@ -769,7 +796,7 @@ export default function MobileApp() {
                   <div className="box-12">
                     <div className="box-12-heading">
                       <img
-                        src="assets/images/icons/mobile-app-creative.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app-creative.svg"
                         alt="Creative"
                       />
                       <h4>Creative</h4>
@@ -787,7 +814,7 @@ export default function MobileApp() {
                   <div className="box-12">
                     <div className="box-12-heading">
                       <img
-                        src="assets/images/icons/mobile-app-landing-page.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-app-landing-page.svg"
                         alt="Landing Page Quality"
                       />
                       <h4>Landing Page Quality</h4>
@@ -848,7 +875,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-40.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-40.png"
                     alt="Offshore Mobile Application Development Companies in Mumbai"
                   />
                 </div>
@@ -865,7 +892,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-41.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-41.png"
                     alt="Top Mobile Application Development Companies in India"
                   />
                 </div>
@@ -883,7 +910,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-42.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-42.png"
                     alt="Top Mobile Application Development Companies in Delhi"
                   />
                 </div>
@@ -900,7 +927,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-43.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-43.png"
                     alt="Top Mobile Application Development Companies in Mumbai"
                   />
                 </div>
@@ -939,7 +966,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-44.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-44.png"
                     alt="Top Mobile Application Development Firm in India"
                   />
                 </div>
@@ -961,7 +988,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-12.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-12.png"
                     alt="Top Mobile Application Development Firm in Delhi"
                   />
                 </div>
@@ -986,7 +1013,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-22.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-22.png"
                     alt="Top Mobile Application Development Firm in Mumbai"
                   />
                 </div>
@@ -1004,7 +1031,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-45.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-45.png"
                     alt="Top Mobile Application Development Agency in India"
                   />
                 </div>
@@ -1018,7 +1045,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-42.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-42.png"
                     alt="Top Mobile Application Development Agency in Delhi"
                   />
                 </div>
@@ -1043,7 +1070,10 @@ export default function MobileApp() {
           </h3>
           <div className="app-variety">
             <div className="app-variety-box">
-              <img src="assets/images/web-devlp-img-32.svg" alt="Lifstyle" />
+              <img
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-32.svg"
+                alt="Lifstyle"
+              />
               <div className="overlay">
                 <h4>Lifestyle</h4>
                 <p className="customText mt-2 text-white">
@@ -1053,7 +1083,7 @@ export default function MobileApp() {
             </div>
             <div className="app-variety-box">
               <img
-                src="assets/images/web-devlp-img-34.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-34.svg"
                 alt="Social Media"
               />
               <div className="overlay">
@@ -1061,20 +1091,26 @@ export default function MobileApp() {
               </div>
             </div>
             <div className="app-variety-box">
-              <img src="assets/images/web-devlp-img-33.svg" alt="Utility" />
+              <img
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-33.svg"
+                alt="Utility"
+              />
               <div className="overlay">
                 <h4>Utility</h4>
               </div>
             </div>
             <div className="app-variety-box">
-              <img src="assets/images/web-devlp-img-35.svg" alt="Games" />
+              <img
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-35.svg"
+                alt="Games"
+              />
               <div className="overlay">
                 <h4>Games</h4>
               </div>
             </div>
             <div className="app-variety-box">
               <img
-                src="assets/images/web-devlp-img-37.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-37.svg"
                 alt="Enterainment"
               />
               <div className="overlay">
@@ -1083,7 +1119,7 @@ export default function MobileApp() {
             </div>
             <div className="app-variety-box">
               <img
-                src="assets/images/web-devlp-img-38.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-38.svg"
                 alt="Productivity"
               />
               <div className="overlay">
@@ -1094,7 +1130,10 @@ export default function MobileApp() {
               </div>
             </div>
             <div className="app-variety-box">
-              <img src="assets/images/web-devlp-img-39.svg" alt="Outlet App" />
+              <img
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-39.svg"
+                alt="Outlet App"
+              />
               <div className="overlay">
                 <h4>
                   News &amp; information

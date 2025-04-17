@@ -72,7 +72,7 @@ export default function PostGreSqlDatabaseServices() {
                   Postgresql Database Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated PostgreSQL Database Support Company in Mumbai, India
+                  Top Rated PostgreSQL Database Support Company in Mumbai, India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -131,7 +131,7 @@ export default function PostGreSqlDatabaseServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Postgresql Database Services in India"
                   className="img-fluid"
                 />
@@ -222,7 +222,7 @@ export default function PostGreSqlDatabaseServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Postgresql Database Services"
                   className="img-fluid"
                 />

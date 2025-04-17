@@ -105,9 +105,7 @@ export default function EcommerceSeoServicesPackages() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"E-commerce SEO Packages"}
-        />
+        <Breadcrumb Pagetitle={"E-commerce SEO Packages"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -125,9 +123,7 @@ export default function EcommerceSeoServicesPackages() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"E-commerce SEO Packages"}
-        />
+        <Breadcrumb Pagetitle={"E-commerce SEO Packages"} />
       </div>
       <section className="customPadding">
         <div className="containerFull">
@@ -141,7 +137,7 @@ export default function EcommerceSeoServicesPackages() {
                   <img
                     className="image-full"
                     alt="E-Commerce SEO Packages"
-                    src="assets/images/seo-packages-3.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-packages-3.png"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

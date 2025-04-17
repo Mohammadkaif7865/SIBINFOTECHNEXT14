@@ -162,7 +162,7 @@ export default function WebsiteUsabilityReportIndia() {
                 <img
                   alt="Website Usability Report in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

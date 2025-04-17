@@ -76,7 +76,8 @@ export default function RichInternetApplicationServices() {
                   Rich Internet Applications
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-              Top Rich Internet Application Development Company in Mumbai, India
+                  Top Rich Internet Application Development Company in Mumbai,
+                  India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -247,7 +248,7 @@ export default function RichInternetApplicationServices() {
                 <img
                   alt="Rich Internet Application"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

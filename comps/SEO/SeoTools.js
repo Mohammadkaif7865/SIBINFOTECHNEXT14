@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-
 const SeoTools = () => {
   const tools = [
     {
@@ -67,62 +66,62 @@ const SeoTools = () => {
         {/* <div className="row mt-lg-3 b">
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/google-search-console.webp" alt="Google Search Console Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-search-console.webp" alt="Google Search Console Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/moz.webp" alt="Moz Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/moz.webp" alt="Moz Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/searchmetrics.webp" alt="Searchmetrics Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/searchmetrics.webp" alt="Searchmetrics Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/semrush.webp" alt="Semrush Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/semrush.webp" alt="Semrush Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/ahrefs.webp" alt="ahrefs Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ahrefs.webp" alt="ahrefs Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/screamingfrog.webp" alt="Screaming Frog Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/screamingfrog.webp" alt="Screaming Frog Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/similarweb.webp" alt="Similar Web Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/similarweb.webp" alt="Similar Web Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/rankwatch.webp" alt="Rankwatch Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/rankwatch.webp" alt="Rankwatch Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/ubersuggest.webp" alt="Ubersuggest Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ubersuggest.webp" alt="Ubersuggest Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/kwfinder.webp" alt="KW finder Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/kwfinder.webp" alt="KW finder Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/spy-fu.webp" alt="Spy Fu Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/spy-fu.webp" alt="Spy Fu Logo" />
                         </div>
                     </div>
                     <div className="col-lg-2 col-6 col-sm-3">
                         <div className="toolsLogo">
-                            <img src="assets/images/quilbot.webp" alt="Quilbot Logo" />
+                            <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/quilbot.webp" alt="Quilbot Logo" />
                         </div>
                     </div>
                 </div> */}

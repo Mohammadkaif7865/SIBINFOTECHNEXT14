@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function BlogManagementServices() {
   const metaTags = (
@@ -110,11 +110,7 @@ export default function BlogManagementServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Professional Blog Management"
-          }
-        />
+        <Breadcrumb Pagetitle={"Professional Blog Management"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -132,11 +128,7 @@ export default function BlogManagementServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Professional Blog Management"
-          }
-        />
+        <Breadcrumb Pagetitle={"Professional Blog Management"} />
       </div>
       <section>
         <div className="containerFull">
@@ -169,7 +161,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-6">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/blog-managemnet-company-in-mumbai.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/blog-managemnet-company-in-mumbai.svg"
                 alt="blog-managemnet-company-in-mumbai"
               />
             </div>
@@ -196,21 +188,21 @@ export default function BlogManagementServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-management-website-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-management-website-traffic.svg"
                     alt="blog-management-agency-in-mumbai"
                   />
                   <h4 className="fontHeading">Increased website traffic</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-managemnet-lead-generation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-lead-generation.svg"
                     alt="best-blog-management-company"
                   />
                   <h4 className="fontHeading">Lead generation</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-management-boots-user-engagenment.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-management-boots-user-engagenment.svg"
                     alt="best-blog-management-Boosts-user engagement-company-in-india"
                   />
                   <h4>Boosts user engagement</h4>
@@ -219,21 +211,21 @@ export default function BlogManagementServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-managemnet-build-brand-reputation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-build-brand-reputation.svg"
                     alt="best-blog-management-company-in-mumbai"
                   />
                   <h4>Builds brand reputation</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-managemnet-increase-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-increase-conversion.svg"
                     alt="best-blog-management-companies"
                   />
                   <h4>Increases website conversions</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/blog-management-cost-effective.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-management-cost-effective.svg"
                     alt="best-blog-management-companies-in-india"
                   />
                   <h4>Cost Effective</h4>
@@ -262,7 +254,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-managemnet-quality-keyword-search.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-quality-keyword-search.svg"
                   alt="blog-managemnet-quality-keyword-search"
                 />
                 <h4 className="fontHeading">
@@ -279,7 +271,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-managemnet-content-writting.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-content-writting.svg"
                   alt="blog-managemnet-content-writting"
                 />
                 <h4>Proficient content writing</h4>
@@ -319,7 +311,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-managemnet-high-quality-images.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-high-quality-images.svg"
                   alt="blog-managemnet-high-quality-images"
                 />
                 <h4 className="fontHeading">
@@ -336,7 +328,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-managemnet-reposrting-ans-statics.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-reposrting-ans-statics.svg"
                   alt="blog-managemnet-reposrting-ans-statics"
                 />
                 <h4 className="fontHeading">Reports &amp; statistics</h4>
@@ -357,7 +349,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-managemnet-optimized-blog.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-optimized-blog.svg"
                   alt="blog-managemnet-optimized-blog"
                 />
                 <h4 className="fontHeading">SEO optimized blogs</h4>
@@ -371,7 +363,7 @@ export default function BlogManagementServices() {
             <div className="col-lg-4">
               <div className="blog-box">
                 <img
-                  src="assets/images/icons/blog-management-improve-blog-reach.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-management-improve-blog-reach.svg"
                   alt="blog-management-improve-blog-reach"
                 />
                 <h4 className="fontHeading">Improved blog reach</h4>

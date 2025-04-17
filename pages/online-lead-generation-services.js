@@ -75,7 +75,7 @@ export default function OnlineLedGenerationServices() {
                   Lead Generation Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Lead Generation Company in India 
+                  Top Rated Lead Generation Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -176,7 +176,7 @@ export default function OnlineLedGenerationServices() {
                 <img
                   alt="Online Lead Generation Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

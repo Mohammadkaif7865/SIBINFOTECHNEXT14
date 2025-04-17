@@ -164,7 +164,7 @@ export default function YahooStoreDevelopmentServices() {
                 <img
                   alt="Yahoo Store Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

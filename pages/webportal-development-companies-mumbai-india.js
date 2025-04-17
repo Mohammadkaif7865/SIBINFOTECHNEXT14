@@ -142,7 +142,7 @@ web portal development services,web portal development service,offshore web port
               <div className="web-portal-img">
                 <img
                   className="image-full"
-                  src="assets/images/web-portal-development-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-portal-development-company-in-india.png"
                   alt="Web-Portal-Development-Company-In-India"
                 />
               </div>
@@ -193,7 +193,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-content.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-content.svg"
                         alt="Web-Portal-Development-Company-In-Delhi"
                       />
                     </div>
@@ -210,7 +210,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-digital-data.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-digital-data.svg"
                         alt="Web-Portal-Development-Company-In-Mumbai"
                       />
                     </div>
@@ -229,7 +229,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-user-management.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-user-management.svg"
                         alt="Web-Portal-Development-Company"
                       />
                     </div>
@@ -245,7 +245,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-colaboration.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-colaboration.svg"
                         alt="Web-Portal-Development-Firm-In-India"
                       />
                     </div>
@@ -264,7 +264,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-ecommerce.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-ecommerce.svg"
                         alt="Web-Portal-Development-Firm-In-Delhi"
                       />
                     </div>
@@ -280,7 +280,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-business-process.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-business-process.svg"
                         alt="Web-Portal-Development-Firm-In-Mumbai"
                       />
                     </div>
@@ -298,7 +298,7 @@ web portal development services,web portal development service,offshore web port
                   <div className="web-portal-box">
                     <div className="web-portal-icon-box">
                       <img
-                        src="assets/images/icons/web-portal-security.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-portal-security.svg"
                         alt="Web-Portal-Development-Firm"
                       />
                     </div>
@@ -314,7 +314,7 @@ web portal development services,web portal development service,offshore web port
           </div>
           <img
             className="bgImageEffect"
-            src="assets/images/icons/tab-img-pattern.png"
+            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/tab-img-pattern.png"
             alt="Web-Portal-Development-Agency"
           />
         </div>

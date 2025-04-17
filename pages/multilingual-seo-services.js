@@ -73,7 +73,7 @@ export default function MultilingualSeoServices() {
                   Multilingual SEO Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated Multilingual SEO Company in India
+                  Top Rated Multilingual SEO Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -170,7 +170,7 @@ export default function MultilingualSeoServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Multilingual SEO Services Company in India"
                   className="img-fluid"
                 />

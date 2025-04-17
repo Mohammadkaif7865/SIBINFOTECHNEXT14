@@ -9,21 +9,53 @@ import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 export default function DrupalCmsDevelopmentServices() {
   const metaTags = (
     <>
-      <title>Drupal CMS Development Services Mumbai, India | SIB Infotech</title>
-      <meta name="description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
-      <meta name="keywords" content="drupal cms development services,drupal cms development service,offshore drupal cms development,drupal cms development companies,drupal cms development company,drupal cms development india,drupal cms development delhi,drupal cms development mumbai,drupal c" />
+      <title>
+        Drupal CMS Development Services Mumbai, India | SIB Infotech
+      </title>
+      <meta
+        name="description"
+        content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!"
+      />
+      <meta
+        name="keywords"
+        content="drupal cms development services,drupal cms development service,offshore drupal cms development,drupal cms development companies,drupal cms development company,drupal cms development india,drupal cms development delhi,drupal cms development mumbai,drupal c"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
-      <meta property="og:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
-      <meta property="og:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/drupal-cms-framework-development-services"
+      />
+      <meta
+        property="og:title"
+        content="Drupal CMS Development Services Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/drupal-cms-framework-development-services" />
-      <meta property="twitter:title" content="Drupal CMS Development Services Mumbai, India | SIB Infotech" />
-      <meta property="twitter:description" content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/drupal-cms-framework-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Drupal CMS Development Services Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Expert Drupal CMS development services for custom frameworks, scalable websites, and tailored digital solutions by SIB Infotech. Elevate your business today!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/drupal-cms-framework-development-services.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/drupal-cms-framework-development-services"
         breadcrumbTitle="Drupal CMS Development Services Mumbai, India | SIB Infotech"
@@ -81,7 +113,7 @@ export default function DrupalCmsDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb  Pagetitle={'Drupal CMS Development'} />
+        <Breadcrumb Pagetitle={"Drupal CMS Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -100,7 +132,7 @@ export default function DrupalCmsDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetitle="Drupal CMS Development" />
+        <Breadcrumb Pagetitle="Drupal CMS Development" />
       </div>
       <section>
         <div className="containerFull">
@@ -115,7 +147,7 @@ export default function DrupalCmsDevelopmentServices() {
               <div className="drupal-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/drupal-development-company-in-india.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/drupal-development-company-in-india.svg"
                   alt="drupal-development-company-in-india"
                 />
               </div>
@@ -166,7 +198,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupal-flexibility.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal-flexibility.svg"
                       alt="drupal-development-company-in-delhi"
                     />
                     <div>
@@ -181,7 +213,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupal-community.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal-community.svg"
                       alt="drupal-development-company-in-mumbai"
                     />
                     <div>
@@ -198,7 +230,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupal-install-server.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal-install-server.svg"
                       alt="drupal-development-company-in-mumbai"
                     />
                     <div>
@@ -210,7 +242,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupla-features.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupla-features.svg"
                       alt="drupal-development-firm-in-india"
                     />
                     <div>
@@ -227,7 +259,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupal-opensource.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal-opensource.svg"
                       alt="drupal-development-firm-in-delhi"
                     />
                     <div>
@@ -241,7 +273,7 @@ export default function DrupalCmsDevelopmentServices() {
                 <div className="col-lg-6">
                   <div className="drupal-box">
                     <img
-                      src="assets/images/icons/drupal-integration.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal-integration.svg"
                       alt="drupal-development-firm-in-delhi"
                     />
                     <div>

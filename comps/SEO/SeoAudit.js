@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 const SeoAudit = () => {
   return (
     <section className="dots curve1 bgEffect">
@@ -27,18 +26,18 @@ const SeoAudit = () => {
           <div className="col-lg-6 mt-lg-0 mt-4">
             <div className="desktopFrame">
               <picture>
-                <source srcSet="assets/images/desktop-frame.webp" />
+                <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/desktop-frame.webp" />
                 <img
-                  src="assets/images/desktop-frame.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/desktop-frame.png"
                   alt="Desktop Frame"
                 />
               </picture>
               <div className="frameActivity">
                 <div className="googleLogo">
                   <picture>
-                    <source srcSet="assets/images/google-social.webp" />
+                    <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-social.webp" />
                     <img
-                      src="assets/images/google-social.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-social.png"
                       alt="Google Logo"
                     />
                   </picture>
@@ -47,9 +46,9 @@ const SeoAudit = () => {
                   <div className="searchBar">
                     <div className="searchLeftIcon">
                       <picture>
-                        <source srcSet="assets/images/search-interface-symbol.webp" />
+                        <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/search-interface-symbol.webp" />
                         <img
-                          src="assets/images/search-interface-symbol.png"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/search-interface-symbol.png"
                           alt="Search IconS"
                         />
                       </picture>
@@ -57,9 +56,9 @@ const SeoAudit = () => {
                     <p>What SEO Service does SIB Infotech Offers</p>
                     <div className="searchIconsRight">
                       <picture>
-                        <source srcSet="assets/images/google-icon.webp" />
+                        <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-icon.webp" />
                         <img
-                          src="assets/images/google-icon.png"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-icon.png"
                           alt="Google Icons"
                         />
                       </picture>

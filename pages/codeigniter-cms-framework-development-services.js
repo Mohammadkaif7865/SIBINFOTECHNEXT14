@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CodeigniterFrameworkDevelopmentServices() {
   const metaTags = (
@@ -104,9 +104,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"CodeIgniter CMS Development"}
-        />
+        <Breadcrumb Pagetitle={"CodeIgniter CMS Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -124,9 +122,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"CodeIgniter CMS Development"}
-        />
+        <Breadcrumb Pagetitle={"CodeIgniter CMS Development"} />
       </div>
       <section>
         <div className="containerFull">
@@ -172,7 +168,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
             </div>
             <div className="col-lg-4">
               <img
-                src="assets/images/article-submission.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 alt="Codeigniter CMS Framework Development Company in India"
                 className="w-100"
               />

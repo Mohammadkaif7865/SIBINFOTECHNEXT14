@@ -79,7 +79,8 @@ export default function OracleApplicationDevelopmentCompanies() {
                   Oracle Application Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Oracle Applications Development Company in Mumbai, India
+                  Top Rated Oracle Applications Development Company in Mumbai,
+                  India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -169,7 +170,7 @@ export default function OracleApplicationDevelopmentCompanies() {
                     <img
                       alt="Oracle Application Development Services in India"
                       className="img-fluid"
-                      src="assets/images/article-submission.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                     />
                   </div>
                 </div>
@@ -182,7 +183,7 @@ export default function OracleApplicationDevelopmentCompanies() {
                 <img
                   alt="Oracle Application Development Services in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

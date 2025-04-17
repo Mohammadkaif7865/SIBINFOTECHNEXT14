@@ -2,7 +2,7 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function BootstrapDesigningServices() {
@@ -75,7 +75,6 @@ export default function BootstrapDesigningServices() {
                 <h2 className="small_heading fw-bold mt-lg-3 text-white">
                   Top Rated Bootstrap Designing Company in India
                 </h2>
-             
 
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -100,9 +99,7 @@ export default function BootstrapDesigningServices() {
                     Company in India
                   </strong>
                 </p>
-                <BannerForm
-                
-                />
+                <BannerForm />
               </div>
             </div>
           </div>
@@ -127,9 +124,7 @@ export default function BootstrapDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Bootstrap Website Designing"}
-        />
+        <Breadcrumb Pagetitle={"Bootstrap Website Designing"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -188,7 +183,7 @@ export default function BootstrapDesigningServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Best Bootstrap Designing Company in india"
                 />
               </div>

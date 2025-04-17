@@ -10,21 +10,53 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function ErpCrmSoftwareDevelopmentSolution() {
   const metaTags = (
     <>
-      <title>Best ERP & CRM Software Development Solutions Services India</title>
-      <meta name="description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta name="keywords" content="crm solutions,crm solutions india,crm solution provider,crm solution provider india,crm solution provider delhi,crm solution provider mumbai,crm solution provider dehi,crm solutions india,crm solutions mumbai,crm solutions delhi,crm solutions pune,crm sol" />
+      <title>
+        Best ERP & CRM Software Development Solutions Services India
+      </title>
+      <meta
+        name="description"
+        content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+      />
+      <meta
+        name="keywords"
+        content="crm solutions,crm solutions india,crm solution provider,crm solution provider india,crm solution provider delhi,crm solution provider mumbai,crm solution provider dehi,crm solutions india,crm solutions mumbai,crm solutions delhi,crm solutions pune,crm sol"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
-      <meta property="og:title" content="Best ERP & CRM Software Development Solutions Services India" />
-      <meta property="og:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/erp-crm-software-development-solutions"
+      />
+      <meta
+        property="og:title"
+        content="Best ERP & CRM Software Development Solutions Services India"
+      />
+      <meta
+        property="og:description"
+        content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
-      <meta property="twitter:title" content="Best ERP & CRM Software Development Solutions Services India" />
-      <meta property="twitter:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/erp-crm-software-development-solutions"
+      />
+      <meta
+        property="twitter:title"
+        content="Best ERP & CRM Software Development Solutions Services India"
+      />
+      <meta
+        property="twitter:description"
+        content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/erp-crm-software-development-solutions"
         breadcrumbTitle="Best ERP & CRM Software Development Solutions Services India"
@@ -82,7 +114,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'ERP & CRM Software Development'} />
+        <Breadcrumb Pagetitle={"ERP & CRM Software Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -100,7 +132,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'ERP & CRM Software Development'} />
+        <Breadcrumb Pagetitle={"ERP & CRM Software Development"} />
       </div>
       <section>
         <div className="containerFull">
@@ -112,12 +144,12 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
             <div className="col-lg-6">
               <div className="crm-img-section">
                 <img
-                  src="assets/images/crm-solution-firm.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crm-solution-firm.png"
                   alt="CRM Solution Firm"
                 />
                 <img
                   className="image-1"
-                  src="assets/images/crm-solution-company-in-delhi.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crm-solution-company-in-delhi.png"
                   alt="CRM Solution Company"
                 />
               </div>
@@ -169,7 +201,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-strategy.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-strategy.svg"
                       alt="CRM Strategy and Requirements Definition"
                     />
                     <p className="customText">
@@ -180,7 +212,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-business-process.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-business-process.svg"
                       alt="Business Processes Modeling"
                     />
                     <p className="customText">
@@ -191,7 +223,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-architechture-design.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-architechture-design.svg"
                       alt="Technical Architecture Design"
                     />
                     <p className="customText">Technical Architecture Design</p>
@@ -202,7 +234,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-gui-design.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-gui-design.svg"
                       alt="GUI Design and Usability Modeling"
                     />
                     <p className="customText">
@@ -213,7 +245,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-3d-software.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-3d-software.svg"
                       alt="3d Party Software Selection and Integration"
                     />
                     <p className="customText">
@@ -224,7 +256,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-customization.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-customization.svg"
                       alt="Change Management"
                     />
                     <p className="customText">
@@ -237,7 +269,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-implementation.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-implementation.svg"
                       alt="Implementation / Full Testing / Deployment"
                     />
                     <p className="customText">
@@ -248,7 +280,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-aplication-integration.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-aplication-integration.svg"
                       alt="Legacy Applications Integration and Web-Enabling"
                     />
                     <p className="customText">
@@ -259,7 +291,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-4 margin-padding-zero">
                   <div className="crm-solution-box">
                     <img
-                      src="assets/images/icons/crm-solution-data-migration.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-solution-data-migration.svg"
                       alt="Data Migration"
                     />
                     <p className="customText">Data Migration</p>
@@ -342,7 +374,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-6 col-6">
                   <div className="crm-box">
                     <img
-                      src="assets/images/icons/crm-sugar-crm.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-sugar-crm.png"
                       alt="Sugar CRM"
                     />
                     <h4>Sugar CRM</h4>
@@ -351,7 +383,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-6 col-6">
                   <div className="crm-box">
                     <img
-                      src="assets/images/icons/crm-vtiger-crm.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crm-vtiger-crm.png"
                       alt="vTiger"
                     />
                     <h4>vTiger CRM</h4>

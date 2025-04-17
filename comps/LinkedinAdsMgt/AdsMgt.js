@@ -12,7 +12,7 @@ const AdsMgt = () => {
                 fill
                 quality={100}
                 className="image-full imgAnimation"
-                src="assets/images/linkedin-ads-management-company-in-delhi-mumbai.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/linkedin-ads-management-company-in-delhi-mumbai.svg"
                 alt="LinkedIn ads management company in mumbai"
               />
             </div>

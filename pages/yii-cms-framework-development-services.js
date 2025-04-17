@@ -4,7 +4,6 @@ import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
 
-
 export default function YiiCmsFrameworkDevelopmentServices() {
   const metaTags = (
     <>
@@ -69,10 +68,10 @@ export default function YiiCmsFrameworkDevelopmentServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeaading fontWeight700 text-white">
-                YII CMS Framework Development Services
+                  YII CMS Framework Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top YII Framework Development Company in India
+                  Top YII Framework Development Company in India
                 </h2>
 
                 <div className="mt-4">
@@ -208,7 +207,7 @@ export default function YiiCmsFrameworkDevelopmentServices() {
                 <img
                   alt="YII CMS Framework Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

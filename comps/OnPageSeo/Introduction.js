@@ -12,7 +12,7 @@ const Introduction = () => {
               height={400}
               quality={100}
               className=" w-100  image-full h-auto"
-              src="assets/images/on-page-seo-company-in-india-mumbai.svg"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/on-page-seo-company-in-india-mumbai.svg"
               alt="on-page-seo-company-in-india"
             />
           </div>

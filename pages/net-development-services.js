@@ -72,10 +72,7 @@ export default function DotNetDevelopmentServices() {
                 <h1 className="heading fontHeading fontWeight700 text-white">
                   .NET Development Services
                 </h1>
-                <h2>
-                  Top Rated.NET Development Company in Mumbai, India
-                </h2>
-
+                <h2>Top Rated.NET Development Company in Mumbai, India</h2>
 
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -168,7 +165,7 @@ export default function DotNetDevelopmentServices() {
                 <div className="col-md-6 order-lg-2 order-1">
                   <div className="custom-page-img">
                     <img
-                      src="assets/images/article-submission.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                       alt=".Net Development Companies in India"
                       className="img-fluid"
                     />
@@ -181,7 +178,7 @@ export default function DotNetDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt=".Net Development Services"
                   className="img-fluid"
                 />

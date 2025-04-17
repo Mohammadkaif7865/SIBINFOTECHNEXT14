@@ -71,7 +71,9 @@ export default function Portfolio() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontHeading fontWeight700 text-white">Portfolio</h1>
+                <h1 className="heading fontHeading fontWeight700 text-white">
+                  Portfolio
+                </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Our Successful Projects
                 </h2>
@@ -169,7 +171,7 @@ export default function Portfolio() {
                       <Link href="https://www.3solutions.co.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/3solutions.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/3solutions.jpg"
                             alt="3 Solution"
                           />
                           <div className="overlayText">
@@ -184,7 +186,7 @@ export default function Portfolio() {
                       <Link href="http://axisy.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/axisy.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/axisy.jpg"
                             alt="AxisY"
                           />
                           <div className="overlayText">
@@ -199,7 +201,7 @@ export default function Portfolio() {
                       <Link href="http://mindspring.co.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/mindspring.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/mindspring.jpg"
                             alt="Mindspring"
                           />
                           <div className="overlayText">
@@ -214,7 +216,7 @@ export default function Portfolio() {
                       <Link href="http://mrmunim.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/mrmunim.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/mrmunim.jpg"
                             alt="Mr. Munim"
                           />
                           <div className="overlayText">
@@ -229,7 +231,7 @@ export default function Portfolio() {
                       <Link href="http://navyugchemicals.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/navyugchemicals.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/navyugchemicals.jpg"
                             alt="Navyoug Chemicals"
                           />
                           <div className="overlayText">
@@ -244,7 +246,7 @@ export default function Portfolio() {
                       <Link href="http://www.herniaindia.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/herniaindia.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/herniaindia.jpg"
                             alt="Hernia India"
                           />
                           <div className="overlayText">
@@ -265,7 +267,7 @@ export default function Portfolio() {
                       <Link href="https://bardahl.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/bardahl.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/bardahl.jpg"
                             alt="Bardahl"
                           />
                           <div className="overlayText">
@@ -280,7 +282,7 @@ export default function Portfolio() {
                       <Link href="http://emilpharma.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/emilpharma.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/emilpharma.jpg"
                             alt="Emil Pharma"
                           />
                           <div className="overlayText">
@@ -295,7 +297,7 @@ export default function Portfolio() {
                       <Link href="https://narainindia.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/narainindia.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/narainindia.jpg"
                             alt="Narain India"
                           />
                           <div className="overlayText">
@@ -310,7 +312,7 @@ export default function Portfolio() {
                       <Link href="http://nsaarchitects.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/nsaarchitects.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/nsaarchitects.jpg"
                             alt="Nsaarchitects"
                           />
                           <div className="overlayText">
@@ -325,7 +327,7 @@ export default function Portfolio() {
                       <Link href="http://brillianttutorsacademy.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/brillianttutorsacademy.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/brillianttutorsacademy.jpg"
                             alt="Brillianttutorsacademy"
                           />
                           <div className="overlayText">
@@ -342,7 +344,7 @@ export default function Portfolio() {
                       <Link href="http://www.repaircity.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/repaircity.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/repaircity.jpg"
                             alt="Repair City"
                           />
                           <div className="overlayText">
@@ -363,7 +365,7 @@ export default function Portfolio() {
                       <Link href="https://designmyoffice.in/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/designmyoffice.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/designmyoffice.jpg"
                             alt="Design My Office"
                           />
                           <div className="overlayText">
@@ -378,7 +380,7 @@ export default function Portfolio() {
                       <Link href="http://in-pl.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/in-pl.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/in-pl.jpg"
                             alt="Infinite Possibilities"
                           />
                           <div className="overlayText">
@@ -395,7 +397,7 @@ export default function Portfolio() {
                       <Link href="https://naturalandessential.co.in/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/naturalandessential.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/naturalandessential.jpg"
                             alt="Natural &amp; Essential"
                           />
                           <div className="overlayText">
@@ -412,7 +414,7 @@ export default function Portfolio() {
                       <Link href="http://pravaasah.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/pravaasah.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/pravaasah.jpg"
                             alt="Pravaasah"
                           />
                           <div className="overlayText">
@@ -427,7 +429,7 @@ export default function Portfolio() {
                       <Link href="http://reimagineparenthood.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/reimagineparenthood.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/reimagineparenthood.jpg"
                             alt="Reimagine Parenthood"
                           />
                           <div className="overlayText">
@@ -450,7 +452,7 @@ export default function Portfolio() {
                       <Link href="https://www.smartexamresources.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/smartexamresources.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/smartexamresources.jpg"
                             alt="Smart Exam Resources"
                           />
                           <div className="overlayText">
@@ -467,7 +469,7 @@ export default function Portfolio() {
                       <Link href="http://thegreatmentor.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/thegreatmentor.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/thegreatmentor.jpg"
                             alt="The Great Mentor"
                           />
                           <div className="overlayText">
@@ -482,7 +484,7 @@ export default function Portfolio() {
                       <Link href="https://vivahsaptapadi.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/vivahsaptapadi.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/vivahsaptapadi.jpg"
                             alt="Vivah Saptapadi"
                           />
                           <div className="overlayText">
@@ -497,7 +499,7 @@ export default function Portfolio() {
                       <Link href="http://worlddigitalcard.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/worlddigitalcard.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/worlddigitalcard.jpg"
                             alt="World Digital Card"
                           />
                           <div className="overlayText">
@@ -512,7 +514,7 @@ export default function Portfolio() {
                       <Link href="http://tripplannersworld.travel">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/tripplannersworld.jpg"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/portfolio/tripplannersworld.jpg"
                             alt="Tripplanners World"
                           />
                           <div className="overlayText">

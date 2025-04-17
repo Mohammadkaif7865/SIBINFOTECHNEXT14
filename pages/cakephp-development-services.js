@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CakephpDevelopmentServices() {
   const metaTags = (
@@ -111,9 +111,7 @@ cake php development services,cake php development service,offshore cake php dev
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"CakePHP Development Services"}
-        />
+        <Breadcrumb Pagetitle={"CakePHP Development Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -132,9 +130,7 @@ cake php development services,cake php development service,offshore cake php dev
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"CakePHP Development Services"}
-        />
+        <Breadcrumb Pagetitle={"CakePHP Development Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -176,7 +172,7 @@ cake php development services,cake php development service,offshore cake php dev
                 <img
                   alt="Cake Php Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

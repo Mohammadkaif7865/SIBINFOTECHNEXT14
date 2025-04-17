@@ -179,7 +179,7 @@ export default function ThemeCustomizationServices() {
             <div className="col-md-6 order-1 order-lg-2">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Themes Customization"
                   className="img-fluid"
                 />
@@ -190,7 +190,7 @@ export default function ThemeCustomizationServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Themes Customization"
                   className="img-fluid"
                 />

@@ -138,7 +138,7 @@ export default function OnlineReputationRepairServices() {
               <img
                 alt="online-reputation-repair-company-in-india"
                 className="image-full imgAnimation"
-                src="assets/images/online-reputation-repair-company-in-india.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/online-reputation-repair-company-in-india.png"
               />
             </div>
             <div className="col-lg-7">
@@ -220,7 +220,7 @@ export default function OnlineReputationRepairServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-trustworthiness"
-                    src="assets/images/icons/reputation-repair-trustworthiness.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-trustworthiness.svg"
                   />
                   <h4>
                     Increases your brand’s trustworthiness among the audience
@@ -229,14 +229,14 @@ export default function OnlineReputationRepairServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-credibility"
-                    src="assets/images/icons/reputation-repair-credibility.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-credibility.svg"
                   />
                   <h4>Increases credibility</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-profits"
-                    src="assets/images/icons/reputation-repair-profits.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-profits.svg"
                   />
                   <h4>Increases profits</h4>
                 </div>
@@ -245,21 +245,21 @@ export default function OnlineReputationRepairServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-better-talent"
-                    src="assets/images/icons/reputation-repair-better-talent.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-better-talent.svg"
                   />
                   <h4>Better talent acquisition</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-lesser-risk"
-                    src="assets/images/icons/reputation-repair-lesser-risk.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-lesser-risk.svg"
                   />
                   <h4>Lesser risk</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-negetive-publicity"
-                    src="assets/images/icons/reputation-repair-negetive-publicity.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-negetive-publicity.svg"
                   />
                   <h4>Eradicates negative publicity</h4>
                 </div>
@@ -268,7 +268,7 @@ export default function OnlineReputationRepairServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-transparency"
-                    src="assets/images/icons/reputation-repair-transparency.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-transparency.svg"
                   />
                   <h4>
                     Ensures transparency of your company with the customers and
@@ -278,14 +278,14 @@ export default function OnlineReputationRepairServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-serp"
-                    src="assets/images/icons/reputation-repair-serp.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-serp.svg"
                   />
                   <h4>Increases SERPs</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="online-reputation-repair-boost-sales"
-                    src="assets/images/icons/reputation-repair-boost-sales.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/reputation-repair-boost-sales.svg"
                   />
                   <h4>Boosts sales</h4>
                 </div>

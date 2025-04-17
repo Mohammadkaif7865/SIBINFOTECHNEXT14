@@ -142,7 +142,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="QA Testing Services"
                   className="img-fluid"
                 />
@@ -217,7 +217,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="QA Testing Services"
                   className="img-fluid"
                 />

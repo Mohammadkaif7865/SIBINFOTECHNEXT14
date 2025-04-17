@@ -70,10 +70,10 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                Regional SEO Services to Boost Your Local Reach
+                  Regional SEO Services to Boost Your Local Reach
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Expert Google Local Listing Company in India
+                  Expert Google Local Listing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -174,7 +174,7 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-3">
               <div className="regional-seo-factors-box">
                 <img
-                  src="assets/images/icons/regional-seo-local-domain.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/regional-seo-local-domain.svg"
                   alt="regional-seo-company-in-india"
                 />
                 <h4>Local Domain Extension</h4>
@@ -188,7 +188,7 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-3">
               <div className="regional-seo-factors-box">
                 <img
-                  src="assets/images/icons/regional-seo-language.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/regional-seo-language.svg"
                   alt="regional-seo-company-in-delhi"
                 />
                 <h4>Language</h4>
@@ -201,7 +201,7 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-3">
               <div className="regional-seo-factors-box">
                 <img
-                  src="assets/images/icons/regional-seo-hosting.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/regional-seo-hosting.svg"
                   alt="regional-seo-company-in-mumbai"
                 />
                 <h4>Regional Hosting</h4>
@@ -214,7 +214,7 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-3">
               <div className="regional-seo-factors-box">
                 <img
-                  src="assets/images/icons/regional-seo-local-contact-information.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/regional-seo-local-contact-information.svg"
                   alt="regional-seo-firm-in-india"
                 />
                 <h4>Local Contact Information</h4>

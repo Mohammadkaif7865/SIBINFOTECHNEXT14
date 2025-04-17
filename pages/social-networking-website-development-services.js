@@ -170,7 +170,7 @@ export default function SocialNetworkingDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="imgFulll"
-                src="assets/images/social-networking-website.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/social-networking-website.jpg"
               />
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function SocialNetworkingDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="imgFulll"
-                src="assets/images/social-networking-website2.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/social-networking-website2.svg"
               />
             </div>
             <div className="col-lg-7">
@@ -228,7 +228,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Company in Delhi"
-                      src="assets/images/social-networking-portal-development.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/social-networking-portal-development.svg"
                     />
                   </div>
                   <h5>Social Networking Portal Development</h5>
@@ -239,7 +239,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Company in Mumbai"
-                      src="assets/images/facebook-widget.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/facebook-widget.svg"
                     />
                   </div>
                   <h5>Facebook API integration and Facebook Widgets</h5>
@@ -250,7 +250,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Delhi"
-                      src="assets/images/audio-video-uploading.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/audio-video-uploading.svg"
                     />
                   </div>
                   <h5>Audio video sharing &amp; uploading</h5>
@@ -261,7 +261,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/internal-message.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/internal-message.svg"
                     />
                   </div>
                   <h5>Internal messaging</h5>
@@ -272,7 +272,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/invitation-social.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/invitation-social.svg"
                     />
                   </div>
                   <h5>Invitations</h5>
@@ -283,7 +283,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/photo-video-gallery.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/photo-video-gallery.svg"
                     />
                   </div>
                   <h5>Photo &amp; Video galleries</h5>
@@ -294,7 +294,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development in Mumbai"
-                      src="assets/images/blog-firm.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/blog-firm.svg"
                     />
                   </div>
                   <h5>Blogs, Forums</h5>
@@ -305,7 +305,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/user-network.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/user-network.svg"
                     />
                   </div>
                   <h5>Member friend’s network</h5>
@@ -316,7 +316,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/live-chat.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/live-chat.svg"
                     />
                   </div>
                   <h5>Live chat</h5>
@@ -327,7 +327,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/shopping-carts.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/shopping-carts.svg"
                     />
                   </div>
                   <h5>Shopping carts</h5>
@@ -338,7 +338,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/bookmark.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bookmark.svg"
                     />
                   </div>
                   <h5>Social bookmarking</h5>
@@ -349,7 +349,7 @@ export default function SocialNetworkingDevelopmentServices() {
                   <div className="iconDigi">
                     <img
                       alt="Social Networking Portal Development Agency in Mumbai"
-                      src="assets/images/rss.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/rss.svg"
                     />
                   </div>
                   <h5>RSS feeds</h5>

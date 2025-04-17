@@ -173,7 +173,7 @@ export default function PaymentGatewayIntegrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Payment Gateway Integration Services in India"
                   className="img-fluid"
                 />
@@ -189,7 +189,7 @@ export default function PaymentGatewayIntegrationServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Payment Gateway Integraion Services in Mumbai"
                   className="img-fluid"
                 />

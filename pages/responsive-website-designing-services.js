@@ -134,7 +134,7 @@ export default function ResponsiveWebsiteDesigningServices() {
             <div className="col-md-5">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/responsive-website-designing.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/responsive-website-designing.svg"
                 alt="Responsive website designing services"
               />
             </div>
@@ -171,7 +171,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-lowaer-maintenance.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-lowaer-maintenance.svg"
                     alt="reponsive-website-conversion-rates"
                   />
                 </div>
@@ -186,7 +186,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-conversion-rates.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-conversion-rates.svg"
                     alt="High conversion rates"
                   />
                 </div>
@@ -201,7 +201,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-webdesigning-reporting.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-webdesigning-reporting.svg"
                     alt="responsive-webdesigning-reporting"
                   />
                 </div>
@@ -218,7 +218,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-lower-cost.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-lower-cost.svg"
                     alt="responsive-website-mobile-development-lower-cost"
                   />
                 </div>
@@ -235,7 +235,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-traffic.svg"
                     alt="responsive-website-traffic"
                   />
                 </div>
@@ -252,7 +252,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-fast-loading.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-fast-loading.svg"
                     alt="responsive-website-fast-loading"
                   />
                 </div>
@@ -268,7 +268,7 @@ export default function ResponsiveWebsiteDesigningServices() {
               <div className="adv-resp-box">
                 <div className="adv-resp-box-img-circle">
                   <img
-                    src="assets/images/icons/responsive-website-improve-seo.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/responsive-website-improve-seo.svg"
                     alt="responsive-website-improve-seo"
                   />
                 </div>
@@ -310,7 +310,7 @@ export default function ResponsiveWebsiteDesigningServices() {
             <div className="col-md-5">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/responsive-website-we-offer.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/responsive-website-we-offer.svg"
                 alt="Responsive Website Designing"
               />
             </div>

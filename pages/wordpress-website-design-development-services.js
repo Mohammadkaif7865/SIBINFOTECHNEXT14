@@ -75,7 +75,8 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                   Wordpress Website Design & Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Wordpress Web Design & Development <br/> Company in India
+                  Top Rated Wordpress Web Design & Development <br /> Company in
+                  India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -140,7 +141,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
               <div className="ecommerceWeb">
                 <img
                   className="imgAnimation"
-                  src="assets/images/wordpress-website-design-and-development.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/wordpress-website-design-and-development.svg"
                   alt="wordpress website design and developement company in Mumbai"
                 />
               </div>
@@ -190,7 +191,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-business.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-business.svg"
                       alt="Business"
                     />
                   </div>
@@ -201,7 +202,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-ecommerce.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-ecommerce.svg"
                       alt="E-commerce"
                     />
                   </div>
@@ -212,7 +213,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-newspaper.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-newspaper.svg"
                       alt="News"
                     />
                   </div>
@@ -223,7 +224,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-entertainment.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-entertainment.svg"
                       alt="Entertainment"
                     />
                   </div>
@@ -234,7 +235,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-music.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-music.svg"
                       alt="music"
                     />
                   </div>
@@ -245,7 +246,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
                 <div className="wordpresItem">
                   <div className="wordBlogIcon">
                     <img
-                      src="assets/images/icons/wordpress-blogging.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wordpress-blogging.svg"
                       alt="Personal blog"
                     />
                   </div>
@@ -263,7 +264,7 @@ export default function WordpressWebsiteDesignDevelopmentServices() {
               <div className="leftDigiSer">
                 <img
                   className="imgAnimation"
-                  src="assets/images/wordpress-development-company-in-delhi.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/wordpress-development-company-in-delhi.svg"
                   alt="Wordpress website design and development company"
                 />
               </div>

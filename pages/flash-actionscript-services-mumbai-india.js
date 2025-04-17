@@ -168,7 +168,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscription Development Companies"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscript Development Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscript Development"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

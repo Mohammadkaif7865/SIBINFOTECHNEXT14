@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function BlackberryMobileApplicationDevelopmentServices() {
   const metaTags = (
@@ -75,7 +75,8 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                   Blackberry Application Development
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated Blackberry Applications Development Services Mumbai, India
+                  Top Rated Blackberry Applications Development Services Mumbai,
+                  India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -111,11 +112,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
       </div>
       <div className=" d-lg-none">
         <div className=" d-lg-none">
-          <Breadcrumb
-            Pagetitle={
-              "Blackberry Mobile Application "
-            }
-          />
+          <Breadcrumb Pagetitle={"Blackberry Mobile Application "} />
         </div>
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
@@ -137,9 +134,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Blackberry Mobile Application "}
-        />
+        <Breadcrumb Pagetitle={"Blackberry Mobile Application "} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -179,7 +174,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                 <img
                   alt="Blackberry Mobile Application Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -190,7 +185,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                 <img
                   alt="Blackberry Mobile Application Development Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

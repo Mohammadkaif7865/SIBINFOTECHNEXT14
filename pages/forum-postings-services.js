@@ -10,19 +10,46 @@ export default function ForumPostingServices() {
   const metaTags = (
     <>
       <title>Forum Posting Services | Boost Engagement & Traffic</title>
-      <meta name="description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta name="keywords" content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy" />
+      <meta
+        name="description"
+        content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links."
+      />
+      <meta
+        name="keywords"
+        content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/forum-postings-services" />
-      <meta property="og:title" content="Forum Posting Services | Boost Engagement & Traffic" />
-      <meta property="og:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/forum-postings-services"
+      />
+      <meta
+        property="og:title"
+        content="Forum Posting Services | Boost Engagement & Traffic"
+      />
+      <meta
+        property="og:description"
+        content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/forum-postings-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/forum-postings-services" />
-      <meta property="twitter:title" content="Forum Posting Services | Boost Engagement & Traffic" />
-      <meta property="twitter:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/forum-postings-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Forum Posting Services | Boost Engagement & Traffic"
+      />
+      <meta
+        property="twitter:description"
+        content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links."
+      />
       <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
@@ -140,7 +167,7 @@ export default function ForumPostingServices() {
                 <img
                   alt="Forum Posting Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -151,7 +178,7 @@ export default function ForumPostingServices() {
                 <img
                   alt="Forum Postings Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

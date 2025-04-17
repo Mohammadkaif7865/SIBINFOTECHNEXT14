@@ -107,7 +107,7 @@ export default function SeoContentWritingServices() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'SEO Content Writing '} />
+        <Breadcrumb Pagetitle={"SEO Content Writing "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -125,7 +125,7 @@ export default function SeoContentWritingServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'SEO Content Writing '} />
+        <Breadcrumb Pagetitle={"SEO Content Writing "} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -169,7 +169,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services Agncy in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

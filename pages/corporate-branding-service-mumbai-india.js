@@ -5,7 +5,7 @@ import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CorporateBrandingServicesMumbai() {
   const metaTags = (
@@ -72,7 +72,7 @@ export default function CorporateBrandingServicesMumbai() {
                   Corporate Branding Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Corporate Branding  Company in India
+                  Top Rated Corporate Branding Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -165,7 +165,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Best Corporate Branding Company in India"
                 />
               </div>
@@ -175,7 +175,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Top Corporate Branding Agency in Mumbai"
                 />
               </div>
@@ -301,7 +301,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Corporate Branding Services"
                 />
               </div>

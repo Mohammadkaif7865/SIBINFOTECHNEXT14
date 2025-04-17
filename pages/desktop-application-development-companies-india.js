@@ -109,11 +109,7 @@ export default function DesktopApplicationDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Desktop Application Development"
-          }
-        />
+        <Breadcrumb Pagetitle={"Desktop Application Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -131,11 +127,7 @@ export default function DesktopApplicationDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Desktop Application Development"
-          }
-        />
+        <Breadcrumb Pagetitle={"Desktop Application Development"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -174,7 +166,7 @@ export default function DesktopApplicationDevelopmentServices() {
                 <img
                   alt="Desktop Application Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -185,7 +177,7 @@ export default function DesktopApplicationDevelopmentServices() {
                 <img
                   alt="Desktop Application Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

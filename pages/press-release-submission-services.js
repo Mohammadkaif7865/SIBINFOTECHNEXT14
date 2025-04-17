@@ -159,7 +159,7 @@ export default function PressReleaseSubmissionServices() {
               <div className="tiktok-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/pr-submission-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/pr-submission-company-in-india.png"
                   alt="Press-Release-Submission-Services-Company-In-India"
                 />
               </div>

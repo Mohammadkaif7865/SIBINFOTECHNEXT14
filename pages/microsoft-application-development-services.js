@@ -154,7 +154,7 @@ export default function MicrosoftDevelopmentServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Microsoft Application & Development Services"
                   className="img-fluid"
                 />

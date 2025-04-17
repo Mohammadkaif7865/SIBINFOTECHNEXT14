@@ -73,7 +73,7 @@ export default function RubyOnRailsCmsFrameworkDevelopmentServices() {
                   Ruby on Rails Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated Ruby on Rails Development Services in India
+                  Top Rated Ruby on Rails Development Services in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -202,7 +202,7 @@ export default function RubyOnRailsCmsFrameworkDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Ruby on Rails"
                   className="img-fluid"
                 />

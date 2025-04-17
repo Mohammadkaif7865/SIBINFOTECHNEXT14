@@ -176,12 +176,12 @@ export default function MobileWebsiteDesigningServices() {
               <div className="mobile-website-design">
                 <img
                   className="first-img"
-                  src="assets/images/mobile-website-designing-company-in-mumbai.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobile-website-designing-company-in-mumbai.png"
                   alt="mobile-website-designing-company-in-mumbai"
                 />{" "}
                 <img
                   className="second-img"
-                  src="assets/images/mobile-website-designing-in-delhi.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobile-website-designing-in-delhi.png"
                   alt="mobile-website-designing-company-in-mumbai"
                 />
               </div>

@@ -73,7 +73,7 @@ export default function SearchEngineOptimizationSeoServicesPackages() {
                   SEO Packages
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated SEO Packages in India
+                  Top Rated SEO Packages in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -137,7 +137,7 @@ export default function SearchEngineOptimizationSeoServicesPackages() {
                   <img
                     alt="SEO Packeages Company in India"
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-packages-3.png"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

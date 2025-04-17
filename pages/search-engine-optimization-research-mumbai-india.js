@@ -78,7 +78,7 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
                   SEO Research
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top  Rated SEO Research & Analysis Services in India
+                  Top Rated SEO Research & Analysis Services in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -187,7 +187,7 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
                 <img
                   alt="Search Engine Optimization Research In India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ArticleSubmissionServices() {
   const metaTags = (
@@ -75,7 +75,7 @@ article submission service,article submission services,manual article submission
                   Article Submission Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Article Submission Company in India
+                  Top Rated Article Submission Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -107,9 +107,7 @@ article submission service,article submission services,manual article submission
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"Article Submission Services"}
-        />
+        <Breadcrumb Pagetitle={"Article Submission Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -127,9 +125,7 @@ article submission service,article submission services,manual article submission
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Article Submission Services"}
-        />
+        <Breadcrumb Pagetitle={"Article Submission Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -182,7 +178,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Article Submission Company in Mumbai"
                 />
               </div>
@@ -192,7 +188,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Article Submission Company in Delhi"
                 />
               </div>
@@ -258,7 +254,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Article Submission"
                 />
               </div>

@@ -8,7 +8,7 @@
 //           <div className="col-lg-6">
 //             <img
 //               className="image-full imgAnimation"
-//               src="assets/images/google-ads-management-company-in-delhi.svg"
+//               src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-ads-management-company-in-delhi.svg"
 //               alt="Google-Ads-Management-Company-In-India"
 //             />
 //           </div>
@@ -203,4 +203,3 @@ const AdWords = () => {
 };
 
 export default AdWords;
-

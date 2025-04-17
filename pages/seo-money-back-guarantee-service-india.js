@@ -107,7 +107,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'SEO Money Back Guarantee '} />
+        <Breadcrumb Pagetitle={"SEO Money Back Guarantee "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -125,7 +125,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'SEO Money Back Guarantee '} />
+        <Breadcrumb Pagetitle={"SEO Money Back Guarantee "} />
       </div>
       <section>
         <div className="containerFull">
@@ -149,7 +149,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                 <img
                   className="image-full"
                   alt="SEO Money back Guarantee Services in India"
-                  src="assets/images/socila-bookmarking-img.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/socila-bookmarking-img.svg"
                 />
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services in Delhi"
-                      src="assets/images/money-back-target-keywords.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-target-keywords.svg"
                     />
                     <p className="customText">
                       Identify the main target keywords for the website.
@@ -187,7 +187,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services in Mumbai"
-                      src="assets/images/money-back-determine-budget.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-determine-budget.svg"
                     />
                     <p className="customText">
                       Determine a realistic budget for 12 months to invest in
@@ -199,7 +199,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services Company in India"
-                      src="assets/images/money-back-strategy.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-strategy.svg"
                     />
                     <p className="customText">
                       Structure and agree a 12 month strategy
@@ -212,7 +212,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services Company in Delhi"
-                      src="assets/images/money-back-set-and-agree.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-set-and-agree.svg"
                     />
                     <p className="customText">
                       Set and agree on measurable results with a money back
@@ -224,7 +224,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services Company in Mumbai"
-                      src="assets/images/money-back-proceed-with-campaign.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-proceed-with-campaign.svg"
                     />
                     <p className="customText">Proceed with the campaign</p>
                   </div>
@@ -233,7 +233,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
                   <div className="mny-back-box">
                     <img
                       alt="SEO Money back Guarantee Services Agency in India"
-                      src="assets/images/money-back-fornightly-reporting.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/money-back-fornightly-reporting.svg"
                     />
                     <p className="customText">
                       Fortnightly reporting on progress from your dedicated

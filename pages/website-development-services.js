@@ -100,24 +100,52 @@ export default function WebDevelopmentServices() {
 
   const metaTags = (
     <>
-      <title>Top Web Development Company India | Website Development Mumbai</title>
-      <meta name="description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <title>
+        Top Web Development Company India | Website Development Mumbai
+      </title>
+      <meta
+        name="description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
       <meta name="keywords" content="Website Development Services" />
-     
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="og:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="og:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="og:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="og:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="twitter:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
-" />
-     <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="twitter:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-development-services"
         breadcrumbTitle="Top Web Development Company India | Website Development Mumbai"
         PageRatingSchema
@@ -139,7 +167,7 @@ export default function WebDevelopmentServices() {
                   Website Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Web Development  Company in India
+                  Top Rated Web Development Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
@@ -294,7 +322,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-7.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-7.svg"
                           alt="Website Development Company in India"
                         />
                       </div>
@@ -311,7 +339,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-8.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-8.svg"
                           alt="Website Development Company in Mumbai"
                         />
                       </div>
@@ -328,7 +356,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-9.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-9.svg"
                           alt="Website Development Company in Delhi"
                         />
                       </div>
@@ -347,7 +375,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-10.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-10.svg"
                           alt="Website Development Agency in India"
                         />
                       </div>
@@ -364,7 +392,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-ux.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-ux.svg"
                           alt="Website Development Agency in Mumbai"
                         />
                       </div>
@@ -381,7 +409,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-7.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-7.svg"
                           alt="Website Development Agency in Delhi"
                         />
                       </div>
@@ -443,7 +471,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-18.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-18.svg"
                           alt="Website Development Firm in Mumbai"
                         />
                       </div>
@@ -462,7 +490,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-11.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-11.svg"
                           alt="Website Development Firm in Delhi"
                         />
                       </div>
@@ -482,7 +510,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-16.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-16.svg"
                           alt="Website Development Firm in India"
                         />
                       </div>
@@ -500,7 +528,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-15.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-15.svg"
                           alt="Best Website Development Agency in Mumbai"
                         />
                       </div>
@@ -520,7 +548,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-13.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-13.svg"
                           alt="Best Website Development Agency in Delhi"
                         />
                       </div>
@@ -539,7 +567,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-14.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-14.svg"
                           alt="Best Website Development Agency in India"
                         />
                       </div>
@@ -575,7 +603,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/nodeJs.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/nodeJs.png"
                   alt="Website Development Companies in Mumbai"
                 />
                 <h4>Node JS Development Services</h4>
@@ -591,7 +619,7 @@ export default function WebDevelopmentServices() {
               <div className="web-devlp-box-2 mdm-height">
                 <img
                   className="img-size"
-                  src="assets/images/icons/php-logo.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/php-logo.svg"
                   alt="Website Development Companies in Delhi"
                 />
                 <h4>Custom PHP Web Development Services</h4>
@@ -608,7 +636,7 @@ export default function WebDevelopmentServices() {
               <div className="web-devlp-box-2 mdm-height">
                 <img
                   className="img-size"
-                  src="assets/images/icons/net.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/net.svg"
                   alt="Website Development Companies in India"
                 />
                 <h4>.Net Development Services</h4>
@@ -626,7 +654,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/magento.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/magento.png"
                   alt="web application development company"
                 />
                 <h4>Magento Development Services</h4>
@@ -643,7 +671,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/laravel.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/laravel.svg"
                   alt="web application development company in India"
                 />
                 <h4>Laravel Web Development Services</h4>
@@ -660,7 +688,7 @@ export default function WebDevelopmentServices() {
               <div className="web-devlp-box-2 mdm-height">
                 <img
                   className="img-size"
-                  src="assets/images/icons/django.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/django.svg"
                   alt="web application development company in Delhi"
                 />
                 <h4>Django Development Services</h4>
@@ -678,7 +706,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/opencart.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/opencart.png"
                   alt="Web Application Development Company in Mumbai"
                 />
                 <h4>Opencart Development Services</h4>
@@ -695,7 +723,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/codeigniter-logo.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/codeigniter-logo.jpg"
                   alt="Web Application Development Agency in Mumbai"
                 />
                 <h4>CodeIgniter Web Development Services</h4>
@@ -710,7 +738,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/yii.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/yii.jpg"
                   alt="Web Application Development Agency in Delhi"
                 />
                 <h4>Yii Development Services</h4>
@@ -771,7 +799,7 @@ export default function WebDevelopmentServices() {
                 </p>
                 <img
                   className="image-full"
-                  src="assets/images/web-devlp-img-19.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-img-19.svg"
                   alt="Web Development"
                 />
               </div>
@@ -783,7 +811,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-22.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-22.svg"
                           alt="Web Application Development Firm in Mumbai"
                         />
                       </div>
@@ -800,7 +828,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-23.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-23.svg"
                           alt="Web Application Development Firm in Delhi"
                         />
                       </div>
@@ -820,7 +848,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-24.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-24.svg"
                           alt="Web Application Development Firm in India"
                         />
                       </div>
@@ -838,7 +866,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-25.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-25.svg"
                           alt="Custom Web Application Development"
                         />
                       </div>
@@ -857,7 +885,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-26.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-26.svg"
                           alt="Custom Web Application Development in India"
                         />
                       </div>
@@ -871,7 +899,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-27.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-27.svg"
                           alt="Custom Web Application Development in Delhi"
                         />
                       </div>
@@ -889,7 +917,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-28.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-28.svg"
                           alt="Custom Web Application Development in Mumbai"
                         />
                       </div>
@@ -905,7 +933,7 @@ export default function WebDevelopmentServices() {
                     <div className="front-end-box-heading">
                       <div className="front-end-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-29.svg"
+                          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-29.svg"
                           alt="Custom Web Application Development in Delhi"
                         />
                       </div>
@@ -928,7 +956,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/web-devlp-secure-database.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/web-devlp-secure-database.svg"
                 alt="Custom Web Application Development Company in India"
               />
             </div>
@@ -946,7 +974,7 @@ export default function WebDevelopmentServices() {
                 <div className="front-end-box-heading">
                   <div className="front-end-img-circle">
                     <img
-                      src="assets/images/icons/web-devlp-img-20.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-20.svg"
                       alt="Custom Web Application Development Company in Delhi"
                     />
                   </div>
@@ -963,7 +991,7 @@ export default function WebDevelopmentServices() {
                 <div className="front-end-box-heading">
                   <div className="front-end-img-circle">
                     <img
-                      src="assets/images/icons/web-devlp-img-23.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-devlp-img-23.svg"
                       alt="Custom Web Application Development Company in Mumbai"
                     />
                   </div>
@@ -1211,7 +1239,9 @@ export default function WebDevelopmentServices() {
                       key={i}
                       eventKey={i}
                     >
-                      <Accordion.Header className="fontHeading">{items.question}</Accordion.Header>
+                      <Accordion.Header className="fontHeading">
+                        {items.question}
+                      </Accordion.Header>
                       <Accordion.Body
                         className=""
                         dangerouslySetInnerHTML={{ __html: items.answer }}

@@ -33,11 +33,11 @@ const BenefitsPPC = () => {
           <div className="col-lg-4">
             <div className="rightBenefit">
               <Image
-              className="h-auto"
+                className="h-auto"
                 width={417}
                 quality={100}
                 height={442}
-                src="assets/images/best-digital-marketing-company-in-delhi.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-digital-marketing-company-in-delhi.svg"
                 alt="Digital Marketing Agency in India"
               />
             </div>

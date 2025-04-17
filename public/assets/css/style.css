@@ -3,35 +3,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* @font-face {
   font-family: "Graphik";
-  src: url("/assets/fonts/GraphikBlack.otf") format("opentype");
+  src: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/fonts/GraphikBlack.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Graphik";
-  src: url("/assets/fonts/GraphikBold.otf") format("opentype");
+  src: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/fonts/GraphikBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Graphik";
-  src: url("/assets/fonts/GraphikSemibold.otf") format("opentype");
+  src: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/fonts/GraphikSemibold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Graphik";
-  src: url("/assets/fonts/GraphikMedium.otf") format("opentype");
+  src: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/fonts/GraphikMedium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Graphik";
-  src: url("/assets/fonts/GraphikRegular.otf") format("opentype");
+  src: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/fonts/GraphikRegular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -905,7 +905,8 @@ section {
 }
 
 .inlineService {
-  background: url(/assets/images/bg/area-expertise.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/area-expertise.webp)
+    no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -1003,7 +1004,8 @@ section {
 }
 
 .bg1 {
-  background: url(/assets/images/bg/bg1.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg1.jpg)
+    no-repeat;
   background-size: 100%, 100%;
   background-position: center;
 }
@@ -1070,7 +1072,8 @@ section {
 }
 
 .rightServices {
-  background: url(/assets/images/bg/bg2.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg2.jpg)
+    no-repeat;
   background-size: 100% 100%;
   position: relative;
   height: 100%;
@@ -1228,7 +1231,8 @@ section {
 }
 
 .marBlock {
-  background: url(/assets/images/bg/action.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/action.webp)
+    no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -1344,7 +1348,8 @@ section {
   right: 0px;
   width: 500px;
   height: 500px;
-  background: url(/assets/images/bg/right-top.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/right-top.png)
+    no-repeat;
   background-size: 100% 100%;
   z-index: -1;
 }
@@ -1362,7 +1367,8 @@ section {
   left: 0px;
   width: 300px;
   height: 300px;
-  background: url(/assets/images/bg/dot-bg.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/dot-bg.png)
+    no-repeat;
   background-size: 100% 100%;
   z-index: -1;
   animation: moving 5s ease-in-out infinite;
@@ -1466,7 +1472,8 @@ section {
 }
 
 .bgAction {
-  background: url(/assets/images/bg/computerbg.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/computerbg.jpg)
+    no-repeat;
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -1592,7 +1599,7 @@ section {
 }
 
 /* .bgTestimonial{
-  background: url(/assets/images/bg/testimonial-bg.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/testimonial-bg.webp) no-repeat;
   background-size:cover;
 } */
 .testimonialSlider .slick-list {
@@ -1761,7 +1768,8 @@ section {
 
 .firstColumn {
   padding: 60px 40px;
-  background: url(/assets/images/bg/footer-first.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/footer-first.webp)
+    no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -1938,7 +1946,8 @@ section {
 }
 
 .footerForm {
-  background: url(/assets/images/bg/contact-bg.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/contact-bg.webp)
+    no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -2071,7 +2080,8 @@ section {
 }
 
 .mapBlock {
-  background: url(/assets/images/bg/footer-bg.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/footer-bg.jpg)
+    no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -2165,7 +2175,8 @@ section {
 .innerWebDesign {
   height: 69vh;
   height: 75vh;
-  background: url(/assets/images/bg/website-designing-services.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/website-designing-services.webp)
+    no-repeat;
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -2176,7 +2187,8 @@ section {
 .innerWebDesign.lseo {
   background-position: center;
 
-  background: url(/assets/images/local-seo/local-seo-services.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/local-seo-services.jpg)
+    no-repeat;
   background-size: cover;
 }
 
@@ -2288,7 +2300,7 @@ section {
   z-index: 1;
   width: 100%;
   height: 10px;
-  background: url(/assets/images/icons/arrow.png);
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/arrow.png);
 }
 
 .bgBlueLight {
@@ -2308,7 +2320,8 @@ section {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url(/assets/images/bg/bg-l.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-l.webp)
+    no-repeat;
   background-size: cover;
 }
 
@@ -2332,7 +2345,8 @@ section {
   right: 0px;
   width: 43%;
   height: 100%;
-  background: url(/assets/images/bg/working.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/working.jpg)
+    no-repeat;
   background-size: 100% 100%;
 }
 
@@ -2359,7 +2373,9 @@ section {
 }
 
 .bg4 {
-  background: #f9f9f9 url(/assets/images/bg/bg-r.webp) no-repeat;
+  background: #f9f9f9
+    url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-r.webp)
+    no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -2373,7 +2389,8 @@ section {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url(/assets/images/bg/bg-l.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-l.webp)
+    no-repeat;
   background-size: cover;
 }
 
@@ -2614,7 +2631,8 @@ section {
   width: 100%;
   height: 60vh;
   z-index: -1;
-  background: url(/assets/images/bg/industry.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/industry.jpg)
+    no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -8560,7 +8578,8 @@ table tbody tr td:nth-child(2) {
 }
 
 .bgDrive {
-  background: url(/assets/images/bg/bg-seo-drive.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-seo-drive.webp)
+    no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -8592,7 +8611,8 @@ table tbody tr td:nth-child(2) {
 }
 
 .bgSeo {
-  background: url(/assets/images/bg/bg-seo.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-seo.jpg)
+    no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -8710,7 +8730,8 @@ table tbody tr td:nth-child(2) {
 }
 
 .seoCallAction {
-  background: url(/assets/images/bg/contact-coputer.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/contact-coputer.jpg)
+    no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -8864,7 +8885,8 @@ table tbody tr td:nth-child(2) {
 }
 
 .bgSpecialized {
-  background: url(/assets/images/bg/bg-service-seo.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-service-seo.webp)
+    no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -8932,7 +8954,8 @@ table tbody tr td:nth-child(2) {
 }
 
 .faqsBg {
-  background: url(/assets/images/bg/seo.jpg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/seo.jpg)
+    no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -9142,7 +9165,8 @@ table tbody tr td:nth-child(2) {
   top: 6px;
   width: 12px;
   height: 12px;
-  background: url(/assets/images/search-interface-symbol.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/search-interface-symbol.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
 }
@@ -9289,7 +9313,7 @@ table tbody tr td:nth-child(2) {
   position: absolute;
   width: 100%;
   height: 100px;
-  background: url(/assets/images/bg/bg-team.jpg);
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-team.jpg);
   background-size: cover;
   background-position: center;
   border-top-right-radius: 10px;
@@ -9582,7 +9606,7 @@ table tbody tr td:nth-child(2) {
 
 .book-consultation {
   padding: 150px 0;
-  background-image: url(/assets/images/bg/bg-lock.jpg);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-lock.jpg);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -9594,7 +9618,7 @@ table tbody tr td:nth-child(2) {
 }
 
 .OutsourcingServices {
-  background-image: url(/assets/images/bg/outsourcing-services-bg.jpg);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/outsourcing-services-bg.jpg);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -10543,7 +10567,7 @@ font-size: 20px;
   z-index: -1;
 }
 .banner-slide.slide-1 {
-  background-image: url(/assets/images/banner/banner-slide-1.jpg);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/banner/banner-slide-1.jpg);
   background-color: #33333370;
   background-blend-mode: multiply;
   background-position: center;
@@ -10551,7 +10575,7 @@ font-size: 20px;
   background-size: cover;
 }
 .banner-slide.slide-2 {
-  background-image: url(/assets/images/banner/banner-slide-23.jpg);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/banner/banner-slide-23.jpg);
   background-color: #333333db;
   background-position: center;
   background-blend-mode: multiply;
@@ -10582,7 +10606,8 @@ font-size: 20px;
 /* trusted */
 .trusted {
   position: relative;
-  background: url(/assets/images/bg/bg-seo-drive.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-seo-drive.webp)
+    no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 2;
@@ -10815,7 +10840,7 @@ font-size: 20px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/assets/images/icons/arrow-bottom.png);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/arrow-bottom.png);
   background-size: cover;
   z-index: 9;
   background-repeat: no-repeat;
@@ -10828,7 +10853,7 @@ font-size: 20px;
   height: 200px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/assets/images/icons/arrow-top.png);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/arrow-top.png);
   background-size: cover;
   z-index: 9;
   background-repeat: no-repeat;
@@ -10887,7 +10912,8 @@ font-size: 20px;
   top: 50%;
   width: 140px;
   height: 46px;
-  background: url(/assets/images/icons/long-arrow.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/long-arrow.png)
+    no-repeat;
   background-size: cover;
   transform: translateY(-50%);
 }
@@ -11449,7 +11475,7 @@ font-size: 20px;
   padding: 15px;
   min-height: 185px;
   background-size: cover;
-  background-image: url(/assets/images/success-story/Infographic-File.png);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Infographic-File.png);
   text-align: center;
 }
 .item_satates img {
@@ -11500,7 +11526,7 @@ font-size: 20px;
 }
 .item-case-study-left::after {
   position: absolute;
-  content: url(/assets/images/success-story/Doted.svg);
+  content: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Doted.svg);
   top: -20px;
   right: 10px;
   width: 100px;
@@ -11508,7 +11534,7 @@ font-size: 20px;
 }
 .item-case-study-left::before {
   position: absolute;
-  content: url(/assets/images/success-story/Doted.svg);
+  content: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Doted.svg);
   bottom: -20px;
   right: 50px;
   width: 100px;
@@ -11599,7 +11625,7 @@ font-size: 20px;
   left: -271px;
   width: 600px;
   height: 600px;
-  background: url(/assets/images/icons/red-dot.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/red-dot.png) no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: .7;
@@ -11854,7 +11880,8 @@ font-size: 20px;
   overflow: hidden;
 }
 .itemCaseStudyBox {
-  background: url(/assets/images/box-design.svg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/box-design.svg)
+    no-repeat;
   width: 100%;
   height: 200px;
 }
@@ -11888,7 +11915,8 @@ font-size: 20px;
 .dottedImg {
   width: 82px;
   height: 137px;
-  background: url(/assets/images/dotted.svg) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/dotted.svg)
+    no-repeat;
   background-position-y: -64px;
   background-position-x: -15px;
 }
@@ -11998,7 +12026,8 @@ font-size: 20px;
   left: -300px;
   width: 700px;
   height: 700px;
-  background: url(/assets/images/icons/blur-culcle-mini.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blur-culcle-mini.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: 0.55;
@@ -12010,7 +12039,8 @@ font-size: 20px;
   right: -300px;
   width: 700px;
   height: 700px;
-  background: url(/assets/images/icons/blur-culcle-mini.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blur-culcle-mini.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: 0.4;
@@ -12200,7 +12230,8 @@ font-size: 20px;
   left: -300px;
   width: 800px;
   height: 800px;
-  background: url(/assets/images/icons/blur-culcle-mini.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blur-culcle-mini.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: 0.4;
@@ -12212,7 +12243,8 @@ font-size: 20px;
   right: -300px;
   width: 800px;
   height: 800px;
-  background: url(/assets/images/icons/blur-culcle-mini.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blur-culcle-mini.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: 0.4;
@@ -12365,7 +12397,8 @@ font-size: 20px;
   left: 50%;
   width: 500px;
   height: 500px;
-  background: url(/assets/images/icons/blur-culcle-mini.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blur-culcle-mini.png)
+    no-repeat;
   background-size: cover;
   z-index: -1;
   opacity: 0.55;
@@ -12550,7 +12583,8 @@ font-size: 20px;
 .title_about_2.right:after {
   right: 270px;
   height: 46px;
-  background: url(/assets/images/icons/long-arrow.png) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/long-arrow.png)
+    no-repeat;
   background-size: cover;
 }
 
@@ -12663,7 +12697,7 @@ font-size: 20px;
 .cta_solution_main {
   position: relative;
   z-index: 3;
-  background-image: url("/assets/images/bg/computerbg.jpg");
+  background-image: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/computerbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -12919,7 +12953,7 @@ font-size: 20px;
 }
 
 .innerWebDesign.whiteLable {
-  background-image: url(/assets/images/banner-white-lable.jpg);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/banner-white-lable.jpg);
   background-position: center;
 }
 .innerBannerTitle::before {
@@ -12932,7 +12966,7 @@ font-size: 20px;
 .cta2.whiteLable {
   position: relative;
   z-index: 3;
-  background-image: url("/assets/images/bg/computerbg.jpg");
+  background-image: url("https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/computerbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -12999,7 +13033,7 @@ tudy-right-main {
   padding: 15px;
   min-height: 185px;
   background-size: cover;
-  background-image: url(/assets/images/success-story/Infographic-File.png);
+  background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Infographic-File.png);
   text-align: center;
 }
 .item_satates img {
@@ -13050,7 +13084,7 @@ tudy-right-main {
 }
 .item-case-study-left::after {
   position: absolute;
-  content: url(/assets/images/success-story/Doted.svg);
+  content: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Doted.svg);
   top: -20px;
   right: 10px;
   width: 100px;
@@ -13058,7 +13092,7 @@ tudy-right-main {
 }
 .item-case-study-left::before {
   position: absolute;
-  content: url(/assets/images/success-story/Doted.svg);
+  content: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Doted.svg);
   bottom: -20px;
   right: 50px;
   width: 100px;
@@ -13068,7 +13102,8 @@ tudy-right-main {
 /* trusted */
 .trusted {
   position: relative;
-  background: url(/assets/images/bg/bg-seo-drive.webp) no-repeat;
+  background: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bg/bg-seo-drive.webp)
+    no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 2;
@@ -13195,7 +13230,7 @@ tudy-right-main {
   justify-content: space-between;
   padding: 20px;
   background-color: #33333311;
-  /* background-image: url(/assets/images/white-lable/White-Label-Google-ads.jpg);
+  /* background-image: url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/white-lable/White-Label-Google-ads.jpg);
   background-blend-mode: multiply; */
   box-shadow: 0 0 1px 1px #33333322;
   border-radius: 20px;

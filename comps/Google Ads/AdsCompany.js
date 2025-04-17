@@ -37,9 +37,12 @@ const AdsCompany = () => {
             </p>
           </div>
           <div className="col-lg-5">
-            <Image width={500} height={500} quality={100}
+            <Image
+              width={500}
+              height={500}
+              quality={100}
               className="image-full imgAnimation"
-              src="assets/images/google-ads-management-comopany-in-india.svg"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-ads-management-comopany-in-india.svg"
               alt="Google-Ads-Management-Company-In-India"
             />
           </div>

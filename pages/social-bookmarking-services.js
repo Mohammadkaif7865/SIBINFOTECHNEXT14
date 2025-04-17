@@ -138,7 +138,7 @@ export default function SocialBookmarkingServices() {
                 <img
                   alt="Social-Bookmarking-Services-Company"
                   className="image-full"
-                  src="assets/images/socila-bookmarking-img.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/socila-bookmarking-img.png"
                 />
               </div>
             </div>

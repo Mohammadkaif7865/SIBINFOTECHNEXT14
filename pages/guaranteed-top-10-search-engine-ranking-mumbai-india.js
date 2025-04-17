@@ -10,20 +10,50 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
   const metaTags = (
     <>
       <title>Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech</title>
-      <meta name="description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
-      <meta name="keywords" content="seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,seo india,seo company,best seo services india,seo tips,outsourcing seo services,seo package" />
+      <meta
+        name="description"
+        content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business."
+      />
+      <meta
+        name="keywords"
+        content="seo services in delhi,seo services in mumbai,seo services in chennai,seo company services,seo services firm,outsource seo,web seo services,cheap seo services india,seo india,seo company,best seo services india,seo tips,outsourcing seo services,seo package"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
-      <meta property="og:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
-      <meta property="og:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
-      <meta property="twitter:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
-      <meta property="twitter:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india"
         breadcrumbTitle="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech"
@@ -49,7 +79,6 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
                   Achieve Guaranteed Top 10 SEO Rankings
                 </h2>
 
-              
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -83,7 +112,7 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'Guaranteed Top 10 Search Ranking '} />
+        <Breadcrumb Pagetitle={"Guaranteed Top 10 Search Ranking "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -102,7 +131,7 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Guaranteed Top 10 Search Ranking '} />
+        <Breadcrumb Pagetitle={"Guaranteed Top 10 Search Ranking "} />
       </div>
       <section>
         <div className="containerFull">
@@ -144,7 +173,7 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
             <img
               alt="Social-Bookmarking-Services-Company"
               className="image-full"
-              src="assets/images/seo-results-img.png"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-results-img.png"
             />
           </div>
         </div>

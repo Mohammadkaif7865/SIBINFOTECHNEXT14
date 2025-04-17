@@ -17,7 +17,7 @@
 //               <div className="iconSpecialization">
 //                 <picture>
 //                   <img
-//                     src="assets/images/icons/shopping-cart.png"
+//                     src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/shopping-cart.png"
 //                     alt="Shopping Cart"
 //                   />
 //                 </picture>
@@ -29,7 +29,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/plane.png" alt="Plane" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/plane.png" alt="Plane" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Travel SEO</p>
@@ -39,7 +39,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/folder.png" alt="Folder" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/folder.png" alt="Folder" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">SEO for News Website</p>
@@ -49,7 +49,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/amazon.png" alt="Amazon" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/amazon.png" alt="Amazon" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Amazon SEO</p>
@@ -59,7 +59,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/shopify.png" alt="Shopify" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/shopify.png" alt="Shopify" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Shopify SEO</p>
@@ -69,7 +69,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/bars.png" alt="Finance" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/bars.png" alt="Finance" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Finance SEO</p>
@@ -79,7 +79,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/localseo.png" alt="Local SEO" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/localseo.png" alt="Local SEO" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Local SEO</p>
@@ -90,7 +90,7 @@
 //               <div className="iconSpecialization">
 //                 <picture>
 //                   <img
-//                     src="assets/images/icons/building.png"
+//                     src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/building.png"
 //                     alt="Real Estate"
 //                   />
 //                 </picture>
@@ -102,7 +102,7 @@
 //             <div className="itemSpecialization">
 //               <div className="iconSpecialization">
 //                 <picture>
-//                   <img src="assets/images/icons/health.png" alt="Health" />
+//                   <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/health.png" alt="Health" />
 //                 </picture>
 //               </div>
 //               <p className="title fontHeading">Health Care SEO</p>

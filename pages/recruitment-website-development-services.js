@@ -178,7 +178,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Company in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -330,7 +330,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

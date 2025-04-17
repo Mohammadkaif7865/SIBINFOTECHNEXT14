@@ -10,20 +10,50 @@ export default function HireDedicatedSeoExperts() {
   const metaTags = (
     <>
       <title>Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings</title>
-      <meta name="description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta name="keywords" content="hire dedicated seo,hire dedicated seo expert,hire dedicated seo professional,hire dedicated seo professionals,hire seo expert,hire seo professional,hire seo experts,seo link building,seo company delhi,seo company mumbai,seo company chennai,seo company hyd" />
+      <meta
+        name="description"
+        content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success."
+      />
+      <meta
+        name="keywords"
+        content="hire dedicated seo,hire dedicated seo expert,hire dedicated seo professional,hire dedicated seo professionals,hire seo expert,hire seo professional,hire seo experts,seo link building,seo company delhi,seo company mumbai,seo company chennai,seo company hyd"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
-      <meta property="og:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
-      <meta property="og:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings"
+      />
+      <meta
+        property="og:description"
+        content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
-      <meta property="twitter:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
-      <meta property="twitter:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings"
+      />
+      <meta
+        property="twitter:description"
+        content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india"
         breadcrumbTitle="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings"
@@ -43,7 +73,7 @@ export default function HireDedicatedSeoExperts() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                Hire Dedicated SEO Experts
+                  Hire Dedicated SEO Experts
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated SEO Experts in India
@@ -78,7 +108,7 @@ export default function HireDedicatedSeoExperts() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts '} />
+        <Breadcrumb Pagetitle={"Hire Dedicated SEO Experts "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -96,7 +126,7 @@ export default function HireDedicatedSeoExperts() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Hire Dedicated SEO Experts '} />
+        <Breadcrumb Pagetitle={"Hire Dedicated SEO Experts "} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -142,7 +172,7 @@ export default function HireDedicatedSeoExperts() {
               <div className="custom-page-img">
                 <img
                   alt="Hire Dedicated SEO Specialist Services Company in Mumbai"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -152,7 +182,7 @@ export default function HireDedicatedSeoExperts() {
               <div className="custom-page-img">
                 <img
                   alt="Hire Dedicated SEO Specialist Services Company in India"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

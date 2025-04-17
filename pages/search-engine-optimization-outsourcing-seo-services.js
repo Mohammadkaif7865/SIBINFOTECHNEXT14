@@ -167,7 +167,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
               </p>
               <img
                 className="image-full"
-                src="assets/images/outsourcing-seo-comapny.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/outsourcing-seo-comapny.svg"
                 alt="outsourcing-seo-comapny"
               />
             </div>
@@ -177,7 +177,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   <div className="optmize-box">
                     <img
                       height="60"
-                      src="assets/images/icons/outsourcing-seo-firm.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/outsourcing-seo-firm.svg"
                       width="60"
                       alt="Outsourcing SEO firm"
                     />
@@ -188,7 +188,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   <div className="optmize-box">
                     <img
                       height="60"
-                      src="assets/images/icons/outsourcing-seo-company-in-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/outsourcing-seo-company-in-india.svg"
                       width="60"
                       alt="outsourcing-seo-company-in-india"
                     />
@@ -201,7 +201,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   <div className="optmize-box">
                     <img
                       height="60"
-                      src="assets/images/icons/outsourcing-seo-company-in-delhi.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/outsourcing-seo-company-in-delhi.svg"
                       width="60"
                       alt="outsourcing-seo-company-in-delhi"
                     />
@@ -212,7 +212,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   <div className="optmize-box">
                     <img
                       height="60"
-                      src="assets/images/icons/outsourcing-seo-company-in-mumbai.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/outsourcing-seo-company-in-mumbai.svg"
                       alt="outsourcing-seo-company-in-mumbai"
                       width="60"
                     />
@@ -294,28 +294,28 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
               <div className="middle-row mt-lg-0 mt-3">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-firm-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-firm-in-delhi.svg"
                     alt="out-sourcing-seo-firm-in-delhi"
                   />
                   <h4>100% White Label SEO Reseller Program</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-agency.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-agency.svg"
                     alt="out-sourcing-seo-agency"
                   />
                   <h4>Client Owner Ship - Sell it with you Brand Name</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-agency-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-agency-in-india.svg"
                     alt="out-sourcing-seo-agency-in-india"
                   />
                   <h4>100% Transparency in work &amp; Reporting</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-agency-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-agency-in-delhi.svg"
                     alt="out-sourcing-seo-agency-in-delhi"
                   />
                   <h4>Boosted sales</h4>
@@ -324,28 +324,28 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-agency-mumbai.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-agency-mumbai.svg"
                     alt="out-sourcing-seo-agency-mumbai"
                   />
                   <h4>Real Time Reporting</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-seo-agency.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-seo-agency.svg"
                     alt="out-sourcing-seo-agency-india"
                   />
                   <h4>Kickstart anywhere, Anytime</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/best-out-sourcing-seo-company.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/best-out-sourcing-seo-company.png"
                     alt="best-out-sourcing-seo-company"
                   />
                   <h4>Affordable SEO Packages</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-conversion.svg"
                     alt="out-sourcing-seo-agency-mumbai"
                   />
                   <h4>Effort and time saver</h4>
@@ -354,28 +354,28 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
                     alt="out-sourcing-seo-agency-in-delhi"
                   />
                   <h4>A vast range of SEO services</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-conversion.svg"
                     alt="out-sourcing-seo-expanse-saver"
                   />
                   <h4>Expense saver</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-guranteed-result.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-guranteed-result.svg"
                     alt="Out sourcing guarnteed result"
                   />
                   <h4>Guaranteed Results</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/out-sourcing-best-project-management.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/out-sourcing-best-project-management.svg"
                     alt="Best project managment system"
                   />
                   <h4>Best Project Management System</h4>
@@ -448,7 +448,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/on-page-seo-invest.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/on-page-seo-invest.svg"
                 alt="out-sourcing-seo-agency"
               />
             </div>

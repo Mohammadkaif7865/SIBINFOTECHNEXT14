@@ -8,22 +8,49 @@ export default function GraphicDesigningServices() {
   const metaTags = (
     <>
       <title>Best Graphic Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
+      <meta
+        name="description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
       <meta name="keywords" content="Graphic Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/graphic-designing-services" />
-      <meta property="og:title" content="Best Graphic Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/graphic-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Best Graphic Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/graphic-designing-services" />
-      <meta property="twitter:title" content="Best Graphic Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
-" />
- <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/graphic-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Best Graphic Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/graphic-designing-services"
         breadcrumbTitle="Best Graphic Designing Services Company in Mumbai, India"
         PageRatingSchema
@@ -45,7 +72,7 @@ export default function GraphicDesigningServices() {
                   Graphic Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Graphic Designing Company in India
+                  Top Rated Graphic Designing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote">
@@ -81,7 +108,7 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-lg-none">
-        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={"Graphic Designing Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -99,7 +126,7 @@ export default function GraphicDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Graphic Designing Services'} />
+        <Breadcrumb Pagetitle={"Graphic Designing Services"} />
       </div>
       <section>
         <div className="containerFull">
@@ -118,7 +145,7 @@ export default function GraphicDesigningServices() {
               </p>
               <img
                 className="image-full d-lg-none d-block"
-                src="assets/images/graphic-img-3.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/graphic-img-3.svg"
                 alt="Graphic Designing Company in India"
               />
               <p className="customText">
@@ -135,7 +162,7 @@ export default function GraphicDesigningServices() {
             <div className="col-lg-6 d-none d-lg-block">
               <img
                 className="image-full"
-                src="assets/images/graphic-img-3.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/graphic-img-3.svg"
                 alt="Graphic Designing Company in India"
               />
             </div>
@@ -149,7 +176,7 @@ export default function GraphicDesigningServices() {
               <div className="p-sticky">
                 <img
                   className="image-full"
-                  src="assets/images/graphic-design-img-16.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/graphic-design-img-16.svg"
                   alt="Best Graphic Designing Company in Delhi"
                 />
               </div>
@@ -163,7 +190,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/graphic-img.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img.svg"
                       alt="Graphic Designing Company in Delhi"
                     />
                     <h4>Brochure Designs</h4>
@@ -177,7 +204,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/grapgic-img-4.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/grapgic-img-4.svg"
                       alt="Graphic Designing Agency in India"
                     />
                     <h4>Banner Designs</h4>
@@ -195,7 +222,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/flyer.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/flyer.svg"
                       alt="Graphic Designing Agency in India"
                     />
                     <h4>Flyer Designs</h4>
@@ -209,7 +236,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/package.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/package.svg"
                       alt="Graphic Designing Agency in Delhi"
                     />
                     <h4>Packaging Designs</h4>
@@ -225,7 +252,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/product.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/product.svg"
                       alt="Graphic Designing Agency in Mumbai"
                     />
                     <h4>3D Product Packaging Design</h4>
@@ -241,7 +268,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/label.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/label.svg"
                       alt="Graphic Designing Firm in India"
                     />
                     <h4>Label Designs</h4>
@@ -262,7 +289,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/flyrr.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/flyrr.svg"
                       alt="Graphic Designing Firm in Delhi"
                     />
                     <h4>Logo Designs</h4>
@@ -276,7 +303,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/graphic-img-5.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-5.svg"
                       alt="Graphic Designing Firm in Mumbai"
                     />
                     <h4>Logo Clean up</h4>
@@ -292,7 +319,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/graphic-img-6.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-6.svg"
                       alt="Graphic Designing Companies in India"
                     />
                     <h4>Business Card Design</h4>
@@ -307,7 +334,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box">
                     <img
-                      src="assets/images/icons/graphic-img-7.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-7.svg"
                       alt="Graphic Designing Companies in Delhi"
                     />
                     <h4>Menu Design</h4>
@@ -325,7 +352,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box larg-height">
                     <img
-                      src="assets/images/icons/graphic-img-8.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-8.svg"
                       alt="Graphic Designing Companies in Mumbai"
                     />
                     <h4>Social Media Creative Design</h4>
@@ -342,7 +369,7 @@ export default function GraphicDesigningServices() {
                 <div className="col-lg-6">
                   <div className="graphic-services-box larg-height">
                     <img
-                      src="assets/images/icons/graphic-img-9.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-9.svg"
                       alt="Graphic Designing Service Companies in India"
                     />
                     <h4>Print Media Design</h4>
@@ -365,7 +392,7 @@ export default function GraphicDesigningServices() {
               <div className="p-sticky">
                 <img
                   className="image-full"
-                  src="assets/images/icons/graphic-img-17.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-17.svg"
                   alt="Top Graphic Designing Company in India"
                 />
               </div>
@@ -396,7 +423,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-10.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-10.svg"
                       alt="Graphic Designing Service Companies in Mumbai"
                     />
                   </div>
@@ -405,7 +432,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-11.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-11.svg"
                       alt="Graphic Designing Service Agency in India"
                     />
                   </div>
@@ -414,7 +441,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-12.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-12.svg"
                       alt="Graphic Designing Service Agency in Delhi"
                     />
                   </div>
@@ -425,7 +452,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-13.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-13.svg"
                       alt="Graphic Designing Service Agency in Mumbai"
                     />
                   </div>
@@ -434,7 +461,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-14.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-14.svg"
                       alt="Graphic Designing Service Firm in India"
                     />
                   </div>
@@ -443,7 +470,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-15.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-15.svg"
                       alt="Graphic Designing Service Firm in Delhi"
                     />
                   </div>
@@ -454,7 +481,7 @@ export default function GraphicDesigningServices() {
                 <div className="graphic-other-services-box">
                   <div className="graphic-other-services-circle">
                     <img
-                      src="assets/images/icons/graphic-img-16.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graphic-img-16.svg"
                       alt="Graphic Designing Service Firm in Mumbai"
                     />
                   </div>

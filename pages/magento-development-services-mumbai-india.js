@@ -186,7 +186,7 @@ export default function MagentoDevelopment() {
               <div className="magento-img">
                 <img
                   className="image-full"
-                  src="assets/images/magento-development-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/magento-development-company-in-india.png"
                   alt="magento-development-company-in-india"
                 />
               </div>
@@ -203,7 +203,7 @@ export default function MagentoDevelopment() {
             <div className="col-lg-3">
               <div className="magento-box">
                 <img
-                  src="assets/images/icons/magento-nice-default-tempalate.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/magento-nice-default-tempalate.svg"
                   alt="magento-development-company-in-delhi"
                 />
                 <h4>Active code updating as well as bug fixing by Variance</h4>
@@ -212,7 +212,7 @@ export default function MagentoDevelopment() {
             <div className="col-lg-3">
               <div className="magento-box">
                 <img
-                  src="assets/images/icons/magento-multi-storing.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/magento-multi-storing.svg"
                   alt="magento-development-company-in-India"
                 />
                 <h4>Multi-Storing capabilities</h4>
@@ -221,7 +221,7 @@ export default function MagentoDevelopment() {
             <div className="col-lg-3">
               <div className="magento-box">
                 <img
-                  src="assets/images/icons/magento-default-template.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/magento-default-template.svg"
                   alt="magento-development-firm-in-delhi"
                 />
                 <h4>Nice default template</h4>
@@ -230,7 +230,7 @@ export default function MagentoDevelopment() {
             <div className="col-lg-3">
               <div className="magento-box">
                 <img
-                  src="assets/images/icons/magento-documentation.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/magento-documentation.svg"
                   alt="magento-development-firm-in-mumbai"
                 />
                 <h4>Limited technical documentation</h4>

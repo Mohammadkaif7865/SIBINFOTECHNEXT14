@@ -10,21 +10,48 @@ export default function EcommercePortalDevelopment() {
   const metaTags = (
     <>
       <title>eCommerce Portal Development Services India | SIB Infotech</title>
-      <meta name="description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
+      <meta
+        name="description"
+        content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales."
+      />
       <meta name="keywords" content="Ecommerce Portal Development Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-portal-development" />
-      <meta property="og:title" content="eCommerce Portal Development Services India | SIB Infotech" />
-      <meta property="og:description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/ecommerce-portal-development"
+      />
+      <meta
+        property="og:title"
+        content="eCommerce Portal Development Services India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-portal-development" />
-      <meta property="twitter:title" content="eCommerce Portal Development Services India | SIB Infotech" />
-      <meta property="twitter:description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg" />
-   
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/ecommerce-portal-development"
+      />
+      <meta
+        property="twitter:title"
+        content="eCommerce Portal Development Services India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg"
+      />
+
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/ecommerce-portal-development"
         breadcrumbTitle="eCommerce Portal Development Services India | SIB Infotech"
@@ -47,7 +74,7 @@ export default function EcommercePortalDevelopment() {
                   Ecommerce Portal Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Ecommerce Portal Development Company in India
+                  Top Rated Ecommerce Portal Development Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -82,7 +109,7 @@ export default function EcommercePortalDevelopment() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'eCommerce Portal Development'} />
+        <Breadcrumb Pagetitle={"eCommerce Portal Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -101,7 +128,7 @@ export default function EcommercePortalDevelopment() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'eCommerce Portal Development'} />
+        <Breadcrumb Pagetitle={"eCommerce Portal Development"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -154,7 +181,7 @@ export default function EcommercePortalDevelopment() {
                 <img
                   alt="article submission"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -230,7 +257,7 @@ export default function EcommercePortalDevelopment() {
                     <img
                       alt="article submission"
                       className="img-fluid"
-                      src="assets/images/article-submission.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                     />
                   </div>
                 </div>

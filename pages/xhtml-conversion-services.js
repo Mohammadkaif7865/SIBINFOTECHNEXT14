@@ -165,7 +165,7 @@ export default function XhtmlConversionServices() {
               <div className="xhtml-img">
                 <img
                   className="image-full"
-                  src="assets/images/xhtml-conversion-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/xhtml-conversion-company-in-india.png"
                   alt="xhtml-conversion-company-in-india"
                 />
               </div>

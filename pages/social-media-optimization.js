@@ -74,7 +74,6 @@ export default function SocialMediaOptimization() {
                   Top Rated Social Media Optimization Company in India
                 </h2>
 
-            
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -169,7 +168,7 @@ export default function SocialMediaOptimization() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Social Media Optimization Company in India"
                   className="img-fluid"
                 />
@@ -241,7 +240,7 @@ export default function SocialMediaOptimization() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Social Media Optimization"
                   className="img-fluid"
                 />

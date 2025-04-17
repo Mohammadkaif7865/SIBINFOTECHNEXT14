@@ -73,8 +73,7 @@ export default function WebsiteMaintenanceServices() {
                   Website Maintenance Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated Website Maintenance Company in India
-
+                  Top Rated Website Maintenance Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -163,7 +162,7 @@ export default function WebsiteMaintenanceServices() {
               <div className="website-maintainenace-img">
                 <img
                   className="image-full"
-                  src="assets/images/website-maintenance-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/website-maintenance-company-in-india.png"
                   alt="Website-Maintenance-Services-Company-In-India"
                 />
               </div>
@@ -180,7 +179,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-seasonal-changes.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-seasonal-changes.svg"
                   alt="Website-Maintenance-Services-Company-In-Delhi"
                 />
                 <p className="customText">Seasonal Changes</p>
@@ -189,7 +188,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-bloging-content.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-bloging-content.svg"
                   alt="Website-Maintenance-Services-Company-In-Mumbai"
                 />
                 <p className="customText">Blogging Content</p>
@@ -198,7 +197,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-blog-mederation.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-blog-mederation.svg"
                   alt="Website-Maintenance-Services-Company"
                 />
                 <p className="customText">Blog moderation</p>
@@ -207,7 +206,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-update-content.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-update-content.svg"
                   alt="Website-Maintenance-Services-Firm-In-India"
                 />
                 <p className="customText">Updating of Content</p>
@@ -216,7 +215,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-update-images.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-update-images.svg"
                   alt="Website-Maintenance-Services-Firm-In-Delhi"
                 />
                 <p className="customText">Updating of Images and Graphics</p>
@@ -225,7 +224,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-latest-product.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-latest-product.svg"
                   alt="Website-Maintenance-Services-Firm-In-India"
                 />
                 <p className="customText">Showcase of Latest Products</p>
@@ -236,7 +235,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-latest-services.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-latest-services.svg"
                   alt="Website-Maintenance-Services-Firm-In-Delhi"
                 />
                 <p className="customText">
@@ -247,7 +246,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-latest-offer.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-latest-offer.svg"
                   alt="Website-Maintenance-Services-Firm-In-India"
                 />
                 <p className="customText">Updating of Latest Offers</p>
@@ -256,7 +255,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-website-features.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-website-features.svg"
                   alt="Website-Maintenance-Services-Firm-In-Mumbai"
                 />
                 <p className="customText">
@@ -267,7 +266,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-nes-and-event.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-nes-and-event.svg"
                   alt="Website-Maintenance-Services-Agency-In-Delhi"
                 />
                 <p className="customText">News, Specials and Events</p>
@@ -276,7 +275,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-bug-fixing.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-bug-fixing.svg"
                   alt="Website-Maintenance-Services-Agency-In-India"
                 />
                 <p className="customText">
@@ -287,7 +286,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/web-maintenance-programming-issue.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-maintenance-programming-issue.svg"
                   alt="Website-Maintenance-Services-Firm-In-Mumbai"
                 />
                 <p className="customText">Programming issues in PHP, CMS</p>
@@ -298,7 +297,7 @@ export default function WebsiteMaintenanceServices() {
             <div className="col-lg-2">
               <div className="maintenance-box">
                 <img
-                  src="assets/images/icons/websiteMaintenance-online-store.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/websiteMaintenance-online-store.svg"
                   alt="Website-Maintenance-Services-Agency"
                 />
                 <p className="customText">Manage &amp; Update Online Store</p>

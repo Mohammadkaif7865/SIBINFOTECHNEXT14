@@ -3,7 +3,6 @@ import BannerForm from "../BannerForm";
 import Link from "next/link";
 import Breadcrumb from "../BreadCrumb";
 
-
 const Banner = () => {
   return (
     <>
@@ -20,34 +19,43 @@ const Banner = () => {
                 </h2>
                 <ul className="bannerIcon">
                   <li>
-                    <img src="assets/images/icons/visitor.png" alt="Customer" />
+                    <img
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/visitor.png"
+                      alt="Customer"
+                    />
                     <div>Bring more customers to your Website</div>
                   </li>
                   <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
+                    <img
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/quality.png"
+                      alt="Customer"
+                    />
                     <div>Rank #1 on Google & Bing</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/computer-icon.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/computer-icon.png"
                       alt="Customer"
                     />
                     <div>Establishing a strong online presence</div>
                   </li>
                   <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
+                    <img
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/quality.png"
+                      alt="Customer"
+                    />
                     <div>Rank #1 on Google Maps</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/privacy-policy.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/privacy-policy.png"
                       alt="Customer"
                     />
                     <div>Build trust & creditability with your audience</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/low-price-seo.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/low-price-seo.png"
                       alt="Customer"
                     />
                     <div>Decreases Advertising Cost</div>
@@ -75,11 +83,14 @@ const Banner = () => {
                 </h4>
                 <p className="fontHeading ">
                   with{" "}
-                  <strong className="fontWeight600 text_red" style={{
-                    fontStyle:"italic",
-                  }}>
-                    Top <span className="textChange">SEO Marketing</span> Company in
-                    India
+                  <strong
+                    className="fontWeight600 text_red"
+                    style={{
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Top <span className="textChange">SEO Marketing</span>{" "}
+                    Company in India
                   </strong>
                 </p>
                 <BannerForm />
@@ -99,8 +110,8 @@ const Banner = () => {
           <p className="fontHeading">
             with{" "}
             <strong className="fontWeight600 text_red">
-            Top <span className="textChange">SEO Marketing</span> Company in
-            India
+              Top <span className="textChange">SEO Marketing</span> Company in
+              India
             </strong>
           </p>
           <BannerForm />

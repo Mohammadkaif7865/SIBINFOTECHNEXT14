@@ -168,7 +168,7 @@ export default function TikTokAdsMangamentServices() {
                 <img
                   alt="tiktok-ads-management-company"
                   className="image-full"
-                  src="assets/images/tiktok-ads-management-company.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-company.png"
                 />
               </div>
             </div>
@@ -208,21 +208,21 @@ export default function TikTokAdsMangamentServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-generate-leads"
-                    src="assets/images/tiktok-ads-management-generate-leads.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-generate-leads.svg"
                   />
                   <h4>Generates leads</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-managment-build-awareness"
-                    src="assets/images/tiktok-ads-managment-build-awareness.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-managment-build-awareness.svg"
                   />
                   <h4>Builds brand awareness</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-website-traffic"
-                    src="assets/images/tiktok-ads-management-website-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-website-traffic.svg"
                   />
                   <h4>Huge website traffic</h4>
                 </div>
@@ -231,21 +231,21 @@ export default function TikTokAdsMangamentServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-huge-platform"
-                    src="assets/images/tiktok-ads-management-huge-platform.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-huge-platform.svg"
                   />
                   <h4>Huge audience platform (especially millennials)</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-grrate-plateform-for-advertising"
-                    src="assets/images/tiktok-ads-management-grrate-plateform-for-advertising.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-grrate-plateform-for-advertising.svg"
                   />
                   <h4>Great platform for advertising the brand</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-brand-reputation"
-                    src="assets/images/tiktok-ads-management-brand-reputation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-brand-reputation.svg"
                   />
                   <h4>Builds brand reputation in no time</h4>
                 </div>
@@ -254,7 +254,7 @@ export default function TikTokAdsMangamentServices() {
                 <div className="middle-box middle-box-ex-width">
                   <img
                     alt="tiktok-ads-management-conversion"
-                    src="assets/images/tiktok-ads-management-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-conversion.svg"
                   />
                   <h4>Boosts website conversions</h4>
                 </div>
@@ -280,7 +280,7 @@ export default function TikTokAdsMangamentServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="tiktok-ads-management-feed-ads"
-                      src="assets/images/tiktok-ads-management-feed-ads.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-feed-ads.svg"
                     />
                     <h4>In-feed ads</h4>
                     <p className="customText">
@@ -296,7 +296,7 @@ export default function TikTokAdsMangamentServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="tiktok-ads-management-hashtag"
-                      src="assets/images/tiktok-ads-management-hashtag.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-hashtag.svg"
                     />
                     <h4>Hashtag challenge ads</h4>
                     <p className="customText">
@@ -352,7 +352,7 @@ export default function TikTokAdsMangamentServices() {
               <div className="fb-ads-management-box">
                 <img
                   alt="tiktok-ads-management-brand-takeover"
-                  src="assets/images/tiktok-ads-management-brand-takeover.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-brand-takeover.svg"
                 />
                 <h4>Brand takeover ads</h4>
                 <p className="customText">
@@ -367,7 +367,7 @@ export default function TikTokAdsMangamentServices() {
               <div className="fb-ads-management-box">
                 <img
                   alt="tiktok-ads-management-hashtag-challange"
-                  src="assets/images/tiktok-ads-management-hashtag-challange.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-hashtag-challange.svg"
                 />
                 <h4>Hashtag challenges</h4>
                 <p className="customText">
@@ -383,7 +383,7 @@ export default function TikTokAdsMangamentServices() {
               <div className="fb-ads-management-box">
                 <img
                   alt="tiktok-ads-management-user-participation"
-                  src="assets/images/tiktok-ads-management-user-participation.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tiktok-ads-management-user-participation.svg"
                 />
                 <h4>User participation</h4>
                 <p className="customText">

@@ -11,20 +11,50 @@ export default function FlashWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Flash Website Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash" />
+      <meta
+        name="description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        name="keywords"
+        content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-website-designing-services" />
-      <meta property="og:title" content="Flash Website Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-website-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Flash Website Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-website-designing-services" />
-      <meta property="twitter:title" content="Flash Website Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-website-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Website Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-website-designing-services"
         breadcrumbTitle="Flash Website Designing Services Company in Mumbai, India"
@@ -80,7 +110,7 @@ export default function FlashWebsiteDesigningServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'Flash Website Designing'} />
+        <Breadcrumb Pagetitle={"Flash Website Designing"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -98,7 +128,7 @@ export default function FlashWebsiteDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Flash Website Designing'}/>
+        <Breadcrumb Pagetitle={"Flash Website Designing"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -145,7 +175,7 @@ export default function FlashWebsiteDesigningServices() {
                 <img
                   alt="Flash Website Designing Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

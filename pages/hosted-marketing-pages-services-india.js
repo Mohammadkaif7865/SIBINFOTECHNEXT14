@@ -11,20 +11,50 @@ export default function HostedMarketingPagesServices() {
   const metaTags = (
     <>
       <title>Hosted Marketing Pages Services in Mumbai, Delhi, India</title>
-      <meta name="description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
-      <meta name="keywords" content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy" />
+      <meta
+        name="description"
+        content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!"
+      />
+      <meta
+        name="keywords"
+        content="forum posting service,forum posting services,manual forum posting,seo forum posting,manual forum posting service,forum posting india,forum posting delhi,forum posting mumbai,forum posting chennai,forum posting bangalore,forum posting pune,forum posting hy"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/hosted-marketing-pages-services-india" />
-      <meta property="og:title" content="Hosted Marketing Pages Services in Mumbai, Delhi, India" />
-      <meta property="og:description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/hosted-marketing-pages-services-india"
+      />
+      <meta
+        property="og:title"
+        content="Hosted Marketing Pages Services in Mumbai, Delhi, India"
+      />
+      <meta
+        property="og:description"
+        content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/hosted-marketing-pages-services-india" />
-      <meta property="twitter:title" content="Hosted Marketing Pages Services in Mumbai, Delhi, India" />
-      <meta property="twitter:description" content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/hosted-marketing-pages-services-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Hosted Marketing Pages Services in Mumbai, Delhi, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Boost your online presence with hosted marketing page services in India. Drive engagement and conversions effortlessly with SIB Infotech. Discover more today!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/hosted-marketing-pages-services-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/hosted-marketing-pages-services-india"
         breadcrumbTitle="Hosted Marketing Pages Services in Mumbai, Delhi, India"
@@ -79,7 +109,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb  Pagetitle={'Hosted Marketing Pages '} />
+        <Breadcrumb Pagetitle={"Hosted Marketing Pages "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -97,7 +127,7 @@ export default function HostedMarketingPagesServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetitle={'Hosted Marketing Pages'} />
+        <Breadcrumb Pagetitle={"Hosted Marketing Pages"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -128,7 +158,7 @@ export default function HostedMarketingPagesServices() {
                 <img
                   alt="Hosted Marketing Pages Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

@@ -1,4 +1,3 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
@@ -9,22 +8,49 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
   const metaTags = (
     <>
       <title>E-commerce Website Design & Development Company in Mumbai</title>
-      <meta name="description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
+      <meta
+        name="description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
       <meta name="keywords" content="" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
-      <meta property="og:title" content="E-commerce Website Design & Development Company in Mumbai" />
-      <meta property="og:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/e-commerce-website-design-development-services"
+      />
+      <meta
+        property="og:title"
+        content="E-commerce Website Design & Development Company in Mumbai"
+      />
+      <meta
+        property="og:description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
-      <meta property="twitter:title" content="E-commerce Website Design & Development Company in Mumbai" />
-      <meta property="twitter:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
-" />
-     <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/e-commerce-website-design-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="E-commerce Website Design & Development Company in Mumbai"
+      />
+      <meta
+        property="twitter:description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/e-commerce-website-design-development-services"
         breadcrumbTitle="E-commerce Website Design & Development Company in Mumbai"
         PageRatingSchema
@@ -81,7 +107,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'}/>
+        <Breadcrumb Pagetitle={"E-commerce Website Design & Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -96,11 +122,11 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               Company in India
             </strong>
           </p>
-          <BannerForm  />
+          <BannerForm />
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'} />
+        <Breadcrumb Pagetitle={"E-commerce Website Design & Development"} />
       </div>
       <section className="customPadding">
         <div className="containerFull">
@@ -126,7 +152,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="ecommerceWeb">
                 <img
                   className="imgAnimation"
-                  src="assets/images/ecommerce-website-company-in-mumbai.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-website-company-in-mumbai.svg"
                   alt="E-commerce website design and developement company in Mumbai"
                 />
               </div>
@@ -162,7 +188,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
             <div className="col-lg-5 text-center">
               <img
                 className="imgFulll2 dropShadow imgAnimation"
-                src="assets/images/ecommerce-website-company-in-delhi.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-website-company-in-delhi.svg"
                 alt="E-Commerce Website Designing Company in India"
               />
             </div>
@@ -219,7 +245,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="dropShadow imgFulll imgAnimation"
-                src="assets/images/ecommerce-website-company-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-website-company-in-india.svg"
                 alt="Best E-Commece Website Designing Services in India"
               />
             </div>
@@ -241,7 +267,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/easy-to-use.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/easy-to-use.svg"
                     alt="Top E-Commerce Website Designing Agency in Delhi"
                   />
                 </div>
@@ -252,7 +278,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/content-managment.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-managment.svg"
                     alt="E-commerce Website Designing Agency in Mumbai"
                   />
                 </div>
@@ -263,7 +289,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/camparison.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/camparison.svg"
                     alt="Best E-commerce Website Designing Services Companies in Delhi"
                   />
                 </div>
@@ -274,7 +300,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/news-letter.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/news-letter.svg"
                     alt="Top E-commerce Website Designing Agencies in Mumbai"
                   />
                 </div>
@@ -285,7 +311,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/sales-report.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/sales-report.svg"
                     alt="E-commerce Web Designing Agency in Mumbai"
                   />
                 </div>
@@ -296,7 +322,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/payment-gateway.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/payment-gateway.svg"
                     alt="E-commerce Web Designing Agency in Delhi"
                   />
                 </div>
@@ -307,7 +333,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/mobile-friendly-web.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/mobile-friendly-web.svg"
                     alt="E-commerce Web Designing Agency in India"
                   />
                 </div>
@@ -318,7 +344,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/special-feature.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/special-feature.svg"
                     alt="E-commerce Web Designing Company in Mumbai"
                   />
                 </div>
@@ -329,7 +355,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/cart-reminder.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/cart-reminder.svg"
                     alt="E-commerce Web Designing Company in Delhi"
                   />
                 </div>
@@ -340,7 +366,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               <div className="itemInduster servOffer">
                 <div className="indutryRelatImg">
                   <img
-                    src="assets/images/icons/wishlist.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wishlist.svg"
                     alt="E-commerce Web Designing Company in India"
                   />
                 </div>

@@ -1,4 +1,3 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
@@ -9,20 +8,47 @@ export default function DynamicWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Dynamic Website Designing Services in India | SIB Infotech</title>
-      <meta name="description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
+      <meta
+        name="description"
+        content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!"
+      />
       <meta name="keywords" content="Dynamic Website Designing Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
-      <meta property="og:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
-      <meta property="og:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/dynamic-website-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Dynamic Website Designing Services in India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
-      <meta property="twitter:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
-      <meta property="twitter:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/dynamic-website-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Dynamic Website Designing Services in India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/dynamic-website-designing-services"
         breadcrumbTitle="Dynamic Website Designing Services in India | SIB Infotech"
@@ -80,7 +106,7 @@ export default function DynamicWebsiteDesigningServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'Dynamic Website Designing'} />
+        <Breadcrumb Pagetitle={"Dynamic Website Designing"} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
@@ -98,7 +124,7 @@ export default function DynamicWebsiteDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Dynamic Website Designing'} />
+        <Breadcrumb Pagetitle={"Dynamic Website Designing"} />
       </div>
       <section>
         <div className="containerFull">
@@ -107,7 +133,7 @@ export default function DynamicWebsiteDesigningServices() {
               <div className="dynamic-website-img2">
                 <img
                   className="image-full"
-                  src="assets/images/dynamic-website-company-in-delhi.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/dynamic-website-company-in-delhi.png"
                   alt="Dynamic-Website-Designing-Company-In-India"
                 />
               </div>
@@ -175,7 +201,7 @@ export default function DynamicWebsiteDesigningServices() {
               <div className="dynamic-website-img">
                 <img
                   className="image-full"
-                  src="assets/images/dynamic-website-design-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/dynamic-website-design-company-in-india.png"
                   alt="Dynamic-Website-Designing-Company-In-Delhi"
                 />
               </div>

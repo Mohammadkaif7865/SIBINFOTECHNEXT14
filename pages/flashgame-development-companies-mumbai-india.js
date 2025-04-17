@@ -9,20 +9,50 @@ export default function FlashGameDevelopmentCompanies() {
   const metaTags = (
     <>
       <title>Flash Game Development Services Company in Mumbai, India</title>
-      <meta name="description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
-      <meta name="keywords" content="flash game development services india,flash game development services bangalore,flash game development services mumbai,flash game development services delhi,flash game development services ,chennai,flash game development services pune,flash game developme" />
+      <meta
+        name="description"
+        content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience."
+      />
+      <meta
+        name="keywords"
+        content="flash game development services india,flash game development services bangalore,flash game development services mumbai,flash game development services delhi,flash game development services ,chennai,flash game development services pune,flash game developme"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
-      <meta property="og:title" content="Flash Game Development Services Company in Mumbai, India" />
-      <meta property="og:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash Game Development Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india" />
-      <meta property="twitter:title" content="Flash Game Development Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Game Development Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Create engaging and interactive Flash games with SIB Infotech. Our expert team delivers custom game development solutions in Mumbai to captivate your audience."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flashgame-development-companies-mumbai-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
         breadcrumbTitle="Flash Game Development Services Company in Mumbai, India"
@@ -78,7 +108,7 @@ export default function FlashGameDevelopmentCompanies() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb  Pagetitle={"Flash Game Development"}/>
+        <Breadcrumb Pagetitle={"Flash Game Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -96,7 +126,7 @@ export default function FlashGameDevelopmentCompanies() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetitle={"Flash Game Development"}/>
+        <Breadcrumb Pagetitle={"Flash Game Development"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -138,7 +168,7 @@ export default function FlashGameDevelopmentCompanies() {
                 <img
                   alt="Flash Game Development Companies"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

@@ -178,7 +178,7 @@ export default function J2eeApplicationDevelopement() {
                 <img
                   alt="J2ee Application Development Companies in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -251,7 +251,7 @@ export default function J2eeApplicationDevelopement() {
                 <img
                   alt="J2ee Application Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

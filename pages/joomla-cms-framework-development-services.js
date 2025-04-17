@@ -149,7 +149,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Developement Company"
                 />
               </div>
@@ -183,7 +183,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Developement Company"
                 />
               </div>
@@ -194,7 +194,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Firm"
                 />
               </div>
@@ -238,7 +238,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Development Agency"
                 />
               </div>
@@ -274,7 +274,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Development Agency"
                 />
               </div>
@@ -285,7 +285,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Joomla CMS Development Services"
                 />
               </div>

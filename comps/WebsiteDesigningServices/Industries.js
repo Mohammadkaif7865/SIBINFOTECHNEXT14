@@ -16,7 +16,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/walking.png" alt="Walking" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/walking.png" alt="Walking" />
 //               </div>
 //               <h4 className="small_heading">Travel</h4>
 //             </div>
@@ -24,7 +24,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/graduated.png" alt="Graduated" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/graduated.png" alt="Graduated" />
 //               </div>
 //               <h4 className="small_heading">Education</h4>
 //             </div>
@@ -32,7 +32,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/crane.png" alt="Crane" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/crane.png" alt="Crane" />
 //               </div>
 //               <h4 className="small_heading">Real Estate</h4>
 //             </div>
@@ -41,7 +41,7 @@
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
 //                 <img
-//                   src="assets/images/icons/wedding-rings.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/wedding-rings.png"
 //                   alt="Wedding Rings"
 //                 />
 //               </div>
@@ -52,7 +52,7 @@
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
 //                 <img
-//                   src="assets/images/icons/healthcare.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/healthcare.png"
 //                   alt="Health Care"
 //                 />
 //               </div>
@@ -62,7 +62,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/team.png" alt="Team" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/team.png" alt="Team" />
 //               </div>
 //               <h4 className="small_heading">Associations</h4>
 //             </div>
@@ -70,7 +70,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/test.png" alt="Chemical" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/test.png" alt="Chemical" />
 //               </div>
 //               <h4 className="small_heading">Chemical</h4>
 //             </div>
@@ -78,7 +78,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/fast-food.png" alt="Fast Food" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/fast-food.png" alt="Fast Food" />
 //               </div>
 //               <h4 className="small_heading">Food</h4>
 //             </div>
@@ -86,7 +86,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/antenna.png" alt="Antenna" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/antenna.png" alt="Antenna" />
 //               </div>
 //               <h4 className="small_heading">Telecom/Tech</h4>
 //             </div>
@@ -95,7 +95,7 @@
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
 //                 <img
-//                   src="assets/images/icons/connection.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/connection.png"
 //                   alt="Connection"
 //                 />
 //               </div>
@@ -105,7 +105,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/saving.png" alt="Saving" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/saving.png" alt="Saving" />
 //               </div>
 //               <h4 className="small_heading">Financial</h4>
 //             </div>
@@ -113,7 +113,7 @@
 //           <div className="col-lg-2 col-6 px-2">
 //             <div className="itemIndustries border shadow">
 //               <div className="iconIndustries">
-//                 <img src="assets/images/icons/low-price.png" alt="Low Price" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/low-price.png" alt="Low Price" />
 //               </div>
 //               <h4 className="small_heading">Non Profit</h4>
 //             </div>

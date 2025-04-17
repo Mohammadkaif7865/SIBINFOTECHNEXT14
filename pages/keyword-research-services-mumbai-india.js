@@ -78,7 +78,7 @@ export default function KeywordResearchMumbaiIndia() {
                   Keyword Research
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Keyword Research & Analysis Services in India
+                  Top Keyword Research & Analysis Services in India
                 </h2>
 
                 <div className="mt-4">
@@ -165,7 +165,7 @@ export default function KeywordResearchMumbaiIndia() {
                 <img
                   alt="Keyword-Analysis-Company-In-Mumbai"
                   className="image-full"
-                  src="assets/images/keyword-analysis-company-in-mumbai.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/keyword-analysis-company-in-mumbai.png"
                 />
               </div>
             </div>

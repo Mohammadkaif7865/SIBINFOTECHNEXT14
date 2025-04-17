@@ -109,9 +109,7 @@ export default function DesktopApplicationMumbaiIndia() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"Custom Desktop Application"}
-        />
+        <Breadcrumb Pagetitle={"Custom Desktop Application"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -132,9 +130,7 @@ export default function DesktopApplicationMumbaiIndia() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Custom Desktop Application"}
-        />
+        <Breadcrumb Pagetitle={"Custom Desktop Application"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -177,7 +173,7 @@ export default function DesktopApplicationMumbaiIndia() {
                 <img
                   alt="Desktop Application Mumbai India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -188,7 +184,7 @@ export default function DesktopApplicationMumbaiIndia() {
                 <img
                   alt="Desktop Application Mumbai India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

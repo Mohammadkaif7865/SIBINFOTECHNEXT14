@@ -173,7 +173,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
                 <img
                   alt="SEO Consultancy Services Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -184,7 +184,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
                 <img
                   alt="SEO consultancy Services Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

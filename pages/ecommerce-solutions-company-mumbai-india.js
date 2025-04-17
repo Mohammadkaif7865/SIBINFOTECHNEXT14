@@ -76,7 +76,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
                   E-Commerce Solutions
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  E-commerce Solutions Company in Mumbai, India
+                  Top Rated E-commerce Solutions Company in Mumbai, India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -109,11 +109,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "E-commerce Solutions Provider"
-          }
-        />
+        <Breadcrumb Pagetitle={"E-commerce Solutions Provider"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -131,11 +127,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "E-commerce Solutions Provider"
-          }
-        />
+        <Breadcrumb Pagetitle={"E-commerce Solutions Provider"} />
       </div>
       <section>
         <div className="containerFull">
@@ -164,7 +156,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
             <div className="col-lg-6 justify-content-end d-flex">
               <div className="ecommerce-solution-img">
                 <img
-                  src="assets/images/ecommerce-solutions-company-in-india.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-solutions-company-in-india.svg"
                   alt="ecommerce-solutions-company-in-india"
                 />
               </div>
@@ -184,7 +176,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
                     that will make the picture clear
                   </h3>
                 </div>
-                {/* <img className="bgImageEffect" src="assets/images/img-pattern-white.png" alt="ecommerce-solutions-company-in-delhi"/> */}
+                {/* <img className="bgImageEffect" src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/img-pattern-white.png" alt="ecommerce-solutions-company-in-delhi"/> */}
               </div>
             </div>
             <div className="col-lg-8">

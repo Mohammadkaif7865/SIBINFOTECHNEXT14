@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CustomWebsiteDesigningServices() {
   const metaTags = (
@@ -72,7 +72,7 @@ export default function CustomWebsiteDesigningServices() {
                   Custom Web Designing
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Custom Web Designing Company in India
+                  Top Rated Custom Web Designing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -105,11 +105,7 @@ export default function CustomWebsiteDesigningServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Custom Website Design"
-          }
-        />
+        <Breadcrumb Pagetitle={"Custom Website Design"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -127,11 +123,7 @@ export default function CustomWebsiteDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Custom Website Design"
-          }
-        />
+        <Breadcrumb Pagetitle={"Custom Website Design"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -175,7 +167,7 @@ export default function CustomWebsiteDesigningServices() {
               <div className="custom-page-img">
                 <img
                   className="img-responsive"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Article submission"
                 />
               </div>

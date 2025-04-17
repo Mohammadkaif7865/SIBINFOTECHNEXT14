@@ -28,7 +28,7 @@
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
 //                       <Image width={500} height={400} className="w-100 h-auto b"
-//                         src="assets/images/icons/ui-ux-design.svg"
+//                         src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ui-ux-design.svg"
 //                         alt="UI/UX Design"
 //                       />
 //                     </div>
@@ -43,7 +43,7 @@
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
 //                       <img
-//                         src="assets/images/icons/search-de.svg"
+//                         src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/search-de.svg"
 //                         alt="Search Website"
 //                       />
 //                     </div>
@@ -57,7 +57,7 @@
 //                 <div className="col-lg-2 col-6">
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
-//                       <img src="assets/images/icons/ssl.png" alt="SSL Icon" />
+//                       <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ssl.png" alt="SSL Icon" />
 //                     </div>
 //                     <div className="titleWhy">
 //                       <h5 className="small_heading">
@@ -70,7 +70,7 @@
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
 //                       <img
-//                         src="assets/images/icons/industry-specific.svg"
+//                         src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/industry-specific.svg"
 //                         alt="Industry Specific"
 //                       />
 //                     </div>
@@ -85,7 +85,7 @@
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
 //                       <img
-//                         src="assets/images/icons/clean-code.svg"
+//                         src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/clean-code.svg"
 //                         alt="Clean Code"
 //                       />
 //                     </div>
@@ -100,7 +100,7 @@
 //                   <div className="itemWhy shadow">
 //                     <div className="iconWhy">
 //                       <img
-//                         src="assets/images/icons/search.png"
+//                         src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/search.png"
 //                         alt="Search Icon"
 //                       />
 //                     </div>
@@ -189,7 +189,9 @@ const WhyBest = () => {
                         />
                       </div>
                       <div className="titleWhy">
-                        <h5 className="small_heading fontHeading">{icon.title}</h5>
+                        <h5 className="small_heading fontHeading">
+                          {icon.title}
+                        </h5>
                       </div>
                     </div>
                   </div>

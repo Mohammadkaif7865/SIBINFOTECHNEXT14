@@ -11,20 +11,50 @@ export default function FlashWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Flash Template Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash" />
+      <meta
+        name="description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        name="keywords"
+        content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
-      <meta property="og:title" content="Flash Template Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash Template Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
-      <meta property="twitter:title" content="Flash Template Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Template Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
         breadcrumbTitle="Flash Template Designing Services Company in Mumbai, India"
@@ -47,7 +77,6 @@ export default function FlashWebsiteDesigningServices() {
                   Flash Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-
                   Top Rated Flash Website Designing Company in Mumbai, India
                 </h2>
                 <div className="mt-4">
@@ -146,7 +175,7 @@ export default function FlashWebsiteDesigningServices() {
                 <img
                   alt="Flash Website Designing Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

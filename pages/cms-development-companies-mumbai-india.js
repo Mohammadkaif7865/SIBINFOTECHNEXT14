@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CmsDevelopmentCompaniesMumbai() {
   const metaTags = (
@@ -109,11 +109,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "CMS Development Companies"
-          }
-        />
+        <Breadcrumb Pagetitle={"CMS Development Companies"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -131,11 +127,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "CMS Development Companies"
-          }
-        />
+        <Breadcrumb Pagetitle={"CMS Development Companies"} />
       </div>
       <section>
         <div className="containerFull">
@@ -165,7 +157,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
               <div className="cms-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/cms-development-company-in-mumbai.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/cms-development-company-in-mumbai.png"
                   alt="cms-development-company-in-mumbai"
                 />
               </div>

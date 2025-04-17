@@ -178,7 +178,7 @@ export default function PsdHtmlConversionServices() {
               <img
                 alt="psd-to-html-conversion-company"
                 className="image-full"
-                src="assets/images/psd-to-html-conversion-company.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-conversion-company.png"
               />
               <p className="customText mt-2">
                 web-development agencies, and bloggers in an unimaginable way,
@@ -416,7 +416,7 @@ export default function PsdHtmlConversionServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="psd-to-html-development-conversion"
-                      src="assets/images/psd-to-html-development-conversion.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-development-conversion.svg"
                     />
                     <h4>Development &amp; conversion</h4>
                     <p className="customText">
@@ -430,7 +430,7 @@ export default function PsdHtmlConversionServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="psd-to-html-development-quality-check"
-                      src="assets/images/psd-to-html-development-quality-check.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-development-quality-check.svg"
                     />
                     <h4>Quality check and delivery</h4>
                     <p className="customText">
@@ -449,7 +449,7 @@ export default function PsdHtmlConversionServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="psd-to-html-development-document-sharing"
-                      src="assets/images/psd-to-html-development-document-sharing.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-development-document-sharing.svg"
                     />
                     <h4>Requirement and document sharing</h4>
                     <p className="customText">
@@ -463,7 +463,7 @@ export default function PsdHtmlConversionServices() {
                   <div className="fb-ads-management-box">
                     <img
                       alt="psd-to-html-development-analysis"
-                      src="assets/images/psd-to-html-development-analysis.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-development-analysis.svg"
                     />
                     <h4>Analysis</h4>
                     <p className="customText">
@@ -494,7 +494,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-html-development-conversion"
-                  src="assets/images/psd-to-html-development-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-html-development-conversion.svg"
                 />
                 <h5>PSD to HTML5 Conversion</h5>
               </div>
@@ -503,7 +503,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="sketch-to-html"
-                  src="assets/images/sketch-to-html.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sketch-to-html.svg"
                 />
                 <h5>Sketch to HTML Conversion</h5>
               </div>
@@ -512,7 +512,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-wordpress-conversion"
-                  src="assets/images/psd-to-wordpress-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-wordpress-conversion.svg"
                 />
                 <h5>PSD to WordPressConversion</h5>
               </div>
@@ -521,7 +521,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-magento-conversion"
-                  src="assets/images/psd-to-magento-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-magento-conversion.svg"
                 />
                 <h5>PSD to MagentoConversion</h5>
               </div>
@@ -530,7 +530,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-email-templates"
-                  src="assets/images/psd-to-email-templates.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-email-templates.svg"
                 />
                 <h5>PSD to Email TemplatesConversion</h5>
               </div>
@@ -539,7 +539,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-drupal-conversion"
-                  src="assets/images/psd-to-drupal-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-drupal-conversion.svg"
                 />
                 <h5>PSD to DrupalConversion</h5>
               </div>
@@ -550,7 +550,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-html-joomla-conversion"
-                  src="assets/images/psd-to-joomla-website-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-joomla-website-conversion.svg"
                 />
                 <h5>PSD to JoomlaConversion</h5>
               </div>
@@ -559,7 +559,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-big-commerce-conversion"
-                  src="assets/images/psd-to-big-commerce-conversion.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-big-commerce-conversion.svg"
                 />
                 <h5>PSD to BigCommerceConversion</h5>
               </div>
@@ -568,7 +568,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-squarespace"
-                  src="assets/images/psd-to-squarespace.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-squarespace.svg"
                 />
                 <h5>PSD to SquarespaceConversion</h5>
               </div>
@@ -577,7 +577,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-shopify-conversion"
-                  src="assets/images/psd-to-shopify.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-shopify.svg"
                 />
                 <h5>PSD to ShopifyConversion</h5>
               </div>
@@ -586,7 +586,7 @@ export default function PsdHtmlConversionServices() {
               <div className="psd-box">
                 <img
                   alt="psd-to-cms-development"
-                  src="assets/images/psd-to-cms-development.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/psd-to-cms-development.svg"
                 />
                 <h5>PSD to all CMS Based Development</h5>
               </div>

@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function AndroidMobileApplicationDevelopmentServices() {
   const metaTags = (
@@ -109,7 +109,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-      <Breadcrumb Pagetitle={'Android Application Development'} />
+        <Breadcrumb Pagetitle={"Android Application Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -127,7 +127,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Android Application Development'} />
+        <Breadcrumb Pagetitle={"Android Application Development"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -176,7 +176,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
                 <img
                   alt="Android Application Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
                 <img
                   alt="Android Application Development in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

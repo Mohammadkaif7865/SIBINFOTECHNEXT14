@@ -112,7 +112,7 @@ export default function CustomCalculatorDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'Custom Calculator Development'} />
+        <Breadcrumb Pagetitle={"Custom Calculator Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -131,9 +131,7 @@ export default function CustomCalculatorDevelopmentServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Custom Calculator Development"}
-        />
+        <Breadcrumb Pagetitle={"Custom Calculator Development"} />
       </div>
       <section>
         <div className="containerFull">
@@ -141,7 +139,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/calt-develoment-company.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/calt-develoment-company.png"
                 alt="Custom Calculator Development Company in Mumbai"
               />
             </div>
@@ -447,7 +445,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-firm.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/calculator-development-firm.png"
                 alt="Best Custom Calculator Agency in Mumbai"
               />
             </div>
@@ -460,7 +458,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/instagram-ads-business-objective.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-business-objective.png"
                 alt="Top Custom Calculator Development Company in Delhi"
               />
             </div>
@@ -573,7 +571,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-company-in-mumbai.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/calculator-development-company-in-mumbai.png"
                 alt="Custom Calculator Development Companies in India"
               />
             </div>
@@ -586,7 +584,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5 order-lg-1 order-2">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-company-in-mumbai.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/calculator-development-company-in-mumbai.png"
                 alt="Best Custom Calculator Development Agency in Delhi"
               />
             </div>

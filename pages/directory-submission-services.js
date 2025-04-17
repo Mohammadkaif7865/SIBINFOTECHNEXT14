@@ -108,11 +108,7 @@ export default function DirectorySubmissionServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Directory Submission Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Directory Submission Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -130,11 +126,7 @@ export default function DirectorySubmissionServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Directory Submission Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Directory Submission Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -171,7 +163,7 @@ export default function DirectorySubmissionServices() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Directory Submission Services Agencies in Delhi"
                 />
               </div>
@@ -181,7 +173,7 @@ export default function DirectorySubmissionServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Directory Submission Services Companies in Mumbai"
                 />
               </div>

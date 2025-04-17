@@ -31,7 +31,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-5 offset-lg-1">
             <div className="rightCall">
-              <img src="assets/images/call-action.png" alt="Call to Action" />
+              <img
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/call-action.png"
+                alt="Call to Action"
+              />
             </div>
           </div>
         </div>

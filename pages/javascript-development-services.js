@@ -177,7 +177,7 @@ export default function JavascriptDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Javascript Development Companies in Mumbai"
                   className="img-fluid"
                 />

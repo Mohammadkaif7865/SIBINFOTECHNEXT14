@@ -1,7 +1,7 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 
 export default function ThreeDAnimationServices() {
@@ -106,11 +106,7 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "3D Animation Services "
-          }
-        />
+        <Breadcrumb Pagetitle={"3D Animation Services "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -128,11 +124,7 @@ export default function ThreeDAnimationServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "3D Animation Services "
-          }
-        />
+        <Breadcrumb Pagetitle={"3D Animation Services "} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -175,7 +167,7 @@ export default function ThreeDAnimationServices() {
                 <img
                   alt="3D Animation Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

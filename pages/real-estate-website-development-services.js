@@ -78,7 +78,7 @@ export default function RealEstateWebsiteDevelopmentServices() {
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated Real Estate Website Development Company in India
                 </h2>
-                
+
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -173,7 +173,7 @@ export default function RealEstateWebsiteDevelopmentServices() {
                 <img
                   alt="Real Estate Website Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

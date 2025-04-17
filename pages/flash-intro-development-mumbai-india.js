@@ -11,20 +11,47 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
   const metaTags = (
     <>
       <title>Flash Intro Development Services Company in Mumbai, India</title>
-      <meta name="description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
+      <meta
+        name="description"
+        content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience."
+      />
       <meta name="keywords" content="Flash Intro Services" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
-      <meta property="og:title" content="Flash Intro Development Services Company in Mumbai, India" />
-      <meta property="og:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-intro-development-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash Intro Development Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-intro-development-mumbai-india" />
-      <meta property="twitter:title" content="Flash Intro Development Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-intro-development-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Intro Development Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Create stunning Flash intro development with SIB Infotech. Our experts design engaging, dynamic, and interactive Flash intros to captivate your audience."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-intro-development-mumbai-india.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-intro-development-mumbai-india"
         breadcrumbTitle="Flash Intro Development Services Company in Mumbai, India"
@@ -98,7 +125,7 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Flash Intro Services'} />
+        <Breadcrumb Pagetitle={"Flash Intro Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -150,7 +177,7 @@ export default function FlashIntroDevelopmentMumbaiIndia() {
                 <img
                   alt="Flash Intro Development Company"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

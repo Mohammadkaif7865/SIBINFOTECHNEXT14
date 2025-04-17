@@ -139,7 +139,7 @@ export default function PpcManagementServicesPackages() {
                   <img
                     alt="PPC Management Service Packages in India"
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-packages-3.png"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

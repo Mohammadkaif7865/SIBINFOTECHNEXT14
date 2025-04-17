@@ -16,7 +16,7 @@
 //   return (
 //     <div className=' '>
 //       <div className="circleIcon ">
-//         <img src="assets/images/icons/circle.svg" alt="Circle Icon"/>
+//         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/circle.svg" alt="Circle Icon"/>
 //       </div>
 //       <div className="containerFull">
 //         <h3 className="text-center centerTitle heading fontHeading fontWeight600">Made by <span>SIB Infotech</span></h3>
@@ -31,7 +31,7 @@
 //                 <div className="row">
 //                   <div className="col-lg-6">
 //                       <div className="imgWork">
-//                         <img src="assets/images/works/omee.png" alt="OMEE - Alkem Generic"/>
+//                         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/omee.png" alt="OMEE - Alkem Generic"/>
 //                       </div>
 //                   </div>
 //                   <div className="col-lg-6">
@@ -49,8 +49,8 @@
 //                   <div className="col-lg-6">
 //                       <div className="imgWork">
 //                       <picture>
-//                         <source srcSet="assets/images/works/roswalt.webp" type="image/webp"/>
-//                         <img src="assets/images/works/roswalt.png" alt="Roswalt - Roswalt Realty: Residential commercial Projects Mumbai"/>
+//                         <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/roswalt.webp" type="image/webp"/>
+//                         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/roswalt.png" alt="Roswalt - Roswalt Realty: Residential commercial Projects Mumbai"/>
 //                       </picture>
 //                       </div>
 //                   </div>
@@ -69,8 +69,8 @@
 //                   <div className="col-lg-6">
 //                       <div className="imgWork">
 //                       <picture>
-//                         <source srcSet="assets/images/works/netsys.webp" type="image/webp"/>
-//                         <img src="assets/images/works/netsys.png" alt="Online Netsys"/>
+//                         <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/netsys.webp" type="image/webp"/>
+//                         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/netsys.png" alt="Online Netsys"/>
 //                       </picture>
 //                       </div>
 //                   </div>
@@ -89,8 +89,8 @@
 //                   <div className="col-lg-6">
 //                       <div className="imgWork">
 //                       <picture>
-//                         <source srcSet="assets/images/works/shaurya.webp" type="image/webp"/>
-//                         <img src="assets/images/works/shaurya.png" alt="Shaurya Dedhia"/>
+//                         <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/shaurya.webp" type="image/webp"/>
+//                         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/shaurya.png" alt="Shaurya Dedhia"/>
 //                       </picture>
 //                       </div>
 //                   </div>
@@ -109,8 +109,8 @@
 //                   <div className="col-lg-6">
 //                       <div className="imgWork">
 //                       <picture>
-//                         <source srcSet="assets/images/works/alarm-avenue.webp" type="image/webp"/>
-//                         <img src="assets/images/works/alarm-avenue.png" alt="Alar Avenue"/>
+//                         <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/alarm-avenue.webp" type="image/webp"/>
+//                         <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/works/alarm-avenue.png" alt="Alar Avenue"/>
 //                       </picture>
 //                       </div>
 //                   </div>
@@ -192,7 +192,10 @@ export default function WorkWebdesign() {
   return (
     <div className="">
       <div className="circleIcon ">
-        <img src="assets/images/icons/circle.svg" alt="Circle Icon" />
+        <img
+          src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/circle.svg"
+          alt="Circle Icon"
+        />
       </div>
       <div className="containerFull">
         <h5 className="text-center fontWeight600">Our Portfolio</h5>
@@ -201,9 +204,7 @@ export default function WorkWebdesign() {
         </h3>
         <div className="space"></div>
         <div className="portfolioHome mt-4">
-          <h3 className="sub_heading fontWeight600   ">
-            Our Portfolio
-          </h3>
+          <h3 className="sub_heading fontWeight600   ">Our Portfolio</h3>
           <p className="title mt-2">
             Website Design you'll want to tell all your friends about
           </p>

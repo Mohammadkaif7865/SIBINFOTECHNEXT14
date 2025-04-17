@@ -110,9 +110,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"Email Marketing Services"}
-        />
+        <Breadcrumb Pagetitle={"Email Marketing Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -130,9 +128,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Email Marketing Services"}
-        />
+        <Breadcrumb Pagetitle={"Email Marketing Services"} />
       </div>
       <section>
         <div className="containerFull">
@@ -157,7 +153,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
               <div className="email-marketing-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/email-marketing-company-in-india.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/email-marketing-company-in-india.svg"
                   alt="email-marketing-company-in-india"
                 />
               </div>

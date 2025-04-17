@@ -154,7 +154,7 @@ export default function SocialMediaOptimizationServices() {
             <div className="col-md-4 order-lg-2 order-1">
               <div className="rightSeo text-center">
                 <img
-                  src="assets/images/smo-banner.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smo-banner.png"
                   className="img-responsive"
                   alt="SMO Banner"
                 />
@@ -165,7 +165,7 @@ export default function SocialMediaOptimizationServices() {
             <div className="col-md-4">
               <div className="rightSeo">
                 <img
-                  src="assets/images/smo_img.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smo_img.png"
                   className="img-responsive"
                   alt="SMO"
                 />
@@ -233,7 +233,10 @@ export default function SocialMediaOptimizationServices() {
               </div>
               <div className="col-md-4 order-lg-2 order-1">
                 <div className="seoLeft mt-2">
-                  <img src="assets/images/smo_img2.png" alt="SMO Services" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smo_img2.png"
+                    alt="SMO Services"
+                  />
                 </div>
               </div>
             </div>
@@ -242,7 +245,10 @@ export default function SocialMediaOptimizationServices() {
             <div className="row">
               <div className="col-md-4">
                 <div className="seoLeft mt-2">
-                  <img src="assets/images/smo_img3.png" alt="SMO Agency" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smo_img3.png"
+                    alt="SMO Agency"
+                  />
                 </div>
               </div>
               <div className="col-md-8">

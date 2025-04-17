@@ -10,74 +10,74 @@
 //         <div className="mt-3 row row-cols-2 row-cols-lg-5">
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/abc-news.webp" alt="abc-news" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/abc-news.webp" alt="abc-news" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
 //               <img
-//                 src="assets/images/news-logo/associated-press.webp"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/associated-press.webp"
 //                 alt="associated-press"
 //               />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/buzzfeed.webp" alt="buzzfeed" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/buzzfeed.webp" alt="buzzfeed" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/cnn.webp" alt="CNN" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/cnn.webp" alt="CNN" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/forbes.webp" alt="forbes" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/forbes.webp" alt="forbes" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/fox.webp" alt="fox" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/fox.webp" alt="fox" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
 //               <img
-//                 src="assets/images/news-logo/google-news.webp"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/google-news.webp"
 //                 alt="google-news"
 //               />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/huffpost.webp" alt="huffpost" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/huffpost.webp" alt="huffpost" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/ibt.webp" alt="ibt" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/ibt.webp" alt="ibt" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/msnbc.webp" alt="MSNBC" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/msnbc.webp" alt="MSNBC" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/nbc.webp" alt="nbc" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/nbc.webp" alt="nbc" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/pbs.webp" alt="pbs" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/pbs.webp" alt="pbs" />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
 //               <img
-//                 src="assets/images/news-logo/the-new-york-times.webp"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/the-new-york-times.webp"
 //                 alt="The New York Times"
 //               />
 //             </div>
@@ -85,14 +85,14 @@
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
 //               <img
-//                 src="assets/images/news-logo/usa-today.webp"
+//                 src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/usa-today.webp"
 //                 alt="USA Today"
 //               />
 //             </div>
 //           </div>
 //           <div className="col px-2 px-lg-3">
 //             <div className="newsLogo">
-//               <img src="assets/images/news-logo/yahoo.webp" alt="Yahoo" />
+//               <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/news-logo/yahoo.webp" alt="Yahoo" />
 //             </div>
 //           </div>
 //         </div>
@@ -131,15 +131,14 @@ const NewsWebsites = () => {
           We can Get Featured you on Top News Websites
         </h3>
         <div className="mt-3 row row-cols-2 row-cols-lg-5">
-        
           {newsWebsites.map((website, index) => (
             <div key={index} className="col px-2 px-lg-3">
               <div className="newsLogo">
-                <Image 
-                width={200}
-                height={100}
-                quality={100}
-                className=" h-auto object-fit-contain "
+                <Image
+                  width={200}
+                  height={100}
+                  quality={100}
+                  className=" h-auto object-fit-contain "
                   src={`/assets/images/news-logo/${website.logo}`}
                   alt={website.alt}
                 />

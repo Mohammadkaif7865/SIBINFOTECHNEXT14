@@ -28,7 +28,7 @@ const Introduction = () => {
               <div className="awardWinningRight">
                 <video playsInline autoPlay muted>
                   <source
-                    src="assets/images/programming.mp4"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/programming.mp4"
                     type="video/mp4"
                   />
                 </video>

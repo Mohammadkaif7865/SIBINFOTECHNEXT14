@@ -153,7 +153,7 @@ export default function SnapchatMarketing() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Snapchat Marketing in India"
                   className="img-fluid"
                 />

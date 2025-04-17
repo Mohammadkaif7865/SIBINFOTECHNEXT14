@@ -174,7 +174,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>
@@ -242,7 +242,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

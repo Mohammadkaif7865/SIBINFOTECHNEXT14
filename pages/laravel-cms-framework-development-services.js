@@ -70,9 +70,11 @@ export default function LaravelCmsDevelopmentCompany() {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 fontHeading text-white">Laravel CMS Development</h1>
+                <h1 className="heading fontWeight700 fontHeading text-white">
+                  Laravel CMS Development
+                </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Laravel CMS Development Services in India
+                  Laravel CMS Development Services in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -164,7 +166,7 @@ export default function LaravelCmsDevelopmentCompany() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Laravel CMS Framework Development Services"
                   className="img-fluid"
                 />

@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import React from "react";
 
@@ -70,7 +68,7 @@ const Invest = () => {
               height={450}
               alt="on-page-seo-invest"
               className="image-full w-100 h-auto "
-              src="assets/images/on-page-seo-invest.svg"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/on-page-seo-invest.svg"
             />
           </div>
         </div>

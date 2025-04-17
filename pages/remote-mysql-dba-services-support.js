@@ -73,7 +73,7 @@ export default function RemoteMysqlDbaSupportServices() {
                   Remote MYSQL DBA Services and Support
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                 Top Rated Remote MySQL DBA Services in India
+                  Top Rated Remote MySQL DBA Services in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -205,7 +205,7 @@ export default function RemoteMysqlDbaSupportServices() {
             <div className="col-md-4 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Remote Myql DBA Support"
                   className="img-fluid"
                 />
@@ -216,7 +216,7 @@ export default function RemoteMysqlDbaSupportServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Remote Myql DBA Support"
                   className="img-fluid"
                 />

@@ -8,22 +8,52 @@ export default function InfluencerMarketingServices() {
   const metaTags = (
     <>
       <title>Influencer Marketing Services Agency India | SIB Infotech</title>
-      <meta name="description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
-      <meta name="keywords" content="Influence Marketing Services, Influencer Marketing Agency, Premium Influencer Marketing Services, Influencer Marketing campaigns, Perfect Influencer" />
+      <meta
+        name="description"
+        content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers."
+      />
+      <meta
+        name="keywords"
+        content="Influence Marketing Services, Influencer Marketing Agency, Premium Influencer Marketing Services, Influencer Marketing campaigns, Perfect Influencer"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/influencer-marketing-services
-" />
-      <meta property="og:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
-      <meta property="og:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg
-" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/influencer-marketing-services
+"
+      />
+      <meta
+        property="og:title"
+        content="Influencer Marketing Services Agency India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg
+"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/influencer-marketing-services" />
-      <meta property="twitter:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
-      <meta property="twitter:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/influencer-marketing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Influencer Marketing Services Agency India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg"
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/influencer-marketing-services"
         breadcrumbTitle="Influencer Marketing Services Agency India | SIB Infotech"
@@ -46,7 +76,7 @@ export default function InfluencerMarketingServices() {
                   Influencer Marketing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Influencer Marketing Company in India
+                  Top Rated Influencer Marketing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -79,7 +109,7 @@ export default function InfluencerMarketingServices() {
         </div>
       </div>
       <div className="d-lg-none ">
-        <Breadcrumb  Pagetitle={'Influencer Marketing Services '} />
+        <Breadcrumb Pagetitle={"Influencer Marketing Services "} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -97,7 +127,7 @@ export default function InfluencerMarketingServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb  Pagetitle={'Influencer Marketing Services '} />
+        <Breadcrumb Pagetitle={"Influencer Marketing Services "} />
       </div>
       <section>
         <div className="containerFull">
@@ -138,7 +168,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-6">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/influencer-marketing-company-in-delhi.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/influencer-marketing-company-in-delhi.svg"
                 alt="influencer-marketing-company-in-mumbai"
               />
             </div>
@@ -266,7 +296,7 @@ export default function InfluencerMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-kpi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-kpi.svg"
                     alt="influencer-marketing-agency-in-mumbai"
                   />
                   <h4 className="fontHeading">
@@ -275,14 +305,14 @@ export default function InfluencerMarketingServices() {
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-targeted-audience.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-targeted-audience.svg"
                     alt="best-inluencer-marketting-company"
                   />
                   <h4 className="fontHeading">Identify target Audience</h4>
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-research.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-research.svg"
                     alt="best-influencer-marketing-company-in-india"
                   />
                   <h4 className="fontHeading">Influencer research</h4>
@@ -291,14 +321,14 @@ export default function InfluencerMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/blog-managemnet-build-brand-reputation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-managemnet-build-brand-reputation.svg"
                     alt="best-influencer-marketing-company-in-mumbai"
                   />
                   <h4 className="fontHeading">Influencer mapping</h4>
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-build-strong-relationship.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-build-strong-relationship.svg"
                     alt="best-influencer-marketing-companies"
                   />
                   <h4 className="fontHeading">
@@ -307,7 +337,7 @@ export default function InfluencerMarketingServices() {
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-strategy.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-strategy.svg"
                     alt="best-influencer-marketing-companies-in-india"
                   />
                   <h4 className="fontHeading">
@@ -318,21 +348,21 @@ export default function InfluencerMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-cordination.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-cordination.svg"
                     alt="best-influencer-marketing-company-in-mumbai"
                   />
                   <h4 className="fontHeading">Influencer Co-ordination</h4>
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-results.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-results.svg"
                     alt="best-influencer-marketing-companies"
                   />
                   <h4 className="fontHeading">Measuring results</h4>
                 </div>
                 <div className="middle-box middle-box-lg-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-report-and-statatics.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-report-and-statatics.svg"
                     alt="best-influencer-marketing-companies-in-india"
                   />
                   <h4 className="fontHeading">
@@ -425,7 +455,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-facebook.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-facebook.svg"
                   alt="inluencer-marketing-firm"
                 />
                 <h4 className="fontHeading">Facebook</h4>
@@ -434,7 +464,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-twitter.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-twitter.svg"
                   alt="inluencer-marketing-firm-in-mumbai"
                 />
                 <h4 className="fontHeading">Twitter</h4>
@@ -443,7 +473,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-instagram.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-instagram.svg"
                   alt="inluencer-marketing-firm-in-delhi"
                 />
                 <h4 className="fontHeading">Instagram</h4>
@@ -452,7 +482,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-youtube.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-youtube.svg"
                   alt="inluencer-marketing-firm-in-india"
                 />
                 <h4 className="fontHeading">YouTube</h4>
@@ -463,7 +493,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-vine.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-vine.svg"
                   alt="inluencer-marketing-agency"
                 />
                 <h4 className="fontHeading">Vine</h4>
@@ -472,7 +502,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-snapchat.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-snapchat.svg"
                   alt="inluencer-marketing-agency-in-india"
                 />
                 <h4 className="fontHeading">Snapchat</h4>
@@ -481,7 +511,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/influencer-marketing-tiktok.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-tiktok.svg"
                   alt="inluencer-marketing-agency-in-delhi"
                 />
                 <h4 className="fontHeading">TikTok</h4>
@@ -490,7 +520,7 @@ export default function InfluencerMarketingServices() {
             <div className="col-lg-3">
               <div className="infl-marketing-box">
                 <img
-                  src="assets/images/icons/linkedin_icon.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin_icon.svg"
                   alt="inluencer-marketing-agency-in-delhi"
                 />
                 <h4 className="fontHeading">LinkedIn</h4>

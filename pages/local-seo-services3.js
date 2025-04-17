@@ -170,7 +170,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-resturaent.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-resturaent.svg"
                         alt="Restaurant"
                       />
                     </div>
@@ -181,7 +181,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-company.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company.svg"
                         alt="SEO Companies"
                       />
                     </div>
@@ -192,7 +192,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-doctor.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-doctor.svg"
                         alt="Doctors"
                       />
                     </div>
@@ -203,7 +203,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-website.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-website.svg"
                         alt="Website Desining Companies"
                       />
                     </div>
@@ -214,7 +214,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-mall.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-mall.svg"
                         alt="Malls"
                       />
                     </div>
@@ -225,7 +225,7 @@ export default function LocalSeoServices() {
                   <div className="itemDigital customShadow whiteBgItem">
                     <div className="iconDigi">
                       <img
-                        src="assets/images/icons/local-seo-shop.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-shop.svg"
                         alt="Shops"
                       />
                     </div>
@@ -268,7 +268,7 @@ export default function LocalSeoServices() {
                 <div className="services-box">
                   <div className="icon-circle">
                     <img
-                      src="assets/images/icons/local-seo-feedback.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-feedback.svg"
                       alt="best-local-seo-firm-in-mumbai"
                     />
                   </div>
@@ -284,7 +284,7 @@ export default function LocalSeoServices() {
                 <div className="services-box">
                   <div className="icon-circle">
                     <img
-                      src="assets/images/icons/on-page-seo-keywords.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-keywords.png"
                       alt="best-local-seo-firm-in-delhi"
                     />
                   </div>
@@ -300,7 +300,7 @@ export default function LocalSeoServices() {
                 <div className="services-box">
                   <div className="icon-circle bg-yellow">
                     <img
-                      src="assets/images/icons/local-seo-my-business.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-my-business.svg"
                       alt="best-local-seo-firm-in-india"
                     />
                   </div>
@@ -319,7 +319,7 @@ export default function LocalSeoServices() {
                 <div className="services-box services-box-ex-height">
                   <div className="icon-circle bg-yellow">
                     <img
-                      src="assets/images/icons/local-seo-company-mumbai.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-mumbai.svg"
                       alt="best-local-seo-company-in-mumbai"
                     />
                   </div>
@@ -337,7 +337,7 @@ export default function LocalSeoServices() {
                 <div className="services-box services-box-ex-height">
                   <div className="icon-circle">
                     <img
-                      src="assets/images/icons/local-seo-firm-in-mumbai.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-firm-in-mumbai.svg"
                       alt="best-local-seo-company-in-delhi"
                     />
                   </div>
@@ -354,7 +354,7 @@ export default function LocalSeoServices() {
                 <div className="services-box services-box-ex-height">
                   <div className="icon-circle">
                     <img
-                      src="assets/images/icons/local-seo-firm-in-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-firm-in-india.svg"
                       alt="best-local-seo-company-in-india"
                     />
                   </div>
@@ -413,21 +413,21 @@ export default function LocalSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/on-page-cost-effective.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-cost-effective.svg"
                     alt="local-seo-firms-in-delhi"
                   />
                   <h4>Low Investment</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-visibility.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-visibility.svg"
                     alt="local-seo-firms-in-mumbai"
                   />
                   <h4>Online visibility for Local customers</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
                     alt="local-seo-firms-in-india"
                   />
                   <h4>
@@ -437,7 +437,7 @@ export default function LocalSeoServices() {
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-company-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-delhi.svg"
                     alt="local-seo-firm-in-mumbai"
                   />
                   <h4>Staying competitive with the competitors</h4>
@@ -446,28 +446,28 @@ export default function LocalSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-company-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-india.svg"
                     alt="local-seo-firm-in-delhi"
                   />
                   <h4>Targeted geographic campaigns</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-company-in-mumbai.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-mumbai.svg"
                     alt="local-seo-firm-in-india"
                   />
                   <h4>Building links</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-companies-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-companies-in-delhi.svg"
                     alt="local-seo-agencies-in-mumbai"
                   />
                   <h4>Gaining repeat customers</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-build-reputation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-build-reputation.svg"
                     alt="local-seo-agencies-in-india"
                   />
                   <h4>Builds community, reputation and customer relations</h4>
@@ -476,28 +476,28 @@ export default function LocalSeoServices() {
               <div className="middle-row">
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/on-page-seo-build-trust.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-build-trust.svg"
                     alt="local-seo-agencies-in-delhi"
                   />
                   <h4>Builds trust with high rankings</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-img-30.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-img-30.svg"
                     alt="local-seo-agency-in-mumbai"
                   />
                   <h4>Increased local reviews</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-agency-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-agency-in-india.svg"
                     alt="local-seo-agency-in-india"
                   />
                   <h4>Reduced advertisement expenses</h4>
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/local-seo-agency-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-agency-in-delhi.svg"
                     alt="local-seo-agency-in-delhi"
                   />
                   <h4>Exposure to local business directories</h4>
@@ -615,7 +615,7 @@ export default function LocalSeoServices() {
               </p>
               <img
                 className="image-full negetive-margin-left"
-                src="assets/images/local-seo-page-img.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo-page-img.svg"
                 alt="Local SEO company in India"
               />
             </div>

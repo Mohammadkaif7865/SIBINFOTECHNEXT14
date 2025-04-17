@@ -23,7 +23,7 @@
 //           <div className="processItem  shadow border rounded">
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
-//                 <img src="assets/images/icons/research.png" alt="Research" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/research.png" alt="Research" />
 //               </div>
 //               <h4 className="sub_heading Textnumber arrowRight">02</h4>
 //             </div>
@@ -34,7 +34,7 @@
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
 //                 <img
-//                   src="assets/images/icons/illustration.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/illustration.png"
 //                   alt="Illustration"
 //                 />
 //               </div>
@@ -49,7 +49,7 @@
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
 //                 <img
-//                   src="assets/images/icons/web-development.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/web-development.png"
 //                   alt="Web Development"
 //                 />
 //               </div>
@@ -66,7 +66,7 @@
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
 //                 <img
-//                   src="assets/images/icons/technical-support.png"
+//                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/technical-support.png"
 //                   alt="Technical Support"
 //                 />
 //               </div>
@@ -78,7 +78,7 @@
 //           <div className="processItem  shadow border rounded">
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
-//                 <img src="assets/images/icons/startup.png" alt="Startup" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/startup.png" alt="Startup" />
 //               </div>
 //               <h4 className="sub_heading Textnumber arrowLeft">06</h4>
 //             </div>
@@ -88,7 +88,7 @@
 //           <div className="processItem  shadow border rounded">
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
-//                 <img src="assets/images/icons/testing.png" alt="Testing" />
+//                 <img src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/testing.png" alt="Testing" />
 //               </div>
 //               <h4 className="sub_heading Textnumber arrowLeft">05</h4>
 //             </div>
@@ -160,7 +160,10 @@ const DesigningProcess = () => {
         <div className="space"></div>
         <div className="d-flex flex-wrap justify-content-center gap-3">
           {processItems.map((item, index) => (
-            <div key={index} className="processItem m-0  shadow border b rounded">
+            <div
+              key={index}
+              className="processItem m-0  shadow border b rounded"
+            >
               <div className="d-flex align-items-center justify-content-between ">
                 <div className="iconProcess">
                   <Image

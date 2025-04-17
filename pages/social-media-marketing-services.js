@@ -157,7 +157,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-md-5">
               <div className="seo-main-left">
                 <img
-                  src="assets/images/smm-image.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smm-image.svg"
                   alt="Social Media Marketing Company in India"
                 />
               </div>
@@ -192,28 +192,28 @@ export default function SocialMediaMarketingServices() {
               <div className="smm-row">
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/social-care.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/social-care.svg"
                     alt="Social Media Marketing Company in Delhi"
                   />
                   <h5>High Brand awarencess</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/honesty.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/honesty.svg"
                     alt="Social Media Marketing Company in Mumbai"
                   />
                   <h5>Building customer loyalty</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/traffic-light.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/traffic-light.svg"
                     alt="Social Media Marketing Companies in India"
                   />
                   <h5>Referral traffic to your website</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/brand-positioning.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/brand-positioning.svg"
                     alt="Social Media Marketing Companies in Delhi"
                   />
                   <h5>Brand establishment</h5>
@@ -222,28 +222,28 @@ export default function SocialMediaMarketingServices() {
               <div className="smm-row">
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/content-promotion-smm.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-promotion-smm.svg"
                     alt="Social Media Marketing Companies in Mumbai"
                   />
                   <h5>Content promotion</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/improve.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/improve.svg"
                     alt="Social Media Marketing Agency in Mumbai"
                   />
                   <h5>Improve brand recognition</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/audience.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/audience.svg"
                     alt="Social Media Marketing Agency in Delhi"
                   />
                   <h5>Retargeting audience</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/chat.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/chat.svg"
                     alt="Social Media Marketing Agency in India"
                   />
                   <h5>Driving conversions</h5>
@@ -252,28 +252,28 @@ export default function SocialMediaMarketingServices() {
               <div className="smm-row">
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/low-price.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/low-price.svg"
                     alt="Social Media Marketing Firm in India"
                   />
                   <h5>Lower Marketing costs</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/seo-ranking.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/seo-ranking.svg"
                     alt="Social Media Marketing Firm in Mumbai"
                   />
                   <h5>Helps in improving SEO Rankings</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/sales-funnel.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/sales-funnel.svg"
                     alt="Social Media Marketing Firm in Delhi"
                   />
                   <h5>Greater ROI</h5>
                 </div>
                 <div className="slider-box">
                   <img
-                    src="assets/images/icons/brand-positioning.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/brand-positioning.svg"
                     alt="Best Social Media Marketing Agency in Delhi"
                   />
                   <h5>Brand establishment</h5>
@@ -328,7 +328,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/search-engine.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/search-engine.svg"
                   alt="Best Social Media Marketing Agency in Mumbai"
                 />
                 <p className="customText">Social Media Optimization</p>
@@ -337,7 +337,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/user.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/user.svg"
                   alt="Best Social Media Marketing Agency in India"
                 />
                 <p className="customText">Influncer Marketing</p>
@@ -346,7 +346,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/blogger.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blogger.svg"
                   alt="Best Social Media Marketing Firm in India"
                 />
                 <p className="customText">Blogger Marketing</p>
@@ -355,7 +355,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/fame.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/fame.svg"
                   alt="Best Social Media Marketing Company in India"
                 />
                 <p className="customText">Reputation Management</p>
@@ -366,7 +366,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/publish.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/publish.svg"
                   alt="Best Social Media Marketing Company in Delhi"
                 />
                 <p className="customText">Social Publishing</p>
@@ -375,7 +375,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/ads.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ads.svg"
                   alt="Best Social Media Marketing Company in Mumbai"
                 />
                 <p className="customText">Social Paid Advertising</p>
@@ -384,7 +384,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/twitter.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/twitter.svg"
                   alt="Best Social Media Marketing Companies in India"
                 />
                 <p className="customText">Twitter Marketing</p>
@@ -393,7 +393,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/instagram.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/instagram.svg"
                   alt="Best Social Media Marketing Companies in Delhi"
                 />
                 <p className="customText">Instagram Marketing</p>
@@ -404,7 +404,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/linkedin.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin.svg"
                   alt="Best Social Media Marketing Companies in Mumbai"
                 />
                 <p className="customText">Linkedin Marketing</p>
@@ -413,7 +413,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/social-media-smm.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/social-media-smm.svg"
                   alt="SMM Companies in India"
                 />
                 <p className="customText">Social Monitoring</p>
@@ -422,7 +422,7 @@ export default function SocialMediaMarketingServices() {
             <div className="col-lg-3">
               <div className="section-5-box">
                 <img
-                  src="assets/images/icons/facebook.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/facebook.svg"
                   alt="SMM Companies in Delhi"
                 />
                 <p className="customText">Facebook Marketing</p>
@@ -479,7 +479,7 @@ export default function SocialMediaMarketingServices() {
               <div className="p-sticky">
                 <div className="strategyLeft">
                   <img
-                    src="assets/images/mobile-phone-3.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mobile-phone-3.svg"
                     alt="SMM Companies in Mumbai"
                   />
                 </div>
@@ -490,7 +490,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/monitor.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/monitor.svg"
                       alt="SMM Agency in India"
                     />
                   </div>
@@ -510,7 +510,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/megaphone.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/megaphone.svg"
                       alt="SMM Agency in Delhi"
                     />
                   </div>
@@ -531,7 +531,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/subscription.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/subscription.svg"
                       alt="SMM Agency in Mumbai"
                     />
                   </div>
@@ -553,7 +553,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/stats.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/stats.svg"
                       alt="SMM Firm in India"
                     />
                   </div>
@@ -579,7 +579,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/monitor-brand.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/monitor-brand.svg"
                       alt="SMM Firm in Mumbai"
                     />
                   </div>
@@ -605,7 +605,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/conversion-smm.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/conversion-smm.svg"
                       alt="SMM Services Firm in Mumbai"
                     />
                   </div>
@@ -629,7 +629,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/conversion-rate.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/conversion-rate.svg"
                       alt="SMM Services Firm in Delhi"
                     />
                   </div>
@@ -650,7 +650,7 @@ export default function SocialMediaMarketingServices() {
                 <div className="strategyItem">
                   <div className="strategyIcons shadow">
                     <img
-                      src="assets/images/icons/user-engament-smm.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/user-engament-smm.svg"
                       alt="SMM Services Firm in India"
                     />
                   </div>
@@ -681,7 +681,7 @@ export default function SocialMediaMarketingServices() {
               <div className="strategyLeft  p-sticky">
                 <img
                   alt="SMM Services Company in Mumbai"
-                  src="assets/images/social-media-marketing-company-in-mumbai.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/social-media-marketing-company-in-mumbai.svg"
                 />
               </div>
             </div>
@@ -695,7 +695,7 @@ export default function SocialMediaMarketingServices() {
               <div className="seo-main-left">
                 <img
                   className="imgFulll"
-                  src="assets/images/smm-8.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/smm-8.svg"
                   alt="SMM Services Company in India"
                 />
               </div>

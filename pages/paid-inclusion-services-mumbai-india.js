@@ -73,7 +73,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
                   Paid Search Engine Inclusion Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Rated  Paid Search Engine Inclusion Services in India
+                  Top Rated Paid Search Engine Inclusion Services in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -147,7 +147,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
                 <div className="col-lg-6">
                   <div className="paid-inclusion-box">
                     <img
-                      src="assets/images/icons/paid-inclusion-rapid-inclusion.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-rapid-inclusion.svg"
                       alt="paid-search-engine-inclusion-firm-in-india"
                     />
                     <h4>Rapid Inclusion</h4>
@@ -156,7 +156,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
                 <div className="col-lg-6">
                   <div className="paid-inclusion-box">
                     <img
-                      src="assets/images/icons/paid-inclusion-guarantee.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-guarantee.svg"
                       alt="paid-search-engine-inclusion-firm-in-mumbai"
                     />
                     <h4>Guaranteed inclusion for a subscription period</h4>
@@ -167,7 +167,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
                 <div className="col-lg-6">
                   <div className="paid-inclusion-box">
                     <img
-                      src="assets/images/icons/paid-inclusion-traffic-reporting.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-traffic-reporting.svg"
                       alt="paid-search-engine-inclusion-firm-in-delhi"
                     />
                     <h4>Detailed click and traffic reporting</h4>
@@ -176,7 +176,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
                 <div className="col-lg-6">
                   <div className="paid-inclusion-box">
                     <img
-                      src="assets/images/icons/paid-inclusion-refresh-website-content.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-refresh-website-content.svg"
                       alt="paid-search-engine-inclusion-agency-in-india"
                     />
                     <h4>Regular refreshes of website content</h4>
@@ -206,7 +206,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
               <div className="inclusion-benefit">
                 <span>1</span>{" "}
                 <img
-                  src="assets/images/icons/paid-inclusion-listed-quickly.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-listed-quickly.svg"
                   alt="paid-search-engine-inclusion-agency-in-delhi"
                 />
                 <h4 className="text-center">Gets listed quickly</h4>
@@ -216,7 +216,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
               <div className="inclusion-benefit">
                 <span>2</span>{" "}
                 <img
-                  src="assets/images/icons/paid-inclusion-index.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-index.svg"
                   alt="paid-search-engine-inclusion-company-in-india"
                 />
                 <h4 className="text-center">Stays in the index</h4>
@@ -226,7 +226,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
               <div className="inclusion-benefit">
                 <span>3</span>{" "}
                 <img
-                  src="assets/images/icons/paid-inclusion-guarantee-crawled.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-guarantee-crawled.svg"
                   alt="paid-search-engine-inclusion-company-in-mumbai"
                 />
                 <h4 className="text-center">
@@ -240,7 +240,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
               <div className="inclusion-benefit">
                 <span>4</span>{" "}
                 <img
-                  src="assets/images/icons/paid-inclusion-offer-tracking.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/paid-inclusion-offer-tracking.svg"
                   alt="paid-search-engine-inclusion-company-in-delhi"
                 />
                 <h4 className="text-center">

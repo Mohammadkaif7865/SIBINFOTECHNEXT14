@@ -36,14 +36,12 @@ const Intro = () => {
             </p>
           </div>
           <div className="col-lg-6">
-            <div className="w-100   IntroImage     position-relative "
-            
-            >
+            <div className="w-100   IntroImage     position-relative ">
               <Image
                 fill
                 quality={100}
                 className="image-full imgAnimation"
-                src="assets/images/linkedin-ads-management-company-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/linkedin-ads-management-company-in-india.svg"
                 alt="Linkedin-Ads-Management-Company-In-Delhi"
               />
             </div>

@@ -84,7 +84,10 @@ const BannerSlider2 = () => {
                     </p>
                   </div>
 
-                  <img src="assets" alt="" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

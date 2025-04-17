@@ -78,7 +78,7 @@ export default function EcommerceSeoServices() {
                   E-Commerce SEO Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  E-Commerce SEO Company in India
+                  Top Rated E-Commerce SEO Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -110,9 +110,7 @@ export default function EcommerceSeoServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"E-Commerce SEO Services"}
-        />
+        <Breadcrumb Pagetitle={"E-Commerce SEO Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -130,9 +128,7 @@ export default function EcommerceSeoServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"E-Commerce SEO Services"}
-        />
+        <Breadcrumb Pagetitle={"E-Commerce SEO Services"} />
       </div>
       <section>
         <div className="containerFull">
@@ -182,7 +178,7 @@ export default function EcommerceSeoServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/best-ecommerce-seo-company-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-ecommerce-seo-company-in-india.svg"
                 alt="best-ecommerce-seo-company"
               />
             </div>
@@ -312,7 +308,7 @@ export default function EcommerceSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/ecommerce-seo-company-in-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-company-in-india.svg"
                       alt="best-ecommerce-seo-company-in-india"
                     />
                   </div>
@@ -335,7 +331,7 @@ export default function EcommerceSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/ecommerce-seo-company-mumbai.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-company-mumbai.svg"
                       alt="ecommerce-seo-company-in-india"
                     />
                   </div>
@@ -360,7 +356,7 @@ export default function EcommerceSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/ecommerce-seo-company-delhi.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-company-delhi.svg"
                       alt="ecommerce-seo-company-in-delhi"
                     />
                   </div>
@@ -383,7 +379,7 @@ export default function EcommerceSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/ecommerce-seo-firm-in-india.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-firm-in-india.svg"
                       alt="ecommerce-seo-firm-in-india"
                     />
                   </div>
@@ -407,7 +403,7 @@ export default function EcommerceSeoServices() {
                   <div className="off-page-seo-box-heading">
                     <div className="img-circle">
                       <img
-                        src="assets/images/icons/ecommerce-seo-firm-in-mumbai.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-firm-in-mumbai.svg"
                         alt="ecommerce-seo-firm-in-mumbai"
                       />
                     </div>
@@ -430,7 +426,7 @@ export default function EcommerceSeoServices() {
                   <div className="off-page-seo-box-heading">
                     <div className="img-circle">
                       <img
-                        src="assets/images/icons/ecommerce-seo-firm-delhi.svg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-firm-delhi.svg"
                         alt="ecommerce-seo-firm-in-delhi"
                       />
                     </div>
@@ -480,7 +476,7 @@ export default function EcommerceSeoServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/ecommerce-seo-strategy.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-seo-strategy.svg"
                 alt="ecommerce-seo-strategy"
               />
             </div>
@@ -667,7 +663,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/drupal.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/drupal.png"
                       alt="DrupalCommerce-websites"
                     />
                     <h4>Drupal Commerce</h4>
@@ -676,7 +672,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-cs-cart.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-cs-cart.svg"
                       alt="CS-cart-websites"
                     />
                     <h4>CS Cart</h4>
@@ -685,7 +681,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-woo-commerce.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-woo-commerce.png"
                       alt="woo-commerce-websites"
                     />
                     <h4>Woo Commerce</h4>
@@ -694,7 +690,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-opencart.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-opencart.svg"
                       alt="opencart-websites"
                     />
                     <h4>Opencart</h4>
@@ -703,7 +699,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-presta-shop.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-presta-shop.png"
                       alt="Presta-shop-websites"
                     />
                     <h4>PrestaShop</h4>
@@ -712,7 +708,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-zencart.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-zencart.svg"
                       alt="Zencart-websites"
                     />
                     <h4>Zencart</h4>
@@ -723,7 +719,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-os-commerce.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-os-commerce.svg"
                       alt="os-commerce-websites"
                     />
                     <h4>Os Commerce</h4>
@@ -732,7 +728,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-big-commerce-website.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-big-commerce-website.png"
                       alt="Big-commerce-websites"
                     />
                     <h4>Big Commerce Websites</h4>
@@ -741,7 +737,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-magento-website.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-magento-website.png"
                       alt="Magento-websites"
                     />
                     <h4>Magento</h4>
@@ -750,7 +746,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-volusion.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-volusion.svg"
                       alt="Volusion-websites"
                     />
                     <h4>Volusia</h4>
@@ -759,7 +755,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-shopify-website.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/on-page-seo-shopify-website.svg"
                       alt="Shopify-websites"
                     />
                     <h4>Shopify</h4>
@@ -768,7 +764,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-suit-commerce.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/ecommerce-seo-suit-commerce.svg"
                       alt="Suit-commerce-websites"
                     />
                     <h4>Suit Commerce</h4>
@@ -803,7 +799,7 @@ export default function EcommerceSeoServices() {
             <div className="col-lg-6 order-1 order-lg-2">
               <img
                 className="image-full"
-                src="assets/images/ecommerce-seo-company-in-delhi.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-seo-company-in-delhi.svg"
                 alt="ecommerce-seo-company-in-delhi"
               />
             </div>
@@ -816,7 +812,7 @@ export default function EcommerceSeoServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/ecommerce-seo-product-pages.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/ecommerce-seo-product-pages.svg"
                 alt="ecommerce-seo-company-in-mumbai"
               />
             </div>

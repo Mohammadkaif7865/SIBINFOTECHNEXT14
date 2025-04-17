@@ -77,7 +77,8 @@ export default function ProfessionalWebsiteDesigningServices() {
                   Professional Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Professional Website Designing Company in Mumbai, India
+                  Top Rated Professional Website Designing Company in Mumbai,
+                  India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -180,7 +181,7 @@ export default function ProfessionalWebsiteDesigningServices() {
                 <img
                   alt="Professional Website Designing Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

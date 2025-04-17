@@ -1,9 +1,8 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-
 
 export default function AboutUs() {
   const metaTags = (
@@ -48,12 +47,12 @@ export default function AboutUs() {
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
       />
       <BreadcrumbSchema
-          url="https://www.sibinfotech.com/about-us"
-          breadcrumbTitle="About SIB Infotech | Top Digital Marketing Agency in India "
-          // PageRatingSchema
-          // description
-          // reviewCount
-        />
+        url="https://www.sibinfotech.com/about-us"
+        breadcrumbTitle="About SIB Infotech | Top Digital Marketing Agency in India "
+        // PageRatingSchema
+        // description
+        // reviewCount
+      />
     </>
   );
   const teamMembers = [
@@ -352,11 +351,11 @@ export default function AboutUs() {
             <div className="col-lg-5">
               <div className="rightAboutOffice shadow">
                 <picture
-                  srcSet="assets/images/sib-mumbai-office.webp"
+                  srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sib-mumbai-office.webp"
                   type="image/webp"
                 />
                 <img
-                  src="assets/images/sib-mumbai-office.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sib-mumbai-office.jpg"
                   alt="Mumbai Office"
                 />
               </div>
@@ -416,11 +415,11 @@ export default function AboutUs() {
             <div className="col-lg-5 order-lg-2 order-1">
               <div className="rightAboutOffice shadow">
                 <picture
-                  srcSet="assets/images/sib-delhi-office.webp"
+                  srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sib-delhi-office.webp"
                   type="image/webp"
                 />
                 <img
-                  src="assets/images/sib-delhi-office.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sib-delhi-office.jpg"
                   alt="Delhi Office"
                 />
               </div>
@@ -435,11 +434,11 @@ export default function AboutUs() {
               <div className="rightVission">
                 <picture>
                   <source
-                    srcSet="assets/images/mission-vision.webp"
+                    srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mission-vision.webp"
                     type="image/webp"
                   />
                   <img
-                    src="assets/images/mission-vision.jpg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/mission-vision.jpg"
                     alt="Mission Vision Values"
                   />
                 </picture>
@@ -551,10 +550,13 @@ export default function AboutUs() {
               <div className="rightVission">
                 <picture>
                   <source
-                    srcSet="assets/images/core-values.webp"
+                    srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/core-values.webp"
                     type="image/webp"
                   />
-                  <img src="assets/images/core-values.jpg" alt="core Values" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/core-values.jpg"
+                    alt="core Values"
+                  />
                 </picture>
               </div>
             </div>
@@ -591,9 +593,9 @@ export default function AboutUs() {
                 <div className="teamItem">
                   <div className="teamImg">
                     <picture>
-                      <source srcSet="assets/images/team/anuj-bajaj-sir.webp" />
+                      <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/team/anuj-bajaj-sir.webp" />
                       <img
-                        src="assets/images/team/anuj-bajaj-sir.jpg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/team/anuj-bajaj-sir.jpg"
                         alt="Anuj Bajaj"
                       />
                     </picture>
@@ -607,9 +609,9 @@ export default function AboutUs() {
                 <div className="teamItem">
                   <div className="teamImg">
                     <picture>
-                      <source srcSet="assets/images/team/radhey-shyam-bajaj-sir.webp" />
+                      <source srcset="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/team/radhey-shyam-bajaj-sir.webp" />
                       <img
-                        src="assets/images/team/radhey-shyam-bajaj-sir.jpg"
+                        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/team/radhey-shyam-bajaj-sir.jpg"
                         alt="Radhey Shyam Bajaj"
                       />
                     </picture>

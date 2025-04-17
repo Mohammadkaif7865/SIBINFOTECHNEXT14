@@ -136,7 +136,7 @@ export default function WebsiteRedesigningServices() {
               <div className="redesigning-img">
                 <img
                   className="image-full"
-                  src="assets/images/website-redesigning-company-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/website-redesigning-company-in-india.png"
                   alt="Website-Redesigning-Company-In-India"
                 />
               </div>
@@ -177,7 +177,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="redesigning-box">
                     <img
-                      src="assets/images/icons/redesigning-lates-technoloy.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/redesigning-lates-technoloy.svg"
                       alt="Website-Redesigning-Company-In-Delhi"
                     />
                     <p className="customText">
@@ -188,7 +188,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="redesigning-box">
                     <img
-                      src="assets/images/icons/redesigning-increase-ranking.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/redesigning-increase-ranking.svg"
                       alt="Website-Redesigning-Company-In-Mumbai"
                     />
                     <p className="customText">
@@ -200,7 +200,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="redesigning-box">
                     <img
-                      src="assets/images/icons/redesigning-perfect-balance.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/redesigning-perfect-balance.svg"
                       alt="Website-Redesigning-Firm-In-Delhi"
                     />
                     <p className="customText">
@@ -213,7 +213,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="pattern">
                     <img
-                      src="assets/images/icons/tab-img-pattern.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/tab-img-pattern.png"
                       alt="Website-Redesigning-Company-In-India"
                     />
                   </div>
@@ -221,7 +221,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="redesigning-box">
                     <img
-                      src="assets/images/icons/redesigning-engage-users.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/redesigning-engage-users.svg"
                       alt="Website-Redesigning-Firm-In-India"
                     />
                     <p className="customText">
@@ -232,7 +232,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="redesigning-box">
                     <img
-                      src="assets/images/icons/redesigning-navigation.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/redesigning-navigation.svg"
                       alt="Website-Redesigning-Company"
                     />
                     <p className="customText">

@@ -126,11 +126,11 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Video Management",
-      col2:"Optional",
-      col3:"Optional",
-      col4:"Optional",
-      col5:"Optional",
-      col6:"Optional",
+      col2: "Optional",
+      col3: "Optional",
+      col4: "Optional",
+      col5: "Optional",
+      col6: "Optional",
     },
     {
       col1: "News Management",
@@ -164,11 +164,14 @@ export default function SocialMediaMarketingSMMServicesPackages() {
       col5: "true",
       col6: "TBD",
     },
-    { col1: "Wishlist", col2: "false",
+    {
+      col1: "Wishlist",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
-      col6: "TBD", },
+      col6: "TBD",
+    },
     {
       col1: "Multi Language",
       col2: "Optional",
@@ -177,14 +180,17 @@ export default function SocialMediaMarketingSMMServicesPackages() {
       col5: "Optional",
       col6: "Optional",
     },
-    { col1: "Manage Order",col2: "false",
+    {
+      col1: "Manage Order",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
-      col6: "TBD", },
+      col6: "TBD",
+    },
     {
       col1: "Catalog Management",
-   col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -192,7 +198,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Multi Language",
-   col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -200,7 +206,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Discount Management",
-   col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -216,20 +222,23 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Payment Gateway Integration",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
       col6: "TBD",
     },
-    { col1: "Shopping Cart",   col2: "false",
+    {
+      col1: "Shopping Cart",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
-      col6: "TBD", },
+      col6: "TBD",
+    },
     {
       col1: "Category Management",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -237,7 +246,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Product Sort Option Management",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -245,7 +254,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Filter Option Management",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -253,7 +262,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Checkout Management",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
@@ -261,45 +270,106 @@ export default function SocialMediaMarketingSMMServicesPackages() {
     },
     {
       col1: "Product Images Zoom Option",
-       col2: "false",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
       col6: "TBD",
     },
-    { col1: "Support",   col2: "false",
+    {
+      col1: "Support",
+      col2: "false",
       col3: "false",
       col4: "false",
       col5: "true",
-      col6: "TBD", },
+      col6: "TBD",
+    },
   ];
   const tableData2 = [
-    { col1: 'Email', col2: 'true', col3: 'true', col4: 'true', col5: 'true', col6: 'true' },
-    { col1: 'Chat/Skype', col2: 'true', col3: 'true', col4: 'true', col5: 'true', col6: 'true' },
-    { col1: 'Phone', col2: 'true', col3: 'true', col4: 'true', col5: 'true', col6: 'true' },
-    { col1: 'Phone Call for Review Meetings', col2: 'true', col3: 'true', col4: 'true', col5: 'true', col6: 'true' }
-];
+    {
+      col1: "Email",
+      col2: "true",
+      col3: "true",
+      col4: "true",
+      col5: "true",
+      col6: "true",
+    },
+    {
+      col1: "Chat/Skype",
+      col2: "true",
+      col3: "true",
+      col4: "true",
+      col5: "true",
+      col6: "true",
+    },
+    {
+      col1: "Phone",
+      col2: "true",
+      col3: "true",
+      col4: "true",
+      col5: "true",
+      col6: "true",
+    },
+    {
+      col1: "Phone Call for Review Meetings",
+      col2: "true",
+      col3: "true",
+      col4: "true",
+      col5: "true",
+      col6: "true",
+    },
+  ];
 
+  const metaTags = (
+    <>
+      <title>
+        Best Website Design & Development Packages for All Businesses
+      </title>
+      <meta
+        name="description"
+        content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!"
+      />
+      <meta
+        name="keywords"
+        content="Website Design Development Services Packages"
+      />
 
-const metaTags = (
-  <>
-    <title>Best Website Design & Development Packages for All Businesses</title>
-    <meta name="description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
-    <meta name="keywords" content="Website Design Development Services Packages" />
-   
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/website-design-development-services-packages"
+      />
+      <meta
+        property="og:title"
+        content="Best Website Design & Development Packages for All Businesses"
+      />
+      <meta
+        property="og:description"
+        content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg"
+      />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
-    <meta property="og:title" content="Best Website Design & Development Packages for All Businesses" />
-    <meta property="og:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
-    <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
-    <meta property="twitter:title" content="Best Website Design & Development Packages for All Businesses" />
-    <meta property="twitter:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
-    <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
-    <BreadcrumbSchema
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/website-design-development-services-packages"
+      />
+      <meta
+        property="twitter:title"
+        content="Best Website Design & Development Packages for All Businesses"
+      />
+      <meta
+        property="twitter:description"
+        content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-design-development-services-packages"
         breadcrumbTitle="Best Website Design & Development Packages for All Businesses"
         PageRatingSchema
@@ -308,10 +378,10 @@ const metaTags = (
         }
         reviewCount={"5304"}
       />
-  </>
-);
-return (
-  <CustomLayout meta={metaTags}>
+    </>
+  );
+  return (
+    <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -353,7 +423,7 @@ return (
                 <div className="tag-line">
                   <img
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-packages-3.png"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">
@@ -370,7 +440,7 @@ return (
                     className={`tab  ${open == 1 ? "active" : ""}`}
                     onClick={() => handleOpen(1)}
                   >
-                    <h5>Website Design &amp;  Development Services</h5>
+                    <h5>Website Design &amp; Development Services</h5>
                   </div>
                   <div
                     className={`tab  ${open == 2 ? "active" : ""}`}
@@ -385,241 +455,259 @@ return (
                   <div className={`${open == 1 ? "active " : ""}`}>
                     <h4>Initial Research &amp; Analysis</h4>
                     <div className="table-responsive">
-
-                    <table className="table-web-development table">
-                      <thead>
-                        <tr>
-                          <th>Deliverables</th>
-                          <th className="bg-blue-4">StartUp</th>
-                          <th className="bg-blue-4">Enterepreneur</th>
-                          <th className="bg-blue-4">Wantrepreneur</th>
-                          <th className="bg-blue-4">E- Commerce</th>
-                          <th className="bg-blue-4">Custom</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>No. of Pages</td>
-                          <td>Upto 5</td>
-                          <td>Upto 10</td>
-                          <td>Upto 15</td>
-                          <td>TBD</td>
-                          <td>TBD</td>
-                        </tr>
-                        {tableData1.map((value, i) => {
-                          return (
-                            <tr  key={i}>
-                              <td>{value.col1}</td>
-                              <td>
-                                {" "}
-                                {value.col2 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col2 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col2
-                                )}
-                              </td>
-                              <td>
-                                {value.col3 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col3 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col3
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col4 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col4 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col4
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col5 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col5 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col5
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col6 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col6 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col6
-                                )}
-                              </td>
-                            </tr>
-                          );
-                        })}
+                      <table className="table-web-development table">
+                        <thead>
                           <tr>
-                          <td>Pricing</td>
-                          <td><button className="package-btn">ENQUIRE</button></td>
-                          <td><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                            <th>Deliverables</th>
+                            <th className="bg-blue-4">StartUp</th>
+                            <th className="bg-blue-4">Enterepreneur</th>
+                            <th className="bg-blue-4">Wantrepreneur</th>
+                            <th className="bg-blue-4">E- Commerce</th>
+                            <th className="bg-blue-4">Custom</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>No. of Pages</td>
+                            <td>Upto 5</td>
+                            <td>Upto 10</td>
+                            <td>Upto 15</td>
+                            <td>TBD</td>
+                            <td>TBD</td>
+                          </tr>
+                          {tableData1.map((value, i) => {
+                            return (
+                              <tr key={i}>
+                                <td>{value.col1}</td>
+                                <td>
+                                  {" "}
+                                  {value.col2 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col2 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col2
+                                  )}
+                                </td>
+                                <td>
+                                  {value.col3 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col3 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col3
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col4 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col4 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col4
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col5 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col5 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col5
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col6 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col6 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col6
+                                  )}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                          <tr>
+                            <td>Pricing</td>
+                            <td>
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td>
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                   <div className={`${open == 2 ? "active" : ""}`}>
                     <h4>Customer Support</h4>
                     <div className="table-responsive">
-                    <table className="table-web-development table">
-                      <thead>
-                        <tr>
-                          <th>Deliverables</th>
-                          <th className="bg-blue-4">StartUp</th>
-                          <th className="bg-blue-4">Enterepreneur</th>
-                          <th className="bg-blue-4">Wantrepreneur</th>
-                          <th className="bg-blue-4">E- Commerce</th>
-                          <th className="bg-blue-4">Custom</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>No. of Pages</td>
-                          <td>Upto 5</td>
-                          <td>Upto 10</td>
-                          <td>Upto 15</td>
-                          <td>TBD</td>
-                          <td>TBD</td>
-                        </tr>
-                        {tableData2.map((value, i) => {
-                          return (
-                            <tr key={i}>
-                              <td>{value.col1}</td>
-                              <td>
-                                {" "}
-                                {value.col2 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col2 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col2
-                                )}
-                              </td>
-                              <td>
-                                {value.col3 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col3 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col3
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col4 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col4 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col4
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col5 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col5 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col5
-                                )}
-                              </td>
-                              <td className="text-center">
-                                {value.col6 === "true" ? (
-                                  <img
-                                    src="assets/images/tick.svg"
-                                    alt="tick"
-                                  />
-                                ) : value.col6 === "false" ? (
-                                  <img
-                                    src="assets/images/crossed.svg"
-                                    alt="crossed"
-                                  />
-                                ) : (
-                                  value.col6
-                                )}
-                              </td>
-                            </tr>
-                          );
-                        })}
+                      <table className="table-web-development table">
+                        <thead>
                           <tr>
-                          <td>Pricing</td>
-                          <td><button className="package-btn">ENQUIRE</button></td>
-                          <td><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                          <td className="text-center"><button className="package-btn">ENQUIRE</button></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                            <th>Deliverables</th>
+                            <th className="bg-blue-4">StartUp</th>
+                            <th className="bg-blue-4">Enterepreneur</th>
+                            <th className="bg-blue-4">Wantrepreneur</th>
+                            <th className="bg-blue-4">E- Commerce</th>
+                            <th className="bg-blue-4">Custom</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>No. of Pages</td>
+                            <td>Upto 5</td>
+                            <td>Upto 10</td>
+                            <td>Upto 15</td>
+                            <td>TBD</td>
+                            <td>TBD</td>
+                          </tr>
+                          {tableData2.map((value, i) => {
+                            return (
+                              <tr key={i}>
+                                <td>{value.col1}</td>
+                                <td>
+                                  {" "}
+                                  {value.col2 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col2 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col2
+                                  )}
+                                </td>
+                                <td>
+                                  {value.col3 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col3 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col3
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col4 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col4 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col4
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col5 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col5 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col5
+                                  )}
+                                </td>
+                                <td className="text-center">
+                                  {value.col6 === "true" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/tick.svg"
+                                      alt="tick"
+                                    />
+                                  ) : value.col6 === "false" ? (
+                                    <img
+                                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/crossed.svg"
+                                      alt="crossed"
+                                    />
+                                  ) : (
+                                    value.col6
+                                  )}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                          <tr>
+                            <td>Pricing</td>
+                            <td>
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td>
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                            <td className="text-center">
+                              <button className="package-btn">ENQUIRE</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
-                 
                 </div>
               </div>
             </div>

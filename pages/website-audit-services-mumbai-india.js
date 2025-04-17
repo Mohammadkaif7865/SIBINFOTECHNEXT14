@@ -68,10 +68,10 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                Website Audit Services for Optimal Performance
+                  Website Audit Services for Optimal Performance
                 </h1>
                 <h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">
-                Expert Audit Services in Mumbai, India
+                  Expert Audit Services in Mumbai, India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -146,7 +146,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="corporateRight">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-delhi.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/corporate-website-designing-company-in-delhi.png"
                   alt="Corporate website designing company"
                 />
               </div>
@@ -160,7 +160,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="leftDigiSer">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-mumbai.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/corporate-website-designing-company-in-mumbai.png"
                   className="imgAnimation"
                   alt="Corporate website designing company in mumbai"
                 />
@@ -243,7 +243,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/affordable-cost.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/affordable-cost.svg"
                   alt="Affordable cost"
                 />
               </div>
@@ -255,7 +255,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/happy-customer.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/happy-customer.svg"
                   alt="Happy customer"
                 />
               </div>
@@ -267,7 +267,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/latest-tools.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/latest-tools.svg"
                   alt="Latest tools"
                 />
               </div>
@@ -281,7 +281,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/cutomer-relationship.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/cutomer-relationship.svg"
                   alt="Customer relationship"
                 />
               </div>
@@ -295,7 +295,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/achievement.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/achievement.svg"
                   alt="Achievement"
                 />
               </div>

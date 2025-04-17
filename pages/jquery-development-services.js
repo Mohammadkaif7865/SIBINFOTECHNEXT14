@@ -73,7 +73,7 @@ export default function JqueryDevelopmentServices() {
                   Jquery Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Jquery Development Company in India
+                  Top Rated Jquery Development Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
@@ -164,7 +164,7 @@ export default function JqueryDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Jquery Development Companies in Mumbai"
                 />
               </div>
@@ -286,7 +286,7 @@ export default function JqueryDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Jquery Development Companies in India"
                 />
               </div>

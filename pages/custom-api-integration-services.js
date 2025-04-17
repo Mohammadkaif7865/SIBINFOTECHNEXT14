@@ -4,7 +4,7 @@ import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ApiIntegrationServices() {
   const metaTags = (
@@ -106,9 +106,7 @@ export default function ApiIntegrationServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"Custom API Integration"}
-        />
+        <Breadcrumb Pagetitle={"Custom API Integration"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -126,9 +124,7 @@ export default function ApiIntegrationServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Custom API Integration"}
-        />
+        <Breadcrumb Pagetitle={"Custom API Integration"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -177,7 +173,7 @@ export default function ApiIntegrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Top API Integration Services"
                 />
               </div>
@@ -271,7 +267,7 @@ export default function ApiIntegrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Best Application Programming Interface Company in Mumbai"
                 />
               </div>

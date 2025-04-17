@@ -187,7 +187,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="M Commerc"
                   className="img-fluid"
                 />
@@ -221,7 +221,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="M Commerce Solution in Mumbai"
                   className="img-fluid"
                 />
@@ -299,7 +299,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="M Commerce Solution Companies in India"
                   className="img-fluid"
                 />
@@ -380,7 +380,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="M Commerce Solution"
                   className="img-fluid"
                 />

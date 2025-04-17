@@ -162,7 +162,7 @@ export default function OnlineReputationManagementServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/best-orm-company-in-delhi.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-orm-company-in-delhi.svg"
                 alt="online-reputation-mangement-company-in-delhi"
               />
             </div>
@@ -195,7 +195,7 @@ export default function OnlineReputationManagementServices() {
             <div className="col-lg-6">
               <img
                 className="image-full"
-                src="assets/images/orm-companyinidia.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/orm-companyinidia.svg"
                 alt="Online Reputation Management"
               />
             </div>

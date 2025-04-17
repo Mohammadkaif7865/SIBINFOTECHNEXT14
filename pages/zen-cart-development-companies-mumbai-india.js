@@ -224,7 +224,7 @@ export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Zen Cart Development Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

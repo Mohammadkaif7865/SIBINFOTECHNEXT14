@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function AspnetDevelopmentCompanyMumbai() {
   const metaTags = (
@@ -107,11 +107,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "ASP.NET Development Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"ASP.NET Development Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -129,11 +125,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "ASP.NET Development Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"ASP.NET Development Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -181,7 +173,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
                 <img
                   alt="ASP.NET Development Services Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                 />
               </div>
             </div>

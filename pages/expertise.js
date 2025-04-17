@@ -130,7 +130,10 @@ export default function Expertise() {
             <div className="col-md-4 col-6">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/coding.png" alt="Web Development" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/coding.png"
+                    alt="Web Development"
+                  />
                 </div>
                 <div className="expertise-title">
                   <p>Web Development</p>
@@ -140,7 +143,10 @@ export default function Expertise() {
             <div className="col-md-4 col-6">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/responsive.png" alt="Web Design" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/responsive.png"
+                    alt="Web Design"
+                  />
                 </div>
                 <div className="expertise-title">
                   <p>Web Design</p>
@@ -150,7 +156,10 @@ export default function Expertise() {
             <div className="col-md-4 col-6 ">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/online-shop.png" alt="E-commerce" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/online-shop.png"
+                    alt="E-commerce"
+                  />
                 </div>
                 <div className="expertise-title">
                   <p>E-commerce Portals</p>
@@ -161,7 +170,7 @@ export default function Expertise() {
               <div className="expertise-box">
                 <div className="expertise-icon">
                   <img
-                    src="assets/images/seo.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo.png"
                     alt="Search Engine Optimization"
                   />
                 </div>
@@ -174,7 +183,7 @@ export default function Expertise() {
               <div className="expertise-box">
                 <div className="expertise-icon">
                   <img
-                    src="assets/images/digital-campaign.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/digital-campaign.png"
                     alt="Digital Marketing"
                   />
                 </div>
@@ -186,7 +195,10 @@ export default function Expertise() {
             <div className="col-md-4 col-6 ">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/brand.png" alt="Corporate Branding" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/brand.png"
+                    alt="Corporate Branding"
+                  />
                 </div>
                 <div className="expertise-title">
                   <p>Corporate Branding</p>

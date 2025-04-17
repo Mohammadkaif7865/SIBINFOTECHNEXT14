@@ -73,7 +73,7 @@ export default function CorporateWebsiteDesigningServices() {
                   Corporate Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-1 mt-lg-2 text-white">
-                  Best Corporate  Website Designing Company in India
+                  Best Corporate Website Designing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -108,11 +108,7 @@ export default function CorporateWebsiteDesigningServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            'Corporate Website Designing'
-          }
-        />
+        <Breadcrumb Pagetitle={"Corporate Website Designing"} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-md-none">
         <div className="bannerForm">
@@ -122,19 +118,15 @@ export default function CorporateWebsiteDesigningServices() {
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">Website Designing</span> Services
-              in India
+              Best <span className="textChange">Website Designing</span>{" "}
+              Services in India
             </strong>
           </p>
           <BannerForm />
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            'Corporate Website Designing'
-          }
-        />
+        <Breadcrumb Pagetitle={"Corporate Website Designing"} />
       </div>
       <section>
         <div className="containerFull">
@@ -156,7 +148,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="corporateRight">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-delhi.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/corporate-website-designing-company-in-delhi.png"
                   alt="Corporate website designing company"
                 />
               </div>
@@ -170,7 +162,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="leftDigiSer">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-mumbai.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/corporate-website-designing-company-in-mumbai.png"
                   className="imgAnimation"
                   alt="Corporate website designing company in mumbai"
                 />
@@ -253,7 +245,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/affordable-cost.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/affordable-cost.svg"
                   alt="Affordable cost"
                 />
               </div>
@@ -265,7 +257,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/happy-customer.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/happy-customer.svg"
                   alt="Happy customer"
                 />
               </div>
@@ -277,7 +269,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/latest-tools.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/latest-tools.svg"
                   alt="Latest tools"
                 />
               </div>
@@ -291,7 +283,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/cutomer-relationship.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/cutomer-relationship.svg"
                   alt="Customer relationship"
                 />
               </div>
@@ -305,7 +297,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="columnRow whyItemHeight">
               <div className="iconDigiServ">
                 <img
-                  src="assets/images/icons/achievement.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/achievement.svg"
                   alt="Achievement"
                 />
               </div>

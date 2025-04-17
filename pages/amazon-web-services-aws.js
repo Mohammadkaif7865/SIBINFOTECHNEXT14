@@ -5,7 +5,7 @@ import BannerForm from "../comps/BannerForm";
 
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function AmazonWebServicesAws() {
   const metaTags = (
@@ -108,7 +108,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className=" d-lg-none">
-      <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
+        <Breadcrumb Pagetitle={"Best Amazon Web Services"} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
@@ -126,7 +126,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
+        <Breadcrumb Pagetitle={"Best Amazon Web Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -163,7 +163,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Amazon Web Services Company in India"
                   className="img-fluid"
                 />
@@ -174,7 +174,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Amazon Web Services in Delhi"
                   className="img-fluid"
                 />
@@ -268,7 +268,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/article-submission.png"
                   alt="Amazon Web Services in Delhi"
                   className="img-fluid"
                 />

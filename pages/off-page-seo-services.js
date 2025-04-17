@@ -162,7 +162,7 @@ export default function OffPageSeoServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/off-page-seo-company-india.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/off-page-seo-company-india.png"
                 alt="off-page-seo-company-in-india"
               />
             </div>
@@ -186,7 +186,7 @@ export default function OffPageSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/off-page-seo-link-building.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-link-building.svg"
                       alt="off-page-seo-link-building"
                     />
                   </div>
@@ -205,7 +205,7 @@ export default function OffPageSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/off-page-seo-brand-mention.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-brand-mention.svg"
                       alt="off-page-seo-brand-mention"
                     />
                   </div>
@@ -228,7 +228,7 @@ export default function OffPageSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/off-page-seo-social-media-marketing.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-social-media-marketing.svg"
                       alt="off-page-seo-social-media-marketing"
                     />
                   </div>
@@ -245,7 +245,7 @@ export default function OffPageSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/off-page-seo-guest-blogging.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-guest-blogging.svg"
                       alt="off-page-seo-guest-blogging"
                     />
                   </div>
@@ -264,7 +264,7 @@ export default function OffPageSeoServices() {
                 <div className="off-page-seo-box-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/off-page-seo-keywords.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-keywords.svg"
                       alt="off-page-seo-keywords"
                     />
                   </div>
@@ -348,28 +348,28 @@ export default function OffPageSeoServices() {
               <div className="off-page-seo-important-box-row">
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-engine-rankings.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-engine-rankings.svg"
                     alt="off-page-seo-engine-rankings"
                   />
                   <h5>Higher search engine rankings</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-page-rank.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-page-rank.svg"
                     alt="off-page-seo-increase-page-rank"
                   />
                   <h5>Increased PageRank</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-expanded-exposure.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-expanded-exposure.svg"
                     alt="off-page-seo-expanded-exposure"
                   />
                   <h5>Expanded exposure</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-embeded-trust.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-embeded-trust.svg"
                     alt="off-page-seo-embeded-trust"
                   />
                   <h5>Embed trust among the audience</h5>
@@ -378,28 +378,28 @@ export default function OffPageSeoServices() {
               <div className="off-page-seo-important-box-row">
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-brings-the-right-traffic.svg"
                     alt="off-page-seo-website-traffic"
                   />
                   <h5>Brings the right traffic to your website</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-conversion.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-conversion.svg"
                     alt="off-page-seo-increase-conversion"
                   />
                   <h5>Increases conversions</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-lead-generation.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-lead-generation.svg"
                     alt="off-page-seo-lead-generation"
                   />
                   <h5>Lead generation</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-boost-brand-awareness.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-boost-brand-awareness.svg"
                     alt="off-page-seo-boost-brand-awareness"
                   />
                   <h5>Boosts brand awareness</h5>
@@ -408,14 +408,14 @@ export default function OffPageSeoServices() {
               <div className="off-page-seo-important-box-row">
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-highly-ecomocial.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-highly-ecomocial.svg"
                     alt="off-page-seo-highly-ecomocial"
                   />
                   <h5>Highly economical</h5>
                 </div>
                 <div className="off-page-seo-important-box">
                   <img
-                    src="assets/images/icons/off-page-seo-increase-visibility.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/off-page-seo-increase-visibility.svg"
                     alt="off-page-seo-increase-visibility"
                   />
                   <h5>Increases visibility of your brand</h5>

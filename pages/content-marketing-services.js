@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function ContentMarketingServices() {
   const metaTags = (
@@ -75,7 +75,7 @@ export default function ContentMarketingServices() {
                   Content Marketing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Content Marketing  Company in India
+                  Top Rated Content Marketing Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -107,11 +107,7 @@ export default function ContentMarketingServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "Content Marketing Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Content Marketing Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -129,11 +125,7 @@ export default function ContentMarketingServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "Content Marketing Services"
-          }
-        />
+        <Breadcrumb Pagetitle={"Content Marketing Services"} />
       </div>
       <section>
         <div className="containerFull">
@@ -178,7 +170,7 @@ export default function ContentMarketingServices() {
             <div className="col-md-6">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/content-marketing-management-in-mumbai.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/content-marketing-management-in-mumbai.svg"
                 alt="content-marketing-management-company-in-mumbai"
               />
               <p className="customText">
@@ -222,21 +214,21 @@ export default function ContentMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/content-marketing-firm.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-firm.svg"
                     alt="content-marketing-firm"
                   />
                   <h4 className="fontHeading">Faster sales</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/content-marketing-firm-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-firm-in-india.svg"
                     alt="content-marketing-firm-in-india"
                   />
                   <h4 className="fontHeading">Boosted lead generation</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/blog-management-website-traffic.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/blog-management-website-traffic.svg"
                     alt="content-marketing-firms-delhi"
                   />
                   <h4 className="fontHeading">Increased traffic</h4>
@@ -245,7 +237,7 @@ export default function ContentMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/local-seo-company-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-delhi.svg"
                     alt="content-marketing-firm-in-mumbai"
                   />
                   <h4 className="fontHeading">
@@ -254,14 +246,14 @@ export default function ContentMarketingServices() {
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/local-seo-company-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-india.svg"
                     alt="content-marketing-company-in-india"
                   />
                   <h4 className="fontHeading">Measurable results</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/local-seo-company-in-mumbai.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-company-in-mumbai.svg"
                     alt="content-marketing-company-in-mumbai"
                   />
                   <h4 className="fontHeading">Higher SEO rankings</h4>
@@ -270,21 +262,21 @@ export default function ContentMarketingServices() {
               <div className="middle-row">
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/local-seo-companies-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-companies-in-delhi.svg"
                     alt="content-marketing-company-in-delhi"
                   />
                   <h4 className="fontHeading">Reputation building</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/influencer-marketing-targeted-audience.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/influencer-marketing-targeted-audience.svg"
                     alt="content-marketing-agencies-in-india"
                   />
                   <h4 className="fontHeading">Brand awareness</h4>
                 </div>
                 <div className="middle-box middle-box-ex-width">
                   <img
-                    src="assets/images/icons/content-marketing-firm-in-mumbai.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-firm-in-mumbai.svg"
                     alt="content-marketing-agency-in-mumbai"
                   />
                   <h4 className="fontHeading">Expense-saver</h4>
@@ -300,7 +292,7 @@ export default function ContentMarketingServices() {
             <div className="col-lg-3">
               <div className="content-marketing-box">
                 <img
-                  src="assets/images/icons/content-marketing-product-consideration.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-product-consideration.svg"
                   alt="content-marketing-product-consideration"
                 />
                 <h4 className="fontHeading">Brand awareness</h4>
@@ -315,7 +307,7 @@ export default function ContentMarketingServices() {
             <div className="col-lg-3">
               <div className="content-marketing-box">
                 <img
-                  src="assets/images/icons/content-marketing-user-interest.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-user-interest.svg"
                   alt="content-marketing-user-interest"
                 />
                 <h4 className="fontHeading">User interest</h4>
@@ -330,7 +322,7 @@ export default function ContentMarketingServices() {
             <div className="col-lg-3">
               <div className="content-marketing-box">
                 <img
-                  src="assets/images/icons/content-marketing-brand-awareness.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-brand-awareness.svg"
                   alt="content-marketing-brand-awareness"
                 />
                 <h4 className="fontHeading">Product consideration</h4>
@@ -345,7 +337,7 @@ export default function ContentMarketingServices() {
             <div className="col-lg-3">
               <div className="content-marketing-box">
                 <img
-                  src="assets/images/icons/content-marketing-sales.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-sales.svg"
                   alt="content-marketing-sales"
                 />
                 <h4 className="fontHeading">Sales</h4>
@@ -420,7 +412,7 @@ export default function ContentMarketingServices() {
             <div className="col-lg-6">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/content-writting-firm-in-india.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/content-writting-firm-in-india.svg"
                 alt="content-marketing-company-in-india"
               />
             </div>
@@ -467,7 +459,7 @@ export default function ContentMarketingServices() {
                   </div>
                   <div className="content-marketing-box2-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-goals-2.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-goals-2.svg"
                       alt="content-marketing-goals"
                     />
                   </div>
@@ -478,7 +470,7 @@ export default function ContentMarketingServices() {
                 <div className="content-marketing-box3">
                   <div className="content-marketing-box3-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-audience-analytics.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-audience-analytics.svg"
                       alt="content-marketing-audience-analysis"
                     />
                   </div>
@@ -514,7 +506,7 @@ export default function ContentMarketingServices() {
                   </div>
                   <div className="content-marketing-box2-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-website-analysis.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-website-analysis.svg"
                       alt="content-marketing-website-analysis"
                     />
                   </div>
@@ -525,7 +517,7 @@ export default function ContentMarketingServices() {
                 <div className="content-marketing-box3">
                   <div className="content-marketing-box3-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-key-indicaters.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-key-indicaters.svg"
                       alt="content-marketing-key-indicaters"
                     />
                   </div>
@@ -557,7 +549,7 @@ export default function ContentMarketingServices() {
                   </div>
                   <div className="content-marketing-box2-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-channels.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-channels.svg"
                       alt="content-marketing-channels"
                     />
                   </div>
@@ -568,7 +560,7 @@ export default function ContentMarketingServices() {
                 <div className="content-marketing-box3">
                   <div className="content-marketing-box3-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-planning.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-planning.svg"
                       alt="content-marketing-planning"
                     />
                   </div>
@@ -600,7 +592,7 @@ export default function ContentMarketingServices() {
                   </div>
                   <div className="content-marketing-box2-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-creation.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-creation.svg"
                       alt="content-marketing-creation"
                     />
                   </div>
@@ -610,7 +602,7 @@ export default function ContentMarketingServices() {
                 <div className="content-marketing-box3">
                   <div className="content-marketing-box3-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-reporting.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-reporting.svg"
                       alt="content-marketing-reporting-and-static"
                     />
                   </div>
@@ -641,7 +633,7 @@ export default function ContentMarketingServices() {
                   </div>
                   <div className="content-marketing-box2-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-types.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-types.svg"
                       alt="content-marketing-types"
                     />
                   </div>
@@ -652,7 +644,7 @@ export default function ContentMarketingServices() {
                 <div className="content-marketing-box3">
                   <div className="content-marketing-box3-img-box">
                     <img
-                      src="assets/images/icons/content-marketing-distribution.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/content-marketing-distribution.svg"
                       alt="content-marketing-distribution"
                     />
                   </div>
