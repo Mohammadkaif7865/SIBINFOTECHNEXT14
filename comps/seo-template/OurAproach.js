@@ -3,30 +3,44 @@ import React from "react";
 const OurAproach = () => {
   const seoMiniFeatures = [
     {
-      number: "01",
-      title: "Keyword Research",
-      description:
-        "We identify high-impact keywords tailored to your target audience, industry, and goals.",
+      phase: "Strategy & Research",
+      services: [
+        "Organic SEO Strategy Building",
+        "Detailed Competitor Analysis",
+        "Audience Requirements Analysis",
+        "Keyword Research",
+        "Website SEO Audit",
+      ],
     },
     {
-      number: "02",
-      title: "Content Optimization",
-      description:
-        "We identify high-impact keywords tailored to your target audience, industry, and goals.",
+      phase: "Website Optimization",
+      services: [
+        "Website Optimization",
+        "Quality Content and Copywriting",
+        "Resolve Technical Issues",
+        "Analytics and Data Tracking Setup",
+        "Sitemap Submission",
+      ],
     },
     {
-      number: "03",
-      title: "Technical SEO Tools",
-      description:
-        "We identify high-impact keywords tailored to your target audience, industry, and goals.",
+      phase: "Implementation & Link Building",
+      services: [
+        "Authentic and Quality Link Building",
+        "Local SEO Optimization",
+        "Off page SEO",
+        "On page SEO",
+      ],
     },
     {
-      number: "04",
-      title: "Performance Tracking",
-      description:
-        "We identify high-impact keywords tailored to your target audience, industry, and goals.",
+      phase: "Reporting & Monitoring",
+      services: [
+        "Monthly Reporting and performance",
+        "Conversion Goal Optimisation",
+        "Regular Trend Analysis",
+        "Client Review",
+      ],
     },
-  ];
+  ]
 
   return (
     <section>
@@ -35,7 +49,7 @@ const OurAproach = () => {
           <div className="col-lg-6">
             <h5 className="fontWeight500">Our Approach</h5>
             <h4 className="heading fontWeight600 mt-3 text_red">
-              Step by Step guide to <br /> SEO success
+              Our 4 Step SEO Process Key to SEO Success.
             </h4>
           </div>
           <div className="col-lg-6 ps-lg-6">
@@ -47,17 +61,19 @@ const OurAproach = () => {
           </div>
         </div>
         <div className="row mt-5">
-          {seoMiniFeatures.map((value, index) => {
-            return (
-              <div className="col-lg-3">
-                <div className="item_approach">
-                  <h2 >{value.number}</h2>
-                  <h4 className="mt-4 ">{value.title}</h4>
-                  <p className="mt-2">{value.description}</p>
-                </div>
+        {seoMiniFeatures.map((value, index) => (
+            <div className="col-lg-3" key={index}>
+              <div className="item_approach o ">
+                <h2>0{index + 1}</h2>
+                <h4 className="mt-4">{value.phase}</h4>
+                <ul className="mt-2 ourapproach_ul">
+                  {value.services.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </div>
     </section>

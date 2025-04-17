@@ -22,6 +22,7 @@ import OutsourcingServices from "../SEO2/OutsourcingServices";
 import SeoAudit from "../SEO2/SeoAudit";
 import Faqs from "../SEO2/Faqs";
 import OurAproach from "./OurAproach";
+import Partnership from "../WhiteLabel/Partnership";
 
 const Seo = () => {
   const seoServices = [
@@ -29,13 +30,13 @@ const Seo = () => {
       title: ` On-Page SEO  <br class="d-none d-md-lg "/> Optimization`,
       description:
         "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
     },
     {
       title: `Off-Page SEO & <br class="d-none d-md-lg "/> Link Building`,
       description:
         "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
-      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
     },
     {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services `,
@@ -47,25 +48,25 @@ const Seo = () => {
       title: `Local SEO <br class="d-none d-md-lg "/> Services `,
       description:
         "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
-      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
     },
     {
       title: `E-Commerce SEO <br class="d-none d-md-lg "/>  Services `,
       description:
         "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
-      img: "/assets/images/white-lable/White-Label-Google-ads.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
     {
       title: `Mobile SEO  `,
       description:
         "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
-      img: "/assets/images/white-lable/White-label-link-building.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
     },
     {
       title: ` SEO Content <br class="d-none d-md-lg "/>   Writing Services  `,
       description:
         "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
-      img: "/assets/images/white-lable/White-label-link-building.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
     },
   ];
   const keyAdvantages = [
@@ -267,6 +268,55 @@ AI-Driven SEO Strategy `,
       description: `We are a five star rated SEO Agency in Mumbai, Delhi & Across India `,
     },
   ];
+
+  const agencyWorkflow = [
+    {
+      title: "Strategy<br/> & Research",
+      description: `
+        <ul class="ourapproach_ul">
+          <li>Organic SEO Strategy Building</li>
+          <li>Detailed Competitor Analysis</li>
+          <li>Audience Requirements Analysis</li>
+          <li>Keyword Research</li>
+          <li>Website SEO Audit</li>
+        </ul>
+      `,
+    },
+    {
+      title: "Website <br/> Optimization",
+      description: `
+        <ul class="ourapproach_ul">
+          <li>Website Optimization</li>
+          <li>Quality Content and Copywriting</li>
+          <li>Resolve Technical Issues</li>
+          <li>Analytics and Data Tracking Setup</li>
+          <li>Sitemap Submission</li>
+        </ul>
+      `,
+    },
+    {
+      title: "Implementation <br/>& Link Building",
+      description: `
+        <ul class="ourapproach_ul">
+          <li>Authentic and Quality Link Building</li>
+          <li>Local SEO Optimization</li>
+          <li>Off page SEO</li>
+          <li>On page SEO</li>
+        </ul>
+      `,
+    },
+    {
+      title: "Reporting <br/> & Monitoring",
+      description: `
+        <ul class="ourapproach_ul">
+          <li>Monthly Reporting and performance</li>
+          <li>Conversion Goal Optimisation</li>
+          <li>Regular Trend Analysis</li>
+          <li>Client Review</li>
+        </ul>
+      `,
+    },
+  ];
   return (
     <div>
       <div className="innerWebDesign whiteLable" id="contact">
@@ -385,6 +435,13 @@ AI-Driven SEO Strategy `,
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
+      />
+      <Partnership 
+      agencyWorkflow={agencyWorkflow}
+      title={'Our 4 Step SEO '}
+      subtitle={'Process Key to SEO Success.'}
+      rightDiscription={' Our process simplifies SEO into clear, actionable steps keyword research and content optimization to link building and performance tracking, we ensure your website achieves sustainable.'} 
+      tagline={'Seamless, Scalable, and Results-Driven'}
       />
       <OurAproach />
       {/* <SeoProcess /> */}

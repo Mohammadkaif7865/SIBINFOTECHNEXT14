@@ -5,6 +5,7 @@ import BrandBuild from "../Home/BrandBuild";
 import SIBPower from "../Home/SIBPower";
 import Database from "./Database";
 import WhySIB from "../Home/WhySIB";
+import CaseStudy2 from "../Home/CaseStudy2";
 
 const WebDevelopment = () => {
   const about3Data = {
@@ -226,6 +227,9 @@ const WebDevelopment = () => {
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
+      />
+        <CaseStudy2
+        description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
       />
     </div>
   );

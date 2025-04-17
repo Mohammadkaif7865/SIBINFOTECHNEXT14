@@ -55,6 +55,32 @@ const markers = [
   { name: "Sydney", coordinates: [151.2093, -33.8688] },
   { name: "Melbourne", coordinates: [144.9631, -37.8136] },
 ];
+const agencyCards = [
+  {
+    title: "Digital Marketing Agency in Mumbai",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in Delhi",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in London",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in Vietnam",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in New Zealand",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in UAE",
+    image: "our-footprint-white-revise.jpg",
+  },
+];
 
 const Map = () => {
   return (
@@ -135,15 +161,27 @@ const Map = () => {
           </div>
         </div>
       </div>
-      {/* <div className="containerFull">
-        <img
-          style={{
-            mixBlendMode: "color-dodge",
-          }}
-          className="w-100"
-          src="/assets/images/Our-Footprint.jpg"
-        />
-      </div> */}
+
+      <div className="containerFull">
+        <div className="row mt-lg-4 mt-2">
+          {agencyCards.map((item, index) => {
+            return (
+              <div className="col-lg-2 col-6  mb-3 ">
+                <div className="img_cities">
+                  <div className="img_box">
+                    <img
+                      className="w-75 d-block mx-auto"
+                      src="/assets/images/city.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p className="mt-2">{item.title}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 };
