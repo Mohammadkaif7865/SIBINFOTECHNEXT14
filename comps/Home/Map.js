@@ -58,7 +58,7 @@ const markers = [
 
 const Map = () => {
   return (
-    <section className="trusted b">
+    <section className="trusted ">
       {/* <h4 className="mb-4 text-center large_heading2 fontHeading2 fontWeight300 text-white">
         Across The <span className="fontWeight600">Globe Presence</span>
       </h4> */}
@@ -135,7 +135,7 @@ const Map = () => {
           </div>
         </div>
       </div>
-      <div className="containerFull">
+      {/* <div className="containerFull">
         <img
           style={{
             mixBlendMode: "color-dodge",
@@ -143,7 +143,7 @@ const Map = () => {
           className="w-100"
           src="/assets/images/Our-Footprint.jpg"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
