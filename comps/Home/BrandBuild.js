@@ -16,7 +16,10 @@ const BrandBuild = ({ title, description, faqData, subtitle }) => {
             ></h4>
           </div>
           <div className="col-lg-6 ps-3">
-            <h5 className="fontWeight600 sub_heading"  dangerouslySetInnerHTML={{ __html: subtitle }}></h5>
+            <h5
+              className="fontWeight600 sub_heading"
+              dangerouslySetInnerHTML={{ __html: subtitle }}
+            ></h5>
 
             <p
               className="title mt-3"
@@ -30,7 +33,7 @@ const BrandBuild = ({ title, description, faqData, subtitle }) => {
             <div className="d-flex">
               <Image
                 className="w-75 h-100 mx-auto"
-                src="/assets/images/phone-seo-local-squares.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/phone-seo-local-squares.png"
                 width={500}
                 height={400}
                 alt=""

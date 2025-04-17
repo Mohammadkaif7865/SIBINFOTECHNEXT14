@@ -39,9 +39,7 @@ const Conversions = () => {
   return (
     <section className="homeBanner">
       <div className="containerFull">
-        <h5 className="fontWeight600 text-center text-white">
-          Our Facts
-        </h5>
+        <h5 className="fontWeight600 text-center text-white">Our Facts</h5>
 
         <h4 class=" text-center large_heading2 mt-4 fontHeading2 fontWeight600  fontHeading2 text_white">
           Turning Clicks into Conversions.
@@ -132,7 +130,7 @@ const Conversions = () => {
               <Image
                 width="500"
                 height="500"
-                src="/assets/images/center-mobile-conversion.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/center-mobile-conversion.png"
               />
             </div>
           </div>

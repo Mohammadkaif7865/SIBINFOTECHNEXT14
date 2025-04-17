@@ -91,7 +91,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/web-design (2).png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/web-design (2).png"
                       alt="Custom Designs Icon"
                     />
                     <span>Custom Designs for Every Need</span>
@@ -100,7 +100,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/back-in-time.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/back-in-time.png"
                       alt="Lightning-Fast Turnaround Icon"
                     />
                     <span>Lightning-Fast Turnaround</span>
@@ -109,7 +109,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/pixel.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/pixel.png"
                       alt="Pixel-Perfect Quality Icon"
                     />
                     <span>Pixel-Perfect Quality</span>
@@ -118,7 +118,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/creativity (1).png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/creativity (1).png"
                       alt="Creative & Unique Concepts Icon"
                     />
                     <span>Creative & Unique Concepts</span>
@@ -127,7 +127,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/target.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/target.png"
                       alt="Brand-Focused Designs Icon"
                     />
                     <span>Brand-Focused Designs</span>
@@ -136,7 +136,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/price.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/price.png"
                       alt="Affordable & Transparent Pricing Icon"
                     />
                     <span>Affordable & Transparent Pricing</span>

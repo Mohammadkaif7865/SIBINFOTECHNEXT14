@@ -339,6 +339,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "savit.in",
       },
+      {
+        protocol: "https",
+        hostname: "visa-project.blr1.cdn.digitaloceanspaces.com",
+      },
     ],
   },
 

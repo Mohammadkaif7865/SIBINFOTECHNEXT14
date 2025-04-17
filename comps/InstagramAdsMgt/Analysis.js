@@ -8,7 +8,9 @@ const Analysis = () => {
         <div className="row">
           <div className="col-lg-6 order-lg-1 order-2 mt-3 mt-lg-0">
             <div className="insta-services-content-section">
-              <h3 className="margin-bottom fontHeading">Analysis of competitor content</h3>
+              <h3 className="margin-bottom fontHeading">
+                Analysis of competitor content
+              </h3>
               <p className="customText">
                 Determination of audience is very important aspect in Instagram
                 advertising because you are going to establish your brand value
@@ -46,7 +48,7 @@ const Analysis = () => {
                 height={450}
                 quality={100}
                 className="image-full h-auto"
-                src="/assets/images/best-mobile-seo-company-in-delhi.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/best-mobile-seo-company-in-delhi.png"
                 alt="best-mobile-seo-company-in-delhi"
               />
             </div>

@@ -27,13 +27,16 @@ const Cta = () => {
             <div className="col-md-6 mt-4 mt-md-0">
               <div className="content w-100 z-3 position-relative">
                 <p>
-                  <img src="/assets/images/icons/double-tick-icon.svg" alt="" />
+                  <img
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/double-tick-icon.svg"
+                    alt=""
+                  />
                   Maintain Confidentiality
                 </p>
                 <p className="mt-2">
                   {" "}
                   <img
-                    src="/assets/images/icons/double-tick-icon.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/double-tick-icon.svg"
                     alt=""
                   />{" "}
                   Outsource with Confidence
@@ -41,7 +44,10 @@ const Cta = () => {
               </div>
 
               <div className="z-3 position-relative mt-4 scaling-fade d-flex justify-content-center d-md-none">
-                <Link className="text-white small_heading text-center w-100 d-block" href="/contact">
+                <Link
+                  className="text-white small_heading text-center w-100 d-block"
+                  href="/contact"
+                >
                   Let’s Grow With US{" "}
                   <i class="fa-solid fa-arrow-right ms-2"></i>
                 </Link>

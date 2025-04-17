@@ -13,7 +13,7 @@ const Objective = () => {
                 height={450}
                 quality={100}
                 className="image-full h-auto "
-                src="/assets/images/instagram-ads-business-objective.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-business-objective.png"
                 alt="instagram-ads-business-objective"
               />
             </div>
@@ -30,7 +30,9 @@ const Objective = () => {
                 these objectives have different KPI and matrix to track.
               </p>
               <span className="divider2">&nbsp;</span>
-              <h3 className="margin-bottom fontHeading">Schedule Content in advance</h3>
+              <h3 className="margin-bottom fontHeading">
+                Schedule Content in advance
+              </h3>
               <p className="customText">
                 In order to avoid any discrepancy in Instagram advertising it is
                 very important to schedule the content in advance.

@@ -52,7 +52,7 @@ const About = () => {
                   className=""
                   width="400"
                   height={400}
-                  src="/assets/images/demo-2-about-img-1.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/demo-2-about-img-1.jpg"
                   alt=""
                 />
               </div>
@@ -61,7 +61,7 @@ const About = () => {
                   className=""
                   width="400"
                   height={400}
-                  src="/assets/images/demo-2-about-img-1.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/demo-2-about-img-1.jpg"
                   alt=""
                 />
               </div>
@@ -80,7 +80,7 @@ const About = () => {
                   <img
                     className="m-2"
                     width={35}
-                    src="/assets/images/google-map-icon.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-map-icon.svg"
                     alt=" "
                   />
                 </div>

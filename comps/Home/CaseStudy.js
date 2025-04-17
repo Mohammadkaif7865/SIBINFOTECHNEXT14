@@ -21,7 +21,10 @@ const CaseStudy = () => {
         <div className="row align-items-center">
           <div className="col-lg-7">
             <h4 className="large_heading2 fontHeading2 fontWeight300  fontHeading2 text_red">
-              Client <span className="fontWeight600">Winning Strategies & Tangible Results</span>
+              Client{" "}
+              <span className="fontWeight600">
+                Winning Strategies & Tangible Results
+              </span>
             </h4>
             <p className="title fontWeight600 mt-3">
               Our Results Speak for Themselves
@@ -63,14 +66,14 @@ const CaseStudy = () => {
                         <div className="ps-2 pt-2">
                           <img
                             width={100}
-                            src="/assets/images/success-story/crunky-frunky.png"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/crunky-frunky.png"
                             alt=""
                           />
                         </div>
                         <div className="middle-img">
                           <img
                             className=""
-                            src="/assets/images/success-story/Crunky-Funky.png"
+                            src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Crunky-Funky.png"
                             alt=""
                           />
                         </div>
@@ -95,7 +98,7 @@ const CaseStudy = () => {
                               <div className="item_satates ">
                                 <img
                                   className=""
-                                  src="/assets/images/success-story/ROAs.svg"
+                                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/ROAs.svg"
                                   alt=""
                                 />
                                 <h4 className="fontHeading2">128K</h4>
@@ -105,7 +108,7 @@ const CaseStudy = () => {
                             <div className="col-lg-6 ">
                               <div className="item_satates">
                                 <img
-                                  src="/assets/images/success-story/ROAs.svg"
+                                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/ROAs.svg"
                                   alt=""
                                 />
                                 <h4>128K</h4>

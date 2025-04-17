@@ -12,14 +12,14 @@ const Abbout3 = () => {
               <Image
                 width={370}
                 height={500}
-                src="/assets/images/aboout-3.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/aboout-3.png"
                 alt=""
                 className="img-fluid img-about-3-1 shadow"
               />
               <Image
                 width={400}
                 height={500}
-                src="/assets/images/about-3-2.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/about-3-2.png"
                 alt=""
                 className="img-fluid img-about-3-2 shadow"
               />

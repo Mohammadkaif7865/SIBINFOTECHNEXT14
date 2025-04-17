@@ -972,7 +972,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="/assets/images/strategy-3.svg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/strategy-3.svg"
                 alt="Top Custom Software Development Company in Mumbai"
               />
             </div>

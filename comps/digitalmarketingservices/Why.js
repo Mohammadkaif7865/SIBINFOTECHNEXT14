@@ -15,7 +15,7 @@ const Why = () => {
                   width={500}
                   height={500}
                   quality={100}
-                  src="/assets/images/seo-company.jpg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-company.jpg"
                   alt="SEO Company"
                 />
               </div>

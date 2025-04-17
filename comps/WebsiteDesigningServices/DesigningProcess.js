@@ -13,7 +13,7 @@
 //           <div className="processItem  shadow border rounded">
 //             <div className="d-flex align-items-center justify-content-between">
 //               <div className="iconProcess">
-//                 <Image width={50} height={50} quality={100} className="w-100 h-auto "  src="/assets/images/icons/goal.png" alt="Goal" />
+//                 <Image width={50} height={50} quality={100} className="w-100 h-auto "  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/goal.png" alt="Goal" />
 //               </div>
 //               <h4 className="sub_heading Textnumber arrowRight">01</h4>
 //             </div>

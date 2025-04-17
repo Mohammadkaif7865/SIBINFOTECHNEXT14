@@ -9,11 +9,11 @@ const Determination = () => {
           <div className="col-lg-6">
             <div className="insta-services-img-section">
               <Image
-              width={450}
-              height={450}
-              quality={100}
+                width={450}
+                height={450}
+                quality={100}
                 className="h-auto image-full"
-                src="/assets/images/instagram-ads-audience.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-audience.png"
                 alt="instagram-ads-audience"
               />
             </div>

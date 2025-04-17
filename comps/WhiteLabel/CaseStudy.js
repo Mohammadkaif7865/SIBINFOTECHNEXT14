@@ -41,7 +41,6 @@ const CaseStudy = () => {
             spaceBetween={0}
             slidesPerView={1.5}
             centeredSlides={true}
-        
             loop={true}
             pagination={false}
             navigation={{
@@ -81,14 +80,14 @@ const CaseStudy = () => {
                 //         <div className="ps-2 pt-2">
                 //           <img
                 //             width={100}
-                //             src="/assets/images/success-story/crunky-frunky.png"
+                //             src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/crunky-frunky.png"
                 //             alt=""
                 //           />
                 //         </div>
                 //         <div className="middle-img mt-3">
                 //           <img
                 //             className=""
-                //             src="/assets/images/success-story/Crunky-Funky3.png"
+                //             src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/Crunky-Funky3.png"
                 //             alt=""
                 //           />
                 //         </div>
@@ -113,7 +112,7 @@ const CaseStudy = () => {
                 //               <div className="item_satates ">
                 //                 <img
                 //                   className=""
-                //                   src="/assets/images/success-story/ROAs.svg"
+                //                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/ROAs.svg"
                 //                   alt=""
                 //                 />
                 //                 <h4 className="fontHeading2">128K</h4>
@@ -123,7 +122,7 @@ const CaseStudy = () => {
                 //             <div className="col-6 ">
                 //               <div className="item_satates">
                 //                 <img
-                //                   src="/assets/images/success-story/ROAs.svg"
+                //                   src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-story/ROAs.svg"
                 //                   alt=""
                 //                 />
                 //                 <h4>128K</h4>
@@ -133,7 +132,6 @@ const CaseStudy = () => {
                 //           </div>
                 //           </div>
 
-                        
                 //         </div>
                 //       </div>
                 //     </div>
@@ -142,9 +140,12 @@ const CaseStudy = () => {
                 //   </div>
                 // </SwiperSlide>
                 <SwiperSlide>
-                  <img className="w-100" src={`/assets/images/success-story/item/${value}`} alt="" />
+                  <img
+                    className="w-100"
+                    src={`/assets/images/success-story/item/${value}`}
+                    alt=""
+                  />
                 </SwiperSlide>
-             
               );
             })}
           </Swiper>

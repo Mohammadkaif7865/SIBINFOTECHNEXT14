@@ -7,8 +7,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="wrapper">
-    
-
         <Header />
         {children}
         <Footer />
@@ -37,7 +35,7 @@ const Layout = ({ children }) => {
       <Script
         defer
         strategy="beforeInteractive"
-        src="/assets/js/custom.js"
+        src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/js/custom.js"
       ></Script>
     </>
   );

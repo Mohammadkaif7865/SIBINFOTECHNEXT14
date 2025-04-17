@@ -32,11 +32,11 @@ const Introduction = () => {
           <div className="col-lg-5">
             <div className="tiktok-img-section">
               <Image
-              width={400}
-              height={400}
-              quality={100}
+                width={400}
+                height={400}
+                quality={100}
                 className=" h-auto image-full "
-                src="/assets/images/instagram-ads-management-firm.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-management-firm.png"
                 alt="Instagram-Ads-Management-Agency"
               />
             </div>

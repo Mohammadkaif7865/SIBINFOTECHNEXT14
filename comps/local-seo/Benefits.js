@@ -63,7 +63,7 @@ const Benefits = () => {
             <div className="w-100 h-100 img_benifits  ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/local-seo/l-seo.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/l-seo.jpg"
                 alt=""
                 width="600"
                 height="500"

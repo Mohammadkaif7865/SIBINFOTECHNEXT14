@@ -31,7 +31,11 @@ const Cta2 = () => {
           </div>
           <div className="col-lg-4 d-none d-lg-block">
             <div className="content d-flex w-100 z-3 position-relative  ">
-              <img className="" src="/assets/images/success-arrow.svg" alt="" />
+              <img
+                className=""
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/success-arrow.svg"
+                alt=""
+              />
               {/* <div>
                 <p>Your Brand Name</p>
                 <p className="mt-2"> Our Services</p>

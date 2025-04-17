@@ -43,7 +43,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="Meta Partner Company"
-                    src="/assets/images/meta-partner.jpg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/meta-partner.jpg"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -53,7 +53,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="clutch Partner Company"
-                    src="/assets/images/clutch.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/clutch.png"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -63,7 +63,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="Shopify Partner Company"
-                    src="/assets/images/shopify-partner.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/shopify-partner.png"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -73,7 +73,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="Trustpilot Partner Company"
-                    src="/assets/images/trustpilot.jpg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/trustpilot.jpg"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -83,7 +83,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="Google Analytics Partner Company"
-                    src="/assets/images/google-analytics.jpg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-analytics.jpg"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -93,7 +93,7 @@ const PartnerBadges = () => {
                     height={100}
                     quality={100}
                     alt="Bing Partner Company"
-                    src="/assets/images/bing.png"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/bing.png"
                   />
                 </div>
               </div>

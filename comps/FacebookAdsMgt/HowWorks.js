@@ -8,7 +8,7 @@ const HowWorks = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <Image
-            //   fill
+              //   fill
               width={500}
               height={500}
               quality={100}
@@ -16,7 +16,7 @@ const HowWorks = () => {
                 objectFit: "contain",
               }}
               className="w-100 h-auto image-full imgAnimation "
-              src="/assets/images/facebook-ads-management-company-in-india.png"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/facebook-ads-management-company-in-india.png"
               alt="facebook-ads-maangement-company-in-delhi"
             />
           </div>

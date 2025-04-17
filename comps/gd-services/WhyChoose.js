@@ -52,7 +52,7 @@ const WhyChoose = () => {
                   <li key={index} className="item p-3  bgGray">
                     <div className="d-flex justify-content-center">
                       <Image
-                         src={`/assets/images/gd-services/${benefit.icon}`}
+                        src={`/assets/images/gd-services/${benefit.icon}`}
                         alt={benefit.title}
                         className=""
                         width="50"
@@ -64,7 +64,7 @@ const WhyChoose = () => {
                       <span className="d-block fontHeading fontWeight700 title text-center">
                         {benefit.title}
                       </span>
-                    
+
                       <span className=" mt-1 d-block text-dark text-center">
                         {benefit.description}
                       </span>
@@ -78,7 +78,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits  ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/gd-services/why-choose.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/why-choose.jpg"
                 alt=""
                 width="1050"
                 height="600"

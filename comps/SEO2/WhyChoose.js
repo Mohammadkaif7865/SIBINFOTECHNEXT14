@@ -13,7 +13,7 @@ const WhyChoose = () => {
                 height={400}
                 quality={100}
                 className=" w-100 h-auto"
-                src="/assets/images/seo-company.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-company.jpg"
                 alt="SEO Company"
               />
             </div>
@@ -24,9 +24,9 @@ const WhyChoose = () => {
                 We are more than just a SEO Company
               </h4>
               <p className="mt-3">
-                As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a
-                remarkable track record, successfully managing over{" "}
-                <strong>1350+ projects</strong> within distinct niches. Our
+                As a leading SEO marketing agency in Mumbai, India; we pride
+                ourselves on a remarkable track record, successfully managing
+                over <strong>1350+ projects</strong> within distinct niches. Our
                 dedicated teams specialize in various sectors, ensuring
                 businesses achieve top rankings. Whether its real estate SEO,
                 healthcare SEO, education SEO, or technology-based SEO, each

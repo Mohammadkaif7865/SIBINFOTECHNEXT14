@@ -13,7 +13,7 @@ const WhyChoose = () => {
                 height={400}
                 quality={100}
                 className=" w-100 h-auto"
-                src="/assets/images/seo-company.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/seo-company.jpg"
                 alt="SEO Company"
               />
             </div>

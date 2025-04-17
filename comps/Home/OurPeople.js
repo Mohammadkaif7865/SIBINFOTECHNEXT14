@@ -10,7 +10,7 @@ const OurPeople = () => {
           <div className="col-lg-6">
             <h4 class="title fontWeight600">Our Team</h4>
             <h4 className="large_heading2 fontHeading2 fontWeight300 mt-3  text_red">
-              Meet the Team Behind {" "}
+              Meet the Team Behind{" "}
               <span className="fontWeight600">Your Digital Success</span>
             </h4>
             <p className="mt-4">
@@ -41,7 +41,7 @@ const OurPeople = () => {
               <Image
                 width={500}
                 height={400}
-                src="/assets/images/sib-team.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/sib-team.jpg"
                 alt=""
               />
             </div>

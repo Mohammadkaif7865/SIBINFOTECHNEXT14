@@ -21,7 +21,9 @@ const Strategies = () => {
                 <li className="customText text-off-white">
                   Strategic content creation
                 </li>
-                <li className="customText text-off-white">Appealing ad designs</li>
+                <li className="customText text-off-white">
+                  Appealing ad designs
+                </li>
                 <li className="customText text-off-white">Ad monitoring</li>
                 <li className="customText text-off-white">Reporting</li>
               </ul>
@@ -37,7 +39,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linked-in-ads-management.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linked-in-ads-management.svg"
                     alt="Linkedin-Ads-Management"
                   />
                   <h4>Building brand awareness</h4>
@@ -48,7 +50,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linkedin-ads-management-company.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads-management-company.svg"
                     alt="Linkedin-Ads-Management-Company"
                   />
                   <h4>Lead generation</h4>
@@ -59,7 +61,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linkedin-ads-management-company-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads-management-company-in-delhi.svg"
                     alt="Linkedin-Ads-Management-Company-In-Delhi"
                   />
                   <h4>Website conversions</h4>
@@ -72,7 +74,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linkedin-ads-management-firm.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads-management-firm.svg"
                     alt="Linkedin-Ads-Management-Company-In-Delhi"
                   />
                   <h4>Brand visibility increment</h4>
@@ -83,7 +85,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linkedin-ads-firm-in-india.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads-firm-in-india.svg"
                     alt="Linkedin-Ads-Management-Firm-In-India"
                   />
                   <h4>Toughen brand reputation</h4>
@@ -94,7 +96,7 @@ const Strategies = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/images/icons/linkedin-ads-firm-in-delhi.svg"
+                    src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/linkedin-ads-firm-in-delhi.svg"
                     alt="Linkedin-Ads-Management-Firm-In-Mumbai"
                   />
                   <h4>Boosting website traffic</h4>

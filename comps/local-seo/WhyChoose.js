@@ -21,7 +21,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/local-seo/why-choose.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/why-choose.jpg"
                 alt=""
                 width="1050"
                 height="600"
@@ -32,8 +32,8 @@ const WhyChoose = () => {
             <div className="ps-lg-5">
               <h4 className="sub_heading fontHeading fontWeight700">
                 Why Choose
-                <span className="text_red"> SIB Infotech</span> {" "}for <span className="text_red">Local SEO
-                Services</span>
+                <span className="text_red"> SIB Infotech</span> for{" "}
+                <span className="text_red">Local SEO Services</span>
               </h4>
               <p className="mt-3">
                 A business should always invest in the best. Our optimization

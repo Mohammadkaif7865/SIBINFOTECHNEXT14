@@ -161,7 +161,7 @@ export default function SliderTestimonials() {
                   height={100}
                   quality={100}
                   className="w-100 h-auto"
-                  src="/assets/images/icons/left-quote.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/left-quote.png"
                   alt="Quote Icon"
                 />
               </div> */}

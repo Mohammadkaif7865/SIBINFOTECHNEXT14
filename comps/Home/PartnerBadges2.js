@@ -107,7 +107,7 @@ const PartnerBadges = () => {
                 <Image
                   width={500}
                   height={500}
-                  src="/assets/images/top-google-premium-partner-agencies-in-india.png"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/top-google-premium-partner-agencies-in-india.png"
                   alt="Google Partner"
                 />
               </div>
@@ -131,7 +131,7 @@ const PartnerBadges = () => {
               <Image
                 width={500}
                 height={500}
-                src="/assets/images/top-google-premium-partner-agencies-in-india.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/top-google-premium-partner-agencies-in-india.png"
                 alt="Google Partner"
               />
             </div>

@@ -34,7 +34,7 @@ const OutsourcingServices = () => {
               height={400}
               quality={100}
               className="bg-white border-2 shadow rounded-2  w-100 h-auto"
-              src="/assets/images/icons/no-lock.png"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/no-lock.png"
               alt=""
             />
           </div>

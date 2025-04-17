@@ -59,7 +59,7 @@ const WhyNeed = () => {
                   objectFit: "contain",
                 }}
                 className="image-full  imgAnimation "
-                src="/assets/images/facebook-ads-management-company-in-delhi.png"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/facebook-ads-management-company-in-delhi.png"
                 alt="facebook-ads-management-company-in-india"
               />
               <p className="customText">

@@ -296,7 +296,7 @@ export default function CustomCalculatorDevelopmentServices() {
                 className="calt-img-section"
                 style={{
                   background:
-                    "url(assets/images/instagram-ads-business-objective.png)",
+                    "url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-business-objective.png)",
                   backgroundSize: "cover",
                 }}
               >
@@ -690,7 +690,7 @@ export default function CustomCalculatorDevelopmentServices() {
                 className="calt-heading-section"
                 style={{
                   background:
-                    "url(assets/images/instagram-ads-business-objective.png)",
+                    "url(https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/instagram-ads-business-objective.png)",
                   backgroundSize: "cover",
                 }}
               >

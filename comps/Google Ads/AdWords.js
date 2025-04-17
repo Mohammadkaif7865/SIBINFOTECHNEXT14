@@ -143,7 +143,7 @@ const AdWords = () => {
           <div className="col-lg-6">
             <Image
               className="image-full imgAnimation"
-              src="/assets/images/google-ads-management-company-in-delhi.svg"
+              src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/google-ads-management-company-in-delhi.svg"
               alt="Google-Ads-Management-Company-In-India"
               width={600}
               height={400}

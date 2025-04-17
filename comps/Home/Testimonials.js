@@ -3,7 +3,6 @@ import SliderTestimonials from "../SliderTestimonials";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const testimonialLogos = [
   "/assets/images/logos/google.png",
   "/assets/images/logos/clutch.png",
@@ -13,17 +12,20 @@ const testimonialLogos = [
   "/assets/images/logos/just-dial.png",
 ];
 
-const Testimonials = ({title,description}) => {
+const Testimonials = ({ title, description }) => {
   return (
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-        <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
-          <h4 className="heading fontHeading2 text-center mt-3 fontWeight600"   dangerouslySetInnerHTML={{ __html: title }}>
-
-            
-          </h4>
-          <p className="small_heading fontWeight300 text-center  mt-3 "  dangerouslySetInnerHTML={{ __html: description }}>
+          <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
+          <h4
+            className="heading fontHeading2 text-center mt-3 fontWeight600"
+            dangerouslySetInnerHTML={{ __html: title }}
+          ></h4>
+          <p
+            className="small_heading fontWeight300 text-center  mt-3 "
+            dangerouslySetInnerHTML={{ __html: description }}
+          >
             {/* We are five star rated{" "}
             <span className="fontWeight600">Digital Agency</span> */}
           </p>
@@ -39,7 +41,7 @@ const Testimonials = ({title,description}) => {
                 <Image
                   width="300"
                   height="300"
-                  src="/assets/images/icons/star.svg"
+                  src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/star.svg"
                 />
               </div>
               <p className="title fontWeight400 mt-2 text-center text-white">

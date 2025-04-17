@@ -53,7 +53,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/gd-services/gd-img.jpg"
+                src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/gd-services/gd-img.jpg"
                 alt=""
                 width="1200"
                 height="600"
@@ -84,17 +84,20 @@ const WhyChoose = () => {
               {benefitsList.map((benefit, index) => (
                 <li key={index} className=" item p-3">
                   <div className="d-flex justify-content-center">
-
-                  <Image
-                     src={`/assets/images/gd-services/${benefit.icon}`}
-                    alt={benefit.title}
-                    className=""
-                    width="50"
-                    height="50"
-                  />
+                    <Image
+                      src={`/assets/images/gd-services/${benefit.icon}`}
+                      alt={benefit.title}
+                      className=""
+                      width="50"
+                      height="50"
+                    />
                   </div>
-                  <p className="text_primary text-center mt-3 fontWeight600">{benefit.title}</p>
-                  <p className=" text-center mt-2 discription">{benefit.description}</p>
+                  <p className="text_primary text-center mt-3 fontWeight600">
+                    {benefit.title}
+                  </p>
+                  <p className=" text-center mt-2 discription">
+                    {benefit.description}
+                  </p>
                 </li>
               ))}
             </ul>

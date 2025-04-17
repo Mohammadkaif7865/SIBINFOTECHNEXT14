@@ -94,7 +94,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/seo (1).png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/seo (1).png"
                       alt="Local SEO Icon"
                     />
                     <span>Dominate Local Search Results</span>
@@ -103,7 +103,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/people.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/people.png"
                       alt="Attract Nearby Customers Icon"
                     />
                     <span>Attract Nearby Customers</span>
@@ -112,7 +112,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/customer-care.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/customer-care.png"
                       alt="Drive More Walk-Ins Icon"
                     />
                     <span>Drive More Walk-Ins</span>
@@ -121,7 +121,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/business1.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/business1.png"
                       alt="Increase Store Visits Icon"
                     />
                     <span>Increase Store Visits</span>
@@ -130,7 +130,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/increase.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/local-seo/increase.png"
                       alt="Increase Sales & Leads Icon"
                     />
                     <span>Increase Sales & Leads</span>
@@ -199,7 +199,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/local-seo-resturaent.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-resturaent.svg"
                       alt="Restaurants near me"
                     />
                   </div>
@@ -210,7 +210,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/law.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/law.png"
                       alt="Lawyer Near me"
                     />
                   </div>
@@ -221,7 +221,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/local-seo-doctor.svg"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/local-seo-doctor.svg"
                       alt="Doctors near me"
                     />
                   </div>
@@ -233,7 +233,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/florist.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/florist.png"
                       alt="Florist Near me"
                     />
                   </div>
@@ -245,7 +245,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/hospital.png"
+                      src="https://visa-project.blr1.cdn.digitaloceanspaces.com/sib/assets/images/icons/hospital.png"
                       alt="Hospital Near me"
                     />
                   </div>
