@@ -219,19 +219,19 @@ const WebDevelopment = () => {
       title: "Version Zero",
       description:
         "Building high-fidelity prototypes to communicate or validate concepts by testing for feedback.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
     {
       title: "Agile Development",
       description:
         "Intersecting Agile/scrum methodology with design thinking for remarkable UX development.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
     },
     {
       title: "Digital Transformation",
       description:
         "Comprehending the breadth and depth of your business with meaningful +engaging transformation.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
     },
     {
       title: "Strategic UX",

@@ -13541,3 +13541,17 @@ tudy-right-main {
   height: 100%;
   z-index: -1;
 }
+
+/* baatch */
+.item_swiper_design_thinking .batch {
+  position: absolute;
+  width: 85%;
+  top: 30px;
+  left: 0;
+  padding: 10px;
+  background-color: var(--red-color);
+  color: #fff;
+  font-weight: 600;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

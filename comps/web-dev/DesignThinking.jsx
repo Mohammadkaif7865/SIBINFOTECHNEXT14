@@ -46,16 +46,43 @@ const DesignThinking = ({ data }) => {
                 {data.map((value, i) => {
                   return (
                     <SwiperSlide>
-                      <div className="item_swiper_design_thinking">
+                      <div className={`item_swiper_design_thinking item${i}`}>
+                        <div className={`batch `}>
+                          {value.title}
+                        </div>
                         <img className="" src={value.img} alt="" />
                         <div className="w-100  content">
                           <div className="inner">
-                            <h5>{value.title}</h5>
-                            <i class="fa-solid fa-arrow-right"></i>
+                            {/* <h5 className={` ${i == 0 ? "d-none" : ""}`}>
+                              {value.title}
+                            </h5> */}
+                            <p className={``}>
+                              {value.description}
+                            </p>
+                            {/* <i class="fa-solid fa-arrow-right"></i> */}
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
+                    // <SwiperSlide>
+                    //   <div className={`item_swiper_design_thinking item${i}`}>
+                    //     <div className={`batch  ${i != 0 ? "d-none" : ""}`}>
+                    //       {value.title}
+                    //     </div>
+                    //     <img className="" src={value.img} alt="" />
+                    //     <div className="w-100  content">
+                    //       <div className="inner">
+                    //         <h5 className={` ${i == 0 ? "d-none" : ""}`}>
+                    //           {value.title}
+                    //         </h5>
+                    //         <p className={` ${i != 0 ? "d-none" : ""}`}>
+                    //           {value.description}
+                    //         </p>
+                    //         {/* <i class="fa-solid fa-arrow-right"></i> */}
+                    //       </div>
+                    //     </div>
+                    //   </div>
+                    // </SwiperSlide>
                   );
                 })}
               </Swiper>
