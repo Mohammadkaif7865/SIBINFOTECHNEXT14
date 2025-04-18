@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 const BrandBuild = ({ title, description, faqData, subtitle }) => {
-  const [activeKey, setActiveKey] = useState("0");
+  const [activeKey, setActiveKey] = useState("");
 
   return (
     <section>

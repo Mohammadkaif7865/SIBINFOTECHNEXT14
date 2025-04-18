@@ -6,6 +6,12 @@ import SIBPower from "../Home/SIBPower";
 import Database from "./Database";
 import WhySIB from "../Home/WhySIB";
 import CaseStudy2 from "../Home/CaseStudy2";
+import Faq from "../Home/Faq";
+import QA from "./QA";
+import Cta from "../Home/Cta";
+import WhyChoose from "./WhyChoose";
+import Partnership from "../WhiteLabel/Partnership";
+import DesignThinking from "./DesignThinking";
 
 const WebDevelopment = () => {
   const about3Data = {
@@ -51,7 +57,7 @@ const WebDevelopment = () => {
       img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
     },
     {
-      title: "jQuery",
+      title: "jQuery and <br/> JavaScript",
       description:
         "Construct instinctive, light-weight, SEO benevolent, cross-program viable and CSS3 consistent web and applications with the jQuery JavaScript library.",
       img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
@@ -68,11 +74,17 @@ const WebDevelopment = () => {
         "Rehash the vibe of your web applications with the straightforwardness and accuracy of Google's Material Design Color Palette, Typography, Material Design Components, plan ideas and standards.",
       img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
     },
+    {
+      title: "Html and Css",
+      description:
+        "Build the foundation of modern web pages using HTML for structure and CSS for styling. Learn how to create responsive layouts, apply animations, and follow best practices in web design for visually appealing and accessible websites.",
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+    },
   ];
 
   const brandContent = [
     {
-      title: "Back-End: PHP, Node.js, Python, Laravel ",
+      title: "Back-End Development Services ",
       subtitle: "How to Create an Effective Winning SEO Strategy in 2025?",
       description: `
         Get Built A Reliable, Highly Secured And Stable Backbone Of Your Software Product (Mobile App, Front-End App, Web API) With Our Technology Expertise In:
@@ -150,7 +162,8 @@ const WebDevelopment = () => {
   ];
 
   const rightBoxContent = {
-    heading: "Invigorate Your Business DNA With Our Website Development & UX Designs",
+    heading:
+      "Invigorate Your Business DNA With Our Website Development & UX Designs",
     description:
       "Our plan thinking and client focused experience drove plans help us in efficiently removing client's necessities, practices, emotions, and contemplations while connecting with items in a certifiable setting and causes us make believable advanced encounters to construct versatile and web applications, web-based interfaces, web based business stores and significantly more.",
   };
@@ -195,20 +208,177 @@ const WebDevelopment = () => {
         "Delivering measurable business results with our chosen indicators, strategy, and design.",
     },
   ];
+  const keyAdvantages2 = [
+    {
+      title: "KPI Led Design",
+      description:
+        "Delivering measurable business results with our chosen indicators, strategy, and design.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: "Version Zero",
+      description:
+        "Building high-fidelity prototypes to communicate or validate concepts by testing for feedback.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: "Agile Development",
+      description:
+        "Intersecting Agile/scrum methodology with design thinking for remarkable UX development.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: "Digital Transformation",
+      description:
+        "Comprehending the breadth and depth of your business with meaningful +engaging transformation.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: "Strategic UX",
+      description:
+        "Uniting strategy + creativity + tools to weave strategic user experiences and interfaces.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: "KPI Led Design",
+      description:
+        "Delivering measurable business results with our chosen indicators, strategy, and design.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+  ];
+
+  const faqsData = [
+    {
+      question: "What are Web Development services?",
+      answer: `<div className="">
+                  <p>Known for ensuring the online presence of company Web Development services involve developing the website for the Internet (World Wide Web) or an intranet (a private network). Among professionals, Web Development usually refers to the main design aspects of building websites i.e. markup and coding.</p>
+                </div>`,
+    },
+    {
+      question: "What does a Web Development company do?",
+      answer: `<div className="">
+                  <p>Web Development is all about maintaining the online presence of a company so that its services can reach out to its potential customers. Web Development services include various engaging activities such as ideating and freezing the framework, architecture and navigation.</p>
+                  <p>There are several languages such as JavaScript, ASP, HTML, PHP etc. for coding and programming the backend.</p>
+                </div>`,
+    },
+    {
+      question: "What does Web development include?",
+      answer: `<div className="">
+                  <p>Web Development involves creating websites and apps for brands to reach customers. It includes aspects like web design, web publishing, web programming, and database management. A Web Developer designs websites and also writes the script in languages such as PHP and ASP.</p>
+                </div>`,
+    },
+    {
+      question: "How much does Web Development cost?",
+      answer: `<div className="">
+                  <p>The cost for Web Development depends on many factors such as:</p>
+                  <ul>
+                    <li>Variation in requirements.</li>
+                    <li>Utilization of resources on projects.</li>
+                    <li>The time frame for a particular project etc.</li>
+                  </ul>
+                </div>`,
+    },
+    {
+      question: "What to look for in a Professional Web Development Company?",
+      answer: `<div className="">
+                  <p>Understanding what you look for in a web development company can be hard and at the same time can also have a major impact on the online presence of your business. We suggest choosing a website that has years of experience with an extensive portfolio of websites. Opt for checking reviews online to gauge how satisfied clients have been with the company's work.</p>
+                </div>`,
+    },
+    {
+      question: "Why SIB Infotech is the Best Web Development Agency in India?",
+      answer: `<div className="">
+                  <p>In a country like India, you will find thousands of Web Designing Companies running single-handedly or with multiple hands but what makes SIB Infotech unique is its years of experience and team of experts skilled in different areas. Feel free to check our portfolio for more information about the projects we have successfully delivered. We offer a free no-obligation consultation session so you can evaluate our capabilities and see if we are a good fit for your project. Contact us today to book an appointment.</p>
+                </div>`,
+    },
+    {
+      question: "How much does Website Development Costs in India?",
+      answer: `<div className="">
+                  <p>Web Development in a country like India is usually priced on the lower side of the scale. The total costing depends on the time utilization, resources on a particular project along with the custom requirements of clients.</p>
+                </div>`,
+    },
+    {
+      question:
+        "What Web Development Platforms do you use for Developing a Website?",
+      answer: `<div className="">
+                  <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
+                  <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
+                  <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
+                  <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
+                </div>`,
+    },
+    {
+      question: "What is Website Development?",
+      answer: `<div className="">
+                  <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
+                  <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
+                  <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
+                  <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
+                </div>`,
+    },
+    {
+      question:
+        "How do I choose a Website Development Company for my Business?",
+      answer: `<div className="">
+                  <p>Here are a few tips to consider when appointing a web development company and the obstacles that may appear by overlooking vital points:</p>
+                  <ul>
+                    <li>Before opting for website development services you need to answer a few questions. What are the elements you need in a website? How many webpages do you need on your website? What should be its key features?</li>
+                    <li>Go through the company's website by analyzing its digital presence, social media handles, and content present. Also, investigate if the site is mobile-friendly.</li>
+                    <li>Have a glance at their portfolio. If they don’t have one ask them to go through a test for you asking them about their latest works and if they have worked on something in the same niche. Visit those sites and check how they are performing now (most importantly have a keen eye on the UI and UX).</li>
+                    <li>Check the reviews of their clients and pay further attention to the reviews from those clients that have similar businesses as yours. You may also monitor their overall rating and if they have any awards.</li>
+                    <li>Make sure they provide transparency to their clients and are responsive enough. Even if they don't possess a sales team contact them to know how they acknowledge and their dedication towards your work.</li>
+                  </ul>
+                </div>`,
+    },
+  ];
+  const faqDescription = `We as a full service leading <strong>digital marketing firm</strong>,
+  offers customized story-based
+  <br className="d-none d-lg-block" />
+  <strong>digital marketing services</strong> to build, promote & scale
+  your brand so <br className="d-none d-lg-block" />
+  it can clearly & easily attract your ideal clients`;
+
+  const agencyWorkflow = [
+    {
+      title: "Consultation & Strategy",
+      description:
+        "Understanding your business requirements and setting clear objectives.",
+    },
+    {
+      title: "UI/UX Design",
+      description:
+        "Crafting visually appealing and user-friendly designs for optimal engagement.",
+    },
+    {
+      title: "Development & Integration",
+      description:
+        "Using the latest technologies to develop functional and interactive websites.",
+    },
+    {
+      title: "Testing & Quality Assurance",
+      description:
+        "Rigorous testing to ensure flawless performance across all platforms.",
+    },
+    // {
+    //   title: "Launch & Optimization",
+    //   description: "Deploying the website with ongoing optimization for maximum efficiency."
+    // }
+  ];
 
   return (
     <div>
       <Abbout3 {...about3Data} />
       <Solution
-        heading={"Frontent Development"}
-        subHeading={"HTML5, CSS3, JavaScript, React, Angular"}
+        heading={"Responsive And Highly "}
+        subHeading={"Interactive Front End Web Development Services "}
         discription={
           "Creating state-of-the-art web architecture through compelling user experiences, performance tuning, intuitive UI development and usability assessment, testing and analysis services."
         }
         data={Services}
       />
       <BrandBuild
-        subtitle={"Backend Development "}
+        subtitle={
+          "Our Expert Back End Web Development Services With Enhanced Stability"
+        }
         title={brandContent[0].title}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}
@@ -223,13 +393,33 @@ const WebDevelopment = () => {
         data={power_data}
       />
       <Database />
+      <WhyChoose />
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
-        <CaseStudy2
+      <DesignThinking data={keyAdvantages2} />
+
+      <Partnership
+        agencyWorkflow={agencyWorkflow}
+        title={"Our Approach  "}
+        subtitle={"Our Process for Web Development"}
+        rightDiscription={
+          " Our process simplifies SEO into clear, actionable steps keyword research and content optimization to link building and performance tracking, we ensure your website achieves sustainable."
+        }
+        tagline={"Seamless, Scalable, and Results-Driven"}
+      />
+      {/* <Cta /> */}
+      <CaseStudy2
         description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
+      />
+      <QA />
+
+      <Faq
+        title={"Website Development FAQ?"}
+        description={faqDescription}
+        faqsData={faqsData}
       />
     </div>
   );

@@ -1,17 +1,13 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
-import { useState } from "react";
-import { Accordion } from "react-bootstrap";
+
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
 import WebDevelopment from "@/comps/web-dev/WebDevelopment";
+// import WebDevelopment from "@/comps/web-dev/WebDevelopment";
 
 export default function WebDevelopmentServices() {
-  const [isShowMore, setIsShowMore] = useState(false);
-  const toggleReadMoreLess = () => {
-    setIsShowMore(!isShowMore);
-  };
   const faqsData = [
     {
       question: "What are Web Development services?",
@@ -101,24 +97,52 @@ export default function WebDevelopmentServices() {
 
   const metaTags = (
     <>
-      <title>Top Web Development Company India | Website Development Mumbai</title>
-      <meta name="description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <title>
+        Top Web Development Company India | Website Development Mumbai
+      </title>
+      <meta
+        name="description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
       <meta name="keywords" content="Website Development Services" />
-     
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="og:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="og:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="og:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="og:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="twitter:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
-" />
-     <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="twitter:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-development-services"
         breadcrumbTitle="Top Web Development Company India | Website Development Mumbai"
         PageRatingSchema
@@ -140,7 +164,7 @@ export default function WebDevelopmentServices() {
                   Website Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Web Development  Company in India
+                  Top Rated Web Development Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
@@ -197,7 +221,6 @@ export default function WebDevelopmentServices() {
         <Breadcrumb Pagetitle={"Web Development Company "} />
       </div>
       <WebDevelopment/>
-
 
       {/* <section>
         <div className="containerFull">
@@ -271,7 +294,7 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section> */}
-      <section className="bgGrey">
+      {/* <section className="bgGrey">
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-3">
@@ -562,7 +585,7 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section>
-      <section className="bgGrey text-center">
+      <section className="bgGrey text-center ">
         <div className="containerFull">
           <h3 className="customHeading text-center">
             <span>
@@ -754,178 +777,7 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section>
-      <section className="bgGrey">
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="stickyItem">
-                <h3 className="customHeading margin-left">
-                  Affordable{" "}
-                  <span className="text_red">QA Testing Services </span>In India
-                </h3>
-                <p className="customText margin-left">
-                  We provide full-cycle testing and quality assurance services
-                  to help you craft a product through accelerated testing
-                  methods that minimize errors, mitigate risk and defects in
-                  software and augments the user experience at a whole new
-                  level. Our QA model efficiently meets today's dynamic business
-                  needs and helps assure quality and maturity of testing
-                  capabilities that would lead to delivering successful business
-                  outcomes.
-                </p>
-                <img
-                  className="image-full"
-                  src="assets/images/web-devlp-img-19.svg"
-                  alt="Web Development"
-                />
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-22.svg"
-                          alt="Web Application Development Firm in Mumbai"
-                        />
-                      </div>
-                      <h4>Performance</h4>
-                    </div>
-                    <p className="customText">
-                      UI responsiveness Transaction completion (s) Peak load
-                      performance
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-23.svg"
-                          alt="Web Application Development Firm in Delhi"
-                        />
-                      </div>
-                      <h4>Compatibility</h4>
-                    </div>
-                    <p className="customText">
-                      Mobile Platform Compatibility (e.g.ios6,ios 5.1.1,ios
-                      5.1.1) Device Model Compatibility Backward Compatibility
-                      (with previous app version)
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-24.svg"
-                          alt="Web Application Development Firm in India"
-                        />
-                      </div>
-                      <h4>Conformance</h4>
-                    </div>
-                    <p className="customText">
-                      Marketplace guideline compliance (e.g.apple App Store
-                      policies) Enterprise policy compliance (e.g. prohibited
-                      content
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-25.svg"
-                          alt="Custom Web Application Development"
-                        />
-                      </div>
-                      <h4>Installation and Provisioning</h4>
-                    </div>
-                    <p className="customText">
-                      Installation process Un-installation process User
-                      provisioning and de-provisioning
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-26.svg"
-                          alt="Custom Web Application Development in India"
-                        />
-                      </div>
-                      <h4>Usability</h4>
-                    </div>
-                    <p className="customText">User Experience</p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-27.svg"
-                          alt="Custom Web Application Development in Delhi"
-                        />
-                      </div>
-                      <h4>Security</h4>
-                    </div>
-                    <p className="customText">
-                      Data Retention on device Transmission Security
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-28.svg"
-                          alt="Custom Web Application Development in Mumbai"
-                        />
-                      </div>
-                      <h4>Functionally</h4>
-                    </div>
-                    <p className="customText">
-                      User Interaction Testing Transaction testing
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-29.svg"
-                          alt="Custom Web Application Development in Delhi"
-                        />
-                      </div>
-                      <h4>Network</h4>
-                    </div>
-                    <p className="customText">
-                      Network type (Wi-Fi, 2G, 3G, 4G) Impact of connectivity
-                      Issues
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
       <section>
         <div className="containerFull">
           <div className="row">
@@ -1096,7 +948,7 @@ export default function WebDevelopmentServices() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </CustomLayout>
   );
 }
