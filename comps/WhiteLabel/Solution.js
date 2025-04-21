@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 
-const Solution = ({data,heading,subHeading,discription}) => {
+const Solution = ({ data, heading, subHeading, discription }) => {
   const [indexNo, setIndexNo] = useState("0");
+  const [show, setShow] = useState("");
   const handelIndex = (index) => {
     setIndexNo(index);
+  };
+  const handelcontent = (index) => {
+    setShow(index);
   };
 
   return (
@@ -12,13 +16,13 @@ const Solution = ({data,heading,subHeading,discription}) => {
         <div className="row text-white align-items-center">
           <div className="col-lg-10 ">
             <h4 className=" large_heading fontWeight4 00">
-             <span className="fontWeight large_heading2 fontWeight600">{heading}</span> 
+              <span className="fontWeight large_heading2 fontWeight600">
+                {heading}
+              </span>
               <br />
               {subHeading}
             </h4>
-            <p className="mt-4">
-             {discription}
-            </p>
+            <p className="mt-4">{discription}</p>
           </div>
           <div className="col-lg-2 mt-4 mt-lg-0  d-none d-lg-block">
             <div className="d-flex justify-content-lg-end">
@@ -51,10 +55,13 @@ const Solution = ({data,heading,subHeading,discription}) => {
             {data.map((value, index) => {
               return (
                 <div
-                  className="service__item "
+                  className={`service__item ${show == index ? "active" : ""}`}
                   key={index}
                   onMouseOver={() => {
                     handelIndex(index);
+                  }}
+                  onClick={() => {
+                    handelcontent(index);
                   }}
                 >
                   <div className="service__number">
