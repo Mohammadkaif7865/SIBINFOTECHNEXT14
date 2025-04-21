@@ -443,7 +443,7 @@ AI-Driven SEO Strategy `,
       rightDiscription={' Our process simplifies SEO into clear, actionable steps keyword research and content optimization to link building and performance tracking, we ensure your website achieves sustainable.'} 
       tagline={'Seamless, Scalable, and Results-Driven'}
       />
-      <OurAproach />
+      {/* <OurAproach /> */}
       {/* <SeoProcess /> */}
       <SpecialisedServices />
       <OutsourcingServices />

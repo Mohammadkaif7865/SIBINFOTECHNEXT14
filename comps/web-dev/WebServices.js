@@ -85,9 +85,9 @@ const WebServices = () => {
           </p>
         </div>
  
-        <div className="w-100 bg-white mt-5 shadow">
+        <div className="w-100  mt-5">
           <Swiper
-            spaceBetween={10}
+            spaceBetween={20}
             slidesPerView={3}
             autoplay={{
               delay: 2500,
@@ -97,12 +97,12 @@ const WebServices = () => {
             loop={true}
             navigation={false}
             modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
+            className="mySwiper "
           >
             {data.map((value, i) => {
               return (
-                <SwiperSlide>
-                  <div className={`item_wev_services item${i} pt-5 pb-4 px-3  bg-white`}>
+                <SwiperSlide className="">
+                  <div className={`item_web_services  item${i} px-4  py-5  bg-white`}>
                     <div className="text-center" ><Image  width={60} height={60} src={value.icon} alt="" /></div>
 
                     <h4 className="mt-4 text-center">{value?.title}</h4>

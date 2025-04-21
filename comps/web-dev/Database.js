@@ -16,9 +16,11 @@ const Database = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h3 className="customHeading">
-              <span className="text_red">Highly Reliable, Secured</span> And{" "}
-              <span className="text_red">Scalable Database Development</span>
+            <h3 className="heading">
+              <span className="text_red">Highly Reliable, Secured</span> <br />
+              <span className="text_red sub_heading">
+                & Scalable Database Development
+              </span>
             </h3>
             <p className="customText">
               Committed Server Management, Setup, Installation, Maintenance, and
@@ -33,7 +35,7 @@ const Database = () => {
                     alt="Custom Web Application Development Company in Delhi"
                   />
                 </div>
-                <h4 className="fontHeading">MySQL</h4>
+                <h4 className="">MySQL</h4>
               </div>
               <p className="customText mt-lg-0 mt-2">
                 Meet the monstrous flood of cutting edge highlights like
@@ -50,7 +52,7 @@ const Database = () => {
                     alt="Custom Web Application Development Company in Mumbai"
                   />
                 </div>
-                <h4 className="fontHeading">PostgreSQL</h4>
+                <h4 className="">PostgreSQL</h4>
               </div>
               <p className="customText mt-lg-0 mt-2">
                 Address new information challenges, store huge volumes of
@@ -66,7 +68,7 @@ const Database = () => {
                     alt="Custom Web Application Development Company in Mumbai"
                   />
                 </div>
-                <h4 className="fontHeading">Mongo DB</h4>
+                <h4 className="">Mongo DB</h4>
               </div>
               <p className="customText mt-lg-0 mt-2">
                 Address new information challenges, store huge volumes of

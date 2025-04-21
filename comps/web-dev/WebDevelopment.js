@@ -13,6 +13,7 @@ import WhyChoose from "./WhyChoose";
 import Partnership from "../WhiteLabel/Partnership";
 import DesignThinking from "./DesignThinking";
 import WebServices from "./WebServices";
+import KeyFeature from "./KeyFeature";
 
 const WebDevelopment = () => {
   const about3Data = {
@@ -40,59 +41,59 @@ const WebDevelopment = () => {
 
   const Services = [
     {
-      title: "VueJS Development ",
+      title: "VueJS <br/> Development ",
       description:
         "We have a team of VueJS developers that build lightweight, easy-to-load, and scalable web applications and websites using the popular Javascript framework VueJS ",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/vuejs.jpg",
     },
     {
       title: "Angular Development",
       description:
         "We build scalable, dynamic, and advanced single-page web applications using Google's JavaScript framework, Angular. Whether your business needs real-time applications with highly interactive and modern user interfaces, our Angular developers are ready to deliver the best you want. ",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/angular.jpg",
     },
     {
-      title: "NextJS Development ",
+      title: "NextJS <br/> Development ",
       description:
         "NextJS development services for businesses need fast loading and dynamic web and apps. Our team of NextJS developers is ready to deliver scalable, robust, and efficient web development solutions for companies that want dynamic websites, complex web applications, or e-commerce development. ",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/nextjs.jpg",
     },
 
     {
       title: "React JS",
       description:
         "Influence the dynamism and adaptability of React.JS appropriate for enormous scope applications that easily make intuitive UIs.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/reactjs.jpg",
     },
     {
       title: "Ember JS",
       description:
         "A viewpoint JavaScript system appropriate for building elite, interoperable web applications with no exhibition blocks.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/ember.jpg",
     },
     {
       title: "jQuery and <br/> JavaScript",
       description:
         "Construct instinctive, light-weight, SEO benevolent, cross-program viable and CSS3 consistent web and applications with the jQuery JavaScript library.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/js.jpg",
     },
     {
       title: "Bootstrap",
       description:
         "Grasp the truly versatile, responsive, portable first front-end system Bootstrap that drives consistency and speed, disentangles reconciliation, and facilitates customization.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/bootstrap.jpg",
     },
     {
       title: "Material UI",
       description:
         "Rehash the vibe of your web applications with the straightforwardness and accuracy of Google's Material Design Color Palette, Typography, Material Design Components, plan ideas and standards.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/mui.jpg",
     },
     {
       title: "Html and Css",
       description:
         "Build the foundation of modern web pages using HTML for structure and CSS for styling. Learn how to create responsive layouts, apply animations, and follow best practices in web design for visually appealing and accessible websites.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/web-dev/html-css.jpg",
     },
   ];
 
@@ -186,8 +187,7 @@ const WebDevelopment = () => {
   ];
 
   const rightBoxContent = {
-    heading:
-      "Why Choose SIB Infotech for Web Development in India?",
+    heading: "Why Choose SIB Infotech for Web Development in India?",
     description:
       "At SIB Infotech, we don’t just build websites — we create digital experiences that drive results. Here’s what sets us apart: ",
   };
@@ -200,7 +200,7 @@ const WebDevelopment = () => {
       "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
     buttonText: "Get a Free Analysis",
   };
-  const keyAdvantages =[
+  const keyAdvantages = [
     {
       title: "Proven Track Record",
       description:
@@ -252,7 +252,7 @@ const WebDevelopment = () => {
         "Our partnership doesn’t end at launch. We offer continuous maintenance, support, and optimization services to keep your website updated, secure, and performing at its best.",
     },
   ];
-  
+
   const keyAdvantages2 = [
     {
       title: "KPI Led Design",
@@ -438,7 +438,7 @@ const WebDevelopment = () => {
         data={power_data}
       />
       <Database />
-      <WebServices/>
+      <WebServices />
       {/* <WhyChoose /> */}
       <WhySIB
         keyAdvantages={keyAdvantages}
@@ -456,7 +456,7 @@ const WebDevelopment = () => {
         }
         tagline={"Seamless, Scalable, and Results-Driven"}
       />
-      {/* <Cta /> */}
+      <KeyFeature />
       <CaseStudy2
         description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
       />
