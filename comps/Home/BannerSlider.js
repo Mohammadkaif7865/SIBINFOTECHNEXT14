@@ -1,31 +1,44 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Counter from "../CounterHome";
+import dynamic from "next/dynamic";
+
+const Counter = dynamic(() => import("../CounterHome"), { ssr: false });
 
 const BannerSlider = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    // This will run only on the client
+    setIsClient(true);
+  }, []);
+
+  const counterData = [
+    { value: 617, label: "Increase in Organic Traffic" },
+    { value: 315, label: "Increase in Qualified Leads" },
+    { value: 344, label: "Increase in Sales Growth YOY" },
+  ];
+
   return (
     <section className="homeBanner">
       <div className="containerFull">
-        <div className="text-center">
-          <h1 className=" d-inline-block  homeBannerText title text-center">
-            India’s Premier <strong>Digital Marketing Agency</strong>
-          </h1>
-        </div>
+        <h1 className="homeBannerText title text-center">
+          India’s Premier <strong>Digital Marketing Agency</strong>
+        </h1>
+
         <h2 className="heading mb-3 mt-4 text-center fontWeight700 text-white">
-          Get More Traffic, Leads & Sales  
+          Get More Traffic, Leads & Sales
         </h2>
+
         <h3 className="heading text-center text-white mt-1">
-          <span className="fontWeight600 text_red">with Strategic, AI-Powered </span>
+          <span className="fontWeight600 text_red">
+            with Strategic, AI-Powered
+          </span>
         </h3>
 
-        <h4 className="heading text-center mt-3 text-white fontWeight600 "><i>Digital Marketing Solutions</i></h4>
+        <h4 className="heading text-center mt-3 text-white fontWeight600">
+          <i>Digital Marketing Solutions</i>
+        </h4>
 
-        {/* <p className="title mt-3 text-center text-white  w-75 mx-auto w-lg-100">
-          Your <strong>Growth Partner for SEO, PPC & Social Media</strong>{" "}
-          Success – Boost Your <strong>Online Presence</strong>
-          <br className="d-none d-lg-block" /> with Data-Driven Digital
-          Marketing Since 2005.
-        </p> */}
         <div className="text-center mt-4 mt-lg-5">
           <Link href="/contact" className="btnHomeBanner">
             Start Growing Now
@@ -40,41 +53,23 @@ const BannerSlider = () => {
             </span>
           </Link>
         </div>
+
         <div className="counterHome text-center mt-lg-5 mt-4">
           <div className="row justify-content-center">
-            <div className="col-6 col-lg-3 col-md-4">
-              <div className="counterBannerHome text-center">
+            {counterData.map((item, index) => (
+              <div
+                key={index}
+                className="col-6 col-lg-3 col-md-4 counterBannerHome text-center"
+              >
                 <h4 className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={617} />
+                  {isClient ? <Counter targetValue={item.value} /> : item.value}
                   <span className="sub_heading ps-2">%</span>
                 </h4>
                 <p className="mt-1 text-white fontSmall">
-                  Increase in <strong>Organic Traffic</strong>
+                  <strong>{item.label}</strong>
                 </p>
               </div>
-            </div>
-            <div className=" col-6 col-lg-3 col-md-4">
-              <div className="counterBannerHome text-center">
-                <h4 className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={315} />
-                  <span className="sub_heading ps-2">%</span>
-                </h4>
-                <p className="mt-1 text-white fontSmall">
-                  Increase in <strong>Qualified Leads</strong>
-                </p>
-              </div>
-            </div>
-            <div className=" col-6 col-lg-3 col-md-4">
-              <div className="counterBannerHome text-center">
-                <h4 className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={344} />
-                  <span className="sub_heading ps-2">%</span>
-                </h4>
-                <p className="mt-1 text-white fontSmall">
-                  Increase in <strong>Sales Growth YOY</strong>
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

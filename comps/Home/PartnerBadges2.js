@@ -126,16 +126,6 @@ const PartnerBadges = () => {
               high-performing campaigns tailored to your goals.
             </p>
           </div>
-          {/* <div className="col-lg-3 mt-4 mt-lg-0">
-            <div className="googleParterLogoBox">
-              <Image
-                width={500}
-                height={500}
-                src="/assets/images/top-google-premium-partner-agencies-in-india.png"
-                alt="Google Partner"
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

@@ -190,9 +190,6 @@ const HomePage = () => {
     <>
       <BannerSlider />
       <Abbout3 />
-      {/* <About2 /> */}
-      {/* <BannerSlider /> */}
-      {/* <TrustedSection /> */}
       <WeStrong />
       <WhatWeDo3 />
       <Cta />
@@ -235,15 +232,6 @@ const HomePage = () => {
       <Industries2 />
       <Pricing />
       <Map />
-      {/* <Counter /> */}
-      {/* <Presence/> */}
-      {/* <Expertise />
-      <DigitalMarketingServices />
-      <AboutUs />
-      <DigitalMarketingWebAgency />
-      <DigitalMarketingAgency />
-      <WebsiteDesignServices /> */}
-
       <Faq />
       <Blog />
     </>

@@ -2,133 +2,93 @@
 import React, { useRef, useState } from "react";
 import Image from "next/image";
 
+const contentData = [
+  {
+    title: "Get Ranked on Google",
+    subList: ["Search Engine Optimization", "Local SEO", "Ecommerce SEO"],
+    subTitle: "Smarter SEO for Higher Rankings & Real Results",
+    description: `
+      <p>Stay ahead of the competition with our data-driven SEO strategies designed to increase visibility, drive organic traffic, and grow your business.</p>
+      <h5 class="mt-3">Search Engine Optimization</h5>
+      <p class="mt-2">Full-spectrum SEO focused on rankings, relevance, and revenue.</p>
+      <h5 class="mt-3">Local SEO</h5>
+      <p class="mt-2">Rank higher in local search and maps to attract nearby customers.</p>
+      <h5 class="mt-3">eCommerce SEO</h5>
+      <p class="mt-2">Optimized product pages and technical SEO that boost online sales.</p>
+    `,
+    image: "/assets/images/get-ranked-on-google.jpg",
+  },
+  {
+    title: "Drive Instant Growth",
+    subList: ["Google Ads", "Meta & Instagram Ads", "LinkedIn Ads"],
+    subTitle: "High-Performance Ad Campaigns That Deliver Leads & Sales",
+    description: `
+      <p>Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.</p>
+      <h5 class="mt-3">Google Ads</h5>
+      <p class="mt-2">Target the right audience with precision and maximize your ROI.</p>
+      <h5 class="mt-3">Meta & Instagram Ads</h5>
+      <p class="mt-2">Engaging creatives that drive clicks, conversions, and brand awareness.</p>
+      <h5 class="mt-3">LinkedIn Ads</h5>
+      <p class="mt-2">Connect with key decision-makers and grow your B2B pipeline.</p>
+    `,
+    image: "/assets/images/drive-instant-growth.jpg",
+  },
+  {
+    title: "Accelerate Digital Dominance",
+    subList: [
+      "Website Design & Development",
+      "Graphic Design",
+      "Software Development",
+    ],
+    subTitle: "Designs That Convert. Experiences That Matter",
+    description: `
+      <p>Create stunning digital assets that elevate your brand and drive user engagement across devices.</p>
+      <h5 class="mt-3">Website Design & Development</h5>
+      <p>Fast, mobile-first websites designed to rank and convert.</p>
+      <h5 class="mt-3">Graphic Design</h5>
+      <p class="mt-2">Creative visuals that leave a lasting impression.</p>
+      <h5 class="mt-3">Software Development</h5>
+      <p class="mt-2">Custom solutions tailored to streamline your business operations.</p>
+    `,
+    image: "/assets/images/digital-domainiation.png",
+  },
+  {
+    title: "Build Trust & Credibility",
+    subList: [
+      "Social Media Marketing",
+      "Content Marketing",
+      "Influencer Marketing",
+    ],
+    subTitle: "Human-Centered Marketing That Builds Lasting Connections",
+    description: `
+      <p class="mt-2">Establish authority, boost engagement, and grow loyal communities around your brand.</p>
+      <h5 class="mt-3">Social Media Marketing</h5>
+      <p class="mt-2">Authentic storytelling and strategy for consistent brand presence.</p>
+      <h5 class="mt-3">Content Marketing</h5>
+      <p class="mt-2">SEO-rich content that educates, engages, and converts.</p>
+      <h5 class="mt-3">Influencer Marketing</h5>
+      <p class="mt-2">Leverage trusted voices to expand reach and build brand trust.</p>
+    `,
+    image: "/assets/images/trust-credibility.png",
+  },
+];
+
 export default function WhatWeDo3() {
   const viewPortRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const contentData = [
-    {
-      title: "Get Ranked on Google",
-      subList: ["Search Engine Optimization", "Local SEO", "Ecommerce SEO"],
-      subTitle: "Smarter SEO for Higher Rankings & Real Results",
-      description: `
-          <p>Stay ahead of the competition with our data-driven SEO strategies designed to increase visibility, drive organic traffic, and grow your business. </p>
-          <h5 class="mt-3">
-          Search Engine Optimization 
-          </h5>
-          <p class="mt-2">
-          Full-spectrum SEO focused on rankings, relevance, and revenue. 
-          </p>
-         <h5 class="mt-3">
-          Local SEO 
-          </h5>
-          <p class="mt-2">
-          Rank higher in local search and maps to attract nearby customers. 
-          </p>
-          <h5 class="mt-3">
-           eCommerce SEO
-          </h5>
-           <p class="mt-2">Optimized product pages and technical SEO that boost online sales. </p>
-`,
-      image: "/assets/images/get-ranked-on-google.jpg",
-    },
-    {
-      title: "Drive Instant Growth",
-      subList: ["Google Ads", "Meta & Instagram Ads", "LinkedIn Ads"],
-      subTitle: "High-Performance Ad Campaigns That Deliver Leads & Sales ",
-      description: `<p> Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.</p>
-        <h5 class="mt-3">Google Ads 
-        </h5>
-        <p class="mt-2">
-        Target the right audience with precision and maximize your ROI.
-        </p>
-        <h5 class="mt-3">
-        Meta & Instagram Ads 
-        
-        </h5>
-        <p class="mt-2">
-        Engaging creatives that drive clicks, conversions, and brand awareness. </p>        
-  
-          <h5 class="mt-3">LinkedIn Ads
-          </h5>
-
-          <p  class="mt-2">Connect with key decision-makers and grow your B2B pipeline 
-          </p>
-         `,
-      image: "/assets/images/drive-instant-growth.jpg",
-    },
-    {
-      title: "Accelerate Digital Dominance",
-      subList: [
-        "Website Design & Development",
-        "Graphic Design",
-        "Software Development",
-      ],
-      subTitle: "Designs That Convert. Experiences That Matter",
-      description: `<p>
-        Create stunning digital assets that elevate your brand and drive user engagement across devices. 
-        
-        </p>
-        <h5 class="mt-3">Website Design & Development </h5>
-        <P>
-        Fast, mobile-first websites designed to rank and convert. 
-        
-        </P>
-        <h5 class="mt-3">Graphic Design </h5>
-
-        <p class="mt-2">
-         Creative visuals that leave a lasting impression. 
-        </P>
-        <h5 class="mt-3">Software Development </h5>
-        <p class="mt-2"> 
-       Custom solutions tailored to streamline your business operations. </p>
-        `,
-      image: "/assets/images/digital-domainiation.png",
-    },
-    {
-      title: "Build Trust & Credibility",
-      subList: [
-        "Social Media Marketing",
-        "Content Marketing",
-        "Influencer Marketing",
-      ],
-      subTitle: "Human-Centered Marketing That Builds Lasting Connections ",
-      description: `
-             <p class="mt-2">Establish authority, boost engagement, and grow loyal communities around your brand. </p> 
-
-        <h5 class="mt-3">Social Media Marketing </h5>
-
-             <p class="mt-2">Authentic storytelling and strategy for consistent brand presence. </p>
-        <h5 class="mt-3">
-      Content Marketing 
-      </h5>
-             <p class="mt-2">
-
-      SEO-rich content that educates, engages, and converts. 
-      </p>
-        <h5 class="mt-3">
-      Influencer Marketing 
-      </h5>
-             <p class="mt-2">
-      Leverage trusted voices to expand reach and build brand trust. 
-      </p>
-
-       
-       `,
-      image: "/assets/images/trust-credibility.png",
-    },
-  ];
+  const activeItem = contentData[activeIndex];
 
   return (
     <section id="viewPort" ref={viewPortRef}>
       <div className="containerFull">
-        <p className="title text-center fontWeight700">
-          What We Do
-        </p>
-        <h4 className="mt-3  large_heading2 fontHeading2 text-center fontWeight600 text_red">
+        <p className="title text-center fontWeight700">What We Do</p>
+        <h4 className="mt-3 large_heading2 fontHeading2 text-center fontWeight600 text_red">
           Our Revenue Driven <strong>Digital Marketing Services</strong>
         </h4>
+
         <div className="row mt-lg-5">
+          {/* Left Side */}
           <div className="col-lg-6">
             <div className="leftWhatMenu">
               <ul className="mt-0">
@@ -142,8 +102,8 @@ export default function WhatWeDo3() {
                     <p>{item.title}</p>
                     {item.subList.length > 0 && (
                       <div className="getList">
-                        {item.subList.map((subItem, subIdx) => (
-                          <h5 key={subIdx}>{subItem}</h5>
+                        {item.subList.map((subItem, idx) => (
+                          <h5 key={idx}>{subItem}</h5>
                         ))}
                       </div>
                     )}
@@ -152,11 +112,33 @@ export default function WhatWeDo3() {
               </ul>
             </div>
           </div>
+
+          {/* Right Side */}
           <div className="col-lg-6">
             <div className="rightWhat">
               <div className="itemMenu">
-                {activeIndex === null ? (
-                  // 🔥 Default image when nothing selected
+                {activeItem ? (
+                  <>
+                    <h4 className="fontWeight600 small_heading">
+                      {activeItem.subTitle}
+                    </h4>
+                    <div
+                      className="title mt-3 fontWeight300"
+                      dangerouslySetInnerHTML={{ __html: activeItem.description }}
+                    />
+                    <div className="text-center mt-lg-5 mt-4">
+                      <div className="imgBox">
+                        <Image
+                          src={activeItem.image}
+                          width={400}
+                          height={300}
+                          className="imgSize object-fit-contain"
+                          alt={activeItem.title}
+                        />
+                      </div>
+                    </div>
+                  </>
+                ) : (
                   <div className="text-center mt-lg-5 mt-4">
                     <div className="imgBox">
                       <Image
@@ -164,36 +146,10 @@ export default function WhatWeDo3() {
                         width={600}
                         height={400}
                         className="imgSize object-fit-contain"
-                        alt="default image"
+                        alt="default"
                       />
                     </div>
                   </div>
-                ) : (
-                  // 👇 Show content when selected
-                  <>
-                    <h4 className="fontWeight600 small_heading">
-                      {" "}
-                      {contentData[activeIndex].subTitle}
-                    </h4>
-                    <div
-                      className="title mt-3 fontWeight300"
-                      dangerouslySetInnerHTML={{
-                        __html: contentData[activeIndex].description,
-                      }}
-                    ></div>
-
-                    <div className="text-center mt-lg-5 mt-4">
-                      <div className="imgBox">
-                        <Image
-                          src={contentData[activeIndex].image}
-                          width={400}
-                          height={300}
-                          className="imgSize object-fit-contain"
-                          alt="content image"
-                        />
-                      </div>
-                    </div>
-                  </>
                 )}
               </div>
             </div>
