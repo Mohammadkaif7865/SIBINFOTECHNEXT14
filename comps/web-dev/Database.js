@@ -50,7 +50,7 @@ const Database = () => {
                     alt="Custom Web Application Development Company in Mumbai"
                   />
                 </div>
-                <h4 className="fontHeading">Mongo DB</h4>
+                <h4 className="fontHeading">PostgreSQL</h4>
               </div>
               <p className="customText mt-lg-0 mt-2">
                 Address new information challenges, store huge volumes of
@@ -66,7 +66,7 @@ const Database = () => {
                     alt="Custom Web Application Development Company in Mumbai"
                   />
                 </div>
-                <h4 className="fontHeading">PostgreSQL</h4>
+                <h4 className="fontHeading">Mongo DB</h4>
               </div>
               <p className="customText mt-lg-0 mt-2">
                 Address new information challenges, store huge volumes of

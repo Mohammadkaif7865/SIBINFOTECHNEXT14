@@ -12,6 +12,7 @@ import Cta from "../Home/Cta";
 import WhyChoose from "./WhyChoose";
 import Partnership from "../WhiteLabel/Partnership";
 import DesignThinking from "./DesignThinking";
+import WebServices from "./WebServices";
 
 const WebDevelopment = () => {
   const about3Data = {
@@ -39,11 +40,24 @@ const WebDevelopment = () => {
 
   const Services = [
     {
-      title: "Angular JS",
+      title: "VueJS Development ",
       description:
-        "Making dynamic web encounters with Angular JS improvement that streamlines building more extravagant and ground-breaking web applications with the full line of adaptability.",
+        "We have a team of VueJS developers that build lightweight, easy-to-load, and scalable web applications and websites using the popular Javascript framework VueJS ",
       img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
     },
+    {
+      title: "Angular Development",
+      description:
+        "We build scalable, dynamic, and advanced single-page web applications using Google's JavaScript framework, Angular. Whether your business needs real-time applications with highly interactive and modern user interfaces, our Angular developers are ready to deliver the best you want. ",
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+    },
+    {
+      title: "NextJS Development ",
+      description:
+        "NextJS development services for businesses need fast loading and dynamic web and apps. Our team of NextJS developers is ready to deliver scalable, robust, and efficient web development solutions for companies that want dynamic websites, complex web applications, or e-commerce development. ",
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+    },
+
     {
       title: "React JS",
       description:
@@ -91,49 +105,44 @@ const WebDevelopment = () => {
       `,
       faqData: [
         {
-          question: "Node JS Development Services",
+          question: "PHP Development Services",
           answer:
-            "Recruit our expert Node.js designers that take the upsides of this lightweight and productive open source worker system for building exceptionally adaptable, quick and continuous applications.",
+            "PHP is a widely-used server-side scripting language, perfect for building dynamic websites and applications. It powers platforms like WordPress, Magento, and Drupal. With frameworks like Laravel and CodeIgniter, PHP makes development fast, secure, and scalable — ideal for small businesses and enterprise-level websites alike.",
         },
         {
-          question: "Custom PHP Web Development Services",
+          question: " Node.js Development Services",
           answer:
-            "Depend on our prepared PHP development advancement team for creating custom websites, CMS and E-trade improvement, cross platform web applications, web and portal development and social networking solutions in quick turnaround time with the amazing and agile PHP platform.",
+            "Node.js is a JavaScript-based backend technology known for its speed and scalability. It's perfect for real-time applications like chat systems and live notifications. Using frameworks like Express.js and NestJS, Node.js is a go-to choice for startups and modern web applications needing quick data exchange and API integrations.",
         },
         {
-          question: ".Net Development Services",
+          question: "Python Development Services",
           answer:
-            "Exploit our energy in creating collective enterprise web applications, powerful online business stores, engaging mobile applications with .NET technology. Incorporate different CRM, ERP, proprietary applications with WCF framework with database integration.",
+            "Python is popular for its simplicity and versatility. It’s widely used for backend development through frameworks like Django and Flask. Python is perfect for education portals, data-driven apps, and AI-powered platforms. It’s secure, scalable, and integrates easily with modern technologies.",
         },
         {
-          question: "Magento Development Services",
+          question: "Java Development Services",
           answer:
-            "Benefit our most pined for Magento web improvement administrations to assemble your webpage on the most impressive eCommerce stage that is enabling a large number of retailers and brands. Our redid Magento arrangements and outsider augmentations are excessively adaptable and versatile.",
+            "Java is a robust, object-oriented programming language trusted by enterprises for building large-scale backend systems. It’s highly secure, portable, and powerful — especially when paired with frameworks like Spring Boot. Java is the preferred choice for banking, insurance, and enterprise applications. ",
         },
         {
-          question: "Laravel Web Development Services",
+          question: "Ruby Development Services ",
           answer:
-            "Imbue the force of MVC PHP structure to create web applications, endeavor arrangements and relaxing application improvement and influence excellent advantages like fast turnover, powerful broadening limits utilizing different modules, and profoundly versatile code of Laravel.",
+            "Ruby, especially with Ruby on Rails, allows fast development of clean, maintainable backend code. It's a favorite among startups looking to quickly launch MVPs or scalable web apps. With its focus on simplicity and convention, Ruby speeds up development while maintaining performance. ",
         },
         {
-          question: "Django Development Services",
+          question: ".NET (C#) Development Services",
           answer:
-            "Get fabricated high performing and tastefully wonderful applications utilizing Django, a practical Python structure hailed for building basic sites to complex web applications. We create and offer a full scope of Django improvement administrations.",
+            ".NET is a Microsoft-backed backend framework using the C# language. It’s perfect for building secure, high-performance enterprise applications and web portals. With ASP.NET Core, you can build scalable solutions that integrate well with Microsoft services and cloud infrastructure like Azure.  ",
         },
         {
-          question: "Opencart Development Services",
+          question: "Go (Golang) Development Services",
           answer:
-            "Bring the best E-trade site and M-business application to existence with OpenCart advancement administrations. OpenCart CMS is a ground-breaking content administration framework intended flawlessly with SEO benevolent highlights, simple authoritative dashboard, exquisite topics, and considerably more.",
+            "Go is a fast, efficient language developed by Google, ideal for building APIs and backend systems with high concurrency. Its simple syntax and blazing speed make it perfect for scalable, cloud-native, and microservices-based applications. ",
         },
         {
-          question: "CodeIgniter Web Development Services",
+          question: "Rust Development Services",
           answer:
-            "Create hearty and dynamic web applications with our profoundly gifted group of Code Igniter having hands on experience for huge scope Code Igniter projects across different industry verticals.",
-        },
-        {
-          question: "Yii Development Services",
-          answer:
-            "Our instrumental mastery in this superior PHP structure best for growing enormous scope Web applications can be your experience system for profoundly versatile and hearty venture arrangements.",
+            "Rust is a performance-oriented language that ensures memory safety without a garbage collector. It’s gaining popularity for building secure, high-speed web services. With frameworks like Actix and Rocket, Rust is ideal for systems where performance and security are critical. ",
         },
       ],
     },
@@ -145,9 +154,24 @@ const WebDevelopment = () => {
         "Custom theme and plugin development, SEO-optimized design, WooCommerce integration, user-friendly admin panel, and performance/security enhancements.",
     },
     {
+      title: "Drupal Development",
+      description:
+        "Scalable CMS solutions with custom module/theme development, strong user management, enterprise-ready architecture, and advanced performance tuning.",
+    },
+    {
+      title: "Joomla Development",
+      description:
+        "Flexible content management solutions with custom extension development, responsive templates, multilingual support, robust user access control, and security-focused architecture.",
+    },
+    {
       title: "Shopify Development",
       description:
         "Tailored Shopify store setup, theme customization, app integration, secure payment/shipping setup, and ongoing performance optimization.",
+    },
+    {
+      title: "WooCommerce Development",
+      description:
+        "Seamless WooCommerce integration for WordPress, custom theme and plugin development, advanced product and order management, secure checkout systems, and responsive design.",
     },
     {
       title: "Magento Development",
@@ -155,59 +179,80 @@ const WebDevelopment = () => {
         "Enterprise-grade eCommerce solutions, custom themes and modules, multi-store/language support, third-party integrations, and robust security.",
     },
     {
-      title: "Drupal Development",
+      title: "BigCommerce Development",
       description:
-        "Scalable CMS solutions with custom module/theme development, strong user management, enterprise-ready architecture, and advanced performance tuning.",
+        "Full-service BigCommerce store development, custom theme and app integrations, mobile-optimized layouts, API integrations, and performance-driven scalability.",
     },
   ];
 
   const rightBoxContent = {
     heading:
-      "Invigorate Your Business DNA With Our Website Development & UX Designs",
+      "Why Choose SIB Infotech for Web Development in India?",
     description:
-      "Our plan thinking and client focused experience drove plans help us in efficiently removing client's necessities, practices, emotions, and contemplations while connecting with items in a certifiable setting and causes us make believable advanced encounters to construct versatile and web applications, web-based interfaces, web based business stores and significantly more.",
+      "At SIB Infotech, we don’t just build websites — we create digital experiences that drive results. Here’s what sets us apart: ",
   };
   const leftBoxContent = {
     headingStart: "Why",
     headingHighlight: "SIB Infotech",
-    subHeading: "Measurable Growth, Proven Results",
+    subHeading: "Build Smarter. Better. Faster. Websites ",
     cardTitle: "First Click to Final Conversion",
     cardDescription:
       "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
     buttonText: "Get a Free Analysis",
   };
-  const keyAdvantages = [
+  const keyAdvantages =[
     {
-      title: "KPI Led Design",
+      title: "Proven Track Record",
       description:
-        "Delivering measurable business results with our chosen indicators, strategy, and design.",
+        "With 20+ years in the industry and 1000+ satisfied clients, we are trusted for our consistent delivery of quality, reliability, and innovation.",
     },
     {
-      title: "Version Zero",
+      title: "Complete Digital Solutions",
       description:
-        "Building high-fidelity prototypes to communicate or validate concepts by testing for feedback.",
+        "From website development to SEO, PPC, and ongoing maintenance, we offer holistic digital strategies to help you succeed online.\n\nWeb development, SEO, PPC, and ongoing support — all under one roof.",
     },
     {
-      title: "Agile Development",
+      title: "Expert & Dedicated Team",
       description:
-        "Intersecting Agile/scrum methodology with design thinking for remarkable UX development.",
+        "Our team includes specialists in Custom Development to WordPress, Magento, Joomla, CMS platforms, Laravel, CodeIgniter, Django, MongoDB, and more, Our websites are tailor-made to reflect your brand identity and align with your business goals, ensuring a unique and impactful online presence. We provide dedicated developers for both startups and enterprises.",
     },
     {
-      title: "Digital Transformation",
+      title: "Flexible Engagement Models",
       description:
-        "Comprehending the breadth and depth of your business with meaningful +engaging transformation.",
+        "Choose from fixed cost, hourly billing, or dedicated resources — we adapt our engagement models to match your project needs, timeline, and budget.",
     },
     {
-      title: "Strategic UX",
+      title: "High Retention Rate Strong Client Retention",
       description:
-        "Uniting strategy + creativity + tools to weave strategic user experiences and interfaces.",
+        "Our client retention rate is a testament to our focus on long-term relationships, transparent communication, and delivering continuous value. Clients stick with us — thanks to long-term value and transparency.",
     },
     {
-      title: "KPI Led Design",
+      title: "Time Zone Flexibility",
       description:
-        "Delivering measurable business results with our chosen indicators, strategy, and design.",
+        "We understand the importance of seamless communication, so we adapt to your preferred time zones and working hours for smooth collaboration. We adapt to your time zones and work hours for seamless collaboration.",
+    },
+    {
+      title: "Cost-Effective Development",
+      description:
+        "We provide affordable solutions without compromising on performance, design, or support. Get the best value for your investment.",
+    },
+    {
+      title: "On-Time Delivery",
+      description:
+        "Time is critical, which is why our agile development process ensures your website is delivered on schedule, without delays.",
+    },
+    {
+      title: "AI-Powered Development Process AI-Driven Innovation",
+      description:
+        "We integrate AI tools throughout the development cycle to ensure efficiency, accuracy, and innovation, delivering smarter web solutions. We use AI tools to streamline development, ensuring smarter, faster, and more efficient outcomes",
+    },
+    {
+      title: "Post-Launch Support",
+      description:
+        "Our partnership doesn’t end at launch. We offer continuous maintenance, support, and optimization services to keep your website updated, secure, and performing at its best.",
     },
   ];
+  
   const keyAdvantages2 = [
     {
       title: "KPI Led Design",
@@ -393,7 +438,8 @@ const WebDevelopment = () => {
         data={power_data}
       />
       <Database />
-      <WhyChoose />
+      <WebServices/>
+      {/* <WhyChoose /> */}
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
@@ -403,8 +449,8 @@ const WebDevelopment = () => {
 
       <Partnership
         agencyWorkflow={agencyWorkflow}
-        title={"Our Approach  "}
-        subtitle={"Our Process for Web Development"}
+        title={"Our Web Development Process"}
+        subtitle={""}
         rightDiscription={
           " Our process simplifies SEO into clear, actionable steps keyword research and content optimization to link building and performance tracking, we ensure your website achieves sustainable."
         }
