@@ -23,15 +23,15 @@ import Featured from "@/comps/WhiteLabel/Featured";
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
     <>
-      <title>White Label Digital Marketing Services in India - Scalable & Affordable Solutions</title>
+      <title>
+        White Label Digital Marketing Services in India - Scalable & Affordable
+        Solutions
+      </title>
       <meta
         name="description"
         content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
       />
-      <meta
-        name="keywords"
-        content="White Label Digital Marketing Services"
-      />
+      <meta name="keywords" content="White Label Digital Marketing Services" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -72,9 +72,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
         url="https://www.sibinfotech.com/white-label-digital-marketing-services"
         breadcrumbTitle="White Label Digital Marketing Services in India - Scalable & Affordable Solutions"
         PageRatingSchema
-        description={
-          "White Label Digital Marketing Services"
-        }
+        description={"White Label Digital Marketing Services"}
         reviewCount={"5155"}
       />
     </>
@@ -85,48 +83,65 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       title: `White Label <br class="d-none d-md-lg "/> SEO Services`,
       description:
         "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg", 
-      
+      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> PPC Management`,
       description:
         "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
-      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg", 
-      
+      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> SMO Marketing `,
       description:
         "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
-      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg", 
-      
+      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> Facebook Ads`,
       description:
         "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
-      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg", 
-     
+      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> Google Ads`,
       description:
         "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
-      img: "/assets/images/white-lable/White-Label-Google-ads.jpg", 
-     
+      img: "/assets/images/white-lable/White-Label-Google-ads.jpg",
     },
     {
       title: ` White label <br class="d-none d-md-lg "/> Link Building`,
       description:
         "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
-      img: "/assets/images/white-lable/White-label-link-building.jpg", 
-     
+      img: "/assets/images/white-lable/White-label-link-building.jpg",
+    },
+  ];
+
+  const agencyWorkflow = [
+    {
+      title: `Consultation & <br/> Strategy`,
+      description:
+        "We start by understanding your client’s goals, challenges, and target audience. Our experts craft a customized marketing plan aligned with their needs, ensuring a data-driven approach for success. ",
+    },
+    {
+      title: `Execution Under <br/> Your Brand`,
+      description:
+        "Our dedicated team executes the strategies while you maintain full control of client communication. Everything is done under your brand name, ensuring a consistent and professional experience for your clients.",
+    },
+    {
+      title: `Branded Reporting <br/>& Actionable Insights`,
+      description:
+        "Get in-depth performance reports featuring your agency’s branding. We provide clear metrics, campaign analysis, and insights to help you showcase tangible results to your clients.",
+    },
+    {
+      title: `Continuous Optimization <br/>& Dedicated Support `,
+      description:
+        "Digital marketing is ever-evolving, and so are we. Our team constantly refines strategies, runs A/B tests, and adjusts campaigns to improve performance. We also offer ongoing support to ensure sustained success. ",
     },
   ];
   return (
-    <CustomLayout meta={metaTags} >
-      <div className="innerWebDesign whiteLable"  id="contact">
+    <CustomLayout meta={metaTags}>
+      <div className="innerWebDesign whiteLable" id="contact">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
@@ -200,10 +215,25 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       </div>
       <About2 />
 
-      <Solution heading={"Services We Offer As a"} subHeading={"White Label Digital Marketing Agency"} discription={"Powering Growth for Agencies, Resellers & Global Businesses with White-Label Expertise"} data={whiteLabelServices} />
+      <Solution
+        heading={"Services We Offer As a"}
+        subHeading={"White Label Digital Marketing Agency"}
+        discription={
+          "Powering Growth for Agencies, Resellers & Global Businesses with White-Label Expertise"
+        }
+        data={whiteLabelServices}
+      />
       <WhyChoose />
       <Cta2 />
-      <Partnership />
+      <Partnership
+        agencyWorkflow={agencyWorkflow}
+        title={"Our Approach To"}
+        subtitle={"White Label Digital Marketing"}
+        rightDiscription={
+          " We seamlessly integrate with your agency to deliver expert digital marketing services under your brand. From strategy to execution, we handle the heavy lifting while you focus on clientrelationships. With branded reports and continuous support, scaling your agency has never been easier!"
+        }
+        tagline={"Seamless, Scalable, and Results-Driven"}
+      />
       <KeyBenifits />
       <BrandBuild />
       <Cta />
@@ -211,8 +241,8 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <DeliverGrowth />
       <Industries />
       <Tools />
-      <Featured /> 
- 
+      <Featured />
+
       <div className="bg_light_gray">
         <Testimonials />
       </div>
