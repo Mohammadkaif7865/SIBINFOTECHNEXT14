@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Solution = ({ data, heading, subHeading, discription }) => {
-  const [indexNo, setIndexNo] = useState("0");
-  const [show, setShow] = useState("");
+  const [indexNo, setIndexNo] = useState("");
+  const [show, setShow] = useState(null);
   const handelIndex = (index) => {
     setIndexNo(index);
   };

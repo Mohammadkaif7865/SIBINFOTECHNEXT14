@@ -12583,7 +12583,7 @@ font-size: 20px;
 }
 
 .service__item.active .service__text {
-  max-height: 300px;
+  max-height: 400px;
 }
 
 .service__link {

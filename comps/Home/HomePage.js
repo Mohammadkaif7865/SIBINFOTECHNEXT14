@@ -25,6 +25,13 @@ import OurPeople from "./OurPeople";
 import Tools from "./Tools";
 import Abbout3 from "./Abbout3";
 import Map from "./Map";
+import Expertise from "./Expertise";
+import DigitalMarketingServices from "./DigitalMarketingServices";
+import AboutUs from "./AboutUs";
+import DigitalMarketingWebAgency from "./DigitalMarketingWebAgency";
+import DigitalMarketingAgency from "./DigitalMarketingAgency";
+import WebsiteDesignServices from "./WebsiteDesignServices";
+
 
 const HomePage = () => {
   const keyAdvantages = [
@@ -306,6 +313,7 @@ const HomePage = () => {
       <WhatWeDo3 />
       <Cta />
       <BrandBuild
+       image={`/assets/images/phone-seo-local-squares.png`}
         subtitle={"How to Create a Successful Digital Marketing Strategy? "}
         title={brandContent[0].title}
         description={brandContent[0].description}

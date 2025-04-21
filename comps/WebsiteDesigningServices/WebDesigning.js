@@ -11,6 +11,8 @@ import Engagement from "./Engagement";
 import Industries from "./Industries";
 import Faqs from "./Faqs";
 import Banner from "./Banner";
+import DigitalMarketingWebAgency from "../Home/DigitalMarketingWebAgency";
+import WebsiteDesignServices from "../Home/WebsiteDesignServices";
 
 const WebDesigning = () => {
   return (
@@ -24,6 +26,9 @@ const WebDesigning = () => {
       </section>
       <Contact />
       <DesigningProcess />
+      <DigitalMarketingWebAgency />
+      {/* <DigitalMarketingAgency /> */}
+      <WebsiteDesignServices />
       <Engagement />
       <Industries />
       <Faqs />

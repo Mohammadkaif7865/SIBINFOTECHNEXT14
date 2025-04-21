@@ -424,6 +424,7 @@ const WebDevelopment = () => {
         subtitle={
           "Our Expert Back End Web Development Services With Enhanced Stability"
         }
+        image={`/assets/images/web-dev/backend.jpg`}
         title={brandContent[0].title}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}

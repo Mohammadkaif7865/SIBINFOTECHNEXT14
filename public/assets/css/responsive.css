@@ -1526,6 +1526,7 @@
     border-radius: 20px;
   }
   .img-about-3-2 {
+    margin-top: 20px;
     margin-left: 0px;
   }
   .about3_section h4,
@@ -1546,6 +1547,12 @@
     font-weight: 700;
     color: #fff;
   }
+  .headerRightWhy {
+    position: static;
+    position: -webkit-sticky;
+    top: 75px;
+    z-index: 99;
+}
 }
 
 /* For devices with a min-width of 767px */

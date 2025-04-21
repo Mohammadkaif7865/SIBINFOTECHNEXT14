@@ -39,7 +39,7 @@ const Abbout3 = ({
             </div>
           </div>
           <div className="col-lg-8 order-lg-2 order-1">
-            <h5 className="fontWeight600">{mainHeading}</h5>
+            <h5 className="fontWeight600 text-center text-lg-start">{mainHeading}</h5>
             <h4
               className="mt-4 fontHeading2 large_heading2 fontWeight600"
               dangerouslySetInnerHTML={{ __html: subHeading }}

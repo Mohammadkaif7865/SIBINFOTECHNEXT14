@@ -29,37 +29,37 @@ const Seo = () => {
     {
       title: ` On-Page SEO  <br class="d-none d-md-lg "/> Optimization`,
       description:
-        "Boost your clients' rankings with our White Label SEO—expert strategies, seamless execution, your brand!",
+        "On-page SEO is the foundation of any successful SEO strategy. At SIB Infotech, we specialize in providing comprehensive on-page SEO services that help businesses achieve higher search engine rankings, increased traffic, and improved user engagement. On-page SEO is the sub-category that is useful in optimizing the on-page contents of your website which boosts your website ranking higher on search engines. It focuses on website tools like structure, content, and appearance. It includes the optimization of HTML tags and images on the website of your brand.",
       img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
     },
     {
       title: `Off-Page SEO & <br class="d-none d-md-lg "/> Link Building`,
       description:
-        "Scale your agency effortlessly with expert White Label PPC Management—high performance, low hassle!",
+        "Off-page SEO is activities that are performed after the websites goes live. Off-page SEO Service deals with the external links that direct traffic to your websites organically, also known as 'backlinks' This category deals with regulating the backlinks on other publisher's pages including blogs, which leads to building a reliable spot on the search engine and the rankings are set to the sky.",
       img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
     },
     {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services `,
       description:
-        "Grow your clients’ brands with our White Label SMO—engaging content, expert management, your branding!",
-      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg",
+        "Put your business on the local map with our tailored Local SEO services. We specialize in optimizing your online presence to attract local customers. From optimizing Google My Business profiles to ensuring accurate business information across directories, we ensure that your business is easily discoverable in local searches.",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
     },
     {
       title: `Local SEO <br class="d-none d-md-lg "/> Services `,
       description:
-        "Scale your agency with our White Label Facebook Ads—expertly managed, fully branded, and results-driven!",
+        "Technical SEO focuses on the website's architecture and user interface that is the technical parameters that directly affect the visibility. It manages the technical set up of the website that is the code. Most search engines prioritize the website's code when ranking it for search engines.",
       img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
     },
     {
       title: `E-Commerce SEO <br class="d-none d-md-lg "/>  Services `,
       description:
-        "Boost client ROI with our White Label Google Ads—expertly managed, fully branded, and performance-focused!",
+        "Fuel your online store's success with our E-Commerce SEO services. We optimize product visibility, streamline the shopping experience, and boost your sales. Elevate your digital presence and make your products stand out in the competitive online marketplace with our tailored solutions. Your success is our focus in the world of e-commerce.",
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
     {
       title: `Mobile SEO  `,
       description:
-        "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
+        "Mobile SEO is based on its name, which is meant for mobile devices. At present more than 60% of Google searches are done on mobile phones. This Mobile SEO service optimizes your website on phones and makes it mobile-friendly ",
       img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
     },
     {
@@ -426,6 +426,7 @@ AI-Driven SEO Strategy `,
         data={power_data}
       />
       <BrandBuild
+       image={`/assets/images/phone-seo-local-squares.png`}
         title={brandContent[0].title}
         subtitle={brandContent[0].subtitle}
         description={brandContent[0].description}

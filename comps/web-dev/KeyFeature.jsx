@@ -63,6 +63,18 @@ const KeyFeature = () => {
         "Modern websites often need to integrate with tools like CRMs, ERP systems, chatbots, and payment gateways. Choosing a platform that supports smooth API integration is crucial for business automation and scalability.",
       icon: "/assets/images/icons/web-dev/api-2.png",
     },
+    {
+      title: "Analytics & Performance Tracking",
+      description:
+        "Integrate tools to track user behavior and site performance, helping you make data-driven improvements.",
+      icon: "/assets/images/icons/web-dev/api-2.png",
+    },
+    {
+      title: "Scalable Hosting & Infrastructure",
+      description:
+        "Choose reliable, scalable hosting to ensure speed, uptime, and growth with your website’s needs",
+      icon: "/assets/images/icons/web-dev/api-2.png",
+    },
   ];
 
   return (
