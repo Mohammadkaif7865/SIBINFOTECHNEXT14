@@ -16,6 +16,7 @@ import Abbout3 from "../Home/Abbout3";
 import WhySIB from "../Home/WhySIB";
 import Partnership from "../WhiteLabel/Partnership";
 import Faq from "../Home/Faq";
+import Solution from "../WhiteLabel/Solution";
 const about3Data = {
   sectionId: "about",
   mainHeading: "Welcome to SIB Infotech",
@@ -562,15 +563,69 @@ const WebDesigning = () => {
   ];
 
   const faqDiscription = `We’re a full-service digital marketing firm delivering story-driven strategies to build,<br/> promote, and scale your brand to attract your ideal client.`;
+
+  const Services = [
+    {
+      title: `Business Website Design`,
+      description:
+        "A professionally designed business website tailored to showcase your company’s services, attract potential clients, and build credibility.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `E-Commerce Website <br class="d-none d-md-lg"/> Development`,
+      description:
+        "We build user-friendly e-commerce websites with seamless shopping experiences, secure payment gateways, and powerful admin panels.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `Custom Web <br class="d-none d-md-lg"/> Development`,
+      description:
+        "Need a unique website with special features? Our custom web development services provide tailored solutions to meet your business goals.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `Landing Page <br class="d-none d-md-lg"/> Design`,
+      description:
+        "High-converting landing pages optimized for lead generation and sales, perfect for marketing campaigns.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `WordPress Website <br class="d-none d-md-lg"/> Development`,
+      description:
+        "Get a beautifully crafted, easy-to-manage WordPress website with advanced customization and SEO-friendly features.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `Website Redesign & <br class="d-none d-md-lg"/> Revamp Services`,
+      description:
+        "Revamp your outdated website with a fresh, modern look and improved performance.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    },
+    {
+      title: `UI/UX Design & <br class="d-none d-md-lg"/> Prototyping`,
+      description:
+        "Ensure a smooth, engaging, and interactive user experience with our expert UI/UX design services.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+    }
+  ];
   return (
     <>
       <Banner />
       <Abbout3 {...about3Data} />
+      <Solution
+        heading={"Our Website Design Services "}
+        // subHeading={"With Our Cutting-Edge SEO Services in India"}
+        discription={
+          "We use the latest technology and design innovations to develop creative, smart & user-friendly websites to successfully connect users with brands. Empower yourself with the best website design company in India. "
+        }
+        data={Services}
+      />
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
+      <GrowBusiness /> 
       <Partnership
         agencyWorkflow={agencyWorkflow}
         title={"Our Website Design Process "}
