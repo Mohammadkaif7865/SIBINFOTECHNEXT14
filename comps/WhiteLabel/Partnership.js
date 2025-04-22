@@ -22,14 +22,10 @@ const Partnership = ({
           </div>
           <div className="col-lg-6 ps-lg-5 mt-3 mt-lg-0">
             <p>
-              We seamlessly integrate with your agency to deliver expert digital
-              marketing services under your brand. From strategy to execution,
-              we handle the heavy lifting while you focus on client
-              relationships. With branded reports and continuous support,
-              scaling your agency has never been easier!
+              {rightDiscription}
             </p>
             <p className="mt-2 fontWeight600 small_heading">
-              Seamless, Scalable, and Results-Driven
+             {tagline}
             </p>
           </div>
         </div>
