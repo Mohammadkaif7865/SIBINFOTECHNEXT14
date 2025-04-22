@@ -1,16 +1,13 @@
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
-import { useState } from "react";
-import { Accordion } from "react-bootstrap";
+
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
+import WebDevelopment from "@/comps/web-dev/WebDevelopment";
+// import WebDevelopment from "@/comps/web-dev/WebDevelopment";
 
 export default function WebDevelopmentServices() {
-  const [isShowMore, setIsShowMore] = useState(false);
-  const toggleReadMoreLess = () => {
-    setIsShowMore(!isShowMore);
-  };
   const faqsData = [
     {
       question: "What are Web Development services?",
@@ -100,24 +97,52 @@ export default function WebDevelopmentServices() {
 
   const metaTags = (
     <>
-      <title>Top Web Development Company India | Website Development Mumbai</title>
-      <meta name="description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
+      <title>
+        Top Web Development Company India | Website Development Mumbai
+      </title>
+      <meta
+        name="description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
       <meta name="keywords" content="Website Development Services" />
-     
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="og:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="og:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="og:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="og:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/website-development-services" />
-      <meta property="twitter:title" content="Top Web Development Company India | Website Development Mumbai" />
-      <meta property="twitter:description" content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
-" />
-     <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/website-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Top Web Development Company India | Website Development Mumbai"
+      />
+      <meta
+        property="twitter:description"
+        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-development-services"
         breadcrumbTitle="Top Web Development Company India | Website Development Mumbai"
         PageRatingSchema
@@ -139,7 +164,7 @@ export default function WebDevelopmentServices() {
                   Website Development Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Web Development  Company in India
+                  Top Rated Web Development Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
@@ -195,7 +220,9 @@ export default function WebDevelopmentServices() {
       <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={"Web Development Company "} />
       </div>
-      <section>
+      <WebDevelopment/>
+
+      {/* <section>
         <div className="containerFull">
           <h2 className="customHeading text-center fontHeading">
             Most Trusted <span>Web development Company In India</span>
@@ -266,8 +293,8 @@ export default function WebDevelopmentServices() {
             </button>
           </div>
         </div>
-      </section>
-      <section className="bgGrey">
+      </section> */}
+      {/* <section className="bgGrey">
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-3">
@@ -558,7 +585,7 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section>
-      <section className="bgGrey text-center">
+      <section className="bgGrey text-center ">
         <div className="containerFull">
           <h3 className="customHeading text-center">
             <span>
@@ -750,178 +777,7 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section>
-      <section className="bgGrey">
-        <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="stickyItem">
-                <h3 className="customHeading margin-left">
-                  Affordable{" "}
-                  <span className="text_red">QA Testing Services </span>In India
-                </h3>
-                <p className="customText margin-left">
-                  We provide full-cycle testing and quality assurance services
-                  to help you craft a product through accelerated testing
-                  methods that minimize errors, mitigate risk and defects in
-                  software and augments the user experience at a whole new
-                  level. Our QA model efficiently meets today's dynamic business
-                  needs and helps assure quality and maturity of testing
-                  capabilities that would lead to delivering successful business
-                  outcomes.
-                </p>
-                <img
-                  className="image-full"
-                  src="assets/images/web-devlp-img-19.svg"
-                  alt="Web Development"
-                />
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-22.svg"
-                          alt="Web Application Development Firm in Mumbai"
-                        />
-                      </div>
-                      <h4>Performance</h4>
-                    </div>
-                    <p className="customText">
-                      UI responsiveness Transaction completion (s) Peak load
-                      performance
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-23.svg"
-                          alt="Web Application Development Firm in Delhi"
-                        />
-                      </div>
-                      <h4>Compatibility</h4>
-                    </div>
-                    <p className="customText">
-                      Mobile Platform Compatibility (e.g.ios6,ios 5.1.1,ios
-                      5.1.1) Device Model Compatibility Backward Compatibility
-                      (with previous app version)
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-24.svg"
-                          alt="Web Application Development Firm in India"
-                        />
-                      </div>
-                      <h4>Conformance</h4>
-                    </div>
-                    <p className="customText">
-                      Marketplace guideline compliance (e.g.apple App Store
-                      policies) Enterprise policy compliance (e.g. prohibited
-                      content
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-25.svg"
-                          alt="Custom Web Application Development"
-                        />
-                      </div>
-                      <h4>Installation and Provisioning</h4>
-                    </div>
-                    <p className="customText">
-                      Installation process Un-installation process User
-                      provisioning and de-provisioning
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-26.svg"
-                          alt="Custom Web Application Development in India"
-                        />
-                      </div>
-                      <h4>Usability</h4>
-                    </div>
-                    <p className="customText">User Experience</p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-27.svg"
-                          alt="Custom Web Application Development in Delhi"
-                        />
-                      </div>
-                      <h4>Security</h4>
-                    </div>
-                    <p className="customText">
-                      Data Retention on device Transmission Security
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-28.svg"
-                          alt="Custom Web Application Development in Mumbai"
-                        />
-                      </div>
-                      <h4>Functionally</h4>
-                    </div>
-                    <p className="customText">
-                      User Interaction Testing Transaction testing
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="web-devlp-box bg-white">
-                    <div className="front-end-box-heading">
-                      <div className="front-end-img-circle">
-                        <img
-                          src="assets/images/icons/web-devlp-img-29.svg"
-                          alt="Custom Web Application Development in Delhi"
-                        />
-                      </div>
-                      <h4>Network</h4>
-                    </div>
-                    <p className="customText">
-                      Network type (Wi-Fi, 2G, 3G, 4G) Impact of connectivity
-                      Issues
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
       <section>
         <div className="containerFull">
           <div className="row">
@@ -1050,157 +906,7 @@ export default function WebDevelopmentServices() {
             Website Development <span className="titleHighlight">FAQ?</span>
           </h4>
           <div className="space d-none d-lg-block"></div>
-          {/* <div className="row">
-            <div className="col-lg-6">
-              <div className="faqRight">
-                <div className="accordion" id="accordionExample">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
-                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        What are Web Development services?
-                      </button>
-                    </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
-                      <div className="accordion-body">
-                        <p>Known for ensuring the online presence of company Web Development services involve developing the website for the Internet (World Wide Web) or an intranet (a private network). Among professionals, Web Development usually refers to the main design aspects of building websites i.e. markup and coding.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What does a Web Development company do?
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" >
-                      <div className="accordion-body">
-                        <p>Web Development is all about maintaining the online presence of a company so that its services can reach out to its potential customers. Web Development services include various engaging activities such as ideating and freezing the framework, architecture and navigation.</p>
-                        <p>There are several languages such as JavaScript, ASP, HTML, PHP etc. for coding and programming the backend.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingThree">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                        What does Web development include?
-                      </button>
-                    </h2>
-                    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" >
-                      <div className="accordion-body">
-                        <p>Web Development involves creating websites and apps for brands to reach customers. It includes aspects like web design, web publishing, web programming, and database management. A Web Developer designs websites and also writes the script in languages such as PHP and ASP.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFour">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">How much does Web Development cost?
-                      </button>
-                    </h2>
-                    <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                      <div className="accordion-body">
-                        <p>The cost for Web Development depends on many factors such as:</p>
-                        <ul>
-                          <li>Variation in requirements.</li>
-                          <li>Utilization of resources on projects.</li>
-                          <li>The time frame for a particular project etc.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFive">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        What to look for in a Professional Web Development Company?
-                      </button>
-                    </h2>
-                    <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                      <div className="accordion-body">
-                        <p>Understanding what you look for in a web development company can be hard and at the same time can also have a major impact on the online presence of your business. We suggest choosing a website that has years of experience with an extensive portfolio of websites. Opt for checking reviews online to gauge how satisfied clients have been with the company's work.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="faqRight">
-                <div className="accordion" id="accordionExample2">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingSix">
-                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Why SIB Infotech is the Best Web Development Agency in India?
-                      </button>
-                    </h2>
-                    <div id="collapseSix" className="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample2">
-                      <div className="accordion-body">
-                        <p>In a country like India, you will find thousands of Web Designing Companies running single-handedly or with multiple hands but what makes SIB Infotech unique is its years of experience and team of experts skilled in different areas. Feel free to check our portfolio for more information about the projects we have successfully delivered. We offer a free no-obligation consultation session so you can evaluate our capabilities and see if we are a good fit for your project. Contact us today to book an appointment.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingSeven">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        How much does Website Development Costs in India?
-                      </button>
-                    </h2>
-                    <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
-                      <div className="accordion-body">
-                        <p>Web Development in a country like India is usually priced on the lower side of the scale. The total costing depends on the time utilization, resources on a particular project along with the custom requirements of clients.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingSeven2">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven2" aria-expanded="false" aria-controls="collapseSeven2">
-                        What Web Development Platforms do you use for Developing a Website?
-                      </button>
-                    </h2>
-                    <div id="collapseSeven2" className="accordion-collapse collapse" aria-labelledby="headingSeven2" data-bs-parent="#accordionExample2">
-                      <div className="accordion-body">
-                        <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
-                        <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
-                        <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
-                        <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingEight">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                        What is Website Development?
-                      </button>
-                    </h2>
-                    <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
-                      <div className="accordion-body">
-                        <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
-                        <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
-                        <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
-                        <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingNine">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                        How do I choose a Website Development Company for my Business?
-                      </button>
-                    </h2>
-                    <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
-                      <div className="accordion-body">
-                        <p>Here are a few tips to consider when appointing a web development company and the obstacles that may appear by overlooking vital points:</p>
-                        <ul>
-                          <li>Before opting for website development services you need to answer a few questions. What are the elements you need in a website? How many webpages do you need on your website? What should be its key features?</li>
-                          <li>Go through the company's website by analyzing its digital presence, social media handles, and content present. Also, investigate if the site is mobile-friendly.</li>
-                          <li>Have a glance at their portfolio. If they don’t have one ask them to go through a test for you asking them about their latest works and if they have worked on something in the same niche. Visit those sites and check how they are performing now (most importantly have a keen eye on the UI and UX).</li>
-                          <li>Check the reviews of their clients and pay further attention to the reviews from those clients that have similar businesses as yours. You may also monitor their overall rating and if they have any awards.</li>
-                          <li>Make sure they provide transparency to their clients and are responsive enough. Even if they don't possess a sales team contact them to know how they acknowledge and their dedication towards your work.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+
           <div className="row ">
             <div className="col-lg-6">
               <Accordion defaultActiveKey="0">
@@ -1242,7 +948,7 @@ export default function WebDevelopmentServices() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </CustomLayout>
   );
 }

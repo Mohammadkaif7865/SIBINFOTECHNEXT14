@@ -28,38 +28,63 @@ const markers = [
   { name: "Beijing", coordinates: [116.4074, 39.9042] }, // China
   { name: "Seoul", coordinates: [126.978, 37.5665] }, // South Korea
   { name: "Mexico City", coordinates: [-99.1332, 19.4326] }, // Mexico
-  { name: 'Auckland', coordinates: [174.7633, -36.8485] }, // New Zealand
-  { name: 'Delhi', coordinates: [77.2090, 28.6139] },
-  { name: 'Tokyo', coordinates: [139.6917, 35.6895] },
-  { name: 'Beijing', coordinates: [116.4074, 39.9042] },
-  { name: 'Seoul', coordinates: [126.9780, 37.5665] },
-  { name: 'Bangkok', coordinates: [100.5018, 13.7563] },
-  { name: 'Jakarta', coordinates: [106.8456, -6.2088] },
-  { name: 'London', coordinates: [0.1278, 51.5074] },
-  { name: 'Paris', coordinates: [2.3522, 48.8566] },
-  { name: 'Berlin', coordinates: [13.4050, 52.5200] },
-  { name: 'Rome', coordinates: [12.4964, 41.9028] },
-  { name: 'Madrid', coordinates: [-3.7038, 40.4168] },
-  { name: 'Amsterdam', coordinates: [4.9041, 52.3676] },
-  { name: 'Moscow', coordinates: [37.6173, 55.7558] },
-  { name: 'New York', coordinates: [-74.0060, 40.7128] },
-  { name: 'Los Angeles', coordinates: [-118.2437, 34.0522] },
-  { name: 'Toronto', coordinates: [-79.3832, 43.6532] },
-  { name: 'Mexico City', coordinates: [-99.1332, 19.4326] },
-  { name: 'São Paulo', coordinates: [-46.6333, -23.5505] },
-  { name: 'Buenos Aires', coordinates: [-58.3816, -34.6037] },
-  { name: 'Lima', coordinates: [-77.0428, -12.0464] },
-  { name: 'Cairo', coordinates: [31.2357, 30.0444] },
-  { name: 'Lagos', coordinates: [3.3792, 6.5244] },
-  { name: 'Cape Town', coordinates: [18.4241, -33.9249] },
-  { name: 'Sydney', coordinates: [151.2093, -33.8688] },
-  { name: 'Melbourne', coordinates: [144.9631, -37.8136] },
-
+  { name: "Auckland", coordinates: [174.7633, -36.8485] }, // New Zealand
+  { name: "Delhi", coordinates: [77.209, 28.6139] },
+  { name: "Tokyo", coordinates: [139.6917, 35.6895] },
+  { name: "Beijing", coordinates: [116.4074, 39.9042] },
+  { name: "Seoul", coordinates: [126.978, 37.5665] },
+  { name: "Bangkok", coordinates: [100.5018, 13.7563] },
+  { name: "Jakarta", coordinates: [106.8456, -6.2088] },
+  { name: "London", coordinates: [0.1278, 51.5074] },
+  { name: "Paris", coordinates: [2.3522, 48.8566] },
+  { name: "Berlin", coordinates: [13.405, 52.52] },
+  { name: "Rome", coordinates: [12.4964, 41.9028] },
+  { name: "Madrid", coordinates: [-3.7038, 40.4168] },
+  { name: "Amsterdam", coordinates: [4.9041, 52.3676] },
+  { name: "Moscow", coordinates: [37.6173, 55.7558] },
+  { name: "New York", coordinates: [-74.006, 40.7128] },
+  { name: "Los Angeles", coordinates: [-118.2437, 34.0522] },
+  { name: "Toronto", coordinates: [-79.3832, 43.6532] },
+  { name: "Mexico City", coordinates: [-99.1332, 19.4326] },
+  { name: "São Paulo", coordinates: [-46.6333, -23.5505] },
+  { name: "Buenos Aires", coordinates: [-58.3816, -34.6037] },
+  { name: "Lima", coordinates: [-77.0428, -12.0464] },
+  { name: "Cairo", coordinates: [31.2357, 30.0444] },
+  { name: "Lagos", coordinates: [3.3792, 6.5244] },
+  { name: "Cape Town", coordinates: [18.4241, -33.9249] },
+  { name: "Sydney", coordinates: [151.2093, -33.8688] },
+  { name: "Melbourne", coordinates: [144.9631, -37.8136] },
+];
+const agencyCards = [
+  {
+    title: "Digital Marketing Agency in Mumbai",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in Delhi",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in London",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in Vietnam",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in New Zealand",
+    image: "our-footprint-white-revise.jpg",
+  },
+  {
+    title: "Digital Marketing Agency in UAE",
+    image: "our-footprint-white-revise.jpg",
+  },
 ];
 
 const Map = () => {
   return (
-    <section className="trusted">
+    <section className="trusted ">
       {/* <h4 className="mb-4 text-center large_heading2 fontHeading2 fontWeight300 text-white">
         Across The <span className="fontWeight600">Globe Presence</span>
       </h4> */}
@@ -76,10 +101,16 @@ const Map = () => {
           <div className="col-lg-6">
             <h5 className="fontWeight600 text-white">Our Footprint</h5>
             <h4 className="mt-4 mb-4 heading fontHeading2 fontWeight300 text-white">
-              Expanding Your Brand’s Reach Globally with <br/><span className="fontWeight600">SIB Infotech</span>
+              Expanding Your Brand’s Reach Globally with <br />
+              <span className="fontWeight600">SIB Infotech</span>
             </h4>
             <p className="mt-4">
-            At SIB Infotech, we have delivered customized digital marketing solutions to clients across 40+ countries. Our experience spans diverse regions, from North America and Europe to Asia, the Middle East, and Oceania, allowing us to create market-specific strategies that resonate with local audiences while aligning with global business goals. 
+              At SIB Infotech, we have delivered customized digital marketing
+              solutions to clients across 40+ countries. Our experience spans
+              diverse regions, from North America and Europe to Asia, the Middle
+              East, and Oceania, allowing us to create market-specific
+              strategies that resonate with local audiences while aligning with
+              global business goals.
             </p>
           </div>
           <div className="col-lg-6">
@@ -128,6 +159,27 @@ const Map = () => {
               </ComposableMap>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="containerFull">
+        <div className="row mt-lg-4 mt-2">
+          {agencyCards.map((item, index) => {
+            return (
+              <div className="col-lg-2 col-6  mb-3 ">
+                <div className="img_cities">
+                  <div className="img_box">
+                    <img
+                      className="w-75 d-block mx-auto"
+                      src="/assets/images/city.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p className="mt-2">{item.title}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

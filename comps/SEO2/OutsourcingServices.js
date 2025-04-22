@@ -5,11 +5,11 @@ const OutsourcingServices = () => {
   return (
     <section className="OutsourcingServices">
       <div className="containerFull ">
-        <div className="row  ">
+        <div className="row align-items-center ">
           <div className="col-lg-6">
-            <h3 className="fontHeading  h3 fontWeight600">
+            <h3 className=" regular_heading fontWeight600">
               100% White Label
-              <span className="text_blue_light ">
+              <span className="text_red ">
                 {" "}
                 SEO Outsourcing Services{" "}
               </span>
@@ -34,7 +34,7 @@ const OutsourcingServices = () => {
               height={400}
               quality={100}
               className="bg-white border-2 shadow rounded-2  w-100 h-auto"
-              src="/assets/images/icons/no-lock.png"
+              src="/assets/images/Our-Services-Your-Branding.png"
               alt=""
             />
           </div>

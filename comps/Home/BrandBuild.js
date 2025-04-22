@@ -2,8 +2,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
-const BrandBuild = ({ title, description, faqData, subtitle }) => {
-  const [activeKey, setActiveKey] = useState("0");
+const BrandBuild = ({image,title, description, faqData, subtitle }) => {
+  const [activeKey, setActiveKey] = useState("");
 
   return (
     <section>
@@ -30,7 +30,7 @@ const BrandBuild = ({ title, description, faqData, subtitle }) => {
             <div className="d-flex">
               <Image
                 className="w-75 h-100 mx-auto"
-                src="/assets/images/phone-seo-local-squares.png"
+                src={image}
                 width={500}
                 height={400}
                 alt=""
