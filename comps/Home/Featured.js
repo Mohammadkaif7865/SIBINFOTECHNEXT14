@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Featured = () => {
+const Featured = ({title}) => {
   const newsWebsites = [
     { logo: "abc-news.webp", alt: "abc-news" },
     { logo: "associated-press.webp", alt: "associated-press" },

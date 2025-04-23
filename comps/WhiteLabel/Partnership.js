@@ -4,8 +4,10 @@ const Partnership = ({
   agencyWorkflow,
   title,
   subtitle,
+  rightTitle,
   rightDiscription,
   tagline,
+  batchtitle,
 }) => {
   // const [active, setActive] = useState("0");
 
@@ -14,19 +16,19 @@ const Partnership = ({
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 className=" large_heading2 fontWeight600">
+            <h5 className=" fontWeight600">{batchtitle}</h5>
+            <h4 className=" mt-3 large_heading2 fontWeight600">
               <span>{title} </span>
               <br className="" />
               <span className="text_red sub_heading">{subtitle}</span>{" "}
             </h4>
           </div>
           <div className="col-lg-6 ps-lg-5 mt-3 mt-lg-0">
-            <p>
-              {rightDiscription}
-            </p>
-            <p className="mt-2 fontWeight600 small_heading">
-             {tagline}
-            </p>
+            <h4 className="fontWeight600">{rightTitle}</h4>
+
+      
+            <p className="mt-3">{rightDiscription}</p>
+            <p className="mt-2 fontWeight600 small_heading">{tagline}</p>
           </div>
         </div>
 
@@ -58,9 +60,7 @@ const Partnership = ({
                     <p
                       className="mt-2"
                       dangerouslySetInnerHTML={{ __html: value.description }}
-                    >
-                      
-                    </p>
+                    ></p>
                   </div>
                 </div>
               </div>

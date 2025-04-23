@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Tools = () => {
+const Tools = ({title}) => {
   const tools = [
     {
       src: "/assets/images/google-search-console.webp",
@@ -60,17 +60,18 @@ const Tools = () => {
             <h5 className="fontWeight600 text-center text-white">
               Our Tools
             </h5>
-            <h3 className="heading text-center text-white fontWeight300 mt-4">
-              Some of the{" "}
+            <h3 className="heading text-center text-white fontWeight300 mt-4" dangerouslySetInnerHTML={{ __html: title }}></h3>
+
+              {/* Some of the{" "}
               <span className="fontWeight600">
                 Best Digital Marketing Tools
-              </span>{" "}
-              for{" "}
-              <span className="fontWeight600">
-                Auditing & Monitoring Effective Marketing{" "}
               </span>
-              used by us.
-            </h3>
+              for
+              <span className="fontWeight600">
+                Auditing & Monitoring Effective Marketing
+              </span>
+              used by us. */}
+          
           </div>
         </div>
         {/* <div className="row mt-lg-3 b">

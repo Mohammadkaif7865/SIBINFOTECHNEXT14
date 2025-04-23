@@ -1,16 +1,14 @@
 import React from "react";
 import LogoClients from "../LogoClients";
 
-const OurClients = () => {
+const OurClients = ({title}) => {
   return (
     <section className="home_our_client trusted">
       <div className="containerFull">
         <h4 class="title fontWeight600 text-center text-white ">Our Clients</h4>
-        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white">
-          India’s Trusted{" "}
-          <span className="fontWeight600">Digital Marketing Experts</span>{" "}
-          Behind <span className="fontWeight600">Fast-Growing Brands</span>
-        </h4>
+        <h4 className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white" dangerouslySetInnerHTML={{ __html: title }}></h4>
+          
+        
         {/* <h4 className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white">
           Powerfull <span className="fontWeight600">Brand Partnership!</span>
         </h4> */}

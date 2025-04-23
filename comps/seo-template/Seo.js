@@ -144,13 +144,13 @@ AI-Driven SEO Strategy `,
               <li>Map long-tail keywords that match intent.</li>
               <li>Keyword research would not be complete without using a set of engines such as Google Keyword Planner, Ahrefs, and SEMrush to draw data-based insights.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "2. Competitor Analysis",
           answer: `
             <p>This process gathers competitors' insights about their keyword, content, and backlink strategy and uses those insights to improve your own SEO</p>
-          `
+          `,
         },
         {
           question: "3. On-Page SEO Optimization",
@@ -162,7 +162,7 @@ AI-Driven SEO Strategy `,
               <li>Structured data (schema markup) - A type of code that you can optimize on your website to help search engines provide more informative and relevant results to users.</li>
               <li>Image optimization using alt text and compressing their file sizes.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "4. High-Quality Content Creation (& E-E-A-T)",
@@ -173,7 +173,7 @@ AI-Driven SEO Strategy `,
               <li>Keep your old blogs up to date in some manner.</li>
               <li>Siloing in the content structure should be encouraged based on topical relevance.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "5. Optimize Content Design (UI & UX)",
@@ -182,7 +182,7 @@ AI-Driven SEO Strategy `,
               <li>The process of making sure content is written in a way that it can reach the largest possible target audience.</li>
               <li>Mobile Friendly/Responsive: Your website's users can use your website through mobile device with ease and barring any significant changes from the desktop version of your website.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "6. Technical SEO Enhancements",
@@ -194,7 +194,7 @@ AI-Driven SEO Strategy `,
               <li>Create an XML sitemap and submit it to the search engines for listing all pages.</li>
               <li>Make sure the website is HTTPS secure.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "7. Off-Page SEO & Link Building",
@@ -205,7 +205,7 @@ AI-Driven SEO Strategy `,
               <li>Social media and brand mentions could also work for exposure.</li>
               <li>Ensure accurate citation and match in terms of cross-referencing with major directories for local SEO purposes.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "8. Local SEO (For Businesses Targeting Local Audience)",
@@ -216,7 +216,7 @@ AI-Driven SEO Strategy `,
               <li>Content should include keywords based upon the location. Localize your business entity in sites such as Yelp, Justdial, etc.</li>
               <li>Local SEO is a strategy that focuses on improving your visibility in local search rankings.</li>
             </ul>
-          `
+          `,
         },
         {
           question: "10. Regular Performance Monitoring & Optimization",
@@ -227,12 +227,9 @@ AI-Driven SEO Strategy `,
               <li>Always study what the competition is doing to keep on improving it.</li>
               <li>Carry out A/B tests regarding Meta titles, descriptions, and CTAs for higher click-through rates. Conduct A/B testing on meta tags, descriptions, and CTAs.</li>
             </ul>
-          `
-        }
+          `,
+        },
       ],
-      
-      
-      
     },
   ];
 
@@ -372,7 +369,7 @@ AI-Driven SEO Strategy `,
                   with{" "}
                   <strong className="fontWeight600 text_red">
                     Best{" "}
-                    <span className="textChange">White Label Marketing </span>{" "}
+                    <span className="textChange">SEO </span>{" "}
                     Company in India
                   </strong>
                 </p>
@@ -393,7 +390,7 @@ AI-Driven SEO Strategy `,
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">White Label Marketing </span>{" "}
+              Best <span className="textChange">SEO</span>{" "}
               Company in India
             </strong>
           </p>
@@ -418,15 +415,16 @@ AI-Driven SEO Strategy `,
         rightBoxContent={rightBoxContent}
       />
       <SIBPower
-        title="Why Choose "
-        subtitle="SIB Infotech"
-        description="We are more than just a SEO Company Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-        description_right="As a leading SEO marketing agency in Mumbai, India; we pride ourselves on a remarkable track record, successfully managing over 1350+ projects within distinct niches. Our dedicated teams specialize in various sectors, ensuring businesses achieve top rankings. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, each niche benefits from a specialized team with the requisite skills and extensive industry experience. This targeted approach allows us to comprehend specific business requirements, leading to outstanding results. "
+        title="We Are SEO  "
+        subtitle="Experts in India "
+        description="We are more than just a SEO Company"
+        title_right={`Why Choose SIB Infotech As Your SEO Service Provider in India?`}
+        description_right="At SIB Infotech, we don’t just rank websites, we drive sustainable digital growth. Our focus is on increasing visibility, boosting conversions and maximizing your ROI. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, we bring industry-specific expertise to every project and understand your business requirements, address its challenges and draft targeted SEO solutions that drive measurable results"
         // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
       />
       <BrandBuild
-       image={`/assets/images/phone-seo-local-squares.png`}
+        image={`/assets/images/phone-seo-local-squares.png`}
         title={brandContent[0].title}
         subtitle={brandContent[0].subtitle}
         description={brandContent[0].description}
@@ -437,12 +435,14 @@ AI-Driven SEO Strategy `,
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
-      <Partnership 
-      agencyWorkflow={agencyWorkflow}
-      title={'Our 4 Step SEO '}
-      subtitle={'Process Key to SEO Success.'}
-      rightDiscription={' Our process simplifies SEO into clear, actionable steps keyword research and content optimization to link building and performance tracking, we ensure your website achieves sustainable.'} 
-      tagline={'Seamless, Scalable, and Results-Driven'}
+      <Partnership
+        batchtitle={"Our Approach"}
+        agencyWorkflow={agencyWorkflow}
+        title={"Complete SEO Process"}
+        subtitle={"Explained Step-by-Step to Rank you on Top"}
+        rightTitle={`How Does SEO Work? `}
+        rightDiscription={`Search Engine Optimization (SEO) is the process of enhancing your website's visibility on search engines like Google. By optimizing various elements of your site, SEO helps search engines understand your content better, making it more likely to appear in relevant search results. This increased visibility can drive more organic traffic to your site, leading to higher engagement and conversions. `}
+        // tagline={'Seamless, Scalable, and Results-Driven'}
       />
       {/* <OurAproach /> */}
       {/* <SeoProcess /> */}
@@ -454,7 +454,9 @@ AI-Driven SEO Strategy `,
         description={`Client Success Stories That Prove
  We’re a Top SEO Company in India,our results speak for themselves`}
       />
-      <OurClients />
+      <OurClients title={`India’s Trusted
+          <span class="fontWeight600">SEO Experts</span>
+          Behind <span class="fontWeight600">Fast-Growing Brands</span>`} />
       <Testimonials
         title={testimonial_data[0].title}
         description={testimonial_data[0].description}
@@ -462,10 +464,24 @@ AI-Driven SEO Strategy `,
       <Conversions />
       <Featured />
       <div className="toolsHome">
-        <Tools />
+      {/* Some of the Top SEO Tools for Auditing & Monitoring Effective SEO are used by us */}
+        <Tools
+          title={`Some of the 
+            <span class="fontWeight600">
+              Top SEO Tools
+              </span>
+              for
+              <span class="fontWeight600">
+              Auditing & Monitoring Effective SEO
+              </span>
+              are used by us
+            
+            `}
+        />
       </div>
       <Industries />
-      <Pricing />
+      <Pricing batchtitle={`SEO Pricing Plans`} heading={`360° <span class="fontWeight600">SEO</span>
+          Solutions`} description={`  Our SEO Packages starts from <strong>$250</strong> only.`} />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
