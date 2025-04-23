@@ -57,19 +57,18 @@ const packages = [
   },
 ];
 
-const Pricing = () => {
+const Pricing = ({batchtitle,heading,description}) => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
         <h4 class="title fontWeight600  text-center">
-          Digital Marketing Pricing Plans{" "}
+         {batchtitle}
         </h4>
-        <h4 className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red">
-          360° <span className="fontWeight600">Digital Marketing</span>{" "}
-          Solutions
+        <h4 className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red" dangerouslySetInnerHTML={{ __html: heading }}>
+          
         </h4>
-        <p className="mt-4 text-center title fontWeight500">
-          Our Digital Marketing Packages starts from <strong>$175</strong> only.
+        <p className="mt-4 text-center title fontWeight500" dangerouslySetInnerHTML={{ __html: description }}>
+        
         </p>
 
         <div className="pricing_row position-relative">

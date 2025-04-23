@@ -339,7 +339,11 @@ const HomePage = () => {
       <CaseStudy2
         description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
       />
-      <OurClients />
+      <OurClients title={`
+        India’s Trusted
+          <span class="fontWeight600">Digital Marketing Experts</span>
+          Behind <span class="fontWeight600">Fast-Growing Brands</span>
+        `} />
       <Testimonials
         title={testimonial_data[0].title}
         description={testimonial_data[0].description}
@@ -347,10 +351,19 @@ const HomePage = () => {
       <Conversions />
       <Featured />
       <div className="toolsHome">
-        <Tools />
+        <Tools title={` Some of the
+              <span class="fontWeight600">
+                Best Digital Marketing Tools
+              </span>
+              for
+              <span class="fontWeight600">
+                Auditing & Monitoring Effective Marketing
+              </span>
+              used by us.`} />
       </div>
       <Industries2 />
-      <Pricing />
+      <Pricing batchtitle={`Digital Marketing Pricing Plans`} heading={`360° <span class="fontWeight600">Digital Marketing</span>
+          Solutions`} description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`} />
       <Map />
       {/* <Counter /> */}
       {/* <Presence/> */}
