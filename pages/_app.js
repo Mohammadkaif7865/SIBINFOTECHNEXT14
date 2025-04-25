@@ -12,7 +12,7 @@ const inter = Inter({
   weight: ["400", "700"], // Define font weights
   display: "swap",
 });
-
+// test
 function MyApp({ Component, pageProps }) {
   return (
     <Layout className={inter.className}>
