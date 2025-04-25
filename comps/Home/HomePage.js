@@ -31,7 +31,7 @@ import AboutUs from "./AboutUs";
 import DigitalMarketingWebAgency from "./DigitalMarketingWebAgency";
 import DigitalMarketingAgency from "./DigitalMarketingAgency";
 import WebsiteDesignServices from "./WebsiteDesignServices";
-
+import Cta2 from "./Cta2";
 
 const HomePage = () => {
   const keyAdvantages = [
@@ -362,6 +362,7 @@ const HomePage = () => {
               used by us.`} />
       </div>
       <Industries2 />
+      <Cta2/>
       <Pricing batchtitle={`Digital Marketing Pricing Plans`} heading={`360° <span class="fontWeight600">Digital Marketing</span>
           Solutions`} description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`} />
       <Map />
