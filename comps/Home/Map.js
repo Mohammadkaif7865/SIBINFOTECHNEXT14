@@ -12,6 +12,7 @@ import "swiper/css";
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 // Map markers
+// bfdgbsd
 const markers = [
   { name: "Mumbai", coordinates: [72.8777, 19.076] },
   { name: "Delhi", coordinates: [77.209, 28.6139] },
@@ -29,7 +30,7 @@ const markers = [
   { name: "Seoul", coordinates: [126.978, 37.5665] },
   { name: "Mexico City", coordinates: [-99.1332, 19.4326] },
 ];
-
+//dfdfg
 // Swiper cards
 const agencyCards = [
   { title: "Digital Marketing Agency in Ahmedabad", image: "Ahemdabad.svg" },
