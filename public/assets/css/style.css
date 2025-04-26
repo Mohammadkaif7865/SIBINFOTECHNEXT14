@@ -13608,6 +13608,20 @@ tudy-right-main {
 .icon_web_key {
   filter: invert();
 }
+/* Cta2 */
+.Cta-bg{
+  background: var(--red-color);
+}
+.icon-box {
+  font-size: 2rem; 
+  
+  margin-bottom: 10px;
+}
+.icon-box:hover {
+  transform: scale(1.1);
+  color: black; 
+}
+
 /* SmoPage */
 .feature-icon .icon-box {
   color: var(--red-color); 
