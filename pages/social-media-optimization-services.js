@@ -3,6 +3,12 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
+import SmoPage from "@/comps/SmoPage/Smo";
+import SmowhySib from "@/comps/SmoPage/Smowhysib";
+import Smoservices from "@/comps/SmoPage/Smoservices";
+import SmoPracticeStrategy from "@/comps/SmoPage/Smopractice-strategy";
+import SmoFaq from "@/comps/SmoPage/Smofaq";
+import WhatisSmo from "@/comps/SmoPage/WhatisSmo";
 
 export default function SocialMediaOptimizationServices() {
   const metaTags = (
@@ -274,6 +280,13 @@ export default function SocialMediaOptimizationServices() {
           </div>
         </div>
       </section>
+      <SmoPage/>
+      <WhatisSmo/>
+      <SmowhySib/>
+      <Smoservices/>
+      <SmoPracticeStrategy/>
+      <SmoFaq/>
     </CustomLayout>
+   
   );
 }

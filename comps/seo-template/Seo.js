@@ -320,6 +320,7 @@ AI-Driven SEO Strategy `,
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
+              
               <div className="innerBannerTitle venter">
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 

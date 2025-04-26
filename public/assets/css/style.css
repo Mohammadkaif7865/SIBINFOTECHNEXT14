@@ -13608,3 +13608,19 @@ tudy-right-main {
 .icon_web_key {
   filter: invert();
 }
+/* SmoPage */
+.feature-icon .icon-box {
+  color: var(--red-color); 
+  font-size: 2.5rem;
+  margin-right: 15px;
+}
+
+.feature-icon h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.feature-icon p {
+  margin: 0;
+}
+
