@@ -10,7 +10,11 @@ import SmoPracticeStrategy from "@/comps/SmoPage/Smopractice-strategy";
 import SmoFaq from "@/comps/SmoPage/Smofaq";
 import WhatisSmo from "@/comps/SmoPage/WhatisSmo";
 
+
 export default function SocialMediaOptimizationServices() {
+
+ 
+
   const metaTags = (
     <>
       <title>Social Media Optimization Services Company in Mumbai, India</title>
@@ -283,6 +287,7 @@ export default function SocialMediaOptimizationServices() {
       <SmoPage/>
       <WhatisSmo/>
       <SmowhySib/>
+     
       <Smoservices/>
       <SmoPracticeStrategy/>
       <SmoFaq/>
