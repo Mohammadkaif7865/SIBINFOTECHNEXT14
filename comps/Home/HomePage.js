@@ -361,7 +361,20 @@ const HomePage = () => {
               </span>
               used by us.`} />
       </div>
-      <Industries2 />
+      {/* <Industries2 /> */}
+      <Industries2
+        heading="Industries We Serve"
+        subHeading={
+          <>
+            Digital Marketing{" "}
+            <span className="fontWeight600">for Every Industry</span>
+          </>
+        }
+        description1="At SIB Infotech, we deliver custom digital marketing solutions tailored to the unique needs of various industries. Whether you're in eCommerce, healthcare, finance, real estate, education, or any other domain, our expert team combines AI-driven strategies with proven digital marketing techniques to help you reach the right audience and drive real business results."
+        description2="Whether you're a startup or an enterprise, we offer industry-focused marketing campaigns that help you increase visibility, improve ROI, and scale your business efficiently."
+        title="Transforming Industries with Tailored Marketing Solutions"
+      />
+
       <Cta2/>
       <Pricing batchtitle={`Digital Marketing Pricing Plans`} heading={`360° <span class="fontWeight600">Digital Marketing</span>
           Solutions`} description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`} />

@@ -1,44 +1,43 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const Industries = () => {
-  // Data for industries
+const Industries2 = ({ heading, subHeading, description1, description2 }) => {
   const industries = [
     {
-      title: "E-commerce &\n Retail ",
+      title: "E-commerce &\n Retail",
       img: "https://www.savit.in/assets/img/case-study/ecommerce.webp",
       description:
         "As a leading e-commerce digital marketing agency, we help online stores boost visibility, increase conversions, and drive revenue through performance-driven SEO, PPC, and full-funnel strategies.",
     },
     {
-      title: "Healthcare &\n Pharma ",
+      title: "Healthcare &\n Pharma",
       img: "https://www.savit.in/assets/img/case-study/health-care.webp",
       description:
-        "As a trusted healthcare digital marketing agency, we specialize in website design, SEO, and PPC campaigns tailored for hospitals, clinics, and medical professionals to build credibility and attract more patients. ",
+        "As a trusted healthcare digital marketing agency, we specialize in website design, SEO, and PPC campaigns tailored for hospitals, clinics, and medical professionals to build credibility and attract more patients.",
     },
     {
       title: "Finance &\n Banking",
       img: "/assets/images/instagram-ads-business-objective.png",
       description:
-        " As a finance digital marketing agency, we create secure and conversion-focused digital strategies to enhance online presence, generate qualified leads, and build trust for banks, NBFCs, and financial institutions.",
+        "As a finance digital marketing agency, we create secure and conversion-focused digital strategies to enhance online presence, generate qualified leads, and build trust for banks, NBFCs, and financial institutions.",
     },
     {
       title: "Education &\n E-learning",
       img: "https://www.savit.in/assets/img/case-study/education.webp",
       description:
-        " As an education digital marketing agency, we partner with schools, colleges, edtech platforms, and coaching institutes to increase student enrollment through smart SEO, paid campaigns, and engaging content.",
+        "As an education digital marketing agency, we partner with schools, colleges, edtech platforms, and coaching institutes to increase student enrollment through smart SEO, paid campaigns, and engaging content.",
     },
     {
       title: "Beauty &\n Fashion",
       img: "https://www.savit.in/assets/img/case-study/fashion.webp",
       description:
-        " As a beauty and fashion digital marketing agency, we amplify your brand through compelling content, social media marketing, influencer collaborations, and e-commerce optimization to boost engagement and sales.",
+        "As a beauty and fashion digital marketing agency, we amplify your brand through compelling content, social media marketing, influencer collaborations, and e-commerce optimization to boost engagement and sales.",
     },
     {
-      title: "Real Estate &\n Projects ",
+      title: "Real Estate &\n Projects",
       img: "https://www.savit.in/assets/img/case-study/b2b.webp",
       description:
         "As a real estate digital marketing agency, we generate high-quality leads for property developers, builders, and agents with hyper-targeted campaigns, local SEO, and landing pages that convert.",
@@ -48,19 +47,18 @@ const Industries = () => {
   return (
     <section className="">
       <div className="containerFull">
-        <h5 className=" fontWeight600">
-          Industries We Serve
-        </h5>
-        <h4 class="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
-        End-to End <span className="fontWeight500">SEO Services</span>
-          <span class="fontWeight600"> for Every Industry</span>
-        </h4>
-        <p className="title mt-3">
-        At SIB Infotech, we deliver custom SEO Services as per the needs of various industries. Whether you are in eCommerce, healthcare, finance, real estate, education, or any other domain, our expert team combines AI-driven strategies with proven SEO techniques to help you reach the right audience and drive real business results.  
-        </p>
-        <p className="title mt-3">
-        Whether you are a startup or an enterprise, we offer industry-focused SEO services that help you increase visibility, improve ROI, and scale your business efficiently. 
-        </p>
+        {heading && <h5 className="fontWeight600">{heading}</h5>}
+
+        {subHeading && (
+          <h4 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
+           
+            {subHeading}
+          </h4>
+        )}
+
+        {description1 && <p className="title mt-3">{description1}</p>}
+        {description2 && <p className="title mt-3">{description2}</p>}
+
         <Swiper
           spaceBetween={20}
           slidesPerView={4}
@@ -69,22 +67,10 @@ const Industries = () => {
             disableOnInteraction: false,
           }}
           breakpoints={{
-            0: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            576: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 4,
-              spaceBetween: 10,
-            },
+            0: { slidesPerView: 1, spaceBetween: 20 },
+            576: { slidesPerView: 1, spaceBetween: 20 },
+            768: { slidesPerView: 2, spaceBetween: 30 },
+            1024: { slidesPerView: 4, spaceBetween: 10 },
           }}
           loop={true}
           pagination={false}
@@ -104,10 +90,8 @@ const Industries = () => {
                       <div className="innerServices">
                         <div className="industriesImg">
                           <img src={item.img} alt={item.title} />
-                          {/* Or use <Image> if you're importing from Next and domain is whitelisted */}
                         </div>
 
-                        {/* 🔥 Support dynamic line breaks with \n */}
                         <h4 className="small_heading mt-3 fontWeight600">
                           {item.title.split("\n").map((line, i) => (
                             <React.Fragment key={i}>
@@ -140,4 +124,4 @@ const Industries = () => {
   );
 };
 
-export default Industries;
+export default Industries2;

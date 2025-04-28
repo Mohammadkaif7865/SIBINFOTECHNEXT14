@@ -320,6 +320,7 @@ AI-Driven SEO Strategy `,
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
+              
               <div className="innerBannerTitle venter">
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
@@ -479,7 +480,19 @@ AI-Driven SEO Strategy `,
             `}
         />
       </div>
-      <Industries />
+      {/* <Industries /> */}
+      <Industries
+        heading="Industries We Serve"
+        subHeading={
+          <>
+            End-to End <span className="fontWeight500">SEO Services</span>
+            <span className="fontWeight600"> for Every Industry</span>
+          </>
+        }
+        description1="At SIB Infotech, we deliver custom SEO Services as per the needs of various industries. Whether you are in eCommerce, healthcare, finance, real estate, education, or any other domain, our expert team combines AI-driven strategies with proven SEO techniques to help you reach the right audience and drive real business results."
+        description2="Whether you are a startup or an enterprise, we offer industry-focused SEO services that help you increase visibility, improve ROI, and scale your business efficiently."
+      />
+
       <Pricing batchtitle={`SEO Pricing Plans`} heading={`360° <span class="fontWeight600">SEO</span>
           Solutions`} description={`  Our SEO Packages starts from <strong>$250</strong> only.`} />
       <TalkWithExpert

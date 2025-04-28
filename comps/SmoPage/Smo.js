@@ -2,16 +2,23 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-// Data part
+// Data 
 const about3Data = {
   sectionId: "about",
-  mainHeading: "Boost Your Brand’s Presence with Expert SMO Services ",
+  mainHeading: "Welcome to SIB Infotech",
+
   subHeading:
-    'Guaranteed Visibility Through <span class="text_red"> Our Digital Marketing Services</span>',
-  contentParagraphs: [
-    `<strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
-    `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
-  ],
+    'Boost Your Brand’s Presence <span class="text_red"> with Expert SMO Services</span>',
+
+    contentParagraphs: [
+      `In today’s digital landscape, <strong>Social Media Optimization (SMO) </strong>is more than just regular posting — it’s about building strong meaningful connections, increasing brand awareness, and driving organic traffic. With billions of users actively engaging on platforms like Facebook, Instagram, LinkedIn, and more, social media is one of the most powerful tools for brand building and customer engagement, and having a strong social media presence is essential for any business.`,
+    
+      `At SIB Infotech, we craft customized <strong>SMO strategies </strong>to strengthen your brand’s voice, ensuring that every post, share, and interaction contributes to measurable growth across all major social platforms.`,
+    
+      `Partner with SIB Infotech — your trusted <strong>Social Media Optimization (SMO)</strong> agency — and start building a stronger, more influential digital presence today!`
+    ],
+    
+    
   image1: {
     src: "/assets/images/aboout-3.png",
   },
@@ -26,7 +33,7 @@ const about3Data = {
   callIcon: "/assets/images/icons/call-icon.svg",
 };
 
-// Component part
+// Component 
 const Abbout3 = () => {
   const {
     sectionId,
@@ -66,7 +73,9 @@ const Abbout3 = () => {
             </div>
           </div>
           <div className="col-lg-8 order-lg-2 order-1">
-            <h5 className="fontWeight600 text-center text-lg-start">{mainHeading}</h5>
+            <h5 className="fontWeight600 text-center text-lg-start">
+              {mainHeading}
+            </h5>
             <h4
               className="mt-4 fontHeading2 large_heading2 fontWeight600"
               dangerouslySetInnerHTML={{ __html: subHeading }}
@@ -91,12 +100,7 @@ const Abbout3 = () => {
                 <Link className="aboutBtn" href={`tel:${phoneNumber}`}>
                   <div className="about3_btn_box d-flex">
                     <div className="icon">
-                      <Image
-                        src={callIcon}
-                        alt=""
-                        width={40}
-                        height={40}
-                      />
+                      <Image src={callIcon} alt="" width={40} height={40} />
                     </div>
                     <div>
                       <p>{phoneHelpText}</p>
