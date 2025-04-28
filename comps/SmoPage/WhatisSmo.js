@@ -6,8 +6,7 @@ export default function Home() {
     <section className="py-5 bg-light">
       <div className="container">
         <div className="row align-items-center">
-          
-          {/* Left Image */}
+        
           <div className="col-md-6 text-center mb-4 mb-md-0">
             <div className="w-100" style={{ maxWidth: "500px", margin: "0 auto" }}>
               <Image
@@ -20,7 +19,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Content */}
           <div className="col-md-6">
             <h2 className="mb-3">What is Social Media Optimization (SMO)?</h2>
             <p className="mb-4">
@@ -31,10 +29,10 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Features */}
+          
           <div className="mt-5">
             <div className="row">
-              {/* Feature 1 */}
+             
               <div className="col-6 mb-4">
                 <div className="d-flex align-items-start feature-icon">
                   <div className="icon-box">
@@ -49,7 +47,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Feature 2 */}
+             
               <div className="col-6 mb-4">
                 <div className="d-flex align-items-start feature-icon">
                   <div className="icon-box">
@@ -79,7 +77,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Feature 4 */}
+              
               <div className="col-6 mb-4">
                 <div className="d-flex align-items-start feature-icon">
                   <div className="icon-box">
@@ -94,7 +92,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Feature 5 */}
+              
               <div className="col-6 mb-4">
                 <div className="d-flex align-items-start feature-icon">
                   <div className="icon-box">
