@@ -4,46 +4,57 @@ import WhySIB from "../Home/WhySIB";
 const SMOWhySIB = () => {
   const keyAdvantages = [
     {
-      title: "Increased Brand Visibility ",
+      title: "Social Media Profile Optimization",
       description:
-        "With 19+ years in the industry, we have delivered outstanding results for startups, SMEs, and enterprises across multiple industries, helping them achieve higher visibility, engagement, and conversions.",
+        "We optimize your social media profiles (Facebook, Instagram, LinkedIn, Twitter, Pinterest, and more) with compelling bios, high-quality visuals, relevant keywords, and updated business information. This ensures a strong, consistent brand identity and a clear, appealing brand message across platforms.",
     },
     {
-      title: "Stronger Audience Engagement ",
+      title: "Content Strategy & Creation",
       description:
-        "As a Google Premier Partner, we have access to exclusive tools, trends, and strategies that keep our clients ahead of the competition.",
+        "Our team designs a robust content strategy that ensures your posts inspire, educate, and entertain. We create engaging, shareable, and brand-specific content — including images, videos, infographics, and blog promotions — to drive meaningful engagement and make your brand stand out.",
     },
     {
-      title: "Data-Driven Strategy ",
+      title: "Audience Engagement",
       description:
-        "Unlike many agencies that use generic templates, we craft custom digital marketing solutions based on your industry, target audience, and unique business goals.",
+        "We actively engage with your audience in real-time by responding to comments, managing conversations, and addressing reviews to build trust, foster loyalty, and strengthen customer relationships.",
     },
     {
-      title: "Higher Website Traffic & Conversions ",
+      title: "Social Media Analytics & Reporting",
       description:
-        "From SEO, PPC, and social media to branding, content marketing, and performance analytics—we offer comprehensive solutions under one roof.",
+        "We provide detailed analytics and monthly reports, offering insights into key performance metrics such as engagement rates, follower growth, and post reach. Our reports help you understand your audience better and track the success of campaigns for ongoing improvement.",
     },
     {
-      title: "Build a Community & Loyal Following ",
+      title: "Social Media Advertising",
       description:
-        "Every decision we make is backed by data, ensuring maximum return on investment (ROI) through continuous monitoring, testing, and optimization.",
+        "Expand your brand’s reach with highly targeted advertising campaigns on platforms like Facebook, Instagram, LinkedIn, and more — designed to drive awareness, engagement, and conversions.",
     },
     {
-      title: "Cost-Effective Compared to Traditional Advertising ",
+      title: "Influencer Marketing & Brand Collaborations",
       description:
-        "We seamlessly blend high-impact creative storytelling with conversion-driven marketing strategies, ensuring your brand not only attracts attention but also drives real business results.",
+        "We connect your brand with relevant influencers and industry leaders to amplify reach, build credibility, and generate authentic content that resonates with your target audience.",
     },
     {
-      title: "Transparent Reporting",
+      title: "Hashtag & Trend Optimization",
       description:
-        "We believe in 100% transparency, providing detailed insights, analytics, and reports so you know exactly where your budget is going and what’s working.",
+        "We optimize your posts for discoverability by researching and implementing trending and relevant hashtags, ensuring your content reaches the right audience and gains maximum visibility.",
     },
     {
-      title: "Dedicated Support",
+      title: "Reputation Management",
       description:
-        "Our team acts as an extension of your business, offering dedicated account managers and scalable solutions that grow with your evolving needs.",
+        "We proactively monitor your brand’s online reputation, swiftly addressing any negative feedback and managing public perception to maintain a positive brand image.",
+    },
+    {
+      title: "Social Media Audits & Competitor Analysis",
+      description:
+        "We conduct comprehensive audits of your social media profiles to identify strengths, gaps, and growth opportunities. Discover what’s working, what’s not, and how you can outperform competitors.",
+    },
+    {
+      title: "Contest & Campaign Management",
+      description:
+        "We design and manage creative contests and campaigns that boost engagement, encourage user participation, and enhance your brand’s viral reach.",
     },
   ];
+  
 
   const rightBoxContent = {
     heading: "What Sets Us Apart from Other SMO  in India?",
@@ -52,8 +63,8 @@ const SMOWhySIB = () => {
   };
 
   const leftBoxContent = {
-    headingStart: "Why",
-    headingHighlight: "SIB Infotech",
+    headingStart: "Our  ",
+    headingHighlight: "SMO Services",
     subHeading: "Measurable Growth, Proven Results",
     cardTitle: "First Click to Final Conversion",
     cardDescription:

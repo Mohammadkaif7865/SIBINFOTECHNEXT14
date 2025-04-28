@@ -61,7 +61,7 @@ export default function SearchEngineOptimizationServices() {
       title="Complete SMO Process"
       subtitle="Explained Step-by-Step to Rank you on Top"
       rightTitle="How Does SMO Work?"
-      rightDiscription="Social Media Optimization (SMO) works by using social media platforms to increase awareness of a brand, product, or service.
+      rightDiscription=" Social Media Optimization (SMO) works by using social media platforms to increase awareness of a brand, product, or service.
 It involves creating and sharing high-quality, engaging content—like posts, videos, infographics, and blogs—to encourage audience interaction and sharing.
 By optimizing profiles, using the right hashtags, participating in discussions, and running campaigns, businesses can build a strong online presence, drive traffic to their websites, and improve brand credibility.
 Ultimately, SMO helps in reaching a broader audience organically and builds a loyal community around the brand.

@@ -6,37 +6,38 @@ const BrandBuild = () => {
   const [activeKey, setActiveKey] = useState("0");
   const faqData = [
     {
-      question: "Consistent Branding  ",
-      answer: "Offer a full suite of digital marketing services, including SEO, PPC, social media management, content marketing, and web design, without the need to hire an in-house team. This allows you to cater to a broader client base and remain competitive in the industry."
+      question: "Consistent Branding Across Platforms ",
+      answer: "Establish a strong, recognizable brand identity across social media channels like Facebook, Instagram, LinkedIn, and Twitter, fostering trust and brand awareness."
     },
     {
-      question: "Quality Content Creation  ",
-      answer: "Instead of spending time managing multiple marketing campaigns, you can focus on business growth and client relationships while our expert team handles all the execution, ensuring timely and effective results."
+      question: "High-Quality Content Creation ",
+      answer: "Produce engaging, visually appealing, and platform-specific content that captivates your target audience and encourages interaction. From images to videos, our content creation strategy is designed to maximize engagement."
     },
     {
-      question: "Targeted Advertising  ",
-      answer: "With white-label services, you can take on more clients and offer additional services without increasing operational costs, allowing you to scale profitably while maintaining high-quality service delivery."
+      question: "Targeted Social Media Advertising ",
+      answer: "Launch highly effective social media ad campaigns on platforms like Facebook, Instagram, and LinkedIn to precisely target your ideal audience and drive conversions."
     },
     {
-      question: "Influencer Collaborations  ",
-      answer: "Your brand remains at the forefront while we operate discreetly in the background. From strategy to execution, everything is done under your agency’s name, ensuring a seamless experience for your clients."
+      question: "Influencer Collaborations & Partnerships ",
+      answer: "Partner with industry influencers to amplify your brand’s reach, enhance credibility, and create authentic content that resonates with your followers."
     },
     {
-      question: "Regular Interaction with Followers      ",
-      answer: "Gain instant access to a highly skilled team of digital marketing professionals without the hassle of recruitment, training, or overhead costs. Our specialists bring years of experience in various marketing disciplines, ensuring top-notch execution."
+      question: "Active Audience Engagement ",
+      answer: " Foster genuine connections by responding to comments, reviews, and direct messages, improving relationships and building a loyal community around your brand."
     },
     {
-      question: "Data-Driven Decision-Making    ",
-      answer: "Scale your agency faster with ready-to-go, results-driven marketing solutions. With a dedicated team working for you, you can expand your client base, enhance your service offerings, and drive long-term business success."
+      question: "Leverage Trends and Hashtags  ",
+      answer: "  Stay relevant and boost discoverability by leveraging trending topics and using strategic hashtags that increase visibility across social media platforms."
     },
     {
-        question: "Multi-Platform Integration       ",
-        answer: "Scale your agency faster with ready-to-go, results-driven marketing solutions. With a dedicated team working for you, you can expand your client base, enhance your service offerings, and drive long-term business success."
-      },
-      {
-        question: "Contests and Giveaways       ",
-        answer: "Scale your agency faster with ready-to-go, results-driven marketing solutions. With a dedicated team working for you, you can expand your client base, enhance your service offerings, and drive long-term business success."
-      }
+      question: "Multi-Platform Social Media Integration ",
+      answer: " Ensure cohesive messaging by integrating SMO efforts across multiple platforms, including Facebook, Instagram, LinkedIn, Twitter, YouTube, and more."
+    },
+    {
+      question: "Creative Contests, Giveaways, & Campaign",
+      answer: " Engage your audience with exciting contests, giveaways, and creative campaigns that boost interaction and increase your brand’s organic reach. "
+    },
+   
   ];
   
   
@@ -51,12 +52,12 @@ const BrandBuild = () => {
               Why Use
             </h4>
             <h5 className="fontWeight600 mt-3 small_heading">
-            Most Effective SMO Practices & Strategies to Ace Your Marketing Game 
+            Most Effective SMO Practices & Strategies to Boost Your Social Media Marketing 
             </h5>
           </div>
           <div className="col-lg-6 mt-3 mt-lg-0  ps-3">
             <p className="title">
-            Welcome to the ultimate guide to getting your social media up and running! Whether you are an entrepreneur or a marketing expert, mastering social media optimization is your golden ticket to online success. The following are ways in which we can help take your social media game to the next level: 
+            Ready to elevate your brand’s social media presence? Whether you're an entrepreneur or a marketing pro, mastering <strong>Social Media Optimization (SMO)</strong> is essential for achieving online success. Here’s how our SMO services can help you take your social media marketing to the next level: 
               
                
             </p>

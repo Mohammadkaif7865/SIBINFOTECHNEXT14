@@ -90,7 +90,7 @@ const SMofaq = () => {
   return (
     <div className="bg-light ">
     <Faq
-      title={"Everything You Need to Know "}
+      title={"FAQs about Our SMO Services  "}
       description={faqDiscription}
       faqsData={faqsData}
     />
