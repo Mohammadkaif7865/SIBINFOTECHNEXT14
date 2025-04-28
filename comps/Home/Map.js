@@ -1,13 +1,8 @@
-"use client";
-
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-  Marker,
-} from "react-simple-maps";
+import React, { useRef } from "react";
+import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'; 
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
@@ -45,6 +40,20 @@ const agencyCards = [
 ];
 
 const Map = () => {
+  const swiperRef = useRef(null); 
+
+  const handleNextSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slideNext(); 
+    }
+  };
+
+  const handlePrevSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slidePrev(); 
+    }
+  };
+
   return (
     <section className="trusted">
       <div className="containerFull">
@@ -98,9 +107,32 @@ const Map = () => {
         </div>
       </div>
 
-      {/* Swiper Cards  */}
-      <div className="containerFull mt-5">
+     
+      <div className="containerFull mt-5" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        
+        <div
+          className="swiper-navigation-icon left"
+          onClick={handlePrevSlide}
+          style={{
+            position: "absolute",
+            left: "10px",
+            background: "rgba(0, 0, 0, 0.5)",
+            color: "white",
+            borderRadius: "50%",
+            padding: "10px",
+            cursor: "pointer",
+            opacity: 0.6,
+            transition: "opacity 0.3s",
+          }}
+          onMouseEnter={(e) => (e.target.style.opacity = 1)}
+          onMouseLeave={(e) => (e.target.style.opacity = 0.6)}
+        >
+          <FaArrowLeft size={24} />
+        </div>
+
+       
         <Swiper
+          ref={swiperRef}
           spaceBetween={20}
           slidesPerView={2}
           loop={false}
@@ -110,6 +142,7 @@ const Map = () => {
             992: { slidesPerView: 5 },
             1200: { slidesPerView: 6 },
           }}
+          style={{ flex: 1, position: "relative" }} 
         >
           {agencyCards.map((item, index) => (
             <SwiperSlide key={index}>
@@ -127,6 +160,27 @@ const Map = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+
+       
+        <div
+          className="swiper-navigation-icon right"
+          onClick={handleNextSlide}
+          style={{
+            position: "absolute",
+            right: "10px",
+            background: "rgba(0, 0, 0, 0.5)",
+            color: "white",
+            borderRadius: "50%",
+            padding: "10px",
+            cursor: "pointer",
+            opacity: 0.6,
+            transition: "opacity 0.3s",
+          }}
+          onMouseEnter={(e) => (e.target.style.opacity = 1)}
+          onMouseLeave={(e) => (e.target.style.opacity = 0.6)}
+        >
+          <FaArrowRight size={24} />
+        </div>
       </div>
     </section>
   );
