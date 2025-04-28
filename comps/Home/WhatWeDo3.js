@@ -10,25 +10,35 @@ export default function WhatWeDo3() {
     {
       title: "Get Ranked on Google",
       subList: ["Search Engine Optimization", "Local SEO", "Ecommerce SEO"],
-      subTitle: "Smarter SEO for Higher Rankings & Real Results",
+      subTitle: "Grow Organically with Our SEO Expertise",
       description: `
-          <p>Stay ahead of the competition with our data-driven SEO strategies designed to increase visibility, drive organic traffic, and grow your business. </p>
-          <h5 class="mt-3">
-          Search Engine Optimization 
-          </h5>
-          <p class="mt-2">
-          Full-spectrum SEO focused on rankings, relevance, and revenue. 
-          </p>
-         <h5 class="mt-3">
-          Local SEO 
-          </h5>
-          <p class="mt-2">
-          Rank higher in local search and maps to attract nearby customers. 
-          </p>
-          <h5 class="mt-3">
-           eCommerce SEO
-          </h5>
-           <p class="mt-2">Optimized product pages and technical SEO that boost online sales. </p>
+          <p>  Unlock higher rankings, more traffic, and better leads with our proven SEO
+  services. Our smarter, AI-driven strategies are designed to boost your online
+  visibility, attract qualified visitors, and accelerate your business growth,
+  keeping you ahead of the competition.</p>
+         <h5 class="mt-3">Search Engine Optimization (SEO)</h5>
+<p>
+  Increase your website’s visibility, authority, and revenue with our end-to-end
+  SEO solutions. From technical SEO to high-authority backlinks, we help your
+  business rank higher on Google and reach the audience that matters most.
+</p>
+
+<h5 class="mt-3">Local SEO</h5>
+<p class="mt-2">
+  Connect with customers in your area and dominate local search results. We
+  optimize your Google Business Profile, local citations, hyperlocal content,
+  and location-based keywords to drive foot traffic, build trust, and generate
+  more local leads.
+</p>
+
+<h5 class="mt-3">Ecommerce SEO</h5>
+<p class="mt-2">
+  Maximize product visibility and drive more sales with targeted Ecommerce SEO
+  strategies. We fine-tune your product listings, enhance technical SEO, and
+  optimize conversion funnels to grow your online store and improve your bottom
+  line.
+</p>
+
 `,
       image: "/assets/images/get-ranked-on-google.jpg",
     },
@@ -115,7 +125,7 @@ export default function WhatWeDo3() {
 
        
        `,
-      image: "/assets/images/trust-credibility.png",
+      image: "/assets/images/trusted.jpeg",
     },
   ];
 
