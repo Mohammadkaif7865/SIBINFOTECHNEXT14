@@ -313,7 +313,7 @@ const HomePage = () => {
       <WhatWeDo3 />
       <Cta />
       <BrandBuild
-       image={`/assets/images/phone-seo-local-squares.png`}
+       image={`/assets/images/home-digital-marketing.jpg`}
         subtitle={"How to Create a Successful Digital Marketing Strategy? "}
         title={brandContent[0].title}
         description={brandContent[0].description}
