@@ -20,12 +20,12 @@ export default function Home() {
           </div>
 
           <div className="col-md-6">
-            <h2 className="mb-3">What is Social Media Optimization (SMO)?</h2>
+            <h2 className="mb-3">What is <strong className="text_red">Social Media Optimization</strong> (SMO)?</h2>
             <p className="mb-4">
-              Social Media Optimization is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively.
+             <strong> Social Media Optimization </strong>is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively.
             </p>
             <p className="mb-4">
-              Social Media Optimization involves the use of social media networks to manage and grow an organization’s message and online presence. As a vital part of digital marketing, SMO goes beyond posting content. It includes strategically creating, curating, and promoting your brand's message on social platforms to drive engagement, increase followers, and convert social interactions into measurable business outcomes.
+              Social Media Optimization involves the use of <strong>social media networks</strong> to manage and grow an organization’s message and online presence. As a vital part of digital marketing, SMO goes beyond posting content. It includes strategically creating, curating, and promoting your brand's message on social platforms to drive engagement, increase followers, and convert social interactions into measurable business outcomes.
             </p>
           </div>
 

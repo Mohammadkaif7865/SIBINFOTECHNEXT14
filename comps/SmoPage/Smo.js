@@ -10,15 +10,15 @@ const about3Data = {
   subHeading:
     'Boost Your Brand’s Presence <span class="text_red"> with Expert SMO Services</span>',
 
-  contentParagraphs: [
-    `<strong>SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia</strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
-
-    `<b>With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
-
-    `In today’s digital landscape, <strong>Social Media Optimization (SMO)</strong> is more than just posting – it’s about building meaningful connections, boosting brand awareness, and driving organic traffic. At SIB Infotech, we craft customized SMO strategies to strengthen your brand’s voice across all major social platforms.`,
-
-    `In today’s digital world, having a strong presence on social media is essential for any business. At SIB Infotech, we offer top-notch <strong>Social Media Optimization (SMO)</strong> services that enhance your brand’s visibility, engage your audience, and drive more traffic to your website. Our tailored SMO strategies are designed to help you leverage the power of social platforms to achieve your business goals.`,
-  ],
+    contentParagraphs: [
+      `In today’s digital landscape, <strong>Social Media Optimization (SMO) </strong>is more than just regular posting — it’s about building strong meaningful connections, increasing brand awareness, and driving organic traffic. With billions of users actively engaging on platforms like Facebook, Instagram, LinkedIn, and more, social media is one of the most powerful tools for brand building and customer engagement, and having a strong social media presence is essential for any business.`,
+    
+      `At SIB Infotech, we craft customized <strong>SMO strategies </strong>to strengthen your brand’s voice, ensuring that every post, share, and interaction contributes to measurable growth across all major social platforms.`,
+    
+      `Partner with SIB Infotech — your trusted <strong>Social Media Optimization (SMO)</strong> agency — and start building a stronger, more influential digital presence today!`
+    ],
+    
+    
   image1: {
     src: "/assets/images/aboout-3.png",
   },

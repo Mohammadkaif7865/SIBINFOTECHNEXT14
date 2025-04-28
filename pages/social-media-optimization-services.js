@@ -75,10 +75,10 @@ export default function SocialMediaOptimizationServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading ">
-                  Social Media Optimization Services
+                Best Social Media Marketing Company in India  
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated SMO Company in India
+                That Delivers Engagement and Growth 
                 </h2>
                 <div className="mt-4">
                   <Link href="#">
@@ -133,7 +133,7 @@ export default function SocialMediaOptimizationServices() {
       <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={" Social Media Optimization"} />
       </div>
-      <section className="seoBlock">
+      {/* <section className="seoBlock">
         <div className="containerFull">
           <div className="row">
             <div className="col-md-8 order-lg-1 order-2 mt-3 mt-lg-0">
@@ -279,7 +279,7 @@ export default function SocialMediaOptimizationServices() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <SmoPage/>
       <WhatisSmo/>
       <SmowhySib/>
