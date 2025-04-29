@@ -13608,19 +13608,80 @@ tudy-right-main {
 .icon_web_key {
   filter: invert();
 }
+/* map.js */
+.custom-swiper-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3); 
+  color: white !important;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  font-size:15px;
+}
+
+
+.custom-swiper-arrow:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+
+
 /* Cta2 */
-.Cta-bg{
+
+
+
+.cta2-section {
+  padding: 0 !important;
+  position: relative;
+}
+
+.cta-left {
+  background-image: url('/assets/images/cta2/bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 0;
+}
+
+.cta-bg {
   background: var(--red-color);
+  min-height: 100vh;
 }
+
 .icon-box {
-  font-size: 2rem; 
-  
+  font-size: 2rem;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
+
 .icon-box:hover {
   transform: scale(1.1);
-  color: black; 
+  color: black;
 }
+
 
 /* SmoPage */
 .feature-icon .icon-box {

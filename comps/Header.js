@@ -67,7 +67,8 @@ export default function Header() {
             </div>
           </div>
         </div> */}
-        <div className="mainHeader ">
+        
+        <div className="mainHeader container-xxl ">
           <div className="px-1 px-lg-2 ">
             <div className="inlineHeader">
               <div className="leftLogo">
@@ -703,6 +704,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+        
       </header>
 
       <Offcanvas show={show} onHide={handleClose} placement="end">
