@@ -7,7 +7,7 @@ import { FaMousePointer, FaPhoneAlt, FaStore } from "react-icons/fa";
 const Cta2 = () => {
   return (
     <section
-      className="py-5 position-relative overflow-hidden"
+      className=" position-relative overflow-hidden"
       style={{ height: "100vh" }}
     >
       <div className="container-fluid h-100">

@@ -12,11 +12,12 @@ const Banner = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                 PPC  Management Services India
+                Best PPC Managment Company in India to Maximize Your ROI 
                 </h1>
                 <h2 className="small_heading fw-bold mt-lg-3 mt-2 text-white">
                   Top Rated PPC Company in India
                 </h2>
+                
                 <div className="mt-4">
                   <Link href="https://www.sibinfotech.com/#requestQuote">
                     <span className="btnThemeRed me-3">
