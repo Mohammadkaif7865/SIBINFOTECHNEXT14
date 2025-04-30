@@ -13,6 +13,7 @@ import SIBPower from "@/comps/Home/SIBPower";
 import PPcWebervices from "./PPcWebservices";
 import PPcStrategy from "./PPcStrategy";
 import PPcServicess from "./PPcServicess";
+import WhatisPPc from "./WhatisPPc";
 
 const Ppc = () => {
   const power_data = [
@@ -51,6 +52,7 @@ const Ppc = () => {
   return (
     <>
       <Banner />
+      <WhatisPPc/>
       <WhyPPC />
       <PPCServices />
       <SIBPower

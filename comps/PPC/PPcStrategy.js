@@ -54,21 +54,14 @@ const BrandBuild = () => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 className="large_heading2 fontWeight600   text_red mt-3 fontWeight600">
-            What is Pay-Per-Click (PPC)? 
-            </h4>
-            <h5 className="fontWeight600 mt-3 small_heading">
+            <h4 className="heading fontWeight600 fontHeading2 text_red">
             Key Factors for Running a Highly Successful PPC Campaign 
-            </h5>
+            </h4>
+           
           </div>
           <div className="col-lg-6 mt-3 mt-lg-0  ps-3">
             <p className="title">
-           <strong> Pay-Per-Click (PPC)</strong> is an online advertising model where an advertiser 
-
-runs an ad and he will get charged a fee each time a user clicks on their ad. Essentially, it’s a way of buying targeted website traffic rather than earning it organically. PPC allows businesses to display their ads on search engines, social media platforms, and other websites. 
- The most popular form of PPC is <strong>search engine advertising</strong>, where advertisers bid for ad placement in a search engine’s sponsored links when users search for keywords related to their business. 
- 
-              
+            Running a<strong>Pay-Per-Click (PPC)</strong>  campaign isn’t just about creating ads — it's about building a smart, targeted strategy that maximizes ROI. A successful PPC campaign requires careful planning, continuous monitoring, and smart optimization techniques. Focusing on the right elements can significantly boost your click-through rates, lower your costs, and drive more qualified leads to your business. Here are the essential factors that determine PPC success: 
                
             </p>
           </div>
