@@ -569,43 +569,43 @@ const WebDesigning = () => {
       title: `Business Website Design`,
       description:
         "A professionally designed business website tailored to showcase your company’s services, attract potential clients, and build credibility.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/Business-Website-Design 1.jpg"
     },
     {
       title: `E-Commerce Website <br class="d-none d-md-lg"/> Development`,
       description:
         "We build user-friendly e-commerce websites with seamless shopping experiences, secure payment gateways, and powerful admin panels.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/E-Commerce-Website 1.jpg"
     },
     {
       title: `Custom Web <br class="d-none d-md-lg"/> Development`,
       description:
         "Need a unique website with special features? Our custom web development services provide tailored solutions to meet your business goals.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/Custom-Web-Development 1.jpg"
     },
     {
       title: `Landing Page <br class="d-none d-md-lg"/> Design`,
       description:
         "High-converting landing pages optimized for lead generation and sales, perfect for marketing campaigns.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/Landing-Page-Design 1.jpg"
     },
     {
       title: `WordPress Website <br class="d-none d-md-lg"/> Development`,
       description:
         "Get a beautifully crafted, easy-to-manage WordPress website with advanced customization and SEO-friendly features.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/WordPress-Website-Development 1.jpg"
     },
     {
       title: `Website Redesign & <br class="d-none d-md-lg"/> Revamp Services`,
       description:
         "Revamp your outdated website with a fresh, modern look and improved performance.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/Business-Website-Design 1.jpg"
     },
     {
       title: `UI/UX Design & <br class="d-none d-md-lg"/> Prototyping`,
       description:
         "Ensure a smooth, engaging, and interactive user experience with our expert UI/UX design services.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/UI-UX-Design-&-Prototyping 1.jpg"
     }
   ];
   return (
