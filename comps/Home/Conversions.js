@@ -39,17 +39,15 @@ const Conversions = () => {
   return (
     <section className="homeBanner">
       <div className="containerFull">
-        <h5 className="fontWeight600 text-center text-white">
-          Our Facts
-        </h5>
+        <p className="fontWeight600 text-center title text-white">Our Facts</p>
 
-        <h4 class=" text-center large_heading2 mt-4 fontHeading2 fontWeight600  fontHeading2 text_white">
+        <h3 class=" text-center large_heading2 mt-4 fontHeading2 fontWeight600  fontHeading2 text_white">
           Turning Clicks into Conversions.
-        </h4>
-        <h5 class="mt-3 text-center text-white">
+        </h3>
+        <p class="mt-3 text-center title text-white">
           Optimized for <span className="text_red">Success.</span> Engineered
           for <span className="text_red">Growth.</span>
-        </h5>
+        </p>
 
         <div className="row mt-5 d-lg-none">
           {stats.map((sts, index) => {
@@ -60,10 +58,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={sts.number} />
                       <span className="sub_heading ps-2">{sts.unit}</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       {sts.description}
                     </p>
@@ -84,10 +82,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={200} />
                       <span className="sub_heading ps-2">K</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Keywords ranked on first page of Google
                     </p>
@@ -100,10 +98,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={10} />M
                       <span className="sub_heading ps-2">+</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Cumulative website visits for clients per month
                     </p>
@@ -116,9 +114,9 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={7} />X
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Return on marketing investment
                     </p>
@@ -144,10 +142,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={340} />
                       <span className="sub_heading ps-2">%</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Average More Impressions in Search engines
                     </p>
@@ -160,10 +158,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={300} />
                       <span className="sub_heading ps-2">%</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Average increase in Inbound Leads
                     </p>
@@ -176,10 +174,10 @@ const Conversions = () => {
                     <div className="glossyBorder"></div>
                     <div className="glossyBorder2"></div>
                     <div className="glossyBorder3"></div>
-                    <h4 className="large_heading2 mt-3 fontWeight700 text_red">
+                    <p className="large_heading2 mt-3 fontWeight700 text_red">
                       <Counter targetValue={35} />
                       <span className="sub_heading ps-2">%</span>
-                    </h4>
+                    </p>
                     <p className="mt-1 fontSmall text-white">
                       Average Reduction in Bounce Rate
                     </p>

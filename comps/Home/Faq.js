@@ -11,11 +11,11 @@ const Faq = ({ faqsData, title, description }) => {
   return (
     <section>
       <div className="containerFull ">
-        <h5 className="fontWeight600 text-center"> FAQ</h5>
-        <h4 className="large_heading2 mt-4 fontHeading2 text-center text_red fontWeight600">
+        <p className="fontWeight600 title text-center"> FAQ</p>
+        <h3 className="large_heading2 mt-4 fontHeading2 text-center text_red fontWeight600">
           {title}
           {/* <span className="fontWeight600">Digital Marketing Questions</span> */}
-        </h4>
+        </h3>
         <p
           className="mt-4 text-center title"
           dangerouslySetInnerHTML={{ __html: description }}
@@ -28,8 +28,8 @@ const Faq = ({ faqsData, title, description }) => {
               return (
                 <div key={i} className="">
                   <div className="customFaq">
-                    <h4
-                      className=" fontHeading"
+                    <p
+                      className=" fontHeading headerFaq fontWeight600"
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
@@ -47,7 +47,7 @@ const Faq = ({ faqsData, title, description }) => {
                           <i className="bi bi-plus-circle"></i>
                         )}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${
@@ -71,9 +71,9 @@ const Faq = ({ faqsData, title, description }) => {
             {faqsDataRight.map((item, i) => {
               return (
                 <div key={i} className="">
-                  <div className="customFaq">
-                    <h4
-                      className=" fontHeading"
+                  <div className="customFaq ">
+                    <p
+                      className=" fontHeading headerFaq fontWeight600"
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);
@@ -91,7 +91,7 @@ const Faq = ({ faqsData, title, description }) => {
                           <i className="bi bi-plus-circle"></i>
                         )}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${
@@ -100,7 +100,7 @@ const Faq = ({ faqsData, title, description }) => {
                     >
                       <div className="overflow-hidden">
                         <div
-                          className="m-3"
+                          className="mt-3"
                           dangerouslySetInnerHTML={{ __html: item.answer }}
                         ></div>
                       </div>

@@ -1,5 +1,10 @@
 import React from "react";
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Marker,
+} from "react-simple-maps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -49,11 +54,11 @@ const Map = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-6">
-            <h5 className="fontWeight600 text-white">Our Footprint</h5>
-            <h4 className="mt-4 mb-4 heading fontHeading2 fontWeight300 text-white">
+            <p className="fontWeight600 title text-white">Our Footprint</p>
+            <h3 className="mt-4 mb-4 heading fontHeading2 fontWeight300 text-white">
               Expanding Your Brand’s Reach Globally with <br />
               <span className="fontWeight600">SIB Infotech</span>
-            </h4>
+            </h3>
             <p className="mt-4 text-white">
               At SIB Infotech, we have delivered customized digital marketing
               solutions to clients across 40+ countries. Our experience spans

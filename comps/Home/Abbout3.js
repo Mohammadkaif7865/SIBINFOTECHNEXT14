@@ -66,8 +66,10 @@ const Abbout3 = (about3Data) => {
             </div>
           </div>
           <div className="col-lg-8 order-lg-2 order-1">
-            <h5 className="fontWeight600 text-center text-lg-start">{mainHeading}</h5>
-            <h4
+            <p className="fontWeight600 small_heading text-center text-lg-start">
+              {mainHeading}
+            </p>
+            <h2
               className="mt-4 fontHeading2 large_heading2 fontWeight600"
               dangerouslySetInnerHTML={{ __html: subHeading }}
             />
@@ -91,16 +93,11 @@ const Abbout3 = (about3Data) => {
                 <Link className="aboutBtn" href={`tel:${phoneNumber}`}>
                   <div className="about3_btn_box d-flex">
                     <div className="icon">
-                      <Image
-                        src={callIcon}
-                        alt=""
-                        width={40}
-                        height={40}
-                      />
+                      <Image src={callIcon} alt="" width={40} height={40} />
                     </div>
                     <div>
                       <p>{phoneHelpText}</p>
-                      <h5 className="fontWeight600">{phoneDisplay}</h5>
+                      <p className="fontWeight700 title">{phoneDisplay}</p>
                     </div>
                   </div>
                 </Link>

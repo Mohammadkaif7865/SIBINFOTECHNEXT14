@@ -392,6 +392,9 @@ section {
 .leftCont {
   width: calc(100% - 50px);
 }
+.itemMega p.title{
+  font-size: 18px;
+}
 .itemMega p {
   padding-left: 0px;
   margin-top: 10px;
@@ -412,10 +415,10 @@ section {
 .bgBlueMenu {
   background: #ebf1fe;
 }
-.bgBlueMenu:hover h4 {
+.bgBlueMenu:hover h4, .bgBlueMenu:hover p.title {
   color: var(--light-blue-color);
 }
-.bgRedMenu:hover h4 {
+.bgRedMenu:hover h4, .bgRedMenu:hover p.title {
   color: var(--red-color);
 }
 .extraMenuItems ul li a {
@@ -1523,7 +1526,7 @@ section {
 .testimonialItemHeader {
   height: 80px;
 }
-.testimonialItemHeader h3 {
+.testimonialItemHeader .testimonialHeading {
   display: -webkit-box;
   -webkit-line-clamp: 2; /* Limit to 3 lines */
   -webkit-box-orient: vertical;
@@ -1826,10 +1829,11 @@ section {
   padding: 50px 0 15px;
 }
 
-.footerColumn h4 {
+.footerColumn h4, .footerTitle p {
   color: #ccc;
   font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .footerColumn ul li a {
@@ -8062,7 +8066,7 @@ table tbody tr td:nth-child(2) {
   background: #fff;
 }
 
-.blogTitle h4 {
+.blogTitle .blogHeader {
   color: #333;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -9731,7 +9735,7 @@ table tbody tr td:nth-child(2) {
   border-bottom: 1px solid #d6d6d6;
 }
 
-.customFaq h4 {
+.customFaq .headerFaq {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9742,7 +9746,7 @@ table tbody tr td:nth-child(2) {
   font-weight: 600;
 }
 
-.customFaq h4 span {
+.customFaq .headerFaq span {
   font-size: 20px;
 }
 
@@ -11675,13 +11679,17 @@ font-size: 20px;
 .getList {
   padding: 10px 0 0;
 }
-.getList h5 {
+.getList p {
   padding: 15px 0;
   padding-left: 35px;
   position: relative;
   z-index: 1;
+  font-size: 1.25rem !important;
 }
-.getList h5:before {
+.getList p:after{
+  display:none;
+}
+.getList p:before {
   content: "\f058";
   position: absolute;
   top: 16px;
@@ -11828,7 +11836,7 @@ font-size: 20px;
 }
 .itemCaseStudyNumber {
   position: absolute;
-  top: 102px;
+  top: 90px;
   left: 0;
   width: 168px;
 }
@@ -11838,7 +11846,7 @@ font-size: 20px;
 }
 .itemCaseStudyNumber2 {
   position: absolute;
-  top: 102px;
+  top: 90px;
   left: 173px;
   width: 168px;
 }
@@ -11856,7 +11864,10 @@ font-size: 20px;
 .itemCaseStudyBox {
   background: url(/assets/images/box-design.svg) no-repeat;
   width: 100%;
-  height: 200px;
+  height: 203px;
+}
+p.regular_heading{
+  font-size: 35px;
 }
 .caseStudyRight {
   height: 100%;
@@ -11956,7 +11967,7 @@ font-size: 20px;
   z-index: 1;
   overflow: hidden;
 }
-.weStrongHome h3 {
+.weStrongHome h3, .weStrongHome h2 {
   color: #fff;
 }
 .leftBoxStrong {
@@ -12376,7 +12387,7 @@ font-size: 20px;
   -o-transform: translate(-50%, -50%);
 }
 .testimonialLeftBox {
-  padding: 45px 20px;
+  padding: 30px 20px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -12723,7 +12734,7 @@ font-size: 20px;
 }
 .why_left_item {
   position: sticky;
-  top: 150px;
+  top: 105px;
 }
 .why_left_card {
   padding: 30px;
@@ -12777,7 +12788,7 @@ font-size: 20px;
 
   gap: 20px;
 }
-.item_why_title h5 {
+.item_why_title p.numberBorder {
   font-size: 40px;
   -webkit-text-stroke: 2px #33333355;
   color: white;
@@ -13701,3 +13712,11 @@ tudy-right-main {
 
 
 
+
+.firstColumn .text_red{
+  color: var(--red-color) !important;  
+}
+.footerTitle p{
+  color:#ccc;
+  font-size:20px;
+}

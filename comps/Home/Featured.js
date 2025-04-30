@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Featured = ({title}) => {
+const Featured = ({ title }) => {
   const newsWebsites = [
     { logo: "abc-news.webp", alt: "abc-news" },
     { logo: "associated-press.webp", alt: "associated-press" },
@@ -25,7 +25,7 @@ const Featured = ({title}) => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h5 className="fontWeight600">Media Coverage</h5>
+            <p className="fontWeight600 title">Media Coverage</p>
             <h3 className="large_heading2 fontWeight300 text_red mt-4">
               We can <span className="fontWeight600">Get Featured</span> you on{" "}
               <span className="fontWeight600">Top News Websites</span>

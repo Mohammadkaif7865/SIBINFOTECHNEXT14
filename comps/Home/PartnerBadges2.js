@@ -28,7 +28,7 @@ const PartnerBadges = () => {
       <div className="containerFull">
         <div className="row ">
           <div className="col-lg-6">
-            <h4 class="title fontWeight600 text-white">Our Certifications</h4>
+            <p class="title fontWeight600 text-white">Our Certifications</p>
             <h3 class="regular_heading mt-4 text-white fontWeight600">
               Certified Digital Marketing Experts, Trusted by Industry Leaders
             </h3>

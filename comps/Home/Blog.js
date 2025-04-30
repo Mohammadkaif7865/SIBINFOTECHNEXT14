@@ -30,10 +30,10 @@ const Blog = () => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
-        <h5 className="text-center  fontWeight600">Our Blogs</h5>
-        <h4 className="large_heading2 mt-4 text-center mb-3 fontWeight300 text_red">
-           <span className="fontWeight600">Digital Marketing Learnings</span>
-        </h4>
+        <p className="text-center title fontWeight600">Our Blogs</p>
+        <h3 className="large_heading2 mt-4 text-center mb-3 fontWeight300 text_red">
+          <span className="fontWeight600">Digital Marketing Learnings</span>
+        </h3>
         <div className="row mt-lg-5">
           {blogs?.map((blog, index) => {
             return (

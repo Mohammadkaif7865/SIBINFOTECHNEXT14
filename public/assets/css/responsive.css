@@ -1647,3 +1647,9 @@
     height: auto;
   }
 }
+@media (min-width:1600px){
+  .portfolioHome{
+    top: 20vh;
+    right: 18%;
+  }
+}

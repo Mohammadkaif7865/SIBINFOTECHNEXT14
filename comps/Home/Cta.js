@@ -5,10 +5,10 @@ const Cta = () => {
     <section className="trusted">
       <div className="containerFull  ">
         <div className="p-lg-5 bodered">
-          <h4 className="large_heading2 text-white  text-center fontHeading2 fontWeight700">
+          <p className="large_heading2 text-white  text-center fontHeading2 fontWeight700">
             We've done it for them, <br />
             We'll do it for you.
-          </h4>
+          </p>
           <div className="mt-5 d-flex justify-content-center ">
             <a className="fancy2" href="#">
               <span className="top-key"></span>

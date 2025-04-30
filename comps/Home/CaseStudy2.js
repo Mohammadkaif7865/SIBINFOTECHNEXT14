@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 
-const CaseStudy2 = ({description}) => {
+const CaseStudy2 = ({ description }) => {
   const caseStudies = [
     {
       title: "RNB Global University's",
@@ -103,14 +103,14 @@ const CaseStudy2 = ({description}) => {
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-10">
-          <h4 class="title fontWeight600 ">Case Studies</h4>
-            <h4 className="large_heading2 fontHeading2 mt-3  fontWeight300">
+            <p class="title fontWeight600">Case Studies</p>
+            <h3 className="large_heading2 fontHeading2 mt-3  fontWeight300">
               Winning{" "}
               <span className="fontWeight600 text_red">
                 Strategies & Tangible
               </span>{" "}
               Results
-            </h4>
+            </h3>
           </div>
           <div className="col-lg-2 ">
             <div className="text-lg-end d-none d-lg-block">
@@ -121,8 +121,7 @@ const CaseStudy2 = ({description}) => {
           </div>
         </div>
         <p className="title fontWeight300 mt-2">
-          {description} 
-
+          {description}
 
           {/* See how we’ve helped brands grow.{" "}
           <span className="fontWeight600">
@@ -130,9 +129,9 @@ const CaseStudy2 = ({description}) => {
           {/* </span> */}
         </p>
         <div className="text-lg-end d-lg-none  mt-4">
-              <Link href="#" className="btnCase">
-                Case Studies{" "}
-              </Link>
+          <Link href="#" className="btnCase">
+            Case Studies{" "}
+          </Link>
         </div>
         <div className="mt-4">
           <Swiper
@@ -157,32 +156,32 @@ const CaseStudy2 = ({description}) => {
                   <div className="row">
                     <div className="col-lg-8 col-12  order-2 order-lg-1">
                       <div className="caseStudyLeft py-4 ps-4 pe-lg-5">
-                        <h4 className="regular_heading fontWeight300">
+                        <p className="regular_heading fontWeight300">
                           {study.title}{" "}
                           <span className="fontWeight600 text_dark_blue">
                             {study.highlight}
                           </span>
-                        </h4>
-                        <h3 className="small_heading fontWeight600 mt-4">
+                        </p>
+                        <p className="small_heading fontWeight600 mt-4">
                           Overview
-                        </h3>
+                        </p>
                         <p className="mt-2 title">{study.overview}</p>
 
                         <div className="row mt-3 align-items-center">
                           <div className="col-lg-6 col-12">
-                            <h3 className="small_heading fontWeight600">
+                            <p className="small_heading mb-2 fontWeight600">
                               Results Achieved
-                            </h3>
+                            </p>
 
                             {study.results.map((result, idx) => (
                               <div key={idx}>
-                                <h5 className="title text_red mt-3 fontWeight600">
+                                <p className="title text_red fontWeight600">
                                   {result.title}
-                                </h5>
+                                </p>
                                 {/* <p className="mt-2 fontSmall">{result.desc}</p> */}
                               </div>
                             ))}
-                            <p className="mt-2 title">{study.resulDes}</p>
+                            <p className="mt-2">{study.resulDes}</p>
                           </div>
 
                           <div className="col-lg-6 col-12">
@@ -197,9 +196,9 @@ const CaseStudy2 = ({description}) => {
                                     }`}
                                     key={idx}
                                   >
-                                    <h4 className="regular_heading fontWeight600 text_dark_blue">
+                                    <p className="regular_heading fontWeight600 text_dark_blue">
                                       {result.value}
-                                    </h4>
+                                    </p>
                                     <p>
                                       {result.note
                                         .split(" ")
