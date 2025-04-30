@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 const BrandBuild = () => {
-  const [activeKey, setActiveKey] = useState("0");
+  const [activeKey, setActiveKey] = useState();
   const faqData = [
     {
       question: "Keyword Relevance",
