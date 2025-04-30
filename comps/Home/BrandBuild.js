@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
-const BrandBuild = ({image,title, description, faqData, subtitle }) => {
+const BrandBuild = ({image,title,title2,description, faqData, subtitle }) => {
   const [activeKey, setActiveKey] = useState("");
 
   return (
@@ -14,6 +14,10 @@ const BrandBuild = ({image,title, description, faqData, subtitle }) => {
               className="heading fontWeight600 fontHeading2 text_red"
               dangerouslySetInnerHTML={{ __html: title }}
             ></h4>
+
+            <h5 className=" mt-4 sub_heading fontWeight500" dangerouslySetInnerHTML={{ __html: title2 }}>
+
+            </h5>
           </div>
           <div className="col-lg-6 ps-3">
             <h5 className="fontWeight600 sub_heading"  dangerouslySetInnerHTML={{ __html: subtitle }}></h5>
