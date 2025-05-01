@@ -5,9 +5,16 @@ import { usePathname } from "next/navigation";
 import { RiMenu3Fill, RiMenu4Line } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { Modal } from "react-bootstrap";
+import BannerForm from "./BannerForm";
 
 export default function Header() {
   const [show, setShow] = useState(false);
+
+  const [showModel, setShowModel] = useState(false);
+
+  const handleCloseModel = () => setShowModel(false);
+  const handleShowModel = () => setShowModel(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -67,7 +74,8 @@ export default function Header() {
             </div>
           </div>
         </div> */}
-        <div className="mainHeader ">
+
+        <div className="mainHeader container-xxl ">
           <div className="px-1 px-lg-2 ">
             <div className="inlineHeader">
               <div className="leftLogo">
@@ -162,9 +170,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Google Ads Management
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is a Certified partner for Google
                                   AdWords management company offering all
@@ -185,9 +193,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   LinkedIn Ads Management
-                                </h4>
+                                </p>
                                 <p>
                                   We are a professional Linkedin ad management
                                   and advertising...
@@ -206,9 +214,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Facebook Ads Marketing
-                                </h4>
+                                </p>
                                 <p>
                                   Our Facebook Specialists manage Facebook PPC
                                   Campaigns making your facebook ads reach
@@ -228,9 +236,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Instagram Ads Management
-                                </h4>
+                                </p>
                                 <p>
                                   Best Instagram ad management company in
                                   Mumbai, India. Grow your Instagram account
@@ -262,9 +270,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   ON-Page SEO Services
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is the Top SEO Company in India
                                   offers On-Page SEO & On-Site Optimization...
@@ -283,9 +291,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   OFF-Page SEO Services
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is the Top SEO Company in India
                                   offers Off-Page SEO Optimization Services....
@@ -304,9 +312,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   E-Commerce SEO
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is a leading designing and
                                   development company in Mumbai, India offers...
@@ -322,9 +330,9 @@ export default function Header() {
                           <Link href="/mobile-seo-services" title="Mobile SEO">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Mobile SEO
-                                </h4>
+                                </p>
                                 <p>
                                   Top Rated Best Mobile SEO company in India our
                                   focus is in offering customized...
@@ -343,9 +351,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   SEO Outsourcing
-                                </h4>
+                                </p>
                                 <p>
                                   Outsource SEO service to India with SIB
                                   Infotech a 100% White Label SEO outsourcing
@@ -362,9 +370,7 @@ export default function Header() {
                           <Link href="/local-seo-services" title="Local SEO">
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
-                                  Local SEO
-                                </h4>
+                                <p className="title fontWeight700">Local SEO</p>
                                 <p>
                                   SIB Infotech is rated as Top Local SEO Company
                                   In India, we offer local SEO services...
@@ -395,9 +401,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Social Media Optimization
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is a social media marketing
                                   services company that provides highly
@@ -417,9 +423,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Content Marketing
-                                </h4>
+                                </p>
                                 <p>
                                   Rated best content marketing agency in India
                                   telling brand stories better via its quality
@@ -439,9 +445,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Digital Marketing
-                                </h4>
+                                </p>
                                 <p>
                                   SIB infotech is the top leading Digital
                                   Marketing agency and Company in Mumbai, India.
@@ -461,9 +467,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Online Reputation Management Services
-                                </h4>
+                                </p>
                                 <p>
                                   Rated best online reputation management
                                   services company...
@@ -482,9 +488,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Blog Management Services
-                                </h4>
+                                </p>
                                 <p>
                                   We offer 360<sup>.</sup> Blog Management
                                   Service that would bring traffic to your blog
@@ -504,9 +510,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Influencer Marketing
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech is leading influencer marketing
                                   agency in India , representing top social...
@@ -545,9 +551,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Corporate Website Designing
-                                </h4>
+                                </p>
                                 <p>
                                   SIB Infotech's website design service can
                                   provide you can an edge over the contest
@@ -567,9 +573,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Responsive Website Designing
-                                </h4>
+                                </p>
                                 <p>
                                   A responsive website design means massive
                                   increase in the number of visitors...
@@ -588,9 +594,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   E-commerce Website Designing
-                                </h4>
+                                </p>
                                 <p>
                                   With the help E-Commerce website you get an
                                   opportunity to have products and services
@@ -610,9 +616,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Content Management Systems
-                                </h4>
+                                </p>
                                 <p>
                                   Nowadays, Content Management Systems such as
                                   WordPress, Joomla, Drupal etc, are usually
@@ -632,9 +638,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgRedMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   WordPress Website Design &amp; Development
-                                </h4>
+                                </p>
                                 <p>
                                   WordPress is an open source online website
                                   creation tool written in PHP and is the
@@ -654,9 +660,9 @@ export default function Header() {
                           >
                             <div className="itemMega bgBlueMenu">
                               <div className="leftCont">
-                                <h4 className="title fontWeight700">
+                                <p className="title fontWeight700">
                                   Custom Website Designing
-                                </h4>
+                                </p>
                                 <p>
                                   Using this one can start from just one simple
                                   page with an Email link, building up to a more
@@ -1108,6 +1114,30 @@ export default function Header() {
           <i class="fab fa-whatsapp"></i>
         </a>
       </div>
+
+      
+        <button className="modelBtn" onClick={handleShowModel}>Get A Quote</button>
+      
+      <ModelComp show={showModel} handleClose={handleCloseModel} />
     </div>
   );
 }
+
+const ModelComp = ({ show, handleClose }) => {
+  return (
+    <Modal show={show} onHide={handleClose}>
+      <div className="p-3 p-lg-4">
+        <h4>
+          <span className="fontWeight600 h2">Get Free Consultation</span>
+        </h4>
+        <p className="mt-2 fontWeight400">
+          Get a free consultation with our experts to discuss your project
+          requirements.
+        </p>
+        <div className="mt-4">
+          <BannerForm />
+        </div>
+      </div>
+    </Modal>
+  );
+};

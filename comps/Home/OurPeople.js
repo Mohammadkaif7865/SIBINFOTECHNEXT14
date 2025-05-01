@@ -8,11 +8,11 @@ const OurPeople = () => {
       <div className=" containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h4 class="title fontWeight600">Our Team</h4>
-            <h4 className="large_heading2 fontHeading2 fontWeight300 mt-3  text_red">
-              Meet the Team Behind {" "}
+            <p class="title fontWeight600">Our Team</p>
+            <h3 className="large_heading2 fontHeading2 fontWeight300 mt-3  text_red">
+              Meet the Team Behind{" "}
               <span className="fontWeight600">Your Digital Success</span>
-            </h4>
+            </h3>
             <p className="mt-4">
               At SIB Infotech, we believe data-driven strategy and creative
               excellence go hand in hand. When you partner with us, you gain

@@ -95,9 +95,9 @@ export default function SliderTestimonials() {
               <div className="glossyBorder5"></div>
               <div className="glossyBorder6"></div>
               <div className="testimonialItemHeader">
-                <h3 className="meduim_heading fontWeight700 fontHeading">
+                <p className="meduim_heading testimonialHeading fontWeight700 fontHeading">
                   {testimonial.heading}
-                </h3>
+                </p>
               </div>
               <p className="testimonial-content">{testimonial.content}</p>
               <div className="testimonialFooter">
@@ -134,9 +134,9 @@ export default function SliderTestimonials() {
                       )}
                     </div>
                     <div className="nameUser ">
-                      <h4 className="title   fontWeight500">
+                      <p className="title   fontWeight500">
                         {testimonial.userName}
-                      </h4>
+                      </p>
                       {testimonial.userTitle && <p>{testimonial.userTitle}</p>}
                     </div>
                   </div>

@@ -47,13 +47,12 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
   return (
     <section className="">
       <div className="containerFull">
-        {heading && <h5 className="fontWeight600">{heading}</h5>}
+        {heading && <p className="fontWeight600 title">{heading}</p>}
 
         {subHeading && (
-          <h4 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
-           
+          <h3 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
             {subHeading}
-          </h4>
+          </h3>
         )}
 
         {description1 && <p className="title mt-3">{description1}</p>}
@@ -63,7 +62,7 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
           spaceBetween={20}
           slidesPerView={4}
           autoplay={{
-            delay: 5000,
+            delay: 150000,
             disableOnInteraction: false,
           }}
           breakpoints={{
@@ -92,14 +91,14 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
                           <img src={item.img} alt={item.title} />
                         </div>
 
-                        <h4 className="small_heading mt-3 fontWeight600">
+                        <p className="small_heading mt-3 fontWeight600">
                           {item.title.split("\n").map((line, i) => (
                             <React.Fragment key={i}>
                               {line}
                               <br />
                             </React.Fragment>
                           ))}
-                        </h4>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -107,9 +106,9 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
                   <div className="flip-box-back">
                     <div className="inner">
                       <div className="innerServices bullet">
-                        <h4 className="small_heading mt-3 text-white text-center fontWeight600">
+                        <p className="small_heading mt-3 text-white text-center fontWeight600">
                           {item.title}
-                        </h4>
+                        </p>
                         <p className="mt-3">{item.description}</p>
                       </div>
                     </div>

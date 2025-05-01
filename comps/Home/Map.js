@@ -1,12 +1,18 @@
-import React, { useRef } from "react";
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import React from "react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Marker,
+} from "react-simple-maps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
-import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'; 
+import "swiper/css/navigation";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
-// Map markers
 const markers = [
   { name: "Mumbai", coordinates: [72.8777, 19.076] },
   { name: "Delhi", coordinates: [77.209, 28.6139] },
@@ -25,7 +31,6 @@ const markers = [
   { name: "Mexico City", coordinates: [-99.1332, 19.4326] },
 ];
 
-// Swiper cards
 const agencyCards = [
   { title: "Digital Marketing Agency in Ahmedabad", image: "Ahemdabad.svg" },
   { title: "Digital Marketing Agency in Bangalore", image: "banglore.svg" },
@@ -37,33 +42,23 @@ const agencyCards = [
   { title: "Digital Marketing Agency in Mumbai", image: "mumbai.svg" },
   { title: "Digital Marketing Agency in Pune", image: "pune.svg" },
   { title: "Digital Marketing Agency in Surat", image: "surat.svg" },
+  { title: "Digital Marketing Agency in Birmingham", image: "Birmingham.svg" },
+  { title: "Digital Marketing Agency in Glasgow", image: "Glasgow.svg" },
+  { title: "Digital Marketing Agency in London", image: "London.svg" },
+  { title: "Digital Marketing Agency in Manchester", image: "manchester.svg" },
 ];
 
 const Map = () => {
-  const swiperRef = useRef(null); 
-
-  const handleNextSlide = () => {
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideNext(); 
-    }
-  };
-
-  const handlePrevSlide = () => {
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slidePrev(); 
-    }
-  };
-
   return (
     <section className="trusted">
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-6">
-            <h5 className="fontWeight600 text-white">Our Footprint</h5>
-            <h4 className="mt-4 mb-4 heading fontHeading2 fontWeight300 text-white">
+            <p className="fontWeight600 title text-white">Our Footprint</p>
+            <h3 className="mt-4 mb-4 heading fontHeading2 fontWeight300 text-white">
               Expanding Your Brand’s Reach Globally with <br />
               <span className="fontWeight600">SIB Infotech</span>
-            </h4>
+            </h3>
             <p className="mt-4 text-white">
               At SIB Infotech, we have delivered customized digital marketing
               solutions to clients across 40+ countries. Our experience spans
@@ -107,42 +102,31 @@ const Map = () => {
         </div>
       </div>
 
-     
-      <div className="containerFull mt-5" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-        
-        <div
-          className="swiper-navigation-icon left"
-          onClick={handlePrevSlide}
-          style={{
-            position: "absolute",
-            left: "10px",
-            background: "rgba(0, 0, 0, 0.5)",
-            color: "white",
-            borderRadius: "50%",
-            padding: "10px",
-            cursor: "pointer",
-            opacity: 0.6,
-            transition: "opacity 0.3s",
-          }}
-          onMouseEnter={(e) => (e.target.style.opacity = 1)}
-          onMouseLeave={(e) => (e.target.style.opacity = 0.6)}
-        >
-          <FaArrowLeft size={24} />
+      <div className="containerFull mt-5 position-relative">
+        <div className="swiper-button-prev custom-swiper-arrow">
+          <FaArrowLeft />
         </div>
 
-       
+        <div className="swiper-button-next custom-swiper-arrow">
+          <FaArrowRight />
+        </div>
+
         <Swiper
-          ref={swiperRef}
+          modules={[Navigation]}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
           spaceBetween={20}
-          slidesPerView={2}
-          loop={false}
+          slidesPerView={6} // Display 6 items per view
+          loop={true} // Loop the slides
+          speed={500} // Faster scrolling speed (ms)
           breakpoints={{
             576: { slidesPerView: 3 },
             768: { slidesPerView: 4 },
             992: { slidesPerView: 5 },
             1200: { slidesPerView: 6 },
           }}
-          style={{ flex: 1, position: "relative" }} 
         >
           {agencyCards.map((item, index) => (
             <SwiperSlide key={index}>
@@ -160,27 +144,6 @@ const Map = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-
-       
-        <div
-          className="swiper-navigation-icon right"
-          onClick={handleNextSlide}
-          style={{
-            position: "absolute",
-            right: "10px",
-            background: "rgba(0, 0, 0, 0.5)",
-            color: "white",
-            borderRadius: "50%",
-            padding: "10px",
-            cursor: "pointer",
-            opacity: 0.6,
-            transition: "opacity 0.3s",
-          }}
-          onMouseEnter={(e) => (e.target.style.opacity = 1)}
-          onMouseLeave={(e) => (e.target.style.opacity = 0.6)}
-        >
-          <FaArrowRight size={24} />
-        </div>
       </div>
     </section>
   );

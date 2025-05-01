@@ -3,31 +3,31 @@ import Link from "next/link";
 import React from "react";
 
 // Data part
-const about3Data = {
-  sectionId: "about",
-  mainHeading: "Boost Your Brand’s Presence with Expert SMO Services ",
-  subHeading:
-    'Guaranteed Visibility Through <span class="text_red"> Our Digital Marketing Services</span>',
-  contentParagraphs: [
-    `<strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
-    `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
-  ],
-  image1: {
-    src: "/assets/images/aboout-3.png",
-  },
-  image2: {
-    src: "/assets/images/about-3-2.png",
-  },
-  buttonText: "Let's Grow Your Business?",
-  buttonLink: "/contact",
-  phoneNumber: "+919222260000",
-  phoneDisplay: "+91 92222-60000",
-  phoneHelpText: "Need Help",
-  callIcon: "/assets/images/icons/call-icon.svg",
-};
+// const about3Data = {
+//   sectionId: "about",
+//   mainHeading: "Boost Your Brand’s Presence with Expert SMO Services ",
+//   subHeading:
+//     'Guaranteed Visibility Through <span class="text_red"> Our Digital Marketing Services</span>',
+//   contentParagraphs: [
+//     `<strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
+//     `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
+//   ],
+//   image1: {
+//     src: "/assets/images/aboout-3.png",
+//   },
+//   image2: {
+//     src: "/assets/images/about-3-2.png",
+//   },
+//   buttonText: "Let's Grow Your Business?",
+//   buttonLink: "/contact",
+//   phoneNumber: "+919222260000",
+//   phoneDisplay: "+91 92222-60000",
+//   phoneHelpText: "Need Help",
+//   callIcon: "/assets/images/icons/call-icon.svg",
+// };
 
 // Component part
-const Abbout3 = () => {
+const Abbout3 = (about3Data) => {
   const {
     sectionId,
     mainHeading,
@@ -66,8 +66,10 @@ const Abbout3 = () => {
             </div>
           </div>
           <div className="col-lg-8 order-lg-2 order-1">
-            <h5 className="fontWeight600 text-center text-lg-start">{mainHeading}</h5>
-            <h4
+            <p className="fontWeight600 small_heading text-center text-lg-start">
+              {mainHeading}
+            </p>
+            <h2
               className="mt-4 fontHeading2 large_heading2 fontWeight600"
               dangerouslySetInnerHTML={{ __html: subHeading }}
             />
@@ -91,16 +93,11 @@ const Abbout3 = () => {
                 <Link className="aboutBtn" href={`tel:${phoneNumber}`}>
                   <div className="about3_btn_box d-flex">
                     <div className="icon">
-                      <Image
-                        src={callIcon}
-                        alt=""
-                        width={40}
-                        height={40}
-                      />
+                      <Image src={callIcon} alt="" width={40} height={40} />
                     </div>
                     <div>
                       <p>{phoneHelpText}</p>
-                      <h5 className="fontWeight600">{phoneDisplay}</h5>
+                      <p className="fontWeight700 title">{phoneDisplay}</p>
                     </div>
                   </div>
                 </Link>

@@ -3,7 +3,6 @@ import SliderTestimonials from "../SliderTestimonials";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const testimonialLogos = [
   "/assets/images/logos/google.png",
   "/assets/images/logos/clutch.png",
@@ -13,17 +12,20 @@ const testimonialLogos = [
   "/assets/images/logos/just-dial.png",
 ];
 
-const Testimonials = ({title,description}) => {
+const Testimonials = ({ title, description }) => {
   return (
     <section className="bgTestimonial">
       <div className="containerFull">
         <div className="testimonialHeader">
-        <h4 class="title fontWeight600 text-center">Our Testimonials</h4>
-          <h4 className="heading fontHeading2 text-center mt-3 fontWeight600"   dangerouslySetInnerHTML={{ __html: title }}>
-
-            
-          </h4>
-          <p className="small_heading fontWeight300 text-center  mt-3 "  dangerouslySetInnerHTML={{ __html: description }}>
+          <p class="title fontWeight600 text-center">Our Testimonials</p>
+          <h2
+            className="heading fontHeading2 text-center mt-3 fontWeight600"
+            dangerouslySetInnerHTML={{ __html: title }}
+          ></h2>
+          <p
+            className="small_heading fontWeight300 text-center  mt-3 "
+            dangerouslySetInnerHTML={{ __html: description }}
+          >
             {/* We are five star rated{" "}
             <span className="fontWeight600">Digital Agency</span> */}
           </p>
@@ -32,9 +34,9 @@ const Testimonials = ({title,description}) => {
         <div className="row mt-4 align-items-center">
           <div className="col-lg-4">
             <div className="testimonialLeftBox shadow-lg">
-              <h4 className="large_heading3 text-white fontWeight600 text-center">
+              <p className="large_heading3 text-white fontWeight600 text-center">
                 5.0
-              </h4>
+              </p>
               <div className="starIcontesti">
                 <Image
                   width="300"

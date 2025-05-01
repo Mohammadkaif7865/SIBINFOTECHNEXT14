@@ -1573,10 +1573,83 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+/* CTA2 */
 
 /* For devices with a max-width of 1200px */
-@media (max-width: 1200px) {
-  .table-web-development {
-    overflow-x: auto;
+
+.responsive-image {
+  width: 100%;
+  height: auto;  
+}
+
+/* For tablets (max-width: 991px) */
+@media (max-width: 991px) {
+  .cta-left,
+  .cta-bg {
+    padding: 2rem;
+    min-height: auto;
+  }
+
+  .cta2-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .btnHomeBanner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .responsive-image {
+    width: 80%;  
+    height: auto;
+  }
+}
+
+/* For mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .cta2-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta2-section p,
+  .cta2-section h5 {
+    text-align: center;
+  }
+
+  .cta-bg {
+    padding: 1rem !important;
+  }
+
+  .btnHomeBanner {
+    width: 100%;
+    text-align: center;
+    padding: 1rem; 
+    font-size: 1.2rem; 
+    border-radius: 8px; 
+  }
+
+  .icon-box {
+    font-size: 1.5rem;
+  }
+
+  .position-absolute.bottom-0 {
+    position: absolute !important;
+    transform: none !important;
+    left: 50% !important;
+    margin-top: 2rem;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+  .responsive-image {
+    width: 90%;  
+    height: auto;
+  }
+}
+@media (min-width:1600px){
+  .portfolioHome{
+    top: 20vh;
+    right: 18%;
   }
 }

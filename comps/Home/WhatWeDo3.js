@@ -16,14 +16,14 @@ export default function WhatWeDo3() {
   services. Our smarter, AI-driven strategies are designed to boost your online
   visibility, attract qualified visitors, and accelerate your business growth,
   keeping you ahead of the competition.</p>
-         <h5 class="mt-3">Search Engine Optimization (SEO)</h5>
+  <p class="mt-3 title fontWeight500 mb-3">Search Engine Optimization (SEO)</p>
 <p>
   Increase your website’s visibility, authority, and revenue with our end-to-end
   SEO solutions. From technical SEO to high-authority backlinks, we help your
   business rank higher on Google and reach the audience that matters most.
 </p>
 
-<h5 class="mt-3">Local SEO</h5>
+<p class="mt-3 title fontWeight500 mb-3">Local SEO</p>
 <p class="mt-2">
   Connect with customers in your area and dominate local search results. We
   optimize your Google Business Profile, local citations, hyperlocal content,
@@ -31,7 +31,7 @@ export default function WhatWeDo3() {
   more local leads.
 </p>
 
-<h5 class="mt-3">Ecommerce SEO</h5>
+<p class="mt-3 title fontWeight500 mb-3">Ecommerce SEO</p>
 <p class="mt-2">
   Maximize product visibility and drive more sales with targeted Ecommerce SEO
   strategies. We fine-tune your product listings, enhance technical SEO, and
@@ -47,20 +47,20 @@ export default function WhatWeDo3() {
       subList: ["Google Ads", "Meta & Instagram Ads", "LinkedIn Ads"],
       subTitle: "High-Performance Ad Campaigns That Deliver Leads & Sales ",
       description: `<p> Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.</p>
-        <h5 class="mt-3">Google Ads 
-        </h5>
+        <p class="mt-3 title fontWeight500 mb-3">Google Ads 
+        </p>
         <p class="mt-2">
         Target the right audience with precision and maximize your ROI.
         </p>
-        <h5 class="mt-3">
+        <p class="mt-3 title fontWeight500 mb-3">
         Meta & Instagram Ads 
         
-        </h5>
+        </p>
         <p class="mt-2">
         Engaging creatives that drive clicks, conversions, and brand awareness. </p>        
   
-          <h5 class="mt-3">LinkedIn Ads
-          </h5>
+          <p class="mt-3 title fontWeight500 mb-3">LinkedIn Ads
+          </p>
 
           <p  class="mt-2">Connect with key decision-makers and grow your B2B pipeline 
           </p>
@@ -79,17 +79,17 @@ export default function WhatWeDo3() {
         Create stunning digital assets that elevate your brand and drive user engagement across devices. 
         
         </p>
-        <h5 class="mt-3">Website Design & Development </h5>
+        <p class="mt-3 title fontWeight500 mb-3">Website Design & Development </p>
         <P>
         Fast, mobile-first websites designed to rank and convert. 
         
         </P>
-        <h5 class="mt-3">Graphic Design </h5>
+        <p class="mt-3 title fontWeight500 mb-3">Graphic Design </p>
 
         <p class="mt-2">
          Creative visuals that leave a lasting impression. 
         </P>
-        <h5 class="mt-3">Software Development </h5>
+        <p class="mt-3 title fontWeight500 mb-3">Software Development </p>
         <p class="mt-2"> 
        Custom solutions tailored to streamline your business operations. </p>
         `,
@@ -106,19 +106,19 @@ export default function WhatWeDo3() {
       description: `
              <p class="mt-2">Establish authority, boost engagement, and grow loyal communities around your brand. </p> 
 
-        <h5 class="mt-3">Social Media Marketing </h5>
+        <p class="mt-3 title fontWeight500 mb-3">Social Media Marketing </p>
 
              <p class="mt-2">Authentic storytelling and strategy for consistent brand presence. </p>
-        <h5 class="mt-3">
+        <p class="mt-3 title fontWeight500 mb-3">
       Content Marketing 
-      </h5>
+      </p>
              <p class="mt-2">
 
       SEO-rich content that educates, engages, and converts. 
       </p>
-        <h5 class="mt-3">
+        <p class="mt-3 title fontWeight500 mb-3">
       Influencer Marketing 
-      </h5>
+      </p>
              <p class="mt-2">
       Leverage trusted voices to expand reach and build brand trust. 
       </p>
@@ -132,12 +132,10 @@ export default function WhatWeDo3() {
   return (
     <section id="viewPort" ref={viewPortRef}>
       <div className="containerFull">
-        <p className="title text-center fontWeight700">
-          What We Do
-        </p>
-        <h4 className="mt-3  large_heading2 fontHeading2 text-center fontWeight600 text_red">
+        <p className="title text-center fontWeight700">What We Do</p>
+        <h3 className="mt-3  large_heading2 fontHeading2 text-center fontWeight600 text_red">
           Our Revenue Driven <strong>Digital Marketing Services</strong>
-        </h4>
+        </h3>
         <div className="row mt-lg-5">
           <div className="col-lg-6">
             <div className="leftWhatMenu">
@@ -153,7 +151,7 @@ export default function WhatWeDo3() {
                     {item.subList.length > 0 && (
                       <div className="getList">
                         {item.subList.map((subItem, subIdx) => (
-                          <h5 key={subIdx}>{subItem}</h5>
+                          <p key={subIdx}>{subItem}</p>
                         ))}
                       </div>
                     )}
@@ -181,10 +179,10 @@ export default function WhatWeDo3() {
                 ) : (
                   // 👇 Show content when selected
                   <>
-                    <h4 className="fontWeight600 small_heading">
+                    <p className="fontWeight600 mt-0 small_heading">
                       {" "}
                       {contentData[activeIndex].subTitle}
-                    </h4>
+                    </p>
                     <div
                       className="title mt-3 fontWeight300"
                       dangerouslySetInnerHTML={{

@@ -40,7 +40,7 @@ const packages = [
     title: "Graphic Designing  <br/> Packages",
     image: "/assets/images/packeges/Graphic-design.jpg",
     alt: "Graphic Designing",
-    features: ["Logos", "Stationery", "Motion Graphics","Brochure Design"],
+    features: ["Logos", "Stationery", "Motion Graphics", "Brochure Design"],
     price: "$175/Month",
   },
   {
@@ -57,19 +57,19 @@ const packages = [
   },
 ];
 
-const Pricing = ({batchtitle,heading,description}) => {
+const Pricing = ({ batchtitle, heading, description }) => {
   return (
     <section className="bgGrey">
       <div className="containerFull">
-        <h4 class="title fontWeight600  text-center">
-         {batchtitle}
-        </h4>
-        <h4 className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red" dangerouslySetInnerHTML={{ __html: heading }}>
-          
-        </h4>
-        <p className="mt-4 text-center title fontWeight500" dangerouslySetInnerHTML={{ __html: description }}>
-        
-        </p>
+        <p class="title fontWeight600  text-center">{batchtitle}</p>
+        <h3
+          className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red"
+          dangerouslySetInnerHTML={{ __html: heading }}
+        ></h3>
+        <p
+          className="mt-4 text-center title fontWeight500"
+          dangerouslySetInnerHTML={{ __html: description }}
+        ></p>
 
         <div className="pricing_row position-relative">
           <button className="price_prev">
@@ -81,7 +81,6 @@ const Pricing = ({batchtitle,heading,description}) => {
             loop={true}
             autoplay={{ delay: 2500, pauseOnMouseEnter: true }}
             pagination={false}
-         
             navigation={{ nextEl: ".price_next", prevEl: ".price_prev" }}
             breakpoints={{
               0: { slidesPerView: 1, spaceBetween: 20 },
@@ -95,10 +94,10 @@ const Pricing = ({batchtitle,heading,description}) => {
               <SwiperSlide key={idx}>
                 <div className="pricing_item_main">
                   <div className="pricing_item">
-                    <h5
-                      className="Pricing_title fontHeading2"
+                    <p
+                      className="Pricing_title fontWeight600 fontHeading2"
                       dangerouslySetInnerHTML={{ __html: pkg.title }}
-                    ></h5>
+                    ></p>
 
                     <div className="mt-4">
                       <Image
@@ -119,10 +118,10 @@ const Pricing = ({batchtitle,heading,description}) => {
                     </div>
 
                     <div className=" mt-3 fontHeading2">
-                      <h5 className="text-center fontWeight600">
+                      <p className="text-center fontWeight600">
                         Starts from:{" "}
                         <span className="text_red">{pkg.price}</span>
-                      </h5>
+                      </p>
                     </div>
                     <hr />
                     <div className="d-flex justify-content-center">

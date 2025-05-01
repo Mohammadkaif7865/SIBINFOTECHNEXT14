@@ -13,31 +13,29 @@ const SIBPower = ({
   title_right,
   description_right,
   data,
-  batchtitle
+  batchtitle,
 }) => {
   return (
     <section className="bg-black">
       <div className="containerFull">
         <div className="row align-items-center">
-          <div className="col-lg-4">
+          <div className="col-lg-4 pe-lg-0">
             {batchtitle && (
-              <h5 className="text-white">
-                {batchtitle}
-              </h5>
+              <p className="text-white title fontWeight600">{batchtitle}</p>
             )}
-            <h4 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
+            <h2 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
               {title} <br className="d-none d-lg-block" />
               <span className="fontWeight600">{subtitle}</span>
-            </h4>
+            </h2>
             <p className="mt-3 title text-white">{description}</p>
           </div>
           <div className="col-lg-8 ps-lg-5">
-            <h4
+            <h2
               className="text-white sub_heading"
               dangerouslySetInnerHTML={{
                 __html: title_right,
               }}
-            ></h4>
+            ></h2>
             <p
               className="text-white mt-2"
               dangerouslySetInnerHTML={{
@@ -72,9 +70,9 @@ const SIBPower = ({
                 {data.map((item, index) => (
                   <SwiperSlide key={index}>
                     <div className="item_sib_power">
-                      <h5 className="fontHeading2 small_heading fontWeight600">
+                      <p className="fontHeading2 text_red title fontWeight600">
                         {item.title}
-                      </h5>
+                      </p>
                       <p className="mt-3">{item.description}</p>
                     </div>
                   </SwiperSlide>

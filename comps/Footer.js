@@ -116,7 +116,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-2 pe-lg-0">
               <div className="leftFooterForm">
-                <h4 className="small_heading">Get a Free Quote</h4>
+                <p className="small_heading fontWeight600">Get a Free Quote</p>
               </div>
             </div>
             <div className="col-lg-10">
@@ -171,20 +171,20 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-3 px-0 px-lg-2">
               <div className="firstColumn position-relative text-center">
-                <h4 className="sub_heading text_white fontHeading">
+                <p className="sub_heading text-white position-static fontHeading">
                   <i className="fa fa-mobile-alt pe-3 text_red"></i> Let's Talk
-                </h4>
+                </p>
                 <Link
                   href="tel:+91-92222-60000"
                   className="sub_heading2 text-white my-3 d-inline-block"
                 >
                   +91-92222-60000
                 </Link>
-                <h4 className="sub_heading fontWeight300 text_white_light fontHeading">
+                <p className="sub_heading position-static fontWeight300 text_white_light fontHeading">
                   Need some
                   <br /> great marketing?
                   <br /> We deliver.
-                </h4>
+                </p>
                 <div>
                   <Link href="/contact-us" className="footerLeft ">
                     Get Started
@@ -198,8 +198,10 @@ export default function Footer() {
                   <div className="rightFooterColumn">
                     <div className="row">
                       <div className="col-lg-3">
-                        <div className="footerColumn">
-                          <h4 className="fontHeading">Internet Marketing</h4>
+                        <div className="footerColumn footerTitle">
+                          <p className="fontHeading position-static">
+                            Internet Marketing
+                          </p>
                           <ul>
                             <li>
                               <Link
@@ -268,9 +270,9 @@ export default function Footer() {
                           </ul>
                         </div>
                       </div>
-                      <div className="col-lg-3">
+                      <div className="col-lg-3 footerTitle">
                         <div className="footerColumn">
-                          <h4 className="fontHeading">Website Development</h4>
+                          <p className="fontHeading">Website Development</p>
                           <ul>
                             <li>
                               <Link
@@ -348,8 +350,8 @@ export default function Footer() {
                         </div>
                       </div>
                       <div className="col-lg-3">
-                        <div className="footerColumn">
-                          <h4 className="fontHeading">Website Designing</h4>
+                        <div className="footerColumn footerTitle">
+                          <p className="fontHeading">Website Designing</p>
                           <ul>
                             <li>
                               <Link
@@ -419,8 +421,8 @@ export default function Footer() {
                         </div>
                       </div>
                       <div className="col-lg-3">
-                        <div className="footerColumn">
-                          <h4 className="fontHeading">PPC Management</h4>
+                        <div className="footerColumn footerTitle">
+                          <p className="fontHeading">PPC Management</p>
                           <ul>
                             <li>
                               <Link
@@ -589,9 +591,9 @@ export default function Footer() {
               <div className=" col-lg-6 ">
                 <div className="mapItemFooter ">
                   <div className="leftMapAddess">
-                    <h4 className="small_heading fontWeight600">
+                    <p className="small_heading text_red fontWeight600">
                       Mumbai Office
-                    </h4>
+                    </p>
                     <p className="mt-3">
                       107, Orbit Premises, Mindspace Near Inorbit Mall, Malad
                       West, Mumbai, Maharashtra 400064
@@ -627,9 +629,9 @@ export default function Footer() {
               <div className=" col-lg-6 ">
                 <div className="mapItemFooter ">
                   <div className="leftMapAddess">
-                    <h4 className="small_heading fontWeight600">
+                    <p className="small_heading text_red fontWeight600">
                       New Delhi Office
-                    </h4>
+                    </p>
                     <p className="mt-3">
                       1st Floor, Front Side, Block, B-1/624, B1 Rd, opp. Metro
                       Pillar Number 574, Janakpuri, New Delhi, Delhi, 110058

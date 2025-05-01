@@ -28,9 +28,9 @@ function BlogCard(props) {
         </div>
         <div className="dividerBlog"></div>
         <div className="blogTitle">
-          <h4 className="small_heading fontHeading fontWeight600">
+          <p className="small_heading blogHeader fontHeading fontWeight600">
             {blog.name}
-          </h4>
+          </p>
           <div className="dateTime">
             <p>{format(new Date(blog.bdate), "dd-MM-yyyy")}</p>
             <button className="blogIcon">

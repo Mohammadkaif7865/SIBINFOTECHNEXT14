@@ -8,11 +8,11 @@ const WeStrong = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-8 ">
-            <h4 className="title fontWeight600 text-white">Our Facts</h4>
-            <h3 className="heading mt-4 fontWeight300">
+            <p className="title fontWeight600 text-white">Our Facts</p>
+            <h2 className="heading mt-4 fontWeight300">
               How We Became a Trusted Name <br /> in{" "}
               <span className="text_red fontWeight700">Digital Marketing</span>
-            </h3>
+            </h2>
             <p className="mt-4 text-white pe-lg-5">
               From our roots in Mumbai and New Delhi to serving companies
               worldwide, SIB Infotech's 20+ year journey reflects our passion
@@ -31,19 +31,19 @@ const WeStrong = () => {
             <div className=" item_numberd_row">
               <div className="row">
                 <div className="col-lg-3 col-6 mb-3 mb-lg-0">
-                  <h4>2000+ </h4>
+                  <p className="large_heading2">2000+ </p>
                   <p>Projects Delivered</p>
                 </div>
                 <div className="col-lg-3 col-6 mb-3 mb-lg-0">
-                  <h4> 20 </h4>
+                  <p className="large_heading2"> 20 </p>
                   <p>Years of Experience</p>
                 </div>
                 <div className="col-lg-3 col-6 mb-3 mb-lg-0">
-                  <h4> 30+ </h4>
+                  <p className="large_heading2"> 30+ </p>
                   <p>Team Members</p>
                 </div>
                 <div className="col-lg-3 col-6 mb-3 mb-lg-0">
-                  <h4> 1200+ </h4>
+                  <p className="large_heading2"> 1200+ </p>
                   <p>Satisficed Customers</p>
                 </div>
               </div>
