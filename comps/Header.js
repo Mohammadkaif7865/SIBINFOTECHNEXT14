@@ -5,9 +5,16 @@ import { usePathname } from "next/navigation";
 import { RiMenu3Fill, RiMenu4Line } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { Modal } from "react-bootstrap";
+import BannerForm from "./BannerForm";
 
 export default function Header() {
   const [show, setShow] = useState(false);
+
+  const [showModel, setShowModel] = useState(false);
+
+  const handleCloseModel = () => setShowModel(false);
+  const handleShowModel = () => setShowModel(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -1107,6 +1114,30 @@ export default function Header() {
           <i class="fab fa-whatsapp"></i>
         </a>
       </div>
+
+      
+        <button className="modelBtn" onClick={handleShowModel}>Get A Quote</button>
+      
+      <ModelComp show={showModel} handleClose={handleCloseModel} />
     </div>
   );
 }
+
+const ModelComp = ({ show, handleClose }) => {
+  return (
+    <Modal show={show} onHide={handleClose}>
+      <div className="p-3 p-lg-4">
+        <h4>
+          <span className="fontWeight600 h2">Get Free Consultation</span>
+        </h4>
+        <p className="mt-2 fontWeight400">
+          Get a free consultation with our experts to discuss your project
+          requirements.
+        </p>
+        <div className="mt-4">
+          <BannerForm />
+        </div>
+      </div>
+    </Modal>
+  );
+};
