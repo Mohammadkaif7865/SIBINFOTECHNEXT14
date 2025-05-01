@@ -13718,10 +13718,11 @@ tudy-right-main {
 .modelBtn {
   position: fixed;
   top: 50%;
+  /* width: 50px; */
   z-index: 999;
-  rotate: 90deg;
+  rotate: -90deg;
   border: 0;
-  right: -32px;
+  right: -75px;
   transform: translateY(-50%);
   background-color: var(--red-color);
   color: #fff;
