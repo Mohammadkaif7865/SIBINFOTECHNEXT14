@@ -111,7 +111,7 @@ const Seo = () => {
     },
   ];
   const rightBoxContent = {
-    heading: "Get top-notch SEO services from leading SEO Company in India ",
+    heading: "Result-Driven SEO Services by India’s Top SEO Company ",
     description:
       "Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. ",
   };
