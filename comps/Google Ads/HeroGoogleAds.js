@@ -8,26 +8,26 @@ const HeroGoogleAds = () => {
     <>
       <div className="innerWebDesign">
         <div className="container-fluid">
-        <div className="row">
+          <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                Google Ads Management Services 
+                  Google Ads Management Services in India
                 </h1>
-                <h2 className="small_heading fw-bold mt-lg-3 mt-2 text_red">
-                Top Rated   Service 
-                Comapny in India
-                </h2>
-                <p className="text-white mt-2 title bulletPoint fw-bold">
-                Drive targeted traffic 
+                <h2 className="small_heading fontWeight500 mt-lg-3 mt-2 text_red">
+                  Accelerate Your Business Growth with the 
+                </h2>{" "}
+                <p
+                  className="small_heading fw-bold mt-2  mt-lg-3 text-white "
+                  style={{
+                    maxWidth: "80%",
+                  }}
+                >
+                  Google Ads Management Company
                 </p>
-                <p className="text-white mt-2 title bulletPoint fw-bold">
-                generate high-quality leads 
+                <p className="text-white mt-2 title  fw-bold">
+                  Drive More Traffic. Generate Quality Leads. Maximize ROI.
                 </p>
-                <p className="text-white mt-2 title bulletPoint fw-bold">
-                Maximize Conversions with Data-Driven Ads 
-                </p>
-
                 <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
