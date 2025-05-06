@@ -5,7 +5,7 @@ import React from "react";
 export const CustomLayout = ({ children, meta }) => {
   const path = usePathname();
   return (
-    < >
+    <>
       <Head>
         <meta name="geography" content="INDIA" />
         <meta name="geo.region" content="IN-MH" />
@@ -13,7 +13,7 @@ export const CustomLayout = ({ children, meta }) => {
         <meta name="geo.position" content="19.1018364;72.887766" />
         <meta name="ICBM" content="19.1018364, 72.887766" />
         <meta name="dc.language" content="English" />
-        <meta name="language" name="English" />
+        <meta name="language" content="English" />
         <meta name="category" content="Business" />
         <meta name="coverage" content="Worldwide" />
         <meta name="distribution" content="Global" />
@@ -24,7 +24,7 @@ export const CustomLayout = ({ children, meta }) => {
         />
         <meta name="topic" content="Digital Marketing and Website Desigining" />
         <meta name="robots" content="index, follow" />
-        <meta content="FOLLOW, INDEX, ALL" name="robots" />
+        <meta name="robots" content="follow, index " />
         <meta content="yes" name="ALLOW-SEARCH" />
         <meta content="all" name="AUDIENCE" />
         <meta content="index, follow" name="YahooSeeker" />
@@ -37,8 +37,6 @@ export const CustomLayout = ({ children, meta }) => {
 
         <link rel="canonical" href={`https://www.sibinfotech.com${path}`} />
         {meta}
-
- 
       </Head>
 
       {children}
