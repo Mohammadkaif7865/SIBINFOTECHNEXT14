@@ -16,6 +16,7 @@ export default function SeoCalculator() {
   const [user, setUser] = useState({ firstName: "", lastName: "", email: "" });
   const [results, setResults] = useState({});
   const [emailStatus, setEmailStatus] = useState(null);
+  const [hasSent, setHasSent] = useState(false);
 
   useEffect(() => {
     calculateResults();
@@ -61,14 +62,14 @@ export default function SeoCalculator() {
         <tr><td>Estimated Leads/Orders</td><td>${results.leads?.toFixed(
           2
         )}</td></tr>
-        <tr><td>Monthly Revenue (£)</td><td>£${results.revenue?.toFixed(
+        <tr><td>Monthly Revenue ($)</td><td>$${results.revenue?.toFixed(
           2
         )}</td></tr>
-        <tr><td>Profit after SEO Cost (£)</td><td>£${results.profit?.toFixed(
+        <tr><td>Profit after SEO Cost ($)</td><td>$${results.profit?.toFixed(
           2
         )}</td></tr>
         <tr><td>ROI (%)</td><td>${results.roi?.toFixed(2)}%</td></tr>
-        <tr><td>Average Cost per Lead/Order (£)</td><td>£${results.avgCostPerLead?.toFixed(
+        <tr><td>Average Cost per Lead/Order ($)</td><td>$${results.avgCostPerLead?.toFixed(
           2
         )}</td></tr>
         <tr><td>Page URL</td><td>${
@@ -100,6 +101,9 @@ export default function SeoCalculator() {
           ? "✅ Email sent successfully!"
           : "❌ Failed to send email."
       );
+      if (data.success) {
+        setHasSent(true); // prevent future submissions
+      }
     } catch (err) {
       console.error(err);
       setEmailStatus("❌ Error sending email.");
@@ -116,26 +120,27 @@ export default function SeoCalculator() {
     {
       title: "2. Website Conversion Rate (%)",
       meaning: "The % of visitors who take your desired action.",
-      importance: "It shows how effectively your site turns visitors into leads.",
+      importance:
+        "It shows how effectively your site turns visitors into leads.",
       example: "10 out of 100 convert = 10%.",
     },
     {
-      title: "3. Customer Lifetime Value (LTV) (£)",
+      title: "3. Customer Lifetime Value (LTV) ($)",
       meaning: "Total revenue per customer over their lifetime.",
       importance: "Shows long-term value of every lead.",
-      example: "£50 per visit × 3 visits = £150 LTV.",
+      example: "$50 per visit × 3 visits = $150 LTV.",
     },
     {
       title: "4. Profit Margin (%)",
       meaning: "Profit after all expenses as a % of revenue.",
       importance: "Needed to calculate real net profit.",
-      example: "£100 revenue, £90 cost → 10% margin.",
+      example: "$100 revenue, $90 cost → 10% margin.",
     },
     {
-      title: "5. Monthly SEO Investment (£)",
+      title: "5. Monthly SEO Investment ($)",
       meaning: "Your SEO spend (agency + tools).",
       importance: "The cost used to calculate ROI.",
-      example: "£500 agency + £500 tools = £1,000/month.",
+      example: "$500 agency + $500 tools = $1,000/month.",
     },
   ].map((item, i) => (
     <div className="mb-4" key={i}>
@@ -151,27 +156,35 @@ export default function SeoCalculator() {
       </p>
     </div>
   ));
-  
+
   return (
     <div className="container py-5">
       <h1 className="text-center fw-bold mb-4">📈 SEO ROI Calculator</h1>
       <p className="text-center text-muted">
         Estimate your potential leads, revenue, and ROI from SEO investments.
       </p>
-  
+
       {/* Calculator Form and Results */}
       <div className="row g-4 mt-4">
         {/* Input Form */}
         <div className="col-md-6">
           <div className="card border-primary shadow-sm">
             <div className="card-body">
-              <h5 className="card-title text-primary mb-3">📝 Enter Your Data</h5>
+              <h5 className="card-title text-primary mb-3">
+                📝 Enter Your Data
+              </h5>
               {[
-                { label: "Estimated new visitors from SEO", name: "newVisitors" },
-                { label: "Website conversion rate (%)", name: "conversionRate" },
-                { label: "Customer lifetime value (LTV) (£)", name: "ltv" },
+                {
+                  label: "Estimated new visitors from SEO",
+                  name: "newVisitors",
+                },
+                {
+                  label: "Website conversion rate (%)",
+                  name: "conversionRate",
+                },
+                { label: "Customer lifetime value (LTV) ($)", name: "ltv" },
                 { label: "Profit margin (%)", name: "profitMargin" },
-                { label: "Monthly SEO investment (£)", name: "seoSpend" },
+                { label: "Monthly SEO investment ($)", name: "seoSpend" },
               ].map(({ label, name }) => (
                 <div className="mb-3" key={name}>
                   <label className="form-label fw-semibold">
@@ -191,30 +204,32 @@ export default function SeoCalculator() {
             </div>
           </div>
         </div>
-  
+
         {/* Result Section */}
         <div className="col-md-6">
           <div className="card shadow-sm">
             <div className="card-body">
-              <h5 className="card-title text-success mb-3">📊 SEO ROI Results</h5>
+              <h5 className="card-title text-success mb-3">
+                📊 SEO ROI Results
+              </h5>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <strong>Estimated leads/orders:</strong>{" "}
                   {results.leads?.toFixed(2) || 0}
                 </li>
                 <li className="list-group-item">
-                  <strong>Monthly Revenue (£):</strong> £
+                  <strong>Monthly Revenue ($):</strong> $
                   {results.revenue?.toFixed(2) || 0}
                 </li>
                 <li className="list-group-item">
-                  <strong>Profit after SEO costs (£):</strong> £
+                  <strong>Profit after SEO costs ($):</strong> $
                   {results.profit?.toFixed(2) || 0}
                 </li>
                 <li className="list-group-item">
                   <strong>ROI (%):</strong> {results.roi?.toFixed(2) || 0}%
                 </li>
                 <li className="list-group-item">
-                  <strong>Avg Cost per Lead (£):</strong> £
+                  <strong>Avg Cost per Lead ($):</strong> $
                   {results.avgCostPerLead?.toFixed(2) || 0}
                 </li>
               </ul>
@@ -222,7 +237,7 @@ export default function SeoCalculator() {
           </div>
         </div>
       </div>
-  
+
       {/* Email Form */}
       <form onSubmit={handleSubmit} className="card mt-5 shadow-sm">
         <div className="card-body">
@@ -259,9 +274,14 @@ export default function SeoCalculator() {
               />
             </div>
           </div>
-          <button type="submit" className="btn btn-primary mt-3">
-            Send Results
+          <button
+            type="submit"
+            className="btn btn-primary mt-3"
+            disabled={hasSent}
+          >
+            {hasSent ? "✅ Sent" : "Send Results"}
           </button>
+
           {emailStatus && (
             <div
               className={`alert mt-3 ${
@@ -273,7 +293,7 @@ export default function SeoCalculator() {
           )}
         </div>
       </form>
-  
+
       {/* Step-by-Step Guide */}
       <div className="mt-5">
         <h2 className="fw-bold text-center mb-4">
@@ -285,23 +305,22 @@ export default function SeoCalculator() {
           <ul className="mb-2">
             <li>Estimated Visitors: 2,000</li>
             <li>Conversion Rate: 10%</li>
-            <li>LTV: £150</li>
+            <li>LTV: $150</li>
             <li>Profit Margin: 10%</li>
-            <li>Monthly SEO Spend: £1,000</li>
+            <li>Monthly SEO Spend: $1,000</li>
           </ul>
           <p className="mb-0">
             ➤ Estimated Leads: 200
             <br />
-            ➤ Monthly Revenue: £30,000
+            ➤ Monthly Revenue: $30,000
             <br />
-            ➤ Profit: £2,000
+            ➤ Profit: $2,000
             <br />
             ➤ ROI: 200%
-            <br />➤ Avg Cost/Lead: £5.00
+            <br />➤ Avg Cost/Lead: $5.00
           </p>
         </div>
       </div>
     </div>
-  )
-  
+  );
 }

@@ -17,6 +17,8 @@ export default function PpcCalculator() {
   const [user, setUser] = useState({ firstName: "", lastName: "", email: "" });
   const [results, setResults] = useState({});
   const [emailStatus, setEmailStatus] = useState(null);
+  const [hasSent, setHasSent] = useState(false);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!user.email || !user.firstName || !user.lastName) return;
@@ -40,13 +42,13 @@ export default function PpcCalculator() {
         <tr><td colspan="2"><strong>📊 PPC Calculator Results</strong></td></tr>
         <tr><td>Estimated Clicks</td><td>${clicks.toFixed(2)}</td></tr>
         <tr><td>Estimated Orders</td><td>${orders.toFixed(2)}</td></tr>
-        <tr><td>Order Revenue</td><td>£${revenue.toFixed(2)}</td></tr>
-        <tr><td>Profit</td><td>£${profit.toFixed(2)}</td></tr>
-        <tr><td>Total Advertising Cost</td><td>£${totalAdCost.toFixed(
+        <tr><td>Order Revenue</td><td>$${revenue.toFixed(2)}</td></tr>
+        <tr><td>Profit</td><td>$${profit.toFixed(2)}</td></tr>
+        <tr><td>Total Advertising Cost</td><td>$${totalAdCost.toFixed(
           2
         )}</td></tr>
         <tr><td>ROI</td><td>${roi.toFixed(2)}%</td></tr>
-        <tr><td>Average Cost per Order</td><td>£${avgCostPerOrder.toFixed(
+        <tr><td>Average Cost per Order</td><td>$${avgCostPerOrder.toFixed(
           2
         )}</td></tr>
         <tr><td>Page URL</td><td>${
@@ -75,6 +77,8 @@ export default function PpcCalculator() {
       const data = await res.data;
       console.log("TTTTTTTTTTTTTTTTT", data);
       if (data.success) {
+        setHasSent(true); // prevent future submissions
+
         setEmailStatus("✅ Email sent successfully!");
       } else {
         setEmailStatus("❌ Failed to send email.");
@@ -143,12 +147,12 @@ export default function PpcCalculator() {
               <h5 className="card-title text-primary">📝 Input Your Metrics</h5>
               {[
                 {
-                  label: "Advertising spend (£)",
+                  label: "Advertising spend ($)",
                   name: "advertisingSpend",
                   required: true,
                 },
                 {
-                  label: "Average CPC (£)",
+                  label: "Average CPC ($)",
                   name: "cpc",
                   required: true,
                 },
@@ -157,11 +161,11 @@ export default function PpcCalculator() {
                   name: "conversionRate",
                 },
                 {
-                  label: "Average Order Value (£)",
+                  label: "Average Order Value ($)",
                   name: "aov",
                 },
                 {
-                  label: "Profit per Order (£)",
+                  label: "Profit per Order ($)",
                   name: "profitPerOrder",
                 },
                 {
@@ -203,14 +207,14 @@ export default function PpcCalculator() {
                   {results.orders?.toFixed(2) || 0}
                 </li>
                 <li className="list-group-item">
-                  <strong>Order Revenue:</strong> £
+                  <strong>Order Revenue:</strong> $
                   {(results.revenue || 0).toFixed(2)}
                 </li>
                 <li className="list-group-item">
-                  <strong>Profit:</strong> £{(results.profit || 0).toFixed(2)}
+                  <strong>Profit:</strong> ${(results.profit || 0).toFixed(2)}
                 </li>
                 <li className="list-group-item">
-                  <strong>Total Ad Cost:</strong> £
+                  <strong>Total Ad Cost:</strong> $
                   {(results.totalAdCost || 0).toFixed(2)}
                 </li>
                 <li className="list-group-item">
@@ -218,7 +222,7 @@ export default function PpcCalculator() {
                   {results.roi ? `${results.roi.toFixed(2)}%` : "0%"}
                 </li>
                 <li className="list-group-item">
-                  <strong>Avg Cost per Order:</strong> £
+                  <strong>Avg Cost per Order:</strong> $
                   {(results.avgCostPerOrder || 0).toFixed(2)}
                 </li>
               </ul>
@@ -263,9 +267,14 @@ export default function PpcCalculator() {
               />
             </div>
           </div>
-          <button type="submit" className="btn btn-primary mt-3">
-            Send Results
+          <button
+            type="submit"
+            className="btn btn-primary mt-3"
+            disabled={hasSent}
+          >
+            {hasSent ? "✅ Sent" : "Send Results"}
           </button>
+
           {emailStatus && (
             <div
               className={`alert mt-3 ${
@@ -285,19 +294,19 @@ export default function PpcCalculator() {
 
         {[
           {
-            title: "1. Advertising Spend (£)",
+            title: "1. Advertising Spend ($)",
             meaning:
               "The total amount you’re planning to spend on your PPC campaign.",
             importance:
               "This gives the calculator a starting budget to estimate cost-effectiveness.",
-            example: "If you plan to spend £1,500 this month, input “1500”.",
+            example: "If you plan to spend $1,500 this month, input “1500”.",
           },
           {
-            title: "2. Average Cost Per Click (CPC) (£)",
+            title: "2. Average Cost Per Click (CPC) ($)",
             meaning:
               "The average amount you pay per click in your PPC campaign.",
             importance: "Helps determine how many clicks your budget can buy.",
-            example: "If your CPC is £3.00, enter “3”.",
+            example: "If your CPC is $3.00, enter “3”.",
           },
           {
             title: "3. Conversion Rate to Order (CR) (%)",
@@ -307,17 +316,17 @@ export default function PpcCalculator() {
             example: "If 10 out of 100 visitors convert, enter “10”.",
           },
           {
-            title: "4. Average Order Value (AOV) (£)",
+            title: "4. Average Order Value (AOV) ($)",
             meaning: "The average revenue per customer order.",
             importance: "Used to calculate total order revenue.",
-            example: "If most customers spend around £120, enter “120”.",
+            example: "If most customers spend around $120, enter “120”.",
           },
           {
-            title: "5. Profit Per Order (£)",
+            title: "5. Profit Per Order ($)",
             meaning:
               "Your net profit per order after deducting cost of goods, shipping, etc.",
             importance: "Used to estimate total net profit from PPC campaign.",
-            example: "If you make £25 profit per order, enter “25”.",
+            example: "If you make $25 profit per order, enter “25”.",
           },
           {
             title: "6. PPC Management Fee (%)",
@@ -344,11 +353,11 @@ export default function PpcCalculator() {
         <div className="bg-light p-4 rounded shadow-sm">
           <h5 className="fw-bold">📊 Example Calculation</h5>
           <ul className="mb-2">
-            <li>Advertising spend: £1,500</li>
-            <li>CPC: £3.00</li>
+            <li>Advertising spend: $1,500</li>
+            <li>CPC: $3.00</li>
             <li>Conversion Rate: 8%</li>
-            <li>AOV: £100</li>
-            <li>Profit Per Order: £25</li>
+            <li>AOV: $100</li>
+            <li>Profit Per Order: $25</li>
             <li>PPC Management Fee: 10%</li>
           </ul>
           <p className="mb-0">
@@ -356,14 +365,14 @@ export default function PpcCalculator() {
             <br />
             ➤ Estimated Orders: 40
             <br />
-            ➤ Order Revenue: £4,000
+            ➤ Order Revenue: $4,000
             <br />
-            ➤ Profit: £1,000
+            ➤ Profit: $1,000
             <br />
-            ➤ Total Ad Cost: £1,650
+            ➤ Total Ad Cost: $1,650
             <br />
             ➤ ROI: 142.42%
-            <br />➤ Avg Cost per Order: £41.25
+            <br />➤ Avg Cost per Order: $41.25
           </p>
         </div>
       </div>
