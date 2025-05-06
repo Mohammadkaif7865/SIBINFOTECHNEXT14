@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import axios from "axios";
+import * as CONSTANTS from "../constants/constants";
 
 export default function RobotsSitemapValidator() {
   const [url, setUrl] = useState("");
@@ -18,7 +19,7 @@ export default function RobotsSitemapValidator() {
 
     try {
       const sanitizedUrl = url.trim().replace(/\/+$/, "");
-      const res = await axios.post("/api/robotsSitemapCheck", { url: sanitizedUrl });
+      const res = await axios.post(`${CONSTANTS.API_URL}robotsSitemapCheck`, { url: sanitizedUrl });
       setResults(res.data);
     } catch (err) {
       console.error("Error checking files:", err);

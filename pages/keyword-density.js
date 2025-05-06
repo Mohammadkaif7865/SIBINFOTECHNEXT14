@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import * as CONSTANTS from "../constants/constants";
 
 export default function KeywordDensity() {
   const [inputType, setInputType] = useState("url");
@@ -16,7 +17,7 @@ export default function KeywordDensity() {
     try {
       let htmlContent = inputValue;
       if (inputType === "url") {
-        const res = await axios.post("/api/fetch-html", { url: inputValue });
+        const res = await axios.post(`${CONSTANTS.API_URL}fetch-html`, { url: inputValue });
         htmlContent = res.data.content;
       }
 

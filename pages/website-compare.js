@@ -13,7 +13,7 @@ export default function CompetitorComparison() {
 
   const fetchKeywordDensity = async (url) => {
     try {
-      const res = await axios.post("/api/fetch-html", { url });
+      const res = await axios.post(`${CONSTANTS.API_URL}fetch-html`, { url });
       const html = res.data.content || "";
       const cleaned = html
         .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
