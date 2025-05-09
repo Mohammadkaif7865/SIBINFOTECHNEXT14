@@ -14,8 +14,38 @@ import PPcWebervices from "./PPcWebservices";
 import PPcStrategy from "./PPcStrategy";
 import PPcServicess from "./PPcServicess";
 import WhatisPPc from "./WhatisPPc";
+import Solution from "@/comps/WhiteLabel/Solution";
 
 const Ppc = () => {
+  const PPcServices = [
+    {
+      title: `Google Ads <br class="d-none d-md-lg "/> Management`,
+      description: `We create and manage high-performing Google Ads across Search, Display, Shopping, and YouTube to maximize ROI. As a Google Premier Partner, we optimize campaigns for better reach and lower CPC.`,
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Bing Ads <br class="d-none d-md-lg "/> Management`,
+      description: `Tap into a unique audience with cost-effective Bing Ads campaigns. Our team optimizes for reach, relevance, and results across Microsoft’s search network.`,
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+    },
+    {
+      title: `Social Media <br class="d-none d-md-lg "/> Advertising`,
+      description: `We run data-driven paid campaigns on platforms like Facebook, Instagram, and LinkedIn to boost engagement, generate leads, and drive conversions.`,
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+    },
+    {
+      title: `Yandex Ads <br class="d-none d-md-lg "/> Management`,
+      description: `Target Russian and CIS audiences with localized ads on Yandex. Our experts optimize your campaigns with cultural insights and native targeting strategies.`,
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+    },
+    {
+      title: `Amazon Ads <br class="d-none d-md-lg "/> Management`,
+      description: `We help boost your product visibility and sales through Amazon Sponsored Ads, Product Display Ads, and Brand Campaigns tailored to shopping behavior.`,
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+    },
+  ];
+  
+  
   const power_data = [
     {
       title: "Certified Google Premier Partner",
@@ -65,8 +95,17 @@ const Ppc = () => {
         data={power_data}
       />
       <PPcStrategy />
+
       <PPcWebervices />
-      <PPcServicess />
+      <Solution
+        heading={" Our PPC Management Services  "}
+        // subHeading={"We offer Best PPC Marketing Services in India"}
+        discription={
+           "Maximize your brand's visibility and ROI with our expert PPC solutions tailored for search engines, social platforms, and marketplaces. From keyword strategy to performance tracking, we deliver data-driven ad campaigns that convert — powered by white-label expertise trusted by agencies and global brands."
+        }
+        data={PPcServices}
+      />
+      {/* <PPcServicess /> */}
 
       <PPCFaq />
       <Introduction />

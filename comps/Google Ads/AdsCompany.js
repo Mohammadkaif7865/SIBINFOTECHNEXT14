@@ -7,25 +7,15 @@ const AdsCompany = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-7">
-            <h2 className="customHeading  fontHeading">
-              SIB Infotech - Top Rated{" "}
-              <span className="text_red">Google Ads Company In India</span>
+            <h2 className="customHeading text_red fontHeading">
+              {/* SIB Infotech - Top Rated{" "} */}Why Google Ads?
+              {/* <span className="text_red">Why Google Ads? </span> */}
             </h2>
             <p className="customText">
-              Google is one of the most used search engines by the vast majority
-              of the world's population. On average, 2.3 million searches are
-              executed every second on google where the search results are
-              embedded with Google Ads.
+            Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads! 
             </p>
             <p className="customText">
-              These ads are known to be the best possible and highly effective
-              medium for driving quality traffic to your website. The products
-              and services of your business are displayed to the audience
-              exactly when they are searching for the services the same as
-              yours. Google AdWords are paid ads that appear on Google SERPs and
-              other websites through Google’s AdSense or Display Network. The
-              ads can be of any format, it could be a text, image, video, or
-              rich media format, and each targets the audience differently.
+            Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized <strong>Google Ads campaign drives measurable</strong> business results. 
             </p>
             <p className="customText">
               Recursive analysis, attention as well as optimization is mandatory
