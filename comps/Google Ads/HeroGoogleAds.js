@@ -14,18 +14,18 @@ const HeroGoogleAds = () => {
                 <h1 className="heading fontWeight700 text-white fontHeading">
                   Google Ads Management Services in India
                 </h1>
-                <h2 className="small_heading fontWeight500 mt-lg-3 mt-2 text_red">
+                <h2 className="small_heading fontWeight600 mt-lg-3 mt-2 text-white ">
                   Accelerate Your Business Growth with the 
                 </h2>{" "}
                 <p
-                  className="small_heading fw-bold mt-2  mt-lg-3 text-white "
+                  className="small_heading  mt-2  mt-lg-3 text-white "
                   style={{
                     maxWidth: "80%",
                   }}
                 >
-                  Google Ads Management Company
+                  #1 Google Ads Management Company
                 </p>
-                <p className="text-white mt-2 title  fw-bold">
+                <p className="text-white mt-2 title">
                   Drive More Traffic. Generate Quality Leads. Maximize ROI.
                 </p>
                 <div className="mt-4">

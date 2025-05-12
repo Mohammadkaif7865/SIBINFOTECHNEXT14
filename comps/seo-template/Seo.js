@@ -113,7 +113,7 @@ const Seo = () => {
   const rightBoxContent = {
     heading: "Result-Driven SEO Services by India’s Top SEO Company ",
     description:
-      "Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. ",
+      "Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. Investing in SEO can transform your online presence and deliver long-term success. Here’s how:  ",
   };
   const leftBoxContent = {
     headingStart: "Benefits   ",
@@ -453,7 +453,7 @@ AI-Driven SEO Strategy `,
       <PartnerBadges />
       <CaseStudy2
         description={`Client Success Stories That Prove
- We’re a Top SEO Company in India,our results speak for themselves`}
+ We’re a Top SEO Company in India,our SEO results speak for themselves`}
       />
       <OurClients title={`India’s Trusted
           <span class="fontWeight600">SEO Experts</span>
