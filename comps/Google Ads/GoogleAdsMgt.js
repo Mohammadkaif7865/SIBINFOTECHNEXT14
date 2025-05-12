@@ -18,6 +18,8 @@ import Partnership from "../WhiteLabel/Partnership";
 import BrandBuild from "../Home/BrandBuild";
 import TalkWithExpert from "../SEO/TalkWithExpert";
 import Cta2 from "../WhiteLabel/Cta2";
+import SmoSection from "../SmoPage/WhatisSmo";
+import { FaBullhorn, FaChartLine, FaHandshake, FaStar, FaUsers, FaWater } from "react-icons/fa6";
 
 const GoogleAdsMgt = () => {
   const keyAdvantages = [
@@ -294,7 +296,46 @@ const GoogleAdsMgt = () => {
   return (
     <>
       <HeroGoogleAds />
-      <Abbout3 {...about3Data} />
+      <Abbout3 {...about3Data} /><SmoSection
+        title="Why Choose"
+        highlightedText=" Google Ads for Your Business"
+        description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
+        subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
+        imageSrc="/assets/images/cta2/WhatisSmo.png"
+        imageAlt="Team Working"
+       features={[
+  {
+    icon: <FaChartLine />,
+    title: "Brings traffic and establishes trust",
+    description: "Achieve immediate visibility on Google and build trust through consistent presence and interaction.",
+  },
+  {
+    icon: <FaUsers />,
+    title: "Brand development and promotion",
+    description: "Boost brand awareness and gain market share through targeted social strategies and content.",
+  },
+  {
+    icon: <FaWater />,
+    title: "Maximum reachability in Minimum investment",
+    description: "Pay only when someone engages — ensuring cost-effective visibility and engagement.",
+  },
+  {
+    icon: <FaStar />,
+    title: "Find out new customers",
+    description: "Target highly intentional audiences that are actively searching for your products or services.",
+  },
+  {
+    icon: <FaBullhorn />,
+    title: "Advertise the business, products, and services",
+    description: "Control your budget precisely while optimizing for performance and conversions.",
+  },
+  {
+    icon: <FaHandshake />,
+    title: "Brand Recognition and Trust",
+    description: "Get measurable results and track ROI while building lasting relationships with your audience.",
+  },
+]}
+      />
       <SIBPower
         title="Google Ads "
         subtitle="Experts in India "
@@ -308,6 +349,7 @@ const GoogleAdsMgt = () => {
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
+      
       <Solution
         heading={"Our Google Ads Services Include:   "}
         // subHeading={"With Our Cutting-Edge SEO Services in India"}

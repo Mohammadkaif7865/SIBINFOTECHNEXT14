@@ -12,9 +12,14 @@ import WhatisSmo from "@/comps/SmoPage/WhatisSmo";
 import SIBPower from "@/comps/Home/SIBPower";
 import SmowebServices from "@/comps/SmoPage/SmowebServices";
 import Solution from "@/comps/WhiteLabel/Solution";
-
-
-
+import {
+  FaBullhorn,
+  FaChartLine,
+  FaHandshake,
+  FaStar,
+  FaUsers,
+  FaWater,
+} from "react-icons/fa6";
 
 export default function SocialMediaOptimizationServices() {
   const smoServices = [
@@ -61,32 +66,37 @@ export default function SocialMediaOptimizationServices() {
       img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
     },
   ];
-  
 
   const power_data = [
     {
       title: "Boost Brand Visibility ",
-      description: "Enhance your brand’s presence across major social platforms and reach a wider, targeted audience.",
+      description:
+        "Enhance your brand’s presence across major social platforms and reach a wider, targeted audience.",
     },
     {
       title: "Strengthen Audience Engagement ",
-      description: " Foster meaningful interactions, build trust, and create lasting relationships with your community.",
+      description:
+        " Foster meaningful interactions, build trust, and create lasting relationships with your community.",
     },
     {
       title: " Leverage Data-Driven Strategies ",
-      description: "Make smarter decisions with performance insights and analytics to optimize content and campaigns for better results.",
+      description:
+        "Make smarter decisions with performance insights and analytics to optimize content and campaigns for better results.",
     },
     {
       title: "Drive Higher Website Traffic & Conversions",
-      description: "Turn social media engagement into real business growth with increased site visits and lead generation.",
+      description:
+        "Turn social media engagement into real business growth with increased site visits and lead generation.",
     },
     {
       title: "Build a Loyal Community",
-      description: "Cultivate a passionate and loyal audience that advocates for your brand organically. ",
+      description:
+        "Cultivate a passionate and loyal audience that advocates for your brand organically. ",
     },
     {
       title: "Enjoy Cost-Effective Marketing ",
-      description: " Achieve impressive results with lower investment compared to traditional advertising, maximizing your ROI.",
+      description:
+        " Achieve impressive results with lower investment compared to traditional advertising, maximizing your ROI.",
     },
   ];
 
@@ -154,10 +164,10 @@ export default function SocialMediaOptimizationServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading ">
-                Best Social Media Marketing Company in India  
+                  Best Social Media Marketing Company in India
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text_red ">
-                That Delivers Engagement and Growth 
+                  That Delivers Engagement and Growth
                 </h2>
                 <p
                   className="small_heading fontWeight500 mt-2  mt-lg-3 text-white"
@@ -165,7 +175,7 @@ export default function SocialMediaOptimizationServices() {
                     maxWidth: "80%",
                   }}
                 >
-                  Create Buzz, Build Loyalty 
+                  Create Buzz, Build Loyalty
                 </p>
                 <p
                   className="mt-2  mt-lg-3 text-white"
@@ -173,7 +183,9 @@ export default function SocialMediaOptimizationServices() {
                     maxWidth: "80%",
                   }}
                 >
-                  Ready to Turn Your Social Media into a Growth Machine? Maximize Your Brand’s Marketing with Expert Social Media Optimization Services  
+                  Ready to Turn Your Social Media into a Growth Machine?
+                  Maximize Your Brand’s Marketing with Expert Social Media
+                  Optimization Services
                 </p>
                 <div className="mt-4">
                   <Link href="#">
@@ -228,22 +240,66 @@ export default function SocialMediaOptimizationServices() {
       <div className="d-none d-lg-block">
         <Breadcrumb Pagetitle={" Social Media Optimization"} />
       </div>
-      <SmoPage/>
-      <WhatisSmo/>
-      <SmowhySib/>
+      <SmoPage />
+      <WhatisSmo
+        title="What is"
+        highlightedText="Social Media Optimization (SMO)"
+        description="Social Media Optimization </strong>is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively."
+        subDescription="Social Media Optimization involves the use of <strong>social media networks</strong> to manage and grow an organization’s message and online presence. As a vital part of digital marketing, SMO goes beyond posting content. It includes strategically creating, curating, and promoting your brand's message on social platforms to drive engagement, increase followers, and convert social interactions into measurable business outcomes."
+        imageSrc="/assets/images/cta2/WhatisSmo.png"
+        imageAlt="Team Working"
+        features={[
+          {
+            icon: <FaChartLine />,
+            title: "Brings traffic and establishes trust",
+            description:
+              "We are crafting a digital method that subsists life across all mediums.",
+          },
+          {
+            icon: <FaUsers />,
+            title: "Brand development and promotion",
+            description:
+              "We believe in innovation by integrating primary with elaborate ideas.",
+          },
+          {
+            icon: <FaWater />,
+            title: "Maximum reachability in Minimum investment",
+            description:
+              "We are crafting a digital method that subsists life across all mediums.",
+          },
+          {
+            icon: <FaStar />,
+            title: "Find out new customers",
+            description:
+              "We believe in innovation by integrating primary with elaborate ideas.",
+          },
+          {
+            icon: <FaBullhorn />,
+            title: "Advertise the business, products, and services",
+            description:
+              "We are crafting a digital method that subsists life across all mediums.",
+          },
+          {
+            icon: <FaHandshake />,
+            title: "Brand Recognition and Trust",
+            description:
+              "We believe in innovation by integrating primary with elaborate ideas.",
+          },
+        ]}
+      />
+      <SmowhySib />
       <SIBPower
         title="We Are SMO  "
         subtitle="Experts in India "
         description="We are more than just a SMO Company"
         title_right={`Why Brands Choose a Social Media Optimization Company in India?`}
         description_right="At SIB Infotech, we don’t just build social media profiles, we craft powerful digital experiences that drive brand engagement and customer loyalty. Our focus is on increasing your online presence, boosting audience interactions, and maximizing your brand’s impact across all major platforms. Whether it's Facebook, Instagram, LinkedIn, or Twitter, we bring industry-specific expertise to every campaign, understand your business objectives, address challenges, and design customized SMO strategies that deliver measurable growth and long-term success."
-
         // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
       />
-      
-      <Smoservices/>
-      <SmowebServices/>
+
+      <Smoservices />
+      <SmowebServices />
       <Solution
         heading={"Why SIB Infotech As Your Social Media Marketing Agency?  "}
         // subHeading={"With Our Cutting-Edge SEO Services in India"}
@@ -252,10 +308,9 @@ export default function SocialMediaOptimizationServices() {
         }
         data={smoServices}
       />
-      <SmoPracticeStrategy/>
-      <SmoFaq/>
+      <SmoPracticeStrategy />
+      <SmoFaq />
     </CustomLayout>
-   
   );
 }
 
@@ -406,4 +461,5 @@ export default function SocialMediaOptimizationServices() {
         </div>
       </div>
     </div>
-  </section> */}
+  </section> */
+}
