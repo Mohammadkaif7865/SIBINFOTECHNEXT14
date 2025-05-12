@@ -28,7 +28,7 @@ const Cta2 = () => {
               </div>
               <p className="mt-3 fw-bold small_heading">More Clicks</p>
               <p className="small mt-3">
-                Targeted traffic that converts <br /> or Maximize your online
+                Targeted traffic that converts <br />  Maximize your online
                 visibility
               </p>
             </div>
@@ -39,7 +39,7 @@ const Cta2 = () => {
               </div>
               <p className="mt-3 small_heading fw-bold">More Phone Calls</p>
               <p className="small mt-3">
-                Boost inquiries & leads <br /> or We get your phone ringing
+                Boost inquiries & leads <br /> We get your phone ringing
               </p>
             </div>
 
@@ -49,7 +49,7 @@ const Cta2 = () => {
               </div>
               <p className="mt-3 fw-bold small_heading">More Store Traffic</p>
               <p className="small mt-3">
-                Turn browsers into buyers <br /> or Bring more customers through
+                Turn browsers into buyers <br /> Bring more customers through
                 your doors
               </p>
             </div>
