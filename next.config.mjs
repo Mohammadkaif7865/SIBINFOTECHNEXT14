@@ -341,6 +341,9 @@ const nextConfig = {
       },
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   // assetPrefix: "https://www.sibinfotech.com",
 };

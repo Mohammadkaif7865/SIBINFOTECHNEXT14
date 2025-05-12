@@ -40,7 +40,7 @@ export default function BannerForm() {
     formData.append("details", inputs.details);
     formData.append("service", inputs.service);
     formData.append("website", inputs.website);
-    formData.append("page_url", window.location.pathname);
+    formData.append("pageUrl", window.location.pathname);
     const res = await axios
       .post(`${CONSTANTS.API_URL}home/submit_banner_enquiry`, formData, {
         headers: headers,
