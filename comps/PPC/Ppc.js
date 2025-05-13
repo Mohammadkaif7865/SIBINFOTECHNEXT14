@@ -91,7 +91,7 @@ const Ppc = () => {
         highlightedText=" Pay-Per-Click (PPC)"
         description="Pay-Per-Click (PPC) is an online advertising model where an advertiser runs an ad and he will get charged a fee each time a user clicks on their ad. Essentially, it’s a way of buying targeted website traffic rather than earning it organically. PPC allows businesses to display their ads on search engines, social media platforms, and other websites"
         subDescription="The most popular form of PPC is search engine advertising, where advertisers bid for ad placement in a search engine’s sponsored links when users search for keywords related to their business. When managed properly, PPC can be a highly cost-effective way to generate leads, increase website traffic, and drive sales."
-        imageSrc="/assets/images/whysmo.png"
+        imageSrc="/assets/images/ppc.png"
         imageAlt="Team Working"
         features={[
     {
