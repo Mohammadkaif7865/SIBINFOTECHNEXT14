@@ -46,7 +46,7 @@ const WhySIB = ({ keyAdvantages, leftBoxContent, rightBoxContent }) => {
                   <div className="col-lg-6 mb-3 position-relative" key={index}>
                     <div className="item_why_sib hover h-100">
                       <div className="item_why_title align-items-center">
-                        <p className="small_heading fontHeading2 fontWeight600">
+                        <p className="small_heading flex-1 fontHeading2 fontWeight600">
                           {value.title}
                         </p>
                         <p className="fontHeading2  numberBorder heading fontWeight600">

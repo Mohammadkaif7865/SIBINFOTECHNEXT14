@@ -7,10 +7,12 @@ export default function SmoSection({
   subDescription,
   imageSrc,
   imageAlt,
+  textWhite,
+  bgBlack,
   features = [],
 }) {
   return (
-    <section className="py-5 bg-light">
+    <section className={`py-5 ${bgBlack ? "bg-black" : "bg-light"}`}>
       <div className="container">
         <div className="row align-items-center">
           {/* Image Column */}
@@ -31,15 +33,15 @@ export default function SmoSection({
 
           {/* Text Column */}
           <div className="col-md-6">
-            <h2 className="mb-3">
+            <h2 className={`mb-3 ${textWhite ? "text-white" : ""}`}>
               {title} <strong className="text_red">{highlightedText}</strong>?
             </h2>
             <p
-              className="mb-4"
+              className={`mb-4 ${textWhite ? "text-white" : ""}`}
               dangerouslySetInnerHTML={{ __html: description }}
             ></p>
             <p
-              className="mb-4"
+              className={`mb-3 ${textWhite ? "text-white" : ""}`}
               dangerouslySetInnerHTML={{ __html: subDescription }}
             ></p>
           </div>
@@ -52,8 +54,12 @@ export default function SmoSection({
                   <div className="d-flex align-items-start feature-icon">
                     <div className="icon-box me-3">{feature.icon}</div>
                     <div>
-                      <h5>{feature.title}</h5>
-                      <p className="small">{feature.description}</p>
+                      <h5 className={`mb-3 ${textWhite ? "text-white" : ""}`}>
+                        {feature.title}
+                      </h5>
+                      <p className={`small ${textWhite ? "text-white" : ""}`}>
+                        {feature.description}
+                      </p>
                     </div>
                   </div>
                 </div>

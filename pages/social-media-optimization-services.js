@@ -246,7 +246,7 @@ export default function SocialMediaOptimizationServices() {
         highlightedText="Social Media Optimization (SMO)"
         description="Social Media Optimization </strong>is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively."
         subDescription="Social Media Optimization involves the use of <strong>social media networks</strong> to manage and grow an organization’s message and online presence. As a vital part of digital marketing, SMO goes beyond posting content. It includes strategically creating, curating, and promoting your brand's message on social platforms to drive engagement, increase followers, and convert social interactions into measurable business outcomes."
-        imageSrc="/assets/images/cta2/WhatisSmo.png"
+        imageSrc="/assets/images/whysmo.png"
         imageAlt="Team Working"
         features={[
           {

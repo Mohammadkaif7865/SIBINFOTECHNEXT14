@@ -12796,6 +12796,7 @@ p.regular_heading {
   font-size: 40px;
   -webkit-text-stroke: 2px #33333355;
   color: white;
+  width: 60px;
 }
 
 .workflow_item_container {

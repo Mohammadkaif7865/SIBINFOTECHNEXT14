@@ -19,37 +19,59 @@ import BrandBuild from "../Home/BrandBuild";
 import TalkWithExpert from "../SEO/TalkWithExpert";
 import Cta2 from "../WhiteLabel/Cta2";
 import SmoSection from "../SmoPage/WhatisSmo";
-import { FaBullhorn, FaChartLine, FaHandshake, FaStar, FaUsers, FaWater } from "react-icons/fa6";
+import {
+  FaSearchDollar,
+  FaMousePointer,
+  FaBullseye,
+  FaSlidersH,
+  FaChartBar,
+  FaRocket,
+} from "react-icons/fa";
+import Services from "./Services";
 
 const GoogleAdsMgt = () => {
   const keyAdvantages = [
     {
-      title: "Google Partner Agency",
-      description: "Certified team of Google Ads specialists.",
+      title: "Google Premier Partner Agency",
+      description: "Certified team of Google Ads specialists",
     },
     {
       title: "ROI-Driven Campaigns",
-      description: "Focused on maximizing your returns.",
+      description: "Focused on maximizing your returns",
+    },
+    {
+      title: "Millions of Ad Spend Managed Yearly",
+      description: "Large-scale ad budgets across industries", // Added for clarity
     },
     {
       title: "Transparent Pricing",
-      description: "Zero hidden fees.",
+      description: "Zero hidden fees",
     },
     {
       title: "Custom Strategies",
-      description: "Tailored for your business goals.",
+      description:
+        "Tailored for your business goals, Smart Bidding & AI-Powered Strategies",
     },
     {
-      title: "Full Campaign Ownership",
-      description: "You retain full rights and access.",
+      title: " 100% Transparency & Full Control",
+      description: "You see everything we do, and you’re always in control", // Added to reinforce transparency
     },
     {
       title: "Monthly Reporting & Optimization",
-      description: "Real data, real improvements.",
+      description:
+        "Real data, real improvements, Data-Driven Campaign Adjustments",
     },
     {
       title: "24/7 Support",
-      description: "Your campaigns never sleep, and neither do we.",
+      description: "Your campaigns never sleep, and neither do we",
+    },
+    {
+      title: "PROVEN EXPERTISED ",
+      description: "  16+ Years of PPC Experience", // Added to support expertise claim
+    },
+    {
+      title: "Our Exprties with",
+      description: " E-commerce, Lead Generation, and Branding", // Added to reflect breadth of service
     },
   ];
 
@@ -296,68 +318,77 @@ const GoogleAdsMgt = () => {
   return (
     <>
       <HeroGoogleAds />
-      <Abbout3 {...about3Data} /><SmoSection
-        title="Why Choose"
-        highlightedText=" Google Ads for Your Business"
-        description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
-        subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
-        imageSrc="/assets/images/cta2/WhatisSmo.png"
-        imageAlt="Team Working"
-       features={[
-  {
-    icon: <FaChartLine />,
-    title: "Brings traffic and establishes trust",
-    description: "Achieve immediate visibility on Google and build trust through consistent presence and interaction.",
-  },
-  {
-    icon: <FaUsers />,
-    title: "Brand development and promotion",
-    description: "Boost brand awareness and gain market share through targeted social strategies and content.",
-  },
-  {
-    icon: <FaWater />,
-    title: "Maximum reachability in Minimum investment",
-    description: "Pay only when someone engages — ensuring cost-effective visibility and engagement.",
-  },
-  {
-    icon: <FaStar />,
-    title: "Find out new customers",
-    description: "Target highly intentional audiences that are actively searching for your products or services.",
-  },
-  {
-    icon: <FaBullhorn />,
-    title: "Advertise the business, products, and services",
-    description: "Control your budget precisely while optimizing for performance and conversions.",
-  },
-  {
-    icon: <FaHandshake />,
-    title: "Brand Recognition and Trust",
-    description: "Get measurable results and track ROI while building lasting relationships with your audience.",
-  },
-]}
-      />
-      <SIBPower
+      <Abbout3 {...about3Data} />
+      <div className="bg-black">
+        <SmoSection
+          textWhite
+          bgBlack
+          title="Why Choose"
+          highlightedText=" Google Ads for Your Business"
+          description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
+          subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
+          imageSrc="/assets/images/ads.png"
+          imageAlt="Team Working"
+          features={[
+            {
+              icon: <FaSearchDollar />,
+              title: "Immediate Visibility on Google Search",
+              description:
+                "Appear at the top of search results instantly with paid ads.",
+            },
+            {
+              icon: <FaMousePointer />,
+              title: "Pay Only When Someone Clicks",
+              description:
+                "Your budget is spent only when users engage with your ad.",
+            },
+            {
+              icon: <FaBullseye />,
+              title: "Target Highly Intentional Audiences",
+              description:
+                "Reach users actively searching for your products or services.",
+            },
+            {
+              icon: <FaSlidersH />,
+              title: "Precise Budget Control and Optimization",
+              description:
+                "Set daily limits and adjust bids for optimal performance.",
+            },
+            {
+              icon: <FaChartBar />,
+              title: "Trackable, Measurable Results and ROI",
+              description:
+                "Monitor campaign success with detailed performance metrics.",
+            },
+            {
+              icon: <FaRocket />,
+              title: "Boost Brand Awareness and Market Share",
+              description:
+                "Expand your visibility and grow your competitive edge.",
+            },
+          ]}
+        />
+      </div>
+      {/* <SIBPower
         title="Google Ads "
         subtitle="Experts in India "
         description="We Are Not Just Another Google AdWords India Marketing Agency"
         title_right={`Why Choose Google Ads for Your Business? `}
         description_right="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results. "
         data={power_data}
-      />
+      /> */}
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
-      
-      <Solution
+      <Services />
+
+      {/* <Solution
         heading={"Our Google Ads Services Include:   "}
-        // subHeading={"With Our Cutting-Edge SEO Services in India"}
-        // discription={
-        //   "At SIB Infotech, we don’t just manage your social media—we elevate it. We’re not just a digital agency—we’re your growth partner. With years of experience in delivering high-impact digital solutions, our SMO experts bring creativity, strategy, and results-driven execution to every project. Here’s what sets us apart: "
-        // }
+        
         data={adsSrvices}
-      />
+      /> */}
       <Partnership
         batchtitle={"Our workflow"}
         agencyWorkflow={adsWorkflow}
