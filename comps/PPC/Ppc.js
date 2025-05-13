@@ -15,6 +15,11 @@ import PPcStrategy from "./PPcStrategy";
 import PPcServicess from "./PPcServicess";
 import WhatisPPc from "./WhatisPPc";
 import Solution from "@/comps/WhiteLabel/Solution";
+import WhatisSmo from "@/comps/SmoPage/WhatisSmo";
+import { FaBullhorn, FaChartLine, FaHandshake, FaStar, FaUsers, FaWater } from "react-icons/fa6";
+import Services from "./Services";
+import Cta2 from "../WhiteLabel/Cta2";
+
 
 const Ppc = () => {
   const PPcServices = [
@@ -44,8 +49,7 @@ const Ppc = () => {
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
   ];
-  
-  
+
   const power_data = [
     {
       title: "Certified Google Premier Partner",
@@ -82,8 +86,72 @@ const Ppc = () => {
   return (
     <>
       <Banner />
-      <WhatisPPc/>
+      <WhatisSmo
+        title="What is"
+        highlightedText=" Pay-Per-Click (PPC)"
+        description="Pay-Per-Click (PPC) is an online advertising model where an advertiser runs an ad and he will get charged a fee each time a user clicks on their ad. Essentially, it’s a way of buying targeted website traffic rather than earning it organically. PPC allows businesses to display their ads on search engines, social media platforms, and other websites"
+        subDescription="The most popular form of PPC is search engine advertising, where advertisers bid for ad placement in a search engine’s sponsored links when users search for keywords related to their business. When managed properly, PPC can be a highly cost-effective way to generate leads, increase website traffic, and drive sales."
+        imageSrc="/assets/images/whysmo.png"
+        imageAlt="Team Working"
+        features={[
+    {
+      icon: <FaChartLine />,
+      title: "Highly Targeted Audience Reach",
+      description:
+        "PPC allows precise targeting by demographics, location, device, time, and keywords to reach the right audience at the right time.",
+    },
+    {
+      icon: <FaUsers />,
+      title: "Higher Conversion Potential",
+      description:
+        "Because ads target users actively searching for your product or service, conversion rates are typically higher than other ad models.",
+    },
+    {
+      icon: <FaWater />,
+      title: "Full Budget Control",
+      description:
+        "You set your own budget and can adjust it anytime. PPC ensures you only pay when someone interacts with your ad.",
+    },
+    {
+      icon: <FaStar />,
+      title: "Measurable and Trackable Results",
+      description:
+        "With tools like Google Ads and Analytics, every click, impression, and conversion can be tracked and measured.",
+    },
+    {
+      icon: <FaBullhorn />,
+      title: "Real-Time Advertising",
+      description:
+        "Launch, pause, or modify your campaigns instantly and see performance updates in real time for quick adjustments.",
+    },
+    {
+      icon: <FaHandshake />,
+      title: "Brand Recognition and Trust",
+      description:
+        "Even if users don’t click, consistent ad visibility improves brand awareness and builds trust with potential customers.",
+    },
+  ]}
+/>
+      {/* <WhatisPPc/> */}
+      <Services />
+       {/* <Solution
+        heading={" Our PPC Management Services  "}
+        // subHeading={"We offer Best PPC Marketing Services in India"}
+        discription={
+          "Maximize your brand's visibility and ROI with our expert PPC solutions tailored for search engines, social platforms, and marketplaces. From keyword strategy to performance tracking, we deliver data-driven ad campaigns that convert — powered by white-label expertise trusted by agencies and global brands."
+        }
+        data={PPcServices}
+      /> */}
       <WhyPPC />
+         <Cta2
+        heading="Ready to Grow with PPC?  "
+        subheading="Whether you’re new to PPC or looking to scale your existing campaigns, our team of experts at SIB Infotech can help you get the most out of your ad spend. Contact us today for a free consultation and take the first step towards achieving your business goals with PPC advertising. "
+        tagline="Speak to Our Google PPC Experts Today 
+"
+        buttonText="Request a Free Consultation"
+        buttonLink="#contact"
+        imageSrc="/assets/images/success-arrow.svg"
+      />
       <PPCServices />
       <SIBPower
         title="Why Choose SIB Infotech?   "
@@ -97,21 +165,14 @@ const Ppc = () => {
       <PPcStrategy />
 
       <PPcWebervices />
-      <Solution
-        heading={" Our PPC Management Services  "}
-        // subHeading={"We offer Best PPC Marketing Services in India"}
-        discription={
-           "Maximize your brand's visibility and ROI with our expert PPC solutions tailored for search engines, social platforms, and marketplaces. From keyword strategy to performance tracking, we deliver data-driven ad campaigns that convert — powered by white-label expertise trusted by agencies and global brands."
-        }
-        data={PPcServices}
-      />
+     
       {/* <PPcServicess /> */}
 
       <PPCFaq />
-      <Introduction />
-      <PpcPlatform />
-      <PpcCampaign />
-      <BenefitsPPC />
+      {/* <Introduction /> */}
+      {/* <PpcPlatform /> */}
+      {/* <PpcCampaign /> */}
+      {/* <BenefitsPPC /> */}
     </>
   );
 };
