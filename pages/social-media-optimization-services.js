@@ -241,7 +241,7 @@ export default function SocialMediaOptimizationServices() {
         <Breadcrumb Pagetitle={" Social Media Optimization"} />
       </div>
       <SmoPage />
-      <WhatisSmo
+      <WhatisSmo bgBlack textWhite
         title="What is"
         highlightedText="Social Media Optimization (SMO)"
         description="Social Media Optimization </strong>is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively."
