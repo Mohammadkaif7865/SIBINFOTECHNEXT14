@@ -50,21 +50,27 @@ export default function WhatWeDo3() {
         <p class="mt-3 title fontWeight500 mb-3">Google Ads 
         </p>
         <p class="mt-2">
-        Target the right audience with precision and maximize your ROI.
-        </p>
-        <p class="mt-3 title fontWeight500 mb-3">
-        Meta & Instagram Ads 
-        
-        </p>
-        <p class="mt-2">
-        Engaging creatives that drive clicks, conversions, and brand awareness. </p>        
-  
-          <p class="mt-3 title fontWeight500 mb-3">LinkedIn Ads
-          </p>
+        Capture high-intent traffic with precision-targeted Google Ads campaigns. From search to display and video ads, we optimize every click to drive more conversions, leads, and sales for your business. 
 
-          <p  class="mt-2">Connect with key decision-makers and grow your B2B pipeline 
-          </p>
-         `,
+Target high-intent audiences with precision and maximize your ROI with our optimized Google Ads strategies. 
+        </p>
+         <p class="mt-3 title fontWeight500 mb-3">Meta & Instagram Ads 
+        </p>
+         <p class="mt-2">
+         Engage your audience where they spend the most time. Our Meta and Instagram advertising strategies combine creative storytelling with smart targeting to boost brand awareness, drive traffic, and generate quality leads. 
+
+Create engaging ad creatives that spark clicks, boost conversions, and build strong brand awareness across Meta and Instagram. 
+
+        </p>
+
+         <p class="mt-3 title fontWeight500 mb-3">Meta & Instagram Ads 
+         LinkedIn Ads 
+        </p>
+         <p class="mt-2">
+        Reach decision-makers and grow your brand with professional LinkedIn Ads. We craft tailored B2B campaigns that build trust, nurture relationships, and deliver high-value leads for businesses of all sizes. 
+  Reach decision-makers, build professional trust, and grow your B2B pipeline with highly targeted LinkedIn advertising campaigns. 
+        </p>
+      `,
       image: "/assets/images/drive-instant-growth.jpg",
     },
     {
@@ -76,22 +82,32 @@ export default function WhatWeDo3() {
       ],
       subTitle: "Designs That Convert. Experiences That Matter",
       description: `<p>
-        Create stunning digital assets that elevate your brand and drive user engagement across devices. 
+        Build digital experiences that not only look great but also perform. From websites to software, we craft stunning, mobile-first assets that boost engagement, enhance brand value, and drive measurable results. 
         
         </p>
         <p class="mt-3 title fontWeight500 mb-3">Website Design & Development </p>
         <P>
-        Fast, mobile-first websites designed to rank and convert. 
-        
-        </P>
-        <p class="mt-3 title fontWeight500 mb-3">Graphic Design </p>
+       
+        Fast, responsive, SEO-optimized websites built to engage users and convert traffic into leads. 
 
-        <p class="mt-2">
-         Creative visuals that leave a lasting impression. 
         </P>
-        <p class="mt-3 title fontWeight500 mb-3">Software Development </p>
-        <p class="mt-2"> 
-       Custom solutions tailored to streamline your business operations. </p>
+        <p class="mt-3 title fontWeight500 mb-3">Graphic Design  </p>
+        <P> 
+Eye-catching, on-brand visuals that capture attention and leave a lasting impression across digital and print platforms. 
+        </P>
+        <p class="mt-3 title fontWeight500 mb-3">Software Development  </p>
+        <P> 
+Custom-built software solutions designed to automate workflows, improve efficiency, and support business growth.  
+        </P>
+      
+
+
+
+
+
+
+
+
         `,
       image: "/assets/images/digital-domainiation.png",
     },
@@ -104,26 +120,19 @@ export default function WhatWeDo3() {
       ],
       subTitle: "Human-Centered Marketing That Builds Lasting Connections ",
       description: `
-             <p class="mt-2">Establish authority, boost engagement, and grow loyal communities around your brand. </p> 
+             <p class="mt-2">Earn trust, spark conversations, and grow loyal communities with strategies that put people first. We help your brand connect authentically and drive long-term engagement.  </p> 
 
         <p class="mt-3 title fontWeight500 mb-3">Social Media Marketing </p>
 
-             <p class="mt-2">Authentic storytelling and strategy for consistent brand presence. </p>
-        <p class="mt-3 title fontWeight500 mb-3">
-      Content Marketing 
-      </p>
-             <p class="mt-2">
+             <p class="mt-2">Build a consistent brand presence with authentic storytelling, strategic content, and platform-specific campaigns. </p>
+        <p class="mt-3 title fontWeight500 mb-3">Content Marketing  </p>
 
-      SEO-rich content that educates, engages, and converts. 
-      </p>
-        <p class="mt-3 title fontWeight500 mb-3">
-      Influencer Marketing 
-      </p>
-             <p class="mt-2">
-      Leverage trusted voices to expand reach and build brand trust. 
-      </p>
+             <p class="mt-2">Create SEO-optimized content that informs, engages, and converts — turning visitors into loyal customers. </p>
+        <p class="mt-3 title fontWeight500 mb-3">Influencer Marketing   </p>
 
-       
+             <p class="mt-2">Partner with credible voices to expand reach, build trust, and create meaningful brand impact. </p>
+
+ 
        `,
       image: "/assets/images/trusted.jpeg",
     },
@@ -190,7 +199,7 @@ export default function WhatWeDo3() {
                       }}
                     ></div>
 
-                    <div className="text-center mt-lg-5 mt-4">
+                    {/* <div className="text-center mt-lg-5 mt-4">
                       <div className="imgBox">
                         <Image
                           src={contentData[activeIndex].image}
@@ -200,7 +209,7 @@ export default function WhatWeDo3() {
                           alt="content image"
                         />
                       </div>
-                    </div>
+                    </div> */}
                   </>
                 )}
               </div>
