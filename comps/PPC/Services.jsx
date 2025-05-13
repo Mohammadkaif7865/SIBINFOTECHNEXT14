@@ -160,7 +160,7 @@ const Services = () => {
                           ></p>
                         ))}
                         <div className="row">
-                          <div className="col-lg-6">
+                          <div className="col-lg-12">
                             <ul className="listItems">
                               {points.map((point, i) => (
                                 <li key={i}>{point}</li>

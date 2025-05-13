@@ -432,15 +432,15 @@ const GoogleAdsMgt = () => {
         isPBeforeH3={false}
       />
 
-      <AdCampaigns />
-      <Contact
+      {/* <AdCampaigns /> */}
+      {/* <Contact
         heading="FREE Consultation to get it started."
         subheading="Our team of Google Ads specialists and PPC experts are ready
         to provide you with a"
         buttonText="Speak to our Consultant"
         buttonLink="/contact-us"
         isPBeforeH3={true}
-      />
+      /> */}
 
       <EffectiveAds />
 
