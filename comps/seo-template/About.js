@@ -35,7 +35,7 @@ const About = () => {
             </p>
             <div className="mt-3">
               <Link className="btnHomeBanner about3" href={"/contact"}>
-                Know More{" "}
+              Improve your SEO Ranking{" "}
                 <span class="bg-black">
                   <i class="fa fa-arrow-right"></i>
                 </span>

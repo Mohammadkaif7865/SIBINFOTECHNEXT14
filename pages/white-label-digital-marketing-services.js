@@ -224,7 +224,14 @@ export default function TwoDAnimationServicesMumbaiIndia() {
         data={whiteLabelServices}
       />
       <WhyChoose />
-      <Cta2 />
+      <Cta2
+        heading="Delegate the workload, <br /> elevate your success!"
+        subheading="Helping you deliver top-notch service and manage your clients better!"
+        tagline="Your Brand Name, Our Services"
+        buttonText="Schedule a Free Consultation"
+        buttonLink="#contact"
+        imageSrc="/assets/images/success-arrow.svg"
+      />
       <Partnership
         agencyWorkflow={agencyWorkflow}
         title={"Our Approach To"}

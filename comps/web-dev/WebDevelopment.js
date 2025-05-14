@@ -26,10 +26,10 @@ const WebDevelopment = () => {
       ` Our top web development services in Mumbai, India aim to meet all your digital requirements and provide better outreach to your website through digital marketing services.`,
     ],
     image1: {
-      src: "/assets/images/aboout-3.png",
+      src: "/assets/images/web-dev/web-dev-about-2.jpg",
     },
     image2: {
-      src: "/assets/images/about-3-2.png",
+      src: "/assets/images/web-dev/web-dev-about.jpg",
     },
     buttonText: "Let's Grow Your Business?",
     buttonLink: "/contact",
@@ -258,38 +258,33 @@ const WebDevelopment = () => {
       title: "KPI Led Design",
       description:
         "Delivering measurable business results with our chosen indicators, strategy, and design.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/web-dev/kpi.png",
     },
     {
       title: "Version Zero",
       description:
         "Building high-fidelity prototypes to communicate or validate concepts by testing for feedback.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/web-dev/Version-zero.jpg",
     },
     {
       title: "Agile Development",
       description:
         "Intersecting Agile/scrum methodology with design thinking for remarkable UX development.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/web-dev/agile-development.jpg",
     },
     {
       title: "Digital Transformation",
       description:
         "Comprehending the breadth and depth of your business with meaningful +engaging transformation.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/web-dev/digital-transformation.jpg",
     },
     {
       title: "Strategic UX",
       description:
         "Uniting strategy + creativity + tools to weave strategic user experiences and interfaces.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/web-dev/strategic-ux.jpg",
     },
-    {
-      title: "KPI Led Design",
-      description:
-        "Delivering measurable business results with our chosen indicators, strategy, and design.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
-    },
+    
   ];
 
   const faqsData = [

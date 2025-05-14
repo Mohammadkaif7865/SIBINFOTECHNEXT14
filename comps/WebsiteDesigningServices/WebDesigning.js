@@ -599,7 +599,7 @@ const WebDesigning = () => {
       title: `Website Redesign & <br class="d-none d-md-lg"/> Revamp Services`,
       description:
         "Revamp your outdated website with a fresh, modern look and improved performance.",
-      img: "/assets/images/webdesign-replaceimg/Business-Website-Design 1.jpg"
+      img: "/assets/images/webdesign-replaceimg/Website-Redesign-&-Revamp-Services.jpg"
     },
     {
       title: `UI/UX Design & <br class="d-none d-md-lg"/> Prototyping`,

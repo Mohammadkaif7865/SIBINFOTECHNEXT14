@@ -144,7 +144,7 @@ section {
   font-size: 39px;
 }
 .large_heading2 {
-  font-size: 55px;
+  font-size: 47px;
 }
 .large_heading3 {
   font-size: 90px;
@@ -12796,6 +12796,7 @@ p.regular_heading {
   font-size: 40px;
   -webkit-text-stroke: 2px #33333355;
   color: white;
+  width: 60px;
 }
 
 .workflow_item_container {

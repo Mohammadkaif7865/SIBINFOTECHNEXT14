@@ -5,7 +5,7 @@ import Breadcrumb from "../BreadCrumb";
 
 const Banner = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="innerWebDesign">
         <div className="container-fluid">
           <div className="row">
@@ -49,9 +49,8 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="d-lg-none">
-              <Breadcrumb Pagetitle={"PPC Management Company"} />
-            </div>
+              
+          
             <div className="col-lg-5 d-none d-lg-block pe-lg-5">
               <div className="bannerForm">
                 <h4 className="small_heading  fontWeight700 fontHeading">
@@ -70,6 +69,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <div className="d-lg-none">
+              <Breadcrumb Pagetitle={"PPC Management Company"} />
+            </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
           <h4 className="small_heading  fontWeight700 fontHeading">

@@ -10,92 +10,155 @@ import AdCampaigns from "./AdCampaigns";
 import EffectiveAds from "./EffectiveAds";
 import HighlyEfficient from "./HighlyEfficient";
 import Abbout3 from "../Home/Abbout3";
-import Partnership from "@/comps//WhiteLabel/Partnership";
-import SidebarTabs from "@/comps/SidebarTabs";
+
+import Solution from "@/comps/WhiteLabel/Solution";
+import WhySIB from "../Home/WhySIB";
+import SIBPower from "../Home/SIBPower";
+import Partnership from "../WhiteLabel/Partnership";
+import BrandBuild from "../Home/BrandBuild";
+import TalkWithExpert from "../SEO/TalkWithExpert";
+import Cta2 from "../WhiteLabel/Cta2";
+import SmoSection from "../SmoPage/WhatisSmo";
+import {
+  FaSearchDollar,
+  FaMousePointer,
+  FaBullseye,
+  FaSlidersH,
+  FaChartBar,
+  FaRocket,
+} from "react-icons/fa";
+import Services from "./Services";
 
 const GoogleAdsMgt = () => {
-  const heading = "Our Google Ads Management Services ";
-  const subheading = "We offer Best Google Ads Management  Services in India";
-  // const description =
-  //   "Get the most out of your budget with our expert-managed PPC campaigns across multiple platforms.";
-  const tabs = [
+  const keyAdvantages = [
     {
-      title: "Google Ads Management",
-      content: `
-        <p><strong>Search Ads</strong></p>
-        <p>The Search Network campaign is the only platform that allows your business to display text ads on the SERPs (Search Engine Result Pages). The campaign is supplemented with extensive features that include app installs, mobile app engagement, dynamic search ads, call-only or callout, and snippets. SN is a boundless place for a new Google Ads user to advertise for wide-ranging businesses along with the local business. Search Network campaigns are beneficial when:</p>
-        <ul>
-          <li>High-intent keyword targeting for maximum visibility.</li>
-          <li>Ad copywriting and split testing for improved CTR.</li>
-          <li>Immediate traffic and leads.</li>
-        </ul>
-  
-        <p><strong>Display Ads</strong></p>
-        <p>The image ads are displayed on the Google Display Network (GDN), which consists of millions of websites to show your ads. The GDN campaigns demand to setup marketing objectives that can be based on impressions, visits, engagement, and actions. The objectives you select are the basis for building your ad campaign and its success. You can use the GDN campaign:</p>
-        <ul>
-          <li>Visually appealing banner ads to reach a broader audience.</li>
-          <li>Strategic placements on high-traffic websites.</li>
-          <li>Broader audience coverage to appear on various websites and apps.</li>
-        </ul>
-  
-        <p><strong>Shopping Ads (Google Shopping)</strong></p>
-        <p>The first step for a Google shopping campaign is to set up Google Merchant Centre. This ad campaign is useful to showcase your products from your e-commerce store in Google Shopping. The success of the campaign depends on how you set up your e-commerce store or website, if the setup is correct and Google receives correct feeds, it does all the targeting and ad creation jobs on its own. The Google Shopping Ads campaign could only be used if you have an e-commerce store. It is used for:</p>
-        <ul>
-          <li>Optimized product listings for eCommerce businesses.</li>
-          <li>Increased visibility on Google Shopping results.</li>
-          <li>Reach ready to buy shoppers for higher conversions.</li>
-        </ul>
-  
-        <p><strong>YouTube Advertising</strong></p>
-        <p>There are several ad formats available for video ad campaigns on Google Ads. The options range from letting the viewer skip your ad after five seconds to a six seconds buffer ad between videos. The campaign has several features that allow you to extend your ads with shopping campaigns along with app installs. It is effective for:</p>
-        <ul>
-          <li>Engaging video ads to target the right audience.</li>
-          <li>Skippable and non-skippable ads to boost brand reach.</li>
-          <li>Re-engage audience who have previously interacted with the brand.</li>
-        </ul>
-  
-        <p><strong>Remarketing & Retargeting</strong></p>
-        <p>The Google remarketing ads are considered to be a powerful tool for businesses as it is useful in targeting the people who have already visited your store or used your application. The campaign demands careful set-up as it leads to the generation of your remarketing tags and lists. The campaign is effective for:</p>
-        <ul>
-          <li>Re-engage visitors and convert lost leads into customers.</li>
-          <li>Personalized ad strategies for higher retention.</li>
-          <li>Keeps the brands visible across websites and social media.</li>
-        </ul>
-  
-        <p><strong>Performance Max Campaigns</strong></p>
-        <p>Performance Max campaign ensures that your ads reach the right audience at the right time. It is a goal-oriented campaign, ideal for driving sales and increasing brand visibility. It delivers higher ROI and better results effortlessly. It is used for:</p>
-        <ul>
-          <li>AI-driven campaigns for multi-channel ad placements.</li>
-          <li>Optimized bidding strategies to enhance conversions.</li>
-          <li>Asset-based approach that creates high-performing ads.</li>
-        </ul>
-      `,
+      title: "Google Premier Partner Agency",
+      description: "Certified team of Google Ads specialists",
     },
-   
+    {
+      title: "ROI-Driven Campaigns",
+      description: "Focused on maximizing your returns",
+    },
+    {
+      title: "Millions of Ad Spend Managed Yearly",
+      description: "Large-scale ad budgets across industries", // Added for clarity
+    },
+    {
+      title: "Transparent Pricing",
+      description: "Zero hidden fees",
+    },
+    {
+      title: "Custom Strategies",
+      description:
+        "Tailored for your business goals, Smart Bidding & AI-Powered Strategies",
+    },
+    {
+      title: " 100% Transparency & Full Control",
+      description: "You see everything we do, and you’re always in control", // Added to reinforce transparency
+    },
+    {
+      title: "Monthly Reporting & Optimization",
+      description:
+        "Real data, real improvements, Data-Driven Campaign Adjustments",
+    },
+    {
+      title: "24/7 Support",
+      description: "Your campaigns never sleep, and neither do we",
+    },
+    {
+      title: "PROVEN EXPERTISED ",
+      description: "  16+ Years of PPC Experience", // Added to support expertise claim
+    },
+    {
+      title: "Our Exprties with",
+      description: " E-commerce, Lead Generation, and Branding", // Added to reflect breadth of service
+    },
   ];
-  
+
+  const rightBoxContent = {
+    heading:
+      "Why Choose SIB Infotech for Your Google Ads Campaign Management?  ",
+    // description:
+    //   "PPC (Pay-Per-Click) advertising is one of the fastest and most effective ways to drive targeted traffic, generate leads, and grow your business online. It allows you to reach the right audience at the right moment — when they are actively searching for your products or services. Here's why businesses choose PPC: ",
+  };
+
+  const leftBoxContent = {
+    headingStart: "Our  ",
+    headingHighlight: "Google Ads Compaign Management",
+    subHeading: "Measurable Growth, Proven Results",
+    cardTitle: "First Click to Final Conversion",
+    cardDescription:
+      "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
+    buttonText: "Get a Free Analysis",
+  };
+  const adsSrvices = [
+    {
+      title: `Search Ads <br class="d-none d-md-lg "/> (Google Search Network)`,
+      description:
+        "Appear at the top of Google Search Results when customers are actively looking for your products or services. Ideal for lead generation, local services, and B2B marketing.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Display Ads <br class="d-none d-md-lg "/> (Google Display Network)`,
+      description:
+        "Build brand awareness and retarget your visitors with visually engaging banner ads across millions of partner websites and apps.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Shopping Ads <br class="d-none d-md-lg "/> (for E-commerce)`,
+      description:
+        "Showcase your products directly in Google Shopping with images, prices, and product details — perfect for eCommerce stores looking to increase sales.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Video Ads <br class="d-none d-md-lg "/> (YouTube Advertising)`,
+      description:
+        "Deliver powerful, engaging video ads on YouTube and the Google Video Network to build brand trust and drive conversions.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `App Promotion <br class="d-none d-md-lg "/> Campaigns`,
+      description:
+        "Promote your mobile app across Google Search, Display, Play Store, and YouTube with Universal App Campaigns — maximize installs and in-app engagement.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Performance Max <br class="d-none d-md-lg "/> Campaigns`,
+      description:
+        "Harness the power of Google's AI to optimize ads across all channels (Search, Display, Shopping, YouTube, Discover) with Performance Max — the newest campaign type that drives maximum performance from a single campaign.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+    {
+      title: `Remarketing / <br class="d-none d-md-lg "/> Retargeting Campaigns`,
+      description:
+        "Reconnect with visitors who showed interest in your brand but didn't convert. Keep your business top-of-mind and bring customers back to complete their journey.",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+    },
+  ];
 
   const about3Data = {
     sectionId: "about",
-    mainHeading: "Google Ads Management Services | SIB Infotech",
+    // mainHeading: "Google Ads Management Services | SIB Infotech",
     subHeading: `Maximize Your ROI with Expert <span class="text_red">Google Ads Management</span>`,
 
     contentParagraphs: [
-      `Are You Struggling to Generate More Leads? Google Ads Can Change the Game!
-  
-  Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!
-  
-  Running a successful Google Ads campaign isn’t just about creating an ad—it involves strategic planning, precise execution, and continuous optimization. And that’s where SIB Infotech, a leading Google Ads Management Company from India, comes into play.
-  
-  We don't just run ads—we maximize your ROI with data-driven strategies, advanced targeting, and ongoing performance optimization. Whether it's Google Search Ads, Display Ads, Shopping Ads, or Remarketing, our expert team ensures every click delivers real value for your business.`,
+      `With over 20+ years of experience and millions in ad spend managed annually, SIB Infotech is recognized as a Top-Rated Google Ads Management Company. In today’s competitive digital world, showing up when your customers are searching for your services is critical. At SIB Infotech, we specialize in Google Ads management services that drive measurable results — from increasing website traffic to boosting leads, sales, and ROI.`,
 
-      `As certified Google Ads professionals, we develop powerful strategies that drive real results, increasing conversion rates while reducing ad costs to ensure the highest ROI for our clients.`,
+      `We help businesses like yours leverage the power of Google Ads to achieve faster growth, better leads, and greater online visibility — with strategies that are smart, cost-effective, and ROI-driven. Whether you’re a startup, SME, or large enterprise, our certified Google Ads experts craft data-driven, high-converting campaigns tailored to your business goals.`,
+
+      // `Are You Struggling to Generate More Leads? Google Ads Can Change the Game!
+
+      // Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!
+
+      // `,
+
+      // `As certified Google Ads professionals, we develop powerful strategies that drive real results, increasing conversion rates while reducing ad costs to ensure the highest ROI for our clients.`,
     ],
     image1: {
-      src: "/assets/images/aboout-3.png",
+      src: "/assets/images/instagram-ads-business-objective.svg",
     },
     image2: {
-      src: "/assets/images/about-3-2.png",
+      src: "/assets/images/calculator-development-firm.svg",
     },
     buttonText: "Let's Grow Your Business?",
     buttonLink: "/contact",
@@ -104,81 +167,260 @@ const GoogleAdsMgt = () => {
     phoneHelpText: "Need Help",
     callIcon: "/assets/images/icons/call-icon.svg",
   };
-  const agencyWorkflow = [
+
+  const power_data = [
     {
-      title: "Initial Assessment & Audit ",
-      description: `
-        <ul class="ourapproach_ul">
-          <li>Platform Selection </li>
-          <li>Identify Opportunities </li>
-          <li>Social Audit + Recommendations </li>
-          <li>Competitor analysis  </li>
-          
-        </ul>
-      `,
+      title: "Immediate Visibility on Google Search",
+      description: "",
     },
     {
-      title: "Strategy Development ",
-      description: `
-        <ul class="ourapproach_ul">
-          <li>Social Profile Account Setup </li>
-          <li>Content Calendar Creation </li>
-          <li>Hashtags Management </li>
-          <li>Target Audience Analysis </li>
-         
-          
-        </ul>
-      `,
+      title: "Pay Only When Someone Clicks",
+      description: "",
     },
     {
-      title: "Engagement & Growth ",
-      description: `
-        <ul class="ourapproach_ul">
-          <li>Design Appeal Visuals  </li>
-          <li>Social Post Scheduling  </li>
-          <li>Boosting / Group sharing   </li>
-          <li>Follower Engagement </li>
-        </ul>
-      `,
+      title: "Target Highly Intentional Audiences",
+      description: "",
     },
     {
-      title: "Monitoring & Reporting ",
-      description: `
-        <ul class="ourapproach_ul">
-          <li>Account Monitoring </li>
-          <li>Likes, Comments / Engagement Monitoring </li>
-          <li>Enhances Consistency </li>
-          <li>Feedback and Adaptation </li>
-        </ul>
-      `,
+      title: "Precise Budget Control and Optimization",
+      description: "",
+    },
+    {
+      title: "Trackable, Measurable Results and ROI",
+      description: "",
+    },
+    {
+      title: "Boost Brand Awareness and Market Share",
+      description: "",
     },
   ];
+
+  const adsWorkflow = [
+    {
+      title: "Understanding <br/> Business Goals",
+      description: `
+      <ul class="ourapproach_ul">
+        <li>Establish targets</li>
+        <li>Analyse target market</li>
+        <li>Set KPI’s</li>
+      </ul>
+    `,
+    },
+    {
+      title: "Comprehensive <br/> Keyword Research",
+      description: `
+      <ul class="ourapproach_ul">
+        <li>Identify high intent keywords</li>
+        <li>Categorize the users</li>
+        <li>Boost targeting accuracy</li>
+      </ul>
+    `,
+    },
+    {
+      title: "Campaign Setup <br/> & Ad Creation",
+      description: `
+      <ul class="ourapproach_ul">
+        <li>Choose the right campaign type</li>
+        <li>Enhance ad content</li>
+        <li>Implement smart bidding techniques</li>
+      </ul>
+    `,
+    },
+    {
+      title: "Transparent <br/> Reporting & Insights",
+      description: `
+      <ul class="ourapproach_ul">
+        <li>Evaluate monthly progress</li>
+        <li>Provide strategic guidance</li>
+        <li>Execute data-driven strategies</li>
+      </ul>
+    `,
+    },
+  ];
+  const brandContent = [
+    {
+      title: `Our <span> Google Ads Management </span> Packages
+`,
+      subtitle: `What’s Included in Our Google Ads Management Package?`,
+      description: `
+        A successful SEO strategy is a mixed stew of on-page, off-page, and technical SEO techniques. Use the following stepwise approach to boost your search ranking: 
+      `,
+      faqData: [
+        {
+          question: "1. Campaign Strategy & Planning",
+          answer: `<p>
+        We design a custom Google Ads strategy based on your business objectives, audience, and competition to maximize your returns. </p>  
+
+        <h5 class="mt-3">
+        Competitor Analysis 
+        
+        </h5>
+      <ul class="mt-3">
+        <li><strong>Keyword Research & Targeting :</strong>Extensive keyword research ensures your ads are triggered by the right search queries to attract high-quality leads. </li>
+       
+      </ul>
+    `,
+        },
+
+        {
+          question: "4. Campaign Setup",
+          answer: `
+      <p>
+       We create and structure your campaigns — Search Ads, Display Ads, Shopping Ads, Video Ads, or App Ads — for maximum efficiency and performance
+      </p>
+    `,
+        },
+        {
+          question: "5. Compelling Ad Copywriting",
+          answer: `
+      <p>Our creative team writes persuasive ad copies that drive clicks and conversions while meeting Google's best practices. </p>
+    `,
+        },
+        {
+          question: "6. Landing Page Optimization Recommendations",
+          answer: `
+      <p>We optimize your landing pages for better user experience, relevance, and conversion rates, ensuring you get the best value from every click. </p>
+    `,
+        },
+        {
+          question: "7. Continuous Campaign Optimization",
+          answer: `
+      <ul>
+        <li><strong>A/B Testing:</strong> Continuous A/B testing of ads, creatives, and landing pages to identify winning combinations and improve performance. .</li>
+        <li><strong>Bid Management:</strong> We use smart bidding strategies to ensure you get the most clicks and conversions for the lowest possible cost per click (CPC). </li>
+      </ul>
+    `,
+        },
+        {
+          question: "8. Conversion Tracking & Analytics",
+          answer: `
+      <p>
+       Setting up and monitoring goal tracking to measure form fills, calls, purchases, and other KPIs that matter most to your business. 
+      </p>
+    `,
+        },
+        {
+          question: "9. Detailed Reporting & Insights",
+          answer: `
+      <p>We provide transparent monthly reports showing campaign performance, cost analysis, conversion data, and actionable insights.</p>
+    `,
+        },
+        {
+          question: "10. Dedicated Account Manager",
+          answer: `
+      <p>You’ll have a dedicated account manager providing personalized service, support, and ongoing strategy alignment.</p>
+    `,
+        },
+      ],
+    },
+  ];
+
   return (
     <>
       <HeroGoogleAds />
       <Abbout3 {...about3Data} />
+      <div className="bg-black">
+        <SmoSection
+          textWhite
+          bgBlack
+          title="Why Choose"
+          highlightedText=" Google Ads for Your Business"
+          description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
+          subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
+          imageSrc="/assets/images/ads.png"
+          imageAlt="Team Working"
+          features={[
+            {
+              icon: <FaSearchDollar />,
+              title: "Immediate Visibility on Google Search",
+              description:
+                "Appear at the top of search results instantly with paid ads.",
+            },
+            {
+              icon: <FaMousePointer />,
+              title: "Pay Only When Someone Clicks",
+              description:
+                "Your budget is spent only when users engage with your ad.",
+            },
+            {
+              icon: <FaBullseye />,
+              title: "Target Highly Intentional Audiences",
+              description:
+                "Reach users actively searching for your products or services.",
+            },
+            {
+              icon: <FaSlidersH />,
+              title: "Precise Budget Control and Optimization",
+              description:
+                "Set daily limits and adjust bids for optimal performance.",
+            },
+            {
+              icon: <FaChartBar />,
+              title: "Trackable, Measurable Results and ROI",
+              description:
+                "Monitor campaign success with detailed performance metrics.",
+            },
+            {
+              icon: <FaRocket />,
+              title: "Boost Brand Awareness and Market Share",
+              description:
+                "Expand your visibility and grow your competitive edge.",
+            },
+          ]}
+        />
+      </div>
+      {/* <SIBPower
+        title="Google Ads "
+        subtitle="Experts in India "
+        description="We Are Not Just Another Google AdWords India Marketing Agency"
+        title_right={`Why Choose Google Ads for Your Business? `}
+        description_right="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results. "
+        data={power_data}
+      /> */}
+      <WhySIB
+        keyAdvantages={keyAdvantages}
+        leftBoxContent={leftBoxContent}
+        rightBoxContent={rightBoxContent}
+      />
+      <Services />
+
+      {/* <Solution
+        heading={"Our Google Ads Services Include:   "}
+        
+        data={adsSrvices}
+      /> */}
       <Partnership
-        batchtitle="Our Approach"
-        agencyWorkflow={agencyWorkflow}
-        title="Complete SMO Process"
-        subtitle="Explained Step-by-Step to Rank you on Top"
-        rightTitle="How Does SMO Work?"
-        rightDiscription=" Social Media Optimization (SMO) works by using social media platforms to increase awareness of a brand, product, or service.
-It involves creating and sharing high-quality, engaging content—like posts, videos, infographics, and blogs—to encourage audience interaction and sharing.
-By optimizing profiles, using the right hashtags, participating in discussions, and running campaigns, businesses can build a strong online presence, drive traffic to their websites, and improve brand credibility.
-Ultimately, SMO helps in reaching a broader audience organically and builds a loyal community around the brand.
+        batchtitle={"Our workflow"}
+        agencyWorkflow={adsWorkflow}
+        title={"Our Proven Process "}
+        subtitle={" Step-by-Step to Rank you on Top"}
+        rightTitle={``}
+        rightDiscription={``}
+        // tagline={'Seamless, Scalable, and Results-Driven'}
+      />
+      <TalkWithExpert
+        heading="Are you ready to Expand Your Business online with our Google Ads Management Services?"
+        linkTitle="Speak with one of our Ads Experts in Mumbai today!"
+        linkDestination="/contact-us"
+      />
+      <BrandBuild
+        image={`/assets/images/phone-seo-local-squares.png`}
+        title={brandContent[0].title}
+        subtitle={brandContent[0].subtitle}
+        description={brandContent[0].description}
+        faqData={brandContent[0].faqData}
+      />
 
+      <Cta2
+        heading="Ready to Dominate Google? "
+        subheading="Whether you're an e-commerce brand, a startup, a B2B company, or a service provider — SIB Infotech will design a custom Google Ads strategy to maximize your ROI and boost your growth. "
+        tagline="Speak to Our Google Ads Experts Today 
 "
+        buttonText="Request a Free Consultation"
+        buttonLink="#contact"
+        imageSrc="/assets/images/success-arrow.svg"
       />
-      <SidebarTabs
-        heading={heading}
-        subheading={subheading}
-        // description={description}
-        tabs={tabs}
-      />
-
       <AdsCompany />
-
       <WhyChoose />
 
       <AdWords />
@@ -190,15 +432,15 @@ Ultimately, SMO helps in reaching a broader audience organically and builds a lo
         isPBeforeH3={false}
       />
 
-      <AdCampaigns />
-      <Contact
+      {/* <AdCampaigns /> */}
+      {/* <Contact
         heading="FREE Consultation to get it started."
         subheading="Our team of Google Ads specialists and PPC experts are ready
         to provide you with a"
         buttonText="Speak to our Consultant"
         buttonLink="/contact-us"
         isPBeforeH3={true}
-      />
+      /> */}
 
       <EffectiveAds />
 

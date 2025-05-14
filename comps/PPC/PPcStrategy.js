@@ -3,11 +3,10 @@ import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import BrandBuild from "../Home/BrandBuild";
 
-
 const PPCStrategy = () => {
   const brandContent = [
     {
-      title: "What is Pay-Per-Click (PPC)? ",
+      title: "Our Strategic Approach to PPC Advertising ",
       subtitle: " Key Factors for Running a Highly Successful PPC Campaign ",
       description: `    <strong> Pay-Per-Click (PPC)</strong> is an online advertising model where an advertiser 
 
@@ -19,7 +18,7 @@ runs an ad and he will get charged a fee each time a user clicks on their ad. Es
         {
           question: "Keyword Relevance",
           answer:
-            "Choosing the right keywords is critical. Your keywords must be highly relevant to your product, service, and target audience. Using specific, well-researched keywords ensures that your ads appear in front of the right people at the right time.",
+            "Choosing the right keywords is critical. Your keywords must be highly relevant to your product, service, and target audience. Using specific, well-researched keywords ensures that your ads appear in front of the right people at the right time. In order to run a successful PPC campaign, it's very important to use effective and relevant keywords.",
         },
         {
           question: "High-Quality Ad Copy and Creatives",

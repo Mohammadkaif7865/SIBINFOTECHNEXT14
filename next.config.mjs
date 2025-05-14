@@ -335,10 +335,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "groupfractal.com",
       },
-      {
-        protocol: "https",
-        hostname: "savit.in",
-      },
+      
     ],
   },
   eslint: {
