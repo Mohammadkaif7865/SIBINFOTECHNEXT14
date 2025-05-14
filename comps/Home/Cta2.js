@@ -56,7 +56,7 @@ const Cta2 = () => {
           </div>
         </div>
 
-        <div className="position-absolute bottom-0 start-50 translate-middle-x mb-0">
+        {/* <div className="position-absolute bottom-0 start-50 translate-middle-x mb-0">
           <Image
             src="/assets/images/cta2/team.png"
             alt="Team"
@@ -64,7 +64,7 @@ const Cta2 = () => {
             height={300}
             className="img-fluid rounded-pill shadow"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

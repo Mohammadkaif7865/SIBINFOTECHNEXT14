@@ -21,7 +21,7 @@ const WhyPPc = () => {
         {
           title: "Higher Conversion Potential",
           description:
-            "PPC traffic often converts better because it targets users actively searching for solutions — increasing your chances of gaining qualified leads.",
+            "PPC traffic often converts better because it targets users actively searching for solutions — increasing your chances of gaining qualified leads.It will advertise directly to those people who are actively searching a business like you. ",
         },
         {
           title: "Measurable and Trackable Results",
@@ -36,7 +36,7 @@ const WhyPPc = () => {
         {
           title: "Stronger Brand Exposure",
           description:
-            "Even if users don’t click your ad immediately, frequent ad appearances build brand awareness and trust over time.",
+            "Even if users don’t click your ad immediately, frequent ad appearances build brand recognition and trust with your audience. It provide your brand a good exposer in front of right people.",
         },
         {
           title: "Revenue and Sales Growth",
@@ -62,6 +62,11 @@ const WhyPPc = () => {
           title: "Direct Access to High-Intent Customers",
           description:
             "PPC connects you with users actively searching for your products or services — making every click a potential conversion opportunity.",
+        },
+        {
+          title: "Pay Only for Clicks",
+          description:
+            "You will only charged when someone will click on your advertisements. ",
         },
       ];
       

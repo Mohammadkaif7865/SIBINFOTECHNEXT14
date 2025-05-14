@@ -32,21 +32,59 @@ const markers = [
 ];
 
 const agencyCards = [
-  { title: "Digital Marketing Agency in Ahmedabad", image: "Ahemdabad.svg" },
-  { title: "Digital Marketing Agency in Bangalore", image: "banglore.svg" },
+  { title: "Digital Marketing Agency in Ahemdabad", image: "Ahemdabad.svg" },
+  { title: "Digital Marketing Agency in Banglore", image: "banglore.svg" },
+  { title: "Digital Marketing Agency in Brampton", image: "Brampton.svg" },
+  { title: "Digital Marketing Agency in Canada", image: "canada.svg" },
+  { title: "Digital Marketing Agency in Chicago", image: "chicago.svg" },
+  { title: "Digital Marketing Agency in Dubai", image: "dubai.svg" },
+  { title: "Digital Marketing Agency in Gurgaon", image: "Gurgaon.svg" },
+  { title: "Digital Marketing Agency in Jeddah", image: "jeddah.svg" },
+  { title: "Digital Marketing Agency in Los Angeles", image: "los angeles.svg" },
+  { title: "Digital Marketing Agency in Montreal", image: "Montreal.svg" },
+  { title: "Digital Marketing Agency in Noida", image: "noida.svg" },
+  { title: "Digital Marketing Agency in Ottawa", image: "ottawa.svg" },
+  { title: "Digital Marketing Agency in Pune", image: "pune.svg" },
+  { title: "Digital Marketing Agency in San Diego", image: "san dieoge.svg" },
+  { title: "Digital Marketing Agency in Saudi Arabia", image: "saudi arabia.svg" },
+  { title: "Digital Marketing Agency in Surat", image: "surat.svg" },
+  { title: "Digital Marketing Agency in United Arab Emirates", image: "United Arab Emirates.svg" },
+  { title: "Digital Marketing Agency in Arizona", image: "Arizona.svg" },
+  { title: "Digital Marketing Agency in Birmingham", image: "Birmingham.svg" },
+  { title: "Digital Marketing Agency in Calgary", image: "Calgary.svg" },
+  { title: "Digital Marketing Agency in Chandigarh", image: "chandigarh.svg" },
+  { title: "Digital Marketing Agency in Dallas", image: "dallas.svg" },
+  { title: "Digital Marketing Agency in Florida", image: "Florida.svg" },
+  { title: "Digital Marketing Agency in Hydrabad", image: "hydrabad.svg" },
+  { title: "Digital Marketing Agency in Kolkata", image: "kolkata.svg" },
+  { title: "Digital Marketing Agency in Manchester", image: "manchester.svg" },
+  { title: "Digital Marketing Agency in Mumbai", image: "mumbai.svg" },
+  { title: "Digital Marketing Agency in North Carolina", image: "North Carolina.svg" },
+  { title: "Digital Marketing Agency in Philadelphia", image: "Philadelphia.svg" },
+  { title: "Digital Marketing Agency in Riyadh", image: "riyadh.svg" },
+  { title: "Digital Marketing Agency in San Fransisco", image: "san fransisco.svg" },
+  { title: "Digital Marketing Agency in Seattle", image: "Seattle.svg" },
+  { title: "Digital Marketing Agency in Texas", image: "texas.svg" },
+  { title: "Digital Marketing Agency in Vancouver", image: "vancouver.svg" },
+  { title: "Digital Marketing Agency in Austin", image: "Austin.svg" },
+  { title: "Digital Marketing Agency in Boston", image: "Boston.svg" },
+  { title: "Digital Marketing Agency in California", image: "California.svg" },
   { title: "Digital Marketing Agency in Chennai", image: "Chennai.svg" },
   { title: "Digital Marketing Agency in Delhi", image: "Delhi.svg" },
-  { title: "Digital Marketing Agency in Hyderabad", image: "hydrabad.svg" },
-  { title: "Digital Marketing Agency in Jaipur", image: "jaipur.svg" },
-  { title: "Digital Marketing Agency in Kolkata", image: "kolkata.svg" },
-  { title: "Digital Marketing Agency in Mumbai", image: "mumbai.svg" },
-  { title: "Digital Marketing Agency in Pune", image: "pune.svg" },
-  { title: "Digital Marketing Agency in Surat", image: "surat.svg" },
-  { title: "Digital Marketing Agency in Birmingham", image: "Birmingham.svg" },
   { title: "Digital Marketing Agency in Glasgow", image: "Glasgow.svg" },
+  { title: "Digital Marketing Agency in Jaipur", image: "jaipur.svg" },
   { title: "Digital Marketing Agency in London", image: "London.svg" },
-  { title: "Digital Marketing Agency in Manchester", image: "manchester.svg" },
+  { title: "Digital Marketing Agency in Mississauga", image: "Mississauga.svg" },
+  { title: "Digital Marketing Agency in New York", image: "new york.svg" },
+  { title: "Digital Marketing Agency in Oman", image: "Oman.svg" },
+  { title: "Digital Marketing Agency in Phoenix, Arizona", image: "Phoenix, Arizona.svg" },
+  { title: "Digital Marketing Agency in San Antonio", image: "san antonio.svg" },
+  { title: "Digital Marketing Agency in Sarjah", image: "sarjah.svg" },
+  { title: "Digital Marketing Agency in Singapore", image: "singapore.svg" },
+  { title: "Digital Marketing Agency in Toronto", image: "toronto.svg" },
+  { title: "Digital Marketing Agency in Washington DC", image: "washington dc.svg" }
 ];
+
 
 const Map = () => {
   return (
@@ -120,7 +158,7 @@ const Map = () => {
           spaceBetween={20}
           slidesPerView={6} // Display 6 items per view
           loop={true} // Loop the slides
-          speed={500} // Faster scrolling speed (ms)
+         
           breakpoints={{
             576: { slidesPerView: 3 },
             768: { slidesPerView: 4 },

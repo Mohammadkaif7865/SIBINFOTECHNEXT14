@@ -45,9 +45,18 @@ export default function WhatWeDo3() {
     {
       title: "Drive Instant Growth",
       subList: ["Google Ads", "Meta & Instagram Ads", "LinkedIn Ads"],
-      subTitle: "High-Performance Ad Campaigns That Deliver Leads & Sales ",
-      description: `<p> Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.</p>
-        <p class="mt-3 title fontWeight500 mb-3">Google Ads 
+      subTitle: "Accelerate Your Business with Targeted Paid Advertising ",
+      description: `<p></p>
+       
+      
+      
+      
+      <p class="mt-3 title fontWeight500 mb-3">High-Performance Ad Campaigns That Deliver Leads & Sales 
+        </p>
+        <p class="mt-2">
+Launch result-driven ad campaigns across platforms to boost visibility and generate qualified leads from day one.
+        </p>
+      <p class="mt-3 title fontWeight500 mb-3">Google Ads 
         </p>
         <p class="mt-2">
         Capture high-intent traffic with precision-targeted Google Ads campaigns. From search to display and video ads, we optimize every click to drive more conversions, leads, and sales for your business. 
