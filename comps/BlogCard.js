@@ -18,8 +18,7 @@ function BlogCard(props) {
           >
             <Image
               fill
-              // width={392}
-              // height={195}
+             
               src={`${CONSTANTS.BACKEND_URL + blog.image}`}
               className="img-fluid w-100 h-auto"
               alt={blog.image_alt}

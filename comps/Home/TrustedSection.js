@@ -12,32 +12,32 @@ const TrustedSection = () => {
     {
       value: "20+",
       title: "Years in Business",
-      // text: "developing an agency and a culture that stands out",
+      
     },
     {
       value: "1,350+",
       title: "Projects delivered",
-      // text: "developing an agency and a culture that stands out",
+     
     },
     {
       value: "750+",
       title: "Active clients/users",
-      // text: "developing an agency and a culture that stands out",
+      
     },
     {
       value: "30+",
       title: "Team Members",
-      // text: "developing an agency and a culture that stands out",
+     
     },
     {
       value: "50%",
       title: "Less in Costs",
-      // text: "developing an agency and a culture that stands out",
+    
     },
     {
       value: "98%",
       title: "Customer Satisfaction Rate ",
-      // text: "developing an agency and a culture that stands out",
+      
     },
   ];
   return (

@@ -236,19 +236,7 @@ export default function BannerForm() {
             </div>
           </div>
         </div>
-        {/* <div className="bannerFormItem mt-0 d-lg-block d-none">
-            <div className="row align-items-center">
-                <div className="col-3">
-                    <div className="captcha" id="captcha"></div>
-                </div>
-                <div className="col-1">
-                    <div id="refresh_captcha" onClick={createCaptcha}><i className="bi bi-arrow-clockwise"></i></div>
-                </div>
-                <div className="col-8">
-                    <input type="text" className="capIn" placeholder="Type the text" name="cpatchaText" id="cpatchaTextBox" onChange={handleInputChange} value={inputs.cpatchaText} required/>
-                </div>
-            </div>
-        </div> */}
+   
         <div className="bannerFormItem mt-2">
           <button
             name="submit"

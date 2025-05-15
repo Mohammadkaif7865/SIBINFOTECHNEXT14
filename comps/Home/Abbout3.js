@@ -2,29 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-// Data part
-// const about3Data = {
-//   sectionId: "about",
-//   mainHeading: "Boost Your Brand’s Presence with Expert SMO Services ",
-//   subHeading:
-//     'Guaranteed Visibility Through <span class="text_red"> Our Digital Marketing Services</span>',
-//   contentParagraphs: [
-//     `<strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
-//     `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
-//   ],
-//   image1: {
-//     src: "/assets/images/aboout-3.png",
-//   },
-//   image2: {
-//     src: "/assets/images/about-3-2.png",
-//   },
-//   buttonText: "Let's Grow Your Business?",
-//   buttonLink: "/contact",
-//   phoneNumber: "+919222260000",
-//   phoneDisplay: "+91 92222-60000",
-//   phoneHelpText: "Need Help",
-//   callIcon: "/assets/images/icons/call-icon.svg",
-// };
+
 
 // Component part
 const Abbout3 = (about3Data) => {

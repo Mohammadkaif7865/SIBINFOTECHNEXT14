@@ -54,36 +54,7 @@ const faqsData = [
     question: "Can I control my PPC spending?  ",
     answer: `<div className="accordion-body"><p>Yes! You can set daily or monthly budgets and adjust bids to manage your spending.  </p></div>`,
   },
-  // {
-  //   id: "faq23",
-  //   question: "What are the benefits of SMO for SEO? ",
-  //   answer: `<div className="accordion-body"><p>SMO can indirectly improve your SEO rankings by driving more traffic to your site, increasing social signals (likes, shares, comments), and enhancing your overall online visibility, which can have a positive impact on search engine rankings. </p></div>`,
-  // },
-  // {
-  //   id: "faq24",
-  //   question: "What is the cost of Social Media Optimization Services? ",
-  //   answer: `<div className="accordion-body"><p>The cost of SMO services depends on factors such as the scope of work, number of platforms, and level of strategy required. We offer customized packages to suit different budgets and business goals. </p></div>`,
-  // },
-  // {
-  //   id: "faq25",
-  //   question: "What is the difference between SMO and SEO? ",
-  //   answer: `<div className="accordion-body"><p>SEO is for search engines, while SMO enhances your visibility on social media platforms. </p></div>`,
-  // },
-  // {
-  //   id: "faq26",
-  //   question: "How soon can I see results",
-  //   answer: `<div className="accordion-body"><p> Some results may appear in 4-6 weeks, but long-term growth is typically visible in 3-6 months. </p></div>`,
-  // },
-  // {
-  //   id: "faq27",
-  //   question: "Is content creation included? ",
-  //   answer: `<div className="accordion-body"><p> Yes. We handle everything—from visuals to captions to publishing.</p></div>`,
-  // },
-  // {
-  //   id: "faq28",
-  //   question: "How does SMO help my business grow?",
-  //   answer: `<div className="accordion-body"><p> By building brand awareness, trust, and driving high-intent traffic to your website. </p></div>`,
-  // },
+ 
 ];
 
 
@@ -91,7 +62,7 @@ const SMofaq = () => {
   return (
     <div className="bg-light ">
     <Faq
-      title={"Ready to Grow with PPC?  "}
+      title={`<span class="text-black">Frequently Asked</span> PPC <span class="text-black">Question?</span>`}
       description={faqDiscription}
       faqsData={faqsData}
     />

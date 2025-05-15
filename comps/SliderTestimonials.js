@@ -26,14 +26,7 @@ export default function SliderTestimonials() {
       reviewSource: "Google Logo",
       reviewSourceLogo: "/assets/images/google-logo.png",
     },
-    // {
-    //   heading: "Website Development Agency Services Mumbai",
-    //   content:
-    //     "SIB Infotech is well managed company who treats each employee very politely. Its great being part of it. Never makes anybody feel burdened and provides friendly atmosphere. Highly professional company to work in. It is one of the best website development company. It is pleasure to work and write content for them.",
-    //   userName: "Chetna Goel",
-    //   reviewSource: "Google Logo",
-    //   reviewSourceLogo: "/assets/images/google-logo.png",
-    // },
+  
     {
       userImg: "/assets/images/tima-elhajj.jpeg",
       heading: "Website Development for Media & Consulting Company",

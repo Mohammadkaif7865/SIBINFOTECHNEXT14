@@ -36,44 +36,7 @@ export default function Header() {
           pathname !== "/" ? "position-relative" : ""
         } `}
       >
-        {/* <div className="topHeader d-none d-md-block">
-          <div className="containerFull">
-            <div className="inlineHeader ">
-              <div className="topHeaderLeft">
-                <ul>
-                  <li>
-                    <Link href="/career">We're Hiring Now</Link>
-                  </li>
-
-                  <li>
-                    <Link href="mailto:contact@sibinfotech.com">
-                      <i className="fa fa-envelope"></i> contact@sibinfotech.com
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <i className="fa fa-map-marker-alt"></i> Mumbai, New Delhi
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="topHeaderRight">
-                <ul>
-                  <li>
-                    <Link href="/contact-us">Request a Quote</Link>
-                  </li>
-                  <li>
-                    <Link href="tel:+91-9222260000">
-                    <i className="fa-solid fa-phone-volume " style={{
-                      transform: "rotate(321deg)",
-                    }} ></i> +91-9222260000
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
+        
 
         <div className="mainHeader container-xxl ">
           <div className="px-1 px-lg-2 ">

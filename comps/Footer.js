@@ -796,42 +796,7 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            {/* <div className="footer_social_main">
-              <ul className="footer_social">
-                <li>
-                  <Link
-                    href="https://www.facebook.com/sibinfotech/"
-                    target="_blank"
-                  >
-                    <i className=" fab fa-facebook-f"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.twitter.com/sibinfotech"
-                    target="_blank"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.linkedin.com/company/sib-infotech/"
-                    target="_blank"
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.youtube.com/user/sibinfotech"
-                    target="_blank"
-                  >
-                    <i className="fab fa-youtube"></i>
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
+           
           </div>
         </div>
       </footer>

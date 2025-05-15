@@ -6,7 +6,7 @@ import {
   Marker,
 } from "react-simple-maps";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
@@ -40,15 +40,24 @@ const agencyCards = [
   { title: "Digital Marketing Agency in Dubai", image: "dubai.svg" },
   { title: "Digital Marketing Agency in Gurgaon", image: "Gurgaon.svg" },
   { title: "Digital Marketing Agency in Jeddah", image: "jeddah.svg" },
-  { title: "Digital Marketing Agency in Los Angeles", image: "los angeles.svg" },
+  {
+    title: "Digital Marketing Agency in Los Angeles",
+    image: "los angeles.svg",
+  },
   { title: "Digital Marketing Agency in Montreal", image: "Montreal.svg" },
   { title: "Digital Marketing Agency in Noida", image: "noida.svg" },
   { title: "Digital Marketing Agency in Ottawa", image: "ottawa.svg" },
   { title: "Digital Marketing Agency in Pune", image: "pune.svg" },
   { title: "Digital Marketing Agency in San Diego", image: "san dieoge.svg" },
-  { title: "Digital Marketing Agency in Saudi Arabia", image: "saudi arabia.svg" },
+  {
+    title: "Digital Marketing Agency in Saudi Arabia",
+    image: "saudi arabia.svg",
+  },
   { title: "Digital Marketing Agency in Surat", image: "surat.svg" },
-  { title: "Digital Marketing Agency in United Arab Emirates", image: "United Arab Emirates.svg" },
+  {
+    title: "Digital Marketing Agency in United Arab Emirates",
+    image: "United Arab Emirates.svg",
+  },
   { title: "Digital Marketing Agency in Arizona", image: "Arizona.svg" },
   { title: "Digital Marketing Agency in Birmingham", image: "Birmingham.svg" },
   { title: "Digital Marketing Agency in Calgary", image: "Calgary.svg" },
@@ -59,10 +68,19 @@ const agencyCards = [
   { title: "Digital Marketing Agency in Kolkata", image: "kolkata.svg" },
   { title: "Digital Marketing Agency in Manchester", image: "manchester.svg" },
   { title: "Digital Marketing Agency in Mumbai", image: "mumbai.svg" },
-  { title: "Digital Marketing Agency in North Carolina", image: "North Carolina.svg" },
-  { title: "Digital Marketing Agency in Philadelphia", image: "Philadelphia.svg" },
+  {
+    title: "Digital Marketing Agency in North Carolina",
+    image: "North Carolina.svg",
+  },
+  {
+    title: "Digital Marketing Agency in Philadelphia",
+    image: "Philadelphia.svg",
+  },
   { title: "Digital Marketing Agency in Riyadh", image: "riyadh.svg" },
-  { title: "Digital Marketing Agency in San Fransisco", image: "san fransisco.svg" },
+  {
+    title: "Digital Marketing Agency in San Fransisco",
+    image: "san fransisco.svg",
+  },
   { title: "Digital Marketing Agency in Seattle", image: "Seattle.svg" },
   { title: "Digital Marketing Agency in Texas", image: "texas.svg" },
   { title: "Digital Marketing Agency in Vancouver", image: "vancouver.svg" },
@@ -74,17 +92,28 @@ const agencyCards = [
   { title: "Digital Marketing Agency in Glasgow", image: "Glasgow.svg" },
   { title: "Digital Marketing Agency in Jaipur", image: "jaipur.svg" },
   { title: "Digital Marketing Agency in London", image: "London.svg" },
-  { title: "Digital Marketing Agency in Mississauga", image: "Mississauga.svg" },
+  {
+    title: "Digital Marketing Agency in Mississauga",
+    image: "Mississauga.svg",
+  },
   { title: "Digital Marketing Agency in New York", image: "new york.svg" },
   { title: "Digital Marketing Agency in Oman", image: "Oman.svg" },
-  { title: "Digital Marketing Agency in Phoenix, Arizona", image: "Phoenix, Arizona.svg" },
-  { title: "Digital Marketing Agency in San Antonio", image: "san antonio.svg" },
+  {
+    title: "Digital Marketing Agency in Phoenix, Arizona",
+    image: "Phoenix, Arizona.svg",
+  },
+  {
+    title: "Digital Marketing Agency in San Antonio",
+    image: "san antonio.svg",
+  },
   { title: "Digital Marketing Agency in Sarjah", image: "sarjah.svg" },
   { title: "Digital Marketing Agency in Singapore", image: "singapore.svg" },
   { title: "Digital Marketing Agency in Toronto", image: "toronto.svg" },
-  { title: "Digital Marketing Agency in Washington DC", image: "washington dc.svg" }
+  {
+    title: "Digital Marketing Agency in Washington DC",
+    image: "washington dc.svg",
+  },
 ];
-
 
 const Map = () => {
   return (
@@ -140,7 +169,7 @@ const Map = () => {
         </div>
       </div>
 
-      <div className="containerFull mt-5 position-relative">
+      <div className="containerFull mt-5 position-relative cityList_main">
         <div className="swiper-button-prev custom-swiper-arrow">
           <FaArrowLeft />
         </div>
@@ -150,15 +179,17 @@ const Map = () => {
         </div>
 
         <Swiper
-          modules={[Navigation]}
+        className="cityList"
+          autoplay={false}
+          loop={true}
+          pagination={false}
+          modules={[Autoplay, Pagination, Navigation]}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
           spaceBetween={20}
-          slidesPerView={6} // Display 6 items per view
-          loop={true} // Loop the slides
-         
+          slidesPerView={6}
           breakpoints={{
             576: { slidesPerView: 3 },
             768: { slidesPerView: 4 },

@@ -159,13 +159,7 @@ export default function ApplyForm() {
           : e.target.value,
     }));
   };
-  // const handleError = (e) => {
-  //   const { name, value } = e.target;
-  //   setErrors((prevErrors) => ({
-  //     ...prevErrors,
-  //     [name]: value,
-  //   }));
-  // };
+
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -447,118 +441,7 @@ export default function ApplyForm() {
       return toast.error("Please fill in all required fields");
     }
 
-    // setErrors(newErrors);
-
-    // if (!inputs.jobtype) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     jobtype: "This field is required",
-    //   }));
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     jobtype: "",
-    //   }));
-    // }
-
-    // if (!inputs.postapplied) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     postapplied: "This field is required",
-    //   }));
-    //   //  toast.error("Please select the post applied for!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     postapplied: "",
-    //   }));
-    // }
-    // if (!inputs.job_location) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     job_location: "This field is required",
-    //   }));
-
-    //   // toast.error("Please select the job location!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     job_location: "",
-    //   }));
-    // }
-    // if (!inputs.fname) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     fname: "This field is required",
-    //   }));
-    //   // return toast.error("Please enter your first name!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     fname: "",
-    //   }));
-    // }
-    // if (!inputs.lname) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     lname: "This field is required",
-    //   }));
-    //   // return toast.error("Please enter your last name!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     lname: "",
-    //   }));
-    // }
-    // if (!inputs.email) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     email: "This field is required",
-    //   }));
-    //   // return toast.error("Please enter your email!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     email: "",
-    //   }));
-    // }
-    // if (!inputs.pre_city) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     pre_city: "This field is required",
-    //   }));
-    //   // return toast.error("Please enter your present city!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     pre_city: "",
-    //   }));
-    // }
-    // if (!inputs.pre_state) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     pre_state: "This field is required",
-    //   }));
-    //   // return toast.error("Please enter your present state!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     pre_state: "",
-    //   }));
-    // }
-    // if (!selectedFile) {
-    //   return setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     resume: "This field is required",
-    //   }));
-    //   // return toast.error("Please upload your resume!");
-    // } else {
-    //   setErrors((prevErrors) => ({
-    //     ...prevErrors,
-    //     resume: "",
-    //   }));
-    // }
-
+  
     if (code == inputs.cpatchaText) {
       addCareer().then((data) => {
         if (!data.error) {

@@ -12189,11 +12189,11 @@ p.regular_heading {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transform: skewY(3deg);
+  /* transform: skewY(3deg);
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
   -ms-transform: skewY(3deg);
-  -o-transform: skewY(3deg);
+  -o-transform: skewY(3deg); */
 }
 .flip-box-back p {
   color: #fff;
@@ -13732,4 +13732,10 @@ tudy-right-main {
   font-size: 18px;
   transition: all 0.3s ease-in-out;
 
+}
+.cityList_main .swiper-button-next,.cityList_main .swiper-button-prev{
+  opacity: 0;
+}
+.cityList_main .swiper-button-next:hover,.cityList_main .swiper-button-prev:hover{
+  opacity: 1;
 }

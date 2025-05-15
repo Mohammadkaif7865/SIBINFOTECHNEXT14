@@ -1,44 +1,15 @@
-import React from "react";
 
-import Introduction from "./Introduction";
-import WorkWebdesign from "../WorkWebdesign";
-import WhyBest from "./WhyBest";
-import GrowBusiness from "./GrowBusiness";
-import Contact from "./Contact";
-import DesigningProcess from "./DesigningProcess";
-import Engagement from "./Engagement";
-import Industries from "./Industries";
-import Faqs from "./Faqs";
-import Banner from "./Banner";
-import DigitalMarketingWebAgency from "../Home/DigitalMarketingWebAgency";
-import WebsiteDesignServices from "../Home/WebsiteDesignServices";
 import Abbout3 from "../Home/Abbout3";
+import DigitalMarketingWebAgency from "../Home/DigitalMarketingWebAgency";
+import Faq from "../Home/Faq";
 import WhySIB from "../Home/WhySIB";
 import Partnership from "../WhiteLabel/Partnership";
-import Faq from "../Home/Faq";
 import Solution from "../WhiteLabel/Solution";
-const about3Data = {
-  sectionId: "about",
-  mainHeading: "Welcome to SIB Infotech",
-  subHeading:
-    'Guaranteed Visibility Through <span class="text_red"> Our Digital Marketing Services</span>',
-  contentParagraphs: [
-    `<strong> SIB Infotech</strong> is a <strong>leading digital marketing agency in India</strong>, with offices in Mumbai and New Delhi. As a Google Premier Partner, we specialize in <strong>SEO services, PPC management, social media marketing, website design, graphic design, and branding. Our expertise helps businesses in India, the US, the UK, Canada, Australia </strong>, and beyond boost online visibility, engagement, and conversions while delivering measurable ROI.`,
-    `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
-  ],
-  image1: {
-    src: "/assets/images/aboout-3.png",
-  },
-  image2: {
-    src: "/assets/images/about-3-2.png",
-  },
-  buttonText: "Let's Grow Your Business?",
-  buttonLink: "/contact",
-  phoneNumber: "+919222260000",
-  phoneDisplay: "+91 92222-60000",
-  phoneHelpText: "Need Help",
-  callIcon: "/assets/images/icons/call-icon.svg",
-};
+import WorkWebdesign from "../WorkWebdesign";
+import Banner from "./Banner";
+import Engagement from "./Engagement";
+import GrowBusiness from "./GrowBusiness";
+
 
 const WebDesigning = () => {
   const about3Data = {
@@ -164,7 +135,7 @@ const WebDesigning = () => {
   const faqsData = [
     {
       id: "faq1",
-      question: "1. Does my Business need a Website?",
+      question: "Does my Business need a Website?",
       answer: `<p>
       Having a website is a cost-effective approach when it
       comes to advertising and reaching out to potential
@@ -179,7 +150,7 @@ const WebDesigning = () => {
     {
       id: "faq2",
       question:
-        "2.  What are the things that you expect from me to complete the Website Design?",
+        "What are the things that you expect from me to complete the Website Design?",
       answer: ` <div className="accordion-body">
       <p>
         You are completely aware of your services and what your
@@ -217,7 +188,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq3",
-      question: "3. If I have a Website, will you make changes for me?",
+      question: "If I have a Website, will you make changes for me?",
       answer: ` <p>
       Yes, we can redesign or change the content of your
       existing website. It will cost less than building one
@@ -227,7 +198,7 @@ const WebDesigning = () => {
     {
       id: "faq4",
       question:
-        "4. Is there any maintenance required after designing a Website?",
+        "Is there any maintenance required after designing a Website?",
       answer: `  <p>
       With the announcement of new trends for page rankings,
       some slight changes might be required. Also, as your
@@ -238,7 +209,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq5",
-      question: "5. Can you do rush jobs?",
+      question: "Can you do rush jobs?",
       answer: `<p>
       The team will try its best to meet the requirements of
       the clients as per the complexity of the project and
@@ -248,7 +219,7 @@ const WebDesigning = () => {
     {
       id: "faq6",
       question:
-        "6. What if I don't want to manage my Website at all? Can you do it all for me?",
+        "What if I don't want to manage my Website at all? Can you do it all for me?",
       answer: ` <p>
       Yes, we have maintenance packages to suit your needs.
       The packages can range from 1 hour per month to 10 hours
@@ -258,7 +229,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq7",
-      question: "7. What does a Website Designing Company do?",
+      question: "What does a Website Designing Company do?",
       answer: `   <div className="accordion-body">
       <p>
         A website designing company intends to serve its clients
@@ -288,7 +259,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq8",
-      question: "8. What does Web Design include?",
+      question: "What does Web Design include?",
       answer: `<p>
         Website designing incorporates within itself multiple
         components that operate collectively to make a website
@@ -301,7 +272,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq9",
-      question: "9. What are Website Design Services?",
+      question: "What are Website Design Services?",
       answer: `<p>
       As mentioned in the name itself, website design services
       are meant to create customized websites for all kinds of
@@ -314,7 +285,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq10",
-      question: "10. What are Website Design Services?",
+      question: "What are Website Design Services?",
       answer: `<p>
       As mentioned in the name itself, website design services
       are meant to create customized websites for all kinds of
@@ -327,7 +298,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq11",
-      question: "11. Will my Website be Mobile-Friendly?",
+      question: "Will my Website be Mobile-Friendly?",
       answer: ` <p>
       After the announcement of new core web vitals metrics
       for page rankings, we will make sure that your website
@@ -338,7 +309,7 @@ const WebDesigning = () => {
     {
       id: "faq12",
       question:
-        "12.Why SIB Infotech is the Best Web Design Company in India for your business? ",
+        "Why SIB Infotech is the Best Web Design Company in India for your business? ",
       answer: `<p>
       Since 2005, SIB Infotech is specialized in creating
       dynamic and appealing websites for clients. Our team of
@@ -353,7 +324,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq13",
-      question: "13. How much does a Professional Web Design Services Cost?",
+      question: "How much does a Professional Web Design Services Cost?",
       answer: `<div className="accordion-body">
       <p>
         <strong>The cost of web designing depends on:</strong>
@@ -369,7 +340,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq14",
-      question: "14. How long does it take to Design a Website?",
+      question: "How long does it take to Design a Website?",
       answer: `<div className="accordion-body">
       <p>
         The total time engaged in designing a website depends on
@@ -384,7 +355,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq15",
-      question: "15. How long does it take to Design a Website?",
+      question: "How long does it take to Design a Website?",
       answer: `<div className="accordion-body">
       <p>
         The total time engaged in designing a website depends on
@@ -400,7 +371,7 @@ const WebDesigning = () => {
     {
       id: "faq16",
       question:
-        "16. I want to revamp my existing Website Design. Can you help?",
+        "I want to revamp my existing Website Design. Can you help?",
       answer: ` <p>
       Yes, we have a separate team that looks after such
       requirements. A professional web designer's expert team
@@ -411,7 +382,7 @@ const WebDesigning = () => {
     {
       id: "faq17",
       question:
-        "17.  What is the difference between Static Web Design and Dynamic Web Design?",
+        "What is the difference between Static Web Design and Dynamic Web Design?",
       answer: `    <div className="accordion-body">
       <p>
         Static WebPages are the ones that always look the same
@@ -441,7 +412,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq18",
-      question: "18.What is the cost to create a Website?",
+      question: "What is the cost to create a Website?",
       answer: ` <p>
       When it comes to the cost of a website it may revolve
       around diverse aspects. The cost for launching and
@@ -454,7 +425,7 @@ const WebDesigning = () => {
     {
       id: "faq19",
       question:
-        "19. What services are provided by Website Designing Companies?",
+        "What services are provided by Website Designing Companies?",
       answer: `  <div className="accordion-body">
       <p>
         <strong>
@@ -479,7 +450,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq20",
-      question: "20. What are the Types of Web Design?",
+      question: "What are the Types of Web Design?",
       answer: `   <div className="accordion-body">
       <p>
         <strong>Types of Web Design Layouts:</strong>
@@ -538,7 +509,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq21",
-      question: "21. What does Website Design Cost for a Small Business?",
+      question: "What does Website Design Cost for a Small Business?",
       answer: ` <p>
       The cost of a website depends on the elements of the
       page and the features of the asset. The average cost of
@@ -550,7 +521,7 @@ const WebDesigning = () => {
     },
     {
       id: "faq22",
-      question: "22. What does a Web Design Agency do?",
+      question: "What does a Web Design Agency do?",
       answer: `<p>
       Web design agencies have skilled graphic designers who
       work upon the logos, color schemes, branding, and
@@ -614,9 +585,9 @@ const WebDesigning = () => {
       <Abbout3 {...about3Data} />
       <Solution
         heading={"Our Website Design Services "}
-        // subHeading={"With Our Cutting-Edge SEO Services in India"}
+        
         discription={
-          "We use the latest technology and design innovations to develop creative, smart & user-friendly websites to successfully connect users with brands. Empower yourself with the best website design company in India. "
+          "We use the latest technology and design innovations to develop creative, smart & user-friendly websites to successfully connect users with brands. Empower yourself with the best website design company in India.Your website is your home on the internet (web). "
         }
         data={Services}
       />
@@ -637,23 +608,20 @@ const WebDesigning = () => {
           "India’s Best Website Design Workflow - Simple, Strategic, Effective "
         }
       />
-      {/* <Introduction />
-      <WhyBest />
-      <GrowBusiness /> */}
+    
       <section className="bg4 overflowHidden position-relative">
         <WorkWebdesign />
       </section>
       <Engagement />
       <DigitalMarketingWebAgency />
-      {/* <Contact /> */}
-      {/* <DesigningProcess /> */}
-      {/* <DigitalMarketingAgency /> */}
-      <WebsiteDesignServices />
+      
+   
 
-      {/* <Industries /> */}
+ 
       <Faq
-        title={"Website Designing FAQ?"}
-        description={faqDiscription}
+     
+         title={`<span class="text-black">Frequently Asked</span> Website Designing <span class="text-black">Question?</span>`}
+        // description={faqDiscription}
         faqsData={faqsData}
       />
     </>

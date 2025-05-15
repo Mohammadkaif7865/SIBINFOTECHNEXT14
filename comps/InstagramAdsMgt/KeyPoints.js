@@ -29,13 +29,7 @@ const KeyPoints = () => {
       description2:
         "On Instagram engagement with brands is so many times higher than other platforms.",
     },
-    // {
-    //   imgSrc: "instagram-ads-management-companies.svg",
-    //   alt: "Best-Instagram-Ads-Management-Company-In-Delhi",
-    //   title: "Build a relationship with followers and potential customers",
-    //   description:
-    //     "On Instagram engagement with brands is so many times higher than other platforms.",
-    // },
+    
     {
       imgSrc: "instagram-ads-management-companies-in-mumbai.svg",
       alt: "Best-Instagram-Ads-Management-Company-In-Mumbai",
@@ -48,13 +42,7 @@ const KeyPoints = () => {
       description2:
         "It is a powerful and most economical tool for lead generation for your business.",
     },
-    // {
-    //   imgSrc: "instagram-ads-management.svg",
-    //   alt: "Best-Instagram-Ads-Management-Company",
-    //   title: "Lead Generation",
-    //   description:
-    //     "It is a powerful and most economical tool for lead generation for your business.",
-    // },
+    
     {
       imgSrc: "insta-ads-management-company-in-india.svg",
       alt: "Instagram-Ads-Management-Company-In-India",
@@ -67,13 +55,7 @@ const KeyPoints = () => {
       description2:
         "Instagram build a brand value in the mind of your followers. On Facebook if you want to increase the numbers of fans(or followers)for your business pages you have to pay for them but on Instagram you can increase your followers organically.",
     },
-    // {
-    //   imgSrc: "insta-ads-management-in-mumbai.svg",
-    //   alt: "Instagram-Ads-Management-Company-In-India",
-    //   title: "Build the brand reputation",
-    //   description:
-    //     "Instagram build a brand value in the mind of your followers. On Facebook if you want to increase the numbers of fans(or followers)for your business pages you have to pay for them but on Instagram you can increase your followers organically.",
-    // },
+    
     {
       imgSrc: "instagram-ads-management-services-company.svg",
       alt: "Instagram-Ads-Management-Company-In-India",
@@ -86,13 +68,7 @@ const KeyPoints = () => {
       description2:
         "Sale and leads are tractable through Instagram ads. Just because Instagram uses the same ad manager platform as Facebook it has all of the tracking capability that Facebook has.",
     },
-    // {
-    //   imgSrc: "instagram-ads-management-services-in-mumbai.svg",
-    //   alt: "Instagram-Ads-Management-Company-In-India",
-    //   title: "Easily Tractable",
-    //   description:
-    //     "Sale and leads are tractable through Instagram ads. Just because Instagram uses the same ad manager platform as Facebook it has all of the tracking capability that Facebook has.",
-    // },
+    
   ];
 
   return (
