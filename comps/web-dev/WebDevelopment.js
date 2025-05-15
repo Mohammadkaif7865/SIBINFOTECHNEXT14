@@ -459,8 +459,8 @@ const WebDevelopment = () => {
       <QA />
 
       <Faq
-        title={"Website Development FAQ?"}
-        description={faqDescription}
+        title={`<span class="text-black">Frequently Asked</span> Website Development <span class="text-black">Question?</span>`}
+        // description={faqDecription}
         faqsData={faqsData}
       />
     </div>

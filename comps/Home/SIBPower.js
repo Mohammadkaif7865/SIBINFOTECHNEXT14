@@ -67,7 +67,7 @@ const SIBPower = ({
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
               >
-                {data.map((item, index) => (
+                {data?.map((item, index) => (
                   <SwiperSlide key={index}>
                     <div className="item_sib_power">
                       <p className="fontHeading2 text_red title fontWeight600">

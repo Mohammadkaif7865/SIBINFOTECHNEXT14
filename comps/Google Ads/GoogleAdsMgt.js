@@ -1,32 +1,27 @@
 import Link from "next/link";
-import React from "react";
-import BannerForm from "../BannerForm";
-import HeroGoogleAds from "./HeroGoogleAds";
+import Abbout3 from "../Home/Abbout3";
 import AdsCompany from "./AdsCompany";
-import WhyChoose from "./WhyChoose";
 import AdWords from "./AdWords";
 import Contact from "./Contact";
-import AdCampaigns from "./AdCampaigns";
 import EffectiveAds from "./EffectiveAds";
+import HeroGoogleAds from "./HeroGoogleAds";
 import HighlyEfficient from "./HighlyEfficient";
-import Abbout3 from "../Home/Abbout3";
+import WhyChoose from "./WhyChoose";
 
-import Solution from "@/comps/WhiteLabel/Solution";
-import WhySIB from "../Home/WhySIB";
-import SIBPower from "../Home/SIBPower";
-import Partnership from "../WhiteLabel/Partnership";
-import BrandBuild from "../Home/BrandBuild";
-import TalkWithExpert from "../SEO/TalkWithExpert";
-import Cta2 from "../WhiteLabel/Cta2";
-import SmoSection from "../SmoPage/WhatisSmo";
 import {
-  FaSearchDollar,
-  FaMousePointer,
   FaBullseye,
-  FaSlidersH,
   FaChartBar,
+  FaMousePointer,
   FaRocket,
+  FaSearchDollar,
+  FaSlidersH,
 } from "react-icons/fa";
+import BrandBuild from "../Home/BrandBuild";
+import WhySIB from "../Home/WhySIB";
+import TalkWithExpert from "../SEO/TalkWithExpert";
+import SmoSection from "../SmoPage/WhatisSmo";
+import Cta2 from "../WhiteLabel/Cta2";
+import Partnership from "../WhiteLabel/Partnership";
 import Services from "./Services";
 
 const GoogleAdsMgt = () => {
@@ -146,13 +141,7 @@ const GoogleAdsMgt = () => {
 
       `We help businesses like yours leverage the power of Google Ads to achieve faster growth, better leads, and greater online visibility — with strategies that are smart, cost-effective, and ROI-driven. Whether you’re a startup, SME, or large enterprise, our certified Google Ads experts craft data-driven, high-converting campaigns tailored to your business goals.`,
 
-      // `Are You Struggling to Generate More Leads? Google Ads Can Change the Game!
-
-      // Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!
-
-      // `,
-
-      // `As certified Google Ads professionals, we develop powerful strategies that drive real results, increasing conversion rates while reducing ad costs to ensure the highest ROI for our clients.`,
+     
     ],
     image1: {
       src: "/assets/images/instagram-ads-business-objective.svg",
@@ -369,14 +358,7 @@ const GoogleAdsMgt = () => {
           ]}
         />
       </div>
-      {/* <SIBPower
-        title="Google Ads "
-        subtitle="Experts in India "
-        description="We Are Not Just Another Google AdWords India Marketing Agency"
-        title_right={`Why Choose Google Ads for Your Business? `}
-        description_right="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results. "
-        data={power_data}
-      /> */}
+ 
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
@@ -431,16 +413,6 @@ const GoogleAdsMgt = () => {
         buttonLink="/contact-us"
         isPBeforeH3={false}
       />
-
-      {/* <AdCampaigns /> */}
-      {/* <Contact
-        heading="FREE Consultation to get it started."
-        subheading="Our team of Google Ads specialists and PPC experts are ready
-        to provide you with a"
-        buttonText="Speak to our Consultant"
-        buttonLink="/contact-us"
-        isPBeforeH3={true}
-      /> */}
 
       <EffectiveAds />
 

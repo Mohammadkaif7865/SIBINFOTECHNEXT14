@@ -7,6 +7,7 @@ import * as CONSTANTS from "../constants/constants";
 import axios from "axios";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -475,10 +476,10 @@ export default function Footer() {
                       </li>
                       <li>
                         <Link
-                          href="https://www.twitter.com/sibinfotech"
+                          href="https://x.com/sibinfotech"
                           target="_blank"
                         >
-                          <i className="fab fa-twitter"></i>
+                         <FaXTwitter />
                         </Link>
                       </li>
                       <li>
@@ -796,42 +797,7 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            {/* <div className="footer_social_main">
-              <ul className="footer_social">
-                <li>
-                  <Link
-                    href="https://www.facebook.com/sibinfotech/"
-                    target="_blank"
-                  >
-                    <i className=" fab fa-facebook-f"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.twitter.com/sibinfotech"
-                    target="_blank"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.linkedin.com/company/sib-infotech/"
-                    target="_blank"
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.youtube.com/user/sibinfotech"
-                    target="_blank"
-                  >
-                    <i className="fab fa-youtube"></i>
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
+           
           </div>
         </div>
       </footer>

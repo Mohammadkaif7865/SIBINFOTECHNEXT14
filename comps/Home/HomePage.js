@@ -1,85 +1,66 @@
+import Abbout3 from "./Abbout3";
 import BannerSlider from "./BannerSlider";
 import Blog from "./Blog";
-import Faq from "./Faq";
-import Madeby from "./Madeby";
-import Testimonials from "./Testimonials";
-// import WhatWeDo from "./WhatWeDo";
-import WeStrong from "./WeStrong";
-// import WhatWeDo2 from "./WhatWeDo2";
-import About2 from "./About2";
-import OurClients from "./OurClients";
-import WhatWeDo3 from "./WhatWeDo3";
-// import PartnerBadges from "./PartnerBadges";
 import BrandBuild from "./BrandBuild";
 import CaseStudy2 from "./CaseStudy2";
 import Conversions from "./Conversions";
 import Cta from "./Cta";
+import Cta2 from "./Cta2";
+import Faq from "./Faq";
+import Featured from "./Featured";
+import Industries2 from "./Industries2";
+import Madeby from "./Madeby";
+import Map from "./Map";
+import OurClients from "./OurClients";
+import OurPeople from "./OurPeople";
 import PartnerBadges2 from "./PartnerBadges2";
 import Pricing from "./Pricing";
 import SIBPower from "./SIBPower";
-import WhySIB from "./WhySIB";
-// import DeliverGrowth from "./DeliverGrowth";
-import Featured from "./Featured";
-import Industries2 from "./Industries2";
-import OurPeople from "./OurPeople";
+import Testimonials from "./Testimonials";
 import Tools from "./Tools";
-import Abbout3 from "./Abbout3";
-import Map from "./Map";
-import Expertise from "./Expertise";
-import DigitalMarketingServices from "./DigitalMarketingServices";
-import AboutUs from "./AboutUs";
-import DigitalMarketingWebAgency from "./DigitalMarketingWebAgency";
-import DigitalMarketingAgency from "./DigitalMarketingAgency";
-import WebsiteDesignServices from "./WebsiteDesignServices";
-import Cta2 from "./Cta2";
+import WeStrong from "./WeStrong";
+import WhatWeDo3 from "./WhatWeDo3";
+import WhySIB from "./WhySIB";
 
 const HomePage = () => {
   const keyAdvantages = [
     {
-      title: "Proven Track Record ",
-      description:
-        "With 19+ years in the industry, we have delivered outstanding results for startups, SMEs, and enterprises across multiple industries, helping them achieve higher visibility, engagement, and conversions.",
-    },
-    {
-      title: "Google Premier Partner",
-      description:
-        "As a Google Premier Partner, we have access to exclusive tools, trends, and strategies that keep our clients ahead of the competition.",
-    },
-    {
-      title: "Tailored Strategies",
-      description:
-        "Unlike many agencies that use generic templates, we craft custom digital marketing solutions based on your industry, target audience, and unique business goals.",
-    },
-    {
-      title: " Digital Marketing Services",
-      description:
-        "From SEO, PPC, and social media to branding, content marketing, and performance analytics—we offer comprehensive solutions under one roof.",
-    },
-    {
-      title: " ROI-Focused Approach",
-      description:
-        "Every decision we make is backed by data, ensuring maximum return on investment (ROI) through continuous monitoring, testing, and optimization.",
-    },
-    {
-      title: "Creative Performance",
-      description:
-        "We seamlessly blend high-impact creative storytelling with conversion-driven marketing strategies, ensuring your brand not only attracts attention but also drives real business results.",
-    },
-    {
-      title: "Transparent Reporting ",
-      description:
-        "We believe in 100% transparency, providing detailed insights, analytics, and reports so you know exactly where your budget is going and what’s working.",
-    },
-    {
-      title: "Dedicated Support ",
-      description:
-        "Our team acts as an extension of your business, offering dedicated account managers and scalable solutions that grow with your evolving needs.",
-    },
+    title: "Proven Expertise & Experience",
+    description: "With nearly 20 years in the industry, we help startups, SMEs, & enterprises increase visibility, engagement, & ROI."
+  },
+  {
+    title: "Google Premier Partner Agency",
+    description: "As a Google Premier Partner Agency in India, we gain access to exclusive tools & strategies to keep our clients ahead of the competition."
+  },
+  {
+    title: "Personalized Growth Strategies",
+    description: "No templates. We personalize each plan to your sector, audience, & goals to ensure maximum impact. Because each organization is unique."
+  },
+  {
+    title: "Full-Suite Digital Services",
+    description: "SEO, PPC, social media, web design, branding, & analytics all under one roof for effective results & better performance."
+  },
+  {
+    title: "Data-Driven ROI Solutions",
+    description: "Every campaign is driven by data, real-time analytics, A/B testing, & continuous optimization for maximum ROI."
+  },
+  {
+    title: "Performance Driven Creativity",
+    description: "We blend creative storytelling with conversion-driven strategies to ensure your br& attracts attention & delivers results."
+  },
+  {
+    title: "Transparent Reporting & Accountability",
+    description: "We believe in 100% transparency, offering detailed insights & reports so you know exactly where your budget goes."
+  },
+  {
+    title: "Dedicated & Scalable Support",
+    description: "Our team becomes an extension of your business, providing dedicated account managers & flexible solutions that grow with you."
+  }
   ];
   const rightBoxContent = {
-    heading: "What Sets Us Apart from Other Digital Agencies in India?",
+    heading: "Why SIB Infotech is Among the Best Digital Marketing Agencies in India ",
     description:
-      "With a sea of digital agencies in India, what makes SIB Infotech the preferred choice for brands looking to scale? We don’t just execute campaigns—we create impactful, data-driven strategies that drive measurable growth and long-term success",
+      "With so many digital agencies in India, we are still the top choice for companies looking to scale online. We create data driven digital strategies that have a high impact on audiences & deliver measurable results. Here is what sets us apart: ",
   };
   const leftBoxContent = {
     headingStart: "Why",
@@ -87,7 +68,7 @@ const HomePage = () => {
     subHeading: "Measurable Growth, Proven Results",
     cardTitle: "First Click to Final Conversion",
     cardDescription:
-      "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
+      "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, & Spark Meaningful Connections.",
     buttonText: "Get a Free Analysis",
   };
   const brandContent = [
@@ -288,11 +269,7 @@ const HomePage = () => {
         question: "How do you track and measure campaign success?",
         answer: `<div className="accordion-body"><p>We provide detailed performance reports using tools like Google Analytics, Google Search Console, Meta Insights, and custom dashboards. These reports cover traffic, conversions, rankings, ROI, and more—so you always know what’s working.</p></div>`,
       },
-      // {
-      //   id: "faq30",
-      //   question: "How can Stramasa, a leading digital agency, help me reach clients in New York City?",
-      //   answer: `<div className="accordion-body"><p>Spotify offers audio, video, and display ads, all of which Stramasa can help create. Whether you want to run an audio-only ad or a mixed-format campaign, we will ensure your brand message resonates with your target audience.</p></div>`
-      // }
+     
     ];
 
     const  faqDiscription =`We as a full service leading <strong>digital marketing firm</strong>,
@@ -306,9 +283,6 @@ const HomePage = () => {
     <>
       <BannerSlider />
       <Abbout3 {...about3Data} />
-      {/* <About2 /> */}
-      {/* <BannerSlider /> */}
-      {/* <TrustedSection /> */}
       <WeStrong />
       <WhatWeDo3 />
       <Cta />
@@ -361,7 +335,6 @@ const HomePage = () => {
               </span>
               used by us.`} />
       </div>
-      {/* <Industries2 /> */}
       <Industries2
         heading="Industries We Serve"
         subHeading={
@@ -379,16 +352,9 @@ const HomePage = () => {
       <Pricing batchtitle={`Digital Marketing Pricing Plans`} heading={`360° <span class="fontWeight600">Digital Marketing</span>
           Solutions`} description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`} />
       <Map />
-      {/* <Counter /> */}
-      {/* <Presence/> */}
-      {/* <Expertise />
-      <DigitalMarketingServices />
-      <AboutUs />
-      <DigitalMarketingWebAgency />
-      <DigitalMarketingAgency />
-      <WebsiteDesignServices /> */}
+      
 
-      <Faq title={'Frequently Asked Digital Marketing Questions'} description ={faqDiscription} faqsData={faqsData} />
+      <Faq title={'Frequently Asked Digital Marketing Questions'} description={faqDiscription} faqsData={faqsData} />
       <Blog />
     </>
   );

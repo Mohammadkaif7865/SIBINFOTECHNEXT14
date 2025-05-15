@@ -8,8 +8,8 @@ const AdsCompany = () => {
         <div className="row">
           <div className="col-lg-7">
             <h2 className="customHeading text_red fontHeading">
-              {/* SIB Infotech - Top Rated{" "} */}Why Google Ads?
-              {/* <span className="text_red">Why Google Ads? </span> */}
+           Why Google Ads?
+             
             </h2>
             <p className="customText">
             Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. That's the magic of Google Ads! 

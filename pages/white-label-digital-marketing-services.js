@@ -1,24 +1,23 @@
-import React from "react";
-import Link from "next/link";
-import BannerForm from "../comps/BannerForm";
-import { CustomLayout } from "@/comps/CustomLayout";
 import Breadcrumb from "@/comps/BreadCrumb";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import About2 from "@/comps/WhiteLabel/About";
-import Solution from "@/comps/WhiteLabel/Solution";
-import Cta from "@/comps/WhiteLabel/Cta";
-import WhyChoose from "@/comps/WhiteLabel/WhyChoose";
-import Partnership from "@/comps/WhiteLabel/Partnership";
-import KeyBenifits from "@/comps/WhiteLabel/KeyBenifits";
-import BrandBuild from "@/comps/WhiteLabel/BrandBuild";
+import { CustomLayout } from "@/comps/CustomLayout";
 import Testimonials from "@/comps/Home/Testimonials";
-import Faq from "@/comps/WhiteLabel/Faq";
-import Cta2 from "@/comps/WhiteLabel/Cta2";
+import About2 from "@/comps/WhiteLabel/About";
+import BrandBuild from "@/comps/WhiteLabel/BrandBuild";
 import CaseStudy from "@/comps/WhiteLabel/CaseStudy";
+import Cta from "@/comps/WhiteLabel/Cta";
+import Cta2 from "@/comps/WhiteLabel/Cta2";
 import DeliverGrowth from "@/comps/WhiteLabel/DeliverGrowth";
-import Industries from "@/comps/WhiteLabel/Industries";
-import Tools from "@/comps/WhiteLabel/Tools";
+import Faq from "@/comps/WhiteLabel/Faq";
 import Featured from "@/comps/WhiteLabel/Featured";
+import Industries from "@/comps/WhiteLabel/Industries";
+import KeyBenifits from "@/comps/WhiteLabel/KeyBenifits";
+import Partnership from "@/comps/WhiteLabel/Partnership";
+import Solution from "@/comps/WhiteLabel/Solution";
+import Tools from "@/comps/WhiteLabel/Tools";
+import WhyChoose from "@/comps/WhiteLabel/WhyChoose";
+import Link from "next/link";
+import BannerForm from "../comps/BannerForm";
 
 export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (

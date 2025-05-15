@@ -12,9 +12,9 @@ const Faq = ({ faqsData, title, description }) => {
     <section>
       <div className="containerFull ">
         <p className="fontWeight600 title text-center"> FAQ</p>
-        <h3 className="large_heading2 mt-4 fontHeading2 text-center text_red fontWeight600">
-          {title}
-          {/* <span className="fontWeight600">Digital Marketing Questions</span> */}
+        <h3 className="large_heading2 mt-4 fontHeading2 text-center text_red fontWeight600"  dangerouslySetInnerHTML={{ __html:title }}>
+        
+          
         </h3>
         <p
           className="mt-4 text-center title"
