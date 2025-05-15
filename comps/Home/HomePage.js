@@ -26,7 +26,7 @@ const HomePage = () => {
   const keyAdvantages = [
     {
     title: "Proven Expertise & Experience",
-    description: "With nearly 20 years in the industry, we help startups, SMEs, and enterprises increase visibility, engagement, and ROI."
+    description: "With nearly 20 years in the industry, we help startups, SMEs, & enterprises increase visibility, engagement, & ROI."
   },
   {
     title: "Google Premier Partner Agency",
@@ -34,33 +34,33 @@ const HomePage = () => {
   },
   {
     title: "Personalized Growth Strategies",
-    description: "No templates. We personalize each plan to your sector, audience, and goals to ensure maximum impact. Because each organization is unique."
+    description: "No templates. We personalize each plan to your sector, audience, & goals to ensure maximum impact. Because each organization is unique."
   },
   {
     title: "Full-Suite Digital Services",
-    description: "SEO, PPC, social media, web design, branding, and analytics all under one roof for effective results and better performance."
+    description: "SEO, PPC, social media, web design, branding, & analytics all under one roof for effective results & better performance."
   },
   {
     title: "Data-Driven ROI Solutions",
-    description: "Every campaign is driven by data, real-time analytics, A/B testing, and continuous optimization for maximum ROI."
+    description: "Every campaign is driven by data, real-time analytics, A/B testing, & continuous optimization for maximum ROI."
   },
   {
     title: "Performance Driven Creativity",
-    description: "We blend creative storytelling with conversion-driven strategies to ensure your brand attracts attention and delivers results."
+    description: "We blend creative storytelling with conversion-driven strategies to ensure your br& attracts attention & delivers results."
   },
   {
     title: "Transparent Reporting & Accountability",
-    description: "We believe in 100% transparency, offering detailed insights and reports so you know exactly where your budget goes."
+    description: "We believe in 100% transparency, offering detailed insights & reports so you know exactly where your budget goes."
   },
   {
     title: "Dedicated & Scalable Support",
-    description: "Our team becomes an extension of your business, providing dedicated account managers and flexible solutions that grow with you."
+    description: "Our team becomes an extension of your business, providing dedicated account managers & flexible solutions that grow with you."
   }
   ];
   const rightBoxContent = {
     heading: "Why SIB Infotech is Among the Best Digital Marketing Agencies in India ",
     description:
-      "With so many digital agencies in India, we are still the top choice for companies looking to scale online. We create data driven digital strategies that have a high impact on audiences and deliver measurable results. Here is what sets us apart: ",
+      "With so many digital agencies in India, we are still the top choice for companies looking to scale online. We create data driven digital strategies that have a high impact on audiences & deliver measurable results. Here is what sets us apart: ",
   };
   const leftBoxContent = {
     headingStart: "Why",
@@ -68,7 +68,7 @@ const HomePage = () => {
     subHeading: "Measurable Growth, Proven Results",
     cardTitle: "First Click to Final Conversion",
     cardDescription:
-      "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, and Spark Meaningful Connections.",
+      "Powered by Social, Paid, Creative & Influencers — We Build Bold Brands, Drive Results, & Spark Meaningful Connections.",
     buttonText: "Get a Free Analysis",
   };
   const brandContent = [
