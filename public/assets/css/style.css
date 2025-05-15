@@ -1887,8 +1887,7 @@ section {
 }
 
 .socialColumn ul li a:hover {
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
+ opacity: .7;
 }
 
 .social-link ul li a {

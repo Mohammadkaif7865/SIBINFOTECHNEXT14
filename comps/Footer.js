@@ -7,6 +7,7 @@ import * as CONSTANTS from "../constants/constants";
 import axios from "axios";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -475,10 +476,10 @@ export default function Footer() {
                       </li>
                       <li>
                         <Link
-                          href="https://www.twitter.com/sibinfotech"
+                          href="https://x.com/sibinfotech"
                           target="_blank"
                         >
-                          <i className="fab fa-twitter"></i>
+                         <FaXTwitter />
                         </Link>
                       </li>
                       <li>

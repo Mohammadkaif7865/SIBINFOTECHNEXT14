@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Modal } from "react-bootstrap";
 import BannerForm from "./BannerForm";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Header() {
   const [show, setShow] = useState(false);
@@ -1046,8 +1047,8 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.twitter.com/sibinfotech">
-                    <i className="fab fa-twitter"></i>
+                  <a target="_blank" href="https://x.com/sibinfotech">
+                    <FaXTwitter />
                   </a>
                 </li>
                 <li>
