@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.css";
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 
+import "../public/assets/css/blog.css";
+
 import { Inter } from "next/font/google";
 
 const inter = Inter({
