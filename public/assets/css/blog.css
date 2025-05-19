@@ -1,0 +1,44 @@
+#single_blog {
+    padding: 100px 0 !important;
+}
+
+.rightSingleBlog h1 {
+    padding: 0;
+    font-size: 40px;
+}
+
+.rightSingleBlog h1::after {
+    display: none;
+}
+
+.blog-sidebar .list-unstyled li:first-child {
+    padding-top: 5px;
+    margin-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.blog-sidebar .list-unstyled li a {
+    display: block;
+    color: #000;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.blog-faqs .faq-item button {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.faq-item-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.faq-item-description {
+    color: #000;
+}
+
+.blog_section_item {
+    margin-top: 15px;
+}
