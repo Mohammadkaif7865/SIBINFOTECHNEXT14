@@ -6,6 +6,7 @@ import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
 
 import "../public/assets/css/blog.css";
+import "../public/assets/css/chatbot.css";
 
 import { Inter } from "next/font/google";
 
