@@ -22,13 +22,20 @@ export async function getServerSideProps(context) {
     const resBlogs = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
       headers,
     });
+
     const blog = resBlog.data.blog;
     const blogs = resBlogs.data.blogs;
+    const blogSections = resBlog.data.blog_sections;
+    const blogFaqs = resBlog.data.blog_faqs;
+
+    console.log(blogSections);
 
     return {
       props: {
         blog,
         blogs,
+        blogSections,
+        blogFaqs,
       },
     };
   } catch (error) {
@@ -71,60 +78,8 @@ function FaqAccordion({ faqs }) {
   );
 }
 
-function SingleBlog({ blog, blogs }) {
+function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
-
-  const blogSections = [
-    {
-      id: 1,
-      blog_id: blog[0].id,
-      title: "Introduction to SEO",
-      media: "/assets/images/sib-mumbai-office.jpg",
-      media_type: "image",
-      description: "<p>SEO is critical for visibility...</p>",
-      grey_quote: "SEO is not about tricking Google, it's about partnering with it.",
-      order: 1,
-      publish: 1,
-      createdAt: new Date(),
-      updatedAt: null,
-    },
-    {
-      id: 2,
-      blog_id: blog[0].id,
-      title: "Benefits of SEO",
-      media: null,
-      media_type: "none",
-      description: "<p>SEO helps improve your rankings organically.</p>",
-      grey_quote: null,
-      order: 2,
-      publish: 1,
-      createdAt: new Date(),
-      updatedAt: null,
-    },
-  ];
-
-  const blogFaqs = [
-    {
-      id: 1,
-      blog_id: blog[0].id,
-      question: "What is SEO?",
-      answer: "SEO stands for Search Engine Optimization...",
-      order: 1,
-      publish: 1,
-      createdAt: new Date(),
-      updatedAt: null,
-    },
-    {
-      id: 2,
-      blog_id: blog[0].id,
-      question: "Why is SEO important for businesses?",
-      answer: "It helps businesses get found on search engines...",
-      order: 2,
-      publish: 1,
-      createdAt: new Date(),
-      updatedAt: null,
-    },
-  ];
 
   return (
     <div>
@@ -176,7 +131,7 @@ function SingleBlog({ blog, blogs }) {
                   <div className="col-lg-5">
                     <div className="singleBlogLeftImg">
                       <img
-                        src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+                        src={`${CONSTANTS.BACKEND_URL + blog[0].banner_image}`}
                         alt={blog[0].image_alt}
                         className="img-fluid"
                       />
@@ -188,7 +143,7 @@ function SingleBlog({ blog, blogs }) {
           </section>
 
           {/* Breadcrumb */}
-          <section className="pt-2">
+          <section className="pt-4 pb-4">
             <div className="containerFull">
               <p className="breadcrum-text">
                 Home <i className="fa-solid fa-angle-right"></i> Blog{" "}
@@ -242,6 +197,15 @@ function SingleBlog({ blog, blogs }) {
 
                 {/* Main Content */}
                 <div className="col-lg-9">
+
+                  <div className="mb-3">
+                      <img
+                        src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+                        alt={blog[0].image_alt}
+                        className="img-fluid"
+                      />
+                    </div>
+
                   {/* Blog Description */}
                   <div
                     dangerouslySetInnerHTML={{ __html: blog[0].description }}
@@ -254,7 +218,7 @@ function SingleBlog({ blog, blogs }) {
                       <h3 className="blog_section_item">{section.title}</h3>
                       <div className="blog_section_item">
                         {section.media_type === "image" && section.media && (
-                          <img src={section.media} alt="" className="img-fluid mb-3" />
+                          <img src={`${CONSTANTS.BACKEND_URL + section.media}`} alt="" className="img-fluid mb-3" />
                         )}
                       </div>
                       <div className="blog_section_item" dangerouslySetInnerHTML={{ __html: section.description }} />

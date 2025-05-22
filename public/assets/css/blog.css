@@ -2,9 +2,20 @@
     padding: 100px 0 !important;
 }
 
+#single_blog .rightSingleBlog .inlineAdded ul, 
+#single_blog .rightSingleBlog .inlineAdded ul li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#single_blog .rightSingleBlog .inlineAdded ul {
+    margin-top: 0;
+}
+
 .rightSingleBlog h1 {
     padding: 0;
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 .rightSingleBlog h1::after {
@@ -42,3 +53,4 @@
 .blog_section_item {
     margin-top: 15px;
 }
+
