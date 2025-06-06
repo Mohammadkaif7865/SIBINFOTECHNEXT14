@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
+import * as CONSTANTS from "@/constants/constants";
+import axios from "axios"; // Make sure this import is present at the top
 
 const ChatWithSIBInfotech = () => {
   const [sessionId, setSessionId] = useState(null);
@@ -14,12 +16,17 @@ const ChatWithSIBInfotech = () => {
 
   const chatEndRef = useRef(null);
 
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: CONSTANTS.API_TOKEN,
+  };
+
   const scrollToBottom = () => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
-    scrollToBottom();
+    // scrollToBottom();
   }, [messages]);
 
   const validateLead = () => {
@@ -45,21 +52,19 @@ const ChatWithSIBInfotech = () => {
     formData.append("query", lead.query);
 
     try {
-      const res = await fetch("/chatbot.php", {
-        method: "POST",
+      const res = await axios.post(`${CONSTANTS.API_URL}chat`, formData, {
         headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          "X-Requested-With": "XMLHttpRequest"
+          "Content-Type": "application/x-www-form-urlencoded"
         },
-        body: formData.toString()
       });
-      const data = await res.json();
+
+      const data = res.data;
 
       if (data.success) {
         setSessionId(data.session_id);
         setMessages([
           { sender: "user", content: lead.query },
-          { sender: "bot", content: data.response }
+          { sender: "bot", content: data.response },
         ]);
         setShowModal(false);
       } else {
@@ -71,6 +76,7 @@ const ChatWithSIBInfotech = () => {
       setLoading(false);
     }
   };
+
 
   const sendMessage = async () => {
     if (!input.trim() || !sessionId) return;
@@ -85,27 +91,25 @@ const ChatWithSIBInfotech = () => {
     formData.append("session_id", sessionId);
 
     try {
-      const res = await fetch("/chatbot.php", {
-        method: "POST",
+      const res = await axios.post(`${CONSTANTS.API_URL}chat`, formData, {
         headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          "X-Requested-With": "XMLHttpRequest"
+          "Content-Type": "application/x-www-form-urlencoded"
         },
-        body: formData.toString()
       });
 
-      const data = await res.json();
+      const data = res.data;
       setMessages([
         ...newMessages,
-        { sender: "bot", content: data.response || "Sorry, I didn't get that." }
+        { sender: "bot", content: data.response || "Sorry, I didn't get that." },
       ]);
     } catch (err) {
       setMessages([
         ...newMessages,
-        { sender: "bot", content: "Something went wrong. Please try again later." }
+        { sender: "bot", content: "Something went wrong. Please try again later." },
       ]);
     }
   };
+
 
   return (
     <>
