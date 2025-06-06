@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
+import * as CONSTANTS from "@/constants/constants";
 
 const ChatWithSIBInfotech = () => {
   const [sessionId, setSessionId] = useState(null);
@@ -13,6 +14,11 @@ const ChatWithSIBInfotech = () => {
   const [loading, setLoading] = useState(false);
 
   const chatEndRef = useRef(null);
+
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: CONSTANTS.API_TOKEN,
+  };
 
   const scrollToBottom = () => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -33,6 +39,7 @@ const ChatWithSIBInfotech = () => {
   };
 
   const handleLeadSubmit = async (e) => {
+        
     e.preventDefault();
     if (!validateLead()) return;
     setLoading(true);
@@ -45,7 +52,7 @@ const ChatWithSIBInfotech = () => {
     formData.append("query", lead.query);
 
     try {
-      const res = await fetch("/chatbot.php", {
+      const res = await fetch(`${CONSTANTS.API_URL}chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -85,7 +92,7 @@ const ChatWithSIBInfotech = () => {
     formData.append("session_id", sessionId);
 
     try {
-      const res = await fetch("/chatbot.php", {
+      const res = await fetch(`${CONSTANTS.API_URL}chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
