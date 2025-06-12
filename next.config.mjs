@@ -6,6 +6,36 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/google-search-network-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/google-display-network-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/google-shopping-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/video-youtube-ad-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/universal-app-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/remarketing-retargeting-campaign",
+        destination: "/",
+        permanent: true,
+      },
+      {
         source: "/search-engine-optimization-services",
         destination: "/search-engine-optimization-seo-services",
         permanent: true, // This is a 301 redirect
@@ -335,7 +365,6 @@ const nextConfig = {
         protocol: "https",
         hostname: "groupfractal.com",
       },
-      
     ],
   },
   eslint: {
