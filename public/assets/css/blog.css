@@ -22,28 +22,70 @@
     display: none;
 }
 
+.border-shadow {
+    border: 1px solid #eee;
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 5px;
+}
+
+.blog_section {
+    padding: 30px;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+h3.blog_section_item,
+.blog-faqs h3,
+.action_tab h3 {
+    margin: 0;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+.blog_section_item p,
+.blogDescriptions p,
+.blog_grey_quote,
+.blog_grey_quote p {
+    font-size: 90%;
+}
+
+.blog_grey_quote {
+    border-left: 5px solid;
+}
+
+.blog-sidebar .list-unstyled {
+    padding: 15px;
+}
+
 .blog-sidebar .list-unstyled li:first-child {
-    padding-top: 5px;
-    margin-top: 15px;
-    border-top: 1px solid #ddd;
+    /* padding-top: 5px; */
+    /* margin-top: 15px; */
+    /* border-top: 1px solid #ddd; */
 }
 
 .blog-sidebar .list-unstyled li a {
     display: block;
     color: #000;
-    margin: 15px 0;
-    padding-left: 10px;
+    font-size: 90%;
+    padding: 7px 5px;
+    /* margin-bottom: 10px; */
 }
 
 .blog-faqs .faq-item button {
     background: none;
     box-shadow: none;
     border: none;
+    align-items: center;
 }
 
 .faq-item-title {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
 }
 
 .faq-item-description {
@@ -54,3 +96,12 @@
     margin-top: 15px;
 }
 
+.faq-item {
+    padding: 10px 15px;
+    margin-bottom: 7px;
+}
+
+.faq-item-description,
+.faq-item-description p {
+    font-size: 15px;
+}
