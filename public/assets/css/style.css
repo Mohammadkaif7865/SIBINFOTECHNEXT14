@@ -2072,10 +2072,6 @@ section {
   margin: 0px;
 }
 
-.faq-item {
-  margin-bottom: 20px;
-}
-
 .mapBlock {
   background: url(/assets/images/bg/footer-bg-min.jpg) no-repeat;
   background-attachment: fixed;
@@ -7423,13 +7419,13 @@ table tbody tr td:nth-child(3) {
 }
 
 .inline_blog_card {
-  box-shadow: 0 2px 7px #e0e0e0;
+  /* box-shadow: 0 2px 7px #e0e0e0; */
 }
 
 .inline_blog_card a {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   align-items: center;
 }
 
@@ -7448,7 +7444,7 @@ table tbody tr td:nth-child(3) {
 }
 
 .inline_blog_card .content .title {
-  font-size: 100%;
+  font-size: 90%;
   margin-bottom: 5px;
   font-weight: 600;
   overflow: hidden;
@@ -7456,7 +7452,7 @@ table tbody tr td:nth-child(3) {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  height: 78px;
+  height: 66px;
 }
 
 #single_blog .blog-card .title {

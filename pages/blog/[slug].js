@@ -58,7 +58,7 @@ function FaqAccordion({ faqs }) {
       <h3 className="mb-4">Frequently Asked Questions</h3>
       <div className="faq-accordion">
         {faqs.map((faq, index) => (
-          <div key={faq.id} className="faq-item border-bottom mb-3 pb-3">
+          <div key={faq.id} className="faq-item border-shadow">
             <button
               onClick={() => toggleFAQ(index)}
               className="w-100 text-start fw-semibold fs-5 d-flex justify-content-between"
@@ -133,7 +133,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                       <img
                         src={`${CONSTANTS.BACKEND_URL + blog[0].banner_image}`}
                         alt={blog[0].image_alt}
-                        className="img-fluid"
+                        className="img-fluid br-5"
                       />
                     </div>
                   </div>
@@ -160,8 +160,8 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                 {/* Sidebar */}
                 <div className="col-lg-3">
                   <div className="blog-sidebar">
-                    <h4>Blog Sections</h4>
-                    <ul className="list-unstyled">
+                    <h5 className="mb-3">Blog Sections</h5>
+                    <ul className="blog-sidebar list-unstyled border-shadow">
                       {blogSections.map((section) => (
                         <li key={section.id}>
                           <a href={`#section-${section.id}`}>{section.title}</a>
@@ -170,13 +170,13 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                     </ul>
 
                     <div className="mt-5">
-                      <h5>Recent posts</h5>
+                      <h5 className="mb-3">Recent posts</h5>
                       {blogs &&
                         blogs
                           .filter((blogItem) => blogItem.category_id === selectedcategory)
                           .slice(0, 10)
                           .map((blogItem, index) => (
-                            <div key={index} className="inline_blog_card mb-3">
+                            <div key={index} className="inline_blog_card border-shadow mb-3">
                               <Link href={"/blog/" + blogItem.slug}>
                                 <div className="img">
                                   <img
@@ -202,36 +202,129 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                       <img
                         src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
                         alt={blog[0].image_alt}
-                        className="img-fluid"
+                        className="img-fluid br-5"
                       />
                     </div>
 
                   {/* Blog Description */}
                   <div
                     dangerouslySetInnerHTML={{ __html: blog[0].description }}
-                    className="blogDescriptions mb-5"
+                    className="blogDescriptions mb-4"
                   ></div>
 
                   {/* Blog Sections */}
-                  {blogSections.map((section) => (
-                    <div key={section.id} id={`section-${section.id}`} className="mb-5 blog_section">
-                      <h3 className="blog_section_item">{section.title}</h3>
-                      <div className="blog_section_item">
-                        {section.media_type === "image" && section.media && (
-                          <img src={`${CONSTANTS.BACKEND_URL + section.media}`} alt="" className="img-fluid mb-3" />
-                        )}
-                      </div>
-                      <div className="blog_section_item" dangerouslySetInnerHTML={{ __html: section.description }} />
-                      {section.grey_quote && (
-                        <div className="p-3 my-3 blog_section_item" style={{ background: "#f0f0f0", fontStyle: "italic" }}>
-                          “{section.grey_quote}”
-                        </div>
-                      )}
-                    </div>
-                  ))}
+                  {blogSections && blogSections.length > 0 && blogSections.some(
+                    section => section.title || section.description || section.media || section.grey_quote
+                  ) && (
+                    <>
+                      {blogSections.map((section) => {
+                        const sectionStyle = {};
+                        if (section.section_bg_color) sectionStyle.background = section.section_bg_color;
+                        if (section.section_border_color) sectionStyle.border = `1px solid ${section.section_border_color}`;
+
+                        const greyQuoteStyle = {
+                          fontStyle: "italic",
+                          padding: "1rem"
+                        };
+                        if (section.grey_quote_bg_color) greyQuoteStyle.background = section.grey_quote_bg_color;
+                        if (section.grey_quote_border_color) greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
+
+                        return (
+                          <div
+                            key={section.id}
+                            id={`section-${section.id}`}
+                            className="mb-4 blog_section border-shadow"
+                            style={sectionStyle}
+                          >
+                            <h3 className="blog_section_item">{section.title}</h3>
+
+                            <div className="blog_section_item">
+                              {section.media_type === "image" && section.media && (
+                                <img
+                                  src={`${CONSTANTS.BACKEND_URL + section.media}`}
+                                  alt=""
+                                  className="img-fluid br-5 mb-3"
+                                />
+                              )}
+                            </div>
+
+                            <div
+                              className="blog_section_item"
+                              dangerouslySetInnerHTML={{ __html: section.description }}
+                            />
+
+                            {section.grey_quote && (
+                              <div
+                                className="blog_section_item blog_grey_quote" style={greyQuoteStyle}
+                                dangerouslySetInnerHTML={{ __html: section.grey_quote }}
+                              />
+                            )}
+                          </div>
+                        );
+                      })}
+                    </>
+                  )}
+
 
                   {/* FAQs */}
-                  <FaqAccordion faqs={blogFaqs} />
+                  {blogFaqs && blogFaqs.length > 0 && blogFaqs.some(faq => faq.question || faq.answer) && (
+                    <FaqAccordion faqs={blogFaqs} />
+                  )}
+
+
+                  {/* Action Section */}
+                  {blog[0] && (blog[0].action_title || blog[0].action_description_1 || blog[0].action_btn_1_text) && (
+                    <div className="action_tab my-5">
+                      <div className="p-4 rounded" style={{ backgroundColor: "#e9f0ff" }}>
+                        <h3 className="mb-4">{blog[0].action_title}</h3>
+
+                        <div className="row">
+                          <div className="col-md-6">
+                            {blog[0].action_subtitle_1 && (
+                              <p className="mt-2">{blog[0].action_subtitle_1}</p>
+                            )}
+                            <div
+                              className="mb-3"
+                              dangerouslySetInnerHTML={{ __html: blog[0].action_description_1 }}
+                            />
+                            {blog[0].action_btn_1_text && blog[0].action_btn_1_link && (
+                              <a
+                                href={blog[0].action_btn_1_link}
+                                className="btn btn-primary me-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {blog[0].action_btn_1_text}
+                              </a>
+                            )}
+                          </div>
+                          <div className="col-md-6">
+
+                            {blog[0].action_subtitle_2 && (
+                              <p className="mt-2">{blog[0].action_subtitle_2}</p>
+                            )}
+
+                            <div
+                              className="mb-3"
+                              dangerouslySetInnerHTML={{ __html: blog[0].action_description_2 }}
+                            />
+                            {blog[0].action_btn_2_text && blog[0].action_btn_2_link && (
+                              <a
+                                href={blog[0].action_btn_2_link}
+                                className="btn btn-outline-dark"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {blog[0].action_btn_2_text}
+                              </a>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+
                 </div>
               </div>
             </div>
