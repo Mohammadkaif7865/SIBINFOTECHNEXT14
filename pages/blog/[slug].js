@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from 'react';
 import Link from "next/link";
 import { format } from "date-fns";
 import axios from "axios";
@@ -81,6 +82,48 @@ function FaqAccordion({ faqs }) {
 function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
 
+  
+useEffect(() => {
+  if (typeof window === 'undefined') return;
+
+  const sidebar = document.getElementById('blog-sidebar');
+  const faqSection = document.querySelector('.blog-faqs');
+  if (!sidebar || !faqSection) return;
+
+  const sidebarInitialTop = sidebar.offsetTop;
+  const sidebarHeight = sidebar.offsetHeight;
+
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const faqTop = faqSection.getBoundingClientRect().top + window.scrollY;
+
+    const sidebarBottom = scrollTop + sidebarHeight;
+
+    // 👇 Show fixed sidebar if we've scrolled past its initial position
+    if (scrollTop > sidebarInitialTop && sidebarBottom < faqTop) {
+      sidebar.classList.add('fixed-sidebar');
+      sidebar.style.visibility = 'visible';
+    }
+    // 👇 Hide it when we're reaching the FAQ section
+    else if (sidebarBottom >= faqTop) {
+      sidebar.classList.remove('fixed-sidebar');
+      sidebar.style.visibility = 'hidden';
+    }
+    // 👇 Reset when we're above original position
+    else {
+      sidebar.classList.remove('fixed-sidebar');
+      sidebar.style.visibility = 'visible';
+    }
+  };
+
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); // initial run
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       {blog && (
@@ -159,7 +202,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
               <div className="row">
                 {/* Sidebar */}
                 <div className="col-lg-3">
-                  <div className="blog-sidebar">
+                  <div className="blog-sidebar" id="blog-sidebar">
                     <h5 className="mb-3">Blog Sections</h5>
                     <ul className="blog-sidebar list-unstyled border-shadow">
                       {blogSections.map((section) => (
@@ -236,7 +279,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                             className="mb-4 blog_section border-shadow"
                             style={sectionStyle}
                           >
-                            <h3 className="blog_section_item">{section.title}</h3>
+                            <h2 className="blog_section_item">{section.title}</h2>
 
                             <div className="blog_section_item">
                               {section.media_type === "image" && section.media && (
@@ -276,7 +319,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                   {blog[0] && (blog[0].action_title || blog[0].action_description_1 || blog[0].action_btn_1_text) && (
                     <div className="action_tab my-5">
                       <div className="p-4 rounded" style={{ backgroundColor: "#e9f0ff" }}>
-                        <h3 className="mb-4">{blog[0].action_title}</h3>
+                        <h2 className="mb-4">{blog[0].action_title}</h2>
 
                         <div className="row">
                           <div className="col-md-6">
