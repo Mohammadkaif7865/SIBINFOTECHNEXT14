@@ -82,46 +82,45 @@ function FaqAccordion({ faqs }) {
 function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
 
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
+  
+useEffect(() => {
+  if (typeof window === 'undefined') return;
 
-    const sidebar = document.getElementById('blog-sidebar');
-    const faqSection = document.querySelector('.blog-faqs');
-    if (!sidebar || !faqSection) return;
+  const sidebar = document.getElementById('blog-sidebar');
+  const faqSection = document.querySelector('.blog-faqs');
+  if (!sidebar || !faqSection) return;
 
-    const offsetTop = sidebar.offsetTop;
+  const sidebarInitialTop = sidebar.offsetTop;
+  const sidebarHeight = sidebar.offsetHeight;
 
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const faqTop = faqSection.getBoundingClientRect().top + window.scrollY;
 
-      if (scrollTop > offsetTop - 20) {
-        sidebar.classList.add('fixed-sidebar');
-      } else {
-        sidebar.classList.remove('fixed-sidebar');
-      }
-    };
+    const sidebarBottom = scrollTop + sidebarHeight;
 
-    // Intersection observer to hide only when .blog-faqs is at bottom
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.boundingClientRect.top < window.innerHeight && entry.isIntersecting) {
-          sidebar.style.display = 'none'; // hide when blog-faqs enters bottom view
-        } else {
-          sidebar.style.display = 'block';
-        }
-      },
-      {
-        root: null,
-        threshold: 0,
-      }
-    );
+    // 👇 Show fixed sidebar if we've scrolled past its initial position
+    if (scrollTop > sidebarInitialTop && sidebarBottom < faqTop) {
+      sidebar.classList.add('fixed-sidebar');
+      sidebar.style.visibility = 'visible';
+    }
+    // 👇 Hide it when we're reaching the FAQ section
+    else if (sidebarBottom >= faqTop) {
+      sidebar.classList.remove('fixed-sidebar');
+      sidebar.style.visibility = 'hidden';
+    }
+    // 👇 Reset when we're above original position
+    else {
+      sidebar.classList.remove('fixed-sidebar');
+      sidebar.style.visibility = 'visible';
+    }
+  };
 
-    observer.observe(faqSection);
-    window.addEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); // initial run
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      observer.disconnect();
     };
   }, []);
 
