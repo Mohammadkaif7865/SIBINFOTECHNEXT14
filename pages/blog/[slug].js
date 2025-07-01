@@ -83,46 +83,75 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
 
   
-useEffect(() => {
-  if (typeof window === 'undefined') return;
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
 
-  const sidebar = document.getElementById('blog-sidebar');
-  const faqSection = document.querySelector('.blog-faqs');
-  if (!sidebar || !faqSection) return;
+    const sidebar = document.getElementById('blog-sidebar');
+    const faqSection = document.querySelector('.blog-faqs');
+    if (!sidebar || !faqSection) return;
 
-  const sidebarInitialTop = sidebar.offsetTop;
-  const sidebarHeight = sidebar.offsetHeight;
+    const sidebarInitialTop = sidebar.offsetTop;
+    const sidebarHeight = sidebar.offsetHeight;
+    const offsetBuffer = 150;
+    const scrollOffset = 100;
 
-  const handleScroll = () => {
-    const scrollTop = window.scrollY;
-    const faqTop = faqSection.getBoundingClientRect().top + window.scrollY;
+    const handleScroll = () => {
+      if (window.innerWidth < 992) {
+        sidebar.classList.remove('fixed-sidebar');
+        sidebar.style.visibility = 'visible';
+        sidebar.style.maxHeight = 'none';
+        sidebar.style.overflowY = 'visible';
+        return;
+      }
 
-    const sidebarBottom = scrollTop + sidebarHeight;
+      const scrollTop = window.scrollY;
+      const faqTop = faqSection.getBoundingClientRect().top + window.scrollY;
+      const sidebarBottom = scrollTop + sidebarHeight;
 
-    // 👇 Show fixed sidebar if we've scrolled past its initial position
-    if (scrollTop > sidebarInitialTop && sidebarBottom < faqTop) {
-      sidebar.classList.add('fixed-sidebar');
-      sidebar.style.visibility = 'visible';
-    }
-    // 👇 Hide it when we're reaching the FAQ section
-    else if (sidebarBottom >= faqTop) {
-      sidebar.classList.remove('fixed-sidebar');
-      sidebar.style.visibility = 'hidden';
-    }
-    // 👇 Reset when we're above original position
-    else {
-      sidebar.classList.remove('fixed-sidebar');
-      sidebar.style.visibility = 'visible';
-    }
-  };
+      if (scrollTop > (sidebarInitialTop + offsetBuffer) && sidebarBottom < faqTop) {
+        sidebar.classList.add('fixed-sidebar');
+        sidebar.style.visibility = 'visible';
+        sidebar.style.maxHeight = `calc(100vh - ${scrollOffset + 20}px)`; // Adjust height to fit viewport
+        sidebar.style.overflowY = 'auto';
+      } else if (sidebarBottom >= faqTop) {
+        sidebar.classList.remove('fixed-sidebar');
+        sidebar.style.visibility = 'hidden';
+      } else {
+        sidebar.classList.remove('fixed-sidebar');
+        sidebar.style.visibility = 'visible';
+        sidebar.style.maxHeight = 'none';
+        sidebar.style.overflowY = 'visible';
+      }
+    };
 
-  window.addEventListener('scroll', handleScroll);
-  handleScroll(); // initial run
+    // Smooth scroll with offset
+    const anchorLinks = sidebar.querySelectorAll('a[href^="#"]');
+    const handleAnchorClick = (e) => {
+      const href = e.currentTarget.getAttribute('href');
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const top = target.getBoundingClientRect().top + window.scrollY - scrollOffset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    };
+    anchorLinks.forEach((link) => {
+      link.addEventListener('click', handleAnchorClick);
+    });
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll);
+    handleScroll();
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+      anchorLinks.forEach((link) => {
+        link.removeEventListener('click', handleAnchorClick);
+      });
     };
   }, []);
+
 
   return (
     <div>
@@ -186,7 +215,7 @@ useEffect(() => {
           </section>
 
           {/* Breadcrumb */}
-          <section className="pt-4 pb-4">
+          <section className="pt-4 pb-4 blog_breadcrumb">
             <div className="containerFull">
               <p className="breadcrum-text">
                 Home <i className="fa-solid fa-angle-right"></i> Blog{" "}
@@ -201,53 +230,19 @@ useEffect(() => {
             <div className="containerFull">
               <div className="row">
                 {/* Sidebar */}
-                <div className="col-lg-3">
-                  <div className="blog-sidebar" id="blog-sidebar">
-                    <h5 className="mb-3">Blog Sections</h5>
-                    <ul className="blog-sidebar list-unstyled border-shadow">
-                      {blogSections.map((section) => (
-                        <li key={section.id}>
-                          <a href={`#section-${section.id}`}>{section.title}</a>
-                        </li>
-                      ))}
-                    </ul>
-
-                    <div className="mt-5">
-                      <h5 className="mb-3">Recent posts</h5>
-                      {blogs &&
-                        blogs
-                          .filter((blogItem) => blogItem.category_id === selectedcategory)
-                          .slice(0, 10)
-                          .map((blogItem, index) => (
-                            <div key={index} className="inline_blog_card border-shadow mb-3">
-                              <Link href={"/blog/" + blogItem.slug}>
-                                <div className="img">
-                                  <img
-                                    src={`${CONSTANTS.BACKEND_URL + blogItem.image}`}
-                                    alt={blogItem.image_alt}
-                                    className="img-fluid"
-                                  />
-                                </div>
-                                <div className="content">
-                                  <p className="title">{blogItem.name}</p>
-                                </div>
-                              </Link>
-                            </div>
-                          ))}
-                    </div>
-                  </div>
-                </div>
 
                 {/* Main Content */}
-                <div className="col-lg-9">
+                <div className="col-lg-9 order-1 order-lg-2">
 
-                  <div className="mb-3">
-                      <img
-                        src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-                        alt={blog[0].image_alt}
-                        className="img-fluid br-5"
-                      />
-                    </div>
+                  {blog[0]?.image && (
+                      <div className="mb-3">
+                        <img
+                          src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+                          alt={blog[0].image_alt}
+                          className="img-fluid br-5"
+                        />
+                      </div>
+                  )}
 
                   {/* Blog Description */}
                   <div
@@ -369,6 +364,44 @@ useEffect(() => {
 
 
                 </div>
+
+                <div className="col-lg-3 order-2 order-lg-1">
+                  <div className="blog-sidebar" id="blog-sidebar">
+                    <h5 className="mb-3">Blog Sections</h5>
+                    <ul className="blog-sidebar list-unstyled border-shadow">
+                      {blogSections.map((section) => (
+                        <li key={section.id}>
+                          <a href={`#section-${section.id}`}>{section.title}</a>
+                        </li>
+                      ))}
+                    </ul>
+
+                    <div className="mt-5">
+                      <h5 className="mb-3">Recent posts</h5>
+                      {blogs &&
+                        blogs
+                          .filter((blogItem) => blogItem.category_id === selectedcategory)
+                          .slice(0, 10)
+                          .map((blogItem, index) => (
+                            <div key={index} className="inline_blog_card border-shadow mb-3">
+                              <Link href={"/blog/" + blogItem.slug}>
+                                <div className="img">
+                                  <img
+                                    src={`${CONSTANTS.BACKEND_URL + blogItem.image}`}
+                                    alt={blogItem.image_alt}
+                                    className="img-fluid"
+                                  />
+                                </div>
+                                <div className="content">
+                                  <p className="title">{blogItem.name}</p>
+                                </div>
+                              </Link>
+                            </div>
+                          ))}
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </section>

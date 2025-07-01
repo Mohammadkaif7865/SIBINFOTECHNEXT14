@@ -72,6 +72,7 @@ h2.blog_section_item,
     color: #000;
     font-size: 90%;
     padding: 7px 5px;
+    font-weight: 600;
     /* margin-bottom: 10px; */
 }
 
@@ -106,13 +107,39 @@ h2.blog_section_item,
     font-size: 15px;
 }
 
-#blog-sidebar {
+.blog-sidebar .list-unstyled {
     background-color: #fff;
 }
 
 #blog-sidebar.fixed-sidebar {
   position: fixed;
   top: 100px;
-  z-index: 1000;
+  z-index: 9;
   width: 280px; /* or match original sidebar width */
+}
+
+.blog_breadcrumb {
+    background-color: #f9fbfd;
+}
+
+.blog_breadcrumb .text_primary {
+    color: #114c8d;
+}
+
+@media (max-width: 768px) {
+    #single_blog {
+        padding: 50px 0 !important;
+    }
+
+    .rightSingleBlog h1 {
+        font-size: 24px;
+    }
+
+    h2.blog_section_item, .blog-faqs h3, .action_tab h2 {
+        font-size: 110%;
+    }
+
+    .blog_section {
+        padding: 20px;
+    }
 }
