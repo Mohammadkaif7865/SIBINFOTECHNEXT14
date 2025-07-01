@@ -38,9 +38,9 @@
     border-radius: 5px;
 }
 
-h3.blog_section_item,
+h2.blog_section_item,
 .blog-faqs h3,
-.action_tab h3 {
+.action_tab h2 {
     margin: 0;
     font-size: 130%;
     font-weight: 600;
@@ -104,4 +104,15 @@ h3.blog_section_item,
 .faq-item-description,
 .faq-item-description p {
     font-size: 15px;
+}
+
+#blog-sidebar {
+    background-color: #fff;
+}
+
+#blog-sidebar.fixed-sidebar {
+  position: fixed;
+  top: 100px;
+  z-index: 1000;
+  width: 280px; /* or match original sidebar width */
 }
