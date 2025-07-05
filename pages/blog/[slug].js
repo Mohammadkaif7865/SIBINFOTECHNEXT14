@@ -371,7 +371,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                     <ul className="blog-sidebar list-unstyled border-shadow">
                       {blogSections.map((section) => (
                         <li key={section.id}>
-                          <a href={`#section-${section.id}`}>{section.title}</a>
+                          <a href={`#section-${section.id}`}>{section.section_link_title}</a>
                         </li>
                       ))}
                     </ul>
