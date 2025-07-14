@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from 'next/script';
 import Layout from "../comps/Layout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -70,8 +71,9 @@ function MyApp({ Component, pageProps }) {
           />
         </noscript>
 
-        {/* Clarity Script */}
+        {/* Microsoft Clarity Integration */}
         <Script
+          id="ms-clarity"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
