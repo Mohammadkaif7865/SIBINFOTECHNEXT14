@@ -248,29 +248,39 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   )}
 
                   {author && (
-                    <div className="blogAuthor">
-                      <div className="authorImage">
-                        <img
-                          src={`${CONSTANTS.BACKEND_URL + author.image}`}
-                          alt={author.name}
-                        />
+
+                    <div class="blog_section blog_section_shadow">
+
+                      <h2 class="blog_section_item">About The Author</h2>
+                      <div className="blogAuthor">
+                        <div className="authorImage">
+                          <img
+                            src={`${CONSTANTS.BACKEND_URL + author.image}`}
+                            alt={author.name}
+                          />
+                        </div>
+                        <div className="authorContent">
+                          <p className="authorName">{author.name}</p>
+                          <div
+                            className="authorDescription"
+                            dangerouslySetInnerHTML={{ __html: author.description }}
+                          ></div>
+                        </div>
                       </div>
-                      <div className="authorContent">
-                        <p className="authorName">{author.name}</p>
-                        <div
-                          className="authorDescription"
-                          dangerouslySetInnerHTML={{ __html: author.description }}
-                        ></div>
-                      </div>
+                    
                     </div>
+
                   )}
 
 
                   {/* Blog Description */}
-                  <div
-                    dangerouslySetInnerHTML={{ __html: blog[0].description }}
-                    className="blogDescriptions mb-4"
-                  ></div>
+                  {blog[0]?.description && (
+                    <div
+                      dangerouslySetInnerHTML={{ __html: blog[0].description }}
+                      className="blogDescriptions mb-4"
+                    ></div>
+                  )}
+
 
                   {/* Blog Sections */}
                   {blogSections && blogSections.length > 0 && blogSections.some(
