@@ -27,16 +27,20 @@ export async function getServerSideProps(context) {
     const blog = resBlog.data.blog;
     const blogs = resBlogs.data.blogs;
     const blogSections = resBlog.data.blog_sections;
-    const blogFaqs = resBlog.data.blog_faqs;
+    const blogFaqs = resBlog.data.blog_faqs;    
 
-    console.log(blogSections);
-
+    const resAuthor = await axios.get(`${CONSTANTS.API_URL}author/single/${blog[0].author_id}`, {
+      headers,
+    });
+    const author = resAuthor.data.author;    
+    
     return {
       props: {
         blog,
         blogs,
         blogSections,
         blogFaqs,
+        author
       },
     };
   } catch (error) {
@@ -79,9 +83,8 @@ function FaqAccordion({ faqs }) {
   );
 }
 
-function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
+function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
-
   
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -193,11 +196,11 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                         </ul>
                       </div>
                       <h1 className="regular_heading fontHeading fontWeight600">{blog[0].name}</h1>
-                      <div className="inlineAdded">
+                      {/* <div className="inlineAdded">
                         <ul>
                           <li><i className="fa fa-user-circle"></i> by Webdesk</li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-5">
@@ -243,6 +246,25 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs }) {
                         />
                       </div>
                   )}
+
+                  {author && (
+                    <div className="blogAuthor">
+                      <div className="authorImage">
+                        <img
+                          src={`${CONSTANTS.BACKEND_URL + author.image}`}
+                          alt={author.name}
+                        />
+                      </div>
+                      <div className="authorContent">
+                        <p className="authorName">{author.name}</p>
+                        <div
+                          className="authorDescription"
+                          dangerouslySetInnerHTML={{ __html: author.description }}
+                        ></div>
+                      </div>
+                    </div>
+                  )}
+
 
                   {/* Blog Description */}
                   <div
