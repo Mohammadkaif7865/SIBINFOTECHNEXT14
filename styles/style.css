@@ -1,45 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-/* @font-face {
-  font-family: "Graphik";
-  src: url("/assets/fonts/GraphikBlack.otf") format("opentype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Graphik";
-  src: url("/assets/fonts/GraphikBold.otf") format("opentype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Graphik";
-  src: url("/assets/fonts/GraphikSemibold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Graphik";
-  src: url("/assets/fonts/GraphikMedium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Graphik";
-  src: url("/assets/fonts/GraphikRegular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
 body {
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -202,7 +164,7 @@ section {
 }
 
 .fontHeading {
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
 }
 .header {
   /* position: absolute; */
@@ -1040,7 +1002,6 @@ section {
 .fontNumber {
   font-size: 30px;
   font-weight: 800;
-  /* font-family: "Montserrat"; */
 }
 
 .drivenLeft ul {
@@ -1168,7 +1129,7 @@ section {
 }
 
 .marketingTabs ul li {
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
   padding: 8px 10px;
   cursor: pointer;
   position: relative;
@@ -2708,7 +2669,7 @@ section {
 }
 
 .customHeading {
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
   font-size: 26px;
   line-height: 30px;
   margin-bottom: 20px;
@@ -9507,7 +9468,7 @@ table tbody tr td:nth-child(2) {
   /* border: 1px solid red; */
 }
 .introduction_seo_list .content h4 {
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
   font-weight: 600;
   font-size: 24px;
 }
@@ -9720,7 +9681,7 @@ table tbody tr td:nth-child(2) {
 .devlp-inner-box h4,
 .sd-benefit-box h5,
 .help-inner-box H4 {
-  font-family: "Lora", serif;
+  font-family: "lora", serif;
 }
 
 .mainFaq {
@@ -10523,8 +10484,6 @@ font-size: 20px;
 /* banner button */
 
 .fontHeading2 {
-  /* font-family: "Syne", Sans-serif; */
-  /* font-family: "Montserrat", sans-serif; */
   font-family: "Inter", sans-serif;
 }
 .banner_swiper_main {
