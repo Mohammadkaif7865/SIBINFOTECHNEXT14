@@ -1,20 +1,102 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
+import Script from 'next/script';
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en" >
         <Head>
+
+
+        {/* Google Fonts: Poppins & Lora */}
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
+
+          {/* Bootstrap 5.3.2 CSS (Preloaded and deferred) */}
+          <link
+            rel="preload"
+            as="style"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossOrigin="anonymous"
+          />
+
+          {/* Font Awesome */}
+          <link
+            rel="preload"
+            as="style"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+
+          {/* Bootstrap Icons */}
+          <link
+            rel="preload"
+            as="style"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+
+          {/* AOS Animation CSS */}
+          <link
+            rel="preload"
+            as="style"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+
+          {/* Fallbacks for noscript (match exact versions used above) */}
+          <noscript>
+            <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+              crossOrigin="anonymous"
+            />
+          </noscript>
+          <noscript>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            />
+          </noscript>
+          <noscript>
+            <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+            />
+          </noscript>
+          <noscript>
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            />
+          </noscript>
+
+          {/** Optional fallback if you need legacy layout support with Bootstrap 5.0.2 */}
+          {
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossOrigin="anonymous"
+          />
+          }
+
           {/* Google Tag Manager */}
-          <script
+          <Script
+            id="gtm-script"
+            strategy="lazyOnload"
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-WSSFNZR');`,
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-WSSFNZR');`,
             }}
           />
           {/* End Google Tag Manager */}
@@ -31,6 +113,7 @@ class MyDocument extends Document {
               }),
             }}
           />
+
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -59,38 +142,41 @@ class MyDocument extends Document {
               }),
             }}
           />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "LocalBusiness",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com/",
-                image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
-                priceRange: "₹5,000 - ₹500,000",
-                telephone: "+91 92222 60000",
-                email: "contact@sibinfotech.com",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress:
-                    "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-                  addressLocality: "Mumbai, Maharashtra",
-                  addressCountry: "India",
-                  postalCode: "400064",
-                },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.4",
-                  bestRating: "5",
-                  reviewCount: "200",
-                },
-                openingHours: ["Mon-Sat 09:30 AM - 06:30 PM"],
-              }),
-            }}
-          />
 
           <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "LocalBusiness",
+                  name: "SIB Infotech",
+                  url: "https://www.sibinfotech.com/",
+                  image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+                  priceRange: "₹5,000 - ₹500,000",
+                  telephone: "+91 92222 60000",
+                  email: "contact@sibinfotech.com",
+                  address: {
+                    "@type": "PostalAddress",
+                    streetAddress:
+                      "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
+                    addressLocality: "Mumbai, Maharashtra",
+                    addressCountry: "India",
+                    postalCode: "400064",
+                  },
+                  aggregateRating: {
+                    "@type": "AggregateRating",
+                    ratingValue: "4.4",
+                    bestRating: "5",
+                    reviewCount: "200",
+                  },
+                  openingHours: ["Mon-Sat 09:30 AM - 06:30 PM"],
+                }),
+              }}
+            />
+
+          <Script
+            id="clarity-script"
+            strategy="lazyOnload"
             dangerouslySetInnerHTML={{
               __html: `
                 (function(c,l,a,r,i,t,y){
@@ -113,6 +199,7 @@ class MyDocument extends Document {
               style={{ display: "none", visibility: "hidden" }}
             ></iframe>
           </noscript>
+
 
           {/* End Google Tag Manager (noscript) */}
           <Main />

@@ -356,7 +356,7 @@ export default function AboutUs() {
                   type="image/webp"
                 />
                 <img
-                  src="assets/images/sib-mumbai-office.jpg"
+                  src="assets/images/sib-mumbai-office.webp"
                   alt="Mumbai Office"
                 />
               </div>
@@ -420,7 +420,7 @@ export default function AboutUs() {
                   type="image/webp"
                 />
                 <img
-                  src="assets/images/sib-delhi-office.jpg"
+                  src="assets/images/sib-delhi-office.webp"
                   alt="Delhi Office"
                 />
               </div>
