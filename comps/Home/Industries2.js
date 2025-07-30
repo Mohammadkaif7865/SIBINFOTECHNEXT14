@@ -57,7 +57,7 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
   },
   {
     title: "Home Services",
-    img: "Home-Services.png",
+    img: "Home-Services.webp",
     description:
       "As a home services digital marketing agency, we drive consistent inquiries and bookings for plumbers, electricians, cleaning services, and more with local SEO and conversion-optimized websites.",
   },

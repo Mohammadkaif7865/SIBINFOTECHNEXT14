@@ -186,7 +186,7 @@ Custom-built software solutions designed to automate workflows, improve efficien
                   <div className="text-center mt-lg-5 mt-4">
                     <div className="imgBox">
                       <Image
-                        src="/assets/images/home-services.jpg"
+                        src="/assets/images/home-services.webp"
                         width={600}
                         height={400}
                         className="imgSize object-fit-contain"

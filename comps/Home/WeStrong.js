@@ -55,7 +55,7 @@ const WeStrong = () => {
                 className="object-fit-cover w-100 "
                 width={400}
                 height={300}
-                src={"/assets/images/party-img.png"}
+                src={"/assets/images/party-img.webp"}
                 alt=""
                 quality={100}
               />
