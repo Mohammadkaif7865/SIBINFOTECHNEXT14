@@ -10,26 +10,26 @@ export default function MobileSeoServices() {
   const metaTags = (
     <>
       <title>Top Mobile SEO Services Company in Mumbai, India</title>
-      <meta name="description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta name="description" content="Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success." />
       <meta name="keywords" content="Mobile SEO Services, Mobile SEO Services in India, Mobile SEO" />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/mobile-seo-services" />
       <meta property="og:title" content="Top Mobile SEO Services Company in Mumbai, India" />
-      <meta property="og:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta property="og:description" content="Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success." />
       <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-seo-services" />
       <meta property="twitter:title" content="Top Mobile SEO Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience." />
+      <meta property="twitter:description" content="Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-seo-services"
         breadcrumbTitle="Top Mobile SEO Services Company in Mumbai, India"
         PageRatingSchema
         description={
-          "SIB Infotech offers specialized mobile SEO services in India that focus on optimizing your website for mobile search results and high-quality user experience."
+          "Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success."
         }
         reviewCount={"5236"}
       />

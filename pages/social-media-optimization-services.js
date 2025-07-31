@@ -105,7 +105,7 @@ export default function SocialMediaOptimizationServices() {
       <title>Social Media Optimization Services Company in Mumbai, India</title>
       <meta
         name="description"
-        content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!"
+        content="Partner with SIB Infotech, a trusted SMO company in Mumbai, to grow your social media presence, increase engagement, and connect with your audience."
       />
       <meta name="keywords" content="Social Media Optimization Services" />
 
@@ -120,7 +120,7 @@ export default function SocialMediaOptimizationServices() {
       />
       <meta
         property="og:description"
-        content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!"
+        content="Partner with SIB Infotech, a trusted SMO company in Mumbai, to grow your social media presence, increase engagement, and connect with your audience."
       />
       <meta
         property="og:image"
@@ -138,7 +138,7 @@ export default function SocialMediaOptimizationServices() {
       />
       <meta
         property="twitter:description"
-        content="Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!"
+        content="Partner with SIB Infotech, a trusted SMO company in Mumbai, to grow your social media presence, increase engagement, and connect with your audience."
       />
       <meta
         property="twitter:image"
@@ -150,7 +150,7 @@ export default function SocialMediaOptimizationServices() {
         breadcrumbTitle="Social Media Optimization Services Company in Mumbai, India"
         PageRatingSchema
         description={
-          "Maximize your brand's online presence with SIB Infotech, a top social media optimization company in Mumbai, India. Boost your business with effective SMO today!"
+          "Partner with SIB Infotech, a trusted SMO company in Mumbai, to grow your social media presence, increase engagement, and connect with your audience."
         }
         reviewCount={"5288"}
       />

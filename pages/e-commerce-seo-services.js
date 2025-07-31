@@ -13,7 +13,7 @@ export default function EcommerceSeoServices() {
       <title>Top eCommerce SEO Services Company in Mumbai, India</title>
       <meta
         name="description"
-        content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!"
+        content="Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
       />
       <meta
         name="keywords"
@@ -32,7 +32,7 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="og:description"
-        content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!"
+        content="Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
       />
       <meta
         property="og:image"
@@ -48,7 +48,7 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="twitter:description"
-        content="Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!"
+        content="Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
       />
       <meta
         property="twitter:image"
@@ -61,7 +61,7 @@ export default function EcommerceSeoServices() {
         breadcrumbTitle="Top eCommerce SEO Services Company in Mumbai, India"
         PageRatingSchema
         description={
-          "Maximize your e-commerce visibility and sales with SIB Infotech—an expert e-commerce SEO services agency in India. Get in touch for a proven SEO strategy today!"
+          "Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
         }
         reviewCount={"5186"}
       />

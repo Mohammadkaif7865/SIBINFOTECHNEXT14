@@ -10,7 +10,7 @@ export default function BlogManagementServices() {
       <title>Professional Blog Management Services Company Mumbai, India</title>
       <meta
         name="description"
-        content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales."
+        content="Struggling to keep your blog active and effective? SIB Infotech’s blog management services in Mumbai deliver SEO-driven content that attracts traffic, builds credibility, and grows your business."
       />
       <meta
         name="keywords"
@@ -29,7 +29,7 @@ export default function BlogManagementServices() {
       />
       <meta
         property="og:description"
-        content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales."
+        content="Struggling to keep your blog active and effective? SIB Infotech’s blog management services in Mumbai deliver SEO-driven content that attracts traffic, builds credibility, and grows your business."
       />
       <meta
         property="og:image"
@@ -47,7 +47,7 @@ export default function BlogManagementServices() {
       />
       <meta
         property="twitter:description"
-        content="SIB Infotech offers 360-degree blog management services in Mumbai, India that would bring traffic to your blog and increase your brand awareness and sales."
+        content="Struggling to keep your blog active and effective? SIB Infotech’s blog management services in Mumbai deliver SEO-driven content that attracts traffic, builds credibility, and grows your business."
       />
       <meta
         property="twitter:image"

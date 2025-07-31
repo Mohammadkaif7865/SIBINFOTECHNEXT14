@@ -12,7 +12,7 @@ export default function OffPageSeoServices() {
       <title>Off-Page SEO Services | Quality Backlinks for Your Website</title>
       <meta
         name="description"
-        content="Enhance your authority and search rankings with expert off-page SEO services by SIB Infotech. Build quality backlinks and drive organic traffic to your site."
+        content="Off-Page SEO isn't just about backlinks — it's about credibility. At SIB Infotech, we craft link-building strategies that earn trust, visibility, and lasting results."
       />
       <meta
         name="keywords"
@@ -30,7 +30,7 @@ export default function OffPageSeoServices() {
       />
       <meta
         property="og:description"
-        content="Enhance your authority and search rankings with expert off-page SEO services by SIB Infotech. Build quality backlinks and drive organic traffic to your site."
+        content="Off-Page SEO isn't just about backlinks — it's about credibility. At SIB Infotech, we craft link-building strategies that earn trust, visibility, and lasting results."
       />
       <meta
         property="og:image"
@@ -49,7 +49,7 @@ export default function OffPageSeoServices() {
       />
       <meta
         property="twitter:description"
-        content="Enhance your authority and search rankings with expert off-page SEO services by SIB Infotech. Build quality backlinks and drive organic traffic to your site."
+        content="Off-Page SEO isn't just about backlinks — it's about credibility. At SIB Infotech, we craft link-building strategies that earn trust, visibility, and lasting results."
       />
       <meta
         property="twitter:image"
@@ -61,7 +61,7 @@ export default function OffPageSeoServices() {
         breadcrumbTitle="Off-Page SEO Services | Quality Backlinks for Your Website"
         PageRatingSchema
         description={
-          "Enhance your authority and search rankings with expert off-page SEO services by SIB Infotech. Build quality backlinks and drive organic traffic to your site."
+          "Off-Page SEO isn't just about backlinks — it's about credibility. At SIB Infotech, we craft link-building strategies that earn trust, visibility, and lasting results."
         }
         reviewCount={"5242"}
       />

@@ -22,7 +22,7 @@ export default function LocalSeoServices() {
       <title>Best Local SEO Company India | Local SEO Services in Mumbai</title>
       <meta
         name="description"
-        content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings."
+        content="Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
       />
       <meta
         name="keywords"
@@ -41,7 +41,7 @@ export default function LocalSeoServices() {
       />
       <meta
         property="og:description"
-        content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings."
+        content="Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
       />
       <meta
         property="og:image"
@@ -60,7 +60,7 @@ export default function LocalSeoServices() {
       />
       <meta
         property="twitter:description"
-        content="SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings."
+        content="Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
       />
       <meta
         property="twitter:image"
@@ -72,7 +72,7 @@ export default function LocalSeoServices() {
         breadcrumbTitle="Best Local SEO Company India | Local SEO Services in Mumbai"
         PageRatingSchema
         description={
-          "SIB Infotech is among the best SEO companies in India that expertise in Local SEO services bringing your company listing to the top of Google Maps listings."
+          "Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
         }
         reviewCount={"5240"}
       />

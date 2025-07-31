@@ -12,7 +12,7 @@ export default function OnlineReputationManagementServices() {
       <title>Top Online Reputation Management Services in Mumbai, India</title>
       <meta
         name="description"
-        content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech."
+        content="Restore, protect, and improve your online reputation with SIB Infotech—Mumbai’s trusted ORM company. We manage reviews, monitor mentions, and boost brand credibility."
       />
       <meta
         name="keywords"
@@ -31,7 +31,7 @@ export default function OnlineReputationManagementServices() {
       />
       <meta
         property="og:description"
-        content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech."
+        content="Restore, protect, and improve your online reputation with SIB Infotech—Mumbai’s trusted ORM company. We manage reviews, monitor mentions, and boost brand credibility."
       />
       <meta
         property="og:image"
@@ -49,7 +49,7 @@ export default function OnlineReputationManagementServices() {
       />
       <meta
         property="twitter:description"
-        content="Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech."
+        content="Restore, protect, and improve your online reputation with SIB Infotech—Mumbai’s trusted ORM company. We manage reviews, monitor mentions, and boost brand credibility."
       />
       <meta
         property="twitter:image"
@@ -60,7 +60,7 @@ export default function OnlineReputationManagementServices() {
         breadcrumbTitle="Top Online Reputation Management Services in Mumbai, India"
         PageRatingSchema
         description={
-          "Protect and enhance your brand image with the best online reputation management company in Mumbai, India. Improve your brand credibility with SIB Infotech."
+          "Restore, protect, and improve your online reputation with SIB Infotech—Mumbai’s trusted ORM company. We manage reviews, monitor mentions, and boost brand credibility."
         }
         reviewCount={"5245"}
       />

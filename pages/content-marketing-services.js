@@ -10,7 +10,7 @@ export default function ContentMarketingServices() {
       <title>Content Marketing Services Agency in India | SIB Infotech</title>
       <meta
         name="description"
-        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+        content="Drive real growth with expert content marketing services from SIB Infotech, India. We craft SEO-friendly, engaging content that builds brand authority and fuels conversions."
       />
       <meta
         name="keywords"
@@ -28,7 +28,7 @@ export default function ContentMarketingServices() {
       />
       <meta
         property="og:description"
-        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+        content="Drive real growth with expert content marketing services from SIB Infotech, India. We craft SEO-friendly, engaging content that builds brand authority and fuels conversions."
       />
       <meta
         property="og:image"
@@ -46,7 +46,7 @@ export default function ContentMarketingServices() {
       />
       <meta
         property="twitter:description"
-        content="Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+        content="Drive real growth with expert content marketing services from SIB Infotech, India. We craft SEO-friendly, engaging content that builds brand authority and fuels conversions."
       />
       <meta
         property="twitter:image"
@@ -58,7 +58,7 @@ export default function ContentMarketingServices() {
         breadcrumbTitle="Content Marketing Services Agency in India | SIB Infotech"
         PageRatingSchema
         description={
-          "Boost your brand with the best content marketing services agency in India. SIB Infotech creates compelling content that engages and grows audiences for business."
+          "Drive real growth with expert content marketing services from SIB Infotech, India. We craft SEO-friendly, engaging content that builds brand authority and fuels conversions."
         }
         reviewCount={"5171"}
       />
