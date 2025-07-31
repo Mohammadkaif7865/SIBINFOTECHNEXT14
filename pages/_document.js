@@ -27,10 +27,8 @@ class MyDocument extends Document {
 
           {/* Font Awesome */}
           <link
-            rel="preload"
-            as="style"
+            rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            onLoad="this.onload=null;this.rel='stylesheet'"
           />
 
           {/* Bootstrap Icons */}
@@ -58,12 +56,7 @@ class MyDocument extends Document {
               crossOrigin="anonymous"
             />
           </noscript>
-          <noscript>
-            <link
-              rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            />
-          </noscript>
+          
           <noscript>
             <link
               rel="stylesheet"
