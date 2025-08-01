@@ -21,7 +21,7 @@ export default function GraphicDesigningServices() {
       <title>Best Graphic Designing Services Company in Mumbai, India</title>
       <meta
         name="description"
-        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+        content="Stand out with creative graphic design services in Mumbai by SIB Infotech. From logos to branding, we craft visuals that drive engagement and build identity."
       />
       <meta name="keywords" content="Graphic Designing Services" />
 
@@ -36,7 +36,7 @@ export default function GraphicDesigningServices() {
       />
       <meta
         property="og:description"
-        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+        content="Stand out with creative graphic design services in Mumbai by SIB Infotech. From logos to branding, we craft visuals that drive engagement and build identity."
       />
       <meta
         property="og:image"
@@ -54,7 +54,7 @@ export default function GraphicDesigningServices() {
       />
       <meta
         property="twitter:description"
-        content="Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+        content="Stand out with creative graphic design services in Mumbai by SIB Infotech. From logos to branding, we craft visuals that drive engagement and build identity."
       />
       <meta
         property="twitter:image"
@@ -66,7 +66,7 @@ export default function GraphicDesigningServices() {
         breadcrumbTitle="Best Graphic Designing Services Company in Mumbai, India"
         PageRatingSchema
         description={
-          "Elevate your brand with SIB Infotech, expert graphic designing services in India. Transform your ideas into captivating visuals that leave a lasting impact."
+          "Stand out with creative graphic design services in Mumbai by SIB Infotech. From logos to branding, we craft visuals that drive engagement and build identity."
         }
         reviewCount={"5209"}
       />

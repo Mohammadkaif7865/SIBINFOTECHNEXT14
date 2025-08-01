@@ -8,28 +8,28 @@ export default function InfluencerMarketingServices() {
   const metaTags = (
     <>
       <title>Influencer Marketing Services Agency India | SIB Infotech</title>
-      <meta name="description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta name="description" content="Get your brand in front of the right audience with top influencer marketing services in India. Partner with trusted creators to drive real engagement and lasting brand impact." />
       <meta name="keywords" content="Influence Marketing Services, Influencer Marketing Agency, Premium Influencer Marketing Services, Influencer Marketing campaigns, Perfect Influencer" />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/influencer-marketing-services
 " />
       <meta property="og:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
-      <meta property="og:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta property="og:description" content="Get your brand in front of the right audience with top influencer marketing services in India. Partner with trusted creators to drive real engagement and lasting brand impact." />
       <meta property="og:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg
 " />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/influencer-marketing-services" />
       <meta property="twitter:title" content="Influencer Marketing Services Agency India | SIB Infotech" />
-      <meta property="twitter:description" content="Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers." />
+      <meta property="twitter:description" content="Get your brand in front of the right audience with top influencer marketing services in India. Partner with trusted creators to drive real engagement and lasting brand impact." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/influencer-marketing-services.jpg" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/influencer-marketing-services"
         breadcrumbTitle="Influencer Marketing Services Agency India | SIB Infotech"
         PageRatingSchema
         description={
-          "Leverage the influencer marketing services by SIB Infotech to amplify your brand reach. Boost brand awareness and drive engagement through trusted influencers."
+          "Get your brand in front of the right audience with top influencer marketing services in India. Partner with trusted creators to drive real engagement and lasting brand impact."
         }
         reviewCount={"5214"}
       />

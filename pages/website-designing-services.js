@@ -10,7 +10,7 @@ export default function WebsiteDesigningServices() {
       <title>Best Website Designing Company in Mumbai, Delhi, India</title>
       <meta
         name="description"
-        content="SIB Infotech is a professional website design company in Mumbai, India offering custom web designing services to help companies grow their online business."
+        content="Get professional and responsive website designing services in Mumbai, Delhi & across India. SIB Infotech crafts custom websites that boost user experience, SEO, and business growth."
       />
       <meta
         name="keywords"
@@ -29,7 +29,7 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         property="og:description"
-        content="SIB Infotech is a professional website design company in Mumbai, India offering custom web designing services to help companies grow their online business."
+        content="Get professional and responsive website designing services in Mumbai, Delhi & across India. SIB Infotech crafts custom websites that boost user experience, SEO, and business growth."
       />
       <meta
         property="og:image"
@@ -48,7 +48,7 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         property="twitter:description"
-        content="SIB Infotech is a professional website design company in Mumbai, India offering custom web designing services to help companies grow their online business."
+        content="Get professional and responsive website designing services in Mumbai, Delhi & across India. SIB Infotech crafts custom websites that boost user experience, SEO, and business growth."
       />
       <meta
         property="twitter:image"
@@ -59,7 +59,7 @@ export default function WebsiteDesigningServices() {
         breadcrumbTitle="Best Website Designing Company in Mumbai, Delhi, India"
         PageRatingSchema
         description={
-          "SIB Infotech is a professional website design company in Mumbai, India offering custom web designing services to help companies grow their online business."
+          "Get professional and responsive website designing services in Mumbai, Delhi & across India. SIB Infotech crafts custom websites that boost user experience, SEO, and business growth."
         }
         reviewCount={"5308"}
       />
