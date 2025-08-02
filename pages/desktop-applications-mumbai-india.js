@@ -166,10 +166,7 @@ export default function DesktopApplicationMumbaiIndia() {
                 your GUI and make sure it satisfies your end users.
               </p>
               <p>
-                We offer rich, user friendly desktop applications that can be
-                used offline and run off the web. Our extensive expertise in
-                desktop application development ensures that in each project we
-                select optimum technologies for each customer needs.
+                We offer rich, user-friendly desktop applications that can be used offline and run off the web. Our extensive expertise in <Link href="/j2ee-application-development-companies-india">Application Development in India</Link> ensures that for each project, we select the optimum technologies tailored to each customer’s needs.
               </p>
             </div>
             <div className="col-md-6 order-1 order-lg-2">

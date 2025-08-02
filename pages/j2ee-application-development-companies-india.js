@@ -198,8 +198,7 @@ export default function J2eeApplicationDevelopement() {
                     <p className="custom-box-title">Solutions</p>
                     <p>
                       JAVA Software Development, JAVA Application Development,
-                      Web Application Development, Desktop Application
-                      Development, System Programming Solution, JAVA Embedded
+                      Web Application Development, <Link href="/desktop-applications-mumbai-india">Desktop Application</Link> Development, System Programming Solution, JAVA Embedded
                       technology solution, Components, className Utility
                     </p>
                   </div>

@@ -214,7 +214,7 @@ export default function EcommerceSeoServices() {
             </div>
             <div className="col-lg-6">
               <p className="customText">
-                Using our E-commerce SEO services you would see a real increase
+                Using our <Link href="/ecommerce-seo-services-packages">E-commerce SEO services</Link> you would see a real increase
                 in Google Search Traffic and sales with our market tested
                 e-commerce SEO audits and best SEO practices you’re your
                 e-commerce stores on the web we assure guaranteed rise in search

@@ -154,10 +154,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
                 marketing and email marketing.
               </p>
               <p>
-                SIB Infotech’s Internet marketing experts’ team is experienced
-                with the most up-to-date and greatest internet marketing
-                strategies, it includes search engine optimization, pay per
-                click, social media marketing and email marketing.
+                The team of internet marketing experts at SIB Infotech is experienced with the most up-to-date and effective internet marketing strategies. These include search engine optimization, pay-per-click, <Link href="/social-media-marketing-smm-services-packages">Social media marketing service packages</Link>, and email marketing.
               </p>
             </div>
             <div className="col-md-6 order-1 order-lg-2">
@@ -212,7 +209,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
                       <p>Affiliate Marketing Services</p>
                     </li>
                     <li>
-                      <p>E-Commerce Marketing Services</p>
+                      <p><Link href="/ecommerce-marketing-companies-mumbai-india">E-Commerce Marketing Services</Link></p>
                     </li>
                     <li>
                       <p>Email Marketing Services</p>

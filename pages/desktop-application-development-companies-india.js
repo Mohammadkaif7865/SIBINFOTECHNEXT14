@@ -161,7 +161,7 @@ export default function DesktopApplicationDevelopmentServices() {
                 kind of Desktop solutions. Our Desktop Application Developers
                 have in-depth knowledge in refining programming solutions such
                 as Java/J2EE, Microsoft .Net, Linux and Mac etc. Developing
-                user-friendly and easy-access Desktop Application can be
+                user-friendly and easy-access <Link href="/desktop-applications-mumbai-india">Desktop Application</Link> can be
                 possible if the developers follow new generation RDAs (Rich
                 Desktop Applications) and RIDAs (Rich Internet Desktop
                 Applications). We do this state-of-the-art technology to provide

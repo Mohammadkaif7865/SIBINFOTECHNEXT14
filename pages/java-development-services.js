@@ -166,8 +166,7 @@ export default function JavaDevelopmentServices() {
                 </li>
                 <li>
                   <p>
-                    Web Application Development,Â&nbsp;Desktop Application
-                    Development, System Programming Solution,Â&nbsp;JAVA
+                    Web Application Development, <Link href="/desktop-application-development-companies-india">Desktop Application Development</Link>, System Programming Solution, JAVA
                     Embedded technology solution, Components, className Utility
                   </p>
                 </li>
