@@ -9,49 +9,49 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
   const industries = [
   {
     title: "E-commerce & Retail",
-    img: "E-commerce-&-Retail.png",
+    img: "E-commerce-&-Retail.webp",
     description:
       "As a leading e-commerce digital marketing agency, we help online stores boost visibility, increase conversions, and drive revenue through performance-driven SEO, PPC, and full-funnel strategies.",
   },
   {
     title: "Healthcare & Pharma",
-    img: "Healthcare-&-Pharma.png",
+    img: "Healthcare-&-Pharma.webp",
     description:
       "As a trusted healthcare digital marketing agency, we specialize in website design, SEO, and PPC campaigns tailored for hospitals, clinics, and medical professionals to build credibility and attract more patients.",
   },
   {
     title: "Finance & Banking",
-    img: "Finance-&-Banking.png",
+    img: "Finance-&-Banking.webp",
     description:
       "As a finance digital marketing agency, we create secure and conversion-focused digital strategies to enhance online presence, generate qualified leads, and build trust for banks, NBFCs, and financial institutions.",
   },
   {
     title: "Education & E-learning",
-    img: "Education-&-E-learning.png",
+    img: "Education-&-E-learning.webp",
     description:
       "As an education digital marketing agency, we partner with schools, colleges, edtech platforms, and coaching institutes to increase student enrollment through smart SEO, paid campaigns, and engaging content.",
   },
   {
     title: "Beauty & Fashion",
-    img: "Beauty-&-Fashion.png",
+    img: "Beauty-&-Fashion.webp",
     description:
       "As a beauty and fashion digital marketing agency, we amplify your brand through compelling content, social media marketing, influencer collaborations, and e-commerce optimization to boost engagement and sales.",
   },
   {
     title: "Real Estate & Projects",
-    img: "Real-Estate-&-Projects.png",
+    img: "Real-Estate-&-Projects.webp",
     description:
       "As a real estate digital marketing agency, we generate high-quality leads for property developers, builders, and agents with hyper-targeted campaigns, local SEO, and landing pages that convert.",
   },
   {
     title: "Travel & Hospitality",
-    img: "Travel-&-Hospitality.png",
+    img: "Travel-&-Hospitality.webp",
     description:
       "As a travel and hospitality digital marketing agency, we help hotels, travel companies, and tourism brands attract more bookings through personalized content, search optimization, and paid media strategies.",
   },
   {
     title: "Legal & Consultancy",
-    img: "Legal-&-Consultancy.png",
+    img: "Legal-&-Consultancy.webp",
     description:
       "As a legal digital marketing agency, we help law firms and consultancy agencies grow their client base with professional web design, local SEO, and lead generation through PPC and content strategies.",
   },
@@ -63,31 +63,31 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
   },
   {
     title: "IT & Software",
-    img: "IT-&-Software.png",
+    img: "IT-&-Software.webp",
     description:
       "As an IT digital marketing agency, we build thought leadership and generate quality leads for software companies, SaaS platforms, and IT consultants using inbound marketing and SEO-focused strategies.",
   },
   {
     title: "Startups & Enterprises",
-    img: "Startups-&-Enterprises.png",
+    img: "Startups-&-Enterprises.webp",
     description:
       "As a startup digital marketing agency, we empower early-stage ventures and established enterprises to scale rapidly through lean strategies, data-driven performance marketing, and brand-building efforts.",
   },
   {
     title: "Telecommunication",
-    img: "Telecommunication.png",
+    img: "Telecommunication.webp",
     description:
       "As a telecom digital marketing agency, we boost visibility and customer acquisition for telecom brands through omnichannel campaigns, paid ads, and performance analytics.",
   },
   {
     title: "NGO",
-    img: "NGO.png",
+    img: "NGO.webp",
     description:
       "As an NGO digital marketing agency, we help non-profits raise awareness, increase donations, and engage communities through storytelling, SEO, and social media outreach.",
   },
   {
     title: "Matrimony",
-    img: "Matrimony.png",
+    img: "Matrimony.webp",
     description:
       "As a matrimony digital marketing agency, we drive user sign-ups and increase engagement through SEO, PPC, and conversion-focused platforms built for matchmaking and matrimony websites.",
   }
