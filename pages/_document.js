@@ -74,76 +74,70 @@ class MyDocument extends Document {
             }}
           />
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "WebSite",
-                name: "SIB Infotech",
-                alternateName: "SIB Infotech | SEO & Digital Marketing Agency",
-                url: "https://www.sibinfotech.com/",
-              }),
-            }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com/",
-                image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
-                sameAs: [
-                  "https://x.com/sibinfotech/",
-                  "https://www.facebook.com/sibinfotech/",
-                  "https://www.youtube.com/user/sibinfotech",
-                  "https://linkedin.com/company/sibinfotech",
-                  "https://www.instagram.com/sibinfotech/",
-                  "https://www.pinterest.com/sibinfotech/",
-                ],
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress:
-                    "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-                  addressRegion: "Mumbai, Maharashtra",
-                  postalCode: "400064",
-                  addressCountry: "India",
-                },
-              }),
-            }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "LocalBusiness",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com/",
-                image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
-                priceRange: "₹5,000 - ₹500,000",
-                telephone: "+91 92222 60000",
-                email: "contact@sibinfotech.com",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress:
-                    "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-                  addressLocality: "Mumbai, Maharashtra",
-                  addressCountry: "India",
-                  postalCode: "400064",
-                },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.4",
-                  bestRating: "5",
-                  reviewCount: "200",
-                },
-                openingHours: ["Mon-Sat 09:30 AM - 06:30 PM"],
-              }),
-            }}
-          />
+          <script type="application/ld+json">
+            {`{
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.sibinfotech.com/#website",
+              "name": "SIB Infotech",
+              "alternateName": "SIB Infotech | SEO & Digital Marketing Agency",
+              "url": "https://www.sibinfotech.com/"
+            }`}
+          </script>
+
+          <script type="application/ld+json">
+            {`{
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://www.sibinfotech.com/#organization",
+              "name": "SIB Infotech",
+              "url": "https://www.sibinfotech.com/",
+              "image": "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+              "sameAs": [
+                "https://x.com/sibinfotech/",
+                "https://www.facebook.com/sibinfotech/",
+                "https://www.youtube.com/user/sibinfotech",
+                "https://linkedin.com/company/sibinfotech",
+                "https://www.instagram.com/sibinfotech/",
+                "https://www.pinterest.com/sibinfotech/"
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
+                "addressRegion": "Mumbai, Maharashtra",
+                "postalCode": "400064",
+                "addressCountry": "India"
+              }
+            }`}
+          </script>
+
+          <script type="application/ld+json">
+            {`{
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "@id": "https://www.sibinfotech.com/#localbusiness",
+              "name": "SIB Infotech",
+              "url": "https://www.sibinfotech.com/",
+              "image": "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+              "priceRange": "₹5,000 - ₹500,000",
+              "telephone": "+91 92222 60000",
+              "email": "contact@sibinfotech.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
+                "addressLocality": "Mumbai, Maharashtra",
+                "addressCountry": "India",
+                "postalCode": "400064"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.4",
+                "bestRating": "5",
+                "reviewCount": "200"
+              },
+              "openingHours": ["Mon-Sat 09:30 AM - 06:30 PM"]
+            }`}
+          </script>
 
           <Script
             id="clarity-script"
@@ -153,7 +147,7 @@ class MyDocument extends Document {
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "semoba83rl");`,
+              })(window,document,"clarity","script","semoba83rl");`,
             }}
           />
         </Head>
