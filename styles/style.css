@@ -13615,7 +13615,7 @@ tudy-right-main {
 }
 
 .cta-left {
-  background-image: url("/assets/images/cta2/bg.png");
+  background-image: url("/assets/images/cta2/bg.webp");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
