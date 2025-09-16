@@ -1,79 +1,46 @@
+// pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
-          <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
-          <link rel="preconnect" href="https://unpkg.com" crossOrigin="anonymous" /> */}
-
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap"
             rel="stylesheet"
           />
-
-          {/* <link
-            rel="preload"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-          /> */}
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           />
-
-          {/* Font Awesome */}
-          {/* <link
-            rel="preload"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          /> */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
           />
-
-          {/* <link
-            rel="preload"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          /> */}
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
           />
-
-          {/* <link
-            rel="preload"
-            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          /> */}
           <link
             rel="stylesheet"
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           />
 
-          <Script
-            id="gtm-script"
-            strategy="afterInteractive"
+          {/* ---------- GTM: INERT (won't run until consent = granted) ---------- */}
+          <script
+            type="text/plain"
+            data-consent="analytics"
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-WSSFNZR');`,
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSSFNZR');`,
             }}
           />
 
+          {/* ---------- JSON-LD (not tracking) — keep as-is ---------- */}
           <script type="application/ld+json">
             {`{
               "@context": "https://schema.org",
@@ -139,29 +106,28 @@ class MyDocument extends Document {
             }`}
           </script>
 
-          <Script
-            id="clarity-script"
-            strategy="lazyOnload"
+          {/* ---------- Clarity: INERT ---------- */}
+          <script
+            type="text/plain"
+            data-consent="analytics"
             dangerouslySetInnerHTML={{
               __html: `(function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window,document,"clarity","script","semoba83rl");`,
+c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window,document,"clarity","script","semoba83rl");`,
             }}
           />
         </Head>
         <body>
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-WSSFNZR"
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            ></iframe>
-          </noscript>
+          {/* ❌ Remove the GTM <noscript> iframe to avoid tracking without consent */}
+          {/* <noscript>...iframe...</noscript> */}
+
           <Main />
           <NextScript />
+
+          {/* ✅ Load the consent controller (activates inert scripts on Allow) */}
+          <script defer src="/cookie-consent.js"></script>
         </body>
       </Html>
     );
