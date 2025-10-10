@@ -5,11 +5,15 @@ import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
 
+import { captureUTM, appendUTM } from "../utils/utm";
+
 export default function BannerForm() {
   const headers = {
     "Content-Type": "multipart/form-data",
     Authorization: CONSTANTS.API_TOKEN,
   };
+
+  const [recaptchaToken, setRecaptchaToken] = useState(null);
 
   const [code, setCode] = useState();
 
@@ -41,6 +45,15 @@ export default function BannerForm() {
     formData.append("service", inputs.service);
     formData.append("website", inputs.website);
     formData.append("pageUrl", window.location.pathname);
+
+    appendUTM(formData); // add UTM fields
+
+    if (!recaptchaToken) {
+      alert("Please complete the reCAPTCHA");
+      return;
+    }
+    formData.append("recaptchaToken", recaptchaToken);
+
     const res = await axios
       .post(`${CONSTANTS.API_URL}home/submit_banner_enquiry`, formData, {
         headers: headers,
@@ -134,6 +147,40 @@ export default function BannerForm() {
 
   useEffect(() => {
     // createCaptcha();
+  }, []);
+
+  useEffect(() => {
+    captureUTM(); // run once on load
+  }, []);
+
+  // --- ADD THIS useEffect before return() ---
+  useEffect(() => {
+    const siteKey = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib";
+
+    const renderWidget = () => {
+      if (!window.grecaptcha || !window.grecaptcha.render) return;
+      if (!document.getElementById("recaptcha-container")) return;
+
+      window.grecaptcha.render("recaptcha-container", {
+        sitekey: siteKey,
+        callback: (token) => setRecaptchaToken(token),
+        "expired-callback": () => setRecaptchaToken(null),
+      });
+    };
+
+    window.__onGRecaptchaLoaded = renderWidget;
+
+    if (!document.querySelector('script[src^="https://www.google.com/recaptcha/api.js"]')) {
+      const script = document.createElement("script");
+      script.src = "https://www.google.com/recaptcha/api.js?onload=__onGRecaptchaLoaded&render=explicit";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    } else {
+      renderWidget();
+    }
+
+    return () => delete window.__onGRecaptchaLoaded;
   }, []);
 
   return (
@@ -235,6 +282,10 @@ export default function BannerForm() {
               ></textarea>
             </div>
           </div>
+        </div>
+
+        <div className="bannerFormItem mt-2">
+          <div id="recaptcha-container"></div>
         </div>
    
         <div className="bannerFormItem mt-2">

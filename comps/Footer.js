@@ -21,30 +21,47 @@ export default function Footer() {
   });
   const [showForm, setShowForm] = useState(true);
 
+  // add these lines (place right after your existing useState declarations)
+  const [submitting, setSubmitting] = useState(false);
+  const [recaptchaWidgetId, setRecaptchaWidgetId] = useState(null);
+
+
   const handleInputChange = (e) => {
     setInputs((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
     }));
   };
-  const submitEnquiry = async () => {
+  // REPLACE entire submitEnquiry function with this
+  const submitEnquiry = async (recaptchaToken) => {
     const formData = new FormData();
     formData.append("name", inputs.name);
     formData.append("email", inputs.email);
     formData.append("message", inputs.message);
 
+    // append reCAPTCHA token (v2) so backend can verify
+    if (recaptchaToken) {
+      formData.append("recaptchaToken", recaptchaToken);
+    } else {
+      // still include empty field so backend sees the key
+      formData.append("recaptchaToken", "");
+    }
+
     const res = await axios
       .post(`${CONSTANTS.API_URL}home/submit_quotes`, formData, {
         headers: headers,
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        return { data: { error: true, message: "Submission failed" } };
+      });
     const data = await res.data;
     if (data && !data.error) {
       axios.post(`${CONSTANTS.API_URL}send-email-any`, {
         html: `
           <p>Dear Admin,</p>
           <p>You have received an enquiry from:</p>
-             <table style='width: 100%;' border='1' cellspacing='0'>
+            <table style='width: 100%;' border='1' cellspacing='0'>
               <tr>
                   <td style='padding:10px;'>Full Name</td>
                   <td style='padding:10px;'>${inputs.name}</td>
@@ -53,14 +70,14 @@ export default function Footer() {
                   <td style='padding:10px;'>Email</td>
                   <td style='padding:10px;'>${inputs.email}</td>
               </tr>
-               <tr>
+              <tr>
                   <td style='padding:10px;'>Website Location</td>
                   <td style='padding:10px;'>${
                     "https://sibinfotech.com" + window.location.pathname
                   }</td>
               </tr>
-             
-               <tr>
+            
+              <tr>
                     <td colspan="2">
                         <p style='padding:10px; font-weight: 700;' >Message</p>
                         <p style='padding:10px; margin-top: 8px'>${
@@ -68,16 +85,35 @@ export default function Footer() {
                         }</p>
                     </td>
                   </tr>
-             
+            
           </table>`,
         fromWhere: "Enquiry - Footer",
       });
     }
     return data;
   };
-  const handleSubmit = (e) => {
+
+  // REPLACE entire handleSubmit function with this
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    submitEnquiry().then((data) => {
+    if (submitting) return;
+    setSubmitting(true);
+
+    // get reCAPTCHA v2 token (widget must be rendered)
+    let token = "";
+    try {
+      if ((window).grecaptcha && recaptchaWidgetId !== null) {
+        token = (window).grecaptcha.getResponse(recaptchaWidgetId);
+      } else {
+        console.warn("grecaptcha or widget not ready - token will be empty");
+      }
+    } catch (err) {
+      console.warn("Error getting grecaptcha response:", err);
+    }
+
+    // call existing submitEnquiry but pass token
+    submitEnquiry(token).then((data) => {
+      setSubmitting(false);
       if (!data.error) {
         toast.success(data.message);
         setInputs({
@@ -89,20 +125,64 @@ export default function Footer() {
       } else {
         toast.error(data.message);
       }
+    }).catch((err) => {
+      setSubmitting(false);
+      console.log("submit error:", err);
+      toast.error("Submission failed");
     });
   };
+
   useEffect(() => {
+    // keep existing show/hide form logic
     if (
       window.location.pathname === "/career" ||
       window.location.pathname === "/apply-now" ||
       window.location.pathname === "/contact-us"
     ) {
-      // console.log("This is ihere");
       setShowForm(false);
     } else {
       setShowForm(true);
     }
-  });
+
+    // --- reCAPTCHA v2: load script & render explicit checkbox ---
+    const RECAPTCHA_SITE_KEY = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib" || "";
+
+    if (typeof window !== "undefined" && RECAPTCHA_SITE_KEY) {
+      // helper to render widget
+      const renderWidget = () => {
+        try {
+          if ((window).grecaptcha && document.getElementById("footer-recaptcha") && recaptchaWidgetId === null) {
+            const id = (window).grecaptcha.render("footer-recaptcha", {
+              sitekey: RECAPTCHA_SITE_KEY,
+              theme: "light",
+            });
+            setRecaptchaWidgetId(id);
+          }
+        } catch (err) {
+          console.warn("grecaptcha render error:", err);
+        }
+      };
+
+      // load script if not loaded
+      if (!(window).grecaptcha) {
+        const script = document.createElement("script");
+        script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+        script.async = true;
+        script.defer = true;
+        script.onload = () => {
+          // small delay to let grecaptcha initialise
+          setTimeout(renderWidget, 300);
+        };
+        script.onerror = () => console.warn("Failed to load reCAPTCHA script");
+        document.head.appendChild(script);
+      } else {
+        // already loaded
+        setTimeout(renderWidget, 100);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
 
   const pathname = usePathname();
 
@@ -150,6 +230,10 @@ export default function Footer() {
                       title="Please enter fax"
                     />
                   </div>
+
+                  {/* add this where you want the reCAPTCHA checkbox to appear (above the submit button) */}
+                  <div id="footer-recaptcha" style={{ margin: "10px 0" }} />
+
                   <textarea
                     required=""
                     name="message"
@@ -158,9 +242,10 @@ export default function Footer() {
                     value={inputs.message}
                     pattern="^[( )a-zA-Z]+$"
                   ></textarea>
-                  <button type="submit" name="submit" className="btnThemeRed">
-                    Submit
+                  <button type="submit" name="submit" className="btnThemeRed" disabled={submitting}>
+                    {submitting ? "Sending..." : "Submit"}
                   </button>
+
                 </div>
               </form>
             </div>
