@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
@@ -8,6 +8,7 @@ import axios from "axios";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FaXTwitter } from "react-icons/fa6";
+
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -19,12 +20,21 @@ export default function Footer() {
     email: "",
     message: "",
   });
-  const [showForm, setShowForm] = useState(true);
 
-  // add these lines (place right after your existing useState declarations)
+  const pathname = usePathname();
+  const initialShowForm = !(
+    pathname === "/career" ||
+    pathname === "/apply-now" ||
+    pathname === "/contact-us"
+  );
+  const [showForm, setShowForm] = useState(initialShowForm);
+
   const [submitting, setSubmitting] = useState(false);
   const [recaptchaWidgetId, setRecaptchaWidgetId] = useState(null);
+  const recaptchaWidgetRef = useRef(null);
 
+  // mounted flag to avoid hydration mismatch
+  const [mounted, setMounted] = useState(false);
 
   const handleInputChange = (e) => {
     setInputs((prevState) => ({
@@ -32,7 +42,7 @@ export default function Footer() {
       [e.target.name]: e.target.value,
     }));
   };
-  // REPLACE entire submitEnquiry function with this
+
   const submitEnquiry = async (recaptchaToken) => {
     const formData = new FormData();
     formData.append("name", inputs.name);
@@ -73,7 +83,9 @@ export default function Footer() {
               <tr>
                   <td style='padding:10px;'>Website Location</td>
                   <td style='padding:10px;'>${
-                    "https://sibinfotech.com" + window.location.pathname
+                    typeof window !== "undefined"
+                      ? "https://sibinfotech.com" + window.location.pathname
+                      : "https://sibinfotech.com"
                   }</td>
               </tr>
             
@@ -93,7 +105,6 @@ export default function Footer() {
     return data;
   };
 
-  // REPLACE entire handleSubmit function with this
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (submitting) return;
@@ -102,8 +113,9 @@ export default function Footer() {
     // get reCAPTCHA v2 token (widget must be rendered)
     let token = "";
     try {
-      if ((window).grecaptcha && recaptchaWidgetId !== null) {
-        token = (window).grecaptcha.getResponse(recaptchaWidgetId);
+      const widgetIdToUse = recaptchaWidgetRef.current ?? recaptchaWidgetId;
+      if (typeof window !== "undefined" && window.grecaptcha && widgetIdToUse !== null) {
+        token = window.grecaptcha.getResponse(widgetIdToUse);
       } else {
         console.warn("grecaptcha or widget not ready - token will be empty");
       }
@@ -111,87 +123,101 @@ export default function Footer() {
       console.warn("Error getting grecaptcha response:", err);
     }
 
-    // call existing submitEnquiry but pass token
-    submitEnquiry(token).then((data) => {
-      setSubmitting(false);
-      if (!data.error) {
-        toast.success(data.message);
-        setInputs({
-          name: "",
-          email: "",
-          message: "",
-        });
-        window.location.href = "https://sibinfotech.com/thanks";
-      } else {
-        toast.error(data.message);
-      }
-    }).catch((err) => {
-      setSubmitting(false);
-      console.log("submit error:", err);
-      toast.error("Submission failed");
-    });
+    submitEnquiry(token)
+      .then((data) => {
+        setSubmitting(false);
+        if (!data.error) {
+          toast.success(data.message);
+          setInputs({
+            name: "",
+            email: "",
+            message: "",
+          });
+          // navigate to thanks page
+          if (typeof window !== "undefined") {
+            window.location.href = "https://sibinfotech.com/thanks";
+          }
+        } else {
+          toast.error(data.message);
+        }
+      })
+      .catch((err) => {
+        setSubmitting(false);
+        console.log("submit error:", err);
+        toast.error("Submission failed");
+      });
   };
 
   useEffect(() => {
-    // keep existing show/hide form logic
-    if (
-      window.location.pathname === "/career" ||
-      window.location.pathname === "/apply-now" ||
-      window.location.pathname === "/contact-us"
-    ) {
-      setShowForm(false);
-    } else {
-      setShowForm(true);
-    }
+    setMounted(true);
+  }, []);
 
-    // --- reCAPTCHA v2: load script & render explicit checkbox ---
+  useEffect(() => {
     const RECAPTCHA_SITE_KEY = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib" || "";
 
-    if (typeof window !== "undefined" && RECAPTCHA_SITE_KEY) {
-      // helper to render widget
-      const renderWidget = () => {
-        try {
-          if ((window).grecaptcha && document.getElementById("footer-recaptcha") && recaptchaWidgetId === null) {
-            const id = (window).grecaptcha.render("footer-recaptcha", {
-              sitekey: RECAPTCHA_SITE_KEY,
-              theme: "light",
-            });
-            setRecaptchaWidgetId(id);
-          }
-        } catch (err) {
-          console.warn("grecaptcha render error:", err);
+    const renderWidget = () => {
+      try {
+        const container = document.getElementById("footer-recaptcha");
+        // only render if grecaptcha available, container exists, ref not set, and container is empty
+        if (
+          typeof window !== "undefined" &&
+          window.grecaptcha &&
+          container &&
+          recaptchaWidgetRef.current === null &&
+          container.childElementCount === 0 &&
+          container.dataset.recaptchaRendered !== "1"
+        ) {
+          const id = window.grecaptcha.render("footer-recaptcha", {
+            sitekey: RECAPTCHA_SITE_KEY,
+            theme: "light",
+          });
+          recaptchaWidgetRef.current = id;
+          setRecaptchaWidgetId(id);
+          container.dataset.recaptchaRendered = "1";
         }
-      };
+      } catch (err) {
+        console.warn("grecaptcha render error:", err);
+      }
+    };
 
-      // load script if not loaded
-      if (!(window).grecaptcha) {
+    if (typeof window !== "undefined" && RECAPTCHA_SITE_KEY) {
+      if (!window.grecaptcha) {
         const script = document.createElement("script");
         script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
         script.async = true;
         script.defer = true;
-        script.onload = () => {
-          // small delay to let grecaptcha initialise
-          setTimeout(renderWidget, 300);
-        };
+        script.onload = () => setTimeout(renderWidget, 300);
         script.onerror = () => console.warn("Failed to load reCAPTCHA script");
         document.head.appendChild(script);
       } else {
-        // already loaded
         setTimeout(renderWidget, 100);
       }
     }
+
+    return () => {
+      try {
+        if (typeof window !== "undefined" && window.grecaptcha && recaptchaWidgetRef.current !== null) {
+          // reset the widget on unmount to avoid duplicates (React Strict Mode)
+          window.grecaptcha.reset(recaptchaWidgetRef.current);
+          recaptchaWidgetRef.current = null;
+        }
+        const container = document.getElementById("footer-recaptcha");
+        if (container) {
+          delete container.dataset.recaptchaRendered;
+        }
+      } catch (err) {
+        // ignore cleanup errors
+      }
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-
-  const pathname = usePathname();
 
   return (
     <div>
       <section
         className="footerForm"
         id="requestQuote"
-        style={{ display: showForm ? "block" : "none" }}
+        style={{ display: mounted && showForm ? "block" : "none" }}
       >
         <div className="containerFull">
           <div className="row">
@@ -231,9 +257,6 @@ export default function Footer() {
                     />
                   </div>
 
-                  {/* add this where you want the reCAPTCHA checkbox to appear (above the submit button) */}
-                  <div id="footer-recaptcha" style={{ margin: "10px 0" }} />
-
                   <textarea
                     required=""
                     name="message"
@@ -242,10 +265,18 @@ export default function Footer() {
                     value={inputs.message}
                     pattern="^[( )a-zA-Z]+$"
                   ></textarea>
-                  <button type="submit" name="submit" className="btnThemeRed" disabled={submitting}>
+
+                  {/* reCAPTCHA checkbox container */}
+                  <div id="footer-recaptcha" style={{ margin: "10px 0" }} />
+                  
+                  <button
+                    type="submit"
+                    name="submit"
+                    className="btnThemeRed"
+                    disabled={submitting}
+                  >
                     {submitting ? "Sending..." : "Submit"}
                   </button>
-
                 </div>
               </form>
             </div>
@@ -560,11 +591,8 @@ export default function Footer() {
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="https://x.com/sibinfotech"
-                          target="_blank"
-                        >
-                         <FaXTwitter />
+                        <Link href="https://x.com/sibinfotech" target="_blank">
+                          <FaXTwitter />
                         </Link>
                       </li>
                       <li>
@@ -591,87 +619,8 @@ export default function Footer() {
           </div>
         </div>
         <section
-          className={`mapBlock py-5   ${
-            pathname == "/contact-us" ? "d-none" : ""
-          }
-            `}
+          className={`mapBlock py-5   ${pathname == "/contact-us" ? "d-none" : ""} `}
         >
-          {/* <div className="containerFull">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="mapItem ">
-                  <div className="leftImgMap ">
-                    <Image
-                      width={500}
-                      height={500}
-                      className="w-100 h-99 "
-                      src={`/assets/images/mumbai-office.webp`}
-                      alt=""
-                    />
-                    <div className="officeAddress">
-                      <h4 className="small_heading fontWeight600">
-                        Mumbai Office
-                      </h4>
-                      <p>
-                        107, Orbit Premises, Mindspace Near Inorbit Mall, Malad
-                        West, Mumbai, Maharashtra 400064
-                      </p>
-                      <Link href="tel:+91-92222-60000">
-                        <i className="fa fa-phone"></i>&nbsp; +91-92222-60000
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="rightMapItem ">
-                    <iframe
-                      className="img-taken"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
-                      allowFullScreen=""
-                      loading="lazy"
-                      title="Mumbai Office Map"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="mapItem">
-                  <div className="leftImgMap">
-                    <Image
-                      width={500}
-                      height={500}
-                      className="w-100 h-99 "
-                      src={`/assets/images/delhi-office.webp`}
-                      alt=""
-                    />
-                    <div className="officeAddress">
-                      <h4 className="small_heading fontWeight600">
-                        Delhi Office
-                      </h4>
-                      <p>
-                        2nd Floor, Office No 205, DDA-2 Building, Janakpuri
-                        District Center, Janakpuri, New Delhi, Delhi 110058
-                      </p>
-                      <Link href="tel:+91-92222-60000">
-                        <i className="fa fa-phone"></i>&nbsp; +91-92222-60000
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="rightMapItem">
-                    <iframe
-                      title="Delhi Office Map"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9866641582603!2d77.0791146745727!3d28.630161784190033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1709614692297!5m2!1sen!2sin"
-                      width="600"
-                      height="450"
-                      style={{ border: "0" }}
-                      allowFullScreen=""
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className={`containerFull`}>
             <div className="row">
               <div className=" col-lg-6 ">
@@ -786,106 +735,96 @@ export default function Footer() {
                 <Image
                   className="w-100 h-auto"
                   width={100}
-                  height={100}
-                  quality={100}
-                  alt="clutch Partner Company"
-                  src="/assets/images/clutch.png"
-                />
+                    height={100}
+                    quality={100}
+                    alt="clutch Partner Company"
+                    src="/assets/images/clutch.png"
+                  />
+                </div>
+                <div className="itemFooterLogo">
+                  <Image
+                    className="w-100 h-auto"
+                    width={100}
+                    height={100}
+                    quality={100}
+                    alt="Shopify Partner Company"
+                    src="/assets/images/shopify-partner.png"
+                  />
+                </div>
+                <div className="itemFooterLogo">
+                  <Image
+                    className="w-100 h-auto"
+                    width={100}
+                    height={100}
+                    quality={100}
+                    alt="Trustpilot Partner Company"
+                    src="/assets/images/trustpilot.jpg"
+                  />
+                </div>
+                <div className="itemFooterLogo">
+                  <Image
+                    className="w-100 h-auto"
+                    width={100}
+                    height={100}
+                    quality={100}
+                    alt="Google Analytics Partner Company"
+                    src="/assets/images/google-analytics.jpg"
+                  />
+                </div>
+                <div className="itemFooterLogo">
+                  <Image
+                    className="w-100 h-auto"
+                    width={100}
+                    height={100}
+                    quality={100}
+                    alt="Bing Partner Company"
+                    src="/assets/images/bing.png"
+                  />
+                </div>
               </div>
-              <div className="itemFooterLogo">
-                <Image
-                  className="w-100 h-auto"
-                  width={100}
-                  height={100}
-                  quality={100}
-                  alt="Shopify Partner Company"
-                  src="/assets/images/shopify-partner.png"
-                />
-              </div>
-              <div className="itemFooterLogo">
-                <Image
-                  className="w-100 h-auto"
-                  width={100}
-                  height={100}
-                  quality={100}
-                  alt="Trustpilot Partner Company"
-                  src="/assets/images/trustpilot.jpg"
-                />
-              </div>
-              <div className="itemFooterLogo">
-                <Image
-                  className="w-100 h-auto"
-                  width={100}
-                  height={100}
-                  quality={100}
-                  alt="Google Analytics Partner Company"
-                  src="/assets/images/google-analytics.jpg"
-                />
-              </div>
-              <div className="itemFooterLogo">
-                <Image
-                  className="w-100 h-auto"
-                  width={100}
-                  height={100}
-                  quality={100}
-                  alt="Bing Partner Company"
-                  src="/assets/images/bing.png"
-                />
-              </div>
-            </div>
-            <div className="text-center mt-2 countryCenter">
-              <p>
-                Serving Clients from : USA, UK, Australia, Canada, Europe,
-                Germany, Singapore, Portugal, Belgium, Netherlands, Turkey, New
-                Zealand, Japan & more
-              </p>
-            </div>
-            <div className="footer_copyright d-flex mb-2 align-items-center justify-content-between">
-              <div className="rightFooterBottom">
-                <ul>
-                  {/* <li>
-                    <Link href="#">Clients</Link>
-                  </li> */}
-                  <li>
-                    <Link href="/career">Career</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link href="/sitemap.xml">Sitemap</Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-and-conditions">Terms of Use</Link>
-                  </li>
-                  <li>
-                    <Link href="/cookie-policy">Cookies Policy</Link>
-                  </li>
-                  {/* <li>
-                    <Link href="#">SEO Tools</Link>
-                  </li> */}
-                  <li>
-                    <Link href="/resource">Resources</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact-us">Contact Us</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="copyRightFooter ">
+              <div className="text-center mt-2 countryCenter">
                 <p>
-                  SIB Infotech © {new Date().getFullYear()}. All Rights
-                  Reserved.
+                  Serving Clients from : USA, UK, Australia, Canada, Europe,
+                  Germany, Singapore, Portugal, Belgium, Netherlands, Turkey, New
+                  Zealand, Japan & more
                 </p>
               </div>
+              <div className="footer_copyright d-flex mb-2 align-items-center justify-content-between">
+                <div className="rightFooterBottom">
+                  <ul>
+                    <li>
+                      <Link href="/career">Career</Link>
+                    </li>
+                    <li>
+                      <Link href="/blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link href="/privacy-policy">Privacy Policy</Link>
+                    </li>
+                    <li>
+                      <Link href="/sitemap.xml">Sitemap</Link>
+                    </li>
+                    <li>
+                      <Link href="/terms-and-conditions">Terms of Use</Link>
+                    </li>
+                    <li>
+                      <Link href="/cookie-policy">Cookies Policy</Link>
+                    </li>
+                    <li>
+                      <Link href="/resource">Resources</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact-us">Contact Us</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="copyRightFooter ">
+                  <p>SIB Infotech © {new Date().getFullYear()}. All Rights Reserved.</p>
+                </div>
+              </div>
             </div>
-           
           </div>
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
   );
 }

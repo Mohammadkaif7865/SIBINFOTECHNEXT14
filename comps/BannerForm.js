@@ -1,5 +1,7 @@
+"use client";
+
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
@@ -14,6 +16,7 @@ export default function BannerForm() {
   };
 
   const [recaptchaToken, setRecaptchaToken] = useState(null);
+  const recaptchaWidgetRef = useRef(null);
 
   const [code, setCode] = useState();
 
@@ -156,32 +159,68 @@ export default function BannerForm() {
   // --- ADD THIS useEffect before return() ---
   useEffect(() => {
     const siteKey = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib";
+    const containerId = "banner-recaptcha";
 
     const renderWidget = () => {
-      if (!window.grecaptcha || !window.grecaptcha.render) return;
-      if (!document.getElementById("recaptcha-container")) return;
+      try {
+        if (!window.grecaptcha || !window.grecaptcha.render) return;
+        const container = document.getElementById(containerId);
+        if (!container) return;
 
-      window.grecaptcha.render("recaptcha-container", {
-        sitekey: siteKey,
-        callback: (token) => setRecaptchaToken(token),
-        "expired-callback": () => setRecaptchaToken(null),
-      });
+        // guard: don't render again if already rendered
+        const already =
+          recaptchaWidgetRef.current !== null ||
+          container.dataset.recaptchaRendered === "1" ||
+          container.childElementCount > 0;
+
+        if (already) return;
+
+        const widgetId = window.grecaptcha.render(containerId, {
+          sitekey: siteKey,
+          callback: (token) => setRecaptchaToken(token),
+          "expired-callback": () => setRecaptchaToken(null),
+        });
+
+        recaptchaWidgetRef.current = widgetId;
+        container.dataset.recaptchaRendered = "1";
+      } catch (err) {
+        console.warn("BannerForm reCAPTCHA render error:", err);
+      }
     };
 
-    window.__onGRecaptchaLoaded = renderWidget;
-
+    // load script only if not already present
     if (!document.querySelector('script[src^="https://www.google.com/recaptcha/api.js"]')) {
       const script = document.createElement("script");
-      script.src = "https://www.google.com/recaptcha/api.js?onload=__onGRecaptchaLoaded&render=explicit";
+      script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
       script.async = true;
       script.defer = true;
-      document.body.appendChild(script);
+      script.onload = () => {
+        // give grecaptcha a short moment to initialise
+        setTimeout(renderWidget, 150);
+      };
+      script.onerror = () => console.warn("Failed to load reCAPTCHA script");
+      document.head.appendChild(script);
     } else {
-      renderWidget();
+      // script already present — attempt to render right away
+      setTimeout(renderWidget, 100);
     }
 
-    return () => delete window.__onGRecaptchaLoaded;
+    // cleanup: reset widget and clear marker
+    return () => {
+      try {
+        if (window.grecaptcha && recaptchaWidgetRef.current !== null) {
+          window.grecaptcha.reset(recaptchaWidgetRef.current);
+          recaptchaWidgetRef.current = null;
+        }
+        const c = document.getElementById(containerId);
+        if (c) delete c.dataset.recaptchaRendered;
+      } catch (err) {
+        // ignore cleanup errors
+      }
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
 
   return (
     <div>
@@ -285,7 +324,7 @@ export default function BannerForm() {
         </div>
 
         <div className="bannerFormItem mt-2">
-          <div id="recaptcha-container"></div>
+          <div id="banner-recaptcha"></div>
         </div>
    
         <div className="bannerFormItem mt-2">
