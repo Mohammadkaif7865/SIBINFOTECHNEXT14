@@ -668,8 +668,8 @@ export default function Footer() {
                       New Delhi Office
                     </p>
                     <p className="mt-3">
-                      1st Floor, Front Side, Block, B-1/624, B1 Rd, opp. Metro
-                      Pillar Number 574, Janakpuri, New Delhi, Delhi, 110058
+                     Near Tagore Garden Metro Station Gate No 2
+New Delhi-110027
                     </p>
                     <p className="mt-2">
                       Rating:{" "}
