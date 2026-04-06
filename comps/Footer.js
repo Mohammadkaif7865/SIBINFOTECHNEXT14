@@ -668,8 +668,7 @@ export default function Footer() {
                       New Delhi Office
                     </p>
                     <p className="mt-3">
-                     Near Tagore Garden Metro Station Gate No 2
-New Delhi-110027
+                      First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension, New Delhi, Delhi, 110027
                     </p>
                     <p className="mt-2">
                       Rating:{" "}
@@ -688,12 +687,13 @@ New Delhi-110027
                     </Link>
                   </div>
                   <div className="rightMapItem">
+                       
                     <iframe
                       className="img-taken"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4917341315336!2d77.10995827457334!3d28.644991583516436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1775460278596!5m2!1sen!2sin"
                       allowFullScreen=""
                       loading="lazy"
-                      title="Mumbai Office Map"
+                      title="Delhi Office Map."
                       referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                   </div>
