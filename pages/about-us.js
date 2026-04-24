@@ -93,15 +93,15 @@ export default function AboutUs() {
     },
     {
       name: "Mohammad Kaif",
-      imgSrcSet: "assets/images/team/mohammad-kaif.webp",
-      imgSrc: "assets/images/team/mohammad-kaif.jpg",
+      imgSrcSet: "assets/images/team/mohammad-kaif-2.webp",
+      imgSrc: "assets/images/team/mohammad-kaif-2.jpg",
       alt: "Mohammad Kaif",
     },
   
     {
       name: "Pooja Sharma",
-      imgSrcSet: "assets/images/team/pooja-sharma.webp",
-      imgSrc: "assets/images/team/pooja-sharma.jpg",
+      imgSrcSet: "assets/images/team/pooja-sharma-2.webp",
+      imgSrc: "assets/images/team/pooja-sharma-2.jpg",
       alt: "Pooja Sharma",
     },
     {
