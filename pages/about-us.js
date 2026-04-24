@@ -97,6 +97,12 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/mohammad-kaif-2.jpg",
       alt: "Mohammad Kaif",
     },
+    {
+      name: "Neha Vishwakarma",
+      imgSrcSet: "assets/images/team/neha-vish.webp",
+      imgSrc: "assets/images/team/neha-vish.jpg",
+      alt: "Neha Vishwakarma",
+    },
   
     {
       name: "Pooja Sharma",
