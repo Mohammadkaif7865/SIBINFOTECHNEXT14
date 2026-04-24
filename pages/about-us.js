@@ -57,18 +57,8 @@ export default function AboutUs() {
     </>
   );
   const teamMembers = [
-    // {
-    //   name: "Ankit Verma",
-    //   imgSrcSet: "assets/images/team/Ankit.webp",
-    //   imgSrc: "assets/images/team/Ankit.jpg",
-    //   alt: "Ankit Verma",
-    // },
-    {
-      name: "Anurag Singh",
-      imgSrcSet: "assets/images/team/Anurag.webp",
-      imgSrc: "assets/images/team/Anurag.jpg",
-      alt: "Anurag Singh",
-    },
+ 
+  
     {
       name: "Ashutosh Kumar Singh",
       imgSrcSet: "assets/images/team/ashutosh-kumar-singh.webp",
@@ -77,34 +67,18 @@ export default function AboutUs() {
     },
     {
       name: "Badal Dev",
-      imgSrcSet: "assets/images/team/Badal.webp",
-      imgSrc: "assets/images/team/Badal.jpg",
+      imgSrcSet: "assets/images/team/badal-dev.webp",
+      imgSrc: "assets/images/team/badal-dev.jpg",
       alt: "Badal Dev",
     },
-    {
-      name: "Bhavnish Chaubey",
-      imgSrcSet: "assets/images/team/Bhavnish.webp",
-      imgSrc: "assets/images/team/Bhavnish.jpg",
-      alt: "Bhavnish Chaubey",
-    },
-    // {
-    //   name: "Gaurav Kumar",
-    //   imgSrcSet: "assets/images/team/gaurav-kumar.webp",
-    //   imgSrc: "assets/images/team/gaurav-kumar.jpg",
-    //   alt: "Gaurav Kumar",
-    // },
+ 
     {
       name: "Geordy Mathew",
       imgSrcSet: "assets/images/team/geordy-mathew.webp",
       imgSrc: "assets/images/team/geordy-mathew.jpg",
       alt: "Geordy Mathew",
     },
-    // {
-    //   name: "Kanchan Sharma",
-    //   imgSrcSet: "assets/images/team/kanchan-sharma.webp",
-    //   imgSrc: "assets/images/team/kanchan-sharma.webp",
-    //   alt: "Kanchan Sharma",
-    // },
+ 
     {
       name: "Mahadev Prasad Uniyal",
       imgSrcSet: "assets/images/team/Mahadev.webp",
@@ -123,98 +97,13 @@ export default function AboutUs() {
       imgSrc: "assets/images/team/mohammad-kaif.jpg",
       alt: "Mohammad Kaif",
     },
-    {
-      name: "Mumtaz Alam",
-      imgSrcSet: "assets/images/team/mumtaz-alam.webp",
-      imgSrc: "assets/images/team/mumtaz-alam.jpg",
-      alt: "Mumtaz Alam",
-    },
+  
     {
       name: "Pooja Sharma",
       imgSrcSet: "assets/images/team/pooja-sharma.webp",
       imgSrc: "assets/images/team/pooja-sharma.jpg",
       alt: "Pooja Sharma",
     },
-    {
-      name: "Raghunath Samal",
-      imgSrcSet: "assets/images/team/raghunath-samal.webp",
-      imgSrc: "assets/images/team/raghunath-samal.jpg",
-      alt: "Raghunath Samal",
-    },
-    {
-      name: "Rakesh Durkar",
-      imgSrcSet: "assets/images/team/rakesh-durkar.webp",
-      imgSrc: "assets/images/team/rakesh-durkar.jpg",
-      alt: "Rakesh Durkar",
-    },
-    {
-      name: "Rashi",
-      imgSrcSet: "assets/images/team/rashi.webp",
-      imgSrc: "assets/images/team/rashi.jpg",
-      alt: "Rashi",
-    },
-
-    {
-      name: "Rekha Singh",
-      imgSrcSet: "assets/images/team/rekha-singh.webp",
-      imgSrc: "assets/images/team/rekha-singh.jpg",
-      alt: "Rekha Singh",
-    },
-    {
-      name: "Reet Handay",
-      imgSrcSet: "assets/images/team/Reet.webp",
-      imgSrc: "assets/images/team/Reet.jpg",
-      alt: "Reet Handay",
-    },
-    {
-      name: "Rishabh Kumar",
-      imgSrcSet: "assets/images/team/Rishabh.webp",
-      imgSrc: "assets/images/team/Rishabh.jpg",
-      alt: "Rishabh Kumar",
-    },
-    // {
-    //   name: "Sachin Kumar",
-    //   imgSrcSet: "assets/images/team/sachin.jpg",
-    //   imgSrc: "assets/images/team/sachin.jpg",
-    //   alt: "Sachin Kumar",
-    // },
-    {
-      name: "Santosh Kumar",
-      imgSrcSet: "assets/images/team/santosh-kumar.webp",
-      imgSrc: "assets/images/team/santosh-kumar.jpg",
-      alt: "Santosh Kumar",
-    },
-    {
-      name: "Tushar Lad",
-      imgSrcSet: "assets/images/team/tushar.jpg",
-      imgSrc: "assets/images/team/tushar.jpg",
-      alt: "Tushar Lad",
-    },
-
-    {
-      name: "Vishakha",
-      imgSrcSet: "assets/images/team/vishakha.webp",
-      imgSrc: "assets/images/team/vishakha.jpg",
-      alt: "Vishakha",
-    },
-    {
-      name: "Vishal Maurya",
-      imgSrcSet: "assets/images/team/vishal.webp",
-      imgSrc: "assets/images/team/vishal.png",
-      alt: "Vishal Maurya",
-    },
-    {
-      name: "Vithaldas Nayak",
-      imgSrcSet: "assets/images/team/Vithaldas.webp",
-      imgSrc: "assets/images/team/Vithaldas.jpg",
-      alt: "Vithaldas Nayak",
-    },
-    // {
-    //   name: "Zaid Shaikh",
-    //   imgSrcSet: "assets/images/team/Zaid-Shaikh.webp",
-    //   imgSrc: "assets/images/team/Zaid-Shaikh.jpg",
-    //   alt: "Zaid-Shaikh",
-    // },
     {
       name: "Zaroon Junaid",
       imgSrcSet: "assets/images/team/zaroon-junaid.webp",
