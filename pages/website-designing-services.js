@@ -2,19 +2,20 @@ import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import WebDesigning from "@/comps/WebsiteDesigningServices/WebDesigning";
 import "slick-carousel/slick/slick-theme.css";
+
 import "slick-carousel/slick/slick.css";
 
 export default function WebsiteDesigningServices() {
   const metaTags = (
     <>
-      <title>Best Website Designing Company in Mumbai, Delhi, India</title>
+      <title>Web Design Agency in Mumbai | SIB Infotech</title>
       <meta
         name="description"
-        content="Get professional and responsive website designing services in Mumbai, Delhi & across India. SIB Infotech crafts custom websites that boost user experience, SEO, and business growth."
+        content="SIB Infotech is a leading web design agency in Mumbai. Get responsive, SEO-friendly, and high-converting websites. Affordable packages – contact us now!"
       />
       <meta
         name="keywords"
-        content="web designing India, website designing Mumbai, website design, E-Commerce website design, professional web designer, custom website designing, web design company, website design mumbai, web design company mumbai, Mumbai website design company, shopify web design, website design services in india, website design in mumbai, website designing company in mumbai, website designers in mumbai, landing page designing"
+        content="SIB Infotech is a leading web design agency in Mumbai. Get responsive, SEO-friendly, and high-converting websites. Affordable packages – contact us now!"
       />
 
       <meta property="og:type" content="website" />
@@ -65,6 +66,8 @@ export default function WebsiteDesigningServices() {
       />
     </>
   );
+
+
   return (
     <CustomLayout meta={metaTags}>
       <WebDesigning />

@@ -10,10 +10,10 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function DatabaseDevelopementMumbaiIndia() {
   const metaTags = (
     <>
-      <title>Database Development Services Company in Mumbai, India</title>
+      <title>Database Providers in Mumbai, India | SIB Infotech</title>
       <meta
         name="description"
-        content="SIB Infotech offers top-notch database development solutions in Mumbai. Enhance your business with our tailored services. Contact us for a consultation today!"
+        content="SIB Infotech is a leading database provider in Mumbai. Get custom database development, management & integration solutions tailored to your business needs."
       />
       <meta
         name="keywords"

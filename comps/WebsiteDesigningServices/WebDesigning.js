@@ -131,407 +131,444 @@ const WebDesigning = () => {
         "After thorough testing, we launch your website seamlessly and provide continuous maintenance, updates, and support to ensure long-term success.",
     },
   ];
-
   const faqsData = [
-    {
-      id: "faq1",
-      question: "Does my Business need a Website?",
-      answer: `<p>
-      Having a website is a cost-effective approach when it
-      comes to advertising and reaching out to potential
-      customers. Till now, the only way through which small
-      businesses reached outside the local area was through
-      expensive advertising media. Many companies can't afford
-      expensive TV advertising or national magazines. But with
-      a website companies can reach out to a vast audience
-      throughout the world.
-    </p>`,
-    },
-    {
-      id: "faq2",
-      question:
-        "What are the things that you expect from me to complete the Website Design?",
-      answer: ` <div className="accordion-body">
-      <p>
-        You are completely aware of your services and what your
-        customers want or look for. Hence, it all depends on
-        what type of website you want. However, some content
-        references such as brochures, logos, photographs,
-        product prescription business cards will be required for
-        the contents to be present on your website.
-      </p>
-      <p>
-        You can elaborate on all your requirements on our
-        discovery call before we start working together and the
-        package will be decided considering your requirements.
-      </p>
-      <p>
-        <strong>
-          Some other stuff we would need for your website is:
-        </strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>Images of you and your team (optional).</li>
-        <li>Images of your Workplace (optional).</li>
-        <li>Staff profiles (optional).</li>
-        <li>
-          Any videos you would like to add to the website.
-        </li>
-        <li>Login details to your existing website etc.</li>
-      </ul>
-      <p className="mt-3">
-        If some of these are already present on your existing
-        website then they will be transferred over to the new
-        site.
-      </p>
-    </div>`,
-    },
-    {
-      id: "faq3",
-      question: "If I have a Website, will you make changes for me?",
-      answer: ` <p>
-      Yes, we can redesign or change the content of your
-      existing website. It will cost less than building one
-      from scratch.
-    </p>`,
-    },
-    {
-      id: "faq4",
-      question:
-        "Is there any maintenance required after designing a Website?",
-      answer: `  <p>
-      With the announcement of new trends for page rankings,
-      some slight changes might be required. Also, as your
-      business evolves, your websites may require some
-      modifications. If there is no change in business from
-      time to time the changes will be minimal.
-    </p>`,
-    },
-    {
-      id: "faq5",
-      question: "Can you do rush jobs?",
-      answer: `<p>
-      The team will try its best to meet the requirements of
-      the clients as per the complexity of the project and
-      specific delivery dates.
-    </p>`,
-    },
-    {
-      id: "faq6",
-      question:
-        "What if I don't want to manage my Website at all? Can you do it all for me?",
-      answer: ` <p>
-      Yes, we have maintenance packages to suit your needs.
-      The packages can range from 1 hour per month to 10 hours
-      per month. We can also discuss the package that's right
-      for you.
-    </p>`,
-    },
-    {
-      id: "faq7",
-      question: "What does a Website Designing Company do?",
-      answer: `   <div className="accordion-body">
-      <p>
-        A website designing company intends to serve its clients
-        with fully functional, professional-looking, and
-        mobile-friendly websites providing the best user
-        experience.
-      </p>
-      <p>
-        The riveting website designs are a concoction of
-        equalization, solidarity, accentuation, intricacy and
-        blend of segments. An experienced designer will oversee
-        both highs and lows of a design in his brain and after a
-        thorough evaluation of all the components incorporate
-        them in the website.
-      </p>
-      <p>
-        A website is the virtual representation of your
-        business. Having a professional website is no less than
-        a triumph for a business. It portrays a lot about you to
-        the users for instance the concept behind the business,
-        target audience, etc. Visitors will contribute cash for
-        services without hesitancy as they know you retain an
-        accredited business. Professionalism is a must to be
-        illustrated within the business and also on the website.
-      </p>
-    </div>`,
-    },
-    {
-      id: "faq8",
-      question: "What does Web Design include?",
-      answer: `<p>
-        Website designing incorporates within itself multiple
-        components that operate collectively to make a website
-        look robust. These components are graphic design, user
-        experience design, interface design, search engine
-        optimization (SEO), and content creation. All these key
-        elements are liable for the presentation and functioning
-        of the websites on other devices.
-      </p>`,
-    },
-    {
-      id: "faq9",
-      question: "What are Website Design Services?",
-      answer: `<p>
-      As mentioned in the name itself, website design services
-      are meant to create customized websites for all kinds of
-      businesses as per their requirements and demands.
-      They'll collaborate with your organization, create a
-      website that mirrors your brand, giving the users with
-      the finest experience and accomplish more conversions in
-      turn.
-    </p>`,
-    },
-    {
-      id: "faq10",
-      question: "What are Website Design Services?",
-      answer: `<p>
-      As mentioned in the name itself, website design services
-      are meant to create customized websites for all kinds of
-      businesses as per their requirements and demands.
-      They'll collaborate with your organization, create a
-      website that mirrors your brand, giving the users with
-      the finest experience and accomplish more conversions in
-      turn.
-    </p>`,
-    },
-    {
-      id: "faq11",
-      question: "Will my Website be Mobile-Friendly?",
-      answer: ` <p>
-      After the announcement of new core web vitals metrics
-      for page rankings, we will make sure that your website
-      is fully responsive and works well on all devices. We
-      don't charge extra for this as it comes as standard.
-    </p>`,
-    },
-    {
-      id: "faq12",
-      question:
-        "Why SIB Infotech is the Best Web Design Company in India for your business? ",
-      answer: `<p>
-      Since 2005, SIB Infotech is specialized in creating
-      dynamic and appealing websites for clients. Our team of
-      experts ensures maintaining an effective online presence
-      for your business. With technologies being updated
-      rapidly, you need a trusted partner that can keep your
-      website updated with these changes so that your site and
-      the information it provides are never outdated. That's
-      why you need a company like SIB Infotech to keep up with
-      the trend and attract potential customers.
-    </p>`,
-    },
-    {
-      id: "faq13",
-      question: "How much does a Professional Web Design Services Cost?",
-      answer: `<div className="accordion-body">
-      <p>
-        <strong>The cost of web designing depends on:</strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>Requirements of the clients</li>
-        <li>
-          Utilization of resources on a particular project
-        </li>
-        <li>And Time Frame.</li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq14",
-      question: "How long does it take to Design a Website?",
-      answer: `<div className="accordion-body">
-      <p>
-        The total time engaged in designing a website depends on
-        what you are getting designed.
-      </p>
-      <p>
-        Everything that we make for you is custom with engaging
-        trends and relevant content. Please contact our experts
-        to know more about time-related queries.
-      </p>
-    </div>`,
-    },
-    {
-      id: "faq15",
-      question: "How long does it take to Design a Website?",
-      answer: `<div className="accordion-body">
-      <p>
-        The total time engaged in designing a website depends on
-        what you are getting designed.
-      </p>
-      <p>
-        Everything that we make for you is custom with engaging
-        trends and relevant content. Please contact our experts
-        to know more about time-related queries.
-      </p>
-    </div>`,
-    },
-    {
-      id: "faq16",
-      question:
-        "I want to revamp my existing Website Design. Can you help?",
-      answer: ` <p>
-      Yes, we have a separate team that looks after such
-      requirements. A professional web designer's expert team
-      will be assigned to your website to offer services as
-      required. The project update will also be shared.
-    </p>`,
-    },
-    {
-      id: "faq17",
-      question:
-        "What is the difference between Static Web Design and Dynamic Web Design?",
-      answer: `    <div className="accordion-body">
-      <p>
-        Static WebPages are the ones that always look the same
-        and their content rarely changes. To make a change you
-        need to create the page yourself or get help from a
-        designer. The newly created pages and any images must
-        then be uploaded to the web servers.
-      </p>
-      <p>
-        However, Dynamic Pages can be changed every time they
-        are loaded and the contents can also be changed as per
-        your requirements. The dynamic page can be created to
-        respond to the user queries and can also reduce ongoing
-        maintenance costs if you don't want to change things
-        yourself with a page editor. A content management
-        utility also needs to be developed to help you manage
-        your sites.
-      </p>
-      <p>
-        Many clients have a combination of both dynamic and
-        static elements in their sites. For instance, they might
-        use dynamic pages for product catalogs where they can
-        change information or pictures regularly. "Contact" and
-        "About Us" web pages often left as static pages.
-      </p>
-    </div>`,
-    },
-    {
-      id: "faq18",
-      question: "What is the cost to create a Website?",
-      answer: ` <p>
-      When it comes to the cost of a website it may revolve
-      around diverse aspects. The cost for launching and
-      designing starts from USD 400 onwards depending upon
-      scope of work whereas the cost for routine maintenance
-      of a website may fluctuate from USD 50 to USD 1500-2000
-      per month depending on complexity of websites.
-    </p>`,
-    },
-    {
-      id: "faq19",
-      question:
-        "What services are provided by Website Designing Companies?",
-      answer: `  <div className="accordion-body">
-      <p>
-        <strong>
-          Website Designing includes some of the essential
-          services that are:
-        </strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>
-          Designing the specific quantity of web pages based on
-          the defined budget for web designing services.
-        </li>
-        <li>On-page SEO with images</li>
-        <li>Graphic Designing</li>
-        <li>Sitemaps</li>
-        <li>DNS Changes</li>
-        <li>Video embedding or linking</li>
-        <li>Form integrations</li>
-        <li>Google and Bing verification</li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq20",
-      question: "What are the Types of Web Design?",
-      answer: `   <div className="accordion-body">
-      <p>
-        <strong>Types of Web Design Layouts:</strong>
-      </p>
-      <p className="mt-3">
-        <strong>Static Website Layout:</strong> In this type,
-        the web pages involve limited content. Each page is
-        created using HTML language and represents the same
-        information to all its visitors. These are perceived to
-        be the most primitive type of websites that are easiest
-        to create. Unlike dynamic websites require web
-        programming or database designs whereas static websites
-        do not require them.
-      </p>
-      <p>
-        <strong>Dynamic Website Layout:</strong> This type of
-        web design is designed with a variety of pieces that
-        collectively form a page. These are distinct from static
-        sites as they use server technologies, like PHP or
-        JavaScript, for web development.
-      </p>
-      <p>
-        <strong>Fixed Width Layout:</strong> Unique feature
-        mentioned in the name itself, these websites start with
-        a specific size as stipulated by the web designer.
-      </p>
-      <p>
-        The width remains stable regardless of the size of the
-        browser window viewing the page. This fixed-width
-        control feature provides the control of the look of the
-        page to the designer.
-      </p>
-      <p>
-        <strong>Responsive Design Layout:</strong> This is a
-        single layout design that is included in all the web
-        pages in which the elements get reformatted and resized
-        based on the breakpoints. A breakpoint is a specific
-        viewport width value (in pixels) that triggers a
-        transition in the website layout.
-      </p>
-      <p>
-        <strong>Liquid or Fluid Design Layout:</strong> In this
-        type of layout, the webpage resizes as the window size
-        is altered. This is possible using percentages instead
-        of pixels width for defining areas. The number of
-        columns in most of the webpages are one, two or three.
-      </p>
-      <p>
-        <strong>Single Page Design Layout:</strong> In this
-        layout, there is only one HTML page containing just the
-        exact information that a user needs to make a decision
-        and act on it. These layouts are preferred for landing
-        pages, portfolios, and event-related websites.
-      </p>
-    </div> `,
-    },
-    {
-      id: "faq21",
-      question: "What does Website Design Cost for a Small Business?",
-      answer: ` <p>
-      The cost of a website depends on the elements of the
-      page and the features of the asset. The average cost of
-      website designing for small businesses ranges starts
-      from US$ 250 onwards. The costs may vary with the
-      requirement of any additional features or custom-built
-      components.
-    </p> `,
-    },
-    {
-      id: "faq22",
-      question: "What does a Web Design Agency do?",
-      answer: `<p>
-      Web design agencies have skilled graphic designers who
-      work upon the logos, color schemes, branding, and
-      overall focus on the appearance of the website. They
-      frequently used software like Adobe Photoshop, Figma or
-      Adobe XD to curate quality graphic design and web layout
-      services.
-    </p>`,
-    },
-  ];
+  {
+    id: "faq15",
+    question: "What web design services does SIB Infotech offer in Mumbai?",
+    answer: `<div className="accordion-body"><p>SIB Infotech offers comprehensive web design services in Mumbai including custom website design, responsive mobile-first design, UI/UX design, landing page design, eCommerce website design, CMS-based websites (WordPress, Shopify), corporate website design, and website redesign. Every website we design is SEO-ready from day one, built for speed, and optimised for conversions. Our design team creates modern, professional websites that reflect your brand and convert visitors into customers.</p></div>`,
+  },
+  {
+    id: "faq16",
+    question: "Why should Mumbai businesses choose SIB Infotech for web design?",
+    answer: `<div className="accordion-body"><p>SIB Infotech combines 18+ years of digital marketing expertise with full-service web design capabilities. Unlike standalone design studios, we design websites with SEO, conversions, and business growth in mind from the start. As a Google Premier Partner with 850+ clients served, we understand how design decisions affect search rankings, page speed, and user behaviour. Our clients get websites that look great and perform — not just aesthetically pleasing brochures.</p></div>`,
+  },
+  {
+    id: "faq17",
+    question: "Does SIB Infotech build eCommerce websites in Mumbai?",
+    answer: `<div className="accordion-body"><p>Yes. SIB Infotech designs and develops eCommerce websites in Mumbai using Shopify, WooCommerce, and custom platforms. Our eCommerce websites include secure payment gateway integration (Razorpay, PayU, Stripe), product catalogue management, mobile-optimised shopping experiences, inventory management, customer account portals, and conversion-focused product and checkout page designs. We have built eCommerce stores for fashion, jewellery, industrial goods, health products, and more.</p></div>`,
+  },
+  {
+    id: "faq18",
+    question: "Does SIB Infotech design websites optimised for SEO?",
+    answer: `<div className="accordion-body"><p>Yes, SEO optimisation is integrated into every website SIB Infotech designs. This includes clean, semantic HTML structure; fast page load with optimised images and code; proper heading hierarchy (H1, H2, H3); schema markup for organisation, products, and FAQs; XML sitemap and robots.txt setup; Core Web Vitals compliance; mobile-first responsive design; and proper URL structure. A beautiful website that Google cannot rank is a missed opportunity — we ensure both aesthetics and discoverability.</p></div>`,
+  },
+  {
+    id: "faq19",
+    question: "What is SIB Infotech's web design process from brief to launch?",
+    answer: `<div className="accordion-body"><p>SIB Infotech's web design process: (1) Discovery — understanding your business goals, audience, and competitors. (2) Sitemap and wireframing — planning the page structure and user flow. (3) Visual design — creating high-fidelity mockups aligned with your brand. (4) Development — building the site on your chosen platform with SEO and performance best practices. (5) Testing — cross-device and cross-browser QA. (6) Launch — domain and hosting setup, go-live, and handover training. We also provide post-launch support and maintenance.</p></div>`,
+  },
+  {
+    id: "faq20",
+    question: "Does SIB Infotech offer website redesign services for existing websites?",
+    answer: `<div className="accordion-body"><p>Yes. Website redesign is a major part of SIB Infotech's web design offering. Many Mumbai businesses come to us with outdated websites that load slowly, look unprofessional on mobile, or fail to generate leads. Our redesign process starts with a website audit to identify performance and UX issues, followed by a full rebuild that preserves your existing SEO value while delivering a modern, conversion-optimised design. We handle content migration, URL redirect mapping, and search console re-verification.</p></div>`,
+  },
+  {
+    id: "faq21",
+    question: "What ongoing support does SIB Infotech provide after a website is launched?",
+    answer: `<div className="accordion-body"><p>SIB Infotech provides post-launch website maintenance services including security monitoring and updates, regular backups, performance monitoring, content updates, plugin and CMS version management, and technical troubleshooting. We also offer ongoing SEO, Google Ads, and Meta Ads services for clients who want to drive traffic and leads to their new website — making SIB Infotech a true one-stop digital partner.</p></div>`,
+  },
+];
+
+  // const faqsData = [
+  //   {
+  //     id: "faq1",
+  //     question: "Does my Business need a Website?",
+  //     answer: `<p>
+  //     Having a website is a cost-effective approach when it
+  //     comes to advertising and reaching out to potential
+  //     customers. Till now, the only way through which small
+  //     businesses reached outside the local area was through
+  //     expensive advertising media. Many companies can't afford
+  //     expensive TV advertising or national magazines. But with
+  //     a website companies can reach out to a vast audience
+  //     throughout the world.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq2",
+  //     question:
+  //       "What are the things that you expect from me to complete the Website Design?",
+  //     answer: ` <div className="accordion-body">
+  //     <p>
+  //       You are completely aware of your services and what your
+  //       customers want or look for. Hence, it all depends on
+  //       what type of website you want. However, some content
+  //       references such as brochures, logos, photographs,
+  //       product prescription business cards will be required for
+  //       the contents to be present on your website.
+  //     </p>
+  //     <p>
+  //       You can elaborate on all your requirements on our
+  //       discovery call before we start working together and the
+  //       package will be decided considering your requirements.
+  //     </p>
+  //     <p>
+  //       <strong>
+  //         Some other stuff we would need for your website is:
+  //       </strong>
+  //     </p>
+  //     <ul className="listFlexItem">
+  //       <li>Images of you and your team (optional).</li>
+  //       <li>Images of your Workplace (optional).</li>
+  //       <li>Staff profiles (optional).</li>
+  //       <li>
+  //         Any videos you would like to add to the website.
+  //       </li>
+  //       <li>Login details to your existing website etc.</li>
+  //     </ul>
+  //     <p className="mt-3">
+  //       If some of these are already present on your existing
+  //       website then they will be transferred over to the new
+  //       site.
+  //     </p>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq3",
+  //     question: "If I have a Website, will you make changes for me?",
+  //     answer: ` <p>
+  //     Yes, we can redesign or change the content of your
+  //     existing website. It will cost less than building one
+  //     from scratch.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq4",
+  //     question:
+  //       "Is there any maintenance required after designing a Website?",
+  //     answer: `  <p>
+  //     With the announcement of new trends for page rankings,
+  //     some slight changes might be required. Also, as your
+  //     business evolves, your websites may require some
+  //     modifications. If there is no change in business from
+  //     time to time the changes will be minimal.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq5",
+  //     question: "Can you do rush jobs?",
+  //     answer: `<p>
+  //     The team will try its best to meet the requirements of
+  //     the clients as per the complexity of the project and
+  //     specific delivery dates.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq6",
+  //     question:
+  //       "What if I don't want to manage my Website at all? Can you do it all for me?",
+  //     answer: ` <p>
+  //     Yes, we have maintenance packages to suit your needs.
+  //     The packages can range from 1 hour per month to 10 hours
+  //     per month. We can also discuss the package that's right
+  //     for you.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq7",
+  //     question: "What does a Website Designing Company do?",
+  //     answer: `   <div className="accordion-body">
+  //     <p>
+  //       A website designing company intends to serve its clients
+  //       with fully functional, professional-looking, and
+  //       mobile-friendly websites providing the best user
+  //       experience.
+  //     </p>
+  //     <p>
+  //       The riveting website designs are a concoction of
+  //       equalization, solidarity, accentuation, intricacy and
+  //       blend of segments. An experienced designer will oversee
+  //       both highs and lows of a design in his brain and after a
+  //       thorough evaluation of all the components incorporate
+  //       them in the website.
+  //     </p>
+  //     <p>
+  //       A website is the virtual representation of your
+  //       business. Having a professional website is no less than
+  //       a triumph for a business. It portrays a lot about you to
+  //       the users for instance the concept behind the business,
+  //       target audience, etc. Visitors will contribute cash for
+  //       services without hesitancy as they know you retain an
+  //       accredited business. Professionalism is a must to be
+  //       illustrated within the business and also on the website.
+  //     </p>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq8",
+  //     question: "What does Web Design include?",
+  //     answer: `<p>
+  //       Website designing incorporates within itself multiple
+  //       components that operate collectively to make a website
+  //       look robust. These components are graphic design, user
+  //       experience design, interface design, search engine
+  //       optimization (SEO), and content creation. All these key
+  //       elements are liable for the presentation and functioning
+  //       of the websites on other devices.
+  //     </p>`,
+  //   },
+  //   {
+  //     id: "faq9",
+  //     question: "What are Website Design Services?",
+  //     answer: `<p>
+  //     As mentioned in the name itself, website design services
+  //     are meant to create customized websites for all kinds of
+  //     businesses as per their requirements and demands.
+  //     They'll collaborate with your organization, create a
+  //     website that mirrors your brand, giving the users with
+  //     the finest experience and accomplish more conversions in
+  //     turn.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq10",
+  //     question: "What are Website Design Services?",
+  //     answer: `<p>
+  //     As mentioned in the name itself, website design services
+  //     are meant to create customized websites for all kinds of
+  //     businesses as per their requirements and demands.
+  //     They'll collaborate with your organization, create a
+  //     website that mirrors your brand, giving the users with
+  //     the finest experience and accomplish more conversions in
+  //     turn.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq11",
+  //     question: "Will my Website be Mobile-Friendly?",
+  //     answer: ` <p>
+  //     After the announcement of new core web vitals metrics
+  //     for page rankings, we will make sure that your website
+  //     is fully responsive and works well on all devices. We
+  //     don't charge extra for this as it comes as standard.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq12",
+  //     question:
+  //       "Why SIB Infotech is the Best Web Design Company in India for your business? ",
+  //     answer: `<p>
+  //     Since 2005, SIB Infotech is specialized in creating
+  //     dynamic and appealing websites for clients. Our team of
+  //     experts ensures maintaining an effective online presence
+  //     for your business. With technologies being updated
+  //     rapidly, you need a trusted partner that can keep your
+  //     website updated with these changes so that your site and
+  //     the information it provides are never outdated. That's
+  //     why you need a company like SIB Infotech to keep up with
+  //     the trend and attract potential customers.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq13",
+  //     question: "How much does a Professional Web Design Services Cost?",
+  //     answer: `<div className="accordion-body">
+  //     <p>
+  //       <strong>The cost of web designing depends on:</strong>
+  //     </p>
+  //     <ul className="listFlexItem">
+  //       <li>Requirements of the clients</li>
+  //       <li>
+  //         Utilization of resources on a particular project
+  //       </li>
+  //       <li>And Time Frame.</li>
+  //     </ul>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq14",
+  //     question: "How long does it take to Design a Website?",
+  //     answer: `<div className="accordion-body">
+  //     <p>
+  //       The total time engaged in designing a website depends on
+  //       what you are getting designed.
+  //     </p>
+  //     <p>
+  //       Everything that we make for you is custom with engaging
+  //       trends and relevant content. Please contact our experts
+  //       to know more about time-related queries.
+  //     </p>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq15",
+  //     question: "How long does it take to Design a Website?",
+  //     answer: `<div className="accordion-body">
+  //     <p>
+  //       The total time engaged in designing a website depends on
+  //       what you are getting designed.
+  //     </p>
+  //     <p>
+  //       Everything that we make for you is custom with engaging
+  //       trends and relevant content. Please contact our experts
+  //       to know more about time-related queries.
+  //     </p>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq16",
+  //     question:
+  //       "I want to revamp my existing Website Design. Can you help?",
+  //     answer: ` <p>
+  //     Yes, we have a separate team that looks after such
+  //     requirements. A professional web designer's expert team
+  //     will be assigned to your website to offer services as
+  //     required. The project update will also be shared.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq17",
+  //     question:
+  //       "What is the difference between Static Web Design and Dynamic Web Design?",
+  //     answer: `    <div className="accordion-body">
+  //     <p>
+  //       Static WebPages are the ones that always look the same
+  //       and their content rarely changes. To make a change you
+  //       need to create the page yourself or get help from a
+  //       designer. The newly created pages and any images must
+  //       then be uploaded to the web servers.
+  //     </p>
+  //     <p>
+  //       However, Dynamic Pages can be changed every time they
+  //       are loaded and the contents can also be changed as per
+  //       your requirements. The dynamic page can be created to
+  //       respond to the user queries and can also reduce ongoing
+  //       maintenance costs if you don't want to change things
+  //       yourself with a page editor. A content management
+  //       utility also needs to be developed to help you manage
+  //       your sites.
+  //     </p>
+  //     <p>
+  //       Many clients have a combination of both dynamic and
+  //       static elements in their sites. For instance, they might
+  //       use dynamic pages for product catalogs where they can
+  //       change information or pictures regularly. "Contact" and
+  //       "About Us" web pages often left as static pages.
+  //     </p>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq18",
+  //     question: "What is the cost to create a Website?",
+  //     answer: ` <p>
+  //     When it comes to the cost of a website it may revolve
+  //     around diverse aspects. The cost for launching and
+  //     designing starts from USD 400 onwards depending upon
+  //     scope of work whereas the cost for routine maintenance
+  //     of a website may fluctuate from USD 50 to USD 1500-2000
+  //     per month depending on complexity of websites.
+  //   </p>`,
+  //   },
+  //   {
+  //     id: "faq19",
+  //     question:
+  //       "What services are provided by Website Designing Companies?",
+  //     answer: `  <div className="accordion-body">
+  //     <p>
+  //       <strong>
+  //         Website Designing includes some of the essential
+  //         services that are:
+  //       </strong>
+  //     </p>
+  //     <ul className="listFlexItem">
+  //       <li>
+  //         Designing the specific quantity of web pages based on
+  //         the defined budget for web designing services.
+  //       </li>
+  //       <li>On-page SEO with images</li>
+  //       <li>Graphic Designing</li>
+  //       <li>Sitemaps</li>
+  //       <li>DNS Changes</li>
+  //       <li>Video embedding or linking</li>
+  //       <li>Form integrations</li>
+  //       <li>Google and Bing verification</li>
+  //     </ul>
+  //   </div>`,
+  //   },
+  //   {
+  //     id: "faq20",
+  //     question: "What are the Types of Web Design?",
+  //     answer: `   <div className="accordion-body">
+  //     <p>
+  //       <strong>Types of Web Design Layouts:</strong>
+  //     </p>
+  //     <p className="mt-3">
+  //       <strong>Static Website Layout:</strong> In this type,
+  //       the web pages involve limited content. Each page is
+  //       created using HTML language and represents the same
+  //       information to all its visitors. These are perceived to
+  //       be the most primitive type of websites that are easiest
+  //       to create. Unlike dynamic websites require web
+  //       programming or database designs whereas static websites
+  //       do not require them.
+  //     </p>
+  //     <p>
+  //       <strong>Dynamic Website Layout:</strong> This type of
+  //       web design is designed with a variety of pieces that
+  //       collectively form a page. These are distinct from static
+  //       sites as they use server technologies, like PHP or
+  //       JavaScript, for web development.
+  //     </p>
+  //     <p>
+  //       <strong>Fixed Width Layout:</strong> Unique feature
+  //       mentioned in the name itself, these websites start with
+  //       a specific size as stipulated by the web designer.
+  //     </p>
+  //     <p>
+  //       The width remains stable regardless of the size of the
+  //       browser window viewing the page. This fixed-width
+  //       control feature provides the control of the look of the
+  //       page to the designer.
+  //     </p>
+  //     <p>
+  //       <strong>Responsive Design Layout:</strong> This is a
+  //       single layout design that is included in all the web
+  //       pages in which the elements get reformatted and resized
+  //       based on the breakpoints. A breakpoint is a specific
+  //       viewport width value (in pixels) that triggers a
+  //       transition in the website layout.
+  //     </p>
+  //     <p>
+  //       <strong>Liquid or Fluid Design Layout:</strong> In this
+  //       type of layout, the webpage resizes as the window size
+  //       is altered. This is possible using percentages instead
+  //       of pixels width for defining areas. The number of
+  //       columns in most of the webpages are one, two or three.
+  //     </p>
+  //     <p>
+  //       <strong>Single Page Design Layout:</strong> In this
+  //       layout, there is only one HTML page containing just the
+  //       exact information that a user needs to make a decision
+  //       and act on it. These layouts are preferred for landing
+  //       pages, portfolios, and event-related websites.
+  //     </p>
+  //   </div> `,
+  //   },
+  //   {
+  //     id: "faq21",
+  //     question: "What does Website Design Cost for a Small Business?",
+  //     answer: ` <p>
+  //     The cost of a website depends on the elements of the
+  //     page and the features of the asset. The average cost of
+  //     website designing for small businesses ranges starts
+  //     from US$ 250 onwards. The costs may vary with the
+  //     requirement of any additional features or custom-built
+  //     components.
+  //   </p> `,
+  //   },
+  //   {
+  //     id: "faq22",
+  //     question: "What does a Web Design Agency do?",
+  //     answer: `<p>
+  //     Web design agencies have skilled graphic designers who
+  //     work upon the logos, color schemes, branding, and
+  //     overall focus on the appearance of the website. They
+  //     frequently used software like Adobe Photoshop, Figma or
+  //     Adobe XD to curate quality graphic design and web layout
+  //     services.
+  //   </p>`,
+  //   },
+  // ];
 
   const faqDiscription = `We’re a full-service digital marketing firm delivering story-driven strategies to build,<br/> promote, and scale your brand to attract your ideal client.`;
 

@@ -98,11 +98,11 @@ export default function WebDevelopmentServices() {
   const metaTags = (
     <>
       <title>
-        Top Web Development Company India | Website Development Mumbai
+        Best Web Development Company in Mumbai | SIB Infotech
       </title>
       <meta
         name="description"
-        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+        content="SIB Infotech is the best web development company in Mumbai. Get custom, responsive, and high-speed websites. Trusted by 500+ clients – request a quote!"
       />
       <meta name="keywords" content="Website Development Services" />
 

@@ -7,13 +7,13 @@ export default function PpcManagementServices() {
   const metaTags = (
     <>
       <title>
-        Best PPC Company in India | Top PPC Services Agency 2025
+        PPC Management Services India | SIB Infotech
       </title>
       <meta
         name="description"
         content="Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
       />
-      <meta name="keywords" content="best ppc company in india, top ppc company in india, ppc company in india, ppc management services in india, best ppc company in mumbai, top ppc company in mumbai, ppc company in mumbai, ppc management services in mumbai" />
+      <meta name="keywords" content="SIB Infotech offers top-rated PPC management services in India. Maximize ROI with Google Ads, Bing & social media ads. Certified PPC experts – contact now." />
 
       <meta property="og:type" content="website" />
       <meta

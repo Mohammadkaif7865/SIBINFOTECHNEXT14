@@ -10,10 +10,10 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function SearchEngineOptimizationOutsourcingSeoServices() {
   const metaTags = (
     <>
-      <title>Best SEO Outsourcing Services India | Expert SEO Solutions</title>
+      <title>SEO Outsourcing Company in India | SIB Infotech</title>
       <meta
         name="description"
-        content="Outsource your SEO to SIB Infotech and benefit from our proven strategies to increase organic traffic, improve search rankings, and grow your online presence."
+        content="SIB Infotech – the trusted SEO outsourcing company in India. Scale your agency with white-label reports, expert strategies & guaranteed organic growth."
       />
       <meta
         name="keywords"

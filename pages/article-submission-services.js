@@ -2,15 +2,16 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
+import Faq from "@/comps/Home/Faq";
 
 export default function ArticleSubmissionServices() {
   const metaTags = (
     <>
-      <title>Article Submission Services Company in Mumbai, India</title>
+      <title>Best Blog Submission Site in India | SIB Infotech</title>
       <meta
         name="description"
-        content="Enhance your online presence with article submission services by SIB Infotech. Boost SEO and reach your audience with quality, targeted content distribution."
+        content="Boost your SEO with SIB Infotech – the leading blog submission site in India. Get high-quality backlinks & targeted traffic. Start ranking higher today!"
       />
       <meta
         name="keywords"
@@ -64,6 +65,45 @@ article submission service,article submission services,manual article submission
       />
     </>
   );
+
+  const faqsData = [
+    {
+      id: "faq15",
+      question:
+        "Does SIB Infotech offer content and blog submission services as part of SEO?",
+      answer: `<div className="accordion-body"><p>Yes. SIB Infotech includes strategic content creation and blog submission as a core part of our off-page SEO services. We create original, well-researched articles and submit them to high-authority platforms and Indian business publications relevant to your industry. This builds quality backlinks, increases domain authority, and drives referral traffic to your website. All submissions are done manually to high-DA, low-spam-score platforms aligned with your niche.</p></div>`,
+    },
+    {
+      id: "faq16",
+      question:
+        "How does SIB Infotech's blog submission strategy help SEO rankings?",
+      answer: `<div className="accordion-body"><p>SIB Infotech's blog submission strategy contributes to SEO through three primary mechanisms: high-quality contextual backlinks that increase your website's domain authority; faster indexing of new pages through external link signals; and targeted referral traffic from readers on platforms like Medium, LinkedIn Articles, YourStory, and industry-specific portals. We focus on quality over quantity — a single well-placed article on a DA 60+ platform delivers more SEO value than 20 submissions to low-quality directories.</p></div>`,
+    },
+    {
+      id: "faq17",
+      question:
+        "What types of content does SIB Infotech create for blog submission?",
+      answer: `<div className="accordion-body"><p>SIB Infotech creates a range of content types for blog and article submission including thought leadership pieces, how-to guides, industry insights, case studies, data-driven analysis articles, and opinion pieces aligned with trending business topics. All content is written in clear, engaging English by our content team, is 100% original, and is SEO-optimised with relevant keywords, proper headings, and natural backlinks to your website.</p></div>`,
+    },
+    {
+      id: "faq18",
+      question:
+        "How does SIB Infotech ensure submitted articles are not penalised by Google?",
+      answer: `<div className="accordion-body"><p>SIB Infotech follows Google's Webmaster Guidelines strictly in all blog submission activities. We only create and submit original content — never spun, duplicated, or AI-generated without human editorial review. We target platforms with genuine editorial standards and real audiences. Links are placed naturally within the body of relevant content, not in author bios alone. We avoid low-quality directories, article farms, and paid links that could expose your website to Google penalties.</p></div>`,
+    },
+    {
+      id: "faq19",
+      question:
+        "Which platforms does SIB Infotech use for blog submissions in India?",
+      answer: `<div className="accordion-body"><p>SIB Infotech targets a strategic mix of high-authority global platforms and India-specific business publications for blog submissions. Global platforms include Medium (DA 95), LinkedIn Articles (DA 98), and WordPress.com. India-specific platforms include YourStory, StartupTalky, BusinessToday Digital, IndiBlogger, and industry verticals like healthcare, real estate, and education portals. Platform selection is always based on your target audience and the relevance of the platform to your business.</p></div>`,
+    },
+    {
+      id: "faq20",
+      question:
+        "Is blog submission included in SIB Infotech's standard SEO packages?",
+      answer: `<div className="accordion-body"><p>Yes. Blog submission and off-page content marketing is included in SIB Infotech's comprehensive SEO packages alongside technical SEO, on-page optimisation, link building, and monthly reporting. We can also provide standalone blog writing and submission services for businesses that want to supplement their existing SEO efforts. Contact our team for a customised proposal based on your industry, target keywords, and monthly goals.</p></div>`,
+    },
+  ];
   return (
     <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
@@ -75,7 +115,7 @@ article submission service,article submission services,manual article submission
                   Article Submission Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  Article Submission Company in India
+                  Top Rated Article Submission Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -107,9 +147,7 @@ article submission service,article submission services,manual article submission
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"Article Submission Services"}
-        />
+        <Breadcrumb Pagetitle={"Article Submission Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -127,9 +165,7 @@ article submission service,article submission services,manual article submission
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"Article Submission Services"}
-        />
+        <Breadcrumb Pagetitle={"Article Submission Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">
@@ -266,6 +302,7 @@ article submission service,article submission services,manual article submission
           </div>
         </div>
       </section>
+      <Faq title={"Frequently Asked Questions"} faqsData={faqsData} />
     </CustomLayout>
   );
 }

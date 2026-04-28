@@ -7,10 +7,10 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function WebPortalCompanyMumbai() {
   const metaTags = (
     <>
-      <title>Web Portal Development Company Mumbai, India | SIB Infotech</title>
+      <title>Web Portal Development Company in Mumbai, India | SIB Infotech</title>
       <meta
         name="description"
-        content="Build custom web portals in Mumbai with SIB Infotech. Professional portal development services for B2B, B2C, and enterprise solutions tailored to your needs."
+        content="SIB Infotech is a top web portal development company. Build custom B2B, B2C, or enterprise portals with secure login, CMS & scalable architecture."
       />
       <meta
         name="keywords"

@@ -8,7 +8,8 @@ import CaseStudy from "@/comps/WhiteLabel/CaseStudy";
 import Cta from "@/comps/WhiteLabel/Cta";
 import Cta2 from "@/comps/WhiteLabel/Cta2";
 import DeliverGrowth from "@/comps/WhiteLabel/DeliverGrowth";
-import Faq from "@/comps/WhiteLabel/Faq";
+import Faq from "@/comps/Home/Faq";
+
 import Featured from "@/comps/WhiteLabel/Featured";
 import Industries from "@/comps/WhiteLabel/Industries";
 import KeyBenifits from "@/comps/WhiteLabel/KeyBenifits";
@@ -23,12 +24,11 @@ export default function TwoDAnimationServicesMumbaiIndia() {
   const metaTags = (
     <>
       <title>
-        White Label Digital Marketing Services in India - Scalable & Affordable
-        Solutions
+        White Label Digital Marketing Agency India | SIB Infotech
       </title>
       <meta
         name="description"
-        content="Boost your agency's revenue with our White Label Digital Marketing Services. Get expert SEO, PPC & Social Media solution &  expand your agency's capabilities under your brand. 100% private label. Contact us today!"
+        content="Scale your agency with SIB Infotech – a trusted white label digital marketing agency in India. 100% private label SEO, PPC & SMM. Boost revenue under your brand."
       />
       <meta name="keywords" content="White Label Digital Marketing Services" />
 
@@ -76,6 +76,50 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
     </>
   );
+
+
+const faqsData = [
+  {
+    id: "faq15",
+    question: "What white label digital marketing services does SIB Infotech offer to agencies?",
+    answer: `<div className="accordion-body"><p>SIB Infotech provides a complete range of white label digital marketing services including white label SEO, white label Google Ads (PPC) management, white label Meta Ads management, white label social media marketing, white label content creation, and white label web development. All deliverables — reports, audits, proposals, and dashboards — are produced under your agency's brand name. With 18+ years of experience and 850+ clients served, SIB Infotech is a trusted white label partner for agencies across India, the US, UK, Australia, and 40+ countries.</p></div>`,
+  },
+  {
+    id: "faq16",
+    question: "Is SIB Infotech a Google Premier Partner for white label services?",
+    answer: `<div className="accordion-body"><p>Yes. SIB Infotech is a Google Premier Partner, which is one of the highest-tier certifications awarded by Google to agencies that demonstrate exceptional campaign management, client growth, and ad performance. This means when you partner with SIB Infotech for white label Google Ads management, your clients benefit from Premier Partner-level expertise and campaign standards, all delivered under your brand.</p></div>`,
+  },
+  {
+    id: "faq17",
+    question: "How does SIB Infotech ensure confidentiality in white label partnerships?",
+    answer: `<div className="accordion-body"><p>SIB Infotech takes confidentiality seriously. All white label partners are protected by a strict Non-Disclosure Agreement (NDA) before any work begins. Our team never contacts your clients directly, never mentions SIB Infotech in any client-facing document, and uses your agency's logo, email templates, and branding on all reports and dashboards. Your client relationship and brand identity remain entirely yours.</p></div>`,
+  },
+  {
+    id: "faq18",
+    question: "What white label SEO services does SIB Infotech provide?",
+    answer: `<div className="accordion-body"><p>SIB Infotech's white label SEO services include technical SEO audits, on-page optimisation, keyword research, content strategy, link building, local SEO, AEO (Answer Engine Optimisation), and GEO (Generative Engine Optimisation) for AI search visibility. All work is delivered with white label reports under your agency's brand. Our SEO team follows Google-compliant, white-hat practices only, ensuring your clients' websites are never at risk of penalties.</p></div>`,
+  },
+  {
+    id: "faq19",
+    question: "Can SIB Infotech scale white label services as my agency grows?",
+    answer: `<div className="accordion-body"><p>Yes. Scalability is one of the biggest advantages of partnering with SIB Infotech. Whether you have 3 clients or 300, we can accommodate your volume without compromising quality or turnaround times. Our team structure includes dedicated project managers, SEO specialists, PPC managers, content writers, and designers — all ready to onboard new client accounts quickly. As you win new business, simply brief us and we handle the delivery.</p></div>`,
+  },
+  {
+    id: "faq20",
+    question: "What industries does SIB Infotech's white label team have experience in?",
+    answer: `<div className="accordion-body"><p>SIB Infotech has delivered white label digital marketing services across industries including healthcare, real estate, e-commerce, education, manufacturing, legal, finance, hospitality, retail, and B2B technology. With 850+ clients across 40+ countries, our team brings proven experience in both competitive Indian markets and international markets, making us a versatile white label partner for agencies serving diverse client portfolios.</p></div>`,
+  },
+  {
+    id: "faq21",
+    question: "What does a white label report from SIB Infotech look like?",
+    answer: `<div className="accordion-body"><p>White label reports from SIB Infotech are fully customised with your agency's logo, colours, and contact details. Reports cover all key performance metrics in clear, visual formats that are easy for your clients to understand. For SEO campaigns, reports include keyword rankings, organic traffic, backlink growth, and technical improvements. For Google Ads, they include spend summaries, conversion data, cost per lead, and ROAS. We also provide live dashboards that can be shared directly with your clients.</p></div>`,
+  },
+  {
+    id: "faq22",
+    question: "How do I start a white label partnership with SIB Infotech?",
+    answer: `<div className="accordion-body"><p>Starting a white label partnership with SIB Infotech is straightforward. Contact our team with details about the services you want to resell and your typical client profile. We will schedule a discovery call, sign an NDA, discuss pricing and processes, and onboard your first client. Most agency partners are fully set up and delivering client work within one week. We also provide onboarding materials and briefing templates to make the process smooth from day one.</p></div>`,
+  },
+];
 
   const whiteLabelServices = [
     {
@@ -252,7 +296,10 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       <div className="bg_light_gray">
         <Testimonials />
       </div>
-      <Faq />
+       <Faq
+        title={"Frequently Asked Questions"}
+        faqsData={faqsData}
+      />
     </CustomLayout>
   );
 }

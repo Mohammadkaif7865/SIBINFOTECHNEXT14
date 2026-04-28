@@ -10,14 +10,14 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function EcommerceSeoServices() {
   const metaTags = (
     <>
-      <title>Top eCommerce SEO Services Company in Mumbai, India</title>
+      <title>Top ECommerce SEO Services Company in Mumbai, India</title>
       <meta
         name="description"
         content="Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
       />
       <meta
         name="keywords"
-        content="Search Engine Optimization, SEO, Ecommerce SEO, Ecommerce SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce"
+        content="Search Engine Optimization, SEO, Ecommerce SEO, SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce"
       />
 
       <meta property="og:type" content="website" />

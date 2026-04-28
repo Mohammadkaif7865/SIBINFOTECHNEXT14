@@ -7,10 +7,10 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function SoftwareTestingQualityAssuranceServices() {
   const metaTags = (
     <>
-      <title>Software Testing & QA Services in Mumbai, India</title>
+      <title>Software Testing Services in Mumbai, India | SIB Infotech</title>
       <meta
         name="description"
-        content="Ensure flawless performance with software testing and quality assurance services in India by SIB Infotech. Get reliable, bug-free, and optimized applications."
+        content="Ensure bug-free, high-performance apps with SIB Infotech’s software testing services. QA automation, manual testing & quality assurance in India."
       />
       <meta name="keywords" content="QA Testing Services" />
 
