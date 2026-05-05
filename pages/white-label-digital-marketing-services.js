@@ -78,6 +78,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
   );
 
 
+
 const faqsData = [
   {
     id: "faq15",
@@ -120,6 +121,19 @@ const faqsData = [
     answer: `<div className="accordion-body"><p>Starting a white label partnership with SIB Infotech is straightforward. Contact our team with details about the services you want to resell and your typical client profile. We will schedule a discovery call, sign an NDA, discuss pricing and processes, and onboard your first client. Most agency partners are fully set up and delivering client work within one week. We also provide onboarding materials and briefing templates to make the process smooth from day one.</p></div>`,
   },
 ];
+
+const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqsData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/<[^>]+>/g, ""),
+      },
+    })),
+  };
 
   const whiteLabelServices = [
     {
@@ -292,6 +306,12 @@ const faqsData = [
       <Industries />
       <Tools />
       <Featured />
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
 
       <div className="bg_light_gray">
         <Testimonials />
@@ -300,6 +320,7 @@ const faqsData = [
         title={"Frequently Asked Questions"}
         faqsData={faqsData}
       />
+      
     </CustomLayout>
   );
 }

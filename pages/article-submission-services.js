@@ -104,6 +104,18 @@ article submission service,article submission services,manual article submission
       answer: `<div className="accordion-body"><p>Yes. Blog submission and off-page content marketing is included in SIB Infotech's comprehensive SEO packages alongside technical SEO, on-page optimisation, link building, and monthly reporting. We can also provide standalone blog writing and submission services for businesses that want to supplement their existing SEO efforts. Contact our team for a customised proposal based on your industry, target keywords, and monthly goals.</p></div>`,
     },
   ];
+    const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqsData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/<[^>]+>/g, ""),
+      },
+    })),
+  };
   return (
     <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
@@ -302,6 +314,12 @@ article submission service,article submission services,manual article submission
           </div>
         </div>
       </section>
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
       <Faq title={"Frequently Asked Questions"} faqsData={faqsData} />
     </CustomLayout>
   );

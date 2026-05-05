@@ -23,6 +23,108 @@ export default function WhatsappMarketing() {
         <meta property="twitter:title" content="WhatsApp Marketing Services in Mumbai, India | SIB Infotech" />
         <meta property="twitter:description" content="Elevate your brand reach with top WhatsApp marketing services from SIB Infotech. Engage customers effectively through personalized messaging and campaigns" />
         <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg" />
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://www.sibinfotech.com/whatsapp-marketing#service",
+          "name": "WhatsApp Marketing Services",
+          "url": "https://www.sibinfotech.com/whatsapp-marketing",
+          "description": "Grow your business with WhatsApp marketing services from SIB Infotech. Reach your target audience directly on their mobile phones.",
+          "provider": {
+            "@id": "https://www.sibinfotech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "serviceType": "WhatsApp Marketing Services"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.sibinfotech.com/#organization",
+          "name": "SIB Infotech",
+          "url": "https://www.sibinfotech.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.sibinfotech.com/assets/images/logo.webp"
+          },
+          "telephone": "+91-92222-60000",
+          "email": "info@sibinfotech.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400064",
+            "addressCountry": "IN"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "99",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "sameAs": [
+            "https://www.facebook.com/sibinfotech",
+            "https://www.linkedin.com/company/sibinfotech",
+            "https://twitter.com/sibinfotech"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.sibinfotech.com/whatsapp-marketing#webpage",
+          "url": "https://www.sibinfotech.com/whatsapp-marketing",
+          "name": "WhatsApp Marketing Services | SIB Infotech",
+          "isPartOf": {
+            "@id": "https://www.sibinfotech.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://www.sibinfotech.com/whatsapp-marketing#breadcrumb"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.sibinfotech.com/#website",
+          "url": "https://www.sibinfotech.com",
+          "name": "SIB Infotech",
+          "publisher": {
+            "@id": "https://www.sibinfotech.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.sibinfotech.com/whatsapp-marketing#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.sibinfotech.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "SMO Services",
+              "item": "https://www.sibinfotech.com/social-media-optimization-services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WhatsApp Marketing Services",
+              "item": "https://www.sibinfotech.com/whatsapp-marketing"
+            }
+          ]
+        }
+      ]
+    })
+  }}
+/>
         <BreadcrumbSchema
         url="https://www.sibinfotech.com/whatsapp-marketing"
         breadcrumbTitle="WhatsApp Marketing Services in Mumbai, India | SIB Infotech"

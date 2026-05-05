@@ -49,6 +49,117 @@ export default function EcommerceSeoServicesPackages() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg"
       />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Service",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#service",
+                name: "E-commerce SEO Packages",
+                url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                description:
+                  "Affordable E-Commerce SEO packages by SIB Infotech to boost online business traffic, improve rankings and increase conversions.",
+                provider: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+                areaServed: {
+                  "@type": "Country",
+                  name: "India",
+                },
+                serviceType: "E-commerce SEO Packages",
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
+                name: "SIB Infotech",
+                url: "https://www.sibinfotech.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
+                },
+                telephone: "+91-92222-60000",
+                email: "info@sibinfotech.com",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "99",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+                sameAs: [
+                  "https://www.facebook.com/sibinfotech",
+                  "https://www.linkedin.com/company/sibinfotech",
+                  "https://twitter.com/sibinfotech",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#webpage",
+                url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                name: "E-commerce SEO Packages | SIB Infotech",
+                isPartOf: {
+                  "@id": "https://www.sibinfotech.com/#website",
+                },
+                breadcrumb: {
+                  "@id":
+                    "https://www.sibinfotech.com/ecommerce-seo-services-packages#breadcrumb",
+                },
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.sibinfotech.com/#website",
+                url: "https://www.sibinfotech.com",
+                name: "SIB Infotech",
+                publisher: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#breadcrumb",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.sibinfotech.com",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "SEO Services",
+                    item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: "E-commerce SEO Packages",
+                    item: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      
+
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/ecommerce-portal-development"
         breadcrumbTitle="E-commerce SEO Packages | Boost Online Sales"
@@ -105,9 +216,7 @@ export default function EcommerceSeoServicesPackages() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"E-commerce SEO Packages"}
-        />
+        <Breadcrumb Pagetitle={"E-commerce SEO Packages"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -125,9 +234,7 @@ export default function EcommerceSeoServicesPackages() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"E-commerce SEO Packages"}
-        />
+        <Breadcrumb Pagetitle={"E-commerce SEO Packages"} />
       </div>
       <section className="customPadding">
         <div className="containerFull">

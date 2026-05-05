@@ -49,6 +49,115 @@ export default function SocialMediaOptimization() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/social-media-optimization.jpg"
       />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Service",
+                "@id":
+                  "https://www.sibinfotech.com/social-media-optimization#service",
+                name: "Social Media Optimization Services",
+                url: "https://www.sibinfotech.com/social-media-optimization",
+                description:
+                  "Top social media optimization (SMO) services in Mumbai by SIB Infotech. We help brands build a strong presence across all social media platforms.",
+                provider: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+                areaServed: {
+                  "@type": "Country",
+                  name: "India",
+                },
+                serviceType: "Social Media Optimization Services",
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
+                name: "SIB Infotech",
+                url: "https://www.sibinfotech.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
+                },
+                telephone: "+91-92222-60000",
+                email: "info@sibinfotech.com",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "99",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+                sameAs: [
+                  "https://www.facebook.com/sibinfotech",
+                  "https://www.linkedin.com/company/sibinfotech",
+                  "https://twitter.com/sibinfotech",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.sibinfotech.com/social-media-optimization#webpage",
+                url: "https://www.sibinfotech.com/social-media-optimization",
+                name: "Social Media Optimization Services | SIB Infotech",
+                isPartOf: {
+                  "@id": "https://www.sibinfotech.com/#website",
+                },
+                breadcrumb: {
+                  "@id":
+                    "https://www.sibinfotech.com/social-media-optimization#breadcrumb",
+                },
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.sibinfotech.com/#website",
+                url: "https://www.sibinfotech.com",
+                name: "SIB Infotech",
+                publisher: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id":
+                  "https://www.sibinfotech.com/social-media-optimization#breadcrumb",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.sibinfotech.com",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "SMO Services",
+                    item: "https://www.sibinfotech.com/social-media-optimization-services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: "Social Media Optimization Services",
+                    item: "https://www.sibinfotech.com/social-media-optimization",
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/social-media-optimization"
         breadcrumbTitle="Social Media Optimization | Enhance Your Brand"
@@ -74,7 +183,6 @@ export default function SocialMediaOptimization() {
                   Top Rated Social Media Optimization Company in India
                 </h2>
 
-            
                 <div className="mt-4">
                   <Link href="/#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -155,7 +263,8 @@ export default function SocialMediaOptimization() {
                   Social Media Creative Campaigns
                 </p>
                 <p>
-                  Designing attractive creatives to enhance your brand image.{" "}
+                  Designing attractive creatives to enhance your brand
+                  image.{" "}
                 </p>
               </div>
               <div className="custom-page-icon-box icon-with-title">

@@ -11,20 +11,159 @@ export default function FlashWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Flash Website Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash" />
+      <meta
+        name="description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        name="keywords"
+        content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-website-designing-services" />
-      <meta property="og:title" content="Flash Website Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-website-designing-services"
+      />
+      <meta
+        property="og:title"
+        content="Flash Website Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-website-designing-services" />
-      <meta property="twitter:title" content="Flash Website Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-website-designing-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Website Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Service",
+                "@id":
+                  "https://www.sibinfotech.com/flash-website-designing-services#service",
+                name: "Flash Website Designing Services",
+                url: "https://www.sibinfotech.com/flash-website-designing-services",
+                description:
+                  "Creative Flash website designing services by SIB Infotech in Mumbai. We create visually engaging animated websites for your business.",
+                provider: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+                areaServed: {
+                  "@type": "Country",
+                  name: "India",
+                },
+                serviceType: "Flash Website Designing Services",
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
+                name: "SIB Infotech",
+                url: "https://www.sibinfotech.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
+                },
+                telephone: "+91-92222-60000",
+                email: "info@sibinfotech.com",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "99",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+                sameAs: [
+                  "https://www.facebook.com/sibinfotech",
+                  "https://www.linkedin.com/company/sibinfotech",
+                  "https://twitter.com/sibinfotech",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.sibinfotech.com/flash-website-designing-services#webpage",
+                url: "https://www.sibinfotech.com/flash-website-designing-services",
+                name: "Flash Website Designing Services | SIB Infotech",
+                isPartOf: {
+                  "@id": "https://www.sibinfotech.com/#website",
+                },
+                breadcrumb: {
+                  "@id":
+                    "https://www.sibinfotech.com/flash-website-designing-services#breadcrumb",
+                },
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.sibinfotech.com/#website",
+                url: "https://www.sibinfotech.com",
+                name: "SIB Infotech",
+                publisher: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id":
+                  "https://www.sibinfotech.com/flash-website-designing-services#breadcrumb",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.sibinfotech.com",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "Website Designing",
+                    item: "https://www.sibinfotech.com/website-designing-services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: "Flash Website Designing Services",
+                    item: "https://www.sibinfotech.com/flash-website-designing-services",
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-website-designing-services"
         breadcrumbTitle="Flash Website Designing Services Company in Mumbai, India"
@@ -80,7 +219,7 @@ export default function FlashWebsiteDesigningServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'Flash Website Designing'} />
+        <Breadcrumb Pagetitle={"Flash Website Designing"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -98,7 +237,7 @@ export default function FlashWebsiteDesigningServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Flash Website Designing'}/>
+        <Breadcrumb Pagetitle={"Flash Website Designing"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

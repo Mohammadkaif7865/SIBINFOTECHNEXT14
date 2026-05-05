@@ -6,6 +6,7 @@ import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
+import Faq from "@/comps/Home/Faq";
 
 export default function EcommerceSeoServices() {
   const metaTags = (
@@ -67,6 +68,7 @@ export default function EcommerceSeoServices() {
       />
     </>
   );
+
   return (
     <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
@@ -78,7 +80,7 @@ export default function EcommerceSeoServices() {
                   E-Commerce SEO Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  E-Commerce SEO Company in India
+                  Top Rated E-Commerce SEO Company in India
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
@@ -110,9 +112,7 @@ export default function EcommerceSeoServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={"E-Commerce SEO Services"}
-        />
+        <Breadcrumb Pagetitle={"E-Commerce SEO Services"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -130,9 +130,7 @@ export default function EcommerceSeoServices() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={"E-Commerce SEO Services"}
-        />
+        <Breadcrumb Pagetitle={"E-Commerce SEO Services"} />
       </div>
       <section>
         <div className="containerFull">
@@ -214,11 +212,15 @@ export default function EcommerceSeoServices() {
             </div>
             <div className="col-lg-6">
               <p className="customText">
-                Using our <Link href="/ecommerce-seo-services-packages">E-commerce SEO services</Link> you would see a real increase
-                in Google Search Traffic and sales with our market tested
-                e-commerce SEO audits and best SEO practices you’re your
-                e-commerce stores on the web we assure guaranteed rise in search
-                engine traffic leading to higher conversion rates!
+                Using our{" "}
+                <Link href="/ecommerce-seo-services-packages">
+                  E-commerce SEO services
+                </Link>{" "}
+                you would see a real increase in Google Search Traffic and sales
+                with our market tested e-commerce SEO audits and best SEO
+                practices you’re your e-commerce stores on the web we assure
+                guaranteed rise in search engine traffic leading to higher
+                conversion rates!
               </p>
               <p className="customText">
                 E-Commerce SEO is specially crafted for the businesses that do
@@ -840,6 +842,7 @@ export default function EcommerceSeoServices() {
           </div>
         </div>
       </section>
+ 
     </CustomLayout>
   );
 }

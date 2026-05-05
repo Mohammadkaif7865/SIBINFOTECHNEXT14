@@ -53,6 +53,109 @@ export default function PpcManagementServicesPackages() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
       />
+
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://www.sibinfotech.com/ppc-management-services-packages#service",
+          "name": "PPC Management Services Packages",
+          "url": "https://www.sibinfotech.com/ppc-management-services-packages",
+          "description": "Affordable PPC management service packages from SIB Infotech. We manage Google Ads, Facebook Ads, and more to drive targeted traffic.",
+          "provider": {
+            "@id": "https://www.sibinfotech.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "serviceType": "PPC Management Services Packages"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.sibinfotech.com/#organization",
+          "name": "SIB Infotech",
+          "url": "https://www.sibinfotech.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.sibinfotech.com/assets/images/logo.webp"
+          },
+          "telephone": "+91-92222-60000",
+          "email": "info@sibinfotech.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400064",
+            "addressCountry": "IN"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "99",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "sameAs": [
+            "https://www.facebook.com/sibinfotech",
+            "https://www.linkedin.com/company/sibinfotech",
+            "https://twitter.com/sibinfotech"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.sibinfotech.com/ppc-management-services-packages#webpage",
+          "url": "https://www.sibinfotech.com/ppc-management-services-packages",
+          "name": "PPC Management Services Packages | SIB Infotech",
+          "isPartOf": {
+            "@id": "https://www.sibinfotech.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://www.sibinfotech.com/ppc-management-services-packages#breadcrumb"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.sibinfotech.com/#website",
+          "url": "https://www.sibinfotech.com",
+          "name": "SIB Infotech",
+          "publisher": {
+            "@id": "https://www.sibinfotech.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.sibinfotech.com/ppc-management-services-packages#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.sibinfotech.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "PPC Services",
+              "item": "https://www.sibinfotech.com/pay-per-click-ppc-management-services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "PPC Management Services Packages",
+              "item": "https://www.sibinfotech.com/ppc-management-services-packages"
+            }
+          ]
+        }
+      ]
+    })
+  }}
+/>
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/ppc-management-services-packages"
         breadcrumbTitle="Result-Driven PPC Management Services Packages | SIB Infotech"

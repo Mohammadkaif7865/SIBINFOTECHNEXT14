@@ -95,6 +95,18 @@ export default function TwitterTrendingMarketing() {
     answer: `<div className="accordion-body"><p>SIB Infotech measures Twitter marketing success through metrics that reflect real business impact: profile reach and impressions, engagement rate (likes, replies, retweets), follower growth quality, branded hashtag usage and reach, website traffic from Twitter, leads generated, and share of voice in relevant industry conversations. We provide monthly reports that go beyond vanity metrics and connect Twitter activity to tangible business outcomes.</p></div>`,
   },
 ];
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqsData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/<[^>]+>/g, ""),
+      },
+    })),
+  };
   return (
     <CustomLayout meta={metaTags}>
       <div className="innerWebDesign">
@@ -260,7 +272,12 @@ export default function TwitterTrendingMarketing() {
           </div>
         </div>
       </section>
-
+<script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
 
        <Faq
         title={"Frequently Asked Questions"}

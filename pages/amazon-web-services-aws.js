@@ -5,7 +5,7 @@ import BannerForm from "../comps/BannerForm";
 
 import { CustomLayout } from "@/comps/CustomLayout";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function AmazonWebServicesAws() {
   const metaTags = (
@@ -51,6 +51,115 @@ export default function AmazonWebServicesAws() {
       <meta
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg"
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Service",
+                "@id":
+                  "https://www.sibinfotech.com/amazon-web-services-aws#service",
+                name: "Amazon Web Services (AWS)",
+                url: "https://www.sibinfotech.com/amazon-web-services-aws",
+                description:
+                  "SIB Infotech provides Amazon Web Services (AWS) solutions including cloud hosting, migration, and management for businesses in India.",
+                provider: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+                areaServed: {
+                  "@type": "Country",
+                  name: "India",
+                },
+                serviceType: "Amazon Web Services (AWS)",
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
+                name: "SIB Infotech",
+                url: "https://www.sibinfotech.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
+                },
+                telephone: "+91-92222-60000",
+                email: "info@sibinfotech.com",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "99",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+                sameAs: [
+                  "https://www.facebook.com/sibinfotech",
+                  "https://www.linkedin.com/company/sibinfotech",
+                  "https://twitter.com/sibinfotech",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.sibinfotech.com/amazon-web-services-aws#webpage",
+                url: "https://www.sibinfotech.com/amazon-web-services-aws",
+                name: "Amazon Web Services (AWS) | SIB Infotech",
+                isPartOf: {
+                  "@id": "https://www.sibinfotech.com/#website",
+                },
+                breadcrumb: {
+                  "@id":
+                    "https://www.sibinfotech.com/amazon-web-services-aws#breadcrumb",
+                },
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.sibinfotech.com/#website",
+                url: "https://www.sibinfotech.com",
+                name: "SIB Infotech",
+                publisher: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id":
+                  "https://www.sibinfotech.com/amazon-web-services-aws#breadcrumb",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.sibinfotech.com",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "Web Development",
+                    item: "https://www.sibinfotech.com/website-development-services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: "Amazon Web Services (AWS)",
+                    item: "https://www.sibinfotech.com/amazon-web-services-aws",
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/amazon-web-services-aws"
@@ -108,7 +217,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className=" d-lg-none">
-      <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
+        <Breadcrumb Pagetitle={"Best Amazon Web Services"} />
       </div>
       <div className="col-lg-5 pe-lg-5 d-block d-lg-none">
         <div className="bannerForm">
@@ -126,7 +235,7 @@ export default function AmazonWebServicesAws() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'Best Amazon Web Services'} />
+        <Breadcrumb Pagetitle={"Best Amazon Web Services"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

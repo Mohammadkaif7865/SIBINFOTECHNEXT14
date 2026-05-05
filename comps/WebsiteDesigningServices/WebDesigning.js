@@ -168,7 +168,18 @@ const WebDesigning = () => {
     answer: `<div className="accordion-body"><p>SIB Infotech provides post-launch website maintenance services including security monitoring and updates, regular backups, performance monitoring, content updates, plugin and CMS version management, and technical troubleshooting. We also offer ongoing SEO, Google Ads, and Meta Ads services for clients who want to drive traffic and leads to their new website — making SIB Infotech a true one-stop digital partner.</p></div>`,
   },
 ];
-
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqsData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/<[^>]+>/g, ""),
+      },
+    })),
+  };
   // const faqsData = [
   //   {
   //     id: "faq1",
@@ -652,7 +663,12 @@ const WebDesigning = () => {
       <Engagement />
       <DigitalMarketingWebAgency />
       
-   
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
 
  
       <Faq
