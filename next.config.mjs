@@ -330,6 +330,11 @@ const nextConfig = {
         destination: "/pay-per-click-ppc-management-services",
         permanent: true,
       },
+      {
+  source: "/social-media-optimization",
+  destination: "/social-media-optimization-services",
+  permanent: true,
+},
     ];
   },
   async headers() {
