@@ -118,7 +118,7 @@ export default function Career() {
               </div>
             </div>
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">HR Cum Admin Executive</p>
@@ -134,7 +134,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="opening_box">
               <div className="row">
@@ -154,7 +154,7 @@ export default function Career() {
               </div>
             </div>
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Digital Marketing Executive</p>
@@ -170,9 +170,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Client Servicing Executive</p>
@@ -188,9 +188,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Accounts Cum Admin Executive</p>
@@ -206,9 +206,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">
@@ -226,9 +226,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Content Writer</p>
@@ -244,9 +244,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">UI/UX Designer</p>
@@ -262,9 +262,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Google Adwords Specialist</p>
@@ -280,9 +280,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Graphic Designer- Social Media </p>
@@ -298,7 +298,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="opening_box">
               <div className="row">
@@ -338,7 +338,7 @@ export default function Career() {
               </div>
             </div>
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">MEAN Stack Developer </p>
@@ -354,7 +354,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="opening_box">
               <div className="row">
@@ -374,7 +374,7 @@ export default function Career() {
               </div>
             </div>
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Mobile App Developer</p>
@@ -390,7 +390,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="opening_box">
               <div className="row">
@@ -445,7 +445,7 @@ export default function Career() {
                             </div>
                         </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Wordpress Developer</p>
@@ -461,9 +461,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Website Designer</p>
@@ -479,7 +479,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="opening_box">
               <div className="row">
@@ -499,7 +499,7 @@ export default function Career() {
               </div>
             </div>
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title"> Web Developer (Shopify) </p>
@@ -515,9 +515,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Manager Operations</p>
@@ -533,9 +533,9 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="opening_box">
+            {/* <div className="opening_box">
               <div className="row">
                 <div className="col-md-6">
                   <p className="title">Executive Assistant to Director</p>
@@ -551,7 +551,7 @@ export default function Career() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

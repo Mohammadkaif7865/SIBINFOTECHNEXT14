@@ -27,13 +27,13 @@ export async function getServerSideProps(context) {
     const blog = resBlog.data.blog;
     const blogs = resBlogs.data.blogs;
     const blogSections = resBlog.data.blog_sections;
-    const blogFaqs = resBlog.data.blog_faqs;    
+    const blogFaqs = resBlog.data.blog_faqs;
 
     const resAuthor = await axios.get(`${CONSTANTS.API_URL}author/single/${blog[0].author_id}`, {
       headers,
     });
-    const author = resAuthor.data.author;    
-    
+    const author = resAuthor.data.author;
+
     return {
       props: {
         blog,
@@ -82,10 +82,17 @@ function FaqAccordion({ faqs }) {
     </div>
   );
 }
+function cleanSchemaJsonLd(schema) {
+  if (!schema || typeof schema !== "string") return "";
 
+  return schema
+    .replace(/^<script[^>]*type=["']application\/ld\+json["'][^>]*>/i, "")
+    .replace(/<\/script>$/i, "")
+    .trim();
+}
 function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
-  
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
@@ -174,6 +181,14 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             <meta property="twitter:title" content={blog[0].meta_title} />
             <meta property="twitter:description" content={blog[0].meta_description} />
             <meta property="twitter:image" content={`${CONSTANTS.BACKEND_URL + blog[0].image}`} />
+            {blog[0]?.schema_jsonld && (
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: cleanSchemaJsonLd(blog[0].schema_jsonld),
+                }}
+              />
+            )}
           </Head>
 
           {/* Banner Section */}
@@ -238,13 +253,13 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                 <div className="col-lg-9 order-1 order-lg-2">
 
                   {blog[0]?.image && (
-                      <div className="mb-3">
-                        <img
-                          src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-                          alt={blog[0].image_alt}
-                          className="img-fluid br-5"
-                        />
-                      </div>
+                    <div className="mb-3">
+                      <img
+                        src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+                        alt={blog[0].image_alt}
+                        className="img-fluid br-5"
+                      />
+                    </div>
                   )}
 
                   {author && (
@@ -267,7 +282,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                           ></div>
                         </div>
                       </div>
-                    
+
                     </div>
 
                   )}
@@ -286,54 +301,54 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   {blogSections && blogSections.length > 0 && blogSections.some(
                     section => section.title || section.description || section.media || section.grey_quote
                   ) && (
-                    <>
-                      {blogSections.map((section) => {
-                        const sectionStyle = {};
-                        if (section.section_bg_color) sectionStyle.background = section.section_bg_color;
-                        if (section.section_border_color) sectionStyle.border = `1px solid ${section.section_border_color}`;
+                      <>
+                        {blogSections.map((section) => {
+                          const sectionStyle = {};
+                          if (section.section_bg_color) sectionStyle.background = section.section_bg_color;
+                          if (section.section_border_color) sectionStyle.border = `1px solid ${section.section_border_color}`;
 
-                        const greyQuoteStyle = {
-                          fontStyle: "italic",
-                          padding: "1rem"
-                        };
-                        if (section.grey_quote_bg_color) greyQuoteStyle.background = section.grey_quote_bg_color;
-                        if (section.grey_quote_border_color) greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
+                          const greyQuoteStyle = {
+                            fontStyle: "italic",
+                            padding: "1rem"
+                          };
+                          if (section.grey_quote_bg_color) greyQuoteStyle.background = section.grey_quote_bg_color;
+                          if (section.grey_quote_border_color) greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
 
-                        return (
-                          <div
-                            key={section.id}
-                            id={`section-${section.id}`}
-                            className="mb-4 blog_section border-shadow"
-                            style={sectionStyle}
-                          >
-                            <h2 className="blog_section_item">{section.title}</h2>
+                          return (
+                            <div
+                              key={section.id}
+                              id={`section-${section.id}`}
+                              className="mb-4 blog_section border-shadow"
+                              style={sectionStyle}
+                            >
+                              <h2 className="blog_section_item">{section.title}</h2>
 
-                            <div className="blog_section_item">
-                              {section.media_type === "image" && section.media && (
-                                <img
-                                  src={`${CONSTANTS.BACKEND_URL + section.media}`}
-                                  alt=""
-                                  className="img-fluid br-5 mb-3"
+                              <div className="blog_section_item">
+                                {section.media_type === "image" && section.media && (
+                                  <img
+                                    src={`${CONSTANTS.BACKEND_URL + section.media}`}
+                                    alt=""
+                                    className="img-fluid br-5 mb-3"
+                                  />
+                                )}
+                              </div>
+
+                              <div
+                                className="blog_section_item"
+                                dangerouslySetInnerHTML={{ __html: section.description }}
+                              />
+
+                              {section.grey_quote && (
+                                <div
+                                  className="blog_section_item blog_grey_quote" style={greyQuoteStyle}
+                                  dangerouslySetInnerHTML={{ __html: section.grey_quote }}
                                 />
                               )}
                             </div>
-
-                            <div
-                              className="blog_section_item"
-                              dangerouslySetInnerHTML={{ __html: section.description }}
-                            />
-
-                            {section.grey_quote && (
-                              <div
-                                className="blog_section_item blog_grey_quote" style={greyQuoteStyle}
-                                dangerouslySetInnerHTML={{ __html: section.grey_quote }}
-                              />
-                            )}
-                          </div>
-                        );
-                      })}
-                    </>
-                  )}
+                          );
+                        })}
+                      </>
+                    )}
 
 
                   {/* FAQs */}
