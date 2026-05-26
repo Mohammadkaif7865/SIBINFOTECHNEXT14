@@ -40,7 +40,7 @@ const BrandBuild = ({
           </div>
         </div>
 
-        <div className="row mt-5 align-items-center">
+        <div className="row mt-4 align-items-center">
           <div className="col-lg-6 pe-5">
             <div className="d-flex">
               <Image

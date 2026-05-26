@@ -7,110 +7,134 @@ const Services = () => {
     {
       id: "section1",
       number: "01",
-      title: "Search Ads (Google Search Network) ",
-      heading: "Google Search Network (GSN) Campaign",
-      link: "/google-search-network-campaign",
+      title: "Search Ads (Google Search Network)",
+      heading: "Search Ads (Google Search Network)",
+      
       description: [
-        "The Search Network campaign is the only platform that allows your business to display text ads on the SERPs (Search Engine Result Pages).",
-        " The campaign is supplemented with extensive features that include app installs, mobile app engagement, dynamic search ads, call-only or callout, and snippets.",
-        " SN is a boundless place for a new Google Ads user to advertise for wide-ranging businesses along with the local business. Search Network campaigns are beneficial when:",
+        "Google Search Network is the only platform that allows your business to display text ads directly on Google's Search Engine Result Pages, exactly where buyers are searching with real intent to purchase.",
+        "Search campaigns come with advanced features including dynamic search ads, call-only ads, callout extensions, sitelink extensions, location extensions, and structured snippets that make your ad stand out from organic listings and competitor ads.",
+        "Search Network campaigns are most effective when:",
       ],
       points: [
-        "You want your page to be #1 on Google SERPs",
-        "You want to publicize on Google Maps",
+        "You want your business to appear at the top of Google search results",
+        "You want to capture buyers actively searching for your products or services",
+        "You want to advertise on Google Maps and reach local customers",
+        "You need measurable results from day one",
+        "You want full control over which keywords trigger your ads",
       ],
     },
     {
       id: "section2",
       number: "02",
       title: "Display Ads (Google Display Network)",
-      heading: "Google Display Network (GDN) Campaign",
-      link: "/google-display-network-campaign",
+      heading: "Display Ads (Google Display Network)",
+   
       description: [
-        "The image ads are displayed on the Google Display Network (GDN), which consists of millions of websites to show your ads.",
-        " The GDN campaigns demand to setup marketing objectives that can be based on impressions, visits, engagement, and actions.",
-        " The objectives you select are the basis for building your ad campaign and its success. You can use the GDN campaign:",
+        "Google Display Network reaches over 90% of internet users worldwide across 2 million+ websites, news platforms, blogs, Gmail inboxes, and YouTube videos. Display Ads use eye-catching banners and visuals to build brand awareness and capture attention even when users are not actively searching.",
+        "These campaigns work brilliantly for top-of-funnel awareness, retargeting previous visitors, and reaching specific audiences based on interests, demographics, life events, and browsing behavior.",
+        "Display Ads work best when:",
       ],
       points: [
-        "For building the brand impression",
-        "If you want to market on a definite website",
-        "To craft remarketing campaigns",
+        "You want to build brand awareness across India and globally",
+        "You need to retarget website visitors who did not convert",
+        "You want to target audiences based on interests and online behavior",
+        "You sell visually appealing products that benefit from strong imagery",
+        "You want cost-effective impressions at large scale",
       ],
     },
     {
       id: "section3",
       number: "03",
       title: "Shopping Ads (Google Shopping)",
-      heading: "Google Shopping Campaign",
-      link: "/google-shopping-campaign",
+      heading: "Shopping Ads (Google Shopping)",
+     
       description: [
-        "The first step for a Google shopping campaign is to set up Google Merchant Centre.",
-        " This ad campaign id is useful to showcase your products from your eCommerce store in Google Shopping.",
-        " The success of the campaign depends on how you set up your eCommerce store or website, if the setup is correct and Google receives correct feeds, it does all the targeting and ad creation jobs on its own.",
-        " The Google Shopping Ads campaign could only be used if you have an eCommerce store.",
+        "Google Shopping Ads put your product images, prices, and store name directly in front of buyers searching for products like yours. Unlike text ads, Shopping Ads show the actual product visually, making them one of the highest-converting ad formats for e-commerce businesses in India.",
+        "These campaigns pull data directly from your product feed and display ads across Google Search, the Google Shopping tab, YouTube, and partner sites.",
+        "Shopping Ads are most effective when:",
       ],
-      points: [],
+      points: [
+        "You run an e-commerce business with a product catalog",
+        "You want shoppers to see your products before they click",
+        "You want to compete on price and value visually",
+        "You sell physical products with clear images and descriptions",
+        "You want to reduce cost per acquisition through product-first marketing",
+      ],
     },
     {
       id: "section4",
       number: "04",
-      title: "Video Ads (YouTube Advertising) ",
-      heading: "Video YouTube Ad Campaign",
-      link: "/video-youtube-ad-campaign",
+      title: "Video Ads (YouTube Advertising)",
+      heading: "Video Ads (YouTube Advertising)",
+    
       description: [
-        "There are several ad formats available for video ad campaigns on Google AdWords.",
-        " The options range from letting the viewer skip your ad after five seconds to a six seconds buffer ad between videos.",
-        " The campaign has several features that allow you to extend your ads with shopping campaigns along with app installs.",
-        " Video Ad campaign serves your business. Search Network campaigns are beneficial when:",
+        "YouTube is the second largest search engine in the world and Google's most powerful video advertising platform. Video Ads on YouTube let businesses tell their story through skippable in-stream ads, non-skippable ads, bumper ads, and discovery ads that appear in YouTube search and recommendations.",
+        "With over 500 million Indian users watching YouTube every month, YouTube Ads deliver unmatched reach for both brand-building and direct response campaigns.",
+        "YouTube Ads work best when:",
       ],
       points: [
-        "If you want to stimulate video content",
-        "If you want to create and place commercial videos on YouTube",
+        "You want to build emotional connection with your audience",
+        "You have a video that explains your product or service clearly",
+        "You want to reach buyers across mobile, desktop, and smart TVs",
+        "You want to target by interests, search history, and life events",
+        "You need scalable awareness at low cost per view",
       ],
     },
     {
       id: "section5",
       number: "05",
       title: "App Promotion Campaigns",
-      heading: "Universal App Campaign",
-      link: "/universal-app-campaign",
+      heading: "App Promotion Campaigns",
+   
       description: [
-        "The universal app campaign advertises your application on all the Google Advertising platforms such as search, display, and video networks.",
-        " It is considered to be the best platform to advertise your application also the setup is straightforward, you just need to add your app and modify the campaign objectives as per your needs.",
-        " Universal app campaign could be used:",
+        "App Promotion Campaigns, also called App Campaigns, help you drive app installs and in-app actions across Google Search, Google Play Store, YouTube, and the Google Display Network.",
+        "Google's machine learning automatically optimizes your ad placements, bids, and creative combinations to maximize results for the actions that matter most to your business.",
+        "App Promotion Campaigns are perfect when:",
       ],
       points: [
-        "If you want to launch and boost a new or existing app",
-        "If you want to drive sales through the app",
+        "You have a mobile app on iOS or Android that needs more downloads",
+        "You want to drive in-app purchases, sign-ups, or specific user actions",
+        "You want to scale app installs without managing dozens of campaign variants",
+        "You want Google to automatically optimize across multiple placements",
+        "You need measurable cost per install across the full funnel",
       ],
     },
     {
       id: "section6",
       number: "06",
-      title: "Remarketing Campaigns ",
-      heading: "Remarketing or Retargeting Campaign",
-      link: "/remarketing-retargeting-campaign",
+      title: "Remarketing Campaigns",
+      heading: "Remarketing Campaigns",
+   
       description: [
-        "The Google remarketing ads are considered to be a powerful tool for businesses as it is useful in targeting the people who have already visited your store or used your application.",
-        " The remarketing campaign is in-built with exclusive features that are beneficial to reach former visitors and users.",
-        " The campaign demands careful set-up as it leads to the generation of your remarketing tags and lists.",
-        " The remarketing ads work only when your business has minimal one previously set up a retargeting audience list.",
+        "Remarketing brings back visitors who showed interest in your business but did not convert the first time. Whether they browsed your product pages, added items to cart, or abandoned a half-filled form, remarketing puts your brand back in front of them with targeted ads across Google Search, Display Network, YouTube, and Gmail.",
+        "Remarketing campaigns deliver some of the highest ROI in Google Ads because you are targeting people who already know your brand.",
+        "Remarketing works best when:",
       ],
-      points: [],
+      points: [
+        "You want to recover abandoned carts and incomplete leads",
+        "You want to stay top-of-mind during long buying cycles",
+        "You want to upsell or cross-sell to existing customers",
+        "You want lower CPC than cold targeting campaigns",
+        "You need higher conversion rates from warm audiences",
+      ],
     },
     {
       id: "section7",
       number: "07",
-      title: "Performance Max Campaigns ",
+      title: "Performance Max Campaigns",
       heading: "Performance Max Campaigns",
-      link: "/remarketing-retargeting-campaign",
+    
       description: [
-        "Performance max campaign ensures that your ads should reach to the right audience at the right time. It is a goal oriented campaign, it make your ads ideal for driving sales, and increasing brand visibility. Performance max deliver higher ROI and better results effortlessly. It is used for: ",
+        "Performance Max is Google's newest campaign type that combines all Google Ads inventory into one fully automated campaign. Your ads can appear on Search, Display, YouTube, Discover, Gmail, and Google Maps, with machine learning optimizing every placement, bid, and creative combination in real time.",
+        "Performance Max campaigns require strong creative assets, clear conversion goals, and a steady stream of audience signals to perform at their best.",
+        "Performance Max is ideal when:",
       ],
       points: [
-        `AI-driven campaigns for multi-channel ad placements. `,
-        `Optimized bidding strategies to enhance conversions. `,
-        `Asset based approach that create high performing ads.`,
+        "You want to maximize conversions across every Google channel from a single campaign",
+        "You have multiple high-quality creative assets ready",
+        "You want Google's AI to handle bidding and placement optimization",
+        "You need to scale results quickly without managing seven separate campaigns",
+        "You sell across multiple product lines or services",
       ],
     },
   ];
@@ -119,13 +143,17 @@ const Services = () => {
     <section className="bgSeo">
       <div className="containerFull">
         <div className="servicesBlock">
-          <div className="d-flex justify-content-bet`ween align-items-center flex-wrap">
-            <div className="leftSer d-flex justify-content-between w-100">
-              <h4 className="heading text-white fontWeight600 ">
-                Our Google Ads Services Include:
-              </h4>
+          <div className="row align-items-center">
+            <div className="col-12 col-lg-9">
+              <h2 className="heading text-white fontWeight600 mb-3 mb-lg-0">
+                Our Complete Google Ads management services include the
+                following:
+              </h2>
+            </div>
+
+            <div className="col-12 col-lg-3 text-lg-end">
               <Link
-                className="btnPrimary  d-none d-lg-block"
+                className="btnPrimary d-none d-lg-inline-block"
                 href="/contact-us"
               >
                 Connect With Expert
@@ -194,7 +222,7 @@ const Services = () => {
                           </div>
                         </div>
                       </div>
-                    )
+                    ),
                 )}
               </div>
             </div>

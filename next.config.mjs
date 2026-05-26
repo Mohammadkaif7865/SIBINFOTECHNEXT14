@@ -331,10 +331,10 @@ const nextConfig = {
         permanent: true,
       },
       {
-  source: "/social-media-optimization",
-  destination: "/social-media-optimization-services",
-  permanent: true,
-},
+        source: "/social-media-optimization",
+        destination: "/social-media-optimization-services",
+        permanent: true,
+      },
     ];
   },
   async headers() {

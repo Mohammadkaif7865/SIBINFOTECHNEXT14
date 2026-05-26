@@ -4,75 +4,105 @@ import React from 'react'
 const HighlyEfficient = () => {
   return (
     
-    <section className="bgGrey">
-    <div className="containerFull">
-      <div className="row">
-        <div className="col-lg-5">
-          <div className="bgBlueDarkLeft">
-            <p className="customText text-white">
-              Along with extensive benefits our Google Advertising
-              management services are loaded with
-            </p>
-            <h3 className="customHeading text-white customLineHeight2">
-              360-Degree
-              <br />
-              Highly Efficient Strategy
-            </h3>
-          </div>
-        </div>
-        <div className="col-lg-7">
-          <div className="row">
-            <div className="col-lg-6">
-              <ul className="instagram-list">
-                <li className="customText">Setting up business goals</li>
-                <li className="customText">Keyword Research</li>
-                <li className="customText">Competitor campaign analysis</li>
-                <li className="customText">Audience Research</li>
-                <li className="customText">
-                  Optimizing landing page and offers
-                </li>
-                <li className="customText">
-                  Implementing focused keywords
-                </li>
-                <li className="customText">
-                  Grouping related keywords into Ad Groups
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-6">
-              <ul className="instagram-list">
-                <li className="customText">
-                  Traffic Segmentation (SN &amp; DN traffic)
-                </li>
-                <li className="customText">
-                  Crafting reflective and unique Ad Copy
-                </li>
-                <li className="customText">Conversion tracking</li>
-                <li className="customText">Data mining from Ad insights</li>
-                <li className="customText">
-                  Maintenance and optimization of Google Ads
-                </li>
-                <li className="customText">
-                  Regular transparent progress reports
-                </li>
-                <li className="customText">24*7*365 Support</li>
-              </ul>
-            </div>
-          </div>
-          <p className="customText">
-            You will find many Google AdWords marketing services provider
-            and{" "}
-            <Link href="/search-engine-optimization-seo-services">
-              SEO Company in India
-            </Link>{" "}
-            but delivering the desired results matters which make SIB
-            Infotech stand out. Talk to us for Google Ads Services and SEO
-            services to be on top of Search Engine Result Pages.
+<section className="bgGrey googleAdsPage">
+  <div className="containerFull">
+    <div className="row">
+      <div className="col-lg-4">
+        <div className="new-bg-red p-4 h-100 d-flex flex-column justify-content-center text-center">
+          <h3 className="heading fontWeight600   text-white">
+          Industries We Help Grow with Targeted{" "}
+         Google Ads Marketing Services
+        </h3>
+
+          <p className="customText text-white mt-3">
+            Generic Google Ads campaigns waste money. Industry-specific strategies generate revenue. Over 18+ years, we have developed specialized playbooks for businesses across sectors, each with unique buyer journeys, keyword intents, and conversion bottlenecks.
+
           </p>
         </div>
       </div>
+
+      <div className="col-lg-8 ps-lg-5">
+       
+
+     
+
+        <p className="customText">
+          Here are the industries where our Google Ads marketing services
+          consistently outperform benchmarks:
+        </p>
+
+        <div className="row">
+          <div className="col-lg-6">
+            <ul className="instagram-list">
+              <li className="customText">
+                <strong>E-commerce &amp; Retail:</strong> Shopping feeds,
+                Performance Max, and dynamic remarketing that lower CPA while
+                scaling ROAS.
+              </li>
+
+              <li className="customText">
+                <strong>Real Estate &amp; Property:</strong> High-intent lead
+                generation for residential, commercial, and luxury projects
+                with geo-fencing and location extensions.
+              </li>
+
+              <li className="customText">
+                <strong>Healthcare &amp; Wellness:</strong> Compliant campaign
+                management for clinics, hospitals, dentists, and cosmetic
+                surgeons, maximizing appointments while navigating policy
+                restrictions.
+              </li>
+
+              <li className="customText">
+                <strong>B2B SaaS &amp; Technology:</strong> Long sales cycle
+                support using LinkedIn + Google retargeting, white paper
+                downloads, and demo booking optimization.
+              </li>
+
+              <li className="customText">
+                <strong>Education &amp; E-learning:</strong> Course enrollment
+                campaigns, seasonal admission drives, and international student
+                targeting.
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-lg-6">
+            <ul className="instagram-list">
+              <li className="customText">
+                <strong>Travel &amp; Hospitality:</strong> Hotel booking
+                campaigns, tour package promotions, and remarketing to
+                abandoned cart users.
+              </li>
+
+              <li className="customText">
+                <strong>Manufacturing &amp; Industrial:</strong> Niche B2B
+                keyword strategies for capital goods, machinery parts, and
+                export inquiries.
+              </li>
+
+              <li className="customText">
+                <strong>Financial Services:</strong> Lead generation for loans,
+                insurance, investment advisory, and wealth management.
+              </li>
+
+              <li className="customText">
+                <strong>Local Businesses &amp; Home Services:</strong> Plumbers,
+                electricians, packers and movers, salons, and gyms optimized
+                for Local Service Ads and Google Maps visibility.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p className="customText">
+          No matter your industry, we build campaigns that speak your
+          customer&apos;s language—not generic ad copy.
+        </p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
   )
 }
 
