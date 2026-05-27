@@ -283,9 +283,9 @@ const GoogleAdsMgt = () => {
   ];
   const brandContent = [
     {
-      title: `Our <span> Google Ads Management </span> Packages 
+      title: `What’s Included in Our Google Ads Management Package?
 `,
-      subtitle: `What’s Included in Our Google Ads Management Package?`,
+      subtitle: ` Our Google Ads Management Package`,
       description: `
         A complete Google Ads management package goes beyond just running ads. It covers every element that makes campaigns profitable, from strategy and setup to optimization and reporting. Here is exactly what you get when you partner with SIB Infotech.
       `,
