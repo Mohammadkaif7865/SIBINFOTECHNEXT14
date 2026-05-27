@@ -4787,7 +4787,7 @@ h1 {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: var(--light-blue-color);
+  background-color: var(--red-color);
   left: -30px;
   top: 10px;
 }
@@ -8941,7 +8941,7 @@ table tbody tr td:nth-child(2) {
 .listItems li:before {
   content: "\f058";
   top: 5px;
-  color: var(--light-blue-color);
+  color:var(--red-color);
   left: 0px;
   position: absolute;
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
@@ -14358,6 +14358,7 @@ tudy-right-main {
 }
 .industrySeoCard:hover {
   transform: translateY(-6px);
+  border: 1px solid var(--red-color);
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
 }
 

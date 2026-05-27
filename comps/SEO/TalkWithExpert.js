@@ -8,9 +8,9 @@ const TalkWithExpert = ({ heading, linkTitle, linkDestination }) => {
         <div className="row align-items-center">
           <div className="col-lg-8">
             <div className="leftAction">
-              <h4 className="sub_heading text-white fontHeading fontWeight500">
+              <h2 className="sub_heading text-white  fontWeight600">
                 {heading}
-              </h4>
+              </h2>
             </div>
           </div>
           <div className="col-lg-4">

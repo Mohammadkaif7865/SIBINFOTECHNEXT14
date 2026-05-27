@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function SmoSection({
-  title,
+  heading,
   highlightedText,
   description,
   subDescription,
@@ -16,10 +16,10 @@ export default function SmoSection({
       <div className="container">
         <div className="row align-items-center">
           {/* Image Column */}
-          <div className="col-md-6 text-center mb-4 mb-md-0">
+          <div className="col-md-6  mb-4 mb-md-0">
             <div
               className="w-100"
-              style={{ maxWidth: "500px", margin: "0 auto" }}
+              style={{ maxWidth: "500px" }}
             >
               <Image
                 src={imageSrc}
@@ -31,11 +31,12 @@ export default function SmoSection({
             </div>
           </div>
 
-          {/* Text Column */}
+        
           <div className="col-md-6">
-            <h2 className={`mb-3 ${textWhite ? "text-white" : ""}`}>
-              {title} <strong className="text_red">{highlightedText}</strong>?
-            </h2>
+            <h2 className={`heading mb-3 ${textWhite ? "text-white" : ""}`}  style={{ fontWeight: 600 }}>
+  {heading}{" "}
+  <strong className="text_red">{highlightedText}</strong>
+</h2>
             <p
               className={`mb-4 ${textWhite ? "text-white" : ""}`}
               dangerouslySetInnerHTML={{ __html: description }}

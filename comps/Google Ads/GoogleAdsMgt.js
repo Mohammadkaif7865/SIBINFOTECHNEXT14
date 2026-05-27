@@ -382,11 +382,11 @@ const GoogleAdsMgt = () => {
         <SmoSection
           textWhite
           bgBlack
-          title="Why Choose"
+          heading="Why Choose"
           highlightedText=" Google Ads for Your Business"
           description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
           subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
-          imageSrc="/assets/images/ads.png"
+          imageSrc="/assets/images/google-ads/google-ads.jpg"
           imageAlt="Team Working"
           features={[
             {

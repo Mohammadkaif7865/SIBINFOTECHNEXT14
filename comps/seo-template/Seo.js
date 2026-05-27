@@ -562,7 +562,7 @@ const Seo = () => {
             </div>
 
             <div className="col-lg-7">
-              <p className="customText">Search is not what it used to be.</p>
+              <p>Search is not what it used to be.</p>
 
               <p>
                 A few years ago, ranking on Google was the only game in town.
@@ -590,7 +590,7 @@ const Seo = () => {
               <div className="nextGenSeoCard h-100">
                 <div className="nextGenSeoNumber">01</div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2 ">
+                <h4 className="small_heading fontWeight600 mb-2 ">
                   AI SEO
                 </h4>
 
@@ -618,7 +618,7 @@ const Seo = () => {
               <div className="nextGenSeoCard h-100">
                 <div className="nextGenSeoNumber">02</div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2 ">
+                <h4 className="small_heading  fontWeight600 mb-2 ">
                   AEO <span>(Answer Engine Optimization)</span>
                 </h4>
 
@@ -646,7 +646,7 @@ const Seo = () => {
               <div className="nextGenSeoCard h-100">
                 <div className="nextGenSeoNumber">03</div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2 ">
+                <h4 className="small_heading  fontWeight600 mb-2 ">
                   GEO <span>(Generative Engine Optimization)</span>
                 </h4>
 
@@ -678,12 +678,12 @@ const Seo = () => {
         <div className="containerFull">
           <div className="row align-items-center">
             <div className="col-lg-6 ">
-              <h3 className="customHeading">
+              <h3 className="heading fontWeight600">
                 Why Mumbai Businesses Cannot{" "}
                 <span className="text_red">Ignore This Shift</span>
               </h3>
 
-              <p className="customText">
+              <p className="customText mt-3">
                 Mumbai is one of the most competitive search markets in India.
                 Every industry has dozens of established players already running
                 aggressive SEO. To stand out today, you need more than keywords
@@ -706,10 +706,10 @@ const Seo = () => {
               </p>
             </div>
 
-            <div className="col-lg-6 mt-2 mt-lg-0 ">
+            <div className="col-lg-6 mt-2 mt-lg-0 ps-lg-5 ">
               <img
-                className="image-full"
-                src="assets/images/ecommerce-seo-company-in-delhi.svg"
+                className="image-full rounded"
+                src="assets/images/google-ads/why-mumbai-shift-strategy.jpg"
                 alt="Mumbai businesses AI SEO framework"
               />
             </div>
@@ -721,7 +721,7 @@ const Seo = () => {
         <div className="containerFull">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-              <h2 className="heading fontWeight600 fontHeading text-center mb-2">
+              <h2 className="heading fontWeight600  text-center mb-2">
                 SEO Plans Built for Every{" "}
                 <span className="text_red">Business Size, Budget & Stage</span>
               </h2>
@@ -744,7 +744,7 @@ const Seo = () => {
                   />
                 </div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2">
+                <h4 className="small_heading  fontWeight600 mb-2">
                   Small Business SEO Services
                 </h4>
 
@@ -770,7 +770,7 @@ const Seo = () => {
                   />
                 </div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2">
+                <h4 className="small_heading  fontWeight600 mb-2">
                   Enterprise & Corporate SEO
                 </h4>
 
@@ -793,7 +793,7 @@ const Seo = () => {
                   />
                 </div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2">
+                <h4 className="small_heading  fontWeight600 mb-2">
                   White Label SEO Services
                 </h4>
 
@@ -816,7 +816,7 @@ const Seo = () => {
                   />
                 </div>
 
-                <h4 className="small_heading fontHeading fontWeight600 mb-2">
+                <h4 className="small_heading  fontWeight600 mb-2">
                   Affordable SEO Packages for Indian SMEs
                 </h4>
 
@@ -851,7 +851,7 @@ const Seo = () => {
         <div className="containerFull">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="heading fontWeight600 fontHeading">
+              <h2 className="heading fontWeight600 ">
                 How Are Our SEO Services Better Than Others{" "}
                 <span className="text_red">In Mumbai?</span>
               </h2>
@@ -1047,7 +1047,7 @@ const Seo = () => {
         <div className="containerFull">
           <div className="row">
             <div className="col-lg-10 mx-auto text-center">
-              <h2 className="heading fontHeading fontWeight600 mt-4">
+              <h2 className="heading fontWeight600 mt-4">
                 Industries Where We Deliver SEO Success
               </h2>
 
@@ -1070,7 +1070,7 @@ const Seo = () => {
                   src="/assets/images/seo/ecommerce-seo.png"
                   alt="E-commerce and D2C Brands"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   E-commerce and D2C Brands
                 </h3>
                 <p>
@@ -1087,7 +1087,7 @@ const Seo = () => {
                   src="/assets/images/seo/healthcare-seo.png"
                   alt="Healthcare and Pharma"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Healthcare and Pharma
                 </h3>
                 <p>
@@ -1105,7 +1105,7 @@ const Seo = () => {
                   src="/assets/images/seo/real-estate-seo.png"
                   alt="Real Estate and Construction"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Real Estate and Construction
                 </h3>
                 <p>
@@ -1122,7 +1122,7 @@ const Seo = () => {
                   src="/assets/images/seo/education-seo.png"
                   alt="Education and EdTech"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Education and EdTech
                 </h3>
                 <p>
@@ -1139,7 +1139,7 @@ const Seo = () => {
                   src="/assets/images/seo/finance-seo.png"
                   alt="Finance and Banking"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Finance and Banking
                 </h3>
                 <p>
@@ -1156,7 +1156,7 @@ const Seo = () => {
                   src="/assets/images/seo/travel-seo.png"
                   alt="Travel and Hospitality"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Travel and Hospitality
                 </h3>
                 <p>
@@ -1173,7 +1173,7 @@ const Seo = () => {
                   src="/assets/images/seo/it-saas-seo.png"
                   alt="IT and SaaS"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   IT and SaaS
                 </h3>
                 <p>
@@ -1190,7 +1190,7 @@ const Seo = () => {
                   src="/assets/images/seo/manufacturing-seo.png"
                   alt="Manufacturing and B2B"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Manufacturing and B2B
                 </h3>
                 <p>
@@ -1207,7 +1207,7 @@ const Seo = () => {
                   src="/assets/images/seo/legal-seo.png"
                   alt="Legal and Consultancy"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Legal and Consultancy
                 </h3>
                 <p>
@@ -1224,7 +1224,7 @@ const Seo = () => {
                   src="/assets/images/seo/beauty-fashion-seo.png"
                   alt="Beauty, Fashion and Lifestyle"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Beauty, Fashion and Lifestyle
                 </h3>
                 <p>
@@ -1241,7 +1241,7 @@ const Seo = () => {
                   src="/assets/images/seo/ngo-seo.png"
                   alt="NGOs and Non-Profits"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   NGOs and Non-Profits
                 </h3>
                 <p>
@@ -1257,7 +1257,7 @@ const Seo = () => {
                   src="/assets/images/seo/real-estate-seo.png"
                   alt="Home Services"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600  mb-3">
                   Home Services
                 </h3>
                 <p>
@@ -1274,7 +1274,7 @@ const Seo = () => {
                   src="/assets/images/seo/niche-sector-seo.png"
                   alt="Telecom, Matrimony, and Niche Sectors"
                 />
-                <h3 className="small_heading fontWeight600 fontHeading mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Telecom, Matrimony, and Niche Sectors
                 </h3>
                 <p>

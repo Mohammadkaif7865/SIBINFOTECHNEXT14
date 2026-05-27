@@ -11,11 +11,11 @@ const HeroGoogleAds = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white fontHeading">
-                  Stop Wasting Ad Budget. Get Profitable Campaigns with Expert <span class="text_red">Google Ads Management Services in India </span> 
+                <h1 className="heading fontWeight600 text-white ">
+                  Stop Wasting Ad Budget. Get Profitable Campaigns with Expert <span class="text_red fontWeight700">Google Ads Management Services in India </span> 
 
                 </h1>
-                <h2 className="small_heading fontWeight600 mt-lg-3 mt-2 text-white ">
+                <h2 className="small_heading fontWeight600 mt-lg-2 mt-2 text-white ">
                   India's Trusted Google Ads Agency | Google Premier Partner
                 </h2>{" "}
                

@@ -9,10 +9,10 @@ const HighlyEfficient = () => {
     <div className="row">
       <div className="col-lg-4">
         <div className="new-bg-red p-4 h-100 d-flex flex-column justify-content-center text-center">
-          <h3 className="heading fontWeight600   text-white">
+          <h2 className="heading fontWeight600   text-white">
           Industries We Help Grow with Targeted{" "}
          Google Ads Marketing Services
-        </h3>
+        </h2>
 
           <p className="customText text-white mt-3">
             Generic Google Ads campaigns waste money. Industry-specific strategies generate revenue. Over 18+ years, we have developed specialized playbooks for businesses across sectors, each with unique buyer journeys, keyword intents, and conversion bottlenecks.

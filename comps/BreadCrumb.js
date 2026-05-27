@@ -8,7 +8,7 @@ const Breadcrumb = ({ Pagetitle }) => {
       aria-label="breadcrumb "
     >
       <ol className="breadcrumb containerFull ">
-        <li className="breadcrumb-item py-2 fontWeight600 d-flex text_truncate align-items-center fontHeading">
+        <li className="breadcrumb-item py-2 fontWeight600 d-flex text_truncate align-items-center ">
           <Link className="text-black" href={"/"}>
             Home
           </Link>
