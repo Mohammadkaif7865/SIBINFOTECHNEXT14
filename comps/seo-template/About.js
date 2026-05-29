@@ -9,38 +9,28 @@ const About = () => {
     <section className="seo_about_temp">
       <div className="containerFull">
         <div className="row align-items-center">
-          <div className="col-lg-7">
-            <h5 className="fontWeight600">About Us</h5>
-            <h4 className="mt-4 heading fontWeight600">
+          <div className="col-lg-6">
+            {/* <h5 className="fontWeight600">About Us</h5> */}
+            <h2 className="mt-4 heading fontWeight600">
               Dominate <span className="text_red">Google Rankings</span> <br />{" "}
               <span className="text_red">& Drive Organic Growth</span>{" "}
-            </h4>
+            </h2>
             <p className="mt-4">
-              Since 2005, SIB Infotech has been offering cutting-edge SEO
-              services in India. We're known as the top SEO company, for
-              delivering customized SEO strategies that drive organic traffic,
-              improve search rankings, boosts your online visibility and
-              maximize ROI.
+             Since 2005, SIB Infotech has been helping businesses grow as a trusted SEO Services Company in Mumbai through cutting-edge SEO strategies that improve search rankings, boost online visibility, and drive real organic traffic across Google and modern AI-powered search platforms.
             </p>
           </div>
-          <div className="col-lg-5 ps-lg-5">
+          <div className="col-lg-6 ps-lg-5">
             <p>
-              Everyone knows that the first page of Google gets the most
-              visitors, but did you know there's a big difference in how many
-              people click on the top results compared to the bottom ones?
-              Remember, there's no such thing as second place. You're either
-              first or nothing. With our years of experience as a leading SEO
-              Services company in India, we know how important Search Engine
-              Optimization (SEO) is for businesses
+              Most customers never go beyond Google’s first page. If your business is not ranking there, your competitors are getting the clicks, leads, and sales. Today, search goes beyond Google. Buyers now discover businesses through ChatGPT, Google AI Overviews, Gemini, voice search, and Google Maps. You need to be visible across traditional search, AI search, and local search at the same time.
             </p>
-            <div className="mt-3">
-              <Link className="btnHomeBanner about3" href={"/contact"}>
-              Improve your SEO Ranking{" "}
-                <span class="bg-black">
-                  <i class="fa fa-arrow-right"></i>
-                </span>
-              </Link>
-            </div>
+         <div className="mt-3">
+  <Link className="btnHomeBanner about3" href={"/contact-us"}>
+    Want to Improve your Ranking? Let’s Talk.
+    <span className="bg-black">
+      <i className="fa fa-arrow-right"></i>
+    </span>
+  </Link>
+</div>
           </div>
         </div>
 

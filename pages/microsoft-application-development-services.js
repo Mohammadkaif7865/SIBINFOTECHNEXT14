@@ -54,42 +54,42 @@ export default function MicrosoftDevelopmentServices() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/microsoft-application-development-services#service",
-                name: "Microsoft Application Development Services",
-                url: "https://www.sibinfotech.com/microsoft-application-development-services",
-                description:
-                  "Expert Microsoft application development services by SIB Infotech including .NET, Azure, SharePoint, and more for businesses in India.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Microsoft Application Development Services",
+            "@type": "Service",
+            serviceType: "Microsoft Application Development",
+            name: "Microsoft Application & Development Services",
+            alternateName:
+              "Top Rated Microsoft Application Development Company in India",
+            description:
+              "SIB Infotech is a top-rated Microsoft Application Development company in India offering custom Microsoft technology solutions tailored to enhance business productivity and efficiency. Our services include application modernization, customer self-service solutions, case tracking, integration, database development, reporting, managed application services, and remote DBA — backed by deep integration expertise across Microsoft, IBM, Oracle, SAP, and legacy systems using Agile, Scrum, Waterfall, and DevOps methodologies.",
+            url: "https://www.sibinfotech.com/microsoft-application-development-services",
+            image:
+              "https://www.sibinfotech.com/assets/og/microsoft-application-development-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -98,72 +98,195 @@ export default function MicrosoftDevelopmentServices() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Microsoft Application & SQL Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Application Modernization",
+                    description:
+                      "Modernising legacy Microsoft applications to current technologies and platforms for improved performance, scalability, and business agility.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Customer Self-Service Solutions",
+                    description:
+                      "Development of customer self-service portals and applications using Microsoft technologies to improve user experience and reduce support overhead.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Case Tracking & Management",
+                    description:
+                      "Custom Microsoft-based case tracking and management systems to streamline workflows, improve visibility, and enhance team productivity.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Integration & Application Development",
+                    description:
+                      "Deep integration and application development across Microsoft, IBM, Oracle, SAP, and home-grown legacy systems — seamlessly connecting back-end and front-end systems.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Strategy & Consulting",
+                    description:
+                      "Microsoft technology strategy and consulting services including business and technical acumen, covering consulting, project, and managed service delivery models.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Database Development & Management",
+                    description:
+                      "Comprehensive Microsoft SQL Server database development, management, data cleansing, and master data best practices for enterprise business requirements.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Reporting & Dashboards",
+                    description:
+                      "Custom Microsoft reporting solutions and interactive dashboards that provide real-time business intelligence and data visualisation for informed decision-making.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Managed Application Services",
+                    description:
+                      "End-to-end managed Microsoft application services covering ongoing maintenance, support, monitoring, and optimisation of business-critical applications.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Remote DBA",
+                    description:
+                      "Remote Database Administrator (DBA) services for Microsoft SQL Server environments — providing proactive monitoring, performance tuning, backup management, and expert support.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Modernised Microsoft Business Application",
+              "Custom Customer Self-Service Portal",
+              "Case Tracking and Workflow Management System",
+              "Seamlessly Integrated Front-End and Back-End Systems",
+              "Microsoft Technology Strategy and Roadmap",
+              "Optimised SQL Database with Reporting and Dashboards",
+              "Managed Microsoft Application with Ongoing Support",
+              "Remote DBA Services for SQL Server Environments",
+            ],
+
+            additionalProperty: [
+              {
+                "@type": "PropertyValue",
+                name: "Development Methodologies",
+                value: "Agile, Scrum, Waterfall, DevOps",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/microsoft-application-development-services#webpage",
-                url: "https://www.sibinfotech.com/microsoft-application-development-services",
-                name: "Microsoft Application Development Services | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/microsoft-application-development-services#breadcrumb",
-                },
+                "@type": "PropertyValue",
+                name: "Integration Expertise",
+                value: "Microsoft, IBM, Oracle, SAP, Home-grown Legacy Systems",
+              },
+            ],
+
+            termsOfService: "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/microsoft-application-development-services",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
               },
               {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
+                "@type": "ListItem",
+                position: 2,
+                name: "Software Development Services",
+                item: "https://www.sibinfotech.com/software-development-services",
               },
               {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/microsoft-application-development-services#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Web Development",
-                    item: "https://www.sibinfotech.com/website-development-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Microsoft Application Development Services",
-                    item: "https://www.sibinfotech.com/microsoft-application-development-services",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 3,
+                name: "Microsoft Application Development Services",
+                item: "https://www.sibinfotech.com/microsoft-application-development-services",
               },
             ],
           }),
         }}
       />
-      <BreadcrumbSchema
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/microsoft-application-development-services"
         breadcrumbTitle="Microsoft Application Development Services | SIB Infotech"
         PageRatingSchema
@@ -171,7 +294,7 @@ export default function MicrosoftDevelopmentServices() {
           "Transform your business with Microsoft application development services by SIB Infotech. Custom solutions tailored to enhance productivity and efficiency."
         }
         reviewCount={"5233"}
-      />
+      /> */}
     </>
   );
   return (

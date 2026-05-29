@@ -67,15 +67,176 @@ export default function LocalSeoServices() {
         content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg"
       />
 
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/local-seo-services"
-        breadcrumbTitle="Best Local SEO Company India | Local SEO Services in Mumbai"
-        PageRatingSchema
-        description={
-          "Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
-        }
-        reviewCount={"5240"}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Local SEO Services",
+            name: "Local SEO Services Company in India",
+            alternateName: "Google Local SEO Optimization Services",
+            description:
+              "SIB Infotech is a leading local SEO company in India offering result-driven local search engine optimization services for businesses. Our local SEO experts help improve Google Maps rankings, local search visibility, business listings, location-based traffic, and lead generation through strategic local SEO campaigns and optimization techniques.",
+            url: "https://www.sibinfotech.com/local-seo-services.php",
+            image:
+              "https://www.sibinfotech.com/assets/images/local-seo-services-company.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "UAE" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Local SEO Optimization Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Google Business Profile Optimization",
+                    description:
+                      "Optimization of Google Business Profile listings to improve local visibility and Google Maps rankings.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Local Keyword Research",
+                    description:
+                      "Location-based keyword research and optimization for better local search rankings.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Google Maps SEO",
+                    description:
+                      "Local map optimization strategies to improve rankings in Google Maps and local search results.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Local Citation Building",
+                    description:
+                      "Creation and management of local business citations across trusted directories and platforms.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Location-Based SEO Campaigns",
+                    description:
+                      "Customized local SEO campaigns targeting region-specific audiences and customers.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Improved Google Maps Rankings",
+              "Higher Local Search Visibility",
+              "Increased Local Website Traffic",
+              "Better Lead Generation",
+              "Optimized Google Business Profile",
+              "Location-Based Keyword Rankings",
+              "Enhanced Online Reputation",
+              "Higher Local Conversion Rates",
+              "Local Citation Management",
+              "SEO-Friendly Local Landing Pages",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://www.sibinfotech.com/local-seo-services.php",
+            },
+          }),
+        }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Local SEO Services",
+                item: "https://www.sibinfotech.com/local-seo-services.php",
+              },
+            ],
+          }),
+        }}
+      />
+
     </>
   );
   return (

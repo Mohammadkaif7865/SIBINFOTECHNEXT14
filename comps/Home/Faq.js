@@ -12,7 +12,7 @@ const Faq = ({ faqsData, title, description }) => {
     <section>
       <div className="containerFull ">
         <p className="fontWeight600 title text-center"> FAQ</p>
-        <h3 className="large_heading2 mt-4 fontHeading2 text-center text_red fontWeight600"  dangerouslySetInnerHTML={{ __html:title }}>
+        <h3 className="large_heading2 mt-4  text-center text_red fontWeight600"  dangerouslySetInnerHTML={{ __html:title }}>
         
           
         </h3>
@@ -29,7 +29,7 @@ const Faq = ({ faqsData, title, description }) => {
                 <div key={i} className="">
                   <div className="customFaq">
                     <p
-                      className=" fontHeading headerFaq fontWeight600"
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
@@ -73,7 +73,7 @@ const Faq = ({ faqsData, title, description }) => {
                 <div key={i} className="">
                   <div className="customFaq ">
                     <p
-                      className=" fontHeading headerFaq fontWeight600"
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);

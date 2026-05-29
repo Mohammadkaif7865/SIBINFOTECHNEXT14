@@ -58,36 +58,36 @@ export default function AndroidMobileApplicationDevelopmentServices() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/android-mobile-application-development-services#service",
-                name: "Android Mobile Application Development Services",
-                url: "https://www.sibinfotech.com/android-mobile-application-development-services",
-                description:
-                  "SIB Infotech offers professional Android mobile application development services in Mumbai, India for businesses of all sizes.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Android Mobile Application Development Services",
+            "@type": "Service",
+            serviceType: "Android Mobile Application Development Services",
+            name: "Android Mobile Application Development Company in India",
+            alternateName: "Custom Android App Development Services",
+            description:
+              "SIB Infotech is a leading Android mobile application development company in India offering custom Android app development, enterprise mobile applications, hybrid app development, UI/UX design, ecommerce mobile apps, and scalable Android solutions for startups and enterprises. Our Android app developers build secure, responsive, feature-rich, and user-friendly mobile applications to improve customer engagement, business growth, and digital transformation.",
+            url: "https://www.sibinfotech.com/android-mobile-application-development-services",
+            image:
+              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -96,73 +96,136 @@ export default function AndroidMobileApplicationDevelopmentServices() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Android Mobile Application Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Android App Development",
+                    description:
+                      "Custom Android application development solutions tailored to business requirements and customer needs.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Enterprise Mobile Applications",
+                    description:
+                      "Enterprise-grade Android mobile applications for workflow automation and business operations.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Hybrid Mobile App Development",
+                    description:
+                      "Cross-platform hybrid mobile app development using advanced frameworks and technologies.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Android UI/UX Design",
+                    description:
+                      "Interactive and user-friendly Android app UI/UX design services for improved engagement.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Ecommerce Mobile App Development",
+                    description:
+                      "Secure and scalable Android ecommerce application development for online businesses.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Custom Android Applications",
+              "Responsive Mobile App Design",
+              "Secure Android App Solutions",
+              "Enterprise Mobile Applications",
+              "Improved Customer Engagement",
+              "Scalable Mobile Platforms",
+              "Hybrid Mobile App Development",
+              "Enhanced User Experience",
+              "Ecommerce Mobile Applications",
+              "Business Workflow Automation",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/android-mobile-application-development-services",
+            },
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/android-mobile-application-development-services#webpage",
-                url: "https://www.sibinfotech.com/android-mobile-application-development-services",
-                name: "Android Mobile Application Development Services | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/android-mobile-application-development-services#breadcrumb",
-                },
-              },
-              {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/android-mobile-application-development-services#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Web Development",
-                    item: "https://www.sibinfotech.com/website-development-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Android Mobile Application Development Services",
-                    item: "https://www.sibinfotech.com/android-mobile-application-development-services",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 2,
+                name: "Android Mobile Application Development Services",
+                item: "https://www.sibinfotech.com/android-mobile-application-development-services",
               },
             ],
           }),
         }}
       />
 
-      <BreadcrumbSchema
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/android-mobile-application-development-services"
         breadcrumbTitle="Top Android Application Development Services Company India"
         PageRatingSchema
@@ -170,7 +233,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
           "SIB Infotech specializes in Android mobile application development. Get tailored, user-friendly apps that enhance engagement and drive growth for your business."
         }
         reviewCount={"5161"}
-      />
+      /> */}
     </>
   );
   return (

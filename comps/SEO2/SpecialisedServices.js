@@ -21,7 +21,7 @@ const SpecialisedServices = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-10">
-            <h3 className="sub_heading text-white fontWeight500 fontHeading">
+            <h3 className="sub_heading text-white fontWeight600 ">
               Our Specialised Search Engine Optimization Services:
             </h3>
           </div>
@@ -42,7 +42,7 @@ const SpecialisedServices = () => {
                     />
                   </picture>
                 </div>
-                <p className="title fontHeading">{service.title}</p>
+                <p className="title ">{service.title}</p>
               </div>
             </div>
           ))}

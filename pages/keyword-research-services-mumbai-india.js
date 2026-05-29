@@ -56,117 +56,175 @@ export default function KeywordResearchMumbaiIndia() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.jpg"
       />
-
       <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "@id": "https://www.sibinfotech.com/keyword-research-services-mumbai-india#service",
-          "name": "Keyword Research Services",
-          "url": "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
-          "description": "Expert keyword research services in Mumbai, India. SIB Infotech helps you identify the best keywords to rank higher on search engines.",
-          "provider": {
-            "@id": "https://www.sibinfotech.com/#organization"
-          },
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "serviceType": "Keyword Research Services"
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://www.sibinfotech.com/#organization",
-          "name": "SIB Infotech",
-          "url": "https://www.sibinfotech.com",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.sibinfotech.com/assets/images/logo.webp"
-          },
-          "telephone": "+91-92222-60000",
-          "email": "info@sibinfotech.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
-            "addressLocality": "Mumbai",
-            "addressRegion": "Maharashtra",
-            "postalCode": "400064",
-            "addressCountry": "IN"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "99",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "sameAs": [
-            "https://www.facebook.com/sibinfotech",
-            "https://www.linkedin.com/company/sibinfotech",
-            "https://twitter.com/sibinfotech"
-          ]
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://www.sibinfotech.com/keyword-research-services-mumbai-india#webpage",
-          "url": "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
-          "name": "Keyword Research Services | SIB Infotech",
-          "isPartOf": {
-            "@id": "https://www.sibinfotech.com/#website"
-          },
-          "breadcrumb": {
-            "@id": "https://www.sibinfotech.com/keyword-research-services-mumbai-india#breadcrumb"
-          }
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.sibinfotech.com/#website",
-          "url": "https://www.sibinfotech.com",
-          "name": "SIB Infotech",
-          "publisher": {
-            "@id": "https://www.sibinfotech.com/#organization"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://www.sibinfotech.com/keyword-research-services-mumbai-india#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.sibinfotech.com"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Keyword Research Services",
+            name: "Keyword Research Services Company in Mumbai, India",
+            alternateName: "SEO Keyword Research Agency India",
+            description:
+              "SIB Infotech is a leading keyword research company in Mumbai, India offering advanced SEO keyword research services, competitor keyword analysis, search intent research, long-tail keyword targeting, and keyword strategy planning. Our SEO experts help businesses improve search engine rankings, organic traffic, lead generation, and online visibility through data-driven keyword optimization strategies.",
+            url: "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
+            image:
+              "https://www.sibinfotech.com/assets/images/keyword-research-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
             },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "SEO Services",
-              "item": "https://www.sibinfotech.com/search-engine-optimization-seo-services"
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "UAE" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Keyword Research Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "SEO Keyword Research",
+                    description:
+                      "Comprehensive SEO keyword research services for improved organic rankings and website traffic.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Competitor Keyword Analysis",
+                    description:
+                      "Detailed competitor keyword analysis to identify ranking opportunities and market gaps.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Long-Tail Keyword Research",
+                    description:
+                      "Targeted long-tail keyword research for niche audience targeting and better conversions.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Search Intent Optimization",
+                    description:
+                      "Keyword intent analysis to align SEO content strategies with user search behavior.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Keyword Strategy Planning",
+                    description:
+                      "Strategic keyword planning and mapping services for SEO campaign success.",
+                  },
+                },
+              ],
             },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Keyword Research Services",
-              "item": "https://www.sibinfotech.com/keyword-research-services-mumbai-india"
-            }
-          ]
-        }
-      ]
-    })
-  }}
-/>
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/keyword-research-services-mumbai-india"
-        breadcrumbTitle="Keyword Research & Analysis Services in India | SIB Infotech"
-        PageRatingSchema
-        description={
-          "Unlock your SEO potential with keyword research and analysis services in Mumbai by SIB Infotech. Drive targeted traffic and boost your online visibility today!."
-        }
-        reviewCount={"5223"}
+
+            serviceOutput: [
+              "Targeted SEO Keyword List",
+              "Improved Search Engine Rankings",
+              "Higher Organic Website Traffic",
+              "Competitor SEO Insights",
+              "Long-Tail Keyword Opportunities",
+              "Search Intent Optimization",
+              "SEO Content Planning Support",
+              "Increased Lead Generation",
+              "Better Online Visibility",
+              "Enhanced SEO Campaign Performance",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Keyword Research Services Mumbai India",
+                item: "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
+              },
+            ],
+          }),
+        }}
       />
     </>
   );
@@ -181,7 +239,7 @@ export default function KeywordResearchMumbaiIndia() {
                   Keyword Research
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Top Keyword Research & Analysis Services in India
+                  Top Keyword Research & Analysis Services in India
                 </h2>
 
                 <div className="mt-4">

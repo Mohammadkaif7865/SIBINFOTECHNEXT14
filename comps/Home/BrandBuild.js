@@ -17,10 +17,10 @@ const BrandBuild = ({
       <div className="containerFull">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h3
-              className="heading fontWeight600 fontHeading2 text_red"
+            <h2
+              className="heading fontWeight600  text_red"
               dangerouslySetInnerHTML={{ __html: title }}
-            ></h3>
+            ></h2>
 
             <p
               className=" mt-4 sub_heading fontWeight500"
@@ -40,7 +40,7 @@ const BrandBuild = ({
           </div>
         </div>
 
-        <div className="row mt-5 align-items-center">
+        <div className="row mt-4 align-items-center">
           <div className="col-lg-6 pe-5">
             <div className="d-flex">
               <Image

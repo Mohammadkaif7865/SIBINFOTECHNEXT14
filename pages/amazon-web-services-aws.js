@@ -52,42 +52,41 @@ export default function AmazonWebServicesAws() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg"
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/amazon-web-services-aws#service",
-                name: "Amazon Web Services (AWS)",
-                url: "https://www.sibinfotech.com/amazon-web-services-aws",
-                description:
-                  "SIB Infotech provides Amazon Web Services (AWS) solutions including cloud hosting, migration, and management for businesses in India.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Amazon Web Services (AWS)",
+            "@type": "Service",
+            serviceType: "Android Mobile Application Development Services",
+            name: "Android Mobile Application Development Company in India",
+            alternateName: "Custom Android App Development Services",
+            description:
+              "SIB Infotech is a leading Android mobile application development company in India offering custom Android app development, enterprise mobile applications, hybrid app development, UI/UX design, ecommerce mobile apps, and scalable Android solutions for startups and enterprises. Our Android app developers build secure, responsive, feature-rich, and user-friendly mobile applications to improve customer engagement, business growth, and digital transformation.",
+            url: "https://www.sibinfotech.com/android-mobile-application-development-services",
+            image:
+              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -96,72 +95,135 @@ export default function AmazonWebServicesAws() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Android Mobile Application Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Android App Development",
+                    description:
+                      "Custom Android application development solutions tailored to business requirements and customer needs.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Enterprise Mobile Applications",
+                    description:
+                      "Enterprise-grade Android mobile applications for workflow automation and business operations.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Hybrid Mobile App Development",
+                    description:
+                      "Cross-platform hybrid mobile app development using advanced frameworks and technologies.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Android UI/UX Design",
+                    description:
+                      "Interactive and user-friendly Android app UI/UX design services for improved engagement.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Ecommerce Mobile App Development",
+                    description:
+                      "Secure and scalable Android ecommerce application development for online businesses.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Custom Android Applications",
+              "Responsive Mobile App Design",
+              "Secure Android App Solutions",
+              "Enterprise Mobile Applications",
+              "Improved Customer Engagement",
+              "Scalable Mobile Platforms",
+              "Hybrid Mobile App Development",
+              "Enhanced User Experience",
+              "Ecommerce Mobile Applications",
+              "Business Workflow Automation",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/android-mobile-application-development-services",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/amazon-web-services-aws#webpage",
-                url: "https://www.sibinfotech.com/amazon-web-services-aws",
-                name: "Amazon Web Services (AWS) | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/amazon-web-services-aws#breadcrumb",
-                },
-              },
-              {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/amazon-web-services-aws#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Web Development",
-                    item: "https://www.sibinfotech.com/website-development-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Amazon Web Services (AWS)",
-                    item: "https://www.sibinfotech.com/amazon-web-services-aws",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 2,
+                name: "Android Mobile Application Development Services",
+                item: "https://www.sibinfotech.com/android-mobile-application-development-services",
               },
             ],
           }),
         }}
       />
-      <BreadcrumbSchema
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/amazon-web-services-aws"
         breadcrumbTitle="Best Amazon Web Services (AWS) Solutions | SIB Infotech"
         PageRatingSchema
@@ -169,7 +231,7 @@ export default function AmazonWebServicesAws() {
           "Discover the top-tier Amazon Web Services (AWS) solutions in Mumbai, India by SIB Infotech. Empower your business with scalable, secure cloud infrastructure."
         }
         reviewCount={"5160"}
-      />
+      /> */}
     </>
   );
   return (

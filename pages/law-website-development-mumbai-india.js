@@ -52,42 +52,41 @@ export default function LawWebsiteDevelopmentMumbai() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg"
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/law-website-development-mumbai-india#service",
-                name: "Law Website Development",
-                url: "https://www.sibinfotech.com/law-website-development-mumbai-india",
-                description:
-                  "Professional law firm website development services in Mumbai by SIB Infotech. We build authoritative and conversion-focused legal websites.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Law Website Development",
+            "@type": "Service",
+            serviceType: "Law Website Development",
+            name: "Law Website Development Services",
+            alternateName: "Top Law Website Development Company in India",
+            description:
+              "SIB Infotech specialises in professional law website development services in Mumbai, India. We create custom, user-friendly websites for law firms and attorneys — focusing on online strategy, professional image, client referrals, news retrieval, educational resources, and multiple contact methods. Our goal is to incorporate special features that build referrals, present a professional image, and enhance visitor experience, all within a strict budget.",
+            url: "https://www.sibinfotech.com/law-website-development-mumbai-india",
+            image:
+              "https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -96,73 +95,136 @@ export default function LawWebsiteDevelopmentMumbai() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Law Website Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Law Website Design",
+                    description:
+                      "Professional, custom-designed websites for law firms and attorneys that present a strong public image, support client acquisition, and enhance the visitor experience.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Law Firm Website Content Writing",
+                    description:
+                      "Specialist legal content writing services that inform clients, support educational resources, and help law firms communicate their services clearly and professionally online.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Law Website Marketing Solutions",
+                    description:
+                      "Custom marketing plans for law firms designed to build referrals, raise public image, and acquire new clients through a strategic and fresh approach to online presence.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Client-Friendly Law Practice Features",
+                    description:
+                      "Integration of client-friendly features including multiple methods of contact, news retrieval, and educational resources that are always available to clients online.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Professional Law Firm Website",
+              "Custom Legal Website Design",
+              "Strong Public Image for Attorneys",
+              "Client Referral Building Platform",
+              "Multiple Client Contact Methods",
+              "Online News Retrieval and Educational Resources",
+              "Custom Legal Marketing Plan",
+            ],
+
+            termsOfService: "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/law-website-development-mumbai-india",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/law-website-development-mumbai-india#webpage",
-                url: "https://www.sibinfotech.com/law-website-development-mumbai-india",
-                name: "Law Website Development | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/law-website-development-mumbai-india#breadcrumb",
-                },
+                "@type": "ListItem",
+                position: 2,
+                name: "Website Development Services",
+                item: "https://www.sibinfotech.com/website-development-services",
               },
               {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/law-website-development-mumbai-india#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Web Development",
-                    item: "https://www.sibinfotech.com/website-development-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Law Website Development",
-                    item: "https://www.sibinfotech.com/law-website-development-mumbai-india",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 3,
+                name: "Law Website Development",
+                item: "https://www.sibinfotech.com/law-website-development-mumbai-india",
               },
             ],
           }),
         }}
       />
 
-      <BreadcrumbSchema
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/law-website-development-mumbai-india"
         breadcrumbTitle="Law Website Development in Mumbai, India | SIB Infotech"
         PageRatingSchema
@@ -170,7 +232,7 @@ export default function LawWebsiteDevelopmentMumbai() {
           "Get specialized law website development services in Mumbai, India. SIB Infotech creates professional, user-friendly, top law sites tailored for legal firms."
         }
         reviewCount={"5225"}
-      />
+      /> */}
     </>
   );
   return (

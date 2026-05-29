@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import EffectiveAds from "./EffectiveAds";
 import HeroGoogleAds from "./HeroGoogleAds";
 import HighlyEfficient from "./HighlyEfficient";
+import SIBPower from "../Home/SIBPower";
 import WhyChoose from "./WhyChoose";
 
 import {
@@ -69,7 +70,53 @@ const GoogleAdsMgt = () => {
       description: " E-commerce, Lead Generation, and Branding", // Added to reflect breadth of service
     },
   ];
-
+  const googleAdsPowerData = [
+    {
+      title: " Google Premier Partner Agency",
+      description: "Among the top 3% of Google Ads agencies globally",
+    },
+    {
+      title: "Certified Google Ads Specialists",
+      description: "Real experts managing your account, not junior executives",
+    },
+    {
+      title: " ROI-Driven Campaigns",
+      description: "Focused on revenue and qualified leads, not vanity clicks",
+    },
+    {
+      title: " 18+ Years of Paid Media Expertise",
+      description:
+        "Battle-tested across hundreds of industries and ad spend levels",
+    },
+    {
+      title: " Smart Bidding & AI-Powered Strategies",
+      description:
+        "Built around Google's latest machine learning and automation tools",
+    },
+    {
+      title: "100% Transparency & Full Control",
+      description:
+        "Complete visibility into every keyword, every bid, every rupee spent",
+    },
+    {
+      title: " Custom Campaign Strategies",
+      description:
+        "Tailored for your business goals, never built from generic templates",
+    },
+    {
+      title: " Weekly Reporting & Strategy Calls",
+      description: "Real data, real improvements, real accountability",
+    },
+    {
+      title: " Multi-Channel Mastery",
+      description:
+        "Search, Display, Shopping, YouTube, Remarketing, and Performance Max",
+    },
+    {
+      title: " Dedicated Account Manager",
+      description: "One certified expert owning your campaigns end-to-end",
+    },
+  ];
   const rightBoxContent = {
     heading:
       "Why Choose SIB Infotech for Your Google Ads Campaign Management?  ",
@@ -134,14 +181,22 @@ const GoogleAdsMgt = () => {
   const about3Data = {
     sectionId: "about",
     // mainHeading: "Google Ads Management Services | SIB Infotech",
-    subHeading: `Maximize Your ROI with Expert <span class="text_red">Google Ads Management</span>`,
-
+    subHeading: `Tired of Spending on <span class="text_red">Google Ads Without Seeing Results?</span>`,
     contentParagraphs: [
-      `With over 20+ years of experience and millions in ad spend managed annually, SIB Infotech is recognized as a Top-Rated Google Ads Management Company. In today’s competitive digital world, showing up when your customers are searching for your services is critical. At SIB Infotech, we specialize in Google Ads management services that drive measurable results — from increasing website traffic to boosting leads, sales, and ROI.`,
+      `Many businesses waste a large part of their Google Ads budget on campaigns that are poorly optimized from the start.`,
 
-      `We help businesses like yours leverage the power of Google Ads to achieve faster growth, better leads, and greater online visibility — with strategies that are smart, cost-effective, and ROI-driven. Whether you’re a startup, SME, or large enterprise, our certified Google Ads experts craft data-driven, high-converting campaigns tailored to your business goals.`,
+      `Common issues include:`,
 
-     
+      `<ul class="instagram-list mt-3 mb-3">
+      <li class="customText">Broad keywords attracting the wrong audience</li>
+      <li class="customText">Ads appearing for irrelevant searches</li>
+      <li class="customText">Weak landing pages with low conversion rates</li>
+      <li class="customText">Poor conversion tracking and reporting</li>
+      <li class="customText">No regular bid or campaign optimization</li>
+      <li class="customText">Ad creatives running without testing or improvements</li>
+    </ul>`,
+
+      `With 20+ years of experience and millions in annual ad spend managed, SIB Infotech is recognized as a top-rated Google Ads management company. We create performance-driven Google Ads campaigns focused on increasing traffic, generating qualified leads, boosting sales, and maximizing ROI.`,
     ],
     image1: {
       src: "/assets/images/instagram-ads-business-objective.svg",
@@ -228,76 +283,91 @@ const GoogleAdsMgt = () => {
   ];
   const brandContent = [
     {
-      title: `Our <span> Google Ads Management </span> Packages
+      title: `What’s Included in Our Google Ads Management Package?
 `,
-      subtitle: `What’s Included in Our Google Ads Management Package?`,
+      subtitle: ` Our Google Ads Management Package`,
       description: `
-        A successful SEO strategy is a mixed stew of on-page, off-page, and technical SEO techniques. Use the following stepwise approach to boost your search ranking: 
+        A complete Google Ads management package goes beyond just running ads. It covers every element that makes campaigns profitable, from strategy and setup to optimization and reporting. Here is exactly what you get when you partner with SIB Infotech.
       `,
       faqData: [
         {
-          question: "1. Campaign Strategy & Planning",
-          answer: `<p>
-        We design a custom Google Ads strategy based on your business objectives, audience, and competition to maximize your returns. </p>  
-
-        <h5 class="mt-3">
-        Competitor Analysis 
-        
-        </h5>
-      <ul class="mt-3">
-        <li><strong>Keyword Research & Targeting :</strong>Extensive keyword research ensures your ads are triggered by the right search queries to attract high-quality leads. </li>
-       
-      </ul>
-    `,
-        },
-
-        {
-          question: "4. Campaign Setup",
+          question: "01. Campaign Strategy & Planning",
           answer: `
       <p>
-       We create and structure your campaigns — Search Ads, Display Ads, Shopping Ads, Video Ads, or App Ads — for maximum efficiency and performance
+        A custom Google Ads strategy is built around your business goals, target audience, monthly budget, and competitive landscape. This becomes the blueprint for every campaign decision that follows.
       </p>
     `,
         },
         {
-          question: "5. Compelling Ad Copywriting",
-          answer: `
-      <p>Our creative team writes persuasive ad copies that drive clicks and conversions while meeting Google's best practices. </p>
-    `,
-        },
-        {
-          question: "6. Landing Page Optimization Recommendations",
-          answer: `
-      <p>We optimize your landing pages for better user experience, relevance, and conversion rates, ensuring you get the best value from every click. </p>
-    `,
-        },
-        {
-          question: "7. Continuous Campaign Optimization",
-          answer: `
-      <ul>
-        <li><strong>A/B Testing:</strong> Continuous A/B testing of ads, creatives, and landing pages to identify winning combinations and improve performance. .</li>
-        <li><strong>Bid Management:</strong> We use smart bidding strategies to ensure you get the most clicks and conversions for the lowest possible cost per click (CPC). </li>
-      </ul>
-    `,
-        },
-        {
-          question: "8. Conversion Tracking & Analytics",
+          question: "02. Keyword Research & Competitor Analysis",
           answer: `
       <p>
-       Setting up and monitoring goal tracking to measure form fills, calls, purchases, and other KPIs that matter most to your business. 
+        In-depth research identifies the highest-intent keywords your buyers are searching, while competitor analysis reveals where opponents are spending, what is working for them, and how to position your campaigns to win the click.
       </p>
     `,
         },
         {
-          question: "9. Detailed Reporting & Insights",
+          question: "03. Audience Targeting & Segmentation",
           answer: `
-      <p>We provide transparent monthly reports showing campaign performance, cost analysis, conversion data, and actionable insights.</p>
+      <p>
+        Campaigns are built to reach the right people at the right time. Targeting covers location, device, demographics, interests, life events, in-market behavior, and custom audiences built from your CRM data.
+      </p>
+    `,
+        },
+        {
+          question: "04. Campaign Setup",
+          answer: `
+      <p>
+        Complete account structuring including campaign types, ad groups, bidding strategies, geo-targeting, ad scheduling, device adjustments, and all technical settings configured for maximum performance from day one.
+      </p>
+    `,
+        },
+        {
+          question: "05. Compelling Ad Copywriting",
+          answer: `
+      <p>
+        Conversion-focused ad copy written to match buyer intent, with multiple headline and description variations tested continuously. Every ad uses extensions, sitelinks, callouts, and structured snippets to maximize visibility.
+      </p>
+    `,
+        },
+        {
+          question: "06. Landing Page Optimization Recommendations",
+          answer: `
+      <p>
+        Detailed recommendations on improving landing page speed, layout, copy, forms, and mobile experience to convert more of your paid traffic into actual leads and sales.
+      </p>
+    `,
+        },
+        {
+          question: "07. Continuous Campaign Optimization",
+          answer: `
+      <p>
+        Daily bid adjustments, weekly creative testing, ongoing keyword refinement, and quality score improvements to drive down cost per click and cost per acquisition month after month.
+      </p>
+    `,
+        },
+        {
+          question: "08. Conversion Tracking & Analytics",
+          answer: `
+      <p>
+        Full conversion tracking setup using Google Tag Manager, Google Analytics 4, and Google Ads conversion actions, so every lead, call, form fill, and sale is tracked back to the exact campaign and keyword that drove it.
+      </p>
+    `,
+        },
+        {
+          question: "09. Detailed Reporting & Insights",
+          answer: `
+      <p>
+        Weekly performance reports showing spend, clicks, conversions, CPA, ROAS, and trends, paired with clear next-step recommendations. No fluff metrics, no hidden numbers.
+      </p>
     `,
         },
         {
           question: "10. Dedicated Account Manager",
           answer: `
-      <p>You’ll have a dedicated account manager providing personalized service, support, and ongoing strategy alignment.</p>
+      <p>
+        A single point of contact who knows your business, your goals, and your account inside out. Direct WhatsApp and email access, plus scheduled strategy calls whenever you need them.
+      </p>
     `,
         },
       ],
@@ -312,11 +382,11 @@ const GoogleAdsMgt = () => {
         <SmoSection
           textWhite
           bgBlack
-          title="Why Choose"
+          heading="Why Choose"
           highlightedText=" Google Ads for Your Business"
           description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
           subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
-          imageSrc="/assets/images/ads.png"
+          imageSrc="/assets/images/google-ads/google-ads.jpg"
           imageAlt="Team Working"
           features={[
             {
@@ -358,7 +428,7 @@ const GoogleAdsMgt = () => {
           ]}
         />
       </div>
- 
+
       <WhySIB
         keyAdvantages={keyAdvantages}
         leftBoxContent={leftBoxContent}
@@ -366,18 +436,13 @@ const GoogleAdsMgt = () => {
       />
       <Services />
 
-      {/* <Solution
-        heading={"Our Google Ads Services Include:   "}
-        
-        data={adsSrvices}
-      /> */}
       <Partnership
-        batchtitle={"Our workflow"}
         agencyWorkflow={adsWorkflow}
-        title={"Our Proven Process "}
-        subtitle={" Step-by-Step to Rank you on Top"}
+        title={
+          "Our Approach to Deliver A Successful Google Ads Management Service "
+        }
         rightTitle={``}
-        rightDiscription={``}
+        rightDiscription={`Every successful Google Ads account follows a clear, repeatable process. SIB Infotech follows a structured 4-stage methodology refined over 18 years and 850+ clients, turning what most agencies treat as guesswork into a system built for predictable results.`}
         // tagline={'Seamless, Scalable, and Results-Driven'}
       />
       <TalkWithExpert
@@ -394,15 +459,16 @@ const GoogleAdsMgt = () => {
       />
 
       <Cta2
-        heading="Ready to Dominate Google? "
-        subheading="Whether you're an e-commerce brand, a startup, a B2B company, or a service provider — SIB Infotech will design a custom Google Ads strategy to maximize your ROI and boost your growth. "
-        tagline="Speak to Our Google Ads Experts Today 
+        heading="Ready to Turn Google Ads from a Cost Into a Growth Engine? "
+        subheading="Every day your campaigns run without proper optimization, you lose valuable ad spend and potential customers through irrelevant clicks, weak targeting, and poor bidding strategies.
+        As a Google Premier Partner with 20+ years of experience, SIB Infotech delivers data-driven Google Ads management service focused on leads, sales, and measurable ROI for businesses across 40+ countries. "
+        tagline="Get a Google Ads Audit | Schedule a Strategy Call 
 "
         buttonText="Request a Free Consultation"
-        buttonLink="#contact"
+        buttonLink="contact"
         imageSrc="/assets/images/success-arrow.svg"
       />
-      <AdsCompany />
+      {/* <AdsCompany />
       <WhyChoose />
 
       <AdWords />
@@ -412,37 +478,19 @@ const GoogleAdsMgt = () => {
         buttonText="Speak to Our Experts"
         buttonLink="/contact-us"
         isPBeforeH3={false}
-      />
+      /> */}
 
-      <EffectiveAds />
+      {/* <EffectiveAds /> */}
 
       <HighlyEfficient />
-      <section className="blueBg2">
-        <div className="containerFull">
-          <div className="callAction">
-            <h4 className="customLineHeight2 fontHeading">
-              Are you ready to partner with #1 Google AdWords &amp;
-            </h4>
-            <h3 className="customLineHeight">
-              PPC Management Company in India for ultimate Google advertising
-              services and solutions?
-            </h3>
-            <Link href="/contact-us">Speak to our Google Ads experts</Link>
-          </div>
-          <svg
-            id="pattner"
-            viewBox="0 0 1440 320"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {" "}
-            <path
-              d="M0,128L48,138.7C96,149,192,171,288,170.7C384,171,480,149,576,133.3C672,117,768,107,864,117.3C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-              fill="#528af9"
-              fill-opacity="1"
-            ></path>{" "}
-          </svg>
-        </div>
-      </section>
+
+      <SIBPower
+        title="Why Choose SIB Infotech for  "
+        subtitle="Your Google Ads Campaigns? "
+        description_right="Businesses trust SIB Infotech because we deliver what we promise: lower cost per acquisition, higher return on ad spend, and complete transparency. Unlike agencies that prioritize vanity metrics or lock you into long contracts, our google ads campaign management services are built entirely around your business goals. Here is what sets us apart."
+        // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
+        data={googleAdsPowerData}
+      />
     </>
   );
 };

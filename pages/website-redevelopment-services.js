@@ -57,36 +57,36 @@ export default function WebsiteRedevelopmentServices() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/website-redevelopment-services#service",
-                name: "Website Redevelopment Services",
-                url: "https://www.sibinfotech.com/website-redevelopment-services",
-                description:
-                  "Professional website redevelopment services by SIB Infotech. We rebuild and modernize your existing website for better performance and UX.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Website Redevelopment Services",
+            "@type": "Service",
+            serviceType: "Website Redevelopment",
+            name: "Website Redevelopment Services",
+            alternateName: "Top Rated Website Redevelopment Company in India",
+            description:
+              "SIB Infotech is a top-rated website redevelopment company in Mumbai, India. We revamp and rebuild outdated, underperforming websites to enhance design, functionality, user experience, page speed, mobile responsiveness, and online visibility. Whether your website is not converting visitors into sales, is difficult to update, lacks modern functionality, or has low search engine rankings, our redevelopment services transform your website into a high-performing digital storefront that represents your business at its best.",
+            url: "https://www.sibinfotech.com/website-redevelopment-services",
+            image:
+              "https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -95,73 +95,193 @@ export default function WebsiteRedevelopmentServices() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Website Redevelopment Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Conversion Rate Optimisation Redevelopment",
+                    description:
+                      "Rebuilding website structure, design, and user flows to convert more site visitors into leads and sales — transforming the website into a high-performing digital storefront.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Competitor-Benchmarked Website Redevelopment",
+                    description:
+                      "Auditing and rebuilding websites to match or exceed competitor standards in design, functionality, and user experience.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Website Accessibility & Navigation Improvement",
+                    description:
+                      "Improving website accessibility and navigation so users can easily find all the information they need, reducing bounce rates and improving satisfaction.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "CMS-Based Redevelopment for Easy Updating",
+                    description:
+                      "Rebuilding websites on modern content management systems so that website owners can update content quickly and easily without technical knowledge.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "User Experience (UX) Redevelopment",
+                    description:
+                      "Redesigning and redeveloping the website's user experience to be intuitive, engaging, and fully satisfying for all categories of visitors.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Functionality & Feature Enhancement",
+                    description:
+                      "Adding modern features and functionality to websites — including booking systems, e-commerce capabilities, live chat, and integrations — to boost sales and user engagement.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Brand Representation Redevelopment",
+                    description:
+                      "Rebuilding the website to accurately and powerfully represent the brand, products, and services — making visitors feel warmly greeted and confident in the business.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Responsive & Mobile-Friendly Redevelopment",
+                    description:
+                      "Fully redeveloping non-responsive websites into mobile-friendly, fully responsive platforms that work flawlessly across all devices and screen sizes.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Page Speed & Performance Optimisation",
+                    description:
+                      "Redeveloping slow-loading websites to achieve fast page load speeds, improving both user experience and search engine rankings.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "SEO-Friendly Website Redevelopment",
+                    description:
+                      "Rebuilding websites with a clean, SEO-ready code structure, proper heading hierarchy, meta tags, and technical SEO foundations to improve search engine rankings and organic visibility.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "High-Converting, Modern Website",
+              "Competitor-Benchmarked Web Presence",
+              "Easily Accessible and Navigable Website",
+              "CMS-Based Site for Easy Content Management",
+              "Improved User Experience and Satisfaction",
+              "Feature-Rich Website with Modern Functionality",
+              "Strong Brand-Representing Digital Storefront",
+              "Fully Responsive and Mobile-Friendly Website",
+              "Fast-Loading, High-Performance Website",
+              "SEO-Friendly Website with Improved Search Rankings",
+            ],
+
+            termsOfService: "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/website-redevelopment-services",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/website-redevelopment-services#webpage",
-                url: "https://www.sibinfotech.com/website-redevelopment-services",
-                name: "Website Redevelopment Services | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/website-redevelopment-services#breadcrumb",
-                },
+                "@type": "ListItem",
+                position: 2,
+                name: "Website Development Services",
+                item: "https://www.sibinfotech.com/website-development-services",
               },
               {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/website-redevelopment-services#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Website Designing",
-                    item: "https://www.sibinfotech.com/website-designing-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Website Redevelopment Services",
-                    item: "https://www.sibinfotech.com/website-redevelopment-services",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 3,
+                name: "Website Redevelopment Services",
+                item: "https://www.sibinfotech.com/website-redevelopment-services",
               },
             ],
           }),
         }}
       />
 
-      <BreadcrumbSchema
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-redevelopment-services"
         breadcrumbTitle="Website Redevelopment Services | Modern SEO-Friendly Sites"
         PageRatingSchema
@@ -169,7 +289,7 @@ export default function WebsiteRedevelopmentServices() {
           "Revamp your website with redevelopment services in Mumbai by SIB Infotech. Enhance your design functionality to boost user experience and online visibility."
         }
         reviewCount={"5312"}
-      />
+      /> */}
     </>
   );
   return (

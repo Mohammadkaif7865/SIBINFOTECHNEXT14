@@ -51,6 +51,121 @@ export default function CorporateWebsiteDesigningServices() {
 "
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Corporate Website Designing",
+            name: "Corporate Website Designing Services",
+            alternateName: "Best Corporate Website Designing Company in India",
+            description:
+              "SIB Infotech is the #1 agency for corporate website designing and development in India, with offices in Mumbai and Delhi. We design tailor-made, professional, mobile-friendly, and secure corporate websites using the latest tools and technologies — helping businesses of all kinds build robust brand identities, engage relevant clients globally, and achieve their desired goals.",
+            url: "https://www.sibinfotech.com/corporate-website-designing-services",
+            image:
+              "https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            serviceOutput: [
+              "Professional Corporate Website",
+              "Mobile-Friendly and Fully Responsive Design",
+              "Secure Website with Proper Navigation",
+              "Strong First Impression and Brand Identity",
+              "Global Client Engagement Capability",
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Corporate Website Designing",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Corporate Website Designing",
+                    description:
+                      "Tailor-made corporate website design that provides relevant business information, an intuitive navigation system, a professional first impression, security, and full mobile-friendliness — helping companies engage clients from all over the world.",
+                    url: "https://www.sibinfotech.com/corporate-website-designing-services",
+                  },
+                },
+              ],
+            },
+
+            termsOfService: "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/corporate-website-designing-services",
+            },
+          }),
+        }}
+      />
+
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/corporate-website-designing-services"
         breadcrumbTitle="Corporate Website Designing Services India | SIB Infotech"

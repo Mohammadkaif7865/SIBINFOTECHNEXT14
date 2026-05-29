@@ -23,7 +23,7 @@ const SIBPower = ({
             {batchtitle && (
               <p className="text-white title fontWeight600">{batchtitle}</p>
             )}
-            <h2 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
+            <h2 className="heading mt-4 fontWeight600  text_red">
               {title} <br className="d-none d-lg-block" />
               <span className="fontWeight600">{subtitle}</span>
             </h2>
@@ -70,7 +70,7 @@ const SIBPower = ({
                 {data?.map((item, index) => (
                   <SwiperSlide key={index}>
                     <div className="item_sib_power">
-                      <p className="fontHeading2 text_red title fontWeight600">
+                      <p className=" text_red title fontWeight600">
                         {item.title}
                       </p>
                       <p className="mt-3">{item.description}</p>

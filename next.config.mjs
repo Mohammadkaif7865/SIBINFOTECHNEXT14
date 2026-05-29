@@ -6,6 +6,17 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "sibinfotech.com",
+          },
+        ],
+        destination: "https://www.sibinfotech.com/:path*",
+        permanent: true,
+      },
+      {
         source: "/google-search-network-campaign",
         destination: "/",
         permanent: true,
@@ -38,22 +49,22 @@ const nextConfig = {
       {
         source: "/search-engine-optimization-services",
         destination: "/search-engine-optimization-seo-services",
-        permanent: true, // This is a 301 redirect
+        permanent: true,
       },
       {
         source: "/index.php",
         destination: "/",
-        permanent: true, // This is a 301 redirect
+        permanent: true,
       },
       {
         source: "/index",
         destination: "/",
-        permanent: true, // This is a 301 redirect
+        permanent: true,
       },
       {
         source: "/php-development-services",
-        destination: "/php-website-development-services ",
-        permanent: true, // This is a 301 redirect
+        destination: "/php-website-development-services",
+        permanent: true,
       },
       {
         source: "/mobile-seo-services-mumbai-india",
@@ -331,10 +342,16 @@ const nextConfig = {
         permanent: true,
       },
       {
-  source: "/social-media-optimization",
-  destination: "/social-media-optimization-services",
-  permanent: true,
-},
+        source: "/social-media-optimization",
+        destination: "/social-media-optimization-services",
+        permanent: true,
+      },
+
+      {
+        source: "/ecommerce-solutions-company-mumbai-india.php",
+        destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
     ];
   },
   async headers() {

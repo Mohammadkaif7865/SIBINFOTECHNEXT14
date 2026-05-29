@@ -11,21 +11,222 @@ export default function FlashWebsiteDesigningServices() {
   const metaTags = (
     <>
       <title>Flash Template Designing Services Company in Mumbai, India</title>
-      <meta name="description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta name="keywords" content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash" />
+      <meta
+        name="description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        name="keywords"
+        content="flash web designing,flash website designing,flash web designing services,flash website designing services,flash web designing companies,flash website designing companies,flash web designing india,flash web designing delhi,flash web designing mumbai,flash"
+      />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
-      <meta property="og:title" content="Flash Template Designing Services Company in Mumbai, India" />
-      <meta property="og:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
+      />
+      <meta
+        property="og:title"
+        content="Flash Template Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="og:description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india" />
-      <meta property="twitter:title" content="Flash Template Designing Services Company in Mumbai, India" />
-      <meta property="twitter:description" content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg" />
-      <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
+      />
+      <meta
+        property="twitter:title"
+        content="Flash Template Designing Services Company in Mumbai, India"
+      />
+      <meta
+        property="twitter:description"
+        content="Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/flash-templates-designing-services-mumbai-india.jpg"
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Flash Template Designing Services",
+            name: "Flash Templates Designing Company in Mumbai, India",
+            alternateName: "Custom Flash Website Template Design Services",
+            description:
+              "SIB Infotech is a leading flash template designing company in Mumbai, India offering custom flash website templates, animated web design solutions, interactive flash banners, multimedia website templates, and creative flash presentation design services. Our flash designers create visually engaging, responsive, and business-focused flash templates that improve brand presentation and user engagement.",
+            url: "https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india",
+            image:
+              "https://www.sibinfotech.com/assets/images/flash-template-design-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Flash Template Designing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Flash Template Design",
+                    description:
+                      "Creative and customized flash template design solutions for websites and multimedia presentations.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Animated Flash Website Templates",
+                    description:
+                      "Interactive animated flash templates designed to improve visual engagement and user experience.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Flash Banner Designing",
+                    description:
+                      "Professional flash banner and multimedia advertising design services for online branding.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Interactive Multimedia Design",
+                    description:
+                      "Flash-based multimedia design solutions for presentations, websites, and business promotions.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Website UI Animation Services",
+                    description:
+                      "Creative website animation and visual interaction design services for enhanced user engagement.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Custom Flash Website Templates",
+              "Interactive Multimedia Design",
+              "Animated Web Presentations",
+              "Creative Flash Banner Designs",
+              "Enhanced User Engagement",
+              "Business-Focused Website Design",
+              "Responsive Flash Layouts",
+              "Improved Brand Presentation",
+              "Interactive User Interface",
+              "Visually Appealing Website Templates",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Flash Templates Designing Services Mumbai India",
+                item: "https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india",
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-templates-designing-services-mumbai-india"
         breadcrumbTitle="Flash Template Designing Services Company in Mumbai, India"
         PageRatingSchema
@@ -33,7 +234,7 @@ export default function FlashWebsiteDesigningServices() {
           "Enhance your brand with custom Flash template designing services in Mumbai by SIB Infotech. Create engaging visuals that captivate your audience. Contact now!"
         }
         reviewCount={"5203"}
-      />
+      /> */}
     </>
   );
   return (
@@ -47,7 +248,6 @@ export default function FlashWebsiteDesigningServices() {
                   Flash Website Designing Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-
                   Top Rated Flash Website Designing Company in Mumbai, India
                 </h2>
                 <div className="mt-4">

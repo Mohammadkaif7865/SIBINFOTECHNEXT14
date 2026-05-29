@@ -23,19 +23,54 @@ export const CustomLayout = ({ children, meta }) => {
           content="Digital Marketing and Website Desigining"
         />
         <meta name="topic" content="Digital Marketing and Website Desigining" />
-        <meta name="robots" content="index, follow" />
-        <meta name="robots" content="follow, index " />
+        <meta
+          name="robots"
+          content={
+            path === "/index" ||
+            path === "/index.php" ||
+            path === "/blog/test-blog" ||
+           path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"||
+           path === "/blogs/elements-that-influence-conversion"||
+           path === "/blog/reason-why-you-should-own-an-e-commerce-website"
+              ? "noindex, follow"
+              : "index, follow"
+          }
+        />
+
         <meta content="yes" name="ALLOW-SEARCH" />
         <meta content="all" name="AUDIENCE" />
         <meta content="index, follow" name="YahooSeeker" />
         <meta content="index, follow" name="msnbot" />
-        <meta content="index, follow" name="googlebot" />
+        <meta
+          name="googlebot"
+          content={
+            path === "/index" ||
+            path === "/index.php" ||
+            path === "/blog/test-blog" ||
+            path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"||
+            path === "/blogs/elements-that-influence-conversion"||
+           path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"
+              ? "noindex, follow"
+              : "index, follow"
+          }
+        />
         <meta name="author" content="SIB Infotech" />
         <meta name="publisher" content="SIB Infotech" />
         <meta name="copyright" content="SIB Infotech" />
         <meta name="owner" content="SIB Infotech" />
 
-        <link rel="canonical" href={`https://www.sibinfotech.com${path}`} />
+        {/* <link rel="canonical" href={`https://www.sibinfotech.com${path}`} /> */}
+        <link
+          rel="canonical"
+          href={
+            path === "/index" || path === "/index.php"
+              ? "https://www.sibinfotech.com/"
+              : path === "/search-engine-optimization-seo-services" ||
+                  path === "/search-engine-optimization-seo-services-packages"
+                ? "https://www.sibinfotech.com/on-page-seo-services"
+                : `https://www.sibinfotech.com${path}`
+          }
+        />
         {meta}
       </Head>
 

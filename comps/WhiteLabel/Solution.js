@@ -14,7 +14,7 @@ const Solution = ({ data, heading, subHeading, discription }) => {
     <section className="bg-black position-relative solution_white_label">
       <div className="containerFull">
         <div className="row text-white align-items-center">
-          <div className="col-lg-10 ">
+          <div className="col-lg-9 ">
             <h4 className=" large_heading fontWeight4 00">
               <span className="fontWeight large_heading2 fontWeight600">
                 {heading}
@@ -22,9 +22,9 @@ const Solution = ({ data, heading, subHeading, discription }) => {
               <br />
               {subHeading}
             </h4>
-            <p className="mt-4">{discription}</p>
+            <p className="mt-3">{discription}</p>
           </div>
-          <div className="col-lg-2 mt-4 mt-lg-0  d-none d-lg-block">
+          <div className="col-lg-3 mt-4 mt-lg-0  d-none d-lg-block">
             <div className="d-flex justify-content-lg-end">
               <a className="btnThemeRed  fw-bold" href="#contact">
                 Know More

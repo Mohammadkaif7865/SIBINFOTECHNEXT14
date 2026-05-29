@@ -3,7 +3,7 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
-import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+// import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function MCommerceSolution() {
@@ -61,91 +61,153 @@ export default function MCommerceSolution() {
         {
           "@type": "Service",
           "@id": "https://www.sibinfotech.com/m-commerce-solution#service",
-          "name": "M-Commerce Solutions for Mobile Apps",
-          "url": "https://www.sibinfotech.com/m-commerce-solution",
-          "description": "Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions.",
-          "provider": {
-            "@id": "https://www.sibinfotech.com/#organization"
+          serviceType: "M-Commerce Solutions",
+          name: "M-Commerce Solution Company in India",
+          alternateName: "Mobile Commerce App Development Services",
+          description:
+            "SIB Infotech is a top-rated M-Commerce solution company in India offering mobile commerce app development, mobile payment integration, mobile web apps, and multiplatform mCommerce solutions for businesses. Our customized mobile commerce applications help businesses improve customer engagement, sales, portability, and digital transactions.",
+          url: "https://www.sibinfotech.com/m-commerce-solution",
+          image:
+            "https://www.sibinfotech.com/assets/images/m-commerce-solution.jpg",
+          provider: {
+            "@id": "https://www.sibinfotech.com/#organization",
           },
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
+          areaServed: [
+            {
+              "@type": "Country",
+              name: "India",
+            },
+            {
+              "@type": "Country",
+              name: "United States",
+            },
+            {
+              "@type": "Country",
+              name: "United Kingdom",
+            },
+            {
+              "@type": "Country",
+              name: "Australia",
+            },
+            {
+              "@type": "Country",
+              name: "Canada",
+            },
+            {
+              "@type": "Country",
+              name: "Germany",
+            },
+            {
+              "@type": "Country",
+              name: "Singapore",
+            },
+          ],
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "M-Commerce Development Services",
+            itemListElement: [
+              {
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: "Mobile Commerce App Development",
+                },
+              },
+            ],
           },
-          "serviceType": "M-Commerce Solution"
         },
         {
           "@type": "Organization",
           "@id": "https://www.sibinfotech.com/#organization",
-          "name": "SIB Infotech",
-          "url": "https://www.sibinfotech.com",
-          "logo": {
+          name: "SIB Infotech",
+          url: "https://www.sibinfotech.com",
+          logo: {
             "@type": "ImageObject",
-            "url": "https://www.sibinfotech.com/assets/images/logo.webp"
+            url: "https://www.sibinfotech.com/assets/images/logo.webp",
           },
-          "telephone": "+91-92222-60000",
-          "email": "info@sibinfotech.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
-            "addressLocality": "Mumbai",
-            "addressRegion": "Maharashtra",
-            "postalCode": "400064",
-            "addressCountry": "IN"
-          }
+          foundingDate: "2005",
+          telephone: "+91-9222260000",
+          sameAs: [
+            "https://www.facebook.com/sibinfotech/",
+            "https://x.com/sibinfotech",
+            "https://www.linkedin.com/company/sib-infotech/",
+            "https://www.youtube.com/user/sibinfotech",
+          ],
+          address: [
+            {
+              "@type": "PostalAddress",
+              streetAddress:
+                "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+              addressLocality: "Mumbai",
+              addressRegion: "Maharashtra",
+              postalCode: "400064",
+              addressCountry: "IN",
+            },
+            {
+              "@type": "PostalAddress",
+              streetAddress:
+                "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+              addressLocality: "New Delhi",
+              addressRegion: "Delhi",
+              postalCode: "110027",
+              addressCountry: "IN",
+            },
+          ],
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.8",
+            reviewCount: "99",
+            bestRating: "5",
+            worstRating: "1",
+          },
         },
         {
           "@type": "WebPage",
           "@id": "https://www.sibinfotech.com/m-commerce-solution#webpage",
-          "url": "https://www.sibinfotech.com/m-commerce-solution",
-          "name": "M-Commerce Solutions for Mobile Apps | SIB Infotech",
-          "isPartOf": {
-            "@id": "https://www.sibinfotech.com/#website"
+          url: "https://www.sibinfotech.com/m-commerce-solution",
+          name: "M-Commerce Solutions for Mobile Apps | SIB Infotech",
+          isPartOf: {
+            "@id": "https://www.sibinfotech.com/#website",
           },
-          "breadcrumb": {
-            "@id": "https://www.sibinfotech.com/m-commerce-solution#breadcrumb"
-          }
+          breadcrumb: {
+            "@id": "https://www.sibinfotech.com/m-commerce-solution#breadcrumb",
+          },
         },
         {
           "@type": "WebSite",
           "@id": "https://www.sibinfotech.com/#website",
-          "url": "https://www.sibinfotech.com",
-          "name": "SIB Infotech",
-          "publisher": {
-            "@id": "https://www.sibinfotech.com/#organization"
-          }
+          url: "https://www.sibinfotech.com",
+          name: "SIB Infotech",
+          publisher: {
+            "@id": "https://www.sibinfotech.com/#organization",
+          },
         },
         {
           "@type": "BreadcrumbList",
           "@id": "https://www.sibinfotech.com/m-commerce-solution#breadcrumb",
-          "itemListElement": [
+          itemListElement: [
             {
               "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.sibinfotech.com"
+              position: 1,
+              name: "Home",
+              item: "https://www.sibinfotech.com",
             },
             {
               "@type": "ListItem",
-              "position": 2,
-              "name": "M-Commerce Solution",
-              "item": "https://www.sibinfotech.com/m-commerce-solution"
-            }
-          ]
-        }
-      ]
-    })
+              position: 2,
+              name: "M-Commerce Solution",
+              item: "https://www.sibinfotech.com/m-commerce-solution",
+            },
+          ],
+        },
+      ],
+    }),
   }}
 />
 
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/m-commerce-solution"
-        breadcrumbTitle="M-Commerce Solutions for Mobile Apps | SIB Infotech"
-        PageRatingSchema
-        description={
-          "Grow your business with custom m-commerce solutions in Mumbai, India. SIB Infotech offers mobile app development for seamless shopping and secure transactions."
-        }
-        reviewCount={"5231"}
-      />
+
+
+    
     </>
   );
   return (

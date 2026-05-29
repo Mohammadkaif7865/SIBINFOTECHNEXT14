@@ -10,21 +10,219 @@ export default function FacebookMarketing() {
   const metaTags = (
     <>
       <title>Facebook Marketing Services in Mumbai, India | SIB Infotech</title>
-      <meta name="description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
+      <meta
+        name="description"
+        content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions."
+      />
       <meta name="keywords" content="Facebook Marketing" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/facebook-marketing" />
-      <meta property="og:title" content="Facebook Marketing Services in Mumbai, India | SIB Infotech" />
-      <meta property="og:description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/facebook-marketing"
+      />
+      <meta
+        property="og:title"
+        content="Facebook Marketing Services in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="og:description"
+        content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/facebook-marketing" />
-      <meta property="twitter:title" content="Facebook Marketing Services in Mumbai, India | SIB Infotech" />
-      <meta property="twitter:description" content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg" />
-      <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/facebook-marketing"
+      />
+      <meta
+        property="twitter:title"
+        content="Facebook Marketing Services in Mumbai, India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Facebook Marketing Services",
+            name: "Facebook Marketing Company in India",
+            alternateName:
+              "Facebook Advertising & Social Media Marketing Services",
+            description:
+              "SIB Infotech is a leading Facebook marketing company in India offering Facebook advertising services, social media campaign management, Facebook lead generation, Facebook page management, remarketing campaigns, and targeted social media marketing solutions. Our Facebook marketing experts help businesses improve brand awareness, customer engagement, website traffic, and conversions through ROI-driven advertising strategies.",
+            url: "https://www.sibinfotech.com/facebook-marketing",
+            image:
+              "https://www.sibinfotech.com/assets/images/facebook-marketing-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "UAE" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Facebook Marketing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Facebook Advertising Campaigns",
+                    description:
+                      "Targeted Facebook advertising campaigns designed to increase brand visibility, traffic, and conversions.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Facebook Lead Generation",
+                    description:
+                      "Lead generation campaigns using Facebook Ads to attract and convert potential customers.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Facebook Page Management",
+                    description:
+                      "Professional Facebook page management services including posting, engagement, and optimization.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Facebook Remarketing Services",
+                    description:
+                      "Remarketing and retargeting campaigns to reconnect with website visitors and improve conversions.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Social Media Strategy & Analytics",
+                    description:
+                      "Data-driven social media strategies and campaign analytics for improved ROI and audience engagement.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Improved Brand Awareness",
+              "Higher Customer Engagement",
+              "Targeted Facebook Advertising",
+              "Lead Generation Campaigns",
+              "Increased Website Traffic",
+              "Better Conversion Rates",
+              "Facebook Audience Targeting",
+              "ROI-Driven Social Media Campaigns",
+              "Remarketing & Retargeting Solutions",
+              "Performance Analytics & Reporting",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://www.sibinfotech.com/facebook-marketing",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Facebook Marketing",
+                item: "https://www.sibinfotech.com/facebook-marketing",
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/facebook-marketing"
         breadcrumbTitle="Facebook Marketing Services in Mumbai, India | SIB Infotech"
         PageRatingSchema
@@ -32,7 +230,7 @@ export default function FacebookMarketing() {
           "Enhance your brand reach with Facebook marketing services in India from SIB Infotech. Create targeted campaigns to drive engagement and boost conversions."
         }
         reviewCount={"5196"}
-      />
+      /> */}
     </>
   );
   return (
@@ -48,7 +246,7 @@ export default function FacebookMarketing() {
                 <h2 className="small_heading fw-bold mt-lg-2 mt-1 text-white">
                   Top Rated Facebook Marketing Company in India
                 </h2>
-                
+
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
@@ -79,9 +277,7 @@ export default function FacebookMarketing() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-        Pagetitle={" Facebook Marketing"}
-        />
+        <Breadcrumb Pagetitle={" Facebook Marketing"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -99,7 +295,7 @@ export default function FacebookMarketing() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={' Facebook Marketing'} />
+        <Breadcrumb Pagetitle={" Facebook Marketing"} />
       </div>
       <section id="sib-custom-page">
         <div className="containerFull">

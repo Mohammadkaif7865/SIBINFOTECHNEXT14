@@ -12,9 +12,10 @@ import Pricing from "../Home/Pricing";
 import SIBPower from "../Home/SIBPower";
 import Testimonials from "../Home/Testimonials";
 import Tools from "../Home/Tools";
+
 import WhySIB from "../Home/WhySIB";
 // import Faqs from "../SEO2/Faqs";
-import OutsourcingServices from "../SEO2/OutsourcingServices";
+// import OutsourcingServices from "../SEO2/OutsourcingServices";
 import SeoAudit from "../SEO2/SeoAudit";
 import SpecialisedServices from "../SEO2/SpecialisedServices";
 import TalkWithExpert from "../SEO2/TalkWithExpert";
@@ -24,7 +25,7 @@ import About from "./About";
 import Faq from "../Home/Faq";
 
 const Seo = () => {
-   const faqsData = [
+  const faqsData = [
     {
       id: "faq1",
       question: "What is SEO?",
@@ -251,45 +252,39 @@ const Seo = () => {
   ];
   const seoServices = [
     {
-      title: ` On-Page SEO  <br class="d-none d-md-lg "/> Optimization`,
+      title: `On-Page SEO <br class="d-none d-md-lg "/> Optimization`,
       description:
-        "On-page SEO is the foundation of any successful SEO strategy. At SIB Infotech, we specialize in providing comprehensive on-page SEO services that help businesses achieve higher search engine rankings, increased traffic, and improved user engagement. On-page SEO is the sub-category that is useful in optimizing the on-page contents of your website which boosts your website ranking higher on search engines. It focuses on website tools like structure, content, and appearance. It includes the optimization of HTML tags and images on the website of your brand.",
+        "We optimize every page of your website so Google understands exactly what you offer. This includes title tags, meta descriptions, header structure, schema markup, smart keyword placement, internal linking, and content that is built to convert.",
       img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
     },
     {
       title: `Off-Page SEO & <br class="d-none d-md-lg "/> Link Building`,
       description:
-        "Off-page SEO is activities that are performed after the websites goes live. Off-page SEO Service deals with the external links that direct traffic to your websites organically, also known as 'backlinks' This category deals with regulating the backlinks on other publisher's pages including blogs, which leads to building a reliable spot on the search engine and the rankings are set to the sky.",
+        "We build your website's authority through high-quality backlinks, digital PR, brand mentions, guest posts, and outreach to top publications. The goal is simple. Make Google trust your site enough to rank it on page 1.",
       img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
     },
     {
-      title: `Technical SEO <br class="d-none d-md-lg "/> Services `,
+      title: `Technical SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Put your business on the local map with our tailored Local SEO services. We specialize in optimizing your online presence to attract local customers. From optimizing Google My Business profiles to ensuring accurate business information across directories, we ensure that your business is easily discoverable in local searches.",
+        "A slow, broken, or hard-to-crawl website kills rankings. We fix everything under the hood. Site speed, core web vitals, mobile responsiveness, broken links, indexing issues, and crawlability. So Google can read and rank your site smoothly.",
       img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
     },
     {
-      title: `Local SEO <br class="d-none d-md-lg "/> Services `,
+      title: `Local SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Technical SEO focuses on the website's architecture and user interface that is the technical parameters that directly affect the visibility. It manages the technical set up of the website that is the code. Most search engines prioritize the website's code when ranking it for search engines.",
+        "If your customers are in Mumbai or anywhere else in India, you need to show up in local searches. We optimize your Google Business Profile, build local citations, manage reviews, and target geo-specific keywords so you dominate the near me results.",
       img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
     },
     {
-      title: `E-Commerce SEO <br class="d-none d-md-lg "/>  Services `,
+      title: `E-Commerce SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Fuel your online store's success with our E-Commerce SEO services. We optimize product visibility, streamline the shopping experience, and boost your sales. Elevate your digital presence and make your products stand out in the competitive online marketplace with our tailored solutions. Your success is our focus in the world of e-commerce.",
+        "Online stores need SEO built for product pages, category structures, and shopping intent. We optimize product titles, schemas, internal navigation, and content so your products actually get discovered and bought.",
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
     {
-      title: `Mobile SEO  `,
+      title: `Content SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Mobile SEO is based on its name, which is meant for mobile devices. At present more than 60% of Google searches are done on mobile phones. This Mobile SEO service optimizes your website on phones and makes it mobile-friendly ",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
-    },
-    {
-      title: ` SEO Content <br class="d-none d-md-lg "/>   Writing Services  `,
-      description:
-        "High-quality, White Label Link Building for SEO agencies—authority links, seamless delivery, your brand! ",
+        "Great rankings start with great content. We write blogs, pillar pages, service pages, and resource hubs that target the right keywords, answer real customer questions, and build long-term organic traffic that compounds.",
       img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
     },
   ];
@@ -349,140 +344,54 @@ const Seo = () => {
     buttonText: "Book A FREE SEO Discovery Call ",
   };
 
-  const brandContent = [
+  const power_data = [
     {
-      title: `<span>Rank on Google's 1st Page  </span><br/>
-<span>Using Human-Led +   </span><br/>
-AI-Driven SEO Strategy `,
-      subtitle: `How to Create an Effective Winning SEO Strategy in 2025? `,
-      description: `
-        A successful SEO strategy is a mixed stew of on-page, off-page, and technical SEO techniques. Use the following stepwise approach to boost your search ranking: 
-      `,
-      faqData: [
-        {
-          question: "1. Keyword Research & Strategy",
-          answer: `
-            <p>Keyword research is a fundamental practice in search engine optimization (SEO).</p>
-            <ul>
-              <li>Identify high-traffic, low-competition keywords that are suitable for your niche</li>
-              <li>Map long-tail keywords that match intent.</li>
-              <li>Keyword research would not be complete without using a set of engines such as Google Keyword Planner, Ahrefs, and SEMrush to draw data-based insights.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "2. Competitor Analysis",
-          answer: `
-            <p>This process gathers competitors' insights about their keyword, content, and backlink strategy and uses those insights to improve your own SEO</p>
-          `,
-        },
-        {
-          question: "3. On-Page SEO Optimization",
-          answer: `
-            <ul>
-              <li>Tagging title, description, and heads (H1, H2, and H3).</li>
-              <li>Keyword stuffing should not be applied in the context but make provisions for keyword use in the content.</li>
-              <li>Internally linking your site will help you to build an ever-better web of page authority across your site.</li>
-              <li>Structured data (schema markup) - A type of code that you can optimize on your website to help search engines provide more informative and relevant results to users.</li>
-              <li>Image optimization using alt text and compressing their file sizes.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "4. High-Quality Content Creation (& E-E-A-T)",
-          answer: `
-            <ul>
-              <li>Generate high quality unique, engaging, useful & specific, and verifiable content.</li>
-              <li>E-E-A-T (experience, expertise, authoritativeness, and trustworthiness) should be the guidelines.</li>
-              <li>Keep your old blogs up to date in some manner.</li>
-              <li>Siloing in the content structure should be encouraged based on topical relevance.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "5. Optimize Content Design (UI & UX)",
-          answer: `
-            <ul>
-              <li>The process of making sure content is written in a way that it can reach the largest possible target audience.</li>
-              <li>Mobile Friendly/Responsive: Your website's users can use your website through mobile device with ease and barring any significant changes from the desktop version of your website.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "6. Technical SEO Enhancements",
-          answer: `
-            <ul>
-              <li>The site speed should be fastened and Core Web Vitals optimized.</li>
-              <li>Enforce mobile friendly design and responsiveness.</li>
-              <li>Fix the crawl errors known to Google Search Console.</li>
-              <li>Create an XML sitemap and submit it to the search engines for listing all pages.</li>
-              <li>Make sure the website is HTTPS secure.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "7. Off-Page SEO & Link Building",
-          answer: `
-            <ul>
-              <li>Attain high-quality backlinks from authoritative websites.</li>
-              <li>For exposure purposes, one could use guest postings, PR outreach, and influencer collaborations.</li>
-              <li>Social media and brand mentions could also work for exposure.</li>
-              <li>Ensure accurate citation and match in terms of cross-referencing with major directories for local SEO purposes.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "8. Local SEO (For Businesses Targeting Local Audience)",
-          answer: `
-            <ul>
-              <li>Optimize your Google My Business (GMB) profile.</li>
-              <li>To the end, anyone could elicit reviews while responding to them.</li>
-              <li>Content should include keywords based upon the location. Localize your business entity in sites such as Yelp, Justdial, etc.</li>
-              <li>Local SEO is a strategy that focuses on improving your visibility in local search rankings.</li>
-            </ul>
-          `,
-        },
-        {
-          question: "10. Regular Performance Monitoring & Optimization",
-          answer: `
-            <ul>
-              <li>Rank checking with Google Analytics and Search Console.</li>
-              <li>Schedule regularly SEO audits to fix emerging issues.</li>
-              <li>Always study what the competition is doing to keep on improving it.</li>
-              <li>Carry out A/B tests regarding Meta titles, descriptions, and CTAs for higher click-through rates. Conduct A/B testing on meta tags, descriptions, and CTAs.</li>
-            </ul>
-          `,
-        },
-      ],
+      title: "Google Premier Partner Status",
+      description:
+        "We are recognized in the top 3% of Google Partners across India. This is not a self-claimed title. It is earned through performance, certifications, and consistent results.",
+    },
+    {
+      title: "20+ Years of Real SEO Mastery",
+      description:
+        "SEO has changed dramatically over two decades. From keyword stuffing in 2005 to AI Overviews in 2026, we have adapted, learned, and led every shift in search. Few agencies in India can claim that depth.",
+    },
+    {
+      title: "AI-Powered SEO Strategies",
+      description:
+        "The future of search is AI. We are already optimizing brands for ChatGPT, Gemini, Perplexity, Claude, and Google's AI Overviews using GEO and AEO frameworks. Most agencies are still trying to figure out what AEO means.",
+    },
+    {
+      title: "1000+ Brands Ranked Higher",
+      description:
+        "We have grown brands across every industry imaginable. Real estate, jewelry, education, manufacturing, healthcare, D2C, B2B SaaS, you name it. Each came in with different goals. Each walked out with better rankings, more traffic, and stronger revenue.",
+    },
+    {
+      title: "Affordable for Every Indian Business",
+      description:
+        "We are an affordable seo company india businesses trust at every growth stage. From bootstrapped startups to mid-sized enterprises, our pricing scales with your needs and never with hidden surprises.",
+    },
+    {
+      title: "Transparent, No-Jargon Reporting",
+      description:
+        "You will always know what we are doing, why we are doing it, and what results you are getting. Monthly reports in plain English. No fluff. No confusing metrics. Just clear progress you can show your team.",
+    },
+    {
+      title: "Dedicated Account Manager",
+      description:
+        "You will work with a real human who knows your business, your goals, and your industry. Not a ticketing system. Not an overseas team you cannot reach. A real point of contact who picks up the phone when you call.",
+    },
+    {
+      title: "Data-Led Decisions",
+      description:
+        "Every move we make is backed by data. From keyword research to content strategy to link building, we test, measure, and refine. Your growth is not powered by gut feelings. It is powered by numbers.",
+    },
+    {
+      title: "Trusted Across 40+ Countries",
+      description:
+        "Our work has helped brands rank in India, the USA, the UK, Canada, Australia, the UAE, Singapore, and beyond. Global standards. Local expertise.",
     },
   ];
 
-  const power_data = [
-    {
-      title: "Proven Track Record",
-      description: "Thousands of successful campaigns across industries.",
-    },
-    {
-      title: "Latest SEO Techniques",
-      description: "We follow Google's evolving algorithms and best practices.",
-    },
-    {
-      title: "Data-Driven Strategies",
-      description: "AI-powered insights for better keyword targeting.",
-    },
-    {
-      title: "Comprehensive SEO Solutions",
-      description: "On-page, off-page, technical, and local SEO services.",
-    },
-    {
-      title: "Customized Approach",
-      description: "Tailored SEO plans to suit your business goals.",
-    },
-    {
-      title: "Transparent Reporting",
-      description: "Regular updates with performance tracking.",
-    },
-  ];
   const testimonial_data = [
     {
       title: `What Our <span class="text_red"> Client's Say</span> About Us `,
@@ -492,50 +401,55 @@ AI-Driven SEO Strategy `,
 
   const agencyWorkflow = [
     {
-      title: "Strategy<br/> & Research",
+      title: " Free SEO Audit",
       description: `
-        <ul class="ourapproach_ul">
-          <li>Organic SEO Strategy Building</li>
-          <li>Detailed Competitor Analysis</li>
-          <li>Audience Requirements Analysis</li>
-          <li>Keyword Research</li>
-          <li>Website SEO Audit</li>
-        </ul>
-      `,
+      <p>
+        We start by analyzing your website, your competitors, your current rankings, your content quality, your technical health, and your backlink profile. You will know exactly where you stand before we begin.
+      </p>
+    `,
     },
     {
-      title: "Website <br/> Optimization",
+      title: " Strategy & Planning",
       description: `
-        <ul class="ourapproach_ul">
-          <li>Website Optimization</li>
-          <li>Quality Content and Copywriting</li>
-          <li>Resolve Technical Issues</li>
-          <li>Analytics and Data Tracking Setup</li>
-          <li>Sitemap Submission</li>
-        </ul>
-      `,
+      <p>
+        Based on the audit, we build a custom 6 to 12 month SEO roadmap. This includes keyword targets, content plans, technical fixes, and link-building goals tied directly to your business KPIs.
+      </p>
+    `,
     },
     {
-      title: "Implementation <br/>& Link Building",
+      title: " On-Page & Technical Fixes",
       description: `
-        <ul class="ourapproach_ul">
-          <li>Authentic and Quality Link Building</li>
-          <li>Local SEO Optimization</li>
-          <li>Off page SEO</li>
-          <li>On page SEO</li>
-        </ul>
-      `,
+      <p>
+        We clean up your site. Fix broken pages. Speed it up. Optimize titles, meta tags, schemas, and internal linking. This is the foundation everything else rests on.
+      </p>
+    `,
     },
     {
-      title: "Reporting <br/> & Monitoring",
+      title: " Content & Off-Page Execution",
       description: `
-        <ul class="ourapproach_ul">
-          <li>Monthly Reporting and performance</li>
-          <li>Conversion Goal Optimisation</li>
-          <li>Regular Trend Analysis</li>
-          <li>Client Review</li>
-        </ul>
-      `,
+      <p>
+        We publish high-value content that targets your buyer's search intent. We build authority through digital PR, guest posts, and high-DA backlinks. Slow, steady, sustainable.
+      </p>
+    `,
+    },
+    {
+      title: " AI Search Optimization",
+      description: `
+      <p>
+        We make your brand visible across Google AI Overviews, ChatGPT, Gemini, Perplexity, and other AI-powered search engines using GEO and AEO frameworks.
+      </p>
+    `,
+    },
+    {
+      title: " Reporting & Continuous Optimization",
+      description: `
+      <p>
+        Every month, you get a clear report showing rankings, traffic, leads, and conversions. We refine the strategy based on real performance data, not assumptions.
+      </p>
+      <p>
+        The result is compounding growth that does not stop when we do.
+      </p>
+    `,
     },
   ];
   return (
@@ -544,15 +458,13 @@ AI-Driven SEO Strategy `,
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
-              
               <div className="innerBannerTitle venter">
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  Your Next SEO Agency in India
-                  <br />
+                  Get More Traffic, Leads & Sales with the{" "}
                   <span className="text_red">
-                    Trusted by Over 1000+ companies{" "}
+                    Best SEO Services Company in Mumbai
                   </span>
                 </h1>
                 <p
@@ -561,7 +473,7 @@ AI-Driven SEO Strategy `,
                     maxWidth: "80%",
                   }}
                 >
-                  Rank Higher, Grow Faster
+                  Mumbai's Trusted SEO Agency | Google Premier Partner
                 </p>
                 <p
                   className="mt-2  mt-lg-3 text-white"
@@ -569,9 +481,11 @@ AI-Driven SEO Strategy `,
                     maxWidth: "80%",
                   }}
                 >
-                  Boost Website Traffic, Improve Search Rankings & Maximize
-                  Conversions with our Advanced AI Driven SEO Strategies to Rank
-                  #1 on Google & Bing
+                  Partner with the result-driven SEO services company in Mumbai
+                  that helps businesses rank higher on Google, attract qualified
+                  buyers, and turn search traffic into real revenue. Backed by
+                  20+ years of expertise, Google Premier Partner status, and
+                  brands we have grown across 40+ countries.
                 </p>
                 <div className="mt-4">
                   <Link href="#contact" className="btnThemeRed me-3">
@@ -593,9 +507,8 @@ AI-Driven SEO Strategy `,
                 <p>
                   with{" "}
                   <strong className="fontWeight600 text_red">
-                    Best{" "}
-                    <span className="textChange">SEO </span>{" "}
-                    Company in India
+                    Best <span className="textChange">SEO </span> Company in
+                    India
                   </strong>
                 </p>
                 <BannerForm />
@@ -615,8 +528,7 @@ AI-Driven SEO Strategy `,
           <p>
             with{" "}
             <strong className="fontWeight600 text_red">
-              Best <span className="textChange">SEO</span>{" "}
-              Company in India
+              Best <span className="textChange">SEO</span> Company in India
             </strong>
           </p>
           <BannerForm />
@@ -627,10 +539,9 @@ AI-Driven SEO Strategy `,
       </div>
       <About />
       <Solution
-        heading={"More Visibility, More Leads, More Growth! "}
-        subHeading={"With Our Cutting-Edge SEO Services in India"}
+        heading={"Our Full Suite of Professional SEO Services in Mumbai "}
         discription={
-          "Powering Growth for Agencies, Resellers & Global Businesses with White-Label Expertise"
+          "Every business is different. Your SEO strategy should be too. We offer a complete range of professional seo services in mumbai designed to help you rank, grow, and win across every type of search. Here is everything we do under one roof:"
         }
         data={seoServices}
       />
@@ -639,49 +550,757 @@ AI-Driven SEO Strategy `,
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
+
+      <section className="bgGrey2">
+        <div className="containerFull">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <h2 className="heading fontWeight600">
+                Next-Gen SEO for Mumbai's{" "}
+                <span className="text_red">Competitive Search Landscape</span>
+              </h2>
+            </div>
+
+            <div className="col-lg-7">
+              <p>Search is not what it used to be.</p>
+
+              <p>
+                A few years ago, ranking on Google was the only game in town.
+                Today, your customers are searching across multiple platforms.
+                They ask ChatGPT for recommendations. They scroll through
+                Google's AI Overviews instead of clicking links. They use
+                Perplexity for research, Gemini for quick answers, and Claude to
+                compare options before making a decision. If your business is
+                not visible across all of these surfaces, you are missing out on
+                real buyers every single day. This is exactly where
+                next-generation SEO comes in. And this is where SIB Infotech is
+                leading the way in Mumbai.
+              </p>
+            </div>
+          </div>
+          <div className="row mt-4 mt-lg-5">
+            <div className="col-lg-12">
+              <h3 className="fontWeight600 heading2 text-center mb-4 mb-lg-5">
+                The 3 Pillars of{" "}
+                <span className="text_red">Modern Search Visibility</span>
+              </h3>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="nextGenSeoCard h-100">
+                <div className="nextGenSeoNumber">01</div>
+
+                <h4 className="small_heading fontWeight600 mb-2 ">
+                  AI SEO
+                </h4>
+
+                <p>
+                  AI SEO is the practice of optimizing your website to appear in
+                  AI-powered search results like Google's AI Overviews, ChatGPT,
+                  Gemini, Perplexity, and Claude. Unlike traditional SEO that
+                  focuses only on keywords and backlinks, AI SEO focuses on
+                  context, entity relationships, structured content, and how
+                  clearly your information is communicated to AI models.
+                </p>
+
+                <div className="whyMattersBox">
+                  <strong>Why it matters:</strong>
+                  <p>
+                    More than 40% of users now interact with AI search before
+                    they ever click a website link. If your brand is not part of
+                    the AI's answer, it is invisible to those buyers.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="nextGenSeoCard h-100">
+                <div className="nextGenSeoNumber">02</div>
+
+                <h4 className="small_heading  fontWeight600 mb-2 ">
+                  AEO <span>(Answer Engine Optimization)</span>
+                </h4>
+
+                <p>
+                  AEO is the strategy of structuring your content so it can be
+                  directly used as an answer by AI assistants, voice search, and
+                  featured snippets. AEO works around clear questions, concise
+                  answers, schema markup, and structured information that
+                  machines can quickly understand, trust, and quote.
+                </p>
+
+                <div className="whyMattersBox">
+                  <strong>Why it matters:</strong>
+                  <p>
+                    Voice search, smart speakers, and AI chatbots are now common
+                    entry points for buyers. Brands optimized for AEO get cited
+                    as the answer. Brands that ignore AEO get skipped
+                    completely.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="nextGenSeoCard h-100">
+                <div className="nextGenSeoNumber">03</div>
+
+                <h4 className="small_heading  fontWeight600 mb-2 ">
+                  GEO <span>(Generative Engine Optimization)</span>
+                </h4>
+
+                <p>
+                  GEO is the newest layer of SEO. It focuses on helping your
+                  brand show up inside AI-generated answers from ChatGPT,
+                  Gemini, Perplexity, Claude, and Google AI Overviews. GEO uses
+                  citation-friendly content, authoritative sources, structured
+                  formats, and entity-rich writing to make sure AI models
+                  reference your brand when answering buyer questions.
+                </p>
+
+                <div className="whyMattersBox">
+                  <strong>Why it matters:</strong>
+                  <p>
+                    When a buyer asks AI tools "Which is the best SEO company in
+                    Mumbai?" or "Top digital marketing agencies in India", GEO
+                    is what decides whether your name shows up or your
+                    competitor's does.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="containerFull">
+          <div className="row align-items-center">
+            <div className="col-lg-6 ">
+              <h3 className="heading fontWeight600">
+                Why Mumbai Businesses Cannot{" "}
+                <span className="text_red">Ignore This Shift</span>
+              </h3>
+
+              <p className="customText mt-3">
+                Mumbai is one of the most competitive search markets in India.
+                Every industry has dozens of established players already running
+                aggressive SEO. To stand out today, you need more than keywords
+                and backlinks. You need a brand that is visible everywhere your
+                customers are looking. From Google search to AI Overviews. From
+                voice assistants to chatbots. From AI search engines to
+                traditional listings.
+              </p>
+
+              <p className="customText">
+                At SIB Infotech, we have built a custom AI SEO framework that
+                blends traditional SEO with AEO and GEO strategies. We help
+                Mumbai businesses get found across every modern search surface,
+                today and tomorrow.
+              </p>
+
+              <p className="customText">
+                The brands that adapt now will dominate the next decade. The
+                ones that wait will struggle to be found at all.
+              </p>
+            </div>
+
+            <div className="col-lg-6 mt-2 mt-lg-0 ps-lg-5 ">
+              <img
+                className="image-full rounded"
+                src="assets/images/google-ads/why-mumbai-shift-strategy.jpg"
+                alt="Mumbai businesses AI SEO framework"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className=" bgGrey2">
+        <div className="containerFull">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <h2 className="heading fontWeight600  text-center mb-2">
+                SEO Plans Built for Every{" "}
+                <span className="text_red">Business Size, Budget & Stage</span>
+              </h2>
+              <p className="customText text-center">
+                Not every business needs the same SEO. A local Mumbai bakery
+                does not have the same needs as a global SaaS brand. That is why
+                we offer tailored SEO solutions based on your size, your goals,
+                and your budget.
+              </p>
+            </div>
+          </div>
+
+          <div className="row g-4 mt-3">
+            <div className="col-lg-6">
+              <div className="off-page-seo-box2">
+                <div className="img-circle">
+                  <img
+                    src="assets/images/icons/on-page-seo-content123.svg"
+                    alt="Small Business SEO Services"
+                  />
+                </div>
+
+                <h4 className="small_heading  fontWeight600 mb-2">
+                  Small Business SEO Services
+                </h4>
+
+                <p className="customText">
+                  If you run a startup, local shop, or solo business, you don't
+                  need enterprise-level SEO. You need quick wins, smart
+                  strategy, and a plan that drives real customers without
+                  breaking your budget. Our small business seo services are
+                  built exactly for this. We focus on local visibility, Google
+                  Business Profile optimization, low-competition keywords, and
+                  conversion-focused content so you start seeing leads within
+                  months, not years.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="off-page-seo-box2">
+                <div className="img-circle">
+                  <img
+                    src="assets/images/icons/on-page-seo-title.png"
+                    alt="Enterprise & Corporate SEO"
+                  />
+                </div>
+
+                <h4 className="small_heading  fontWeight600 mb-2">
+                  Enterprise & Corporate SEO
+                </h4>
+
+                <p className="customText">
+                  For multi-location brands, large e-commerce stores, and
+                  corporate websites with thousands of pages, we offer
+                  enterprise SEO that handles scale. This includes deep site
+                  architecture audits, advanced schema, multi-region targeting,
+                  content cluster strategies, and dedicated account management.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="off-page-seo-box2">
+                <div className="img-circle">
+                  <img
+                    src="assets/images/icons/off-page-seo-link-building.svg"
+                    alt="White Label SEO Services"
+                  />
+                </div>
+
+                <h4 className="small_heading  fontWeight600 mb-2">
+                  White Label SEO Services
+                </h4>
+
+                <p className="customText">
+                  If you run a marketing agency or web design firm and want to
+                  offer SEO to your clients without building an in-house team,
+                  our white label seo services are designed for you. We handle
+                  the strategy, execution, and reporting. You deliver it under
+                  your brand. NDA backed, fully managed, and scalable.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="off-page-seo-box2">
+                <div className="img-circle">
+                  <img
+                    src="assets/images/icons/off-page-seo-brand-mention.svg"
+                    alt="Affordable SEO Packages for Indian SMEs"
+                  />
+                </div>
+
+                <h4 className="small_heading  fontWeight600 mb-2">
+                  Affordable SEO Packages for Indian SMEs
+                </h4>
+
+                <p className="customText">
+                  We believe great SEO should not break your budget. As an
+                  affordable seo company india businesses trust, we offer
+                  transparent pricing, monthly flexibility, and zero hidden
+                  fees. Our packages start small and scale with your growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <SIBPower
-        title="We Are SEO  "
-        subtitle="Experts in India "
-        description="We are more than just a SEO Company"
-        title_right={`Why Choose SIB Infotech As Your SEO Service Provider in India?`}
-        description_right="At SIB Infotech, we don’t just rank websites, we drive sustainable digital growth. Our focus is on increasing visibility, boosting conversions and maximizing your ROI. Whether its real estate SEO, healthcare SEO, education SEO, or technology-based SEO, we bring industry-specific expertise to every project and understand your business requirements, address its challenges and draft targeted SEO solutions that drive measurable results"
+        title="Why Brands Choose Us as Their  "
+        subtitle="SEO Services Company in Mumbai "
+        description_right="There are hundreds of agencies in Mumbai offering SEO. So why do brands across India and 40+ countries choose SIB Infotech as their long-term growth partner? Here is what makes us different:"
         // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
       />
-      <BrandBuild
-        image={`/assets/images/phone-seo-local-squares.png`}
-        title={brandContent[0].title}
-        subtitle={brandContent[0].subtitle}
-        description={brandContent[0].description}
-        faqData={brandContent[0].faqData}
+
+      <Partnership
+        agencyWorkflow={agencyWorkflow}
+        title={"Our Proven 6-Step SEO Process"}
+        rightDiscription={`SEO is not magic. It is a process. Here is exactly how we deliver results for every client. Every successful SEO campaign starts with understanding the business, researching the right keywords, analyzing competitors, and identifying technical issues that may be blocking growth.`}
+        // tagline={'Seamless, Scalable, and Results-Driven'}
       />
+      <PartnerBadges />
+      <section className=" bgGrey">
+        <div className="containerFull">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 text-center">
+              <h2 className="heading fontWeight600 ">
+                How Are Our SEO Services Better Than Others{" "}
+                <span className="text_red">In Mumbai?</span>
+              </h2>
+
+              <p className="customText mt-3">
+                Most SEO agencies in Mumbai follow the same playbook. We do not.
+                Here is a clear, side-by-side breakdown of what makes SIB
+                Infotech genuinely different.
+              </p>
+            </div>
+          </div>
+
+          <div className="row mt-3">
+            <div className="col-12">
+              <div className="table-responsive  rounded">
+                <table className="table table-bordered table-striped align-middle mb-0 bg-white seoComparisonTable">
+                  <colgroup>
+                    <col className="seoComparisonColPoint" />
+                    <col className="seoComparisonColAgency" />
+                    <col className="seoComparisonColSib" />
+                  </colgroup>
+
+                  <thead>
+                    <tr>
+                      <th className="bgRedMenu text-white p-4">
+                        Comparison Point
+                      </th>
+                      <th className="bgRedMenu text-white p-4">
+                        Most Mumbai SEO Agencies
+                      </th>
+                      <th className="bgRedMenu text-white p-4">SIB Infotech</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td className="p-4">Search Coverage</td>
+                      <td className="p-4">
+                        Focus only on Google rankings. Ignore AI search engines
+                        completely. Miss the new wave of buyer queries happening
+                        on ChatGPT, Gemini, and Perplexity.
+                      </td>
+                      <td className="p-4">
+                        We optimize your brand across Google, ChatGPT, Gemini,
+                        Perplexity, Claude, and AI Overviews. Get found wherever
+                        your customers are actually searching. Future-proof your
+                        visibility today.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">AI Usage</td>
+                      <td className="p-4">
+                        Mass-produce thin, low-quality AI content. Repetitive
+                        blogs that all sound the same. Google spots and
+                        penalizes this fast.
+                      </td>
+                      <td className="p-4">
+                        AI helps us research and plan smarter. Real humans
+                        write, review, and refine every piece of content. The
+                        result reads like a person and ranks like a pro.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Reporting Style</td>
+                      <td className="p-4">
+                        Reports filled with jargon and confusing metrics. Hard
+                        to figure out what is actually happening. Most clients
+                        nod along without truly understanding.
+                      </td>
+                      <td className="p-4">
+                        Plain English reports with clear progress markers. Every
+                        metric explained in business terms. You know exactly
+                        what your money is doing every single month.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Success Focus</td>
+                      <td className="p-4">
+                        Celebrate vanity rankings and impressions. Show keyword
+                        graphs that don't tie to revenue. No real link between
+                        rankings and business outcomes.
+                      </td>
+                      <td className="p-4">
+                        We track leads, conversions, and revenue alongside
+                        rankings. Every SEO effort is connected to your bottom
+                        line. Rankings only matter when they bring real
+                        customers.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Account Support</td>
+                      <td className="p-4">
+                        Route you through ticket systems or overseas teams. Long
+                        response times and slow communication. No real
+                        understanding of your business.
+                      </td>
+                      <td className="p-4">
+                        Dedicated India-based account manager assigned only to
+                        you. Available on call, WhatsApp, and email. Knows your
+                        industry, goals, and brand inside out.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Certifications</td>
+                      <td className="p-4">
+                        Few or no official certifications. Limited access to
+                        platform tools and beta features. Strategies often run
+                        on outdated information.
+                      </td>
+                      <td className="p-4">
+                        Google Premier Partner &#40;Top 3% in India&#41;, Meta
+                        Business Partner, Shopify Partner, and Microsoft
+                        Advertising Partner. Direct access to betas, tools, and
+                        consumer insights.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Industry Experience</td>
+                      <td className="p-4">
+                        Around 5 to 10 years in the market. Limited exposure to
+                        major algorithm shifts. Less depth in handling complex
+                        SEO challenges.
+                      </td>
+                      <td className="p-4">
+                        20+ years of real-world SEO experience. Adapted through
+                        every major Google update since 2005. Battle-tested
+                        strategies that consistently deliver.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Strategy Approach</td>
+                      <td className="p-4">
+                        One-size-fits-all SEO templates. The same plan applied
+                        across industries. Results vary because the strategy
+                        doesn't fit your business.
+                      </td>
+                      <td className="p-4">
+                        Custom SEO strategy built around your industry,
+                        audience, and business goals. Research-led keyword and
+                        content planning. Designed to compound month over month.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Tools & Tech</td>
+                      <td className="p-4">
+                        Free or basic SEO tools with limited data. Incomplete
+                        view of competitors and rankings. Decisions made with
+                        half the picture.
+                      </td>
+                      <td className="p-4">
+                        Premium platforms like Ahrefs, SEMrush, Screaming Frog,
+                        Surfer SEO, and a custom AI SEO framework. Complete view
+                        of your performance. Smarter decisions, faster wins.
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="p-4">Global Reach</td>
+                      <td className="p-4">
+                        Serve only Indian clients. Limited understanding of
+                        international search behavior. Hard to scale strategies
+                        for export-led or global brands.
+                      </td>
+                      <td className="p-4">
+                        1000+ brands ranked across 40+ countries. Deep
+                        experience in India, USA, UK, UAE, Canada, Australia,
+                        and beyond. Built for businesses ready to go global.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
-      <Partnership
-        batchtitle={"Our Approach"}
-        agencyWorkflow={agencyWorkflow}
-        title={"Complete SEO Process"}
-        subtitle={"Explained Step-by-Step to Rank you on Top"}
-        rightTitle={`How Does SEO Work? `}
-        rightDiscription={`Search Engine Optimization (SEO) is the process of enhancing your website's visibility on search engines like Google. By optimizing various elements of your site, SEO helps search engines understand your content better, making it more likely to appear in relevant search results. This increased visibility can drive more organic traffic to your site, leading to higher engagement and conversions. `}
-        // tagline={'Seamless, Scalable, and Results-Driven'}
-      />
+
+      <section className="bgGrey2">
+        <div className="containerFull">
+          <div className="row">
+            <div className="col-lg-10 mx-auto text-center">
+              <h2 className="heading fontWeight600 mt-4">
+                Industries Where We Deliver SEO Success
+              </h2>
+
+              <p className="customText mt-3">
+                Search behavior changes from one industry to another. A real
+                estate buyer searches differently from a SaaS founder. A patient
+                looking for a clinic searches differently from a shopper
+                browsing skincare. That is why our SEO strategies are never
+                copy-paste. Over the past 20 years, we have helped brands rank
+                higher across nearly every industry. Here are the sectors we
+                serve.
+              </p>
+            </div>
+          </div>
+
+          <div className="row mt-5">
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/ecommerce-seo.png"
+                  alt="E-commerce and D2C Brands"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  E-commerce and D2C Brands
+                </h3>
+                <p>
+                  We optimize product pages, category structures, schema markup,
+                  and conversion-focused funnels so your products get
+                  discovered, ranked, and purchased.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/healthcare-seo.png"
+                  alt="Healthcare and Pharma"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Healthcare and Pharma
+                </h3>
+                <p>
+                  From local SEO for clinics to authority-led content for
+                  hospitals, we help medical brands build trust, attract
+                  patients, and stay compliant with healthcare advertising
+                  guidelines.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/real-estate-seo.png"
+                  alt="Real Estate and Construction"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Real Estate and Construction
+                </h3>
+                <p>
+                  High-intent buyer leads, project page optimization,
+                  location-based ranking, and local search dominance for
+                  builders, brokers, and developers.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/education-seo.png"
+                  alt="Education and EdTech"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Education and EdTech
+                </h3>
+                <p>
+                  Student enrollment campaigns, course page rankings, and a
+                  smart blend of paid and organic strategies that help
+                  institutions and edtech platforms grow.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/finance-seo.png"
+                  alt="Finance and Banking"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Finance and Banking
+                </h3>
+                <p>
+                  Trust-led content for NBFCs, fintech firms, and advisory
+                  platforms, paired with compliance-friendly SEO that builds
+                  credibility and conversions.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/travel-seo.png"
+                  alt="Travel and Hospitality"
+                />
+                <h3 className="small_heading fontWeight600 mb-3">
+                  Travel and Hospitality
+                </h3>
+                <p>
+                  Booking-intent SEO for hotels, resorts, travel agencies, and
+                  tour operators. We help your business show up the moment a
+                  traveler is ready to book.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/it-saas-seo.png"
+                  alt="IT and SaaS"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  IT and SaaS
+                </h3>
+                <p>
+                  Lead-generating content, thought leadership, and SEO that
+                  drives qualified leads for software companies, SaaS platforms,
+                  and IT consultants.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/manufacturing-seo.png"
+                  alt="Manufacturing and B2B"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Manufacturing and B2B
+                </h3>
+                <p>
+                  Niche keyword targeting, lead-driven content, technical
+                  product page optimization, and global market expansion
+                  strategies for export-oriented businesses.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/legal-seo.png"
+                  alt="Legal and Consultancy"
+                />
+                <h3 className="small_heading fontWeight600 mb-3">
+                  Legal and Consultancy
+                </h3>
+                <p>
+                  Local visibility for law firms, expertise-led content for
+                  consultants, and ranking strategies for branded and
+                  high-intent service queries.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/beauty-fashion-seo.png"
+                  alt="Beauty, Fashion and Lifestyle"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Beauty, Fashion and Lifestyle
+                </h3>
+                <p>
+                  Influencer-led SEO, visual content optimization, and
+                  trend-driven keyword targeting to grow brand awareness,
+                  audience, and sales.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/ngo-seo.png"
+                  alt="NGOs and Non-Profits"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  NGOs and Non-Profits
+                </h3>
+                <p>
+                  Awareness-led SEO, donor-focused content, and outreach
+                  campaigns that help non-profits get discovered and supported.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="industrySeoCard h-100">
+                <img
+                  src="/assets/images/seo/real-estate-seo.png"
+                  alt="Home Services"
+                />
+                <h3 className="small_heading fontWeight600  mb-3">
+                  Home Services
+                </h3>
+                <p>
+                  Plumbers, electricians, cleaning services, interior designers,
+                  and more. We help service-based businesses rank locally and
+                  bring in steady inquiries.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="industrySeoCard industrySeoWideCard text-center">
+                <img
+                  src="/assets/images/seo/niche-sector-seo.png"
+                  alt="Telecom, Matrimony, and Niche Sectors"
+                />
+                <h3 className="small_heading fontWeight600 mb-3">
+                  Telecom, Matrimony, and Niche Sectors
+                </h3>
+                <p>
+                  We have built SEO strategies for telecom companies,
+                  matrimonial platforms, and other unique business models that
+                  need specialized search visibility.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* <OurAproach /> */}
       {/* <SeoProcess /> */}
       <SpecialisedServices />
-      <OutsourcingServices />
 
-      <PartnerBadges />
       <CaseStudy2
         description={`Client Success Stories That Prove
- We’re a Top SEO Company in India,our SEO results speak for themselves`}
+           We’re a Top SEO Company in India,our SEO results speak for themselves`}
       />
-      <OurClients title={`India’s Trusted
+      <OurClients
+        title={`India’s Trusted
           <span class="fontWeight600">SEO Experts</span>
-          Behind <span class="fontWeight600">Fast-Growing Brands</span>`} />
+          Behind <span class="fontWeight600">Fast-Growing Brands</span>`}
+      />
       <Testimonials
         title={testimonial_data[0].title}
         description={testimonial_data[0].description}
@@ -689,7 +1308,7 @@ AI-Driven SEO Strategy `,
       <Conversions />
       <Featured />
       <div className="toolsHome">
-      {/* Some of the Top SEO Tools for Auditing & Monitoring Effective SEO are used by us */}
+        {/* Some of the Top SEO Tools for Auditing & Monitoring Effective SEO are used by us */}
         <Tools
           title={`Some of the 
             <span class="fontWeight600">
@@ -717,18 +1336,21 @@ AI-Driven SEO Strategy `,
         description2="Whether you are a startup or an enterprise, we offer industry-focused SEO services that help you increase visibility, improve ROI, and scale your business efficiently."
       />
 
-      <Pricing batchtitle={`SEO Pricing Plans`} heading={`360° <span class="fontWeight600">SEO</span>
-          Solutions`} description={`  Our SEO Packages starts from <strong>$250</strong> only.`} />
+      <Pricing
+        batchtitle={`SEO Pricing Plans`}
+        heading={`360° <span class="fontWeight600">SEO</span>
+          Solutions`}
+        description={`  Our SEO Packages starts from <strong>$250</strong> only.`}
+      />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
       <Faq
-      
-       title={`<span class="text-black">Frequently Asked</span> Search Engine Optimization <span class="text-black">Question?</span>`}
-      // description={faqDiscription}
-      faqsData={faqsData}
+        title={`<span class="text-black">Frequently Asked</span> Search Engine Optimization <span class="text-black">Question?</span>`}
+        // description={faqDiscription}
+        faqsData={faqsData}
       />
 
       <SeoAudit />

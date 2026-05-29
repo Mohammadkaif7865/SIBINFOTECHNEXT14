@@ -11,28 +11,22 @@ const HeroGoogleAds = () => {
           <div className="row">
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
-                <h1 className="heading fontWeight700 text-white fontHeading">
-                  Google Ads Management Services in India
+                <h1 className="heading fontWeight600 text-white ">
+                  Stop Wasting Ad Budget. Get Profitable Campaigns with Expert <span class="text_red fontWeight700">Google Ads Management Services in India </span> 
+
                 </h1>
-                <h2 className="small_heading fontWeight600 mt-lg-3 mt-2 text-white ">
-                  Accelerate Your Business Growth with the 
+                <h2 className="small_heading fontWeight600 mt-lg-2 mt-2 text-white ">
+                  India's Trusted Google Ads Agency | Google Premier Partner
                 </h2>{" "}
-                <p
-                  className="small_heading  mt-2  mt-lg-3 text-white "
-                  style={{
-                    maxWidth: "80%",
-                  }}
-                >
-                  #1 Google Ads Management Company
-                </p>
+               
                 <p className="text-white mt-2 title">
-                  Drive More Traffic. Generate Quality Leads. Maximize ROI.
+                  Partner with the result-driven Google Ads management agency in India that helps businesses lower CPC, attract qualified leads, and turn every rupee of ad spend into real revenue. Backed by 18+ years of expertise, Google Premier Partner status, and 850+ brands grown across 40+ countries.
                 </p>
                 <div className="mt-4">
                   <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
-                    </span>
+                     </span>
                   </Link>
                   <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">

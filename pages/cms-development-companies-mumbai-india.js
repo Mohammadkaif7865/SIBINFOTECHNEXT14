@@ -2,7 +2,7 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
-import Breadcrumb from "@/comps/BreadCrumb"
+import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CmsDevelopmentCompaniesMumbai() {
   const metaTags = (
@@ -52,7 +52,177 @@ export default function CmsDevelopmentCompaniesMumbai() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.jpg"
       />
-      <BreadcrumbSchema
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "CMS Development Services",
+            name: "CMS Development Company in Mumbai, India",
+            alternateName: "Custom CMS Website Development Services",
+            description:
+              "SIB Infotech is a leading CMS development company in Mumbai, India offering custom CMS development, enterprise CMS solutions, content management systems, CMS website design, and scalable web portal development services. Our CMS developers build SEO-friendly, responsive, secure, and easy-to-manage content management solutions tailored to business requirements.",
+            url: "https://www.sibinfotech.com/cms-development-companies-mumbai-india/",
+            image:
+              "https://www.sibinfotech.com/assets/images/cms-development-company.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "CMS Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom CMS Development",
+                    description:
+                      "Tailor-made CMS development solutions designed according to business requirements.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Enterprise CMS Solutions",
+                    description:
+                      "Scalable enterprise-level content management systems for business websites and portals.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "CMS Website Development",
+                    description:
+                      "Responsive and SEO-friendly CMS website development services for businesses.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "CMS Portal Development",
+                    description:
+                      "Custom CMS portal and web application development for content management and workflow automation.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "CMS Maintenance & Support",
+                    description:
+                      "Ongoing CMS maintenance, upgrades, security updates, and technical support services.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Custom Content Management System",
+              "SEO-Friendly CMS Websites",
+              "Responsive CMS Platforms",
+              "Secure Web Content Management",
+              "Easy Website Content Updates",
+              "Scalable CMS Architecture",
+              "Enterprise Web Portals",
+              "Improved Website Performance",
+              "User-Friendly Admin Dashboard",
+              "Business Workflow Automation",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/cms-development-companies-mumbai-india/",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "CMS Development Companies Mumbai India",
+                item: "https://www.sibinfotech.com/cms-development-companies-mumbai-india",
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/cms-development-companies-mumbai-india"
         breadcrumbTitle="CMS Development Companies in Mumbai, India | SIB Infotech"
         PageRatingSchema
@@ -60,7 +230,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
           "Discover leading CMS development companies in Mumbai. SIB Infotech offers tailored CMS solutions for seamless content management and website performance."
         }
         reviewCount={"5168"}
-      />
+      /> */}
     </>
   );
   return (
@@ -109,11 +279,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb
-          Pagetitle={
-            "CMS Development Companies"
-          }
-        />
+        <Breadcrumb Pagetitle={"CMS Development Companies"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -131,11 +297,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb
-          Pagetitle={
-            "CMS Development Companies"
-          }
-        />
+        <Breadcrumb Pagetitle={"CMS Development Companies"} />
       </div>
       <section>
         <div className="containerFull">

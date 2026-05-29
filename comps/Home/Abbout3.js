@@ -31,7 +31,7 @@ const Abbout3 = (about3Data) => {
                 src={image1.src}
                 alt=""
                 className="img-fluid img-about-3-1 shadow"
-                width={370}
+                width={400}
                 height={500}
               />
               <Image
@@ -48,11 +48,11 @@ const Abbout3 = (about3Data) => {
               {mainHeading}
             </p>
             <h2
-              className="mt-4 fontHeading2 large_heading2 fontWeight600"
+              className="  large_heading2 fontWeight600"
               dangerouslySetInnerHTML={{ __html: subHeading }}
             />
             <div className="about3_text_box_main">
-              <div className="about3_text_box mt-2 mt-lg-5">
+              <div className="about3_text_box mt-2 mt-lg-4">
                 {contentParagraphs.map((para, idx) => (
                   <p
                     key={idx}
