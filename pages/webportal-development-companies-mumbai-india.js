@@ -53,15 +53,161 @@ web portal development services,web portal development service,offshore web port
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/webportal-development-companies-mumbai-india.jpg"
       />
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/webportal-development-companies-mumbai-india"
-        breadcrumbTitle="Web Portal Development Company Mumbai, India | SIB Infotech"
-        PageRatingSchema
-        description={
-          "Build custom web portals in Mumbai with SIB Infotech. Professional portal development services for B2B, B2C, and enterprise solutions tailored to your needs."
-        }
-        reviewCount={"5301"}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            name: "Web Portal Development Services",
+            url: "https://www.sibinfotech.com/webportal-development-companies-mumbai-india",
+            description:
+              "SIB Infotech offers custom web portal development services in Mumbai, India including B2B portals, B2C portals, ecommerce portals, SharePoint portals, knowledge management portals, job portals, and enterprise web portal solutions for businesses worldwide.",
+            serviceType: "Web Portal Development",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
+              },
+              telephone: "+91-9222260000",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                addressLocality: "Mumbai",
+                addressRegion: "Maharashtra",
+                postalCode: "400064",
+                addressCountry: "IN",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+            ],
+
+            availableChannel: {
+              "@type": "ServiceChannel",
+              serviceUrl:
+                "https://www.sibinfotech.com/webportal-development-companies-mumbai-india",
+            },
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Web Portal Development Solutions",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "B2B Portal Development",
+                    description:
+                      "Custom Business to Business web portals designed for seamless partner and vendor collaboration.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "B2C Portal Development",
+                    description:
+                      "Customer-facing Business to Consumer portals with intuitive UI and secure user management.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "E-Commerce Portal Development",
+                    description:
+                      "Feature-rich e-commerce portals with product catalogues, shopping carts, secure payment processing, and order management.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "SharePoint Portal Development",
+                    description:
+                      "Enterprise SharePoint portal development for document management, collaboration, and business process automation.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Knowledge Management Portal",
+                    description:
+                      "Centralised knowledge management portals for document storage, data repositories, integrated search, and digital media distribution.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Job Portal Development",
+                    description:
+                      "Custom job portals with user registration, job listing management, application tracking, and employer dashboards.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Service Portal Development",
+                    description:
+                      "Scalable service portals with secure login, content management, user profiling, and business process automation.",
+                  },
+                },
+              ],
+            },
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/webportal-development-companies-mumbai-india",
+            },
+          }),
+        }}
       />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Web Development Services",
+                item: "https://www.sibinfotech.com/website-development-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Web Portal Development Services",
+                item: "https://www.sibinfotech.com/webportal-development-companies-mumbai-india/",
+              },
+            ],
+          }),
+        }}
+      />
+
     </>
   );
   return (

@@ -4,7 +4,7 @@ import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
-import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+// import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import Breadcrumb from "@/comps/BreadCrumb";
 
 export default function CustomCalculatorDevelopmentServices() {
@@ -56,116 +56,159 @@ export default function CustomCalculatorDevelopmentServices() {
         content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg"
       />
 
+    
       <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "@id": "https://www.sibinfotech.com/custom-calculator-development-services#service",
-          "name": "Custom Calculator Development Services",
-          "url": "https://www.sibinfotech.com/custom-calculator-development-services",
-          "description": "Professional custom calculator development services in Mumbai, India. We build tailor-made web calculators for your business needs.",
-          "provider": {
-            "@id": "https://www.sibinfotech.com/#organization"
-          },
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "serviceType": "Custom Calculator Development Services"
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://www.sibinfotech.com/#organization",
-          "name": "SIB Infotech",
-          "url": "https://www.sibinfotech.com",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.sibinfotech.com/assets/images/logo.webp"
-          },
-          "telephone": "+91-92222-60000",
-          "email": "info@sibinfotech.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
-            "addressLocality": "Mumbai",
-            "addressRegion": "Maharashtra",
-            "postalCode": "400064",
-            "addressCountry": "IN"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "99",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "sameAs": [
-            "https://www.facebook.com/sibinfotech",
-            "https://www.linkedin.com/company/sibinfotech",
-            "https://twitter.com/sibinfotech"
-          ]
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://www.sibinfotech.com/custom-calculator-development-services#webpage",
-          "url": "https://www.sibinfotech.com/custom-calculator-development-services",
-          "name": "Custom Calculator Development Services | SIB Infotech",
-          "isPartOf": {
-            "@id": "https://www.sibinfotech.com/#website"
-          },
-          "breadcrumb": {
-            "@id": "https://www.sibinfotech.com/custom-calculator-development-services#breadcrumb"
-          }
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.sibinfotech.com/#website",
-          "url": "https://www.sibinfotech.com",
-          "name": "SIB Infotech",
-          "publisher": {
-            "@id": "https://www.sibinfotech.com/#organization"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://www.sibinfotech.com/custom-calculator-development-services#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.sibinfotech.com"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Custom Calculator Development",
+            name: "Custom Calculator Development Services",
+            alternateName:
+              "Top Rated Custom Calculator Development Company in India",
+            description:
+              "SIB Infotech is India's #1 custom calculator development company in Mumbai, offering custom-designed, interactive, and mobile-friendly calculators for websites and applications. From simple calculators to highly complex financial calculators, we build flexible, SSL-secured, 100% platform-compatible web calculators that boost engagement, lead generation, conversions, and SEO rankings.",
+            url: "https://www.sibinfotech.com/custom-calculator-development-services",
+            image:
+              "https://www.sibinfotech.com/assets/images/calt-develoment-company.png",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
             },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Web Development",
-              "item": "https://www.sibinfotech.com/website-development-services"
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Custom Calculator Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Automotive Calculators",
+                    description:
+                      "Custom calculators designed for the automotive sector including taxi booking price calculators, mileage calculators, and fare estimation tools.",
+                  },
+                },
+              ],
             },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Custom Calculator Development Services",
-              "item": "https://www.sibinfotech.com/custom-calculator-development-services"
-            }
-          ]
-        }
-      ]
-    })
-  }}
-/>
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/corporate-branding-service-mumbai-india"
-        breadcrumbTitle="Custom Calculator Development Services in Mumbai, India"
-        PageRatingSchema
-        description={
-          "Get expert custom calculator development services in Mumbai tailored to your business needs. Enhance user experience with custom solutions by SIB Infotech."
-        }
-        reviewCount={"5175"}
+
+            serviceOutput: [
+              "100% Mobile-Friendly Custom Calculator",
+              "SSL-Secured Data Collection",
+              "Fast and High-Performance Calculator",
+              "Highly Flexible and Feature-Rich Estimator",
+              "Attractive Custom Design with Personalized Colors and Themes",
+              "100% Platform Compatible — Embeddable on Any Website or App",
+              "Lead Generation via Email Results",
+              "Improved SEO Rankings",
+              "Multi-Purpose Online Estimator",
+              "100% Customer Satisfaction",
+              "Ready-to-Embed Calculator with Minimal Embedding Effort",
+            ],
+
+            termsOfService:
+              "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/custom-calculator-development-services",
+            },
+          }),
+        }}
+      />
+
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Software Development Services",
+                item: "https://www.sibinfotech.com/software-development-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Custom Calculator Development Services",
+                item:
+                  "https://www.sibinfotech.com/custom-calculator-development-services",
+              },
+            ],
+          }),
+        }}
       />
     </>
   );

@@ -53,7 +53,178 @@ export default function SoftwareDevelopementServices() {
         content="https://www.sibinfotech.com/assets/og/software-development-services.jpg
 "
       />
-      <BreadcrumbSchema
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Software Development Services",
+            name: "Software Development Company in India",
+            alternateName: "Custom Software Development Services",
+            description:
+              "SIB Infotech is a leading software development company in India offering custom software development, enterprise software solutions, CRM development, ERP software, web-based software applications, and scalable business automation solutions. Our software development services help businesses improve operational efficiency, workflow automation, customer management, and digital transformation.",
+            url: "https://www.sibinfotech.com/software-development-services/",
+            image:
+              "https://www.sibinfotech.com/assets/images/software-development-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/assets/images/logo.webp",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "UAE" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Software Development Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Software Development",
+                    description:
+                      "Tailor-made software solutions designed according to specific business requirements.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "ERP Software Development",
+                    description:
+                      "Enterprise resource planning software solutions for workflow and operational management.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "CRM Software Development",
+                    description:
+                      "Customer relationship management software for sales, marketing, and customer support automation.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Web-Based Software Applications",
+                    description:
+                      "Scalable and secure web application development services for businesses.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Business Automation Solutions",
+                    description:
+                      "Software automation services to improve productivity and streamline business operations.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Custom Business Software",
+              "Workflow Automation Solutions",
+              "Enterprise Software Applications",
+              "Secure Web-Based Platforms",
+              "Improved Business Productivity",
+              "Scalable Software Architecture",
+              "CRM & ERP Solutions",
+              "Real-Time Data Management",
+              "Cloud-Based Software Integration",
+              "Digital Transformation Support",
+            ],
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/software-development-services/",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Software Development Services",
+                item: "https://www.sibinfotech.com/software-development-services/",
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/software-development-services"
         breadcrumbTitle="Top Software Development Services Company in Mumbai, India"
         PageRatingSchema
@@ -61,7 +232,7 @@ export default function SoftwareDevelopementServices() {
           "SIB Infotech offers comprehensive software development services in Mumbai, India. We specialize in custom-built, scalable, and secure software solutions."
         }
         reviewCount={"5291"}
-      />
+      /> */}
     </>
   );
   const faqsData = [

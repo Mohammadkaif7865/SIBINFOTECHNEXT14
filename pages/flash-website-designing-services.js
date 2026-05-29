@@ -54,42 +54,42 @@ export default function FlashWebsiteDesigningServices() {
       <meta
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
-      />
+      />  
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Service",
-                "@id":
-                  "https://www.sibinfotech.com/flash-website-designing-services#service",
-                name: "Flash Website Designing Services",
-                url: "https://www.sibinfotech.com/flash-website-designing-services",
-                description:
-                  "Creative Flash website designing services by SIB Infotech in Mumbai. We create visually engaging animated websites for your business.",
-                provider: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-                areaServed: {
-                  "@type": "Country",
-                  name: "India",
-                },
-                serviceType: "Flash Website Designing Services",
+            "@type": "Service",
+            serviceType: "Flash Website Designing",
+            name: "Flash Website Designing Services",
+            alternateName: "Top Rated Flash Website Designing Company in India",
+            description:
+              "SIB Infotech is a renowned Flash development company in Mumbai, India offering unique Flash website designs complete with Flash banners, animated introductions, interactive user interfaces, and multimedia presentations. Our Flash development services help businesses attract visitors through eye-catching animations, sound, dynamic web pages, and interactive movies — creating a lasting impression on end-users and driving continuous leads and high revenue.",
+            url: "https://www.sibinfotech.com/flash-website-designing-services",
+            image:
+              "https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
               },
-              {
-                "@type": "Organization",
-                "@id": "https://www.sibinfotech.com/#organization",
-                name: "SIB Infotech",
-                url: "https://www.sibinfotech.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
-                },
-                telephone: "+91-92222-60000",
-                email: "info@sibinfotech.com",
-                address: {
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
                   "@type": "PostalAddress",
                   streetAddress:
                     "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
@@ -98,73 +98,172 @@ export default function FlashWebsiteDesigningServices() {
                   postalCode: "400064",
                   addressCountry: "IN",
                 },
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
                 },
-                sameAs: [
-                  "https://www.facebook.com/sibinfotech",
-                  "https://www.linkedin.com/company/sibinfotech",
-                  "https://twitter.com/sibinfotech",
-                ],
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "Portugal" },
+              { "@type": "Country", name: "Belgium" },
+              { "@type": "Country", name: "Netherlands" },
+              { "@type": "Country", name: "Turkey" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Flash Website Designing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Flash Website Design with Banners & Introduction",
+                    description:
+                      "Unique custom Flash website designs complete with eye-catching Flash banners and animated introductions that create a strong first impression on visitors.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Flash Movie Presentations",
+                    description:
+                      "Professional Flash movie presentations of a company's profile and its services to showcase the business in a visually compelling and engaging format.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Interactive Flash User Interface Design",
+                    description:
+                      "Development of interactive Flash user interfaces with enthralling user experiences that engage visitors and keep them on your website longer.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Flash Animation",
+                    description:
+                      "Customised Flash animations including text animations, 2D animations, video clip edits, and image effects tailored to your brand's unique requirements.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Complex Flash Development",
+                    description:
+                      "Capability to design and develop complex Flash structures as per specific business requirements, including scalable vector-based graphics without jagged edges.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Fast-Loading Flash Website Development",
+                    description:
+                      "Development of fast-loading browser Flash websites that provide a smooth and quick browsing experience for visitors across all supported web browsers.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Flash Web Application Development",
+                    description:
+                      "High-quality Flash scripting and development for web applications including online booking systems, vacation rentals, travel and tourism, matchmaking, and social networking sites.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Multimedia, 3D Animation & Flash Development",
+                    description:
+                      "Effective multimedia, 3D animation, and Flash development services using special audio and visual effects to enhance internet business presence and attract online customers.",
+                  },
+                },
+              ],
+            },
+
+            serviceOutput: [
+              "Dynamic and Interactive Flash Website",
+              "Eye-Catching Flash Animations and Banners",
+              "Flash Movie Presentation of Company Profile",
+              "Custom 2D Animations, Video Edits and Image Effects",
+              "Fast-Loading Browser-Compatible Flash Website",
+              "Flash Web Applications for Online Booking, Travel, Social Networking",
+              "Continuous Leads and High Revenue from Web Presence",
+              "Unique Flash Animations that Impress Without Distracting from Content",
+            ],
+
+            termsOfService: "https://www.sibinfotech.com/terms-and-conditions",
+
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://www.sibinfotech.com/flash-website-designing-services",
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
               },
               {
-                "@type": "WebPage",
-                "@id":
-                  "https://www.sibinfotech.com/flash-website-designing-services#webpage",
-                url: "https://www.sibinfotech.com/flash-website-designing-services",
-                name: "Flash Website Designing Services | SIB Infotech",
-                isPartOf: {
-                  "@id": "https://www.sibinfotech.com/#website",
-                },
-                breadcrumb: {
-                  "@id":
-                    "https://www.sibinfotech.com/flash-website-designing-services#breadcrumb",
-                },
+                "@type": "ListItem",
+                position: 2,
+                name: "Website Designing Services",
+                item: "https://www.sibinfotech.com/website-designing-services",
               },
               {
-                "@type": "WebSite",
-                "@id": "https://www.sibinfotech.com/#website",
-                url: "https://www.sibinfotech.com",
-                name: "SIB Infotech",
-                publisher: {
-                  "@id": "https://www.sibinfotech.com/#organization",
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                "@id":
-                  "https://www.sibinfotech.com/flash-website-designing-services#breadcrumb",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.sibinfotech.com",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "Website Designing",
-                    item: "https://www.sibinfotech.com/website-designing-services",
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: "Flash Website Designing Services",
-                    item: "https://www.sibinfotech.com/flash-website-designing-services",
-                  },
-                ],
+                "@type": "ListItem",
+                position: 3,
+                name: "Flash Website Designing Services",
+                item: "https://www.sibinfotech.com/flash-website-designing-services",
               },
             ],
           }),
         }}
       />
-
-      <BreadcrumbSchema
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-website-designing-services"
         breadcrumbTitle="Flash Website Designing Services Company in Mumbai, India"
         PageRatingSchema
@@ -172,7 +271,7 @@ export default function FlashWebsiteDesigningServices() {
           "Elevate your online presence with Flash website designing services by SIB Infotech. We create dynamic, interactive websites that captivate and engage visitors."
         }
         reviewCount={"5204"}
-      />
+      /> */}
     </>
   );
   return (

@@ -578,9 +578,9 @@ const Seo = () => {
               </p>
             </div>
           </div>
-          <div className="row mt-5">
+          <div className="row mt-4 mt-lg-5">
             <div className="col-lg-12">
-              <h3 className="fontWeight600 heading2 text-center mb-5">
+              <h3 className="fontWeight600 heading2 text-center mb-4 mb-lg-5">
                 The 3 Pillars of{" "}
                 <span className="text_red">Modern Search Visibility</span>
               </h3>

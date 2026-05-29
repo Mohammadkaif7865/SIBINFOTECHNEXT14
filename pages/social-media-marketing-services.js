@@ -49,15 +49,131 @@ export default function SocialMediaMarketingServices() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/social-media-marketing-services.jpg"
       />
-      <BreadcrumbSchema
-        url="https://www.sibinfotech.com/social-bookmarking-services"
-        breadcrumbTitle="Best Social Media Marketing Services in Mumbai, India"
-        PageRatingSchema
-        description={
-          "Elevate your brand awareness with SIB Infotech, India's best social media marketing agency in Mumbai. Contact us for a customized social media marketing plan!"
-        }
-        reviewCount={"5286"}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Social Media Marketing",
+            name: "Social Media Marketing Services",
+            alternateName: "Top Rated Social Media Marketing Company in India",
+            description:
+              "SIB Infotech is India's best Social Media Marketing (SMM) agency with offices in Mumbai and Delhi. We offer measurable, customised SMM campaigns covering Social Media Optimization, Influencer Marketing, Blogger Marketing, Reputation Management, Social Publishing, Paid Advertising, Facebook Marketing, Instagram Marketing, LinkedIn Marketing, Twitter Marketing, and Social Monitoring — all designed to boost brand awareness, drive website traffic, generate leads, and increase conversions.",
+            url: "https://www.sibinfotech.com/social-media-marketing-services",
+            image:
+              "https://www.sibinfotech.com/assets/og/social-media-marketing-services.jpg",
+
+            provider: {
+              "@type": "Organization",
+              name: "SIB Infotech",
+              url: "https://www.sibinfotech.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=3840&q=100",
+              },
+              foundingDate: "2005",
+              telephone: "+91-9222260000",
+
+              sameAs: [
+                "https://www.facebook.com/sibinfotech/",
+                "https://x.com/sibinfotech",
+                "https://www.linkedin.com/company/sib-infotech/",
+                "https://www.youtube.com/user/sibinfotech",
+              ],
+
+              address: [
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                  addressLocality: "Mumbai",
+                  addressRegion: "Maharashtra",
+                  postalCode: "400064",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  streetAddress:
+                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                  addressLocality: "New Delhi",
+                  addressRegion: "Delhi",
+                  postalCode: "110027",
+                  addressCountry: "IN",
+                },
+              ],
+
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "99",
+                bestRating: "5",
+                worstRating: "1",
+              },
+            },
+
+            areaServed: [
+              { "@type": "Country", name: "India" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "United Kingdom" },
+              { "@type": "Country", name: "Australia" },
+              { "@type": "Country", name: "Canada" },
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Singapore" },
+              { "@type": "Country", name: "New Zealand" },
+              { "@type": "Country", name: "Japan" },
+            ],
+
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Social Media Marketing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Social Media Optimization (SMO)",
+                    description:
+                      "Optimising social media profiles and posting strategies to grow organic reach, audience engagement, and brand visibility across platforms.",
+                    url: "https://www.sibinfotech.com/social-media-optimization-services",
+                  },
+                },
+              ],
+            },
+          }),
+        }}
       />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sibinfotech.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Digital Marketing Services",
+                item: "https://www.sibinfotech.com/digital-marketing-services",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Social Media Marketing Services",
+                item: "https://www.sibinfotech.com/social-media-marketing-services",
+              },
+            ],
+          }),
+        }}
+      />
+
     </>
   );
   return (

@@ -31,15 +31,15 @@ const Abbout3 = (about3Data) => {
                 src={image1.src}
                 alt=""
                 className="img-fluid img-about-3-1 shadow"
-                width={420}
-                height={520}
+                width={400}
+                height={500}
               />
               <Image
                 src={image2.src}
                 alt=""
                 className="img-fluid img-about-3-2 shadow"
-                width={420}
-                height={520}
+                width={400}
+                height={500}
               />
             </div>
           </div>
