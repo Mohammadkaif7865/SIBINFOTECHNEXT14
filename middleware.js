@@ -114,7 +114,7 @@ function getGoneResponse() {
         "Cache-Control": "public, max-age=0, s-maxage=86400",
         "X-Robots-Tag": "noindex, nofollow",
       },
-    }
+    },
   );
 }
 
