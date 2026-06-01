@@ -114,11 +114,49 @@ function getGoneResponse() {
         "Cache-Control": "public, max-age=0, s-maxage=86400",
         "X-Robots-Tag": "noindex, nofollow",
       },
-    }
+    },
   );
 }
 
 export function middleware(request) {
+  const url = request.nextUrl.clone();
+
+  // Remove tracking parameters
+  const trackingParams = [
+    "ref",
+    "trk",
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
+    "utm_id",
+    "gclid",
+    "fbclid",
+    "msclkid",
+  ];
+
+  const hasTrackingParams = trackingParams.some((param) =>
+    url.searchParams.has(param),
+  );
+
+  if (hasTrackingParams) {
+    trackingParams.forEach((param) => url.searchParams.delete(param));
+
+    return NextResponse.redirect(url, 308);
+  }
+
+  // Redirect homepage URLs with random query strings
+  // Example: /?cylibmvbz24295%2F=
+  if (url.pathname === "/" && url.search) {
+    return NextResponse.redirect(new URL("/", request.url), 308);
+  }
+
+  // Redirect malformed index URLs to homepage
+  if (url.pathname === "/index" || url.pathname === "/ndex") {
+    return NextResponse.redirect(new URL("/", request.url), 308);
+  }
+
   const pathname = getNormalizedPathname(request.nextUrl.pathname);
 
   if (GONE_URLS.has(pathname)) {

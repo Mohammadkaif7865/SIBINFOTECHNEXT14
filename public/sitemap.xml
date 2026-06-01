@@ -1939,8 +1939,12 @@
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
-
-
+<url>
+  <loc>https://www.sibinfotech.com/blog/google-updated-its-core-web-vitals-and-page-experience-faqs</loc>
+  <lastmod>2025-07-15T09:44:30+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>

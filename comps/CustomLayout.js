@@ -29,9 +29,10 @@ export const CustomLayout = ({ children, meta }) => {
             path === "/index" ||
             path === "/index.php" ||
             path === "/blog/test-blog" ||
-           path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"||
-           path === "/blogs/elements-that-influence-conversion"||
-           path === "/blog/reason-why-you-should-own-an-e-commerce-website"
+            path ===
+              "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs" ||
+            path === "/blogs/elements-that-influence-conversion" ||
+            path === "/blog/reason-why-you-should-own-an-e-commerce-website"
               ? "noindex, follow"
               : "index, follow"
           }
@@ -47,9 +48,11 @@ export const CustomLayout = ({ children, meta }) => {
             path === "/index" ||
             path === "/index.php" ||
             path === "/blog/test-blog" ||
-            path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"||
-            path === "/blogs/elements-that-influence-conversion"||
-           path === "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"
+            path ===
+              "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs" ||
+            path === "/blogs/elements-that-influence-conversion" ||
+            path ===
+              "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"
               ? "noindex, follow"
               : "index, follow"
           }

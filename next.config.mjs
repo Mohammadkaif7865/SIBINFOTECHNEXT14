@@ -16,76 +16,7 @@ const nextConfig = {
         destination: "https://www.sibinfotech.com/:path*",
         permanent: true,
       },
-      {
-        source: "/",
-        has: [
-          {
-            type: "query",
-            key: "ref",
-            value: "producthunt",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/digital-marketing-services",
-        has: [
-          {
-            type: "query",
-            key: "ref",
-            value: "producthunt",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/",
-        has: [
-          {
-            type: "query",
-            key: "ref",
-            value: "rankrizers",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/index",
-        has: [
-          {
-            type: "query",
-            key: "cylibmvbz24295",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/index",
-        has: [
-          {
-            type: "query",
-            key: "cylizgvza17168",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/apply-now",
-        has: [
-          {
-            type: "query",
-            key: "trk",
-            value: "public_post_comment-text",
-          },
-        ],
-        destination: "/",
-        permanent: true,
-      },
+
       {
         source: "/google-search-network-campaign",
         destination: "/",
