@@ -16,7 +16,6 @@ const nextConfig = {
         destination: "https://www.sibinfotech.com/:path*",
         permanent: true,
       },
-
       {
         source: "/google-search-network-campaign",
         destination: "/",
