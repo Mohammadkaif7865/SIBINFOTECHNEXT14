@@ -281,6 +281,74 @@ export default function SearchEngineOptimizationServices() {
           __html: JSON.stringify(faqSchema),
         }}
       />
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.sibinfotech.com/#localbusiness",
+      name: "SIB Infotech",
+      url: "https://www.sibinfotech.com/",
+      image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+      logo: "https://www.sibinfotech.com/assets/images/logo.webp",
+      telephone: "+91-92222-60000",
+      email: "[contact@sibinfotech.com](mailto:contact@sibinfotech.com)",
+      priceRange: "$$",
+      sameAs: [
+        "https://x.com/sibinfotech",
+        "https://www.linkedin.com/company/sib-infotech",
+        "https://www.facebook.com/sibinfotech",
+        "https://www.youtube.com/user/sibinfotech",
+        "https://www.instagram.com/sibinfotech",
+        "https://www.pinterest.com/sibinfotech",
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+        addressLocality: "Mumbai",
+        addressRegion: "Maharashtra",
+        postalCode: "400064",
+        addressCountry: "IN",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 19.1018364,
+        longitude: 72.887766,
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          opens: "09:00",
+          closes: "19:00",
+        },
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91-92222-60000",
+        email: "[contact@sibinfotech.com](mailto:contact@sibinfotech.com)",
+        contactType: "Customer Support",
+        availableLanguage: ["English", "Hindi"],
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        bestRating: "5",
+        worstRating: "1",
+        ratingCount: "2022",
+      },
+    }),
+  }}
+/>
     </>
   );
   return (
