@@ -54,167 +54,222 @@ export default function EcommerceSeoServicesPackages() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Service",
-            serviceType: "Ecommerce SEO Services",
-            name: "Ecommerce SEO Services Company in India",
-            alternateName:
-              "Ecommerce SEO Packages & Online Store Optimization Services",
-            description:
-              "SIB Infotech is a leading ecommerce SEO company in India offering ecommerce SEO services, online store optimization, product page SEO, category page optimization, technical SEO, keyword research, link building, and ecommerce SEO packages for businesses. Our ecommerce SEO experts help online stores improve search engine rankings, organic traffic, conversions, and overall online sales performance.",
-            url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
-            image:
-              "https://www.sibinfotech.com/assets/images/ecommerce-seo-services.jpg",
-
-            provider: {
-              "@type": "Organization",
-              name: "SIB Infotech",
-              url: "https://www.sibinfotech.com",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://www.sibinfotech.com/assets/images/logo.webp",
-              },
-              foundingDate: "2005",
-              telephone: "+91-9222260000",
-
-              sameAs: [
-                "https://www.facebook.com/sibinfotech/",
-                "https://x.com/sibinfotech",
-                "https://www.linkedin.com/company/sib-infotech/",
-                "https://www.youtube.com/user/sibinfotech",
-              ],
-
-              address: [
-                {
-                  "@type": "PostalAddress",
-                  streetAddress:
-                    "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
-                  addressLocality: "Mumbai",
-                  addressRegion: "Maharashtra",
-                  postalCode: "400064",
-                  addressCountry: "IN",
-                },
-                {
-                  "@type": "PostalAddress",
-                  streetAddress:
-                    "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
-                  addressLocality: "New Delhi",
-                  addressRegion: "Delhi",
-                  postalCode: "110027",
-                  addressCountry: "IN",
-                },
-              ],
-
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "99",
-                bestRating: "5",
-                worstRating: "1",
-              },
-            },
-
-            areaServed: [
-              { "@type": "Country", name: "India" },
-              { "@type": "Country", name: "United States" },
-              { "@type": "Country", name: "United Kingdom" },
-              { "@type": "Country", name: "Australia" },
-              { "@type": "Country", name: "Canada" },
-              { "@type": "Country", name: "Germany" },
-              { "@type": "Country", name: "Singapore" },
-              { "@type": "Country", name: "UAE" },
-            ],
-
-            hasOfferCatalog: {
-              "@type": "OfferCatalog",
-              name: "Ecommerce SEO Services",
-              itemListElement: [
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Product Page SEO",
-                    description:
-                      "Optimization of ecommerce product pages for improved search engine rankings and conversions.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Category Page Optimization",
-                    description:
-                      "SEO optimization for ecommerce category pages to improve visibility and organic traffic.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Technical Ecommerce SEO",
-                    description:
-                      "Technical SEO services including site speed optimization, indexing, crawlability, and mobile optimization.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Ecommerce Keyword Research",
-                    description:
-                      "Advanced keyword research services focused on ecommerce products, categories, and buyer intent.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Link Building for Ecommerce Websites",
-                    description:
-                      "High-quality link building strategies to improve ecommerce website authority and rankings.",
-                  },
-                },
-              ],
-            },
-
-            serviceOutput: [
-              "Improved Ecommerce Search Rankings",
-              "Higher Organic Website Traffic",
-              "Better Product Visibility",
-              "Increased Online Sales",
-              "Optimized Product & Category Pages",
-              "Enhanced User Experience",
-              "Technical SEO Improvements",
-              "Keyword Targeting Strategy",
-              "Higher Conversion Rates",
-              "ROI-Driven Ecommerce SEO Campaigns",
-            ],
-
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://www.sibinfotech.com/ecommerce-seo-services-packages",
-            },
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
+            "@graph": [
               {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://www.sibinfotech.com",
+                "@type": "Service",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#service",
+                name: "Ecommerce SEO Services Company in India",
+                alternateName:
+                  "Ecommerce SEO Packages & Online Store Optimization Services",
+                serviceType: "Ecommerce SEO Services",
+                url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                image:
+                  "https://www.sibinfotech.com/assets/images/ecommerce-seo-services.jpg",
+                description:
+                  "SIB Infotech is a leading ecommerce SEO company in India offering ecommerce SEO services, online store optimization, product page SEO, category page optimization, technical SEO, keyword research, link building, and ecommerce SEO packages for businesses. Our ecommerce SEO experts help online stores improve search engine rankings, organic traffic, conversions, and overall online sales performance.",
+                provider: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+                areaServed: [
+                  {
+                    "@type": "Country",
+                    name: "India",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "United States",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "United Kingdom",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "Australia",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "Canada",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "Germany",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "Singapore",
+                  },
+                  {
+                    "@type": "Country",
+                    name: "UAE",
+                  },
+                ],
+                hasOfferCatalog: {
+                  "@type": "OfferCatalog",
+                  name: "Ecommerce SEO Services",
+                  itemListElement: [
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Product Page SEO",
+                        description:
+                          "Optimization of ecommerce product pages for improved search engine rankings and conversions.",
+                      },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Category Page Optimization",
+                        description:
+                          "SEO optimization for ecommerce category pages to improve visibility and organic traffic.",
+                      },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Technical Ecommerce SEO",
+                        description:
+                          "Technical SEO services including site speed optimization, indexing, crawlability, and mobile optimization.",
+                      },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Ecommerce Keyword Research",
+                        description:
+                          "Advanced keyword research services focused on ecommerce products, categories, and buyer intent.",
+                      },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Link Building for Ecommerce Websites",
+                        description:
+                          "High-quality link building strategies to improve ecommerce website authority and rankings.",
+                      },
+                    },
+                  ],
+                },
+                serviceOutput: [
+                  "Improved Ecommerce Search Rankings",
+                  "Higher Organic Website Traffic",
+                  "Better Product Visibility",
+                  "Increased Online Sales",
+                  "Optimized Product & Category Pages",
+                  "Enhanced User Experience",
+                  "Technical SEO Improvements",
+                  "Keyword Targeting Strategy",
+                  "Higher Conversion Rates",
+                  "ROI-Driven Ecommerce SEO Campaigns",
+                ],
+                mainEntityOfPage: {
+                  "@id":
+                    "https://www.sibinfotech.com/ecommerce-seo-services-packages#webpage",
+                },
               },
               {
-                "@type": "ListItem",
-                position: 2,
-                name: "Ecommerce SEO Services Packages",
-                item: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
+                name: "SIB Infotech",
+                url: "https://www.sibinfotech.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.sibinfotech.com/assets/images/logo.webp",
+                },
+                foundingDate: "2005",
+                telephone: "+91-9222260000",
+                email: "info@sibinfotech.com",
+                address: [
+                  {
+                    "@type": "PostalAddress",
+                    streetAddress:
+                      "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+                    addressLocality: "Mumbai",
+                    addressRegion: "Maharashtra",
+                    postalCode: "400064",
+                    addressCountry: "IN",
+                  },
+                  {
+                    "@type": "PostalAddress",
+                    streetAddress:
+                      "First Floor, BF-21, Block BF, Tagore Garden, Tagore Garden Extension",
+                    addressLocality: "New Delhi",
+                    addressRegion: "Delhi",
+                    postalCode: "110027",
+                    addressCountry: "IN",
+                  },
+                ],
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: "4.8",
+                  reviewCount: "99",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+                sameAs: [
+                  "https://www.facebook.com/sibinfotech/",
+                  "https://x.com/sibinfotech",
+                  "https://www.linkedin.com/company/sib-infotech/",
+                  "https://www.youtube.com/user/sibinfotech",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#webpage",
+                url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                name: "E-commerce SEO Packages | SIB Infotech",
+                isPartOf: {
+                  "@id": "https://www.sibinfotech.com/#website",
+                },
+                breadcrumb: {
+                  "@id":
+                    "https://www.sibinfotech.com/ecommerce-seo-services-packages#breadcrumb",
+                },
+                mainEntity: {
+                  "@id":
+                    "https://www.sibinfotech.com/ecommerce-seo-services-packages#service",
+                },
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.sibinfotech.com/#website",
+                url: "https://www.sibinfotech.com",
+                name: "SIB Infotech",
+                publisher: {
+                  "@id": "https://www.sibinfotech.com/#organization",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id":
+                  "https://www.sibinfotech.com/ecommerce-seo-services-packages#breadcrumb",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.sibinfotech.com",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "SEO Services",
+                    item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: "E-commerce SEO Packages",
+                    item: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
+                  },
+                ],
               },
             ],
           }),
