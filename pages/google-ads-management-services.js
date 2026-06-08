@@ -1,4 +1,4 @@
-import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
+// import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 import { CustomLayout } from "@/comps/CustomLayout";
 import GoogleAdsMgt from "@/comps/Google Ads/GoogleAdsMgt";
 import Faq from "@/comps/Home/Faq";
@@ -130,8 +130,7 @@ export default function GoogleAdsManagementServices() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/google-ads-management-services
-"
+        content="https://www.sibinfotech.com/google-ads-management-services"
       />
       <meta
         property="og:title"
@@ -163,7 +162,7 @@ export default function GoogleAdsManagementServices() {
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/images/instagram-ads-business-objective.svg"
       />
-      <BreadcrumbSchema
+      {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/google-ads-management-services"
         breadcrumbTitle="Top Google Ads Management Services Company in Mumbai, India"
         PageRatingSchema
@@ -171,7 +170,7 @@ export default function GoogleAdsManagementServices() {
           "Optimize your Google Ads campaigns with SIB Infotech, India's certified Google AdWords service provider in Mumbai. Get the top-rated Google Ads solutions today!"
         }
         reviewCount={"5208"}
-      />
+      /> */}
     </>
   );
   return (
