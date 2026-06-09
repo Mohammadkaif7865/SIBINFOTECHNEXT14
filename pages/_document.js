@@ -3,6 +3,11 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
+    const currentPage = this.props.__NEXT_DATA__?.page;
+
+    const hideGlobalLocalBusiness =
+      currentPage === "/search-engine-optimization-seo-services";
+
     const websiteSchema = {
       "@context": "https://schema.org",
       "@type": "WebSite",
@@ -125,12 +130,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }}
           />
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(localBusinessSchema),
-            }}
-          />
+          {!hideGlobalLocalBusiness && (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify(localBusinessSchema),
+              }}
+            />
+          )}
 
           {/* ---------- Clarity: INERT ---------- */}
           <script
@@ -144,8 +151,6 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window,document,"clarity","script","semoba83rl");`,
             }}
           />
-
-          
         </Head>
 
         <body>

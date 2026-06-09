@@ -21,152 +21,151 @@ export default function SearchEngineOptimizationServices() {
       },
     ],
   };
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://www.sibinfotech.com/#localbusiness",
-  name: "SIB Infotech",
-  url: "https://www.sibinfotech.com/",
-  image: [
-    "https://www.sibinfotech.com/assets/og/sib-infotech.png"
-  ],
-  logo: {
-    "@type": "ImageObject",
-    url: "https://www.sibinfotech.com/assets/images/logo.webp"
-  },
-  description:
-    "SIB Infotech is a digital marketing and SEO company in Mumbai, India, offering SEO, PPC, web design, social media marketing, content marketing, and online reputation management services.",
-  telephone: "+91-92222-60000",
-  email: "contact@sibinfotech.com",
-  priceRange: "$$",
-  sameAs: [
-    "https://x.com/sibinfotech",
-    "https://www.linkedin.com/company/sib-infotech",
-    "https://www.facebook.com/sibinfotech",
-    "https://www.youtube.com/user/sibinfotech",
-    "https://www.instagram.com/sibinfotech",
-    "https://www.pinterest.com/sibinfotech"
-  ],
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
-    addressLocality: "Mumbai",
-    addressRegion: "Maharashtra",
-    postalCode: "400064",
-    addressCountry: "IN"
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 19.1018364,
-    longitude: 72.887766
-  },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      opens: "09:00",
-      closes: "19:00"
-    }
-  ],
-  contactPoint: {
-    "@type": "ContactPoint",
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.sibinfotech.com/#localbusiness",
+    name: "SIB Infotech",
+    url: "https://www.sibinfotech.com/",
+    image: ["https://www.sibinfotech.com/assets/og/sib-infotech.png"],
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.sibinfotech.com/assets/images/logo.webp",
+    },
+    description:
+      "SIB Infotech is a digital marketing and SEO company in Mumbai, India, offering SEO, PPC, web design, social media marketing, content marketing, and online reputation management services.",
     telephone: "+91-92222-60000",
     email: "contact@sibinfotech.com",
-    contactType: "customer support",
-    availableLanguage: ["English", "Hindi"]
-  },
-  areaServed: {
-    "@type": "Country",
-    name: "India"
-  },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    bestRating: "5",
-    worstRating: "1",
-    ratingCount: "2022"
-  }
-};
+    priceRange: "$$",
+    sameAs: [
+      "https://x.com/sibinfotech",
+      "https://www.linkedin.com/company/sib-infotech",
+      "https://www.facebook.com/sibinfotech",
+      "https://www.youtube.com/user/sibinfotech",
+      "https://www.instagram.com/sibinfotech",
+      "https://www.pinterest.com/sibinfotech",
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress:
+        "107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West",
+      addressLocality: "Mumbai",
+      addressRegion: "Maharashtra",
+      postalCode: "400064",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 19.1018364,
+      longitude: 72.887766,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "09:00",
+        closes: "19:00",
+      },
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-92222-60000",
+      email: "contact@sibinfotech.com",
+      contactType: "customer support",
+      availableLanguage: ["English", "Hindi"],
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      bestRating: "5",
+      worstRating: "1",
+      ratingCount: "2022",
+    },
+  };
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://www.sibinfotech.com/search-engine-optimization-seo-services/#service",
-  name: "Search Engine Optimization (SEO) Services",
-  serviceType: "SEO Services",
-  url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
-  description:
-    "Enhance your online visibility and organic traffic with SIB Infotech's professional SEO services. Improve rankings, drive qualified traffic, and achieve long-term business growth through strategic search engine optimization.",
-  areaServed: {
-    "@type": "Country",
-    name: "India"
-  },
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://www.sibinfotech.com/#localbusiness"
-  },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "SEO Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "On-Page SEO Services",
-          url: "https://www.sibinfotech.com/on-page-seo-services"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Off-Page SEO Services",
-          url: "https://www.sibinfotech.com/off-page-seo-services"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "E-Commerce SEO Services",
-          url: "https://www.sibinfotech.com/e-commerce-seo-services"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Mobile SEO Services",
-          url: "https://www.sibinfotech.com/mobile-seo-services"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "SEO Outsourcing Services",
-          url: "https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Local SEO Services",
-          url: "https://www.sibinfotech.com/local-seo-services"
-        }
-      }
-    ]
-  }
-};
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id":
+      "https://www.sibinfotech.com/search-engine-optimization-seo-services/#service",
+    name: "Search Engine Optimization (SEO) Services",
+    serviceType: "SEO Services",
+    url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+    description:
+      "Enhance your online visibility and organic traffic with SIB Infotech's professional SEO services. Improve rankings, drive qualified traffic, and achieve long-term business growth through strategic search engine optimization.",
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+    provider: {
+      "@id": "https://www.sibinfotech.com/#localbusiness",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "SEO Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "On-Page SEO Services",
+            url: "https://www.sibinfotech.com/on-page-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Off-Page SEO Services",
+            url: "https://www.sibinfotech.com/off-page-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "E-Commerce SEO Services",
+            url: "https://www.sibinfotech.com/e-commerce-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Mobile SEO Services",
+            url: "https://www.sibinfotech.com/mobile-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "SEO Outsourcing Services",
+            url: "https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Local SEO Services",
+            url: "https://www.sibinfotech.com/local-seo-services",
+          },
+        },
+      ],
+    },
+  };
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -339,27 +338,26 @@ const serviceSchema = {
           __html: JSON.stringify(breadcrumbSchema),
         }}
       />
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(localBusinessSchema),
-  }}
-/>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
+      />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(serviceSchema),
-  }}
-/>
-   
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(serviceSchema),
+        }}
+      />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqSchema),
         }}
       />
-
     </>
   );
   return (
