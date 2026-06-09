@@ -3,6 +3,10 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
+        const currentPage = this.props.__NEXT_DATA__?.page;
+
+    const hideGlobalLocalBusiness =
+      currentPage === "/search-engine-optimization-seo-services";
     return (
       <Html lang="en">
         <Head>
@@ -79,33 +83,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }`}
           </script>
 
-          <script type="application/ld+json">
-            {`{
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "@id": "https://www.sibinfotech.com/#localbusiness",
-              "name": "SIB Infotech",
-              "url": "https://www.sibinfotech.com/",
-              "image": "https://www.sibinfotech.com/assets/og/sib-infotech.png",
-              "priceRange": "₹5,000 - ₹500,000",
-              "telephone": "+91 92222 60000",
-              "email": "contact@sibinfotech.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-                "addressLocality": "Mumbai, Maharashtra",
-                "addressCountry": "India",
-                "postalCode": "400064"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.4",
-                "bestRating": "5",
-                "reviewCount": "200"
-              },
-              "openingHours": ["Mon-Sat 09:30 AM - 06:30 PM"]
-            }`}
-          </script>
+       {!hideGlobalLocalBusiness && (
+  <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.sibinfotech.com/#localbusiness",
+      "name": "SIB Infotech",
+      "url": "https://www.sibinfotech.com/",
+      "image": "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+      "priceRange": "₹5,000 - ₹500,000",
+      "telephone": "+91 92222 60000",
+      "email": "contact@sibinfotech.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
+        "addressLocality": "Mumbai, Maharashtra",
+        "addressCountry": "India",
+        "postalCode": "400064"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "reviewCount": "200"
+      },
+      "openingHours": ["Mon-Sat 09:30 AM - 06:30 PM"]
+    }`}
+  </script>
+)}
 
           {/* ---------- Clarity: INERT ---------- */}
           <script
@@ -119,6 +125,8 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window,document,"clarity","script","semoba83rl");`,
             }}
           />
+
+          
         </Head>
         <body>
           {/* ❌ Remove the GTM <noscript> iframe to avoid tracking without consent */}

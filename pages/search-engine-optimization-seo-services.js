@@ -301,8 +301,7 @@ const serviceSchema = {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/search-engine-optimization-seo-services
-"
+        content="https://www.sibinfotech.com/search-engine-optimization-seo-services"
       />
       <meta
         property="og:title"
@@ -320,8 +319,7 @@ const serviceSchema = {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://www.sibinfotech.com/search-engine-optimization-seo-services
-"
+        content="https://www.sibinfotech.com/search-engine-optimization-seo-services"
       />
       <meta
         property="twitter:title"
