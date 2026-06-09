@@ -70,8 +70,10 @@ export const CustomLayout = ({ children, meta }) => {
               ? "https://www.sibinfotech.com/"
               : path === "/search-engine-optimization-seo-services" ||
                   path === "/search-engine-optimization-seo-services-packages"
-                ? "https://www.sibinfotech.com/on-page-seo-services"
-                : `https://www.sibinfotech.com${path}`
+                ? "https://www.sibinfotech.com/search-engine-optimization-seo-services"
+                : path === "/pay-per-click-ppc-management-services"
+                  ? "https://www.sibinfotech.com/google-ads-management-services"
+                  : `https://www.sibinfotech.com${path}`
           }
         />
         {meta}
