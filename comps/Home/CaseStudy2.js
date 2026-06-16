@@ -104,7 +104,7 @@ const CaseStudy2 = ({ description }) => {
         <div className="row align-items-center">
           <div className="col-lg-10">
             <p class="title fontWeight600">Case Studies</p>
-            <h3 className="large_heading2  mt-3  fontWeight300">
+            <h3 className="large_heading2  mt-3  fontWeight600">
               Winning{" "}
               <span className="fontWeight600 text_red">
                 Strategies & Tangible

@@ -11,11 +11,15 @@ const Faq = ({ faqsData, title, description }) => {
   return (
     <section>
       <div className="containerFull ">
+        <div className="row justify-content-center">
+          <div className="col-lg-9">
         <p className="fontWeight600 title text-center"> FAQ</p>
-        <h3 className="large_heading2 mt-4  text-center text_red fontWeight600"  dangerouslySetInnerHTML={{ __html:title }}>
-        
+        <h2 className="large_heading2 mt-4  text-center text_red fontWeight600"  dangerouslySetInnerHTML={{ __html:title }}>
+         </h2>
+         </div>
+        </div>
           
-        </h3>
+       
         <p
           className="mt-4 text-center title"
           dangerouslySetInnerHTML={{ __html: description }}

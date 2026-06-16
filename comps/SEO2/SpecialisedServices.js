@@ -21,12 +21,12 @@ const SpecialisedServices = () => {
       <div className="containerFull">
         <div className="row">
           <div className="col-lg-10">
-            <h3 className="sub_heading text-white fontWeight600 ">
+            <h2 className="heading text-white fontWeight600 ">
               Our Specialised Search Engine Optimization Services:
-            </h3>
+            </h2>
           </div>
         </div>
-        <div className="mt-lg-5 row">
+        <div className="mt-lg-4 mt-4 row">
           {/* Map over the services array to render each service */}
           {services.map((service, index) => (
             <div key={index} className="col-lg-4 col-6 col-sm-4">
