@@ -16,7 +16,8 @@ const Testimonials = ({ title, description }) => {
   return (
     <section className="bgTestimonial">
       <div className="containerFull">
-        <div className="testimonialHeader">
+        <div className="testimonialHeader row justify-content-center">
+          <div className="col-lg-8">
           <p class="title fontWeight600 text-center">Our Testimonials</p>
           <h2
             className="heading fontHeading2 text-center mt-3 fontWeight600"
@@ -29,6 +30,7 @@ const Testimonials = ({ title, description }) => {
             {/* We are five star rated{" "}
             <span className="fontWeight600">Digital Agency</span> */}
           </p>
+          </div>
         </div>
 
         <div className="row mt-4 align-items-center">

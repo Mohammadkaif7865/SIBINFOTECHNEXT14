@@ -55,15 +55,15 @@ const Tools = ({ title }) => {
   return (
     <section className="trusted">
       <div className="containerFull">
-        <div className="row">
-          <div className="col-lg-12">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
             <p className="fontWeight600 text-center title text-white">
               Our Tools
             </p>
-            <h3
-              className="heading text-center text-white fontWeight300 mt-4"
+            <h2
+              className="heading text-center text-white fontWeight600 mt-4"
               dangerouslySetInnerHTML={{ __html: title }}
-            ></h3>
+            ></h2>
 
             {/* Some of the{" "}
               <span className="fontWeight600">

@@ -10,8 +10,8 @@ const HighlyEfficient = () => {
       <div className="col-lg-4">
         <div className="new-bg-red p-4 h-100 d-flex flex-column justify-content-center text-center">
           <h2 className="heading fontWeight600   text-white">
-          Industries We Help Grow with Targeted{" "}
-         Google Ads Marketing Services
+          Industries We Serve with Targeted Google Ads Campaigns
+         
         </h2>
 
           <p className="customText text-white mt-3">

@@ -4,6 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 const BrandBuild = ({
   image,
+  imageAlt,
   title,
   title2,
   description,
@@ -28,10 +29,10 @@ const BrandBuild = ({
             ></p>
           </div>
           <div className="col-lg-6 ps-3">
-            <h2
+            <h3
               className="fontWeight600 sub_heading"
               dangerouslySetInnerHTML={{ __html: subtitle }}
-            ></h2>
+            ></h3>
 
             <p
               className="title mt-3"
@@ -46,9 +47,9 @@ const BrandBuild = ({
               <Image
                 className="w-75 h-100 mx-auto"
                 src={image}
+                alt={imageAlt}
                 width={500}
                 height={400}
-                alt=""
               />
             </div>
           </div>

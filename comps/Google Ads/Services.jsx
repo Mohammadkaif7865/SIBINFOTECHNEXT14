@@ -9,7 +9,7 @@ const Services = () => {
       number: "01",
       title: "Search Ads (Google Search Network)",
       heading: "Search Ads (Google Search Network)",
-      
+
       description: [
         "Google Search Network is the only platform that allows your business to display text ads directly on Google's Search Engine Result Pages, exactly where buyers are searching with real intent to purchase.",
         "Search campaigns come with advanced features including dynamic search ads, call-only ads, callout extensions, sitelink extensions, location extensions, and structured snippets that make your ad stand out from organic listings and competitor ads.",
@@ -28,7 +28,7 @@ const Services = () => {
       number: "02",
       title: "Display Ads (Google Display Network)",
       heading: "Display Ads (Google Display Network)",
-   
+
       description: [
         "Google Display Network reaches over 90% of internet users worldwide across 2 million+ websites, news platforms, blogs, Gmail inboxes, and YouTube videos. Display Ads use eye-catching banners and visuals to build brand awareness and capture attention even when users are not actively searching.",
         "These campaigns work brilliantly for top-of-funnel awareness, retargeting previous visitors, and reaching specific audiences based on interests, demographics, life events, and browsing behavior.",
@@ -47,7 +47,7 @@ const Services = () => {
       number: "03",
       title: "Shopping Ads (Google Shopping)",
       heading: "Shopping Ads (Google Shopping)",
-     
+
       description: [
         "Google Shopping Ads put your product images, prices, and store name directly in front of buyers searching for products like yours. Unlike text ads, Shopping Ads show the actual product visually, making them one of the highest-converting ad formats for e-commerce businesses in India.",
         "These campaigns pull data directly from your product feed and display ads across Google Search, the Google Shopping tab, YouTube, and partner sites.",
@@ -66,7 +66,7 @@ const Services = () => {
       number: "04",
       title: "Video Ads (YouTube Advertising)",
       heading: "Video Ads (YouTube Advertising)",
-    
+
       description: [
         "YouTube is the second largest search engine in the world and Google's most powerful video advertising platform. Video Ads on YouTube let businesses tell their story through skippable in-stream ads, non-skippable ads, bumper ads, and discovery ads that appear in YouTube search and recommendations.",
         "With over 500 million Indian users watching YouTube every month, YouTube Ads deliver unmatched reach for both brand-building and direct response campaigns.",
@@ -85,7 +85,7 @@ const Services = () => {
       number: "05",
       title: "App Promotion Campaigns",
       heading: "App Promotion Campaigns",
-   
+
       description: [
         "App Promotion Campaigns, also called App Campaigns, help you drive app installs and in-app actions across Google Search, Google Play Store, YouTube, and the Google Display Network.",
         "Google's machine learning automatically optimizes your ad placements, bids, and creative combinations to maximize results for the actions that matter most to your business.",
@@ -104,7 +104,7 @@ const Services = () => {
       number: "06",
       title: "Remarketing Campaigns",
       heading: "Remarketing Campaigns",
-   
+
       description: [
         "Remarketing brings back visitors who showed interest in your business but did not convert the first time. Whether they browsed your product pages, added items to cart, or abandoned a half-filled form, remarketing puts your brand back in front of them with targeted ads across Google Search, Display Network, YouTube, and Gmail.",
         "Remarketing campaigns deliver some of the highest ROI in Google Ads because you are targeting people who already know your brand.",
@@ -123,7 +123,7 @@ const Services = () => {
       number: "07",
       title: "Performance Max Campaigns",
       heading: "Performance Max Campaigns",
-    
+
       description: [
         "Performance Max is Google's newest campaign type that combines all Google Ads inventory into one fully automated campaign. Your ads can appear on Search, Display, YouTube, Discover, Gmail, and Google Maps, with machine learning optimizing every placement, bid, and creative combination in real time.",
         "Performance Max campaigns require strong creative assets, clear conversion goals, and a steady stream of audience signals to perform at their best.",
@@ -146,8 +146,7 @@ const Services = () => {
           <div className="row align-items-center">
             <div className="col-12 col-lg-9">
               <h2 className="heading text-white fontWeight600 mb-3 mb-lg-0">
-                Our Complete Google Ads management services include the
-                following:
+                Our Complete Google Ads Management Services in India
               </h2>
             </div>
 

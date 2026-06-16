@@ -26,9 +26,9 @@ const Featured = ({ title }) => {
         <div className="row align-items-center">
           <div className="col-lg-7">
             <p className="fontWeight600 title">Media Coverage</p>
-            <h2 className="large_heading2 fontWeight300 text_red mt-4">
-              We can <span className="fontWeight600">Get Featured</span> you on{" "}
-              <span className="fontWeight600">Top News Websites</span>
+            <h2 className="large_heading2 fontWeight600 text-dark mt-4">
+           Get Your Brand Featured on <span className="fontWeight600 text_red">Top News Websites</span>
+             
             </h2>
           </div>
           <div className="col-lg-5 mt-3 mt-lg-0">

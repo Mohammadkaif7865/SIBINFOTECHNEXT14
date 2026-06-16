@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
-
 // Component part
 const Abbout3 = (about3Data) => {
   const {
@@ -13,6 +11,8 @@ const Abbout3 = (about3Data) => {
     contentParagraphs,
     image1,
     image2,
+    image1Alt,
+    image2Alt,
     buttonText,
     buttonLink,
     phoneNumber,
@@ -29,14 +29,14 @@ const Abbout3 = (about3Data) => {
             <div className="about3_img_box position-relative">
               <Image
                 src={image1.src}
-                alt=""
+                 alt={image1Alt}
                 className="img-fluid img-about-3-1 shadow"
                 width={400}
                 height={500}
               />
               <Image
                 src={image2.src}
-                alt=""
+                 alt={image2Alt}
                 className="img-fluid img-about-3-2 shadow"
                 width={400}
                 height={500}

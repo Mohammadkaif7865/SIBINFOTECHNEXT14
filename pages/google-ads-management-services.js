@@ -37,8 +37,8 @@ export default function GoogleAdsManagementServices() {
     },
     {
       id: "faq21",
-      question: "Do you provide a free Google Ads audit?",
-      answer: `<div className="accordion-body"><p>Yes. A complimentary audit is available for businesses looking to evaluate their current advertising performance. The audit includes analysis of campaign structure, keyword targeting, bidding strategies, ad copy, conversion tracking, audience settings, and landing page performance. Actionable recommendations are shared without any obligation to proceed further.</p></div>`,
+      question: "Do you offer a free Google Ads audit in India?",
+      answer: `<div className="accordion-body"><p>Yes. SIB Infotech provides a free Google Ads audit for businesses in India and internationally. The audit covers campaign structure, keyword targeting, bidding strategies, ad copy, conversion tracking, audience settings, and landing page performance. You receive a detailed audit report with actionable recommendations, no obligation to sign up.</p></div>`,
     },
     {
       id: "faq22",
@@ -55,6 +55,16 @@ export default function GoogleAdsManagementServices() {
       id: "faq24",
       question: "How do you measure the success of Google Ads campaigns?",
       answer: `<div className="accordion-body"><p>Campaign success is measured using key performance indicators such as qualified leads, conversion rate, cost per acquisition, click-through rate, and return on ad spend. Accurate conversion tracking and analytics setup help monitor how users interact with ads and landing pages. Regular performance reports provide clear insights into campaign progress, audience behavior, and opportunities for further optimization.</p></div>`,
+    },
+    {
+      id: "faq25",
+      question: "How do I hire a Google Ads expert in India?",
+      answer: `<div className="accordion-body"><p>To hire a Google Ads expert in India, look for a Google Premier Partner agency with verified client results, industry experience in your sector, and transparent reporting. SIB Infotech offers dedicated Google Ads specialists who manage your campaigns end-to-end. You can request a free consultation to discuss your goals before committing.</p></div>`,
+    },
+    {
+      id: "faq26",
+      question: "What is the typical Google Ads management pricing in India?",
+      answer: `<div className="accordion-body"><p>Google Ads management costs can vary based on factors such as campaign goals, industry competition, account size, and the level of ongoing optimization required. At SIB Infotech, we offer tailored Google Ads management services designed around your business needs. Your advertising budget is billed directly by Google, while our management fee covers strategy, campaign setup, monitoring, and performance optimization. Contact us for a customised quote.</p></div>`,
     },
   ];
 
@@ -117,14 +127,17 @@ export default function GoogleAdsManagementServices() {
 
   const metaTags = (
     <>
-      <title>Boost ROI with #1 Google Ads Management Services in India</title>
+      <title>
+        Google Ads Management Services in India | Google Premier Partner – SIB
+        Infotech
+      </title>
       <meta
         name="description"
-        content="Drive more leads, sales, and ROI with expert Google Ads management services by SIB Infotech, a Google Premier Partner trusted by 850+ clients for 18+ years."
+        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
       />
       <meta
         name="keywords"
-        content="PPC Management, Pay Per Click Management, PPC Account Management, AdWords Management, Google AdWords Management Services, Google Ads Management, Google Ads Company, Google Ads Service, Ads Management Company, best ppc management company"
+        content="Google Ads management services India, Google Ads agency India, Google Ads management company Mumbai, PPC management services India, Google Premier Partner agency India, Google Ads audit free India, hire Google Ads expert India"
       />
 
       <meta property="og:type" content="website" />
@@ -134,11 +147,11 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="og:title"
-        content="Boost ROI with #1 Google Ads Management Services in India"
+        content="Google Ads Management Services in India | Google Premier Partner – SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Drive more leads, sales, and ROI with expert Google Ads management services by SIB Infotech, a Google Premier Partner trusted by 850+ clients for 18+ years."
+        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
       />
       <meta
         property="og:image"
@@ -152,11 +165,11 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="twitter:title"
-        content="Boost ROI with #1 Google Ads Management Services in India"
+        content="Google Ads Management Services in India | Google Premier Partner – SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Drive more leads, sales, and ROI with expert Google Ads management services by SIB Infotech, a Google Premier Partner trusted by 850+ clients for 18+ years."
+        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
       />
       <meta
         property="twitter:image"

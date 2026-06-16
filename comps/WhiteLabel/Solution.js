@@ -15,13 +15,13 @@ const Solution = ({ data, heading, subHeading, discription }) => {
       <div className="containerFull">
         <div className="row text-white align-items-center">
           <div className="col-lg-9 ">
-            <h4 className=" large_heading fontWeight4 00">
+            <h2 className=" large_heading fontWeight4 00">
               <span className="fontWeight large_heading2 fontWeight600">
                 {heading}
               </span>
               <br />
               {subHeading}
-            </h4>
+            </h2>
             <p className="mt-3">{discription}</p>
           </div>
           <div className="col-lg-3 mt-4 mt-lg-0  d-none d-lg-block">

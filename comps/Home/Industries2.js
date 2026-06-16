@@ -100,9 +100,9 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
         {heading && <p className="fontWeight600 title">{heading}</p>}
 
         {subHeading && (
-          <h3 className="large_heading2 mt-4 fontWeight300 fontHeading2 text_red">
+          <h2 className="large_heading2 mt-4 fontWeight600 fontHeading2 text_red">
             {subHeading}
-          </h3>
+          </h2>
         )}
 
         {description1 && <p className="title mt-3">{description1}</p>}

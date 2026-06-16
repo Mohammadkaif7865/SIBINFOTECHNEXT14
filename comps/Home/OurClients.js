@@ -6,10 +6,10 @@ const OurClients = ({ title }) => {
     <section className="home_our_client trusted">
       <div className="containerFull">
         <p class="title fontWeight600 text-center text-white ">Our Clients</p>
-        <h3
-          className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white"
+        <h2
+          className="large_heading2 fontHeading2 fontWeight600 text-center mt-4 text-white"
           dangerouslySetInnerHTML={{ __html: title }}
-        ></h3>
+        ></h2>
 
         {/* <h4 className="large_heading2 fontHeading2 fontWeight300 text-center mt-4 text-white">
           Powerfull <span className="fontWeight600">Brand Partnership!</span>

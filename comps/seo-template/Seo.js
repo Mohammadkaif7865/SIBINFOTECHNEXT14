@@ -106,28 +106,16 @@ const Seo = () => {
     },
     {
       id: "faq6",
-      question: "Ask for an initial SEO audit of your website?",
+      question: "Do you offer a free SEO audit in Mumbai?",
       answer: ` <p>
-      We offer free SEO audit services as a part of the
-      entire SEO package. We have dedicated professionals to
-      provide SEO audit reports for your website, unlike
-      some SEO companies in India that entirely rely on
-      audit tools. We ensure that the audit report is
-      developed thoroughly with covering elements like
-      keyword research and competitor analysis.
+    Yes. SIB Infotech provides a free SEO audit for businesses in Mumbai and across India. The audit covers technical health, on-page optimization, keyword rankings, backlink profile, competitor analysis, and content gaps. You receive a detailed report with actionable recommendations, with no obligation to sign up.
     </p>`,
     },
     {
       id: "faq7",
-      question: "How much does SEO Services cost per month?",
+      question: " How much does SEO cost per month at SIB Infotech?",
       answer: ` <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per client's budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages. SEO packages
-      start from around USD 300 per month onwards.
+      Our SEO packages start from affordable monthly plans and are tailored to your business requirements. Pricing depends on your website size, industry competition, target audience, and growth goals. Every package includes on-page SEO, off-page SEO, technical optimization, content enhancements, and monthly performance reporting. Contact us for a free SEO audit and a customized quote.
     </p>`,
     },
     {
@@ -249,6 +237,34 @@ const Seo = () => {
       comprehensive offerings of Indian SEO companies.
     </p>`,
     },
+    {
+      id: "faq15",
+      question: `Which is the best SEO service company in Mumbai?`,
+      answer: `<p>
+    The best SEO service company in Mumbai is one with verified results, transparent reporting, and recognised certifications. SIB Infotech is a Google Premier Partner agency based in Malad West, Mumbai, with 20+ years of SEO experience and 1000+ brands ranked across 40+ countries. Clients include Airtel, Finolex, Jindal Steel, and BPCL. You can request a free SEO audit to evaluate our approach before committing.
+  </p>`,
+    },
+    {
+      id: "faq16",
+      question: `How much do SEO services cost in Mumbai?`,
+      answer: `<p>
+    The cost of SEO services in Mumbai depends on several factors, including your website size, industry competition, target keywords, current search performance, and business goals. SEO requirements vary from one business to another, which is why most agencies offer customized plans based on the scope of work. At SIB Infotech, we provide tailored SEO solutions with transparent pricing, detailed reporting, and no long-term lock-in contracts. Contact our team for a free SEO audit and a customized proposal based on your specific growth objectives.
+  </p>`,
+    },
+    {
+      id: "faq17",
+      question: `How do I hire an SEO expert in Mumbai?`,
+      answer: `<p>
+    To hire an SEO expert in Mumbai, look for a Google Premier Partner agency with case studies, industry experience in your sector, and clear monthly reporting. SIB Infotech assigns a dedicated SEO specialist and account manager to every project. You can book a free SEO discovery call to discuss your goals before signing up.
+  </p>`,
+    },
+    {
+      id: "faq18",
+      question: `How long does SEO take to show results in Mumbai?`,
+      answer: `<p>
+    For most Mumbai businesses, SEO shows initial improvements within 3 to 6 months and strong results within 6 to 12 months. Highly competitive Mumbai keywords in real estate, healthcare, and finance may take longer. Local SEO results, such as Google Maps visibility, often improve faster, within 60 to 90 days.
+  </p>`,
+    },
   ];
   const seoServices = [
     {
@@ -335,12 +351,12 @@ const Seo = () => {
       "Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. Investing in SEO can transform your online presence and deliver long-term success. Here’s how:  ",
   };
   const leftBoxContent = {
-    headingStart: "Benefits   ",
-    headingHighlight: "of SEO",
-    subHeading: "for Your Business ",
+    headingStart: "Benefits of Hiring an SEO Service Company in Mumbai   ",
+    // headingHighlight: "of SEO",
+    // subHeading: "for Your Business ",
     cardTitle: "Get More Traffic with Data-Driven SEO Solutions ",
     cardDescription:
-      "80% of Customers will never look past the first search engine results page. Outrank Competitors & Stop Loosing Leads to Your Competitors & Unlock Your Website’s Full Potential with Expert SEO Services ",
+      "80% of customers never look past the first page of Google. Outrank competitors, stop losing leads, and unlock your website's full potential with expert SEO services in Mumbai.",
     buttonText: "Book A FREE SEO Discovery Call ",
   };
 
@@ -394,7 +410,7 @@ const Seo = () => {
 
   const testimonial_data = [
     {
-      title: `What Our <span class="text_red"> Client's Say</span> About Us `,
+      title: `What Our Clients Say About <span class="text_red"> Our SEO Services in Mumbai </span> `,
       description: `We are a five star rated SEO Agency in Mumbai, Delhi & Across India `,
     },
   ];
@@ -462,9 +478,10 @@ const Seo = () => {
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  Get More Traffic, Leads & Sales with the{" "}
-                  <span className="text_red">
-                    Best SEO Services Company in Mumbai
+                  SEO Service{" "}
+                  <span className="text_red fontWeight700">
+                    {" "}
+                    Company in Mumbai
                   </span>
                 </h1>
                 <p
@@ -473,7 +490,8 @@ const Seo = () => {
                     maxWidth: "80%",
                   }}
                 >
-                  Mumbai's Trusted SEO Agency | Google Premier Partner
+                  Google Premier Partner SEO Agency Trusted by 1000+ Brands in
+                  40+ Countries
                 </p>
                 <p
                   className="mt-2  mt-lg-3 text-white"
@@ -481,19 +499,22 @@ const Seo = () => {
                     maxWidth: "80%",
                   }}
                 >
-                  Partner with the result-driven SEO services company in Mumbai
-                  that helps businesses rank higher on Google, attract qualified
-                  buyers, and turn search traffic into real revenue. Backed by
-                  20+ years of expertise, Google Premier Partner status, and
-                  brands we have grown across 40+ countries.
+                  SIB Infotech is a trusted SEO company in Mumbai with 20+ years
+                  of experience, helping businesses improve Google rankings,
+                  generate qualified leads, and grow online visibility. As a
+                  Google Premier Partner, we provide local SEO, technical SEO,
+                  content optimization, and AI search optimization for ChatGPT,
+                  Gemini, and Google AI Overviews. Get transparent reporting,
+                  dedicated support, no lock-in contracts, and a free SEO audit.
                 </p>
                 <div className="mt-4">
                   <Link href="#contact" className="btnThemeRed me-3">
-                    <i className="fa-solid fa-comment-dots"></i> Get a Quote
+                    <i className="fa-solid fa-comment-dots"></i> Get a Free SEO
+                    Audit
                   </Link>
                   <Link href="#contact" className="btnThemewhiteBorder">
-                    <i className="fa-solid fa-circle-question"></i> Ask a
-                    Question
+                    <i className="fa-solid fa-circle-question"></i> Hire an SEO
+                    Expert in Mumbai
                   </Link>
                 </div>
               </div>
@@ -539,7 +560,7 @@ const Seo = () => {
       </div>
       <About />
       <Solution
-        heading={"Our Full Suite of Professional SEO Services in Mumbai "}
+        heading={"Our Complete SEO Services in Mumbai "}
         discription={
           "Every business is different. Your SEO strategy should be too. We offer a complete range of professional seo services in mumbai designed to help you rank, grow, and win across every type of search. Here is everything we do under one roof:"
         }
@@ -556,7 +577,7 @@ const Seo = () => {
           <div className="row align-items-center">
             <div className="col-lg-5">
               <h2 className="heading fontWeight600">
-                Next-Gen SEO for Mumbai's{" "}
+                AI SEO, AEO and GEO for Mumbai's{" "}
                 <span className="text_red">Competitive Search Landscape</span>
               </h2>
             </div>
@@ -590,9 +611,7 @@ const Seo = () => {
               <div className="nextGenSeoCard h-100">
                 <div className="nextGenSeoNumber">01</div>
 
-                <h4 className="small_heading fontWeight600 mb-2 ">
-                  AI SEO
-                </h4>
+                <h4 className="small_heading fontWeight600 mb-2 ">AI SEO</h4>
 
                 <p>
                   AI SEO is the practice of optimizing your website to appear in
@@ -710,7 +729,7 @@ const Seo = () => {
               <img
                 className="image-full rounded"
                 src="assets/images/google-ads/why-mumbai-shift-strategy.jpg"
-                alt="Mumbai businesses AI SEO framework"
+                alt="AI SEO services in Mumbai – SIB Infotech GEO and AEO framework"
               />
             </div>
           </div>
@@ -722,8 +741,9 @@ const Seo = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <h2 className="heading fontWeight600  text-center mb-2">
-                SEO Plans Built for Every{" "}
-                <span className="text_red">Business Size, Budget & Stage</span>
+                SEO Plans for Every{" "}
+                <span className="text_red">Business Size and Budget</span> in
+                Mumbai
               </h2>
               <p className="customText text-center">
                 Not every business needs the same SEO. A local Mumbai bakery
@@ -833,8 +853,8 @@ const Seo = () => {
       </section>
 
       <SIBPower
-        title="Why Brands Choose Us as Their  "
-        subtitle="SEO Services Company in Mumbai "
+        title="Why Brands Choose SIB Infotech as Their SEO Service Company in Mumbai"
+        // subtitle=" SEO Service Company in Mumbai "
         description_right="There are hundreds of agencies in Mumbai offering SEO. So why do brands across India and 40+ countries choose SIB Infotech as their long-term growth partner? Here is what makes us different:"
         // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
@@ -852,8 +872,8 @@ const Seo = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
               <h2 className="heading fontWeight600 ">
-                How Are Our SEO Services Better Than Others{" "}
-                <span className="text_red">In Mumbai?</span>
+                How We Compare with Other{" "}
+                <span className="text_red"> SEO Companies In Mumbai?</span>
               </h2>
 
               <p className="customText mt-3">
@@ -1039,16 +1059,20 @@ const Seo = () => {
 
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
-        linkTitle="Speak with one of our SEO Experts in Mumbai today!"
+        linkTitle="Speak with an SEO Expert in Mumbai – Free Audit, No Obligation"
         linkDestination="/contact-us"
       />
 
       <section className="bgGrey2">
         <div className="containerFull">
-          <div className="row">
-            <div className="col-lg-10 mx-auto text-center">
+          <div className="row justify-content-center">
+            <div className="col-lg-9  text-center">
               <h2 className="heading fontWeight600 mt-4">
-                Industries Where We Deliver SEO Success
+                Industries We Serve with{" "}
+                <span className="text_red">
+                  SEO Services <br className="d-lg-block d-none " /> in
+                  Mumbai{" "}
+                </span>
               </h2>
 
               <p className="customText mt-3">
@@ -1063,14 +1087,14 @@ const Seo = () => {
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row mt-4 mt-lg-4">
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/ecommerce-seo.png"
-                  alt="E-commerce and D2C Brands"
+                  alt="On-page SEO services Mumbai"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   E-commerce and D2C Brands
                 </h3>
                 <p>
@@ -1085,9 +1109,9 @@ const Seo = () => {
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/healthcare-seo.png"
-                  alt="Healthcare and Pharma"
+                  alt="Off-page SEO and link building Mumbai"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Healthcare and Pharma
                 </h3>
                 <p>
@@ -1103,9 +1127,9 @@ const Seo = () => {
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/real-estate-seo.png"
-                  alt="Real Estate and Construction"
+                  alt="Technical SEO services Mumbai"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Real Estate and Construction
                 </h3>
                 <p>
@@ -1120,9 +1144,9 @@ const Seo = () => {
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/education-seo.png"
-                  alt="Education and EdTech"
+                  alt="Local SEO services Mumbai"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Education and EdTech
                 </h3>
                 <p>
@@ -1137,9 +1161,9 @@ const Seo = () => {
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/finance-seo.png"
-                  alt="Finance and Banking"
+                  alt="E-commerce SEO services Mumbai"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Finance and Banking
                 </h3>
                 <p>
@@ -1154,7 +1178,7 @@ const Seo = () => {
               <div className="industrySeoCard h-100">
                 <img
                   src="/assets/images/seo/travel-seo.png"
-                  alt="Travel and Hospitality"
+                  alt="SEO content writing services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
                   Travel and Hospitality
@@ -1173,7 +1197,7 @@ const Seo = () => {
                   src="/assets/images/seo/it-saas-seo.png"
                   alt="IT and SaaS"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   IT and SaaS
                 </h3>
                 <p>
@@ -1190,7 +1214,7 @@ const Seo = () => {
                   src="/assets/images/seo/manufacturing-seo.png"
                   alt="Manufacturing and B2B"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Manufacturing and B2B
                 </h3>
                 <p>
@@ -1224,7 +1248,7 @@ const Seo = () => {
                   src="/assets/images/seo/beauty-fashion-seo.png"
                   alt="Beauty, Fashion and Lifestyle"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Beauty, Fashion and Lifestyle
                 </h3>
                 <p>
@@ -1241,7 +1265,7 @@ const Seo = () => {
                   src="/assets/images/seo/ngo-seo.png"
                   alt="NGOs and Non-Profits"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   NGOs and Non-Profits
                 </h3>
                 <p>
@@ -1257,7 +1281,7 @@ const Seo = () => {
                   src="/assets/images/seo/real-estate-seo.png"
                   alt="Home Services"
                 />
-                <h3 className="small_heading fontWeight600  mb-3">
+                <h3 className="small_heading fontWeight600 mb-3">
                   Home Services
                 </h3>
                 <p>
@@ -1269,7 +1293,7 @@ const Seo = () => {
             </div>
 
             <div className="col-lg-4">
-              <div className="industrySeoCard industrySeoWideCard text-center">
+              <div className="industrySeoCard industrySeoWideCard">
                 <img
                   src="/assets/images/seo/niche-sector-seo.png"
                   alt="Telecom, Matrimony, and Niche Sectors"
@@ -1299,7 +1323,7 @@ const Seo = () => {
       <OurClients
         title={`India’s Trusted
           <span class="fontWeight600">SEO Experts</span>
-          Behind <span class="fontWeight600">Fast-Growing Brands</span>`}
+          Behind <span class="fontWeight600 text_red">Fast-Growing Brands</span>`}
       />
       <Testimonials
         title={testimonial_data[0].title}
@@ -1328,7 +1352,7 @@ const Seo = () => {
         heading="Industries We Serve"
         subHeading={
           <>
-            End-to End <span className="fontWeight500">SEO Services</span>
+            End-to End <span className="fontWeight600">SEO Services</span>
             <span className="fontWeight600"> for Every Industry</span>
           </>
         }
@@ -1340,20 +1364,19 @@ const Seo = () => {
         batchtitle={`SEO Pricing Plans`}
         heading={`360° <span class="fontWeight600">SEO</span>
           Solutions`}
-        description={`  Our SEO Packages starts from <strong>$250</strong> only.`}
+        description={`  Our SEO Packages starts from $250 only. / Starts from: $250/Month  USD only – weak signal for Mumbai keyword.`}
       />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"
         linkTitle="Speak with one of our SEO Experts in Mumbai today!"
         linkDestination="/contact-us"
       />
+      <SeoAudit />
       <Faq
         title={`<span class="text-black">Frequently Asked</span> Search Engine Optimization <span class="text-black">Question?</span>`}
         // description={faqDiscription}
         faqsData={faqsData}
       />
-
-      <SeoAudit />
     </div>
   );
 };

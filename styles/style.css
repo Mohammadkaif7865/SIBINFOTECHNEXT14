@@ -388,7 +388,7 @@ section {
 .bgRedMenu {
   background: #fce8e8;
 }
-.new-bg-red{
+.new-bg-red {
   background: var(--red-color);
 }
 
@@ -8941,7 +8941,7 @@ table tbody tr td:nth-child(2) {
 .listItems li:before {
   content: "\f058";
   top: 5px;
-  color:var(--red-color);
+  color: var(--red-color);
   left: 0px;
   position: absolute;
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
@@ -14389,5 +14389,5 @@ tudy-right-main {
   margin-bottom: 20px;
 }
 .googleAdsPage .instagram-list li:after {
-    background: var(--red-color);
+  background: var(--red-color);
 }

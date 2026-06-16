@@ -12,25 +12,36 @@ const About = () => {
           <div className="col-lg-6">
             {/* <h5 className="fontWeight600">About Us</h5> */}
             <h2 className="mt-4 heading fontWeight600">
-              Dominate <span className="text_red">Google Rankings</span> <br />{" "}
-              <span className="text_red">& Drive Organic Growth</span>{" "}
+              Result-Driven{" "}
+              <span className="text_red">SEO Service Company in Mumbai</span>{" "}
+              Since 2005
             </h2>
             <p className="mt-4">
-             Since 2005, SIB Infotech has been helping businesses grow as a trusted SEO Services Company in Mumbai through cutting-edge SEO strategies that improve search rankings, boost online visibility, and drive real organic traffic across Google and modern AI-powered search platforms.
+              Since 2005, SIB Infotech has been helping businesses grow as a
+              trusted SEO Services Company in Mumbai through cutting-edge SEO
+              strategies that improve search rankings, boost online visibility,
+              and drive real organic traffic across Google and modern AI-powered
+              search platforms.
             </p>
           </div>
           <div className="col-lg-6 ps-lg-5">
             <p>
-              Most customers never go beyond Google’s first page. If your business is not ranking there, your competitors are getting the clicks, leads, and sales. Today, search goes beyond Google. Buyers now discover businesses through ChatGPT, Google AI Overviews, Gemini, voice search, and Google Maps. You need to be visible across traditional search, AI search, and local search at the same time.
+              Most customers never go beyond Google’s first page. If your
+              business is not ranking there, your competitors are getting the
+              clicks, leads, and sales. Today, search goes beyond Google. Buyers
+              now discover businesses through ChatGPT, Google AI Overviews,
+              Gemini, voice search, and Google Maps. You need to be visible
+              across traditional search, AI search, and local search at the same
+              time.
             </p>
-         <div className="mt-3">
-  <Link className="btnHomeBanner about3" href={"/contact-us"}>
-    Want to Improve your Ranking? Let’s Talk.
-    <span className="bg-black">
-      <i className="fa fa-arrow-right"></i>
-    </span>
-  </Link>
-</div>
+            <div className="mt-3">
+              <Link className="btnHomeBanner about3" href={"/contact-us"}>
+                Want to Improve your Ranking? Let’s Talk.
+                <span className="bg-black">
+                  <i className="fa fa-arrow-right"></i>
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
 

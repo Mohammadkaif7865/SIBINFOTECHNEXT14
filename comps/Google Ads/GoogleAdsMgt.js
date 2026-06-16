@@ -181,7 +181,7 @@ const GoogleAdsMgt = () => {
   const about3Data = {
     sectionId: "about",
     // mainHeading: "Google Ads Management Services | SIB Infotech",
-    subHeading: `Tired of Spending on <span class="text_red">Google Ads Without Seeing Results?</span>`,
+    subHeading: `Tired of Spending on Google Ads Without Results?<span class="text_red"> Here's What's Going Wrong </span>`,
     contentParagraphs: [
       `Many businesses waste a large part of their Google Ads budget on campaigns that are poorly optimized from the start.`,
 
@@ -201,6 +201,7 @@ const GoogleAdsMgt = () => {
     image1: {
       src: "/assets/images/instagram-ads-business-objective.svg",
     },
+    image1Alt: "Google Ads management services India – SIB Infotech team",
     image2: {
       src: "/assets/images/calculator-development-firm.svg",
     },
@@ -283,7 +284,7 @@ const GoogleAdsMgt = () => {
   ];
   const brandContent = [
     {
-      title: `What’s Included in Our Google Ads Management Package?
+      title: `What's Included in Our Google Ads Management Package?
 `,
       subtitle: ` Our Google Ads Management Package`,
       description: `
@@ -382,10 +383,10 @@ const GoogleAdsMgt = () => {
         <SmoSection
           textWhite
           bgBlack
-          heading="Why Choose"
-          highlightedText=" Google Ads for Your Business"
-          description="Recent reports state that Google processes over 2.3 million searches per second! Imagine potential customers searching for a service you offer, and your business appears right at the top. "
-          subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
+          heading="Why Google Ads Works for "
+          highlightedText=" Businesses in India"
+          description="As a Google Premier Partner, SIB Infotech works with businesses across industries to create and manage high-performing Google Ads campaigns. Backed by over 18 years of experience in paid advertising, our team has helped brands in e-commerce, real estate, healthcare, B2B, and more achieve their growth goals. Every client is assigned a dedicated Google Ads specialist who focuses on strategy, optimization, and performance, ensuring personalized support and consistent results."
+          // subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
           imageSrc="/assets/images/google-ads/google-ads.jpg"
           imageAlt="Team Working"
           features={[
@@ -452,6 +453,7 @@ const GoogleAdsMgt = () => {
       />
       <BrandBuild
         image={`/assets/images/phone-seo-local-squares.png`}
+        imageAlt="Google Ads management package India – SIB Infotech"
         title={brandContent[0].title}
         subtitle={brandContent[0].subtitle}
         description={brandContent[0].description}
@@ -485,10 +487,10 @@ const GoogleAdsMgt = () => {
       <HighlyEfficient />
 
       <SIBPower
-        title="Why Choose SIB Infotech for  "
-        subtitle="Your Google Ads Campaigns? "
-        description_right="Businesses trust SIB Infotech because we deliver what we promise: lower cost per acquisition, higher return on ad spend, and complete transparency. Unlike agencies that prioritize vanity metrics or lock you into long contracts, our google ads campaign management services are built entirely around your business goals. Here is what sets us apart."
-        // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
+        title="Flexible Plans for Businesses of All Sizes"
+        // subtitle="for Google Ads Management"
+        description_right="Google Ads management costs vary based on campaign goals, account size, industry competition, and optimization needs. SIB Infotech offers customized Google Ads management services with transparent pricing, expert strategy, campaign monitoring, and performance optimization. Your ad budget is paid directly to Google. Contact us for a personalized quote."
+        
         data={googleAdsPowerData}
       />
     </>

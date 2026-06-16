@@ -62,10 +62,10 @@ const Pricing = ({ batchtitle, heading, description }) => {
     <section className="bgGrey">
       <div className="containerFull">
         <p class="title fontWeight600  text-center">{batchtitle}</p>
-        <h3
-          className="text-center mt-3 large_heading2 fontHeading2 fontWeight300 text_red"
+        <h2
+          className="text-center mt-3 large_heading2 fontHeading2 fontWeight600 text_red"
           dangerouslySetInnerHTML={{ __html: heading }}
-        ></h3>
+        ></h2>
         <p
           className="mt-4 text-center title fontWeight500"
           dangerouslySetInnerHTML={{ __html: description }}
