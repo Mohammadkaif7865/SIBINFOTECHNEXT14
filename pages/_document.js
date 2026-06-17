@@ -3,11 +3,6 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
-    const currentPage = this.props.__NEXT_DATA__?.page;
-
-    const hideGlobalLocalBusiness =
-      currentPage === "/search-engine-optimization-seo-services";
-
     const websiteSchema = {
       "@context": "https://schema.org",
       "@type": "WebSite",
@@ -49,24 +44,59 @@ class MyDocument extends Document {
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com/",
       image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
-      priceRange: "₹5,000 - ₹500,000",
-      telephone: "+91 92222 60000",
+      logo: "https://www.sibinfotech.com/assets/images/logo.webp",
+      telephone: "+91-92222-60000",
       email: "contact@sibinfotech.com",
+      priceRange: "Call +91-92222-60000 | contact@sibinfotech.com",
+      sameAs: [
+        "https://x.com/sibinfotech",
+        "https://www.linkedin.com/company/sib-infotech",
+        "https://www.facebook.com/sibinfotech",
+        "https://www.youtube.com/user/sibinfotech",
+        "https://www.instagram.com/sibinfotech",
+        "https://www.pinterest.com/sibinfotech",
+      ],
       address: {
         "@type": "PostalAddress",
         streetAddress:
-          "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-        addressLocality: "Mumbai, Maharashtra",
-        addressCountry: "India",
+          "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West, Mumbai, Maharashtra 400064",
+        addressLocality: "Malad (West), Mumbai",
+        addressRegion: "Maharashtra",
+        addressCountry: "IN",
         postalCode: "400064",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "19.1018364",
+        longitude: "72.887766",
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          opens: "09:00",
+          closes: "19:00",
+        },
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 92222-60000",
+        contactType: "Customer Support",
       },
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.4",
+        ratingValue: "4.9",
         bestRating: "5",
-        reviewCount: "200",
+        worstRating: "3",
+        ratingCount: "2022",
       },
-      openingHours: ["Mon-Sat 09:30 AM - 06:30 PM"],
     };
 
     return (
@@ -130,14 +160,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }}
           />
 
-          {!hideGlobalLocalBusiness && (
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{
-                __html: JSON.stringify(localBusinessSchema),
-              }}
-            />
-          )}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(localBusinessSchema),
+            }}
+          />
 
           {/* ---------- Clarity: INERT ---------- */}
           <script
