@@ -712,16 +712,16 @@ const Seo = () => {
                 traditional listings.
               </p>
 
-              <p className="customText">
+              {/* <p className="customText">
                 At SIB Infotech, we have built a custom AI SEO framework that
                 blends traditional SEO with AEO and GEO strategies. We help
                 Mumbai businesses get found across every modern search surface,
                 today and tomorrow.
-              </p>
+              </p> */}
 
               <p className="customText">
-                The brands that adapt now will dominate the next decade. The
-                ones that wait will struggle to be found at all.
+                The cost of SEO services in Mumbai varies based on factors such as your website size, industry competition, current search visibility, and business objectives. At SIB Infotech, we create customized SEO strategies tailored to your specific needs and growth goals. Our services include on-page SEO, off-page SEO, technical optimization, content enhancement, and detailed monthly reporting. With transparent communication, measurable results, and no long-term lock-in contracts, we focus on delivering sustainable organic growth. Request a free SEO audit and consultation to discover the best SEO approach for your business.
+
               </p>
             </div>
 
@@ -863,7 +863,7 @@ const Seo = () => {
       <Partnership
         agencyWorkflow={agencyWorkflow}
         title={"Our Proven 6-Step SEO Process"}
-        rightDiscription={`SEO is not magic. It is a process. Here is exactly how we deliver results for every client. Every successful SEO campaign starts with understanding the business, researching the right keywords, analyzing competitors, and identifying technical issues that may be blocking growth.`}
+        rightDiscription={`The cost of SEO services in Mumbai depends on website size, competition, current visibility, and business goals. At SIB Infotech, we provide customized SEO strategies, including on-page SEO, off-page SEO, technical SEO, content optimization, and monthly reporting, with transparent communication and no long-term lock-in contracts`}
         // tagline={'Seamless, Scalable, and Results-Driven'}
       />
       <PartnerBadges />

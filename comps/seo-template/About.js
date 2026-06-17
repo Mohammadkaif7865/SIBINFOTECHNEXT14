@@ -26,13 +26,7 @@ const About = () => {
           </div>
           <div className="col-lg-6 ps-lg-5">
             <p>
-              Most customers never go beyond Google’s first page. If your
-              business is not ranking there, your competitors are getting the
-              clicks, leads, and sales. Today, search goes beyond Google. Buyers
-              now discover businesses through ChatGPT, Google AI Overviews,
-              Gemini, voice search, and Google Maps. You need to be visible
-              across traditional search, AI search, and local search at the same
-              time.
+            SIB Infotech is a leading SEO service company in Mumbai with an office at Mindspace, Malad West. Businesses across Mumbai, from Andheri startups and Bandra D2C brands to BKC firms and Thane manufacturers, partner with us for SEO that delivers measurable growth. We understand Mumbai’s search landscape, local buyer behaviour, and industry-wise keyword difficulty. Our Mumbai team offers strategy sessions, Google Business Profile optimization, local citation building, and review management so your business dominates Google Search and Maps.
             </p>
             <div className="mt-3">
               <Link className="btnHomeBanner about3" href={"/contact-us"}>
