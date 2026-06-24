@@ -208,17 +208,17 @@ const nextConfig = {
       },
       {
         source: "/article-submission-services-mumbai-india",
-        destination: "/article-submission-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/directory-submission-services-mumbai-india",
-        destination: "/directory-submission-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/forum-postings-services-mumbai-india",
-        destination: "/forum-postings-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
@@ -238,17 +238,17 @@ const nextConfig = {
       },
       {
         source: "/regional-local-seo-services-mumbai-india",
-        destination: "/regional-local-seo-services",
+        destination: "/local-seo-services",
         permanent: true,
       },
       {
         source: "/social-bookmarking-services-mumbai-india",
-        destination: "/social-bookmarking-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/press-release-submission-services-mumbai-india",
-        destination: "/press-release-submission-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
@@ -342,14 +342,116 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/blog/benefits-of-outsourcing-ppc-management-services",
+        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        permanent: true,
+      },
+      {
+        source:
+          "/blog/unlocking-success-with-ppc-management-companies-in-india",
+        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        permanent: true,
+      },
+      {
+        source: "/services-pay-per-click-management-services",
+        destination: "/pay-per-click-ppc-management-services",
+        permanent: true,
+      },
+      {
         source: "/social-media-optimization",
         destination: "/social-media-optimization-services",
         permanent: true,
       },
-
       {
         source: "/ecommerce-solutions-company-mumbai-india.php",
         destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/seo-consultancy-services-mumbai-india",
+        destination: "/search-engine-optimization-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/seo-methodology-mumbai-india",
+        destination: "/search-engine-optimization-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/guaranteed-top-10-search-engine-ranking-mumbai-india",
+        destination: "/search-engine-optimization-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/seo-money-back-guarantee-service-india",
+        destination: "/search-engine-optimization-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/search-engine-optimization-research-mumbai-india",
+        destination: "/keyword-research-services-mumbai-india",
+        permanent: true,
+      },
+      {
+        source: "/regional-local-seo-services",
+        destination: "/local-seo-services",
+        permanent: true,
+      },
+      {
+        source:
+          "/blog/local-seo-what-it-is-and-why-its-important-for-your-business",
+        destination: "/local-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/website-analysis-services-mumbai-india",
+        destination: "/website-audit-services-mumbai-india",
+        permanent: true,
+      },
+      {
+        source: "/website-usability-report-india",
+        destination: "/website-audit-services-mumbai-india",
+        permanent: true,
+      },
+      {
+        source: "/article-submission-services",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+      {
+        source: "/directory-submission-services",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+      {
+        source: "/forum-postings-services",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+      {
+        source: "/social-bookmarking-services",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+      {
+        source: "/press-release-submission-services",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+      {
+        source: "/ecommerce-seo-services-packages",
+        destination: "/e-commerce-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/blog/seo-for-e-commerce-websites",
+        destination: "/e-commerce-seo-services",
+        permanent: true,
+      },
+      {
+        source:
+          "/blog/off-page-seo-building-your-websites-authority-and-reputation",
+        destination: "/off-page-seo-services",
         permanent: true,
       },
     ];
@@ -357,7 +459,6 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // Apply HSTS to all routes
         source: "/(.*)",
         headers: [
           {
