@@ -63,6 +63,8 @@ const GONE_URLS = new Set([
   "/blogs/ways-to-make-your-website's-landing-page-a-conversion-machine",
   "/zen-cart-development-companies-mumbai-india/contact-us.php",
   "/clients.php",
+  "/paid-inclusion-services-mumbai-india",
+  "/search-engine-marketing-companies-mumbai-india",
 ]);
 
 function getNormalizedPathname(pathname) {
