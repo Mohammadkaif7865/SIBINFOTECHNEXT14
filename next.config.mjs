@@ -454,6 +454,11 @@ const nextConfig = {
         destination: "/off-page-seo-services",
         permanent: true,
       },
+      {
+        source: "/ppc-management-services-packages",
+        destination: "/pay-per-click-ppc-management-services",
+        permanent: true,
+      },
     ];
   },
   async headers() {
