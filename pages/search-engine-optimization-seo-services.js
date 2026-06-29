@@ -21,6 +21,16 @@ export default function SearchEngineOptimizationServices() {
       },
     ],
   };
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Search Engine Optimization Services in India",
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".hero-intro", ".faq-section", ".seo-services-summary"],
+    },
+    url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+  };
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -95,153 +105,48 @@ export default function SearchEngineOptimizationServices() {
       ],
     },
   };
-
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
       {
         "@type": "Question",
-        name: "What is SEO?",
+        name: "What are search engine optimization services in India?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "SEO or 'search engine optimization is the process of improving the quality and quantity of website traffic. This is achieved by increasing its visibility on search engines, improving rankings for unpaid results. As a marketing strategy, SEO has long-term benefits and provides a high return-on-investment.",
+          text: "Search engine optimization services in India help businesses rank higher on Google through on-page optimization, technical SEO, link building, and content strategy. SIB Infotech provides end-to-end SEO services for businesses across 40+ countries.",
         },
       },
       {
         "@type": "Question",
-        name: "What are your SEO plans?",
+        name: "How much do SEO services cost in India?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "<p>SEO is a results-oriented process that requires goal strategies to bring good results. We continuously strive to provide a complete package of SEO services including:</p><ul><li>Content analysis and optimization</li><li>Website Structure Analysis</li><li>Off-Page SEO and On-Page SEO</li><li>Website code optimization</li><li>Website structure optimization</li><li>Keyword Research</li><li>Local SEO Content Writing and Placement</li></ul><p>SEO Plans are based on customer requirements and their objective. Our SEO Packages offered are tailored made suitable for all kinds of budgets</p>",
+          text: "SEO services in India start from $250 per month at SIB Infotech, with flexible packages covering on-page SEO, off-page SEO, technical SEO, and local SEO. No long-term contracts.",
         },
       },
       {
         "@type": "Question",
-        name: "How long does it take to see the result?",
+        name: "Which is the best SEO company in India?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "SEO grows over time and the entire SEO process takes about 3 to 6 months to see the expected results, with a minimum of 2 to 3 months in link building, on-page optimization, off-page optimization, content creation, and marketing. Is complete. Another fact is that SEO results are expected to increase over time, so results in 6 months will be slightly lower than in 12 months",
+          text: "SIB Infotech is one of the top SEO companies in India, recognized as a Google Premier Partner (top 3% of agencies in India) with 20+ years of experience and 1000+ brands ranked.",
         },
       },
       {
         "@type": "Question",
-        name: "What is the cost of SEO services?",
+        name: "What is the difference between SEO, AEO, and GEO?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Our SEO services' cost depends on the client's requirements. We provide custom SEO packages tailor-made to fit as per clients budget for SEO. We cover a vast range of services in our SEO packages' intending to improve website traffic and bring higher ranking on Google search result pages.",
+          text: "SEO improves Google rankings. AEO (Answer Engine Optimization) structures content for AI assistants and voice search. GEO (Generative Engine Optimization) ensures brand visibility inside AI-generated answers from ChatGPT, Gemini, and Google AI Overviews.",
         },
       },
       {
         "@type": "Question",
-        name: "Why do you need SEO service for your website?",
+        name: "How long does SEO take to show results in India?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "SEO services offer visibility to your websites and improve SEO ranking gradually over search engines like Google, Yahoo, Bing, DuckDuckGo etc. A high ranking website would bring more traffic to its website and help lead generation for the business.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Ask for an initial SEO audit of your website?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We offer free SEO audit services as a part of the entire SEO package. We have dedicated professionals to provide SEO audit reports for your website, unlike some SEO companies in India that entirely rely on audit tools. We ensure that the audit report is developed thoroughly with covering elements like keyword research and competitor analysis.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does SEO Services cost per month?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Our SEO services' cost depends on the client's requirements. We provide custom SEO packages tailor-made to fit as per client's budget for SEO. We cover a vast range of services in our SEO packages' intending to improve website traffic and bring higher ranking on Google search result pages. SEO packages start from around USD 300 per month onwards.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is SEO worth it in 2026?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "With years crossing by, the emphasis on SEO is never degrading instead it is turning more prominent than ever. It is one of the most compelling digital marketing strategies that stimulate long-term results. In 2026, SEO continues to be significant and savvy marketers should discover their ways of managing content marketing alongside other traffic channels such as social media management. By targeting long-tailed keywords, SEO as inbound marketing broadens your brand's reach.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why SEO services are so expensive?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "<p>There are several reasons for SEO being expensive:</p><ul><li>It is a time taking process.</li><li>Calls for several resources to build up and maintain a campaign.</li><li>Relies on the expertise of the SEO specialist to establish and advance your strategy.</li></ul>",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do you rank first on Google?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "There is no tried and tested method for ranking first on Google. However, with the right keywords and SEO campaigns, your chances of ranking high can be increased. For that, you'll have to create tons of optimized content and you're good to go! With the right strategies, this will happen much sooner than you think.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Google rank SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Authority and relevancy are the two primary things Google looks for when crawling a website. Google will produce the results based on algorithms and information gathered by the spiders. These web pages are placed on the search results page in an order reflecting their page.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I choose a company for SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "<p>For choosing a suitable SEO Company for your brand follows these six steps:</p><ul><li>Ask for examples and case studies of successful SEO campaigns.</li><li>Think beyond SEO.</li><li>Visit the SEO Company in person.</li><li>Understand the risks of low-cost SEO agencies.</li><li>Avoid SEO guarantees.</li><li>Familiarize yourself with SEO pricing models and make an SEO budget.</li></ul>",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are SEO tools?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO tools determine the potential of your webpage for high rankings in search engine results. They provide keywords and backlinks information as well as insights into SEO competition on the Internet.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why Hire SEO Company in India?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Hiring an SEO company in India is a strategic choice fueled by a vast pool of skilled professionals focused on digital marketing. The cost-effective nature of Indian SEO services, coupled with competitive pricing, ensures businesses receive optimal value. With a proven track record and a diverse talent pool, these companies bring innovation and expertise to enhance online presence. The ability to navigate evolving industry trends and leverage cultural diversity allows for nuanced and targeted SEO strategies. Businesses can trust in achieving improved search engine rankings, driving organic traffic, and ultimately experiencing sustained growth by tapping into the comprehensive offerings of Indian SEO companies.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which is the best SEO service company in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The best SEO service company in Mumbai is one with verified results, transparent reporting, and recognised certifications. SIB Infotech is a Google Premier Partner agency based in Malad West, Mumbai, with 20+ years of SEO experience and 1000+ brands ranked across 40+ countries. Clients include Airtel, Finolex, Jindal Steel, and BPCL. You can request a free SEO audit to evaluate our approach before committing.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much do SEO services cost in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The cost of SEO services in Mumbai depends on several factors, including your website size, industry competition, target keywords, current search performance, and business goals. SEO requirements vary from one business to another, which is why most agencies offer customized plans based on the scope of work. At SIB Infotech, we provide tailored SEO solutions with transparent pricing, detailed reporting, and no long-term lock-in contracts. Contact our team for a free SEO audit and a customized proposal based on your specific growth objectives.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I hire an SEO expert in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "To hire an SEO expert in Mumbai, look for a Google Premier Partner agency with case studies, industry experience in your sector, and clear monthly reporting. SIB Infotech assigns a dedicated SEO specialist and account manager to every project. You can book a free SEO discovery call to discuss your goals before signing up.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to show results in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "For most Mumbai businesses, SEO shows initial improvements within 3 to 6 months and strong results within 6 to 12 months. Highly competitive Mumbai keywords in real estate, healthcare, and finance may take longer. Local SEO results, such as Google Maps visibility, often improve faster, within 60 to 90 days.",
+          text: "Most businesses see SEO improvements within 60 to 90 days, with significant page 1 rankings in 4 to 6 months. Local SEO in Mumbai shows results faster.",
         },
       },
     ],
@@ -249,15 +154,16 @@ export default function SearchEngineOptimizationServices() {
   const metaTags = (
     <>
       <title>
-        SEO Service Company in Mumbai | Google Premier Partner – SIB Infotech
+        Search Engine Optimization Services in India | SEO Company in Mumbai |
+        SIB Infotech
       </title>
       <meta
         name="description"
-        content="SIB Infotech is a leading SEO company in Mumbai with 20+ years of experience, helping 1,000+ brands improve search rankings across 40+ countries. Get a free SEO audit with no long-term contracts."
+        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
       />
       <meta
         name="keywords"
-        content="SEO service company in Mumbai, SEO company in Mumbai, SEO agency in Mumbai, best SEO company in Mumbai, SEO services in Mumbai, affordable SEO company Mumbai, hire SEO expert Mumbai, local SEO services Mumbai, SEO pricing Mumbai, professional SEO services Mumbai"
+        content="search engine optimization services india, seo services in india, best seo services in india, seo optimization services, search engine optimization services in india, seo company in mumbai, seo services india, top seo companies in india, seo packages india, search engine optimization packages, professional search engine optimization services, seo optimization companies, search optimization companies, seo management services, top seo services india, search engine optimisation services, seo company india"
       />
 
       <meta property="og:type" content="website" />
@@ -267,11 +173,11 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="og:title"
-        content="SEO Service Company in Mumbai | Google Premier Partner – SIB Infotech"
+        content="Search Engine Optimization Services in India | SEO Company in Mumbai | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="SIB Infotech is a leading SEO company in Mumbai with 20+ years of experience, helping 1,000+ brands improve search rankings across 40+ countries. Get a free SEO audit with no long-term contracts."
+        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
       />
       <meta
         property="og:image"
@@ -285,11 +191,11 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="twitter:title"
-        content="SEO Service Company in Mumbai | Google Premier Partner – SIB Infotech"
+        content="Search Engine Optimization Services in India | SEO Company in Mumbai | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="SIB Infotech is a leading SEO company in Mumbai with 20+ years of experience, helping 1,000+ brands improve search rankings across 40+ countries. Get a free SEO audit with no long-term contracts."
+        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
       />
       <meta
         property="twitter:image"
@@ -308,7 +214,12 @@ export default function SearchEngineOptimizationServices() {
           __html: JSON.stringify(serviceSchema),
         }}
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(webPageSchema),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

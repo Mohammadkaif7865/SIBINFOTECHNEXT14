@@ -28,279 +28,98 @@ const Seo = () => {
   const faqsData = [
     {
       id: "faq1",
-      question: "What is SEO?",
-      answer: ` <div className="accordion-body">
-      <p>
-        SEO or ‘search engine optimization is the process of
-        improving the quality and quantity of website traffic.
-        This is achieved by increasing its visibility on
-        search engines, improving rankings for unpaid results.
-        As a marketing strategy, SEO has long-term benefits
-        and provides a high return-on-investment.
-      </p>
-    </div>`,
+      question: "What are search engine optimization services in India?",
+      answer: `<p>
+    Search engine optimization services in India help businesses rank higher on Google and other search engines through on-page optimization, technical SEO, link building, and content strategy. SIB Infotech provides end-to-end SEO services in India for businesses of all sizes across 40+ countries.
+    </p>`,
     },
     {
       id: "faq2",
-      question: "What are your SEO plans?",
-      answer: `   <div className="accordion-body">
-      <p className="customText">
-        SEO is a results-oriented process that requires goal
-        strategies to bring good results. We continuously
-        strive to provide a complete package of SEO services
-        including:
-      </p>
-      <ul className="listFlexItem">
-        <li>Content analysis and optimization</li>
-        <li>Website Structure Analysis</li>
-        <li>Off-Page SEO and On-Page SEO</li>
-        <li>Website code optimization</li>
-        <li>Website structure optimization</li>
-        <li>Keyword Research</li>
-        <li>Local SEO Content Writing and Placement</li>
-      </ul>
-      <p className="customText">
-        <strong>
-          SEO Plans are based on customer requirements and
-          their objective. Our SEO Packages offered are
-          tailored made suitable for all kinds of budgets
-        </strong>
-      </p>
-    </div>`,
+      question: "How much do SEO services cost in India?",
+      answer: `<p>
+    SEO services in India typically start from $250 per month and can range higher depending on the website size, industry competition, and scope of work. SIB Infotech offers affordable SEO packages in India with no long-term lock-in contracts and transparent monthly pricing.
+    </p>`,
     },
     {
       id: "faq3",
-      question: "How long does it take to see the result?",
+      question: "Which is the best SEO company in India?",
       answer: `<p>
-      SEO grows over time and the entire SEO process takes
-      about 3 to 6 months to see the expected results, with
-      a minimum of 2 to 3 months in link building, on-page
-      optimization, off-page optimization, content creation,
-      and marketing. Is complete. Another fact is that SEO
-      results are expected to increase over time, so results
-      in 6 months will be slightly lower than in 12 months
+    SIB Infotech is one of the top SEO companies in India, recognized as a Google Premier Partner — a distinction held by only the top 3% of agencies in India. With 20+ years of experience and 1000+ brands ranked across 40+ countries, SIB Infotech delivers measurable SEO results.
     </p>`,
     },
     {
       id: "faq4",
-      question: "What is the cost of SEO services?",
-      answer: `  <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per clients budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages.
+      question: "How long does SEO take to show results in India?",
+      answer: `<p>
+    Most businesses see initial SEO improvements within 60 to 90 days, with significant page 1 rankings appearing between 4 to 6 months depending on competition. Local SEO in Mumbai and other Indian cities typically shows results faster than national or global campaigns.
     </p>`,
     },
     {
       id: "faq5",
-      question: "Why do you need SEO service for your website?",
-      answer: ` <p>
-      SEO services offer visibility to your websites and
-      improve SEO ranking gradually over search engines like
-      Google, Yahoo, Bing, DuckDuckGo etc. A high ranking
-      website would bring more traffic to its website and
-      help lead generation for the business.
+      question: "What is the difference between SEO, AEO, and GEO?",
+      answer: `<p>
+    SEO (Search Engine Optimization) improves your rankings on Google. AEO (Answer Engine Optimization) structures your content to be used as direct answers by AI assistants and voice search. GEO (Generative Engine Optimization) ensures your brand appears inside AI-generated answers from ChatGPT, Gemini, and Google AI Overviews. SIB Infotech offers all three.
     </p>`,
     },
     {
       id: "faq6",
-      question: "Do you offer a free SEO audit in Mumbai?",
-      answer: ` <p>
-    Yes. SIB Infotech provides a free SEO audit for businesses in Mumbai and across India. The audit covers technical health, on-page optimization, keyword rankings, backlink profile, competitor analysis, and content gaps. You receive a detailed report with actionable recommendations, with no obligation to sign up.
+      question: "Does SIB Infotech offer local SEO services in Mumbai?",
+      answer: `<p>
+    Yes. SIB Infotech provides specialized local SEO services in Mumbai including Google Business Profile optimization, local citation building, review management, and geo-specific keyword targeting. Businesses across Andheri, Bandra, BKC, Malad, and Thane partner with SIB Infotech for local search dominance.
     </p>`,
     },
     {
       id: "faq7",
-      question: " How much does SEO cost per month at SIB Infotech?",
-      answer: ` <p>
-      Our SEO packages start from affordable monthly plans and are tailored to your business requirements. Pricing depends on your website size, industry competition, target audience, and growth goals. Every package includes on-page SEO, off-page SEO, technical optimization, content enhancements, and monthly performance reporting. Contact us for a free SEO audit and a customized quote.
+      question:
+        "What SEO packages are available for small businesses in India?",
+      answer: `<p>
+    SIB Infotech offers affordable SEO packages for small businesses in India starting from $250 per month. Packages include keyword research, on-page SEO, local SEO, link building, and monthly reporting — all without long-term contracts.
     </p>`,
     },
     {
       id: "faq8",
-      question: `Is SEO worth it in ${new Date().getFullYear()}?`,
+      question:
+        "What makes SIB Infotech different from other SEO companies in India?",
       answer: `<p>
-      With years crossing by, the emphasis on SEO is never
-      degrading instead it is turning more prominent than
-      ever. It is one of the most compelling digital
-      marketing strategies that stimulate long-term results.
-      In ${new Date().getFullYear()}, SEO continues to be
-      significant and savvy marketers should discover their
-      ways of managing content marketing alongside other
-      traffic channels such as social media management. By
-      targeting long-tailed keywords, SEO as inbound
-      marketing broadens your brand's reach.
+    SIB Infotech is a Google Premier Partner with 20+ years of SEO experience, serving 1000+ clients across 40+ countries. Unlike most SEO companies in India, SIB Infotech also provides AEO and GEO optimization for ChatGPT, Gemini, Perplexity, and Google AI Overviews — making brands visible across all modern search surfaces.
     </p>`,
-    },
-    {
-      id: "faq9",
-      question: `Why SEO services are so expensive?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        <strong>
-          There are several reasons for SEO being expensive:
-        </strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>It is a time taking process.</li>
-        <li>
-          Calls for several resources to build up and maintain
-          a campaign.
-        </li>
-        <li>
-          Relies on the expertise of the SEO specialist to
-          establish and advance your strategy.
-        </li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq10",
-      question: `How do you rank first on Google?`,
-      answer: `  <p>
-      There is no tried and tested method for ranking first
-      on Google. However, with the right keywords and SEO
-      campaigns, your chances of ranking high can be
-      increased. For that, you'll have to create tons of
-      optimized content and you're good to go! With the
-      right strategies, this will happen much sooner than
-      you think.
-    </p>`,
-    },
-    {
-      id: "faq11",
-      question: `How does Google rank SEO?`,
-      answer: `  <p>
-      Authority and relevancy are the two primary things
-      Google looks for when crawling a website. Google will
-      produce the results based on algorithms and
-      information gathered by the spiders. These web pages
-      are placed on the search results page in an order
-      reflecting their page.
-    </p>`,
-    },
-    {
-      id: "faq12",
-      question: `How do I choose a company for SEO?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        For choosing a suitable SEO Company for your brand
-        follows these six steps:
-      </p>
-      <ul>
-        <li>
-          Ask for examples and case studies of successful SEO
-          campaigns.
-        </li>
-        <li>Think beyond SEO.</li>
-        <li>Visit the SEO Company in person.</li>
-        <li>
-          Understand the risks of low-cost SEO agencies.
-        </li>
-        <li>Avoid SEO guarantees.</li>
-        <li>
-          Familiarize yourself with SEO pricing models and
-          make an SEO budget.
-        </li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq13",
-      question: `What are SEO tools?`,
-      answer: ` <p>
-      SEO tools determine the potential of your webpage for
-      high rankings in search engine results. They provide
-      keywords and backlinks information as well as insights
-      into SEO competition on the Internet.
-    </p>`,
-    },
-    {
-      id: "faq14",
-      question: `Why Hire SEO Company in India?`,
-      answer: ` <p>
-      Hiring an SEO company in India is a strategic choice
-      fueled by a vast pool of skilled professionals focused
-      on digital marketing. The cost-effective nature of
-      Indian SEO services, coupled with competitive pricing,
-      ensures businesses receive optimal value. With a
-      proven track record and a diverse talent pool, these
-      companies bring innovation and expertise to enhance
-      online presence. The ability to navigate evolving
-      industry trends and leverage cultural diversity allows
-      for nuanced and targeted SEO strategies. Businesses
-      can trust in achieving improved search engine
-      rankings, driving organic traffic, and ultimately
-      experiencing sustained growth by tapping into the
-      comprehensive offerings of Indian SEO companies.
-    </p>`,
-    },
-    {
-      id: "faq15",
-      question: `Which is the best SEO service company in Mumbai?`,
-      answer: `<p>
-    The best SEO service company in Mumbai is one with verified results, transparent reporting, and recognised certifications. SIB Infotech is a Google Premier Partner agency based in Malad West, Mumbai, with 20+ years of SEO experience and 1000+ brands ranked across 40+ countries. Clients include Airtel, Finolex, Jindal Steel, and BPCL. You can request a free SEO audit to evaluate our approach before committing.
-  </p>`,
-    },
-    {
-      id: "faq16",
-      question: `How much do SEO services cost in Mumbai?`,
-      answer: `<p>
-    The cost of SEO services in Mumbai depends on several factors, including your website size, industry competition, target keywords, current search performance, and business goals. SEO requirements vary from one business to another, which is why most agencies offer customized plans based on the scope of work. At SIB Infotech, we provide tailored SEO solutions with transparent pricing, detailed reporting, and no long-term lock-in contracts. Contact our team for a free SEO audit and a customized proposal based on your specific growth objectives.
-  </p>`,
-    },
-    {
-      id: "faq17",
-      question: `How do I hire an SEO expert in Mumbai?`,
-      answer: `<p>
-    To hire an SEO expert in Mumbai, look for a Google Premier Partner agency with case studies, industry experience in your sector, and clear monthly reporting. SIB Infotech assigns a dedicated SEO specialist and account manager to every project. You can book a free SEO discovery call to discuss your goals before signing up.
-  </p>`,
-    },
-    {
-      id: "faq18",
-      question: `How long does SEO take to show results in Mumbai?`,
-      answer: `<p>
-    For most Mumbai businesses, SEO shows initial improvements within 3 to 6 months and strong results within 6 to 12 months. Highly competitive Mumbai keywords in real estate, healthcare, and finance may take longer. Local SEO results, such as Google Maps visibility, often improve faster, within 60 to 90 days.
-  </p>`,
     },
   ];
   const seoServices = [
     {
       title: `On-Page SEO <br class="d-none d-md-lg "/> Optimization`,
       description:
-        "We optimize every page of your website so Google understands exactly what you offer. This includes title tags, meta descriptions, header structure, schema markup, smart keyword placement, internal linking, and content that is built to convert.",
+        "Title tags, meta descriptions, header structure, schema markup, keyword placement, and internal linking — all aligned to what Google needs to rank your pages confidently.",
       img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
     },
     {
-      title: `Off-Page SEO & <br class="d-none d-md-lg "/> Link Building`,
+      title: `Off-Page SEO and <br class="d-none d-md-lg "/> Link Building`,
       description:
-        "We build your website's authority through high-quality backlinks, digital PR, brand mentions, guest posts, and outreach to top publications. The goal is simple. Make Google trust your site enough to rank it on page 1.",
+        "High-authority backlinks, digital PR, guest posting, and brand mentions that build domain trust and push rankings to page 1.",
       img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
     },
     {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "A slow, broken, or hard-to-crawl website kills rankings. We fix everything under the hood. Site speed, core web vitals, mobile responsiveness, broken links, indexing issues, and crawlability. So Google can read and rank your site smoothly.",
+        "Core Web Vitals, site speed, mobile responsiveness, crawlability, and indexing fixes that give Google a clean, fast, rankable website.",
       img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
     },
     {
-      title: `Local SEO <br class="d-none d-md-lg "/> Services`,
+      title: `Local SEO Services <br class="d-none d-md-lg "/> in Mumbai and India`,
       description:
-        "If your customers are in Mumbai or anywhere else in India, you need to show up in local searches. We optimize your Google Business Profile, build local citations, manage reviews, and target geo-specific keywords so you dominate the near me results.",
+        "Google Business Profile optimization, local citations, review management, and geo-specific keyword targeting for 'near me' dominance across Mumbai and all major Indian cities.",
       img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
     },
     {
       title: `E-Commerce SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Online stores need SEO built for product pages, category structures, and shopping intent. We optimize product titles, schemas, internal navigation, and content so your products actually get discovered and bought.",
+        "Product page optimization, category structure, shopping intent content, and schema markup so your products get discovered and purchased.",
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
     },
     {
       title: `Content SEO <br class="d-none d-md-lg "/> Services`,
       description:
-        "Great rankings start with great content. We write blogs, pillar pages, service pages, and resource hubs that target the right keywords, answer real customer questions, and build long-term organic traffic that compounds.",
+        "Blogs, pillar pages, service pages, and resource hubs that target the right keywords, answer buyer questions, and build organic traffic that compounds over time.",
       img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
     },
   ];
@@ -362,49 +181,29 @@ const Seo = () => {
 
   const power_data = [
     {
-      title: "Google Premier Partner Status",
+      title: "Google Premier Partner (Top 3% in India)",
       description:
-        "We are recognized in the top 3% of Google Partners across India. This is not a self-claimed title. It is earned through performance, certifications, and consistent results.",
+        "Not self-claimed. Earned through certified performance, verified ad spend management, and consistent client results — placing SIB Infotech in the top 3% of all Google Partners in India.",
     },
     {
-      title: "20+ Years of Real SEO Mastery",
+      title: "20+ Years of Search Engine Optimization Expertise",
       description:
-        "SEO has changed dramatically over two decades. From keyword stuffing in 2005 to AI Overviews in 2026, we have adapted, learned, and led every shift in search. Few agencies in India can claim that depth.",
+        "From keyword-based optimization in 2005 to AI Overviews and GEO in 2026 — SIB Infotech has adapted through every major Google algorithm update. This depth is rare among top SEO companies in India.",
     },
     {
       title: "AI-Powered SEO Strategies",
       description:
-        "The future of search is AI. We are already optimizing brands for ChatGPT, Gemini, Perplexity, Claude, and Google's AI Overviews using GEO and AEO frameworks. Most agencies are still trying to figure out what AEO means.",
+        "The best SEO services in India now go beyond Google rankings. SIB Infotech already optimizes brands for ChatGPT, Gemini, Perplexity, Claude, and Google AI Overviews using GEO and AEO frameworks.",
     },
     {
       title: "1000+ Brands Ranked Higher",
       description:
-        "We have grown brands across every industry imaginable. Real estate, jewelry, education, manufacturing, healthcare, D2C, B2B SaaS, you name it. Each came in with different goals. Each walked out with better rankings, more traffic, and stronger revenue.",
+        "Real estate, healthcare, manufacturing, e-commerce, education, D2C, B2B SaaS — our search engine optimization services in India cover every vertical with proven results.",
     },
     {
-      title: "Affordable for Every Indian Business",
+      title: "Dedicated Account Manager — Not a Ticket System",
       description:
-        "We are an affordable seo company india businesses trust at every growth stage. From bootstrapped startups to mid-sized enterprises, our pricing scales with your needs and never with hidden surprises.",
-    },
-    {
-      title: "Transparent, No-Jargon Reporting",
-      description:
-        "You will always know what we are doing, why we are doing it, and what results you are getting. Monthly reports in plain English. No fluff. No confusing metrics. Just clear progress you can show your team.",
-    },
-    {
-      title: "Dedicated Account Manager",
-      description:
-        "You will work with a real human who knows your business, your goals, and your industry. Not a ticketing system. Not an overseas team you cannot reach. A real point of contact who picks up the phone when you call.",
-    },
-    {
-      title: "Data-Led Decisions",
-      description:
-        "Every move we make is backed by data. From keyword research to content strategy to link building, we test, measure, and refine. Your growth is not powered by gut feelings. It is powered by numbers.",
-    },
-    {
-      title: "Trusted Across 40+ Countries",
-      description:
-        "Our work has helped brands rank in India, the USA, the UK, Canada, Australia, the UAE, Singapore, and beyond. Global standards. Local expertise.",
+        "A real India-based SEO expert assigned to your account. Reachable on call, WhatsApp, and email. Knows your business, your competitors, and your goals.",
     },
   ];
 
@@ -478,10 +277,10 @@ const Seo = () => {
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  SEO Service{" "}
+                  Search Engine Optimization{" "}
                   <span className="text_red fontWeight700">
                     {" "}
-                    Company in Mumbai
+                    Services in India
                   </span>
                 </h1>
                 <p
@@ -490,8 +289,8 @@ const Seo = () => {
                     maxWidth: "80%",
                   }}
                 >
-                  Google Premier Partner SEO Agency Trusted by 1000+ Brands in
-                  40+ Countries
+                  Google Premier Partner | Trusted by 1000+ Brands in 40+
+                  Countries | 20+ Years of SEO Expertise
                 </p>
                 <p
                   className="mt-2  mt-lg-3 text-white"
@@ -499,13 +298,15 @@ const Seo = () => {
                     maxWidth: "80%",
                   }}
                 >
-                  SIB Infotech is a trusted SEO company in Mumbai with 20+ years
-                  of experience, helping businesses improve Google rankings,
-                  generate qualified leads, and grow online visibility. As a
-                  Google Premier Partner, we provide local SEO, technical SEO,
-                  content optimization, and AI search optimization for ChatGPT,
-                  Gemini, and Google AI Overviews. Get transparent reporting,
-                  dedicated support, no lock-in contracts, and a free SEO audit.
+                  search engine optimization services india, seo services in
+                  india, best seo services in india, seo optimization services,
+                  search engine optimization services in india, seo company in
+                  mumbai, seo services india, top seo companies in india, seo
+                  packages india, search engine optimization packages,
+                  professional search engine optimization services, seo
+                  optimization companies, search optimization companies, seo
+                  management services, top seo services india, search engine
+                  optimisation services, seo company india
                 </p>
                 <div className="mt-4">
                   <Link href="#contact" className="btnThemeRed me-3">
@@ -560,9 +361,9 @@ const Seo = () => {
       </div>
       <About />
       <Solution
-        heading={"Our Complete SEO Services in Mumbai "}
+        heading={" Complete Search Engine Optimization Services in India"}
         discription={
-          "Every business is different. Your SEO strategy should be too. We offer a complete range of professional seo services in mumbai designed to help you rank, grow, and win across every type of search. Here is everything we do under one roof:"
+          "Every business needs a different SEO strategy. SIB Infotech offers a full suite of search engine optimization services in India — from on-page and technical fixes to content, link building, and AI search optimization. Here is everything included under one roof."
         }
         data={seoServices}
       />
@@ -571,120 +372,114 @@ const Seo = () => {
         leftBoxContent={leftBoxContent}
         rightBoxContent={rightBoxContent}
       />
-
-      <section className="bgGrey2">
+      <section className="bgGrey2 ">
         <div className="containerFull">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
+          <div className="row justify-content-center text-center mb-5">
+            <div className="col-lg-9">
               <h2 className="heading fontWeight600">
-                AI SEO, AEO and GEO for Mumbai's{" "}
-                <span className="text_red">Competitive Search Landscape</span>
+                AI SEO, AEO, and GEO:
+                  How SIB Infotech Optimizes for <span className="text_red">the Future of Search</span> 
+               
               </h2>
-            </div>
 
-            <div className="col-lg-7">
-              <p>Search is not what it used to be.</p>
-
-              <p>
-                A few years ago, ranking on Google was the only game in town.
-                Today, your customers are searching across multiple platforms.
-                They ask ChatGPT for recommendations. They scroll through
-                Google's AI Overviews instead of clicking links. They use
-                Perplexity for research, Gemini for quick answers, and Claude to
-                compare options before making a decision. If your business is
-                not visible across all of these surfaces, you are missing out on
-                real buyers every single day. This is exactly where
-                next-generation SEO comes in. And this is where SIB Infotech is
-                leading the way in Mumbai.
+              <p className="mt-4">
+                Modern search has changed. In 2026, buyers do not just type into
+                Google — they ask ChatGPT, query Gemini, use Perplexity for
+                research, and read Google AI Overviews before clicking any link.
+                Brands not visible on these surfaces miss real buyers every day.
               </p>
             </div>
           </div>
-          <div className="row mt-4 mt-lg-5">
+
+          <div className="row">
+            <div className="col-lg-6 mb-4">
+              <div className="customCard h-100">
+                <h3 className="small_heading fontWeight600 mb-3">
+                  What is AEO (Answer Engine Optimization)?
+                </h3>
+
+                <p>
+                  AEO is the practice of structuring website content so AI
+                  assistants, voice search, and featured snippets can extract
+                  and use it as a direct answer. SIB Infotech implements AEO
+                  through clear question-answer formatting, FAQPage schema,
+                  HowTo schema, and concise factual sections that AI systems can
+                  cite confidently.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6 mb-4">
+              <div className="customCard h-100">
+                <h3 className="small_heading fontWeight600 mb-3">
+                  What is GEO (Generative Engine Optimization)?
+                </h3>
+
+                <p>
+                  GEO ensures your brand name appears inside AI-generated
+                  answers from ChatGPT, Gemini, Perplexity, Claude, and Google
+                  AI Overviews. When someone asks 'What is the best SEO company
+                  in India?' — GEO is what determines whether SIB Infotech gets
+                  cited or ignored.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row mt-4">
             <div className="col-lg-12">
-              <h3 className="fontWeight600 heading2 text-center mb-4 mb-lg-5">
-                The 3 Pillars of{" "}
-                <span className="text_red">Modern Search Visibility</span>
-              </h3>
-            </div>
+              <div className="customCard">
+                <h3 className="small_heading fontWeight600 mb-4">
+                  How SIB Infotech Implements AEO + GEO:
+                </h3>
 
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className="nextGenSeoCard h-100">
-                <div className="nextGenSeoNumber">01</div>
+                <div className="row">
+                  <div className="col-lg-6">
+                    <ul className="list-unstyled">
+                      <li className="mb-3">
+                        Entity-rich writing that names SIB Infotech as a
+                        subject, not just a website
+                      </li>
 
-                <h4 className="small_heading fontWeight600 mb-2 ">AI SEO</h4>
+                      <li className="mb-3">
+                        Citation-friendly content structured for AI models to
+                        extract and reference
+                      </li>
 
-                <p>
-                  AI SEO is the practice of optimizing your website to appear in
-                  AI-powered search results like Google's AI Overviews, ChatGPT,
-                  Gemini, Perplexity, and Claude. Unlike traditional SEO that
-                  focuses only on keywords and backlinks, AI SEO focuses on
-                  context, entity relationships, structured content, and how
-                  clearly your information is communicated to AI models.
-                </p>
+                      <li className="mb-3">
+                        FAQPage, HowTo, and Speakable schema markup on all key
+                        pages
+                      </li>
+                    </ul>
+                  </div>
 
-                <div className="whyMattersBox">
-                  <strong>Why it matters:</strong>
-                  <p>
-                    More than 40% of users now interact with AI search before
-                    they ever click a website link. If your brand is not part of
-                    the AI's answer, it is invisible to those buyers.
-                  </p>
+                  <div className="col-lg-6">
+                    <ul className="list-unstyled">
+                      <li className="mb-3">
+                        Consistent NAP (Name, Address, Phone) signals across all
+                        directories
+                      </li>
+
+                      <li className="mb-3">
+                        Brand mentions in authoritative publications that AI
+                        models trust
+                      </li>
+
+                      <li className="mb-3">
+                        Structured data (JSON-LD) to communicate facts clearly
+                        to AI crawlers
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className="nextGenSeoCard h-100">
-                <div className="nextGenSeoNumber">02</div>
-
-                <h4 className="small_heading  fontWeight600 mb-2 ">
-                  AEO <span>(Answer Engine Optimization)</span>
-                </h4>
-
-                <p>
-                  AEO is the strategy of structuring your content so it can be
-                  directly used as an answer by AI assistants, voice search, and
-                  featured snippets. AEO works around clear questions, concise
-                  answers, schema markup, and structured information that
-                  machines can quickly understand, trust, and quote.
-                </p>
-
-                <div className="whyMattersBox">
-                  <strong>Why it matters:</strong>
-                  <p>
-                    Voice search, smart speakers, and AI chatbots are now common
-                    entry points for buyers. Brands optimized for AEO get cited
-                    as the answer. Brands that ignore AEO get skipped
-                    completely.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className="nextGenSeoCard h-100">
-                <div className="nextGenSeoNumber">03</div>
-
-                <h4 className="small_heading  fontWeight600 mb-2 ">
-                  GEO <span>(Generative Engine Optimization)</span>
-                </h4>
-
-                <p>
-                  GEO is the newest layer of SEO. It focuses on helping your
-                  brand show up inside AI-generated answers from ChatGPT,
-                  Gemini, Perplexity, Claude, and Google AI Overviews. GEO uses
-                  citation-friendly content, authoritative sources, structured
-                  formats, and entity-rich writing to make sure AI models
-                  reference your brand when answering buyer questions.
-                </p>
-
-                <div className="whyMattersBox">
-                  <strong>Why it matters:</strong>
-                  <p>
-                    When a buyer asks AI tools "Which is the best SEO company in
-                    Mumbai?" or "Top digital marketing agencies in India", GEO
-                    is what decides whether your name shows up or your
-                    competitor's does.
+                <div className="mt-4">
+                  <p className="mb-0">
+                    <strong>
+                      SIB Infotech is one of the few SEO companies in India
+                      offering dedicated AEO and GEO optimization as part of
+                      every SEO engagement.
+                    </strong>
                   </p>
                 </div>
               </div>
@@ -692,7 +487,6 @@ const Seo = () => {
           </div>
         </div>
       </section>
-
       <section>
         <div className="containerFull">
           <div className="row align-items-center">
@@ -720,8 +514,17 @@ const Seo = () => {
               </p> */}
 
               <p className="customText">
-                The cost of SEO services in Mumbai varies based on factors such as your website size, industry competition, current search visibility, and business objectives. At SIB Infotech, we create customized SEO strategies tailored to your specific needs and growth goals. Our services include on-page SEO, off-page SEO, technical optimization, content enhancement, and detailed monthly reporting. With transparent communication, measurable results, and no long-term lock-in contracts, we focus on delivering sustainable organic growth. Request a free SEO audit and consultation to discover the best SEO approach for your business.
-
+                The cost of SEO services in Mumbai varies based on factors such
+                as your website size, industry competition, current search
+                visibility, and business objectives. At SIB Infotech, we create
+                customized SEO strategies tailored to your specific needs and
+                growth goals. Our services include on-page SEO, off-page SEO,
+                technical optimization, content enhancement, and detailed
+                monthly reporting. With transparent communication, measurable
+                results, and no long-term lock-in contracts, we focus on
+                delivering sustainable organic growth. Request a free SEO audit
+                and consultation to discover the best SEO approach for your
+                business.
               </p>
             </div>
 
@@ -853,9 +656,9 @@ const Seo = () => {
       </section>
 
       <SIBPower
-        title="Why Brands Choose SIB Infotech as Their SEO Service Company in Mumbai"
+        title="Why SIB Infotech Is India's Most Trusted SEO Company"
         // subtitle=" SEO Service Company in Mumbai "
-        description_right="There are hundreds of agencies in Mumbai offering SEO. So why do brands across India and 40+ countries choose SIB Infotech as their long-term growth partner? Here is what makes us different:"
+        description_right="Hundreds of agencies offer SEO services in India. Very few deliver what they promise. Here is what makes SIB Infotech genuinely different — and why brands across 40+ countries keep coming back."
         // description_right="Did you know that over 75% of users never scroll past the first page of Google? More importantly, the top three search results capture over 60% of all clicks. That’s why being at the top isn’t an option—it’s a necessity! Our expertise as a leading SEO company in India ensures that your website doesn’t just rank—it dominates. "
         data={power_data}
       />
