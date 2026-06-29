@@ -91,12 +91,14 @@ const Seo = () => {
       description:
         "Title tags, meta descriptions, header structure, schema markup, keyword placement, and internal linking — all aligned to what Google needs to rank your pages confidently.",
       img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      link: "/on-page-seo-services",
     },
     {
       title: `Off-Page SEO and <br class="d-none d-md-lg "/> Link Building`,
       description:
         "High-authority backlinks, digital PR, guest posting, and brand mentions that build domain trust and push rankings to page 1.",
       img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      link: "/off-page-seo-services",
     },
     {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services`,
@@ -109,12 +111,14 @@ const Seo = () => {
       description:
         "Google Business Profile optimization, local citations, review management, and geo-specific keyword targeting for 'near me' dominance across Mumbai and all major Indian cities.",
       img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      link: "/local-seo-services",
     },
     {
       title: `E-Commerce SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Product page optimization, category structure, shopping intent content, and schema markup so your products get discovered and purchased.",
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      link: "/e-commerce-website-design-development-services",
     },
     {
       title: `Content SEO <br class="d-none d-md-lg "/> Services`,
@@ -284,7 +288,7 @@ const Seo = () => {
                   </span>
                 </h1>
                 <p
-                  className="small_heading fontWeight500 mt-2  mt-lg-3 text-white"
+                  className="small_heading fontWeight500 mt-2  mt-lg-2 text-white"
                   style={{
                     maxWidth: "80%",
                   }}
@@ -298,15 +302,12 @@ const Seo = () => {
                     maxWidth: "80%",
                   }}
                 >
-                  search engine optimization services india, seo services in
-                  india, best seo services in india, seo optimization services,
-                  search engine optimization services in india, seo company in
-                  mumbai, seo services india, top seo companies in india, seo
-                  packages india, search engine optimization packages,
-                  professional search engine optimization services, seo
-                  optimization companies, search optimization companies, seo
-                  management services, top seo services india, search engine
-                  optimisation services, seo company india
+                  SIB Infotech provides result-driven search engine optimization
+                  services in India, helping businesses improve Google rankings,
+                  increase organic traffic, and generate quality leads. Since
+                  2005, we have helped 1000+ brands across 40+ countries achieve
+                  sustainable online growth through proven SEO strategies and
+                  AI-powered search optimization
                 </p>
                 <div className="mt-4">
                   <Link href="#contact" className="btnThemeRed me-3">
@@ -377,9 +378,8 @@ const Seo = () => {
           <div className="row justify-content-center text-center mb-5">
             <div className="col-lg-9">
               <h2 className="heading fontWeight600">
-                AI SEO, AEO, and GEO:
-                  How SIB Infotech Optimizes for <span className="text_red">the Future of Search</span> 
-               
+                AI SEO, AEO, and GEO: How SIB Infotech Optimizes for{" "}
+                <span className="text_red">the Future of Search</span>
               </h2>
 
               <p className="mt-4">

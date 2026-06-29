@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useEffect } from 'react';
+import { useEffect } from "react";
 import Link from "next/link";
 import { format } from "date-fns";
 import axios from "axios";
@@ -18,7 +18,7 @@ export async function getServerSideProps(context) {
   try {
     const resBlog = await axios.get(
       `${CONSTANTS.API_URL}blog/single/${slug}?slug=1`,
-      { headers }
+      { headers },
     );
     const resBlogs = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
       headers,
@@ -29,9 +29,12 @@ export async function getServerSideProps(context) {
     const blogSections = resBlog.data.blog_sections;
     const blogFaqs = resBlog.data.blog_faqs;
 
-    const resAuthor = await axios.get(`${CONSTANTS.API_URL}author/single/${blog[0].author_id}`, {
-      headers,
-    });
+    const resAuthor = await axios.get(
+      `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
+      {
+        headers,
+      },
+    );
     const author = resAuthor.data.author;
 
     return {
@@ -40,7 +43,7 @@ export async function getServerSideProps(context) {
         blogs,
         blogSections,
         blogFaqs,
-        author
+        author,
       },
     };
   } catch (error) {
@@ -94,10 +97,10 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === "undefined") return;
 
-    const sidebar = document.getElementById('blog-sidebar');
-    const faqSection = document.querySelector('.blog-faqs');
+    const sidebar = document.getElementById("blog-sidebar");
+    const faqSection = document.querySelector(".blog-faqs");
     if (!sidebar || !faqSection) return;
 
     const sidebarInitialTop = sidebar.offsetTop;
@@ -107,10 +110,10 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
 
     const handleScroll = () => {
       if (window.innerWidth < 992) {
-        sidebar.classList.remove('fixed-sidebar');
-        sidebar.style.visibility = 'visible';
-        sidebar.style.maxHeight = 'none';
-        sidebar.style.overflowY = 'visible';
+        sidebar.classList.remove("fixed-sidebar");
+        sidebar.style.visibility = "visible";
+        sidebar.style.maxHeight = "none";
+        sidebar.style.overflowY = "visible";
         return;
       }
 
@@ -118,50 +121,53 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
       const faqTop = faqSection.getBoundingClientRect().top + window.scrollY;
       const sidebarBottom = scrollTop + sidebarHeight;
 
-      if (scrollTop > (sidebarInitialTop + offsetBuffer) && sidebarBottom < faqTop) {
-        sidebar.classList.add('fixed-sidebar');
-        sidebar.style.visibility = 'visible';
+      if (
+        scrollTop > sidebarInitialTop + offsetBuffer &&
+        sidebarBottom < faqTop
+      ) {
+        sidebar.classList.add("fixed-sidebar");
+        sidebar.style.visibility = "visible";
         sidebar.style.maxHeight = `calc(100vh - ${scrollOffset + 20}px)`; // Adjust height to fit viewport
-        sidebar.style.overflowY = 'auto';
+        sidebar.style.overflowY = "auto";
       } else if (sidebarBottom >= faqTop) {
-        sidebar.classList.remove('fixed-sidebar');
-        sidebar.style.visibility = 'hidden';
+        sidebar.classList.remove("fixed-sidebar");
+        sidebar.style.visibility = "hidden";
       } else {
-        sidebar.classList.remove('fixed-sidebar');
-        sidebar.style.visibility = 'visible';
-        sidebar.style.maxHeight = 'none';
-        sidebar.style.overflowY = 'visible';
+        sidebar.classList.remove("fixed-sidebar");
+        sidebar.style.visibility = "visible";
+        sidebar.style.maxHeight = "none";
+        sidebar.style.overflowY = "visible";
       }
     };
 
     // Smooth scroll with offset
     const anchorLinks = sidebar.querySelectorAll('a[href^="#"]');
     const handleAnchorClick = (e) => {
-      const href = e.currentTarget.getAttribute('href');
+      const href = e.currentTarget.getAttribute("href");
       const target = document.querySelector(href);
       if (target) {
         e.preventDefault();
-        const top = target.getBoundingClientRect().top + window.scrollY - scrollOffset;
-        window.scrollTo({ top, behavior: 'smooth' });
+        const top =
+          target.getBoundingClientRect().top + window.scrollY - scrollOffset;
+        window.scrollTo({ top, behavior: "smooth" });
       }
     };
     anchorLinks.forEach((link) => {
-      link.addEventListener('click', handleAnchorClick);
+      link.addEventListener("click", handleAnchorClick);
     });
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll);
     handleScroll();
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
       anchorLinks.forEach((link) => {
-        link.removeEventListener('click', handleAnchorClick);
+        link.removeEventListener("click", handleAnchorClick);
       });
     };
   }, []);
-
 
   return (
     <div>
@@ -172,15 +178,33 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             <meta name="keywords" content={blog[0].meta_keywords} />
             <meta name="description" content={blog[0].meta_description} />
             <meta property="og:type" content="website" />
-            <meta property="og:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
+            <meta
+              property="og:url"
+              content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
+            />
             <meta property="og:title" content={blog[0].meta_title} />
-            <meta property="og:description" content={blog[0].meta_description} />
-            <meta property="og:image" content={`${CONSTANTS.BACKEND_URL + blog[0].image}`} />
+            <meta
+              property="og:description"
+              content={blog[0].meta_description}
+            />
+            <meta
+              property="og:image"
+              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+            />
             <meta property="twitter:card" content="summary_large_image" />
-            <meta property="twitter:url" content={`https://www.sibinfotech.com/blog/${blog[0].slug}`} />
+            <meta
+              property="twitter:url"
+              content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
+            />
             <meta property="twitter:title" content={blog[0].meta_title} />
-            <meta property="twitter:description" content={blog[0].meta_description} />
-            <meta property="twitter:image" content={`${CONSTANTS.BACKEND_URL + blog[0].image}`} />
+            <meta
+              property="twitter:description"
+              content={blog[0].meta_description}
+            />
+            <meta
+              property="twitter:image"
+              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+            />
             {blog[0]?.schema_jsonld && (
               <script
                 type="application/ld+json"
@@ -207,10 +231,14 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     <div className="rightSingleBlog">
                       <div className="inlineAdded">
                         <ul>
-                          <li>{format(new Date(blog[0].bdate), "MMM dd, yyyy")}</li>
+                          <li>
+                            {format(new Date(blog[0].bdate), "MMM dd, yyyy")}
+                          </li>
                         </ul>
                       </div>
-                      <h1 className="regular_heading fontHeading fontWeight600">{blog[0].name}</h1>
+                      <h1 className="regular_heading fontHeading fontWeight600">
+                        {blog[0].name}
+                      </h1>
                       {/* <div className="inlineAdded">
                         <ul>
                           <li><i className="fa fa-user-circle"></i> by Webdesk</li>
@@ -251,7 +279,6 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
 
                 {/* Main Content */}
                 <div className="col-lg-9 order-1 order-lg-2">
-
                   {blog[0]?.image && (
                     <div className="mb-3">
                       <img
@@ -263,9 +290,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   )}
 
                   {author && (
-
                     <div class="blog_section blog_section_shadow">
-
                       <h2 class="blog_section_item">About The Author</h2>
                       <div className="blogAuthor">
                         <div className="authorImage">
@@ -278,15 +303,14 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                           <p className="authorName">{author.name}</p>
                           <div
                             className="authorDescription"
-                            dangerouslySetInnerHTML={{ __html: author.description }}
+                            dangerouslySetInnerHTML={{
+                              __html: author.description,
+                            }}
                           ></div>
                         </div>
                       </div>
-
                     </div>
-
                   )}
-
 
                   {/* Blog Description */}
                   {blog[0]?.description && (
@@ -296,23 +320,33 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     ></div>
                   )}
 
-
                   {/* Blog Sections */}
-                  {blogSections && blogSections.length > 0 && blogSections.some(
-                    section => section.title || section.description || section.media || section.grey_quote
-                  ) && (
+                  {blogSections &&
+                    blogSections.length > 0 &&
+                    blogSections.some(
+                      (section) =>
+                        section.title ||
+                        section.description ||
+                        section.media ||
+                        section.grey_quote,
+                    ) && (
                       <>
                         {blogSections.map((section) => {
                           const sectionStyle = {};
-                          if (section.section_bg_color) sectionStyle.background = section.section_bg_color;
-                          if (section.section_border_color) sectionStyle.border = `1px solid ${section.section_border_color}`;
+                          if (section.section_bg_color)
+                            sectionStyle.background = section.section_bg_color;
+                          if (section.section_border_color)
+                            sectionStyle.border = `1px solid ${section.section_border_color}`;
 
                           const greyQuoteStyle = {
                             fontStyle: "italic",
-                            padding: "1rem"
+                            padding: "1rem",
                           };
-                          if (section.grey_quote_bg_color) greyQuoteStyle.background = section.grey_quote_bg_color;
-                          if (section.grey_quote_border_color) greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
+                          if (section.grey_quote_bg_color)
+                            greyQuoteStyle.background =
+                              section.grey_quote_bg_color;
+                          if (section.grey_quote_border_color)
+                            greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
 
                           return (
                             <div
@@ -321,27 +355,35 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                               className="mb-4 blog_section border-shadow"
                               style={sectionStyle}
                             >
-                              <h2 className="blog_section_item">{section.title}</h2>
+                              <h2 className="blog_section_item">
+                                {section.title}
+                              </h2>
 
                               <div className="blog_section_item">
-                                {section.media_type === "image" && section.media && (
-                                  <img
-                                    src={`${CONSTANTS.BACKEND_URL + section.media}`}
-                                    alt=""
-                                    className="img-fluid br-5 mb-3"
-                                  />
-                                )}
+                                {section.media_type === "image" &&
+                                  section.media && (
+                                    <img
+                                      src={`${CONSTANTS.BACKEND_URL + section.media}`}
+                                      alt=""
+                                      className="img-fluid br-5 mb-3"
+                                    />
+                                  )}
                               </div>
 
                               <div
                                 className="blog_section_item"
-                                dangerouslySetInnerHTML={{ __html: section.description }}
+                                dangerouslySetInnerHTML={{
+                                  __html: section.description,
+                                }}
                               />
 
                               {section.grey_quote && (
                                 <div
-                                  className="blog_section_item blog_grey_quote" style={greyQuoteStyle}
-                                  dangerouslySetInnerHTML={{ __html: section.grey_quote }}
+                                  className="blog_section_item blog_grey_quote"
+                                  style={greyQuoteStyle}
+                                  dangerouslySetInnerHTML={{
+                                    __html: section.grey_quote,
+                                  }}
                                 />
                               )}
                             </div>
@@ -350,66 +392,79 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       </>
                     )}
 
-
                   {/* FAQs */}
-                  {blogFaqs && blogFaqs.length > 0 && blogFaqs.some(faq => faq.question || faq.answer) && (
-                    <FaqAccordion faqs={blogFaqs} />
-                  )}
-
+                  {blogFaqs &&
+                    blogFaqs.length > 0 &&
+                    blogFaqs.some((faq) => faq.question || faq.answer) && (
+                      <FaqAccordion faqs={blogFaqs} />
+                    )}
 
                   {/* Action Section */}
-                  {blog[0] && (blog[0].action_title || blog[0].action_description_1 || blog[0].action_btn_1_text) && (
-                    <div className="action_tab my-5">
-                      <div className="p-4 rounded" style={{ backgroundColor: "#e9f0ff" }}>
-                        <h2 className="mb-4">{blog[0].action_title}</h2>
+                  {blog[0] &&
+                    (blog[0].action_title ||
+                      blog[0].action_description_1 ||
+                      blog[0].action_btn_1_text) && (
+                      <div className="action_tab my-5">
+                        <div
+                          className="p-4 rounded"
+                          style={{ backgroundColor: "#e9f0ff" }}
+                        >
+                          <h2 className="mb-4">{blog[0].action_title}</h2>
 
-                        <div className="row">
-                          <div className="col-md-6">
-                            {blog[0].action_subtitle_1 && (
-                              <p className="mt-2">{blog[0].action_subtitle_1}</p>
-                            )}
-                            <div
-                              className="mb-3"
-                              dangerouslySetInnerHTML={{ __html: blog[0].action_description_1 }}
-                            />
-                            {blog[0].action_btn_1_text && blog[0].action_btn_1_link && (
-                              <a
-                                href={blog[0].action_btn_1_link}
-                                className="btn btn-primary me-2"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {blog[0].action_btn_1_text}
-                              </a>
-                            )}
-                          </div>
-                          <div className="col-md-6">
+                          <div className="row">
+                            <div className="col-md-6">
+                              {blog[0].action_subtitle_1 && (
+                                <p className="mt-2">
+                                  {blog[0].action_subtitle_1}
+                                </p>
+                              )}
+                              <div
+                                className="mb-3"
+                                dangerouslySetInnerHTML={{
+                                  __html: blog[0].action_description_1,
+                                }}
+                              />
+                              {blog[0].action_btn_1_text &&
+                                blog[0].action_btn_1_link && (
+                                  <a
+                                    href={blog[0].action_btn_1_link}
+                                    className="btn btn-primary me-2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    {blog[0].action_btn_1_text}
+                                  </a>
+                                )}
+                            </div>
+                            <div className="col-md-6">
+                              {blog[0].action_subtitle_2 && (
+                                <p className="mt-2">
+                                  {blog[0].action_subtitle_2}
+                                </p>
+                              )}
 
-                            {blog[0].action_subtitle_2 && (
-                              <p className="mt-2">{blog[0].action_subtitle_2}</p>
-                            )}
-
-                            <div
-                              className="mb-3"
-                              dangerouslySetInnerHTML={{ __html: blog[0].action_description_2 }}
-                            />
-                            {blog[0].action_btn_2_text && blog[0].action_btn_2_link && (
-                              <a
-                                href={blog[0].action_btn_2_link}
-                                className="btn btn-outline-dark"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {blog[0].action_btn_2_text}
-                              </a>
-                            )}
+                              <div
+                                className="mb-3"
+                                dangerouslySetInnerHTML={{
+                                  __html: blog[0].action_description_2,
+                                }}
+                              />
+                              {blog[0].action_btn_2_text &&
+                                blog[0].action_btn_2_link && (
+                                  <a
+                                    href={blog[0].action_btn_2_link}
+                                    className="btn btn-outline-dark"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    {blog[0].action_btn_2_text}
+                                  </a>
+                                )}
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  )}
-
-
+                    )}
                 </div>
 
                 <div className="col-lg-3 order-2 order-lg-1">
@@ -418,7 +473,9 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     <ul className="blog-sidebar list-unstyled border-shadow">
                       {blogSections.map((section) => (
                         <li key={section.id}>
-                          <a href={`#section-${section.id}`}>{section.section_link_title}</a>
+                          <a href={`#section-${section.id}`}>
+                            {section.section_link_title}
+                          </a>
                         </li>
                       ))}
                     </ul>
@@ -427,10 +484,16 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       <h5 className="mb-3">Recent posts</h5>
                       {blogs &&
                         blogs
-                          .filter((blogItem) => blogItem.category_id === selectedcategory)
+                          .filter(
+                            (blogItem) =>
+                              blogItem.category_id === selectedcategory,
+                          )
                           .slice(0, 10)
                           .map((blogItem, index) => (
-                            <div key={index} className="inline_blog_card border-shadow mb-3">
+                            <div
+                              key={index}
+                              className="inline_blog_card border-shadow mb-3"
+                            >
                               <Link href={"/blog/" + blogItem.slug}>
                                 <div className="img">
                                   <img
@@ -448,7 +511,6 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </section>
