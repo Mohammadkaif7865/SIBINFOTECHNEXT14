@@ -1,4 +1,3 @@
-
 import { CustomLayout } from "@/comps/CustomLayout";
 import Link from "next/link";
 import BannerForm from "../comps/BannerForm";
@@ -9,22 +8,49 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
   const metaTags = (
     <>
       <title>E-commerce Website Design & Development Company in Mumbai</title>
-      <meta name="description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
+      <meta
+        name="description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
       <meta name="keywords" content="" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
-      <meta property="og:title" content="E-commerce Website Design & Development Company in Mumbai" />
-      <meta property="og:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.sibinfotech.com/e-commerce-website-design-development-services"
+      />
+      <meta
+        property="og:title"
+        content="E-commerce Website Design & Development Company in Mumbai"
+      />
+      <meta
+        property="og:description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
+      <meta
+        property="og:image"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-website-design-development-services" />
-      <meta property="twitter:title" content="E-commerce Website Design & Development Company in Mumbai" />
-      <meta property="twitter:description" content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
-" />
-     <BreadcrumbSchema
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/e-commerce-website-design-development-services"
+      />
+      <meta
+        property="twitter:title"
+        content="E-commerce Website Design & Development Company in Mumbai"
+      />
+      <meta
+        property="twitter:description"
+        content="Create a stunning e-commerce website with SIB Infotech. Our design and development services ensure a seamless shopping experience and boost your online sales."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
+"
+      />
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/e-commerce-website-design-development-services"
         breadcrumbTitle="E-commerce Website Design & Development Company in Mumbai"
         PageRatingSchema
@@ -81,7 +107,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
         </div>
       </div>
       <div className=" d-lg-none">
-        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'}/>
+        <Breadcrumb Pagetitle={"E-commerce Website Design & Development"} />
       </div>
       <div className="col-lg-5 d-block d-lg-none pe-lg-5">
         <div className="bannerForm">
@@ -96,11 +122,11 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
               Company in India
             </strong>
           </p>
-          <BannerForm  />
+          <BannerForm />
         </div>
       </div>
       <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={'E-commerce Website Design & Development'} />
+        <Breadcrumb Pagetitle={"E-commerce Website Design & Development"} />
       </div>
       <section className="customPadding">
         <div className="containerFull">

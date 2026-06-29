@@ -77,17 +77,27 @@ const Solution = ({ data, heading, subHeading, discription }) => {
                     <p>{value.description}</p>
                   </div>
                   <div className="service__link">
-                    <p
-                      style={{
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px, 0px)",
-                        opacity: "1",
-                      }}
-                    >
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </p>
+                    <div className="service__link">
+                      <p
+                        onClick={(e) => {
+                          e.stopPropagation();
+
+                          if (value.link) {
+                            window.location.href = value.link;
+                          }
+                        }}
+                        style={{
+                          cursor: "pointer",
+                          translate: "none",
+                          rotate: "none",
+                          scale: "none",
+                          transform: "translate(0px, 0px)",
+                          opacity: "1",
+                        }}
+                      >
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </p>
+                    </div>
                   </div>
                 </div>
               );
