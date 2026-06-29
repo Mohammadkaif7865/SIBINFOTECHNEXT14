@@ -14391,3 +14391,48 @@ tudy-right-main {
 .googleAdsPage .instagram-list li:after {
   background: var(--red-color);
 }
+.customCard{
+    background:#fff;
+    border-radius:16px;
+    padding:35px;
+    height:100%;
+    border:1px solid #ececec;
+    transition:.3s ease;
+    box-shadow:0 8px 30px rgba(0,0,0,.05);
+}
+
+.customCard:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+.customCard ul{
+    margin:0;
+    padding:0;
+}
+
+.customCard ul li{
+    list-style:none;
+    position:relative;
+    padding-left:32px;
+    margin-bottom:18px;
+    line-height:1.8;
+    color:#555;
+    font-size:17px;
+}
+
+.customCard ul li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    top:2px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#e53935;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    font-weight:700;
+}
