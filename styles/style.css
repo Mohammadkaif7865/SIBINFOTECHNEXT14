@@ -10009,9 +10009,10 @@ font-size: 20px;
 }
 
 .breadcrum-text {
-  color: gray;
+  color: #000;
   display: flex;
   align-items: center;
+  font-weight: 500;
   gap: 10px;
 }
 
