@@ -240,21 +240,26 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                         {blog[0].name}
                       </h1>
                       {/* <div className="inlineAdded">
-                        <ul>
-                          <li><i className="fa fa-user-circle"></i> by Webdesk</li>
-                        </ul>
-                      </div> */}
+        <ul>
+          <li><i className="fa fa-user-circle"></i> by Webdesk</li>
+        </ul>
+      </div> */}
                     </div>
                   </div>
-                  <div className="col-lg-5">
-                    <div className="singleBlogLeftImg">
-                      <img
-                        src={`${CONSTANTS.BACKEND_URL + blog[0].banner_image}`}
-                        alt={blog[0].image_alt}
-                        className="img-fluid br-5"
-                      />
-                    </div>
-                  </div>
+
+                  {blog[0]?.banner_image &&
+                    blog[0].banner_image !== "null" &&
+                    blog[0].banner_image.trim() !== "" && (
+                      <div className="col-lg-5">
+                        <div className="singleBlogLeftImg">
+                          <img
+                            src={`${CONSTANTS.BACKEND_URL + blog[0].banner_image}`}
+                            alt={blog[0].image_alt}
+                            className="img-fluid br-5"
+                          />
+                        </div>
+                      </div>
+                    )}
                 </div>
               </div>
             </div>
