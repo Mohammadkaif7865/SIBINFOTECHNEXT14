@@ -1173,6 +1173,8 @@
   .table th {
     font-size: 15px !important;
   }
+  .rankingBenefitsBox {
+    padding: 15px}
 
   .table td:first-child,
   .table th:first-child {
