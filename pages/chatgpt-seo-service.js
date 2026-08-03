@@ -681,7 +681,7 @@ export default function ChatgptSeoService() {
       </section>
 
       <section className="bgGrey">
-        <div className="container">
+        <div className="containerFull">
           <div className="row justify-content-center text-center mb-5">
             <div className="col-lg-9">
               <h2 className="heading3 fontWeight700 text-dark mb-3">
@@ -720,7 +720,7 @@ export default function ChatgptSeoService() {
       </section>
 
       <section className="seoToolsSection">
-        <div className="container">
+        <div className="containerFull">
           <div className="row justify-content-center text-center mb-5">
             <div className="col-lg-9">
               <h2 className="heading3 fontWeight700 text-dark mb-3">
@@ -991,7 +991,7 @@ export default function ChatgptSeoService() {
         </div>
       </section>
       <section id="requestQuote" className="redBg text-white">
-        <div className="container">
+        <div className="containerFull">
           <div className="row justify-content-center text-center">
             <div className="col-lg-9">
               <h2 className="heading3 fontWeight700 text-white mb-3">
