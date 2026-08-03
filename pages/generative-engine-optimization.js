@@ -147,7 +147,7 @@ export default function GenerativeEngineOptimizationPage() {
     {
       title: "Optimizing for Gemini",
       text: "Gemini responds well to freshness, local relevance, structured data, and contextual depth.",
-      icon: "fa-solid fa-sparkles",
+      icon: "fa-solid fa-wand-magic-sparkles",
     },
   ];
 
