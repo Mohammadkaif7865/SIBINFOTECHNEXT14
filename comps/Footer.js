@@ -336,7 +336,14 @@ export default function Footer() {
                                 PPC Management
                               </Link>
                             </li>
-
+                            <li>
+                              <Link
+                                href="/search-engine-marketing-companies-mumbai-india"
+                                title="Search Engine Marketing"
+                              >
+                                Search Engine Marketing
+                              </Link>
+                            </li>
                             <li>
                               <Link
                                 href="/online-reputation-management-services"
@@ -345,7 +352,14 @@ export default function Footer() {
                                 Reputation Management
                               </Link>
                             </li>
-
+                            <li>
+                              <Link
+                                href="/paid-inclusion-services-mumbai-india"
+                                title="Paid Search Engine Inclusion"
+                              >
+                                Paid Search Engine Inclusion
+                              </Link>
+                            </li>
                             <li>
                               <Link
                                 href="/email-marketing-services-companies-mumbai-india"
@@ -368,78 +382,6 @@ export default function Footer() {
                                 title="Google Local Listing"
                               >
                                 Google Local Listing
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/app-store-optimization"
-                                title="App Store Optimization"
-                              >
-                                App Store Optimization
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/llm-seo-services"
-                                title="LLM SEO Services"
-                              >
-                                LLM SEO Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/shopify-seo-services"
-                                title="Shopify SEO Services"
-                              >
-                                Shopify SEO Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/woocommerce-seo-services"
-                                title="WooCommerce SEO Services"
-                              >
-                                WooCommerce SEO Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/enterprise-seo-services"
-                                title="Enterprise SEO Services"
-                              >
-                                Enterprise SEO Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/seo-audit-services"
-                                title="SEO Audit Services"
-                              >
-                                SEO Audit Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/technical-seo-services"
-                                title="Technical SEO Services"
-                              >
-                                Technical SEO Services
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/google-penalty-recovery"
-                                title="Google Penalty Recovery"
-                              >
-                                Google Penalty Recovery
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/conversion-rate-optimization"
-                                title="Conversion Rate Optimization"
-                              >
-                                Conversion Rate Optimization
                               </Link>
                             </li>
                           </ul>

@@ -48,19 +48,19 @@ export default function Home() {
       />
       {/* item prompt */}
       <meta
-        itemProp="name"
+        itemprop="name"
         content="Top Digital Marketing Agency in Mumbai & Delhi, India | SIB Infotech"
       />
 
       <meta
-        itemProp="description"
+        itemprop="description"
         content="SIB Infotech is a trusted digital marketing agency in Mumbai & Delhi, India, offering ROI-driven SEO, PPC, Google ads, Meta Ads, Social Media, and Web Design services."
       />
 
-      <meta itemProp="url" content="https://www.sibinfotech.com/" />
+      <meta itemprop="url" content="https://www.sibinfotech.com/" />
 
       <meta
-        itemProp="thumbnailUrl"
+        itemprop="thumbnailUrl"
         content="https://www.sibinfotech.com/assets/og/sib-infotech.png?format=1500w"
       />
 
