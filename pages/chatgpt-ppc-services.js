@@ -887,7 +887,7 @@ export default function ChatgptPpcServices() {
       </section>
 
       <section id="requestQuote" className="redBg text-white">
-        <div className="container">
+        <div className="containerFull">
           <div className="row justify-content-center text-center">
             <div className="col-lg-9">
               <h2 className="heading3 fontWeight700 text-white mb-3">
