@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Solution = ({ data, heading, subHeading, discription }) => {
+const Solution = ({ data, heading, subHeading, discription, hideImages }) => {
   const [indexNo, setIndexNo] = useState("");
   const [show, setShow] = useState(null);
   const handelIndex = (index) => {
@@ -34,24 +34,32 @@ const Solution = ({ data, heading, subHeading, discription }) => {
         </div>
 
         <div className="row mt-5">
-          <div className="col-xxl-4 col-xl-4 col-lg-0 col-md-0 position-relative d-none d-lg-block">
-            <div className=" img_solutions ">
-              <div className="img_solutions_inner">
-                {data.map((images, index) => {
-                  return (
-                    <img
-                      className={`img-solution ${
-                        indexNo == index ? "active" : ""
-                      }`}
-                      src={images?.img}
-                      alt="images"
-                    />
-                  );
-                })}
+          {!hideImages && (
+            <div className="col-xxl-4 col-xl-4 col-lg-0 col-md-0 position-relative d-none d-lg-block">
+              <div className=" img_solutions ">
+                <div className="img_solutions_inner">
+                  {data.map((images, index) => {
+                    return (
+                      <img
+                        className={`img-solution ${
+                          indexNo == index ? "active" : ""
+                        }`}
+                        src={images?.img}
+                        alt="images"
+                      />
+                    );
+                  })}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
+          )}
+          <div
+            className={`${
+              hideImages
+                ? "col-12"
+                : "col-xxl-8 col-xl-8 col-lg-12 col-md-12"
+            }`}
+          >
             {data.map((value, index) => {
               return (
                 <div

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { CustomLayout } from "@/comps/CustomLayout";
+import RelatedServices from "@/comps/RelatedServices";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -74,10 +75,10 @@ export default function Blog() {
                   All Posts
                 </h1>
                 <div className="mt-4 text-center">
-                  <Link href="#requestQuote" className="btnThemeRed me-3">
+                  <Link href="/contact-us" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote <h2 className="d-none">Get a Quote</h2>
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i>  Ask a
                     question <h3 className="d-none"> Ask a
                     question</h3>
@@ -108,9 +109,54 @@ export default function Blog() {
             }}
             ellipsis={1}
           />
-         </div>
+          </div>
         </div>
       </section>
+
+      {/* Related Services */}
+      <RelatedServices
+        subtitle={
+          "Put these insights to work — explore SIB Infotech's SEO services to grow your organic visibility."
+        }
+        links={[
+          {
+            title: "SEO Packages in India",
+            href: "/seo-packages",
+            description:
+              "Transparent monthly SEO plans starting at Rs. 25,000 per month for businesses of every size.",
+          },
+          {
+            title: "Technical SEO Services",
+            href: "/technical-seo-services",
+            description:
+              "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
+          },
+          {
+            title: "LLM SEO Services",
+            href: "/llm-seo-services",
+            description:
+              "Optimise your brand for ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
+          },
+          {
+            title: "Conversion Rate Optimization Services",
+            href: "/conversion-rate-optimization",
+            description:
+              "Turn more organic traffic into customers with data-driven CRO programmes.",
+          },
+          {
+            title: "Enterprise SEO Services",
+            href: "/enterprise-seo-services",
+            description:
+              "Scalable SEO programmes for large websites and multi-location brands.",
+          },
+          {
+            title: "SEO Audit Services",
+            href: "/seo-audit-services",
+            description:
+              "Get a complete SEO health check with a prioritised roadmap of fixes ranked by business impact.",
+          },
+        ]}
+      />
     </CustomLayout>
   );
 }
