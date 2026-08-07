@@ -132,50 +132,7 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Related Services */}
-      <RelatedServices
-        subtitle={
-          "Put these insights to work — explore SIB Infotech's SEO services to grow your organic visibility."
-        }
-        links={[
-          {
-            title: "SEO Packages in India",
-            href: "/seo-packages",
-            description:
-              "Transparent monthly SEO plans starting at Rs. 25,000 per month for businesses of every size.",
-          },
-          {
-            title: "Technical SEO Services",
-            href: "/technical-seo-services",
-            description:
-              "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
-          },
-          {
-            title: "LLM SEO Services",
-            href: "/llm-seo-services",
-            description:
-              "Optimise your brand for ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
-          },
-          {
-            title: "Conversion Rate Optimization Services",
-            href: "/conversion-rate-optimization",
-            description:
-              "Turn more organic traffic into customers with data-driven CRO programmes.",
-          },
-          {
-            title: "Enterprise SEO Services",
-            href: "/enterprise-seo-services",
-            description:
-              "Scalable SEO programmes for large websites and multi-location brands.",
-          },
-          {
-            title: "SEO Audit Services",
-            href: "/seo-audit-services",
-            description:
-              "Get a complete SEO health check with a prioritised roadmap of fixes ranked by business impact.",
-          },
-        ]}
-      />
+      
     </CustomLayout>
   );
 }
