@@ -2,7 +2,7 @@ import React from "react";
 import { CustomLayout } from "@/comps/CustomLayout";
 import WhiteLabelSeoMgt from "@/comps/WhiteLabelSeo/WhiteLabelSeoMgt";
 
-export default function WhiteLabelDigitalMarketingServices() {
+export default function WhiteLabelSeoServices() {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -22,8 +22,8 @@ export default function WhiteLabelDigitalMarketingServices() {
       {
         "@type": "ListItem",
         position: 3,
-        name: "White Label SEO",
-        item: "https://www.sibinfotech.com/white-label-digital-marketing-services",
+        name: "White Label SEO Services",
+        item: "https://www.sibinfotech.com/white-label-seo-services/",
       },
     ],
   };
@@ -32,7 +32,7 @@ export default function WhiteLabelDigitalMarketingServices() {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "White Label SEO Services India",
-    url: "https://www.sibinfotech.com/white-label-digital-marketing-services",
+    url: "https://www.sibinfotech.com/white-label-seo-services/",
     description:
       "NDA-protected white label SEO for agencies. Full-service SEO delivery under your brand including technical audits, on-page optimisation, link building, branded reports, and dedicated account management. Trusted by 100+ agencies.",
     serviceType: "White Label SEO",
@@ -68,7 +68,7 @@ export default function WhiteLabelDigitalMarketingServices() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/white-label-digital-marketing-services"
+        content="https://www.sibinfotech.com/white-label-seo-services/"
       />
       <meta
         property="og:title"
@@ -86,7 +86,7 @@ export default function WhiteLabelDigitalMarketingServices() {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://www.sibinfotech.com/white-label-digital-marketing-services"
+        content="https://www.sibinfotech.com/white-label-seo-services/"
       />
       <meta
         property="twitter:title"

@@ -6,6 +6,7 @@ import axios from "axios";
 import * as CONSTANTS from "../../constants/constants";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
+import RelatedServices from "@/comps/RelatedServices";
 
 export async function getServerSideProps(context) {
   const { slug } = context.query;
@@ -519,6 +520,51 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
               </div>
             </div>
           </section>
+
+          {/* Related Services */}
+          <RelatedServices
+            subtitle={
+              "Want to put these insights into action? Explore SIB Infotech's SEO services to grow your organic visibility."
+            }
+            links={[
+              {
+                title: "SEO Packages in India",
+                href: "/seo-packages",
+                description:
+                  "Transparent monthly SEO plans starting at Rs. 25,000 per month for businesses of every size.",
+              },
+              {
+                title: "Technical SEO Services",
+                href: "/technical-seo-services",
+                description:
+                  "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
+              },
+              {
+                title: "LLM SEO Services",
+                href: "/llm-seo-services",
+                description:
+                  "Optimise your brand for ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
+              },
+              {
+                title: "Conversion Rate Optimization Services",
+                href: "/conversion-rate-optimization",
+                description:
+                  "Turn more organic traffic into customers with data-driven CRO programmes.",
+              },
+              {
+                title: "Enterprise SEO Services",
+                href: "/enterprise-seo-services",
+                description:
+                  "Scalable SEO programmes for large websites and multi-location brands.",
+              },
+              {
+                title: "SEO Audit Services",
+                href: "/seo-audit-services",
+                description:
+                  "Get a complete SEO health check with a prioritised roadmap of fixes ranked by business impact.",
+              },
+            ]}
+          />
         </CustomLayout>
       )}
     </div>

@@ -1,9 +1,11 @@
 import Head from "next/head";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import React from "react";
 
 export const CustomLayout = ({ children, meta }) => {
-  const path = usePathname();
+  const router = useRouter();
+  const path = router?.asPath ? router.asPath.split("?")[0] : "";
+
   return (
     <>
       <Head>
@@ -73,7 +75,7 @@ export const CustomLayout = ({ children, meta }) => {
                 ? "https://www.sibinfotech.com/search-engine-optimization-seo-services"
                 : path === "/pay-per-click-ppc-management-services"
                   ? "https://www.sibinfotech.com/google-ads-management-services"
-                  : `https://www.sibinfotech.com${path}`
+                  : `https://www.sibinfotech.com${path || ""}`
           }
         />
         {meta}
