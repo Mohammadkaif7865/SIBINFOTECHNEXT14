@@ -247,7 +247,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     </div>
                   </div>
 
-                  {blog[0]?.banner_image &&
+                  {/* {blog[0]?.banner_image &&
                     blog[0].banner_image !== "null" &&
                     blog[0].banner_image.trim() !== "" && (
                       <div className="col-lg-5">
@@ -259,7 +259,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                           />
                         </div>
                       </div>
-                    )}
+                    )} */}
                 </div>
               </div>
             </div>

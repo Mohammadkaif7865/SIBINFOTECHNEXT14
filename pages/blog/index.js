@@ -36,6 +36,25 @@ export default function Blog() {
     getBlogs();
   }, []);
 
+  // // Remove unwanted "Explore More" / services section inserted by layout/scripts
+  // // This runs only on the client and affects the blog listing page only.
+  // useEffect(() => {
+  //   if (typeof window === "undefined") return;
+  //   try {
+  //     const headings = document.querySelectorAll("h1,h2,h3,h4,h5");
+  //     headings.forEach((h) => {
+  //       const text = (h.innerText || "").toLowerCase();
+  //       if (text.includes("explore more") || text.includes("explore more seo")) {
+  //         const section = h.closest("section") || h.parentElement;
+  //         if (section) section.remove();
+  //       }
+  //     });
+  //   } catch (err) {
+  //     // fail silently
+  //     console.warn("remove services section error", err);
+  //   }
+  // }, []);
+
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
