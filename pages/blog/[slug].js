@@ -475,32 +475,58 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
 
                 <div className="col-lg-3 order-2 order-lg-1">
                   <div className="blog-sidebar" id="blog-sidebar">
-                    <h5 className="mb-3">Blog Sections</h5>
-                    <ul className="blog-sidebar list-unstyled border-shadow">
-                      {blogSections.map((section) => (
-                        <li key={section.id}>
-                          <a href={`#section-${section.id}`}>
-                            {section.section_link_title}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
+                    {blogSections && blogSections.some((s) => s.section_link_title) && (
+                      <>
+                        <h5 className="mb-3">Blog Sections</h5>
+                        <ul className="blog-sidebar list-unstyled border-shadow">
+                          {blogSections
+                            .filter((s) => s.section_link_title)
+                            .map((section) => (
+                              <li key={section.id}>
+                                <a href={`#section-${section.id}`}>
+                                  {section.section_link_title}
+                                </a>
+                              </li>
+                            ))}
+                        </ul>
+                      </>
+                    )}
 
                     <div className="mt-5">
                       <h5 className="mb-3">Recent posts</h5>
+
+                      {/* Show current post first (if available) */}
+                      {blog && blog[0] && (
+                        <div className="inline_blog_card border-shadow mb-3">
+                          <Link href={'/blog/' + blog[0].slug}>
+                            <div className="img">
+                              <img
+                                src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+                                alt={blog[0].image_alt}
+                                className="img-fluid"
+                              />
+                            </div>
+                            <div className="content">
+                              <p className="title">{blog[0].name}</p>
+                            </div>
+                          </Link>
+                        </div>
+                      )}
+
                       {blogs &&
                         blogs
                           .filter(
                             (blogItem) =>
-                              blogItem.category_id === selectedcategory,
+                              blogItem.category_id === selectedcategory &&
+                              !(blog && blog[0] && blogItem.slug === blog[0].slug),
                           )
-                          .slice(0, 10)
+                          .slice(0, 9)
                           .map((blogItem, index) => (
                             <div
                               key={index}
                               className="inline_blog_card border-shadow mb-3"
                             >
-                              <Link href={"/blog/" + blogItem.slug}>
+                              <Link href={'/blog/' + blogItem.slug}>
                                 <div className="img">
                                   <img
                                     src={`${CONSTANTS.BACKEND_URL + blogItem.image}`}
@@ -521,50 +547,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             </div>
           </section>
 
-          {/* Related Services */}
-          <RelatedServices
-            subtitle={
-              "Want to put these insights into action? Explore SIB Infotech's SEO services to grow your organic visibility."
-            }
-            links={[
-              {
-                title: "SEO Packages in India",
-                href: "/seo-packages",
-                description:
-                  "Transparent monthly SEO plans starting at Rs. 25,000 per month for businesses of every size.",
-              },
-              {
-                title: "Technical SEO Services",
-                href: "/technical-seo-services",
-                description:
-                  "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
-              },
-              {
-                title: "LLM SEO Services",
-                href: "/llm-seo-services",
-                description:
-                  "Optimise your brand for ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
-              },
-              {
-                title: "Conversion Rate Optimization Services",
-                href: "/conversion-rate-optimization",
-                description:
-                  "Turn more organic traffic into customers with data-driven CRO programmes.",
-              },
-              {
-                title: "Enterprise SEO Services",
-                href: "/enterprise-seo-services",
-                description:
-                  "Scalable SEO programmes for large websites and multi-location brands.",
-              },
-              {
-                title: "SEO Audit Services",
-                href: "/seo-audit-services",
-                description:
-                  "Get a complete SEO health check with a prioritised roadmap of fixes ranked by business impact.",
-              },
-            ]}
-          />
+        
         </CustomLayout>
       )}
     </div>
