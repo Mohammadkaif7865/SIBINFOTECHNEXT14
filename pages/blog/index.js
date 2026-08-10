@@ -37,6 +37,25 @@ export default function Blog() {
     getBlogs();
   }, []);
 
+  // // Remove unwanted "Explore More" / services section inserted by layout/scripts
+  // // This runs only on the client and affects the blog listing page only.
+  // useEffect(() => {
+  //   if (typeof window === "undefined") return;
+  //   try {
+  //     const headings = document.querySelectorAll("h1,h2,h3,h4,h5");
+  //     headings.forEach((h) => {
+  //       const text = (h.innerText || "").toLowerCase();
+  //       if (text.includes("explore more") || text.includes("explore more seo")) {
+  //         const section = h.closest("section") || h.parentElement;
+  //         if (section) section.remove();
+  //       }
+  //     });
+  //   } catch (err) {
+  //     // fail silently
+  //     console.warn("remove services section error", err);
+  //   }
+  // }, []);
+
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
@@ -113,50 +132,7 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Related Services */}
-      <RelatedServices
-        subtitle={
-          "Put these insights to work — explore SIB Infotech's SEO services to grow your organic visibility."
-        }
-        links={[
-          {
-            title: "SEO Packages in India",
-            href: "/seo-packages",
-            description:
-              "Transparent monthly SEO plans starting at Rs. 25,000 per month for businesses of every size.",
-          },
-          {
-            title: "Technical SEO Services",
-            href: "/technical-seo-services",
-            description:
-              "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
-          },
-          {
-            title: "LLM SEO Services",
-            href: "/llm-seo-services",
-            description:
-              "Optimise your brand for ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
-          },
-          {
-            title: "Conversion Rate Optimization Services",
-            href: "/conversion-rate-optimization",
-            description:
-              "Turn more organic traffic into customers with data-driven CRO programmes.",
-          },
-          {
-            title: "Enterprise SEO Services",
-            href: "/enterprise-seo-services",
-            description:
-              "Scalable SEO programmes for large websites and multi-location brands.",
-          },
-          {
-            title: "SEO Audit Services",
-            href: "/seo-audit-services",
-            description:
-              "Get a complete SEO health check with a prioritised roadmap of fixes ranked by business impact.",
-          },
-        ]}
-      />
+      
     </CustomLayout>
   );
 }
