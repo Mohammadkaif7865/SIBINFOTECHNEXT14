@@ -35,7 +35,7 @@ export default function OnlineReputationManagementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function OnlineReputationManagementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-reputation-management-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/online-reputation-management-services"

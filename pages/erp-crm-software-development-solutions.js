@@ -18,13 +18,13 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
       <meta property="og:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
       <meta property="og:title" content="Best ERP & CRM Software Development Solutions Services India" />
       <meta property="og:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/erp-crm-software-development-solutions" />
       <meta property="twitter:title" content="Best ERP & CRM Software Development Solutions Services India" />
       <meta property="twitter:description" content="Optimize your business operations with ERP and CRM software development services by SIB Infotech. Contact us for tailored CRM solutions to meet your needs!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/erp-crm-software-development-solutions.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/erp-crm-software-development-solutions"
         breadcrumbTitle="Best ERP & CRM Software Development Solutions Services India"
@@ -112,12 +112,12 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
             <div className="col-lg-6">
               <div className="crm-img-section">
                 <img
-                  src="assets/images/crm-solution-firm.png"
+                  src="assets/images/crm-solution-firm.webp"
                   alt="CRM Solution Firm"
                 />
                 <img
                   className="image-1"
-                  src="assets/images/crm-solution-company-in-delhi.png"
+                  src="assets/images/crm-solution-company-in-delhi.webp"
                   alt="CRM Solution Company"
                 />
               </div>
@@ -342,7 +342,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-6 col-6">
                   <div className="crm-box">
                     <img
-                      src="assets/images/icons/crm-sugar-crm.png"
+                      src="assets/images/icons/crm-sugar-crm.webp"
                       alt="Sugar CRM"
                     />
                     <h4>Sugar CRM</h4>
@@ -351,7 +351,7 @@ export default function ErpCrmSoftwareDevelopmentSolution() {
                 <div className="col-lg-6 col-6">
                   <div className="crm-box">
                     <img
-                      src="assets/images/icons/crm-vtiger-crm.png"
+                      src="assets/images/icons/crm-vtiger-crm.webp"
                       alt="vTiger"
                     />
                     <h4>vTiger CRM</h4>

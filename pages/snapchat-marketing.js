@@ -29,7 +29,7 @@ export default function SnapchatMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/snapchat-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/snapchat-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function SnapchatMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/snapchat-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/snapchat-marketing.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/snapchat-marketing"
@@ -153,7 +153,7 @@ export default function SnapchatMarketing() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Snapchat Marketing in India"
                   className="img-fluid"
                 />

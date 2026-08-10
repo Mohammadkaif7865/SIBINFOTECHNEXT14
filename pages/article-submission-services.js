@@ -34,7 +34,7 @@ article submission service,article submission services,manual article submission
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/article-submission-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ article submission service,article submission services,manual article submission
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/article-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/article-submission-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/article-submission-services"
@@ -230,7 +230,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Article Submission Company in Mumbai"
                 />
               </div>
@@ -240,7 +240,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Article Submission Company in Delhi"
                 />
               </div>
@@ -306,7 +306,7 @@ article submission service,article submission services,manual article submission
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Article Submission"
                 />
               </div>

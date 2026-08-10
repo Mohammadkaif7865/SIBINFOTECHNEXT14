@@ -29,7 +29,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/codeigniter-cms-framework-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/codeigniter-cms-framework-development-services"
@@ -172,7 +172,7 @@ export default function CodeigniterFrameworkDevelopmentServices() {
             </div>
             <div className="col-lg-4">
               <img
-                src="assets/images/article-submission.png"
+                src="assets/images/article-submission.webp"
                 alt="Codeigniter CMS Framework Development Company in India"
                 className="w-100"
               />

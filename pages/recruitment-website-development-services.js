@@ -34,7 +34,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/recruitment-website-development-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/recruitment-website-development-services"
@@ -178,7 +178,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Company in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -330,7 +330,7 @@ export default function RecruitmentWebsiteDevelopmentServices() {
                 <img
                   alt="Recruitment Website Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

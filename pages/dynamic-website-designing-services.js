@@ -16,13 +16,13 @@ export default function DynamicWebsiteDesigningServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
       <meta property="og:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
       <meta property="og:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/dynamic-website-designing-services" />
       <meta property="twitter:title" content="Dynamic Website Designing Services in India | SIB Infotech" />
       <meta property="twitter:description" content="Elevate your online presence with dynamic website designing services in India by SIB Infotech. Contact us for dynamic web design solutions for your business!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/dynamic-website-designing-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/dynamic-website-designing-services"
         breadcrumbTitle="Dynamic Website Designing Services in India | SIB Infotech"
@@ -107,7 +107,7 @@ export default function DynamicWebsiteDesigningServices() {
               <div className="dynamic-website-img2">
                 <img
                   className="image-full"
-                  src="assets/images/dynamic-website-company-in-delhi.png"
+                  src="assets/images/dynamic-website-company-in-delhi.webp"
                   alt="Dynamic-Website-Designing-Company-In-India"
                 />
               </div>
@@ -175,7 +175,7 @@ export default function DynamicWebsiteDesigningServices() {
               <div className="dynamic-website-img">
                 <img
                   className="image-full"
-                  src="assets/images/dynamic-website-design-company-in-india.png"
+                  src="assets/images/dynamic-website-design-company-in-india.webp"
                   alt="Dynamic-Website-Designing-Company-In-Delhi"
                 />
               </div>

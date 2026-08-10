@@ -19,41 +19,41 @@ const SeoHyderabadMgt = () => {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Core Web Vitals, site speed, mobile responsiveness, crawlability, and indexing fixes that give Google a clean, fast, rankable website. Specialized local schema alignment for Hyderabad businesses.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `On-Page SEO <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Title tags, meta descriptions, header hierarchy, schema markup, keyword placement, and internal linking — aligned to Google intent to rank your pages confidently.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
       link: "/on-page-seo-services",
     },
     {
       title: `Off-Page SEO & <br class="d-none d-md-lg "/> Link Building`,
       description:
         "High-authority backlinks, digital PR, guest posting, and brand mentions targeting authoritative Indian and international domains to build domain trust.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
       link: "/off-page-seo-services",
     },
     {
       title: `Local SEO & <br class="d-none d-md-lg "/> GBP Optimisation`,
       description:
         "Google Business Profile optimization, local citations, review management, and LocalBusiness schema implementation to capture Map Pack rankings across Hyderabad.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
       link: "/local-seo-services",
     },
     {
       title: `Content Marketing & <br class="d-none d-md-lg "/> Topical Authority`,
       description:
         "Building content clusters around core services with pillar pages and supporting blogs that establish SIB Infotech as the trusted authority in your niche.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
       link: "/seo-content-writing-services",
     },
     {
       title: `AI SEO, AEO & <br class="d-none d-md-lg "/> Generative Engine Optimisation`,
       description:
         "Optimising content for Google AI Overviews, ChatGPT, Perplexity, and Gemini so your brand is cited in AI-generated answers capturing user attention in 2026.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
   ];
 

@@ -36,7 +36,7 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -54,7 +54,7 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-research-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/search-engine-optimization-research-mumbai-india"
@@ -187,7 +187,7 @@ export default function SearchEngineOptimizationResearchMumbaiIndia() {
                 <img
                   alt="Search Engine Optimization Research In India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -19,14 +19,14 @@ export default function InstagramAdsManagementServices() {
 " />
       <meta property="og:title" content="Instagram Ads Management Services Company in Mumbai, India" />
       <meta property="og:description" content="Unlock the power of Instagram advertising with SIB Infotech—a professional Instagram Ads management agency in India. Contact us to grow your business today!" />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/instagram-ads-management-services
 " />
       <meta property="twitter:title" content="Instagram Ads Management Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Unlock the power of Instagram advertising with SIB Infotech—a professional Instagram Ads management agency in India. Contact us to grow your business today!" />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/instagram-ads-management-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/instagram-ads-management-services"
         breadcrumbTitle="Instagram Ads Management Services Company in Mumbai, India"

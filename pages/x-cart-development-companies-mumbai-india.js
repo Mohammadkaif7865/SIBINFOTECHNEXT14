@@ -16,13 +16,13 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
       <meta property="og:title" content="X-Cart Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india" />
       <meta property="twitter:title" content="X-Cart Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Elevate your eCommerce website with X-Cart development services in Mumbai by SIB Infotech. We provide custom solutions for a seamless shopping experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/x-cart-development-companies-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/x-cart-development-companies-mumbai-india"
         breadcrumbTitle="X-Cart Development Services Company in Mumbai, India"
@@ -103,7 +103,7 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
                   </div>
                   <div className="col-md-5">
                     <div className="custom-page-img">
-                      <img alt="X Cart Development Companies in India" className="img-fluid" src="assets/images/article-submission.png"/></div>
+                      <img alt="X Cart Development Companies in India" className="img-fluid" src="assets/images/article-submission.webp"/></div>
                   </div>
                 </div>
                 <div className="row mt-4">
@@ -237,7 +237,7 @@ export default function XCartDevelopmentCompaniesMumbaiIndia() {
                   </div>
                   <div className="col-md-4">
                     <div className="custom-page-img">
-                      <img alt="X Cart Development Companies in Mumbai" className="img-fluid" src="assets/images/article-submission.png"/></div>
+                      <img alt="X Cart Development Companies in Mumbai" className="img-fluid" src="assets/images/article-submission.webp"/></div>
                   </div>
                 </div>
             </div>

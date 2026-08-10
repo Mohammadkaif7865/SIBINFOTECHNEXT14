@@ -32,7 +32,7 @@ export default function PinterestMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/pinterest-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/pinterest-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function PinterestMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/pinterest-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/pinterest-marketing.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/pinterest-marketing"

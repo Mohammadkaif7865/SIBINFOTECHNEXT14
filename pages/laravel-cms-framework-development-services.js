@@ -31,7 +31,7 @@ export default function LaravelCmsDevelopmentCompany() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function LaravelCmsDevelopmentCompany() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/laravel-cms-framework-development-services.webp"
       />
 
       <BreadcrumbSchema
@@ -164,7 +164,7 @@ export default function LaravelCmsDevelopmentCompany() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Laravel CMS Framework Development Services"
                   className="img-fluid"
                 />

@@ -29,7 +29,7 @@ export default function Home() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ export default function Home() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       {/* item prompt */}
       <meta
@@ -61,12 +61,19 @@ export default function Home() {
 
       <meta
         itemprop="thumbnailUrl"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png?format=1500w"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp?format=1500w"
       />
 
       <link
         rel="image_src"
-        href="https://www.sibinfotech.com/assets/og/sib-infotech.png?format=1500w"
+        href="https://www.sibinfotech.com/assets/og/sib-infotech.webp?format=1500w"
+      />
+      {/* Preload the hero LCP background image */}
+      <link
+        rel="preload"
+        as="image"
+        href="/assets/images/icons/blur-culcle-mini.webp"
+        fetchpriority="high"
       />
       {/* item prompt */}
     </>

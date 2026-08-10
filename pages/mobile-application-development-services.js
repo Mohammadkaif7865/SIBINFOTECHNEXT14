@@ -31,7 +31,7 @@ export default function MobileApp() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function MobileApp() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-application-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-application-development-services"
@@ -365,7 +365,7 @@ export default function MobileApp() {
               <div className="p-sticky">
                 <img
                   className="image-full image-border"
-                  src="assets/images/mobileapp-img-2.png"
+                  src="assets/images/mobileapp-img-2.webp"
                   alt="Mobile Application Development Companies in Mumbai"
                 />
               </div>
@@ -400,7 +400,7 @@ export default function MobileApp() {
                     <div className="box-header">
                       <div className="owl-img-circle">
                         <img
-                          src="assets/images/icons/web-devlp-img-10.png"
+                          src="assets/images/icons/web-devlp-img-10.webp"
                           alt="Mobile App Development Companies in Delhi"
                         />
                       </div>
@@ -535,7 +535,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/walking.png" alt="Travel" />
+                  <img src="assets/images/icons/walking.webp" alt="Travel" />
                 </div>
                 <h4 className="small_heading">Travel</h4>
               </div>
@@ -543,7 +543,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/graduated.png" alt="Eduation" />
+                  <img src="assets/images/icons/graduated.webp" alt="Eduation" />
                 </div>
                 <h4 className="small_heading">Education</h4>
               </div>
@@ -551,7 +551,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/crane.png" alt="Real Estate" />
+                  <img src="assets/images/icons/crane.webp" alt="Real Estate" />
                 </div>
                 <h4 className="small_heading">Real Estate</h4>
               </div>
@@ -560,7 +560,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/wedding-rings.png"
+                    src="assets/images/icons/wedding-rings.webp"
                     alt="Matrimony"
                   />
                 </div>
@@ -571,7 +571,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/healthcare.png"
+                    src="assets/images/icons/healthcare.webp"
                     alt="Healthcare"
                   />
                 </div>
@@ -581,7 +581,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/team.png" alt="Associations" />
+                  <img src="assets/images/icons/team.webp" alt="Associations" />
                 </div>
                 <h4 className="small_heading">Associations</h4>
               </div>
@@ -589,7 +589,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/test.png" alt="Chemical" />
+                  <img src="assets/images/icons/test.webp" alt="Chemical" />
                 </div>
                 <h4 className="small_heading">Chemical</h4>
               </div>
@@ -597,7 +597,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/fast-food.png" alt="Food" />
+                  <img src="assets/images/icons/fast-food.webp" alt="Food" />
                 </div>
                 <h4 className="small_heading">Food</h4>
               </div>
@@ -605,7 +605,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/antenna.png" alt="Telecom" />
+                  <img src="assets/images/icons/antenna.webp" alt="Telecom" />
                 </div>
                 <h4 className="small_heading">Telecom/Tech</h4>
               </div>
@@ -613,7 +613,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/connection.png" alt="B2B" />
+                  <img src="assets/images/icons/connection.webp" alt="B2B" />
                 </div>
                 <h4 className="small_heading">B2B</h4>
               </div>
@@ -621,7 +621,7 @@ export default function MobileApp() {
             <div className="col-lg-2 col-6 px-2">
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
-                  <img src="assets/images/icons/saving.png" alt="Financial" />
+                  <img src="assets/images/icons/saving.webp" alt="Financial" />
                 </div>
                 <h4 className="small_heading">Financial</h4>
               </div>
@@ -630,7 +630,7 @@ export default function MobileApp() {
               <div className="itemIndustries border shadow">
                 <div className="iconIndustries">
                   <img
-                    src="assets/images/icons/low-price.png"
+                    src="assets/images/icons/low-price.webp"
                     alt="Non Profit"
                   />
                 </div>
@@ -661,7 +661,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-22.png"
+                        src="assets/images/icons/web-devlp-img-22.webp"
                         alt="Mobile App Development Services Agency in India"
                       />
                     </div>
@@ -671,7 +671,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/mobile-app-company-in-delhi-img-5.png"
+                        src="assets/images/icons/mobile-app-company-in-delhi-img-5.webp"
                         alt="Mobile App Development Services Agency in Delhi"
                       />
                     </div>
@@ -680,7 +680,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-24.png"
+                        src="assets/images/icons/web-devlp-img-24.webp"
                         alt="Mobile App Development Services Agency in Mumbai"
                       />
                     </div>
@@ -689,7 +689,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-25.png"
+                        src="assets/images/icons/web-devlp-img-25.webp"
                         alt="Mobile App Development Services Firm in Delhi"
                       />
                     </div>
@@ -698,7 +698,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-26.png"
+                        src="assets/images/icons/web-devlp-img-26.webp"
                         alt="Mobile App Development Services Firm in Mumbai"
                       />
                     </div>
@@ -708,7 +708,7 @@ export default function MobileApp() {
                   <li className="customText">
                     <div className="owl-img-circle">
                       <img
-                        src="assets/images/icons/web-devlp-img-27.png"
+                        src="assets/images/icons/web-devlp-img-27.webp"
                         alt="Mobile App Development Services Firm in India"
                       />
                     </div>
@@ -848,7 +848,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-40.png"
+                    src="assets/images/icons/web-devlp-img-40.webp"
                     alt="Offshore Mobile Application Development Companies in Mumbai"
                   />
                 </div>
@@ -865,7 +865,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-41.png"
+                    src="assets/images/icons/web-devlp-img-41.webp"
                     alt="Top Mobile Application Development Companies in India"
                   />
                 </div>
@@ -883,7 +883,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-42.png"
+                    src="assets/images/icons/web-devlp-img-42.webp"
                     alt="Top Mobile Application Development Companies in Delhi"
                   />
                 </div>
@@ -900,7 +900,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-43.png"
+                    src="assets/images/icons/web-devlp-img-43.webp"
                     alt="Top Mobile Application Development Companies in Mumbai"
                   />
                 </div>
@@ -939,7 +939,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-44.png"
+                    src="assets/images/icons/web-devlp-img-44.webp"
                     alt="Top Mobile Application Development Firm in India"
                   />
                 </div>
@@ -961,7 +961,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-12.png"
+                    src="assets/images/icons/web-devlp-img-12.webp"
                     alt="Top Mobile Application Development Firm in Delhi"
                   />
                 </div>
@@ -986,7 +986,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-22.png"
+                    src="assets/images/icons/web-devlp-img-22.webp"
                     alt="Top Mobile Application Development Firm in Mumbai"
                   />
                 </div>
@@ -1004,7 +1004,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-45.png"
+                    src="assets/images/icons/web-devlp-img-45.webp"
                     alt="Top Mobile Application Development Agency in India"
                   />
                 </div>
@@ -1018,7 +1018,7 @@ export default function MobileApp() {
               <div className="offering-heading">
                 <div className="offering-img-circle">
                   <img
-                    src="assets/images/icons/web-devlp-img-42.png"
+                    src="assets/images/icons/web-devlp-img-42.webp"
                     alt="Top Mobile Application Development Agency in Delhi"
                   />
                 </div>

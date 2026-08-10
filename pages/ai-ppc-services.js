@@ -35,7 +35,7 @@ export default function AiPpcServicesPage() {
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/images/og-ai-ppc.jpg"
+        content="https://www.sibinfotech.com/assets/images/og-ai-ppc.webp"
       />
 
       <meta property="og:image:width" content="1200" />

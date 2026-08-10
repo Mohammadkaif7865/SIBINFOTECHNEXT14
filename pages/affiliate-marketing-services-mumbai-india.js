@@ -35,7 +35,7 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/affiliate-marketing-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india"
@@ -176,7 +176,7 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
                 <img
                   alt="Affiliate Marketing Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function AffiliateMarketingServicesMumbaiIndia() {
                 <img
                   alt="Affiliate Marketing"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

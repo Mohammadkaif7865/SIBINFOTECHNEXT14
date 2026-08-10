@@ -34,7 +34,7 @@ export default function OnlineReputationRepairServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function OnlineReputationRepairServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/online-reputation-repair-service"
@@ -138,7 +138,7 @@ export default function OnlineReputationRepairServices() {
               <img
                 alt="online-reputation-repair-company-in-india"
                 className="image-full imgAnimation"
-                src="assets/images/online-reputation-repair-company-in-india.png"
+                src="assets/images/online-reputation-repair-company-in-india.webp"
               />
             </div>
             <div className="col-lg-7">

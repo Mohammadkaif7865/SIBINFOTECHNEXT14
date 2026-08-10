@@ -17,13 +17,13 @@ export default function MobileSeoServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/mobile-seo-services" />
       <meta property="og:title" content="Top Mobile SEO Services Company in Mumbai, India" />
       <meta property="og:description" content="Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/mobile-seo-services" />
       <meta property="twitter:title" content="Top Mobile SEO Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Improve your mobile rankings with expert Mobile SEO services by SIB Infotech. Optimize site speed, UX & visibility for mobile-first indexing success." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/mobile-seo-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-seo-services"
         breadcrumbTitle="Top Mobile SEO Services Company in Mumbai, India"

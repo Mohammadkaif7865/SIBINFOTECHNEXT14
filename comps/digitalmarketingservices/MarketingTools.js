@@ -4,18 +4,18 @@ import Image from "next/image";
 const MarketingTools = () => {
  
   const tools = [
-    { src: "/assets/images/google-analytics.png", alt: "Google Analytics" },
-    { src: "/assets/images/google-adsense.png", alt: "Google Adsense" },
-    { src: "/assets/images/meta-business.png", alt: "Meta Business" },
-    { src: "/assets/images/mailchimp.png", alt: "Mail Chimp" },
-    { src: "/assets/images/hubspot.png", alt: "Hubspot" },
-    { src: "/assets/images/semrush.png", alt: "Semrush" },
-    { src: "/assets/images/canva.png", alt: "Canva" },
-    { src: "/assets/images/ahrefs.png", alt: "Ahrefs" },
-    { src: "/assets/images/wordpress.png", alt: "WordPress" },
-    { src: "/assets/images/hootsuite.png", alt: "Hootsuite" },
-    { src: "/assets/images/zoom.png", alt: "Zoom" },
-    { src: "/assets/images/shopify.png", alt: "Shopify" },
+    { src: "/assets/images/google-analytics.webp", alt: "Google Analytics" },
+    { src: "/assets/images/google-adsense.webp", alt: "Google Adsense" },
+    { src: "/assets/images/meta-business.webp", alt: "Meta Business" },
+    { src: "/assets/images/mailchimp.webp", alt: "Mail Chimp" },
+    { src: "/assets/images/hubspot.webp", alt: "Hubspot" },
+    { src: "/assets/images/semrush.webp", alt: "Semrush" },
+    { src: "/assets/images/canva.webp", alt: "Canva" },
+    { src: "/assets/images/ahrefs.webp", alt: "Ahrefs" },
+    { src: "/assets/images/wordpress.webp", alt: "WordPress" },
+    { src: "/assets/images/hootsuite.webp", alt: "Hootsuite" },
+    { src: "/assets/images/zoom.webp", alt: "Zoom" },
+    { src: "/assets/images/shopify.webp", alt: "Shopify" },
   ];
 
   return (

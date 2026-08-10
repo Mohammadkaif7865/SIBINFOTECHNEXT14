@@ -31,7 +31,7 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-marketing-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/search-engine-marketing-companies-mumbai-india"
@@ -193,7 +193,7 @@ export default function SearchEngineMarketingCompaniesMumbaiIndia() {
                 <img
                   alt="Search-Engine-Marketing-Services-Company-In-Mumbai"
                   className="image-full"
-                  src="assets/images/seo-marketing-seo-services.png"
+                  src="assets/images/seo-marketing-seo-services.webp"
                 />
               </div>
             </div>

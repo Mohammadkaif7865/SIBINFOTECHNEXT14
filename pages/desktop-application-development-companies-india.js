@@ -37,7 +37,7 @@ export default function DesktopApplicationDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -55,7 +55,7 @@ export default function DesktopApplicationDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/desktop-application-development-companies-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/desktop-application-development-companies-india"
@@ -174,7 +174,7 @@ export default function DesktopApplicationDevelopmentServices() {
                 <img
                   alt="Desktop Application Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function DesktopApplicationDevelopmentServices() {
                 <img
                   alt="Desktop Application Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -10,44 +10,44 @@ import OurClients from "@/comps/Home/OurClients";
 const TestimonialsMgt = () => {
   const testimonials = [
     {
-      userImg: "/assets/images/timothy-scafaria.jpeg",
+      userImg: "/assets/images/timothy-scafaria.webp",
       heading: "Platform Development for Ed-Tech Marketplace",
       content:
         "The platform has just launched. but some of the company's old clients have already expressed their positive feedback on the new website. The company appreciates how the SIB Infotech team showed they cared for the project through their open and honest communication especially when suggesting ideas.",
       userName: "Timothy Scafaria",
       userTitle: "Founder, remoteUprep, LLC",
       reviewSource: "Clutch",
-      reviewSourceLogo: "/assets/images/clutch-logo.png",
+      reviewSourceLogo: "/assets/images/clutch-logo.webp",
     },
     {
-      userImg: "/assets/images/rupesh-maniar.jpg",
+      userImg: "/assets/images/rupesh-maniar.webp",
       heading: "Website Development Agency Services Mumbai",
       content:
         "SIB Infotech has designed website for our company. We are very happy with outcome. They are not only professional but also putting their heart into work. We would have suggested changes many times added many products all they have done with smiling face. We will always refer them for quality work and perfect price.",
       userName: "Rupesh Maniar",
       userTitle: "Real Value Finloan Services Pvt. Ltd.",
       reviewSource: "Google",
-      reviewSourceLogo: "/assets/images/google-logo.png",
+      reviewSourceLogo: "/assets/images/google-logo.webp",
     },
     {
-      userImg: "/assets/images/tima-elhajj.jpeg",
+      userImg: "/assets/images/tima-elhajj.webp",
       heading: "Website Development for Media & Consulting Company",
       content:
         "The client loved the platform that the SIB Infotech team developed for them, especially the calculator function that was included. The company appreciated the team's high level of professionalism, communication, and care on the project. They are happy and willing to work with the team again.",
       userName: "Tima Elhajj",
       userTitle: "CEO & Founder, Tima Media",
       reviewSource: "Clutch",
-      reviewSourceLogo: "/assets/images/clutch-logo.png",
+      reviewSourceLogo: "/assets/images/clutch-logo.webp",
     },
   ];
 
   const testimonialLogos = [
-    { src: "/assets/images/logos/google.png", alt: "Google Reviews" },
-    { src: "/assets/images/logos/clutch.png", alt: "Clutch Reviews" },
-    { src: "/assets/images/logos/trust-pilot.png", alt: "Trustpilot Reviews" },
-    { src: "/assets/images/logos/goodfirms.png", alt: "GoodFirms Reviews" },
-    { src: "/assets/images/logos/facebook.png", alt: "Facebook Reviews" },
-    { src: "/assets/images/logos/just-dial.png", alt: "Justdial Reviews" },
+    { src: "/assets/images/logos/google.webp", alt: "Google Reviews" },
+    { src: "/assets/images/logos/clutch.webp", alt: "Clutch Reviews" },
+    { src: "/assets/images/logos/trust-pilot.webp", alt: "Trustpilot Reviews" },
+    { src: "/assets/images/logos/goodfirms.webp", alt: "GoodFirms Reviews" },
+    { src: "/assets/images/logos/facebook.webp", alt: "Facebook Reviews" },
+    { src: "/assets/images/logos/just-dial.webp", alt: "Justdial Reviews" },
   ];
 
   const trustPoints = [

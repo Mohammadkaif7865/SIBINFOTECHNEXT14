@@ -31,7 +31,7 @@ export default function WebsiteUsabilityReportIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-usability-report-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-usability-report-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function WebsiteUsabilityReportIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-usability-report-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-usability-report-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-usability-report-india"
@@ -162,7 +162,7 @@ export default function WebsiteUsabilityReportIndia() {
                 <img
                   alt="Website Usability Report in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

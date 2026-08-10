@@ -13,7 +13,7 @@ const Objective = () => {
                 height={450}
                 quality={100}
                 className="image-full h-auto "
-                src="/assets/images/instagram-ads-business-objective.png"
+                src="/assets/images/instagram-ads-business-objective.webp"
                 alt="instagram-ads-business-objective"
               />
             </div>

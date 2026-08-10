@@ -32,7 +32,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SeoMoneyBackGuranteerServicesIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-money-back-guarantee-service-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/seo-money-back-guarantee-service-india"

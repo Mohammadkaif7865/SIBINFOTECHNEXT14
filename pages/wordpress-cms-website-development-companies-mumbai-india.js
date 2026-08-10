@@ -32,7 +32,7 @@ export default function WordPressCmsServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function WordPressCmsServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/wordpress-cms-website-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/wordpress-cms-website-development-companies-mumbai-india"
@@ -162,7 +162,7 @@ export default function WordPressCmsServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Wordpress Experts"
                 />
               </div>
@@ -212,7 +212,7 @@ export default function WordPressCmsServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Wordpress Experts Services"
                 />
               </div>

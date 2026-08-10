@@ -58,7 +58,7 @@ const Cta2 = () => {
 
         {/* <div className="position-absolute bottom-0 start-50 translate-middle-x mb-0">
           <Image
-            src="/assets/images/cta2/team.png"
+            src="/assets/images/cta2/team.webp"
             alt="Team"
             width={400}
             height={300}

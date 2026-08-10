@@ -32,7 +32,7 @@ export default function LawWebsiteDevelopmentMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function LawWebsiteDevelopmentMumbai() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function LawWebsiteDevelopmentMumbai() {
               "SIB Infotech specialises in professional law website development services in Mumbai, India. We create custom, user-friendly websites for law firms and attorneys — focusing on online strategy, professional image, client referrals, news retrieval, educational resources, and multiple contact methods. Our goal is to incorporate special features that build referrals, present a professional image, and enhance visitor experience, all within a strict budget.",
             url: "https://www.sibinfotech.com/law-website-development-mumbai-india",
             image:
-              "https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.jpg",
+              "https://www.sibinfotech.com/assets/og/law-website-development-mumbai-india.webp",
 
             provider: {
               "@type": "Organization",
@@ -347,7 +347,7 @@ export default function LawWebsiteDevelopmentMumbai() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Law Website Development Company in India"
                   className="img-fluid"
                 />

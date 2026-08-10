@@ -16,13 +16,13 @@ export default function YoutubeMarketing() {
         <meta property="og:url" content="https://www.sibinfotech.com/youtube-marketing" />
         <meta property="og:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
         <meta property="og:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.jpg" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.webp" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/youtube-marketing" />
         <meta property="twitter:title" content="YouTube Marketing Services Company Mumbai | SIB Infotech" />
         <meta property="twitter:description" content="Grow your brand with YouTube marketing services by SIB Infotech. Engage your audience through impactful video content and effective promotional strategies." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.jpg" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/youtube-marketing.webp" />
         <BreadcrumbSchema
         url="https://www.sibinfotech.com/youtube-marketing"
         breadcrumbTitle="YouTube Marketing Services Company Mumbai | SIB Infotech"
@@ -97,7 +97,7 @@ export default function YoutubeMarketing() {
                   </div>
                   <div className="col-md-6">
                      <div className="custom-page-img">
-                        <img src="assets/images/article-submission.png" alt="Best Youtube Marketing Services Company in India" className="img-fluid"/>
+                        <img src="assets/images/article-submission.webp" alt="Best Youtube Marketing Services Company in India" className="img-fluid"/>
                      </div>
                   </div>
                </div>

@@ -15,7 +15,7 @@ const Why = () => {
                   width={500}
                   height={500}
                   quality={100}
-                  src="/assets/images/seo-company.jpg"
+                  src="/assets/images/seo-company.webp"
                   alt="SEO Company"
                 />
               </div>

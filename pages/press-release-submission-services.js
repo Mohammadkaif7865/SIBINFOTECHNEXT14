@@ -31,7 +31,7 @@ export default function PressReleaseSubmissionServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/press-release-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/press-release-submission-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function PressReleaseSubmissionServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/press-release-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/press-release-submission-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/press-release-submission-services"
@@ -159,7 +159,7 @@ export default function PressReleaseSubmissionServices() {
               <div className="tiktok-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/pr-submission-company-in-india.png"
+                  src="assets/images/pr-submission-company-in-india.webp"
                   alt="Press-Release-Submission-Services-Company-In-India"
                 />
               </div>

@@ -36,7 +36,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -54,7 +54,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/social-media-marketing-smm-services-packages"
@@ -144,7 +144,7 @@ export default function SocialMediaMarketingSMMServicesPackages() {
                   <img
                     alt=""
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="assets/images/seo-packages-3.webp"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

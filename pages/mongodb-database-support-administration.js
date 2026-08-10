@@ -34,7 +34,7 @@ export default function MangoDbDatabaseSupportAdministration() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.jpg"
+        content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function MangoDbDatabaseSupportAdministration() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.jpg"
+        content="https://www.sibinfotech.com/assets/og/mongodb-database-support-administration.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mongodb-database-support-administration"
@@ -196,7 +196,7 @@ export default function MangoDbDatabaseSupportAdministration() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="MangoDb Database Support"
                   className="img-fluid"
                 />

@@ -16,13 +16,13 @@ export default function WindosMobileApplicationDevelopementServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/windows-mobile-application-development-services" />
       <meta property="og:title" content="Windows Mobile Application Development Services Mumbai, India" />
       <meta property="og:description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/windows-mobile-application-development-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/windows-mobile-application-development-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/windows-mobile-application-development-services" />
       <meta property="twitter:title" content="Windows Mobile Application Development Services Mumbai, India" />
       <meta property="twitter:description" content="SIB Infotech provides a wide range of Windows mobile application development services in Mumbai. Contact for the user-friendly and functional Windows apps." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/windows-mobile-application-development-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/windows-mobile-application-development-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/windows-mobile-application-development-services"
         breadcrumbTitle="Windows Mobile Application Development Services Mumbai, India"

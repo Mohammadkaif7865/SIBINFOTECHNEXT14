@@ -18,37 +18,37 @@ const WhiteLabelSeoMgt = () => {
       title: `Full-Service <br class="d-none d-md-lg "/> SEO Delivery`,
       description:
         "The complete SEO lifecycle under your brand: technical audits, keyword research, on-page optimisation, content creation, link building, schema markup, and monthly reporting. Every deliverable is ready to send directly to your client.",
-      img: "/assets/images/white-lable/White-Label-SEO-Services.jpg",
+      img: "/assets/images/white-lable/White-Label-SEO-Services.webp",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> SEO Reports`,
       description:
         "Monthly reports fully branded with your agency logo, client name, and branding. Coverage includes keyword ranking movements, organic traffic trends, technical health scores, link acquisition, and content performance.",
-      img: "/assets/images/white-lable/White-label-link-building.jpg",
+      img: "/assets/images/white-lable/White-label-link-building.webp",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> Link Building`,
       description:
         "Genuine editorial backlinks from authoritative, industry-relevant domains. White-hat and Google-compliant only. Monthly link reports detail each placement with domain authority, anchor text, and target page.",
-      img: "/assets/images/white-lable/White-Label-PPC-Services.jpg",
+      img: "/assets/images/white-lable/White-Label-PPC-Services.webp",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> Content Creation`,
       description:
         "Blog posts, service pages, landing pages, and resource content produced to your specifications. Keyword-optimised, EEAT-compliant, and original — every piece passes Copyscape.",
-      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.jpg",
+      img: "/assets/images/white-lable/White-Label-Social-Media-Marketing.webp",
     },
     {
       title: `White Label <br class="d-none d-md-lg "/> Technical SEO`,
       description:
         "Full technical SEO audits covering Core Web Vitals, crawlability, indexation, schema markup, site architecture, and mobile optimisation — delivered in client-ready audit reports formatted under your brand.",
-      img: "/assets/images/white-lable/White-Label-Facebook-ads.jpg",
+      img: "/assets/images/white-lable/White-Label-Facebook-ads.webp",
     },
     {
       title: `Dedicated <br class="d-none d-md-lg "/> Account Management`,
       description:
         "A dedicated account manager serves as your point of contact for all client campaigns, understanding your agency's standards and communication style to ensure consistency across all deliverables.",
-      img: "/assets/images/white-lable/White-Label-Google-ads.jpg",
+      img: "/assets/images/white-lable/White-Label-Google-ads.webp",
     },
   ];
 

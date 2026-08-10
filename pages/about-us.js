@@ -27,7 +27,7 @@ export default function AboutUs() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@ export default function AboutUs() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       <BreadcrumbSchema
           url="https://www.sibinfotech.com/about-us"
@@ -62,58 +62,58 @@ export default function AboutUs() {
     {
       name: "Ashutosh Kumar Singh",
       imgSrcSet: "assets/images/team/ashutosh-kumar-singh.webp",
-      imgSrc: "assets/images/team/ashutosh-kumar-singh.jpg",
+      imgSrc: "assets/images/team/ashutosh-kumar-singh.webp",
       alt: "Ashutosh Kumar Singh",
     },
     {
       name: "Badal Dev",
       imgSrcSet: "assets/images/team/badal-dev.webp",
-      imgSrc: "assets/images/team/badal-dev.jpg",
+      imgSrc: "assets/images/team/badal-dev.webp",
       alt: "Badal Dev",
     },
  
     {
       name: "Geordy Mathew",
       imgSrcSet: "assets/images/team/geordy-mathew.webp",
-      imgSrc: "assets/images/team/geordy-mathew.jpg",
+      imgSrc: "assets/images/team/geordy-mathew.webp",
       alt: "Geordy Mathew",
     },
  
     {
       name: "Mahadev Prasad Uniyal",
       imgSrcSet: "assets/images/team/Mahadev.webp",
-      imgSrc: "assets/images/team/Mahadev.jpg",
+      imgSrc: "assets/images/team/Mahadev.webp",
       alt: "Mahadev Prasad Uniyal",
     },
     {
       name: "Malini Guria",
       imgSrcSet: "assets/images/team/malini-guria.webp",
-      imgSrc: "assets/images/team/malini-guria.jpg",
+      imgSrc: "assets/images/team/malini-guria.webp",
       alt: "Malini Guria",
     },
     {
       name: "Mohammad Kaif",
       imgSrcSet: "assets/images/team/mohammad-kaif-2.webp",
-      imgSrc: "assets/images/team/mohammad-kaif-2.jpg",
+      imgSrc: "assets/images/team/mohammad-kaif-2.webp",
       alt: "Mohammad Kaif",
     },
     {
       name: "Neha Vishwakarma",
       imgSrcSet: "assets/images/team/neha-vish.webp",
-      imgSrc: "assets/images/team/neha-vish.jpg",
+      imgSrc: "assets/images/team/neha-vish.webp",
       alt: "Neha Vishwakarma",
     },
   
     {
       name: "Pooja Sharma",
       imgSrcSet: "assets/images/team/pooja-sharma-2.webp",
-      imgSrc: "assets/images/team/pooja-sharma-2.jpg",
+      imgSrc: "assets/images/team/pooja-sharma-2.webp",
       alt: "Pooja Sharma",
     },
     {
       name: "Zaroon Junaid",
       imgSrcSet: "assets/images/team/zaroon-junaid.webp",
-      imgSrc: "assets/images/team/zaroon-junaid.jpg",
+      imgSrc: "assets/images/team/zaroon-junaid.webp",
       alt: "Zaroon Junaid",
     },
   ];
@@ -334,7 +334,7 @@ export default function AboutUs() {
                     type="image/webp"
                   />
                   <img
-                    src="assets/images/mission-vision.jpg"
+                    src="assets/images/mission-vision.webp"
                     alt="Mission Vision Values"
                   />
                 </picture>
@@ -449,7 +449,7 @@ export default function AboutUs() {
                     srcSet="assets/images/core-values.webp"
                     type="image/webp"
                   />
-                  <img src="assets/images/core-values.jpg" alt="core Values" />
+                  <img src="assets/images/core-values.webp" alt="core Values" />
                 </picture>
               </div>
             </div>
@@ -488,7 +488,7 @@ export default function AboutUs() {
                     <picture>
                       <source srcSet="assets/images/team/anuj-bajaj-sir.webp" />
                       <img
-                        src="assets/images/team/anuj-bajaj-sir.jpg"
+                        src="assets/images/team/anuj-bajaj-sir.webp"
                         alt="Anuj Bajaj"
                       />
                     </picture>
@@ -504,7 +504,7 @@ export default function AboutUs() {
                     <picture>
                       <source srcSet="assets/images/team/radhey-shyam-bajaj-sir.webp" />
                       <img
-                        src="assets/images/team/radhey-shyam-bajaj-sir.jpg"
+                        src="assets/images/team/radhey-shyam-bajaj-sir.webp"
                         alt="Radhey Shyam Bajaj"
                       />
                     </picture>

@@ -40,7 +40,7 @@ export default function WhatWeDo3() {
 </p>
 
 `,
-      image: "/assets/images/get-ranked-on-google.jpg",
+      image: "/assets/images/get-ranked-on-google.webp",
     },
     {
       title: "Drive Instant Growth",
@@ -80,7 +80,7 @@ Create engaging ad creatives that spark clicks, boost conversions, and build str
   Reach decision-makers, build professional trust, and grow your B2B pipeline with highly targeted LinkedIn advertising campaigns. 
         </p>
       `,
-      image: "/assets/images/drive-instant-growth.jpg",
+      image: "/assets/images/drive-instant-growth.webp",
     },
     {
       title: "Accelerate Digital Dominance",
@@ -118,7 +118,7 @@ Custom-built software solutions designed to automate workflows, improve efficien
 
 
         `,
-      image: "/assets/images/digital-domainiation.png",
+      image: "/assets/images/digital-domainiation.webp",
     },
     {
       title: "Build Trust & Credibility",
@@ -143,7 +143,7 @@ Custom-built software solutions designed to automate workflows, improve efficien
 
  
        `,
-      image: "/assets/images/trusted.jpeg",
+      image: "/assets/images/trusted.webp",
     },
   ];
 

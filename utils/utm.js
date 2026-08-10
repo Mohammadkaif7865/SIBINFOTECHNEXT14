@@ -1,5 +1,5 @@
 // utils/utm.js
-export const UTM_KEYS = [
+const UTM_KEYS = [
   "utm_source","utm_medium","utm_campaign","utm_term","utm_content",
   "gclid","fbclid","msclkid","dclid","wbraid","gbraid","li_fat_id",
   "ttclid","twclid","yclid","utm_id"

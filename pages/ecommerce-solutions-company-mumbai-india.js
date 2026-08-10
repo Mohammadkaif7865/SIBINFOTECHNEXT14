@@ -34,7 +34,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-solutions-company-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/ecommerce-solutions-company-mumbai-india"
@@ -180,7 +180,7 @@ export default function EcommerceSolutionCompaniesMumbai() {
                     that will make the picture clear
                   </h3>
                 </div>
-                {/* <img className="bgImageEffect" src="assets/images/img-pattern-white.png" alt="ecommerce-solutions-company-in-delhi"/> */}
+                {/* <img className="bgImageEffect" src="assets/images/img-pattern-white.webp" alt="ecommerce-solutions-company-in-delhi"/> */}
               </div>
             </div>
             <div className="col-lg-8">

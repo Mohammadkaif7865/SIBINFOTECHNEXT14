@@ -32,7 +32,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/cms-development-companies-mumbai-india.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
               "SIB Infotech is a leading CMS development company in Mumbai, India offering custom CMS development, enterprise CMS solutions, content management systems, CMS website design, and scalable web portal development services. Our CMS developers build SEO-friendly, responsive, secure, and easy-to-manage content management solutions tailored to business requirements.",
             url: "https://www.sibinfotech.com/cms-development-companies-mumbai-india/",
             image:
-              "https://www.sibinfotech.com/assets/images/cms-development-company.jpg",
+              "https://www.sibinfotech.com/assets/images/cms-development-company.webp",
 
             provider: {
               "@type": "Organization",
@@ -327,7 +327,7 @@ export default function CmsDevelopmentCompaniesMumbai() {
               <div className="cms-img-section">
                 <img
                   className="image-full"
-                  src="assets/images/cms-development-company-in-mumbai.png"
+                  src="assets/images/cms-development-company-in-mumbai.webp"
                   alt="cms-development-company-in-mumbai"
                 />
               </div>

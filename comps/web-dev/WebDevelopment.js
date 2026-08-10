@@ -26,10 +26,10 @@ const WebDevelopment = () => {
       ` Our top web development services in Mumbai, India aim to meet all your digital requirements and provide better outreach to your website through digital marketing services.`,
     ],
     image1: {
-      src: "/assets/images/web-dev/web-dev-about-2.jpg",
+      src: "/assets/images/web-dev/web-dev-about-2.webp",
     },
     image2: {
-      src: "/assets/images/web-dev/web-dev-about.jpg",
+      src: "/assets/images/web-dev/web-dev-about.webp",
     },
     buttonText: "Let's Grow Your Business?",
     buttonLink: "/contact",
@@ -44,56 +44,56 @@ const WebDevelopment = () => {
       title: "VueJS <br/> Development ",
       description:
         "We have a team of VueJS developers that build lightweight, easy-to-load, and scalable web applications and websites using the popular Javascript framework VueJS ",
-      img: "/assets/images/web-dev/vuejs.jpg",
+      img: "/assets/images/web-dev/vuejs.webp",
     },
     {
       title: "Angular Development",
       description:
         "We build scalable, dynamic, and advanced single-page web applications using Google's JavaScript framework, Angular. Whether your business needs real-time applications with highly interactive and modern user interfaces, our Angular developers are ready to deliver the best you want. ",
-      img: "/assets/images/web-dev/angular.jpg",
+      img: "/assets/images/web-dev/angular.webp",
     },
     {
       title: "NextJS <br/> Development ",
       description:
         "NextJS development services for businesses need fast loading and dynamic web and apps. Our team of NextJS developers is ready to deliver scalable, robust, and efficient web development solutions for companies that want dynamic websites, complex web applications, or e-commerce development. ",
-      img: "/assets/images/web-dev/nextjs.jpg",
+      img: "/assets/images/web-dev/nextjs.webp",
     },
 
     {
       title: "React JS",
       description:
         "Influence the dynamism and adaptability of React.JS appropriate for enormous scope applications that easily make intuitive UIs.",
-      img: "/assets/images/web-dev/reactjs.jpg",
+      img: "/assets/images/web-dev/reactjs.webp",
     },
     {
       title: "Ember JS",
       description:
         "A viewpoint JavaScript system appropriate for building elite, interoperable web applications with no exhibition blocks.",
-      img: "/assets/images/web-dev/ember.jpg",
+      img: "/assets/images/web-dev/ember.webp",
     },
     {
       title: "jQuery and <br/> JavaScript",
       description:
         "Construct instinctive, light-weight, SEO benevolent, cross-program viable and CSS3 consistent web and applications with the jQuery JavaScript library.",
-      img: "/assets/images/web-dev/js.jpg",
+      img: "/assets/images/web-dev/js.webp",
     },
     {
       title: "Bootstrap",
       description:
         "Grasp the truly versatile, responsive, portable first front-end system Bootstrap that drives consistency and speed, disentangles reconciliation, and facilitates customization.",
-      img: "/assets/images/web-dev/bootstrap.jpg",
+      img: "/assets/images/web-dev/bootstrap.webp",
     },
     {
       title: "Material UI",
       description:
         "Rehash the vibe of your web applications with the straightforwardness and accuracy of Google's Material Design Color Palette, Typography, Material Design Components, plan ideas and standards.",
-      img: "/assets/images/web-dev/mui.jpg",
+      img: "/assets/images/web-dev/mui.webp",
     },
     {
       title: "Html and Css",
       description:
         "Build the foundation of modern web pages using HTML for structure and CSS for styling. Learn how to create responsive layouts, apply animations, and follow best practices in web design for visually appealing and accessible websites.",
-      img: "/assets/images/web-dev/html-css.jpg",
+      img: "/assets/images/web-dev/html-css.webp",
     },
   ];
 
@@ -258,31 +258,31 @@ const WebDevelopment = () => {
       title: "KPI Led Design",
       description:
         "Delivering measurable business results with our chosen indicators, strategy, and design.",
-      img: "/assets/images/web-dev/kpi.png",
+      img: "/assets/images/web-dev/kpi.webp",
     },
     {
       title: "Version Zero",
       description:
         "Building high-fidelity prototypes to communicate or validate concepts by testing for feedback.",
-      img: "/assets/images/web-dev/Version-zero.jpg",
+      img: "/assets/images/web-dev/Version-zero.webp",
     },
     {
       title: "Agile Development",
       description:
         "Intersecting Agile/scrum methodology with design thinking for remarkable UX development.",
-      img: "/assets/images/web-dev/agile-development.jpg",
+      img: "/assets/images/web-dev/agile-development.webp",
     },
     {
       title: "Digital Transformation",
       description:
         "Comprehending the breadth and depth of your business with meaningful +engaging transformation.",
-      img: "/assets/images/web-dev/digital-transformation.jpg",
+      img: "/assets/images/web-dev/digital-transformation.webp",
     },
     {
       title: "Strategic UX",
       description:
         "Uniting strategy + creativity + tools to weave strategic user experiences and interfaces.",
-      img: "/assets/images/web-dev/strategic-ux.jpg",
+      img: "/assets/images/web-dev/strategic-ux.webp",
     },
     
   ];
@@ -419,7 +419,7 @@ const WebDevelopment = () => {
         subtitle={
           "Our Expert Back End Web Development Services With Enhanced Stability"
         }
-        image={`/assets/images/web-dev/backend.jpg`}
+        image={`/assets/images/web-dev/backend.webp`}
         title={brandContent[0].title}
         description={brandContent[0].description}
         faqData={brandContent[0].faqData}

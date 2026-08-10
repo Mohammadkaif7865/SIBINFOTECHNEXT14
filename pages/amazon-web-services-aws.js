@@ -32,7 +32,7 @@ export default function AmazonWebServicesAws() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg"
+        content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function AmazonWebServicesAws() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.jpg"
+        content="https://www.sibinfotech.com/assets/og/amazon-web-services-aws.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function AmazonWebServicesAws() {
               "SIB Infotech is a leading Android mobile application development company in India offering custom Android app development, enterprise mobile applications, hybrid app development, UI/UX design, ecommerce mobile apps, and scalable Android solutions for startups and enterprises. Our Android app developers build secure, responsive, feature-rich, and user-friendly mobile applications to improve customer engagement, business growth, and digital transformation.",
             url: "https://www.sibinfotech.com/android-mobile-application-development-services",
             image:
-              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.jpg",
+              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.webp",
 
             provider: {
               "@type": "Organization",
@@ -334,7 +334,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Amazon Web Services Company in India"
                   className="img-fluid"
                 />
@@ -345,7 +345,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Amazon Web Services in Delhi"
                   className="img-fluid"
                 />
@@ -439,7 +439,7 @@ export default function AmazonWebServicesAws() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Amazon Web Services in Delhi"
                   className="img-fluid"
                 />

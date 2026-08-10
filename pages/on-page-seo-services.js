@@ -14,13 +14,13 @@ export default function OnPageSeoServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/on-page-seo-services" />
       <meta property="og:title" content="Best On-Page SEO Optimization Services in India" />
       <meta property="og:description" content="Struggling to rank on Google? Our On-Page SEO experts fix content, structure, and technical issues to help your website perform better and drive more traffic." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/on-page-seo-services" />
       <meta property="twitter:title" content="Best On-Page SEO Optimization Services in India" />
       <meta property="twitter:description" content="Struggling to rank on Google? Our On-Page SEO experts fix content, structure, and technical issues to help your website perform better and drive more traffic." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/on-page-seo-services.webp" />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/on-page-seo-services"
         breadcrumbTitle="Best On-Page SEO Optimization Services in India"

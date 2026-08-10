@@ -34,7 +34,7 @@ export default function SocialNetworkingDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function SocialNetworkingDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-networking-website-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/social-networking-website-development-services"
@@ -170,7 +170,7 @@ export default function SocialNetworkingDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="imgFulll"
-                src="assets/images/social-networking-website.jpg"
+                src="assets/images/social-networking-website.webp"
               />
             </div>
           </div>

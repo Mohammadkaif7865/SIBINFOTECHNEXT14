@@ -32,7 +32,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
 
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.webp"
       />
       <script
         type="application/ld+json"
@@ -66,7 +66,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
               "SIB Infotech has vast competency in ASP.NET Development and ASP.NET Application Development. The .NET Framework is one of the most popular and widely used scripting languages to create business solutions for public and private cloud environments and client devices such as desktops and smartphones. Our expert ASP.NET developers offer robust, scalable, dynamic, and secure ASP.NET development solutions tailored to your specific business needs.",
             url: "https://www.sibinfotech.com/aspnet-development-companies-mumbai-india",
             image:
-              "https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.jpg",
+              "https://www.sibinfotech.com/assets/og/aspnet-development-companies-mumbai-india.webp",
 
             provider: {
               "@type": "Organization",
@@ -400,7 +400,7 @@ export default function AspnetDevelopmentCompanyMumbai() {
                 <img
                   alt="ASP.NET Development Services Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

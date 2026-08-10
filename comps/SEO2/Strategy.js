@@ -15,8 +15,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/keyword-research.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/keyword-research.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div className="item_content">
@@ -32,8 +32,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/mobile-friendly.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/mobile-friendly.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -50,8 +50,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/2.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/2.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div className="item_content">
@@ -67,9 +67,9 @@ const Strategy = () => {
                   width={50}
                   height={50}
                   src={
-                    "/assets/images/icons/strategy/structured-data-schema-markup.png"
+                    "/assets/images/icons/strategy/structured-data-schema-markup.webp"
                   }
-                  alt="bars.png"
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -86,8 +86,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/competitor-analysis.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/competitor-analysis.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div className="item_content">
@@ -105,9 +105,9 @@ const Strategy = () => {
                   width={50}
                   height={50}
                   src={
-                    "/assets/images/icons/strategy/local-search-engine-optimization.png"
+                    "/assets/images/icons/strategy/local-search-engine-optimization.webp"
                   }
-                  alt="bars.png"
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -123,8 +123,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/on-page-optimization.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/on-page-optimization.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div className="item_content">
@@ -140,8 +140,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/strategy/3.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/strategy/3.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -159,9 +159,9 @@ const Strategy = () => {
                   width={50}
                   height={50}
                   src={
-                    "/assets/images/icons/strategy/optimize-content-design.png"
+                    "/assets/images/icons/strategy/optimize-content-design.webp"
                   }
-                  alt="bars.png"
+                  alt="bars.webp"
                 />
               </div>
               <div className="item_content">
@@ -179,9 +179,9 @@ const Strategy = () => {
                   width={50}
                   height={50}
                   src={
-                    "/assets/images/icons/strategy/high-quality-backlinks.png"
+                    "/assets/images/icons/strategy/high-quality-backlinks.webp"
                   }
-                  alt="bars.png"
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -201,8 +201,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/bars.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/bars.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -219,8 +219,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/bars.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/bars.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -237,8 +237,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/bars.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/bars.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -254,8 +254,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/bars.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/bars.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>
@@ -272,8 +272,8 @@ const Strategy = () => {
                 <Image
                   width={50}
                   height={50}
-                  src={"/assets/images/icons/bars.png"}
-                  alt="bars.png"
+                  src={"/assets/images/icons/bars.webp"}
+                  alt="bars.webp"
                 />
               </div>
               <div>

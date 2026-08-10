@@ -32,7 +32,7 @@ export default function WebApplicationTestingMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function WebApplicationTestingMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/web-application-testing-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/web-application-testing-mumbai-india"
@@ -176,7 +176,7 @@ export default function WebApplicationTestingMumbaiIndia() {
                 <img
                   alt="Web Application Testing Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

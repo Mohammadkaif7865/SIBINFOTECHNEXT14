@@ -30,7 +30,7 @@ export default function BootstrapDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@ export default function BootstrapDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/bootstrap-website-designing-services.webp"
       />
 
       <BreadcrumbSchema
@@ -188,7 +188,7 @@ export default function BootstrapDesigningServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Best Bootstrap Designing Company in india"
                 />
               </div>

@@ -121,7 +121,7 @@ export default function WebDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -139,7 +139,7 @@ export default function WebDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-development-services.jpg
+        content="https://www.sibinfotech.com/assets/og/website-development-services.webp
 "
       />
       <BreadcrumbSchema
@@ -602,7 +602,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/nodeJs.png"
+                  src="assets/images/icons/nodeJs.webp"
                   alt="Website Development Companies in Mumbai"
                 />
                 <h4>Node JS Development Services</h4>
@@ -653,7 +653,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/magento.png"
+                  src="assets/images/icons/magento.webp"
                   alt="web application development company"
                 />
                 <h4>Magento Development Services</h4>
@@ -705,7 +705,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/opencart.png"
+                  src="assets/images/icons/opencart.webp"
                   alt="Web Application Development Company in Mumbai"
                 />
                 <h4>Opencart Development Services</h4>
@@ -722,7 +722,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/codeigniter-logo.jpg"
+                  src="assets/images/icons/codeigniter-logo.webp"
                   alt="Web Application Development Agency in Mumbai"
                 />
                 <h4>CodeIgniter Web Development Services</h4>
@@ -737,7 +737,7 @@ export default function WebDevelopmentServices() {
             <div className="col-lg-4">
               <div className="web-devlp-box-2 mdm-height">
                 <img
-                  src="assets/images/icons/yii.jpg"
+                  src="assets/images/icons/yii.webp"
                   alt="Web Application Development Agency in Delhi"
                 />
                 <h4>Yii Development Services</h4>

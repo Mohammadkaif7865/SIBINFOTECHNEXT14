@@ -33,7 +33,7 @@ cake php development services,cake php development service,offshore cake php dev
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/cakephp-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/cakephp-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ cake php development services,cake php development service,offshore cake php dev
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/cakephp-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/cakephp-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/cakephp-development-services"
@@ -176,7 +176,7 @@ cake php development services,cake php development service,offshore cake php dev
                 <img
                   alt="Cake Php Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

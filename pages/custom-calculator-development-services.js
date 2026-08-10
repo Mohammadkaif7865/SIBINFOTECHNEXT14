@@ -35,7 +35,7 @@ export default function CustomCalculatorDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function CustomCalculatorDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-calculator-development-services.webp"
       />
 
     
@@ -71,7 +71,7 @@ export default function CustomCalculatorDevelopmentServices() {
               "SIB Infotech is India's #1 custom calculator development company in Mumbai, offering custom-designed, interactive, and mobile-friendly calculators for websites and applications. From simple calculators to highly complex financial calculators, we build flexible, SSL-secured, 100% platform-compatible web calculators that boost engagement, lead generation, conversions, and SEO rankings.",
             url: "https://www.sibinfotech.com/custom-calculator-development-services",
             image:
-              "https://www.sibinfotech.com/assets/images/calt-develoment-company.png",
+              "https://www.sibinfotech.com/assets/images/calt-develoment-company.webp",
 
             provider: {
               "@type": "Organization",
@@ -287,7 +287,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full imgAnimation"
-                src="assets/images/calt-develoment-company.png"
+                src="assets/images/calt-develoment-company.webp"
                 alt="Custom Calculator Development Company in Mumbai"
               />
             </div>
@@ -444,7 +444,7 @@ export default function CustomCalculatorDevelopmentServices() {
                 className="calt-img-section"
                 style={{
                   background:
-                    "url(assets/images/instagram-ads-business-objective.png)",
+                    "url(assets/images/instagram-ads-business-objective.webp)",
                   backgroundSize: "cover",
                 }}
               >
@@ -593,7 +593,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-firm.png"
+                src="assets/images/calculator-development-firm.webp"
                 alt="Best Custom Calculator Agency in Mumbai"
               />
             </div>
@@ -606,7 +606,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/instagram-ads-business-objective.png"
+                src="assets/images/instagram-ads-business-objective.webp"
                 alt="Top Custom Calculator Development Company in Delhi"
               />
             </div>
@@ -719,7 +719,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-company-in-mumbai.png"
+                src="assets/images/calculator-development-company-in-mumbai.webp"
                 alt="Custom Calculator Development Companies in India"
               />
             </div>
@@ -732,7 +732,7 @@ export default function CustomCalculatorDevelopmentServices() {
             <div className="col-lg-5 order-lg-1 order-2">
               <img
                 className="image-full"
-                src="assets/images/calculator-development-company-in-mumbai.png"
+                src="assets/images/calculator-development-company-in-mumbai.webp"
                 alt="Best Custom Calculator Development Agency in Delhi"
               />
             </div>
@@ -838,7 +838,7 @@ export default function CustomCalculatorDevelopmentServices() {
                 className="calt-heading-section"
                 style={{
                   background:
-                    "url(assets/images/instagram-ads-business-objective.png)",
+                    "url(assets/images/instagram-ads-business-objective.webp)",
                   backgroundSize: "cover",
                 }}
               >

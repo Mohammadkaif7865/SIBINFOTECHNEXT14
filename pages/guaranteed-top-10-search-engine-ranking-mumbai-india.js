@@ -17,13 +17,13 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
       <meta property="og:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
       <meta property="og:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
       <meta property="og:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india" />
       <meta property="twitter:title" content="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech" />
       <meta property="twitter:description" content="Achieve guaranteed top 10 search engine rankings in Mumbai with SIB Infotech. Our expert strategies drive traffic and enhance visibility for your business." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/guaranteed-top-10-search-engine-ranking-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/guaranteed-top-10-search-engine-ranking-mumbai-india"
         breadcrumbTitle="Guaranteed Top 10 Search Ranking in Mumbai | SIB Infotech"
@@ -144,7 +144,7 @@ export default function GuaranteedTopSearchEngineRankingCompany() {
             <img
               alt="Social-Bookmarking-Services-Company"
               className="image-full"
-              src="assets/images/seo-results-img.png"
+              src="assets/images/seo-results-img.webp"
             />
           </div>
         </div>

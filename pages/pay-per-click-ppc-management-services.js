@@ -31,7 +31,7 @@ export default function PpcManagementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function PpcManagementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/pay-per-click-ppc-management-services"
@@ -77,7 +77,7 @@ export default function PpcManagementServices() {
                   <img
                     alt="PPC Management Service Packages in India"
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="assets/images/seo-packages-3.webp"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

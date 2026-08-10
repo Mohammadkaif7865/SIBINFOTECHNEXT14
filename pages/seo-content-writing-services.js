@@ -32,7 +32,7 @@ export default function SeoContentWritingServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SeoContentWritingServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-content-writing-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/seo-content-writing-services"
@@ -169,7 +169,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function SeoContentWritingServices() {
                 <img
                   alt="SEO Content Writing Services Agncy in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -31,7 +31,7 @@ export default function JqueryDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/jquery-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/jquery-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function JqueryDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/jquery-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/jquery-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/jquery-development-services"
@@ -164,7 +164,7 @@ export default function JqueryDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Jquery Development Companies in Mumbai"
                 />
               </div>
@@ -286,7 +286,7 @@ export default function JqueryDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Jquery Development Companies in India"
                 />
               </div>

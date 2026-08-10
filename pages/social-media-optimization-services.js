@@ -27,43 +27,43 @@ export default function SocialMediaOptimizationServices() {
       title: `Proven Expertise & <br class="d-none d-md-lg "/> Experienced Team`,
       description:
         "Our social media experts have extensive experience in optimizing brands for maximum visibility and engagement. A team of certified digital marketers, designers, and strategists with a track record of delivering measurable social media success.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Custom SMO <br class="d-none d-md-lg "/> Strategies`,
       description:
         "No one-size-fits-all—our approach is personalized to match your brand’s voice, audience, and goals. We use analytics and insights to tailor SMO strategies that deliver measurable results.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Visually Stunning & <br class="d-none d-md-lg "/> Impactful Content`,
       description:
         "We develop high-quality content that resonates with your followers. Our professionally designed graphics and compelling copy inspire, educate, and entertain—crafted to stop the scroll.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Increased Brand Visibility <br class="d-none d-md-lg "/> & Audience Engagement`,
       description:
         "Boost your brand visibility and grow your online community organically. Our strategies not only make your brand easier to find but also drive real interactions — increasing likes, shares, and comments to keep your audience actively engaged and connected with your business.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Affordable <br class="d-none d-md-lg "/> Packages`,
       description:
         "We offer cost-effective SMO solutions tailored for businesses of all sizes.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `Real-Time Monitoring <br class="d-none d-md-lg "/> & Reporting`,
       description:
         "We continuously track and optimize your campaigns in real time to maximize reach, engagement, and results. You’ll also receive clear, actionable monthly reports packed with meaningful insights, ROI tracking, and expert recommendations — no fluff, just real performance data.",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.webp",
     },
     {
       title: `Dedicated <br class="d-none d-md-lg "/> Account Manager`,
       description:
         "Your single point of contact to ensure smooth communication, timely updates, and strategic consistency.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
 
@@ -124,7 +124,7 @@ export default function SocialMediaOptimizationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -142,7 +142,7 @@ export default function SocialMediaOptimizationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.jpg
+        content="https://www.sibinfotech.com/assets/og/social-media-optimization-services.webp
 "
       />
       <BreadcrumbSchema
@@ -246,7 +246,7 @@ export default function SocialMediaOptimizationServices() {
         highlightedText="Social Media Optimization (SMO)"
         description="Social Media Optimization </strong>is the process of enhancing your brand’s presence on social platforms through strategic content, profile enhancement, and engagement. It helps increase visibility, generate quality leads, and build lasting relationships with your audience – all organically and cost-effectively."
         subDescription="Social Media Optimization involves the use of <strong>social media networks</strong> to manage and grow an organization’s message and online presence. As a vital part of digital marketing, SMO goes beyond posting content. It includes strategically creating, curating, and promoting your brand's message on social platforms to drive engagement, increase followers, and convert social interactions into measurable business outcomes."
-        imageSrc="/assets/images/whysmo.png"
+        imageSrc="/assets/images/whysmo.webp"
         imageAlt="Team Working"
         features={[
           {
@@ -342,7 +342,7 @@ export default function SocialMediaOptimizationServices() {
         <div className="col-md-4 order-lg-2 order-1">
           <div className="rightSeo text-center">
             <img
-              src="assets/images/smo-banner.png"
+              src="assets/images/smo-banner.webp"
               className="img-responsive"
               alt="SMO Banner"
             />
@@ -353,7 +353,7 @@ export default function SocialMediaOptimizationServices() {
         <div className="col-md-4">
           <div className="rightSeo">
             <img
-              src="assets/images/smo_img.png"
+              src="assets/images/smo_img.webp"
               className="img-responsive"
               alt="SMO"
             />
@@ -421,7 +421,7 @@ export default function SocialMediaOptimizationServices() {
           </div>
           <div className="col-md-4 order-lg-2 order-1">
             <div className="seoLeft mt-2">
-              <img src="assets/images/smo_img2.png" alt="SMO Services" />
+              <img src="assets/images/smo_img2.webp" alt="SMO Services" />
             </div>
           </div>
         </div>
@@ -430,7 +430,7 @@ export default function SocialMediaOptimizationServices() {
         <div className="row">
           <div className="col-md-4">
             <div className="seoLeft mt-2">
-              <img src="assets/images/smo_img3.png" alt="SMO Agency" />
+              <img src="assets/images/smo_img3.webp" alt="SMO Agency" />
             </div>
           </div>
           <div className="col-md-8">

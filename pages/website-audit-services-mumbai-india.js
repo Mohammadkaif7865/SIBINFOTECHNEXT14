@@ -29,7 +29,7 @@ export default function CorporateWebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function CorporateWebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-audit-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-audit-services-mumbai-india"
@@ -146,7 +146,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="corporateRight">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-delhi.png"
+                  src="assets/images/corporate-website-designing-company-in-delhi.webp"
                   alt="Corporate website designing company"
                 />
               </div>
@@ -160,7 +160,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="leftDigiSer">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-mumbai.png"
+                  src="assets/images/corporate-website-designing-company-in-mumbai.webp"
                   className="imgAnimation"
                   alt="Corporate website designing company in mumbai"
                 />

@@ -47,7 +47,7 @@ const About = () => {
                   className=""
                   width="400"
                   height={400}
-                  src="/assets/images/seo-about.jpg"
+                  src="/assets/images/seo-about.webp"
                   alt=""
                 />
               </div>
@@ -56,7 +56,7 @@ const About = () => {
                   className=""
                   width="400"
                   height={400}
-                  src="/assets/images/demo-2-about-img-1.jpg"
+                  src="/assets/images/demo-2-about-img-1.webp"
                   alt=""
                 />
               </div>

@@ -31,7 +31,7 @@ export default function DotNetDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/net-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/net-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function DotNetDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/net-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/net-development-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/net-development-services"
@@ -168,7 +168,7 @@ export default function DotNetDevelopmentServices() {
                 <div className="col-md-6 order-lg-2 order-1">
                   <div className="custom-page-img">
                     <img
-                      src="assets/images/article-submission.png"
+                      src="assets/images/article-submission.webp"
                       alt=".Net Development Companies in India"
                       className="img-fluid"
                     />
@@ -181,7 +181,7 @@ export default function DotNetDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt=".Net Development Services"
                   className="img-fluid"
                 />

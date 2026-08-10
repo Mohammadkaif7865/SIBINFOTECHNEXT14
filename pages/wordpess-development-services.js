@@ -29,7 +29,7 @@ export default function WordpressDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/wordpess-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/wordpess-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function WordpressDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/wordpess-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/wordpess-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/wordpess-development-services"
@@ -185,7 +185,7 @@ export default function WordpressDevelopmentServices() {
                 <img
                   alt="article submission"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -271,7 +271,7 @@ export default function WordpressDevelopmentServices() {
                 <img
                   alt="article submission"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

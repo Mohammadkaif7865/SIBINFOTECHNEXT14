@@ -16,7 +16,7 @@ const HowWorks = () => {
                 objectFit: "contain",
               }}
               className="w-100 h-auto image-full imgAnimation "
-              src="/assets/images/facebook-ads-management-company-in-india.png"
+              src="/assets/images/facebook-ads-management-company-in-india.webp"
               alt="facebook-ads-maangement-company-in-delhi"
             />
           </div>

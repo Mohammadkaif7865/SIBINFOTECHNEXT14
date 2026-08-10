@@ -17,13 +17,13 @@ export default function HireDedicatedSeoExperts() {
       <meta property="og:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
       <meta property="og:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
       <meta property="og:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
       <meta property="twitter:title" content="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings" />
       <meta property="twitter:description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hire-dedicated-seo-experts-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india"
         breadcrumbTitle="Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings"
@@ -142,7 +142,7 @@ export default function HireDedicatedSeoExperts() {
               <div className="custom-page-img">
                 <img
                   alt="Hire Dedicated SEO Specialist Services Company in Mumbai"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function HireDedicatedSeoExperts() {
               <div className="custom-page-img">
                 <img
                   alt="Hire Dedicated SEO Specialist Services Company in India"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

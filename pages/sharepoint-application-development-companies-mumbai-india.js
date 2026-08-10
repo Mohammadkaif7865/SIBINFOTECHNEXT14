@@ -32,7 +32,7 @@ export default function SharepointsDevelopmentCompanyMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SharepointsDevelopmentCompanyMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/sharepoint-application-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/sharepoint-application-development-companies-mumbai-india"

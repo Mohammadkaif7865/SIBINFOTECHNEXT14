@@ -134,7 +134,7 @@ const Old = () => {
                 <div className="services-box">
                   <div className="icon-circle">
                     <img
-                      src="assets/images/icons/on-page-seo-keywords.png"
+                      src="assets/images/icons/on-page-seo-keywords.webp"
                       alt="best-local-seo-firm-in-delhi"
                     />
                   </div>

@@ -18,43 +18,43 @@ const TechnicalSeoMgt = () => {
       title: `Core Web Vitals <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Google's Core Web Vitals are a direct ranking factor. We audit and improve all three metrics: LCP under 2.5 seconds (image compression and lazy loading, resource prioritisation, server response time), INP under 200ms (JavaScript execution optimisation, event handler deferral, main thread unblocking), and CLS under 0.1 (explicit dimensions on images and embeds, font loading stability, avoiding DOM injection above visible content).",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Crawl Budget <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Large websites can waste significant crawl budget on low-value URLs: faceted navigation parameters, duplicate content, thin pages, and session IDs. We conduct log file analysis to identify actual Googlebot crawl patterns, implement noindex and canonical strategies for low-value pages, and rebuild internal linking to concentrate crawl equity on revenue-driving pages.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `JavaScript <br class="d-none d-md-lg "/> SEO`,
       description:
         "Websites built with React, Angular, Next.js, Vue, or custom JavaScript frameworks face specific rendering challenges. We audit JavaScript SEO using Google's URL Inspection tool and custom rendering tests, identify content not being indexed due to client-side rendering, and provide server-side rendering (SSR) or static site generation (SSG) implementation recommendations.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Schema Markup and <br class="d-none d-md-lg "/> Structured Data`,
       description:
         "Schema markup helps search engines understand the type and meaning of your content, enabling rich results and improving AI search visibility. We implement and validate schema for all applicable page types: Organisation and LocalBusiness, Service and Product, FAQPage and HowTo, Article and BlogPosting, BreadcrumbList, and AggregateRating and Review.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `Site Architecture and <br class="d-none d-md-lg "/> Internal Linking`,
       description:
         "How your pages connect determines how link equity flows through your site. We audit crawl depth (every important page should be reachable within 3 clicks), identify orphan pages, optimise anchor text distribution, and build a systematic internal linking framework that concentrates authority on your highest-value pages.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Canonical Tags and <br class="d-none d-md-lg "/> Duplicate Content`,
       description:
         "Duplicate and near-duplicate content confuses Google's indexation and dilutes ranking signals. We audit all sources of duplication — URL parameter variations, HTTP/HTTPS variants, www/non-www, session IDs, trailing slash inconsistencies — and implement canonical tags to consolidate ranking signals on the preferred version of each page.",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.webp",
     },
     {
       title: `XML Sitemaps and <br class="d-none d-md-lg "/> Robots.txt`,
       description:
         "We audit and rebuild XML sitemaps to ensure all indexable pages are included, all non-indexable pages are excluded, and sitemaps are submitted and validated in Google Search Console. We audit robots.txt to confirm no critical pages or directories are accidentally blocked from Googlebot.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
 

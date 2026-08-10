@@ -35,7 +35,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.webp
 "
       />
       <BreadcrumbSchema
@@ -338,7 +338,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                 </div>
                 <div className="middle-box">
                   <img
-                    src="assets/images/icons/best-out-sourcing-seo-company.png"
+                    src="assets/images/icons/best-out-sourcing-seo-company.webp"
                     alt="best-out-sourcing-seo-company"
                   />
                   <h4>Affordable SEO Packages</h4>

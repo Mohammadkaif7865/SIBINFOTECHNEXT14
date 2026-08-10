@@ -6,20 +6,20 @@ const portfolioData = [
   {
     id: 1,
     title: "Creative Branding",
-    image: "/assets/images/gd-services/why-choose.jpg",
-    largeImage: "/assets/images/gd-services/why-choose.jpg",
+    image: "/assets/images/gd-services/why-choose.webp",
+    largeImage: "/assets/images/gd-services/why-choose.webp",
   },
   {
     id: 2,
     title: "Modern UI/UX Design",
-    image: "/assets/images/gd-services/why-choose.jpg",
-    largeImage: "/assets/images/gd-services/why-choose.jpg",
+    image: "/assets/images/gd-services/why-choose.webp",
+    largeImage: "/assets/images/gd-services/why-choose.webp",
   },
   {
     id: 3,
     title: "Digital Marketing Graphics",
-    image: "/assets/images/gd-services/why-choose.jpg",
-    largeImage: "/assets/images/gd-services/why-choose.jpg",
+    image: "/assets/images/gd-services/why-choose.webp",
+    largeImage: "/assets/images/gd-services/why-choose.webp",
   },
 ];
 

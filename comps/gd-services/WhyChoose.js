@@ -7,33 +7,33 @@ const WhyChoose = () => {
       title: "Experienced Designers",
       description:
         "Our expert team brings creativity and innovation to every project.",
-      icon: "web-design.png",
+      icon: "web-design.webp",
     },
     {
       title: "Tailored Designs",
       description:
         "We create designs that align with your brand's identity and goals.",
-      icon: "front-end-programming.png",
+      icon: "front-end-programming.webp",
     },
     {
       title: "High-Quality Graphics",
       description: "Stunning visuals that make a lasting impression.",
-      icon: "illustration.png",
+      icon: "illustration.webp",
     },
     {
       title: "Quick Turnaround",
       description: "We deliver designs promptly without compromising quality.",
-      icon: "refresh.png",
+      icon: "refresh.webp",
     },
     {
       title: "Affordable Pricing",
       description: "Premium designs at competitive rates.",
-      icon: "affordable.png",
+      icon: "affordable.webp",
     },
     {
       title: "Affordable Pricing",
       description: "Premium designs at competitive rates.",
-      icon: "affordable.png",
+      icon: "affordable.webp",
     },
   ];
 
@@ -78,7 +78,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits  ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/gd-services/why-choose.jpg"
+                src="/assets/images/gd-services/why-choose.webp"
                 alt=""
                 width="1050"
                 height="600"

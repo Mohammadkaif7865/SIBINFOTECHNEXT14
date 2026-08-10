@@ -27,7 +27,7 @@ export default function Resource() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/resource.jpg"
+        content="https://www.sibinfotech.com/assets/og/resource.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@ export default function Resource() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/resource.jpg"
+        content="https://www.sibinfotech.com/assets/og/resource.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/resource"

@@ -135,7 +135,7 @@ export default function SeoCompanyHyderabad() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -153,7 +153,7 @@ export default function SeoCompanyHyderabad() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <script

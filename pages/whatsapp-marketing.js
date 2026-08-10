@@ -29,7 +29,7 @@ export default function WhatsappMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function WhatsappMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/whatsapp-marketing.webp"
       />
 
       <script
@@ -66,7 +66,7 @@ export default function WhatsappMarketing() {
               "@type": "Organization",
               name: "SIB Infotech",
               url: "https://www.sibinfotech.com",
-              logo: "https://www.sibinfotech.com/images/logo.png",
+              logo: "https://www.sibinfotech.com/images/logo.webp",
               telephone: "+91-92222-60000",
               address: {
                 "@type": "PostalAddress",
@@ -326,7 +326,7 @@ export default function WhatsappMarketing() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Whatsapp Marketing Companies in India"
                   className="img-fluid"
                 />

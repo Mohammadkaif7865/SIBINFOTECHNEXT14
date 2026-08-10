@@ -80,7 +80,7 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -98,7 +98,7 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/white-label-digital-marketing-services.webp"
       />
 
       <script

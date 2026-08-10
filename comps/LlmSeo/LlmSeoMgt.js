@@ -18,31 +18,31 @@ const LlmSeoMgt = () => {
       title: `LLM Visibility <br class="d-none d-md-lg "/> Audit`,
       description:
         "We systematically test how ChatGPT, Perplexity, Gemini, and Claude respond to relevant queries about your industry, your competitors, and your brand. We document which competitors are being cited and why, creating a gap analysis that drives strategy.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Entity Authority <br class="d-none d-md-lg "/> Building`,
       description:
         "LLMs understand the web through entities: named things (people, companies, products, locations) and the relationships between them. We build your brand's entity authority through structured on-site signals and off-site signals including Wikidata, authoritative directory listings, and brand mentions in credible publications.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Authoritative Citation <br class="d-none d-md-lg "/> Building`,
       description:
         "The most direct way to influence LLM responses is to be mentioned frequently and positively in the sources LLMs are trained on and retrieve from: industry publications, news sites, authoritative directories, expert roundup articles, and research papers. We execute digital PR and content campaigns to build this citation profile.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `AI-Optimised <br class="d-none d-md-lg "/> Content Creation`,
       description:
         "We create comprehensive, authoritative content assets that are structured for LLM retrieval: detailed service descriptions, comparison content, expert guides, and data-rich resources that LLMs prefer to cite.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
     {
       title: `LLM Mention <br class="d-none d-md-lg "/> Monitoring`,
       description:
         "We track your brand's appearance in ChatGPT, Perplexity, and Gemini responses for target queries on a monthly basis, reporting on mention frequency, context, and competitive share of AI voice.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
   ];
 

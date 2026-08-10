@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
 
       <Script
         defer
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
         src="/assets/js/custom.js"
       ></Script>
     </>

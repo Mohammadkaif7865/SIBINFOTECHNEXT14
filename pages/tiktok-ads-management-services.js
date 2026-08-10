@@ -32,7 +32,7 @@ export default function TikTokAdsMangamentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/tiktok-ads-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/tiktok-ads-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function TikTokAdsMangamentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/tiktok-ads-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/tiktok-ads-management-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/tiktok-ads-management-services"
@@ -168,7 +168,7 @@ export default function TikTokAdsMangamentServices() {
                 <img
                   alt="tiktok-ads-management-company"
                   className="image-full"
-                  src="assets/images/tiktok-ads-management-company.png"
+                  src="assets/images/tiktok-ads-management-company.webp"
                 />
               </div>
             </div>

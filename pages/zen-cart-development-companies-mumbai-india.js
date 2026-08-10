@@ -32,7 +32,7 @@ export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/zen-cart-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/zen-cart-development-companies-mumbai-india"
@@ -224,7 +224,7 @@ export default function ZenCartDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Zen Cart Development Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

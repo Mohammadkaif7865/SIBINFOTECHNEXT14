@@ -34,7 +34,7 @@ export default function OffPageSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/off-page-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/off-page-seo-services.webp
 "
       />
 
@@ -53,7 +53,7 @@ export default function OffPageSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/off-page-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/off-page-seo-services.webp
 "
       />
       <BreadcrumbSchema
@@ -162,7 +162,7 @@ export default function OffPageSeoServices() {
             <div className="col-lg-5">
               <img
                 className="image-full"
-                src="assets/images/off-page-seo-company-india.png"
+                src="assets/images/off-page-seo-company-india.webp"
                 alt="off-page-seo-company-in-india"
               />
             </div>

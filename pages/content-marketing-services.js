@@ -32,7 +32,7 @@ export default function ContentMarketingServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/content-marketing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function ContentMarketingServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/content-marketing-services.jpg
+        content="https://www.sibinfotech.com/assets/og/content-marketing-services.webp
 "
       />
       <BreadcrumbSchema

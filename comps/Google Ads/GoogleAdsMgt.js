@@ -138,43 +138,43 @@ const GoogleAdsMgt = () => {
       title: `Search Ads <br class="d-none d-md-lg "/> (Google Search Network)`,
       description:
         "Appear at the top of Google Search Results when customers are actively looking for your products or services. Ideal for lead generation, local services, and B2B marketing.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Display Ads <br class="d-none d-md-lg "/> (Google Display Network)`,
       description:
         "Build brand awareness and retarget your visitors with visually engaging banner ads across millions of partner websites and apps.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Shopping Ads <br class="d-none d-md-lg "/> (for E-commerce)`,
       description:
         "Showcase your products directly in Google Shopping with images, prices, and product details — perfect for eCommerce stores looking to increase sales.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Video Ads <br class="d-none d-md-lg "/> (YouTube Advertising)`,
       description:
         "Deliver powerful, engaging video ads on YouTube and the Google Video Network to build brand trust and drive conversions.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `App Promotion <br class="d-none d-md-lg "/> Campaigns`,
       description:
         "Promote your mobile app across Google Search, Display, Play Store, and YouTube with Universal App Campaigns — maximize installs and in-app engagement.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Performance Max <br class="d-none d-md-lg "/> Campaigns`,
       description:
         "Harness the power of Google's AI to optimize ads across all channels (Search, Display, Shopping, YouTube, Discover) with Performance Max — the newest campaign type that drives maximum performance from a single campaign.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Remarketing / <br class="d-none d-md-lg "/> Retargeting Campaigns`,
       description:
         "Reconnect with visitors who showed interest in your brand but didn't convert. Keep your business top-of-mind and bring customers back to complete their journey.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
   ];
 
@@ -387,7 +387,7 @@ const GoogleAdsMgt = () => {
           highlightedText=" Businesses in India"
           description="As a Google Premier Partner, SIB Infotech works with businesses across industries to create and manage high-performing Google Ads campaigns. Backed by over 18 years of experience in paid advertising, our team has helped brands in e-commerce, real estate, healthcare, B2B, and more achieve their growth goals. Every client is assigned a dedicated Google Ads specialist who focuses on strategy, optimization, and performance, ensuring personalized support and consistent results."
           // subDescription="That's the magic of Google Ads!. Whether it's Search, Display, Shopping, Video, or App ads, a well-optimized Google Ads campaign drives measurable business results."
-          imageSrc="/assets/images/google-ads/google-ads.jpg"
+          imageSrc="/assets/images/google-ads/google-ads.webp"
           imageAlt="Team Working"
           features={[
             {
@@ -452,7 +452,7 @@ const GoogleAdsMgt = () => {
         linkDestination="/contact-us"
       />
       <BrandBuild
-        image={`/assets/images/phone-seo-local-squares.png`}
+        image={`/assets/images/phone-seo-local-squares.webp`}
         imageAlt="Google Ads management package India – SIB Infotech"
         title={brandContent[0].title}
         subtitle={brandContent[0].subtitle}

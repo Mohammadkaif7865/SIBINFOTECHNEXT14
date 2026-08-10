@@ -10,42 +10,42 @@ import "swiper/css/navigation";
 const packages = [
   {
     title: "SEO  <br/> Packages",
-    image: "/assets/images/packeges/Seo-package.jpg",
+    image: "/assets/images/packeges/Seo-package.webp",
     alt: "SEO Packages",
     features: ["On Page", "Off Page", "Technical", "Local SEO"],
     price: "$250/Month",
   },
   {
     title: "PPC  <br/> Packages",
-    image: "/assets/images/packeges/ppc-packge.jpg",
+    image: "/assets/images/packeges/ppc-packge.webp",
     alt: "PPC Packages",
     features: ["Google Ads", "Facebook Ads", "Instagram Ads", "LinkedIn Ads"],
     price: "$300/Month",
   },
   {
     title: "Social Media  <br/> Packages",
-    image: "/assets/images/packeges/Social-media-package.jpg",
+    image: "/assets/images/packeges/Social-media-package.webp",
     alt: "Social Media Packages",
     features: ["Facebook", "Instagram", "LinkedIn", "X (Twitter)"],
     price: "$225/Month",
   },
   {
     title: "Website Designing  <br/> Packages",
-    image: "/assets/images/packeges/Website-designing-Package.jpg",
+    image: "/assets/images/packeges/Website-designing-Package.webp",
     alt: "Website Designing",
     features: ["Static", "Dynamic", "Ecommerce", "Custom coded"],
     price: "$250/Month",
   },
   {
     title: "Graphic Designing  <br/> Packages",
-    image: "/assets/images/packeges/Graphic-design.jpg",
+    image: "/assets/images/packeges/Graphic-design.webp",
     alt: "Graphic Designing",
     features: ["Logos", "Stationery", "Motion Graphics", "Brochure Design"],
     price: "$175/Month",
   },
   {
     title: "Link Building <br/> Packages",
-    image: "/assets/images/packeges/Link-building.jpg",
+    image: "/assets/images/packeges/Link-building.webp",
     alt: "Link Building",
     features: [
       "Guest Posting",

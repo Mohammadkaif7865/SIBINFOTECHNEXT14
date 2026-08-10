@@ -33,7 +33,7 @@ export default function DirectorySubmissionServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/directory-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/directory-submission-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function DirectorySubmissionServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/directory-submission-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/directory-submission-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/directory-submission-services"
@@ -171,7 +171,7 @@ export default function DirectorySubmissionServices() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Directory Submission Services Agencies in Delhi"
                 />
               </div>
@@ -181,7 +181,7 @@ export default function DirectorySubmissionServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Directory Submission Services Companies in Mumbai"
                 />
               </div>

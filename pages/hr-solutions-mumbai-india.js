@@ -17,13 +17,13 @@ export default function HrSolutionMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/hr-solutions-mumbai-india" />
       <meta property="og:title" content="HR Solutions Services Provider in Mumbai, Delhi, India" />
       <meta property="og:description" content="SIB Infotech provides leading-edge HR solutions in Mumbai, India that help companies better develop, manage, reward, and retain their most important assets." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hr-solutions-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/hr-solutions-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/hr-solutions-mumbai-india" />
       <meta property="twitter:title" content="HR Solutions Services Provider in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="SIB Infotech provides leading-edge HR solutions in Mumbai, India that help companies better develop, manage, reward, and retain their most important assets." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hr-solutions-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/hr-solutions-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/hr-solutions-mumbai-india"
         breadcrumbTitle="HR Solutions Services Provider in Mumbai, Delhi, India"

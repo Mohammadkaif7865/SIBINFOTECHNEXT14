@@ -3,19 +3,19 @@ import React from "react";
 
 const Benefits = () => {
   const benefitsList = [
-    { text: "Increases your online visibility", icon: "visibility.png" },
+    { text: "Increases your online visibility", icon: "visibility.webp" },
     {
       text: "Helps you stand out from the competition",
-      icon: "competitive-landscape.png",
+      icon: "competitive-landscape.webp",
     },
-    { text: "Build trust with local customers", icon: "trust.png" },
-    { text: "Gaining repeat customers", icon: "repeat.png" },
-    { text: "Builds trust with high rankings", icon: "rank.png" },
-    { text: "Increased local reviews", icon: "internal-control.png" },
-    { text: "Reduced advertisement expenses", icon: "expense.png" },
+    { text: "Build trust with local customers", icon: "trust.webp" },
+    { text: "Gaining repeat customers", icon: "repeat.webp" },
+    { text: "Builds trust with high rankings", icon: "rank.webp" },
+    { text: "Increased local reviews", icon: "internal-control.webp" },
+    { text: "Reduced advertisement expenses", icon: "expense.webp" },
     {
       text: "Exposure to local business directories",
-      icon: "business.png",
+      icon: "business.webp",
     },
   ];
   return (
@@ -63,7 +63,7 @@ const Benefits = () => {
             <div className="w-100 h-100 img_benifits  ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/local-seo/l-seo.jpg"
+                src="/assets/images/local-seo/l-seo.webp"
                 alt=""
                 width="600"
                 height="500"

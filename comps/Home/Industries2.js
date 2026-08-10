@@ -138,7 +138,7 @@ const Industries2 = ({ heading, subHeading, description1, description2 }) => {
                     <div className="inner">
                       <div className="innerServices">
                         <div className="industriesImg">
-                          <img src={`/assets/images/industries/${item.img}`} alt={item.title} />
+                          <img src={`/assets/images/industries/${item.img}`} alt={item.title} loading="lazy" decoding="async" />
                         </div>
 
                         <p className="small_heading mt-3 fontWeight600">

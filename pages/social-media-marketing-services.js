@@ -29,7 +29,7 @@ export default function SocialMediaMarketingServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-marketing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-media-marketing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function SocialMediaMarketingServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-marketing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-media-marketing-services.webp"
       />
       <script
         type="application/ld+json"
@@ -62,7 +62,7 @@ export default function SocialMediaMarketingServices() {
               "SIB Infotech is India's best Social Media Marketing (SMM) agency with offices in Mumbai and Delhi. We offer measurable, customised SMM campaigns covering Social Media Optimization, Influencer Marketing, Blogger Marketing, Reputation Management, Social Publishing, Paid Advertising, Facebook Marketing, Instagram Marketing, LinkedIn Marketing, Twitter Marketing, and Social Monitoring — all designed to boost brand awareness, drive website traffic, generate leads, and increase conversions.",
             url: "https://www.sibinfotech.com/social-media-marketing-services",
             image:
-              "https://www.sibinfotech.com/assets/og/social-media-marketing-services.jpg",
+              "https://www.sibinfotech.com/assets/og/social-media-marketing-services.webp",
 
             provider: {
               "@type": "Organization",

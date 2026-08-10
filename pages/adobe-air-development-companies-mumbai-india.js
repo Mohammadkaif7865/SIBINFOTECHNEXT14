@@ -33,7 +33,7 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/adobe-air-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/adobe-air-development-companies-mumbai-india"
@@ -182,7 +182,7 @@ export default function AdobeAirDevelopmentCompanyMumbiaIndia() {
                 <img
                   alt="Adobe Air Development"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

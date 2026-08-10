@@ -29,7 +29,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/software-testing-and-quality-assurance-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/software-testing-and-quality-assurance-services"
@@ -142,7 +142,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="QA Testing Services"
                   className="img-fluid"
                 />
@@ -217,7 +217,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="QA Testing Services"
                   className="img-fluid"
                 />

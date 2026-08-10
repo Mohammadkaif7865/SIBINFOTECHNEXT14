@@ -35,7 +35,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/gd-services/satisfaction.png"}
+                    src={"/assets/images/gd-services/satisfaction.webp"}
                     alt="loading"
                   />
                 </div>
@@ -51,7 +51,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/gd-services/down-arrow.png"}
+                    src={"/assets/images/gd-services/down-arrow.webp"}
                     alt="loading"
                   />
                 </div>
@@ -69,7 +69,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/gd-services/web-design.png"}
+                    src={"/assets/images/gd-services/web-design.webp"}
                     alt="loading"
                   />
                 </div>
@@ -85,7 +85,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/gd-services/clocks.png"}
+                    src={"/assets/images/gd-services/clocks.webp"}
                     alt="loading"
                   />
                 </div>

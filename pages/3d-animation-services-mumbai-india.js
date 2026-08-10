@@ -32,7 +32,7 @@ export default function ThreeDAnimationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function ThreeDAnimationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/3d-animation-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/3d-animation-services-mumbai-india"
@@ -175,7 +175,7 @@ export default function ThreeDAnimationServices() {
                 <img
                   alt="3D Animation Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

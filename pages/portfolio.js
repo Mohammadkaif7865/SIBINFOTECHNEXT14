@@ -33,7 +33,7 @@ export default function Portfolio() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function Portfolio() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/portfolio"
@@ -169,7 +169,7 @@ export default function Portfolio() {
                       <Link href="https://www.3solutions.co.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/3solutions.jpg"
+                            src="assets/images/portfolio/3solutions.webp"
                             alt="3 Solution"
                           />
                           <div className="overlayText">
@@ -184,7 +184,7 @@ export default function Portfolio() {
                       <Link href="http://axisy.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/axisy.jpg"
+                            src="assets/images/portfolio/axisy.webp"
                             alt="AxisY"
                           />
                           <div className="overlayText">
@@ -199,7 +199,7 @@ export default function Portfolio() {
                       <Link href="http://mindspring.co.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/mindspring.jpg"
+                            src="assets/images/portfolio/mindspring.webp"
                             alt="Mindspring"
                           />
                           <div className="overlayText">
@@ -214,7 +214,7 @@ export default function Portfolio() {
                       <Link href="http://mrmunim.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/mrmunim.jpg"
+                            src="assets/images/portfolio/mrmunim.webp"
                             alt="Mr. Munim"
                           />
                           <div className="overlayText">
@@ -229,7 +229,7 @@ export default function Portfolio() {
                       <Link href="http://navyugchemicals.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/navyugchemicals.jpg"
+                            src="assets/images/portfolio/navyugchemicals.webp"
                             alt="Navyoug Chemicals"
                           />
                           <div className="overlayText">
@@ -244,7 +244,7 @@ export default function Portfolio() {
                       <Link href="http://www.herniaindia.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/herniaindia.jpg"
+                            src="assets/images/portfolio/herniaindia.webp"
                             alt="Hernia India"
                           />
                           <div className="overlayText">
@@ -265,7 +265,7 @@ export default function Portfolio() {
                       <Link href="https://bardahl.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/bardahl.jpg"
+                            src="assets/images/portfolio/bardahl.webp"
                             alt="Bardahl"
                           />
                           <div className="overlayText">
@@ -280,7 +280,7 @@ export default function Portfolio() {
                       <Link href="http://emilpharma.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/emilpharma.jpg"
+                            src="assets/images/portfolio/emilpharma.webp"
                             alt="Emil Pharma"
                           />
                           <div className="overlayText">
@@ -295,7 +295,7 @@ export default function Portfolio() {
                       <Link href="https://narainindia.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/narainindia.jpg"
+                            src="assets/images/portfolio/narainindia.webp"
                             alt="Narain India"
                           />
                           <div className="overlayText">
@@ -310,7 +310,7 @@ export default function Portfolio() {
                       <Link href="http://nsaarchitects.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/nsaarchitects.jpg"
+                            src="assets/images/portfolio/nsaarchitects.webp"
                             alt="Nsaarchitects"
                           />
                           <div className="overlayText">
@@ -325,7 +325,7 @@ export default function Portfolio() {
                       <Link href="http://brillianttutorsacademy.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/brillianttutorsacademy.jpg"
+                            src="assets/images/portfolio/brillianttutorsacademy.webp"
                             alt="Brillianttutorsacademy"
                           />
                           <div className="overlayText">
@@ -342,7 +342,7 @@ export default function Portfolio() {
                       <Link href="http://www.repaircity.in">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/repaircity.jpg"
+                            src="assets/images/portfolio/repaircity.webp"
                             alt="Repair City"
                           />
                           <div className="overlayText">
@@ -363,7 +363,7 @@ export default function Portfolio() {
                       <Link href="https://designmyoffice.in/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/designmyoffice.jpg"
+                            src="assets/images/portfolio/designmyoffice.webp"
                             alt="Design My Office"
                           />
                           <div className="overlayText">
@@ -378,7 +378,7 @@ export default function Portfolio() {
                       <Link href="http://in-pl.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/in-pl.jpg"
+                            src="assets/images/portfolio/in-pl.webp"
                             alt="Infinite Possibilities"
                           />
                           <div className="overlayText">
@@ -395,7 +395,7 @@ export default function Portfolio() {
                       <Link href="https://naturalandessential.co.in/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/naturalandessential.jpg"
+                            src="assets/images/portfolio/naturalandessential.webp"
                             alt="Natural &amp; Essential"
                           />
                           <div className="overlayText">
@@ -412,7 +412,7 @@ export default function Portfolio() {
                       <Link href="http://pravaasah.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/pravaasah.jpg"
+                            src="assets/images/portfolio/pravaasah.webp"
                             alt="Pravaasah"
                           />
                           <div className="overlayText">
@@ -427,7 +427,7 @@ export default function Portfolio() {
                       <Link href="http://reimagineparenthood.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/reimagineparenthood.jpg"
+                            src="assets/images/portfolio/reimagineparenthood.webp"
                             alt="Reimagine Parenthood"
                           />
                           <div className="overlayText">
@@ -450,7 +450,7 @@ export default function Portfolio() {
                       <Link href="https://www.smartexamresources.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/smartexamresources.jpg"
+                            src="assets/images/portfolio/smartexamresources.webp"
                             alt="Smart Exam Resources"
                           />
                           <div className="overlayText">
@@ -467,7 +467,7 @@ export default function Portfolio() {
                       <Link href="http://thegreatmentor.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/thegreatmentor.jpg"
+                            src="assets/images/portfolio/thegreatmentor.webp"
                             alt="The Great Mentor"
                           />
                           <div className="overlayText">
@@ -482,7 +482,7 @@ export default function Portfolio() {
                       <Link href="https://vivahsaptapadi.com/">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/vivahsaptapadi.jpg"
+                            src="assets/images/portfolio/vivahsaptapadi.webp"
                             alt="Vivah Saptapadi"
                           />
                           <div className="overlayText">
@@ -497,7 +497,7 @@ export default function Portfolio() {
                       <Link href="http://worlddigitalcard.com">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/worlddigitalcard.jpg"
+                            src="assets/images/portfolio/worlddigitalcard.webp"
                             alt="World Digital Card"
                           />
                           <div className="overlayText">
@@ -512,7 +512,7 @@ export default function Portfolio() {
                       <Link href="http://tripplannersworld.travel">
                         <span target="_blank">
                           <img
-                            src="assets/images/portfolio/tripplannersworld.jpg"
+                            src="assets/images/portfolio/tripplannersworld.webp"
                             alt="Tripplanners World"
                           />
                           <div className="overlayText">

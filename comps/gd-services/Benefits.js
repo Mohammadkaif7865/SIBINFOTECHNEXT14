@@ -6,42 +6,42 @@ const WhyChoose = () => {
     {
       title: "First Impressions",
       description: "First Impression Matters: Grab Attention Right Away.",
-      icon: "impression.png", // Replace with actual URL
+      icon: "impression.webp", // Replace with actual URL
     },
     {
       title: "Brand Awareness",
       description: "Build Brand Recognition through Consistency.",
-      icon: "video-marketing.png",
+      icon: "video-marketing.webp",
     },
     {
       title: "Efficient Communication",
       description: "Simplify Complex Messages with Visual Storytelling.",
-      icon: "communication.png",
+      icon: "communication.webp",
     },
     {
       title: "Trust and Credibility",
       description: "Establish reliability with polished and cohesive designs.",
-      icon: "reliability.png",
+      icon: "reliability.webp",
     },
     {
       title: "Professional Image",
       description: "Enhance brand perception with high-quality visuals.",
-      icon: "public.png",
+      icon: "public.webp",
     },
     {
       title: "Higher Conversion Rate",
       description: "Influence decisions with persuasive and engaging graphics.",
-      icon: "optimization.png",
+      icon: "optimization.webp",
     },
     {
       title: "Creativity Kills Competition",
       description: "Stand out with unique and innovative designs.",
-      icon: "creativity.png",
+      icon: "creativity.webp",
     },
     {
       title: "Creativity Kills Competition",
       description: "Stand out with unique and innovative designs.",
-      icon: "creativity.png",
+      icon: "creativity.webp",
     },
   ];
 
@@ -53,7 +53,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/gd-services/gd-img.jpg"
+                src="/assets/images/gd-services/gd-img.webp"
                 alt=""
                 width="1200"
                 height="600"

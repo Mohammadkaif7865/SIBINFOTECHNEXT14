@@ -39,7 +39,7 @@ const Introduction = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/services/chart.png"}
+                    src={"/assets/images/icons/services/chart.webp"}
                     alt="loading"
                   />
                 </div>
@@ -56,7 +56,7 @@ const Introduction = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/services/click.png"}
+                    src={"/assets/images/icons/services/click.webp"}
                     alt="loading"
                   />
                 </div>
@@ -72,7 +72,7 @@ const Introduction = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/services/statistics.png"}
+                    src={"/assets/images/icons/services/statistics.webp"}
                     alt="loading"
                   />
                 </div>

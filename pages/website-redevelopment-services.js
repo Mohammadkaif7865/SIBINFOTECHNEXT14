@@ -32,7 +32,7 @@ export default function WebsiteRedevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function WebsiteRedevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-redevelopment-services.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function WebsiteRedevelopmentServices() {
               "SIB Infotech is a top-rated website redevelopment company in Mumbai, India. We revamp and rebuild outdated, underperforming websites to enhance design, functionality, user experience, page speed, mobile responsiveness, and online visibility. Whether your website is not converting visitors into sales, is difficult to update, lacks modern functionality, or has low search engine rankings, our redevelopment services transform your website into a high-performing digital storefront that represents your business at its best.",
             url: "https://www.sibinfotech.com/website-redevelopment-services",
             image:
-              "https://www.sibinfotech.com/assets/og/website-redevelopment-services.jpg",
+              "https://www.sibinfotech.com/assets/og/website-redevelopment-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -432,7 +432,7 @@ export default function WebsiteRedevelopmentServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Website Re-development Services Company in India"
                   className="img-fluid"
                 />

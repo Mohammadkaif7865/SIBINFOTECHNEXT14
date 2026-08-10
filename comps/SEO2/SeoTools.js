@@ -6,37 +6,37 @@ const SeoTools = () => {
     {
       title: "Organic Sessions ",
       ranking: "2 Billion+",
-      src: "/assets/images/icons/services/laptop.png",
+      src: "/assets/images/icons/services/laptop.webp",
       alt: "Organic Sessions ",
     },
     {
       title: "#1 Ranking Keywords",
       ranking: "50000+",
-      src: "/assets/images/icons/services/rankings.png",
+      src: "/assets/images/icons/services/rankings.webp",
       alt: "rankings",
     },
     {
       title: "Clicks",
       ranking: "1.8 Billion+",
-      src: "/assets/images/icons/services/click.png",
+      src: "/assets/images/icons/services/click.webp",
       alt: "click",
     },
     {
       title: "Users",
       ranking: "900 Million+",
-      src: "/assets/images/icons/services/user.png",
+      src: "/assets/images/icons/services/user.webp",
       alt: "users",
     },
     {
       title: "Awards & Recognition",
       ranking: "40+",
-      src: "/assets/images/icons/services/medals.png",
+      src: "/assets/images/icons/services/medals.webp",
       alt: "Awards & Recognition",
     },
     {
       title: "Leads",
       ranking: "1.5 Million +",
-      src: "/assets/images/icons/services/lead-generation.png",
+      src: "/assets/images/icons/services/lead-generation.webp",
       alt: "lead-generatio",
     },
   ];
@@ -120,7 +120,7 @@ const SeoTools = () => {
                       className="h-auto"
                       width={40}
                       height={40}
-                      src={"/assets/images/icons/seo-result/rise.png"}
+                      src={"/assets/images/icons/seo-result/rise.webp"}
                       alt="rnb"
                     />
                   </h4>
@@ -155,7 +155,7 @@ const SeoTools = () => {
                       className="h-auto"
                       width={40}
                       height={40}
-                      src={"/assets/images/icons/seo-result/rise.png"}
+                      src={"/assets/images/icons/seo-result/rise.webp"}
                       alt="rnb"
                     />
                   </h4>
@@ -178,7 +178,7 @@ const SeoTools = () => {
                   width={400}
                   height={150}
                   quality={100}
-                  src={"/assets/images/BMC.jpg"}
+                  src={"/assets/images/BMC.webp"}
                   alt="BMC Election"
                 />
               </div>
@@ -190,7 +190,7 @@ const SeoTools = () => {
                       className="h-auto"
                       width={40}
                       height={40}
-                      src={"/assets/images/icons/seo-result/rise.png"}
+                      src={"/assets/images/icons/seo-result/rise.webp"}
                       alt="rnb"
                     />
                   </h4>

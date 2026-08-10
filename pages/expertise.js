@@ -29,7 +29,7 @@ export default function Expertise() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/expertise.jpg"
+        content="https://www.sibinfotech.com/assets/og/expertise.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function Expertise() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/expertise.jpg"
+        content="https://www.sibinfotech.com/assets/og/expertise.webp"
       />
 
       <BreadcrumbSchema
@@ -130,7 +130,7 @@ export default function Expertise() {
             <div className="col-md-4 col-6">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/coding.png" alt="Web Development" />
+                  <img src="assets/images/coding.webp" alt="Web Development" />
                 </div>
                 <div className="expertise-title">
                   <p>Web Development</p>
@@ -140,7 +140,7 @@ export default function Expertise() {
             <div className="col-md-4 col-6">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/responsive.png" alt="Web Design" />
+                  <img src="assets/images/responsive.webp" alt="Web Design" />
                 </div>
                 <div className="expertise-title">
                   <p>Web Design</p>
@@ -150,7 +150,7 @@ export default function Expertise() {
             <div className="col-md-4 col-6 ">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/online-shop.png" alt="E-commerce" />
+                  <img src="assets/images/online-shop.webp" alt="E-commerce" />
                 </div>
                 <div className="expertise-title">
                   <p>E-commerce Portals</p>
@@ -161,7 +161,7 @@ export default function Expertise() {
               <div className="expertise-box">
                 <div className="expertise-icon">
                   <img
-                    src="assets/images/seo.png"
+                    src="assets/images/seo.webp"
                     alt="Search Engine Optimization"
                   />
                 </div>
@@ -174,7 +174,7 @@ export default function Expertise() {
               <div className="expertise-box">
                 <div className="expertise-icon">
                   <img
-                    src="assets/images/digital-campaign.png"
+                    src="assets/images/digital-campaign.webp"
                     alt="Digital Marketing"
                   />
                 </div>
@@ -186,7 +186,7 @@ export default function Expertise() {
             <div className="col-md-4 col-6 ">
               <div className="expertise-box">
                 <div className="expertise-icon">
-                  <img src="assets/images/brand.png" alt="Corporate Branding" />
+                  <img src="assets/images/brand.webp" alt="Corporate Branding" />
                 </div>
                 <div className="expertise-title">
                   <p>Corporate Branding</p>

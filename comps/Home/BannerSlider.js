@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Typewriter } from "react-simple-typewriter";
 import Counter from "../CounterHome"; // Make sure this path is correct
 
 const BannerSlider = () => {
@@ -21,23 +20,7 @@ const BannerSlider = () => {
             </span>
           </span>
           <span className="heading text-center d-block mt-3 text-white fontWeight600">
-            <i className="text_white">
-              <Typewriter
-                words={[
-                  "Digital Marketing Solutions",
-                  "Social Media Marketing",
-                  "Search Engine Optimization",
-                  "Website Designing",
-                  "Google & Facebook Ads",
-                ]}
-                loop={true}
-                cursor
-                cursorStyle="|"
-                typeSpeed={60}
-                deleteSpeed={50}
-                delaySpeed={1500}
-              />
-            </i>
+            <i className="text_white">Digital Marketing Solutions</i>
           </span>
         </h2>
 
@@ -61,7 +44,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={617} />
+                  <Counter targetValue={617} animate={false} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">
@@ -72,7 +55,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={315} />
+                  <Counter targetValue={315} animate={false} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">
@@ -83,7 +66,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={344} />
+                  <Counter targetValue={344} animate={false} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">

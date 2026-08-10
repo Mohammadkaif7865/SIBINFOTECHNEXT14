@@ -6,27 +6,27 @@ const SpecializedServices = () => {
 
   const serviceItems = [
     {
-      src: "/assets/images/icons/meta.png",
+      src: "/assets/images/icons/meta.webp",
       alt: "Meta Ads",
       title: "Meta ADS",
     },
     {
-      src: "/assets/images/icons/g-ads.png",
+      src: "/assets/images/icons/g-ads.webp",
       alt: "Google Ads",
       title: "Google ADS",
     },
     {
-      src: "/assets/images/icons/amazon.png",
+      src: "/assets/images/icons/amazon.webp",
       alt: "Amazon Ads",
       title: "Amazon Ads",
     },
     {
-      src: "/assets/images/icons/linkedin-logo.png",
+      src: "/assets/images/icons/linkedin-logo.webp",
       alt: "Linkedin Ads",
       title: "Linkedin Ads",
     },
     {
-      src: "/assets/images/icons/instagram.png",
+      src: "/assets/images/icons/instagram.webp",
       alt: "Instagram Ads",
       title: "Instagram Ads",
     },

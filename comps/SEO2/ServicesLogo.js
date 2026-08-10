@@ -11,7 +11,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/web.png"}
+                src={"/assets/images/icons/services/web.webp"}
                 alt="website"
               />
               <p className="text-center">Website</p>
@@ -20,7 +20,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/Analysis.png"}
+                src={"/assets/images/icons/services/Analysis.webp"}
                 alt="website"
               />
               <p className="text-center">Analysis</p>
@@ -29,7 +29,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/Content.png"}
+                src={"/assets/images/icons/services/Content.webp"}
                 alt="website"
               />
               <p className="text-center">Content</p>
@@ -38,7 +38,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/Traffic.png"}
+                src={"/assets/images/icons/services/Traffic.webp"}
                 alt="website"
               />
               <p className="text-center">Traffic</p>
@@ -47,7 +47,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/Backlinks.png"}
+                src={"/assets/images/icons/services/Backlinks.webp"}
                 alt="website"
               />
               <p className="text-center">Backlink</p>
@@ -57,7 +57,7 @@ const ServicesLogo = () => {
               <Image className=""
                 width={60}
                 height={40}
-                src={"/assets/images/icons/services/ranking.png"}
+                src={"/assets/images/icons/services/ranking.webp"}
                 alt="website"
               />
               <p className="text-center">Ranking</p>
