@@ -45,7 +45,7 @@ export default function Header() {
               <div className="leftLogo">
                 <Link className="position-relative" href="/">
                   <Image
-                    src={"/assets/images/logo.webp"}
+                    src={"/assets/images/logo (1).webp"}
                     className=" object-fit-contain "
                     quality={100}
                     width={250}
@@ -682,7 +682,7 @@ export default function Header() {
           <Offcanvas.Title>
             <Link className="position-relative" href="/">
               <Image
-                src={"/assets/images/logo.webp"}
+                src={"/assets/images/logo (1).webp"}
                 className=" object-fit-contain "
                 quality={100}
                 width={210}

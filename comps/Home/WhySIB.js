@@ -50,7 +50,7 @@ const WhySIB = ({ keyAdvantages, leftBoxContent, rightBoxContent }) => {
                           {value.title}
                         </p>
                         <p className="  numberBorder heading fontWeight600">
-                          {(index + 1).toString().padStart(2, "0")}
+                          {index + 1}
                         </p>
                       </div>
                       <p className="mt-4">{value.description}</p>

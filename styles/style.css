@@ -167,7 +167,7 @@ section {
 }
 
 .fontHeading {
-  font-family: "lora", serif;
+  font-family: "poppins", sans-serif;
 }
 
 .header {
@@ -816,7 +816,7 @@ section {
 }
 
 .marketingTabs ul li {
-  font-family: "lora", serif;
+  font-family: "poppins", sans-serif;
   padding: 8px 10px;
   cursor: pointer;
   position: relative;
@@ -1849,7 +1849,7 @@ section {
 }
 
 .customHeading {
-  font-family: "lora", serif;
+  font-family: "poppins", sans-serif;
   font-size: 26px;
   line-height: 30px;
   margin-bottom: 20px;
@@ -7537,7 +7537,7 @@ table tbody tr td:nth-child(2) {
 }
 
 .introduction_seo_list .content h4 {
-  font-family: "lora", serif;
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 24px;
 }
@@ -7754,7 +7754,7 @@ table tbody tr td:nth-child(2) {
 .web-devlp-box-2 h4,
 .devlp-inner-box h4,
 .sd-benefit-box h5 {
-  font-family: "lora", serif;
+  font-family: "poppins", sans-serif;
 }
 
 .customFaq {
@@ -8477,7 +8477,7 @@ font-size: 20px;
 /* banner button */
 
 .fontHeading2 {
-  font-family: "Inter", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .banner_swiper_main {
@@ -10135,7 +10135,8 @@ p.regular_heading {
 
 .item_why_title p.numberBorder {
   font-size: 40px;
-  color: #c0c0c0;
+  -webkit-text-stroke: 2px #33333355;
+  color: #fff;
   width: 60px;
   display: block;
   overflow: visible;

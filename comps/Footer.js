@@ -402,26 +402,10 @@ export default function Footer() {
                             </li>
                             <li>
                               <Link
-                                href="/search-engine-marketing-companies-mumbai-india"
-                                title="Search Engine Marketing"
-                              >
-                                Search Engine Marketing
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
                                 href="/online-reputation-management-services"
                                 title="Reputation Management"
                               >
                                 Reputation Management
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/paid-inclusion-services-mumbai-india"
-                                title="Paid Search Engine Inclusion"
-                              >
-                                Paid Search Engine Inclusion
                               </Link>
                             </li>
                             <li>

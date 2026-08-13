@@ -174,9 +174,9 @@ const faqsData = [
             {faqsDataLeft.map((item, i) => {
               return (
                 <div key={i} className="">
-                  <div className="customFaq lseo">
-                    <h4
-                      className=" fontHeading"
+                  <div className="customFaq">
+                    <p
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
@@ -193,7 +193,7 @@ const faqsData = [
                           <i className="bi bi-plus-circle"></i>
                         )}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${
@@ -216,9 +216,9 @@ const faqsData = [
             {faqsDataRight.map((item, i) => {
               return (
                 <div key={i} className="">
-                  <div className="customFaq lseo">
-                    <h4
-                      className=" fontHeading"
+                  <div className="customFaq">
+                    <p
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);
@@ -235,7 +235,7 @@ const faqsData = [
                           <i className="bi bi-plus-circle"></i>
                         )}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${

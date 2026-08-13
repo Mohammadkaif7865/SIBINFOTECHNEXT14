@@ -259,42 +259,107 @@ const Faqs = () => {
   const faqsDataRight = faqsData.slice(Math.ceil(faqsData.length / 2));
 
   return (
-    <section className="faqsBg">
-      <div className="containerFull">
-        <h3 className="sub_heading fontWeight500 text-white fontHeading">
-          Do you have questions about working with Digital Marketing Agency in
-          India? <br className="d-none d-lg-block" /> We’ve got your answers.
-        </h3>
-        <div className="row mt-4">
-          <div className="col-lg-6">
-            <Accordion defaultActiveKey="0" >
-              {faqsDataLeft.map((items, i) => {
-                return (
-                  <Accordion.Item className="rounded" key={i} eventKey={i}>
-                    <Accordion.Header>{items.question}</Accordion.Header>
-                    <Accordion.Body
-                      className="text-white"
-                      dangerouslySetInnerHTML={{ __html: items.answer }}
-                    ></Accordion.Body>
-                  </Accordion.Item>
-                );
-              })}
-            </Accordion>
+    <section>
+      <div className="containerFull ">
+        <div className="row justify-content-center">
+          <div className="col-lg-9">
+            <p className="fontWeight600 title text-center"> FAQ</p>
+            <h2
+              className="large_heading2 mt-4  text-center text_red fontWeight600"
+              dangerouslySetInnerHTML={{
+                __html: "Frequently Asked Digital Marketing Questions",
+              }}
+            ></h2>
           </div>
-          <div className="col-lg-6">
-            <Accordion defaultActiveKey="0" >
-              {faqsDataRight.map((items, i) => {
-                return (
-                  <Accordion.Item className="rounded" key={i} eventKey={i}>
-                    <Accordion.Header>{items.question}</Accordion.Header>
-                    <Accordion.Body
-                      className="text-white"
-                      dangerouslySetInnerHTML={{ __html: items.answer }}
-                    ></Accordion.Body>
-                  </Accordion.Item>
-                );
-              })}
-            </Accordion>
+        </div>
+
+        <div className="row  mt-lg-5 mt-4">
+          <div className=" col-lg-6 pe-lg-4  ">
+            {faqsDataLeft.map((item, i) => {
+              return (
+                <div key={i} className="">
+                  <div className="customFaq">
+                    <p
+                      className="  headerFaq fontWeight600"
+                      onClick={() => {
+                        if (open !== i) {
+                          setOpen(i);
+                        } else {
+                          setOpen(null);
+                        }
+                      }}
+                    >
+                      {item.question}{" "}
+                      <span>
+                        {" "}
+                        {open == i ? (
+                          <i className="bi bi-dash-circle"></i>
+                        ) : (
+                          <i className="bi bi-plus-circle"></i>
+                        )}
+                      </span>
+                    </p>
+
+                    <div
+                      className={`customFaq_answer_main ${
+                        open == i ? "answer-row-1" : "answer-row-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div
+                          className="mt-3"
+                          dangerouslySetInnerHTML={{ __html: item.answer }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className=" col-lg-6 ps-lg-4">
+            {" "}
+            {faqsDataRight.map((item, i) => {
+              return (
+                <div key={i} className="">
+                  <div className="customFaq ">
+                    <p
+                      className="  headerFaq fontWeight600"
+                      onClick={() => {
+                        if (open2 !== i) {
+                          setOpen2(i);
+                        } else {
+                          setOpen2(null);
+                        }
+                      }}
+                    >
+                      {item.question}{" "}
+                      <span>
+                        {" "}
+                        {open2 == i ? (
+                          <i className="bi bi-dash-circle"></i>
+                        ) : (
+                          <i className="bi bi-plus-circle"></i>
+                        )}
+                      </span>
+                    </p>
+
+                    <div
+                      className={`customFaq_answer_main ${
+                        open2 == i ? "answer-row-1" : "answer-row-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div
+                          className="mt-3"
+                          dangerouslySetInnerHTML={{ __html: item.answer }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
