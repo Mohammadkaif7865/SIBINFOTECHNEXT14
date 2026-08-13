@@ -40,7 +40,7 @@ export default function GraphicDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -58,7 +58,7 @@ export default function GraphicDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.jpg
+        content="https://www.sibinfotech.com/assets/og/graphic-designing-services.webp
 "
       />
       <BreadcrumbSchema
@@ -91,7 +91,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/web-design (2).png"
+                      src="/assets/images/gd-services/web-design (2).webp"
                       alt="Custom Designs Icon"
                     />
                     <span>Custom Designs for Every Need</span>
@@ -100,7 +100,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/back-in-time.png"
+                      src="/assets/images/gd-services/back-in-time.webp"
                       alt="Lightning-Fast Turnaround Icon"
                     />
                     <span>Lightning-Fast Turnaround</span>
@@ -109,7 +109,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/pixel.png"
+                      src="/assets/images/gd-services/pixel.webp"
                       alt="Pixel-Perfect Quality Icon"
                     />
                     <span>Pixel-Perfect Quality</span>
@@ -118,7 +118,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/creativity (1).png"
+                      src="/assets/images/gd-services/creativity (1).webp"
                       alt="Creative & Unique Concepts Icon"
                     />
                     <span>Creative & Unique Concepts</span>
@@ -127,7 +127,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/target.png"
+                      src="/assets/images/gd-services/target.webp"
                       alt="Brand-Focused Designs Icon"
                     />
                     <span>Brand-Focused Designs</span>
@@ -136,7 +136,7 @@ export default function GraphicDesigningServices() {
                     <Image
                       width={50}
                       height={50}
-                      src="/assets/images/gd-services/price.png"
+                      src="/assets/images/gd-services/price.webp"
                       alt="Affordable & Transparent Pricing Icon"
                     />
                     <span>Affordable & Transparent Pricing</span>

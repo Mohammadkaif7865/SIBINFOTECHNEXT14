@@ -18,37 +18,37 @@ const SeoAuditServicesMgt = () => {
       title: `Technical <br class="d-none d-md-lg "/> SEO Audit`,
       description:
         "Core Web Vitals, crawlability and crawl budget, indexation coverage, JavaScript rendering, canonical tags, XML sitemaps, robots.txt, schema markup, site architecture, and duplicate content.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `On-Page <br class="d-none d-md-lg "/> SEO Audit`,
       description:
         "Title tags, meta descriptions, header hierarchy, keyword targeting and cannibalisation, internal linking, image optimisation, content quality, and topical relevance for every priority page.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Off-Page & <br class="d-none d-md-lg "/> Link Profile Audit`,
       description:
         "Backlink portfolio analysis, toxic link identification, anchor text distribution, competitor link gaps, and digital PR opportunities that can outrank your closest rivals.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Competitor <br class="d-none d-md-lg "/> Audit`,
       description:
         "Head-to-head comparison against 3 to 5 direct competitors: keywords they rank for, content they publish, links they earn, and the exact gaps holding your site back.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `Keyword & <br class="d-none d-md-lg "/> SERP Audit`,
       description:
         "Keyword opportunity mapping, search intent classification, SERP feature analysis (AI Overviews, people also ask, featured snippets), and content gap discovery.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
     {
       title: `Local SEO <br class="d-none d-md-lg "/> Audit`,
       description:
         "Google Business Profile optimisation, NAP consistency, citation quality, review strategy, LocalBusiness schema, and Map Pack visibility for local businesses.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
   ];
 

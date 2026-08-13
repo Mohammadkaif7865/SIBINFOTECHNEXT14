@@ -29,7 +29,7 @@ export default function CorporateWebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function CorporateWebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg
+        content="https://www.sibinfotech.com/assets/og/corporate-website-designing-services.webp
 "
       />
 
@@ -64,7 +64,7 @@ export default function CorporateWebsiteDesigningServices() {
               "SIB Infotech is the #1 agency for corporate website designing and development in India, with offices in Mumbai and Delhi. We design tailor-made, professional, mobile-friendly, and secure corporate websites using the latest tools and technologies — helping businesses of all kinds build robust brand identities, engage relevant clients globally, and achieve their desired goals.",
             url: "https://www.sibinfotech.com/corporate-website-designing-services",
             image:
-              "https://www.sibinfotech.com/assets/og/corporate-website-designing-services.jpg",
+              "https://www.sibinfotech.com/assets/og/corporate-website-designing-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -271,7 +271,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="corporateRight">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-delhi.png"
+                  src="assets/images/corporate-website-designing-company-in-delhi.webp"
                   alt="Corporate website designing company"
                 />
               </div>
@@ -285,7 +285,7 @@ export default function CorporateWebsiteDesigningServices() {
             <div className="col-lg-5">
               <div className="leftDigiSer">
                 <img
-                  src="assets/images/corporate-website-designing-company-in-mumbai.png"
+                  src="assets/images/corporate-website-designing-company-in-mumbai.webp"
                   className="imgAnimation"
                   alt="Corporate website designing company in mumbai"
                 />

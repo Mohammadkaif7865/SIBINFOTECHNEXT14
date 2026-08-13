@@ -29,7 +29,7 @@ export default function CustomWebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function CustomWebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.jpg
+        content="https://www.sibinfotech.com/assets/og/custom-website-designing-services.webp
 "
       />
       <BreadcrumbSchema
@@ -175,7 +175,7 @@ export default function CustomWebsiteDesigningServices() {
               <div className="custom-page-img">
                 <img
                   className="img-responsive"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Article submission"
                 />
               </div>

@@ -31,7 +31,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/paid-inclusion-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/paid-inclusion-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function PaidInclusionServicesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/paid-inclusion-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/paid-inclusion-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/paid-inclusion-services-mumbai-india"

@@ -32,7 +32,7 @@ export default function MagentoDevelopment() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function MagentoDevelopment() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/magento-development-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/magento-development-services-mumbai-india"
@@ -186,7 +186,7 @@ export default function MagentoDevelopment() {
               <div className="magento-img">
                 <img
                   className="image-full"
-                  src="assets/images/magento-development-company-in-india.png"
+                  src="assets/images/magento-development-company-in-india.webp"
                   alt="magento-development-company-in-india"
                 />
               </div>

@@ -18,13 +18,13 @@ export default function Dba2DbaServicesAdministration() {
       <meta property="og:url" content="https://www.sibinfotech.com/db2-dba-services-administration" />
       <meta property="og:title" content="DB2 DBA Services & Administration in India | SIB Infotech" />
       <meta property="og:description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/db2-dba-services-administration.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/db2-dba-services-administration.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/db2-dba-services-administration" />
       <meta property="twitter:title" content="DB2 DBA Services & Administration in India | SIB Infotech" />
       <meta property="twitter:description" content="Ensure optimal database performance with the best DB2 DBA service in India by SIB Infotech. Comprehensive administration solutions for your business needs." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/db2-dba-services-administration.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/db2-dba-services-administration.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/db2-dba-services-administration"
         breadcrumbTitle="DB2 DBA Services & Administration in India | SIB Infotech"
@@ -123,7 +123,7 @@ export default function Dba2DbaServicesAdministration() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="DB2 DBA Services and Administration"
                   className="img-fluid"
                 />

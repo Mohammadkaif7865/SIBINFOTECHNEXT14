@@ -34,7 +34,7 @@ export default function MicrosoftDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/microsoft-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/microsoft-application-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function MicrosoftDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sib-infotech.png"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       <script
         type="application/ld+json"
@@ -68,7 +68,7 @@ export default function MicrosoftDevelopmentServices() {
               "SIB Infotech is a top-rated Microsoft Application Development company in India offering custom Microsoft technology solutions tailored to enhance business productivity and efficiency. Our services include application modernization, customer self-service solutions, case tracking, integration, database development, reporting, managed application services, and remote DBA — backed by deep integration expertise across Microsoft, IBM, Oracle, SAP, and legacy systems using Agile, Scrum, Waterfall, and DevOps methodologies.",
             url: "https://www.sibinfotech.com/microsoft-application-development-services",
             image:
-              "https://www.sibinfotech.com/assets/og/microsoft-application-development-services.jpg",
+              "https://www.sibinfotech.com/assets/og/microsoft-application-development-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -386,7 +386,7 @@ export default function MicrosoftDevelopmentServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Microsoft Application & Development Services"
                   className="img-fluid"
                 />

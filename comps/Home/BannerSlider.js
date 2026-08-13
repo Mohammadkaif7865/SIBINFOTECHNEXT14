@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Typewriter } from "react-simple-typewriter";
 import Counter from "../CounterHome"; // Make sure this path is correct
+import Typewriter from "./Typewriter";
 
 const BannerSlider = () => {
   return (
@@ -21,23 +21,7 @@ const BannerSlider = () => {
             </span>
           </span>
           <span className="heading text-center d-block mt-3 text-white fontWeight600">
-            <i className="text_white">
-              <Typewriter
-                words={[
-                  "Digital Marketing Solutions",
-                  "Social Media Marketing",
-                  "Search Engine Optimization",
-                  "Website Designing",
-                  "Google & Facebook Ads",
-                ]}
-                loop={true}
-                cursor
-                cursorStyle="|"
-                typeSpeed={60}
-                deleteSpeed={50}
-                delaySpeed={1500}
-              />
-            </i>
+            <Typewriter />
           </span>
         </h2>
 

@@ -18,37 +18,37 @@ const WooCommerceSeoMgt = () => {
       title: `Technical SEO for <br class="d-none d-md-lg "/> WooCommerce`,
       description:
         "Full technical audit covering crawl budget management, canonicalisation, noindex implementation for low-value pages, robots.txt optimisation, XML sitemap verification, Core Web Vitals improvement, and plugin performance assessment.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `WooCommerce Plugin <br class="d-none d-md-lg "/> SEO Stack`,
       description:
         "We configure your WooCommerce SEO plugin (Yoast SEO Premium or RankMath Pro) for maximum effectiveness. We do not just install and activate: we configure every setting according to WooCommerce-specific best practices and validate output with Google's Rich Results Test.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Category and Product <br class="d-none d-md-lg "/> Page Optimisation`,
       description:
         "We optimise category pages with unique SEO content, keyword-aligned titles, and breadcrumb navigation. Product pages receive title structure optimisation, unique description guidelines, and schema markup implementation.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `WooCommerce <br class="d-none d-md-lg "/> Site Speed`,
       description:
         "Slow WooCommerce stores lose both rankings and conversions. We improve page speed through image compression, caching implementation, database optimisation, JavaScript deferral, and CDN setup recommendations. Target: achieving a Google PageSpeed Insights score above 80 on mobile.",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.webp",
     },
     {
       title: `Product Schema <br class="d-none d-md-lg "/> Implementation`,
       description:
         "We implement Product schema with all recommended fields: name, description, sku, brand, price, priceCurrency, availability, rating, reviewCount, and image. Correct Product schema improves Google Shopping feed quality, enables price and availability rich results, and supports Google's product knowledge graph.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `Content Marketing <br class="d-none d-md-lg "/> for WooCommerce`,
       description:
         "Buying guide blog posts are among the most effective organic traffic drivers for ecommerce stores. We build topical content clusters around your product categories, targeting the informational queries that buyers use before they are ready to purchase.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
 

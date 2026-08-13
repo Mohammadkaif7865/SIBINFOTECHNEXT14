@@ -181,7 +181,7 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -199,7 +199,7 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.webp"
       />
       <script
         type="application/ld+json"

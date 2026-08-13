@@ -32,7 +32,7 @@ export default function MobileWebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function MobileWebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-website-designing-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-website-designing-services"
@@ -176,12 +176,12 @@ export default function MobileWebsiteDesigningServices() {
               <div className="mobile-website-design">
                 <img
                   className="first-img"
-                  src="assets/images/mobile-website-designing-company-in-mumbai.png"
+                  src="assets/images/mobile-website-designing-company-in-mumbai.webp"
                   alt="mobile-website-designing-company-in-mumbai"
                 />{" "}
                 <img
                   className="second-img"
-                  src="assets/images/mobile-website-designing-in-delhi.png"
+                  src="assets/images/mobile-website-designing-in-delhi.webp"
                   alt="mobile-website-designing-company-in-mumbai"
                 />
               </div>

@@ -35,7 +35,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/email-marketing-services-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/email-marketing-services-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function EmailMarketingServicesCompaniesMumbai() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/email-marketing-services-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/email-marketing-services-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/email-marketing-services-companies-mumbai-india"

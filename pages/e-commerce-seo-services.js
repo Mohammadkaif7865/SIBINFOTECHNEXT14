@@ -37,12 +37,12 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp
 "
       />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/.jpg" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/.webp" />
       <meta
         property="twitter:title"
         content="Top eCommerce SEO Services Company in Mumbai, India"
@@ -53,7 +53,7 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp
 "
       />
 
@@ -669,7 +669,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/drupal.png"
+                      src="assets/images/icons/drupal.webp"
                       alt="DrupalCommerce-websites"
                     />
                     <h4>Drupal Commerce</h4>
@@ -687,7 +687,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-woo-commerce.png"
+                      src="assets/images/icons/on-page-seo-woo-commerce.webp"
                       alt="woo-commerce-websites"
                     />
                     <h4>Woo Commerce</h4>
@@ -705,7 +705,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/ecommerce-seo-presta-shop.png"
+                      src="assets/images/icons/ecommerce-seo-presta-shop.webp"
                       alt="Presta-shop-websites"
                     />
                     <h4>PrestaShop</h4>
@@ -734,7 +734,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-big-commerce-website.png"
+                      src="assets/images/icons/on-page-seo-big-commerce-website.webp"
                       alt="Big-commerce-websites"
                     />
                     <h4>Big Commerce Websites</h4>
@@ -743,7 +743,7 @@ export default function EcommerceSeoServices() {
                 <div className="col-lg-2 col-6">
                   <div className="optmize-box">
                     <img
-                      src="assets/images/icons/on-page-seo-magento-website.png"
+                      src="assets/images/icons/on-page-seo-magento-website.webp"
                       alt="Magento-websites"
                     />
                     <h4>Magento</h4>

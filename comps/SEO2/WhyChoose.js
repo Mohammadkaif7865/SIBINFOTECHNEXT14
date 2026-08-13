@@ -13,7 +13,7 @@ const WhyChoose = () => {
                 height={400}
                 quality={100}
                 className=" w-100 h-auto"
-                src="/assets/images/seo-company.jpg"
+                src="/assets/images/seo-company.webp"
                 alt="SEO Company"
               />
             </div>

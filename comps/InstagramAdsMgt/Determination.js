@@ -13,7 +13,7 @@ const Determination = () => {
               height={450}
               quality={100}
                 className="h-auto image-full"
-                src="/assets/images/instagram-ads-audience.png"
+                src="/assets/images/instagram-ads-audience.webp"
                 alt="instagram-ads-audience"
               />
             </div>

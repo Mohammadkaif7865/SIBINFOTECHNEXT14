@@ -45,7 +45,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/search-g.png"}
+                    src={"/assets/images/icons/search-g.webp"}
                     alt="loading"
                   />
                 </div>
@@ -61,7 +61,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/smartphone2.png"}
+                    src={"/assets/images/icons/smartphone2.webp"}
                     alt="loading"
                   />
                 </div>
@@ -77,7 +77,7 @@ const Intro = () => {
                   <Image
                     width={50}
                     height={50}
-                    src={"/assets/images/icons/google-my-business.png"}
+                    src={"/assets/images/icons/google-my-business.webp"}
                     alt="loading"
                   />
                 </div>

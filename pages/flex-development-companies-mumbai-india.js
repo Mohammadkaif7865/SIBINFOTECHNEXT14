@@ -17,13 +17,13 @@ export default function FlexDevelopmentCompaniesMumbaiIndia() {
       <meta property="og:url" content="https://www.sibinfotech.com/flex-development-companies-mumbai-india" />
       <meta property="og:title" content="Flex Development Services Company in Mumbai, India" />
       <meta property="og:description" content="Transform your web applications with Flex development services in Mumbai by SIB Infotech. Enjoy rich internet applications and enhanced user experiences." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flex-development-companies-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/flex-development-companies-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/flex-development-companies-mumbai-india" />
       <meta property="twitter:title" content="Flex Development Services Company in Mumbai, India" />
       <meta property="twitter:description" content="Transform your web applications with Flex development services in Mumbai by SIB Infotech. Enjoy rich internet applications and enhanced user experiences." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flex-development-companies-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/flex-development-companies-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flex-development-companies-mumbai-india"
         breadcrumbTitle="Flex Development Services Company in Mumbai, India"
@@ -154,7 +154,7 @@ export default function FlexDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flex Development Services in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -203,7 +203,7 @@ export default function FlexDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flex Development Companies India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -251,7 +251,7 @@ export default function FlexDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flex Development Company"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

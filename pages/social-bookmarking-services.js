@@ -31,7 +31,7 @@ export default function SocialBookmarkingServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function SocialBookmarkingServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-bookmarking-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/social-bookmarking-services"
@@ -138,7 +138,7 @@ export default function SocialBookmarkingServices() {
                 <img
                   alt="Social-Bookmarking-Services-Company"
                   className="image-full"
-                  src="assets/images/socila-bookmarking-img.png"
+                  src="assets/images/socila-bookmarking-img.webp"
                 />
               </div>
             </div>

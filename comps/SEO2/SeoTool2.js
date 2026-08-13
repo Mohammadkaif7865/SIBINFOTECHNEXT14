@@ -11,56 +11,56 @@ const SeoTools2 = () => {
       title: "Organic Sessions ",
       ranking: "Billion+",
       targetValue: 2,
-      src: "/assets/images/icons/services/laptop.png",
+      src: "/assets/images/icons/services/laptop.webp",
       alt: "Organic Sessions ",
     },
     {
       title: "#1 Ranking Keywords",
       ranking: "+",
       targetValue: 50000,
-      src: "/assets/images/icons/services/rankings.png",
+      src: "/assets/images/icons/services/rankings.webp",
       alt: "#1 Ranking Keywords",
     },
     {
       title: "Clicks",
       ranking: "Billion+",
       targetValue: 1.8,
-      src: "/assets/images/icons/services/click.png",
+      src: "/assets/images/icons/services/click.webp",
       alt: "Clicks",
     },
     {
       title: "Total Users",
       ranking: "Million+",
       targetValue: 900,
-      src: "/assets/images/icons/services/user.png",
+      src: "/assets/images/icons/services/user.webp",
       alt: "Total Users",
     },
     {
       title: "Website Audits",
       ranking: "+",
       targetValue: 40,
-      src: "/assets/images/icons/services/website4.png",
+      src: "/assets/images/icons/services/website4.webp",
       alt: "Website Audits",
     },
     {
       title: "Leads & Inquires",
       ranking: "Million+",
       targetValue: 1.5,
-      src: "/assets/images/icons/services/lead-generation.png",
+      src: "/assets/images/icons/services/lead-generation.webp",
       alt: "lead-generation",
     },
     {
       title: "YOY increase in Conversion",
       ranking: "%",
       targetValue: 480,
-      src: "/assets/images/icons/services/questions.png",
+      src: "/assets/images/icons/services/questions.webp",
       alt: "YOY increase in Conversion",
     },
     {
       title: "Growth in Paid Search Revenue",
       ranking: "%",
       targetValue: 630,
-      src: "/assets/images/icons/services/good-review.png",
+      src: "/assets/images/icons/services/good-review.webp",
       alt: "Growth in Paid Search Revenue",
     },
   ];
@@ -160,7 +160,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={"/assets/images/seo-result/rnb-uni.png"}
+                      src={"/assets/images/seo-result/rnb-uni.webp"}
                       alt="rnb-global-university-kota-city-kota-rajasthan-colleges"
                     />
                   </div>
@@ -200,7 +200,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={"/assets/images/seo-result/veeraco.png"}
+                      src={"/assets/images/seo-result/veeraco.webp"}
                       alt="Veeraco Colourants Private Limited"
                     />
                   </div>
@@ -240,7 +240,7 @@ const SeoTools2 = () => {
                       quality={100}
                       width={500}
                       height={200}
-                      src={"/assets/images/seo-result/bmc.png"}
+                      src={"/assets/images/seo-result/bmc.webp"}
                       alt="https://www.bmcelections.com/"
                     />
                   </div>

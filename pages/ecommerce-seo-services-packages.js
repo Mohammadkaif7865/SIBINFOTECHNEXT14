@@ -29,7 +29,7 @@ export default function EcommerceSeoServicesPackages() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function EcommerceSeoServicesPackages() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.jpg"
+        content="https://www.sibinfotech.com/assets/og/ecommerce-seo-services-packages.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function EcommerceSeoServicesPackages() {
                 serviceType: "Ecommerce SEO Services",
                 url: "https://www.sibinfotech.com/ecommerce-seo-services-packages",
                 image:
-                  "https://www.sibinfotech.com/assets/images/ecommerce-seo-services.jpg",
+                  "https://www.sibinfotech.com/assets/images/ecommerce-seo-services.webp",
                 description:
                   "SIB Infotech is a leading ecommerce SEO company in India offering ecommerce SEO services, online store optimization, product page SEO, category page optimization, technical SEO, keyword research, link building, and ecommerce SEO packages for businesses. Our ecommerce SEO experts help online stores improve search engine rankings, organic traffic, conversions, and overall online sales performance.",
                 provider: {
@@ -364,7 +364,7 @@ export default function EcommerceSeoServicesPackages() {
                   <img
                     className="image-full"
                     alt="E-Commerce SEO Packages"
-                    src="assets/images/seo-packages-3.png"
+                    src="assets/images/seo-packages-3.webp"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

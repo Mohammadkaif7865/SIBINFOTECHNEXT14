@@ -31,7 +31,7 @@ export default function MCommerceSolution() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/m-commerce-solution.jpg"
+        content="https://www.sibinfotech.com/assets/og/m-commerce-solution.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function MCommerceSolution() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/m-commerce-solution.jpg"
+        content="https://www.sibinfotech.com/assets/og/m-commerce-solution.webp"
       />
       
 <script
@@ -68,7 +68,7 @@ export default function MCommerceSolution() {
             "SIB Infotech is a top-rated M-Commerce solution company in India offering mobile commerce app development, mobile payment integration, mobile web apps, and multiplatform mCommerce solutions for businesses. Our customized mobile commerce applications help businesses improve customer engagement, sales, portability, and digital transactions.",
           url: "https://www.sibinfotech.com/m-commerce-solution",
           image:
-            "https://www.sibinfotech.com/assets/images/m-commerce-solution.jpg",
+            "https://www.sibinfotech.com/assets/images/m-commerce-solution.webp",
           provider: {
             "@id": "https://www.sibinfotech.com/#organization",
           },
@@ -334,7 +334,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="M Commerc"
                   className="img-fluid"
                 />
@@ -368,7 +368,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="M Commerce Solution in Mumbai"
                   className="img-fluid"
                 />
@@ -446,7 +446,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="M Commerce Solution Companies in India"
                   className="img-fluid"
                 />
@@ -527,7 +527,7 @@ export default function MCommerceSolution() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="M Commerce Solution"
                   className="img-fluid"
                 />

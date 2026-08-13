@@ -34,7 +34,7 @@ export default function RealEstateWebsiteDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function RealEstateWebsiteDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/real-estate-website-development-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/real-estate-website-development-services"
@@ -173,7 +173,7 @@ export default function RealEstateWebsiteDevelopmentServices() {
                 <img
                   alt="Real Estate Website Development Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -292,13 +292,13 @@ const metaTags = (
     <meta property="og:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
     <meta property="og:title" content="Best Website Design & Development Packages for All Businesses" />
     <meta property="og:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
-    <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
+    <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.webp" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-development-services-packages" />
     <meta property="twitter:title" content="Best Website Design & Development Packages for All Businesses" />
     <meta property="twitter:description" content="Transform your online presence with SIB Infotech, India's best website design and development services provider. Contact us for affordable web design packages!" />
-    <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.jpg" />
+    <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-development-services-packages.webp" />
     <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-design-development-services-packages"
         breadcrumbTitle="Best Website Design & Development Packages for All Businesses"
@@ -353,7 +353,7 @@ return (
                 <div className="tag-line">
                   <img
                     className="image-full"
-                    src="assets/images/seo-packages-3.png"
+                    src="assets/images/seo-packages-3.webp"
                   />
                   <h4>CHOOSE YOUR PLAN</h4>
                   <p className="customText">

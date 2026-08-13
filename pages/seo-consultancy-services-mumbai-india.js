@@ -33,7 +33,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-consultancy-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/seo-consultancy-services-mumbai-india"
@@ -173,7 +173,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
                 <img
                   alt="SEO Consultancy Services Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -184,7 +184,7 @@ export default function SeoConsultancyServicesMumbaiIndia() {
                 <img
                   alt="SEO consultancy Services Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

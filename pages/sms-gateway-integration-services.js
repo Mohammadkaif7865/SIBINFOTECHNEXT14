@@ -29,7 +29,7 @@ export default function SmsGatewayIntigrationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function SmsGatewayIntigrationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/sms-gateway-integration-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/sms-gateway-integration-services"
@@ -172,7 +172,7 @@ export default function SmsGatewayIntigrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="SMS Gateway Integration Services in India"
                   className="img-fluid"
                 />
@@ -215,7 +215,7 @@ export default function SmsGatewayIntigrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="SMS Gateway Integration Services in Mumbai"
                   className="img-fluid"
                 />
@@ -304,7 +304,7 @@ export default function SmsGatewayIntigrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="SMS Gateway Integration Services in Mumbai"
                   className="img-fluid"
                 />

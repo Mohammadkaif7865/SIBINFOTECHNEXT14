@@ -29,7 +29,7 @@ const CaseStudy2 = ({ description }) => {
       ],
       services: "Search Engine Optimization (SEO)",
       logo: "/assets/images/rnbgu-logo.svg",
-      image: "/assets/images/rnb-laptop.png",
+      image: "/assets/images/rnb-laptop.webp",
     },
     {
       title: "Crunky Funky’s E-commerce Success with",
@@ -51,8 +51,8 @@ const CaseStudy2 = ({ description }) => {
         },
       ],
       services: "Google Ads & Instagram Marketing ",
-      logo: "/assets/images/crunky-funky-logo.png",
-      image: "/assets/images/crunky-funky.png",
+      logo: "/assets/images/crunky-funky-logo.webp",
+      image: "/assets/images/crunky-funky.webp",
     },
     {
       title: "Archer Chess Academy’s Growth with",
@@ -72,8 +72,8 @@ const CaseStudy2 = ({ description }) => {
         },
       ],
       services: "Facebook and Instagram Ads  ",
-      logo: "/assets/images/archer-logo.png",
-      image: "/assets/images/crunky-funky.png",
+      logo: "/assets/images/archer-logo.webp",
+      image: "/assets/images/crunky-funky.webp",
     },
     {
       title: "Kiana Skin Care’s Growth with",
@@ -93,8 +93,8 @@ const CaseStudy2 = ({ description }) => {
         },
       ],
       services: "Facebook  Marketing ",
-      logo: "/assets/images/kiana-logo.png",
-      image: "/assets/images/case-study/kiana-skin-beaty.png",
+      logo: "/assets/images/kiana-logo.webp",
+      image: "/assets/images/case-study/kiana-skin-beaty.webp",
     },
   ];
 

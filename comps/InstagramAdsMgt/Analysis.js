@@ -46,7 +46,7 @@ const Analysis = () => {
                 height={450}
                 quality={100}
                 className="image-full h-auto"
-                src="/assets/images/best-mobile-seo-company-in-delhi.png"
+                src="/assets/images/best-mobile-seo-company-in-delhi.webp"
                 alt="best-mobile-seo-company-in-delhi"
               />
             </div>

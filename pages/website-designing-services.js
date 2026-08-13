@@ -34,7 +34,7 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-designing-services.jpg
+        content="https://www.sibinfotech.com/assets/og/website-designing-services.webp
 "
       />
 
@@ -53,7 +53,7 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-designing-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-designing-services"

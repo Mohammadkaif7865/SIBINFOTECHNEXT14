@@ -34,7 +34,7 @@ export default function MobileOptimizationTechniques() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function MobileOptimizationTechniques() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/mobile-optimization-techniques-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/mobile-optimization-techniques-india"
@@ -182,7 +182,7 @@ export default function MobileOptimizationTechniques() {
                 <img
                   alt="Mobile Optimization Techniques in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

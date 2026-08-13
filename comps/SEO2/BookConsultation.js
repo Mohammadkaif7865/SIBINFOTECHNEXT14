@@ -13,7 +13,7 @@ const BookConsultation = () => {
                   className=" BookConsultation_lockImg"
                   width={400}
                   height={400}
-                  src={"/assets/images/icons/lock.png"}
+                  src={"/assets/images/icons/lock.webp"}
                   alt="lock"
                 />
               </div>
@@ -66,7 +66,7 @@ const BookConsultation = () => {
                     width={65}
                     height={51}
                     className="mx-auto d-block h-auto"
-                    src={"/assets/images/icons/software-developer-icon-2.png"}
+                    src={"/assets/images/icons/software-developer-icon-2.webp"}
                     alt=""
                   />
                   <p className="mt-2 text-center ">contact a SEO specialist</p>
@@ -76,7 +76,7 @@ const BookConsultation = () => {
                     width={50}
                     height={50}
                     className=" mx-auto d-block h-auto"
-                    src={"/assets/images/icons/phone.png"}
+                    src={"/assets/images/icons/phone.webp"}
                     alt=""
                   />
                   <p className="mt-2 text-center">schedule a call with us</p>

@@ -41,7 +41,7 @@ const OurPeople = () => {
               <Image
                 width={500}
                 height={400}
-                src="/assets/images/sib-team.jpg"
+                src="/assets/images/sib-team.webp"
                 alt=""
               />
             </div>

@@ -68,7 +68,7 @@ runs an ad and he will get charged a fee each time a user clicks on their ad. Es
 
   return (
     <BrandBuild
-      image={`/assets/images/home-digital-marketing.jpg`}
+      image={`/assets/images/home-digital-marketing.webp`}
       title2={brandContent[0].subtitle}
       title={brandContent[0].title}
       description={brandContent[0].description}

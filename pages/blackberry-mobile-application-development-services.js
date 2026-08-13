@@ -32,7 +32,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
 
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/blackberry-mobile-application-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/blackberry-mobile-application-development-services"
@@ -179,7 +179,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                 <img
                   alt="Blackberry Mobile Application Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function BlackberryMobileApplicationDevelopmentServices() {
                 <img
                   alt="Blackberry Mobile Application Development Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

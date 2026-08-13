@@ -33,7 +33,7 @@ export default function JoomlaCmsDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function JoomlaCmsDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/joomla-cms-framework-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/joomla-cms-framework-development-services"
@@ -149,7 +149,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Developement Company"
                 />
               </div>
@@ -183,7 +183,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Developement Company"
                 />
               </div>
@@ -194,7 +194,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Firm"
                 />
               </div>
@@ -238,7 +238,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Development Agency"
                 />
               </div>
@@ -274,7 +274,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Development Agency"
                 />
               </div>
@@ -285,7 +285,7 @@ export default function JoomlaCmsDevelopmentServices() {
               <div className="custom-page-img">
                 <img
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Joomla CMS Development Services"
                 />
               </div>

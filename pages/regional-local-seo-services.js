@@ -31,7 +31,7 @@ export default function RegionalLocalSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function RegionalLocalSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/regional-local-seo-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/regional-local-seo-services"

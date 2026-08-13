@@ -31,7 +31,7 @@ export default function ShopifyDevelopementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/shopify-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/shopify-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function ShopifyDevelopementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/shopify-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/shopify-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/shopify-development-services"
@@ -176,7 +176,7 @@ export default function ShopifyDevelopementServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Shopify Development Company in India"
                   className="img-fluid"
                 />

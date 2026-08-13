@@ -31,7 +31,7 @@ export default function LinkedinMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/linkedin-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/linkedin-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function LinkedinMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/linkedin-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/linkedin-marketing.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/linkedin-marketing"
@@ -157,7 +157,7 @@ export default function LinkedinMarketing() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Linkedin Marketing Company in India"
                   className="img-fluid"
                 />

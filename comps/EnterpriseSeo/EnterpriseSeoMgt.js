@@ -18,37 +18,37 @@ const EnterpriseSeoMgt = () => {
       title: `Crawl Budget <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Enterprise sites with tens or hundreds of thousands of pages routinely waste Google's crawl budget on low-value URLs. We conduct log file analysis to identify which pages are being crawled and which are being ignored, implement noindex strategies for low-value content, and restructure internal linking to concentrate crawl equity on the pages that drive revenue.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `JavaScript <br class="d-none d-md-lg "/> SEO`,
       description:
         "Modern enterprise websites built on React, Angular, or Vue face specific JavaScript rendering challenges. We audit JavaScript SEO performance, identify content not being indexed by Googlebot, implement server-side rendering (SSR) recommendations, and validate rendering output through Google's URL Inspection tool.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Scalable On-Page <br class="d-none d-md-lg "/> Architecture`,
       description:
         "Manually optimising thousands of product, category, and location pages is not viable. We build scalable on-page templates and content frameworks that apply SEO best practices systematically across large page groups, with spot-check auditing to maintain quality.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Multi-Location and <br class="d-none d-md-lg "/> International SEO`,
       description:
         "Enterprise brands with multiple physical locations or international markets require LocalBusiness schema for each location, hreflang implementation for international variants, geo-targeted content strategies, and Google Business Profile management at scale.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Enterprise Reporting and <br class="d-none d-md-lg "/> Business Intelligence`,
       description:
         "We provide advanced reporting that goes beyond keyword rankings to connect SEO performance to business outcomes. Our enterprise reporting covers organic revenue attribution, share of voice analysis, content performance by category, and technical health trending over time.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `Cross-Team SEO <br class="d-none d-md-lg "/> Governance`,
       description:
         "We work within enterprise structures, providing SEO guidelines for development teams, editorial frameworks for content teams, and executive-level reporting for marketing leadership. Our team serves as the centralising SEO intelligence function within your organisation.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
 
@@ -56,49 +56,49 @@ const EnterpriseSeoMgt = () => {
     {
       title: "FMCG and Consumer Products",
       description: "National brand campaigns across the full product portfolio.",
-      img: "/assets/images/seo/beauty-fashion-seo.png",
+      img: "/assets/images/seo/beauty-fashion-seo.webp",
       alt: "FMCG and consumer products enterprise SEO",
     },
     {
       title: "Manufacturing and Industrial B2B",
       description: "Large product catalogue SEO for complex B2B buyers.",
-      img: "/assets/images/seo/manufacturing-seo.png",
+      img: "/assets/images/seo/manufacturing-seo.webp",
       alt: "Manufacturing and industrial B2B enterprise SEO",
     },
     {
       title: "Financial Services and Banking",
       description: "High-competition regulatory environment with strict compliance.",
-      img: "/assets/images/seo/finance-seo.png",
+      img: "/assets/images/seo/finance-seo.webp",
       alt: "Financial services and banking enterprise SEO",
     },
     {
       title: "Telecommunications",
       description: "Multi-product, multi-location search visibility at scale.",
-      img: "/assets/images/seo/it-saas-seo.png",
+      img: "/assets/images/seo/it-saas-seo.webp",
       alt: "Telecommunications enterprise SEO",
     },
     {
       title: "Real Estate Developers",
       description: "Large project portfolio visibility across major metros.",
-      img: "/assets/images/seo/real-estate-seo.png",
+      img: "/assets/images/seo/real-estate-seo.webp",
       alt: "Real estate developers enterprise SEO",
     },
     {
       title: "Pharmaceutical and Healthcare",
       description: "Compliance-sensitive, technical content for regulated markets.",
-      img: "/assets/images/seo/healthcare-seo.png",
+      img: "/assets/images/seo/healthcare-seo.webp",
       alt: "Pharmaceutical and healthcare enterprise SEO",
     },
     {
       title: "Education and Universities",
       description: "Multi-department content governance and authority building.",
-      img: "/assets/images/seo/education-seo.png",
+      img: "/assets/images/seo/education-seo.webp",
       alt: "Education and universities enterprise SEO",
     },
     {
       title: "Retail and Ecommerce",
       description: "Large SKU catalogue with category-level keyword coverage.",
-      img: "/assets/images/seo/ecommerce-seo.png",
+      img: "/assets/images/seo/ecommerce-seo.webp",
       alt: "Retail and ecommerce enterprise SEO",
     },
   ];

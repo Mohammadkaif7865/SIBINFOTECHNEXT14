@@ -45,7 +45,7 @@ export default function LocalSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg
+        content="https://www.sibinfotech.com/assets/og/local-seo-services.webp
 "
       />
 
@@ -64,7 +64,7 @@ export default function LocalSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/local-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/local-seo-services.webp"
       />
 
       <script
@@ -80,7 +80,7 @@ export default function LocalSeoServices() {
               "SIB Infotech is a leading local SEO company in India offering result-driven local search engine optimization services for businesses. Our local SEO experts help improve Google Maps rankings, local search visibility, business listings, location-based traffic, and lead generation through strategic local SEO campaigns and optimization techniques.",
             url: "https://www.sibinfotech.com/local-seo-services.php",
             image:
-              "https://www.sibinfotech.com/assets/images/local-seo-services-company.jpg",
+              "https://www.sibinfotech.com/assets/images/local-seo-services-company.webp",
 
             provider: {
               "@type": "Organization",
@@ -255,7 +255,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/seo (1).png"
+                      src="/assets/images/local-seo/seo (1).webp"
                       alt="Local SEO Icon"
                     />
                     <span>Dominate Local Search Results</span>
@@ -264,7 +264,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/people.png"
+                      src="/assets/images/local-seo/people.webp"
                       alt="Attract Nearby Customers Icon"
                     />
                     <span>Attract Nearby Customers</span>
@@ -273,7 +273,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/customer-care.png"
+                      src="/assets/images/local-seo/customer-care.webp"
                       alt="Drive More Walk-Ins Icon"
                     />
                     <span>Drive More Walk-Ins</span>
@@ -282,7 +282,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/business1.png"
+                      src="/assets/images/local-seo/business1.webp"
                       alt="Increase Store Visits Icon"
                     />
                     <span>Increase Store Visits</span>
@@ -291,7 +291,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={40}
                       height={40}
-                      src="/assets/images/local-seo/increase.png"
+                      src="/assets/images/local-seo/increase.webp"
                       alt="Increase Sales & Leads Icon"
                     />
                     <span>Increase Sales & Leads</span>
@@ -371,7 +371,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/law.png"
+                      src="/assets/images/icons/law.webp"
                       alt="Lawyer Near me"
                     />
                   </div>
@@ -394,7 +394,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/florist.png"
+                      src="/assets/images/icons/florist.webp"
                       alt="Florist Near me"
                     />
                   </div>
@@ -406,7 +406,7 @@ export default function LocalSeoServices() {
                     <Image
                       width={128}
                       height={128}
-                      src="/assets/images/icons/hospital.png"
+                      src="/assets/images/icons/hospital.webp"
                       alt="Hospital Near me"
                     />
                   </div>

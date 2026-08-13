@@ -18,37 +18,37 @@ const ShopifySeoMgt = () => {
       title: `Shopify Technical <br class="d-none d-md-lg "/> SEO Audit`,
       description:
         "We conduct a comprehensive technical audit of your Shopify store covering canonical tag implementation, URL structure, site speed (Core Web Vitals across mobile and desktop), crawl efficiency, internal linking architecture, schema markup, and indexation health. Every issue is documented with Shopify-specific resolution guidance.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Collection Page <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Collection pages are the highest-traffic opportunity pages in a Shopify store. We optimise collection pages with keyword-aligned titles, meta descriptions, unique introductory content, breadcrumb navigation, and Product schema to maximise category-level keyword rankings.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Product Page <br class="d-none d-md-lg "/> SEO`,
       description:
         "We create optimised product page templates covering title structure, meta descriptions, heading hierarchy, unique product descriptions (removing manufacturer copy that causes duplicate content), and Product schema implementation including price, availability, and review aggregate markup.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Shopify Site Speed <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Page speed is a direct Google ranking factor and a major conversion driver. We audit and improve Shopify store speed by identifying render-blocking resources, optimising image delivery, deferring unnecessary JavaScript, and recommending app removal where apps are causing speed degradation without delivering proportionate business value.",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.webp",
     },
     {
       title: `Internal Linking <br class="d-none d-md-lg "/> Architecture`,
       description:
         "A well-structured internal linking system distributes link equity from high-authority pages (homepage, top collection pages) to product and deeper category pages. We build a Shopify-specific internal linking strategy that improves crawl efficiency and page-level authority distribution.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Content Marketing <br class="d-none d-md-lg "/> for Shopify`,
       description:
         "Blog content is consistently underutilised by Shopify stores. We build topical authority through strategic blog clusters that target buyer-intent informational queries, driving traffic from users researching before purchase. Shopify's native blog functionality is used with full schema markup implementation.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
 

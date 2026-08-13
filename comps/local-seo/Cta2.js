@@ -25,7 +25,7 @@ const Cta2 = () => {
                   width={100}
                   height={100}
                   quality={100}
-                  src={"/assets/images/icons/lock.png"}
+                  src={"/assets/images/icons/lock.webp"}
                   alt=""
                 />
               </div>
@@ -49,7 +49,7 @@ const Cta2 = () => {
                   width={100}
                   height={100}
                   quality={100}
-                  src={"/assets/images/icons/lock.png"}
+                  src={"/assets/images/icons/lock.webp"}
                   alt=""
                 />
               </div>
@@ -75,7 +75,7 @@ const Cta2 = () => {
                       width={40}
                       height={40}
                       className=" d-block h-auto  nolock-img"
-                      src={"/assets/images/icons/software-developer-icon-2.png"}
+                      src={"/assets/images/icons/software-developer-icon-2.webp"}
                       alt=""
                     />
                     {/* <i className="fa-regular fa-user sub_heading"></i> */}
@@ -91,7 +91,7 @@ const Cta2 = () => {
                       width={40}
                       height={40}
                       className=" d-block h-auto nolock-img"
-                      src={"/assets/images/icons/phone.png"}
+                      src={"/assets/images/icons/phone.webp"}
                       alt=""
                     />
                     <p className=" text-center text-white text-uppercase ">
@@ -107,7 +107,7 @@ const Cta2 = () => {
               <picture>
                 <source srcSet="assets/images/desktop-frame.webp" />
                 <img
-                  src="assets/images/desktop-frame.png"
+                  src="assets/images/desktop-frame.webp"
                   alt="Desktop Frame"
                 />
               </picture>
@@ -116,7 +116,7 @@ const Cta2 = () => {
                   <picture>
                     <source srcSet="assets/images/google-social.webp" />
                     <img
-                      src="assets/images/google-social.png"
+                      src="assets/images/google-social.webp"
                       alt="Google Logo"
                     />
                   </picture>
@@ -127,7 +127,7 @@ const Cta2 = () => {
                       <picture>
                         <source srcSet="assets/images/search-interface-symbol.webp" />
                         <img
-                          src="assets/images/search-interface-symbol.png"
+                          src="assets/images/search-interface-symbol.webp"
                           alt="Search IconS"
                         />
                       </picture>
@@ -137,7 +137,7 @@ const Cta2 = () => {
                       <picture>
                         <source srcSet="assets/images/google-icon.webp" />
                         <img
-                          src="assets/images/google-icon.png"
+                          src="assets/images/google-icon.webp"
                           alt="Google Icons"
                         />
                       </picture>

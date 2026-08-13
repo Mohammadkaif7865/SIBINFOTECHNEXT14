@@ -9,6 +9,43 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FaXTwitter } from "react-icons/fa6";
 
+const LazyMap = ({ src, title }) => {
+  const ref = useRef(null);
+  const [load, setLoad] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (!("IntersectionObserver" in window)) {
+      setLoad(true);
+      return;
+    }
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setLoad(true);
+          obs.disconnect();
+        }
+      },
+      { rootMargin: "300px 0px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
+  return (
+    <iframe
+      ref={ref}
+      className="img-taken"
+      src={load ? src : undefined}
+      allowFullScreen=""
+      loading="lazy"
+      title={title}
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  );
+};
+
 export default function Footer() {
   const headers = {
     "Content-Type": "multipart/form-data",
@@ -155,6 +192,9 @@ export default function Footer() {
   useEffect(() => {
     const RECAPTCHA_SITE_KEY = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib" || "";
 
+    let observer = null;
+    let fallbackTimer = null;
+
     const renderWidget = () => {
       try {
         const container = document.getElementById("footer-recaptcha");
@@ -180,21 +220,45 @@ export default function Footer() {
       }
     };
 
-    if (typeof window !== "undefined" && RECAPTCHA_SITE_KEY) {
-      if (!window.grecaptcha) {
-        const script = document.createElement("script");
-        script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
-        script.async = true;
-        script.defer = true;
-        script.onload = () => setTimeout(renderWidget, 300);
-        script.onerror = () => console.warn("Failed to load reCAPTCHA script");
-        document.head.appendChild(script);
-      } else {
+    const loadRecaptcha = () => {
+      if (typeof window === "undefined" || !RECAPTCHA_SITE_KEY) return;
+      if (window.grecaptcha) {
         setTimeout(renderWidget, 100);
+        return;
       }
+      const script = document.createElement("script");
+      script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+      script.async = true;
+      script.defer = true;
+      script.onload = () => setTimeout(renderWidget, 300);
+      script.onerror = () => console.warn("Failed to load reCAPTCHA script");
+      document.head.appendChild(script);
+    };
+
+    if (typeof window !== "undefined" && RECAPTCHA_SITE_KEY) {
+      // only load reCAPTCHA when the footer form is close to the viewport
+      const target = document.getElementById("requestQuote");
+      if (target && "IntersectionObserver" in window) {
+        observer = new IntersectionObserver(
+          (entries) => {
+            if (entries.some((e) => e.isIntersecting)) {
+              loadRecaptcha();
+              observer.disconnect();
+            }
+          },
+          { rootMargin: "300px 0px" }
+        );
+        observer.observe(target);
+      } else {
+        loadRecaptcha();
+      }
+      // safety fallback: keep reCAPTCHA available even if the page is never scrolled
+      fallbackTimer = setTimeout(loadRecaptcha, 12000);
     }
 
     return () => {
+      if (observer) observer.disconnect();
+      if (fallbackTimer) clearTimeout(fallbackTimer);
       try {
         if (typeof window !== "undefined" && window.grecaptcha && recaptchaWidgetRef.current !== null) {
           // reset the widget on unmount to avoid duplicates (React Strict Mode)
@@ -338,26 +402,10 @@ export default function Footer() {
                             </li>
                             <li>
                               <Link
-                                href="/search-engine-marketing-companies-mumbai-india"
-                                title="Search Engine Marketing"
-                              >
-                                Search Engine Marketing
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
                                 href="/online-reputation-management-services"
                                 title="Reputation Management"
                               >
                                 Reputation Management
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/paid-inclusion-services-mumbai-india"
-                                title="Paid Search Engine Inclusion"
-                              >
-                                Paid Search Engine Inclusion
                               </Link>
                             </li>
                             <li>
@@ -650,14 +698,10 @@ export default function Footer() {
                     </Link>
                   </div>
                   <div className="rightMapItem">
-                    <iframe
-                      className="img-taken"
+                    <LazyMap
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.646558593871!2d72.833803!3d19.177215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce92f56b4ccd%3A0x965180085bc69862!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1678696876200!5m2!1sen!2sin"
-                      allowFullScreen=""
-                      loading="lazy"
                       title="Mumbai Office Map"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    />
                   </div>
                 </div>
               </div>
@@ -687,15 +731,10 @@ export default function Footer() {
                     </Link>
                   </div>
                   <div className="rightMapItem">
-                       
-                    <iframe
-                      className="img-taken"
+                    <LazyMap
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4917341315336!2d77.10995827457334!3d28.644991583516436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05e1990aeceb%3A0x7e39edabda3510f5!2sSIB%20Infotech!5e0!3m2!1sen!2sin!4v1775460278596!5m2!1sen!2sin"
-                      allowFullScreen=""
-                      loading="lazy"
                       title="Delhi Office Map."
-                      referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    />
                   </div>
                 </div>
               </div>
@@ -728,7 +767,7 @@ export default function Footer() {
                   height={100}
                   quality={100}
                   alt="Meta Partner Company"
-                  src="/assets/images/meta-partner.jpg"
+                  src="/assets/images/meta-partner.webp"
                 />
               </div>
               <div className="itemFooterLogo">
@@ -738,7 +777,7 @@ export default function Footer() {
                     height={100}
                     quality={100}
                     alt="clutch Partner Company"
-                    src="/assets/images/clutch.png"
+                    src="/assets/images/clutch.webp"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -748,7 +787,7 @@ export default function Footer() {
                     height={100}
                     quality={100}
                     alt="Shopify Partner Company"
-                    src="/assets/images/shopify-partner.png"
+                    src="/assets/images/shopify-partner.webp"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -758,7 +797,7 @@ export default function Footer() {
                     height={100}
                     quality={100}
                     alt="Trustpilot Partner Company"
-                    src="/assets/images/trustpilot.jpg"
+                    src="/assets/images/trustpilot.webp"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -768,7 +807,7 @@ export default function Footer() {
                     height={100}
                     quality={100}
                     alt="Google Analytics Partner Company"
-                    src="/assets/images/google-analytics.jpg"
+                    src="/assets/images/google-analytics.webp"
                   />
                 </div>
                 <div className="itemFooterLogo">
@@ -778,7 +817,7 @@ export default function Footer() {
                     height={100}
                     quality={100}
                     alt="Bing Partner Company"
-                    src="/assets/images/bing.png"
+                    src="/assets/images/bing.webp"
                   />
                 </div>
               </div>

@@ -35,7 +35,7 @@ export default function FlashWebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function FlashWebsiteDesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-website-designing-services.webp"
       />  
       <script
         type="application/ld+json"
@@ -68,7 +68,7 @@ export default function FlashWebsiteDesigningServices() {
               "SIB Infotech is a renowned Flash development company in Mumbai, India offering unique Flash website designs complete with Flash banners, animated introductions, interactive user interfaces, and multimedia presentations. Our Flash development services help businesses attract visitors through eye-catching animations, sound, dynamic web pages, and interactive movies — creating a lasting impression on end-users and driving continuous leads and high revenue.",
             url: "https://www.sibinfotech.com/flash-website-designing-services",
             image:
-              "https://www.sibinfotech.com/assets/og/flash-website-designing-services.jpg",
+              "https://www.sibinfotech.com/assets/og/flash-website-designing-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -383,7 +383,7 @@ export default function FlashWebsiteDesigningServices() {
                 <img
                   alt="Flash Website Designing Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

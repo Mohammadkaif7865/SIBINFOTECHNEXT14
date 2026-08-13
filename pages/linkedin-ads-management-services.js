@@ -37,7 +37,7 @@ export default function LinkedinAdsManagementServices() {
       <meta
         property="og:image"
         content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services
-.jpg"
+.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -56,7 +56,7 @@ export default function LinkedinAdsManagementServices() {
       <meta
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services
-.jpg"
+.webp"
       />
 
       <script
@@ -72,7 +72,7 @@ export default function LinkedinAdsManagementServices() {
               "SIB Infotech is a top-rated LinkedIn Ads management company in India offering result-driven LinkedIn advertising services including lead generation campaigns, brand awareness campaigns, audience targeting, sponsored content ads, LinkedIn PPC management, and B2B marketing solutions. Our LinkedIn advertising experts help businesses improve conversions, website traffic, professional engagement, and ROI through strategic LinkedIn campaigns.",
             url: "https://www.sibinfotech.com/linkedin-ads-management-services",
             image:
-              "https://www.sibinfotech.com/assets/images/linkedin-ads-management-company-in-mumbai.jpg",
+              "https://www.sibinfotech.com/assets/images/linkedin-ads-management-company-in-mumbai.webp",
 
             provider: {
               "@type": "Organization",

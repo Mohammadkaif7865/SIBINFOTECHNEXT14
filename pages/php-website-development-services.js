@@ -34,7 +34,7 @@ export default function PhpWebsiteDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/php-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/php-website-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function PhpWebsiteDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/php-website-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/php-website-development-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/php-website-development-services"
@@ -288,7 +288,7 @@ export default function PhpWebsiteDevelopmentServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="PHP Development Services Companies in India"
                   className="img-fluid"
                 />

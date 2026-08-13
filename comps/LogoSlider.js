@@ -52,7 +52,7 @@ const logos = [
     alt: "Pravash Holiday",
   },
   {
-    src: "/assets/images/clients/clients-red-cart-films-website.png",
+    src: "/assets/images/clients/clients-red-cart-films-website.webp",
     alt: "Red Cart Films",
   },
   {

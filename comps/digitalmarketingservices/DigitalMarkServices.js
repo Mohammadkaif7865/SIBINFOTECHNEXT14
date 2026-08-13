@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
-import Head from "next/head";
-import Link from "next/link";
-import BannerForm from "../BannerForm";
+import dynamic from "next/dynamic";
+import LazyLoad from "../LazyLoad";
+
 import HeroDigitalMarketing from "./HeroDigitalMarketing";
-import BestCompany from "./BestCompany";
-import WeOffer from "./WeOffer";
-import Benefits from "./Benefits";
-import OurSteps from "./OurSteps";
-import SpecializedServices from "./SpecializedServices";
-import Why from "./Why";
-import MarketingTools from "./MarketingTools";
-import Faqs from "./Faqs";
+
+const BestCompany = dynamic(() => import("./BestCompany"), { ssr: true });
+const WeOffer = dynamic(() => import("./WeOffer"), { ssr: true });
+const Benefits = dynamic(() => import("./Benefits"), { ssr: true });
+const OurSteps = dynamic(() => import("./OurSteps"), { ssr: false });
+const SpecializedServices = dynamic(() => import("./SpecializedServices"), { ssr: true });
+const Why = dynamic(() => import("./Why"), { ssr: true });
+const MarketingTools = dynamic(() => import("./MarketingTools"), { ssr: false });
+const Faqs = dynamic(() => import("./Faqs"), { ssr: true });
 
 const DigitalMarkServices = () => {
   useEffect(() => {
@@ -25,15 +25,30 @@ const DigitalMarkServices = () => {
   return (
     <>
       <HeroDigitalMarketing />
-      <BestCompany />
-      <WeOffer />
-      <Benefits />
-      <OurSteps />
-      <SpecializedServices />
-      <Why />
-      <MarketingTools />
-    
-      <Faqs />
+      <LazyLoad>
+        <BestCompany />
+      </LazyLoad>
+      <LazyLoad>
+        <WeOffer />
+      </LazyLoad>
+      <LazyLoad>
+        <Benefits />
+      </LazyLoad>
+      <LazyLoad>
+        <OurSteps />
+      </LazyLoad>
+      <LazyLoad>
+        <SpecializedServices />
+      </LazyLoad>
+      <LazyLoad>
+        <Why />
+      </LazyLoad>
+      <LazyLoad>
+        <MarketingTools />
+      </LazyLoad>
+      <LazyLoad>
+        <Faqs />
+      </LazyLoad>
     </>
   );
 };

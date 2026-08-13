@@ -18,37 +18,37 @@ const AppStoreOptimizationMgt = () => {
       title: `Keyword Research <br class="d-none d-md-lg "/> and Strategy`,
       description:
         "In-depth keyword research across both app stores to identify high-volume, low-competition search terms relevant to your app's core functionality, prioritised by conversion intent and realistic ranking potential.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `App Title & <br class="d-none d-md-lg "/> Metadata Optimisation`,
       description:
         "The app title is the single most important ranking factor in both stores. We optimise title, subtitle, keyword fields, and short description for maximum keyword coverage without sacrificing readability or brand clarity.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `App Description <br class="d-none d-md-lg "/> Copywriting`,
       description:
         "Compelling, keyword-rich descriptions for Google Play that serve both the algorithm and user conversion, and persuasive, conversion-focused descriptions for the App Store.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
     {
       title: `Visual Asset <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Screenshots, feature graphics, and preview videos are critical conversion drivers. We analyse competitor visual strategies, recommend A/B tests, and develop screenshot sequences that highlight your strongest features.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Rating & <br class="d-none d-md-lg "/> Review Management`,
       description:
         "User ratings and review sentiment directly influence both ranking and conversion. We implement in-app prompt optimisation, response templates, and review generation campaigns that build social proof.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Localisation & <br class="d-none d-md-lg "/> Market Expansion`,
       description:
         "Localising your app store listing for multiple language markets multiplies your global download potential — from Hindi, Tamil, Telugu, and Bengali to Middle East, Southeast Asia, and Western markets.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
   ];
 

@@ -34,7 +34,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-actionscript-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-actionscript-services-mumbai-india"
@@ -168,7 +168,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscription Development Companies"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscript Development Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function FlashActionScriptDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Flash Actionscript Development"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

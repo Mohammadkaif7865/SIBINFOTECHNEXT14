@@ -5,15 +5,15 @@ import React from "react";
 const SpecialisedServices = () => {
   // Define an array of service objects
   const services = [
-    { icon: "shopping-cart.png", title: "eCommerce SEO" },
-    { icon: "plane.png", title: "Travel SEO" },
-    { icon: "folder.png", title: "SEO for News Website" },
-    { icon: "amazon.png", title: "Amazon SEO" },
-    { icon: "shopify.png", title: "Shopify SEO" },
-    { icon: "bars.png", title: "Finance SEO" },
-    { icon: "localseo.png", title: "Local SEO" },
-    { icon: "building.png", title: "Real Estate SEO" },
-    { icon: "health.png", title: "Health Care SEO" },
+    { icon: "shopping-cart.webp", title: "eCommerce SEO" },
+    { icon: "plane.webp", title: "Travel SEO" },
+    { icon: "folder.webp", title: "SEO for News Website" },
+    { icon: "amazon.webp", title: "Amazon SEO" },
+    { icon: "shopify.webp", title: "Shopify SEO" },
+    { icon: "bars.webp", title: "Finance SEO" },
+    { icon: "localseo.webp", title: "Local SEO" },
+    { icon: "building.webp", title: "Real Estate SEO" },
+    { icon: "health.webp", title: "Health Care SEO" },
   ];
 
   return (

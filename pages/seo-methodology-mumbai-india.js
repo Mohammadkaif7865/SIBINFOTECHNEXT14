@@ -32,7 +32,7 @@ export default function SeoMethologyMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SeoMethologyMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/seo-methodology-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/seo-methodology-mumbai-india"

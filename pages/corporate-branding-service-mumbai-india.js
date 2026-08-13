@@ -31,7 +31,7 @@ export default function CorporateBrandingServicesMumbai() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.webp"
       />
       <meta property="twitter:card" content="summary_large_image" />
       <meta
@@ -48,7 +48,7 @@ export default function CorporateBrandingServicesMumbai() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/corporate-branding-service-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/corporate-branding-service-mumbai-india"
@@ -165,7 +165,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Best Corporate Branding Company in India"
                 />
               </div>
@@ -175,7 +175,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Top Corporate Branding Agency in Mumbai"
                 />
               </div>
@@ -301,7 +301,7 @@ export default function CorporateBrandingServicesMumbai() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Corporate Branding Services"
                 />
               </div>

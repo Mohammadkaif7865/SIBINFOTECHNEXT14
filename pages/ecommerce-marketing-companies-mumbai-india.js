@@ -19,13 +19,13 @@ export default function EcommerceMarketingCompanyMumbai() {
         <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india" />
         <meta property="og:title" content="eCommerce Marketing Companies in Mumbai | SIB Infotech" />
         <meta property="og:description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
-        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-marketing-companies-mumbai-india.jpg" />
+        <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-marketing-companies-mumbai-india.webp" />
   
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india" />
         <meta property="twitter:title" content="eCommerce Marketing Companies in Mumbai | SIB Infotech" />
         <meta property="twitter:description" content="Discover the top eCommerce marketing companies in Mumbai, India. SIB Infotech offers tailored strategies to boost your eCommerce website visibility and sales." />
-        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-marketing-companies-mumbai-india.jpg" />
+        <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-marketing-companies-mumbai-india.webp" />
         <BreadcrumbSchema
         url="https://www.sibinfotech.com/ecommerce-marketing-companies-mumbai-india"
         breadcrumbTitle="eCommerce Marketing Companies in Mumbai | SIB Infotech"
@@ -91,7 +91,7 @@ export default function EcommerceMarketingCompanyMumbai() {
                  </p>
               </div>
               <div className="col-lg-5">
-                 <img className="imgFulll" alt="E-commerce Marketing Services in India" src="assets/images/ecommerce-marketing-company.png"/>
+                 <img className="imgFulll" alt="E-commerce Marketing Services in India" src="assets/images/ecommerce-marketing-company.webp"/>
               </div>
            </div>
          </div>

@@ -15,13 +15,13 @@ export default function DigitalMarketingServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/digital-marketing-services" />
       <meta property="og:title" content="Top Digital Marketing Services Agency Mumbai, Delhi, India" />
       <meta property="og:description" content="SIB Infotech is a leading digital marketing company in Mumbai, India. Get tailored strategies to boost your online visibility, traffic, leads, and conversions." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/digital-marketing-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/digital-marketing-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/digital-marketing-services" />
       <meta property="twitter:title" content="Top Digital Marketing Services Agency Mumbai, Delhi, India" />
       <meta property="twitter:description" content="SIB Infotech is a leading digital marketing company in Mumbai, India. Get tailored strategies to boost your online visibility, traffic, leads, and conversions." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/digital-marketing-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/digital-marketing-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/digital-marketing-services"
         breadcrumbTitle="Top Digital Marketing Services Agency Mumbai, Delhi, India"

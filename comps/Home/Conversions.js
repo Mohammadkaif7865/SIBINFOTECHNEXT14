@@ -130,7 +130,7 @@ const Conversions = () => {
               <Image
                 width="500"
                 height="500"
-                src="/assets/images/center-mobile-conversion.png"
+                src="/assets/images/center-mobile-conversion.webp"
               />
             </div>
           </div>

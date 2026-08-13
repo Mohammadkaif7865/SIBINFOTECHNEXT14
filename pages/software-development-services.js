@@ -32,7 +32,7 @@ export default function SoftwareDevelopementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/software-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/software-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SoftwareDevelopementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/software-development-services.jpg
+        content="https://www.sibinfotech.com/assets/og/software-development-services.webp
 "
       />
       <script
@@ -66,7 +66,7 @@ export default function SoftwareDevelopementServices() {
               "SIB Infotech is a leading software development company in India offering custom software development, enterprise software solutions, CRM development, ERP software, web-based software applications, and scalable business automation solutions. Our software development services help businesses improve operational efficiency, workflow automation, customer management, and digital transformation.",
             url: "https://www.sibinfotech.com/software-development-services/",
             image:
-              "https://www.sibinfotech.com/assets/images/software-development-services.jpg",
+              "https://www.sibinfotech.com/assets/images/software-development-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -635,14 +635,14 @@ export default function SoftwareDevelopementServices() {
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/plan.png"
+                      src="assets/images/icons/plan.webp"
                       alt="Top Software Development Companies in India"
                     />
                     Planning
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/test.png"
+                      src="assets/images/icons/test.webp"
                       alt="Top Software Development Agency in Delhi"
                     />
                     Designing
@@ -669,21 +669,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/cloud.png"
+                      src="assets/images/icons/cloud.webp"
                       alt="Top Software Development Agency in Mumbai"
                     />
                     Cloud Solutions
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/security.png"
+                      src="assets/images/icons/security.webp"
                       alt="Top Software Development Firm in Mumbai"
                     />
                     Highly Secure
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/enterprise.png"
+                      src="assets/images/icons/enterprise.webp"
                       alt="Top Software Development Firm in Delhi"
                     />
                     Enterprise Flexibility
@@ -696,7 +696,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/computer.png"
+                      src="assets/images/icons/computer.webp"
                       alt="Top Software Development Firm in India"
                     />
                   </div>
@@ -709,21 +709,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/security.png"
+                      src="assets/images/icons/security.webp"
                       alt="Best Software Development Companies in India"
                     />
                     Guaranteed Privacy
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/fast.png"
+                      src="assets/images/icons/fast.webp"
                       alt="Best Software Development Companies in Delhi"
                     />
                     On-Time Delivery
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/system-1.png"
+                      src="assets/images/icons/system-1.webp"
                       alt="Best Software Development Companies in Mumbai"
                     />
                     Dedicated Developers
@@ -751,14 +751,14 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/saas.png"
+                      src="assets/images/icons/saas.webp"
                       alt="Best Software Development Company in India"
                     />
                     SAAS Platform
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/img-9.png"
+                      src="assets/images/icons/img-9.webp"
                       alt="Software Development Services Company in Delhi"
                     />
                     Reliable Software Architecture
@@ -771,7 +771,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/sketch-1.png"
+                      src="assets/images/icons/sketch-1.webp"
                       alt="Software Development Services Company in Mumbai"
                     />
                   </div>
@@ -793,21 +793,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/mobile-app.png"
+                      src="assets/images/icons/mobile-app.webp"
                       alt="Software Development Services Company in Delhi"
                     />
                     Mobile Applications
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/design.png"
+                      src="assets/images/icons/design.webp"
                       alt="Software Development Services Company in India"
                     />
                     Web Applications
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/webpage.png"
+                      src="assets/images/icons/webpage.webp"
                       alt="Software Development Services Agency in India"
                     />
                     UI/UX
@@ -820,7 +820,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="offering-heading">
                   <div className="img-circle">
                     <img
-                      src="assets/images/icons/technical-support.png"
+                      src="assets/images/icons/technical-support.webp"
                       alt="Software Development Services Agency in Delhi"
                     />
                   </div>
@@ -833,21 +833,21 @@ export default function SoftwareDevelopementServices() {
                 <ul>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/bug.png"
+                      src="assets/images/icons/bug.webp"
                       alt="Software Development Services Agency in Mumbai"
                     />
                     Regular Bug Fixes
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/design.png"
+                      src="assets/images/icons/design.webp"
                       alt="Bespoke Software Development Company in India"
                     />
                     DevOps
                   </li>
                   <li className="customText">
                     <img
-                      src="assets/images/icons/time-management.png"
+                      src="assets/images/icons/time-management.webp"
                       alt="Bespoke Software Development Company in Mumbai"
                     />
                     Active Software Management
@@ -1160,7 +1160,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/wallet.png"
+                      src="assets/images/icons/wallet.webp"
                       alt="Top Custom Software Development Companies in Mumbai"
                     />
                   </div>
@@ -1170,7 +1170,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/application-strategist.png"
+                      src="assets/images/icons/application-strategist.webp"
                       alt="Top Custom Software Development Companies in Delhi"
                     />
                   </div>
@@ -1181,7 +1181,7 @@ export default function SoftwareDevelopementServices() {
                 <li className="customText">
                   <div className="img-div">
                     <img
-                      src="assets/images/icons/software-development-strategy.png"
+                      src="assets/images/icons/software-development-strategy.webp"
                       alt="Top Custom Software Development Companies in India"
                     />
                   </div>
@@ -1236,7 +1236,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/prototyping-analytics.png"
+                      src="assets/images/icons/prototyping-analytics.webp"
                       alt="Top Custom Software Development Company in India"
                     />
                     <h5>Prototyping &amp; analyzing</h5>
@@ -1258,7 +1258,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/web-programming.png"
+                      src="assets/images/icons/web-programming.webp"
                       alt="Top Custom Software Development Company in Delhi"
                     />
                     <h5>Code generation</h5>
@@ -1269,7 +1269,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/winner.png"
+                      src="assets/images/icons/winner.webp"
                       alt="Top Custom Software Development Agency in Mumbai"
                     />
                     <h5>Quality testing</h5>
@@ -1278,7 +1278,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/development-1.png"
+                      src="assets/images/icons/development-1.webp"
                       alt="Top Custom Software Development Agency in Delhi"
                     />
                     <h5>Deployment &amp; training</h5>
@@ -1287,7 +1287,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/updated.png"
+                      src="assets/images/icons/updated.webp"
                       alt="Top Custom Software Development Firm in Mumbai"
                     />
                     <h5>
@@ -1302,7 +1302,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/analytics-5.png"
+                      src="assets/images/icons/analytics-5.webp"
                       alt="Top Custom Software Development Firm in India"
                     />
                     <h5>User engagement analysis</h5>
@@ -1311,7 +1311,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/analytics-6.png"
+                      src="assets/images/icons/analytics-6.webp"
                       alt="Top Custom Software Development Firm in Delhi"
                     />
                     <h5>Reporting</h5>
@@ -1320,7 +1320,7 @@ export default function SoftwareDevelopementServices() {
                 <div className="col-lg-4">
                   <div className="box-360">
                     <img
-                      src="assets/images/icons/prototyping-analytics.png"
+                      src="assets/images/icons/prototyping-analytics.webp"
                       alt="Custom Software Development Services Agency in Mumbai"
                     />
                     <h5>Prototyping &amp; analyzing</h5>

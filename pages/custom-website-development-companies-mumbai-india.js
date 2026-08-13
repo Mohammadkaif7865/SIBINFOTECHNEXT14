@@ -37,7 +37,7 @@ export default function CustomWebDevelopment() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -55,7 +55,7 @@ export default function CustomWebDevelopment() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-website-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/custom-website-development-companies-mumbai-india"

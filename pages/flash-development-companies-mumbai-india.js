@@ -34,7 +34,7 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/flash-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flash-development-companies-mumbai-india"
@@ -174,7 +174,7 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
                 <img
                   alt="Flash Development"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function FlashDevelopmentCopaniesMumbaiIndia() {
                 <img
                   alt="Flash Development Companies"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

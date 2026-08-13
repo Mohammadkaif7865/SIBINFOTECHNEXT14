@@ -32,7 +32,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/ajax-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/ajax-development-companies-mumbai-india"
@@ -190,7 +190,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Ajax Development Company"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -201,7 +201,7 @@ export default function AjaxDevelopmentCompaniesMumbaiIndia() {
                 <img
                   alt="Ajax Development Company"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

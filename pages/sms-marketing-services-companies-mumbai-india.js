@@ -32,7 +32,7 @@ export default function SmsMarketingServciesCompaniesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function SmsMarketingServciesCompaniesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/sms-marketing-services-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/sms-marketing-services-companies-mumbai-india"
@@ -172,7 +172,7 @@ export default function SmsMarketingServciesCompaniesMumbaiIndia() {
                 <img
                   alt="SMS Marketing Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -90,41 +90,41 @@ const Seo = () => {
       title: `On-Page SEO <br class="d-none d-md-lg "/> Optimization`,
       description:
         "Title tags, meta descriptions, header structure, schema markup, keyword placement, and internal linking — all aligned to what Google needs to rank your pages confidently.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
       link: "/on-page-seo-services",
     },
     {
       title: `Off-Page SEO and <br class="d-none d-md-lg "/> Link Building`,
       description:
         "High-authority backlinks, digital PR, guest posting, and brand mentions that build domain trust and push rankings to page 1.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
       link: "/off-page-seo-services",
     },
     {
       title: `Technical SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Core Web Vitals, site speed, mobile responsiveness, crawlability, and indexing fixes that give Google a clean, fast, rankable website.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Local SEO Services <br class="d-none d-md-lg "/> in Mumbai and India`,
       description:
         "Google Business Profile optimization, local citations, review management, and geo-specific keyword targeting for 'near me' dominance across Mumbai and all major Indian cities.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
       link: "/local-seo-services",
     },
     {
       title: `E-Commerce SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Product page optimization, category structure, shopping intent content, and schema markup so your products get discovered and purchased.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
       link: "/e-commerce-website-design-development-services",
     },
     {
       title: `Content SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Blogs, pillar pages, service pages, and resource hubs that target the right keywords, answer buyer questions, and build organic traffic that compounds over time.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
   ];
   const keyAdvantages = [
@@ -531,7 +531,7 @@ const Seo = () => {
             <div className="col-lg-6 mt-2 mt-lg-0 ps-lg-5 ">
               <img
                 className="image-full rounded"
-                src="assets/images/google-ads/why-mumbai-shift-strategy.jpg"
+                src="assets/images/google-ads/why-mumbai-shift-strategy.webp"
                 alt="AI SEO services in Mumbai – SIB Infotech GEO and AEO framework"
               />
             </div>
@@ -588,7 +588,7 @@ const Seo = () => {
               <div className="off-page-seo-box2">
                 <div className="img-circle">
                   <img
-                    src="assets/images/icons/on-page-seo-title.png"
+                    src="assets/images/icons/on-page-seo-title.webp"
                     alt="Enterprise & Corporate SEO"
                   />
                 </div>
@@ -894,7 +894,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/ecommerce-seo.png"
+                  src="/assets/images/seo/ecommerce-seo.webp"
                   alt="On-page SEO services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -911,7 +911,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/healthcare-seo.png"
+                  src="/assets/images/seo/healthcare-seo.webp"
                   alt="Off-page SEO and link building Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -929,7 +929,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/real-estate-seo.png"
+                  src="/assets/images/seo/real-estate-seo.webp"
                   alt="Technical SEO services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -946,7 +946,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/education-seo.png"
+                  src="/assets/images/seo/education-seo.webp"
                   alt="Local SEO services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -963,7 +963,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/finance-seo.png"
+                  src="/assets/images/seo/finance-seo.webp"
                   alt="E-commerce SEO services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -980,7 +980,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/travel-seo.png"
+                  src="/assets/images/seo/travel-seo.webp"
                   alt="SEO content writing services Mumbai"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -997,7 +997,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/it-saas-seo.png"
+                  src="/assets/images/seo/it-saas-seo.webp"
                   alt="IT and SaaS"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1014,7 +1014,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/manufacturing-seo.png"
+                  src="/assets/images/seo/manufacturing-seo.webp"
                   alt="Manufacturing and B2B"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1031,7 +1031,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/legal-seo.png"
+                  src="/assets/images/seo/legal-seo.webp"
                   alt="Legal and Consultancy"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1048,7 +1048,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/beauty-fashion-seo.png"
+                  src="/assets/images/seo/beauty-fashion-seo.webp"
                   alt="Beauty, Fashion and Lifestyle"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1065,7 +1065,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/ngo-seo.png"
+                  src="/assets/images/seo/ngo-seo.webp"
                   alt="NGOs and Non-Profits"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1081,7 +1081,7 @@ const Seo = () => {
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="industrySeoCard h-100">
                 <img
-                  src="/assets/images/seo/real-estate-seo.png"
+                  src="/assets/images/seo/real-estate-seo.webp"
                   alt="Home Services"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">
@@ -1098,7 +1098,7 @@ const Seo = () => {
             <div className="col-lg-4">
               <div className="industrySeoCard industrySeoWideCard">
                 <img
-                  src="/assets/images/seo/niche-sector-seo.png"
+                  src="/assets/images/seo/niche-sector-seo.webp"
                   alt="Telecom, Matrimony, and Niche Sectors"
                 />
                 <h3 className="small_heading fontWeight600 mb-3">

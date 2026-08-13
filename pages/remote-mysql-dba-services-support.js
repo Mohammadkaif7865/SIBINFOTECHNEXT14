@@ -31,7 +31,7 @@ export default function RemoteMysqlDbaSupportServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.jpg"
+        content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function RemoteMysqlDbaSupportServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.jpg"
+        content="https://www.sibinfotech.com/assets/og/remote-mysql-dba-services-support.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/remote-mysql-dba-services-support"
@@ -205,7 +205,7 @@ export default function RemoteMysqlDbaSupportServices() {
             <div className="col-md-4 order-lg-2 order-1">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Remote Myql DBA Support"
                   className="img-fluid"
                 />
@@ -216,7 +216,7 @@ export default function RemoteMysqlDbaSupportServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Remote Myql DBA Support"
                   className="img-fluid"
                 />

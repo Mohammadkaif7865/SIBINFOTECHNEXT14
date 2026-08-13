@@ -34,7 +34,7 @@ export default function PsdHtmlConversionServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function PsdHtmlConversionServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/psd-to-html-conversion-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/psd-to-html-conversion-services"
@@ -178,7 +178,7 @@ export default function PsdHtmlConversionServices() {
               <img
                 alt="psd-to-html-conversion-company"
                 className="image-full"
-                src="assets/images/psd-to-html-conversion-company.png"
+                src="assets/images/psd-to-html-conversion-company.webp"
               />
               <p className="customText mt-2">
                 web-development agencies, and bloggers in an unimaginable way,

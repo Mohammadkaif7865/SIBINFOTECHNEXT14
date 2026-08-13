@@ -3,14 +3,14 @@ import React from "react";
 
 const WhyChoose = () => {
   const benefitsList = [
-    { text: "High-Quality Local Link Building", icon: "link-building.png" },
-    { text: "Effective ROI-Driven Solutions", icon: "promotion.png" },
-    { text: "Customized SEO Strategies for Local Businesses", icon: "seo.png" },
-    { text: "Clear & Transparent Reporting", icon: "audit.png" },
-    { text: "Proven Expertise in Local SEO", icon: "expertise.png" },
+    { text: "High-Quality Local Link Building", icon: "link-building.webp" },
+    { text: "Effective ROI-Driven Solutions", icon: "promotion.webp" },
+    { text: "Customized SEO Strategies for Local Businesses", icon: "seo.webp" },
+    { text: "Clear & Transparent Reporting", icon: "audit.webp" },
+    { text: "Proven Expertise in Local SEO", icon: "expertise.webp" },
     {
       text: "Affordable & Performance-Focused Approach",
-      icon: "effective.png",
+      icon: "effective.webp",
     },
   ];
   return (
@@ -21,7 +21,7 @@ const WhyChoose = () => {
             <div className="w-100 h-100 img_benifits ">
               <Image
                 className="w-100 h-100 object-fit-cover"
-                src="/assets/images/local-seo/why-choose.jpg"
+                src="/assets/images/local-seo/why-choose.webp"
                 alt=""
                 width="1050"
                 height="600"

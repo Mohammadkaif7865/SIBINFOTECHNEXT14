@@ -34,7 +34,7 @@ export default function J2eeApplicationDevelopement() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function J2eeApplicationDevelopement() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/j2ee-application-development-companies-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/j2ee-application-development-companies-india"
@@ -178,7 +178,7 @@ export default function J2eeApplicationDevelopement() {
                 <img
                   alt="J2ee Application Development Companies in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -250,7 +250,7 @@ export default function J2eeApplicationDevelopement() {
                 <img
                   alt="J2ee Application Companies in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

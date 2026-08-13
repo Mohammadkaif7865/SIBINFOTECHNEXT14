@@ -29,7 +29,7 @@ export default function SocialMediaOptimization() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-optimization.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-media-optimization.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function SocialMediaOptimization() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/social-media-optimization.jpg"
+        content="https://www.sibinfotech.com/assets/og/social-media-optimization.webp"
       />
 
       <script
@@ -278,7 +278,7 @@ export default function SocialMediaOptimization() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Social Media Optimization Company in India"
                   className="img-fluid"
                 />
@@ -350,7 +350,7 @@ export default function SocialMediaOptimization() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Social Media Optimization"
                   className="img-fluid"
                 />

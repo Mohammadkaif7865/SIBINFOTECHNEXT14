@@ -33,7 +33,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/2d-animation-services-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/2d-animation-services-mumbai-india"
@@ -179,7 +179,7 @@ export default function TwoDAnimationServicesMumbaiIndia() {
                 <img
                   alt="2D Animation Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

@@ -17,13 +17,13 @@ export default function EcommercePortalDevelopment() {
       <meta property="og:url" content="https://www.sibinfotech.com/ecommerce-portal-development" />
       <meta property="og:title" content="eCommerce Portal Development Services India | SIB Infotech" />
       <meta property="og:description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/ecommerce-portal-development" />
       <meta property="twitter:title" content="eCommerce Portal Development Services India | SIB Infotech" />
       <meta property="twitter:description" content="Build a powerful eCommerce portal with SIB Infotech. Get custom, scalable eCommerce development services in India to enhance your business and boost sales." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/ecommerce-portal-development.webp" />
    
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/ecommerce-portal-development"
@@ -154,7 +154,7 @@ export default function EcommercePortalDevelopment() {
                 <img
                   alt="article submission"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -230,7 +230,7 @@ export default function EcommercePortalDevelopment() {
                     <img
                       alt="article submission"
                       className="img-fluid"
-                      src="assets/images/article-submission.png"
+                      src="assets/images/article-submission.webp"
                     />
                   </div>
                 </div>

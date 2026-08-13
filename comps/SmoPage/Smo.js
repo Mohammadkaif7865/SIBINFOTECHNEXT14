@@ -20,10 +20,10 @@ const about3Data = {
     
     
   image1: {
-    src: "/assets/images/smo-about-1.jpg",
+    src: "/assets/images/smo-about-1.webp",
   },
   image2: {
-    src: "/assets/images/smo-about-2.jpg",
+    src: "/assets/images/smo-about-2.webp",
   },
   buttonText: "Let's Grow Your Business?",
   buttonLink: "/contact",

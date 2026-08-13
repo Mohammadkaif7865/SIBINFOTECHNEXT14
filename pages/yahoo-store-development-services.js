@@ -32,7 +32,7 @@ export default function YahooStoreDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function YahooStoreDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/yahoo-store-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/yahoo-store-development-services"
@@ -164,7 +164,7 @@ export default function YahooStoreDevelopmentServices() {
                 <img
                   alt="Yahoo Store Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

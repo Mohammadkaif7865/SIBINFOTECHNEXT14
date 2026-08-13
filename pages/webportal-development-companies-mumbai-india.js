@@ -33,7 +33,7 @@ web portal development services,web portal development service,offshore web port
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/webportal-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/webportal-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ web portal development services,web portal development service,offshore web port
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/webportal-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/webportal-development-companies-mumbai-india.webp"
       />
       <script
         type="application/ld+json"
@@ -288,7 +288,7 @@ web portal development services,web portal development service,offshore web port
               <div className="web-portal-img">
                 <img
                   className="image-full"
-                  src="assets/images/web-portal-development-company-in-india.png"
+                  src="assets/images/web-portal-development-company-in-india.webp"
                   alt="Web-Portal-Development-Company-In-India"
                 />
               </div>
@@ -460,7 +460,7 @@ web portal development services,web portal development service,offshore web port
           </div>
           <img
             className="bgImageEffect"
-            src="assets/images/icons/tab-img-pattern.png"
+            src="assets/images/icons/tab-img-pattern.webp"
             alt="Web-Portal-Development-Agency"
           />
         </div>

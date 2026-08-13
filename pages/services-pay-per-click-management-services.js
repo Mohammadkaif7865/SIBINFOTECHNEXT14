@@ -29,7 +29,7 @@ export default function ServicesPayPerClickManagement() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/services-pay-per-click-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/services-pay-per-click-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function ServicesPayPerClickManagement() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/services-pay-per-click-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/services-pay-per-click-management-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/services-pay-per-click-management-services"
@@ -196,7 +196,7 @@ export default function ServicesPayPerClickManagement() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Pay Per Click Management Services Company in India"
                   className="img-fluid"
                 />

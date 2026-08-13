@@ -31,7 +31,7 @@ export default function TwitterTrendingMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function TwitterTrendingMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/twitter-trending-marketing.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/twitter-trending-marketing"
@@ -189,7 +189,7 @@ export default function TwitterTrendingMarketing() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Twitter Trending Marketing Services in Delhi"
                   className="img-fluid"
                 />
@@ -263,7 +263,7 @@ export default function TwitterTrendingMarketing() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Twitter Trending Marketing"
                   className="img-fluid"
                 />

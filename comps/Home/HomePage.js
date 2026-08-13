@@ -1,26 +1,30 @@
+import dynamic from "next/dynamic";
+import LazyLoad from "../LazyLoad";
+
 import Abbout3 from "./Abbout3";
 import BannerSlider from "./BannerSlider";
-import Blog from "./Blog";
-import BrandBuild from "./BrandBuild";
-import CaseStudy2 from "./CaseStudy2";
-import Conversions from "./Conversions";
-import Cta from "./Cta";
-import Cta2 from "./Cta2";
-import Faq from "./Faq";
-import Featured from "./Featured";
-import Industries2 from "./Industries2";
-import Madeby from "./Madeby";
-import Map from "./Map";
-import OurClients from "./OurClients";
-import OurPeople from "./OurPeople";
-import PartnerBadges2 from "./PartnerBadges2";
-import Pricing from "./Pricing";
-import SIBPower from "./SIBPower";
-import Testimonials from "./Testimonials";
-import Tools from "./Tools";
 import WeStrong from "./WeStrong";
-import WhatWeDo3 from "./WhatWeDo3";
-import WhySIB from "./WhySIB";
+
+const Blog = dynamic(() => import("./Blog"), { ssr: false });
+const BrandBuild = dynamic(() => import("./BrandBuild"), { ssr: false });
+const CaseStudy2 = dynamic(() => import("./CaseStudy2"), { ssr: false });
+const Conversions = dynamic(() => import("./Conversions"), { ssr: false });
+const Cta = dynamic(() => import("./Cta"), { ssr: false });
+const Cta2 = dynamic(() => import("./Cta2"), { ssr: false });
+const Faq = dynamic(() => import("./Faq"), { ssr: false });
+const Featured = dynamic(() => import("./Featured"), { ssr: false });
+const Industries2 = dynamic(() => import("./Industries2"), { ssr: false });
+const Madeby = dynamic(() => import("./Madeby"), { ssr: false });
+const Map = dynamic(() => import("./Map"), { ssr: false });
+const OurClients = dynamic(() => import("./OurClients"), { ssr: false });
+const OurPeople = dynamic(() => import("./OurPeople"), { ssr: false });
+const PartnerBadges2 = dynamic(() => import("./PartnerBadges2"), { ssr: false });
+const Pricing = dynamic(() => import("./Pricing"), { ssr: false });
+const SIBPower = dynamic(() => import("./SIBPower"), { ssr: false });
+const Testimonials = dynamic(() => import("./Testimonials"), { ssr: false });
+const Tools = dynamic(() => import("./Tools"), { ssr: false });
+const WhatWeDo3 = dynamic(() => import("./WhatWeDo3"), { ssr: false });
+const WhySIB = dynamic(() => import("./WhySIB"), { ssr: false });
 
 const HomePage = () => {
   const keyAdvantages = [
@@ -193,10 +197,10 @@ const HomePage = () => {
       `<b> With 20+ years of experience</b>, we leverage AI-driven marketing strategies, data analytics, and result-oriented campaigns to maximize growth. Whether you're a startup or an enterprise, our customized digital marketing solutions ensure higher rankings, increased traffic, and improved lead generation to help you stay ahead of the competition.`,
     ],
     image1: {
-      src: "/assets/images/aboout-3.png",
+      src: "/assets/images/aboout-3.webp",
     },
     image2: {
-      src: "/assets/images/about-3-2.png",
+      src: "/assets/images/about-3-2.webp",
     },
     buttonText: "Let's Grow Your Business?",
     buttonLink: "/contact",
@@ -291,83 +295,121 @@ const HomePage = () => {
     <>
       <BannerSlider />
       <Abbout3 {...about3Data} />
-      <WeStrong />
-      <WhatWeDo3 />
-      <Cta />
-      <BrandBuild
-        image={`/assets/images/home-digital-marketing.jpg`}
-        subtitle={"How to Create a Successful Digital Marketing Strategy? "}
-        title={brandContent[0].title}
-        description={brandContent[0].description}
-        faqData={brandContent[0].faqData}
-      />
-      <WhySIB
-        keyAdvantages={keyAdvantages}
-        leftBoxContent={leftBoxContent}
-        rightBoxContent={rightBoxContent}
-      />
-      <OurPeople />
-      <SIBPower
-        batchtitle="Authentic Growth"
-        title="Importance of"
-        subtitle=" Digital Marketing "
-        description="When Trust, Transparency And Accountability Truly Matter To You, We Are Your Partner."
-        title_right={"Why does your business need digital marketing? "}
-        description_right="In this hyper-competitive digital world, businesses that aren't leveraging digital marketing will get left behind.  At SIB Infotech, we understand the power of a strong online presence and we help companies to design their marketing initiatives and maximize their online presence for growth and success. Here is how digital marketing is a game-changer for your business:  "
-        data={power_data}
-      />
-      <Madeby />
-      <PartnerBadges2 />
-      <CaseStudy2
-        description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
-      />
-      <OurClients
-        title={`
-        India’s Trusted
-          <span class="fontWeight600">Digital Marketing Experts</span>
-          Behind <span class="fontWeight600">Fast-Growing Brands</span>
-        `}
-      />
-      <Testimonials
-        title={testimonial_data[0].title}
-        description={testimonial_data[0].description}
-      />
-      <Conversions />
-      <Featured />
-      <div className="toolsHome">
-        <Tools
-          title={` Some of the
-              <span class="fontWeight600">
-                Best Digital Marketing Tools
-              </span>
-              for
-              <span class="fontWeight600">
-                Auditing & Monitoring Effective Marketing
-              </span>
-              used by us.`}
+      <LazyLoad>
+        <WeStrong />
+      </LazyLoad>
+      <LazyLoad>
+        <WhatWeDo3 />
+      </LazyLoad>
+      <LazyLoad>
+        <Cta />
+      </LazyLoad>
+      <LazyLoad>
+        <BrandBuild
+          image={`/assets/images/home-digital-marketing.webp`}
+          subtitle={"How to Create a Successful Digital Marketing Strategy? "}
+          title={brandContent[0].title}
+          description={brandContent[0].description}
+          faqData={brandContent[0].faqData}
         />
+      </LazyLoad>
+      <LazyLoad>
+        <WhySIB
+          keyAdvantages={keyAdvantages}
+          leftBoxContent={leftBoxContent}
+          rightBoxContent={rightBoxContent}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <OurPeople />
+      </LazyLoad>
+      <LazyLoad>
+        <SIBPower
+          batchtitle="Authentic Growth"
+          title="Importance of"
+          subtitle=" Digital Marketing "
+          description="When Trust, Transparency And Accountability Truly Matter To You, We Are Your Partner."
+          title_right={"Why does your business need digital marketing? "}
+          description_right="In this hyper-competitive digital world, businesses that aren't leveraging digital marketing will get left behind.  At SIB Infotech, we understand the power of a strong online presence and we help companies to design their marketing initiatives and maximize their online presence for growth and success. Here is how digital marketing is a game-changer for your business:  "
+          data={power_data}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <Madeby />
+      </LazyLoad>
+      <LazyLoad>
+        <PartnerBadges2 />
+      </LazyLoad>
+      <LazyLoad>
+        <CaseStudy2
+          description={`Client Success Stories That Prove We’re a Top Digital Marketing Company in India, our results speak for themselves `}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <OurClients
+          title={`
+          India’s Trusted
+            <span class="fontWeight600">Digital Marketing Experts</span>
+            Behind <span class="fontWeight600">Fast-Growing Brands</span>
+          `}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <Testimonials
+          title={testimonial_data[0].title}
+          description={testimonial_data[0].description}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <Conversions />
+      </LazyLoad>
+      <LazyLoad>
+        <Featured />
+      </LazyLoad>
+      <div className="toolsHome">
+        <LazyLoad>
+          <Tools
+            title={` Some of the
+                <span class="fontWeight600">
+                  Best Digital Marketing Tools
+                </span>
+                for
+                <span class="fontWeight600">
+                  Auditing & Monitoring Effective Marketing
+                </span>
+                used by us.`}
+          />
+        </LazyLoad>
       </div>
-      <Industries2
-        heading="Industries We Serve"
-        subHeading={
-          <>
-            Digital Marketing{" "}
-            <span className="fontWeight600">for Every Industry</span>
-          </>
-        }
-        description1="At SIB Infotech, we deliver custom digital marketing solutions tailored to the unique needs of various industries. Whether you're in eCommerce, healthcare, finance, real estate, education, or any other domain, our expert team combines AI-driven strategies with proven digital marketing techniques to help you reach the right audience and drive real business results."
-        description2="Whether you're a startup or an enterprise, we offer industry-focused marketing campaigns that help you increase visibility, improve ROI, and scale your business efficiently."
-        title="Transforming Industries with Tailored Marketing Solutions"
-      />
+      <LazyLoad>
+        <Industries2
+          heading="Industries We Serve"
+          subHeading={
+            <>
+              Digital Marketing{" "}
+              <span className="fontWeight600">for Every Industry</span>
+            </>
+          }
+          description1="At SIB Infotech, we deliver custom digital marketing solutions tailored to the unique needs of various industries. Whether you're in eCommerce, healthcare, finance, real estate, education, or any other domain, our expert team combines AI-driven strategies with proven digital marketing techniques to help you reach the right audience and drive real business results."
+          description2="Whether you're a startup or an enterprise, we offer industry-focused marketing campaigns that help you increase visibility, improve ROI, and scale your business efficiently."
+          title="Transforming Industries with Tailored Marketing Solutions"
+        />
+      </LazyLoad>
 
-      <Cta2 />
-      <Pricing
-        batchtitle={`Digital Marketing Pricing Plans`}
-        heading={`360° <span class="fontWeight600">Digital Marketing</span>
-          Solutions`}
-        description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`}
-      />
-      <Map />
+      <LazyLoad>
+        <Cta2 />
+      </LazyLoad>
+      <LazyLoad>
+        <Pricing
+          batchtitle={`Digital Marketing Pricing Plans`}
+          heading={`360° <span class="fontWeight600">Digital Marketing</span>
+            Solutions`}
+          description={`  Our Digital Marketing Packages starts from <strong>$175</strong> only.`}
+        />
+      </LazyLoad>
+      <LazyLoad>
+        <Map />
+      </LazyLoad>
 
       <Faq
         title={"Frequently Asked Digital Marketing Questions"}

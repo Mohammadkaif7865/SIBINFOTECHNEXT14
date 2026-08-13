@@ -18,49 +18,49 @@ const ConversionRateOptimizationMgt = () => {
       title: `Conversion <br class="d-none d-md-lg "/> Audit`,
       description:
         "Every CRO engagement begins with a comprehensive conversion audit. We review your GA4 funnel data, run Hotjar heatmaps and session recordings across key pages, assess your current conversion rate against industry benchmarks, identify the highest-impact conversion barriers on your site, and deliver a prioritised CRO opportunity report.",
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `A/B Testing and <br class="d-none d-md-lg "/> Multivariate Testing`,
       description:
         "A/B testing is the scientific method of CRO. We create two or more versions of a page element (headline, CTA button, hero image, form layout, pricing presentation) and split your traffic between them. Statistical analysis identifies the winning variant with confidence. Multivariate testing tests multiple elements simultaneously for high-traffic pages.",
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Landing Page <br class="d-none d-md-lg "/> Optimisation`,
       description:
         "Landing pages are the highest-leverage CRO opportunity for businesses running Google Ads, Meta Ads, or any paid traffic. A landing page converting at 8% instead of 4% halves your cost per lead without changing your ad spend. We redesign and optimise landing pages for clarity, relevance, trust, and conversion, A/B testing every significant change.",
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Heatmap and Session <br class="d-none d-md-lg "/> Recording Analysis`,
       description:
         "We run comprehensive heatmap and session recording programmes on your highest-traffic pages, analysing click distribution, scroll depth, rage click patterns, and user navigation behaviour to identify specific friction points and missed conversion opportunities that are invisible in standard analytics.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Funnel Analysis and <br class="d-none d-md-lg "/> Checkout Optimisation`,
       description:
         "For ecommerce businesses, cart abandonment and checkout drop-off are the most direct revenue leaks. We analyse every step of your purchase funnel using GA4 funnel reports and session recordings, identifying exactly where users are abandoning and implementing targeted fixes: reduced form fields, trust badge placement, payment option visibility, delivery information clarity, and progress indicator optimisation.",
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
     {
       title: `User Behaviour <br class="d-none d-md-lg "/> Research`,
       description:
         "Quantitative data tells you what users do. Qualitative research tells you why. We deploy on-site surveys, exit-intent polls, and post-conversion feedback forms to gather direct user feedback on conversion barriers, pricing perceptions, trust concerns, and product questions that prevent purchase decisions.",
-      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
     },
     {
       title: `CRO for <br class="d-none d-md-lg "/> Lead Generation`,
       description:
         "For B2B and service businesses, the conversion goal is a qualified lead. We optimise lead generation pages by testing form length, field order, button copy, value proposition clarity, social proof placement, and micro-commitment structures that increase form completion rates without reducing lead quality.",
-      img: "/assets/images/seo/White-Label-Mobile-SEO 1.jpg",
+      img: "/assets/images/seo/White-Label-Mobile-SEO 1.webp",
     },
     {
       title: `Personalisation and <br class="d-none d-md-lg "/> Segmentation`,
       description:
         "Not all visitors are the same. Traffic from Google Ads behaves differently from organic search visitors. Mobile users behave differently from desktop users. New visitors behave differently from returning visitors. We implement segmentation-based CRO, testing different experiences for different audience segments to maximise conversion across your full traffic mix.",
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
   ];
 
@@ -141,49 +141,49 @@ const ConversionRateOptimizationMgt = () => {
       title: "E-commerce and Retail",
       description:
         "Cart abandonment reduction, checkout optimisation, product page conversion, and category page CTR improvement.",
-      img: "/assets/images/seo/ecommerce-seo.png",
+      img: "/assets/images/seo/ecommerce-seo.webp",
       alt: "E-commerce and retail CRO",
     },
     {
       title: "B2B Services and SaaS",
       description:
         "Lead form optimisation, demo booking flow, free trial activation, and pricing page conversion.",
-      img: "/assets/images/seo/it-saas-seo.png",
+      img: "/assets/images/seo/it-saas-seo.webp",
       alt: "B2B services and SaaS CRO",
     },
     {
       title: "Real Estate and Property",
       description:
         "Enquiry form optimisation, virtual tour engagement, and developer microsite conversion.",
-      img: "/assets/images/seo/real-estate-seo.png",
+      img: "/assets/images/seo/real-estate-seo.webp",
       alt: "Real estate and property CRO",
     },
     {
       title: "Healthcare and Clinics",
       description:
         "Appointment booking optimisation, service page clarity, and patient inquiry conversion.",
-      img: "/assets/images/seo/healthcare-seo.png",
+      img: "/assets/images/seo/healthcare-seo.webp",
       alt: "Healthcare and clinics CRO",
     },
     {
       title: "Financial Services",
       description:
         "Lead form optimisation for loan applications, insurance quotes, and investment enquiries.",
-      img: "/assets/images/seo/finance-seo.png",
+      img: "/assets/images/seo/finance-seo.webp",
       alt: "Financial services CRO",
     },
     {
       title: "Education and EdTech",
       description:
         "Course enquiry conversion, admission form optimisation, and webinar registration flow.",
-      img: "/assets/images/seo/education-seo.png",
+      img: "/assets/images/seo/education-seo.webp",
       alt: "Education and EdTech CRO",
     },
     {
       title: "Travel and Hospitality",
       description:
         "Booking funnel optimisation, room/package comparison, and enquiry form simplification.",
-      img: "/assets/images/seo/travel-seo.png",
+      img: "/assets/images/seo/travel-seo.webp",
       alt: "Travel and hospitality CRO",
     },
   ];

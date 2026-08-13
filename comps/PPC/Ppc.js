@@ -16,27 +16,27 @@ const Ppc = () => {
     {
       title: `Google Ads <br class="d-none d-md-lg "/> Management`,
       description: `We create and manage high-performing Google Ads across Search, Display, Shopping, and YouTube to maximize ROI. As a Google Premier Partner, we optimize campaigns for better reach and lower CPC.`,
-      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.jpg",
+      img: "/assets/images/seo/White-Label-On-Page-SEO-Optimization 1.webp",
     },
     {
       title: `Bing Ads <br class="d-none d-md-lg "/> Management`,
       description: `Tap into a unique audience with cost-effective Bing Ads campaigns. Our team optimizes for reach, relevance, and results across Microsoft’s search network.`,
-      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.jpg",
+      img: "/assets/images/seo/White-Label-Off-Page-SEO-&-Link-Building 1.webp",
     },
     {
       title: `Social Media <br class="d-none d-md-lg "/> Advertising`,
       description: `We run data-driven paid campaigns on platforms like Facebook, Instagram, and LinkedIn to boost engagement, generate leads, and drive conversions.`,
-      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.jpg",
+      img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
     },
     {
       title: `Yandex Ads <br class="d-none d-md-lg "/> Management`,
       description: `Target Russian and CIS audiences with localized ads on Yandex. Our experts optimize your campaigns with cultural insights and native targeting strategies.`,
-      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-Local-SEO-Services 1.webp",
     },
     {
       title: `Amazon Ads <br class="d-none d-md-lg "/> Management`,
       description: `We help boost your product visibility and sales through Amazon Sponsored Ads, Product Display Ads, and Brand Campaigns tailored to shopping behavior.`,
-      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.jpg",
+      img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
     },
   ];
 
@@ -81,7 +81,7 @@ const Ppc = () => {
         highlightedText=" Pay-Per-Click (PPC)"
         description="Pay-Per-Click (PPC) is an online advertising model where an advertiser runs an ad and he will get charged a fee each time a user clicks on their ad. Essentially, it’s a way of buying targeted website traffic rather than earning it organically. PPC allows businesses to display their ads on search engines, social media platforms, and other websites"
         subDescription="The most popular form of PPC is search engine advertising, where advertisers bid for ad placement in a search engine’s sponsored links when users search for keywords related to their business. When managed properly, PPC can be a highly cost-effective way to generate leads, increase website traffic, and drive sales."
-        imageSrc="/assets/images/ppc.png"
+        imageSrc="/assets/images/ppc.webp"
         imageAlt="Team Working"
         features={[
     {

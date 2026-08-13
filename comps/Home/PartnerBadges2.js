@@ -10,15 +10,15 @@ import Image from "next/image";
 
 const partnerBadges = [
   {
-    src: "/assets/images/bing-add-microsoft.png",
+    src: "/assets/images/bing-add-microsoft.webp",
     alt: "Bing Add",
   },
   {
-    src: "/assets/images/meta-business-partner-logo.png",
+    src: "/assets/images/meta-business-partner-logo.webp",
     alt: "Meta Business Partner",
   },
   {
-    src: "/assets/images/shopify-partner-logo.png",
+    src: "/assets/images/shopify-partner-logo.webp",
     alt: "Shopify Partner",
   },
 ];
@@ -107,7 +107,7 @@ const PartnerBadges = () => {
                 <Image
                   width={500}
                   height={500}
-                  src="/assets/images/top-google-premium-partner-agencies-in-india.png"
+                  src="/assets/images/top-google-premium-partner-agencies-in-india.webp"
                   alt="Google Partner"
                 />
               </div>
@@ -131,7 +131,7 @@ const PartnerBadges = () => {
               <Image
                 width={500}
                 height={500}
-                src="/assets/images/top-google-premium-partner-agencies-in-india.png"
+                src="/assets/images/top-google-premium-partner-agencies-in-india.webp"
                 alt="Google Partner"
               />
             </div>

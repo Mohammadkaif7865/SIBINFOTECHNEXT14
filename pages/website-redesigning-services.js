@@ -29,7 +29,7 @@ export default function WebsiteRedesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-redesigning-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-redesigning-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function WebsiteRedesigningServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-redesigning-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/website-redesigning-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-redesigning-services"
@@ -136,7 +136,7 @@ export default function WebsiteRedesigningServices() {
               <div className="redesigning-img">
                 <img
                   className="image-full"
-                  src="assets/images/website-redesigning-company-in-india.png"
+                  src="assets/images/website-redesigning-company-in-india.webp"
                   alt="Website-Redesigning-Company-In-India"
                 />
               </div>
@@ -213,7 +213,7 @@ export default function WebsiteRedesigningServices() {
                 <div className="col-lg-4">
                   <div className="pattern">
                     <img
-                      src="assets/images/icons/tab-img-pattern.png"
+                      src="assets/images/icons/tab-img-pattern.webp"
                       alt="Website-Redesigning-Company-In-India"
                     />
                   </div>

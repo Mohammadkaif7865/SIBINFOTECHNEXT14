@@ -32,7 +32,7 @@ export default function CmsDevelopementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function CmsDevelopementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.jpg
+        content="https://www.sibinfotech.com/assets/og/cms-website-design-development-services.webp
 "
       />
       <BreadcrumbSchema
@@ -137,7 +137,7 @@ export default function CmsDevelopementServices() {
             <div className="col-lg-5">
               <img
                 className="imgFull img-fluid imgAnimation"
-                src="assets/images/cms-website-designing-company-in-india.png"
+                src="assets/images/cms-website-designing-company-in-india.webp"
                 alt="CMS Website Development Company"
               />
             </div>

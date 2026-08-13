@@ -2,7 +2,7 @@ import React from "react";
 
 const engagementModels = [
   {
-    imgSrc: "/assets/images/prject-based.jpg",
+    imgSrc: "/assets/images/prject-based.webp",
     title: "Project Based",
     description:
       "We offer this model to our clients who have well-defined project requirements and fixed timelines.",

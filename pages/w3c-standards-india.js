@@ -32,7 +32,7 @@ export default function W3cStandardsIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/w3c-standards-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/w3c-standards-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function W3cStandardsIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/w3c-standards-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/w3c-standards-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/w3c-standards-india"
@@ -187,7 +187,7 @@ export default function W3cStandardsIndia() {
                 <img
                   alt="W3C Standards India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

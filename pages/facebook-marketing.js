@@ -31,7 +31,7 @@ export default function FacebookMarketing() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/facebook-marketing.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function FacebookMarketing() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/facebook-marketing.jpg"
+        content="https://www.sibinfotech.com/assets/og/facebook-marketing.webp"
       />
       <script
         type="application/ld+json"
@@ -65,7 +65,7 @@ export default function FacebookMarketing() {
               "SIB Infotech is a leading Facebook marketing company in India offering Facebook advertising services, social media campaign management, Facebook lead generation, Facebook page management, remarketing campaigns, and targeted social media marketing solutions. Our Facebook marketing experts help businesses improve brand awareness, customer engagement, website traffic, and conversions through ROI-driven advertising strategies.",
             url: "https://www.sibinfotech.com/facebook-marketing",
             image:
-              "https://www.sibinfotech.com/assets/images/facebook-marketing-services.jpg",
+              "https://www.sibinfotech.com/assets/images/facebook-marketing-services.webp",
 
             provider: {
               "@type": "Organization",

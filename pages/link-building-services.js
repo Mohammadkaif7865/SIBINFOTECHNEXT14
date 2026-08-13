@@ -19,13 +19,13 @@ export default function LinkBuildingServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/link-building-services" />
       <meta property="og:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
       <meta property="og:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/link-building-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/link-building-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/link-building-services" />
       <meta property="twitter:title" content="Link Building Services Company Mumbai, India | SIB Infotech" />
       <meta property="twitter:description" content="Enhance your website's SEO with link-building services in Mumbai by SIB Infotech. Drive organic traffic and improve online authority with quality backlinks." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/link-building-services.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/link-building-services.webp" />
    
    
       <BreadcrumbSchema
@@ -110,7 +110,7 @@ export default function LinkBuildingServices() {
                </div>
                <div className="col-md-6">
                   <div className="custom-page-img">
-                     <img alt="Link building" src="assets/images/article-submission.png"/>
+                     <img alt="Link building" src="assets/images/article-submission.webp"/>
                   </div>
                </div>
                <div className="col-md-12 mt-4">

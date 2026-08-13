@@ -286,8 +286,8 @@ const Faqs = () => {
               return (
                 <div key={i} className="">
                   <div className="customFaq">
-                    <h4
-                      className=" fontHeading"
+                    <p
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open !== i) {
                           setOpen(i);
@@ -301,7 +301,7 @@ const Faqs = () => {
                         {" "}
                         {open == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${
@@ -325,8 +325,8 @@ const Faqs = () => {
               return (
                 <div key={i} className="">
                   <div className="customFaq">
-                    <h4
-                      className=" fontHeading"
+                    <p
+                      className="  headerFaq fontWeight600"
                       onClick={() => {
                         if (open2 !== i) {
                           setOpen2(i);
@@ -340,7 +340,7 @@ const Faqs = () => {
                         {" "}
                         {open2 == i ? <i className="bi bi-dash-circle"></i>: <i className="bi bi-plus-circle"></i>}
                       </span>
-                    </h4>
+                    </p>
 
                     <div
                       className={`customFaq_answer_main ${

@@ -4,12 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const testimonialLogos = [
-  "/assets/images/logos/google.png",
-  "/assets/images/logos/clutch.png",
-  "/assets/images/logos/trust-pilot.png",
-  "/assets/images/logos/goodfirms.png",
-  "/assets/images/logos/facebook.png",
-  "/assets/images/logos/just-dial.png",
+  "/assets/images/logos/google.webp",
+  "/assets/images/logos/clutch.webp",
+  "/assets/images/logos/trust-pilot.webp",
+  "/assets/images/logos/goodfirms.webp",
+  "/assets/images/logos/facebook.webp",
+  "/assets/images/logos/just-dial.webp",
 ];
 
 const Testimonials = ({ title, description }) => {

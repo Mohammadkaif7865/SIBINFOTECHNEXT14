@@ -104,6 +104,8 @@
       maxWidth: "640px",
       background: "#fff",
       color: "#111",
+      fontFamily:
+        "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif",
       borderRadius: "10px",
       boxShadow: "0 20px 40px rgba(0,0,0,.25)",
       padding: "24px",
@@ -133,6 +135,8 @@
       maxWidth: "560px",
       background: "#fff",
       color: "#111",
+      fontFamily:
+        "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif",
       borderRadius: "10px",
       boxShadow: "0 20px 40px rgba(0,0,0,.25)",
       padding: "24px",

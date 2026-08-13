@@ -33,7 +33,7 @@ export default function BlogManagementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/blog-management-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/blog-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function BlogManagementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/blog-management-services.jpg
+        content="https://www.sibinfotech.com/assets/og/blog-management-services.webp
         
 "
       />

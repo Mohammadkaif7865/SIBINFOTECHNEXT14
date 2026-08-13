@@ -34,7 +34,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -52,7 +52,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/internet-marketing-company-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/internet-marketing-company-mumbai-india"
@@ -162,7 +162,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
                 <img
                   alt="Internet Marketing Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function InternetMarketingCompanyMumbaiIndia() {
                 <img
                   alt="Internet Marketing Company in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

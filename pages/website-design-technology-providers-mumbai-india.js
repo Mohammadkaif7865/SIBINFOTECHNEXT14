@@ -16,13 +16,13 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
       <meta property="og:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
       <meta property="og:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india" />
       <meta property="twitter:title" content="Website Design Technology Providers in Mumbai, Delhi, India" />
       <meta property="twitter:description" content="Elevate your online presence with top website design technology in Mumbai by SIB Infotech. Get custom solutions to enhance functionality and user experience." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-design-technology-providers-mumbai-india.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-design-technology-providers-mumbai-india"
         breadcrumbTitle="Website Design Technology Providers in Mumbai, Delhi, India"
@@ -133,13 +133,13 @@ export default function WebsiteDesignTechnologyProvideMumbai() {
               </div>
               <div className="col-md-6 order-lg-2 order-1">
                 <div className="custom-page-img">
-                  <img alt="Website Design Technology Providers in Mumbai" className="img-fluid" src="assets/images/article-submission.png"/></div>
+                  <img alt="Website Design Technology Providers in Mumbai" className="img-fluid" src="assets/images/article-submission.webp"/></div>
               </div>
             </div>
             <div className="row">
               <div className="col-md-6">
                 <div className="custom-page-img">
-                  <img alt="Website Design Technology Providers in Delhi" className="img-fluid" src="assets/images/article-submission.png"/></div>
+                  <img alt="Website Design Technology Providers in Delhi" className="img-fluid" src="assets/images/article-submission.webp"/></div>
               </div>
               <div className="col-md-6">
                 <div className="custom-content-title">

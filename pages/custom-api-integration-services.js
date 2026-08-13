@@ -31,7 +31,7 @@ export default function ApiIntegrationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ export default function ApiIntegrationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/custom-api-integration-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/custom-api-integration-services"
@@ -177,7 +177,7 @@ export default function ApiIntegrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Top API Integration Services"
                 />
               </div>
@@ -271,7 +271,7 @@ export default function ApiIntegrationServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Best Application Programming Interface Company in Mumbai"
                 />
               </div>

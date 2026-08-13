@@ -36,7 +36,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -54,7 +54,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/lexical-analysis-based-lsi-seo-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/lexical-analysis-based-lsi-seo-services"
@@ -174,7 +174,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -242,7 +242,7 @@ export default function LexicalAnalysisBasedIsiSeoServices() {
                 <img
                   alt="Lexical Analysis Bases ISO Seo Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

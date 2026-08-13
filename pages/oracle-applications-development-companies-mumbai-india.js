@@ -37,7 +37,7 @@ export default function OracleApplicationDevelopmentCompanies() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -55,7 +55,7 @@ export default function OracleApplicationDevelopmentCompanies() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/oracle-applications-development-companies-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/oracle-applications-development-companies-mumbai-india"
@@ -169,7 +169,7 @@ export default function OracleApplicationDevelopmentCompanies() {
                     <img
                       alt="Oracle Application Development Services in India"
                       className="img-fluid"
-                      src="assets/images/article-submission.png"
+                      src="assets/images/article-submission.webp"
                     />
                   </div>
                 </div>
@@ -182,7 +182,7 @@ export default function OracleApplicationDevelopmentCompanies() {
                 <img
                   alt="Oracle Application Development Services in Delhi"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

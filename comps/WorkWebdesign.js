@@ -7,34 +7,34 @@ import Image from "next/image";
 
 const slides = [
   {
-    imgSrc: "/assets/images/works/omee.png",
+    imgSrc: "/assets/images/works/omee.webp",
     alt: "OMEE - Alkem Generic",
     heading: "OMEE - Alkem Generic",
     text: "Omee is India’s favourite antacid and an iconic brand by Alkem Generic. The unique formulation of Omee dissolves quickly and neutralizes stomach acid to provide effective relief from acidity and gas.",
   },
   {
-    imgSrc: "/assets/images/works/roswalt.png",
+    imgSrc: "/assets/images/works/roswalt.webp",
     webpSrc: "/assets/images/works/roswalt.webp",
     alt: "Roswalt - Roswalt Realty: Residential commercial Projects Mumbai",
     heading: "Roswalt Realty",
     text: "Roswalt realty believes in creating spaces that are an extension of one’s self and this philosophy is infused in every project undertaken by us. The company boasts of a proud lineage and finds its roots in the prestigious red brick group known for providing...",
   },
   {
-    imgSrc: "/assets/images/works/netsys.png",
+    imgSrc: "/assets/images/works/netsys.webp",
     webpSrc: "/assets/images/works/netsys.webp",
     alt: "Online Netsys",
     heading: "Online Netsys",
     text: "OnLine Netsys is inspired by the objective of empowering enterprises with leading global IT Infrastructure, Networking and AV Technology.",
   },
   {
-    imgSrc: "/assets/images/works/shaurya.png",
+    imgSrc: "/assets/images/works/shaurya.webp",
     webpSrc: "/assets/images/works/shaurya.webp",
     alt: "Shaurya Dedhia",
     heading: "Shaurya Dedhia",
     text: "Shaurya Dedhia - The studio practices architecture, interior and product designing, specializing in bespoke, end-to-end design solutions.",
   },
   {
-    imgSrc: "/assets/images/works/alarm-avenue.png",
+    imgSrc: "/assets/images/works/alarm-avenue.webp",
     webpSrc: "/assets/images/works/alarm-avenue.webp",
     alt: "Alarm Avenue",
     heading: "Alarm Avenue",

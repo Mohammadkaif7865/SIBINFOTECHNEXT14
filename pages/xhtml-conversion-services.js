@@ -29,7 +29,7 @@ export default function XhtmlConversionServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function XhtmlConversionServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/xhtml-conversion-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/xhtml-conversion-services"
@@ -165,7 +165,7 @@ export default function XhtmlConversionServices() {
               <div className="xhtml-img">
                 <img
                   className="image-full"
-                  src="assets/images/xhtml-conversion-company-in-india.png"
+                  src="assets/images/xhtml-conversion-company-in-india.webp"
                   alt="xhtml-conversion-company-in-india"
                 />
               </div>

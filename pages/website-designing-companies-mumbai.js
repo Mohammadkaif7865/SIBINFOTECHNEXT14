@@ -17,13 +17,13 @@ export default function WebsiteDesigningCompanies() {
       <meta property="og:url" content="https://www.sibinfotech.com/website-designing-companies-mumbai" />
       <meta property="og:title" content="Website Designing Companies in Mumbai | SIB Infotech" />
       <meta property="og:description" content="Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/website-designing-companies-mumbai" />
       <meta property="twitter:title" content="Website Designing Companies in Mumbai | SIB Infotech" />
       <meta property="twitter:description" content="Discover top website designing companies in Mumbai. SIB Infotech offers innovative design solutions to enhance your online presence and drive business growth." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.jpg" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/website-designing-companies-mumbai.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-designing-companies-mumbai"
         breadcrumbTitle="Website Designing Companies in Mumbai | SIB Infotech"
@@ -120,7 +120,7 @@ export default function WebsiteDesigningCompanies() {
                 </div>
                 <div className="col-md-6">
                   <div className="custom-page-img">
-                    <img className="img-fluid" src="assets/images/article-submission.png" alt="Website Designing Companies in India"/></div>
+                    <img className="img-fluid" src="assets/images/article-submission.webp" alt="Website Designing Companies in India"/></div>
                 </div>
               </div>
               <div className="row mt-4">
@@ -240,7 +240,7 @@ export default function WebsiteDesigningCompanies() {
                 </div>
                 <div className="col-md-6">
                   <div className="custom-page-img">
-                    <img  className="img-fluid" src="assets/images/article-submission.png" alt="Website Designing Companies"/></div>
+                    <img  className="img-fluid" src="assets/images/article-submission.webp" alt="Website Designing Companies"/></div>
                 </div>
               </div>
             </div>

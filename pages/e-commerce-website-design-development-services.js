@@ -29,7 +29,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.jpg
+        content="https://www.sibinfotech.com/assets/og/e-commerce-website-design-development-services.webp
 "
       />
       <BreadcrumbSchema

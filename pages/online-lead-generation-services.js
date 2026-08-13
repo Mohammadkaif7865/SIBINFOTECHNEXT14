@@ -33,7 +33,7 @@ export default function OnlineLedGenerationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function OnlineLedGenerationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/online-lead-generation-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/online-lead-generation-services"
@@ -176,7 +176,7 @@ export default function OnlineLedGenerationServices() {
                 <img
                   alt="Online Lead Generation Services in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

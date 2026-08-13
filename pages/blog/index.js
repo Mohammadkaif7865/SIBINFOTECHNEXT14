@@ -74,13 +74,13 @@ export default function Blog() {
       <meta property="og:url" content="https://www.sibinfotech.com/blog" />
       <meta property="og:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
       <meta property="og:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/blog" />
       <meta property="twitter:title" content="SIB Infotech Blog | Latest SEO Insights and Marketing Trends" />
       <meta property="twitter:description" content="Explore the blogs by SIB Infotech for expert insights, SEO trends, and digital marketing solutions. Stay updated with our latest articles and industry news." />
-      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.png" />
+      <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/sib-infotech.webp" />
     </>
   );
   return (

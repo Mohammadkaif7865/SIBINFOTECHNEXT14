@@ -30,7 +30,7 @@ export default function PostGreSqlDatabaseServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/postgresql-database-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/postgresql-database-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@ export default function PostGreSqlDatabaseServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/postgresql-database-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/postgresql-database-services.webp"
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/postgresql-database-services"
@@ -131,7 +131,7 @@ export default function PostGreSqlDatabaseServices() {
             <div className="col-md-6">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Postgresql Database Services in India"
                   className="img-fluid"
                 />
@@ -222,7 +222,7 @@ export default function PostGreSqlDatabaseServices() {
             <div className="col-md-4">
               <div className="custom-page-img">
                 <img
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                   alt="Postgresql Database Services"
                   className="img-fluid"
                 />

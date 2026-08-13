@@ -17,13 +17,13 @@ export default function ForumPostingServices() {
       <meta property="og:url" content="https://www.sibinfotech.com/forum-postings-services" />
       <meta property="og:title" content="Forum Posting Services | Boost Engagement & Traffic" />
       <meta property="og:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
+      <meta property="og:image" content="https://www.sibinfotech.com/assets/og/forum-postings-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/forum-postings-services" />
       <meta property="twitter:title" content="Forum Posting Services | Boost Engagement & Traffic" />
       <meta property="twitter:description" content="Get the right kind of traffic on your website with forum posting services in Mumbai by SIB Infotech. Enhance your online presence with topic-based links." />
-      <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/forum-postings-services.jpg" />
+      <meta property="twitter:imahttps://www.sibinfotech.com/assets/og/forum-postings-services.webp" />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/flashgame-development-companies-mumbai-india"
         breadcrumbTitle="Forum Posting Services | Boost Engagement & Traffic"
@@ -140,7 +140,7 @@ export default function ForumPostingServices() {
                 <img
                   alt="Forum Posting Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function ForumPostingServices() {
                 <img
                   alt="Forum Postings Services"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

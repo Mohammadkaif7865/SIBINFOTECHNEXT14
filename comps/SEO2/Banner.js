@@ -20,34 +20,34 @@ const Banner = () => {
                 </h2>
                 <ul className="bannerIcon">
                   <li>
-                    <img src="assets/images/icons/visitor.png" alt="Customer" />
+                    <img src="assets/images/icons/visitor.webp" alt="Customer" />
                     <div>Bring more customers to your Website</div>
                   </li>
                   <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
+                    <img src="assets/images/icons/quality.webp" alt="Customer" />
                     <div>Rank #1 on Google & Bing</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/computer-icon.png"
+                      src="assets/images/icons/computer-icon.webp"
                       alt="Customer"
                     />
                     <div>Establishing a strong online presence</div>
                   </li>
                   <li>
-                    <img src="assets/images/icons/quality.png" alt="Customer" />
+                    <img src="assets/images/icons/quality.webp" alt="Customer" />
                     <div>Rank #1 on Google Maps</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/privacy-policy.png"
+                      src="assets/images/icons/privacy-policy.webp"
                       alt="Customer"
                     />
                     <div>Build trust & creditability with your audience</div>
                   </li>
                   <li>
                     <img
-                      src="assets/images/icons/low-price-seo.png"
+                      src="assets/images/icons/low-price-seo.webp"
                       alt="Customer"
                     />
                     <div>Decreases Advertising Cost</div>

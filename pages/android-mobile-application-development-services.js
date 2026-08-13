@@ -32,7 +32,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/android-mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/android-mobile-application-development-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/android-mobile-application-development-services.jpg"
+        content="https://www.sibinfotech.com/assets/og/android-mobile-application-development-services.webp"
       />
 
       <script
@@ -66,7 +66,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
               "SIB Infotech is a leading Android mobile application development company in India offering custom Android app development, enterprise mobile applications, hybrid app development, UI/UX design, ecommerce mobile apps, and scalable Android solutions for startups and enterprises. Our Android app developers build secure, responsive, feature-rich, and user-friendly mobile applications to improve customer engagement, business growth, and digital transformation.",
             url: "https://www.sibinfotech.com/android-mobile-application-development-services",
             image:
-              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.jpg",
+              "https://www.sibinfotech.com/assets/images/mobile-application-development-company.webp",
 
             provider: {
               "@type": "Organization",
@@ -349,7 +349,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
                 <img
                   alt="Android Application Development Company in India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -360,7 +360,7 @@ export default function AndroidMobileApplicationDevelopmentServices() {
                 <img
                   alt="Android Application Development in Mumbai"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>

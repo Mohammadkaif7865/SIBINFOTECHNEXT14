@@ -36,7 +36,7 @@ export default function KeywordResearchMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -54,7 +54,7 @@ export default function KeywordResearchMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/keyword-research-services-mumbai-india.webp"
       />
       <script
         type="application/ld+json"
@@ -69,7 +69,7 @@ export default function KeywordResearchMumbaiIndia() {
               "SIB Infotech is a leading keyword research company in Mumbai, India offering advanced SEO keyword research services, competitor keyword analysis, search intent research, long-tail keyword targeting, and keyword strategy planning. Our SEO experts help businesses improve search engine rankings, organic traffic, lead generation, and online visibility through data-driven keyword optimization strategies.",
             url: "https://www.sibinfotech.com/keyword-research-services-mumbai-india",
             image:
-              "https://www.sibinfotech.com/assets/images/keyword-research-services.jpg",
+              "https://www.sibinfotech.com/assets/images/keyword-research-services.webp",
 
             provider: {
               "@type": "Organization",
@@ -326,7 +326,7 @@ export default function KeywordResearchMumbaiIndia() {
                 <img
                   alt="Keyword-Analysis-Company-In-Mumbai"
                   className="image-full"
-                  src="assets/images/keyword-analysis-company-in-mumbai.png"
+                  src="assets/images/keyword-analysis-company-in-mumbai.webp"
                 />
               </div>
             </div>

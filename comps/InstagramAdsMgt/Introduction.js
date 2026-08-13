@@ -36,7 +36,7 @@ const Introduction = () => {
               height={400}
               quality={100}
                 className=" h-auto image-full "
-                src="/assets/images/instagram-ads-management-firm.png"
+                src="/assets/images/instagram-ads-management-firm.webp"
                 alt="Instagram-Ads-Management-Agency"
               />
             </div>

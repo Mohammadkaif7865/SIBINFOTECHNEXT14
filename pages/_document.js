@@ -18,7 +18,7 @@ class MyDocument extends Document {
       "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com/",
-      image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+      image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
       sameAs: [
         "https://x.com/sibinfotech/",
         "https://www.facebook.com/sibinfotech/",
@@ -43,7 +43,7 @@ class MyDocument extends Document {
       "@id": "https://www.sibinfotech.com/#localbusiness",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com/",
-      image: "https://www.sibinfotech.com/assets/og/sib-infotech.png",
+      image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
       logo: "https://www.sibinfotech.com/assets/images/logo.webp",
       telephone: "+91-92222-60000",
       email: "contact@sibinfotech.com",
@@ -107,32 +107,48 @@ class MyDocument extends Document {
             content="-Q-iAtEsLTCtmflxgV53RbO-8ysLaQONM_2DXszZvPk"
           />
 
+          {/* External Google Fonts */}
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          {/* Preload the hero heading weight (Poppins 600 latin) to speed up LCP text */}
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap"
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2"
+            crossOrigin="anonymous"
+          />
+          <link
             rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
           />
 
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          />
-
+          {/* FontAwesome 6.1.1 */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
           />
 
+          {/* Bootstrap Icons 1.7.2 */}
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
           />
 
+          {/* AOS */}
           <link
             rel="stylesheet"
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            media="print"
+            onLoad="this.media='all'"
           />
-
-          {/* ---------- GTM: INERT - won't run until consent = granted ---------- */}
           <script
             type="text/plain"
             data-consent="analytics"

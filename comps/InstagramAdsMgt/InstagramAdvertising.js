@@ -31,7 +31,7 @@ const InstagramAdvertising = () => {
                 height={350}
                 quality={100}
                 className="image-full h-auto"
-                src="/assets/images/instagram-ads-management-services-in-delhi.png"
+                src="/assets/images/instagram-ads-management-services-in-delhi.webp"
                 alt="Instagram-Ads-Management-Agency-In-Mumbai"
               />
             </div>

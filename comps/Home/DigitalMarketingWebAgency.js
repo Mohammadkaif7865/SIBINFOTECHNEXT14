@@ -4,22 +4,22 @@ import React from "react";
 const DigitalMarketingWebAgency = () => {
 
   const technicalExpertise = [
-    { src: "/assets/images/php.png", alt: "PHP" },
-    { src: "/assets/images/wordpress-logo.png", alt: "WordPress" },
-    { src: "/assets/images/asp.png", alt: "ASP.net" },
-    { src: "/assets/images/mysql.png", alt: "MySQL" },
-    { src: "/assets/images/html-5.png", alt: "HTML" },
-    { src: "/assets/images/drupal.png", alt: "Drupal" },
-    { src: "/assets/images/js.png", alt: "JavaScript" },
-    { src: "/assets/images/ci.png", alt: "Codeigniter" },
-    { src: "/assets/images/laravel.png", alt: "Laravel" },
-    { src: "/assets/images/magento.png", alt: "Magento" },
-    { src: "/assets/images/angular.png", alt: "Angular" },
-    { src: "/assets/images/css-3.png", alt: "CSS" },
-    { src: "/assets/images/photoshop.png", alt: "Photoshop" },
-    { src: "/assets/images/illustrator.png", alt: "Illustrator" },
-    { src: "/assets/images/figma.png", alt: "Figma" },
-    { src: "/assets/images/bootstrap.png", alt: "Bootstrap" },
+    { src: "/assets/images/php.webp", alt: "PHP" },
+    { src: "/assets/images/wordpress-logo.webp", alt: "WordPress" },
+    { src: "/assets/images/asp.webp", alt: "ASP.net" },
+    { src: "/assets/images/mysql.webp", alt: "MySQL" },
+    { src: "/assets/images/html-5.webp", alt: "HTML" },
+    { src: "/assets/images/drupal.webp", alt: "Drupal" },
+    { src: "/assets/images/js.webp", alt: "JavaScript" },
+    { src: "/assets/images/ci.webp", alt: "Codeigniter" },
+    { src: "/assets/images/laravel.webp", alt: "Laravel" },
+    { src: "/assets/images/magento.webp", alt: "Magento" },
+    { src: "/assets/images/angular.webp", alt: "Angular" },
+    { src: "/assets/images/css-3.webp", alt: "CSS" },
+    { src: "/assets/images/photoshop.webp", alt: "Photoshop" },
+    { src: "/assets/images/illustrator.webp", alt: "Illustrator" },
+    { src: "/assets/images/figma.webp", alt: "Figma" },
+    { src: "/assets/images/bootstrap.webp", alt: "Bootstrap" },
   ];
 
   return (

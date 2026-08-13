@@ -32,7 +32,7 @@ export default function DesktopApplicationMumbaiIndia() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ export default function DesktopApplicationMumbaiIndia() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.jpg"
+        content="https://www.sibinfotech.com/assets/og/desktop-applications-mumbai-india.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/desktop-applications-mumbai-india"
@@ -174,7 +174,7 @@ export default function DesktopApplicationMumbaiIndia() {
                 <img
                   alt="Desktop Application Mumbai India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function DesktopApplicationMumbaiIndia() {
                 <img
                   alt="Desktop Application Mumbai India"
                   className="img-fluid"
-                  src="assets/images/article-submission.png"
+                  src="assets/images/article-submission.webp"
                 />
               </div>
             </div>
