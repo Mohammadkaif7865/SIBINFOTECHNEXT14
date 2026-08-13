@@ -45,7 +45,7 @@ export default function Header() {
               <div className="leftLogo">
                 <Link className="position-relative" href="/">
                   <Image
-                    src={"/assets/images/logo (1).webp"}
+                    src={"/assets/images/logo.webp"}
                     className=" object-fit-contain "
                     quality={100}
                     width={250}
@@ -60,9 +60,11 @@ export default function Header() {
                   <Link href="https://wa.link/rd1lfo" target="_blank">
                     <Image
                       src={"/assets/images/sib-whatsapp-icon.svg"}
+                      className="object-fit-contain"
                       quality={100}
-                      width={160}
-                      height={80}
+                      width={145}
+                      height={56}
+                      alt="Chat on WhatsApp"
                     ></Image>
                   </Link>
                   <div className="topHeaderRight ">
@@ -666,9 +668,9 @@ export default function Header() {
                 data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight"
                 onClick={handleShow}
+                style={{ fontSize: 24, lineHeight: 1, display: "flex", alignItems: "center", justifyContent: "center" }}
               >
-                <i className="fa fa-bars"></i>
-                {/* <RiMenu4Line /> */}
+                <RiMenu4Line />
               </button>
             </div>
           </div>
@@ -680,7 +682,7 @@ export default function Header() {
           <Offcanvas.Title>
             <Link className="position-relative" href="/">
               <Image
-                src={"/assets/images/logo (1).webp"}
+                src={"/assets/images/logo.webp"}
                 className=" object-fit-contain "
                 quality={100}
                 width={210}

@@ -296,6 +296,9 @@ const HomePage = () => {
       <BannerSlider />
       <Abbout3 {...about3Data} />
       <LazyLoad>
+        <WeStrong />
+      </LazyLoad>
+      <LazyLoad>
         <WhatWeDo3 />
       </LazyLoad>
       <LazyLoad>

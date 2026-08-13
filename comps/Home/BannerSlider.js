@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Counter from "../CounterHome"; // Make sure this path is correct
+import Typewriter from "./Typewriter";
 
 const BannerSlider = () => {
   return (
@@ -20,7 +21,7 @@ const BannerSlider = () => {
             </span>
           </span>
           <span className="heading text-center d-block mt-3 text-white fontWeight600">
-            <i className="text_white">Digital Marketing Solutions</i>
+            <Typewriter />
           </span>
         </h2>
 
@@ -44,7 +45,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={617} animate={false} />
+                  <Counter targetValue={617} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">
@@ -55,7 +56,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={315} animate={false} />
+                  <Counter targetValue={315} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">
@@ -66,7 +67,7 @@ const BannerSlider = () => {
             <div className="col-6 col-lg-3 col-md-4">
               <div className="counterBannerHome text-center">
                 <p className="large_heading2 mt-3 fontWeight700 text-white">
-                  <Counter targetValue={344} animate={false} />
+                  <Counter targetValue={344} />
                   <span className="sub_heading ps-2">%</span>
                 </p>
                 <p className="mt-1 text-white fontSmall">

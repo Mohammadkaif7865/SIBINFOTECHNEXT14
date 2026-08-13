@@ -119,26 +119,27 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <link
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2"
+            crossOrigin="anonymous"
+          />
+          <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap"
-            media="print"
-            onLoad="this.media='all'"
           />
 
           {/* FontAwesome 6.1.1 */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            media="print"
-            onLoad="this.media='all'"
           />
 
           {/* Bootstrap Icons 1.7.2 */}
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-            media="print"
-            onLoad="this.media='all'"
           />
 
           {/* AOS */}
