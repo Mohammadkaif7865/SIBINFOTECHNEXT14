@@ -102,6 +102,38 @@ export default function SearchEngineOptimizationServices() {
             url: "https://www.sibinfotech.com/local-seo-services",
           },
         },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Google Penalty Recovery Services",
+            url: "https://www.sibinfotech.com/google-penalty-recovery",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "International & Multilingual SEO Services",
+            url: "https://www.sibinfotech.com/multilingual-seo-services",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "YouTube SEO Services",
+            url: "https://www.sibinfotech.com/youtube-marketing",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "App Store Optimization (ASO) Services",
+            url: "https://www.sibinfotech.com/app-store-optimization",
+          },
+        },
       ],
     },
   };

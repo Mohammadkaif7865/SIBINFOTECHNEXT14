@@ -52,7 +52,7 @@ export default function PpcManagementServices() {
         content="https://www.sibinfotech.com/assets/og/pay-per-click-ppc-management-services.webp"
       />
       <BreadcrumbSchema
-        url="https:/www.sibinfotech.com/pay-per-click-ppc-management-services"
+        url="https://www.sibinfotech.com/pay-per-click-ppc-management-services"
         breadcrumbTitle="Best PPC Company in India | Top PPC Services Agency 2025"
         PageRatingSchema
         description={

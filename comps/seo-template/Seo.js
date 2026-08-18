@@ -105,6 +105,7 @@ const Seo = () => {
       description:
         "Core Web Vitals, site speed, mobile responsiveness, crawlability, and indexing fixes that give Google a clean, fast, rankable website.",
       img: "/assets/images/seo/technical-seo-idea-2-FINAL 1.webp",
+      link: "/technical-seo-services",
     },
     {
       title: `Local SEO Services <br class="d-none d-md-lg "/> in Mumbai and India`,
@@ -118,13 +119,14 @@ const Seo = () => {
       description:
         "Product page optimization, category structure, shopping intent content, and schema markup so your products get discovered and purchased.",
       img: "/assets/images/seo/White-Label-E-Commerce-SEO-Services 1.webp",
-      link: "/e-commerce-website-design-development-services",
+      link: "/e-commerce-seo-services",
     },
     {
       title: `Content SEO <br class="d-none d-md-lg "/> Services`,
       description:
         "Blogs, pillar pages, service pages, and resource hubs that target the right keywords, answer buyer questions, and build organic traffic that compounds over time.",
       img: "/assets/images/seo/White-Label-SEO-Content-Writing-Services 1.webp",
+      link: "/seo-content-writing-services",
     },
   ];
   const keyAdvantages = [
@@ -281,10 +283,9 @@ const Seo = () => {
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  Search Engine Optimization{" "}
+                  Search Engine Optimization Services in India{" "}
                   <span className="text_red fontWeight700">
-                    {" "}
-                    Services in India
+                    &amp; SEO Company in Mumbai
                   </span>
                 </h1>
                 <p
@@ -651,6 +652,14 @@ const Seo = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="text-center mt-4">
+            <Link
+              href="/search-engine-optimization-seo-services-packages"
+              className="btnThemeRed"
+            >
+              Compare All SEO Packages in India
+            </Link>
           </div>
         </div>
       </section>

@@ -1,41 +1,40 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import axios from "axios";
 import * as CONSTANTS from "../../constants/constants";
 import BlogCard from "./BlogCard";
 import Link from "next/link";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { CustomLayout } from "@/comps/CustomLayout";
-import RelatedServices from "@/comps/RelatedServices";
 
-export default function Blog() {
-  const [blogs, setBlogs] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [blogsPerPage] = useState(12);
-
+export async function getServerSideProps() {
   const headers = {
     "Content-Type": "multipart/form-data",
     Authorization: CONSTANTS.API_TOKEN,
   };
 
-  const getBlogs = async () => {
-    try {
-      const res = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
-        headers: headers,
-      });
-      if (res.data.blogs) {
-        setBlogs(res.data.blogs);
-        // console.log(res.data.blogs)
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  try {
+    const res = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
+      headers: headers,
+    });
+    return {
+      props: {
+        blogs: res.data.blogs || [],
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching blogs:", error);
+    return {
+      props: {
+        blogs: [],
+      },
+    };
+  }
+}
 
-  useEffect(() => {
-    getBlogs();
-  }, []);
+export default function Blog({ blogs }) {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [blogsPerPage] = useState(12);
 
   // // Remove unwanted "Explore More" / services section inserted by layout/scripts
   // // This runs only on the client and affects the blog listing page only.

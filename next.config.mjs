@@ -17,6 +17,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/answer-engine-optimization",
+        destination: "/search-ai-optimization",
+        permanent: true,
+      },
+      {
         source: "/google-search-network-campaign",
         destination: "/",
         permanent: true,
