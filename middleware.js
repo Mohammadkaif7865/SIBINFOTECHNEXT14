@@ -14,7 +14,12 @@ const GONE_URLS = new Set([
   "/adritod.txt",
   "/index.rdf",
   "/blog/google-",
+  "/blog/[slug]",
+  "/blog/google-maps-ai-2026-conversational-search",
+  "/blog/seo-vs-aeo-vs-geo-difference-which-one-your-business-needs",
+  "/blog/ads-in-ai-overviews",
   "/index.php/stmap_38z28kw.htm",
+  "/index.php/stmap_38z28kw.html",
 
   /*
    * Do not enable this unless Cloudflare Email Address Obfuscation
@@ -136,6 +141,7 @@ export function middleware(request) {
     "gclid",
     "fbclid",
     "msclkid",
+    "atnct",
   ];
 
   const hasTrackingParams = trackingParams.some((param) =>
@@ -161,7 +167,22 @@ export function middleware(request) {
 
   const pathname = getNormalizedPathname(request.nextUrl.pathname);
 
-  if (GONE_URLS.has(pathname)) {
+  // Redirect trailing slashes to non-trailing slashes for consistency
+  // This prevents duplicate content (e.g., /testimonials/ vs /testimonials)
+  if (
+    request.nextUrl.pathname.length > 1 &&
+    request.nextUrl.pathname.endsWith("/")
+  ) {
+    const redirectUrl = url.clone();
+    redirectUrl.pathname = pathname;
+    return NextResponse.redirect(redirectUrl, 308);
+  }
+
+  if (
+    GONE_URLS.has(pathname) ||
+    pathname.startsWith("/index.php/stmap_") ||
+    pathname.startsWith("/index/stmap_")
+  ) {
     return getGoneResponse();
   }
 

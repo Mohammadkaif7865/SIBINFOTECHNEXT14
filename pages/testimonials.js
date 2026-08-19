@@ -17,7 +17,7 @@ export default function Testimonials() {
         "@type": "ListItem",
         position: 2,
         name: "Client Testimonials",
-        item: "https://www.sibinfotech.com/testimonials/",
+        item: "https://www.sibinfotech.com/testimonials",
       },
     ],
   };
@@ -26,7 +26,7 @@ export default function Testimonials() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: "Client Testimonials & Reviews | SIB Infotech",
-    url: "https://www.sibinfotech.com/testimonials/",
+    url: "https://www.sibinfotech.com/testimonials",
     description:
       "Read verified client testimonials and reviews for SIB Infotech. Rated 5.0 stars on Google, Clutch, TrustPilot and GoodFirms for SEO, digital marketing and web development services.",
     publisher: {
@@ -47,7 +47,7 @@ export default function Testimonials() {
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.sibinfotech.com/testimonials/" />
+      <meta property="og:url" content="https://www.sibinfotech.com/testimonials" />
       <meta
         property="og:title"
         content="Client Testimonials & Reviews | SIB Infotech"
@@ -62,7 +62,7 @@ export default function Testimonials() {
       />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/testimonials/" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/testimonials" />
       <meta
         property="twitter:title"
         content="Client Testimonials & Reviews | SIB Infotech"

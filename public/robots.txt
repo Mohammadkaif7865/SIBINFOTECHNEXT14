@@ -1,4 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /_next/image
+Disallow: /*?trk=
+Disallow: /*?utm_
 
 Sitemap: https://www.sibinfotech.com/sitemap.xml

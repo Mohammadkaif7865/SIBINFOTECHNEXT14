@@ -478,6 +478,15 @@ const nextConfig = {
         ],
       },
       {
+        source: "/_next/image(.*)",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow",
+          },
+        ],
+      },
+      {
         source: "/assets/:all*(png|jpg|jpeg|gif|webp|mp4|svg|css|js|woff2?)",
         headers: [
           {
