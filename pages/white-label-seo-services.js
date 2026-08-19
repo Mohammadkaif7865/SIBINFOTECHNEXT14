@@ -23,7 +23,7 @@ export default function WhiteLabelSeoServices() {
         "@type": "ListItem",
         position: 3,
         name: "White Label SEO Services",
-        item: "https://www.sibinfotech.com/white-label-seo-services/",
+        item: "https://www.sibinfotech.com/white-label-seo-services",
       },
     ],
   };
@@ -32,7 +32,7 @@ export default function WhiteLabelSeoServices() {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "White Label SEO Services India",
-    url: "https://www.sibinfotech.com/white-label-seo-services/",
+    url: "https://www.sibinfotech.com/white-label-seo-services",
     description:
       "NDA-protected white label SEO for agencies. Full-service SEO delivery under your brand including technical audits, on-page optimisation, link building, branded reports, and dedicated account management. Trusted by 100+ agencies.",
     serviceType: "White Label SEO",
@@ -49,7 +49,7 @@ export default function WhiteLabelSeoServices() {
       "@type": "Offer",
       priceCurrency: "INR",
       availability: "https://schema.org/InStock",
-      url: "https://www.sibinfotech.com/contact-us/",
+      url: "https://www.sibinfotech.com/contact-us",
     },
   };
 
@@ -68,7 +68,7 @@ export default function WhiteLabelSeoServices() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/white-label-seo-services/"
+        content="https://www.sibinfotech.com/white-label-seo-services"
       />
       <meta
         property="og:title"
@@ -86,7 +86,7 @@ export default function WhiteLabelSeoServices() {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://www.sibinfotech.com/white-label-seo-services/"
+        content="https://www.sibinfotech.com/white-label-seo-services"
       />
       <meta
         property="twitter:title"

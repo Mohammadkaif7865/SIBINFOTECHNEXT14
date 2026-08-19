@@ -12,38 +12,46 @@ export async function getServerSideProps(context) {
   const { slug } = context.query;
 
   const headers = {
-    "Content-Type": "multipart/form-data",
+    "Content-Type": "application/json",
     Authorization: CONSTANTS.API_TOKEN,
   };
 
+  const axiosOpts = { timeout: 8000 };
+
   try {
     const [resBlog, resBlogs] = await Promise.all([
-      axios.get(`${CONSTANTS.API_URL}blog/single/${slug}?slug=1`, { headers }),
-      axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, { headers }),
+      axios.get(`${CONSTANTS.API_URL}blog/single/${slug}?slug=1`, { ...headers, ...axiosOpts }),
+      axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, { ...headers, ...axiosOpts }),
     ]);
 
-    const blog = resBlog.data.blog;
-    const blogs = resBlogs.data.blogs;
-    const blogSections = resBlog.data.blog_sections;
-    const blogFaqs = resBlog.data.blog_faqs;
+    const blog = resBlog.data?.blog;
+    const blogs = resBlogs.data?.blogs;
+    const blogSections = resBlog.data?.blog_sections;
+    const blogFaqs = resBlog.data?.blog_faqs;
+
+    if (!blog || !Array.isArray(blog) || blog.length === 0) {
+      return { notFound: true };
+    }
 
     let author = null;
-    if (blog && blog[0] && blog[0].author_id) {
-      const resAuthor = await axios.get(
-        `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
-        {
-          headers,
-        },
-      );
-      author = resAuthor.data.author;
+    if (blog[0]?.author_id) {
+      try {
+        const resAuthor = await axios.get(
+          `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
+          { ...headers, ...axiosOpts },
+        );
+        author = resAuthor.data?.author || null;
+      } catch {
+        author = null;
+      }
     }
 
     return {
       props: {
         blog,
-        blogs,
-        blogSections,
-        blogFaqs,
+        blogs: blogs || [],
+        blogSections: blogSections || [],
+        blogFaqs: blogFaqs || [],
         author,
       },
     };
@@ -120,7 +128,9 @@ function truncate(text, max) {
 }
 
 function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
-  const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
+  if (!blog || !Array.isArray(blog) || blog.length === 0) return null;
+
+  const selectedcategory = blog[0]?.category_id || null;
 
   const blogName = blog && blog[0] ? blog[0].name : "";
   const postSlug = blog && blog[0] ? blog[0].slug : "";
@@ -299,7 +309,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       <div className="inlineAdded">
                         <ul>
                           <li>
-                            {format(new Date(blog[0].bdate), "MMM dd, yyyy")}
+                            {blog[0].bdate ? format(new Date(blog[0].bdate), "MMM dd, yyyy") : ""}
                           </li>
                         </ul>
                       </div>

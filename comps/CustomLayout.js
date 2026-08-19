@@ -5,7 +5,8 @@ import ServiceSchema from "./ServiceSchema";
 
 export const CustomLayout = ({ children, meta }) => {
   const router = useRouter();
-  const path = router?.asPath ? router.asPath.split("?")[0] : "";
+  const rawPath = router?.asPath ? router.asPath.split("?")[0] : "";
+  const path = rawPath.endsWith("/") && rawPath.length > 1 ? rawPath.slice(0, -1) : rawPath;
 
   return (
     <>
