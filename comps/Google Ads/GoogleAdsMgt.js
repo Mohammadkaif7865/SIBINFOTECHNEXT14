@@ -206,7 +206,7 @@ const GoogleAdsMgt = () => {
       src: "/assets/images/calculator-development-firm.svg",
     },
     buttonText: "Let's Grow Your Business?",
-    buttonLink: "/contact",
+    buttonLink: "/contact-us",
     phoneNumber: "+919222260000",
     phoneDisplay: "+91 92222-60000",
     phoneHelpText: "Need Help",
@@ -375,6 +375,33 @@ const GoogleAdsMgt = () => {
     },
   ];
 
+  const relatedAdsServices = [
+    {
+      title: "Facebook Ads Management",
+      description:
+        "Meta-certified campaigns for reach, leads, and sales across Facebook & Instagram.",
+      link: "/facebook-ads-management-services",
+    },
+    {
+      title: "Instagram Ads Management",
+      description:
+        "Visually driven Instagram ads for brand awareness and direct-response growth.",
+      link: "/instagram-ads-management-services",
+    },
+    {
+      title: "LinkedIn Ads Management",
+      description:
+        "B2B targeting, lead gen forms, and sponsored content for professional audiences.",
+      link: "/linkedin-ads-management-services",
+    },
+    {
+      title: "PPC Management Services",
+      description:
+        "Full-funnel PPC management across Google, Meta, and LinkedIn with published pricing.",
+      link: "/pay-per-click-ppc-management-services",
+    },
+  ];
+
   return (
     <>
       <HeroGoogleAds />
@@ -485,6 +512,39 @@ const GoogleAdsMgt = () => {
       {/* <EffectiveAds /> */}
 
       <HighlyEfficient />
+
+      <section className="py-5">
+        <div className="containerFull">
+          <div className="row justify-content-center mb-4">
+            <div className="col-lg-9 text-center">
+              <h2 className="heading fontWeight600">
+                Explore Our Other{" "}
+                <span className="text_red">Paid Advertising Services</span>
+              </h2>
+              <p className="customText mt-2">
+                Google Ads is just one part of a complete paid media strategy.
+                Explore our other platform-specific ad management services and
+                compare packages before you commit.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            {relatedAdsServices.map((service, index) => (
+              <div key={index} className="col-md-6 col-lg-3 mb-3">
+                <Link
+                  href={service.link}
+                  className="d-block h-100 p-4 border rounded bg-white"
+                >
+                  <h3 className="small_heading fontWeight600 mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="mb-0">{service.description}</p>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <SIBPower
         title="Flexible Plans for Businesses of All Sizes"

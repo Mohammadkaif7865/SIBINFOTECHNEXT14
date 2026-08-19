@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
+import { trackLead } from "../functions/analytics";
 import Breadcrumb from "./BreadCrumb";
 
 export default function ContactForm() {
@@ -107,6 +108,7 @@ export default function ContactForm() {
             details: "",
             cpatchaText: "",
           });
+          trackLead("contact");
           window.location.href = "https://sibinfotech.com/thanks";
         } else {
           toast.error(data.message);

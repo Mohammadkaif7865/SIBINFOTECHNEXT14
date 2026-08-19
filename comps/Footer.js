@@ -8,6 +8,7 @@ import axios from "axios";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FaXTwitter } from "react-icons/fa6";
+import { trackLead } from "../functions/analytics";
 
 const LazyMap = ({ src, title }) => {
   const ref = useRef(null);
@@ -170,6 +171,7 @@ export default function Footer() {
             email: "",
             message: "",
           });
+          trackLead("footer");
           // navigate to thanks page
           if (typeof window !== "undefined") {
             window.location.href = "https://sibinfotech.com/thanks";
@@ -418,7 +420,7 @@ export default function Footer() {
                             </li>
                             <li>
                               <Link
-                                href="/press-release-submission-services"
+                                href="/link-building-services"
                                 title="PR Submission"
                               >
                                 PR Submission
@@ -426,7 +428,7 @@ export default function Footer() {
                             </li>
                             <li>
                               <Link
-                                href="/regional-local-seo-services"
+                                href="/local-seo-services"
                                 title="Google Local Listing"
                               >
                                 Google Local Listing

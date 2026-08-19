@@ -6,6 +6,7 @@ import { useEffect, useState, useRef } from "react";
 import { toast } from "react-toastify";
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
+import { trackLead } from "../functions/analytics";
 
 import { captureUTM, appendUTM } from "../utils/utm";
 
@@ -132,6 +133,7 @@ export default function BannerForm() {
           website: "",
           cpatchaText: "",
         });
+        trackLead("banner");
         window.location.href = "https://sibinfotech.com/thanks";
       } else {
         toast.error(data.message);

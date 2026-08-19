@@ -19,6 +19,9 @@ class MyDocument extends Document {
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com/",
       image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
+      serviceType:
+        "Search Engine Optimization (SEO), Digital Marketing, Google Ads & PPC Management, Web Design & Development, Content Marketing, Local SEO",
+      areaServed: { "@type": "Country", name: "India" },
       sameAs: [
         "https://x.com/sibinfotech/",
         "https://www.facebook.com/sibinfotech/",

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
+import ServiceSchema from "./ServiceSchema";
 
 export const CustomLayout = ({ children, meta }) => {
   const router = useRouter();
@@ -70,15 +71,11 @@ export const CustomLayout = ({ children, meta }) => {
           href={
             path === "/index" || path === "/index.php"
               ? "https://www.sibinfotech.com/"
-              : path === "/search-engine-optimization-seo-services" ||
-                  path === "/search-engine-optimization-seo-services-packages"
-                ? "https://www.sibinfotech.com/search-engine-optimization-seo-services"
-                : path === "/pay-per-click-ppc-management-services"
-                  ? "https://www.sibinfotech.com/google-ads-management-services"
-                  : `https://www.sibinfotech.com${path || ""}`
+              : `https://www.sibinfotech.com${path || ""}`
           }
         />
         {meta}
+        <ServiceSchema path={path} />
       </Head>
 
       {children}

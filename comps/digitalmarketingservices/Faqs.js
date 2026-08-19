@@ -3,6 +3,9 @@ import React, { use, useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 const Faqs = () => {
+  const [open, setOpen] = useState(null);
+  const [open2, setOpen2] = useState(null);
+
   const faqsData = [
     {
       id: "faq1",

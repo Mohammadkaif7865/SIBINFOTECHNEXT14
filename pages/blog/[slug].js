@@ -55,6 +55,14 @@ export async function getServerSideProps(context) {
   }
 }
 
+const BLOG_META_OVERRIDES = {
+  "ppc-management-pricing-2025-cost-guide-what-you-should-pay": {
+    title: "PPC Management Pricing 2026: How Much Does PPC Cost in India?",
+    description:
+      "PPC management cost in India 2026: what you should pay for Google Ads management. Real pricing benchmarks, common pricing models, and what is included in agency fees.",
+  },
+};
+
 function FaqAccordion({ faqs }) {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -94,8 +102,44 @@ function cleanSchemaJsonLd(schema) {
     .replace(/<\/script>$/i, "")
     .trim();
 }
+
+function stripHtml(html) {
+  if (!html || typeof html !== "string") return "";
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function truncate(text, max) {
+  if (!text) return "";
+  if (text.length <= max) return text;
+  return text.slice(0, max).trim() + "…";
+}
+
 function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
   const selectedcategory = blog.length > 0 ? blog[0]?.category_id : null;
+
+  const blogName = blog && blog[0] ? blog[0].name : "";
+  const postSlug = blog && blog[0] ? blog[0].slug : "";
+  const metaOverride = BLOG_META_OVERRIDES[postSlug];
+  const metaTitle =
+    (metaOverride && metaOverride.title) ||
+    (blog && blog[0]?.meta_title?.trim()
+      ? blog[0].meta_title.trim()
+      : `${blogName || "SIB Infotech Blog"} | SIB Infotech`);
+  const metaDescription =
+    (metaOverride && metaOverride.description) ||
+    (blog && blog[0]?.meta_description?.trim()
+      ? blog[0].meta_description.trim()
+      : truncate(stripHtml(blog && blog[0]?.description), 160) ||
+        "Read expert insights from SIB Infotech on SEO, PPC, digital marketing and web design.");
+  const metaKeywords =
+    blog && blog[0]?.meta_keywords?.trim()
+      ? blog[0].meta_keywords.trim()
+      : "digital marketing, seo, ppc, sib infotech blog";
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -175,18 +219,18 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
       {blog && (
         <CustomLayout>
           <Head>
-            <title>{blog[0].meta_title}</title>
-            <meta name="keywords" content={blog[0].meta_keywords} />
-            <meta name="description" content={blog[0].meta_description} />
+            <title>{metaTitle}</title>
+            <meta name="keywords" content={metaKeywords} />
+            <meta name="description" content={metaDescription} />
             <meta property="og:type" content="website" />
             <meta
               property="og:url"
               content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
             />
-            <meta property="og:title" content={blog[0].meta_title} />
+            <meta property="og:title" content={metaTitle} />
             <meta
               property="og:description"
-              content={blog[0].meta_description}
+              content={metaDescription}
             />
             <meta
               property="og:image"
@@ -197,10 +241,10 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
               property="twitter:url"
               content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
             />
-            <meta property="twitter:title" content={blog[0].meta_title} />
+            <meta property="twitter:title" content={metaTitle} />
             <meta
               property="twitter:description"
-              content={blog[0].meta_description}
+              content={metaDescription}
             />
             <meta
               property="twitter:image"
@@ -211,6 +255,28 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: cleanSchemaJsonLd(blog[0].schema_jsonld),
+                }}
+              />
+            )}
+            {blogFaqs && blogFaqs.length >= 2 && (
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    mainEntity: blogFaqs
+                      .filter((f) => f.question && f.answer)
+                      .slice(0, 20)
+                      .map((f) => ({
+                        "@type": "Question",
+                        name: f.question,
+                        acceptedAnswer: {
+                          "@type": "Answer",
+                          text: stripHtml(f.answer),
+                        },
+                      })),
+                  }),
                 }}
               />
             )}

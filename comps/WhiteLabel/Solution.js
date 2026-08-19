@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Solution = ({ data, heading, subHeading, discription, hideImages }) => {
   const [indexNo, setIndexNo] = useState("");
@@ -86,25 +87,34 @@ const Solution = ({ data, heading, subHeading, discription, hideImages }) => {
                   </div>
                   <div className="service__link">
                     <div className="service__link">
-                      <p
-                        onClick={(e) => {
-                          e.stopPropagation();
-
-                          if (value.link) {
-                            window.location.href = value.link;
-                          }
-                        }}
-                        style={{
-                          cursor: "pointer",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px, 0px)",
-                          opacity: "1",
-                        }}
-                      >
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </p>
+                      {value.link ? (
+                        <Link
+                          href={value.link}
+                          onClick={(e) => e.stopPropagation()}
+                          aria-label={`View ${typeof value.title === "string" ? value.title.replace(/<[^>]+>/g, "").trim() : "service"}`}
+                          style={{
+                            cursor: "pointer",
+                          }}
+                        >
+                          <i className="fa-solid fa-arrow-right"></i>
+                        </Link>
+                      ) : (
+                        <p
+                          onClick={(e) => {
+                            e.stopPropagation();
+                          }}
+                          style={{
+                            cursor: "pointer",
+                            translate: "none",
+                            rotate: "none",
+                            scale: "none",
+                            transform: "translate(0px, 0px)",
+                            opacity: "1",
+                          }}
+                        >
+                          <i className="fa-solid fa-arrow-right"></i>
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>
