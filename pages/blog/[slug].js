@@ -20,8 +20,8 @@ export async function getServerSideProps(context) {
 
   try {
     const [resBlog, resBlogs] = await Promise.all([
-      axios.get(`${CONSTANTS.API_URL}blog/single/${slug}?slug=1`, { ...headers, ...axiosOpts }),
-      axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, { ...headers, ...axiosOpts }),
+      axios.get(`${CONSTANTS.API_URL}blog/single/${slug}?slug=1`, { headers, ...axiosOpts }),
+      axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, { headers, ...axiosOpts }),
     ]);
 
     const blog = resBlog.data?.blog;
@@ -38,7 +38,7 @@ export async function getServerSideProps(context) {
       try {
         const resAuthor = await axios.get(
           `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
-          { ...headers, ...axiosOpts },
+          { headers, ...axiosOpts },
         );
         author = resAuthor.data?.author || null;
       } catch {
