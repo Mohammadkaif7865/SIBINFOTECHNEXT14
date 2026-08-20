@@ -449,6 +449,62 @@ const SeoPackagesMgt = () => {
         </div>
       </section>
 
+      {/* SEO Packages in Mumbai */}
+      <section>
+        <div className="containerFull">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <h2 className="heading fontWeight600">
+                <span className="text_red">Affordable SEO Packages</span> in Mumbai
+              </h2>
+              <p className="customText mt-3">
+                SIB Infotech offers affordable SEO packages in Mumbai designed for businesses of all sizes. As a leading SEO agency based in Mumbai with 18+ years of experience, we understand the local market dynamics and create tailored SEO packages that deliver measurable results for Mumbai businesses.
+              </p>
+              <p className="customText mt-3">
+                Whether you are a startup in Andheri, an e-commerce business in Bandra, or an enterprise in BKC, our SEO packages in Mumbai include everything you need to dominate local and national search results. From technical SEO audits and on-page optimization to content creation and link building, our transparent monthly plans give you full visibility into the work being done.
+              </p>
+              <p className="customText mt-3">
+                Our Mumbai SEO packages have helped businesses across industries increase organic traffic by 200-400% and generate significant revenue growth. Get started with a free SEO audit today and discover how our affordable SEO packages in Mumbai can transform your online presence.
+              </p>
+              <div className="mt-4">
+                <Link href="/contact-us" className="btnThemeRed">
+                  <i className="fa-solid fa-comment-dots me-2"></i> Get Your Free Mumbai SEO Audit
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-5 mt-4 mt-lg-0">
+              <div className="customCard">
+                <h3 className="small_heading fontWeight600 mb-3">
+                  Why Choose Our Mumbai SEO Packages?
+                </h3>
+                <ul className="list-unstyled">
+                  <li className="mb-3">
+                    <i className="fa-solid fa-check text_red me-2"></i>
+                    <strong>Local Market Expertise:</strong> Deep understanding of the Mumbai business landscape
+                  </li>
+                  <li className="mb-3">
+                    <i className="fa-solid fa-check text_red me-2"></i>
+                    <strong>Transparent Pricing:</strong> No hidden costs or surprise invoices
+                  </li>
+                  <li className="mb-3">
+                    <i className="fa-solid fa-check text_red me-2"></i>
+                    <strong>Dedicated Account Manager:</strong> Senior SEO expert assigned to your account
+                  </li>
+                  <li className="mb-3">
+                    <i className="fa-solid fa-check text_red me-2"></i>
+                    <strong>Proven Results:</strong> 850+ clients across 40+ countries trust our expertise
+                  </li>
+                  <li className="mb-3">
+                    <i className="fa-solid fa-check text_red me-2"></i>
+                    <strong>Google Premier Partner:</strong> Exclusive access to Google insights and beta features
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Get Started CTA */}
       <section className="dots curve1 bgEffect">
         <div className="containerFull">

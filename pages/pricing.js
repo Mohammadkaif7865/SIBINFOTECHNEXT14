@@ -76,7 +76,7 @@ export default function Pricing() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -167,7 +167,7 @@ export default function Pricing() {
                       </ul>
                     </div>
                     <div className="pricing-foot">
-                      <Link href="#" className="common-btn">
+                      <Link href="/contact-us" className="common-btn">
                         Start Now
                       </Link>
                     </div>
@@ -212,7 +212,7 @@ export default function Pricing() {
                       </ul>
                     </div>
                     <div className="pricing-foot">
-                      <Link href="#" className="common-btn">
+                      <Link href="/contact-us" className="common-btn">
                         Buy Now
                       </Link>
                     </div>
@@ -263,7 +263,7 @@ export default function Pricing() {
                       </ul>
                     </div>
                     <div className="pricing-foot">
-                      <Link href="#" className="common-btn">
+                      <Link href="/contact-us" className="common-btn">
                         Buy Now
                       </Link>
                     </div>

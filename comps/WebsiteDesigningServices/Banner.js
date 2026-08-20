@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Website Designing Services
+                  Website Designing Services in Mumbai, India
                 </h1>
                 <h2 className="small_heading fw-bold mt-lg-2 mt-1 text-white">
                   A Web Design Agency in the heart of India
@@ -23,7 +23,7 @@ const Banner = () => {
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
                     </span>
                   </Link>
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question

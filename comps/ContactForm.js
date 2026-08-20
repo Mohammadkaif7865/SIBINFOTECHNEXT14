@@ -294,7 +294,7 @@ export default function ContactForm() {
                     <h4>HR/Job</h4>
                     <p>
                       <i className="fa fa-envelope text_primary"></i>{" "}
-                      <Link href="#">
+                       <Link href="mailto:career@sibinfotech.com">
                         <span>career@sibinfotech.com</span>
                       </Link>
                     </p>

@@ -78,7 +78,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -388,7 +388,7 @@ export default function EcommerceWebsiteDesignDevelopmentServices() {
                 in India with offices in Mumbai and Delhi.
               </h4>
               <div className="text-center">
-                <Link className="btnDiscuss" href="#">
+                <Link className="btnDiscuss" href="/contact-us">
                   Speak to our experts
                 </Link>
               </div>

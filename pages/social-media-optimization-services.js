@@ -188,12 +188,12 @@ export default function SocialMediaOptimizationServices() {
                   Optimization Services
                 </p>
                 <div className="mt-4">
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemeRed me-3">
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
                     </span>
                   </Link>
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question

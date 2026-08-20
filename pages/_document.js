@@ -19,9 +19,22 @@ class MyDocument extends Document {
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com/",
       image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
+      logo: "https://www.sibinfotech.com/assets/images/logo.webp",
+      description:
+        "SIB Infotech is a Google Premier Partner digital marketing agency offering SEO, PPC, Google Ads, social media marketing, web design, and web development services in Mumbai, India since 2005.",
+      foundingDate: "2005",
+      telephone: "+91-92222-60000",
+      email: "contact@sibinfotech.com",
       serviceType:
-        "Search Engine Optimization (SEO), Digital Marketing, Google Ads & PPC Management, Web Design & Development, Content Marketing, Local SEO",
-      areaServed: { "@type": "Country", name: "India" },
+        "Search Engine Optimization (SEO), Digital Marketing, Google Ads & PPC Management, Web Design & Development, Content Marketing, Local SEO, Social Media Marketing",
+      areaServed: [
+        { "@type": "Country", name: "India" },
+        { "@type": "Country", name: "United States" },
+        { "@type": "Country", name: "United Kingdom" },
+        { "@type": "Country", name: "Australia" },
+        { "@type": "Country", name: "Canada" },
+        { "@type": "Country", name: "UAE" },
+      ],
       sameAs: [
         "https://x.com/sibinfotech/",
         "https://www.facebook.com/sibinfotech/",
@@ -34,9 +47,16 @@ class MyDocument extends Document {
         "@type": "PostalAddress",
         streetAddress:
           "107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West",
-        addressRegion: "Mumbai, Maharashtra",
+        addressLocality: "Mumbai",
+        addressRegion: "Maharashtra",
         postalCode: "400064",
-        addressCountry: "India",
+        addressCountry: "IN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91-92222-60000",
+        contactType: "Customer Service",
+        availableLanguage: ["English", "Hindi"],
       },
     };
 
@@ -50,6 +70,9 @@ class MyDocument extends Document {
       logo: "https://www.sibinfotech.com/assets/images/logo.webp",
       telephone: "+91-92222-60000",
       email: "contact@sibinfotech.com",
+      description:
+        "SIB Infotech is a Google Premier Partner and leading digital marketing agency in Mumbai offering SEO, PPC, web design, and development services since 2005.",
+      foundingDate: "2005",
       priceRange: "Call +91-92222-60000 | contact@sibinfotech.com",
       sameAs: [
         "https://x.com/sibinfotech",
@@ -92,6 +115,7 @@ class MyDocument extends Document {
         "@type": "ContactPoint",
         telephone: "+91 92222-60000",
         contactType: "Customer Support",
+        availableLanguage: ["English", "Hindi"],
       },
       aggregateRating: {
         "@type": "AggregateRating",
@@ -111,6 +135,10 @@ class MyDocument extends Document {
           />
 
           {/* External Google Fonts */}
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="apple-touch-icon" href="/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           {/* Preload the hero heading weight (Poppins 600 latin) to speed up LCP text */}

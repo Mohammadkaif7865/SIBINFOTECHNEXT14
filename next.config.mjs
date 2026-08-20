@@ -373,11 +373,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/seo-consultancy-services-mumbai-india",
-        destination: "/search-engine-optimization-seo-services",
-        permanent: true,
-      },
-      {
         source: "/seo-methodology-mumbai-india",
         destination: "/search-engine-optimization-seo-services",
         permanent: true,
@@ -395,11 +390,6 @@ const nextConfig = {
       {
         source: "/search-engine-optimization-research-mumbai-india",
         destination: "/keyword-research-services-mumbai-india",
-        permanent: true,
-      },
-      {
-        source: "/regional-local-seo-services",
-        destination: "/local-seo-services",
         permanent: true,
       },
       {

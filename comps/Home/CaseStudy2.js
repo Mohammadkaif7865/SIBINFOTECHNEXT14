@@ -114,7 +114,7 @@ const CaseStudy2 = ({ description }) => {
           </div>
           <div className="col-lg-2 ">
             <div className="text-lg-end d-none d-lg-block">
-              <Link href="#" className="btnCase">
+              <Link href="/contact-us" className="btnCase">
                 Case Studies{" "}
               </Link>
             </div>
@@ -129,7 +129,7 @@ const CaseStudy2 = ({ description }) => {
           {/* </span> */}
         </p>
         <div className="text-lg-end d-lg-none  mt-4">
-          <Link href="#" className="btnCase">
+          <Link href="/contact-us" className="btnCase">
             Case Studies{" "}
           </Link>
         </div>
@@ -234,7 +234,7 @@ const CaseStudy2 = ({ description }) => {
                           </div>
                         </div>
                         <div className="caseStudyBottom mt-5">
-                          <Link href="#">Services</Link>
+                          <Link href="/digital-marketing-services">Services</Link>
                           <p className="fontWeight500">{study.services}</p>
                         </div>
                         <div className="caseStudyImgWeb ">

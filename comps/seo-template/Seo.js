@@ -283,9 +283,9 @@ const Seo = () => {
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  Search Engine Optimization Services in India{" "}
+                  Professional SEO Services in India{" "}
                   <span className="text_red fontWeight700">
-                    &amp; SEO Company in Mumbai
+                    &amp; Globally
                   </span>
                 </h1>
                 <p
@@ -676,7 +676,7 @@ const Seo = () => {
         agencyWorkflow={agencyWorkflow}
         title={"Our Proven 6-Step SEO Process"}
         rightDiscription={`The cost of SEO services in Mumbai depends on website size, competition, current visibility, and business goals. At SIB Infotech, we provide customized SEO strategies, including on-page SEO, off-page SEO, technical SEO, content optimization, and monthly reporting, with transparent communication and no long-term lock-in contracts`}
-        // tagline={'Seamless, Scalable, and Results-Driven'}
+      // tagline={'Seamless, Scalable, and Results-Driven'}
       />
       <PartnerBadges />
       <section className=" bgGrey">
@@ -1176,7 +1176,7 @@ const Seo = () => {
         batchtitle={`SEO Pricing Plans`}
         heading={`360° <span class="fontWeight600">SEO</span>
           Solutions`}
-        description={`  Our SEO Packages starts from $250 only. / Starts from: $250/Month  USD only – weak signal for Mumbai keyword.`}
+        description={`  Our SEO Packages starts from $250 only.`}
       />
       <TalkWithExpert
         heading="Are you ready to Expand Your Business online with our SEO Services?"

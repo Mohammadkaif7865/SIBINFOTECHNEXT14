@@ -36,8 +36,7 @@ export default function LinkedinAdsManagementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services
-.webp"
+        content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -55,8 +54,7 @@ export default function LinkedinAdsManagementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services
-.webp"
+        content="https://www.sibinfotech.com/assets/og/linkedin-ads-management-services.webp"
       />
 
       <script

@@ -81,7 +81,7 @@ export default function Portfolio() {
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
                     </span>
                   </Link>
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question

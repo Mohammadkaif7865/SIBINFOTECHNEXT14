@@ -7,6 +7,7 @@ import axios from "axios";
 
 import * as CONSTANTS from "../constants/constants";
 import * as functions from "../functions/functions";
+import { trackLead } from "../functions/analytics";
 
 const basicSkillsOptions = [
   { label: "HTML", value: "HTML" },
@@ -446,6 +447,7 @@ export default function ApplyForm() {
       addCareer().then((data) => {
         if (!data.error) {
           toast.success(data.message);
+          trackLead("career");
           router.push("/");
         } else {
           toast.error(data.message);

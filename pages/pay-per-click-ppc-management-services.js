@@ -14,7 +14,7 @@ export default function PpcManagementServices() {
         name="description"
         content="Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."
       />
-      <meta name="keywords" content="SIB Infotech offers top-rated PPC management services in India. Maximize ROI with Google Ads, Bing & social media ads. Certified PPC experts – contact now." />
+      <meta name="keywords" content="ppc management services india, ppc agency india, ppc company mumbai, pay per click management india, ppc services india, ppc advertising agency, ppc campaign management, ppc expert india, ppc management company, best ppc agency in india" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -23,7 +23,7 @@ export default function PpcManagementServices() {
       />
       <meta
         property="og:title"
-        content="Best PPC Company in India | Top PPC Services Agency 2025"
+        content="Best PPC Company in India | Top PPC Services Agency 2026"
       />
       <meta
         property="og:description"
@@ -41,7 +41,7 @@ export default function PpcManagementServices() {
       />
       <meta
         property="twitter:title"
-        content="Best PPC Company in India | Top PPC Services Agency 2025"
+        content="Best PPC Company in India | Top PPC Services Agency 2026"
       />
       <meta
         property="twitter:description"
@@ -53,7 +53,7 @@ export default function PpcManagementServices() {
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/pay-per-click-ppc-management-services"
-        breadcrumbTitle="Best PPC Company in India | Top PPC Services Agency 2025"
+        breadcrumbTitle="Best PPC Company in India | Top PPC Services Agency 2026"
         PageRatingSchema
         description={
           "Drive exceptional ROI with a certified PPC company in Mumbai, India. SIB Infotech offers top-rated PPC management services to ensure optimal ad performance."

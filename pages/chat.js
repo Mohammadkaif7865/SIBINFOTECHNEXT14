@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import * as CONSTANTS from "@/constants/constants";
 import axios from "axios"; // Make sure this import is present at the top
+import { trackLead } from "@/functions/analytics";
 
 const ChatWithSIBInfotech = () => {
   const [sessionId, setSessionId] = useState(null);
@@ -67,6 +68,7 @@ const ChatWithSIBInfotech = () => {
           { sender: "bot", content: data.response },
         ]);
         setShowModal(false);
+        trackLead("chat");
       } else {
         setErrors({ form: data.error || "Something went wrong" });
       }

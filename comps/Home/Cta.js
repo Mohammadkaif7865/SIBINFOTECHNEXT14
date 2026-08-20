@@ -10,7 +10,7 @@ const Cta = () => {
             We'll do it for you.
           </p>
           <div className="mt-5 d-flex justify-content-center ">
-            <a className="fancy2" href="#">
+            <a className="fancy2" href="/contact-us">
               <span className="top-key"></span>
               <span className="text">Lets Make you Famous</span>
               <span className="bottom-key-1"></span>

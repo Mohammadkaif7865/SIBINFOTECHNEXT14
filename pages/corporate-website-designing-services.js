@@ -194,7 +194,7 @@ export default function CorporateWebsiteDesigningServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -444,7 +444,7 @@ export default function CorporateWebsiteDesigningServices() {
                   #1 Agency for Corporate Website Designing and Development in
                   India with office in Mumbai and Delhi.
                 </h4>
-                <Link href="#">Speak to our experts </Link>
+                <Link href="/contact-us">Speak to our experts </Link>
               </div>
             </div>
           </div>

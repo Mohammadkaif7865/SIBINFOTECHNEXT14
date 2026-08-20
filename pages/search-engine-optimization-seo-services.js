@@ -186,8 +186,7 @@ export default function SearchEngineOptimizationServices() {
   const metaTags = (
     <>
       <title>
-        Search Engine Optimization Services in India | SEO Company in Mumbai |
-        SIB Infotech
+        SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech
       </title>
       <meta
         name="description"
@@ -205,7 +204,7 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="og:title"
-        content="Search Engine Optimization Services in India | SEO Company in Mumbai | SIB Infotech"
+        content="SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech"
       />
       <meta
         property="og:description"
@@ -223,7 +222,7 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="twitter:title"
-        content="Search Engine Optimization Services in India | SEO Company in Mumbai | SIB Infotech"
+        content="SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech"
       />
       <meta
         property="twitter:description"

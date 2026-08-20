@@ -12,11 +12,11 @@ export default function OnlineReputationRepairServices() {
       <title>Online Reputation Repair Services Agency in Mumbai, India</title>
       <meta
         name="description"
-        content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs."
+        content="SIB Infotech offers expert online reputation repair services in Mumbai, India. Remove negative reviews, suppress bad press, and rebuild your brand's digital image with proven ORM strategies."
       />
       <meta
         name="keywords"
-        content="Online Reputation Management Services India, ORM Services, Online Reputation Management Company, best online reputation management company, delete negative links from internet, delete negative links, remove negative links from google search, delete bad l"
+        content="online reputation repair services India, online reputation management company Mumbai, remove negative reviews from Google, suppress negative search results, brand reputation repair agency, ORM services India, fix online reputation, negative content removal services"
       />
 
       <meta property="og:type" content="website" />
@@ -30,7 +30,7 @@ export default function OnlineReputationRepairServices() {
       />
       <meta
         property="og:description"
-        content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs."
+        content="SIB Infotech offers expert online reputation repair services in Mumbai, India. Remove negative reviews, suppress bad press, and rebuild your brand's digital image with proven ORM strategies."
       />
       <meta
         property="og:image"
@@ -48,18 +48,18 @@ export default function OnlineReputationRepairServices() {
       />
       <meta
         property="twitter:description"
-        content="Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs."
+        content="SIB Infotech offers expert online reputation repair services in Mumbai, India. Remove negative reviews, suppress bad press, and rebuild your brand's digital image with proven ORM strategies."
       />
       <meta
         property="twitter:image"
         content="https://www.sibinfotech.com/assets/og/online-reputation-repair-service.webp"
       />
       <BreadcrumbSchema
-        url="https:/www.sibinfotech.com/online-reputation-repair-service"
+        url="https://www.sibinfotech.com/online-reputation-repair-service"
         breadcrumbTitle="Online Reputation Repair Services Agency in Mumbai, India"
         PageRatingSchema
         description={
-          "Restore your online image with reputation repair services by SIB Infotech. Regain your trust with our tailored strategies for personal and business needs."
+          "SIB Infotech offers expert online reputation repair services in Mumbai, India. Remove negative reviews, suppress bad press, and rebuild your brand's digital image with proven ORM strategies."
         }
         reviewCount={"5246"}
       />
@@ -82,7 +82,7 @@ export default function OnlineReputationRepairServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -471,7 +471,7 @@ export default function OnlineReputationRepairServices() {
               Our experienced team is ready to provide you with a FREE
               Consultation to get it started.
             </p>
-            <Link href="#">Speak to our experts</Link>
+            <Link href="/contact-us">Speak to our experts</Link>
           </div>
           <svg
             id="pattner"
