@@ -40,7 +40,7 @@ const Banner = () => {
                     </span>
                   </Link>
 
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question

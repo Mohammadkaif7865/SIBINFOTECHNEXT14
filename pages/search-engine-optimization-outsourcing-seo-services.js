@@ -10,14 +10,14 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function SearchEngineOptimizationOutsourcingSeoServices() {
   const metaTags = (
     <>
-      <title>SEO Outsourcing Company in India | SIB Infotech</title>
+      <title>SEO Outsourcing Company in India | White Label SEO Reseller | SIB Infotech</title>
       <meta
         name="description"
-        content="SIB Infotech – the trusted SEO outsourcing company in India. Scale your agency with white-label reports, expert strategies & guaranteed organic growth."
+        content="SIB Infotech is a leading SEO outsourcing company in India and white label SEO reseller. Scale your agency with expert strategies, transparent reporting & guaranteed organic growth."
       />
       <meta
         name="keywords"
-        content="SEO Outsourcing Company, SEO Outsourcing India, SEO Outsourcing Company India, SEO Outsourcing Services, SEO Outsourcing Services India, SEO Reseller Program, Private Label SEO Reseller Programs, SEO Projects Outsourcing Company India, Outsourcing SEO Pr"
+        content="SEO Outsourcing Company, SEO Outsourcing India, SEO Outsourcing Company India, SEO Outsourcing Services, SEO Outsourcing Services India, SEO Reseller Program, Private Label SEO Reseller Programs, SEO Projects Outsourcing Company India, Outsourcing SEO Projects"
       />
 
       <meta property="og:type" content="website" />
@@ -53,8 +53,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.webp
-"
+        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-outsourcing-seo-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services"
@@ -75,7 +74,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                  SEO OUTSOURCING SERVICES
+                  SEO Outsourcing Services in India | White Label SEO Reseller
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated SEO Outsourcing Company in India
@@ -84,7 +83,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -168,7 +167,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
               <img
                 className="image-full"
                 src="assets/images/outsourcing-seo-comapny.svg"
-                alt="outsourcing-seo-comapny"
+                alt="outsourcing-seo-company"
               />
             </div>
             <div className="col-lg-6">
@@ -304,7 +303,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                     src="assets/images/icons/out-sourcing-seo-agency.svg"
                     alt="out-sourcing-seo-agency"
                   />
-                  <h4>Client Owner Ship - Sell it with you Brand Name</h4>
+                  <h4>Client Ownership - Sell it with your Brand Name</h4>
                 </div>
                 <div className="middle-box">
                   <img
@@ -369,14 +368,14 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                 <div className="middle-box">
                   <img
                     src="assets/images/icons/out-sourcing-guranteed-result.svg"
-                    alt="Out sourcing guarnteed result"
+                    alt="Outsourcing guaranteed result"
                   />
                   <h4>Guaranteed Results</h4>
                 </div>
                 <div className="middle-box">
                   <img
                     src="assets/images/icons/out-sourcing-best-project-management.svg"
-                    alt="Best project managment system"
+                    alt="Best project management system"
                   />
                   <h4>Best Project Management System</h4>
                 </div>
@@ -496,7 +495,9 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
                   We offer highly effective white-hat SEO Reseller Programs
                 </h3>
                 <p className="customText text-center text-white">
-                  We offer highly effective white-hat SEO Reseller Programs
+                  Partner with us as your white-label SEO fulfilment provider
+                  and deliver outstanding results to your clients under your
+                  brand name.
                 </p>
               </div>
             </div>
@@ -529,14 +530,16 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
             </div>
             <div className="col-lg-6">
               <p className="customText">
-                Our services guarantee quality content that is fresh and
-                appealing. We deal efficiently the google rankings of your
-                website by optimizing its content, headlines, and design.
+                Our dedicated SEO team handles everything from keyword research
+                and on-page optimization to link building and technical SEO
+                audits, ensuring your clients achieve higher search rankings
+                and sustained organic traffic growth.
               </p>
               <p className="customText">
-                Our SEO services take the brand to the top shelves of the online
-                world. We ensure that your brand gets the desired exposure it
-                needs.
+                With years of experience serving agencies across the globe, we
+                understand the importance of meeting deadlines, maintaining
+                confidentiality under NDA agreements, and delivering
+                measurable results that keep your clients coming back.
               </p>
             </div>
           </div>

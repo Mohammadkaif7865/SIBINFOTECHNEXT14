@@ -12,7 +12,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
         name="description"
         content="Ensure bug-free, high-performance apps with SIB Infotech’s software testing services. QA automation, manual testing & quality assurance in India."
       />
-      <meta name="keywords" content="QA Testing Services" />
+      <meta name="keywords" content="software testing services, QA testing services, quality assurance company, software testing company in Mumbai, QA automation testing, manual testing services, software quality assurance India, application testing services" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -77,7 +77,7 @@ export default function SoftwareTestingQualityAssuranceServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>

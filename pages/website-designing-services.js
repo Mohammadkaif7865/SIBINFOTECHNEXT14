@@ -15,14 +15,13 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         name="keywords"
-        content="SIB Infotech is a leading web design agency in Mumbai. Get responsive, SEO-friendly, and high-converting websites. Affordable packages – contact us now!"
+        content="web design agency mumbai, website designing services mumbai, website design company india, responsive web design mumbai, affordable website design, web design services india, UI UX design company mumbai"
       />
 
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/website-designing-services
-"
+        content="https://www.sibinfotech.com/website-designing-services"
       />
       <meta
         property="og:title"
@@ -34,8 +33,7 @@ export default function WebsiteDesigningServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/website-designing-services.webp
-"
+        content="https://www.sibinfotech.com/assets/og/website-designing-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />

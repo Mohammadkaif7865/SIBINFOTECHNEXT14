@@ -340,10 +340,7 @@ const WebDevelopment = () => {
       question:
         "What Web Development Platforms do you use for Developing a Website?",
       answer: `<div className="">
-                  <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
-                  <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
-                  <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
-                  <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
+                  <p>We work with a wide range of web development platforms and frameworks to match your project needs. Our expertise includes WordPress, Shopify, Magento, WooCommerce, Joomla, Drupal, Laravel, React.js, Angular, Vue.js, Next.js, and custom-built solutions using PHP, Python, Node.js, and .NET. We recommend the best platform based on your business goals, scalability needs, and budget.</p>
                 </div>`,
     },
     {

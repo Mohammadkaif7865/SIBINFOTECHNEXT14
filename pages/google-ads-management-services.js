@@ -155,7 +155,7 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/images/instagram-ads-business-objective.svg"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -173,7 +173,7 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/images/instagram-ads-business-objective.svg"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
       {/* <BreadcrumbSchema
         url="https://www.sibinfotech.com/google-ads-management-services"

@@ -61,10 +61,7 @@ export default function WebDevelopmentServices() {
       question:
         "What Web Development Platforms do you use for Developing a Website?",
       answer: `<div className="">
-                  <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
-                  <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
-                  <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
-                  <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
+                  <p>We work with a wide range of web development platforms and frameworks to match your project needs. Our expertise includes WordPress, Shopify, Magento, WooCommerce, Joomla, Drupal, Laravel, React.js, Angular, Vue.js, Next.js, and custom-built solutions using PHP, Python, Node.js, and .NET. We recommend the best platform based on your business goals, scalability needs, and budget.</p>
                 </div>`,
     },
     {
@@ -139,8 +136,7 @@ export default function WebDevelopmentServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/website-development-services.webp
-"
+        content="https://www.sibinfotech.com/assets/og/website-development-services.webp"
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/website-development-services"
@@ -172,7 +168,7 @@ export default function WebDevelopmentServices() {
                       <i className="fa-solid fa-comment-dots"></i> Get a Quote
                     </span>
                   </Link>
-                  <Link href="#">
+                  <Link href="/contact-us">
                     <span className="btnThemewhiteBorder">
                       <i className="fa-solid fa-circle-question"></i> Ask a
                       Question
@@ -259,7 +255,7 @@ export default function WebDevelopmentServices() {
                 Hence, attracting enormous traffic with a clear pattern of what
                 services you offer calls for an expert level of digital
                 marketing and{" "}
-                <Link href="#">
+                <Link href="/contact-us">
                   <span className="text_red">web designing services</span>
                 </Link>
                 .

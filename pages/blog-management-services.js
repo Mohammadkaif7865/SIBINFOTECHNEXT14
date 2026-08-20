@@ -81,10 +81,10 @@ export default function BlogManagementServices() {
                   Top Rated Blog Management Company in India
                 </h2>
                 <div className="mt-4">
-                  <Link href="#" className="btnThemeRed me-3">
+                  <Link href="/contact-us" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>

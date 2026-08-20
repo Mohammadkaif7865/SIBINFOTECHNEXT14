@@ -493,7 +493,7 @@ export default function TikTokAdsMangamentServices() {
               <br />
               Advertising Management Agency In india
             </h4>
-            <Link href="#">Speak to our experts</Link>
+            <Link href="/contact-us">Speak to our experts</Link>
           </div>
           <svg
             id="pattner"

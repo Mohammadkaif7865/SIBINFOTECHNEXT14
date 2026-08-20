@@ -46,7 +46,8 @@ const LinkedInAdvertising = () => {
             </p>
             <p className="customText">
               We only do marketing that works. Any business can deal with
-              efficient LinkedIn marketing if
+              efficient LinkedIn marketing if it has the right strategy and
+              expert guidance to back it up.
             </p>
           </div>
         </div>

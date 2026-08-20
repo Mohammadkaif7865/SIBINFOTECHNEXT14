@@ -13,7 +13,7 @@ const Intro = () => {
               with the people that can change your life drastically.
             </p>
             <p className="customText">
-              With around 675+million members it can prove to be a great
+              With over 1 billion members it can prove to be a great
               platform for any company to build a professional identity, access
               market knowledge, grow insight, increase opportunities and engage
               with a professional network.

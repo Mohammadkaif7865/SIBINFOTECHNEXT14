@@ -22,7 +22,7 @@ const WhyNeed = () => {
               </p>
               <p className="customText">
                 Facebook is the most popular social media platform with around
-                2.80 billion monthly active users and the number of users is
+                3.35 billion monthly active users and the number of users is
                 increasing day by day. It is a social network that allows its
                 users to sign-up free accounts, connect with friends,
                 colleagues, family or even strangers. People can share and

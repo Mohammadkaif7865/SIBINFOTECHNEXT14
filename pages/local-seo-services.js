@@ -302,7 +302,7 @@ export default function LocalSeoServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -434,6 +434,34 @@ export default function LocalSeoServices() {
       <Process />
       <Cta3 />
       {/* <Old/> */}
+      <section className="customPadding">
+        <div className="containerFull">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <h2 className="customHeading">
+                Local SEO Services in Mumbai for{" "}
+                <span className="text_red">Local Business Growth</span>
+              </h2>
+              <p className="customText">
+                SIB Infotech offers specialized local SEO services in Mumbai designed to help businesses dominate local search results, Google Maps, and nearby searches. As a trusted local SEO company in Mumbai, we optimize your Google Business Profile, build local citations, and create location-specific content to ensure your business gets found by customers in your area.
+              </p>
+              <p className="customText">
+                Our local SEO services in Mumbai cover all major areas including Andheri, Bandra, Borivali, Dadar, Malad, Thane, Navi Mumbai, and beyond. With over 15 years of experience, our local SEO experts in Mumbai have helped hundreds of businesses increase their local visibility, drive foot traffic, and generate more leads through strategic local search optimization.
+              </p>
+              <p className="customText">
+                Whether you run a restaurant, clinic, retail store, or service-based business in Mumbai, our tailored local SEO strategies ensure you appear prominently when potential customers search for products and services near them. Contact us today to learn how our local SEO services in Mumbai can transform your local online presence.
+              </p>
+            </div>
+            <div className="col-lg-5">
+              <img
+                className="image-full"
+                src="assets/images/local-seo-services-company.webp"
+                alt="Local SEO Services in Mumbai - SIB Infotech"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       <Faqs />
       <Cta2 />
     </CustomLayout>

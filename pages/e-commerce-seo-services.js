@@ -18,14 +18,13 @@ export default function EcommerceSeoServices() {
       />
       <meta
         name="keywords"
-        content="Search Engine Optimization, SEO, Ecommerce SEO, SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce"
+        content="Search Engine Optimization, SEO, Ecommerce SEO, SEO Company, Ecommerce SEO Services, Ecommerce SEO Expert, Ecommerce, E-commerce SEO Services in Mumbai"
       />
 
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/e-commerce-seo-services
-"
+        content="https://www.sibinfotech.com/e-commerce-seo-services"
       />
       <meta
         property="og:title"
@@ -37,12 +36,11 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp
-"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.sibinfotech.com/.webp" />
+      <meta property="twitter:url" content="https://www.sibinfotech.com/e-commerce-seo-services" />
       <meta
         property="twitter:title"
         content="Top eCommerce SEO Services Company in Mumbai, India"
@@ -53,8 +51,7 @@ export default function EcommerceSeoServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp
-"
+        content="https://www.sibinfotech.com/assets/og/e-commerce-seo-services.webp"
       />
 
       <BreadcrumbSchema
@@ -86,7 +83,7 @@ export default function EcommerceSeoServices() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -344,14 +341,12 @@ export default function EcommerceSeoServices() {
                   <h4>Meta description, title tags, and H1s</h4>
                 </div>
                 <p className="customText">
-                  potential customers generally search for products using a few
-                  keywords. The search engine rankings greatly depend on
-                  keywords; integrating the website contents with proper
-                  keywords is known to be a great technique to ensure higher
-                  rankings. The keywords guarantee that the viewer gets what
-                  they have searched for if your website is well-fitted with
-                  trending keywords you are already a step ahead from your
-                  competitors.
+                  Well-crafted meta descriptions, title tags, and H1 headings
+                  are critical for e-commerce SEO. They directly influence
+                  click-through rates from search results. We write compelling,
+                  keyword-rich meta descriptions and unique title tags for every
+                  product and category page to improve visibility and drive
+                  qualified traffic to your store.
                 </p>
               </div>
             </div>
@@ -369,14 +364,11 @@ export default function EcommerceSeoServices() {
                   <h4>URLs</h4>
                 </div>
                 <p className="customText">
-                  potential customers generally search for products using a few
-                  keywords. The search engine rankings greatly depend on
-                  keywords; integrating the website contents with proper
-                  keywords is known to be a great technique to ensure higher
-                  rankings. The keywords guarantee that the viewer gets what
-                  they have searched for if your website is well-fitted with
-                  trending keywords you are already a step ahead from your
-                  competitors.
+                  Clean, descriptive, and keyword-optimized URLs help search
+                  engines understand your product pages faster. We restructure
+                  e-commerce URLs to be short, readable, and include relevant
+                  keywords — replacing dynamic parameter-based URLs that
+                  confuse crawlers and hurt rankings.
                 </p>
               </div>
             </div>
@@ -392,14 +384,11 @@ export default function EcommerceSeoServices() {
                   <h4>Product and category descriptions</h4>
                 </div>
                 <p className="customText">
-                  potential customers generally search for products using a few
-                  keywords. The search engine rankings greatly depend on
-                  keywords; integrating the website contents with proper
-                  keywords is known to be a great technique to ensure higher
-                  rankings. The keywords guarantee that the viewer gets what
-                  they have searched for if your website is well-fitted with
-                  trending keywords you are already a step ahead from your
-                  competitors.
+                  Unique, detailed product and category descriptions help your
+                  e-commerce pages stand out from competitors using manufacturer
+                  content. We craft original, keyword-targeted descriptions that
+                  highlight product benefits, answer buyer questions, and
+                  improve organic rankings for commercial intent searches.
                 </p>
               </div>
             </div>
@@ -827,17 +816,41 @@ export default function EcommerceSeoServices() {
                 How do you do <span>e-Commerce SEO</span> for product pages?
               </h3>
               <p className="customText">
-                Your e-Commerce website is much different than a typical
-                website. You have a web of content from informational pages to
-                products and categories. Optimizing each of these sections and
-                connecting them together in a logical way (i.e., one that
-                "pleases" search engine algorithms) is extremely important for
-                the success of any E-commerce SEO campaign. With hundreds of
-                E-commerce search marketing clients, we have the ability to look
-                at what has worked for them and apply the same strategies to
-                your website. Don't fall for an SEO company who will be learning
-                how to optimize your online store "on the fly" while on the job.
+                Product page SEO goes beyond basic on-page optimization. We
+                optimize product titles with high-intent keywords, craft unique
+                descriptions for each SKU, implement product and review schema
+                markup, compress images without losing quality, and ensure
+                proper internal linking between related products and categories.
+                Every product page is treated as a landing page designed to
+                convert search traffic into sales.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="containerFull">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <h3 className="customHeading">
+                <span className="text_red">E-Commerce SEO Services</span> in Mumbai
+              </h3>
+              <p className="customText">
+                SIB Infotech is a leading provider of e-commerce SEO services in Mumbai, helping online stores dominate local and national search results. Our team of e-commerce SEO experts in Mumbai understands the unique challenges faced by online retailers in the Mumbai market and creates customized strategies to maximize your store's visibility and sales.
+              </p>
+              <p className="customText">
+                Whether you are a Mumbai-based e-commerce startup or an established online retailer, our tailored e-commerce SEO services in Mumbai include product page optimization, category structure improvements, technical SEO audits, schema markup implementation, and conversion rate optimization. We work with all major e-commerce platforms including Shopify, WooCommerce, Magento, and custom-built stores.
+              </p>
+              <p className="customText">
+                Our proven e-commerce SEO strategies have helped Mumbai businesses increase organic traffic by up to 300% and boost online sales significantly. Contact us today for a free e-commerce SEO audit and discover how we can transform your online store's performance.
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <img
+                className="image-full"
+                src="assets/images/ecommerce-seo-product-pages.svg"
+                alt="E-Commerce SEO Services in Mumbai - SIB Infotech"
+              />
             </div>
           </div>
         </div>

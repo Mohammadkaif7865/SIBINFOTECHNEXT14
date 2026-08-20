@@ -9,12 +9,12 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function RegionalLocalSeoServices() {
   const metaTags = (
     <>
-      <title>Regional SEO Services in Mumbai, India | SIB Infotech</title>
+      <title>Local SEO Services in Navi Mumbai | SEO Service Provider | SIB Infotech</title>
       <meta
         name="description"
-        content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!"
+        content="Looking for local SEO services in Navi Mumbai? SIB Infotech is a trusted SEO service provider in Navi Mumbai offering regional SEO services to boost your local search rankings. Get started today!"
       />
-      <meta name="keywords" content="Regional SEO" />
+      <meta name="keywords" content="local seo services in navi mumbai,seo service in navi mumbai,seo service provider in navi mumbai" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -23,11 +23,11 @@ export default function RegionalLocalSeoServices() {
       />
       <meta
         property="og:title"
-        content="Regional SEO Services in Mumbai, India | SIB Infotech"
+        content="Local SEO Services in Navi Mumbai | SEO Service Provider | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!"
+        content="Looking for local SEO services in Navi Mumbai? SIB Infotech is a trusted SEO service provider in Navi Mumbai offering regional SEO services to boost your local search rankings. Get started today!"
       />
       <meta
         property="og:image"
@@ -41,11 +41,11 @@ export default function RegionalLocalSeoServices() {
       />
       <meta
         property="twitter:title"
-        content="Regional SEO Services in Mumbai, India | SIB Infotech"
+        content="Local SEO Services in Navi Mumbai | SEO Service Provider | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!"
+        content="Looking for local SEO services in Navi Mumbai? SIB Infotech is a trusted SEO service provider in Navi Mumbai offering regional SEO services to boost your local search rankings. Get started today!"
       />
       <meta
         property="twitter:image"
@@ -53,10 +53,10 @@ export default function RegionalLocalSeoServices() {
       />
       <BreadcrumbSchema
         url="https:/www.sibinfotech.com/regional-local-seo-services"
-        breadcrumbTitle="Regional SEO Services in Mumbai, India | SIB Infotech"
+        breadcrumbTitle="Local SEO Services in Navi Mumbai | SEO Service Provider"
         PageRatingSchema
         description={
-          "Reach your customers with expert regional SEO services in Mumbai. Improve your regional search rankings for your business. Get started with SIB Infotech today!"
+          "Looking for local SEO services in Navi Mumbai? SIB Infotech is a trusted SEO service provider in Navi Mumbai offering regional SEO services to boost your local search rankings. Get started today!"
         }
         reviewCount={"5264"}
       />
@@ -70,16 +70,16 @@ export default function RegionalLocalSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                Regional SEO Services to Boost Your Local Reach
+                Local SEO Services in Navi Mumbai
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                Expert Google Local Listing Company in India
+                Trusted SEO Service Provider in Navi Mumbai
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -130,27 +130,17 @@ export default function RegionalLocalSeoServices() {
           <div className="row align-items-center mt-4">
             <div className="col-lg-7">
               <h3 className="customHeading customLineHeight">
-                <span className="text_red">Search Engine</span> generate
-                different results for different locality, these results are
-                establish on search engines reading of websites location.
+                <span className="text_red">Local SEO Services</span> to
+                Dominate Your Navi Mumbai Market
               </h3>
               <p className="customText">
-                SIB Infotech present to offer regional SEO services to make you
-                ensure that key definite keywords make needed results in
-                recognized local area and therefore optimizing efforts and
-                expense.
+                SIB Infotech is a leading SEO service in Navi Mumbai helping businesses improve their local search visibility. Our local SEO services in Navi Mumbai are designed to ensure your business appears prominently in local search results, Google Maps, and nearby searches. As a trusted SEO service provider in Navi Mumbai, we understand the unique challenges of targeting the Navi Mumbai market.
               </p>
               <p className="customText">
-                Marketers agree that email is a key to business, especially for
-                ROI and developing long-lasting profitable relationships. A
-                personalized, segmented and targeted email marketing campaign is
-                important for brand awareness and drive conversions.
+                Our regional SEO services cover everything from Google Business Profile optimization, local citation building, and location-specific content creation to review management. Whether you operate in Vashi, Nerul, Belapur, Kharghar, or any other part of Navi Mumbai, our team ensures your business gets found by local customers searching for your products and services.
               </p>
               <p className="customText">
-                Our experts use tools, strategy, implementation and result
-                tracking in order to achieve the best possible brand engagement.
-                We can take care of your complete email marketing strategy from
-                template design to tracking and reporting.
+                With years of experience providing local SEO services in Navi Mumbai, we have helped hundreds of businesses increase their local foot traffic and online inquiries. Our data-driven approach combines on-page optimization with local link building and geo-targeted content strategies to deliver sustainable results.
               </p>
             </div>
             <div className="col-lg-5">

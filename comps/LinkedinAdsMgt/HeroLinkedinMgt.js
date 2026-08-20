@@ -21,7 +21,7 @@ const HeroLinkedinMgt = () => {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -38,7 +38,7 @@ const HeroLinkedinMgt = () => {
                   <strong className="fontWeight600 text_red">
                     Best{" "}
                     <span className="textChange">LinkedIn Ads Management </span>{" "}
-                    Servises in India
+                    Services in India
                   </strong>
                 </p>
                 <BannerForm />

@@ -79,7 +79,7 @@ export default function SearchEngineOptimizationSeoServicesPackages() {
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote
                   </Link>
-                  <Link href="#" className="btnThemewhiteBorder">
+                  <Link href="/contact-us" className="btnThemewhiteBorder">
                     <i className="fa-solid fa-circle-question"></i> Ask a
                     Question
                   </Link>
@@ -145,7 +145,7 @@ export default function SearchEngineOptimizationSeoServicesPackages() {
                     <br />
                     CONVERSIONS
                   </p>
-                  <Link className="green-btn" href="#">
+                  <Link className="green-btn" href="/contact-us">
                     CALL US NOW
                   </Link>
                 </div>

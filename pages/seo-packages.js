@@ -117,7 +117,7 @@ export default function SeoPackages() {
       />
       <meta
         name="keywords"
-        content="SEO packages India, monthly SEO packages India, SEO pricing India, affordable SEO packages, SEO plans India, SEO packages Mumbai, SEO retainer, monthly SEO plan, on-page SEO included, link building package, technical SEO audit, keyword research, content creation, monthly reporting, SEO ROI"
+        content="SEO packages India, monthly SEO packages India, SEO pricing India, affordable SEO packages, SEO plans India, SEO packages Mumbai, SEO retainer, monthly SEO plan, on-page SEO included, link building package, technical SEO audit, keyword research, content creation, monthly reporting, SEO ROI, affordable SEO packages in Mumbai"
       />
 
       <meta property="og:type" content="website" />
