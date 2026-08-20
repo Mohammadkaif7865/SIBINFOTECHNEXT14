@@ -135,6 +135,10 @@ class MyDocument extends Document {
           />
 
           {/* External Google Fonts */}
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="apple-touch-icon" href="/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           {/* Preload the hero heading weight (Poppins 600 latin) to speed up LCP text */}
