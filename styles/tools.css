@@ -1,0 +1,446 @@
+/* Free SEO Tools Styling */
+
+.tool-card-wrapper {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.tool-card-wrapper:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.tool-header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(220, 38, 38, 0.08);
+  color: #dc2626;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+/* SERP Simulator Preview Box */
+.serp-preview-box {
+  background: #ffffff;
+  border: 1px solid #dfe1e5;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  font-family: arial, sans-serif;
+}
+
+.serp-preview-box.dark-mode {
+  background: #202124;
+  border-color: #3c4043;
+  color: #bdc1c6;
+}
+
+.serp-url-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #202124;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.dark-mode .serp-url-row {
+  color: #bdc1c6;
+}
+
+.serp-favicon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f1f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.serp-site-name {
+  font-weight: 400;
+  color: #202124;
+  font-size: 14px;
+}
+
+.dark-mode .serp-site-name {
+  color: #e8eaed;
+}
+
+.serp-breadcrumb {
+  color: #4d5156;
+  font-size: 12px;
+}
+
+.dark-mode .serp-breadcrumb {
+  color: #bdc1c6;
+}
+
+.serp-title {
+  color: #1a0dab;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 4px;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.serp-title:hover {
+  text-decoration: underline;
+}
+
+.dark-mode .serp-title {
+  color: #8ab4f8;
+}
+
+.serp-description {
+  color: #4d5156;
+  font-size: 14px;
+  line-height: 1.58;
+  word-wrap: break-word;
+}
+
+.dark-mode .serp-description {
+  color: #bdc1c6;
+}
+
+.serp-date {
+  color: #70757a;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+/* Social Card Previews */
+.social-card-fb {
+  border: 1px solid #dadde1;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f2f3f5;
+}
+
+.social-card-tw {
+  border: 1px solid #e1e8ed;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.social-card-img-placeholder {
+  width: 100%;
+  height: 200px;
+  background: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+}
+
+/* Code Output Area */
+.code-output-container {
+  position: relative;
+  background: #1e1e2e;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.code-output-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #181825;
+  padding: 0.6rem 1.2rem;
+  border-bottom: 1px solid #313244;
+  color: #a6adc8;
+  font-size: 0.85rem;
+  font-family: monospace;
+}
+
+.code-output-body {
+  padding: 1.25rem;
+  color: #cdd6f4;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+/* Progress Meters */
+.progress-meter {
+  height: 8px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+
+.progress-meter-bar {
+  height: 100%;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.bg-meter-green {
+  background-color: #10b981;
+}
+
+.bg-meter-yellow {
+  background-color: #f59e0b;
+}
+
+.bg-meter-red {
+  background-color: #ef4444;
+}
+
+/* Tool Grid Cards for Tools Hub */
+.tool-grid-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.tool-grid-card:hover {
+  transform: translateY(-5px);
+  border-color: #dc2626;
+  box-shadow: 0 20px 40px rgba(220, 38, 38, 0.08);
+}
+
+.tool-icon-wrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(220, 38, 38, 0.08);
+  color: #dc2626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tool-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.tool-desc {
+  font-size: 0.92rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.tool-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #dc2626;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.tool-link-btn:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+
+/* Tabs and Badges */
+.custom-tool-tab .nav-link {
+  color: #475569;
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0;
+}
+
+.custom-tool-tab .nav-link.active {
+  color: #dc2626;
+  border-bottom-color: #dc2626;
+  background: transparent;
+}
+
+/* Asset Gallery */
+.envato-hero-banner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #1e293b 100%);
+  color: #ffffff;
+  padding: 4.5rem 0 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.envato-hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -20%;
+  width: 140%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+  pointer-events: none;
+}
+
+.asset-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.asset-card:hover {
+  transform: translateY(-6px);
+  border-color: #6366f1;
+  box-shadow: 0 20px 35px rgba(99, 102, 241, 0.12);
+}
+
+.asset-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #f8fafc;
+  overflow: hidden;
+}
+
+.asset-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.asset-card:hover .asset-img-wrapper img {
+  transform: scale(1.06);
+}
+
+.asset-format-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+.asset-free-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #10b981;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 50px;
+}
+
+.asset-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.asset-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+}
+
+.asset-meta {
+  font-size: 0.85rem;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.envato-download-btn {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  padding: 0.65rem 1.25rem;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.envato-download-btn:hover {
+  background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.35);
+}
+
+/* Custom Asset Modal Fixes */
+.custom-asset-modal .modal-dialog {
+  max-width: 880px !important;
+}
+
+.custom-asset-modal .modal-content {
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.asset-modal-img-container {
+  width: 100%;
+  height: 320px;
+  background: #f8fafc;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.asset-modal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.asset-detail-list .list-group-item {
+  border-color: #f1f5f9;
+  padding: 0.65rem 0;
+  font-size: 0.9rem;
+}
