@@ -3,4 +3,6 @@ Disallow: /_next/image
 Disallow: /*?trk=
 Disallow: /*?utm_
 
+# LLM & AI Discoverability
+# LLMs.txt: https://www.sibinfotech.com/llms.txt
 Sitemap: https://www.sibinfotech.com/sitemap.xml

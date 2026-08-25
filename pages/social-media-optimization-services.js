@@ -11,6 +11,7 @@ import SmoFaq from "@/comps/SmoPage/Smofaq";
 import WhatisSmo from "@/comps/SmoPage/WhatisSmo";
 import SIBPower from "@/comps/Home/SIBPower";
 import SmowebServices from "@/comps/SmoPage/SmowebServices";
+import InstagramReels from "@/comps/SmoPage/InstagramReels";
 import Solution from "@/comps/WhiteLabel/Solution";
 import {
   FaBullhorn,
@@ -300,6 +301,7 @@ export default function SocialMediaOptimizationServices() {
 
       <Smoservices />
       <SmowebServices />
+      <InstagramReels />
       <Solution
         heading={"Why SIB Infotech As Your Social Media Marketing Agency?  "}
         // subHeading={"With Our Cutting-Edge SEO Services in India"}

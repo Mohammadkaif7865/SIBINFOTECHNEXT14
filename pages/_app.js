@@ -10,6 +10,7 @@ import "../styles/responsive.css";
 
 import "../styles/blog.css";
 import "../styles/chatbot.css";
+import "../styles/tools.css";
 
 // test
 function MyApp({ Component, pageProps }) {
