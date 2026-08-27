@@ -246,6 +246,7 @@ export default function PerplexityPpcServicesPage() {
       "Stop guessing at your ad spend. Our Perplexity PPC services use AI-driven insights for keyword targeting, ad copy generation, and campaign analysis. Maximize ROI with Perplexity AI marketing.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

@@ -439,6 +439,7 @@ export default function ClaudeSeoService() {
       "Create content that ranks on Google and gets cited in AI answers. Build visibility, authority & traffic with Claude SEO services. Book your free audit today.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

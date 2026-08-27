@@ -155,76 +155,6 @@ export default function SearchEngineOptimizationServices() {
       ],
     },
   };
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Which is the best SEO company in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SIB Infotech is among the best SEO companies in Mumbai, operating since 2005 as a Google Premier Partner (top 3% of agencies in India). We have ranked 1000+ brands across 40+ countries and are listed on Clutch and DesignRush among the top SEO companies in Mumbai. Our Mumbai SEO team works from Malad West and serves clients across Andheri, Bandra, BKC, Powai, Lower Parel, Thane and Navi Mumbai.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much do SEO services in Mumbai cost?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO services in Mumbai typically cost between Rs. 25,000 and Rs. 2,50,000 per month depending on competition, website size and the number of keywords. At SIB Infotech, SEO packages in Mumbai start at Rs. 25,000 per month (approximately $250) for small businesses, Rs. 60,000 per month for growth-stage brands, and custom pricing for enterprise and e-commerce SEO. There are no lock-in contracts.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What does an SEO agency in Mumbai actually do?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An SEO agency in Mumbai improves your website's visibility in Google search results for the queries your customers use. At SIB Infotech this covers a technical SEO audit, on-page optimization, keyword research mapped to Mumbai search intent, content creation, local SEO and Google Business Profile optimization, authority link building, and AI search optimization for ChatGPT, Gemini and Google AI Overviews. You get a dedicated account manager and monthly reporting.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to show results in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Most Mumbai businesses see measurable movement within 60 to 90 days and meaningful first-page rankings within 4 to 6 months. Local SEO in Mumbai, such as ranking in Google Maps for 'near me' searches, often shows results faster, typically in 30 to 60 days. Competitive commercial keywords like 'seo company in mumbai' take longer because established competitors hold years of accumulated authority.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you provide SEO services across all areas of Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. SIB Infotech provides SEO services across the whole Mumbai Metropolitan Region, including Andheri East and West, Bandra, Bandra Kurla Complex (BKC), Malad, Goregaon, Powai, Lower Parel, Worli, Dadar, Nariman Point, Borivali, Vile Parle, Chembur, Thane and Navi Mumbai (Vashi, Belapur, Kharghar). Our office is in Malad West and we offer in-person strategy meetings anywhere in Mumbai.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I choose the right SEO expert in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Check for verifiable credentials such as Google Premier Partner status, ask for case studies with real traffic and revenue numbers rather than only ranking screenshots, confirm you get a named account manager instead of a ticket queue, insist on transparent monthly reporting, and avoid anyone guaranteeing a #1 ranking. Also ask which link-building methods they use, because low-quality links cause Google penalties.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is local SEO different from regular SEO in Mumbai?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Local SEO targets location-based searches such as 'SEO company near me' or 'digital marketing agency in Andheri' and focuses on your Google Business Profile, local citations, reviews and map pack visibility. Regular SEO targets broader commercial and informational keywords across organic listings. Most Mumbai businesses need both, and SIB Infotech includes local SEO in every Mumbai SEO package.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer a free SEO audit for Mumbai businesses?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. SIB Infotech offers a free SEO audit covering technical health, Core Web Vitals, on-page gaps, backlink profile quality, keyword opportunities and a competitor comparison against the SEO companies currently ranking in Mumbai. The audit is delivered as an actionable report with prioritized fixes and there is no obligation to sign up.",
-        },
-      },
-    ],
-  };
   const metaTags = (
     <>
       {/*
@@ -303,12 +233,6 @@ export default function SearchEngineOptimizationServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(webPageSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

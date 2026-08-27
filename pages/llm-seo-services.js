@@ -53,44 +53,6 @@ export default function LlmSeoServices() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is LLM SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "LLM SEO is the practice of building brand authority and citation presence that causes large language models like ChatGPT, Gemini, and Perplexity to mention and recommend your brand in their responses.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do you get a brand mentioned in ChatGPT?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Brands appear in ChatGPT responses through a combination of strong entity authority (being consistently represented across authoritative web sources), frequent mentions in high-quality publications that are indexed and used by AI systems, and AI-optimised content that directly answers relevant queries.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does LLM SEO take?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Influencing real-time retrieval platforms like Perplexity can show results within 4 to 8 weeks of strong content and citation building. Influencing base LLM training data is a longer-term effort measured in months to years. We focus on retrieval-based LLM SEO for faster results.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can LLM SEO be measured?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We track brand mentions in ChatGPT, Perplexity, and Gemini for a defined set of target queries monthly, reporting on mention frequency, context quality, and competitive share of AI voice.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -152,12 +114,6 @@ export default function LlmSeoServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

@@ -16,6 +16,7 @@ export default function DigitalMarketingServices() {
       "SIB Infotech provides comprehensive digital marketing services in India including SEO, PPC, social media marketing, content marketing, email marketing, and web analytics for businesses across Mumbai, Delhi, and 40+ countries.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
     },

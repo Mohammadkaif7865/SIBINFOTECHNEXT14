@@ -480,6 +480,7 @@ export default function GeminiSeoService() {
       "Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

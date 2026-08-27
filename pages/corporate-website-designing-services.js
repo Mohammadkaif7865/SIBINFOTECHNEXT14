@@ -68,6 +68,7 @@ export default function CorporateWebsiteDesigningServices() {
 
             provider: {
               "@type": "Organization",
+              "@id": "https://www.sibinfotech.com/#organization",
               name: "SIB Infotech",
               url: "https://www.sibinfotech.com",
               logo: {

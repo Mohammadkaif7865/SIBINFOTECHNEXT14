@@ -230,49 +230,7 @@ export default function LocalSeoServices() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What is local SEO and how does it help my business?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Local SEO optimizes your online presence so your business appears in Google Maps and local search results when nearby customers search for your products or services. It includes Google Business Profile optimization, local citations, and location-based keyword targeting.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does local SEO cost in India?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Local SEO packages in India typically range from ₹10,000 to ₹40,000 per month depending on the number of locations, competition level, and services included. SIB Infotech offers transparent monthly packages with no lock-in contracts.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How long does it take to see results from local SEO?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Most businesses see measurable improvements in Google Maps rankings and local search visibility within 2 to 4 months of starting local SEO. Highly competitive niches may take 4 to 6 months.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can SIB Infotech manage local SEO for multiple locations?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. SIB Infotech specializes in multi-location local SEO for brands with branches across Mumbai, Delhi, Bengaluru, and other cities. We create dedicated location pages, manage multiple Google Business Profiles, and build city-specific citations.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
+      
 
       <script
         type="application/ld+json"

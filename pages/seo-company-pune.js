@@ -53,60 +53,6 @@ export default function SeoCompanyPune() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How much does SEO cost for a Pune business?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Our Pune SEO packages start from Rs. 20,000 per month for small and local businesses. Mid-size IT companies typically invest Rs. 40,000 to Rs. 80,000 per month.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is SIB Infotech a good choice for Pune IT companies?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We have specific experience in SEO for IT companies, SaaS businesses, and software service providers and understand B2B decision-maker keywords.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long before we see SEO results in Pune?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Initial ranking improvements are typically visible within 3 months. Meaningful organic traffic growth usually develops between months 4 and 6.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer local SEO for Pune retail businesses?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Our local SEO service includes Google Business Profile optimisation, local citation management, review strategy, and geo-targeted content.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can SIB Infotech work with Pune-based startups on a budget?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Absolutely. We offer flexible engagement models for early-stage Pune startups prioritising high-ROI quick wins within constrained budgets.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the difference between hiring an SEO agency versus an in-house SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An agency provides access to a full team of specialists for the cost of a single in-house hire. SIB Infotech brings 18 years of expertise and enterprise-grade tools to every engagement.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -167,12 +113,6 @@ export default function SeoCompanyPune() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

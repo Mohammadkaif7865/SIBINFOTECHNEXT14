@@ -174,6 +174,7 @@ export default function AiSeoServices() {
       "Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings across Google and AI search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

@@ -59,44 +59,6 @@ export default function WooCommerceSeoServices() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Is WooCommerce SEO harder than Shopify SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Neither is harder — they are different. WooCommerce offers more flexibility but creates more surface area for SEO problems (plugin conflicts, crawl waste, database performance). Shopify has fixed limitations that require workarounds. Both benefit significantly from platform-specific expertise.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do I need Yoast SEO for WooCommerce?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "A dedicated SEO plugin like Yoast SEO or RankMath is strongly recommended for any WooCommerce store. It handles meta output, XML sitemaps, schema markup, and breadcrumbs more efficiently than manual implementation. We configure whichever plugin you prefer to WooCommerce-specific best practices.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do I handle SEO for WooCommerce product variations?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Product variations in WooCommerce (e.g., a shirt in 5 colours and 4 sizes) create URL parameter combinations that can generate hundreds of near-duplicate pages. We implement canonical tags pointing all variation URLs to the parent product page, consolidating ranking signals and preventing crawl budget waste.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you improve my WooCommerce store's Google PageSpeed score?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. WooCommerce site speed is a specific area of expertise. We address all common WooCommerce performance issues: unoptimised images, plugin script bloat, database query inefficiency, lack of caching, and missing CDN configuration. Our standard target is a mobile PageSpeed Insights score above 80.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -158,12 +120,6 @@ export default function WooCommerceSeoServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

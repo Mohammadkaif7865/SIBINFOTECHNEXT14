@@ -421,6 +421,7 @@ export default function PerplexitySeoService() {
       "Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered, build authority and drive traffic from AI search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

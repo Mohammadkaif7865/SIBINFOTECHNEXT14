@@ -69,44 +69,6 @@ export default function SeoPackages() {
     ],
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is included in every SIB Infotech SEO package?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Every package includes keyword research, technical SEO audit and fixes, on-page optimisation, content creation, link building, schema markup, and monthly reporting with a dedicated account manager.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does SEO cost in India in 2026?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Quality SEO services in India start from Rs. 20,000 to Rs. 30,000 per month for small to medium businesses. Competitive national campaigns typically require Rs. 50,000 to Rs. 1,20,000 per month.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the minimum contract duration?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We offer flexible, month-to-month engagements. There is no lock-in period.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer custom enterprise SEO packages?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. For large websites with 10,000+ pages, multi-location businesses, and enterprise brands, we build custom packages with dedicated team allocation.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -160,12 +122,6 @@ export default function SeoPackages() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(productSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

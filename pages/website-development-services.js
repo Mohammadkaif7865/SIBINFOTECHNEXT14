@@ -89,18 +89,6 @@ export default function WebDevelopmentServices() {
     },
   ];
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqsData.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer.replace(/<[^>]+>/g, "").trim(),
-      },
-    })),
-  };
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -112,6 +100,7 @@ export default function WebDevelopmentServices() {
       "Professional website development services in Mumbai including WordPress, Shopify, React, Next.js, and custom e-commerce websites. Trusted by 500+ clients.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
     },
@@ -977,12 +966,6 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section> */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

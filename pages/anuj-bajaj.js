@@ -83,6 +83,7 @@ export default function AnujBajajPage() {
               jobTitle: "Founder & CEO / Managing Director",
               worksFor: {
                 "@type": "Organization",
+                "@id": "https://www.sibinfotech.com/#organization",
                 name: "SIB Infotech",
                 url: "https://www.sibinfotech.com",
               },

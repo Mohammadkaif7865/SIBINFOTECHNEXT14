@@ -53,44 +53,6 @@ export default function GooglePenaltyRecovery() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How do I know if my website has a Google penalty?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Your organic traffic dropped sharply (50%+) suddenly, you received a Google Search Console manual action notification, or your rankings disappeared around the time of a known Google algorithm update.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the difference between a manual penalty and an algorithmic penalty?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "A manual action is applied by a Google reviewer and is visible in Search Console. An algorithmic penalty is an automatic re-evaluation during a Google algorithm update such as Helpful Content or Penguin.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is included in penalty recovery?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We provide free penalty diagnosis, backlink audit, content audit, link removal outreach, disavow file submission, reconsideration request (for manual actions), and post-recovery monitoring.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does Google penalty recovery take?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Manual action recovery after a successful reconsideration request typically takes 2 to 4 weeks for Google to process. Algorithmic recovery depends on the next algorithm refresh, which can be 2 to 6 months.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -152,12 +114,6 @@ export default function GooglePenaltyRecovery() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

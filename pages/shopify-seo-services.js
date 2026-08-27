@@ -59,60 +59,6 @@ export default function ShopifySeoServices() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How is Shopify SEO different from WooCommerce SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Shopify and WooCommerce both require ecommerce SEO but have different technical architectures. Shopify has specific challenges with duplicate URLs, fixed URL structures, and theme-based speed issues. WooCommerce offers more flexibility but requires more careful plugin management for SEO.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you help if my Shopify store already has an SEO app installed?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Apps like SEO Manager and Smart SEO are useful tools but they do not replace a comprehensive SEO strategy. We audit your existing app settings, identify any conflicts or limitations, and build a full SEO strategy that uses your apps effectively alongside direct technical optimisation.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How many pages should I optimise first on a Shopify store?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We prioritise in order of revenue potential: collection (category) pages first, then the top 20% of product pages by sales volume, then new collection pages for high-opportunity keywords, then the blog.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long before Shopify SEO shows results?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Technical fixes and collection page optimisations typically produce initial ranking improvements within 6 to 8 weeks. Meaningful organic traffic growth develops by month 4 to 5. Full organic revenue impact develops over 6 to 9 months.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer WooCommerce SEO as well?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We offer dedicated WooCommerce SEO services covering the platform's specific technical considerations and plugin ecosystem.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Does Shopify SEO help with Google Shopping?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Our Shopify SEO work, particularly Product schema implementation, directly improves your Google Shopping feed quality. We also optimise product titles and descriptions using best practices shared between organic SEO and Google Shopping.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -174,12 +120,6 @@ export default function ShopifySeoServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

@@ -491,6 +491,7 @@ export default function GeminiPpcServicesPage() {
       "Unlock next-level ROI with expert Gemini PPC services. Leverage AI-driven ad copywriting, automation, and paid marketing strategy for Google Ads",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

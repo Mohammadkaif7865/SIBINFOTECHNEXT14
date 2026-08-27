@@ -408,6 +408,7 @@ export default function ChatgptPpcServices() {
       "Maximize ad performance with ChatGPT PPC services by SIB Infotech. Reach the right audience, boost conversions, improve ROI, and scale campaigns faster.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

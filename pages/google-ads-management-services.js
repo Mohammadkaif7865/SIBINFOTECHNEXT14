@@ -78,6 +78,7 @@ export default function GoogleAdsManagementServices() {
       "Professional Google Ads management services including campaign setup, keyword research, ad optimization, conversion tracking, audience targeting, remarketing, landing page analysis, and performance reporting to help businesses improve lead generation and return on ad spend.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
     },
@@ -112,18 +113,6 @@ export default function GoogleAdsManagementServices() {
     ],
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqsData.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer.replace(/<[^>]+>/g, "").trim(),
-      },
-    })),
-  };
 
   const metaTags = (
     <>
@@ -203,12 +192,6 @@ export default function GoogleAdsManagementServices() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
       <Faq title={"Frequently Asked Questions"} faqsData={faqsData} />
     </CustomLayout>
   );

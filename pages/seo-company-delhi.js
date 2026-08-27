@@ -53,60 +53,6 @@ export default function SeoCompanyDelhi() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Does SIB Infotech have an office in Delhi?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. SIB Infotech has a Delhi office in addition to our Mumbai headquarters. Delhi NCR clients can meet our team in person.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does SEO cost in Delhi?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Our monthly packages start from Rs. 25,000 per month for local businesses. We also offer enterprise-level SEO for large Delhi businesses. Every engagement begins with a free SEO audit.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you help with SEO for both Delhi and Gurgaon?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We provide SEO services across the entire Delhi NCR region, including Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to work in a competitive market like Delhi?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Delhi is a competitive market so realistic timelines are 4 to 6 months for initial ranking improvements and 6 to 12 months for substantial organic traffic growth.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer Google Ads alongside SEO in Delhi?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. SIB Infotech is a Google Premier Partner and manages Google Ads campaigns for Delhi businesses in addition to SEO.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which industries do you serve in Delhi NCR?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We serve businesses across all major Delhi NCR industries including real estate, retail, healthcare, education, manufacturing, FMCG, B2B services, legal, and e-commerce.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -167,12 +113,6 @@ export default function SeoCompanyDelhi() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

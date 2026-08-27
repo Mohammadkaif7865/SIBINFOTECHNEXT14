@@ -53,36 +53,6 @@ export default function TechnicalSeoServices() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is technical SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Technical SEO optimises a website's infrastructure so search engines can efficiently crawl, render, index, and rank its pages. It covers Core Web Vitals, crawlability, JavaScript rendering, structured data, and site architecture.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are the Core Web Vitals targets?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Google's targets are LCP under 2.5 seconds, INP under 200ms, and CLS under 0.1. We audit and improve all three metrics as part of every technical SEO engagement.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you fix JavaScript SEO issues?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We audit sites built with React, Angular, Next.js, and Vue for rendering challenges, identify unindexed content, and provide SSR or SSG implementation recommendations.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -144,12 +114,6 @@ export default function TechnicalSeoServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

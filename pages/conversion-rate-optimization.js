@@ -53,36 +53,6 @@ export default function ConversionRateOptimization() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is Conversion Rate Optimisation (CRO)?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "CRO is the systematic process of increasing the percentage of website visitors who complete a desired action — a purchase, enquiry, form fill, or call — by removing barriers and improving user experience.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What CRO tools does SIB Infotech use?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We use Hotjar for heatmaps, scroll maps, and session recordings, and VWO (Visual Website Optimizer) for A/B and multivariate testing. Google Analytics 4 provides attribution and funnel data.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How is CRO different from SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO brings more visitors to your site. CRO ensures those visitors convert at their maximum potential. Combined, they create a compounding revenue engine: more qualified traffic converting at a higher rate.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -144,12 +114,6 @@ export default function ConversionRateOptimization() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

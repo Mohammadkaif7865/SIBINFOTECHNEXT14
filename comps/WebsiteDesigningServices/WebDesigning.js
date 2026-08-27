@@ -148,18 +148,6 @@ const WebDesigning = () => {
     answer: `<div className="accordion-body"><p>Review the company's portfolio, design quality, mobile responsiveness, UX approach, revision policy, ownership terms, development capabilities, and pricing.</p></div>`,
   },
 ];
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqsData.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer.replace(/<[^>]+>/g, ""),
-      },
-    })),
-  };
   // const faqsData = [
   //   {
   //     id: "faq1",
@@ -643,12 +631,6 @@ const WebDesigning = () => {
       <Engagement />
       <DigitalMarketingWebAgency />
       
-    <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
 
  
       <Faq
