@@ -468,6 +468,12 @@ const SeoBangaloreMgt = () => {
         }
         links={[
           {
+            title: "Top SEO Company in Mumbai",
+            description:
+              "End-to-end SEO across Andheri, Bandra, BKC, Powai, Thane and Navi Mumbai. Free SEO audit.",
+            href: "/search-engine-optimization-seo-services",
+          },
+          {
             title: "SEO Company in Delhi",
             href: "/seo-company-delhi",
             description:

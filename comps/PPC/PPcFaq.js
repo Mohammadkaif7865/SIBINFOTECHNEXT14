@@ -15,46 +15,20 @@ const faqDiscription = `
 
 const faqsData = [
   {
-    id: "faq15",
-    question: "What is PPC?  ",
-    answer: `<div className="accordion-body"><p>Advertisers using the PPC model of online advertising pay a fee each time a click is made on their ad.  </p></div>`,
+    id: "faq1",
+    question: "What is PPC management?",
+    answer: `<div className="accordion-body"><p>PPC management involves planning, launching, monitoring, and optimizing paid advertising campaigns such as Google Ads and social media advertising to improve clicks, leads, sales, and return on ad spend.</p></div>`,
   },
   {
-    id: "faq16",
-    question: "How does PPC work?  ",
-    answer: `<div className="accordion-body"><p>The process of PPC marketing is quite simple. In essence, you make an advertisement, decide on your targeting and budget, and then run it.  </p></div>`,
+    id: "faq2",
+    question: "What is included in PPC management services?",
+    answer: `<div className="accordion-body"><p>PPC management services can include campaign strategy, keyword research, ad creation, audience targeting, bid and budget management, landing-page recommendations, conversion tracking, testing, and performance reporting.</p></div>`,
   },
   {
-    id: "faq17",
-    question: "What are the top PPC platforms?  ",
-    answer: `<div className="accordion-body"><p>Top PPC platforms are: Google ads, Facebook ads, Instagram ads, Linked in ads, Twitter ads, Bing ads, Amazon ads.  </p></div>`,
+    id: "faq3",
+    question: "How much does PPC management cost?",
+    answer: `<div className="accordion-body"><p>PPC management fees vary by campaign size, platform, and scope. Agencies may charge a fixed monthly fee, a percentage of ad spend, or a combination.</p></div>`,
   },
-  {
-    id: "faq18",
-    question: "Is PPC cost-effective?  ",
-    answer: `<div className="accordion-body"><p> PPC is a budget-friendly strategy when optimized properly since you only pay when someone clicks on your ad, bringing in potential customers. </p></div>`,
-  },
-  {
-    id: "faq19",
-    question: " How do I know if my PPC campaign is successful? ",
-    answer: `<div className="accordion-body"><p>PPC success is tracked by key matrics : Click  Through Rate (CTR), Cost Per Click (CPC), Return On Ads spent (ROAS), Conversion Rate.  </p></div>`,
-  },
-  {
-    id: "faq20",
-    question: "How can I track my PPC campaign results? ",
-    answer: `<div className="accordion-body"><p>We provide detailed reports with key performance metrics, insights, and recommendations.  </p></div>`,
-  },
-  {
-    id: "faq21",
-    question: "How long does it take to see results with PPC?  ",
-    answer: `<div className="accordion-body"><p>PPC delivers instant traffic, but optimizing for conversions may take a few weeks. </p></div>`,
-  },
-  {
-    id: "faq22",
-    question: "Can I control my PPC spending?  ",
-    answer: `<div className="accordion-body"><p>Yes! You can set daily or monthly budgets and adjust bids to manage your spending.  </p></div>`,
-  },
- 
 ];
 
 

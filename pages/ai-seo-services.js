@@ -11,8 +11,15 @@ export default function AiSeoServices() {
 
       <meta
         name="description"
-        content="Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings across Google and AI search"
+        content="Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings across Google and AI search. 20+ years, 850+ clients, Google Premier Partner."
       />
+
+      <meta
+        name="keywords"
+        content="AI SEO services, AI SEO agency India, artificial intelligence SEO, AI-powered SEO services Mumbai, AI SEO optimization, SEO AI company, machine learning SEO, AI search optimization India, generative engine optimization, answer engine optimization, AI content optimization, best AI SEO agency Mumbai"
+      />
+
+      <meta property="og:type" content="website" />
 
       <meta
         property="og:title"
@@ -28,14 +35,30 @@ export default function AiSeoServices() {
 
       <meta
         property="og:description"
-        content="Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings across Google and AI search"
+        content="Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings. 20+ years, 850+ clients."
       />
-
-      <meta property="og:type" content="website" />
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/ai-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Expert AI SEO Services in India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Grow your organic traffic with expert AI SEO services. AI-powered strategy, content optimization and real rankings. 20+ years, 850+ clients."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
     </>
   );
@@ -151,6 +174,7 @@ export default function AiSeoServices() {
       "Grow your organic traffic with expert AI SEO services by SIB Infotech. AI-powered strategy, content optimization and real rankings across Google and AI search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",
@@ -394,8 +418,8 @@ export default function AiSeoServices() {
 
   const whyChooseSib = [
     {
-      title: "18+ Years of Real SEO Experience",
-      text: "SEO has changed dramatically over the years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
+      title: "20+ Years of Real SEO Experience",
+      text: "                      SEO has changed dramatically over 20+ years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
       icon: "fa-solid fa-medal",
     },
     {
@@ -570,7 +594,7 @@ export default function AiSeoServices() {
 
               <p className="textGrey mb-3">
                 At SIB Infotech, our AI SEO services are built for this new
-                reality. As a trusted SEO AI Agency with 18+ years of hands-on
+                reality. As a trusted SEO AI Agency with 20+ years of hands-on
                 SEO experience and Google Premier Partner status, we help
                 businesses rank higher on Google, get discovered in AI-generated
                 answers and build the kind of organic presence that grows
@@ -609,7 +633,7 @@ export default function AiSeoServices() {
                   <div className="col-6">
                     <div className="bg-white rounded-3 p-4 h-100">
                       <h3 className="heading fontWeight700 text_red mb-1">
-                        18+
+                        20+
                       </h3>
 
                       <p className="mb-0 textGrey">Years SEO Experience</p>
@@ -1022,7 +1046,7 @@ export default function AiSeoServices() {
 
               <p className="title mb-3">
                 SIB Infotech&apos;s AI SEO services are built to change that. As
-                a Google Premier Partner with 18+ years of SEO expertise and a
+                a Google Premier Partner with 20+ years of SEO expertise and a
                 proven AI-powered approach, we know exactly what it takes to get
                 your business ranking on Google and cited across every major AI
                 search platform.

@@ -11,8 +11,15 @@ export default function ChatgptSeoService() {
 
       <meta
         name="description"
-        content="Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 850+ clients. 18+ years of experience. Get your free ChatGPT SEO audit today."
+        content="Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 20+ years experience, 850+ clients, Google Premier Partner. Get your free ChatGPT SEO audit today."
       />
+
+      <meta
+        name="keywords"
+        content="ChatGPT SEO services, ChatGPT SEO, AI SEO services India, ChatGPT SEO optimization, ChatGPT content SEO, ChatGPT keyword strategy, ChatGPT SEO agency India, AI SEO agency Mumbai, ChatGPT for SEO, ChatGPT SEO company, SEO with ChatGPT, AI-powered SEO services"
+      />
+
+      <meta property="og:type" content="website" />
 
       <meta
         property="og:title"
@@ -23,19 +30,35 @@ export default function ChatgptSeoService() {
 
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/chatgpt-seo-services/"
+        content="https://www.sibinfotech.com/chatgpt-seo-services"
       />
 
       <meta
         property="og:description"
-        content="Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 850+ clients. 18+ years of experience. Get your free ChatGPT SEO audit today."
+        content="Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 20+ years experience, 850+ clients. Free audit."
       />
-
-      <meta property="og:type" content="website" />
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/chatgpt-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Top ChatGPT SEO Services in India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 20+ years, 850+ clients. Free audit."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
     </>
   );
@@ -149,9 +172,10 @@ export default function ChatgptSeoService() {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "ChatGPT SEO Services",
-    description: "Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 850+ clients. 18+ years of experience. Get your free ChatGPT SEO audit today.",
+    description: "Get higher rankings and more traffic with ChatGPT SEO services by SIB Infotech. 850+ clients. 20+ years of experience. Get your free ChatGPT SEO audit today.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",
@@ -263,8 +287,8 @@ export default function ChatgptSeoService() {
   ];
   const whyChooseSib = [
     {
-      title: "18+ Years of Real SEO Experience",
-      text: "SEO has changed dramatically over the years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
+      title: "20+ Years of Real SEO Experience",
+      text: "                      SEO has changed dramatically over 20+ years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
       icon: "fa-solid fa-medal",
     },
     {
@@ -434,8 +458,8 @@ export default function ChatgptSeoService() {
                 </h1>
                 <p className="mt-3 text-white">
                   Struggling to get your business found on Google? SIB
-                  Infotech's ChatGPT SEO services combine the power of AI with
-                  18+ years of real SEO expertise to deliver rankings that last,
+                  Infotech&apos;s ChatGPT SEO services combine the power of AI with
+                  20+ years of real SEO expertise to deliver rankings that last,
                   traffic that grows and leads that actually convert. Trusted by
                   850+ clients across 40+ countries. Backed by a Google Premier
                   Partner.
@@ -499,7 +523,7 @@ export default function ChatgptSeoService() {
               <p className="textGrey mb-1">
                 At SIB Infotech, we help businesses do exactly that. As a
                 dedicated ChatGPT SEO agency, we combine AI SEO with ChatGPT and
-                18+ years of hands-on experience to deliver real rankings,
+                20+ years of hands-on experience to deliver real rankings,
                 consistent traffic, and leads that actually convert, not just
                 monthly reports that look good on paper.
               </p>
@@ -533,7 +557,7 @@ export default function ChatgptSeoService() {
                   <div className="col-6">
                     <div className="bg-white rounded-3 p-4 h-100">
                       <h3 className="heading fontWeight700 text_red mb-1">
-                        18+
+                        20+
                       </h3>
                       <p className="mb-0 textGrey">Years Experience</p>
                     </div>
@@ -862,7 +886,7 @@ export default function ChatgptSeoService() {
               <p className="textGrey mb-1">
                 The difference is not just speed. It is the ability to do more,
                 cover more ground, and stay ahead of your competition without
-                multiplying your budget.At SIB Infotech, we combine 18+ years of
+                multiplying your budget.At SIB Infotech, we combine 20+ years of
                 traditional SEO expertise with AI SEO with ChatGPT to give your
                 business the best of both worlds, proven strategy powered by
                 modern AI.

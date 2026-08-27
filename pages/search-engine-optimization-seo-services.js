@@ -10,13 +10,13 @@ export default function SearchEngineOptimizationServices() {
       {
         "@type": "ListItem",
         position: 1,
-        name: "SEO Services",
+        name: "Home",
         item: "https://www.sibinfotech.com/",
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: "SEO Service Company",
+        name: "SEO Company in Mumbai",
         item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
       },
     ],
@@ -37,16 +37,34 @@ export default function SearchEngineOptimizationServices() {
     "@type": "Service",
     "@id":
       "https://www.sibinfotech.com/search-engine-optimization-seo-services/#service",
-    name: "Search Engine Optimization (SEO) Services",
-    serviceType:
-      " Search Engine Optimization, provider: SIB Infotech, areaServed: Mumbai, India",
+    name: "SEO Services in Mumbai",
+    serviceType: "Search Engine Optimization",
     url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
     description:
-      "Enhance your online visibility and organic traffic with SIB Infotech's professional SEO services. Improve rankings, drive qualified traffic, and achieve long-term business growth through strategic search engine optimization.",
-    areaServed: {
-      "@type": "Country",
-      name: "India",
-    },
+      "SIB Infotech is a Google Premier Partner SEO company in Mumbai delivering on-page SEO, technical SEO, link building, local SEO and AI search optimization for businesses across Mumbai, Navi Mumbai and Thane.",
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Mumbai",
+        "@id": "https://www.wikidata.org/wiki/Q1156",
+        containedInPlace: {
+          "@type": "AdministrativeArea",
+          name: "Maharashtra",
+        },
+      },
+      { "@type": "City", name: "Navi Mumbai" },
+      { "@type": "City", name: "Thane" },
+      { "@type": "Country", name: "India" },
+    ],
+    // TODO: re-enable ONLY with your real, verifiable Google Business Profile
+    // numbers. Invented ratings breach Google's review-snippet policy.
+    // aggregateRating: {
+    //   "@type": "AggregateRating",
+    //   ratingValue: "<real average>",
+    //   reviewCount: "<real count>",
+    //   bestRating: "5",
+    //   worstRating: "1",
+    // },
     provider: {
       "@id": "https://www.sibinfotech.com/#localbusiness",
     },
@@ -137,64 +155,30 @@ export default function SearchEngineOptimizationServices() {
       ],
     },
   };
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What are search engine optimization services in India?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Search engine optimization services in India help businesses rank higher on Google through on-page optimization, technical SEO, link building, and content strategy. SIB Infotech provides end-to-end SEO services for businesses across 40+ countries.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much do SEO services cost in India?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO services in India start from $250 per month at SIB Infotech, with flexible packages covering on-page SEO, off-page SEO, technical SEO, and local SEO. No long-term contracts.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Which is the best SEO company in India?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SIB Infotech is one of the top SEO companies in India, recognized as a Google Premier Partner (top 3% of agencies in India) with 20+ years of experience and 1000+ brands ranked.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the difference between SEO, AEO, and GEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO improves Google rankings. AEO (Answer Engine Optimization) structures content for AI assistants and voice search. GEO (Generative Engine Optimization) ensures brand visibility inside AI-generated answers from ChatGPT, Gemini, and Google AI Overviews.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to show results in India?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Most businesses see SEO improvements within 60 to 90 days, with significant page 1 rankings in 4 to 6 months. Local SEO in Mumbai shows results faster.",
-        },
-      },
-    ],
-  };
   const metaTags = (
     <>
-      <title>
-        SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech
-      </title>
+      {/*
+        The hero background is a CSS background-image, so the browser cannot
+        discover it until the stylesheet has parsed - which made it the LCP
+        element and left LCP very late on mobile. Preloading it starts the
+        download immediately. Page-scoped on purpose: other pages use
+        different hero images, so this does not belong in _document.
+      */}
+      <link
+        rel="preload"
+        as="image"
+        href="/assets/images/banner-white-lable.webp"
+        type="image/webp"
+        fetchPriority="high"
+      />
+      <title>SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech</title>
       <meta
         name="description"
-        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
+        content="SIB Infotech is a top SEO company in Mumbai offering result-driven SEO services in Mumbai since 2005. Google Premier Partner SEO agency in Mumbai with 20+ years experience and 1000+ brands ranked. Serving Andheri, Bandra, BKC, Malad, Powai, Lower Parel & Navi Mumbai. Free SEO audit, no lock-in contracts."
       />
       <meta
         name="keywords"
-        content="search engine optimization services india, seo services in india, best seo services in india, seo optimization services, search engine optimization services in india, seo company in mumbai, seo services india, top seo companies in india, seo packages india, search engine optimization packages, professional search engine optimization services, seo optimization companies, search optimization companies, seo management services, top seo services india, search engine optimisation services, seo company india"
+        content="seo company in mumbai, seo services in mumbai, seo agency in mumbai, best seo company in mumbai, seo services company in mumbai, seo expert in mumbai, top seo company in mumbai, best seo agency in mumbai, best seo services in mumbai, search engine optimization company in mumbai, top seo agency in mumbai, seo experts in mumbai, search engine optimization services in mumbai, seo firm in mumbai, seo consultant in mumbai, affordable seo services mumbai, local seo company mumbai, seo company in andheri, seo company in bandra, seo agency navi mumbai"
       />
 
       <meta property="og:type" content="website" />
@@ -204,11 +188,11 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="og:title"
-        content="SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech"
+        content="SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
+        content="SIB Infotech is a top SEO company in Mumbai offering result-driven SEO services in Mumbai since 2005. Google Premier Partner SEO agency in Mumbai with 20+ years experience and 1000+ brands ranked. Serving Andheri, Bandra, BKC, Malad, Powai, Lower Parel & Navi Mumbai. Free SEO audit, no lock-in contracts."
       />
       <meta
         property="og:image"
@@ -222,11 +206,11 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="twitter:title"
-        content="SEO Services in Mumbai, India | #1 SEO Company | SIB Infotech"
+        content="SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Get result-driven search engine optimization services in India from SIB Infotech - Google Premier Partner with 20+ years experience. 1000+ brands ranked across 40+ countries. Free SEO audit. No lock-in contracts."
+        content="SIB Infotech is a top SEO company in Mumbai offering result-driven SEO services in Mumbai since 2005. Google Premier Partner SEO agency in Mumbai with 20+ years experience and 1000+ brands ranked. Serving Andheri, Bandra, BKC, Malad, Powai, Lower Parel & Navi Mumbai. Free SEO audit, no lock-in contracts."
       />
       <meta
         property="twitter:image"
@@ -249,12 +233,6 @@ export default function SearchEngineOptimizationServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(webPageSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

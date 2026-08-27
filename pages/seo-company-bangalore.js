@@ -53,60 +53,6 @@ export default function SeoCompanyBangalore() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How much does SEO cost for a Bangalore business?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SIB Infotech offers monthly SEO packages starting from Rs. 25,000 per month for local businesses, with enterprise-level campaigns ranging higher. Every engagement begins with a free audit.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to show results in Bangalore?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Most Bangalore clients see measurable ranking improvements within 3 to 4 months. Significant organic traffic growth typically becomes visible by month 6.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer local SEO for Bangalore businesses?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Our local SEO service for Bangalore includes Google Business Profile optimisation, local citation building, review management, and LocalBusiness schema implementation.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can SIB Infotech help a Bangalore startup with SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Absolutely. We work with businesses at every stage. For startups, we prioritise high-ROI quick wins such as technical fixes, GBP optimisation, and long-tail content.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Does SIB Infotech handle SEO for IT companies in Bangalore?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We have extensive experience delivering SEO for IT companies, SaaS businesses, and technology service providers in Bangalore.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What makes SIB Infotech different from other SEO agencies in Bangalore?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SIB Infotech is a Google Premier Partner with 18+ years of experience and a track record with enterprise clients including Airtel, Finolex, and Jindal Steel. We provide dedicated account management and report on actual business outcomes.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -167,12 +113,6 @@ export default function SeoCompanyBangalore() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

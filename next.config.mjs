@@ -91,6 +91,52 @@ const nextConfig = {
         destination: "/contact-us",
         permanent: true,
       },
+      /* --- Chain collapsing: these previously took 2 hops via middleware
+             .php stripping (/contact.php -> /contact -> /contact-us). --- */
+      {
+        source: "/contact.php",
+        destination: "/contact-us",
+        permanent: true,
+      },
+      {
+        source: "/blogs.php",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        // Was an accidental public route: a component file living in pages/blog/.
+        source: "/blog/BlogCard",
+        destination: "/blog",
+        permanent: true,
+      },
+      /* --- Blog slugs that 5xx'd then 404'd in Search Console. The posts do
+             not exist; point each at its closest live page. --- */
+      {
+        source: "/blog/generative-engine-optimization-guide",
+        destination: "/generative-engine-optimization",
+        permanent: true,
+      },
+      {
+        source: "/blog/what-is-ai-seo-2026",
+        destination: "/ai-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-long-does-seo-take",
+        destination: "/search-engine-optimization-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/blog/seo-pricing-india-2026",
+        destination: "/seo-packages",
+        permanent: true,
+      },
+      {
+        source: "/blog/ga4-ai-assistant-traffic-tracking",
+        destination: "/blog",
+        permanent: true,
+      },
+
       {
         source: "/:path*.php",
         destination: "/:path*",
@@ -370,6 +416,11 @@ const nextConfig = {
       {
         source: "/ecommerce-solutions-company-mumbai-india.php",
         destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/seo-consultancy-services-mumbai-india",
+        destination: "/search-engine-optimization-seo-services",
         permanent: true,
       },
       {

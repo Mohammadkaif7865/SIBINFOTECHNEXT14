@@ -5,10 +5,10 @@ import OnPageSeo from "@/comps/OnPageSeo/OnPageSeo";
 export default function OnPageSeoServices() {
   const metaTags = (
     <>
-      <title>Best On-Page SEO Optimization Services in India</title>
-      <meta name="description" content="Struggling to rank on Google? Our On-Page SEO experts fix content, structure, and technical issues to help your website perform better and drive more traffic." />
-      <meta name="keywords" content="On Page SEO, On-Site Optimization Services, On Page Optimization, On Page SEO Optimization, On Page SEO Analysis." />
-     
+      <title>On-Page SEO Services India | On-Page Optimization Experts | SIB Infotech</title>
+      <meta name="description" content="Improve your Google rankings with SIB Infotech's on-page SEO services. We optimize titles, meta tags, headings, internal linking, content structure, schema markup, and Core Web Vitals to make your pages rank faster and higher." />
+      <meta name="keywords" content="on-page SEO services, on-page optimization services, on-page SEO company india, on-site SEO services, HTML optimization, content structure optimization, meta tag optimization, internal linking strategy, on-page SEO experts, Core Web Vitals optimization" />
+
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/on-page-seo-services" />

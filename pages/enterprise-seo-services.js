@@ -53,36 +53,6 @@ export default function EnterpriseSeoServices() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is enterprise SEO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Enterprise SEO is delivering search optimisation for large, complex websites with 10,000+ URLs, multiple product lines, multi-location presence, and cross-functional stakeholder teams.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does SIB Infotech handle JavaScript SEO for enterprise sites?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We audit JavaScript SEO using Google's URL Inspection tool, identify content not indexed due to client-side rendering, and provide SSR or SSG recommendations for React, Angular, Next.js, and Vue sites.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What reporting do enterprise clients receive?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Enterprise clients receive organic revenue attribution reports, share of voice analysis, content performance by category, technical health trending, and executive-level dashboards connecting SEO to business outcomes.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -144,12 +114,6 @@ export default function EnterpriseSeoServices() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

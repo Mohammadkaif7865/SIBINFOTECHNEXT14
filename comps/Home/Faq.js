@@ -2,14 +2,58 @@ import React, { use, useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { TbCirclePlus, TbCircleMinus } from "react-icons/tb";
 
-const Faq = ({ faqsData, title, description }) => {
+/**
+ * `schema` emits FAQPage structured data built from the same faqsData that
+ * renders on screen, so the markup and the visible content can never drift
+ * apart - Google requires them to match.
+ *
+ * Pass schema={false} on pages that already declare their own FAQPage block,
+ * otherwise the page ends up with two competing FAQPage blocks and Google
+ * trusts neither.
+ */
+const Faq = ({ faqsData, title, description, schema = true }) => {
   const faqsDataLeft = faqsData.slice(0, Math.ceil(faqsData.length / 2));
   const faqsDataRight = faqsData.slice(Math.ceil(faqsData.length / 2));
   const [open, setOpen] = useState(null);
   const [open2, setOpen2] = useState(null);
 
+  // Answers are authored as HTML strings; structured data wants plain text.
+  const toText = (html) =>
+    String(html || "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const faqSchema =
+    schema && Array.isArray(faqsData) && faqsData.length
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqsData
+            .filter((f) => f && f.question && f.answer)
+            .map((f) => ({
+              "@type": "Question",
+              name: toText(f.question),
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: toText(f.answer),
+              },
+            })),
+        }
+      : null;
+
   return (
     <section>
+      {faqSchema && faqSchema.mainEntity.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="containerFull ">
         <div className="row justify-content-center">
           <div className="col-lg-9">

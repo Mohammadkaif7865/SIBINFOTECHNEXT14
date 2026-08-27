@@ -437,6 +437,7 @@ export default function ClaudePpcService() {
       "Boost your ad performance with Claude PPC Services by SIB Infotech. Get smarter targeting, higher conversions, and better ROI with optimized campaigns.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

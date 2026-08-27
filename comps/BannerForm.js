@@ -162,6 +162,7 @@ export default function BannerForm() {
   useEffect(() => {
     const siteKey = "6LeWu-IrAAAAAD6Sx_TZwVmfsmUgb238N4cGvJib";
     const containerId = "banner-recaptcha";
+    let cleanupLazyLoaders = () => {};
 
     const renderWidget = () => {
       try {
@@ -190,8 +191,33 @@ export default function BannerForm() {
       }
     };
 
-    // load script only if not already present
-    if (!document.querySelector('script[src^="https://www.google.com/recaptcha/api.js"]')) {
+    /*
+     * Load reCAPTCHA lazily.
+     *
+     * It was previously fetched on mount, which pulled ~313 KB from
+     * gstatic.com on every page load - including on mobile, where this
+     * banner form is hidden by `d-none d-lg-block` and never shown. That
+     * single request was the largest item on the page.
+     *
+     * We now wait until the form is near the viewport, or until the visitor
+     * actually interacts with the page. The widget renders exactly as before,
+     * just later, so nothing about the layout or appearance changes.
+     */
+    let observer = null;
+    let loaded = false;
+
+    const loadRecaptcha = () => {
+      if (loaded) return;
+      loaded = true;
+
+      if (
+        document.querySelector(
+          'script[src^="https://www.google.com/recaptcha/api.js"]',
+        )
+      ) {
+        setTimeout(renderWidget, 100);
+        return;
+      }
       const script = document.createElement("script");
       script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
       script.async = true;
@@ -202,13 +228,48 @@ export default function BannerForm() {
       };
       script.onerror = () => console.warn("Failed to load reCAPTCHA script");
       document.head.appendChild(script);
+    };
+
+    const container = document.getElementById(containerId);
+
+    // 1. Load when the form scrolls into view.
+    if (container && typeof IntersectionObserver !== "undefined") {
+      observer = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((e) => e.isIntersecting)) {
+            loadRecaptcha();
+            if (observer) observer.disconnect();
+          }
+        },
+        { rootMargin: "300px" },
+      );
+      observer.observe(container);
     } else {
-      // script already present — attempt to render right away
-      setTimeout(renderWidget, 100);
+      loadRecaptcha();
     }
+
+    // 2. Or as soon as the visitor interacts, whichever happens first.
+    const interactionEvents = ["pointerdown", "keydown", "touchstart", "focusin"];
+    const onInteract = () => {
+      loadRecaptcha();
+      interactionEvents.forEach((ev) =>
+        window.removeEventListener(ev, onInteract),
+      );
+    };
+    interactionEvents.forEach((ev) =>
+      window.addEventListener(ev, onInteract, { passive: true, once: false }),
+    );
+
+    cleanupLazyLoaders = () => {
+      if (observer) observer.disconnect();
+      interactionEvents.forEach((ev) =>
+        window.removeEventListener(ev, onInteract),
+      );
+    };
 
     // cleanup: reset widget and clear marker
     return () => {
+      cleanupLazyLoaders();
       try {
         if (window.grecaptcha && recaptchaWidgetRef.current !== null) {
           window.grecaptcha.reset(recaptchaWidgetRef.current);

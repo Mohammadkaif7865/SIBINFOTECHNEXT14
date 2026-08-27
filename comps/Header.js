@@ -1010,8 +1010,48 @@ export default function Header() {
                   </Link>
                 </li>
               </div>
-              <li data-bs-dismiss="offcanvas">
-                <Link href="/about-us">About Us</Link>
+              <li className="itemSub">
+                <Link
+                  href="/about-us"
+                  data-bs-dismiss="offcanvas"
+                  title="About Us"
+                >
+                  About Us
+                </Link>{" "}
+                <button
+                  className="subBtn"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#aboutUsSubMenu"
+                  aria-expanded="true"
+                  aria-controls="aboutUsSubMenu"
+                  onClick={() => {
+                    handleCollapse("aboutUsSubMenu");
+                  }}
+                >
+                  <i className="fa fa-chevron-down"></i>
+                </button>
+                <ul
+                  id="aboutUsSubMenu"
+                  className="collapse"
+                  data-bs-parent="#mobileSub"
+                >
+                  <li data-bs-dismiss="offcanvas">
+                    <Link
+                      href="/about-us"
+                      title="About SIB Infotech"
+                    >
+                      About SIB Infotech
+                    </Link>
+                  </li>
+                  <li data-bs-dismiss="offcanvas">
+                    <Link
+                      href="/anuj-bajaj"
+                      title="Anuj Bajaj – Founder & CEO"
+                    >
+                      Anuj Bajaj
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li data-bs-dismiss="offcanvas">
                 <Link href="/portfolio">Our Portfolio</Link>

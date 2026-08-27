@@ -12,7 +12,20 @@ import Testimonials from "@/comps/Home/Testimonials";
 import Faq from "@/comps/Home/Faq";
 import RelatedServices from "@/comps/RelatedServices";
 
-const WhiteLabelSeoMgt = () => {
+/**
+ * Shared white-label component.
+ *
+ * /white-label-seo-services and /white-label-digital-marketing-services both
+ * render this. They were byte-identical below the <head>, which is why Search
+ * Console reported "Duplicate, Google chose different canonical". The props
+ * below let each URL own a distinct H1, intro and body section.
+ */
+const WhiteLabelSeoMgt = ({
+  heroTitle,
+  heroTitleAccent,
+  heroIntro,
+  children,
+} = {}) => {
   const seoServices = [
     {
       title: `Full-Service <br class="d-none d-md-lg "/> SEO Delivery`,
@@ -192,14 +205,17 @@ const WhiteLabelSeoMgt = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="mt-3 heading fontWeight700 text-white">
-                  White Label SEO Services That{" "}
-                  <span className="text_red fontWeight700">Demand Results</span>
+                  {heroTitle || "White Label SEO Services That"}{" "}
+                  <span className="text_red fontWeight700">
+                    {heroTitleAccent || "Demand Results"}
+                  </span>
                 </h1>
                 <p className="small_heading fontWeight500 mt-2 text-white" style={{ maxWidth: "85%" }}>
                   Google Premier Partner | 18+ Years Experience | Trusted by 100+ Agencies
                 </p>
                 <p className="mt-2 mt-lg-3 text-white" style={{ maxWidth: "85%" }}>
-                  Deliver enterprise-grade SEO under your brand with NDA-protected, fully managed, transparent white label SEO from SIB Infotech.
+                  {heroIntro ||
+                    "Deliver enterprise-grade SEO under your brand with NDA-protected, fully managed, transparent white label SEO from SIB Infotech."}
                 </p>
                 <div className="mt-4 d-flex flex-wrap gap-3">
                   <Link href="/contact-us" className="btnThemeRed">
@@ -540,6 +556,12 @@ const WhiteLabelSeoMgt = () => {
         }
         links={[
           {
+            title: "Top SEO Company in Mumbai",
+            description:
+              "End-to-end SEO across Andheri, Bandra, BKC, Powai, Thane and Navi Mumbai. Free SEO audit.",
+            href: "/search-engine-optimization-seo-services",
+          },
+          {
             title: "White Label SEO Packages",
             href: "/seo-packages",
             description:
@@ -577,6 +599,7 @@ const WhiteLabelSeoMgt = () => {
           },
         ]}
       />
+      {children}
     </div>
   );
 };

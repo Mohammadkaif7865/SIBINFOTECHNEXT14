@@ -33,7 +33,7 @@ export default function GoogleAdsManagementServices() {
     {
       id: "faq20",
       question: "What makes SIB Infotech different from other PPC agencies?",
-      answer: `<div className="accordion-body"><p>SIB Infotech focuses on measurable business outcomes rather than vanity metrics like clicks or impressions alone. As a Google Premier Partner, the company follows proven optimization strategies backed by 18+ years of industry experience. Clients receive transparent reporting, dedicated account management, regular campaign optimization, and data-driven performance tracking focused on lead quality and return on investment.</p></div>`,
+      answer: `<div className="accordion-body"><p>SIB Infotech focuses on measurable business outcomes rather than vanity metrics like clicks or impressions alone. As a Google Premier Partner, the company follows proven optimization strategies backed by 20+ years of industry experience. Clients receive transparent reporting, dedicated account management, regular campaign optimization, and data-driven performance tracking focused on lead quality and return on investment.</p></div>`,
     },
     {
       id: "faq21",
@@ -78,6 +78,7 @@ export default function GoogleAdsManagementServices() {
       "Professional Google Ads management services including campaign setup, keyword research, ad optimization, conversion tracking, audience targeting, remarketing, landing page analysis, and performance reporting to help businesses improve lead generation and return on ad spend.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
     },
@@ -112,32 +113,20 @@ export default function GoogleAdsManagementServices() {
     ],
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqsData.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer.replace(/<[^>]+>/g, "").trim(),
-      },
-    })),
-  };
 
   const metaTags = (
     <>
       <title>
-        Google Ads Management Services in India | Google Premier Partner – SIB
+        Google Ads Management Services in Mumbai, India | Google Premier Partner – SIB
         Infotech
       </title>
       <meta
         name="description"
-        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
+        content="Drive qualified leads and sales with expert Google Ads management in Mumbai from a Google Premier Partner. 20+ years experience, 850+ businesses, 4.8★ Google rating. Free audit. No lock-in contracts."
       />
       <meta
         name="keywords"
-        content="Google Ads management services India, Google Ads agency India, Google Ads management company Mumbai, PPC management services India, Google Premier Partner agency India, Google Ads audit free India, hire Google Ads expert India"
+        content="Google Ads management services India, google adwords management services india, google ads agency india, google adwords management, google ads management company mumbai, adwords management services india, google ads management agency, google ads expert india, PPC management services India, Google Premier Partner agency India, Google Ads audit free India, hire Google Ads expert India, google adwords expert india, google ads agency mumbai"
       />
 
       <meta property="og:type" content="website" />
@@ -147,11 +136,11 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="og:title"
-        content="Google Ads Management Services in India | Google Premier Partner – SIB Infotech"
+        content="Google Ads Management Services in Mumbai, India | Google Premier Partner – SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
+        content="Drive qualified leads and sales with expert Google Ads management in Mumbai from a Google Premier Partner. 20+ years, 850+ businesses, 4.8★ rating. Free audit."
       />
       <meta
         property="og:image"
@@ -165,11 +154,11 @@ export default function GoogleAdsManagementServices() {
       />
       <meta
         property="twitter:title"
-        content="Google Ads Management Services in India | Google Premier Partner – SIB Infotech"
+        content="Google Ads Management Services in Mumbai, India | Google Premier Partner – SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Drive qualified leads and sales with expert Google Ads management from a Google Premier Partner. Trusted by 850+ businesses worldwide with flexible, results-driven campaigns."
+        content="Drive qualified leads and sales with expert Google Ads management in Mumbai from a Google Premier Partner. 20+ years, 850+ businesses, 4.8★ rating."
       />
       <meta
         property="twitter:image"
@@ -203,12 +192,6 @@ export default function GoogleAdsManagementServices() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
       <Faq title={"Frequently Asked Questions"} faqsData={faqsData} />
     </CustomLayout>
   );

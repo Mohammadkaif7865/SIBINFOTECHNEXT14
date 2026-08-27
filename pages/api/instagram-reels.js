@@ -1,7 +1,7 @@
 const IG_USERNAME = process.env.IG_USERNAME || "sibinfotech";
 const IG_APP_ID = "936619743392459";
 const CACHE_TTL_MS = 30 * 60 * 1000;
-const REQUEST_TIMEOUT_MS = 8000;
+const REQUEST_TIMEOUT_MS = 10000;
 const DEFAULT_PAGES = 5;
 const MAX_PAGES = 15;
 const DEFAULT_LIMIT = 24;
@@ -10,33 +10,47 @@ const MAX_LIMIT = 50;
 let cache = { data: null, fetchedAt: 0 };
 
 function buildHeaders() {
-  return {
+  const headers = {
     "x-ig-app-id": IG_APP_ID,
     "User-Agent":
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-    Accept: "*/*",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    Accept: "application/json, text/plain, */*",
     "Sec-Fetch-Dest": "empty",
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Site": "same-origin",
     "X-Requested-With": "XMLHttpRequest",
     Referer: `https://www.instagram.com/${IG_USERNAME}/`,
+    "Accept-Language": "en-US,en;q=0.9",
   };
+
+  if (process.env.IG_SESSION_COOKIE) {
+    headers["Cookie"] = process.env.IG_SESSION_COOKIE;
+  }
+
+  return headers;
 }
 
-async function fetchJson(url) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-  try {
-    const res = await fetch(url, {
-      headers: buildHeaders(),
-      signal: controller.signal,
-    });
-    if (!res.ok) {
-      throw new Error(`Instagram responded with ${res.status}`);
+async function fetchJson(url, retries = 2) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+    try {
+      const res = await fetch(url, {
+        headers: buildHeaders(),
+        signal: controller.signal,
+        redirect: "follow",
+      });
+      if (!res.ok) {
+        throw new Error(`Instagram responded with ${res.status}`);
+      }
+      return await res.json();
+    } catch (err) {
+      clearTimeout(timer);
+      if (attempt === retries) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+    } finally {
+      clearTimeout(timer);
     }
-    return await res.json();
-  } finally {
-    clearTimeout(timer);
   }
 }
 

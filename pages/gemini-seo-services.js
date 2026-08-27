@@ -11,8 +11,15 @@ export default function GeminiSeoService() {
 
       <meta
         name="description"
-        content="Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search."
+        content="Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search. 20+ years experience, Google Premier Partner."
       />
+
+      <meta
+        name="keywords"
+        content="Gemini SEO services, Gemini AI SEO, Google Gemini SEO, AI SEO services India, Gemini SEO optimization, Gemini SEO agency India, Google AI SEO Mumbai, SEO with Gemini, Gemini content SEO, Google AI Overview SEO, best Gemini SEO company"
+      />
+
+      <meta property="og:type" content="website" />
 
       <meta
         property="og:title"
@@ -28,14 +35,30 @@ export default function GeminiSeoService() {
 
       <meta
         property="og:description"
-        content="Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search."
+        content="Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search. Google Premier Partner."
       />
-
-      <meta property="og:type" content="website" />
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/gemini-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Professional Gemini SEO Services in India | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business rank higher in AI-powered search. Google Premier Partner."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
     </>
   );
@@ -271,8 +294,8 @@ export default function GeminiSeoService() {
 
   const whyChooseSib = [
     {
-      title: "18+ Years of Real SEO Experience",
-      text: "SEO has changed dramatically over the years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
+      title: "20+ Years of Real SEO Experience",
+      text: "                      SEO has changed dramatically over 20+ years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
       icon: "fa-solid fa-medal",
     },
     {
@@ -457,6 +480,7 @@ export default function GeminiSeoService() {
       "Search is evolving & Gemini is leading it. SIB Infotech's Gemini SEO services help your business stay visible, rank higher and get found in AI-powered search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",
@@ -497,7 +521,7 @@ export default function GeminiSeoService() {
                 <p className="mt-3 text-white">
                   Struggling to get your content found on Google and discovered
                   in AI-generated answers? SIB Infotech&apos;s Gemini SEO
-                  services combine the power of Google&apos;s own AI with 18+
+                  services combine the power of Google&apos;s own AI with 20+
                   years of real SEO expertise to deliver rankings that last,
                   visibility that grows and traffic that actually converts.
                 </p>
@@ -575,7 +599,7 @@ export default function GeminiSeoService() {
                 Unlike other AI tools, Gemini is built directly into
                 Google&apos;s own search, which means businesses that invest in
                 Google Gemini SEO today are the ones that will dominate search
-                results tomorrow. As a trusted Gemini SEO Agency with 18+ years
+                results tomorrow. As a trusted Gemini SEO Agency with 20+ years
                 of experience, we know exactly how to position your content
                 where it matters most.
               </p>
@@ -605,9 +629,9 @@ export default function GeminiSeoService() {
                   <div className="col-6">
                     <div className="bg-white rounded-3 p-4 h-100">
                       <h3 className="heading fontWeight700 text_red mb-1">
-                        18+
-                      </h3>
-                      <p className="mb-0 textGrey">Years Experience</p>
+                      20+
+                    </h3>
+                    <p className="mb-0 textGrey">Years Experience</p>
                     </div>
                   </div>
 
@@ -1040,7 +1064,7 @@ export default function GeminiSeoService() {
 
               <p className="title mb-3">
                 SIB Infotech&apos;s Gemini SEO Services are built to change
-                that. As a Google Premier Partner with 18+ years of SEO
+                that. As a Google Premier Partner with 20+ years of SEO
                 expertise and a proven AI-powered approach, we know exactly what
                 it takes to get your business ranking on Google and cited in
                 AI-generated answers.

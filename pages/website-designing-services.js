@@ -8,14 +8,14 @@ import "slick-carousel/slick/slick.css";
 export default function WebsiteDesigningServices() {
   const metaTags = (
     <>
-      <title>Web Design Agency in Mumbai | SIB Infotech</title>
+      <title>Website Designing Company in Mumbai | Web Design Services India | SIB Infotech</title>
       <meta
         name="description"
         content="SIB Infotech is a leading web design agency in Mumbai. Get responsive, SEO-friendly, and high-converting websites. Affordable packages – contact us now!"
       />
       <meta
         name="keywords"
-        content="web design agency mumbai, website designing services mumbai, website design company india, responsive web design mumbai, affordable website design, web design services india, UI UX design company mumbai"
+        content="website designing company in mumbai, web design company india, website designing services mumbai, website development company mumbai, web design agency mumbai, best website design company mumbai, website design and development india, responsive web design mumbai, affordable website design india, web design services india, UI UX design company mumbai, website designing company india, professional web design company, web designing services"
       />
 
       <meta property="og:type" content="website" />

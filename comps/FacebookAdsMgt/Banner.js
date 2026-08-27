@@ -14,11 +14,14 @@ const Banner = () => {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Facebook Ads Management Services
+                  Facebook Ads Management Services in Mumbai
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated Facebook Ads Management Company in India
+                  India's Trusted Facebook & Meta Ads Agency
                 </h2>
+                <p className="mt-3 text-white">
+                  Drive qualified leads and sales with targeted Facebook & Meta ads campaigns. Reels ads, Advantage+ campaigns, lookalike audiences & high ROI. Trusted by 850+ businesses across 40+ countries.
+                </p>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
                     <i className="fa-solid fa-comment-dots"></i> Get a Quote

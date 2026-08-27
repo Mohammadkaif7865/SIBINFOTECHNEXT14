@@ -53,60 +53,6 @@ export default function SeoCompanyHyderabad() {
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Does SIB Infotech offer SEO specifically for pharma companies in Hyderabad?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We have experience working with pharmaceutical companies and healthcare brands. Our pharma SEO navigates compliance considerations while building strong organic visibility.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does SEO cost in Hyderabad?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SEO packages start from Rs. 20,000 per month for local businesses and scale to Rs. 1,00,000+ per month for enterprise pharmaceutical and IT companies.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does SEO take to deliver results for a Hyderabad IT company?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Early ranking improvements are typically visible within 3 to 4 months. Full organic traffic impact develops between months 6 and 9.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can SIB Infotech improve our Google Business Profile ranking in Hyderabad?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We have helped businesses achieve Map Pack rankings for highly competitive local search terms within 60 to 90 days.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer SEO for e-commerce businesses in Hyderabad?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. We offer specialised ecommerce SEO for Shopify, WooCommerce, and Magento stores.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What makes a good SEO agency in Hyderabad?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "A strong agency demonstrates verifiable client results, transparent reporting, a comprehensive methodology, and adaptation to Google's algorithm. SIB Infotech provides all of these with 18+ years of experience and Google Premier Partner status.",
-        },
-      },
-    ],
-  };
 
   const metaTags = (
     <>
@@ -166,12 +112,6 @@ export default function SeoCompanyHyderabad() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

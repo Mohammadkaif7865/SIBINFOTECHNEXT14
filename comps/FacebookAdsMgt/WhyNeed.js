@@ -9,44 +9,37 @@ const WhyNeed = () => {
           <div className="row">
             <div className="col-lg-6">
               <h3 className="customHeading">
-                What is a <span>Facebook Advertising</span> Agency &amp; Why Do
+                What is a <span>Facebook & Meta Ads</span> Agency &amp; Why Do
                 You Need One?
               </h3>
               <p className="customText">
-                Facebook ads is the platform where advertiser are charged on
-                clicks, impressions or actions. Facebook advertising has a rapid
-                growth over the year and ranking more above Google ads and
-                traditional advertising, because this social media platform
-                where more and people come and share their information through
-                text, images and videos.
+                Facebook and Meta ads are among the most powerful advertising
+                platforms available today. With over 3 billion monthly active
+                users across Facebook, Instagram and the Meta ecosystem, your
+                target audience is already there — actively scrolling, engaging
+                and looking for products and services like yours.
               </p>
               <p className="customText">
-                Facebook is the most popular social media platform with around
-                3.35 billion monthly active users and the number of users is
-                increasing day by day. It is a social network that allows its
-                users to sign-up free accounts, connect with friends,
-                colleagues, family or even strangers. People can share and
-                upload pictures, videos, posts, personal opinions and articles
-                with all the users where the audience can be decided with ease.
-                People use Facebook to connect with friends and family and
-                discover new products and services.
+                Meta's advertising platform allows you to target users by
+                demographics, interests, behaviors, custom audiences and
+                lookalike audiences. From Reels ads and Stories to Advantage+
+                campaigns and dynamic product ads, the options for reaching the
+                right people at the right time are unmatched.
               </p>
               <p className="customText">
-                Facebook is the largest social media platform that can prove to
-                be a great opportunity for brands to engage the audience, build
-                awareness and reputation. Almost 80% of the internet users spend
-                their great deal of time on Facebook daily, this means that your
-                target audience is just a few steps away from being your
-                customer.
+                But running effective Facebook ads requires more than just
+                boosting a post. You need a strategic approach — the right
+                audience targeting, compelling creative, continuous optimization
+                and data-driven decisions. That is exactly what a professional
+                Facebook ads management agency brings to the table.
               </p>
               <p className="customText">
-                People tend to buy what they find on their feeds, the
-                advertisements can lead huge traffic to your brand's website and
-                boost sales in no time.
-              </p>
-              <p className="customText">
-                Choosing a competent Facebook advertising agency that manages
-                the advertisement campaigns plays a very
+                SIB Infotech is a Google Premier Partner and trusted Facebook
+                ads management company in Mumbai with 20+ years of digital
+                marketing experience. We have helped businesses like Archer
+                Chess Academy achieve a 355% increase in qualified leads and a
+                47% reduction in ad costs — proving that the right strategy
+                delivers real, measurable results.
               </p>
               <p>&nbsp;</p>
             </div>
@@ -63,22 +56,10 @@ const WhyNeed = () => {
                 alt="facebook-ads-management-company-in-india"
               />
               <p className="customText">
-                important role in having an effective Facebook marketing that
-                takes your business to the heights of the market.
-              </p>
-              <p className="customText">
-                In the ever-changing digital world, you need the best Facebook
-                advertising company for your brand which has experienced
-                facebook advertising specialist who use advanced Facebook
-                tactics to help your business grow using facebook ads. SIB
-                Infotech is among the top ten Facebook advertising companies in
-                India with office in Mumbai and Delhi serving world-className
-                facebook marketing solutions.
-              </p>
-              <p className="customText">
-                So using a facebook advertising agency which can create, monitor
-                and optimize facebook Ads which can maximize your ad spend is
-                always recommend.
+                important role in maximizing your ad spend and driving real
+                business outcomes. The right agency knows how to navigate
+                Meta's complex ad platform, test creative variations and
+                optimize campaigns for the best possible ROI.
               </p>
             </div>
           </div>

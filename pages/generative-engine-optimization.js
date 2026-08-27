@@ -372,6 +372,7 @@ export default function GenerativeEngineOptimizationPage() {
       "Is traditional SEO dying? Learn how Generative Engine Optimization (GEO) boosts your visibility on ChatGPT, Gemini, and Perplexity. Master AI search ranking strategies.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo: "https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100",

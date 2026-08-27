@@ -133,53 +133,21 @@ const WebDesigning = () => {
   ];
   const faqsData = [
   {
-    id: "faq15",
-    question: "What web design services does SIB Infotech offer in Mumbai?",
-    answer: `<div className="accordion-body"><p>SIB Infotech offers comprehensive web design services in Mumbai including custom website design, responsive mobile-first design, UI/UX design, landing page design, eCommerce website design, CMS-based websites (WordPress, Shopify), corporate website design, and website redesign. Every website we design is SEO-ready from day one, built for speed, and optimised for conversions. Our design team creates modern, professional websites that reflect your brand and convert visitors into customers.</p></div>`,
+    id: "faq1",
+    question: "What is website design?",
+    answer: `<div className="accordion-body"><p>Website design focuses on the visual appearance and user experience of a website, including layout, typography, colors, navigation, branding, and responsiveness.</p></div>`,
   },
   {
-    id: "faq16",
-    question: "Why should Mumbai businesses choose SIB Infotech for web design?",
-    answer: `<div className="accordion-body"><p>SIB Infotech combines 18+ years of digital marketing expertise with full-service web design capabilities. Unlike standalone design studios, we design websites with SEO, conversions, and business growth in mind from the start. As a Google Premier Partner with 850+ clients served, we understand how design decisions affect search rankings, page speed, and user behaviour. Our clients get websites that look great and perform — not just aesthetically pleasing brochures.</p></div>`,
+    id: "faq2",
+    question: "What is responsive web design?",
+    answer: `<div className="accordion-body"><p>Responsive web design means a website automatically adapts its layout, images, text, and navigation to different screen sizes, providing a usable experience across desktop, tablet, and mobile devices.</p></div>`,
   },
   {
-    id: "faq17",
-    question: "Does SIB Infotech build eCommerce websites in Mumbai?",
-    answer: `<div className="accordion-body"><p>Yes. SIB Infotech designs and develops eCommerce websites in Mumbai using Shopify, WooCommerce, and custom platforms. Our eCommerce websites include secure payment gateway integration (Razorpay, PayU, Stripe), product catalogue management, mobile-optimised shopping experiences, inventory management, customer account portals, and conversion-focused product and checkout page designs. We have built eCommerce stores for fashion, jewellery, industrial goods, health products, and more.</p></div>`,
-  },
-  {
-    id: "faq18",
-    question: "Does SIB Infotech design websites optimised for SEO?",
-    answer: `<div className="accordion-body"><p>Yes, SEO optimisation is integrated into every website SIB Infotech designs. This includes clean, semantic HTML structure; fast page load with optimised images and code; proper heading hierarchy (H1, H2, H3); schema markup for organisation, products, and FAQs; XML sitemap and robots.txt setup; Core Web Vitals compliance; mobile-first responsive design; and proper URL structure. A beautiful website that Google cannot rank is a missed opportunity — we ensure both aesthetics and discoverability.</p></div>`,
-  },
-  {
-    id: "faq19",
-    question: "What is SIB Infotech's web design process from brief to launch?",
-    answer: `<div className="accordion-body"><p>SIB Infotech's web design process: (1) Discovery — understanding your business goals, audience, and competitors. (2) Sitemap and wireframing — planning the page structure and user flow. (3) Visual design — creating high-fidelity mockups aligned with your brand. (4) Development — building the site on your chosen platform with SEO and performance best practices. (5) Testing — cross-device and cross-browser QA. (6) Launch — domain and hosting setup, go-live, and handover training. We also provide post-launch support and maintenance.</p></div>`,
-  },
-  {
-    id: "faq20",
-    question: "Does SIB Infotech offer website redesign services for existing websites?",
-    answer: `<div className="accordion-body"><p>Yes. Website redesign is a major part of SIB Infotech's web design offering. Many Mumbai businesses come to us with outdated websites that load slowly, look unprofessional on mobile, or fail to generate leads. Our redesign process starts with a website audit to identify performance and UX issues, followed by a full rebuild that preserves your existing SEO value while delivering a modern, conversion-optimised design. We handle content migration, URL redirect mapping, and search console re-verification.</p></div>`,
-  },
-  {
-    id: "faq21",
-    question: "What ongoing support does SIB Infotech provide after a website is launched?",
-    answer: `<div className="accordion-body"><p>SIB Infotech provides post-launch website maintenance services including security monitoring and updates, regular backups, performance monitoring, content updates, plugin and CMS version management, and technical troubleshooting. We also offer ongoing SEO, Google Ads, and Meta Ads services for clients who want to drive traffic and leads to their new website — making SIB Infotech a true one-stop digital partner.</p></div>`,
+    id: "faq3",
+    question: "How do I choose a website design company?",
+    answer: `<div className="accordion-body"><p>Review the company's portfolio, design quality, mobile responsiveness, UX approach, revision policy, ownership terms, development capabilities, and pricing.</p></div>`,
   },
 ];
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqsData.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer.replace(/<[^>]+>/g, ""),
-      },
-    })),
-  };
   // const faqsData = [
   //   {
   //     id: "faq1",
@@ -663,12 +631,6 @@ const WebDesigning = () => {
       <Engagement />
       <DigitalMarketingWebAgency />
       
-    <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
 
  
       <Faq

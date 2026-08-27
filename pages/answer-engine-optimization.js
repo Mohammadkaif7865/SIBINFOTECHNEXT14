@@ -368,6 +368,7 @@ export default function SearchAiOptimization() {
       "Boost your AI search visibility with SIB Infotech's Search AI Optimization services. Get cited in Google AI Overviews and featured snippets across AI Search.",
     provider: {
       "@type": "Organization",
+      "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
       url: "https://www.sibinfotech.com",
       logo:

@@ -1,4 +1,4 @@
-import * as CONSTANTS from "../../constants/constants";
+import * as CONSTANTS from "@/constants/constants";
 // import { Link } from "react-router-dom";
 import Link from "next/link";
 

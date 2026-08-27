@@ -78,7 +78,7 @@ export default function LocalSeoServices() {
             alternateName: "Google Local SEO Optimization Services",
             description:
               "SIB Infotech is a leading local SEO company in India offering result-driven local search engine optimization services for businesses. Our local SEO experts help improve Google Maps rankings, local search visibility, business listings, location-based traffic, and lead generation through strategic local SEO campaigns and optimization techniques.",
-            url: "https://www.sibinfotech.com/local-seo-services.php",
+            url: "https://www.sibinfotech.com/local-seo-services",
             image:
               "https://www.sibinfotech.com/assets/images/local-seo-services-company.webp",
 
@@ -121,13 +121,6 @@ export default function LocalSeoServices() {
                 },
               ],
 
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "99",
-                bestRating: "5",
-                worstRating: "1",
-              },
             },
 
             areaServed: [
@@ -208,7 +201,7 @@ export default function LocalSeoServices() {
 
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://www.sibinfotech.com/local-seo-services.php",
+              "@id": "https://www.sibinfotech.com/local-seo-services",
             },
           }),
         }}
@@ -230,9 +223,31 @@ export default function LocalSeoServices() {
                 "@type": "ListItem",
                 position: 2,
                 name: "Local SEO Services",
-                item: "https://www.sibinfotech.com/local-seo-services.php",
+                item: "https://www.sibinfotech.com/local-seo-services",
               },
             ],
+          }),
+        }}
+      />
+
+      
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AggregateRating",
+            itemReviewed: {
+              "@type": "Service",
+              name: "Local SEO Services",
+              serviceType: "Local Search Engine Optimization",
+              provider: { "@type": "Organization", name: "SIB Infotech" },
+            },
+            ratingValue: "4.8",
+            reviewCount: "99",
+            bestRating: "5",
+            worstRating: "1",
           }),
         }}
       />

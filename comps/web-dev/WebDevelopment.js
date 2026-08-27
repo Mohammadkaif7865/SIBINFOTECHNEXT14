@@ -289,82 +289,34 @@ const WebDevelopment = () => {
 
   const faqsData = [
     {
-      question: "What are Web Development services?",
-      answer: `<div className="">
-                  <p>Known for ensuring the online presence of company Web Development services involve developing the website for the Internet (World Wide Web) or an intranet (a private network). Among professionals, Web Development usually refers to the main design aspects of building websites i.e. markup and coding.</p>
-                </div>`,
+      id: "faq1",
+      question: "What is website development?",
+      answer: `<div className="accordion-body"><p>Website development is the process of building the technical and functional parts of a website, including frontend and backend code, databases, integrations, hosting, security, and other systems.</p></div>`,
     },
     {
-      question: "What does a Web Development company do?",
-      answer: `<div className="">
-                  <p>Web Development is all about maintaining the online presence of a company so that its services can reach out to its potential customers. Web Development services include various engaging activities such as ideating and freezing the framework, architecture and navigation.</p>
-                  <p>There are several languages such as JavaScript, ASP, HTML, PHP etc. for coding and programming the backend.</p>
-                </div>`,
+      id: "faq2",
+      question: "What is a website?",
+      answer: `<div className="accordion-body"><p>A website is a collection of related web pages hosted on a server and accessed through a domain name. Businesses use websites to provide information, sell products or services, and generate leads.</p></div>`,
     },
     {
-      question: "What does Web development include?",
-      answer: `<div className="">
-                  <p>Web Development involves creating websites and apps for brands to reach customers. It includes aspects like web design, web publishing, web programming, and database management. A Web Developer designs websites and also writes the script in languages such as PHP and ASP.</p>
-                </div>`,
+      id: "faq3",
+      question: "How do I choose a web development company?",
+      answer: `<div className="accordion-body"><p>Review the company's portfolio, relevant experience, client feedback, development approach, security practices, technology choices, post-launch support, and pricing.</p></div>`,
     },
     {
-      question: "How much does Web Development cost?",
-      answer: `<div className="">
-                  <p>The cost for Web Development depends on many factors such as:</p>
-                  <ul>
-                    <li>Variation in requirements.</li>
-                    <li>Utilization of resources on projects.</li>
-                    <li>The time frame for a particular project etc.</li>
-                  </ul>
-                </div>`,
+      id: "faq4",
+      question: "What does a web development company do?",
+      answer: `<div className="accordion-body"><p>A web development company builds and maintains the functional parts of websites, including frontend and backend development, databases, integrations, security, hosting, and technical support.</p></div>`,
     },
     {
-      question: "What to look for in a Professional Web Development Company?",
-      answer: `<div className="">
-                  <p>Understanding what you look for in a web development company can be hard and at the same time can also have a major impact on the online presence of your business. We suggest choosing a website that has years of experience with an extensive portfolio of websites. Opt for checking reviews online to gauge how satisfied clients have been with the company's work.</p>
-                </div>`,
+      id: "faq5",
+      question: "How much does it cost to develop a website?",
+      answer: `<div className="accordion-body"><p>Website development costs vary based on design, features, technology, integrations, number of pages, and maintenance requirements.</p></div>`,
     },
     {
-      question: "Why SIB Infotech is the Best Web Development Agency in India?",
-      answer: `<div className="">
-                  <p>In a country like India, you will find thousands of Web Designing Companies running single-handedly or with multiple hands but what makes SIB Infotech unique is its years of experience and team of experts skilled in different areas. Feel free to check our portfolio for more information about the projects we have successfully delivered. We offer a free no-obligation consultation session so you can evaluate our capabilities and see if we are a good fit for your project. Contact us today to book an appointment.</p>
-                </div>`,
-    },
-    {
-      question: "How much does Website Development Costs in India?",
-      answer: `<div className="">
-                  <p>Web Development in a country like India is usually priced on the lower side of the scale. The total costing depends on the time utilization, resources on a particular project along with the custom requirements of clients.</p>
-                </div>`,
-    },
-    {
-      question:
-        "What Web Development Platforms do you use for Developing a Website?",
-      answer: `<div className="">
-                  <p>We work with a wide range of web development platforms and frameworks to match your project needs. Our expertise includes WordPress, Shopify, Magento, WooCommerce, Joomla, Drupal, Laravel, React.js, Angular, Vue.js, Next.js, and custom-built solutions using PHP, Python, Node.js, and .NET. We recommend the best platform based on your business goals, scalability needs, and budget.</p>
-                </div>`,
-    },
-    {
-      question: "What is Website Development?",
-      answer: `<div className="">
-                  <p>Explainable from its name itself, website development deals with the designing of websites for hosting via the internet or intranet. It incorporates within itself, website designing, web content development, client-side/server-side scripting, network security configuration, etc.</p>
-                  <p>Web development extensively includes all the actions, updates, and operations essential for administering and managing a site smoothly.</p>
-                  <p>Apart from development, there are many activities performed to ensure the site's top rankings on the search results page. These tasks pertain to a distinct specialization, i.e. search engine optimization (SEO).</p>
-                  <p>Website development is also recognized as web development while the experts who maintain websites are acknowledged to be web developers or web devs.</p>
-                </div>`,
-    },
-    {
-      question:
-        "How do I choose a Website Development Company for my Business?",
-      answer: `<div className="">
-                  <p>Here are a few tips to consider when appointing a web development company and the obstacles that may appear by overlooking vital points:</p>
-                  <ul>
-                    <li>Before opting for website development services you need to answer a few questions. What are the elements you need in a website? How many webpages do you need on your website? What should be its key features?</li>
-                    <li>Go through the company's website by analyzing its digital presence, social media handles, and content present. Also, investigate if the site is mobile-friendly.</li>
-                    <li>Have a glance at their portfolio. If they don’t have one ask them to go through a test for you asking them about their latest works and if they have worked on something in the same niche. Visit those sites and check how they are performing now (most importantly have a keen eye on the UI and UX).</li>
-                    <li>Check the reviews of their clients and pay further attention to the reviews from those clients that have similar businesses as yours. You may also monitor their overall rating and if they have any awards.</li>
-                    <li>Make sure they provide transparency to their clients and are responsive enough. Even if they don't possess a sales team contact them to know how they acknowledge and their dedication towards your work.</li>
-                  </ul>
-                </div>`,
+      id: "faq6",
+      question: "What is the difference between a website and a web application?",
+      answer: `<div className="accordion-body"><p>A website mainly provides information or content, while a web application provides interactive functionality such as logins, bookings, data management, or transactions.</p></div>`,
     },
   ];
   const faqDescription = `We as a full service leading <strong>digital marketing firm</strong>,

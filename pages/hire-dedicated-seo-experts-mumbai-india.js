@@ -9,9 +9,9 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function HireDedicatedSeoExperts() {
   const metaTags = (
     <>
-      <title>Hire Dedicated SEO Experts in Mumbai | Boost Your Rankings</title>
-      <meta name="description" content="Boost your website’s ranking with dedicated SEO experts in Mumbai. Get tailored SEO strategies from SIB Infotech for traffic, visibility, and online success." />
-      <meta name="keywords" content="hire dedicated seo,hire dedicated seo expert,hire dedicated seo professional,hire dedicated seo professionals,hire seo expert,hire seo professional,hire seo experts,seo link building,seo company delhi,seo company mumbai,seo company chennai,seo company hyd" />
+      <title>Hire Dedicated SEO Resources on Monthly Contract | SIB Infotech</title>
+      <meta name="description" content="Hire dedicated SEO resources from SIB Infotech on a monthly or full-time contract. Get a vetted, in-house SEO specialist working exclusively on your projects, with flexible engagement models and no recruitment overhead." />
+      <meta name="keywords" content="hire dedicated seo resource, dedicated seo resource monthly, hire seo team on contract, dedicated seo staff augmentation, outsourced seo team india, white label seo resource" />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/hire-dedicated-seo-experts-mumbai-india" />
