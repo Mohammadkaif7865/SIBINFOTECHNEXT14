@@ -111,13 +111,6 @@ export default function LinkedinAdsManagementServices() {
                 },
               ],
 
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "99",
-                bestRating: "5",
-                worstRating: "1",
-              },
             },
 
             areaServed: [

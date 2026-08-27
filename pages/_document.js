@@ -132,13 +132,6 @@ class MyDocument extends Document {
         contactType: "Customer Support",
         availableLanguage: ["English", "Hindi"],
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.9",
-        bestRating: "5",
-        worstRating: "3",
-        ratingCount: "2022",
-      },
     };
 
     return (

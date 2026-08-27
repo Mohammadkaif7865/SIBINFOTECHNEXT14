@@ -94,13 +94,6 @@ export default function PpcManagementServicesPackages() {
             "postalCode": "400064",
             "addressCountry": "IN"
           },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "99",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
           "sameAs": [
             "https://www.facebook.com/sibinfotech",
             "https://www.linkedin.com/company/sibinfotech",

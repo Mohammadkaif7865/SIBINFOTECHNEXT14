@@ -205,13 +205,6 @@ export default function EcommerceSeoServicesPackages() {
                     addressCountry: "IN",
                   },
                 ],
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: "4.8",
-                  reviewCount: "99",
-                  bestRating: "5",
-                  worstRating: "1",
-                },
                 sameAs: [
                   "https://www.facebook.com/sibinfotech/",
                   "https://x.com/sibinfotech",

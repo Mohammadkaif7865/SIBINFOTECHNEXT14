@@ -38,12 +38,6 @@ export default function Home() {
       "https://www.instagram.com/sibinfotech/",
       "https://twitter.com/sibinfotech",
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      bestRating: "5",
-      ratingCount: "99",
-    },
   };
 
   const localBusinessSchema = {
@@ -72,12 +66,6 @@ export default function Home() {
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       opens: "09:30",
       closes: "18:30",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      bestRating: "5",
-      ratingCount: "99",
     },
     areaServed: [
       { "@type": "City", name: "Mumbai" },
