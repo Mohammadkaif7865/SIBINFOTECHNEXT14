@@ -136,16 +136,36 @@ export function middleware(request) {
    * duplicate content and is what produced the "Alternate page with proper
    * canonical" and "Redirect error" reports in Search Console.
    *
-   * Loop safety: we only redirect when x-forwarded-proto explicitly says the
-   * request arrived over http. If the header is absent or unreadable we do
-   * nothing, so a proxy that does not set it cannot trap us in a loop.
+   * Loop safety - important, this site sits behind Cloudflare:
+   * If Cloudflare's SSL mode is "Flexible", Cloudflare terminates TLS at the
+   * edge and talks to the origin over plain HTTP, setting
+   * x-forwarded-proto: http even when the visitor arrived on https. Trusting
+   * that header alone would redirect a visitor who is ALREADY on https,
+   * Cloudflare would fetch the origin over http again, and the site would
+   * loop until the browser gives up.
+   *
+   * Cloudflare's CF-Visitor header reports the scheme the *visitor* used, so
+   * it is the only trustworthy signal here. We check it first and fall back
+   * to x-forwarded-proto only when Cloudflare is not in front. If neither
+   * header is present we do nothing, so an unknown proxy cannot trap us.
+   *
    * Localhost is always skipped so local dev over http keeps working.
    */
   const CANONICAL_HOST = "www.sibinfotech.com";
-  const forwardedProto = (request.headers.get("x-forwarded-proto") || "")
-    .split(",")[0]
-    .trim()
-    .toLowerCase();
+
+  // Cloudflare: {"scheme":"https"} - reflects the visitor's real scheme.
+  let visitorScheme = "";
+  const cfVisitor = request.headers.get("cf-visitor");
+  if (cfVisitor) {
+    const m = /"scheme"\s*:\s*"(https?)"/i.exec(cfVisitor);
+    if (m) visitorScheme = m[1].toLowerCase();
+  }
+  const forwardedProto =
+    visitorScheme ||
+    (request.headers.get("x-forwarded-proto") || "")
+      .split(",")[0]
+      .trim()
+      .toLowerCase();
   const rawHost = (request.headers.get("host") || "").toLowerCase();
   const host = rawHost.split(":")[0];
   const isLocal =
