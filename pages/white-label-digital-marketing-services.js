@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { CustomLayout } from "@/comps/CustomLayout";
 import WhiteLabelSeoMgt from "@/comps/WhiteLabelSeo/WhiteLabelSeoMgt";
 
@@ -55,14 +56,14 @@ export default function WhiteLabelDigitalMarketingServices() {
 
   const metaTags = (
     <>
-      <title>White Label SEO Services India | SEO Reseller | SIB Infotech</title>
+      <title>White Label Digital Marketing & SEO Services India | SIB Infotech</title>
       <meta
         name="description"
         content="Offer world-class SEO under your brand. NDA-protected white label SEO from SIB Infotech. Trusted by 100+ agencies. Scalable, transparent, and results-driven."
       />
       <meta
         name="keywords"
-        content="white label SEO services India, SEO reseller India, white label SEO agency, private label SEO, SEO outsourcing India, reseller SEO program, white label SEO reports, NDA SEO services, branded SEO reports, SEO fulfillment partner, agency SEO outsourcing, scalable SEO, white label link building, white label content"
+        content="white label digital marketing services india, white label SEO services India, SEO reseller India, white label digital marketing agency, white label SEO agency, private label SEO, SEO outsourcing India, reseller SEO program, white label SEO reports, NDA SEO services, white label PPC management, white label google ads, white label content marketing, branded SEO reports, SEO fulfillment partner, agency SEO outsourcing, scalable SEO, white label link building, white label content"
       />
 
       <meta property="og:type" content="website" />
@@ -118,7 +119,92 @@ export default function WhiteLabelDigitalMarketingServices() {
 
   return (
     <CustomLayout meta={metaTags}>
-      <WhiteLabelSeoMgt />
+      <WhiteLabelSeoMgt
+        heroTitle="White Label Digital Marketing Services That"
+        heroTitleAccent="Scale With Your Agency"
+        heroIntro="Resell SEO, Google Ads, paid social, and content under your own brand. NDA-protected, fully managed delivery from a Google Premier Partner, so your agency can sell every channel without hiring for any of them."
+      >
+        {/* Channel breadth is what separates this page from the SEO-only
+            white label page. Keep these two pages distinct in copy. */}
+        <section className="pt-5 pb-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-9">
+                <h2 className="heading fontWeight700">
+                  Every Channel You Resell,{" "}
+                  <span className="text_red fontWeight700">
+                    Delivered Under Your Brand
+                  </span>
+                </h2>
+                <p className="mt-3">
+                  White label SEO is one service. White label digital marketing
+                  is the full stack. Agencies partner with us when a client asks
+                  for a channel they do not staff for — and they need it
+                  delivered, reported and invoiced as their own.
+                </p>
+              </div>
+            </div>
+
+            <div className="row mt-4">
+              {[
+                {
+                  t: "White Label SEO",
+                  d: "Technical audits, on-page, content and link building. Reported under your logo.",
+                  href: "/white-label-seo-services",
+                },
+                {
+                  t: "White Label Google Ads & PPC",
+                  d: "Search, Shopping, Performance Max and remarketing, built and optimised by certified Premier Partner strategists.",
+                  href: "/google-ads-management-services",
+                },
+                {
+                  t: "White Label Paid Social",
+                  d: "Meta, Instagram, LinkedIn and TikTok campaigns — creative testing, audience builds and full-funnel tracking.",
+                  href: "/facebook-ads-management-services",
+                },
+                {
+                  t: "White Label Content Marketing",
+                  d: "Briefs, long-form articles, landing pages and thought leadership written to your client's tone of voice.",
+                  href: "/content-marketing-services",
+                },
+                {
+                  t: "White Label Web Design & Development",
+                  d: "Landing pages, full builds and CRO work your clients never know were outsourced.",
+                  href: "/website-designing-services",
+                },
+                {
+                  t: "White Label AI Search Optimisation",
+                  d: "Visibility inside ChatGPT, Gemini, Perplexity and AI Overviews — the channel most resellers cannot yet offer.",
+                  href: "/llm-seo-services",
+                },
+              ].map((c, i) => (
+                <div key={i} className="col-lg-4 col-md-6 mb-4">
+                  <Link
+                    href={c.href}
+                    className="text-decoration-none d-block h-100"
+                  >
+                    <div className="p-4 h-100 border rounded-3">
+                      <h3 className="small_heading fontWeight700">{c.t}</h3>
+                      <p className="mt-2 mb-0">{c.d}</p>
+                    </div>
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-2 mb-0">
+              Only need search? Our{" "}
+              <Link
+                href="/white-label-seo-services"
+                className="text_red fontWeight600"
+              >
+                white label SEO services
+              </Link>{" "}
+              page covers SEO-only reseller partnerships in detail.
+            </p>
+          </div>
+        </section>
+      </WhiteLabelSeoMgt>
     </CustomLayout>
   );
 }

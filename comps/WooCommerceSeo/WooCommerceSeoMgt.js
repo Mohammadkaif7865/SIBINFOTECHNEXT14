@@ -496,6 +496,12 @@ const WooCommerceSeoMgt = () => {
         }
         links={[
           {
+            title: "SEO Company in Mumbai",
+            description:
+              "Our flagship SEO service. Google Premier Partner, 20+ years, ranking Mumbai businesses since 2005.",
+            href: "/search-engine-optimization-seo-services",
+          },
+          {
             title: "Shopify SEO Services",
             href: "/shopify-seo-services",
             description:

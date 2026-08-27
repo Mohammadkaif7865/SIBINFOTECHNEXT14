@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import axios from "axios";
 import * as CONSTANTS from "../../constants/constants";
-import BlogCard from "./BlogCard";
+import BlogCard from "@/comps/BlogListCard";
 import Link from "next/link";
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { CustomLayout } from "@/comps/CustomLayout";
