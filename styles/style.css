@@ -11889,18 +11889,39 @@ transition:
   background: linear-gradient(145deg, #1c1526, #120e1a);
   color: rgba(255, 255, 255, 0.6);
   gap: 8px;
+  z-index: 1;
 }
 
 .ig_reel_placeholder_icon {
   font-size: 36px;
   color: #e1306c;
   opacity: 0.8;
+  animation: igPlaceholderPulse 2s ease-in-out infinite;
+}
+
+@keyframes igPlaceholderPulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
 }
 
 .ig_reel_placeholder_text {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ig_reel_placeholder_reel_tag {
+  font-size: 10px;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e1306c;
+  background: rgba(225, 48, 108, 0.15);
+  border: 1px solid rgba(225, 48, 108, 0.3);
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-top: 4px;
 }
 
 /* Overlay gradient on image */
@@ -12220,6 +12241,34 @@ transition:
   transform: translateX(4px);
 }
 
+.ig_view_all_button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 22px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 12px;
+  transition: all 0.3s ease;
+}
+
+.ig_view_all_button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff !important;
+}
+
+.ig_reels_fallback_note {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 14px;
+}
+
 /* Modal Lightbox */
 .ig_reels_modal_overlay {
   position: fixed;
@@ -12358,5 +12407,303 @@ transition:
   .ig_reel_card {
     border-radius: 16px;
   }
+  .ig_reels_cta_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .ig_view_all_button {
+    margin-left: 0;
+  }
 }
+
+/* ==========================================================================
+   Reviews Carousel
+   ========================================================================== */
+.rb_carousel {
+  position: relative;
+}
+
+.rb_carousel_view {
+  overflow: hidden;
+}
+
+.rb_carousel_track {
+  animation: rbCarouselFade 0.5s ease;
+}
+
+@keyframes rbCarouselFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rb_dots_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.rb_dot_small {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: #ddd;
+  transition: all 0.3s ease;
+}
+
+.rb_dot_small:hover {
+  background: #bbb;
+}
+
+.rb_dot_small_active {
+  background: var(--red-color);
+  width: 22px;
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   Anuj Bajaj Leadership Profile Page Styles
+   ========================================================================== */
+.anuj_hero_section {
+  background: linear-gradient(135deg, #09192e 0%, #15375b 60%, #1e4d7e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.anuj_hero_section::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(227, 26, 32, 0.15) 0%, rgba(227, 26, 32, 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.anuj_badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.anuj_profile_card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.anuj_profile_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+.anuj_profile_img_wrap {
+  position: relative;
+  background: #f1f4f8;
+  overflow: hidden;
+  text-align: center;
+}
+
+.anuj_profile_img {
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.anuj_profile_card:hover .anuj_profile_img {
+  transform: scale(1.03);
+}
+
+.anuj_profile_badge {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(12, 25, 44, 0.85);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  white-space: nowrap;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.anuj_quick_facts span {
+  font-size: 14px;
+  color: #444;
+}
+
+.anuj_quote_box {
+  background: #fcf8f8;
+  transition: all 0.3s ease;
+}
+
+.anuj_quote_box:hover {
+  background: #f8f1f1;
+}
+
+.anuj_feature_card {
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+.anuj_feature_card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red-color);
+  box-shadow: 0 12px 28px rgba(227, 26, 32, 0.1) !important;
+}
+
+.cricket_card {
+  transition: all 0.35s ease;
+}
+
+.cricket_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+.specialist_card {
+  transition: all 0.35s ease;
+  border: 1px solid #f0f0f0 !important;
+}
+
+.specialist_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.09) !important;
+  border-color: rgba(227, 26, 32, 0.3) !important;
+}
+
+.pillar_card {
+  transition: all 0.35s ease;
+}
+
+.pillar_card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red-color) !important;
+  box-shadow: 0 16px 32px rgba(227, 26, 32, 0.09) !important;
+}
+
+.pillar_watermark {
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.03);
+  pointer-events: none;
+  line-height: 1;
+  user-select: none;
+}
+
+.max-w-800 {
+  max-width: 800px;
+}
+
+.max-w-900 {
+  max-width: 900px;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.anuj_quote_card {
+  background: linear-gradient(135deg, #e31a20 0%, #b81419 100%) !important;
+  color: #ffffff !important;
+}
+
+.anuj_quote_card h4 {
+  color: #ffffff !important;
+}
+
+.anuj_quote_card p {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.anuj_closing_banner {
+  background: linear-gradient(135deg, #09192e 0%, #15375b 60%, #1e4d7e 100%) !important;
+  color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.anuj_closing_banner::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(227, 26, 32, 0.2) 0%, rgba(227, 26, 32, 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.anuj_closing_banner h3 {
+  color: #ffffff !important;
+}
+
+.anuj_closing_banner p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.specialist_icon_wrap {
+  background: var(--red-color) !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .anuj_profile_card {
+    max-width: 100%;
+  }
+  .anuj_quote_box {
+    padding: 18px !important;
+  }
+}
+
 

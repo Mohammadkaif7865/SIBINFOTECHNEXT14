@@ -69,7 +69,103 @@ const BLOG_META_OVERRIDES = {
     description:
       "PPC management cost in India 2026: what you should pay for Google Ads management. Real pricing benchmarks, common pricing models, and what is included in agency fees.",
   },
+  "top-seo-companies-in-mumbai": {
+    title: "Top 10 SEO Companies in Mumbai 2026 | Reviewed & Ranked",
+    description:
+      "Independent review of the best SEO companies in Mumbai for 2026 — ranked by results, client reviews, and expertise. Use this guide to shortlist the right SEO agency for your business.",
+  },
+  "digital-marketing-importance-and-types": {
+    title: "Importance and Types of Digital Marketing in 2026 | Guide",
+    description:
+      "A complete guide to understanding the importance of digital marketing and the different types of digital marketing channels — SEO, PPC, social media, content, and site marketing explained.",
+  },
+  "how-much-the-average-seo-services-cost-in-india": {
+    title: "SEO Services Cost in India 2026: Pricing, Packages & What to Expect",
+    description:
+      "How much do SEO services cost in India in 2026? A transparent breakdown of SEO pricing, monthly packages, and what you get at each price point — with honest advice on what to avoid.",
+  },
 };
+
+// CTA interceptor banners for posts that cannibalise key service pages
+const BLOG_CTA_INTERCEPTORS = {
+  "top-seo-companies-in-mumbai": {
+    heading: "Looking for the Top SEO Company in Mumbai?",
+    body: "SIB Infotech is a Google Premier Partner and one of the most reviewed SEO agencies in Mumbai. We have ranked 1000+ brands across 40+ countries since 2005.",
+    primaryText: "Top SEO Company in Mumbai & Best SEO Agency in India",
+    primaryHref: "/search-engine-optimization-seo-services",
+    secondaryText: "View SEO Packages",
+    secondaryHref: "/seo-packages",
+  },
+  "digital-marketing-importance-and-types": {
+    heading: "Need a Site Marketing & Digital Marketing Partner?",
+    body: "SIB Infotech provides full-funnel site marketing and digital marketing services in India — SEO, PPC, social media, content, and analytics under one roof.",
+    primaryText: "Site Marketing & Digital Marketing Services in India",
+    primaryHref: "/digital-marketing-services",
+    secondaryText: "Talk to an Expert",
+    secondaryHref: "/contact-us",
+  },
+  "how-much-the-average-seo-services-cost-in-india": {
+    heading: "Get Transparent SEO Pricing from a Google Premier Partner",
+    body: "SIB Infotech offers affordable monthly SEO packages in India with no lock-in contracts. Starter plans from ₹20,000/month, full pricing published on our packages page.",
+    primaryText: "View Monthly SEO Packages & Pricing",
+    primaryHref: "/seo-packages",
+    secondaryText: "Get a Free SEO Audit",
+    secondaryHref: "/search-engine-optimization-seo-services",
+  },
+};
+
+function BlogCtaInterceptor({ slug }) {
+  const cta = BLOG_CTA_INTERCEPTORS[slug];
+  if (!cta) return null;
+  return (
+    <div
+      className="blog-cta-interceptor my-4 p-4 rounded"
+      style={{
+        background: "linear-gradient(135deg, #0a0a2e 0%, #1a1a4e 100%)",
+        border: "1px solid #e63946",
+        color: "#fff",
+      }}
+    >
+      <h3 style={{ color: "#fff", marginBottom: "0.5rem", fontSize: "1.2rem", fontWeight: 700 }}>
+        {cta.heading}
+      </h3>
+      <p style={{ color: "#ccc", marginBottom: "1rem", fontSize: "0.95rem" }}>{cta.body}</p>
+      <div className="d-flex flex-wrap gap-2">
+        <a
+          href={cta.primaryHref}
+          style={{
+            background: "#e63946",
+            color: "#fff",
+            padding: "0.5rem 1.25rem",
+            borderRadius: "4px",
+            textDecoration: "none",
+            fontWeight: 600,
+            fontSize: "0.9rem",
+            display: "inline-block",
+          }}
+        >
+          {cta.primaryText}
+        </a>
+        <a
+          href={cta.secondaryHref}
+          style={{
+            background: "transparent",
+            color: "#fff",
+            padding: "0.5rem 1.25rem",
+            borderRadius: "4px",
+            textDecoration: "none",
+            fontWeight: 600,
+            fontSize: "0.9rem",
+            border: "1px solid #fff",
+            display: "inline-block",
+          }}
+        >
+          {cta.secondaryText}
+        </a>
+      </div>
+    </div>
+  );
+}
 
 function FaqAccordion({ faqs }) {
   const [openIndex, setOpenIndex] = useState(null);
@@ -402,7 +498,8 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     ></div>
                   )}
 
-                  {/* Blog Sections */}
+                  {/* Cannibalization Interceptor CTA */}
+                  <BlogCtaInterceptor slug={postSlug} />{/* Blog Sections */}
                   {blogSections &&
                     blogSections.length > 0 &&
                     blogSections.some(

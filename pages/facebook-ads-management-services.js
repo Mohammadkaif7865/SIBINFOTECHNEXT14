@@ -9,29 +9,29 @@ import BreadcrumbSchema from "@/comps/BreadcrumbSchema";
 export default function FacebookAdsManagementServices() {
   const metaTags = (
     <>
-      <title>Facebook Ad Management Services in Mumbai | SIB Infotech</title>
-      <meta name="description" content="Grow your brand with SIB Infotech’s Facebook ad management services. Targeted campaigns, lookalike audiences & high ROI. India’s trusted Facebook ads agency." />
-      <meta name="keywords" content="facebook advertising agency, facebook ads management services, facebook ads company, facebook ads management company , facebook ads management agency" />
-     
+      <title>Facebook Ads Management Services in Mumbai, India | SIB Infotech</title>
+      <meta name="description" content="Grow your brand with SIB Infotech's Facebook ads management services in Mumbai. 355% increase in qualified leads for clients. Targeted campaigns, Reels ads, Advantage+ & high ROI. India's trusted Facebook ads agency." />
+      <meta name="keywords" content="facebook advertising agency Mumbai, facebook ads management services, facebook ads company Mumbai, facebook ads management company, facebook ads agency India, facebook marketing agency, Meta ads management services, facebook advertising agency India, facebook ads expert Mumbai, social media advertising Mumbai" />
+
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/facebook-ads-management-services" />
-      <meta property="og:title" content="Top Facebook Ads Management Services Company Mumbai, India" />
-      <meta property="og:description" content="Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!" />
+      <meta property="og:title" content="Facebook Ads Management Services in Mumbai, India | SIB Infotech" />
+      <meta property="og:description" content="Grow your brand with SIB Infotech's Facebook ads management services in Mumbai. 355% increase in qualified leads. Targeted campaigns, Reels ads, Advantage+ & high ROI." />
       <meta property="og:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services.webp" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.sibinfotech.com/facebook-ads-management-services" />
-      <meta property="twitter:title" content="Top Facebook Ads Management Services Company Mumbai, India" />
-      <meta property="twitter:description" content="Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!" />
+      <meta property="twitter:title" content="Facebook Ads Management Services in Mumbai, India | SIB Infotech" />
+      <meta property="twitter:description" content="Grow your brand with SIB Infotech's Facebook ads management services in Mumbai. 355% increase in qualified leads. Targeted campaigns, Reels ads & high ROI." />
       <meta property="twitter:image" content="https://www.sibinfotech.com/assets/og/facebook-ads-management-services.webp" />
 
-<BreadcrumbSchema
+      <BreadcrumbSchema
         url="https://www.sibinfotech.com/facebook-ads-management-services"
-        breadcrumbTitle="Top Facebook Ads Management Services Company Mumbai, India"
+        breadcrumbTitle="Facebook Ads Management Services in Mumbai, India | SIB Infotech"
         PageRatingSchema
         description={
-          "Grow your brand awareness with SIB Infotech, India's well-known top Facebook ads management agency in Mumbai. Contact us for a customized Facebook Ads strategy!"
+          "Grow your brand with SIB Infotech's Facebook ads management services in Mumbai. 355% increase in qualified leads. Targeted campaigns, Reels ads & high ROI."
         }
         reviewCount={"5195"}
       />

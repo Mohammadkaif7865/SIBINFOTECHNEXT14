@@ -11,6 +11,7 @@ import EngagingAds from "./EngagingAds";
 import Estimate from "./Estimate";
 import AdsType from "./AdsType";
 import Launchcampaign from "./Launchcampaign";
+import FaqSection from "./Faq";
 
 const FacebookAdsMgt = () => {
   return (
@@ -46,6 +47,7 @@ const FacebookAdsMgt = () => {
     <EngagingAds />
       <Estimate />
       <AdsType />
+      <FaqSection />
       <Launchcampaign />
     </>
   );

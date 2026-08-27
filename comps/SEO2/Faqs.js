@@ -7,225 +7,42 @@ const Faqs = () => {
     {
       id: "faq1",
       question: "What is SEO?",
-      answer: ` <div className="accordion-body">
-      <p>
-        SEO or ‘search engine optimization is the process of
-        improving the quality and quantity of website traffic.
-        This is achieved by increasing its visibility on
-        search engines, improving rankings for unpaid results.
-        As a marketing strategy, SEO has long-term benefits
-        and provides a high return-on-investment.
-      </p>
-    </div>`,
+      answer: `<div className="accordion-body"><p>SEO (search engine optimization) is the practice of improving a website so it ranks higher in organic, unpaid search results through keyword optimization, quality content, technical fixes, and backlinks to attract more relevant traffic.</p></div>`,
     },
     {
       id: "faq2",
-      question: "What are your SEO plans?",
-      answer: `   <div className="accordion-body">
-      <p className="customText">
-        SEO is a results-oriented process that requires goal
-        strategies to bring good results. We continuously
-        strive to provide a complete package of SEO services
-        including:
-      </p>
-      <ul className="listFlexItem">
-        <li>Content analysis and optimization</li>
-        <li>Website Structure Analysis</li>
-        <li>Off-Page SEO and On-Page SEO</li>
-        <li>Website code optimization</li>
-        <li>Website structure optimization</li>
-        <li>Keyword Research</li>
-        <li>Local SEO Content Writing and Placement</li>
-      </ul>
-      <p className="customText">
-        <strong>
-          SEO Plans are based on customer requirements and
-          their objective. Our SEO Packages offered are
-          tailored made suitable for all kinds of budgets
-        </strong>
-      </p>
-    </div>`,
+      question: "What is SEO services?",
+      answer: `<div className="accordion-body"><p>SEO services are professional efforts to improve a website's visibility in search engines through keyword research, on-page optimization, technical fixes, content creation, and link building to increase organic traffic and leads.</p></div>`,
     },
     {
       id: "faq3",
-      question: "How long does it take to see the result?",
-      answer: `<p>
-      SEO grows over time and the entire SEO process takes
-      about 3 to 6 months to see the expected results, with
-      a minimum of 2 to 3 months in link building, on-page
-      optimization, off-page optimization, content creation,
-      and marketing. Is complete. Another fact is that SEO
-      results are expected to increase over time, so results
-      in 6 months will be slightly lower than in 12 months
-    </p>`,
+      question: "How does SEO work?",
+      answer: `<div className="accordion-body"><p>SEO works by helping search engines understand and trust a website through relevant keywords, technical performance, quality backlinks, and good user experience, which together influence rankings for relevant searches.</p></div>`,
     },
     {
       id: "faq4",
-      question: "What is the cost of SEO services?",
-      answer: `  <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per clients budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages.
-    </p>`,
+      question: "What is technical SEO?",
+      answer: `<div className="accordion-body"><p>Technical SEO is optimizing a website's backend, including site speed, mobile-friendliness, crawlability, indexing, and structured data, so search engines can efficiently access and understand its content.</p></div>`,
     },
     {
       id: "faq5",
-      question: "Why do you need SEO service for your website?",
-      answer: ` <p>
-      SEO services offer visibility to your websites and
-      improve SEO ranking gradually over search engines like
-      Google, Yahoo, Bing, DuckDuckGo etc. A high ranking
-      website would bring more traffic to its website and
-      help lead generation for the business.
-    </p>`,
+      question: "Are SEO services worth it?",
+      answer: `<div className="accordion-body"><p>Yes, SEO services can be valuable for businesses that want to build long-term organic visibility and generate relevant traffic without relying entirely on paid advertising. Results usually take time and depend on competition, website quality, and the strategy used.</p></div>`,
     },
     {
       id: "faq6",
-      question: "Ask for an initial SEO audit of your website?",
-      answer: ` <p>
-      We offer free SEO audit services as a part of the
-      entire SEO package. We have dedicated professionals to
-      provide SEO audit reports for your website, unlike
-      some SEO companies in India that entirely rely on
-      audit tools. We ensure that the audit report is
-      developed thoroughly with covering elements like
-      keyword research and competitor analysis.
-    </p>`,
+      question: "What is included in SEO services?",
+      answer: `<div className="accordion-body"><p>A typical SEO package includes a technical audit, keyword research, on-page optimization, content optimization, internal linking, off-page SEO, local SEO where applicable, and regular performance reporting.</p></div>`,
     },
     {
       id: "faq7",
-      question: "How much does SEO Services cost per month?",
-      answer: ` <p>
-      Our SEO services' cost depends on the client's
-      requirements. We provide custom SEO packages
-      tailor-made to fit as per client's budget for SEO. We
-      cover a vast range of services in our SEO packages'
-      intending to improve website traffic and bring higher
-      ranking on Google search result pages. SEO packages
-      start from around USD 300 per month onwards.
-    </p>`,
+      question: "How do I choose the best SEO company in India?",
+      answer: `<div className="accordion-body"><p>Look for a proven track record, transparent reporting, ethical SEO practices, relevant industry experience, clear deliverables, and realistic expectations. Avoid agencies that guarantee a specific Google ranking.</p></div>`,
     },
     {
       id: "faq8",
-      question: `Is SEO worth it in ${new Date().getFullYear()}?`,
-      answer: `<p>
-      With years crossing by, the emphasis on SEO is never
-      degrading instead it is turning more prominent than
-      ever. It is one of the most compelling digital
-      marketing strategies that stimulate long-term results.
-      In ${new Date().getFullYear()}, SEO continues to be
-      significant and savvy marketers should discover their
-      ways of managing content marketing alongside other
-      traffic channels such as social media management. By
-      targeting long-tailed keywords, SEO as inbound
-      marketing broadens your brand's reach.
-    </p>`,
-    },
-    {
-      id: "faq9",
-      question: `Why SEO services are so expensive?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        <strong>
-          There are several reasons for SEO being expensive:
-        </strong>
-      </p>
-      <ul className="listFlexItem">
-        <li>It is a time taking process.</li>
-        <li>
-          Calls for several resources to build up and maintain
-          a campaign.
-        </li>
-        <li>
-          Relies on the expertise of the SEO specialist to
-          establish and advance your strategy.
-        </li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq10",
-      question: `How do you rank first on Google?`,
-      answer: `  <p>
-      There is no tried and tested method for ranking first
-      on Google. However, with the right keywords and SEO
-      campaigns, your chances of ranking high can be
-      increased. For that, you'll have to create tons of
-      optimized content and you're good to go! With the
-      right strategies, this will happen much sooner than
-      you think.
-    </p>`,
-    },
-    {
-      id: "faq11",
-      question: `How does Google rank SEO?`,
-      answer: `  <p>
-      Authority and relevancy are the two primary things
-      Google looks for when crawling a website. Google will
-      produce the results based on algorithms and
-      information gathered by the spiders. These web pages
-      are placed on the search results page in an order
-      reflecting their page.
-    </p>`,
-    },
-    {
-      id: "faq12",
-      question: `How do I choose a company for SEO?`,
-      answer: `  <div className="accordion-body">
-      <p className="customText">
-        For choosing a suitable SEO Company for your brand
-        follows these six steps:
-      </p>
-      <ul>
-        <li>
-          Ask for examples and case studies of successful SEO
-          campaigns.
-        </li>
-        <li>Think beyond SEO.</li>
-        <li>Visit the SEO Company in person.</li>
-        <li>
-          Understand the risks of low-cost SEO agencies.
-        </li>
-        <li>Avoid SEO guarantees.</li>
-        <li>
-          Familiarize yourself with SEO pricing models and
-          make an SEO budget.
-        </li>
-      </ul>
-    </div>`,
-    },
-    {
-      id: "faq13",
-      question: `What are SEO tools?`,
-      answer: ` <p>
-      SEO tools determine the potential of your webpage for
-      high rankings in search engine results. They provide
-      keywords and backlinks information as well as insights
-      into SEO competition on the Internet.
-    </p>`,
-    },
-    {
-      id: "faq14",
-      question: `Why Hire SEO Company in India?`,
-      answer: ` <p>
-      Hiring an SEO company in India is a strategic choice
-      fueled by a vast pool of skilled professionals focused
-      on digital marketing. The cost-effective nature of
-      Indian SEO services, coupled with competitive pricing,
-      ensures businesses receive optimal value. With a
-      proven track record and a diverse talent pool, these
-      companies bring innovation and expertise to enhance
-      online presence. The ability to navigate evolving
-      industry trends and leverage cultural diversity allows
-      for nuanced and targeted SEO strategies. Businesses
-      can trust in achieving improved search engine
-      rankings, driving organic traffic, and ultimately
-      experiencing sustained growth by tapping into the
-      comprehensive offerings of Indian SEO companies.
-    </p>`,
+      question: "Is SEO still relevant with the rise of AI search?",
+      answer: `<div className="accordion-body"><p>Yes. Search engines and AI-powered search systems still depend on useful, trustworthy, well-structured web content. Good SEO can therefore support visibility in both traditional search results and AI-generated search experiences.</p></div>`,
     },
   ];
 

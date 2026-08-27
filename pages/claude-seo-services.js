@@ -11,8 +11,15 @@ export default function ClaudeSeoService() {
 
       <meta
         name="description"
-        content="Create content that ranks on Google and gets cited in AI answers. Build visibility, authority & traffic with Claude SEO services. Book your free audit today."
+        content="Create content that ranks on Google and gets cited in AI answers with Claude SEO services by SIB Infotech. 20+ years experience, 850+ clients. Book your free audit today."
       />
+
+      <meta
+        name="keywords"
+        content="Claude SEO services, Claude AI SEO, Anthropic Claude SEO, AI SEO services India, Claude SEO optimization, Claude SEO agency India, AI-powered SEO Mumbai, SEO with Claude AI, Claude content SEO, Claude keyword research, best Claude SEO company"
+      />
+
+      <meta property="og:type" content="website" />
 
       <meta
         property="og:title"
@@ -23,19 +30,35 @@ export default function ClaudeSeoService() {
 
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/claude-seo-services/"
+        content="https://www.sibinfotech.com/claude-seo-services"
       />
 
       <meta
         property="og:description"
-        content="Create content that ranks on Google and gets cited in AI answers. Build visibility, authority & traffic with Claude SEO services. Book your free audit today."
+        content="Create content that ranks on Google and gets cited in AI answers with Claude SEO services by SIB Infotech. 20+ years, 850+ clients. Free audit."
       />
-
-      <meta property="og:type" content="website" />
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/claude-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Rank Smarter with Claude SEO Services | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Create content that ranks on Google and gets cited in AI answers with Claude SEO services. 20+ years, 850+ clients. Free audit."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
     </>
   );
@@ -231,8 +254,8 @@ export default function ClaudeSeoService() {
 
   const whyChooseSib = [
     {
-      title: "18+ Years of Real SEO Experience",
-      text: "SEO has changed dramatically over the years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
+      title: "20+ Years of Real SEO Experience",
+      text: "                      SEO has changed dramatically over 20+ years. Algorithms have shifted, strategies have evolved and tools have transformed. SIB Infotech has been through every change and adapted every time. That experience is something no new agency can replicate overnight.",
       icon: "fa-solid fa-medal",
     },
     {
@@ -455,7 +478,7 @@ export default function ClaudeSeoService() {
                 <p className="mt-3 text-white">
                   Struggling to create content that ranks on Google and gets
                   cited in AI search? SIB Infotech&apos;s Claude SEO services
-                  combine the intelligence of Claude AI with 18+ years of real
+                  combine the intelligence of Claude AI with                   20+ years of real
                   SEO expertise to deliver rankings that last, content that gets
                   discovered and traffic that actually converts.
                 </p>
@@ -531,7 +554,7 @@ export default function ClaudeSeoService() {
 
               <p className="textGrey mb-2">
                 We combine the deep reasoning and long-form writing capabilities
-                of Claude AI SEO optimization with 18+ years of real SEO
+                  of Claude AI SEO optimization with 20+ years of real SEO
                 expertise. This means every strategy we build is backed by
                 experience, every piece of content is optimized for search
                 intent and every result is something you can actually measure
@@ -563,9 +586,9 @@ export default function ClaudeSeoService() {
                   <div className="col-6">
                     <div className="bg-white rounded-3 p-4 h-100">
                       <h3 className="heading fontWeight700 text_red mb-1">
-                        18+
-                      </h3>
-                      <p className="mb-0 textGrey">Years Experience</p>
+                      20+
+                    </h3>
+                    <p className="mb-0 textGrey">Years Experience</p>
                     </div>
                   </div>
 
@@ -942,7 +965,7 @@ export default function ClaudeSeoService() {
               </p>
 
               <p className="title mb-3">
-                As a Google Premier Partner with 18+ years of SEO expertise and
+                As a Google Premier Partner with 20+ years of SEO expertise and
                 a proven AI-powered approach, we know exactly what it takes to
                 build rankings that last and traffic that keeps growing.
               </p>

@@ -65,7 +65,7 @@ export default function PpcManagementServices() {
   return (
     <CustomLayout meta={metaTags}>
       <Ppc />
-          <section className="customPadding">
+      <section className="customPadding">
         <div className="containerFull">
           <h3 className="customHeading text-center">
             <span>PPC Management </span>Packages, Pricing &amp; Plans

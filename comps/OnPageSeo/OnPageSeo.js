@@ -8,6 +8,7 @@ import Benifits from "./Benifits";
 import Invest from "./Invest";
 import Optimization from "./Optimization";
 import Contact from "./Contact";
+import FaqSection from "./Faq";
 
 const OnPageSeo = () => {
   return (
@@ -23,6 +24,7 @@ const OnPageSeo = () => {
       <Invest />
 
       <Optimization />
+      <FaqSection />
       <Contact />
     </>
   );

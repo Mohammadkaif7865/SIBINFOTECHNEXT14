@@ -483,20 +483,25 @@ export default function AboutUs() {
             <h3 className="sub_heading fontWeight700 text-center">Leaders</h3>
             <div className="row mt-lg-3 mt-2 justify-content-center">
               <div className="col-lg-3 col-6 px-lg-4">
-                <div className="teamItem">
-                  <div className="teamImg">
-                    <picture>
-                      <source srcSet="assets/images/team/anuj-bajaj-sir.webp" />
-                      <img
-                        src="assets/images/team/anuj-bajaj-sir.webp"
-                        alt="Anuj Bajaj"
-                      />
-                    </picture>
+                <Link href="/anuj-bajaj" className="text-decoration-none">
+                  <div className="teamItem">
+                    <div className="teamImg">
+                      <picture>
+                        <source srcSet="assets/images/team/anuj-bajaj-sir.webp" />
+                        <img
+                          src="assets/images/team/anuj-bajaj-sir.webp"
+                          alt="Anuj Bajaj"
+                        />
+                      </picture>
+                    </div>
+                    <div className="teamName">
+                      <h3 className="small_heading fontWeight600">Anuj Bajaj</h3>
+                      <span className="text_red small fw-semibold d-inline-flex align-items-center mt-1">
+                        Read Story <i className="fa fa-arrow-right ms-1"></i>
+                      </span>
+                    </div>
                   </div>
-                  <div className="teamName">
-                    <h3 className="small_heading fontWeight600">Anuj Bajaj</h3>
-                  </div>
-                </div>
+                </Link>
               </div>
               <div className="col-lg-3 col-6 px-lg-4">
                 <div className="teamItem">

@@ -78,7 +78,7 @@ export default function LocalSeoServices() {
             alternateName: "Google Local SEO Optimization Services",
             description:
               "SIB Infotech is a leading local SEO company in India offering result-driven local search engine optimization services for businesses. Our local SEO experts help improve Google Maps rankings, local search visibility, business listings, location-based traffic, and lead generation through strategic local SEO campaigns and optimization techniques.",
-            url: "https://www.sibinfotech.com/local-seo-services.php",
+            url: "https://www.sibinfotech.com/local-seo-services",
             image:
               "https://www.sibinfotech.com/assets/images/local-seo-services-company.webp",
 
@@ -208,7 +208,7 @@ export default function LocalSeoServices() {
 
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://www.sibinfotech.com/local-seo-services.php",
+              "@id": "https://www.sibinfotech.com/local-seo-services",
             },
           }),
         }}
@@ -230,9 +230,73 @@ export default function LocalSeoServices() {
                 "@type": "ListItem",
                 position: 2,
                 name: "Local SEO Services",
-                item: "https://www.sibinfotech.com/local-seo-services.php",
+                item: "https://www.sibinfotech.com/local-seo-services",
               },
             ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is local SEO and how does it help my business?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Local SEO optimizes your online presence so your business appears in Google Maps and local search results when nearby customers search for your products or services. It includes Google Business Profile optimization, local citations, and location-based keyword targeting.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does local SEO cost in India?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Local SEO packages in India typically range from ₹10,000 to ₹40,000 per month depending on the number of locations, competition level, and services included. SIB Infotech offers transparent monthly packages with no lock-in contracts.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does it take to see results from local SEO?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Most businesses see measurable improvements in Google Maps rankings and local search visibility within 2 to 4 months of starting local SEO. Highly competitive niches may take 4 to 6 months.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can SIB Infotech manage local SEO for multiple locations?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. SIB Infotech specializes in multi-location local SEO for brands with branches across Mumbai, Delhi, Bengaluru, and other cities. We create dedicated location pages, manage multiple Google Business Profiles, and build city-specific citations.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AggregateRating",
+            itemReviewed: {
+              "@type": "Service",
+              name: "Local SEO Services",
+              serviceType: "Local Search Engine Optimization",
+              provider: { "@type": "Organization", name: "SIB Infotech" },
+            },
+            ratingValue: "4.8",
+            reviewCount: "99",
+            bestRating: "5",
+            worstRating: "1",
           }),
         }}
       />

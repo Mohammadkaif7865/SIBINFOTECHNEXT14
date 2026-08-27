@@ -11,8 +11,15 @@ export default function PerplexitySeoService() {
 
       <meta
         name="description"
-        content="Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered, build authority and drive traffic from AI search."
+        content="Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered, build authority and drive traffic from AI search. 20+ years experience, 850+ clients."
       />
+
+      <meta
+        name="keywords"
+        content="Perplexity SEO services, Perplexity AI SEO, AI search optimization, Perplexity SEO India, Perplexity SEO optimization, Perplexity SEO agency India, AI search SEO Mumbai, zero-click SEO, answer engine optimization, Perplexity AI citation, Perplexity content ranking"
+      />
+
+      <meta property="og:type" content="website" />
 
       <meta
         property="og:title"
@@ -28,14 +35,30 @@ export default function PerplexitySeoService() {
 
       <meta
         property="og:description"
-        content="Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered, build authority and drive traffic from AI search."
+        content="Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered, build authority and drive traffic from AI search. 20+ years, 850+ clients."
       />
-
-      <meta property="og:type" content="website" />
 
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/_next/image?url=%2Fassets%2Fimages%2Flogo%20(1).webp&w=1920&q=100"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://www.sibinfotech.com/perplexity-seo-services"
+      />
+      <meta
+        property="twitter:title"
+        content="Get Found in AI Search with Perplexity SEO | SIB Infotech"
+      />
+      <meta
+        property="twitter:description"
+        content="Rank higher in Perplexity AI search results. SIB Infotech's Perplexity SEO services help you get discovered in AI search. 20+ years, 850+ clients."
+      />
+      <meta
+        property="twitter:image"
+        content="https://www.sibinfotech.com/assets/og/sib-infotech.webp"
       />
     </>
   );
@@ -253,8 +276,8 @@ export default function PerplexitySeoService() {
 
   const whyChooseSib = [
     {
-      title: "18+ Years of Real SEO Experience",
-      text: "SEO has changed dramatically over the years. Algorithms have shifted, strategies have evolved and now AI search is changing everything again. SIB Infotech has been through every change and adapted every time. That experience helps us understand exactly how Perplexity AI discovers, reads and cites content.",
+      title: "20+ Years of Real SEO Experience",
+      text: "                      SEO has changed dramatically over 20+ years. Algorithms have shifted, strategies have evolved and now AI search is changing everything again. SIB Infotech has been through every change and adapted every time. That experience helps us understand exactly how Perplexity AI discovers, reads and cites content.",
       icon: "fa-solid fa-medal",
     },
     {
@@ -520,7 +543,7 @@ export default function PerplexitySeoService() {
               </p>
 
               <p className="textGrey mb-4">
-                With 18+ years of SEO expertise and a proven approach to AI
+                With 20+ years of SEO expertise and a proven approach to AI
                 search, we combine perplexity search optimization with a deep
                 understanding of how AI platforms discover and cite content
                 which is backed by a perplexity seo strategy built for where
@@ -544,9 +567,9 @@ export default function PerplexitySeoService() {
                   <div className="col-6">
                     <div className="bg-white rounded-3 p-4 h-100">
                       <h3 className="heading fontWeight700 text_red mb-1">
-                        18+
-                      </h3>
-                      <p className="mb-0 textGrey">Years Experience</p>
+                      20+
+                    </h3>
+                    <p className="mb-0 textGrey">Years Experience</p>
                     </div>
                   </div>
 
@@ -1031,7 +1054,7 @@ export default function PerplexitySeoService() {
 
               <p className="title mb-3">
                 SIB Infotech&apos;s perplexity seo services are built to change
-                that. As a Google Premier Partner with 18+ years of SEO
+                that. As a Google Premier Partner with 20+ years of SEO
                 expertise and a proven approach to AI search optimization, we
                 know exactly what it takes to get your business cited inside
                 Perplexity AI answers and discovered by users who trust what AI

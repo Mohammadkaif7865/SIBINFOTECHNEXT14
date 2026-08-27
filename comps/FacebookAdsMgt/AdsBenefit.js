@@ -8,31 +8,39 @@ const AdsBenefit = () => {
           <div className="col-lg-6">
             <h3 className="customHeading">
               Can My Business Benefit from{" "}
-              <span className="text_red">Facebook Ads?</span>
+              <span className="text_red">Facebook & Meta Ads?</span>
             </h3>
             <p className="customText">
-              Your brand becomes what you will show to the people. Facebook is
-              one of the greatest social media platforms that allow a business
-              to target a huge volume of users by estimating who they are, what
-              activities they do online along with their interests. It is an
-              ultimate platform for lead generation as well as direct sales, as
-              it is a stage where you can directly confront the potential
-              customers at the place where they spend a major proportion of
-              their time.
+              Almost any business can benefit from Facebook and Meta ads —
+              whether you are a local business in Mumbai looking for foot
+              traffic, an e-commerce brand driving online sales, or a B2B
+              company generating qualified leads. The key is having the right
+              strategy and the right team managing your campaigns.
             </p>
           </div>
           <div className="col-lg-6">
             <p className="customText">
-              The main benefit of Facebook advertising is its wider and exact
-              reach. Facebook advertising is the most targeted form of
-              advertising. We can target customers to their income, age,
-              interest, location, behavior.
+              Here are the proven results our clients have achieved:
             </p>
+            <div className="customBox p-4 mt-3 mb-3 bg-grey rounded">
+              <p className="customText mb-2">
+                <strong>Archer Chess Academy:</strong> 355% increase in
+                qualified leads with 47% reduction in ad costs through
+                targeted Facebook campaigns.
+              </p>
+              <p className="customText mb-2">
+                <strong>Kiana Skin Care:</strong> Built a community of 115K+
+                Facebook followers through strategic ad campaigns and
+                content marketing.
+              </p>
+            </div>
             <p className="customText">
-              Facebook is an ultimate platform for any business to showcase its
-              services and acquire a huge audience in a very short period.
-              Facebook advertising can prove to be highly beneficial to every
-              business that sets its foot in it.
+              The main benefit of Facebook advertising is its precise
+              targeting. You can reach customers by income, age, interests,
+              location, behaviors and even life events. Combined with
+              Reels ads, Advantage+ campaigns and dynamic product ads,
+              Meta's advertising platform gives you the tools to reach
+              exactly the right people at the right time.
             </p>
           </div>
         </div>

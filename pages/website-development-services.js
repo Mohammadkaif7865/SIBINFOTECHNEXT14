@@ -89,19 +89,51 @@ export default function WebDevelopmentServices() {
     },
   ];
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqsData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer.replace(/<[^>]+>/g, "").trim(),
+      },
+    })),
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Website Development Services",
+    serviceType: "Website Development",
+    url: "https://www.sibinfotech.com/website-development-services",
+    description:
+      "Professional website development services in Mumbai including WordPress, Shopify, React, Next.js, and custom e-commerce websites. Trusted by 500+ clients.",
+    provider: {
+      "@type": "Organization",
+      name: "SIB Infotech",
+      url: "https://www.sibinfotech.com",
+    },
+    areaServed: [
+      { "@type": "City", name: "Mumbai" },
+      { "@type": "Country", name: "India" },
+    ],
+  };
+
   const faqsDataLeft = faqsData.slice(0, Math.ceil(faqsData.length / 2));
   const faqsDataRight = faqsData.slice(Math.ceil(faqsData.length / 2));
 
   const metaTags = (
     <>
       <title>
-        Best Web Development Company in Mumbai | SIB Infotech
+        Top Web Development Company in Mumbai | Website Development Services India | SIB Infotech
       </title>
       <meta
         name="description"
-        content="SIB Infotech is the best web development company in Mumbai. Get custom, responsive, and high-speed websites. Trusted by 500+ clients – request a quote!"
+        content="SIB Infotech is the best web development company in Mumbai. Custom WordPress, Shopify, React, Next.js & e-commerce websites. Trusted by 500+ clients – request a quote!"
       />
-      <meta name="keywords" content="Website Development Services" />
+      <meta name="keywords" content="website development services Mumbai, web development company Mumbai, website development company India, web design Mumbai, WordPress development Mumbai, Shopify website development, e-commerce website development Mumbai, custom web development India, React JS development, Next.js development, best web development company Mumbai, web development agency India, responsive web design Mumbai, web development services in India" />
 
       <meta property="og:type" content="website" />
       <meta
@@ -110,11 +142,11 @@ export default function WebDevelopmentServices() {
       />
       <meta
         property="og:title"
-        content="Top Web Development Company India | Website Development Mumbai"
+        content="Top Web Development Company in Mumbai | Website Development Services India | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+        content="SIB Infotech is the best web development company in Mumbai. Custom WordPress, Shopify, React, Next.js & e-commerce websites. Trusted by 500+ clients."
       />
       <meta
         property="og:image"
@@ -128,11 +160,11 @@ export default function WebDevelopmentServices() {
       />
       <meta
         property="twitter:title"
-        content="Top Web Development Company India | Website Development Mumbai"
+        content="Top Web Development Company in Mumbai | Website Development Services India | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Get the top website development services in Mumbai from SIB Infotech, the best web development company in India to create a high-performance responsive website."
+        content="SIB Infotech is the best web development company in Mumbai. Custom WordPress, Shopify, React, Next.js & e-commerce websites. Trusted by 500+ clients."
       />
       <meta
         property="twitter:image"
@@ -945,6 +977,18 @@ export default function WebDevelopmentServices() {
           </div>
         </div>
       </section> */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(serviceSchema),
+        }}
+      />
     </CustomLayout>
   );
 }

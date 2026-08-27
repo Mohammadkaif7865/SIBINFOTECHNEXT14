@@ -8,6 +8,7 @@ import KeyPoints from "./KeyPoints";
 import LanchAds from "./LanchAds";
 import Objective from "./Objective";
 import WhySib from "./WhySib";
+import FaqSection from "./Faq";
 
 const InstagramAdsMgt = () => {
   return (
@@ -29,6 +30,7 @@ const InstagramAdsMgt = () => {
       />
       <InstagramAdvertising />
       <KeyPoints />
+      <FaqSection />
      <LanchAds />
     </>
   );

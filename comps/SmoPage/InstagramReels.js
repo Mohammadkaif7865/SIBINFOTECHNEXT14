@@ -22,7 +22,7 @@ const fallbackReelsData = [
     shortcode: "DcYmKXwNUZj",
     url: "https://www.instagram.com/reel/DcYmKXwNUZj/",
     embedUrl: "https://www.instagram.com/reel/DcYmKXwNUZj/embed",
-    caption: "When you just wanted one day to recharge, but end up giving a full theatrical performance instead! 😂",
+    caption: "When you just wanted one day to recharge, but end up giving a full theatrical performance instead!",
     likes: 124,
     comments: 18,
     views: 1450,
@@ -31,7 +31,7 @@ const fallbackReelsData = [
     shortcode: "DcbM1z_N3pL",
     url: "https://www.instagram.com/reel/DcbM1z_N3pL/",
     embedUrl: "https://www.instagram.com/reel/DcbM1z_N3pL/embed",
-    caption: "Corporate office reality vs expectation! Does any corporate office actually have mature people? 🚀",
+    caption: "Corporate office reality vs expectation! Does any corporate office actually have mature people?",
     likes: 210,
     comments: 29,
     views: 2890,
@@ -40,10 +40,37 @@ const fallbackReelsData = [
     shortcode: "DcfXk3oNq8R",
     url: "https://www.instagram.com/reel/DcfXk3oNq8R/",
     embedUrl: "https://www.instagram.com/reel/DcfXk3oNq8R/embed",
-    caption: "Happy World Entrepreneurs' Day! To all who start with an idea and make it happen. We salute your persistence! ✨",
+    caption: "Happy World Entrepreneurs' Day! To all who start with an idea and make it happen.",
     likes: 340,
     comments: 42,
     views: 4120,
+  },
+  {
+    shortcode: "DDXmGOoJMNR",
+    url: "https://www.instagram.com/reel/DDXmGOoJMNR/",
+    embedUrl: "https://www.instagram.com/reel/DDXmGOoJMNR/embed",
+    caption: "Digital marketing tips that actually work. Here's what we do differently at SIB Infotech.",
+    likes: 186,
+    comments: 22,
+    views: 2100,
+  },
+  {
+    shortcode: "DDEabz6JE2s",
+    url: "https://www.instagram.com/reel/DDEabz6JE2s/",
+    embedUrl: "https://www.instagram.com/reel/DDEabz6JE2s/embed",
+    caption: "Behind the scenes at SIB Infotech. Our team making campaigns happen.",
+    likes: 275,
+    comments: 31,
+    views: 3200,
+  },
+  {
+    shortcode: "DDKqOCXpUOn",
+    url: "https://www.instagram.com/reel/DDKqOCXpUOn/",
+    embedUrl: "https://www.instagram.com/reel/DDKqOCXpUOn/embed",
+    caption: "Client results speak louder than promises. Another campaign delivered.",
+    likes: 198,
+    comments: 25,
+    views: 2450,
   },
 ];
 
@@ -112,7 +139,8 @@ function ReelCard({ reel, onPlay }) {
             <div className="ig_reel_placeholder_icon">
               <FaInstagram />
             </div>
-            <span className="ig_reel_placeholder_text">SIB Infotech Reel</span>
+            <span className="ig_reel_placeholder_text">sibinfotech</span>
+            <span className="ig_reel_placeholder_reel_tag">Reel</span>
           </div>
         )}
 
@@ -331,7 +359,31 @@ function InstagramReels() {
             <span className="ig_follow_text">Follow @sibinfotech</span>
             <FaArrowRight className="ig_follow_arrow" />
           </a>
+          <a
+            href={`${INSTAGRAM_PROFILE_URL}/reels/`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ig_view_all_button"
+            aria-label="View all reels on Instagram"
+          >
+            View All Reels
+          </a>
         </div>
+
+        {status === "fallback" && (
+          <p className="ig_reels_fallback_note text-center">
+            Showing featured reels.{" "}
+            <a
+              href={INSTAGRAM_PROFILE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ig_handle_link"
+            >
+              Visit our Instagram
+            </a>{" "}
+            for the latest.
+          </p>
+        )}
       </div>
 
       {/* Lightbox / Video Modal */}

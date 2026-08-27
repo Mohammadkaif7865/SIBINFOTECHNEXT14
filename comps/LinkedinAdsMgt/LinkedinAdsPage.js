@@ -4,6 +4,7 @@ import HeroLinkedinMgt from "./HeroLinkedinMgt";
 import Intro from "./Intro";
 import Strategies from "./Strategies ";
 import LinkedInAdvertising from "./LinkedInAdvertising";
+import FaqSection from "./Faq";
 
 const LinkedinAdsPage = () => {
   return (
@@ -17,6 +18,8 @@ const LinkedinAdsPage = () => {
       <Strategies />
       
       <LinkedInAdvertising />
+
+      <FaqSection />
   
     </>
   );

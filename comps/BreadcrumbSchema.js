@@ -31,7 +31,7 @@ const BreadcrumbSchema = ({ url, breadcrumbTitle, PageRatingSchema,description,r
     review: {
       "@type": "Review",
       reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
-      author: { "@type": "Person", name: "Anurag Singh" },
+      author: { "@type": "Person", name: "Verified Client" },
     },
     aggregateRating: {
       "@type": "AggregateRating",

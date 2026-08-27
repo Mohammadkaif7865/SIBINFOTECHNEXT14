@@ -1,5 +1,6 @@
 import Footer from "../comps/Footer";
 import Header from "../comps/Header";
+import ReviewsBar from "../comps/ReviewsBar";
 
 import Script from "next/script";
 
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
 
         <Header />
         {children}
+        <ReviewsBar />
         <Footer />
       </div>
       <div className="bottom-bar1 d-lg-none">

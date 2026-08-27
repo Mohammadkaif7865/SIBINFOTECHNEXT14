@@ -15,7 +15,7 @@ const Banner = () => {
                   On Page SEO Services
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
-                  Top Rated  On Page SEO Company in India
+                  HTML, Content & Structure Optimization Specialists
                 </h2>
                 <div className="mt-4">
                   <Link href="#requestQuote" className="btnThemeRed me-3">
