@@ -8,7 +8,14 @@ class MyDocument extends Document {
       "@type": "WebSite",
       "@id": "https://www.sibinfotech.com/#website",
       name: "SIB Infotech",
-      alternateName: "SIB Infotech | SEO & Digital Marketing Agency",
+      alternateName: [
+        "SIB Infotech | SEO & Digital Marketing Agency",
+        "Singh Infotech",
+        "SIBZ Solutions",
+        "SIB Infotech India",
+        "SIB Infotech Pvt Ltd",
+        "Sib Infotech",
+      ],
       url: "https://www.sibinfotech.com/",
     };
 
@@ -17,6 +24,14 @@ class MyDocument extends Document {
       "@type": "Organization",
       "@id": "https://www.sibinfotech.com/#organization",
       name: "SIB Infotech",
+      alternateName: [
+        "Singh Infotech",
+        "SIBZ Solutions",
+        "SIB Infotech India",
+        "SIB Infotech Pvt Ltd",
+        "Sib Infotech",
+        "Si Infotech",
+      ],
       url: "https://www.sibinfotech.com/",
       image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
       logo: "https://www.sibinfotech.com/assets/images/logo.webp",
@@ -141,37 +156,39 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          {/* Preload the hero heading weight (Poppins 600 latin) to speed up LCP text */}
-          <link
-            rel="preload"
-            as="font"
-            type="font/woff2"
-            href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2"
-            crossOrigin="anonymous"
-          />
-          <link
-            rel="preload"
-            as="font"
-            type="font/woff2"
-            href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2"
-            crossOrigin="anonymous"
-          />
+          {/*
+            Poppins font-file preloads were removed here on purpose.
+            The hard-coded gstatic hashes had gone stale: Google now serves
+            different files, so the browser downloaded the preloads (~16.6 KB)
+            at High priority, never used them, and then fetched the real files
+            anyway. Do not re-add hard-coded gstatic URLs - they change
+            whenever Google revs the font. The preconnects above are the
+            durable optimisation.
+          */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
           />
 
-          {/* FontAwesome 6.1.1 */}
+          {/*
+            Font Awesome 6.1.1 - self-hosted subset.
+            Upstream ships ~255 KB of webfonts covering thousands of icons;
+            this site uses 143. scripts/iconsubset/ regenerates these files.
+            The CSS is byte-for-byte upstream apart from the @font-face src,
+            so every utility class and icon rule behaves exactly as before.
+            Re-run the scripts after adding a new icon to the markup.
+          */}
           <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="/assets/fonts/icons/fa-solid-900.subset.woff2"
+            crossOrigin="anonymous"
           />
+          <link rel="stylesheet" href="/assets/fonts/fontawesome.subset.css" />
 
-          {/* Bootstrap Icons 1.7.2 */}
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-          />
+          {/* Bootstrap Icons - self-hosted subset (6 icons in use, was a 90 KB font). */}
+          <link rel="stylesheet" href="/assets/fonts/bootstrap-icons.subset.css" />
 
           {/* AOS */}
           <link
