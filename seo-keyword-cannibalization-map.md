@@ -51,7 +51,7 @@ Six of these describe themselves as "get cited in ChatGPT, Gemini, Perplexity" �
 **Recommended owners:** `/facebook-ads-management-services` = paid (ads, campaigns, spend). `/facebook-marketing` = organic/content/branding. Same for LinkedIn. Each page must lead with its distinction in H1 + intro; otherwise one page per pair.
 
 ### C5 — SEO packages page vs flagship
-`/search-engine-optimization-seo-services-packages` canonicals to `/search-engine-optimization-seo-services` in CustomLayout but is a fully separate 120KB page. "SEO packages India" is a distinct query class from "SEO services."
+`/search-engine-optimization-seo-services-packages` canonicals to `/seo-company-mumbai` in CustomLayout but is a fully separate 120KB page. "SEO packages India" is a distinct query class from "SEO services."
 
 **Recommended owner for "SEO packages India":** the packages page (self-canonical), so it can own the query; flagship keeps "SEO services / SEO company India." Either that, or hard 301 the packages page into the flagship and fold pricing there. Pick one.
 
@@ -70,9 +70,9 @@ Six of these describe themselves as "get cited in ChatGPT, Gemini, Perplexity" �
 ### SEO cluster
 | Keyword / phrase | Owner URL | Notes |
 | --- | --- | --- |
-| "SEO services India" | /search-engine-optimization-seo-services | Flagship. H1 now: "Search Engine Optimization Services in India & SEO Company in Mumbai." |
-| "SEO company India" | /search-engine-optimization-seo-services | **Item 9 proposes a new "SEO Company in India" page → direct conflict with the flagship.** Do not create; the flagship must own this. See §3. |
-| "SEO company Mumbai" | /search-engine-optimization-seo-services | Covered by flagship H1/meta. |
+| "SEO services India" | /seo-company-mumbai | Flagship. H1 now: "Search Engine Optimization Services in India & SEO Company in Mumbai." |
+| "SEO company India" | /seo-company-mumbai | **Item 9 proposes a new "SEO Company in India" page → direct conflict with the flagship.** Do not create; the flagship must own this. See §3. |
+| "SEO company Mumbai" | /seo-company-mumbai | Covered by flagship H1/meta. |
 | "SEO company Bangalore/Delhi/Hyderabad/Pune" | /seo-company-bangalore / -delhi / -hyderabad / -pune | Distinct geo pages — fine. Ensure no city page targets "India" generically. |
 | "SEO packages India" | /search-engine-optimization-seo-services-packages | Per C5 — needs self-canonical or 301. |
 | "e-commerce SEO" | /e-commerce-seo-services | Platform variants (Shopify/WooCommerce) link here as umbrella. |
@@ -153,7 +153,7 @@ Per decision: **audit first, do not create unless conflict-free.**
 - **Verdict:** DO NOT create a new URL. Instead, upgrade `/digital-marketing-services` into the national pillar (it is currently 3KB and generic). This captures the demand without splitting the cluster. If a separate pillar is still desired later, the homepage must be refocused to local (Mumbai/Delhi) intent first.
 
 ### Item 9 — "SEO Company / Providers in India" (new page)
-- **Conflicts:** the flagship `/search-engine-optimization-seo-services` already targets "SEO company India" in its meta description, FAQs ("Which is the best SEO company in India?"), and now H1. City pages cover Bangalore/Delhi/Hyderabad/Pune.
+- **Conflicts:** the flagship `/seo-company-mumbai` already targets "SEO company India" in its meta description, FAQs ("Which is the best SEO company in India?"), and now H1. City pages cover Bangalore/Delhi/Hyderabad/Pune.
 - **Verdict:** HIGH CONFLICT. Do NOT create. The flagship is the correct owner of "SEO company India." Route the demand there and strengthen it (the 9,900-vol keyword is already partially owned).
 
 ### Item 19 — "Best Digital Marketing Companies in India" (listicle)
@@ -166,7 +166,7 @@ Per decision: **audit first, do not create unless conflict-free.**
 
 | Cluster | Pages | Watch for |
 | --- | --- | --- |
-| SEO | /search-engine-optimization-seo-services, -packages, /e-commerce-seo-services, /enterprise-seo-services, /technical-seo-services | Any page reaching top 20 for "seo services india" / "seo packages india". |
+| SEO | /seo-company-mumbai, -packages, /e-commerce-seo-services, /enterprise-seo-services, /technical-seo-services | Any page reaching top 20 for "seo services india" / "seo packages india". |
 | Web design | /website-designing-services, /custom-website-designing-services, /professional-website-designing-services, /website-designing-companies-mumbai | Any page reaching top 20 for "website design company mumbai" / "web design agency mumbai". |
 | AI SEO | 9 pages in C2 | Any page reaching top 20 for "ai seo services". |
 | PPC | /google-ads-management-services, /pay-per-click-ppc-management-services, /ppc-management-services-packages | Any page reaching top 20 for "ppc management services india". |

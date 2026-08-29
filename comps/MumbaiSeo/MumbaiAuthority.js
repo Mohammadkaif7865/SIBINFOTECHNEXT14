@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 /**
- * Depth sections for /search-engine-optimization-seo-services.
+ * Depth sections for /seo-company-mumbai.
  *
  * Purpose: the Mumbai SERP for "seo company in mumbai" is roughly half
  * listicles (Clutch, DesignRush, Infidigit, FruitBowl, Justwords). Those pages
@@ -124,15 +124,9 @@ const MumbaiAuthority = () => {
           </div>
 
           <p className="mt-2 mb-0">
-            Want to see how we score against that list? Read our independent
-            round-up of the{" "}
-            <Link
-              href="/blog/top-seo-companies-in-mumbai"
-              className="text_red fontWeight600"
-            >
-              top SEO companies in Mumbai
-            </Link>
-            , or{" "}
+            Want to see how we score against that list? Take the same seven
+            questions to any of the shortlists of top SEO companies in Mumbai
+            you will find online, or{" "}
             <Link href="#contact" className="text_red fontWeight600">
               book a free SEO audit
             </Link>{" "}

@@ -52,8 +52,13 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
+        permanent: true,
+      },
+      {
         source: "/search-engine-optimization-services",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
@@ -123,7 +128,7 @@ const nextConfig = {
       },
       {
         source: "/blog/how-long-does-seo-take",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
@@ -199,7 +204,7 @@ const nextConfig = {
       },
       {
         source: "/seo-companies-mumbai-delhi-india",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
@@ -420,22 +425,22 @@ const nextConfig = {
       },
       {
         source: "/seo-consultancy-services-mumbai-india",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
         source: "/seo-methodology-mumbai-india",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
         source: "/guaranteed-top-10-search-engine-ranking-mumbai-india",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {
         source: "/seo-money-back-guarantee-service-india",
-        destination: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
       {

@@ -55,7 +55,7 @@ const HAS_OWN_SERVICE_SCHEMA = [
   "/perplexity-seo-services",
   "/ppc-management-services-packages",
   "/search-ai-optimization",
-  "/search-engine-optimization-seo-services",
+  "/seo-company-mumbai",
   "/seo-audit-services",
   "/seo-company-bangalore",
   "/seo-company-delhi",

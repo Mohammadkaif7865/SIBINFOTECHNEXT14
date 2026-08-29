@@ -222,7 +222,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/search-engine-optimization-seo-services"
+                      href="/seo-company-mumbai"
                       title="SEO"
                     >
                       SEO
@@ -768,7 +768,7 @@ export default function Header() {
                 </li>
                 <li className="itemSub">
                   <Link
-                    href="/search-engine-optimization-seo-services"
+                    href="/seo-company-mumbai"
                     data-bs-dismiss="offcanvas"
                     title="SEO"
                   >

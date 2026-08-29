@@ -9,7 +9,7 @@ export default function DigitalMarketingTab() {
         title2: "SIB Infotech <span className='text_red'>SEO Services In India</span> - Trusted By Over 1000+ Companies",
         image: "assets/images/seo-tab.webp",
         content: "<p className='mt-3'>SEO is the most efficient and effective method increase your search engine visibility and drive traffic to your website. With our SEO services we can help you get top ranking on major search engines (Google, yahoo, Bing) using our propertiory techniques developed with years of experience using white hat SEO practices and bringing an increase in organic search engine ranking.</p>",
-        url: "/search-engine-optimization-seo-services",
+        url: "/seo-company-mumbai",
       }
     );
     const tabsData = [
@@ -18,7 +18,7 @@ export default function DigitalMarketingTab() {
         title2: "SIB Infotech <span className='text_red'>SEO Services In India</span> - Trusted By Over 1000+ Companies",
         image: "assets/images/seo-tab.webp",
         content: "<p className='mt-3'>SEO is the most efficient and effective method increase your search engine visibility and drive traffic to your website. With our SEO services we can help you get top ranking on major search engines (Google, yahoo, Bing) using our propertiory techniques developed with years of experience using white hat SEO practices and bringing an increase in organic search engine ranking.</p>",
-        url: "/search-engine-optimization-seo-services",
+        url: "/seo-company-mumbai",
       },
       {
         tabnumbers:2,

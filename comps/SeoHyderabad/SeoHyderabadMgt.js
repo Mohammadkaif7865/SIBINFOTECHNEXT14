@@ -471,7 +471,7 @@ const SeoHyderabadMgt = () => {
             title: "SEO Services in Mumbai",
             description:
               "Full-service search engine optimization for Mumbai brands, from technical fixes to content and links.",
-            href: "/search-engine-optimization-seo-services",
+            href: "/seo-company-mumbai",
           },
           {
             title: "SEO Company in Bangalore",

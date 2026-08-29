@@ -18,7 +18,7 @@ export default function WhiteLabelDigitalMarketingServices() {
         "@type": "ListItem",
         position: 2,
         name: "SEO Services",
-        item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+        item: "https://www.sibinfotech.com/seo-company-mumbai",
       },
       {
         "@type": "ListItem",

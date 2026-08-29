@@ -758,7 +758,7 @@ const GooglePenaltyRecoveryMgt = () => {
             title: "SEO Company in Mumbai",
             description:
               "Our flagship SEO service. Google Premier Partner, 20+ years, ranking Mumbai businesses since 2005.",
-            href: "/search-engine-optimization-seo-services",
+            href: "/seo-company-mumbai",
           },
           {
             title: "SEO Audit Services",

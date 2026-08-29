@@ -92,7 +92,7 @@ const BLOG_CTA_INTERCEPTORS = {
     heading: "Looking for the Top SEO Company in Mumbai?",
     body: "SIB Infotech is a Google Premier Partner and one of the most reviewed SEO agencies in Mumbai. We have ranked 1000+ brands across 40+ countries since 2005.",
     primaryText: "Top SEO Company in Mumbai & Best SEO Agency in India",
-    primaryHref: "/search-engine-optimization-seo-services",
+    primaryHref: "/seo-company-mumbai",
     secondaryText: "View SEO Packages",
     secondaryHref: "/seo-packages",
   },
@@ -110,7 +110,7 @@ const BLOG_CTA_INTERCEPTORS = {
     primaryText: "View Monthly SEO Packages & Pricing",
     primaryHref: "/seo-packages",
     secondaryText: "Get a Free SEO Audit",
-    secondaryHref: "/search-engine-optimization-seo-services",
+    secondaryHref: "/seo-company-mumbai",
   },
 };
 
