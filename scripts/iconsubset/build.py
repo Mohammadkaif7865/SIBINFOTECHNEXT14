@@ -58,7 +58,7 @@ def rewrite_css(src_css, replacements, out_path, header):
     css = io.open(src_css, encoding="utf-8").read()
 
     def make_src(local_file):
-        return 'src:url(/assets/fonts/icons/%s) format("woff2")' % local_file
+        return 'src:url(/assets/fonts/icons/%s?v=2) format("woff2")' % local_file
 
     # "Font Awesome 6 Free" has TWO faces - weight 400 (regular) and weight 900
     # (solid) - so the family name alone is not enough to tell them apart.
