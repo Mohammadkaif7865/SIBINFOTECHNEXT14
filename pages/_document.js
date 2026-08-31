@@ -175,13 +175,13 @@ class MyDocument extends Document {
             rel="preload"
             as="font"
             type="font/woff2"
-            href="/assets/fonts/icons/fa-solid-900.subset.woff2"
+            href="/assets/fonts/icons/fa-solid-900.subset.woff2?v=2"
             crossOrigin="anonymous"
           />
-          <link rel="stylesheet" href="/assets/fonts/fontawesome.subset.css" />
+          <link rel="stylesheet" href="/assets/fonts/fontawesome.subset.css?v=2" />
 
           {/* Bootstrap Icons - self-hosted subset (6 icons in use, was a 90 KB font). */}
-          <link rel="stylesheet" href="/assets/fonts/bootstrap-icons.subset.css" />
+          <link rel="stylesheet" href="/assets/fonts/bootstrap-icons.subset.css?v=2" />
 
           {/* AOS */}
           <link

@@ -71,7 +71,7 @@ const WhiteLabelSeoMgt = ({
       description: "Among the top 3% of Google Partners globally, giving your agency credibility beyond the white label arrangement.",
     },
     {
-      title: "18+ Years of SEO Experience",
+      title: "20+ Years of SEO Experience",
       description: "Delivered SEO across every industry vertical and market, from local businesses to multinational enterprises.",
     },
     {

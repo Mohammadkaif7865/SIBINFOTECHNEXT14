@@ -262,6 +262,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs",
+        destination: "/blog/core-web-vitals-google-new-official-ranking-factor-signal",
+        permanent: true,
+      },
+      {
         source: "/blog/what-will-your-google-ads-be-worth-in-2023",
         destination: "/pay-per-click-ppc-management-services",
         permanent: true,

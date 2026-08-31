@@ -32,13 +32,13 @@ export default function WhiteLabelDigitalMarketingServices() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "White Label SEO Services India",
+    name: "White Label Digital Marketing Services India",
     url: "https://www.sibinfotech.com/white-label-digital-marketing-services",
     description:
-      "NDA-protected white label SEO for agencies. Full-service SEO delivery under your brand including technical audits, on-page optimisation, link building, branded reports, and dedicated account management. Trusted by 100+ agencies.",
-    serviceType: "White Label SEO",
+      "Full-service white label digital marketing for agencies. Resell SEO, PPC, Google Ads, Meta Ads, content, and social media under your brand with 100% NDA protection and white label dashboards.",
+    serviceType: "White Label Digital Marketing",
     keywords:
-      "white label SEO services India, SEO reseller India, private label SEO, SEO outsourcing India, white label link building",
+      "white label digital marketing services india, white label digital marketing agency, digital marketing reseller program, white label PPC management, white label social media marketing",
     provider: {
       "@id": "https://www.sibinfotech.com/#organization",
     },
@@ -56,14 +56,14 @@ export default function WhiteLabelDigitalMarketingServices() {
 
   const metaTags = (
     <>
-      <title>White Label Digital Marketing & SEO Services India | SIB Infotech</title>
+      <title>White Label Digital Marketing Services India | Agency Reseller | SIB Infotech</title>
       <meta
         name="description"
-        content="Offer world-class SEO under your brand. NDA-protected white label SEO from SIB Infotech. Trusted by 100+ agencies. Scalable, transparent, and results-driven."
+        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
       />
       <meta
         name="keywords"
-        content="white label digital marketing services india, white label SEO services India, SEO reseller India, white label digital marketing agency, white label SEO agency, private label SEO, SEO outsourcing India, reseller SEO program, white label SEO reports, NDA SEO services, white label PPC management, white label google ads, white label content marketing, branded SEO reports, SEO fulfillment partner, agency SEO outsourcing, scalable SEO, white label link building, white label content"
+        content="white label digital marketing services india, white label digital marketing agency, digital marketing reseller program, white label agency partner, white label PPC management, white label google ads, white label content marketing, white label social media marketing, NDA digital marketing services"
       />
 
       <meta property="og:type" content="website" />
@@ -73,11 +73,11 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="og:title"
-        content="White Label SEO Services India | SEO Reseller | SIB Infotech"
+        content="White Label Digital Marketing Services India | Agency Reseller | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Offer world-class SEO under your brand. NDA-protected white label SEO from SIB Infotech. Trusted by 100+ agencies. Scalable, transparent, and results-driven."
+        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
       />
       <meta
         property="og:image"
@@ -91,11 +91,11 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="twitter:title"
-        content="White Label SEO Services India | SEO Reseller | SIB Infotech"
+        content="White Label Digital Marketing Services India | Agency Reseller | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Offer world-class SEO under your brand. NDA-protected white label SEO from SIB Infotech. Trusted by 100+ agencies. Scalable, transparent, and results-driven."
+        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
       />
       <meta
         property="twitter:image"
