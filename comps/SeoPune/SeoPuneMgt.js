@@ -471,7 +471,7 @@ const SeoPuneMgt = () => {
             title: "Top SEO Company in Mumbai",
             description:
               "End-to-end SEO across Andheri, Bandra, BKC, Powai, Thane and Navi Mumbai. Free SEO audit.",
-            href: "/search-engine-optimization-seo-services",
+            href: "/seo-company-mumbai",
           },
           {
             title: "SEO Company in Bangalore",

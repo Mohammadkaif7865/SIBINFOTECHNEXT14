@@ -16,7 +16,7 @@ export default function PerplexitySeoService() {
 
       <meta
         name="keywords"
-        content="Perplexity SEO services, Perplexity AI SEO, AI search optimization, Perplexity SEO India, Perplexity SEO optimization, Perplexity SEO agency India, AI search SEO Mumbai, zero-click SEO, answer engine optimization, Perplexity AI citation, Perplexity content ranking"
+        content="Perplexity SEO services, Perplexity AI SEO, Perplexity SEO India, Perplexity SEO optimization, Perplexity SEO agency India, Perplexity AI citation, Perplexity content ranking, Perplexity search optimization"
       />
 
       <meta property="og:type" content="website" />

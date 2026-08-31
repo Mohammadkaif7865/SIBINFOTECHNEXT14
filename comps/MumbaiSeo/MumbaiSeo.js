@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 /**
- * Mumbai geo-relevance block for /search-engine-optimization-seo-services.
+ * Mumbai geo-relevance block for /seo-company-mumbai.
  * Exists to give the flagship SEO page the local-intent depth that every page
  * currently ranking for "seo company in mumbai" already has: named localities,
  * transparent INR pricing, and a local proof section.

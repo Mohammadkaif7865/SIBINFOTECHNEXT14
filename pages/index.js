@@ -97,7 +97,7 @@ export default function Home() {
       />
       <meta
         name="keywords"
-        content="digital marketing agency in Mumbai, digital marketing agency Mumbai, digital marketing company Mumbai, SEO services Mumbai, PPC management Mumbai, social media marketing Mumbai, web design Mumbai, Google Ads agency Mumbai, best digital marketing agency Mumbai, digital marketing services in Mumbai, SEO company Mumbai, PPC services Mumbai, Facebook ads agency Mumbai, top digital marketing agency in India"
+        content="digital marketing agency in Mumbai, digital marketing agency Mumbai, digital marketing company Mumbai, digital marketing services in Mumbai, best digital marketing agency Mumbai, top digital marketing agency in India, online marketing company Mumbai"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/" />

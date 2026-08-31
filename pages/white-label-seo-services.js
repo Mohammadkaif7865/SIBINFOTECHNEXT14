@@ -17,7 +17,7 @@ export default function WhiteLabelSeoServices() {
         "@type": "ListItem",
         position: 2,
         name: "SEO Services",
-        item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+        item: "https://www.sibinfotech.com/seo-company-mumbai",
       },
       {
         "@type": "ListItem",
@@ -37,7 +37,7 @@ export default function WhiteLabelSeoServices() {
       "NDA-protected white label SEO for agencies. Full-service SEO delivery under your brand including technical audits, on-page optimisation, link building, branded reports, and dedicated account management. Trusted by 100+ agencies.",
     serviceType: "White Label SEO",
     keywords:
-      "white label SEO services India, SEO reseller India, private label SEO, SEO outsourcing India, white label link building",
+      "white label SEO services India, SEO reseller India, private label SEO, reseller SEO program, white label link building",
     provider: {
       "@id": "https://www.sibinfotech.com/#organization",
     },
@@ -62,7 +62,7 @@ export default function WhiteLabelSeoServices() {
       />
       <meta
         name="keywords"
-        content="white label SEO services India, SEO reseller India, white label SEO agency, private label SEO, SEO outsourcing India, reseller SEO program, white label SEO reports, NDA SEO services, branded SEO reports, SEO fulfillment partner, agency SEO outsourcing, scalable SEO, white label link building, white label content"
+        content="white label SEO services India, SEO reseller India, white label SEO agency, private label SEO, reseller SEO program, white label SEO reports, NDA SEO services, branded SEO reports, SEO fulfillment partner, scalable SEO, white label link building, white label content"
       />
 
       <meta property="og:type" content="website" />

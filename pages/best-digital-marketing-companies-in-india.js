@@ -217,7 +217,7 @@ export default function BestDigitalMarketingCompaniesInIndia() {
             <p>
               What makes SIB Infotech stand out is the combination of full-funnel
               service coverage and deep specialisation. Their{" "}
-              <Link href="/search-engine-optimization-seo-services">
+              <Link href="/seo-company-mumbai">
                 <strong>SEO team</strong>
               </Link>{" "}
               covers technical SEO audits, on-page optimisation, link building,
@@ -547,7 +547,7 @@ export default function BestDigitalMarketingCompaniesInIndia() {
             <ul>
               <li>
                 <strong>Full-funnel coverage</strong> &mdash; From{" "}
-                <Link href="/search-engine-optimization-seo-services">
+                <Link href="/seo-company-mumbai">
                   SEO
                 </Link>{" "}
                 to{" "}

@@ -40,3 +40,9 @@ next-env.d.ts
 # python bytecode (icon subset tooling)
 __pycache__/
 *.pyc
+
+# reports & temporary logs
+*.log
+lighthouse-*.json
+*_audit_report.json
+

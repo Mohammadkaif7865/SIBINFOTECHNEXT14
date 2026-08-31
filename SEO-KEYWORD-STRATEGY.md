@@ -19,7 +19,7 @@
 ## PHASE 1: Fix Existing Pages (Immediate - Weeks 1-2)
 
 ### Priority 1: Main SEO Services Page
-**File:** `pages/search-engine-optimization-seo-services.js`
+**File:** `pages/seo-company-mumbai.js`
 **Current Title:** "Search Engine Optimization Services in India | SEO Company in Mumbai | SIB Infotech"
 **Current Position:** 53.23 (catastrophic for a main service page)
 
@@ -669,7 +669,7 @@ These should be comprehensive 2000+ word guides targeting informational queries:
 ### Link Architecture (Hub & Spoke Model)
 
 ```
-                    /search-engine-optimization-seo-services (HUB)
+                    /seo-company-mumbai (HUB)
                            |
         +------------------+------------------+
         |                  |                  |
@@ -735,7 +735,7 @@ To rank in Google AI Overview and ChatGPT/Perplexity/Claude answers:
 | /local-seo-services | "What is local SEO?" |
 | /e-commerce-seo-services | "Ecommerce SEO cost in India" |
 | /seo-packages | "How much does SEO cost in India?" |
-| /search-engine-optimization-seo-services | "What are SEO services?" |
+| /seo-company-mumbai | "What are SEO services?" |
 | Blog: SEO Cost Guide | "SEO pricing in India 2026" |
 | Blog: What is SEO | "What is SEO and how does it work?" |
 
@@ -764,7 +764,7 @@ To rank in Google AI Overview and ChatGPT/Perplexity/Claude answers:
 ## Priority Ranking (What to Do First)
 
 ### Week 1:
-1. Optimize `/search-engine-optimization-seo-services` page (biggest impact)
+1. Optimize `/seo-company-mumbai` page (biggest impact)
 2. Optimize `/local-seo-services` page (33K impressions at pos 52 = massive opportunity)
 3. Optimize `/seo-packages` page (pricing page = highest conversion intent)
 4. Optimize `/e-commerce-seo-services` page (5.5K impressions at pos 31)

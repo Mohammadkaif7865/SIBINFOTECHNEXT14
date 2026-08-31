@@ -68,6 +68,11 @@ const Seo = () => {
       question: "Do you offer a free SEO audit for Mumbai businesses?",
       answer: `<p>Yes. SIB Infotech offers a free SEO audit covering technical health, Core Web Vitals, on-page gaps, backlink profile quality, keyword opportunities and a competitor comparison against the SEO companies currently ranking in Mumbai. The audit is delivered as an actionable report with prioritized fixes and there is no obligation to sign up.</p>`,
     },
+    {
+      id: "faq9",
+      question: "Which is the top SEO agency in Mumbai?",
+      answer: `<p>SIB Infotech is widely recognized as one of the top SEO agencies in Mumbai, operating since 2005 with Google Premier Partner status (top 3% of agencies in India). We have ranked 1000+ brands across 40+ countries, are listed among the top SEO companies in Mumbai on Clutch and DesignRush, and assign every account a dedicated SEO expert from our Malad West office. Rather than taking our word for it, ask for our free SEO audit and judge the findings before committing to any agency.</p>`,
+    },
   ];
   const seoServices = [
     {

@@ -16,22 +16,23 @@ export default function Thanks() {
 	  }, [])
 	  const metaTags = (
         <>
-          <title>Title</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <title>Thank You for Contacting Us | SIB Infotech</title>
+          <meta name="description" content="Thank you for reaching out to SIB Infotech. Our digital marketing and SEO specialists will get in touch with you shortly." />
+          <meta name="keywords" content="thank you, sib infotech contact" />
+          <meta name="robots" content="noindex, follow" />
          
     
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="/" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://www.sibinfotech.com/thanks" />
+          <meta property="og:title" content="Thank You for Contacting Us | SIB Infotech" />
+          <meta property="og:description" content="Thank you for reaching out to SIB Infotech. Our digital marketing and SEO specialists will get in touch with you shortly." />
+          <meta property="og:image" content="https://www.sibinfotech.com/assets/images/logo.png" />
     
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="/" />
-          <meta property="twitter:title" content="" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:url" content="https://www.sibinfotech.com/thanks" />
+          <meta property="twitter:title" content="Thank You for Contacting Us | SIB Infotech" />
+          <meta property="twitter:description" content="Thank you for reaching out to SIB Infotech. Our digital marketing and SEO specialists will get in touch with you shortly." />
+          <meta property="twitter:image" content="https://www.sibinfotech.com/assets/images/logo.png" />
         </>
       );
       return (

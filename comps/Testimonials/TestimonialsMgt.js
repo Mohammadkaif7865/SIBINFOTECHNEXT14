@@ -391,7 +391,7 @@ const TestimonialsMgt = () => {
             title: "Best SEO Agency in Mumbai",
             description:
               "See why Mumbai businesses pick SIB Infotech: transparent pricing, a named strategist, no lock-in.",
-            href: "/search-engine-optimization-seo-services",
+            href: "/seo-company-mumbai",
           },
           {
             title: "SEO Packages and Pricing",

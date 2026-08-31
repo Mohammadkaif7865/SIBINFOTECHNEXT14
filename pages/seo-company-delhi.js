@@ -17,7 +17,7 @@ export default function SeoCompanyDelhi() {
         "@type": "ListItem",
         position: 2,
         name: "SEO Services",
-        item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+        item: "https://www.sibinfotech.com/seo-company-mumbai",
       },
       {
         "@type": "ListItem",
@@ -59,7 +59,7 @@ export default function SeoCompanyDelhi() {
       <title>SEO Company in Delhi NCR | Google Partner | SIB Infotech</title>
       <meta
         name="description"
-        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 18+ years of experience. Transparent SEO for real business growth. Free audit."
+        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 20+ years of experience. Transparent SEO for real business growth. Free audit."
       />
       <meta
         name="keywords"
@@ -78,7 +78,7 @@ export default function SeoCompanyDelhi() {
       />
       <meta
         property="og:description"
-        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 18+ years of experience. Transparent SEO for real business growth. Free audit."
+        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 20+ years of experience. Transparent SEO for real business growth. Free audit."
       />
       <meta
         property="og:image"
@@ -96,7 +96,7 @@ export default function SeoCompanyDelhi() {
       />
       <meta
         property="twitter:description"
-        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 18+ years of experience. Transparent SEO for real business growth. Free audit."
+        content="Leading SEO company in Delhi NCR with an office in Delhi. Google Premier Partner. 20+ years of experience. Transparent SEO for real business growth. Free audit."
       />
       <meta
         property="twitter:image"

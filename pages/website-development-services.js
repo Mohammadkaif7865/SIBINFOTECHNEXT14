@@ -249,7 +249,7 @@ export default function WebDevelopmentServices() {
             web development services since 2005 specializes in all kinds of
             website development that are compatible with all devices along with
             the{" "}
-            <Link href="/search-engine-optimization-seo-services">
+            <Link href="/seo-company-mumbai">
               <span className="text_red">SEO marketing services</span>
             </Link>
             . With its headquarters in Mumbai and branch offices in New Delhi

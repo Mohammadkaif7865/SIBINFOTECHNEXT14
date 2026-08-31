@@ -17,7 +17,7 @@ export default function SearchEngineOptimizationServices() {
         "@type": "ListItem",
         position: 2,
         name: "SEO Company in Mumbai",
-        item: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+        item: "https://www.sibinfotech.com/seo-company-mumbai",
       },
     ],
   };
@@ -29,17 +29,17 @@ export default function SearchEngineOptimizationServices() {
       "@type": "SpeakableSpecification",
       cssSelector: [".hero-intro", ".faq-section", ".seo-services-summary"],
     },
-    url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+    url: "https://www.sibinfotech.com/seo-company-mumbai",
   };
 
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
     "@id":
-      "https://www.sibinfotech.com/search-engine-optimization-seo-services/#service",
+      "https://www.sibinfotech.com/seo-company-mumbai/#service",
     name: "SEO Services in Mumbai",
     serviceType: "Search Engine Optimization",
-    url: "https://www.sibinfotech.com/search-engine-optimization-seo-services",
+    url: "https://www.sibinfotech.com/seo-company-mumbai",
     description:
       "SIB Infotech is a Google Premier Partner SEO company in Mumbai delivering on-page SEO, technical SEO, link building, local SEO and AI search optimization for businesses across Mumbai, Navi Mumbai and Thane.",
     areaServed: [
@@ -171,7 +171,7 @@ export default function SearchEngineOptimizationServices() {
         type="image/webp"
         fetchPriority="high"
       />
-      <title>SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech</title>
+      <title>Top SEO Company in Mumbai | Best SEO Agency &amp; SEO Services | SIB Infotech</title>
       <meta
         name="description"
         content="SIB Infotech is a top SEO company in Mumbai offering result-driven SEO services in Mumbai since 2005. Google Premier Partner SEO agency in Mumbai with 20+ years experience and 1000+ brands ranked. Serving Andheri, Bandra, BKC, Malad, Powai, Lower Parel & Navi Mumbai. Free SEO audit, no lock-in contracts."
@@ -184,11 +184,11 @@ export default function SearchEngineOptimizationServices() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://www.sibinfotech.com/search-engine-optimization-seo-services"
+        content="https://www.sibinfotech.com/seo-company-mumbai"
       />
       <meta
         property="og:title"
-        content="SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech"
+        content="Top SEO Company in Mumbai | Best SEO Agency &amp; SEO Services | SIB Infotech"
       />
       <meta
         property="og:description"
@@ -196,17 +196,17 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="og:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.webp"
+        content="https://www.sibinfotech.com/assets/og/seo-company-mumbai.webp"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://www.sibinfotech.com/search-engine-optimization-seo-services"
+        content="https://www.sibinfotech.com/seo-company-mumbai"
       />
       <meta
         property="twitter:title"
-        content="SEO Company in Mumbai | Best SEO Services Agency | SIB Infotech"
+        content="Top SEO Company in Mumbai | Best SEO Agency &amp; SEO Services | SIB Infotech"
       />
       <meta
         property="twitter:description"
@@ -214,7 +214,7 @@ export default function SearchEngineOptimizationServices() {
       />
       <meta
         property="twitter:image"
-        content="https://www.sibinfotech.com/assets/og/search-engine-optimization-seo-services.webp"
+        content="https://www.sibinfotech.com/assets/og/seo-company-mumbai.webp"
       />
       <script
         type="application/ld+json"
