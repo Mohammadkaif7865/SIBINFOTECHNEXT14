@@ -59,7 +59,7 @@ export default function SeoCompanyPune() {
       <title>SEO Company in Pune | IT & Startup SEO | SIB Infotech</title>
       <meta
         name="description"
-        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 18+ years of experience. Page-1 rankings. Free Pune SEO audit."
+        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 20+ years of experience. Page-1 rankings. Free Pune SEO audit."
       />
       <meta
         name="keywords"
@@ -78,7 +78,7 @@ export default function SeoCompanyPune() {
       />
       <meta
         property="og:description"
-        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 18+ years of experience. Page-1 rankings. Free Pune SEO audit."
+        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 20+ years of experience. Page-1 rankings. Free Pune SEO audit."
       />
       <meta
         property="og:image"
@@ -96,7 +96,7 @@ export default function SeoCompanyPune() {
       />
       <meta
         property="twitter:description"
-        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 18+ years of experience. Page-1 rankings. Free Pune SEO audit."
+        content="Expert SEO company in Pune for IT companies, startups, and SMEs. Google Premier Partner. 20+ years of experience. Page-1 rankings. Free Pune SEO audit."
       />
       <meta
         property="twitter:image"

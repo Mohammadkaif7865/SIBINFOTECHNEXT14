@@ -10,14 +10,14 @@ import Breadcrumb from "@/comps/BreadCrumb";
 export default function SearchEngineOptimizationOutsourcingSeoServices() {
   const metaTags = (
     <>
-      <title>SEO Outsourcing Company in India | White Label SEO Reseller | SIB Infotech</title>
+      <title>SEO Outsourcing Company in India | Offshore SEO Services | SIB Infotech</title>
       <meta
         name="description"
-        content="SIB Infotech is a leading SEO outsourcing company in India and white label SEO reseller. Scale your agency with expert strategies, transparent reporting & guaranteed organic growth."
+        content="SIB Infotech is a leading SEO outsourcing company in India. Outsource your SEO projects to dedicated Indian SEO experts for cost-effective, high-impact organic growth."
       />
       <meta
         name="keywords"
-        content="SEO Outsourcing Company, SEO Outsourcing India, SEO Outsourcing Company India, SEO Outsourcing Services, SEO Outsourcing Services India, SEO Reseller Program, Private Label SEO Reseller Programs, SEO Projects Outsourcing Company India, Outsourcing SEO Projects"
+        content="SEO Outsourcing Company, SEO Outsourcing India, SEO Outsourcing Company India, SEO Outsourcing Services, SEO Outsourcing Services India, Outsource SEO to India, Offshore SEO Services, SEO Projects Outsourcing Company India, Outsourcing SEO Projects"
       />
 
       <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <meta
         property="og:title"
-        content="Best SEO Outsourcing Services India | Expert SEO Solutions"
+        content="SEO Outsourcing Company in India | Offshore SEO Services | SIB Infotech"
       />
       <meta
         property="og:description"
@@ -45,7 +45,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <meta
         property="twitter:title"
-        content="Best SEO Outsourcing Services India | Expert SEO Solutions"
+        content="SEO Outsourcing Company in India | Offshore SEO Services | SIB Infotech"
       />
       <meta
         property="twitter:description"
@@ -57,7 +57,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
       />
       <BreadcrumbSchema
         url="https://www.sibinfotech.com/search-engine-optimization-outsourcing-seo-services"
-        breadcrumbTitle="Best SEO Outsourcing Services India | Expert SEO Solutions"
+        breadcrumbTitle="SEO Outsourcing Company in India | Offshore SEO Services | SIB Infotech"
         PageRatingSchema
         description={
           "Outsource your SEO to SIB Infotech and benefit from our proven strategies to increase organic traffic, improve search rankings, and grow your online presence."
@@ -74,7 +74,7 @@ export default function SearchEngineOptimizationOutsourcingSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                  SEO Outsourcing Services in India | White Label SEO Reseller
+                  SEO Outsourcing Services in India | Offshore SEO Specialists
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated SEO Outsourcing Company in India

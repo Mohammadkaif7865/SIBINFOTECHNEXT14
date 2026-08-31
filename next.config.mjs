@@ -62,6 +62,121 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/answer-engine-optimization",
+        destination: "/search-ai-optimization",
+        permanent: true,
+      },
+      {
+        source: "/seo-packages",
+        destination: "/search-engine-optimization-seo-services-packages",
+        permanent: true,
+      },
+      {
+        source: "/wordpess-development-services",
+        destination: "/wordpress-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/regional-local-seo-services",
+        destination: "/local-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/mobile-optimization-techniques-india",
+        destination: "/mobile-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/article-submission-services",
+        destination: "/off-page-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/directory-submission-services",
+        destination: "/off-page-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/forum-postings-services",
+        destination: "/off-page-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/social-bookmarking-services",
+        destination: "/off-page-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/press-release-submission-services",
+        destination: "/off-page-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/hosted-marketing-pages-services-india",
+        destination: "/custom-website-development-companies-mumbai-india",
+        permanent: true,
+      },
+      {
+        source: "/zen-cart-development-companies-mumbai-india",
+        destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/windows-mobile-application-development-services",
+        destination: "/mobile-application-development-services",
+        permanent: true,
+      },
+      {
+        source: "/ecommerce-portal-development",
+        destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/ajax-development-companies-mumbai-india",
+        destination: "/javascript-development-services",
+        permanent: true,
+      },
+      {
+        source: "/yahoo-store-development-services",
+        destination: "/e-commerce-website-design-development-services",
+        permanent: true,
+      },
+      {
+        source: "/blog/does-your-website-need-a-mobile-makeover",
+        destination: "/mobile-website-designing-services",
+        permanent: true,
+      },
+      {
+        source: "/blog/tips-to-create-a-more-impactful-business-website",
+        destination: "/blog/necessary-elements-of-a-great-website",
+        permanent: true,
+      },
+      {
+        source: "/blog/ppc-trends-of-2019-what-all-you-should-be-focusing-on",
+        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        permanent: true,
+      },
+      {
+        source: "/blog/generative-engine-optimization-guide",
+        destination: "/generative-engine-optimization",
+        permanent: true,
+      },
+      {
+        source: "/blog/what-is-ai-seo-2026",
+        destination: "/search-ai-optimization",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-long-does-seo-take",
+        destination: "/seo-company-mumbai",
+        permanent: true,
+      },
+      {
+        source: "/blog/seo-pricing-india-2026",
+        destination: "/search-engine-optimization-seo-services-packages",
+        permanent: true,
+      },
+      {
         source: "/index.php",
         destination: "/",
         permanent: true,

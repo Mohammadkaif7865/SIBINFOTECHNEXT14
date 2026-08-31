@@ -61,7 +61,7 @@ export default function GooglePenaltyRecovery() {
       </title>
       <meta
         name="description"
-        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 18+ years of experience. Free penalty diagnosis. Act now."
+        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 20+ years of experience. Free penalty diagnosis. Act now."
       />
       <meta
         name="keywords"
@@ -79,7 +79,7 @@ export default function GooglePenaltyRecovery() {
       />
       <meta
         property="og:description"
-        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 18+ years of experience. Free penalty diagnosis. Act now."
+        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 20+ years of experience. Free penalty diagnosis. Act now."
       />
       <meta
         property="og:image"
@@ -97,7 +97,7 @@ export default function GooglePenaltyRecovery() {
       />
       <meta
         property="twitter:description"
-        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 18+ years of experience. Free penalty diagnosis. Act now."
+        content="Lost rankings due to a Google penalty? SIB Infotech recovers manual and algorithmic penalties. 20+ years of experience. Free penalty diagnosis. Act now."
       />
       <meta
         property="twitter:image"

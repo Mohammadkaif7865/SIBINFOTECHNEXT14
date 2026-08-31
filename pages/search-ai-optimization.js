@@ -594,11 +594,11 @@ export default function SearchAiOptimization() {
                 AI-powered search results, build authority that AI platforms
                 trust and create content strategies that work across Google AI
                 Overviews, ChatGPT, Gemini and Perplexity, backed by AI search
-                optimization expertise and 18+ years of real SEO experience.
+                optimization expertise and 20+ years of real SEO experience.
               </p>
 
               <p className="textGrey mb-4">
-                As a Google Premier Partner trusted by 850+ clients across 40+
+                As a Google Premier Partner trusted by 1000+ brands across 40+
                 countries, we combine proven SEO fundamentals with modern
                 conversational search SEO strategies to make sure your business
                 gets found first, whether you are targeting local customers in
@@ -997,7 +997,7 @@ export default function SearchAiOptimization() {
 
               <p className="title mb-3">
                 SIB Infotech&apos;s search AI optimization services are built to
-                change that. As a Google Premier Partner with 18+ years of SEO
+                change that. As a Google Premier Partner with 20+ years of SEO
                 expertise and a proven AI-powered approach, we know exactly what
                 it takes to get your business discovered, cited and ranked
                 across every major AI search platform.

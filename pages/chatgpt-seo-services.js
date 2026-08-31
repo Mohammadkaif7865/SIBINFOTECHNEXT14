@@ -16,7 +16,7 @@ export default function ChatgptSeoService() {
 
       <meta
         name="keywords"
-        content="ChatGPT SEO services, ChatGPT SEO, AI SEO services India, ChatGPT SEO optimization, ChatGPT content SEO, ChatGPT keyword strategy, ChatGPT SEO agency India, AI SEO agency Mumbai, ChatGPT for SEO, ChatGPT SEO company, SEO with ChatGPT, AI-powered SEO services"
+        content="ChatGPT SEO services, ChatGPT SEO, ChatGPT SEO optimization, ChatGPT content SEO, ChatGPT keyword strategy, ChatGPT SEO agency India, ChatGPT for SEO, ChatGPT SEO company, SEO with ChatGPT, OpenAI ChatGPT search optimization"
       />
 
       <meta property="og:type" content="website" />

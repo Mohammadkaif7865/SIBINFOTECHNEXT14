@@ -18,7 +18,7 @@ export default function LinkedinAdsManagementServices() {
       />
       <meta
         name="keywords"
-        content="linkedin ad management, linkedin advertising management, linkedin advertising agency, linkedin marketing agency"
+        content="linkedin ad management, linkedin ads management services, linkedin advertising agency, linkedin b2b ads management, sponsored inmail ads agency, linkedin performance marketing"
       />
 
       <meta property="og:type" content="website" />

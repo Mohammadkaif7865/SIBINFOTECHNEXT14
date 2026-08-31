@@ -59,7 +59,7 @@ export default function SeoCompanyHyderabad() {
       <title>SEO Company in Hyderabad | Pharma & IT SEO | SIB Infotech</title>
       <meta
         name="description"
-        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 18+ years of experience. Proven page-1 rankings. Free audit."
+        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 20+ years of experience. Proven page-1 rankings. Free audit."
       />
       <meta
         name="keywords"
@@ -77,7 +77,7 @@ export default function SeoCompanyHyderabad() {
       />
       <meta
         property="og:description"
-        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 18+ years of experience. Proven page-1 rankings. Free audit."
+        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 20+ years of experience. Proven page-1 rankings. Free audit."
       />
       <meta
         property="og:image"
@@ -95,7 +95,7 @@ export default function SeoCompanyHyderabad() {
       />
       <meta
         property="twitter:description"
-        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 18+ years of experience. Proven page-1 rankings. Free audit."
+        content="Top SEO company in Hyderabad for pharma, IT, and ecommerce businesses. Google Premier Partner. 20+ years of experience. Proven page-1 rankings. Free audit."
       />
       <meta
         property="twitter:image"

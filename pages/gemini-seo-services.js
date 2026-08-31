@@ -16,7 +16,7 @@ export default function GeminiSeoService() {
 
       <meta
         name="keywords"
-        content="Gemini SEO services, Gemini AI SEO, Google Gemini SEO, AI SEO services India, Gemini SEO optimization, Gemini SEO agency India, Google AI SEO Mumbai, SEO with Gemini, Gemini content SEO, Google AI Overview SEO, best Gemini SEO company"
+        content="Gemini SEO services, Gemini AI SEO, Google Gemini SEO, Gemini SEO optimization, Gemini SEO agency India, Google AI SEO Mumbai, SEO with Gemini, Gemini content SEO, Google AI Overview SEO, best Gemini SEO company"
       />
 
       <meta property="og:type" content="website" />

@@ -56,10 +56,10 @@ export default function SeoCompanyBangalore() {
 
   const metaTags = (
     <>
-      <title>SEO Company in Bangalore | 18+ Years | SIB Infotech</title>
+      <title>SEO Company in Bangalore | 20+ Years | SIB Infotech</title>
       <meta
         name="description"
-        content="Top-rated SEO company in Bangalore. Google Premier Partner with 18+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
+        content="Top-rated SEO company in Bangalore. Google Premier Partner with 20+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
       />
       <meta
         name="keywords"
@@ -74,11 +74,11 @@ export default function SeoCompanyBangalore() {
       />
       <meta
         property="og:title"
-        content="SEO Company in Bangalore | 18+ Years | SIB Infotech"
+        content="SEO Company in Bangalore | 20+ Years | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Top-rated SEO company in Bangalore. Google Premier Partner with 18+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
+        content="Top-rated SEO company in Bangalore. Google Premier Partner with 20+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
       />
       <meta
         property="og:image"
@@ -92,11 +92,11 @@ export default function SeoCompanyBangalore() {
       />
       <meta
         property="twitter:title"
-        content="SEO Company in Bangalore | 18+ Years | SIB Infotech"
+        content="SEO Company in Bangalore | 20+ Years | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Top-rated SEO company in Bangalore. Google Premier Partner with 18+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
+        content="Top-rated SEO company in Bangalore. Google Premier Partner with 20+ years of experience. Data-driven SEO for page-1 rankings. Get your free SEO audit."
       />
       <meta
         property="twitter:image"

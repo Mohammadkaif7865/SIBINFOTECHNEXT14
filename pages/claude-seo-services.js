@@ -16,7 +16,7 @@ export default function ClaudeSeoService() {
 
       <meta
         name="keywords"
-        content="Claude SEO services, Claude AI SEO, Anthropic Claude SEO, AI SEO services India, Claude SEO optimization, Claude SEO agency India, AI-powered SEO Mumbai, SEO with Claude AI, Claude content SEO, Claude keyword research, best Claude SEO company"
+        content="Claude SEO services, Claude AI SEO, Anthropic Claude SEO, Claude SEO optimization, Claude SEO agency India, SEO with Claude AI, Claude content SEO, Claude keyword research, best Claude SEO company"
       />
 
       <meta property="og:type" content="website" />

@@ -461,7 +461,7 @@ export default function LocalSeoServices() {
                 SIB Infotech offers specialized local SEO services in Mumbai designed to help businesses dominate local search results, Google Maps, and nearby searches. As a trusted local SEO company in Mumbai, we optimize your Google Business Profile, build local citations, and create location-specific content to ensure your business gets found by customers in your area.
               </p>
               <p className="customText">
-                Our local SEO services in Mumbai cover all major areas including Andheri, Bandra, Borivali, Dadar, Malad, Thane, Navi Mumbai, and beyond. With over 15 years of experience, our local SEO experts in Mumbai have helped hundreds of businesses increase their local visibility, drive foot traffic, and generate more leads through strategic local search optimization.
+                Our local SEO services in Mumbai cover all major areas including Andheri, Bandra, Borivali, Dadar, Malad, Thane, Navi Mumbai, and beyond. As a Google Premier Partner with over 20+ years of experience, our local SEO experts in Mumbai have helped 1000+ businesses increase their local visibility, drive foot traffic, and generate more leads through strategic local search optimization.
               </p>
               <p className="customText">
                 Whether you run a restaurant, clinic, retail store, or service-based business in Mumbai, our tailored local SEO strategies ensure you appear prominently when potential customers search for products and services near them. Contact us today to learn how our local SEO services in Mumbai can transform your local online presence.
