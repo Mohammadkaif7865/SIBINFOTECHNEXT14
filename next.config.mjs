@@ -8,10 +8,10 @@ const nextConfig = {
       {
         source: "/:path*",
         has: [
-          {
-            type: "host",
-            value: "sibinfotech.com",
-          },
+                  {
+                            "type": "host",
+                            "value": "sibinfotech.com"
+                  }
         ],
         destination: "https://www.sibinfotech.com/:path*",
         permanent: true,
@@ -52,18 +52,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/search-engine-optimization-seo-services",
-        destination: "/seo-company-mumbai",
-        permanent: true,
-      },
-      {
         source: "/search-engine-optimization-services",
         destination: "/seo-company-mumbai",
-        permanent: true,
-      },
-      {
-        source: "/answer-engine-optimization",
-        destination: "/search-ai-optimization",
         permanent: true,
       },
       {
@@ -88,27 +78,27 @@ const nextConfig = {
       },
       {
         source: "/article-submission-services",
-        destination: "/off-page-seo-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/directory-submission-services",
-        destination: "/off-page-seo-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/forum-postings-services",
-        destination: "/off-page-seo-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/social-bookmarking-services",
-        destination: "/off-page-seo-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
         source: "/press-release-submission-services",
-        destination: "/off-page-seo-services",
+        destination: "/link-building-services",
         permanent: true,
       },
       {
@@ -153,7 +143,7 @@ const nextConfig = {
       },
       {
         source: "/blog/ppc-trends-of-2019-what-all-you-should-be-focusing-on",
-        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        destination: "/blog/how-to-choose-the-best-ppc-agency",
         permanent: true,
       },
       {
@@ -211,8 +201,6 @@ const nextConfig = {
         destination: "/contact-us",
         permanent: true,
       },
-      /* --- Chain collapsing: these previously took 2 hops via middleware
-             .php stripping (/contact.php -> /contact -> /contact-us). --- */
       {
         source: "/contact.php",
         destination: "/contact-us",
@@ -224,31 +212,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        // Was an accidental public route: a component file living in pages/blog/.
         source: "/blog/BlogCard",
         destination: "/blog",
-        permanent: true,
-      },
-      /* --- Blog slugs that 5xx'd then 404'd in Search Console. The posts do
-             not exist; point each at its closest live page. --- */
-      {
-        source: "/blog/generative-engine-optimization-guide",
-        destination: "/generative-engine-optimization",
-        permanent: true,
-      },
-      {
-        source: "/blog/what-is-ai-seo-2026",
-        destination: "/ai-seo-services",
-        permanent: true,
-      },
-      {
-        source: "/blog/how-long-does-seo-take",
-        destination: "/seo-company-mumbai",
-        permanent: true,
-      },
-      {
-        source: "/blog/seo-pricing-india-2026",
-        destination: "/seo-packages",
         permanent: true,
       },
       {
@@ -294,11 +259,6 @@ const nextConfig = {
       {
         source: "/blog/seo-companies-in-mumbai",
         destination: "/blog/top-seo-companies-in-mumbai",
-        permanent: true,
-      },
-      {
-        source: "/seo-company-mumbai",
-        destination: "/search-engine-optimization-seo-services",
         permanent: true,
       },
       {
@@ -382,16 +342,10 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/blog/ppc-trends-of-2019-what-all-you-should-be-focusing-on",
-        destination: "/pay-per-click-ppc-management-services",
-        permanent: true,
-      },
-      {
         source: "/blog/clutch-hails-sib-infotech-as-india-leading-ppc-management-company-for-2022",
         destination: "/pay-per-click-ppc-management-services",
         permanent: true,
       },
-
       {
         source: "/:path*.php",
         destination: "/:path*",
@@ -409,7 +363,7 @@ const nextConfig = {
       },
       {
         source: "/yahoo-store-development-mumbai-india",
-        destination: "/yahoo-store-development-services",
+        destination: "/e-commerce-website-design-development-services",
         permanent: true,
       },
       {
@@ -419,7 +373,7 @@ const nextConfig = {
       },
       {
         source: "/wordpress-website-development-services",
-        destination: "/wordpess-development-services",
+        destination: "/wordpress-website-design-development-services",
         permanent: true,
       },
       {
@@ -649,13 +603,12 @@ const nextConfig = {
       },
       {
         source: "/blog/benefits-of-outsourcing-ppc-management-services",
-        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        destination: "/blog/how-to-choose-the-best-ppc-agency",
         permanent: true,
       },
       {
-        source:
-          "/blog/unlocking-success-with-ppc-management-companies-in-india",
-        destination: "/blog/how-to-choose-the-best-ppc-agency-in-2025",
+        source: "/blog/unlocking-success-with-ppc-management-companies-in-india",
+        destination: "/blog/how-to-choose-the-best-ppc-agency",
         permanent: true,
       },
       {
@@ -699,8 +652,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:
-          "/blog/local-seo-what-it-is-and-why-its-important-for-your-business",
+        source: "/blog/local-seo-what-it-is-and-why-its-important-for-your-business",
         destination: "/local-seo-services",
         permanent: true,
       },
@@ -715,49 +667,18 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/article-submission-services",
-        destination: "/link-building-services",
-        permanent: true,
-      },
-      {
-        source: "/directory-submission-services",
-        destination: "/link-building-services",
-        permanent: true,
-      },
-      {
-        source: "/forum-postings-services",
-        destination: "/link-building-services",
-        permanent: true,
-      },
-      {
-        source: "/social-bookmarking-services",
-        destination: "/link-building-services",
-        permanent: true,
-      },
-      {
-        source: "/press-release-submission-services",
-        destination: "/link-building-services",
-        permanent: true,
-      },
-      {
-        source: "/ecommerce-seo-services-packages",
-        destination: "/e-commerce-seo-services",
-        permanent: true,
-      },
-      {
         source: "/blog/seo-for-e-commerce-websites",
         destination: "/e-commerce-seo-services",
         permanent: true,
       },
       {
-        source:
-          "/blog/off-page-seo-building-your-websites-authority-and-reputation",
+        source: "/blog/off-page-seo-building-your-websites-authority-and-reputation",
         destination: "/off-page-seo-services",
         permanent: true,
       },
       {
-        source: "/ppc-management-services-packages",
-        destination: "/pay-per-click-ppc-management-services",
+        source: "/search-engine-optimization-seo-services",
+        destination: "/seo-company-mumbai",
         permanent: true,
       },
     ];

@@ -49,7 +49,7 @@ def codepoints(path, rule_re=RULE_RE, name_re=NAME_RE):
 
 
 def scan_source():
-    used_fa, used_bi = set(), set()
+    used_fa, used_bi, direct_fa = set(), set(), set()
     targets = []
     for d in ("comps", "pages", "styles"):
         targets += [
@@ -67,11 +67,13 @@ def scan_source():
                 used_fa.add(name)
         for m in re.finditer(r"\bbi-[a-z0-9-]+", text):
             used_bi.add(m.group(0))
-    return used_fa, used_bi
+        for m in re.finditer(r'content:\s*["\']\\([0-9a-fA-F]+)["\']', text):
+            direct_fa.add(m.group(1).lower())
+    return used_fa, used_bi, direct_fa
 
 
 def main():
-    used_fa, used_bi = scan_source()
+    used_fa, used_bi, direct_fa = scan_source()
 
     all_cp = codepoints(FA_CSS_DIR + "all.min.css")
     brands = set(codepoints(FA_CSS_DIR + "brands.min.css"))
@@ -82,6 +84,13 @@ def main():
         if cp is None:
             unresolved_fa.append(name)
         elif name in brands:
+            brand_glyphs.add(cp)
+        else:
+            solid.add(cp)
+
+    all_brands_cp = set(codepoints(FA_CSS_DIR + "brands.min.css").values())
+    for cp in direct_fa:
+        if cp in all_brands_cp:
             brand_glyphs.add(cp)
         else:
             solid.add(cp)
