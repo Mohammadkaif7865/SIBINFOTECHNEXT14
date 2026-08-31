@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
+import Head from 'next/head';
+
 const NotFound = () => {
   const router = useRouter();
 
@@ -17,6 +19,10 @@ const NotFound = () => {
 
   return (
     <div>
+      <Head>
+        <title>404 - Page Not Found | SIB Infotech</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <section className="border-top pt-4">
         <div className="containerFull">
           <div className="row">

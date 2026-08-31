@@ -1,0 +1,1670 @@
+{
+  "routes": {
+    "ok200": [],
+    "redirect301": [],
+    "error404": [],
+    "otherError": [
+      {
+        "route": "/2d-animation-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/3d-animation-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/about-us",
+        "error": ""
+      },
+      {
+        "route": "/adobe-air-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/affiliate-marketing-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/ai-ppc-services",
+        "error": ""
+      },
+      {
+        "route": "/ai-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/ajax-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/amazon-web-services-aws",
+        "error": ""
+      },
+      {
+        "route": "/android-mobile-application-development-services",
+        "error": ""
+      },
+      {
+        "route": "/answer-engine-optimization",
+        "error": ""
+      },
+      {
+        "route": "/anuj-bajaj",
+        "error": ""
+      },
+      {
+        "route": "/app-store-optimization",
+        "error": ""
+      },
+      {
+        "route": "/apply-now",
+        "error": ""
+      },
+      {
+        "route": "/article-submission-services",
+        "error": ""
+      },
+      {
+        "route": "/aspnet-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/best-digital-marketing-companies-in-india",
+        "error": ""
+      },
+      {
+        "route": "/blackberry-mobile-application-development-services",
+        "error": ""
+      },
+      {
+        "route": "/blog",
+        "error": ""
+      },
+      {
+        "route": "/blog-management-services",
+        "error": ""
+      },
+      {
+        "route": "/bootstrap-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/cakephp-development-services",
+        "error": ""
+      },
+      {
+        "route": "/career",
+        "error": ""
+      },
+      {
+        "route": "/case-studies",
+        "error": ""
+      },
+      {
+        "route": "/chat",
+        "error": ""
+      },
+      {
+        "route": "/chatgpt-ppc-services",
+        "error": ""
+      },
+      {
+        "route": "/chatgpt-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/claude-ppc-services",
+        "error": ""
+      },
+      {
+        "route": "/claude-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/cms-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/cms-website-design-development-services",
+        "error": ""
+      },
+      {
+        "route": "/codeigniter-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/contact-us",
+        "error": ""
+      },
+      {
+        "route": "/content-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/conversion-rate-optimization",
+        "error": ""
+      },
+      {
+        "route": "/cookie-policy",
+        "error": ""
+      },
+      {
+        "route": "/corporate-branding-service-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/corporate-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/custom-api-integration-services",
+        "error": ""
+      },
+      {
+        "route": "/custom-calculator-development-services",
+        "error": ""
+      },
+      {
+        "route": "/custom-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/custom-website-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/database-development-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/db2-dba-services-administration",
+        "error": ""
+      },
+      {
+        "route": "/desktop-application-development-companies-india",
+        "error": ""
+      },
+      {
+        "route": "/desktop-applications-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/digital-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/directory-submission-services",
+        "error": ""
+      },
+      {
+        "route": "/drupal-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/dynamic-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/e-commerce-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/e-commerce-website-design-development-services",
+        "error": ""
+      },
+      {
+        "route": "/ecommerce-marketing-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/ecommerce-portal-development",
+        "error": ""
+      },
+      {
+        "route": "/ecommerce-seo-services-packages",
+        "error": ""
+      },
+      {
+        "route": "/ecommerce-solutions-company-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/email-marketing-services-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/enterprise-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/erp-crm-software-development-solutions",
+        "error": ""
+      },
+      {
+        "route": "/expertise",
+        "error": ""
+      },
+      {
+        "route": "/facebook-ads-management-services",
+        "error": ""
+      },
+      {
+        "route": "/facebook-marketing",
+        "error": ""
+      },
+      {
+        "route": "/flash-actionscript-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-banner-designing-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-communication-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-intro-development-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-remoting-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-templates-designing-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flash-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/flashgame-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/flex-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/forum-postings-services",
+        "error": ""
+      },
+      {
+        "route": "/gemini-ppc-services",
+        "error": ""
+      },
+      {
+        "route": "/gemini-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/generative-engine-optimization",
+        "error": ""
+      },
+      {
+        "route": "/google-ads-management-services",
+        "error": ""
+      },
+      {
+        "route": "/google-penalty-recovery",
+        "error": ""
+      },
+      {
+        "route": "/graphic-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/guaranteed-top-10-search-engine-ranking-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/hire-dedicated-seo-experts-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/hosted-marketing-pages-services-india",
+        "error": ""
+      },
+      {
+        "route": "/hr-solutions-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/",
+        "error": ""
+      },
+      {
+        "route": "/influencer-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/instagram-ads-management-services",
+        "error": ""
+      },
+      {
+        "route": "/internet-marketing-company-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/j2ee-application-development-companies-india",
+        "error": ""
+      },
+      {
+        "route": "/java-development-services",
+        "error": ""
+      },
+      {
+        "route": "/javascript-development-services",
+        "error": ""
+      },
+      {
+        "route": "/joomla-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/jquery-development-services",
+        "error": ""
+      },
+      {
+        "route": "/keyword-research-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/laravel-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/law-website-development-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/lexical-analysis-based-lsi-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/link-building-services",
+        "error": ""
+      },
+      {
+        "route": "/linkedin-ads-management-services",
+        "error": ""
+      },
+      {
+        "route": "/linkedin-marketing",
+        "error": ""
+      },
+      {
+        "route": "/llm-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/local-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/m-commerce-solution",
+        "error": ""
+      },
+      {
+        "route": "/magento-development-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/microsoft-application-development-services",
+        "error": ""
+      },
+      {
+        "route": "/mobile-application-development-services",
+        "error": ""
+      },
+      {
+        "route": "/mobile-optimization-techniques-india",
+        "error": ""
+      },
+      {
+        "route": "/mobile-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/mobile-web-standards-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/mobile-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/mongodb-database-support-administration",
+        "error": ""
+      },
+      {
+        "route": "/multilingual-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/net-development-services",
+        "error": ""
+      },
+      {
+        "route": "/off-page-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/on-page-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/online-lead-generation-services",
+        "error": ""
+      },
+      {
+        "route": "/online-reputation-management-services",
+        "error": ""
+      },
+      {
+        "route": "/online-reputation-repair-service",
+        "error": ""
+      },
+      {
+        "route": "/oracle-applications-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/order-digital-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/paid-inclusion-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/pay-per-click-ppc-management-services",
+        "error": ""
+      },
+      {
+        "route": "/payment-gateway-integration-services",
+        "error": ""
+      },
+      {
+        "route": "/perplexity-ppc-services",
+        "error": ""
+      },
+      {
+        "route": "/perplexity-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/php-website-development-services",
+        "error": ""
+      },
+      {
+        "route": "/pinterest-marketing",
+        "error": ""
+      },
+      {
+        "route": "/portfolio",
+        "error": ""
+      },
+      {
+        "route": "/postgresql-database-services",
+        "error": ""
+      },
+      {
+        "route": "/ppc-management-services-packages",
+        "error": ""
+      },
+      {
+        "route": "/press-release-submission-services",
+        "error": ""
+      },
+      {
+        "route": "/pricing",
+        "error": ""
+      },
+      {
+        "route": "/privacy-policy",
+        "error": ""
+      },
+      {
+        "route": "/professional-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/psd-to-html-conversion-services",
+        "error": ""
+      },
+      {
+        "route": "/real-estate-website-development-services",
+        "error": ""
+      },
+      {
+        "route": "/recruitment-website-development-services",
+        "error": ""
+      },
+      {
+        "route": "/regional-local-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/remote-mysql-dba-services-support",
+        "error": ""
+      },
+      {
+        "route": "/resource",
+        "error": ""
+      },
+      {
+        "route": "/responsive-website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/rich-internet-applications-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/ruby-on-rails-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/search-ai-optimization",
+        "error": ""
+      },
+      {
+        "route": "/search-engine-marketing-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/search-engine-optimization-outsourcing-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/search-engine-optimization-research-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/search-engine-optimization-seo-services-packages",
+        "error": ""
+      },
+      {
+        "route": "/seo-audit-services",
+        "error": ""
+      },
+      {
+        "route": "/seo-company-bangalore",
+        "error": ""
+      },
+      {
+        "route": "/seo-company-delhi",
+        "error": ""
+      },
+      {
+        "route": "/seo-company-hyderabad",
+        "error": ""
+      },
+      {
+        "route": "/seo-company-mumbai",
+        "error": ""
+      },
+      {
+        "route": "/seo-company-pune",
+        "error": ""
+      },
+      {
+        "route": "/seo-content-writing-services",
+        "error": ""
+      },
+      {
+        "route": "/seo-methodology-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/seo-money-back-guarantee-service-india",
+        "error": ""
+      },
+      {
+        "route": "/seo-packages",
+        "error": ""
+      },
+      {
+        "route": "/services-pay-per-click-management-services",
+        "error": ""
+      },
+      {
+        "route": "/sharepoint-application-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/shopify-development-services",
+        "error": ""
+      },
+      {
+        "route": "/shopify-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/sms-gateway-integration-services",
+        "error": ""
+      },
+      {
+        "route": "/sms-marketing-services-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/snapchat-marketing",
+        "error": ""
+      },
+      {
+        "route": "/social-bookmarking-services",
+        "error": ""
+      },
+      {
+        "route": "/social-media-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/social-media-marketing-smm-services-packages",
+        "error": ""
+      },
+      {
+        "route": "/social-media-optimization-services",
+        "error": ""
+      },
+      {
+        "route": "/social-media-optimization",
+        "error": ""
+      },
+      {
+        "route": "/social-networking-website-development-services",
+        "error": ""
+      },
+      {
+        "route": "/software-development-services",
+        "error": ""
+      },
+      {
+        "route": "/software-testing-and-quality-assurance-services",
+        "error": ""
+      },
+      {
+        "route": "/technical-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/terms-and-conditions",
+        "error": ""
+      },
+      {
+        "route": "/testimonials",
+        "error": ""
+      },
+      {
+        "route": "/thanks",
+        "error": ""
+      },
+      {
+        "route": "/themes-customization-services",
+        "error": ""
+      },
+      {
+        "route": "/tiktok-ads-management-services",
+        "error": ""
+      },
+      {
+        "route": "/tools",
+        "error": ""
+      },
+      {
+        "route": "/tools/keyword-density-checker",
+        "error": ""
+      },
+      {
+        "route": "/tools/meta-description-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/meta-title-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/open-graph-tag-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/redirect-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/robots-txt-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/schema-markup-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/seo-url-slug-generator",
+        "error": ""
+      },
+      {
+        "route": "/tools/serp-preview-tool",
+        "error": ""
+      },
+      {
+        "route": "/tools/utm-url-builder",
+        "error": ""
+      },
+      {
+        "route": "/travel-api-integration-services",
+        "error": ""
+      },
+      {
+        "route": "/twitter-marketing",
+        "error": ""
+      },
+      {
+        "route": "/twitter-trending-marketing",
+        "error": ""
+      },
+      {
+        "route": "/w3c-standards-india",
+        "error": ""
+      },
+      {
+        "route": "/web-application-testing-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/webportal-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/website-analysis-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/website-audit-services-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/website-design-development-services-packages",
+        "error": ""
+      },
+      {
+        "route": "/website-design-technology-providers-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/website-designing-companies-mumbai",
+        "error": ""
+      },
+      {
+        "route": "/website-designing-methodology-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/website-designing-services",
+        "error": ""
+      },
+      {
+        "route": "/website-development-services",
+        "error": ""
+      },
+      {
+        "route": "/website-maintenance-services",
+        "error": ""
+      },
+      {
+        "route": "/website-redesigning-services",
+        "error": ""
+      },
+      {
+        "route": "/website-redevelopment-services",
+        "error": ""
+      },
+      {
+        "route": "/website-usability-report-india",
+        "error": ""
+      },
+      {
+        "route": "/whatsapp-marketing",
+        "error": ""
+      },
+      {
+        "route": "/white-label-digital-marketing-services",
+        "error": ""
+      },
+      {
+        "route": "/white-label-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/windows-mobile-application-development-services",
+        "error": ""
+      },
+      {
+        "route": "/woocommerce-seo-services",
+        "error": ""
+      },
+      {
+        "route": "/wordpess-development-services",
+        "error": ""
+      },
+      {
+        "route": "/wordpress-cms-website-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/wordpress-website-design-development-services",
+        "error": ""
+      },
+      {
+        "route": "/x-cart-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/xhtml-conversion-services",
+        "error": ""
+      },
+      {
+        "route": "/yahoo-store-development-services",
+        "error": ""
+      },
+      {
+        "route": "/yii-cms-framework-development-services",
+        "error": ""
+      },
+      {
+        "route": "/youtube-marketing",
+        "error": ""
+      },
+      {
+        "route": "/youtube-trending-marketing",
+        "error": ""
+      },
+      {
+        "route": "/zen-cart-development-companies-mumbai-india",
+        "error": ""
+      },
+      {
+        "route": "/zend-framework-development-services",
+        "error": ""
+      }
+    ]
+  },
+  "blogs": {
+    "ok200": [],
+    "error404": [
+      {
+        "slug": "keyword-match-type-in-google-ads",
+        "error": ""
+      },
+      {
+        "slug": "why-seo-is-important-for-business-and-how-to-do-it",
+        "error": ""
+      },
+      {
+        "slug": "video-marketing-strategies",
+        "error": ""
+      },
+      {
+        "slug": "what-is-google-guaranteed-badge-and-how-to-get-google-guaranteed-badge-on-local-service-ads",
+        "error": ""
+      },
+      {
+        "slug": "how-to-choose-the-best-ppc-company-for-your-small-business-in-india",
+        "error": ""
+      },
+      {
+        "slug": "benefits-of-outsourcing-ppc-management-services",
+        "error": ""
+      },
+      {
+        "slug": "instagram-seo-google-search-ranking",
+        "error": ""
+      },
+      {
+        "slug": "youtube-monetization-rules-requirements",
+        "error": ""
+      },
+      {
+        "slug": "future-predictions-of-top-seo-trends-for-success",
+        "error": ""
+      },
+      {
+        "slug": "social-media-trends",
+        "error": ""
+      },
+      {
+        "slug": "how-to-choose-the-best-ppc-agency",
+        "error": ""
+      },
+      {
+        "slug": "class-10th-12th-board-exam-results-out",
+        "error": ""
+      },
+      {
+        "slug": "how-ai-is-transforming-digital-marketing",
+        "error": ""
+      },
+      {
+        "slug": "google-core-update-recovery-guide",
+        "error": ""
+      },
+      {
+        "slug": "ppc-management-pricing-mumbai",
+        "error": ""
+      },
+      {
+        "slug": "how-to-optimize-for-google-ai-overviews",
+        "error": ""
+      },
+      {
+        "slug": "best-ai-video-tools-for-ecommerce",
+        "error": ""
+      },
+      {
+        "slug": "search-intent-vs-keywords-ai-seo",
+        "error": ""
+      },
+      {
+        "slug": "top-seo-companies-in-mumbai",
+        "error": ""
+      },
+      {
+        "slug": "the-seo-and-ai-search-iceberg-why-90percent-of-search-growth-happens-beneath-the-surface",
+        "error": ""
+      },
+      {
+        "slug": "best-ai-visibility-tracking-tools-the-future-of-seo-beyond-google-rankings2",
+        "error": ""
+      },
+      {
+        "slug": "ai-overviews-are-changing-google-search-what-indian-businesses-need-to-do-now",
+        "error": ""
+      },
+      {
+        "slug": "clarvos-the-new-ai-marketing-campaign-generator-changing-how-marketing-campaigns-are-run-in-2026",
+        "error": ""
+      },
+      {
+        "slug": "ai-agents-explained-what-they-actually-are-in-2026-vs-what-companies-claim",
+        "error": ""
+      },
+      {
+        "slug": "web-design-trends-2026-guide",
+        "error": ""
+      },
+      {
+        "slug": "future-of-seo-in-india-google-ai-mode",
+        "error": ""
+      },
+      {
+        "slug": "outsource-digital-marketing-services-guide",
+        "error": ""
+      },
+      {
+        "slug": "how-to-convert-website-visitors-into-leads",
+        "error": ""
+      },
+      {
+        "slug": "outsource-digital-marketing-services-guide",
+        "error": ""
+      },
+      {
+        "slug": "local-seo-services-for-small-business-in-india-grow-online-with-whatsapp-and-short-videos-on-any-budget",
+        "error": ""
+      },
+      {
+        "slug": "how-viral-videos-increase-brand-awareness-and-engagement-the-complete-guide",
+        "error": ""
+      },
+      {
+        "slug": "seo-or-google-ads-in-2026-which-one-actually-makes-sense-for-your-indian-business",
+        "error": ""
+      },
+      {
+        "slug": "google-business-profile-ga4-integration",
+        "error": ""
+      },
+      {
+        "slug": "reddit-google-search-visibility-rising-again",
+        "error": ""
+      },
+      {
+        "slug": "url-blocked-by-robots-txt-causes,-fixes,-and-seo-impact",
+        "error": ""
+      },
+      {
+        "slug": "the-first-ai-model-ban-has-arrived-and-it-may-reshape-the-future-of-ai",
+        "error": ""
+      },
+      {
+        "slug": "google-stitch-and-mcp-are-finally-making-ai-app-development-practical",
+        "error": ""
+      },
+      {
+        "slug": "clarvos-the-new-ai-marketing-campaign-generator-changing-how-marketing-campaigns-are-run-in-2026",
+        "error": ""
+      },
+      {
+        "slug": "best-ai-visibility-tracking-tools-the-future-of-seo-beyond-google-rankings",
+        "error": ""
+      },
+      {
+        "slug": "getting-website-traffic-but-no-calls-heres-how-to-convert-website-visitors-into-leads",
+        "error": ""
+      },
+      {
+        "slug": "marketing-trends-2026-social-media,-ai-and-digital-marketing-news",
+        "error": ""
+      },
+      {
+        "slug": "ga4s-new-ai-assistant-channel-now-track-chatgpt,-gemini-and-claude-traffic-automatically",
+        "error": ""
+      },
+      {
+        "slug": "gemini-omni-googles-new-ai-video-model-set-to-redefine-content-creation-in-2026",
+        "error": ""
+      },
+      {
+        "slug": "the-new-ai-marketing-campaign-generator-changing-how-marketing-campaigns-are-run-in-2026",
+        "error": ""
+      },
+      {
+        "slug": "agentic-ai-advertising",
+        "error": ""
+      },
+      {
+        "slug": "google-rich-results-test-search-console-update",
+        "error": ""
+      },
+      {
+        "slug": "how-to-rank-in-ai-overviews",
+        "error": ""
+      },
+      {
+        "slug": "ads-in-ai-overviews-meaning-for-marketers",
+        "error": ""
+      },
+      {
+        "slug": "anthropic-claude-mythos-preview-latest-news-2026",
+        "error": ""
+      },
+      {
+        "slug": "how-to-use-claude-code-frontend-design-plugin",
+        "error": ""
+      },
+      {
+        "slug": "generative-engine-optimization-best-practices-guide",
+        "error": ""
+      },
+      {
+        "slug": "best-agentic-ai-tools-for-seo",
+        "error": ""
+      },
+      {
+        "slug": "google-maps-2026-business-judged-before-click",
+        "error": ""
+      },
+      {
+        "slug": "is-ai-replacing-google-search",
+        "error": ""
+      },
+      {
+        "slug": "rank-on-ai-search-engines",
+        "error": ""
+      },
+      {
+        "slug": "llmstxt-for-ai-seo-game-changer-or-empty-buzzword",
+        "error": ""
+      },
+      {
+        "slug": "how-to-improve-your-linkedin-ssi-score-complete-guide-to-social-selling-success",
+        "error": ""
+      },
+      {
+        "slug": "india-e-passports-available-in-13-cities",
+        "error": ""
+      },
+      {
+        "slug": "operation-visibility-google-rankings-operation-sindoor",
+        "error": ""
+      },
+      {
+        "slug": "ai-graphic-designers-jobless-or-assist",
+        "error": ""
+      },
+      {
+        "slug": "create-studio-ghibli-magic-internet-sensation",
+        "error": ""
+      },
+      {
+        "slug": "deepseek-or-deepthreat-the-ai-censorship-controversy",
+        "error": ""
+      },
+      {
+        "slug": "decoding-sxo-the-future-evolution-of-seo",
+        "error": ""
+      },
+      {
+        "slug": "is-deepseek-ai-game-changer-or-hype",
+        "error": ""
+      },
+      {
+        "slug": "what-is-deepseek-ai-and-how-it-impacts-future-of-ai",
+        "error": ""
+      },
+      {
+        "slug": "unlock-digital-success-with-the-power-of-sxo",
+        "error": ""
+      },
+      {
+        "slug": "semrush-vs-moz-better-seo-tool-for-your-needs",
+        "error": ""
+      },
+      {
+        "slug": "answer-engine-optimization-the-future-of-search",
+        "error": ""
+      },
+      {
+        "slug": "digital-marketing-importance-and-types",
+        "error": ""
+      },
+      {
+        "slug": "how-to-get-featured-on-top-of-google-search",
+        "error": ""
+      },
+      {
+        "slug": "troubleshooting-seo-issues-for-your-shopify-store",
+        "error": ""
+      },
+      {
+        "slug": "unlocking-success-with-ppc-management-companies-in-india",
+        "error": ""
+      },
+      {
+        "slug": "global-growth-strategies-mastering-international-seo-for-business-success",
+        "error": ""
+      },
+      {
+        "slug": "how-search-engine-ranking-factors-differ-by-location-and-user-behavior",
+        "error": ""
+      },
+      {
+        "slug": "how-ai-powered-tools-revolutionize-ppc-bid-strategies",
+        "error": ""
+      },
+      {
+        "slug": "static-versus-dynamic-websites-choosing-the-right-one-for-your-business",
+        "error": ""
+      },
+      {
+        "slug": "why-should-you-choose-a-google-premier-partner-for-your-digital-marketing-success",
+        "error": ""
+      },
+      {
+        "slug": "how-to-choose-the-right-digital-marketing-agency",
+        "error": ""
+      },
+      {
+        "slug": "relationship-between-seo-and-large-language-models",
+        "error": ""
+      },
+      {
+        "slug": "why-partnering-with-a-google-premier-partner-like-sib-infotech-is-essential-for-your-digital-success",
+        "error": ""
+      },
+      {
+        "slug": "seo-for-e-commerce-websites",
+        "error": ""
+      },
+      {
+        "slug": "what-will-your-google-ads-be-worth-in-2023",
+        "error": ""
+      },
+      {
+        "slug": "can-you-guess-the-happiest-cities-and-countries-in-the-world",
+        "error": ""
+      },
+      {
+        "slug": "chatgpt-vs-google-bard-which-chatbot-reigns-supreme",
+        "error": ""
+      },
+      {
+        "slug": "10-tips-on-how-to-hire-the-best-digital-marketing-agency-in-mumbai-for-your-brand",
+        "error": ""
+      },
+      {
+        "slug": "how-to-use-google-ads-for-your-business-a-beginners-guide",
+        "error": ""
+      },
+      {
+        "slug": "off-page-seo-building-your-websites-authority-and-reputation",
+        "error": ""
+      },
+      {
+        "slug": "the-future-of-smartphones-flexible-screens-graphene-transparent",
+        "error": ""
+      },
+      {
+        "slug": "local-seo-what-it-is-and-why-its-important-for-your-business",
+        "error": ""
+      },
+      {
+        "slug": "digital-marketing-trends-you-need-to-follow-in-2023",
+        "error": ""
+      },
+      {
+        "slug": "why-web-development-is-crucial-for-business-success-in-todays-digital-age",
+        "error": ""
+      },
+      {
+        "slug": "mastering-facebook-advertising-in-2023-top-trends-and-tips-for-success",
+        "error": ""
+      },
+      {
+        "slug": "how-much-the-average-seo-services-cost-in-india",
+        "error": ""
+      },
+      {
+        "slug": "test-blog",
+        "error": ""
+      },
+      {
+        "slug": "what-is-duckduckgo-seo-and-how-to-optimize-the-website",
+        "error": ""
+      },
+      {
+        "slug": "clutch-hails-sib-infotech-as-india-leading-ppc-management-company-for-2022",
+        "error": ""
+      },
+      {
+        "slug": "reasons-why-your-website-not-ranking-on-google-and-how-to-fix-it",
+        "error": ""
+      },
+      {
+        "slug": "google-launches-product-reviews-algorithm-update",
+        "error": ""
+      },
+      {
+        "slug": "yelp-introduces-new-search-filter-for-asian-owned-business-profile",
+        "error": ""
+      },
+      {
+        "slug": "google-ads-enable-continuous-audience-sharing-on-sub-accounts",
+        "error": ""
+      },
+      {
+        "slug": "google-updated-its-core-web-vitals-and-page-experience-faqs",
+        "error": ""
+      },
+      {
+        "slug": "new-google-maps-features-pickup-delivery-live-view",
+        "error": ""
+      },
+      {
+        "slug": "5-new-google-ads-features",
+        "error": ""
+      },
+      {
+        "slug": "microsofts-new-auto-submit-url-feature-for-wordpress-seo",
+        "error": ""
+      },
+      {
+        "slug": "core-web-vitals-google-new-official-ranking-factor-signal",
+        "error": ""
+      },
+      {
+        "slug": "importance-and-effectiveness-of-local-seo-by-2021",
+        "error": ""
+      },
+      {
+        "slug": "how-to-make-successful-adword-campaign",
+        "error": ""
+      },
+      {
+        "slug": "ppc-trends-of-2019-what-all-you-should-be-focusing-on",
+        "error": ""
+      },
+      {
+        "slug": "ways-to-make-your-website-s-landing-page-a-conversion-machine",
+        "error": ""
+      },
+      {
+        "slug": "how-to-choose-the-right-cms",
+        "error": ""
+      },
+      {
+        "slug": "how-to-promote-small-business-online-for-free",
+        "error": ""
+      },
+      {
+        "slug": "how-do-you-know-you-have-hired-the-best-website-designing-company-for-your-website",
+        "error": ""
+      },
+      {
+        "slug": "why-to-use-bootstrap-for-amazing-website-designing",
+        "error": ""
+      },
+      {
+        "slug": "8-tips-for-user-friendly-mobile-applications",
+        "error": ""
+      },
+      {
+        "slug": "what-are-some-of-the-best-ad-types-for-smaller-businesses",
+        "error": ""
+      },
+      {
+        "slug": "tips-for-improving-social-media-roi",
+        "error": ""
+      },
+      {
+        "slug": "4-common-wordpress-mistakes-that-are-harming-your-website",
+        "error": ""
+      },
+      {
+        "slug": "how-email-marketing-impacts-lead-generation-on-digital-platform",
+        "error": ""
+      },
+      {
+        "slug": "why-inbound-marketing-is-the-right-investment-for-small-businesses",
+        "error": ""
+      },
+      {
+        "slug": "role-of-a-professional-website-designing-company",
+        "error": ""
+      },
+      {
+        "slug": "3-mistakes-that-every-ui-ux-designer-makes",
+        "error": ""
+      },
+      {
+        "slug": "how-google-ad-extensions-improve-your-adwords-campaign",
+        "error": ""
+      },
+      {
+        "slug": "phases-of-website-design-and-development-process",
+        "error": ""
+      },
+      {
+        "slug": "ways-how-a-small-design-business-differentiate-itself-from-competitors",
+        "error": ""
+      },
+      {
+        "slug": "key-elements-of-an-effective-social-media-marketing-strategy",
+        "error": ""
+      },
+      {
+        "slug": "6-web-design-trends-in-2019",
+        "error": ""
+      },
+      {
+        "slug": "8-benefits-of-a-mobile-website",
+        "error": ""
+      },
+      {
+        "slug": "components-that-every-wordpress-blog-must-have-for-success",
+        "error": ""
+      },
+      {
+        "slug": "digital-marketing-strategies-to-grow-your-online-business",
+        "error": ""
+      },
+      {
+        "slug": "steps-to-increase-domain-authority-of-a-website",
+        "error": ""
+      },
+      {
+        "slug": "difference-between-traditional-marketing-and-digital-marketing",
+        "error": ""
+      },
+      {
+        "slug": "tips-to-get-more-traffic-to-your-blog",
+        "error": ""
+      },
+      {
+        "slug": "how-to-increase-traffic-to-your-website-through-blogging",
+        "error": ""
+      },
+      {
+        "slug": "reasons-why-blogging-is-important-for-digital-marketing",
+        "error": ""
+      },
+      {
+        "slug": "how-to-search-engine-optimize-your-blog-content",
+        "error": ""
+      },
+      {
+        "slug": "how-much-does-it-cost-to-redesign-a-website",
+        "error": ""
+      },
+      {
+        "slug": "what-is-responsive-design-and-why-my-website-need-it",
+        "error": ""
+      },
+      {
+        "slug": "how-to-build-your-first-wordpress-theme",
+        "error": ""
+      },
+      {
+        "slug": "how-much-does-it-cost-to-build-a-website",
+        "error": ""
+      },
+      {
+        "slug": "when-to-rebrand-your-company",
+        "error": ""
+      },
+      {
+        "slug": "what-makes-a-great-website",
+        "error": ""
+      },
+      {
+        "slug": "10-ways-your-website-is-driving-customers-away",
+        "error": ""
+      },
+      {
+        "slug": "5-things-your-website-is-missing",
+        "error": ""
+      },
+      {
+        "slug": "how-to-build-your-first-website",
+        "error": ""
+      },
+      {
+        "slug": "necessary-elements-of-a-great-website",
+        "error": ""
+      },
+      {
+        "slug": "how-to-run-a-successful-small-business",
+        "error": ""
+      },
+      {
+        "slug": "how-to-design-your-own-blog",
+        "error": ""
+      },
+      {
+        "slug": "when-to-redesign-your-website",
+        "error": ""
+      },
+      {
+        "slug": "what-is-wrong-with-using-design-templates",
+        "error": ""
+      },
+      {
+        "slug": "why-using-a-framework-is-a-great-idea",
+        "error": ""
+      },
+      {
+        "slug": "why-do-i-need-a-website-when-i-already-have-an-offline-marketing-campaign",
+        "error": ""
+      },
+      {
+        "slug": "what-is-the-difference-between-web-designing-and-web-development",
+        "error": ""
+      },
+      {
+        "slug": "the-latest-web-design-trends-we-love",
+        "error": ""
+      },
+      {
+        "slug": "web-design-trends-we-hate",
+        "error": ""
+      },
+      {
+        "slug": "the-most-important-thing-on-your-website",
+        "error": ""
+      },
+      {
+        "slug": "social-media-advertising-tips-and-tricks",
+        "error": ""
+      },
+      {
+        "slug": "link-baiting-techniques-and-advantages",
+        "error": ""
+      },
+      {
+        "slug": "blog-marketing",
+        "error": ""
+      },
+      {
+        "slug": "why-isn-t-anyone-coming-to-your-website",
+        "error": ""
+      },
+      {
+        "slug": "what-s-the-big-deal-about-mobile-first",
+        "error": ""
+      },
+      {
+        "slug": "which-colors-should-i-use-for-my-website-and-why",
+        "error": ""
+      },
+      {
+        "slug": "seo-tips-you-can-use-for-more-traffic",
+        "error": ""
+      },
+      {
+        "slug": "advantages-of-content-marketing",
+        "error": ""
+      },
+      {
+        "slug": "importance-of-landing-pages",
+        "error": ""
+      },
+      {
+        "slug": "improving-ecommerce-seo-and-user-experience",
+        "error": ""
+      },
+      {
+        "slug": "benefits-of-custom-application-development-for-your-online-business",
+        "error": ""
+      },
+      {
+        "slug": "why-design-websites-on-wordpress",
+        "error": ""
+      },
+      {
+        "slug": "future-of-web-development",
+        "error": ""
+      },
+      {
+        "slug": "benefits-of-paid-inclusion-services",
+        "error": ""
+      },
+      {
+        "slug": "latest-trends-in-mobile-application-development",
+        "error": ""
+      },
+      {
+        "slug": "does-your-website-need-a-mobile-makeover",
+        "error": ""
+      },
+      {
+        "slug": "disadvantages-of-building-a-mobile-app-for-business",
+        "error": ""
+      },
+      {
+        "slug": "how-does-mobile-website-development-help-your-brand",
+        "error": ""
+      },
+      {
+        "slug": "how-to-recover-your-website-after-being-blacklisted-by-google",
+        "error": ""
+      },
+      {
+        "slug": "what-should-a-web-design-company-do-for-your-business",
+        "error": ""
+      },
+      {
+        "slug": "impact-of-voice-based-search-on-modern-seo",
+        "error": ""
+      },
+      {
+        "slug": "benefits-of-seo-for-business-marketing",
+        "error": ""
+      },
+      {
+        "slug": "effective-elements-for-creating-a-powerful-e-commerce-website",
+        "error": ""
+      },
+      {
+        "slug": "reason-why-you-should-own-an-e-commerce-website",
+        "error": ""
+      },
+      {
+        "slug": "improve-website-conversion-rate-through-better-ux-design",
+        "error": ""
+      },
+      {
+        "slug": "limitations-of-a-wordpress-website",
+        "error": ""
+      },
+      {
+        "slug": "importance-of-having-a-website-for-your-startup-business",
+        "error": ""
+      },
+      {
+        "slug": "tips-to-create-a-more-impactful-business-website",
+        "error": ""
+      },
+      {
+        "slug": "web-designing-trends-and-designing-for-audience",
+        "error": ""
+      },
+      {
+        "slug": "reasons-why-your-business-needs-a-responsive-website",
+        "error": ""
+      },
+      {
+        "slug": "elements-that-influence-conversion",
+        "error": ""
+      },
+      {
+        "slug": "how-can-i-get-more-clients-for-my-web-design-business",
+        "error": ""
+      },
+      {
+        "slug": "things-to-consider-before-redesigning-your-website",
+        "error": ""
+      },
+      {
+        "slug": "online-shopping-is-now-easy-using-whatsapp-here-s-how",
+        "error": ""
+      },
+      {
+        "slug": "how-to-choose-the-right-keyword-match-type-for-ads",
+        "error": ""
+      },
+      {
+        "slug": "what-is-search-engine-optimization-seo",
+        "error": ""
+      }
+    ]
+  }
+}

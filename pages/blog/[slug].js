@@ -64,10 +64,10 @@ export async function getServerSideProps(context) {
 }
 
 const BLOG_META_OVERRIDES = {
-  "ppc-management-pricing-2025-cost-guide-what-you-should-pay": {
-    title: "PPC Management Pricing 2026: How Much Does PPC Cost in India?",
+  "ppc-management-pricing-mumbai": {
+    title: "PPC Management Pricing in Mumbai 2026: Costs, Fees & CPC Benchmarks",
     description:
-      "PPC management cost in India 2026: what you should pay for Google Ads management. Real pricing benchmarks, common pricing models, and what is included in agency fees.",
+      "Compare PPC management costs in Mumbai for 2026: ₹1.5L–₹17.3L+ monthly retainers, CPC benchmarks by industry, and pricing models explained. Updated for Mumbai market dynamics.",
   },
   "top-seo-companies-in-mumbai": {
     title: "Top 10 SEO Companies in Mumbai 2026 | Reviewed & Ranked",
@@ -92,7 +92,7 @@ const BLOG_CTA_INTERCEPTORS = {
     heading: "Looking for the Top SEO Company in Mumbai?",
     body: "SIB Infotech is a Google Premier Partner and one of the most reviewed SEO agencies in Mumbai. We have ranked 1000+ brands across 40+ countries since 2005.",
     primaryText: "Top SEO Company in Mumbai & Best SEO Agency in India",
-    primaryHref: "/seo-company-mumbai",
+    primaryHref: "/search-engine-optimization-seo-services",
     secondaryText: "View SEO Packages",
     secondaryHref: "/seo-packages",
   },
@@ -110,7 +110,7 @@ const BLOG_CTA_INTERCEPTORS = {
     primaryText: "View Monthly SEO Packages & Pricing",
     primaryHref: "/seo-packages",
     secondaryText: "Get a Free SEO Audit",
-    secondaryHref: "/seo-company-mumbai",
+    secondaryHref: "/search-engine-optimization-seo-services",
   },
 };
 

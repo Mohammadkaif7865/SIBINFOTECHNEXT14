@@ -36,8 +36,7 @@ export const CustomLayout = ({ children, meta }) => {
             path ===
               "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs" ||
             path === "/blogs/elements-that-influence-conversion" ||
-            path === "/blog/reason-why-you-should-own-an-e-commerce-website" ||
-            path === "/blog/top-seo-companies-in-mumbai"
+            path === "/blog/reason-why-you-should-own-an-e-commerce-website"
               ? "noindex, follow"
               : "index, follow"
           }
@@ -57,8 +56,7 @@ export const CustomLayout = ({ children, meta }) => {
               "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs" ||
             path === "/blogs/elements-that-influence-conversion" ||
             path ===
-              "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs" ||
-            path === "/blog/top-seo-companies-in-mumbai"
+              "/blog/google-updated-its-core-web-vitals-and-page-experience-faqs"
               ? "noindex, follow"
               : "index, follow"
           }
