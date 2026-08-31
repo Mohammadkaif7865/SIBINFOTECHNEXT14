@@ -56,15 +56,6 @@ export default function SearchEngineOptimizationServices() {
       { "@type": "City", name: "Thane" },
       { "@type": "Country", name: "India" },
     ],
-    // TODO: re-enable ONLY with your real, verifiable Google Business Profile
-    // numbers. Invented ratings breach Google's review-snippet policy.
-    // aggregateRating: {
-    //   "@type": "AggregateRating",
-    //   ratingValue: "<real average>",
-    //   reviewCount: "<real count>",
-    //   bestRating: "5",
-    //   worstRating: "1",
-    // },
     provider: {
       "@id": "https://www.sibinfotech.com/#localbusiness",
     },
