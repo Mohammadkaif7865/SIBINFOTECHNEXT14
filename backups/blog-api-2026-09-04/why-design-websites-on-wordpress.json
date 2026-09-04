@@ -1,0 +1,38 @@
+{
+  "blog": [
+    {
+      "id": 32,
+      "category_id": 18,
+      "name": "Why Design Websites on Wordpress",
+      "slug": "why-design-websites-on-wordpress",
+      "image": "uploads/blog/why-design-websites-on-wordpress.jpg",
+      "description": "<p>WordPress is a content management system and blogging platform used by a wide variety of websites worldwide. It makes building a website accessible to anyone even people who are professional designers or developers. WordPress can be used to design a variety of websites like business websites, e-commerce websites, blogs, portfolios, forums, etc. It has developed the easiness to create and design a website for your business needs.</p><h3>4 reasons why you should design your website on WordPress</h3><ul><li><strong>WordPress is extensible</strong></li></ul><p>One of the main reasons for <a href=\"/wordpress-website-design-development-services\">designing a website using WordPress</a> is that is it extensible and flexible. WordPress has thousands and thousands of inbuilt themes and fonts that help in delivering the best designs for your website. The themes define how your website will look like, you can easily choose a relevant theme for your website. WordPress also has a lot of plugins used to define the functioning of your website.</p><p>This CMS platform provides a variety of options to the users and that too for free.</p><ul><li><strong>Easy to use</strong></li></ul><p>Another speciality why web designers prefer <a href=\"/wordpress-website-design-development-services\">WordPress for Website designing</a> is that it is user-friendly and is easy to update. Anybody can update Wordpress and there is no need for technical knowledge or terms to update Wordpress content. You can simply log in to your WordPress account, make changes and your WordPress website will be updated.</p><ul><li><strong>Great for SEO</strong></li></ul><p>WordPress is beneficial for the designing of websites as it creates a great User Experience. It is also a platform that goes well with Search Engine Optimization. Wordpress websites are coded and marked up in ways that they automatically become attractive to search engines and this helps to gain more traffic to your website. Several SEO plugins allow easy access to optimize web pages and provide the best results.</p><ul><li><strong>WordPress is secure</strong></li></ul><p>WordPress is a worldwide platform and has always resulted to be the best option when designing websites. It has a large developers and support community that ensures the security of your website and blogs. In addition to security Wordpress always keeps mentioning the changes in the system, any available updates or content errors.</p><p>WordPress has several other advantages it is free, easy to install and an open source for designing websites.</p><p>You can blindly trust this for <a href=\"/website-designing-services\">designing your website</a> and it will ensure the best results.</p>",
+      "meta_title": "Why Design Websites on WordPress? Key Benefits & Advantages",
+      "meta_keywords": "wordpress for design websites, wordpress websites designing",
+      "meta_description": "Explore the top reasons to choose WordPress for your website design. Learn about its ease of use and powerful features that make WordPress a preferred choice.",
+      "schema_jsonld": null,
+      "bdate": "2019-09-20T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-09-20T00:00:00.000Z",
+      "updatedAt": "2024-10-17T10:51:25.000Z",
+      "image_name": "why-design-websites-on-wordpress",
+      "image_alt": "Why Design Websites on Wordpress",
+      "banner_background_color": null,
+      "banner_text_color": null,
+      "banner_title": null,
+      "banner_image": null,
+      "action_title": null,
+      "action_btn_1_text": null,
+      "action_btn_1_link": null,
+      "action_btn_2_text": null,
+      "action_btn_2_link": null,
+      "action_subtitle_1": null,
+      "action_description_1": null,
+      "action_subtitle_2": null,
+      "action_description_2": null,
+      "author_id": 5
+    }
+  ],
+  "blog_sections": [],
+  "blog_faqs": []
+}

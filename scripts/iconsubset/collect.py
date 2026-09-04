@@ -49,7 +49,8 @@ def codepoints(path, rule_re=RULE_RE, name_re=NAME_RE):
 
 
 def scan_source():
-    used_fa, used_bi, direct_fa = set(), set(), set()
+    used_fa, used_bi = set(), set()
+    direct_fa, direct_bi = set(), set()
     targets = []
     for d in ("comps", "pages", "styles"):
         targets += [
@@ -67,13 +68,33 @@ def scan_source():
                 used_fa.add(name)
         for m in re.finditer(r"\bbi-[a-z0-9-]+", text):
             used_bi.add(m.group(0))
-        for m in re.finditer(r'content:\s*["\']\\([0-9a-fA-F]+)["\']', text):
-            direct_fa.add(m.group(1).lower())
-    return used_fa, used_bi, direct_fa
+
+        if f.endswith(".css"):
+            # Split CSS roughly by rule blocks to check font-family context
+            for block in re.finditer(r'\{([^{}]+)\}', text):
+                btext = block.group(1)
+                cps = re.findall(r'content:\s*["\']\\([0-9a-fA-F]+)["\']', btext)
+                if not cps:
+                    continue
+                is_bi = bool(re.search(r'font-family:\s*[^;]*bootstrap-icons', btext, re.I))
+                is_fa = bool(re.search(r'font-family:\s*[^;]*(?:font\s*awesome|FontAwesome)', btext, re.I))
+                for cp in cps:
+                    cp_clean = cp.lower()
+                    if is_bi:
+                        direct_bi.add(cp_clean)
+                    elif is_fa:
+                        direct_fa.add(cp_clean)
+                    else:
+                        direct_fa.add(cp_clean)
+                        direct_bi.add(cp_clean)
+        else:
+            for m in re.finditer(r'content:\s*["\']\\([0-9a-fA-F]+)["\']', text):
+                direct_fa.add(m.group(1).lower())
+    return used_fa, used_bi, direct_fa, direct_bi
 
 
 def main():
-    used_fa, used_bi, direct_fa = scan_source()
+    used_fa, used_bi, direct_fa, direct_bi = scan_source()
 
     all_cp = codepoints(FA_CSS_DIR + "all.min.css")
     brands = set(codepoints(FA_CSS_DIR + "brands.min.css"))
@@ -89,19 +110,25 @@ def main():
             solid.add(cp)
 
     all_brands_cp = set(codepoints(FA_CSS_DIR + "brands.min.css").values())
+    all_solid_cp = set(all_cp.values())
     for cp in direct_fa:
-        if cp in all_brands_cp:
+        if cp in all_brands_cp and cp not in all_solid_cp:
             brand_glyphs.add(cp)
-        else:
+        elif cp in all_solid_cp:
             solid.add(cp)
 
     bi_cp = codepoints(BI_CSS, BI_RULE_RE, BI_NAME_RE)
+    all_bi_cps = set(c.lower() for c in bi_cp.values())
     bi_glyphs, unresolved_bi = set(), []
     for name in sorted(used_bi):
         cp = bi_cp.get(name)
         if cp is None:
             unresolved_bi.append(name)
         else:
+            bi_glyphs.add(cp)
+
+    for cp in direct_bi:
+        if cp in all_bi_cps:
             bi_glyphs.add(cp)
 
     out = {

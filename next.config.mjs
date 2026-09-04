@@ -131,19 +131,62 @@ const nextConfig = {
         destination: "/e-commerce-website-design-development-services",
         permanent: true,
       },
-      {
-        source: "/blog/does-your-website-need-a-mobile-makeover",
-        destination: "/mobile-website-designing-services",
-        permanent: true,
-      },
+      // NOTE: /blog/does-your-website-need-a-mobile-makeover previously redirected
+      // to /mobile-website-designing-services. Removed deliberately: it sent an
+      // informational query ("how to make a website mobile friendly", 33k/mo) into
+      // a commercial service page that cannot rank for it. The post is restored to
+      // 200 and rewritten as a how-to guide that links out to the service page.
       {
         source: "/blog/tips-to-create-a-more-impactful-business-website",
         destination: "/blog/necessary-elements-of-a-great-website",
         permanent: true,
       },
       {
+        // Repointed: "PPC trends" is informational, "best PPC agency" is
+        // commercial investigation. Destination is now the post that actually
+        // carries the trends content.
         source: "/blog/ppc-trends-of-2019-what-all-you-should-be-focusing-on",
-        destination: "/blog/how-to-choose-the-best-ppc-agency",
+        destination: "/blog/how-ai-powered-tools-revolutionize-ppc-bid-strategies",
+        permanent: true,
+      },
+
+      // --- Blog consolidation: duplicate search intent merged into one owner ---
+      {
+        source: "/blog/importance-of-landing-pages",
+        destination:
+          "/blog/ways-to-make-your-website-s-landing-page-a-conversion-machine",
+        permanent: true,
+      },
+      {
+        source: "/blog/tips-to-get-more-traffic-to-your-blog",
+        destination: "/blog/how-to-increase-traffic-to-your-website-through-blogging",
+        permanent: true,
+      },
+      {
+        source: "/blog/when-to-redesign-your-website",
+        destination: "/blog/things-to-consider-before-redesigning-your-website",
+        permanent: true,
+      },
+      {
+        source: "/blog/reasons-why-your-business-needs-a-responsive-website",
+        destination: "/blog/what-is-responsive-design-and-why-my-website-need-it",
+        permanent: true,
+      },
+      {
+        source: "/blog/the-latest-web-design-trends-we-love",
+        destination: "/blog/web-design-trends-2026-guide",
+        permanent: true,
+      },
+      {
+        source: "/blog/web-design-trends-we-hate",
+        destination: "/blog/web-design-trends-2026-guide",
+        permanent: true,
+      },
+      {
+        // Exact duplicate: identical title and body to the short-slug post.
+        source:
+          "/blog/getting-website-traffic-but-no-calls-heres-how-to-convert-website-visitors-into-leads",
+        destination: "/blog/how-to-convert-website-visitors-into-leads",
         permanent: true,
       },
       {
@@ -282,8 +325,10 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // Repointed from /website-designing-services: a dated trends post belongs
+        // with the current-year trends post, not a commercial service page.
         source: "/blog/6-web-design-trends-in-2019",
-        destination: "/website-designing-services",
+        destination: "/blog/web-design-trends-2026-guide",
         permanent: true,
       },
       {

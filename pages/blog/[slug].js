@@ -263,6 +263,71 @@ function truncate(text, max) {
   return text.slice(0, max).trim() + "…";
 }
 
+/**
+ * Fallback BlogPosting + BreadcrumbList graph.
+ *
+ * Only used when a post has no hand-authored schema_jsonld. Most posts don't:
+ * the column is null for the majority of the catalogue, which left those pages
+ * emitting nothing but the site-wide WebSite/Organization/LocalBusiness blocks
+ * and no article-level markup at all.
+ */
+function buildBlogPostingSchema({ post, title, description, author }) {
+  if (!post) return "";
+
+  const url = `https://www.sibinfotech.com/blog/${post.slug}`;
+  const image = post.image
+    ? `${CONSTANTS.BACKEND_URL}${post.image}`
+    : "https://www.sibinfotech.com/images/logo.png";
+
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${url}#article`,
+        mainEntityOfPage: { "@type": "WebPage", "@id": url },
+        headline: truncate(title, 110),
+        description,
+        image,
+        datePublished: post.bdate || post.createdAt || undefined,
+        dateModified: post.updatedAt || post.bdate || undefined,
+        inLanguage: "en-IN",
+        author: author?.name
+          ? { "@type": "Person", name: author.name }
+          : { "@type": "Organization", name: "SIB Infotech" },
+        publisher: {
+          "@type": "Organization",
+          name: "SIB Infotech",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://www.sibinfotech.com/images/logo.png",
+          },
+        },
+        ...(post.category_name ? { articleSection: post.category_name } : {}),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.sibinfotech.com/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: "https://www.sibinfotech.com/blog",
+          },
+          { "@type": "ListItem", position: 3, name: post.name, item: url },
+        ],
+      },
+    ],
+  });
+}
+
 function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
   if (!blog || !Array.isArray(blog) || blog.length === 0) return null;
 
@@ -396,11 +461,23 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
               property="twitter:image"
               content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
             />
-            {blog[0]?.schema_jsonld && (
+            {blog[0]?.schema_jsonld ? (
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: cleanSchemaJsonLd(blog[0].schema_jsonld),
+                }}
+              />
+            ) : (
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: buildBlogPostingSchema({
+                    post: blog[0],
+                    title: metaTitle,
+                    description: metaDescription,
+                    author,
+                  }),
                 }}
               />
             )}

@@ -1,0 +1,38 @@
+{
+  "blog": [
+    {
+      "id": 72,
+      "category_id": 19,
+      "name": "Steps to Increase Domain Authority of a Website",
+      "slug": "steps-to-increase-domain-authority-of-a-website",
+      "image": "uploads/blog/steps-to-increase-domain-authority-of-a-website.jpg",
+      "description": "<p>Domain authority is the measure of your search engine ranking. The higher your domain authority is, the higher you will rank in search engines including Google. It also defines the amount of traffic your website is getting, a better domain authority insists on better traffic.</p><p>Domain authority is very important for measuring a website’s accuracy and here are some of the steps you can take to increase the domain authority of your website-</p><ul><li><strong>Choosing an appropriate domain name</strong></li></ul><p>The foremost thing about maintaining the authority of a domain is to choose the correct domain name for your website. Choosing does not mean randomly just picking one, it means you have to choose a name that is relevant to your site and also represents your brand if you have a business website. You must select a name that’s easy to remember and is convenient for your viewers.</p><p>If you already have a domain name you should check upon its expiry and try to make it permanent.</p><ul><li><strong>Content optimization</strong></li></ul><p>The most important part of a website is its content. Content optimization is important for both search engines and domain authority. You must optimize all the on-page content of your website including title tags and image alt tags. Your content must contain all the essential keywords and you should analyze the proper functioning of your website.</p><ul><li><strong>Focus on creating linkable content</strong></li></ul><p>For domain authority, it is essential to create content that is effective, informative and creative. This kind of content attracts people and high-quality content makes people talk about your website. This leads the customers to link to your profile and share your work which will automatically invite huge sites to link with you.</p><ul><li><strong>Add and improve internal linking</strong></li></ul><p>Internal linking is a major factor that decides the domain authority of a website. Internal linking helps the users to find what they actually want without any chaos, it directs the viewers to the main page without the struggle of reopening every concept.</p><p>Another advantage that internal linking serves is it helps the search engines to find your website more easily and provide better ranking. Linking different pages guides the users and saves time making them more engaged to your website.</p><ul><li><strong>Make the website mobile-friendly</strong></li></ul><p>A mobile-friendly website attracts way more users than websites that have separate domains for desktops and mobiles. Most of the customers nowadays are using mobile phones instead of desktops and laptops, hence we have more mobile users than any other device.</p><p>Another reason why mobile-friendly websites increase the domain authority of a website is that Google and other search engines favour mobile-friendly websites. This automatically helps the website to appear first in the search engine list and increases traffic.</p><ul><li><strong>Content Promotion</strong></li></ul><p>The content that’s not promoted right is of no value and does not affect the domain authority of any website. You must focus on promoting your content using social media platforms, choosing the right platform for content and promoting it in the right way to bring more viewers increasing the site’s credibility.</p><p>Want to <strong>increase the domain authority</strong> of your website and make your website more functional yet attractive? Follow the above steps and see the results.</p>",
+      "meta_title": "Proven Steps to Increase Domain Authority of a Website",
+      "meta_keywords": "domain authority, better domain authority, increase domain authority",
+      "meta_description": "Boost your domain authority with these effective strategies. Learn the essential steps to enhance your site's SEO, credibility, and search engine rankings.",
+      "schema_jsonld": null,
+      "bdate": "2019-10-03T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-10-03T00:00:00.000Z",
+      "updatedAt": "2024-10-17T10:39:37.000Z",
+      "image_name": "steps-to-increase-domain-authority-of-a-website",
+      "image_alt": "Steps to Increase Domain Authority of a Website",
+      "banner_background_color": null,
+      "banner_text_color": null,
+      "banner_title": null,
+      "banner_image": null,
+      "action_title": null,
+      "action_btn_1_text": null,
+      "action_btn_1_link": null,
+      "action_btn_2_text": null,
+      "action_btn_2_link": null,
+      "action_subtitle_1": null,
+      "action_description_1": null,
+      "action_subtitle_2": null,
+      "action_description_2": null,
+      "author_id": 7
+    }
+  ],
+  "blog_sections": [],
+  "blog_faqs": []
+}

@@ -1,0 +1,68 @@
+{
+  "blog": [
+    {
+      "id": 60,
+      "category_id": 18,
+      "name": "What Is Responsive Design and Why My Website Need It",
+      "slug": "what-is-responsive-design-and-why-my-website-need-it",
+      "image": "uploads/blog/what-is-responsive-design-and-why-my-website-need-it.jpg",
+      "description": "<p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It suggests that the design and development of a website should be done according to the user’s convenience. <a href=\"/responsive-website-designing-services\">Responsive designing</a> means that your business website is functional for all devices whether it’s a small smartphone or a big desktop.</p><p>Implementing responsive design includes using images, mixing layouts and themes and proper use of <a href=\"/cms-website-design-development-services\">CMS (Content Management System)</a> and CSS media queries. A website must have the ability to work on all devices without any lag speed or more loading time. As the user switches from one device to another, your website should automatically adjust the resolution, image size and scripting.</p><p>A responsive website is not only about images and scripting it is a whole new way of improving your website and gaining more customers for you.</p><h3>Here are some of the reasons why your website needs to have a responsive web design</h3><ul><li><strong>Upgrades your website look</strong></li></ul><p>Responsive designing includes images and visuals that make your website fantastic. It gives an appealing look to your site that helps to gain more customers and upgrades your business.</p><ul><li><strong>Bestow excellent user experience</strong></li></ul><p>You can provide the most excellent user experience using responsive design. Most large companies use Responsive designing as their necessary tool to design develop and provide the best user experience to their end users. A website with having responsive design never takes much longer time to load and never disappoints the customers. A better UX encourages your customers to trust your brand and develop your business scale. This is the most important reason your website needs responsive design.</p><ul><li><strong>Depletes maintenance cost-</strong></li></ul><p>If your website design is not effective, it will never gain much audience. When you hire any <a href=\"/professional-website-designing-services\">website design company</a> they charge you for both mobile designing and desktop designing and it can take quite more money than you expect. So, responsive designing is the best option as it reduces the separate charges and you can easily access your website on both devices spending less money.</p><ul><li><strong>Reach more people</strong></li></ul><p>Using responsive designing you can reach a greater audience. This is also helpful as responsive sites are visible even to viewers who cannot afford to buy a huge desktop or a personal computer. This helps to increase traffic and your website will get a higher ranking in search engines.</p>",
+      "meta_title": "What is Responsive Design and Why Your Website Needs It",
+      "meta_keywords": "responsive web design, responsive designing, website design company",
+      "meta_description": "Understand the importance of responsive design and why it is essential for your website. Learn how responsive design improves user experience and performance.",
+      "schema_jsonld": "{\r\n\"@context\": \"https://schema.org\",\r\n\"@graph\": [\r\n{\r\n\"@type\": \"BlogPosting\",\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#article\",\r\n\"mainEntityOfPage\": {\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#webpage\"\r\n},\r\n\"headline\": \"What is Responsive Design and Why My Website Need It?\",\r\n\"description\": \"Learn what responsive web design is and why every business website needs a mobile-friendly responsive layout. Discover the SEO, usability, conversion, and performance benefits of responsive website design.\",\r\n\"image\": \"https://www.sibinfotech.com/assets/images/blog/what-is-responsive-design-and-why-my-website-need-it.jpg\",\r\n\"author\": {\r\n\"@type\": \"Person\",\r\n\"name\": \"SIB Infotech Editorial Team\",\r\n\"url\": \"https://www.sibinfotech.com\"\r\n},\r\n\"publisher\": {\r\n\"@type\": \"Organization\",\r\n\"name\": \"SIB Infotech\",\r\n\"logo\": {\r\n\"@type\": \"ImageObject\",\r\n\"url\": \"https://www.sibinfotech.com/assets/images/logo.webp\"\r\n}\r\n},\r\n\"datePublished\": \"2019-08-20\",\r\n\"dateModified\": \"2019-08-20\",\r\n\"articleSection\": \"Web Design\",\r\n\"keywords\": [\r\n\"responsive web design\",\r\n\"responsive website\",\r\n\"mobile friendly website\",\r\n\"responsive website design benefits\",\r\n\"website responsiveness\",\r\n\"SEO responsive design\",\r\n\"mobile responsive web development\"\r\n],\r\n\"about\": {\r\n\"@type\": \"Thing\",\r\n\"name\": \"Responsive Website Design\"\r\n},\r\n\"mentions\": [\r\n{\r\n\"@type\": \"Thing\",\r\n\"name\": \"Mobile-Friendly Website\"\r\n},\r\n{\r\n\"@type\": \"Thing\",\r\n\"name\": \"SEO\"\r\n},\r\n{\r\n\"@type\": \"Thing\",\r\n\"name\": \"User Experience\"\r\n}\r\n],\r\n\"articleBody\": \"This blog explains responsive web design and why it is important for modern websites. It discusses how responsive websites improve mobile usability, user experience, SEO rankings, conversions, loading speed, and accessibility across different devices including smartphones, tablets, and desktops.\",\r\n\"wordCount\": \"900\",\r\n\"url\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it\",\r\n\"inLanguage\": \"en\"\r\n},\r\n{\r\n\"@type\": \"WebPage\",\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#webpage\",\r\n\"url\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it\",\r\n\"name\": \"What is Responsive Design and Why My Website Need It? | SIB Infotech Blog\",\r\n\"breadcrumb\": {\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#breadcrumb\"\r\n},\r\n\"mainEntity\": {\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#article\"\r\n},\r\n\"inLanguage\": \"en\"\r\n},\r\n{\r\n\"@type\": \"BreadcrumbList\",\r\n\"@id\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it#breadcrumb\",\r\n\"itemListElement\": [\r\n{\r\n\"@type\": \"ListItem\",\r\n\"position\": 1,\r\n\"name\": \"Home\",\r\n\"item\": \"https://www.sibinfotech.com\"\r\n},\r\n{\r\n\"@type\": \"ListItem\",\r\n\"position\": 2,\r\n\"name\": \"Blog\",\r\n\"item\": \"https://www.sibinfotech.com/blog\"\r\n},\r\n{\r\n\"@type\": \"ListItem\",\r\n\"position\": 3,\r\n\"name\": \"What is Responsive Design and Why My Website Need It?\",\r\n\"item\": \"https://www.sibinfotech.com/blog/what-is-responsive-design-and-why-my-website-need-it\"\r\n}\r\n]\r\n}\r\n]\r\n}\r\n",
+      "bdate": "2019-09-28T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-09-28T00:00:00.000Z",
+      "updatedAt": "2026-05-28T08:57:06.000Z",
+      "image_name": "what-is-responsive-design-and-why-my-website-need-it",
+      "image_alt": "What Is Responsive Design and Why My Website Need It",
+      "banner_background_color": "#ffffff",
+      "banner_text_color": "#000000",
+      "banner_title": "",
+      "banner_image": null,
+      "action_title": "",
+      "action_btn_1_text": "",
+      "action_btn_1_link": "",
+      "action_btn_2_text": "",
+      "action_btn_2_link": "",
+      "action_subtitle_1": "",
+      "action_description_1": "",
+      "action_subtitle_2": "",
+      "action_description_2": "",
+      "author_id": 7
+    }
+  ],
+  "blog_sections": [
+    {
+      "id": 4672,
+      "blog_id": 60,
+      "title": "",
+      "media": null,
+      "media_type": "none",
+      "description": "",
+      "section_bg_color": "",
+      "section_border_color": "",
+      "grey_quote": "",
+      "grey_quote_bg_color": "",
+      "grey_quote_border_color": "",
+      "order": 0,
+      "publish": 1,
+      "createdAt": "2026-05-28T08:57:06.000Z",
+      "updatedAt": "2026-05-28T08:57:06.000Z",
+      "section_link_title": ""
+    }
+  ],
+  "blog_faqs": [
+    {
+      "id": 2362,
+      "blog_id": 60,
+      "question": "",
+      "answer": "",
+      "order": 0,
+      "publish": 1,
+      "createdAt": "2026-05-28T08:57:06.000Z",
+      "updatedAt": "2026-05-28T08:57:06.000Z"
+    }
+  ]
+}
