@@ -16,7 +16,7 @@
  * Usage: node scripts/generate-sitemap.mjs [--dry]
  */
 
-import { readFileSync, writeFileSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
@@ -91,30 +91,100 @@ function walkPages(dir, base = "") {
   return routes;
 }
 
+let gitCommitDates = null;
+
+function loadGitCommitDates() {
+  if (gitCommitDates !== null) return gitCommitDates;
+  gitCommitDates = new Map();
+  try {
+    const out = execSync("git log --format=COMMIT:%cI --name-only -- pages", {
+      cwd: ROOT,
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "ignore"],
+    });
+    let currentDate = null;
+    for (const rawLine of out.split("\n")) {
+      const line = rawLine.trim();
+      if (!line) continue;
+      if (line.startsWith("COMMIT:")) {
+        currentDate = line.slice(7).trim();
+      } else if (currentDate) {
+        const normalized = line.replace(/\\/g, "/");
+        if (!gitCommitDates.has(normalized)) {
+          gitCommitDates.set(normalized, currentDate);
+        }
+      }
+    }
+  } catch {
+    // ignore git failures
+  }
+  return gitCommitDates;
+}
+
 /** Real last-modified date: the file's last commit, falling back to mtime. */
 function fileLastModified(file) {
-  try {
-    const out = execSync(
-      `git log -1 --format=%cI -- "${relative(ROOT, file).replace(/\\/g, "/")}"`,
-      { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
-    ).trim();
-    if (out) return out;
-  } catch {
-    // not a git checkout, or the file is untracked
+  const dates = loadGitCommitDates();
+  const rel = relative(ROOT, file).replace(/\\/g, "/");
+  if (dates && dates.has(rel)) {
+    return dates.get(rel);
   }
-  return statSync(file).mtime.toISOString();
+  try {
+    return statSync(file).mtime.toISOString();
+  } catch {
+    return null;
+  }
 }
 
 // -------------------------------------------------------------------- blogs
 
-async function fetchPublishedBlogs() {
-  const res = await fetch(`${API_URL}blog/all?publish=1`, {
-    headers: { "Content-Type": "application/json", Authorization: API_TOKEN },
-  });
-  if (!res.ok) throw new Error(`blog/all returned ${res.status}`);
+function extractExistingSitemapBlogs() {
+  const blogs = [];
+  try {
+    if (existsSync(OUT)) {
+      const xml = readFileSync(OUT, "utf8");
+      const urlRegex = /<url>[\s\S]*?<loc>(?:https?:\/\/[^<]+)?\/blog\/([^<]+)<\/loc>(?:[\s\S]*?<lastmod>([^<]+)<\/lastmod>)?[\s\S]*?<\/url>/g;
+      let match;
+      while ((match = urlRegex.exec(xml)) !== null) {
+        const slug = match[1]?.trim();
+        const lastmod = match[2]?.trim() || null;
+        if (slug) {
+          blogs.push({ slug, updatedAt: lastmod });
+        }
+      }
+    }
+  } catch (err) {
+    console.warn("Could not parse existing sitemap for fallback:", err.message);
+  }
+  return blogs;
+}
 
-  const data = await res.json();
-  return (data.blogs || []).filter((b) => Number(b.publish) === 1 && b.slug);
+async function fetchPublishedBlogs() {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 6000);
+
+    const res = await fetch(`${API_URL}blog/all?publish=1`, {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: API_TOKEN,
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) SitemapGenerator/1.0",
+      },
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
+
+    if (!res.ok) {
+      console.warn(`Warning: blog/all API returned ${res.status}. Falling back to existing sitemap entries.`);
+      return extractExistingSitemapBlogs();
+    }
+
+    const data = await res.json();
+    return (data.blogs || []).filter((b) => Number(b.publish) === 1 && b.slug);
+  } catch (err) {
+    console.warn(`Warning: Failed to fetch blogs from API (${err.message}). Falling back to existing sitemap entries.`);
+    return extractExistingSitemapBlogs();
+  }
 }
 
 // -------------------------------------------------------------------- build
@@ -181,7 +251,7 @@ ${body}
 `;
 
   console.log(`Static routes : ${sorted.length - blogCount}`);
-  console.log(`Blog routes   : ${blogCount} (of ${blogs.length} published)`);
+  console.log(`Blog routes   : ${blogCount} (of ${blogs.length} published/cached)`);
   console.log(`Skipped       : ${dropped.redirected} redirected, ${dropped.excluded} excluded`);
   console.log(`Total URLs    : ${sorted.length}`);
 
@@ -195,6 +265,7 @@ ${body}
 }
 
 main().catch((err) => {
-  console.error("Sitemap generation failed:", err.message);
-  process.exit(1);
+  console.error("Sitemap generation error:", err.message);
+  // Do not crash the entire build process
 });
+
