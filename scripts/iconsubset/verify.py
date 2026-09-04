@@ -34,7 +34,7 @@ def cmap_of(path):
 
 
 def main():
-    used_fa, used_bi = collect.scan_source()
+    used_fa, used_bi, direct_fa, direct_bi = collect.scan_source()
     all_cp = collect.codepoints(collect.FA_CSS_DIR + "all.min.css")
     brands = set(collect.codepoints(collect.FA_CSS_DIR + "brands.min.css"))
     bi_cp = collect.codepoints(collect.BI_CSS, collect.BI_RULE_RE, collect.BI_NAME_RE)
@@ -61,7 +61,12 @@ def main():
         if int(cp, 16) not in have["bi"]:
             missing.append("%s (bootstrap, U+%s)" % (name, cp))
 
-    total = len(used_fa) + len(used_bi)
+    all_bi_cps = set(c.lower() for c in bi_cp.values())
+    for cp in direct_bi:
+        if cp in all_bi_cps and int(cp, 16) not in have["bi"]:
+            missing.append("CSS direct Bootstrap icon (U+%s)" % cp)
+
+    total = len(used_fa) + len(used_bi) + len(direct_bi)
     print("icon classes found in source : %d" % total)
     print("  resolved and present       : %d" % (total - len(missing) - len(not_an_icon)))
     print("  not real icons (ignored)   : %d" % len(not_an_icon))
