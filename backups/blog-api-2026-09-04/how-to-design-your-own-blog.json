@@ -1,0 +1,68 @@
+{
+  "blog": [
+    {
+      "id": 53,
+      "category_id": 18,
+      "name": "How to Design Your Own Blog",
+      "slug": "how-to-design-your-own-blog",
+      "image": "uploads/blog/how-to-design-your-own-blog.jpg",
+      "description": "<p>Blogging has expanded its wings so fast and is now considered by almost all individuals and businesses. It has come a long way and is used as a platform for the growth of many small and larger businesses. It is used by millions and millions of people to share their experiences and thoughts, sell business and many more.</p><p>Blogging increases the connectivity among people and it makes the viewers understand what you want to portray. Through blogs, you can also share your business ideas, which helps to gain more customers and the most important profit that blogging provides business companies is SEO. Blogging improves your website’s SEO and helps your website get more attention from the viewers. This increases your website’s ranking among others and increases the credibility of your website. Above mentioned are all the answers to ‘Why do you need a blog’?</p><p>Designing a blog is yet another concern for bloggers, an unattractive blog automatically disinterests the viewers. If your blog is not designed according to your content it is not worthy. If your blog is visually unattractive you have already disappointed the audience. Blogging is useful when your blog is both attractive and has unique and excellent content. If your blog is not engaging the required audience, you can go for designing your blog that will attract more audience.</p><p>You can make your blog appearance according to your needs. Design and customize your blog to get the best results, make sure your content is always strong and you are designing your blog relevant to your content. Some of the points you mostly need to focus on while designing a blog are-</p><ul><li><strong>Adding the right colours and spaces</strong></li></ul><p>Adding background colors to your blog, and also relevant text colors gives your blog a nice look that can compel the viewers to read more. Just like colouring, proper spacing between texts is also important. You must space between texts so that the content is readable to the viewers. You must focus on the size and fonts, and use fonts that are unique as well as easily readable.</p><ul><li><strong>Real images</strong></li></ul><p>You can design your blog to the core but without images, it’s still lifeless. Adding quality images brings enhancement to your content and can attract more people, as everybody likes images more than lengthy text. Images bring life to your blog, you can easily save the redesigning efforts using images.</p><ul><li><strong>Adding flare</strong></li></ul><p>Flares are something that blinks or flashes when you open a blog site. They are generally used for gaining viewer’s attention and are placed at the sidebar of the blog.</p><ul><li><strong>Header</strong></li></ul><p>The header is the top portion of any blog site that defines the motive of the site. It contains the name of the blog and the title describes the content of the blog. The header also helps your visitors find their way around and provides them with quick links to special areas that you want highlighted on your site. On many blogs, the logo is also contained in the header. You should use bold colours for a header that makes the blog look more interesting.</p><ul><li><strong>Footer</strong></li></ul><p>Footers are placed at the bottom of blogs and generally describe some copyright message. You must check for the alignment of the footer correctly while designing your blog site.</p><p>These are some of the tips you can use while designing your blog</p>",
+      "meta_title": "How to Design Your Own Blog: A Step-by-Step Guide",
+      "meta_keywords": "how to design your own blog, blog designing, design your own blog",
+      "meta_description": "Learn how to design your own blog with a comprehensive step-by-step guide. We provide essential tips for customizing your layout for creating an engaging blog.",
+      "schema_jsonld": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@graph\": [\r\n    {\r\n      \"@type\": \"BlogPosting\",\r\n      \"@id\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog#article\",\r\n      \"headline\": \"How to Design Your Own Blog\",\r\n      \"url\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog\",\r\n      \"description\": \"A step-by-step guide on how to design your own blog from scratch — covering layout, typography, color, and user experience best practices.\",\r\n      \"datePublished\": \"2020-04-17\",\r\n      \"dateModified\": \"2024-01-10\",\r\n      \"author\": {\r\n        \"@type\": \"Organization\",\r\n        \"name\": \"SIB Infotech\",\r\n        \"url\": \"https://www.sibinfotech.com\"\r\n      },\r\n      \"publisher\": {\r\n        \"@type\": \"Organization\",\r\n        \"name\": \"SIB Infotech\",\r\n        \"logo\": {\r\n          \"@type\": \"ImageObject\",\r\n          \"url\": \"https://www.sibinfotech.com/assets/images/logo.webp\",\r\n          \"width\": 300,\r\n          \"height\": 60\r\n        }\r\n      },\r\n      \"mainEntityOfPage\": {\r\n        \"@id\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog#webpage\"\r\n      },\r\n      \"inLanguage\": \"en-IN\"\r\n    },\r\n    {\r\n      \"@type\": \"WebPage\",\r\n      \"@id\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog#webpage\",\r\n      \"url\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog\",\r\n      \"name\": \"How to Design Your Own Blog | SIB Infotech Blog\",\r\n      \"isPartOf\": {\r\n        \"@id\": \"https://www.sibinfotech.com/#website\"\r\n      },\r\n      \"breadcrumb\": {\r\n        \"@id\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog#breadcrumb\"\r\n      }\r\n    },\r\n    {\r\n      \"@type\": \"WebSite\",\r\n      \"@id\": \"https://www.sibinfotech.com/#website\",\r\n      \"url\": \"https://www.sibinfotech.com\",\r\n      \"name\": \"SIB Infotech\",\r\n      \"publisher\": {\r\n        \"@id\": \"https://www.sibinfotech.com/#organization\"\r\n      }\r\n    },\r\n    {\r\n      \"@type\": \"Organization\",\r\n      \"@id\": \"https://www.sibinfotech.com/#organization\",\r\n      \"name\": \"SIB Infotech\",\r\n      \"url\": \"https://www.sibinfotech.com\",\r\n      \"logo\": {\r\n        \"@type\": \"ImageObject\",\r\n        \"url\": \"https://www.sibinfotech.com/assets/images/logo.webp\"\r\n      },\r\n      \"telephone\": \"+91-92222-60000\",\r\n      \"email\": \"info@sibinfotech.com\",\r\n      \"address\": {\r\n        \"@type\": \"PostalAddress\",\r\n        \"streetAddress\": \"107, Orbit Premises, Mindspace, Near Inorbit Mall, Malad West\",\r\n        \"addressLocality\": \"Mumbai\",\r\n        \"addressRegion\": \"Maharashtra\",\r\n        \"postalCode\": \"400064\",\r\n        \"addressCountry\": \"IN\"\r\n      },\r\n      \"aggregateRating\": {\r\n        \"@type\": \"AggregateRating\",\r\n        \"ratingValue\": \"4.8\",\r\n        \"reviewCount\": \"99\",\r\n        \"bestRating\": \"5\",\r\n        \"worstRating\": \"1\"\r\n      },\r\n      \"sameAs\": [\r\n        \"https://www.facebook.com/sibinfotech\",\r\n        \"https://www.linkedin.com/company/sibinfotech\",\r\n        \"https://twitter.com/sibinfotech\"\r\n      ]\r\n    },\r\n    {\r\n      \"@type\": \"BreadcrumbList\",\r\n      \"@id\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog#breadcrumb\",\r\n      \"itemListElement\": [\r\n        {\r\n          \"@type\": \"ListItem\",\r\n          \"position\": 1,\r\n          \"name\": \"Home\",\r\n          \"item\": \"https://www.sibinfotech.com\"\r\n        },\r\n        {\r\n          \"@type\": \"ListItem\",\r\n          \"position\": 2,\r\n          \"name\": \"Blog\",\r\n          \"item\": \"https://www.sibinfotech.com/blog\"\r\n        },\r\n        {\r\n          \"@type\": \"ListItem\",\r\n          \"position\": 3,\r\n          \"name\": \"How to Design Your Own Blog\",\r\n          \"item\": \"https://www.sibinfotech.com/blog/how-to-design-your-own-blog\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n</script>",
+      "bdate": "2019-09-26T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-09-26T00:00:00.000Z",
+      "updatedAt": "2026-05-05T12:14:20.000Z",
+      "image_name": "how-to-design-your-own-blog",
+      "image_alt": "How to Design Your Own Blog",
+      "banner_background_color": "#ffffff",
+      "banner_text_color": "#000000",
+      "banner_title": "",
+      "banner_image": null,
+      "action_title": "",
+      "action_btn_1_text": "",
+      "action_btn_1_link": "",
+      "action_btn_2_text": "",
+      "action_btn_2_link": "",
+      "action_subtitle_1": "",
+      "action_description_1": "",
+      "action_subtitle_2": "",
+      "action_description_2": "",
+      "author_id": 7
+    }
+  ],
+  "blog_sections": [
+    {
+      "id": 4062,
+      "blog_id": 53,
+      "title": "",
+      "media": null,
+      "media_type": "none",
+      "description": "",
+      "section_bg_color": "",
+      "section_border_color": "",
+      "grey_quote": "",
+      "grey_quote_bg_color": "",
+      "grey_quote_border_color": "",
+      "order": 0,
+      "publish": 1,
+      "createdAt": "2026-05-05T12:14:20.000Z",
+      "updatedAt": "2026-05-05T12:14:20.000Z",
+      "section_link_title": ""
+    }
+  ],
+  "blog_faqs": [
+    {
+      "id": 1484,
+      "blog_id": 53,
+      "question": "",
+      "answer": "",
+      "order": 0,
+      "publish": 1,
+      "createdAt": "2026-05-05T12:14:20.000Z",
+      "updatedAt": "2026-05-05T12:14:20.000Z"
+    }
+  ]
+}

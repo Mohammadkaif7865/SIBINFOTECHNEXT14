@@ -1,0 +1,38 @@
+{
+  "blog": [
+    {
+      "id": 8,
+      "category_id": 18,
+      "name": "Things to consider before redesigning your website",
+      "slug": "things-to-consider-before-redesigning-your-website",
+      "image": "uploads/blog/things-to-consider-before-redesigning-your-website.jpg",
+      "description": "<p>Website redesigning is the process of making a website more efficient and customizing the website to give a better user experience. Web design improves your business, shows your business credibility, and develops leads.</p><p>Before <a href=\"/website-redesigning-services\">redesigning a website</a> you need to check and make a list of things that are hindrances to the development of your website. Here are some of the major steps that make your business website more successful.</p><h3><strong>Five things to consider before redesigning a website</strong></h3><ul><li><strong>Site requirement</strong></li></ul><p>You must focus on the features and necessities of your site. Focusing on what your site requires like online shop capability, membership requirements and provider options can make your site more reachable to your audience and they can interact more about the products you offer them.</p><ul><li><strong>Generating leads</strong></li></ul><p>Creating or redesigning a website not only means to just show off your business it also means to attract the customers to buy your products. Your business website should focus on how to generate leads and how to get more audiences. You should continuously try to drive more traffic by organizing new schemes, providing the best deals, more offers etc to gain more audience attention and participation.</p><ul><li><strong>Examining current website</strong></li></ul><p>&nbsp;Before you think about redesigning your website think about where you rank in the competition. You should investigate the current topics that are highlighted on search engines, what are the pages preferred by the audience, and what keywords are used. After examining you must note down all these points and then check what is lacking in your website that can be erased and re-developed for better functionality.</p><ul><li><strong>Recreate content</strong></li></ul><p>&nbsp;Without unique and understandable content your website is useless. Pretty pictures and colorful graphics do not attract an audience but content surely does. Redesigning a website always works but it may fail if you forget to rewrite or update your content. Your website should contain content that talks more about the users, their preferences, their needs and all they want.&nbsp;</p><ul><li><strong>Review brand guidelines and taglines</strong></li></ul><p>Before redesigning a website you must check your website’s brand guidelines and style so that you can design accordingly. Having a clear picture of your brand will help you write more clearly about its functions and importance. You should not use irrelevant taglines for your brand, it may end up bringing users into a conundrum whether to buy it or not.</p><p><strong>Learn More:</strong> <a href=\"/blog/when-to-redesign-your-website\">When to Redesign Your Website</a></p><p>It is a compulsion to know what your website lacks to get what you want. Redesigning can help to improve the position of your website in the digital stage generating more and potential leads for you.</p>",
+      "meta_title": "Essential Tips to Consider Before Redesigning Your Website",
+      "meta_keywords": "redesigning your website, website redesigning, redesigning a website",
+      "meta_description": "Are you planning a website redesign? Explore key factors before starting your project, from SEO impact to user experience, to ensure a successful website.",
+      "schema_jsonld": null,
+      "bdate": "2019-06-09T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-06-09T00:00:00.000Z",
+      "updatedAt": "2024-10-17T11:02:42.000Z",
+      "image_name": "things-to-consider-before-redesigning-your-website",
+      "image_alt": "Things to consider before redesigning your website",
+      "banner_background_color": null,
+      "banner_text_color": null,
+      "banner_title": null,
+      "banner_image": null,
+      "action_title": null,
+      "action_btn_1_text": null,
+      "action_btn_1_link": null,
+      "action_btn_2_text": null,
+      "action_btn_2_link": null,
+      "action_subtitle_1": null,
+      "action_description_1": null,
+      "action_subtitle_2": null,
+      "action_description_2": null,
+      "author_id": 5
+    }
+  ],
+  "blog_sections": [],
+  "blog_faqs": []
+}

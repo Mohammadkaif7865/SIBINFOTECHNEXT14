@@ -1,0 +1,38 @@
+{
+  "blog": [
+    {
+      "id": 21,
+      "category_id": 4,
+      "name": "Ways to make your website-s landing page a conversion machine",
+      "slug": "ways-to-make-your-website-s-landing-page-a-conversion-machine",
+      "image": "uploads/blog/ways-to-make-your-website-s-landing-page-a-conversion-machine.jpg",
+      "description": "<p>In online marketing a landing page also known by various names like ‘static page’ or ‘destination page’ or ‘lead capture page’ is a web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement. They are a very powerful tool for marketers to carry out their promotional activities. It is found that the web businesses that use landing pages have much greater conversion rates as compared to those that don’t. Making a good landing page is as important as conducting a good marketing strategy or any other technique that helps in improving your business.</p><p>But the question is what decides how good your website’s landing page is? What makes an ideal landing page? What could you do to have maximum conversion-generating landing pages? Here are some of the ideas and best practices to make a landing page that brings most conversions-</p><ul><li><strong>Powerful content</strong></li></ul><p>Your website’s landing page speaks a lot, so make sure you start with a strong headline that can make every viewer stay as soon as they visit. You must keep in mind the content that you are providing should be subject-oriented and there should be no twists and turns, it should be easy and on point. Do not provide links to other pages and do not distract your audience, make it easy and avoid jargon, and try to be formal and informative at the same time so that the visitors feel alike and can interact and take action on your page.</p><ul><li><strong>Page design and layout</strong></li></ul><p>The aim is to design a page that looks simple and fulfils the requirements at the same time. You need to have a clean design that is unique, simple and carries on the action required. Connect the design of the landing page to the email or ad visitors clicked through so the reader feels she is in the right place.</p><p>You must use a format that’s in trend like a letter format or scrolling one that keeps the users engaged, the users keep on scrolling down unless they reach the call to action button and provide a result. You must focus on making a landing page that can help you obtain what you want.</p><ul><li><strong>Personal information</strong></li></ul><p>Asking for the user’s personal information is mandatory but you need to understand to what extent you can invite users to provide their personal information. The more information you ask for, the less the chances for conversion. Generally, people don’t like to give more info about them and that is what you should consider while making a space for personal information. You should generally keep it to asking email or more of it to contact no. Asking more questions makes the users lose interest in you and they soon leave your page.</p><p>So be compact while asking personal information of the users, this will help your site with safer visits and more leads guaranteed.</p><ul><li><strong>Call to Action</strong></li></ul><p>You have to make sure that the only purpose of your landing page is to get more visitors and make them stay while taking action on your site. Ask your readers to sign up for the newsletters, buy a product, begin a subscription or share the information. This will assure your growth not now but later for sure, you will get some conversion today and some. Make sure to make it easy for the users to respond to your call to action and make an exact note of how you will make your page more effective and find more visits.</p>",
+      "meta_title": "Ways to Make Your Website’s Landing Page a Conversion Machine",
+      "meta_keywords": "good landing page, landing page optimization",
+      "meta_description": "Transform your landing page into a powerful conversion tool with expert tips. Learn strategies to optimize the design and calls to action to boost engagement.",
+      "schema_jsonld": null,
+      "bdate": "2019-10-14T00:00:00.000Z",
+      "publish": 1,
+      "createdAt": "2019-10-14T00:00:00.000Z",
+      "updatedAt": "2024-10-14T12:56:35.000Z",
+      "image_name": "ways-to-make-your-website-s-landing-page-a-conversion-machine",
+      "image_alt": "Ways to make your website-s landing page a conversion machine",
+      "banner_background_color": null,
+      "banner_text_color": null,
+      "banner_title": null,
+      "banner_image": null,
+      "action_title": null,
+      "action_btn_1_text": null,
+      "action_btn_1_link": null,
+      "action_btn_2_text": null,
+      "action_btn_2_link": null,
+      "action_subtitle_1": null,
+      "action_description_1": null,
+      "action_subtitle_2": null,
+      "action_description_2": null,
+      "author_id": 7
+    }
+  ],
+  "blog_sections": [],
+  "blog_faqs": []
+}
