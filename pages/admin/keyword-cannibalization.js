@@ -26,7 +26,6 @@ import {
   FaFileLines,
   FaArrowTrendUp,
   FaBolt,
-  FaSlidersH,
 } from "react-icons/fa6";
 
 const PRESET_EXAMPLES = [
