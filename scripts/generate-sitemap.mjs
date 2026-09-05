@@ -232,6 +232,29 @@ async function main() {
     blogCount++;
   }
 
+  // Include local published trendsDb articles
+  try {
+    const trendsFile = join(ROOT, "data", "trends", "articles.json");
+    if (existsSync(trendsFile)) {
+      const localArticles = JSON.parse(readFileSync(trendsFile, "utf8"));
+      for (const a of localArticles) {
+        if (a.status === "Published" && a.slug) {
+          const route = `/blog/${a.slug}`;
+          if (skip.has(route)) {
+            dropped.redirected++;
+            continue;
+          }
+          if (!entries.has(route)) {
+            blogCount++;
+          }
+          entries.set(route, isoOrNull(a.updatedAt) || isoOrNull(a.publishDate) || isoOrNull(a.createdAt));
+        }
+      }
+    }
+  } catch (err) {
+    console.warn("Could not load local trendsDb articles:", err.message);
+  }
+
   const sorted = [...entries.entries()].sort(([a], [b]) =>
     a === "/" ? -1 : b === "/" ? 1 : a.localeCompare(b),
   );

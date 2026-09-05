@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { format } from "date-fns";
 import axios from "axios";
@@ -7,6 +6,15 @@ import * as CONSTANTS from "../../constants/constants";
 import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
 import RelatedServices from "@/comps/RelatedServices";
+import { getArticleBySlug, listArticles } from "@/lib/trendsDb";
+
+function formatBlogImageUrl(imagePath) {
+  if (!imagePath) return "https://www.sibinfotech.com/assets/og/sib-infotech.webp";
+  if (imagePath.startsWith("http://") || imagePath.startsWith("https://") || imagePath.startsWith("/")) {
+    return imagePath;
+  }
+  return `${CONSTANTS.BACKEND_URL}${imagePath}`;
+}
 
 export async function getServerSideProps(context) {
   const { slug } = context.query;
@@ -18,49 +26,143 @@ export async function getServerSideProps(context) {
 
   const axiosOpts = { timeout: 8000 };
 
+  let blog = null;
+  let blogs = [];
+  let blogSections = [];
+  let blogFaqs = [];
+  let author = null;
+
   try {
-    const [resBlog, resBlogs] = await Promise.all([
+    const [resBlog, resBlogs] = await Promise.allSettled([
       axios.get(`${CONSTANTS.API_URL}blog/single/${slug}?slug=1`, { headers, ...axiosOpts }),
       axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, { headers, ...axiosOpts }),
     ]);
 
-    const blog = resBlog.data?.blog;
-    const blogs = resBlogs.data?.blogs;
-    const blogSections = resBlog.data?.blog_sections;
-    const blogFaqs = resBlog.data?.blog_faqs;
-
-    if (!blog || !Array.isArray(blog) || blog.length === 0) {
-      return { notFound: true };
+    if (resBlog.status === "fulfilled" && resBlog.value.data?.blog?.length > 0) {
+      blog = resBlog.value.data.blog;
+      blogSections = resBlog.value.data.blog_sections || [];
+      blogFaqs = resBlog.value.data.blog_faqs || [];
     }
 
-    let author = null;
-    if (blog[0]?.author_id) {
-      try {
-        const resAuthor = await axios.get(
-          `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
-          { headers, ...axiosOpts },
-        );
-        author = resAuthor.data?.author || null;
-      } catch {
-        author = null;
-      }
+    if (resBlogs.status === "fulfilled" && resBlogs.value.data?.blogs) {
+      blogs = resBlogs.value.data.blogs || [];
     }
-
-    return {
-      props: {
-        blog,
-        blogs: blogs || [],
-        blogSections: blogSections || [],
-        blogFaqs: blogFaqs || [],
-        author,
-      },
-    };
   } catch (error) {
-    console.error("Error fetching data:", error);
-    return {
-      notFound: true,
+    console.error("Error fetching remote blog data:", error);
+  }
+
+  // Load published articles from trendsDb
+  let localTrendsAsBlogs = [];
+  let localArticle = null;
+  try {
+    localArticle = getArticleBySlug(slug);
+    const publishedTrends = listArticles({ status: "Published" });
+    localTrendsAsBlogs = (publishedTrends?.items || []).map((a) => ({
+      id: a.id,
+      name: a.title,
+      slug: a.slug,
+      description: a.excerpt || a.metaDescription,
+      image: a.featuredImage || "/assets/og/sib-infotech.webp",
+      image_alt: a.featuredImageAlt || a.title,
+      bdate: a.publishDate || a.createdAt,
+      createdAt: a.createdAt,
+      category_id: null,
+      category_name: a.category || "Digital Marketing",
+    }));
+  } catch (err) {
+    console.error("Error loading local trendsDb:", err);
+  }
+
+  // Combine and deduplicate blogs for recent sidebar
+  const allBlogsMap = new Map();
+  localTrendsAsBlogs.forEach((b) => allBlogsMap.set(b.slug, b));
+  (blogs || []).forEach((b) => {
+    if (!allBlogsMap.has(b.slug)) {
+      allBlogsMap.set(b.slug, b);
+    }
+  });
+  blogs = Array.from(allBlogsMap.values()).sort((a, b) => {
+    const dateA = new Date(a.bdate || a.createdAt || 0).getTime();
+    const dateB = new Date(b.bdate || b.createdAt || 0).getTime();
+    return dateB - dateA;
+  });
+
+  // If blog wasn't found in remote API, render from local trendsDb
+  if (!blog && localArticle && localArticle.status === "Published") {
+    blog = [
+      {
+        id: localArticle.id,
+        name: localArticle.title,
+        slug: localArticle.slug,
+        description: localArticle.html,
+        meta_title: localArticle.seoTitle || localArticle.title,
+        meta_description: localArticle.metaDescription || localArticle.excerpt,
+        meta_keywords: [
+          localArticle.primaryKeyword,
+          ...(localArticle.secondaryKeywords || []),
+        ]
+          .filter(Boolean)
+          .join(", "),
+        bdate: localArticle.publishDate || localArticle.createdAt,
+        createdAt: localArticle.createdAt,
+        updatedAt: localArticle.updatedAt,
+        image: localArticle.featuredImage || "/assets/og/sib-infotech.webp",
+        image_alt: localArticle.featuredImageAlt || localArticle.title,
+        category_id: null,
+        category_name: localArticle.category || "Digital Marketing",
+        author_id: null,
+        schema_jsonld: localArticle.schemaJsonLd || null,
+        banner_background_color: null,
+        banner_text_color: null,
+      },
+    ];
+
+    blogFaqs = (localArticle.faqs || []).map((f, i) => ({
+      id: i + 1,
+      question: f.question,
+      answer: f.answer,
+    }));
+
+    let authorBio = "<p>Radhey Shyam is the Co-Founder of SIB Infotech and spearheads content outreach and digital visibility strategies. With deep expertise in SEO, link building, and audience engagement, Radhey plays a key role in aligning content with both user intent and ranking goals.</p>";
+    if (localArticle.author === "SIB Infotech Editorial") {
+      authorBio = "<p>SIB Infotech Editorial Team delivers industry-leading insights on SEO, PPC, GEO, AI Search, and Digital Marketing strategies.</p>";
+    } else if (localArticle.author && localArticle.author !== "Radhey Shyam") {
+      authorBio = localArticle.authorBio || `<p>${localArticle.author} is a content strategist at SIB Infotech specializing in organic visibility, AI search optimization, and search marketing.</p>`;
+    }
+
+    author = {
+      name: localArticle.author || "Radhey Shyam",
+      image: "uploads/author/author_1752648487492.jpg",
+      description: authorBio,
     };
   }
+
+  if (!blog || !Array.isArray(blog) || blog.length === 0) {
+    return { notFound: true };
+  }
+
+  // If author exists on remote API
+  if (blog[0]?.author_id && !author) {
+    try {
+      const resAuthor = await axios.get(
+        `${CONSTANTS.API_URL}author/single/${blog[0].author_id}`,
+        { headers, ...axiosOpts },
+      );
+      author = resAuthor.data?.author || null;
+    } catch {
+      author = null;
+    }
+  }
+
+  return {
+    props: {
+      blog,
+      blogs: blogs || [],
+      blogSections: blogSections || [],
+      blogFaqs: blogFaqs || [],
+      author,
+    },
+  };
 }
 
 const BLOG_META_OVERRIDES = {
@@ -445,7 +547,12 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             />
             <meta
               property="og:image"
-              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+              content={formatBlogImageUrl(blog[0].image)}
+            />
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta
+              property="og:image"
+              content={formatBlogImageUrl(blog[0].image)}
             />
             <meta property="twitter:card" content="summary_large_image" />
             <meta
@@ -459,7 +566,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             />
             <meta
               property="twitter:image"
-              content={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
+              content={formatBlogImageUrl(blog[0].image)}
             />
             {blog[0]?.schema_jsonld ? (
               <script
@@ -529,27 +636,8 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       <h1 className="regular_heading fontHeading fontWeight600">
                         {blog[0].name}
                       </h1>
-                      {/* <div className="inlineAdded">
-        <ul>
-          <li><i className="fa fa-user-circle"></i> by Webdesk</li>
-        </ul>
-      </div> */}
                     </div>
                   </div>
-
-                  {/* {blog[0]?.banner_image &&
-                    blog[0].banner_image !== "null" &&
-                    blog[0].banner_image.trim() !== "" && (
-                      <div className="col-lg-5">
-                        <div className="singleBlogLeftImg">
-                          <img
-                            src={`${CONSTANTS.BACKEND_URL + blog[0].banner_image}`}
-                            alt={blog[0].image_alt}
-                            className="img-fluid br-5"
-                          />
-                        </div>
-                      </div>
-                    )} */}
                 </div>
               </div>
             </div>
@@ -570,27 +658,27 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
           <section className="py-5">
             <div className="containerFull">
               <div className="row">
-                {/* Sidebar */}
-
                 {/* Main Content */}
                 <div className="col-lg-9 order-1 order-lg-2">
-                  {blog[0]?.image && (
-                    <div className="mb-3">
-                      <img
-                        src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-                        alt={blog[0].image_alt}
-                        className="img-fluid br-5"
-                      />
-                    </div>
-                  )}
+                  {blog[0]?.image &&
+                    !blog[0].image.includes("sib-infotech.webp") &&
+                    !blog[0].image.includes("/assets/og/") && (
+                      <div className="mb-3">
+                        <img
+                          src={formatBlogImageUrl(blog[0].image)}
+                          alt={blog[0].image_alt || blog[0].name}
+                          className="img-fluid br-5"
+                        />
+                      </div>
+                    )}
 
                   {author && (
-                    <div class="blog_section blog_section_shadow">
-                      <h2 class="blog_section_item">About The Author</h2>
+                    <div className="blog_section blog_section_shadow">
+                      <h2 className="blog_section_item">About The Author</h2>
                       <div className="blogAuthor">
                         <div className="authorImage">
                           <img
-                            src={`${CONSTANTS.BACKEND_URL + author.image}`}
+                            src={formatBlogImageUrl(author.image)}
                             alt={author.name}
                           />
                         </div>
@@ -616,7 +704,9 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   )}
 
                   {/* Cannibalization Interceptor CTA */}
-                  <BlogCtaInterceptor slug={postSlug} />{/* Blog Sections */}
+                  <BlogCtaInterceptor slug={postSlug} />
+
+                  {/* Blog Sections */}
                   {blogSections &&
                     blogSections.length > 0 &&
                     blogSections.some(
@@ -659,7 +749,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                                 {section.media_type === "image" &&
                                   section.media && (
                                     <img
-                                      src={`${CONSTANTS.BACKEND_URL + section.media}`}
+                                      src={formatBlogImageUrl(section.media)}
                                       alt=""
                                       className="img-fluid br-5 mb-3"
                                     />
@@ -785,32 +875,14 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     <div className="mt-5">
                       <h5 className="mb-3">Recent posts</h5>
 
-                      {/* Show current post first (if available) */}
-                      {blog && blog[0] && (
-                        <div className="inline_blog_card border-shadow mb-3">
-                          <Link href={'/blog/' + blog[0].slug}>
-                            <div className="img">
-                              <img
-                                src={`${CONSTANTS.BACKEND_URL + blog[0].image}`}
-                                alt={blog[0].image_alt}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <div className="content">
-                              <p className="title">{blog[0].name}</p>
-                            </div>
-                          </Link>
-                        </div>
-                      )}
-
+                      {/* Show other recent posts */}
                       {blogs &&
                         blogs
                           .filter(
                             (blogItem) =>
-                              blogItem.category_id === selectedcategory &&
                               !(blog && blog[0] && blogItem.slug === blog[0].slug),
                           )
-                          .slice(0, 9)
+                          .slice(0, 8)
                           .map((blogItem, index) => (
                             <div
                               key={index}
@@ -819,8 +891,8 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                               <Link href={'/blog/' + blogItem.slug}>
                                 <div className="img">
                                   <img
-                                    src={`${CONSTANTS.BACKEND_URL + blogItem.image}`}
-                                    alt={blogItem.image_alt}
+                                    src={formatBlogImageUrl(blogItem.image)}
+                                    alt={blogItem.image_alt || blogItem.name}
                                     className="img-fluid"
                                   />
                                 </div>

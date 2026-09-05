@@ -46,3 +46,7 @@ __pycache__/
 lighthouse-*.json
 *_audit_report.json
 
+# AI Trends & Content Publishing data store (local JSON "database")
+/data/trends/*.json
+/scratch/
+
