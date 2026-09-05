@@ -1,0 +1,26 @@
+{
+  "176": [
+    {"question": "What is this page?", "answer": "This is a placeholder test entry used during content setup and isn't intended as a published article for visitors."},
+    {"question": "Should this content be considered a real blog post?", "answer": "No — it exists as internal test content and should be reviewed for removal or replacement with genuine published material."},
+    {"question": "Why does this page appear in the blog listing?", "answer": "It likely remained published inadvertently after initial testing of the blog system's functionality."},
+    {"question": "Will this page be updated with real content?", "answer": "It should either be replaced with genuine content or unpublished, since it currently serves no reader value."},
+    {"question": "Does this page affect the overall website's SEO?", "answer": "Test or placeholder pages can dilute overall site quality signals and are generally best removed or unpublished."},
+    {"question": "Who should review this page for cleanup?", "answer": "The site's content or technical administrator should review and address this page as part of routine site maintenance."},
+    {"question": "Is this page indexed by search engines?", "answer": "It's possible this page is indexed, which is another reason to review whether it should remain publicly accessible."},
+    {"question": "What should replace this placeholder content?", "answer": "It should be replaced with genuine, relevant blog content or removed from the published blog listing entirely."},
+    {"question": "Does having test content live on a website look unprofessional?", "answer": "Yes — visible test content can undermine visitor trust and should be addressed as part of regular site quality maintenance."},
+    {"question": "How can this type of issue be prevented in the future?", "answer": "Establishing a clear review process before publishing, along with periodic audits, helps catch and remove test content promptly."}
+  ],
+  "180": [
+    {"question": "How can businesses win Google rankings with precision strategy?", "answer": "A structured, well-planned SEO approach — much like a coordinated operation — combining technical, content, and authority-building efforts is essential."},
+    {"question": "Does a coordinated SEO strategy outperform scattered efforts?", "answer": "Yes — a unified, well-planned approach across technical, content, and authority factors consistently outperforms disconnected, piecemeal efforts."},
+    {"question": "What does 'precision' mean in the context of an SEO strategy?", "answer": "Precision means targeting specific, high-value opportunities deliberately rather than pursuing broad, unfocused optimization efforts."},
+    {"question": "How important is planning before executing an SEO campaign?", "answer": "Very important — a clear plan ensures resources are directed toward the highest-impact opportunities rather than scattered activity."},
+    {"question": "Should businesses treat SEO as a long-term strategic effort?", "answer": "Yes — sustainable rankings require ongoing, coordinated effort rather than one-off tactical actions."},
+    {"question": "Does competitive analysis play a role in strategic SEO planning?", "answer": "Yes — understanding competitor strengths and gaps helps identify the most valuable opportunities for a precision-focused strategy."},
+    {"question": "How can businesses measure the success of a coordinated SEO strategy?", "answer": "Track rankings, organic traffic growth, and conversions against clearly defined goals set during the strategic planning phase."},
+    {"question": "Should SEO strategy adapt as search algorithms evolve?", "answer": "Yes — an effective strategy remains flexible, adjusting tactics as search engine algorithms and user behavior continue to change."},
+    {"question": "Does technical SEO play a foundational role in a precision strategy?", "answer": "Yes — technical health forms the foundation that content and authority-building efforts depend on to be fully effective."},
+    {"question": "What's the first step in building a precision-focused SEO strategy?", "answer": "Start with a comprehensive audit to identify current strengths, gaps, and the highest-priority opportunities for improvement."}
+  ]
+}

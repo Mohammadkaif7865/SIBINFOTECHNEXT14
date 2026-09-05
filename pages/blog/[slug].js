@@ -154,6 +154,16 @@ export async function getServerSideProps(context) {
     }
   }
 
+  // Universal Author Fallback so 100% of blogs have an identical author card
+  if (!author) {
+    author = {
+      name: "Anuj Bajaj",
+      image: "uploads/author/author_1752648487492.jpg",
+      description:
+        "<p>Anuj Bajaj is the Co-Founder of SIB Infotech and a seasoned digital strategist with over 18 years of experience in website development, SEO, and performance marketing. He leads the agency’s content and digital growth initiatives, ensuring that every piece of content is both search-engine optimized and value-driven. Anuj believes in blending AI-powered efficiency with human creativity to deliver content that educates, converts, and builds authority.</p>",
+    };
+  }
+
   return {
     props: {
       blog,
@@ -310,32 +320,70 @@ function BlogCtaInterceptor({ slug }) {
 }
 
 function FaqAccordion({ faqs }) {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const validFaqs = (faqs || []).filter((f) => f && (f.question || f.answer));
+  if (!validFaqs.length) return null;
+
   return (
-    <div className="blog-faqs mt-5">
-      <h3 className="mb-4">Frequently Asked Questions</h3>
+    <div className="blog-faqs">
+      <div className="faq-header">
+        <div className="faq-badge">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+          </svg>
+          <span>Frequently Asked Questions</span>
+        </div>
+        <h3 className="faq-main-title">Common Questions & Answers</h3>
+      </div>
       <div className="faq-accordion">
-        {faqs.map((faq, index) => (
-          <div key={faq.id} className="faq-item border-shadow">
-            <button
-              onClick={() => toggleFAQ(index)}
-              className="w-100 text-start fw-semibold fs-5 d-flex justify-content-between"
+        {validFaqs.map((faq, index) => {
+          const isOpen = openIndex === index;
+          return (
+            <div
+              key={faq.id || index}
+              className={`faq-card ${isOpen ? "faq-card-open" : ""}`}
             >
-              <span className="faq-item-title">{faq.question}</span>
-              <span>{openIndex === index ? "-" : "+"}</span>
-            </button>
-            {openIndex === index && (
-              <div className="mt-2 faq-item-description">
-                <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
-              </div>
-            )}
-          </div>
-        ))}
+              <button
+                type="button"
+                onClick={() => toggleFAQ(index)}
+                className="faq-toggle-btn"
+                aria-expanded={isOpen}
+              >
+                <span className="faq-question-text">{faq.question}</span>
+                <span className={`faq-icon-pill ${isOpen ? "faq-icon-active" : ""}`}>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="faq-chevron"
+                  >
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </span>
+              </button>
+              {isOpen && (
+                <div className="faq-answer-wrapper">
+                  <div
+                    className="faq-answer-body"
+                    dangerouslySetInnerHTML={{ __html: faq.answer }}
+                  />
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -613,28 +661,23 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
           </Head>
 
           {/* Banner Section */}
-          <section
-            id="single_blog"
-            style={{
-              backgroundColor: blog[0].banner_background_color || "#f8f9fa",
-              color: blog[0].banner_text_color || "#000",
-              padding: "40px 0",
-            }}
-          >
+          <section id="single_blog">
             <div className="containerFull">
               <div className="singleBlogInners">
                 <div className="row align-items-center">
-                  <div className="col-lg-7">
+                  <div className="col-lg-10">
                     <div className="rightSingleBlog">
                       <div className="inlineAdded">
                         <ul>
                           <li>
-                            {blog[0].bdate ? format(new Date(blog[0].bdate), "MMM dd, yyyy") : ""}
+                            {blog[0]?.bdate
+                              ? format(new Date(blog[0].bdate), "MMM dd, yyyy")
+                              : "SIB Infotech Editorial"}
                           </li>
                         </ul>
                       </div>
                       <h1 className="regular_heading fontHeading fontWeight600">
-                        {blog[0].name}
+                        {blog[0]?.name}
                       </h1>
                     </div>
                   </div>
@@ -644,10 +687,16 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
           </section>
 
           {/* Breadcrumb */}
-          <section className="pt-4 pb-4 blog_breadcrumb">
+          <section className="blog_breadcrumb">
             <div className="containerFull">
               <p className="breadcrum-text">
-                Home <i className="fa-solid fa-angle-right"></i> Blog{" "}
+                <Link href="/" style={{ color: "#64748b", textDecoration: "none" }}>
+                  Home
+                </Link>{" "}
+                <i className="fa-solid fa-angle-right"></i>{" "}
+                <Link href="/blog" style={{ color: "#64748b", textDecoration: "none" }}>
+                  Blog
+                </Link>{" "}
                 <i className="fa-solid fa-angle-right"></i>{" "}
                 <span className="text_primary">{blog[0]?.name}</span>
               </p>
@@ -663,17 +712,18 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   {blog[0]?.image &&
                     !blog[0].image.includes("sib-infotech.webp") &&
                     !blog[0].image.includes("/assets/og/") && (
-                      <div className="mb-3">
+                      <div className="mb-4">
                         <img
                           src={formatBlogImageUrl(blog[0].image)}
                           alt={blog[0].image_alt || blog[0].name}
                           className="img-fluid br-5"
+                          style={{ width: "100%", maxHeight: "500px", objectFit: "cover" }}
                         />
                       </div>
                     )}
 
                   {author && (
-                    <div className="blog_section blog_section_shadow">
+                    <div className="blog_section_shadow">
                       <h2 className="blog_section_item">About The Author</h2>
                       <div className="blogAuthor">
                         <div className="authorImage">
@@ -706,7 +756,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                   {/* Cannibalization Interceptor CTA */}
                   <BlogCtaInterceptor slug={postSlug} />
 
-                  {/* Blog Sections */}
+                  {/* Legacy Blog Sections (rendered inside universal typography flow) */}
                   {blogSections &&
                     blogSections.length > 0 &&
                     blogSections.some(
@@ -716,66 +766,36 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                         section.media ||
                         section.grey_quote,
                     ) && (
-                      <>
-                        {blogSections.map((section) => {
-                          const sectionStyle = {};
-                          if (section.section_bg_color)
-                            sectionStyle.background = section.section_bg_color;
-                          if (section.section_border_color)
-                            sectionStyle.border = `1px solid ${section.section_border_color}`;
-
-                          const greyQuoteStyle = {
-                            fontStyle: "italic",
-                            padding: "1rem",
-                          };
-                          if (section.grey_quote_bg_color)
-                            greyQuoteStyle.background =
-                              section.grey_quote_bg_color;
-                          if (section.grey_quote_border_color)
-                            greyQuoteStyle.borderLeft = `4px solid ${section.grey_quote_border_color}`;
-
-                          return (
-                            <div
-                              key={section.id}
-                              id={`section-${section.id}`}
-                              className="mb-4 blog_section border-shadow"
-                              style={sectionStyle}
-                            >
-                              <h2 className="blog_section_item">
-                                {section.title}
-                              </h2>
-
-                              <div className="blog_section_item">
-                                {section.media_type === "image" &&
-                                  section.media && (
-                                    <img
-                                      src={formatBlogImageUrl(section.media)}
-                                      alt=""
-                                      className="img-fluid br-5 mb-3"
-                                    />
-                                  )}
+                      <div className="blogDescriptions">
+                        {blogSections.map((section) => (
+                          <div key={section.id} id={`section-${section.id}`} className="mb-4">
+                            {section.title && <h2>{section.title}</h2>}
+                            {section.media_type === "image" && section.media && (
+                              <div className="mb-3">
+                                <img
+                                  src={formatBlogImageUrl(section.media)}
+                                  alt=""
+                                  className="img-fluid br-5"
+                                />
                               </div>
-
+                            )}
+                            {section.description && (
                               <div
-                                className="blog_section_item"
                                 dangerouslySetInnerHTML={{
                                   __html: section.description,
                                 }}
                               />
-
-                              {section.grey_quote && (
-                                <div
-                                  className="blog_section_item blog_grey_quote"
-                                  style={greyQuoteStyle}
-                                  dangerouslySetInnerHTML={{
-                                    __html: section.grey_quote,
-                                  }}
-                                />
-                              )}
-                            </div>
-                          );
-                        })}
-                      </>
+                            )}
+                            {section.grey_quote && (
+                              <blockquote
+                                dangerouslySetInnerHTML={{
+                                  __html: section.grey_quote,
+                                }}
+                              />
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     )}
 
                   {/* FAQs */}
@@ -784,81 +804,15 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                     blogFaqs.some((faq) => faq.question || faq.answer) && (
                       <FaqAccordion faqs={blogFaqs} />
                     )}
-
-                  {/* Action Section */}
-                  {blog[0] &&
-                    (blog[0].action_title ||
-                      blog[0].action_description_1 ||
-                      blog[0].action_btn_1_text) && (
-                      <div className="action_tab my-5">
-                        <div
-                          className="p-4 rounded"
-                          style={{ backgroundColor: "#e9f0ff" }}
-                        >
-                          <h2 className="mb-4">{blog[0].action_title}</h2>
-
-                          <div className="row">
-                            <div className="col-md-6">
-                              {blog[0].action_subtitle_1 && (
-                                <p className="mt-2">
-                                  {blog[0].action_subtitle_1}
-                                </p>
-                              )}
-                              <div
-                                className="mb-3"
-                                dangerouslySetInnerHTML={{
-                                  __html: blog[0].action_description_1,
-                                }}
-                              />
-                              {blog[0].action_btn_1_text &&
-                                blog[0].action_btn_1_link && (
-                                  <a
-                                    href={blog[0].action_btn_1_link}
-                                    className="btn btn-primary me-2"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                  >
-                                    {blog[0].action_btn_1_text}
-                                  </a>
-                                )}
-                            </div>
-                            <div className="col-md-6">
-                              {blog[0].action_subtitle_2 && (
-                                <p className="mt-2">
-                                  {blog[0].action_subtitle_2}
-                                </p>
-                              )}
-
-                              <div
-                                className="mb-3"
-                                dangerouslySetInnerHTML={{
-                                  __html: blog[0].action_description_2,
-                                }}
-                              />
-                              {blog[0].action_btn_2_text &&
-                                blog[0].action_btn_2_link && (
-                                  <a
-                                    href={blog[0].action_btn_2_link}
-                                    className="btn btn-outline-dark"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                  >
-                                    {blog[0].action_btn_2_text}
-                                  </a>
-                                )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
                 </div>
 
+                {/* Sidebar */}
                 <div className="col-lg-3 order-2 order-lg-1">
                   <div className="blog-sidebar" id="blog-sidebar">
                     {blogSections && blogSections.some((s) => s.section_link_title) && (
                       <>
                         <h5 className="mb-3">Blog Sections</h5>
-                        <ul className="blog-sidebar list-unstyled border-shadow">
+                        <ul className="blog-sidebar list-unstyled border-shadow mb-4">
                           {blogSections
                             .filter((s) => s.section_link_title)
                             .map((section) => (
@@ -872,10 +826,9 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       </>
                     )}
 
-                    <div className="mt-5">
+                    <div>
                       <h5 className="mb-3">Recent posts</h5>
 
-                      {/* Show other recent posts */}
                       {blogs &&
                         blogs
                           .filter(
@@ -888,7 +841,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                               key={index}
                               className="inline_blog_card border-shadow mb-3"
                             >
-                              <Link href={'/blog/' + blogItem.slug}>
+                              <Link href={"/blog/" + blogItem.slug}>
                                 <div className="img">
                                   <img
                                     src={formatBlogImageUrl(blogItem.image)}
