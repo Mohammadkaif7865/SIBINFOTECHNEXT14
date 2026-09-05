@@ -1,5 +1,4 @@
-
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 const Faqs = () => {
@@ -9,33 +8,53 @@ const Faqs = () => {
   const faqsData = [
     {
       id: "faq1",
-      question: "What is digital marketing?",
-      answer: `<div className="accordion-body"><p>Digital marketing is promoting products or services through digital channels such as search engines, social media, email, websites, SEO, PPC, and content marketing.</p></div>`,
+      question: "Why is SIB Infotech rated the best digital marketing company in India?",
+      answer: `<div className="accordion-body"><p>SIB Infotech is recognized among the best digital marketing companies in India due to our 18+ years of continuous operating excellence, official Google Premier Partner status (placing us in the top 3% of agencies nationwide), and a proven record of ranking over 1,000 brands across 40+ countries. We engineer custom, data-backed customer acquisition funnels that prioritize measurable Return on Investment (ROI) and lower Customer Acquisition Costs (CAC) rather than vanity impressions.</p></div>`,
     },
     {
       id: "faq2",
-      question: "Is digital marketing a good career option?",
-      answer: `<div className="accordion-body"><p>Yes. Digital marketing offers opportunities across SEO, paid advertising, social media, content, analytics, and other areas. It also requires continuous learning as platforms and technologies change.</p></div>`,
+      question: "What solutions do digital marketing firms in India provide for businesses?",
+      answer: `<div className="accordion-body"><p>Full-service digital marketing firms in India provide comprehensive, end-to-end growth solutions including Search Engine Optimization (SEO & AI Search GEO), Pay-Per-Click advertising (Google Ads, Performance Max, Shopping), Social Media Marketing & Paid Social (Meta, LinkedIn, Instagram), Content Marketing & Authority Strategy, Conversion Rate Optimization (CRO), Lifecycle Email Automation, Programmatic Media Buying, and Online Reputation Management (ORM).</p></div>`,
     },
     {
       id: "faq3",
-      question: "What is SEO in digital marketing?",
-      answer: `<div className="accordion-body"><p>SEO is a core part of digital marketing focused on improving a website's organic visibility in search engines. It works alongside paid advertising, social media, content marketing, and other digital channels.</p></div>`,
+      question: "How much do digital marketing services cost in India?",
+      answer: `<div className="accordion-body"><p>Digital marketing pricing in India varies based on campaign scope, channel complexity, target geography, and industry competition. Typically, monthly retainers for small businesses and local firms range from &#8377;25,000 to &#8377;60,000/month, growth-stage brands invest &#8377;75,000 to &#8377;2,00,000/month, and enterprise or multi-channel e-commerce campaigns are custom-quoted. SIB Infotech offers modular, scalable packages tailored to your budget with zero hidden fees.</p></div>`,
     },
     {
       id: "faq4",
-      question: "What is PPC in digital marketing?",
-      answer: `<div className="accordion-body"><p>PPC is a paid advertising model where businesses pay when users click on their ads. It is commonly used through platforms such as Google Ads and social advertising platforms to generate targeted traffic.</p></div>`,
+      question: "How quickly can a digital marketing business in India expect tangible ROI?",
+      answer: `<div className="accordion-body"><p>Timelines depend on the chosen marketing channels. Paid advertising (Google Ads, Meta Ads, LinkedIn Ads) can drive qualified leads and e-commerce transactions within 24 to 48 hours of campaign launch. Organic growth channels such as Search Engine Optimization (SEO) and Content Marketing build sustainable compounding momentum, typically delivering significant first-page ranking jumps and organic pipeline growth within 3 to 6 months.</p></div>`,
     },
     {
       id: "faq5",
-      question: "What is CTR in digital marketing?",
-      answer: `<div className="accordion-body"><p>CTR (click-through rate) is the percentage of users who click a link or advertisement after seeing it. It is calculated as clicks divided by impressions and is commonly used to measure ad or search-result engagement.</p></div>`,
+      question: "How do you measure and report digital marketing campaign performance?",
+      answer: `<div className="accordion-body"><p>At SIB Infotech, transparency is paramount. We provide clients with 24/7 access to live interactive reporting dashboards integrating Google Analytics 4 (GA4), Google Search Console, Google Ads, Meta Business Manager, and CRM pipelines. Every monthly performance review analyzes commercial metrics: Cost Per Acquisition (CPA), Return on Ad Spend (ROAS), organic pipeline value, conversion rates, and revenue attribution.</p></div>`,
     },
     {
       id: "faq6",
-      question: "How do I start learning digital marketing?",
-      answer: `<div className="accordion-body"><p>Start with the basics of SEO, PPC, social media, content marketing, and analytics. Use reputable free learning resources, then practice by working on a real website, campaign, or personal project.</p></div>`,
+      question: "How does your digital marketing company handle AI search and Google AI Overviews?",
+      answer: `<div className="accordion-body"><p>As search behavior shifts toward conversational AI, SIB Infotech employs proprietary Generative Engine Optimization (GEO) strategies. We structure your website content with semantic entity mapping, knowledge graph connections, and authoritative Q&A syntax so that leading AI models—including Google AI Overviews, SearchGPT, Perplexity, and Gemini—cite your brand as the definitive authority in your industry.</p></div>`,
+    },
+    {
+      id: "faq7",
+      question: "Do you provide local digital marketing services across Mumbai, Delhi, and other Indian cities?",
+      answer: `<div className="accordion-body"><p>Yes. With corporate offices in Mumbai and New Delhi, we provide specialized hyper-local digital marketing and local SEO across the Mumbai Metropolitan Region (Andheri, BKC, Malad, Goregaon, Powai, Thane, Navi Mumbai), Delhi NCR (Gurgaon, Noida, South Delhi), Bangalore, Pune, Hyderabad, and Tier-2 emerging commercial hubs throughout India.</p></div>`,
+    },
+    {
+      id: "faq8",
+      question: "What makes a full-service digital marketing agency better than hiring separate vendors?",
+      answer: `<div className="accordion-body"><p>Hiring separate vendors for SEO, PPC, and social media creates misaligned messaging, siloed data, and wasted marketing spend. A full-service digital marketing agency like SIB Infotech aligns all digital channels under a single cohesive growth strategy, sharing conversion data between paid and organic channels to compound your overall return on investment.</p></div>`,
+    },
+    {
+      id: "faq9",
+      question: "Are there long-term contracts or lock-in periods when working with SIB Infotech?",
+      answer: `<div className="accordion-body"><p>No. We believe in earning our client partnerships through demonstrable results and continuous revenue growth, not restrictive multi-year lock-ins. We offer flexible, month-to-month and quarterly retainers with clear SLAs, allowing your business to adapt budgets as commercial requirements evolve.</p></div>`,
+    },
+    {
+      id: "faq10",
+      question: "How do I get started with SIB Infotech?",
+      answer: `<div className="accordion-body"><p>Getting started is seamless. Contact our senior digital marketing consultants for a free, comprehensive digital marketing audit. We evaluate your current organic visibility, paid search efficiency, competitor landscape, and conversion funnels, delivering a customized strategic growth proposal within 48 hours.</p></div>`,
     },
   ];
 

@@ -28,57 +28,64 @@ const OurSteps = () => (
   <section>
     <div className="containerFull">
       <div className="text-center">
-        <h3 className="small_heading fontHeading">
-          How to Create an Effective Winning Digital Marketing Strategy in{" "}
-          {new Date().getFullYear()}
+        <h3 className="small_heading fontHeading text_red">
+          Proven Methodologies &amp; Frameworks
         </h3>
-        <h4 className="sub_heading mt-2 mt-lg-0">
-          Our 4 Step Digital Marketing Process Key to SEO Success.
+        <h4 className="sub_heading mt-2 fontHeading fontWeight600">
+          Our 4-Stage Digital Marketing Framework for Predictable Growth
         </h4>
+        <p className="customText col-lg-9 mx-auto mt-2">
+          Discover how our seasoned digital marketing consultants engineer sustainable, revenue-generating customer acquisition engines through our rigorous 4-step execution model.
+        </p>
       </div>
       <div className="row mt-lg-4">
         <ProcessStep
-        number={1}
+          number={1}
           numberColor="textStrokeDarkBlue"
           titleColor="text_dark_blue"
-          title="Strategy Development"
+          title="Deep Discovery & Audit"
           items={[
-            "Identify Target Audience",
-            "Define Goals",
-            "Market Research",
-            "Tactics and Channels",
+            "Competitor Market Intelligence",
+            "Technical SEO & Website Audit",
+            "Audience Persona Segmentation",
+            "Commercial Keyword Research",
           ]}
         />
         <ProcessStep
           number={2}
           numberColor="textStrokeRed"
           titleColor="text_red"
-          title="Implementation"
+          title="Full-Funnel Campaign Setup"
           items={[
-            "Website and Social media Optimization",
-            "Content Creation",
-            "Advertising Campaigns",
-            "Audience Engagement",
+            "High-Converting Landing Pages",
+            "Multi-Tier Paid Search & Social",
+            "Content Strategy & Production",
+            "Tracking & GA4 / GTM Instrumentation",
           ]}
         />
         <ProcessStep
           number={3}
           numberColor="textStrokeBlue"
           titleColor="text_light_blue"
-          title="Analysis and Optimization"
+          title="A/B Testing & Optimization"
           items={[
-            "Performance Monitoring",
-            "Data Analysis",
-            "A/B Testing",
-            "Optimization",
+            "Multi-Variant Ad Creative Testing",
+            "Negative Keyword & Bid Pruning",
+            "Conversion Rate Optimization (CRO)",
+            "Audience Retargeting & Lookalikes",
           ]}
         />
         <ProcessStep
           number={4}
           numberColor="textStrokeRed"
           titleColor="text_red"
-          title="Report & Monitoring"
-          items={["KPI Tracking", "Reporting", "Analysis and Insights"]}
+          title="Scale & Revenue Attribution"
+          items={[
+            "Real-Time Dashboard Access",
+            "Full Attribution & ROAS Analysis",
+            "Budget Scaling on Winner Channels",
+            "Quarterly Strategic Roadmapping",
+          ]}
         />
       </div>
     </div>

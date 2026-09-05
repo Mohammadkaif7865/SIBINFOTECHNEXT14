@@ -10,6 +10,7 @@ const WeOffer = dynamic(() => import("./WeOffer"), { ssr: true });
 const Benefits = dynamic(() => import("./Benefits"), { ssr: true });
 const OurSteps = dynamic(() => import("./OurSteps"), { ssr: false });
 const SpecializedServices = dynamic(() => import("./SpecializedServices"), { ssr: true });
+const DigitalMarketingGuide = dynamic(() => import("./DigitalMarketingGuide"), { ssr: true });
 const Why = dynamic(() => import("./Why"), { ssr: true });
 const MarketingTools = dynamic(() => import("./MarketingTools"), { ssr: false });
 const Faqs = dynamic(() => import("./Faqs"), { ssr: true });
@@ -39,6 +40,9 @@ const DigitalMarkServices = () => {
       </LazyLoad>
       <LazyLoad>
         <SpecializedServices />
+      </LazyLoad>
+      <LazyLoad>
+        <DigitalMarketingGuide />
       </LazyLoad>
       <LazyLoad>
         <Why />

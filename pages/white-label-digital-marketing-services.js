@@ -56,14 +56,14 @@ export default function WhiteLabelDigitalMarketingServices() {
 
   const metaTags = (
     <>
-      <title>White Label Digital Marketing Services India | Agency Reseller | SIB Infotech</title>
+      <title>White Label Digital Marketing Agency India &amp; Mumbai | Reseller Services | SIB Infotech</title>
       <meta
         name="description"
-        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
+        content="Partner with India's leading white label digital marketing agency in Mumbai & Delhi. Resell SEO, PPC, Google Ads, Meta Ads & Social Media with 100% NDA protection and white label dashboards."
       />
       <meta
         name="keywords"
-        content="white label digital marketing services india, white label digital marketing agency, digital marketing reseller program, white label agency partner, white label PPC management, white label google ads, white label content marketing, white label social media marketing, NDA digital marketing services"
+        content="white label digital marketing agency, white label digital marketing agency india, white label digital marketing services mumbai, white label digital marketing agency mumbai, white label digital marketing services, digital marketing reseller program, white label agency partner, white label PPC management, white label SEO reseller india"
       />
 
       <meta property="og:type" content="website" />
@@ -73,11 +73,11 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="og:title"
-        content="White Label Digital Marketing Services India | Agency Reseller | SIB Infotech"
+        content="White Label Digital Marketing Agency India &amp; Mumbai | Reseller Services | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
+        content="Partner with India's leading white label digital marketing agency in Mumbai & Delhi. Resell SEO, PPC, Google Ads, Meta Ads & Social Media with 100% NDA protection."
       />
       <meta
         property="og:image"
@@ -91,11 +91,11 @@ export default function WhiteLabelDigitalMarketingServices() {
       />
       <meta
         property="twitter:title"
-        content="White Label Digital Marketing Services India | Agency Reseller | SIB Infotech"
+        content="White Label Digital Marketing Agency India &amp; Mumbai | Reseller Services | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="Scale your agency with full-funnel white label digital marketing services in India. Resell SEO, PPC, Meta Ads & Social Media under your brand. 100% NDA protected."
+        content="Partner with India's leading white label digital marketing agency in Mumbai & Delhi. Resell SEO, PPC, Google Ads, Meta Ads & Social Media with 100% NDA protection."
       />
       <meta
         property="twitter:image"

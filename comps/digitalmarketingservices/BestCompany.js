@@ -49,26 +49,33 @@ const BestCompany = () => {
           <div className="col-lg-7 mt-lg-0 mt-4">
             <div className="ps-lg-4">
               <h2 className="sub_heading fontHeading fontWeight600">
-                Best{" "}
+                Top{" "}
                 <span className="text_red">
-                  Site Marketing &amp; Digital Marketing Agency in India
+                  Digital Marketing Company &amp; Agency in India
                 </span>
               </h2>
               <p className="customText text-justify mt-3">
-                SIB Infotech is a leading customer acquisition digital marketing
-                agency based in India with offices in Mumbai and New Delhi. We
-                deliver personal and tailored services to our clients to rapidly
-                grow their businesses, providing them with a sustainable and
-                scalable competitive advantage by combining our proprietary
-                Artificial Intelligence and Predictive Behavior model by
-                improvising visibility of our clients brand and focus on
-                Increased ROI and reach their targeted audiences.
+                SIB Infotech is an award-winning, ROI-driven digital marketing company in India
+                with flagship headquarters in Mumbai and corporate operations in New Delhi. Since 2005,
+                our Google Premier Partner agency has partnered with more than 1,000 global and Indian
+                brands across 40+ countries. Recognized among the premier digital marketing firms in India,
+                we engineer custom-tailored customer acquisition engines that combine technical precision,
+                predictive consumer behavioral analytics, and multi-channel performance marketing.
               </p>
-              <p className="customText">
-                Our multi-media specialists and digital marketing experts offer
-                you bespoke innovative digital marketing services that helps you
-                see into your marketing future. Every business is different and
-                has different needs
+              <p className="customText text-justify">
+                The modern digital marketing industry in India is evolving at an unprecedented velocity.
+                With over 900 million active internet users and fierce market competition across every commercial sector,
+                traditional ad-hoc advertising is no longer enough. Forward-thinking enterprises, high-growth startups,
+                and regional brands require cohesive, full-funnel digital marketing solutions in India that unite Search Engine
+                Optimization (SEO), Pay-Per-Click advertising (PPC &amp; Google Ads), Social Media Marketing (SMM),
+                Conversion Rate Optimization (CRO), and advanced AI search visibility under one unified growth strategy.
+              </p>
+              <p className="customText text-justify">
+                Unlike transactional agencies that focus solely on vanity metrics like clicks and impressions, SIB Infotech
+                operates as a strategic growth partner. Whether you are an established conglomerate expanding into new verticals
+                or an ambitious digital marketing business in India seeking profitable customer acquisition, our digital marketing
+                consultants craft scalable frameworks designed to lower Customer Acquisition Cost (CAC), accelerate qualified sales pipelines,
+                and maximize lifetime customer value (LTV).
               </p>
             </div>
           </div>
