@@ -3,7 +3,6 @@ import React from "react";
 import Link from "next/link";
 import { format } from "date-fns";
 import { CustomLayout } from "@/comps/CustomLayout";
-import { listArticles } from "@/lib/trendsDb";
 
 export async function getServerSideProps() {
   return {

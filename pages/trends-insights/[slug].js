@@ -5,7 +5,6 @@ import Head from "next/head";
 import Link from "next/link";
 import { format } from "date-fns";
 import { CustomLayout } from "@/comps/CustomLayout";
-import { getArticleBySlug, listArticles } from "@/lib/trendsDb";
 
 export async function getServerSideProps({ params }) {
   return {
