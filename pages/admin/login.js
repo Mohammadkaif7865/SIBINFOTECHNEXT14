@@ -30,7 +30,17 @@ export default function AdminLogin() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ password }),
       });
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (parseErr) {
+        throw new Error(
+          res.status === 404
+            ? "Login API endpoint not found (404). Please ensure the latest build is deployed on the server."
+            : `Server returned error (${res.status}). Ensure ADMIN_PASSWORD and ADMIN_SESSION_SECRET are set on the live server.`
+        );
+      }
       if (!res.ok) throw new Error(data.error || "Login failed.");
       const next = router.query.next || "/admin/trends";
       router.push(Array.isArray(next) ? next[0] : next);
