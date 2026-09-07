@@ -779,6 +779,18 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        path: false,
+        os: false,
+        child_process: false,
+      };
+    }
+    return config;
+  },
 
   // assetPrefix: "https://www.sibinfotech.com",
 };

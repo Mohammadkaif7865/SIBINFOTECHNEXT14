@@ -23,34 +23,31 @@ const Why = () => {
             <div className="col-lg-7">
               <div className="rightSeoCompany">
                 <h4 className="sub_heading fontHeading">
-                  We're more than just a Digital Marketing Company
+                  Why SIB Infotech is the <span className="text_red">#1 Digital Marketing Company in India</span>
                 </h4>
-                <p className="mt-3">
-                  As a leading Digital Marketing agency in India, we pride
-                  ourselves on a remarkable track record, successfully managing
-                  over 1350+ projects within distinct niches. Our dedicated
-                  teams specialize in various sectors, ensuring businesses
-                  achieve top rankings. Whether its real estate SEO, healthcare
-                  SEO, education SEO, or technology-based SEO, Google Ads, Meta
-                  Ads, Social Media Marketing, Email Marketing each niche
-                  benefits from a specialized team with the requisite skills and
-                  extensive industry experience. This targeted approach allows
-                  us to comprehend specific business requirements, leading to
-                  outstanding results.
+                <p className="mt-3 text-justify">
+                  Since 2005, SIB Infotech has stood at the forefront of the Indian digital marketing ecosystem.
+                  With over 1,350+ completed client engagements and active campaigns across 40+ countries,
+                  we are officially recognized among the top 3% of digital agencies in India as a Google Premier Partner.
                 </p>
-                <div className="row">
+                <p className="mt-2 text-justify">
+                  Unlike conventional digital marketing firms in India that rely on outsourced talent or fragmented freelancing,
+                  our client partners work directly with an elite, dedicated in-house team of senior digital strategists,
+                  Google Ads certified professionals, SEO technical architects, creative storytellers, and conversion optimization engineers.
+                </p>
+                <div className="row mt-3">
                   <div className="col-lg-6">
-                    <ul>
-                      <li>Digital Marketing Experts</li>
-                      <li>Customizable Strategies</li>
-                      <li>Transparent Reporting</li>
+                    <ul className="ps-0 list-unstyled">
+                      <li className="mb-2"><strong>Google Premier Partner</strong> (Top 3% Tier)</li>
+                      <li className="mb-2"><strong>18+ Years Track Record</strong> (Since 2005)</li>
+                      <li className="mb-2"><strong>1,000+ Brands Ranked</strong> in 40+ Countries</li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
-                    <ul>
-                      <li>24/7 Support & Care</li>
-                      <li>Affordable Packages</li>
-                      <li>Guaranteed 100% Client Satisfaction</li>
+                    <ul className="ps-0 list-unstyled">
+                      <li className="mb-2"><strong>100% Transparent</strong> Live Dashboards</li>
+                      <li className="mb-2"><strong>No Rigid Lock-in</strong> Contracts</li>
+                      <li className="mb-2"><strong>Proprietary AI &amp; Predictive</strong> Models</li>
                     </ul>
                   </div>
                 </div>

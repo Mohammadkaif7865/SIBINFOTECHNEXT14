@@ -7,16 +7,25 @@ import { compareAsc, format } from "date-fns";
 function BlogCard(props) {
   const { blog } = props;
   if (!blog) {
-    return <div>Loading...</div>; // or return null if you prefer not to render anything
+    return <div>Loading...</div>;
   }
+
+  const imageUrl = blog.image
+    ? blog.image.startsWith("http://") ||
+      blog.image.startsWith("https://") ||
+      blog.image.startsWith("/")
+      ? blog.image
+      : `${CONSTANTS.BACKEND_URL}${blog.image}`
+    : "https://www.sibinfotech.com/assets/og/sib-infotech.webp";
+
   return (
-    <Link href={"/blog/" +blog.slug}>
+    <Link href={"/blog/" + blog.slug}>
       <div className="blogItems">
         <div className="blogImg">
           <img
-            src={`${CONSTANTS.BACKEND_URL + blog.image}`}
+            src={imageUrl}
             className="img-fluid"
-            alt={blog.image_alt}
+            alt={blog.image_alt || blog.name}
           />
         </div>
         <div className="dividerBlog"></div>
@@ -25,7 +34,7 @@ function BlogCard(props) {
             {blog.name}
           </h4>
           <div className="dateTime">
-            <p>{format(new Date(blog.bdate), "MMM dd, yyyy")}</p>
+            <p>{blog.bdate ? format(new Date(blog.bdate), "MMM dd, yyyy") : ""}</p>
             <button className="blogIcon">
               <i className="fa fa-chevron-right"></i>
             </button>

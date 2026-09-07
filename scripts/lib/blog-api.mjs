@@ -27,14 +27,24 @@ const TOKEN = "FgRCHG4OVv8Z1BcrjExKJcqspvTsUTCe";
 /** Fields never sent back — server-managed. */
 const SKIP_FIELDS = new Set(["category_name", "author_name", "updatedAt", "createdAt"]);
 
-export async function readBlog(slug) {
-  const res = await fetch(`${API}blog/single/${slug}?slug=1`, {
+/**
+ * Reads a blog by numeric ID (unambiguous) or by slug. Some records share a
+ * duplicate slug (e.g. two separate rows both titled
+ * "outsource-digital-marketing-services-guide"), and blog/single/{slug}?slug=1
+ * returns all of them — always pass the numeric ID when you have it.
+ */
+export async function readBlog(identifier) {
+  const isId = /^\d+$/.test(String(identifier));
+  const url = isId
+    ? `${API}blog/single/${identifier}`
+    : `${API}blog/single/${identifier}?slug=1`;
+  const res = await fetch(url, {
     headers: { "Content-Type": "application/json", Authorization: TOKEN },
   });
-  if (!res.ok) throw new Error(`read ${slug}: HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`read ${identifier}: HTTP ${res.status}`);
   const json = await res.json();
   const blog = json.blog?.[0];
-  if (!blog) throw new Error(`read ${slug}: no record`);
+  if (!blog) throw new Error(`read ${identifier}: no record`);
   return blog;
 }
 
@@ -53,7 +63,16 @@ export async function fetchImage(record, tmpDir) {
 
   if (!existsSync(tmpDir)) mkdirSync(tmpDir, { recursive: true });
   const filename = record.image.split("/").pop();
-  const path = join(tmpDir, filename);
+  // Some image names carry characters Windows can't use in a path (":", "?", etc,
+  // inherited from a title-based filename) — sanitize the on-disk name only.
+  // The original `filename` is still sent as the multipart Content-Disposition
+  // name (itself separately ASCII-sanitized in writeBlog, for the same reason).
+  // Non-ASCII characters are stripped too: unlike other form values, the image
+  // path can't be routed through a file reference — it IS the file reference —
+  // so it's always inlined literally into the curl config, and any non-ASCII
+  // byte there corrupts curl's parsing of that line (curl exit 26).
+  const safeName = filename.replace(/[:*?"<>|]/g, "_").replace(/[^\x00-\x7F]/g, "_");
+  const path = join(tmpDir, safeName);
   writeFileSync(path, buf);
   return { path, filename, bytes: buf.length, type: res.headers.get("content-type") || "image/jpeg" };
 }
@@ -93,7 +112,17 @@ export function writeBlog(record, imageFile, tmpDir) {
     // newline or a quote has to be passed by file instead. `description` and
     // `schema_jsonld` both do — schema_jsonld is pretty-printed JSON, and
     // inlining it silently broke config parsing for every line after it.
-    const needsFile = /[\n\r"]/.test(str) || str.length > 500;
+    // Any non-ASCII byte (curly quotes, accented characters, em dashes, etc.)
+    // inlined directly into a config value also corrupts curl's parsing of
+    // that line and can spill into every line after it — routing it through
+    // a UTF-8 file instead sidesteps the parser entirely, regardless of length.
+    // A value that itself starts with "<" (e.g. a short description that's
+    // just "<p>...</p>") collides with curl's own `key=<path` file-reference
+    // syntax below — curl tries to open the rest of the string as a file path
+    // ("curl: (26) Failed to open/read local data from file") — so route
+    // those through a real file too, where the leading "<" is just content.
+    const needsFile =
+      /[\n\r"]/.test(str) || str.length > 500 || /[^\x00-\x7F]/.test(str) || str.startsWith("<");
 
     if (needsFile) {
       const fieldPath = join(tmpDir, `_field_${key}.txt`);
@@ -105,8 +134,14 @@ export function writeBlog(record, imageFile, tmpDir) {
   }
 
   if (imageFile) {
+    // The Content-Disposition filename is inlined directly into the curl
+    // config line (not read from a file), so any non-ASCII byte here hits the
+    // same curl config-parsing failure (exit 26) as an inline non-ASCII form
+    // value elsewhere in this function. Strip to ASCII for this one field —
+    // it's just metadata, not the on-disk path, which is unaffected.
+    const asciiFilename = imageFile.filename.replace(/[^\x00-\x7F]/g, "_");
     lines.push(
-      `form = "image=@${curlPath(imageFile.path)};type=${imageFile.type};filename=${imageFile.filename}"`,
+      `form = "image=@${curlPath(imageFile.path)};type=${imageFile.type};filename=${asciiFilename}"`,
     );
   }
 

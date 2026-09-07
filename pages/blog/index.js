@@ -6,6 +6,7 @@ import BlogCard from "@/comps/BlogListCard";
 import Link from "next/link";
 import { PaginationControl } from "react-bootstrap-pagination-control";
 import { CustomLayout } from "@/comps/CustomLayout";
+import { listArticles } from "@/lib/trendsDb";
 
 export async function getServerSideProps() {
   const headers = {
@@ -13,23 +14,56 @@ export async function getServerSideProps() {
     Authorization: CONSTANTS.API_TOKEN,
   };
 
+  let remoteBlogs = [];
   try {
     const res = await axios.get(`${CONSTANTS.API_URL}blog/all?publish=1`, {
       headers: headers,
+      timeout: 8000,
     });
-    return {
-      props: {
-        blogs: res.data.blogs || [],
-      },
-    };
+    remoteBlogs = res.data?.blogs || [];
   } catch (error) {
-    console.error("Error fetching blogs:", error);
-    return {
-      props: {
-        blogs: [],
-      },
-    };
+    console.error("Error fetching blogs from API:", error);
   }
+
+  // Load published articles from trendsDb
+  let localBlogs = [];
+  try {
+    const published = listArticles({ status: "Published" });
+    localBlogs = (published?.items || []).map((a) => ({
+      id: a.id,
+      name: a.title,
+      slug: a.slug,
+      description: a.excerpt || a.metaDescription,
+      image: a.featuredImage || "/assets/og/sib-infotech.webp",
+      image_alt: a.featuredImageAlt || a.title,
+      bdate: a.publishDate || a.createdAt,
+      createdAt: a.createdAt,
+      category_name: a.category || "Digital Marketing",
+    }));
+  } catch (err) {
+    console.error("Error loading local trends articles:", err);
+  }
+
+  // Merge and deduplicate by slug, sort by date descending
+  const blogMap = new Map();
+  localBlogs.forEach((b) => blogMap.set(b.slug, b));
+  remoteBlogs.forEach((b) => {
+    if (!blogMap.has(b.slug)) {
+      blogMap.set(b.slug, b);
+    }
+  });
+
+  const mergedBlogs = Array.from(blogMap.values()).sort((a, b) => {
+    const dateA = new Date(a.bdate || a.createdAt || 0).getTime();
+    const dateB = new Date(b.bdate || b.createdAt || 0).getTime();
+    return dateB - dateA;
+  });
+
+  return {
+    props: {
+      blogs: mergedBlogs,
+    },
+  };
 }
 
 export default function Blog({ blogs }) {

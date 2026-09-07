@@ -9,6 +9,10 @@ const Layout = ({ children }) => {
   const router = useRouter();
   const isAdmin = router?.pathname?.startsWith("/admin");
 
+  if (isAdmin) {
+    return <>{children}</>;
+  }
+
   return (
     <>
       <div className="wrapper">
@@ -16,26 +20,24 @@ const Layout = ({ children }) => {
         {children}
         {/* Renders only on service pages mapped in constants/blogLinkMap.js;
             returns null everywhere else. */}
-        {!isAdmin && <RelatedInsights />}
-        {!isAdmin && <ReviewsBar />}
+        <RelatedInsights />
+        <ReviewsBar />
         <Footer />
       </div>
-      {!isAdmin && (
-        <div className="bottom-bar1 d-lg-none">
-          <a target="_blank" href="tel:+91-92222-60000">
-            <i className="fa-solid fa-phone"></i>
-          </a>
-          <a target="_blank" href="mailto:contact@sibinfotech.com">
-            <i className="fa-solid fa-envelope"></i>
-          </a>
-          <a
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=+919222260000&text=Hi"
-          >
-            <i className="fa-brands fa-whatsapp"></i>
-          </a>
-        </div>
-      )}
+      <div className="bottom-bar1 d-lg-none">
+        <a target="_blank" href="tel:+91-92222-60000">
+          <i className="fa-solid fa-phone"></i>
+        </a>
+        <a target="_blank" href="mailto:contact@sibinfotech.com">
+          <i className="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+919222260000&text=Hi"
+        >
+          <i className="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
 
       {/* <Script
         defer

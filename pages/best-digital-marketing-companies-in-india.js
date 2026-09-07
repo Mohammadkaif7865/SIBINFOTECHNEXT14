@@ -51,27 +51,66 @@ export default function BestDigitalMarketingCompaniesInIndia() {
     },
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is the best digital marketing company in India?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The best digital marketing company depends on your specific goals, budget, and industry. SIB Infotech is recognized among the top digital marketing companies in India for businesses wanting end-to-end, ROI-driven SEO, PPC, social media, and web development with 18+ years of proven expertise.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much does it cost to hire a digital marketing agency in India?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Digital marketing agency fees in India vary based on scope, channel mix, and agency tier. Costs depend on whether you need SEO alone, PPC campaign management, or a full-funnel strategy across multiple channels. Most reputable agencies provide tailored proposals after an initial consultation.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What services do digital marketing companies in India offer?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Most full-service digital marketing companies in India offer Search Engine Optimization (SEO), Pay-Per-Click advertising (PPC / Google Ads), social media marketing (SMM), content marketing, email marketing, conversion rate optimization (CRO), web design and development, and analytics reporting.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I evaluate if a digital marketing agency is right for me?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Ask for detailed case studies with measurable outcomes, meet the team handling your account, verify reporting transparency, and look for Google Premier Partner certification and verified client reviews before committing.",
+        },
+      },
+    ],
+  };
+
   const metaTags = (
     <>
-      <title>Best Digital Marketing Companies in India (2026) | SIB Infotech</title>
+      <title>Best Digital Marketing Companies in India (2026) | Top Agencies &amp; Firms | SIB Infotech</title>
       <meta
         name="description"
-        content="Looking for the best digital marketing companies in India? We compare the top agencies on SEO, PPC, content marketing and ROI. Find the right partner for your business growth in 2026."
+        content="Looking for the best digital marketing companies in India? Compare the top digital marketing agencies & firms on SEO, PPC, ROI, and client results. Find your ideal partner for 2026."
       />
       <meta
         name="keywords"
-        content="best digital marketing companies in india, top digital marketing agencies india, digital marketing company india, SEO company india, PPC agency india, social media marketing india, digital marketing services india"
+        content="best digital marketing companies in india, best digital marketing company in india, top digital marketing companies, best digital marketing firms, best digital marketing companies, top 5 digital marketing agency in india, top 5 digital marketing companies in india, top digital marketing agencies in india, biggest digital marketing company, largest digital marketing companies, big digital marketing companies, top companies in india for digital marketing, indian digital marketing companies, top indian digital marketing companies"
       />
 
       <meta property="og:type" content="article" />
       <meta property="og:url" content={PAGE_URL} />
       <meta
         property="og:title"
-        content="Best Digital Marketing Companies in India (2026) | SIB Infotech"
+        content="Best Digital Marketing Companies in India (2026) | Top Agencies &amp; Firms | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="We compare the top digital marketing agencies in India on SEO, PPC, content marketing and ROI. Find the right partner for your business growth in 2026."
+        content="We compare the top digital marketing companies and agencies in India on SEO, PPC, content marketing and ROI. Find the right partner for your business growth in 2026."
       />
       <meta property="og:image" content={OG_IMAGE} />
 
@@ -79,11 +118,11 @@ export default function BestDigitalMarketingCompaniesInIndia() {
       <meta property="twitter:url" content={PAGE_URL} />
       <meta
         property="twitter:title"
-        content="Best Digital Marketing Companies in India (2026) | SIB Infotech"
+        content="Best Digital Marketing Companies in India (2026) | Top Agencies &amp; Firms | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="We compare the top digital marketing agencies in India on SEO, PPC, content marketing and ROI. Find the right partner for your business growth in 2026."
+        content="We compare the top digital marketing companies and agencies in India on SEO, PPC, content marketing and ROI. Find the right partner for your business growth in 2026."
       />
       <meta property="twitter:image" content={OG_IMAGE} />
 
@@ -97,6 +136,12 @@ export default function BestDigitalMarketingCompaniesInIndia() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
         }}
       />
     </>

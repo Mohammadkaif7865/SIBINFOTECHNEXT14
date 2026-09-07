@@ -1,48 +1,6 @@
 // pages/api/admin/check-cannibalization.js
-import fs from "fs";
-import path from "path";
-
-// Load or build a compact catalog of website pages for context
-function getSiteInventory() {
-  try {
-    const tsvPath = path.join(process.cwd(), "sitemap-meta-table.tsv");
-    if (fs.existsSync(tsvPath)) {
-      const content = fs.readFileSync(tsvPath, "utf-8");
-      const lines = content.split("\n").filter((l) => l.trim().length > 0);
-      const inventory = [];
-
-      for (let i = 1; i < lines.length; i++) {
-        const parts = lines[i].split("\t");
-        if (parts.length >= 2) {
-          const url = parts[0]?.replace("https://www.sibinfotech.com", "").trim() || "/";
-          const title = parts[1]?.trim() || "";
-          const desc = parts[2]?.trim() || "";
-          if (url) {
-            inventory.push({ url, title, desc });
-          }
-        }
-      }
-      return inventory;
-    }
-  } catch (err) {
-    console.error("Error reading sitemap inventory:", err);
-  }
-
-  // Fallback core site inventory if file not present
-  return [
-    { url: "/search-engine-optimization-seo-services", title: "Top SEO Services in India | SIB Infotech", desc: "Best SEO Agency in Mumbai & Delhi providing full SEO services." },
-    { url: "/ai-seo-services", title: "Expert AI SEO Services in India", desc: "AI-powered SEO and visibility in AI search." },
-    { url: "/chatgpt-seo-services", title: "ChatGPT SEO Services", desc: "Get cited and recommended in ChatGPT." },
-    { url: "/generative-engine-optimization", title: "Generative Engine Optimization (GEO) Services", desc: "Optimize for generative AI search engines." },
-    { url: "/answer-engine-optimization", title: "Answer Engine Optimization (AEO)", desc: "AEO and voice search optimization." },
-    { url: "/search-ai-optimization", title: "Search AI Optimization", desc: "Search AI Optimization for faster rankings." },
-    { url: "/google-ads-management-services", title: "Google Ads Management Services", desc: "PPC and Google Ads campaigns." },
-    { url: "/pay-per-click-ppc-management-services", title: "PPC Management Services", desc: "Pay-per-click agency in Mumbai & Delhi." },
-    { url: "/website-designing-services", title: "Web Designing Services Company", desc: "Custom responsive web design services." },
-    { url: "/shopify-development-services", title: "Shopify Development Services", desc: "Shopify e-commerce development." },
-    { url: "/wordpress-website-design-development-services", title: "WordPress Web Design & Development", desc: "WordPress design and development agency." }
-  ];
-}
+import { getSiteInventory } from "@/lib/siteInventory";
+import { callGemini, MODEL_FLASH } from "@/lib/gemini";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -147,9 +105,27 @@ Respond strictly in valid JSON format with the following JSON schema:
   }
 }`;
 
+  if (!apiKey && process.env.GEMINI_API_KEY) {
+    // No Claude key configured (env or UI) — use Gemini as a real backend
+    // instead of falling straight to the algorithmic simulation below.
+    try {
+      const { data } = await callGemini({
+        model: MODEL_FLASH,
+        system: "You are an expert Technical SEO and Google Search Console auditor specializing in keyword cannibalization detection and search intent differentiation. Always return pure JSON with no markdown backticks or commentary.",
+        prompt: promptContent,
+        json: true,
+        temperature: 0.2,
+      });
+      return res.status(200).json({ ...data, modelUsed: `gemini (${MODEL_FLASH})` });
+    } catch (err) {
+      console.error("Gemini cannibalization check failed, falling back to simulation:", err);
+      // fall through to the algorithmic simulation below
+    }
+  }
+
   if (!apiKey) {
     // If no API key provided in env or UI, generate a high-quality algorithmic simulation so the UI is directly usable
-    const isDirectMatch = localMatches.some(m => 
+    const isDirectMatch = localMatches.some(m =>
       m.title.toLowerCase().includes(primaryKeyword.toLowerCase()) || 
       m.url.toLowerCase().includes(primaryKeyword.toLowerCase().replace(/\s+/g, "-"))
     );
