@@ -188,7 +188,17 @@ ${result.alternativeStrategy?.contentOutline?.map((o, i) => `${i + 1}. ${o}`).jo
         }),
       });
 
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (parseErr) {
+        throw new Error(
+          res.status === 404
+            ? "API route /api/admin/check-cannibalization was not found (404). Please ensure the latest build is deployed on the server and PM2/Node process is restarted."
+            : `Server returned non-JSON response (${res.status}). Ensure server environment variables and latest build are deployed.`
+        );
+      }
 
       if (!res.ok) {
         throw new Error(data.error || "Failed to analyze cannibalization risk.");
