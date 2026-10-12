@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
         {/* Renders only on service pages mapped in constants/blogLinkMap.js;
             returns null everywhere else. */}
         <RelatedInsights />
-        <ReviewsBar />
+        {router.pathname !== "/case-studies" && <ReviewsBar />}
         <Footer />
       </div>
       <div className="bottom-bar1 d-lg-none">
