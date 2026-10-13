@@ -111,6 +111,13 @@ const proofRules = [
   },
 ];
 
+const checkIcons = [
+  "fa-solid fa-circle-check",
+  "fa-solid fa-trophy",
+  "fa-solid fa-magnifying-glass-chart",
+  "fa-solid fa-check",
+];
+
 const partners = [
   {
     name: "Google Premier Partner",
@@ -336,15 +343,6 @@ const CaseStudiesMgt = () => {
                     className="cs-featured-img"
                   />
                 </div>
-                <div className="cs-featured-logo">
-                  <Image
-                    src="/assets/images/clients/RNB-logo.webp"
-                    alt="RNB Global University"
-                    width={200}
-                    height={90}
-                    quality={100}
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -421,7 +419,7 @@ const CaseStudiesMgt = () => {
                     </div>
 
                     <div className="cs-card-body">
-                      <p className="heading cs-card-client fontWeight700">
+                      <p className="sub_heading cs-card-client fontWeight700">
                         {item.client}
                       </p>
 
@@ -447,11 +445,6 @@ const CaseStudiesMgt = () => {
                           </div>
                         ))}
                       </div>
-
-                      <Link href={item.href} className="cs-card-link">
-                        {item.linkText}
-                        <i className="fa-solid fa-arrow-right ms-2"></i>
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -494,10 +487,15 @@ const CaseStudiesMgt = () => {
           <div className="row g-4">
             {proofRules.map((rule, i) => (
               <div className="col-lg-3 col-md-6" key={i}>
-                <div className="cs-check-card">
-                  <span className="title fontWeight600 text_red d-block mb-2">
-                    {rule.label}
-                  </span>
+                <div
+                  className={`cs-check-card cs-check-card-${(i % 4) + 1}`}
+                >
+                  <div className="cs-check-head">
+                    <div className={`cs-check-icon cs-check-icon-${(i % 4) + 1}`}>
+                      <i className={checkIcons[i % checkIcons.length]}></i>
+                    </div>
+                    <span className="cs-check-label">{rule.label}</span>
+                  </div>
                   <h3 className="small_heading fontWeight600 mb-2">
                     {rule.title}
                   </h3>

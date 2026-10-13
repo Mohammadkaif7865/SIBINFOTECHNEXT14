@@ -13035,22 +13035,6 @@ transition:
   height: auto;
 }
 
-.cs-featured-logo {
-  position: absolute;
-  left: 20px;
-  bottom: -24px;
-  background: var(--dark-blue-color);
-  border-radius: 12px;
-  padding: 12px 18px;
-  box-shadow: 0 14px 34px rgba(27, 80, 131, 0.35);
-}
-
-.cs-featured-logo img {
-  display: block;
-  width: 130px;
-  height: auto;
-}
-
 .cs-results-section {
   padding: 70px 0;
   background: #ffffff;
@@ -13145,7 +13129,7 @@ transition:
   flex-direction: column;
   height: 100%;
   background: #ffffff;
-  border: 1px solid #ececec;
+  border: 2px solid #c3d7f8;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
@@ -13173,19 +13157,10 @@ transition:
   z-index: 3;
 }
 
-.cs-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 55px rgba(27, 80, 131, 0.18);
-}
-
-.cs-card:hover::before {
-  transform: scaleX(1);
-}
-
 .cs-card-media {
   position: relative;
   width: 100%;
-  height: 260px;
+  height: 300px;
   overflow: hidden;
   background: #eef2f8;
 }
@@ -13196,10 +13171,6 @@ transition:
   object-fit: cover;
   display: block;
   transition: transform 0.6s ease;
-}
-
-.cs-card:hover .cs-card-media img {
-  transform: scale(1.07);
 }
 
 .cs-card-media::after {
@@ -13215,10 +13186,6 @@ transition:
   transition: opacity 0.35s ease;
 }
 
-.cs-card:hover .cs-card-media::after {
-  opacity: 1;
-}
-
 .cs-card-body {
   display: flex;
   flex-direction: column;
@@ -13228,7 +13195,7 @@ transition:
 
 .cs-card-client {
   font-weight: 700;
-  color: var(--dark-blue-color);
+  color: #000000;
   line-height: 1.35;
 }
 
@@ -13285,11 +13252,6 @@ transition:
   transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.3s ease;
 }
 
-.cs-card:hover .cs-card-metric {
-  box-shadow: 0 8px 18px rgba(27, 80, 131, 0.09);
-  transform: translateY(-3px);
-}
-
 .cs-card-metric:hover {
   background: #ffffff;
 }
@@ -13319,14 +13281,6 @@ transition:
 
 .cs-card-link i {
   transition: transform 0.3s ease;
-}
-
-.cs-card:hover .cs-card-link {
-  color: var(--red-color);
-}
-
-.cs-card:hover .cs-card-link i {
-  transform: translateX(5px);
 }
 
 .cs-card-link:hover {
@@ -13359,18 +13313,76 @@ transition:
 }
 
 .cs-checks-section {
-  padding: 70px 0;
-  background: #f6f8fc;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f6f8fc 0%, #ffffff 100%);
 }
 
 .cs-check-card {
+  position: relative;
   height: 100%;
   background: #ffffff;
   border: 1px solid #ececec;
-  border-top: 4px solid var(--red-color);
-  border-radius: 16px;
-  padding: 28px 24px;
+  border-radius: 18px;
+  padding: 30px 24px;
+  overflow: hidden;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cs-check-card-1 {
+  --check-accent: #e31a20;
+}
+
+.cs-check-card-2 {
+  --check-accent: #3979f8;
+}
+
+.cs-check-card-3 {
+  --check-accent: #f7941d;
+}
+
+.cs-check-card-4 {
+  --check-accent: #0fae63;
+}
+
+.cs-check-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(27, 80, 131, 0.14);
+  border-color: #e0e8f5;
+}
+
+.cs-check-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cs-check-icon {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #ffffff;
+  border-radius: 14px;
+}
+
+.cs-check-icon-1 {
+  background: linear-gradient(135deg, #e31a20, #ff5a5f);
+}
+
+.cs-check-icon-2 {
+  background: linear-gradient(135deg, #3979f8, #6aa0ff);
+}
+
+.cs-check-icon-3 {
+  background: linear-gradient(135deg, #f7941d, #ffbf69);
+}
+
+.cs-check-icon-4 {
+  background: linear-gradient(135deg, #0fae63, #43d68f);
 }
 
 .cs-check-label {
@@ -13378,9 +13390,8 @@ transition:
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--red-color);
-  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+  color: var(--check-accent, var(--red-color));
 }
 
 .cs-check-title {
@@ -13628,12 +13639,6 @@ transition:
 
   .cs-hero-card-number {
     font-size: 56px;
-  }
-
-  .cs-featured-logo {
-    position: static;
-    display: inline-block;
-    margin-top: 18px;
   }
 
   .cs-cert-row {
