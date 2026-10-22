@@ -1,6 +1,6 @@
 #single_blog {
     padding: 70px 0 50px 0 !important;
-    background: #ffffff;
+    background: #f1f1f1;
 }
 
 #single_blog .rightSingleBlog .inlineAdded ul {
@@ -103,9 +103,9 @@
 }
 
 .blogDescriptions p:first-of-type {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.85;
-    color: #1e293b;
+    color: #333;
 }
 
 /* Headings */
@@ -144,10 +144,10 @@
 }
 
 .blogDescriptions h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color: #334155;
-    margin-top: 24px;
+    
     margin-bottom: 10px;
     line-height: 1.45;
 }
@@ -227,7 +227,7 @@
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 40px 0;
+    
     border: 1px solid #e2e8f0;
     border-radius: 12px;
     overflow: hidden;
@@ -242,7 +242,7 @@
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    margin: 40px 0;
+    /* margin: 40px 0; */
     border-radius: 12px;
 }
 
