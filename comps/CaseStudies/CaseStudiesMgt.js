@@ -1,457 +1,692 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import BannerForm from "@/comps/BannerForm";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 import Breadcrumb from "@/comps/BreadCrumb";
-import OurClients from "@/comps/Home/OurClients";
-import Testimonials from "@/comps/Home/Testimonials";
 import Faq from "@/comps/Home/Faq";
-import RelatedServices from "@/comps/RelatedServices";
+
+const PHONE_DISPLAY = "+91 92222 60000";
+const PHONE_HREF = "tel:+919222260000";
+const WHATSAPP_LINK = "https://wa.link/rd1lfo";
+const EMAIL = "contact@sibinfotech.com";
+const GOOGLE_REVIEW_LINK =
+  "https://www.google.com/maps?ll=19.177215,72.833803&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=10831579352190589026";
+
+const featured = {
+  bigNumber: "3.9x",
+  numberLabel: "more enquiries per day",
+  title:
+    "How RNB Global University Got 3.9x More Enquiries per Day with Google Ads",
+  body: "RNB Global University wanted more students to enquire about admissions. SIB Infotech set up proper tracking and showed ads again to people who had already visited the website. Enquiries per day went up 3.9 times, while daily spend went up only about 30%.",
+  smallStats: [
+    "3.9x enquiries per day",
+    "67% lower cost per enquiry",
+    "15,091 enquiries from remarketing",
+  ],
+  href: "/case-studies/rnb-global-university-google-ads",
+};
+
+const caseStudies = [
+  {
+    client: "Veeraco Colourants",
+    image: "/assets/images/casestudy/veeraco.png",
+    categories: ["SEO", "Local Search", "AI Search"],
+    industry: "Manufacturing",
+    service: "SEO",
+    metrics: [
+      { value: "+80%", label: "Google clicks, 979 to 1,760" },
+      { value: "+96%", label: "Non-brand clicks, ~770 to 1,510" },
+      { value: "4", label: "Dye categories on page one" },
+      { value: "70", label: "AI assistant sessions, from 0" },
+    ],
+    href: "/contact-us",
+    linkText: "Get similar results",
+  },
+  {
+    client: "RNB Global University",
+    image: "/assets/images/rnb-laptop.webp",
+    categories: ["Google Ads"],
+    industry: "Education",
+    service: "Google Ads",
+    metrics: [
+      { value: "32,628", label: "Enquiries, lifetime" },
+      { value: "₹6.5 lakh", label: "Saved, 2023 vs 2022 season" },
+      { value: "8.9x", label: "Enquiries, peak vs launch weeks" },
+      { value: "₹9", label: "Cost per enquiry, remarketing" },
+    ],
+    href: "/case-studies/rnb-global-university-google-ads",
+    linkText: "Read Case Study",
+  },
+];
+
+const industries = ["All Industries", "Education", "Manufacturing"];
+
+const services = ["All Services", "SEO", "Google Ads"];
+
+const statsBar = [
+  {
+    value: "21+",
+    label: "Years in Digital Marketing",
+    desc: "Helping businesses grow online since 2005",
+  },
+  {
+    value: "1400+",
+    label: "Clients Served",
+    desc: "Small and mid-sized businesses, brands and institutions.",
+  },
+  {
+    value: "40+",
+    label: "Countries",
+    desc: "Clients across India, the USA, the UK, Australia, Canada and more.",
+  },
+  {
+    value: "4.8",
+    label: "Average Client Rating",
+    desc: "Rated on Google, Clutch, Trustpilot, Justdial and GoodFirms.",
+  },
+];
+
+const proofRules = [
+  {
+    label: "Rule 1",
+    title: "Screenshots from the real account",
+    text: "Numbers come from Google Ads, Google Analytics or Search Console. You see the screenshot on the page.",
+  },
+  {
+    label: "Rule 2",
+    title: "Fair comparisons",
+    text: "Before and after periods are the same length. If they are not, the page shows numbers per day.",
+  },
+  {
+    label: "Rule 3",
+    title: "Clear meanings",
+    text: "Each page says what counted as a lead, an enquiry or a sale.",
+  },
+  {
+    label: "Rule 4",
+    title: "The full story",
+    text: "If something did not improve, the case study says so and explains why.",
+  },
+];
+
+const checkIcons = [
+  "fa-solid fa-circle-check",
+  "fa-solid fa-trophy",
+  "fa-solid fa-magnifying-glass-chart",
+  "fa-solid fa-check",
+];
+
+const partners = [
+  {
+    name: "Google Premier Partner",
+    img: "/assets/images/top-google-premium-partner-agencies-in-india.webp",
+    href: "https://www.google.com/partners/agency?id=4328223643",
+  },
+  {
+    name: "Meta Business Partner",
+    img: "/assets/images/meta-partner.webp",
+    href: "https://www.facebook.com/business/partner",
+  },
+  {
+    name: "Shopify Partner",
+    img: "/assets/images/shopify-partner.webp",
+    href: "https://www.shopify.com/partners",
+  },
+  {
+    name: "Clutch",
+    img: "/assets/images/clutch.webp",
+    href: "https://clutch.co/profile/sib-infotech",
+  },
+  {
+    name: "Trustpilot",
+    img: "/assets/images/trustpilot.webp",
+    href: "https://www.trustpilot.com/review/sibinfotech.com",
+  },
+  {
+    name: "GoodFirms",
+    img: "/assets/images/logos/goodfirms.webp",
+    href: "https://www.goodfirms.co/company/sib-infotech-digital-marketing-agency",
+  },
+];
+
+const quotes = [
+  {
+    source: "Google",
+    logo: "/assets/images/logos/google.webp",
+    text: "SIB Infotech has designed website for our company. We are very happy with outcome. They are not only professional but also putting their heart into work.",
+    author: "Rupesh Maniar",
+    role: "Real Value Finloan Services Pvt. Ltd.",
+  },
+  {
+    source: "Clutch",
+    logo: "/assets/images/logos/clutch.webp",
+    text: "The client loved the platform that the SIB Infotech team developed for them, especially the calculator function.",
+    author: "Tima Elhajj",
+    role: "CEO and Founder, Tima Media",
+  },
+  {
+    source: "Google",
+    logo: "/assets/images/logos/google.webp",
+    text: "RNB Global University saw a steady rise in admission enquiries after SIB Infotech rebuilt the Google Ads account and added remarketing.",
+    author: "RNB Global University",
+    role: "Client quote to be confirmed",
+  },
+];
+
+const faqsData = [
+  {
+    id: "faq-case-studies-1",
+    question: "Are these results real?",
+    answer: `<p>Yes. Every number comes from the client's own Google Ads, Google Analytics or Search Console account. Each case study page shows screenshots. Numbers go live only after the client agrees.</p>`,
+  },
+  {
+    id: "faq-case-studies-2",
+    question: "Why do some case studies not name the client?",
+    answer: `<p>Some clients want to keep their results private. For those, the case study describes the business by its industry and city instead. The numbers are just as real.</p>`,
+  },
+  {
+    id: "faq-case-studies-3",
+    question: "Will my business get the same results?",
+    answer: `<p>Maybe not, and no honest agency can promise that. Results depend on your market, budget, website and competitors. Each case study shows what was done, so you can see how close it is to your business.</p>`,
+  },
+  {
+    id: "faq-case-studies-4",
+    question: "Which industries has SIB Infotech worked with?",
+    answer: `<p>SIB Infotech has worked with businesses in education, finance, legal, real estate, healthcare, manufacturing, e-commerce and more, across 40+ countries.</p>`,
+  },
+  {
+    id: "faq-case-studies-5",
+    question: "How soon will I see results?",
+    answer: `<p>Google Ads can bring enquiries in the first few weeks, and results get better as the account learns. SEO usually takes 3 to 6 months to show steady growth.</p>`,
+  },
+];
 
 const CaseStudiesMgt = () => {
-  const caseStudies = [
-    {
-      number: "Case Study 1",
-      title: "Enterprise FMCG Brand",
-      tags: "SEO | +380% Organic Traffic",
-      client:
-        "Leading FMCG brand with national distribution across India",
-      challenge:
-        "The client was investing heavily in paid search but had minimal organic visibility. Core commercial keywords for their product categories were ranking on pages 3 to 5. Organic traffic represented less than 12% of total website traffic.",
-      approach: [
-        "Full technical SEO audit identifying 147 critical issues including crawl errors, duplicate content, and missing schema.",
-        "Keyword strategy development targeting 280 high-intent commercial and informational keywords.",
-        "Complete on-page optimisation across 85 product and category pages.",
-        "Content cluster strategy with 24 pillar-and-cluster blog posts.",
-        "Link acquisition campaign securing 35 editorial backlinks from DA 40+ domains.",
-      ],
-      resultsPeriod: "Results After 12 Months",
-      results: [
-        { metric: "+380%", label: "Organic traffic growth" },
-        { metric: "67", label: "Target keywords on Page 1" },
-        { metric: "12% → 41%", label: "Organic revenue contribution" },
-        { metric: "-64%", label: "CPA vs paid search" },
-      ],
-    },
-    {
-      number: "Case Study 2",
-      title: "B2B Manufacturing Company",
-      tags: "SEO + Content | +260% Qualified Leads",
-      client:
-        "Industrial manufacturer with pan-India distribution seeking B2B procurement leads",
-      challenge:
-        "The client had a technically sound website but ranked for almost no commercially relevant keywords. B2B procurement searches in their category returned competitors on page 1 across all major terms.",
-      approach: [
-        "B2B keyword research identifying 120 high-intent procurement and specification search terms.",
-        "Complete restructuring of product page hierarchy and URL architecture.",
-        "Development of 15 specification-level content assets targeting engineer and procurement manager search intent.",
-        "Implementation of Product schema, FAQPage schema, and BreadcrumbList across all product pages.",
-        "Digital PR campaign generating 12 backlinks from industry publications.",
-      ],
-      resultsPeriod: "Results After 9 Months",
-      results: [
-        { metric: "+260%", label: "Organic lead volume" },
-        { metric: "43", label: "Page 1 rankings achieved" },
-        { metric: "+68%", label: "Average session duration" },
-        { metric: "+38%", label: "Quote-to-close conversion" },
-      ],
-    },
-    {
-      number: "Case Study 3",
-      title: "E-commerce Brand",
-      tags: "SEO + Google Shopping | +190% Revenue",
-      client: "Online retailer in competitive lifestyle category",
-      challenge:
-        "The client had strong paid search performance but was almost invisible in organic results. Product pages were thin, category pages had no optimised content, and there was no structured data implementation.",
-      approach: [
-        "Full ecommerce SEO audit covering product page quality, faceted navigation, canonical issues, and schema gaps.",
-        "Category page content strategy with SEO-optimised descriptions for 40 category pages.",
-        "Product page optimisation template applied across 1,200 SKUs.",
-        "Product schema and BreadcrumbList implementation across all product and category pages.",
-        "Google Shopping feed optimisation alongside SEO for integrated search coverage.",
-      ],
-      resultsPeriod: "Results After 10 Months",
-      results: [
-        { metric: "+190%", label: "Organic revenue growth" },
-        { metric: "+420%", label: "Category page organic traffic" },
-        { metric: "+85%", label: "Google Shopping impression share" },
-        { metric: "-43%", label: "Blended cost per acquisition" },
-      ],
-    },
-    {
-      number: "Case Study 4",
-      title: "Healthcare Provider",
-      tags: "Local SEO + GBP | +310% Map Pack Impressions",
-      client: "Multi-location healthcare provider with 6 clinics across Maharashtra",
-      challenge:
-        "Individual clinic locations had poor or unclaimed Google Business Profiles. None appeared in the Google Map Pack for high-intent local search terms. Online appointment bookings were negligible.",
-      approach: [
-        "Full Google Business Profile audit and optimisation for all 6 locations.",
-        "LocalBusiness schema implementation for each location.",
-        "Local citation building across 45 relevant Indian directories with consistent NAP.",
-        "Patient review generation strategy resulting in 180+ new Google reviews.",
-        "Location-specific landing pages for each clinic with unique content.",
-      ],
-      resultsPeriod: "Results After 6 Months",
-      results: [
-        { metric: "+310%", label: "GBP impressions across locations" },
-        { metric: "5 of 6", label: "Locations in the Google Map Pack" },
-        { metric: "+240%", label: "Appointments via organic search" },
-        { metric: "4.6", label: "Average rating (up from 3.9)" },
-      ],
-    },
-    {
-      number: "Case Study 5",
-      title: "Real Estate Developer",
-      tags: "SEO + PPC | +175% Qualified Enquiries",
-      client: "Premium real estate developer in Mumbai and Pune",
-      challenge:
-        "The developer was spending heavily on offline and digital advertising but generating minimal organic leads. The website ranked for no project-specific or location-specific search terms.",
-      approach: [
-        "Keyword research covering project names, location terms, and buyer-intent queries.",
-        "On-page optimisation for 25 project and micro-market pages.",
-        "Content strategy for 12 buyer-intent blog articles targeting research phase queries.",
-        "Google Ads campaign restructure with project-specific ad groups and landing pages.",
-        "Call tracking implementation to measure lead quality from both organic and paid channels.",
-      ],
-      resultsPeriod: "Results After 8 Months",
-      results: [
-        { metric: "+175%", label: "Combined qualified enquiries" },
-        { metric: "2nd", label: "Organic as lead source" },
-        { metric: "-52%", label: "Cost per enquiry from Google Ads" },
-        { metric: "21", label: "Project keywords on Page 1" },
-      ],
-    },
-  ];
+  const [industry, setIndustry] = useState("All Industries");
+  const [service, setService] = useState("All Services");
 
-  const industries = [
-    "FMCG and Consumer Products",
-    "Manufacturing and Industrial B2B",
-    "E-commerce and Retail",
-    "Healthcare and Medical Services",
-    "Real Estate and Property Development",
-    "Education and EdTech",
-    "Financial Services and Insurance",
-    "Hospitality and Travel",
-    "Legal and Professional Services",
-    "Technology and SaaS",
-  ];
+  const filteredCases = caseStudies.filter(
+    (item) =>
+      (industry === "All Industries" || item.industry === industry) &&
+      (service === "All Services" || item.service === service),
+  );
 
-  const faqsData = [
-    {
-      id: "faq-case-studies-1",
-      question: "Can you show me case studies from my specific industry?",
-      answer: `<p>Yes. Use the industry filter above to find case studies relevant to your sector. If you do not see your industry represented, contact us directly and we will share relevant references from our portfolio.</p>`,
-    },
-    {
-      id: "faq-case-studies-2",
-      question: "Are the results in your case studies independently verified?",
-      answer: `<p>All results cited in our case studies are based on actual campaign data from Google Analytics, Google Search Console, and Google Ads. We document results rigorously and present them accurately. Client names are anonymised where requested but the data is genuine.</p>`,
-    },
-    {
-      id: "faq-case-studies-3",
-      question: "What kind of results can I expect from SIB Infotech?",
-      answer: `<p>Results vary by industry, keyword competition, existing website authority, and investment level. We provide realistic expectations in our initial audit and strategy presentation, based on comparable client benchmarks. Our case studies above give you a representative range of outcomes across different industries and timelines.</p>`,
-    },
-    {
-      id: "faq-case-studies-4",
-      question: "How long do results like these typically take?",
-      answer: `<p>Most case studies above reflect 6 to 12 months of consistent work. Quick wins in technical SEO and local SEO are often visible within 60 to 90 days. Full organic traffic transformation typically takes 6 to 9 months for mid-competition markets.</p>`,
-    },
-  ];
+  const hasActiveFilter =
+    industry !== "All Industries" || service !== "All Services";
+
+  const clearFilters = () => {
+    setIndustry("All Industries");
+    setService("All Services");
+  };
 
   return (
-    <div>
-      {/* Hero Banner */}
-      <div className="innerWebDesign whiteLable" id="contact">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-7 ps-lg-5">
-              <div className="innerBannerTitle venter">
-                <h1 className="mt-3 heading fontWeight700 text-white">
-                  Client Results That{" "}
-                  <span className="text_red fontWeight700">Speak for Themselves</span>
-                </h1>
-                <p
-                  className="small_heading fontWeight500 mt-2 text-white"
-                  style={{ maxWidth: "85%" }}
-                >
-                  Google Premier Partner | 18+ Years Experience | 850+ Active Clients in 40+ Countries
+    <div className="csPage">
+      {/* 4.2 Hero */}
+      <section className="cs-hero">
+        <div className="containerFull">
+          <div className="row align-items-center w-100 g-4 g-lg-5">
+            <div className="col-lg-7">
+              <p className="title fontWeight600 text-white">Case Studies</p>
+              <h1 className="heading fontWeight700 text-white mt-3">
+                Digital Marketing Case Studies with{" "}
+                <span className="text_red">Real Results</span>
+              </h1>
+              <p className="customText text-white mt-3 cs-hero-text">
+                These digital marketing case studies show real work for real
+                businesses. Every number comes from a live client account. Each
+                page shows what SIB Infotech changed, what improved and what did
+                not.
+              </p>
+              <div className="cs-hero-actions">
+                <a href="#case-study-results" className="btnThemeRed">
+                  See the Results
+                </a>
+                <Link href="/contact-us" className="cs-btn-ghost">
+                  Talk to an Expert
+                </Link>
+              </div>
+              <p className="title text-white mt-3">
+                Or call{" "}
+                <a href={PHONE_HREF} className="fontWeight600 text-white">
+                  {PHONE_DISPLAY}
+                </a>
+              </p>
+            </div>
+
+            <div className="col-lg-5">
+              <div className="cs-hero-card">
+                <p className="title fontWeight600">Featured Case Study</p>
+                <p className="large_heading2 fontWeight700 text_red mt-3">
+                  {featured.bigNumber}
                 </p>
-                <p className="mt-2 mt-lg-3 text-white" style={{ maxWidth: "85%" }}>
-                  Real numbers. Real industries. Real growth. Explore how SIB Infotech has delivered
-                  measurable digital marketing results for businesses across 40+ countries.
+                <p className="small_heading fontWeight600 text_dark_blue">
+                  {featured.numberLabel}
                 </p>
-                <div className="mt-4 d-flex flex-wrap gap-3">
-                  <Link href="/contact-us" className="btnThemeRed">
-                    <i className="fa-solid fa-comment-dots me-2"></i> Get a Quote
-                  </Link>
-                  <Link href="/contact-us" className="btnThemewhiteBorder">
-                    <i className="fa-solid fa-circle-question me-2"></i> Ask a Question
-                  </Link>
+                <div className="cs-hero-card-foot">
+                  <p className="title fontWeight600">RNB Global University</p>
+                  <p className="small textGrey">Google Ads</p>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-5 d-none d-lg-block pe-lg-5">
-              <div className="bannerForm">
-                <h4 className="small_heading fontWeight700">
-                  Get Real, Documented Results
-                </h4>
-                <p>
-                  with{" "}
-                  <strong className="fontWeight600 text_red">
-                    SIB Infotech Case Studies
-                  </strong>
-                </p>
-                <BannerForm />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="d-lg-none">
-        <Breadcrumb Pagetitle={"Case Studies"} />
-      </div>
-      <div className="col-lg-5 d-block d-lg-none pe-lg-5">
-        <div className="bannerForm">
-          <h4 className="small_heading fontWeight700">
-            Get Real, Documented Results
-          </h4>
-          <p>
-            with{" "}
-            <strong className="fontWeight600 text_red">
-              SIB Infotech Case Studies
-            </strong>
-          </p>
-          <BannerForm />
-        </div>
-      </div>
-      <div className="d-none d-lg-block">
-        <Breadcrumb Pagetitle={"Case Studies"} />
-      </div>
-
-      {/* Introduction */}
-      <section>
-        <div className="containerFull">
-          <div className="row justify-content-center text-center mb-5">
-            <div className="col-lg-9">
-              <h2 className="heading fontWeight600">
-                Evidence-Backed Results, <span className="text_red">Not Empty Promises</span>
-              </h2>
-              <p className="customText mt-3">
-                At SIB Infotech, we believe that every claim made in marketing should be backed by
-                evidence. This page exists for one reason: to show you the actual, verifiable results
-                we have delivered for real clients across real industries.
-              </p>
-              <p className="customText mt-3">
-                With 18+ years in digital marketing, Google Premier Partner status since 2005, and
-                850+ active clients across 40+ countries, our track record is deep. The case studies
-                below represent a cross-section of our client work across SEO, Google Ads, content
-                marketing, and full-service digital growth engagements.
-              </p>
-              <p className="customText mt-3">
-                Client names have been anonymised in some cases at client request. Results shown are
-                genuine and documented.
-              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Case Studies */}
-      <section className="bgGrey2">
+      <Breadcrumb Pagetitle={"Case Studies"} />
+
+      {/* 4.3 Trust bar */}
+      <div className="cs-stats-ribbon">
+        <div className="cs-stats-grid">
+          {statsBar.map((stat, i) => (
+            <div
+              className={`cs-stat-cell cs-stat-shade-${(i % 4) + 1}`}
+              key={i}
+            >
+              <p className="heading fontWeight800">{stat.value}</p>
+              <p className="cs-stat-label meduim_heading fontWeight700">
+                {stat.label}
+              </p>
+              <p className="title cs-stat-desc mt-1">{stat.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* 4.4 Featured case study */}
+      <section className="cs-featured-section">
         <div className="containerFull">
-          <div className="row g-4">
-            {caseStudies.map((cs, i) => (
-              <div className="col-12" key={i}>
-                <div className="customCard h-auto p-4 p-lg-5">
-                  <div className="row align-items-center">
-                    <div className="col-lg-7">
-                      <span className="badge bg-danger text-white mb-3">{cs.number}</span>
-                      <h3 className="heading fontWeight700 mb-2">
-                        {cs.title}{" "}
-                        <span className="small_heading fontWeight600 text_red d-block mt-1">
-                          {cs.tags}
-                        </span>
-                      </h3>
-                      <h5 className="fontWeight600 text-dark mb-1">Client:</h5>
-                      <p className="customText">{cs.client}</p>
-                      <h5 className="fontWeight600 text-dark mb-1">Challenge:</h5>
-                      <p className="customText">{cs.challenge}</p>
-                      <h5 className="fontWeight600 text-dark mb-1">Our Approach:</h5>
-                      <ul className="list-unstyled">
-                        {cs.approach.map((item, j) => (
-                          <li className="mb-2" key={j}>
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
+          <div className="row align-items-center g-4 g-lg-5">
+            <div className="col-lg-6">
+              <p className="title fontWeight600 text_red">Featured Case Study</p>
+              <div className="cs-featured-number-wrap">
+                <p className="large_heading2 fontWeight700 text_red">
+                  {featured.bigNumber}
+                </p>
+                <p className="meduim_heading fontWeight600 text_dark_blue">
+                  {featured.numberLabel}
+                </p>
+              </div>
+              <h2 className="heading fontWeight600">{featured.title}</h2>
+              <p className="customText mt-3">{featured.body}</p>
+
+              <div className="cs-featured-points">
+                {featured.smallStats.map((stat, i) => (
+                  <span className="cs-featured-point title" key={i}>
+                    <i className="fa-solid fa-check"></i>
+                    {stat}
+                  </span>
+                ))}
+              </div>
+
+              <div className="cs-featured-actions">
+                <Link href={featured.href} className="btnThemeRed">
+                  Read the Full Case Study
+                </Link>
+              </div>
+              <Link href="/contact-us" className="cs-inline-link title">
+                Want results like this? Talk to the SIB team
+                <i className="fa-solid fa-arrow-right ms-2"></i>
+              </Link>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="cs-featured-media">
+                <div className="cs-featured-shot">
+                  <Image
+                    src="/assets/images/rnb-laptop.webp"
+                    alt="RNB Global University Google Ads results"
+                    width={900}
+                    height={620}
+                    quality={100}
+                    className="cs-featured-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4.5 Filter bar + 4.6 Cards */}
+      <section className="cs-results-section" id="case-study-results">
+        <div className="containerFull">
+          <div className="text-center cs-section-head">
+            <h2 className="heading fontWeight600">
+              Find Results from Businesses Like Yours
+            </h2>
+            <p className="customText mt-3">
+              Pick your industry or the service you need.
+            </p>
+          </div>
+
+          <div className="cs-filter-bar">
+            <div className="cs-filter-pill">
+              <i className="fa-solid fa-building" aria-hidden="true"></i>
+              <select
+                className="cs-filter-select"
+                aria-label="Filter by industry"
+                value={industry}
+                onChange={(e) => setIndustry(e.target.value)}
+              >
+                {industries.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="cs-filter-pill">
+              <i className="fa-solid fa-toolbox" aria-hidden="true"></i>
+              <select
+                className="cs-filter-select"
+                aria-label="Filter by service"
+                value={service}
+                onChange={(e) => setService(e.target.value)}
+              >
+                {services.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <button
+              type="button"
+              className="cs-clear-btn"
+              onClick={clearFilters}
+              disabled={!hasActiveFilter}
+            >
+              <i className="fa-solid fa-arrows-rotate me-2"></i>
+              Clear filters
+            </button>
+          </div>
+
+          {filteredCases.length > 0 ? (
+            <div className="row g-4 justify-content-center">
+              {filteredCases.map((item, i) => (
+                <div className="col-lg-6 col-md-6" key={i}>
+                  <div className="cs-card">
+                    <div className="cs-card-media">
+                      <Image
+                        src={item.image}
+                        alt={item.client}
+                        width={600}
+                        height={360}
+                        quality={100}
+                      />
                     </div>
-                    <div className="col-lg-5 mt-4 mt-lg-0">
-                      <div className="bgGrey2 rounded p-4 h-100">
-                        <h4 className="small_heading fontWeight700 text-center mb-4">
-                          {cs.resultsPeriod}
-                        </h4>
-                        <div className="row g-3 text-center">
-                          {cs.results.map((r, j) => (
-                            <div className="col-6" key={j}>
-                              <div className="p-3 bg-white rounded shadow-sm">
-                                <div className="heading fontWeight700 text_red">{r.metric}</div>
-                                <div className="small fw-bold">{r.label}</div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
+
+                    <div className="cs-card-body">
+                      <p className="sub_heading cs-card-client fontWeight700">
+                        {item.client}
+                      </p>
+
+                      <div className="cs-card-tags">
+                        {item.categories.map((cat, j) => (
+                          <span className="cs-tag" key={j}>
+                            {cat}
+                          </span>
+                        ))}
+                      </div>
+
+                      <hr className="cs-card-divider" />
+
+                      <div className="cs-card-metrics">
+                        {item.metrics.map((metric, j) => (
+                          <div className="cs-card-metric" key={j}>
+                            <p className="sub_heading cs-card-metric-value">
+                              {metric.value}
+                            </p>
+                            <p className="cs-card-metric-label">
+                              {metric.label}
+                            </p>
+                          </div>
+                        ))}
                       </div>
                     </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="cs-empty">
+              <p className="customText">
+                No case study matches this yet. See all case studies, or ask the
+                SIB team about results in your industry.
+              </p>
+              <div className="cs-empty-actions">
+                <button
+                  type="button"
+                  className="btnThemeRed"
+                  onClick={clearFilters}
+                >
+                  See all case studies
+                </button>
+                <Link href="/contact-us" className="btnCase">
+                  Ask the SIB team
+                </Link>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* 4.7 How SIB checks every number */}
+      <section className="cs-checks-section">
+        <div className="containerFull">
+          <div className="text-center cs-section-head">
+            <h2 className="heading fontWeight600">Real Numbers You Can Check</h2>
+            <p className="customText mt-3 cs-body-center">
+              Big claims mean nothing if you cannot check them. Every SIB
+              Infotech case study follows four simple rules.
+            </p>
+          </div>
+
+          <div className="row g-4">
+            {proofRules.map((rule, i) => (
+              <div className="col-lg-3 col-md-6" key={i}>
+                <div
+                  className={`cs-check-card cs-check-card-${(i % 4) + 1}`}
+                >
+                  <div className="cs-check-head">
+                    <div className={`cs-check-icon cs-check-icon-${(i % 4) + 1}`}>
+                      <i className={checkIcons[i % checkIcons.length]}></i>
+                    </div>
+                    <span className="cs-check-label">{rule.label}</span>
+                  </div>
+                  <h3 className="small_heading fontWeight600 mb-2">
+                    {rule.title}
+                  </h3>
+                  <p className="customText">{rule.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4.8 Recognition and partners */}
+      <section className="cs-recognition-section">
+        <div className="containerFull">
+          <div className="text-center cs-section-head">
+            <h2 className="heading fontWeight600 text-white">
+              Trusted by Google, Meta and SIB Clients
+            </h2>
+          </div>
+
+          <Swiper
+            className="cs-badges"
+            modules={[Autoplay]}
+            spaceBetween={14}
+            slidesPerView={5}
+            loop={true}
+            speed={800}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              480: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              992: { slidesPerView: 4 },
+              1200: { slidesPerView: 5 },
+            }}
+          >
+            {partners.map((partner, i) => (
+              <SwiperSlide key={i} className="cs-badge-slide">
+                <a
+                  href={partner.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cs-badge"
+                  title={partner.name}
+                >
+                  <Image
+                    src={partner.img}
+                    alt={partner.name}
+                    width={200}
+                    height={110}
+                    quality={100}
+                  />
+                </a>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          <div className="cs-cert-row">
+            <div className="cs-cert-card">
+              <i className="fa-solid fa-award"></i>
+              <div>
+                <h3 className="small_heading fontWeight600 mb-2">
+                  ISO 9001 Certified
+                </h3>
+                <p className="title">
+                  Quality management system certified. Certificate available on
+                  request.
+                </p>
+              </div>
+            </div>
+            <div className="cs-cert-card">
+              <i className="fa-solid fa-trophy"></i>
+              <div>
+                <h3 className="small_heading fontWeight600 mb-2">
+                  Awards and Recognition
+                </h3>
+                <p className="title">
+                  Awards and client recognition are listed here as they are
+                  confirmed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4.9 Client quotes */}
+      <section className="cs-quotes-section">
+        <div className="containerFull">
+          <div className="text-center cs-section-head">
+            <h2 className="heading fontWeight600">
+              What Clients Say About SIB Infotech
+            </h2>
+          </div>
+
+          <div className="row g-4">
+            {quotes.map((quote, i) => (
+              <div className="col-lg-4 col-md-6" key={i}>
+                <div className="cs-quote">
+                  <i
+                    className={`fa-solid fa-quote-left cs-quote-icon ${
+                      ["bg-primary", "bg-danger", "bg-warning"][i % 3]
+                    }`}
+                  ></i>
+                  <p className="customText cs-quote-text">{quote.text}</p>
+                  <div className="cs-quote-foot">
+                    <div>
+                      <p className="cs-quote-author">{quote.author}</p>
+                      <p className="cs-quote-role">{quote.role}</p>
+                    </div>
+                    <Image
+                      src={quote.logo}
+                      alt={quote.source}
+                      width={110}
+                      height={50}
+                      quality={100}
+                      className="cs-quote-logo"
+                    />
                   </div>
                 </div>
               </div>
             ))}
           </div>
+
+          <div className="text-center mt-4">
+            <a
+              href={GOOGLE_REVIEW_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btnThemeRed"
+            >
+              <i className="fa-brands fa-google me-2"></i>
+              Read all reviews on Google
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Industries We Have Delivered Results In */}
-      <section>
+      {/* 4.10 Closing call to action */}
+      <section className="cs-cta-section">
         <div className="containerFull">
-          <div className="row justify-content-center text-center mb-4">
-            <div className="col-lg-8">
-              <h2 className="heading fontWeight600">
-                Industries We Have <span className="text_red">Delivered Results In</span>
-              </h2>
-              <p className="customText mt-3">
-                Proven, documented results across the industries that power the Indian and global economy.
-              </p>
-            </div>
-          </div>
+          <div className="cs-cta-box">
+            <h2 className="heading fontWeight600 text-white">
+              Want Results Like These for Your Business?
+            </h2>
+            <p className="customText text-white cs-cta-text mx-auto">
+              Tell the SIB team about your business and your goals. You will get
+              a free review of your current marketing and a clear plan for what
+              to fix first.
+            </p>
 
-          <div className="row g-3">
-            {industries.map((ind, i) => (
-              <div className="col-lg-3 col-md-6" key={i}>
-                <div className="customCard bg-white text-center h-100 p-3">
-                  <h4 className="small_heading fontWeight600 text-dark mb-0">{ind}</h4>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            <div className="cs-cta-actions">
+              <Link href="/contact-us" className="btnThemeRed">
+                Get a Free Audit
+              </Link>
+              <a href={PHONE_HREF} className="cs-btn-ghost">
+                <i className="fa-solid fa-phone me-2"></i>
+                Call {PHONE_DISPLAY}
+              </a>
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cs-btn-whatsapp"
+              >
+                <i className="fa-brands fa-whatsapp me-2"></i>
+                Chat on WhatsApp
+              </a>
+            </div>
 
-      {/* Ready to Be Our Next Case Study */}
-      <section className="dots curve1 bgEffect">
-        <div className="containerFull">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              <h5 className="fontHeading sub_heading text_blue_light fontWeight800">
-                REAL DATA. REAL GROWTH STORIES.
-              </h5>
-              <h4 className="sub_heading fontHeading fontWeight600 mt-3">
-                Ready to Be Our <span className="text_red">Next Case Study?</span>
-              </h4>
-              <p className="customText mt-3">
-                If you are serious about growing organic traffic, qualified leads, and digital
-                revenue, we would like to show you what we can achieve for your business.
-              </p>
-              <div className="mt-4">
-                <p className="mb-1">
-                  <i className="fa-solid fa-square-check me-2 text_red"></i>
-                  Phone: +91 22 2605 7575
-                </p>
-                <p className="mb-1">
-                  <i className="fa-solid fa-square-check me-2 text_red"></i>
-                  Email: info@sibinfotech.com
-                </p>
-                <p className="mb-1">
-                  <i className="fa-solid fa-square-check me-2 text_red"></i>
-                  Website: https://sibinfotech.com/contact-us/
-                </p>
-              </div>
-              <div className="mt-4 d-flex flex-wrap gap-2">
-                <Link href="/contact-us" className="btnThemeRed">
-                  <i className="fa-solid fa-comment-dots me-2"></i> Book a Free Strategy Call
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-5 mt-4 mt-lg-0">
-              <div className="bannerForm">
-                <h4 className="small_heading fontWeight700">
-                  Accelerate Your Business Growth
-                </h4>
-                <p>
-                  with{" "}
-                  <strong className="fontWeight600 text_red">
-                    SIB Infotech Case Studies
-                  </strong>
-                </p>
-                <BannerForm />
-              </div>
-            </div>
+            <p className="title cs-cta-small">
+              Email{" "}
+              <a href={`mailto:${EMAIL}`} className="text-white">
+                {EMAIL}
+              </a>{" "}
+              · Monday to Saturday, 9:00 am to 6:00 pm
+            </p>
+            <p className="title cs-cta-office">
+              Offices in Mumbai (Malad West) and New Delhi (Tagore Garden)
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Client Logos & Testimonials */}
-      <OurClients />
-      <Testimonials />
-
-      {/* FAQs */}
+      {/* 4.11 FAQ */}
       <Faq
-        title={"Frequently Asked Questions"}
-        description={"Everything you need to know about the results SIB Infotech delivers."}
-        faqsData={faqsData}
-      />
-
-      {/* Related Services */}
-      <RelatedServices
-        subtitle={
-          "See how SIB Infotech's SEO services deliver real business outcomes for clients across industries."
+        title={"Questions About SIB Infotech Case Studies"}
+        description={
+          "How SIB Infotech collects, checks and reports client results."
         }
-        links={[
-          {
-            title: "SEO Services in Mumbai",
-            description:
-              "Full-service search engine optimization for Mumbai brands, from technical fixes to content and links.",
-            href: "/seo-company-mumbai",
-          },
-          {
-            title: "Enterprise SEO Services",
-            href: "/enterprise-seo-services",
-            description:
-              "Scalable SEO programmes for large websites and multi-location brands.",
-          },
-          {
-            title: "Technical SEO Services",
-            href: "/technical-seo-services",
-            description:
-              "Fix Core Web Vitals, crawlability, indexation, and schema with a dedicated technical SEO team.",
-          },
-          {
-            title: "Shopify SEO Services",
-            href: "/shopify-seo-services",
-            description:
-              "Rank Shopify stores on page 1 with platform-specific SEO, speed, and schema optimisation.",
-          },
-          {
-            title: "WooCommerce SEO Services",
-            href: "/woocommerce-seo-services",
-            description:
-              "Grow organic sales for WooCommerce stores with ecommerce-specific SEO strategies.",
-          },
-          {
-            title: "Conversion Rate Optimization Services",
-            href: "/conversion-rate-optimization",
-            description:
-              "Turn more traffic into customers with data-driven CRO programmes.",
-          },
-          {
-            title: "Google Penalty Recovery",
-            href: "/google-penalty-recovery",
-            description:
-              "Recover rankings from manual actions and algorithm penalties with a proven remediation process.",
-          },
-        ]}
+        faqsData={faqsData}
       />
     </div>
   );

@@ -25,10 +25,10 @@ export default function CaseStudies() {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Client Results | SIB Infotech Case Studies",
+    name: "Digital Marketing Case Studies with Real Results | SIB Infotech",
     url: "https://www.sibinfotech.com/case-studies/",
     description:
-      "Real SEO and digital marketing results for 850+ clients across 40+ countries. Case studies in FMCG, B2B manufacturing, ecommerce, healthcare, real estate, and international markets.",
+      "See real SEO, Google Ads and social media results from SIB Infotech clients. Every number comes from a live account, with screenshots.",
     publisher: {
       "@id": "https://www.sibinfotech.com/#organization",
     },
@@ -36,25 +36,27 @@ export default function CaseStudies() {
 
   const metaTags = (
     <>
-      <title>Case Studies | Real SEO & Marketing Results | SIB Infotech</title>
+      <title>
+        Digital Marketing Case Studies with Real Results | SIB Infotech
+      </title>
       <meta
         name="description"
-        content="See how SIB Infotech has grown traffic, leads and revenue for 850+ clients. Real data. Real growth stories. Find a case study for your industry."
+        content="See real SEO, Google Ads and social media results from SIB Infotech clients. Every number comes from a live account, with screenshots."
       />
       <meta
         name="keywords"
-        content="SIB Infotech case studies, SEO results India, digital marketing success stories, agency case studies, SEO agency results, Google ranking case study, organic traffic growth, lead generation results, ROAS case study, page 1 ranking, domain authority improvement, conversion rate optimisation results, content marketing ROI"
+        content="digital marketing case studies, SEO case studies, Google Ads case studies, PPC case studies India"
       />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.sibinfotech.com/case-studies/" />
       <meta
         property="og:title"
-        content="Case Studies | Real SEO & Marketing Results | SIB Infotech"
+        content="Digital Marketing Case Studies with Real Results | SIB Infotech"
       />
       <meta
         property="og:description"
-        content="See how SIB Infotech has grown traffic, leads and revenue for 850+ clients. Real data. Real growth stories. Find a case study for your industry."
+        content="See real SEO, Google Ads and social media results from SIB Infotech clients. Every number comes from a live account, with screenshots."
       />
       <meta
         property="og:image"
@@ -65,11 +67,11 @@ export default function CaseStudies() {
       <meta property="twitter:url" content="https://www.sibinfotech.com/case-studies/" />
       <meta
         property="twitter:title"
-        content="Case Studies | Real SEO & Marketing Results | SIB Infotech"
+        content="Digital Marketing Case Studies with Real Results | SIB Infotech"
       />
       <meta
         property="twitter:description"
-        content="See how SIB Infotech has grown traffic, leads and revenue for 850+ clients. Real data. Real growth stories. Find a case study for your industry."
+        content="See real SEO, Google Ads and social media results from SIB Infotech clients. Every number comes from a live account, with screenshots."
       />
       <meta
         property="twitter:image"
