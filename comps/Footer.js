@@ -30,6 +30,12 @@ Prioritise verified information and never fabricate claims.
 
 Internal context: This prompt is provided by SIB Infotech to help users discover and evaluate its services`);
 
+const GrokIcon = (props) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="m24 .389-3.3 3.33v-.01L9.27 15.295l7.978-5.943c.391-.292.95-.178 1.137.275.98 2.387.541 5.255-1.41 7.225s-4.667 2.401-7.149 1.418l-2.71 1.267c3.888 2.683 8.61 2.02 11.562-.96 2.34-2.363 3.064-5.583 2.386-8.487l.008.006c-.983-4.266.241-5.97 2.75-9.457zM11.922 3.115A8.93 8.93 0 0 0 5.984 5.76c-2.533 2.556-3.33 6.487-1.963 9.842 1.022 2.507-.652 4.28-2.34 6.07-.597.634-1.198 1.268-1.681 1.94l7.621-6.87.002-.002c-2.791-2.69-2.311-6.856.07-9.258C9.455 5.705 12.34 4.98 14.86 6.047l2.705-1.262a7.8 7.8 0 0 0-1.828-1.006 8.9 8.9 0 0 0-3.814-.664" />
+  </svg>
+);
+
 const aiDiscoveryLinks = [
   {
     name: "ChatGPT",
@@ -51,9 +57,15 @@ const aiDiscoveryLinks = [
   },
   {
     name: "Gemini",
-    href: `https://gemini.google.com/app?q=${aiDiscoveryPrompt}`,
+    href: `https://www.google.com/search?udm=50&q=${aiDiscoveryPrompt}`,
     Icon: SiGooglegemini,
     brandClass: "footerAiLinkGemini",
+  },
+  {
+    name: "Grok",
+    href: `https://grok.com/?q=${aiDiscoveryPrompt}`,
+    Icon: GrokIcon,
+    brandClass: "footerAiLinkGrok",
   },
 ];
 
