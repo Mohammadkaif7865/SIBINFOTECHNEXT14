@@ -1,5 +1,28 @@
 #!/usr/bin/env node
 import { execFileSync } from "node:child_process";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+// Next.js loads .env files for the application, but this standalone postbuild
+// process does not. Load the same local files without overwriting variables
+// explicitly supplied by the deployment environment.
+for (const filename of [".env", ".env.local"]) {
+  const file = resolve(process.cwd(), filename);
+  if (!existsSync(file)) continue;
+  for (const rawLine of readFileSync(file, "utf8").split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) continue;
+    const separator = line.indexOf("=");
+    if (separator < 1) continue;
+    const name = line.slice(0, separator).trim();
+    if (!/^[A-Za-z_][A-Za-z0-9_]*$/.test(name) || process.env[name] !== undefined) continue;
+    let value = line.slice(separator + 1).trim();
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1);
+    }
+    process.env[name] = value;
+  }
+}
 
 const ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.sibinfotech.com").replace(/\/$/, "");
 const KEY = process.env.INDEXNOW_KEY || "cf0490a9c153417498047e2eff85e0bd";
