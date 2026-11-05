@@ -7,6 +7,7 @@
 import { requireAdmin } from "@/lib/adminAuth";
 import { getArticleById, updateArticle, slugExists, slugify } from "@/lib/trendsDb";
 import { sanitizeArticleHtml, wordCount } from "@/lib/htmlSanitize";
+import { notifyIndexNow } from "@/lib/indexNow";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -55,6 +56,8 @@ export default async function handler(req, res) {
   } catch (err) {
     console.error("Failed to sync sitemap after publish:", err);
   }
+
+  await notifyIndexNow(`/blog/${slug}`, "article publish");
 
   return res.status(200).json({
     ...updated,
