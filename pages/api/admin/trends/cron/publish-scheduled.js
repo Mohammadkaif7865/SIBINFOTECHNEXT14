@@ -7,6 +7,7 @@
 // external scheduler can't hold a browser session.
 
 import { listArticles, updateArticle } from "@/lib/trendsDb";
+import { notifyIndexNow } from "@/lib/indexNow";
 
 export default async function handler(req, res) {
   if (req.method !== "POST" && req.method !== "GET") {
@@ -33,6 +34,7 @@ export default async function handler(req, res) {
     } catch (e) {
       console.error("Sitemap sync error in cron:", e);
     }
+    await notifyIndexNow(published.map((article) => `/blog/${article.slug}`), "scheduled article publish");
   }
 
   return res.status(200).json({ publishedCount: published.length, published: published.map((a) => a.slug) });

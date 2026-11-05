@@ -17,6 +17,7 @@ import {
   slugify,
 } from "@/lib/trendsDb";
 import { sanitizeArticleHtml, wordCount } from "@/lib/htmlSanitize";
+import { notifyIndexNow } from "@/lib/indexNow";
 
 export default async function handler(req, res) {
   if (!requireAdmin(req, res)) return;
@@ -62,6 +63,7 @@ export default async function handler(req, res) {
       } catch (e) {
         console.error("Sitemap sync error on create:", e);
       }
+      await notifyIndexNow(`/blog/${record.slug}`, "published article creation");
     }
 
     return res.status(201).json(record);
@@ -70,6 +72,9 @@ export default async function handler(req, res) {
   if (req.method === "PUT") {
     const { id, ...patch } = req.body || {};
     if (!id) return res.status(400).json({ error: "id is required." });
+
+    const existing = getArticleById(id);
+    if (!existing) return res.status(404).json({ error: "Not found." });
 
     if (patch.slug) {
       patch.slug = slugify(patch.slug);
@@ -94,6 +99,11 @@ export default async function handler(req, res) {
       }
     }
 
+    const changedUrls = [];
+    if (existing.status === "Published") changedUrls.push(`/blog/${existing.slug}`);
+    if (updated.status === "Published") changedUrls.push(`/blog/${updated.slug}`);
+    if (changedUrls.length) await notifyIndexNow(changedUrls, "article update or unpublish");
+
     return res.status(200).json(updated);
   }
 
@@ -113,6 +123,7 @@ export default async function handler(req, res) {
       } catch (e) {
         console.error("Sitemap sync error on delete:", e);
       }
+      await notifyIndexNow(`/blog/${existing.slug}`, "article deletion");
     }
 
     return res.status(200).json({ ok: true });

@@ -6,6 +6,8 @@
     "dev": "next dev -p 4000",
     "sitemap": "node scripts/generate-sitemap.mjs",
     "build": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build",
+    "postbuild": "node scripts/submit-indexnow-changes.mjs",
+    "indexnow": "node scripts/submit-indexnow-changes.mjs",
     "start": "next start -p 4000",
     "lint": "next lint"
   },
