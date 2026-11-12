@@ -8,6 +8,9 @@ import { CustomLayout } from "@/comps/CustomLayout";
 import RelatedServices from "@/comps/RelatedServices";
 import { getArticleBySlug, listArticles } from "@/lib/trendsDb";
 
+const SITE_LOGO_URL =
+  "https://www.sibinfotech.com/assets/images/logo%20(1).webp";
+
 function formatBlogImageUrl(imagePath) {
   if (!imagePath) return "https://www.sibinfotech.com/assets/og/sib-infotech.webp";
   if (imagePath.startsWith("http://") || imagePath.startsWith("https://") || imagePath.startsWith("/")) {
@@ -391,10 +394,34 @@ function FaqAccordion({ faqs }) {
 function cleanSchemaJsonLd(schema) {
   if (!schema || typeof schema !== "string") return "";
 
-  return schema
+  const cleanedSchema = schema
     .replace(/^<script[^>]*type=["']application\/ld\+json["'][^>]*>/i, "")
     .replace(/<\/script>$/i, "")
     .trim();
+
+  try {
+    const parsedSchema = JSON.parse(
+      cleanedSchema.replace(/:\s*undefined(?=\s*[,}])/g, ": null"),
+    );
+    const normalizeOrganizationLogos = (node) => {
+      if (!node || typeof node !== "object") return;
+      if (
+        node["@type"] === "Organization" ||
+        (Array.isArray(node["@type"]) && node["@type"].includes("Organization"))
+      ) {
+        node.logo = {
+          "@type": "ImageObject",
+          url: SITE_LOGO_URL,
+        };
+      }
+      Object.values(node).forEach(normalizeOrganizationLogos);
+    };
+
+    normalizeOrganizationLogos(parsedSchema);
+    return JSON.stringify(parsedSchema);
+  } catch {
+    return cleanedSchema;
+  }
 }
 
 function stripHtml(html) {
@@ -413,6 +440,12 @@ function truncate(text, max) {
   return text.slice(0, max).trim() + "…";
 }
 
+function toIsoDate(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString();
+}
+
 /**
  * Fallback BlogPosting + BreadcrumbList graph.
  *
@@ -427,7 +460,7 @@ function buildBlogPostingSchema({ post, title, description, author }) {
   const url = `https://www.sibinfotech.com/blog/${post.slug}`;
   const image = post.image
     ? `${CONSTANTS.BACKEND_URL}${post.image}`
-    : "https://www.sibinfotech.com/images/logo.png";
+    : SITE_LOGO_URL;
 
   return JSON.stringify({
     "@context": "https://schema.org",
@@ -450,7 +483,7 @@ function buildBlogPostingSchema({ post, title, description, author }) {
           name: "SIB Infotech",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.sibinfotech.com/images/logo.png",
+            url: SITE_LOGO_URL,
           },
         },
         ...(post.category_name ? { articleSection: post.category_name } : {}),
@@ -501,6 +534,8 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
     blog && blog[0]?.meta_keywords?.trim()
       ? blog[0].meta_keywords.trim()
       : "digital marketing, seo, ppc, sib infotech blog";
+  const publishedDate = blog[0]?.bdate || blog[0]?.createdAt;
+  const publishedTime = toIsoDate(publishedDate);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -583,7 +618,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
             <title>{metaTitle}</title>
             <meta name="keywords" content={metaKeywords} />
             <meta name="description" content={metaDescription} />
-            <meta property="og:type" content="website" />
+            <meta property="og:type" content="article" />
             <meta
               property="og:url"
               content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
@@ -597,23 +632,21 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
               property="og:image"
               content={formatBlogImageUrl(blog[0].image)}
             />
-            <meta property="twitter:card" content="summary_large_image" />
+            {publishedTime && (
+              <meta property="article:published_time" content={publishedTime} />
+            )}
+            <meta name="twitter:card" content="summary_large_image" />
             <meta
-              property="og:image"
-              content={formatBlogImageUrl(blog[0].image)}
-            />
-            <meta property="twitter:card" content="summary_large_image" />
-            <meta
-              property="twitter:url"
+              name="twitter:url"
               content={`https://www.sibinfotech.com/blog/${blog[0].slug}`}
             />
-            <meta property="twitter:title" content={metaTitle} />
+            <meta name="twitter:title" content={metaTitle} />
             <meta
-              property="twitter:description"
+              name="twitter:description"
               content={metaDescription}
             />
             <meta
-              property="twitter:image"
+              name="twitter:image"
               content={formatBlogImageUrl(blog[0].image)}
             />
             {blog[0]?.schema_jsonld ? (
