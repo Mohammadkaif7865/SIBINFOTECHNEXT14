@@ -34,7 +34,7 @@ class MyDocument extends Document {
       ],
       url: "https://www.sibinfotech.com/",
       image: "https://www.sibinfotech.com/assets/og/sib-infotech.webp",
-      logo: "https://www.sibinfotech.com/assets/images/logo.webp",
+      logo: "https://www.sibinfotech.com/assets/images/logo%20(1).webp",
       description:
         "SIB Infotech is a Google Premier Partner digital marketing agency offering SEO, PPC, Google Ads, social media marketing, web design, and web development services in Mumbai, India since 2005.",
       foundingDate: "2005",
