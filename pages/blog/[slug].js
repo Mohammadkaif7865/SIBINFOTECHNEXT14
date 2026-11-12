@@ -7,6 +7,7 @@ import Head from "next/head";
 import { CustomLayout } from "@/comps/CustomLayout";
 import RelatedServices from "@/comps/RelatedServices";
 import { getArticleBySlug, listArticles } from "@/lib/trendsDb";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const SITE_LOGO_URL =
   "https://www.sibinfotech.com/assets/images/logo%20(1).webp";
@@ -458,6 +459,7 @@ function buildBlogPostingSchema({ post, title, description, author }) {
   if (!post) return "";
 
   const url = `https://www.sibinfotech.com/blog/${post.slug}`;
+  const isAnujBajaj = author?.name?.trim().toLowerCase() === "anuj bajaj";
   const image = post.image
     ? `${CONSTANTS.BACKEND_URL}${post.image}`
     : SITE_LOGO_URL;
@@ -476,7 +478,16 @@ function buildBlogPostingSchema({ post, title, description, author }) {
         dateModified: post.updatedAt || post.bdate || undefined,
         inLanguage: "en-IN",
         author: author?.name
-          ? { "@type": "Person", name: author.name }
+          ? {
+              "@type": "Person",
+              name: author.name,
+              ...(isAnujBajaj
+                ? {
+                    url: "https://www.sibinfotech.com/anuj-bajaj",
+                    sameAs: ["https://in.linkedin.com/in/sibanujbajaj"],
+                  }
+                : {}),
+            }
           : { "@type": "Organization", name: "SIB Infotech" },
         publisher: {
           "@type": "Organization",
@@ -536,6 +547,7 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
       : "digital marketing, seo, ppc, sib infotech blog";
   const publishedDate = blog[0]?.bdate || blog[0]?.createdAt;
   const publishedTime = toIsoDate(publishedDate);
+  const isAnujBajaj = author?.name?.trim().toLowerCase() === "anuj bajaj";
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -760,13 +772,42 @@ function SingleBlog({ blog, blogs, blogSections, blogFaqs, author }) {
                       <h2 className="blog_section_item">About The Author</h2>
                       <div className="blogAuthor">
                         <div className="authorImage">
-                          <img
-                            src={formatBlogImageUrl(author.image)}
-                            alt={author.name}
-                          />
+                          {isAnujBajaj ? (
+                            <Link href="/anuj-bajaj" aria-label="View Anuj Bajaj's profile">
+                              <img
+                                src={formatBlogImageUrl(author.image)}
+                                alt={author.name}
+                              />
+                            </Link>
+                          ) : (
+                            <img
+                              src={formatBlogImageUrl(author.image)}
+                              alt={author.name}
+                            />
+                          )}
                         </div>
                         <div className="authorContent">
-                          <p className="authorName">{author.name}</p>
+                          <div className="authorIdentity">
+                            {isAnujBajaj ? (
+                              <Link href="/anuj-bajaj" className="authorName">
+                                {author.name}
+                              </Link>
+                            ) : (
+                              <p className="authorName">{author.name}</p>
+                            )}
+                            {isAnujBajaj && (
+                              <a
+                                href="https://in.linkedin.com/in/sibanujbajaj"
+                                className="authorLinkedIn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View Anuj Bajaj on LinkedIn"
+                                title="Anuj Bajaj on LinkedIn"
+                              >
+                                <FaLinkedinIn aria-hidden="true" />
+                              </a>
+                            )}
+                          </div>
                           <div
                             className="authorDescription"
                             dangerouslySetInnerHTML={{
