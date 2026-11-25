@@ -272,10 +272,7 @@ const Seo = () => {
                 {/* <span className="fw-bold title text-white ">Your Trusted</span> */}
 
                 <h1 className="mt-3 heading fontWeight700 text-white ">
-                  Top SEO Company in Mumbai{" "}
-                  <span className="text_red fontWeight700">
-                    &amp; SEO Services in India
-                  </span>
+                  SEO services in Mumbai for stronger search visibility
                 </h1>
                 <p
                   className="small_heading fontWeight500 mt-2  mt-lg-2 text-white"

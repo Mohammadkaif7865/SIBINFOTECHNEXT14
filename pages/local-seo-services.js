@@ -19,10 +19,10 @@ import Old from "@/comps/local-seo/Old";
 export default function LocalSeoServices() {
   const metaTags = (
     <>
-      <title>Best Local SEO Company India | Local SEO Services in Mumbai</title>
+      <title>Affordable Local SEO Services in Mumbai, India</title>
       <meta
         name="description"
-        content="Boost your local visibility with expert Local SEO services from SIB Infotech. Rank higher on Google Maps and attract nearby customers to your business."
+        content="Get affordable local SEO services from SIB Infotech. Improve Google Maps rankings, attract nearby customers and generate more local business leads."
       />
       <meta
         name="keywords"
@@ -262,8 +262,7 @@ export default function LocalSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                  Boost Your Business Visibility with the Best Local SEO
-                  Services in India!
+                  Affordable Local SEO Services for Business Growth
                 </h1>
                 <ul className="list_local_seo_icon title fontWeight600 col-lg-10 ps-lg-3">
                   <li>

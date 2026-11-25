@@ -13,7 +13,9 @@ const HeroGoogleAds = () => {
               <div className="innerBannerTitle venter">
                 <h1 className="large_heading2 fontWeight600 text-white ">
                   Google Ads Management{" "}
-                  <span class="text_red fontWeight700">Services in India</span>
+                  <span class="text_red fontWeight700">
+                    Services in Mumbai, India
+                  </span>
                 </h1>
                 <p className="small_heading fontWeight600 mt-lg-2 mt-2 text-white ">
                   Google Premier Partner Agency Trusted by 850+ Brands in 40+

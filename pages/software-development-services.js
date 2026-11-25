@@ -9,11 +9,11 @@ export default function SoftwareDevelopementServices() {
   const metaTags = (
     <>
       <title>
-        Software Development Services in Mumbai, India | SIB Infotech
+        Custom Software Development Services in Mumbai, India
       </title>
       <meta
         name="description"
-        content="SIB Infotech offers top-tier software development services – custom, scalable & secure solutions. From startups to enterprises, we bring your idea to life."
+        content="Custom software development services from SIB Infotech: enterprise software, integration, offshore development and support. Get a free consultation."
       />
       <meta name="keywords" content="Software Development Services" />
 
@@ -278,7 +278,7 @@ export default function SoftwareDevelopementServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontWeight700 text-white fontHeading">
-                  Software Development Services
+                  Custom Software Development Services for Businesses
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated Software Development Company in India
