@@ -162,10 +162,10 @@ export default function SearchEngineOptimizationServices() {
         type="image/webp"
         fetchPriority="high"
       />
-      <title>Top SEO Company in Mumbai | Best SEO Agency &amp; SEO Services | SIB Infotech</title>
+      <title>SEO Services In Mumbai | Best Seo Company in Mumbai</title>
       <meta
         name="description"
-        content="SIB Infotech is a top SEO company in Mumbai offering result-driven SEO services in Mumbai since 2005. Google Premier Partner SEO agency in Mumbai with 20+ years experience and 1000+ brands ranked. Serving Andheri, Bandra, BKC, Malad, Powai, Lower Parel & Navi Mumbai. Free SEO audit, no lock-in contracts."
+        content="SEO company in Mumbai since 2005. SIB Infotech is a Google Premier Partner SEO agency offering best SEO services in Mumbai. Get a free audit."
       />
       <meta
         name="keywords"

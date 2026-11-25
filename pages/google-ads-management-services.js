@@ -117,12 +117,11 @@ export default function GoogleAdsManagementServices() {
   const metaTags = (
     <>
       <title>
-        Google Ads Management Services in Mumbai, India | Google Premier Partner – SIB
-        Infotech
+        Google Ads Management Services - Google Ads Agency in India
       </title>
       <meta
         name="description"
-        content="Drive qualified leads and sales with expert Google Ads management in Mumbai from a Google Premier Partner. 20+ years experience, 850+ businesses, 4.8★ Google rating. Free audit. No lock-in contracts."
+        content="Drive qualified leads and sales with expert Google Ads management in Mumbai from a Google Premier Partner. 20+ years experience, 850+ businesses."
       />
       <meta
         name="keywords"

@@ -11,10 +11,10 @@ import Faq from "@/comps/Home/Faq";
 export default function EcommerceSeoServices() {
   const metaTags = (
     <>
-      <title>Top ECommerce SEO Services Company in Mumbai, India</title>
+      <title>Ecommerce SEO Services in Mumbai | SIB Infotech</title>
       <meta
         name="description"
-        content="Get higher rankings for your online store! SIB Infotech offers tailored e-commerce SEO strategies that drive traffic, conversions & revenue."
+        content="Grow your online store with ecommerce SEO services in Mumbai. SIB Infotech helps improve product rankings, organic traffic and sales. Get a free audit."
       />
       <meta
         name="keywords"
@@ -74,7 +74,7 @@ export default function EcommerceSeoServices() {
             <div className="col-lg-7 ps-lg-5">
               <div className="innerBannerTitle venter">
                 <h1 className="heading fontHeading fontWeight700 text-white">
-                  E-Commerce SEO Services
+                  Ecommerce SEO services in Mumbai for online stores
                 </h1>
                 <h2 className="small_heading fw-bold mt-3 text-white">
                   Top Rated E-Commerce SEO Company in India
